@@ -296,6 +296,60 @@ footer a{color:var(--text3);text-decoration:none;transition:color .2s}
 footer a:hover{color:var(--text2)}
 .footer-links{display:flex;gap:24px;justify-content:center;margin-bottom:14px;flex-wrap:wrap}
 
+/* ══════════════════ HOW IT WORKS ══════════════════ */
+.hiw-grid{
+  display:grid;grid-template-columns:repeat(3,1fr);gap:48px;
+  max-width:900px;margin:48px auto 0;text-align:center
+}
+.hiw-item-icon{font-size:40px;margin-bottom:16px}
+.hiw-item-title{font-size:18px;font-weight:700;color:#fff;margin-bottom:8px}
+.hiw-item-sub{font-size:14px;color:var(--text3);line-height:1.6}
+@media(max-width:768px){
+  .hiw-grid{grid-template-columns:1fr;gap:36px;max-width:400px}
+}
+
+/* ══════════════════ FAQ ══════════════════ */
+.faq-list{max-width:680px;margin:48px auto 0}
+.faq-item{border-bottom:1px solid var(--surface-border)}
+.faq-item:first-child{border-top:1px solid var(--surface-border)}
+.faq-q{
+  display:flex;align-items:center;justify-content:space-between;gap:16px;
+  padding:20px 0;cursor:pointer;width:100%;
+  background:none;border:none;text-align:left;color:#fff;
+  font-size:16px;font-weight:700;font-family:inherit;line-height:1.4
+}
+.faq-q:hover{color:var(--cyan)}
+.faq-toggle{
+  font-size:20px;color:var(--text3);flex-shrink:0;
+  transition:transform .25s
+}
+.faq-item.open .faq-toggle{transform:rotate(45deg)}
+.faq-a{
+  max-height:0;overflow:hidden;transition:max-height .3s ease,padding .3s ease;
+  color:var(--text3);font-size:14px;line-height:1.7;padding:0 0 0
+}
+.faq-item.open .faq-a{max-height:200px;padding:0 0 20px}
+
+/* ══════════════════ STICKY MOBILE CTA ══════════════════ */
+.sticky-cta{
+  display:none;position:fixed;bottom:0;left:0;right:0;z-index:9999;
+  padding:12px 20px;
+  background:var(--bg);
+  border-top:1px solid rgba(0,229,255,.15);
+  box-shadow:0 -4px 20px rgba(0,0,0,.5)
+}
+.sticky-cta-btn{
+  display:block;width:100%;padding:14px 24px;
+  background:#00E5FF;color:#0A0E1A;
+  font-size:15px;font-weight:700;letter-spacing:.5px;
+  text-align:center;text-decoration:none;
+  border:none;border-radius:12px;cursor:pointer
+}
+@media(max-width:768px){
+  .sticky-cta{display:block}
+  body{padding-bottom:72px}
+}
+
 /* ══════════════════ ANIMATIONS ══════════════════ */
 @keyframes fadeInUp{from{opacity:0;transform:translateY(24px)}to{opacity:1;transform:translateY(0)}}
 @keyframes fadeInDown{from{opacity:0;transform:translateY(-12px)}to{opacity:1;transform:translateY(0)}}
@@ -401,6 +455,28 @@ footer a:hover{color:var(--text2)}
 </div>
 </div>
 </div>
+<!-- ═══════ HOW IT WORKS ═══════ -->
+<section class="reveal">
+<p class="s-label">How It Works</p>
+<h2 class="s-title">Three steps. Zero confusion.</h2>
+<div class="hiw-grid">
+<div class="hiw-item">
+<div class="hiw-item-icon">🎯</div>
+<div class="hiw-item-title">Pick a path</div>
+<div class="hiw-item-sub">Choose from 9 AI learning paths &mdash; from prompt engineering to AI ethics.</div>
+</div>
+<div class="hiw-item">
+<div class="hiw-item-icon">⚡</div>
+<div class="hiw-item-title">Learn in 5 minutes</div>
+<div class="hiw-item-sub">Bite-sized lessons with real-world scenarios. No fluff, no lectures.</div>
+</div>
+<div class="hiw-item">
+<div class="hiw-item-icon">🏆</div>
+<div class="hiw-item-title">Level up</div>
+<div class="hiw-item-sub">Earn XP, climb ranks, evolve your mascot, and duel other learners.</div>
+</div>
+</div>
+</section>
 <!-- ═══════ WHY KIRO ═══════ -->
 <section class="reveal">
 <p class="s-label">Why Kiro Works</p>
@@ -511,6 +587,39 @@ footer a:hover{color:var(--text2)}
 </div>
 </div>
 </section>
+<!-- ═══════ FAQ ═══════ -->
+<section class="reveal">
+<p class="s-label">FAQ</p>
+<h2 class="s-title">Got questions?</h2>
+<div class="faq-list">
+
+<div class="faq-item">
+<button class="faq-q" aria-expanded="false">Is Kiro free?<span class="faq-toggle">+</span></button>
+<div class="faq-a">Kiro is free to download with limited access. To unlock all lessons, duels, Prompt Lab, and learning paths, upgrade to Kiro Pro free for 7 days.</div>
+</div>
+
+<div class="faq-item">
+<button class="faq-q" aria-expanded="false">Do I need AI experience?<span class="faq-toggle">+</span></button>
+<div class="faq-a">Not at all. Kiro starts from the basics and builds up. Whether you've never touched ChatGPT or you use it daily, there's a path for you.</div>
+</div>
+
+<div class="faq-item">
+<button class="faq-q" aria-expanded="false">How is this different from watching YouTube tutorials?<span class="faq-toggle">+</span></button>
+<div class="faq-a">Kiro is interactive. You don't just watch &mdash; you answer, decide, duel, and get scored. That's how skills actually stick.</div>
+</div>
+
+<div class="faq-item">
+<button class="faq-q" aria-expanded="false">How long does each lesson take?<span class="faq-toggle">+</span></button>
+<div class="faq-a">About 5 minutes. Designed to fit into your morning coffee, commute, or lunch break.</div>
+</div>
+
+<div class="faq-item">
+<button class="faq-q" aria-expanded="false">What AI topics does Kiro cover?<span class="faq-toggle">+</span></button>
+<div class="faq-a">9 learning paths including Prompt Engineering, AI at Work, AI Ethics, AI Tools, AI for Creative Work, AI in Business, and more. Over 1,000 exercises total.</div>
+</div>
+
+</div>
+</section>
 <!-- ═══════ FINAL CTA ═══════ -->
 <section class="final-cta reveal">
 <img alt="Kiro" class="mascot-accent" decoding="async" loading="lazy" src="assets/gold-kiro.png"/>
@@ -530,9 +639,13 @@ footer a:hover{color:var(--text2)}
 </div>
 <p>© 2025 Kiro. Master AI. Become Unreplaceable.</p>
 </footer>
+<div class="sticky-cta">
+<a class="sticky-cta-btn" href="https://apps.apple.com/app/id6759628066">Download Kiro</a>
+</div>
 <script>
 const obs=new IntersectionObserver(e=>{e.forEach(el=>{if(el.isIntersecting)el.target.classList.add('visible')});},{threshold:.08});
 document.querySelectorAll('.reveal').forEach(el=>obs.observe(el));
+document.querySelectorAll('.faq-q').forEach(btn=>{btn.addEventListener('click',()=>{const item=btn.parentElement;const open=item.classList.toggle('open');btn.setAttribute('aria-expanded',open);btn.querySelector('.faq-toggle').textContent=open?'−':'+';});});
 </script>
 </body>
 </html>
