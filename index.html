@@ -57,7 +57,7 @@ nav{
   position:relative;z-index:1
 }
 .hero-content{flex:1;min-width:0}
-.hero-visual{flex:0 0 380px;position:relative;display:flex;align-items:center;justify-content:center}
+.hero-visual{flex:0 0 340px;position:relative;display:flex;align-items:center;justify-content:center}
 
 .hero-eyebrow{
   display:inline-flex;align-items:center;gap:8px;
@@ -102,36 +102,21 @@ nav{
 }
 .btn-ghost:hover{border-color:var(--text3);color:var(--text)}
 
-/* Hero phone mockups */
-.hero-phones{
-  position:relative;width:340px;height:440px;
+/* Hero mascot visual */
+.hero-mascot-wrap{
+  position:relative;width:320px;height:320px;
   animation:fadeInUp .8s ease
 }
-.hero-phones::before{
-  content:'';position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);
-  width:300px;height:300px;border-radius:50%;
-  background:radial-gradient(circle,rgba(0,229,255,.1) 0%,transparent 70%);
+.hero-mascot-glow{
+  position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);
+  width:320px;height:320px;border-radius:50%;
+  box-shadow:0 0 120px 40px rgba(0,229,255,.06);
   pointer-events:none
 }
-.hero-phone{
-  position:absolute;width:200px;
-  border-radius:22px;overflow:hidden;
-  box-shadow:0 12px 48px rgba(0,0,0,.55),0 0 24px rgba(0,229,255,.08);
-  border:1px solid rgba(255,255,255,.08);
-  transition:transform .3s
+.hero-mascot-img{
+  position:relative;z-index:1;width:100%;height:100%;object-fit:contain;
+  filter:drop-shadow(0 0 36px rgba(0,229,255,.22))
 }
-.hero-phone img{width:100%;height:auto;display:block}
-.hero-phone--front{top:0;left:0;z-index:2}
-.hero-phone--back{top:30px;left:140px;transform:rotate(4deg);z-index:1}
-.hero-phones:hover .hero-phone--front{transform:translateY(-4px)}
-.hero-phones:hover .hero-phone--back{transform:rotate(5deg) translateX(4px)}
-.hero-mascot-float{
-  position:absolute;bottom:-6px;right:10px;z-index:4;
-  width:60px;height:60px;object-fit:contain;
-  filter:drop-shadow(0 0 16px rgba(0,229,255,.25));
-  animation:floatBounce 3s ease-in-out infinite
-}
-@keyframes floatBounce{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}
 
 /* ══════════════════ FOUNDER STRIP ══════════════════ */
 .founder-strip{
@@ -377,17 +362,10 @@ footer a:hover{color:var(--text2)}
   .hero-sub{margin-left:auto;margin-right:auto}
   .hero-ctas{justify-content:center}
   .hero-visual{flex:none}
-  .hero-phones{width:300px;height:400px}
-  .hero-phone{width:180px}
-  .hero-phone--back{left:120px}
 }
 @media(max-width:768px){
   .hero{padding:100px 20px 60px;min-height:auto}
-  .hero-phones{width:200px;height:360px}
-  .hero-phone{width:180px;border-radius:18px}
-  .hero-phone--back{display:none}
-  .hero-phone--front{position:relative}
-  .hero-mascot-float{bottom:-4px;right:-8px;width:52px;height:52px}
+  .hero-mascot-wrap{width:240px;height:240px}
   .why-grid{grid-template-columns:1fr}
   .proof-grid{grid-template-columns:1fr}
   .gameplay-grid{grid-template-columns:repeat(2,1fr)}
@@ -437,14 +415,9 @@ footer a:hover{color:var(--text2)}
 </div>
 </div>
 <div class="hero-visual">
-<div class="hero-phones">
-<div class="hero-phone hero-phone--front">
-<img alt="Node Map" decoding="async" src="assets/01-node-map-1320x2868.png"/>
-</div>
-<div class="hero-phone hero-phone--back">
-<img alt="AI Duels" decoding="async" src="assets/05-duels-1320x2868.png"/>
-</div>
-<img alt="Kiro mascot" class="hero-mascot-float" decoding="async" src="assets/diamond-kiro.png"/>
+<div class="hero-mascot-wrap">
+<div class="hero-mascot-glow"></div>
+<img alt="Kiro mascot — Diamond tier" class="hero-mascot-img" decoding="async" src="assets/diamond-kiro.png"/>
 </div>
 </div>
 </div>
