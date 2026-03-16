@@ -230,6 +230,27 @@ section{padding:100px 24px;position:relative}
 .rank-tier:nth-child(4) .rank-tier-name{color:#E5E4E2}
 .rank-tier:nth-child(5) .rank-tier-name{color:#B9F2FF}
 .rank-tier:nth-child(6) .rank-tier-name{color:var(--cyan)}
+/* Locked tier */
+.rank-tier--locked .rank-tier-name{opacity:.35}
+.rank-tier-locked{
+  width:100px;height:100px;
+  display:flex;align-items:center;justify-content:center;
+  border-radius:50%;
+  background:radial-gradient(circle,rgba(255,255,255,.04) 0%,rgba(0,0,0,.3) 100%);
+  border:2px solid rgba(255,255,255,.08);
+  box-shadow:inset 0 0 24px rgba(0,0,0,.5),0 0 12px rgba(0,229,255,.06);
+  transition:all .3s
+}
+.rank-tier--locked:hover .rank-tier-locked{
+  border-color:rgba(0,229,255,.18);
+  box-shadow:inset 0 0 24px rgba(0,0,0,.5),0 0 18px rgba(0,229,255,.12)
+}
+.rank-tier-locked-icon{font-size:32px;filter:grayscale(.5) brightness(.7);transition:all .3s}
+.rank-tier--locked:hover .rank-tier-locked-icon{filter:grayscale(.3) brightness(.85)}
+.rank-tier-hint{
+  font-size:10px;color:var(--text3);opacity:.45;
+  letter-spacing:.5px;margin-top:-4px
+}
 .rank-arrow{
   color:var(--text3);font-size:18px;flex-shrink:0;margin-top:-20px;opacity:.4
 }
@@ -299,6 +320,8 @@ footer a:hover{color:var(--text2)}
   .rank-track{flex-wrap:wrap;justify-content:center;gap:16px}
   .rank-arrow{display:none}
   .rank-tier-img{width:72px;height:72px}
+  .rank-tier-locked{width:72px;height:72px}
+  .rank-tier-locked-icon{font-size:24px}
   .founder-inner{flex-direction:column;text-align:center}
   .founder-divider{display:none}
   section{padding:72px 20px}
@@ -308,6 +331,8 @@ footer a:hover{color:var(--text2)}
   .btn-primary,.btn-ghost{width:100%;text-align:center;justify-content:center}
   .gameplay-grid{grid-template-columns:1fr;max-width:320px;margin:0 auto}
   .rank-tier-img{width:56px;height:56px}
+  .rank-tier-locked{width:56px;height:56px}
+  .rank-tier-locked-icon{font-size:20px}
 }
 </style>
 </head>
@@ -402,7 +427,7 @@ footer a:hover{color:var(--text2)}
 <!-- ═══════ GAMEPLAY SHOWCASE ═══════ -->
 <section class="gameplay reveal" id="gameplay">
 <p class="s-label">Inside the App</p>
-<h2 class="s-title">A game board,<br/>not a syllabus.</h2>
+<h2 class="s-title">Every screen earns<br/>you something.</h2>
 <p class="s-sub">Every screen is designed to teach, test, and reward. See for yourself.</p>
 <div class="gameplay-grid">
 <div class="gameplay-card">
@@ -454,9 +479,12 @@ footer a:hover{color:var(--text2)}
 <span class="rank-tier-name">Diamond</span>
 </div>
 <span class="rank-arrow">→</span>
-<div class="rank-tier">
-<img alt="Iridescent Kiro" class="rank-tier-img" decoding="async" loading="lazy" src="assets/iridescent-kiro.png"/>
+<div class="rank-tier rank-tier--locked">
+<div class="rank-tier-locked" aria-label="Locked mascot">
+<span class="rank-tier-locked-icon">🔒</span>
+</div>
 <span class="rank-tier-name">Iridescent</span>
+<span class="rank-tier-hint">Unlock at the top</span>
 </div>
 </div>
 </section>
