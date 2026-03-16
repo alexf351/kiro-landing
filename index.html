@@ -181,19 +181,12 @@ section{padding:100px 24px;position:relative}
 /* ══════════════════ GAMEPLAY SHOWCASE ══════════════════ */
 .gameplay{overflow:hidden}
 .gameplay-grid{
-  display:flex;gap:16px;
-  max-width:1100px;margin:0 auto;
-  overflow-x:auto;-webkit-overflow-scrolling:touch;
-  scroll-snap-type:x mandatory;
-  padding-bottom:8px
+  display:grid;grid-template-columns:repeat(3,1fr);gap:16px;
+  max-width:900px;margin:0 auto
 }
-.gameplay-grid::-webkit-scrollbar{height:4px}
-.gameplay-grid::-webkit-scrollbar-thumb{background:rgba(255,255,255,.1);border-radius:4px}
 .gameplay-card{
-  flex:0 0 200px;
   border-radius:18px;overflow:hidden;border:1px solid var(--surface-border);
   background:var(--surface);transition:all .3s;
-  scroll-snap-align:start;
   display:flex;flex-direction:column
 }
 .gameplay-card:hover{transform:translateY(-4px);border-color:rgba(0,229,255,.2)}
@@ -376,7 +369,7 @@ footer a:hover{color:var(--text2)}
   .hero-mascot-wrap{width:240px;height:240px}
   .why-grid{grid-template-columns:1fr}
   .proof-grid{grid-template-columns:1fr}
-  .gameplay-card{flex:0 0 160px}
+  .gameplay-grid{grid-template-columns:repeat(2,1fr)}
   .rank-track{flex-wrap:wrap;justify-content:center;gap:16px}
   .rank-arrow{display:none}
   .rank-tier-img{width:72px;height:72px}
@@ -389,7 +382,7 @@ footer a:hover{color:var(--text2)}
 @media(max-width:480px){
   .hero-ctas{flex-direction:column;width:100%}
   .btn-primary,.btn-ghost{width:100%;text-align:center;justify-content:center}
-  .gameplay-card{flex:0 0 140px}
+  .gameplay-grid{grid-template-columns:repeat(2,1fr);gap:12px}
   .rank-tier-img{width:56px;height:56px}
   .rank-tier-locked{width:56px;height:56px}
   .rank-tier-locked-icon{font-size:20px}
@@ -515,6 +508,10 @@ footer a:hover{color:var(--text2)}
 <div class="gameplay-card">
 <img alt="Node Map" decoding="async" loading="lazy" src="assets/01-node-map-1320x2868.png"/>
 <div class="gameplay-card-label">🗺️ Node Map</div>
+</div>
+<div class="gameplay-card">
+<img alt="Learning Paths" decoding="async" loading="lazy" src="assets/02-hero-1320x2868.png"/>
+<div class="gameplay-card-label">📚 Learning Paths</div>
 </div>
 <div class="gameplay-card">
 <img alt="Delegate or DIY" decoding="async" loading="lazy" src="assets/03-delegate-1320x2868.png"/>
