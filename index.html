@@ -181,19 +181,25 @@ section{padding:100px 24px;position:relative}
 /* ══════════════════ GAMEPLAY SHOWCASE ══════════════════ */
 .gameplay{overflow:hidden}
 .gameplay-grid{
-  display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:16px;
-  max-width:1100px;margin:0 auto
+  display:flex;gap:16px;
+  max-width:1100px;margin:0 auto;
+  overflow-x:auto;-webkit-overflow-scrolling:touch;
+  scroll-snap-type:x mandatory;
+  padding-bottom:8px
 }
+.gameplay-grid::-webkit-scrollbar{height:4px}
+.gameplay-grid::-webkit-scrollbar-thumb{background:rgba(255,255,255,.1);border-radius:4px}
 .gameplay-card{
+  flex:0 0 200px;
   border-radius:18px;overflow:hidden;border:1px solid var(--surface-border);
-  background:var(--surface);transition:all .3s;position:relative
+  background:var(--surface);transition:all .3s;
+  scroll-snap-align:start;
+  display:flex;flex-direction:column
 }
 .gameplay-card:hover{transform:translateY(-4px);border-color:rgba(0,229,255,.2)}
 .gameplay-card img{width:100%;height:auto;display:block}
 .gameplay-card-label{
-  position:absolute;bottom:0;left:0;right:0;
-  padding:14px 16px;
-  background:linear-gradient(0deg,rgba(10,14,26,.95) 0%,transparent 100%);
+  padding:10px 12px;text-align:center;
   font-size:13px;font-weight:600;color:var(--text2);letter-spacing:.2px
 }
 
@@ -363,14 +369,14 @@ footer a:hover{color:var(--text2)}
   .hero-sub{margin-left:auto;margin-right:auto}
   .hero-ctas{justify-content:center}
   .hero-visual{flex:none}
-  .gameplay-grid{grid-template-columns:repeat(2,1fr)}
+
 }
 @media(max-width:768px){
   .hero{padding:100px 20px 60px;min-height:auto}
   .hero-mascot-wrap{width:240px;height:240px}
   .why-grid{grid-template-columns:1fr}
   .proof-grid{grid-template-columns:1fr}
-  .gameplay-grid{grid-template-columns:repeat(2,1fr);gap:12px}
+  .gameplay-card{flex:0 0 160px}
   .rank-track{flex-wrap:wrap;justify-content:center;gap:16px}
   .rank-arrow{display:none}
   .rank-tier-img{width:72px;height:72px}
@@ -383,7 +389,7 @@ footer a:hover{color:var(--text2)}
 @media(max-width:480px){
   .hero-ctas{flex-direction:column;width:100%}
   .btn-primary,.btn-ghost{width:100%;text-align:center;justify-content:center}
-  .gameplay-grid{grid-template-columns:1fr;max-width:320px;margin:0 auto}
+  .gameplay-card{flex:0 0 140px}
   .rank-tier-img{width:56px;height:56px}
   .rank-tier-locked{width:56px;height:56px}
   .rank-tier-locked-icon{font-size:20px}
@@ -507,23 +513,23 @@ footer a:hover{color:var(--text2)}
 <p class="s-sub">Every screen is designed to teach, test, and reward. See for yourself.</p>
 <div class="gameplay-grid">
 <div class="gameplay-card">
-<img alt="Node map — game board style lesson progression" decoding="async" loading="lazy" src="assets/node-map.PNG"/>
+<img alt="Node Map" decoding="async" loading="lazy" src="assets/01-node-map-1320x2868.png"/>
 <div class="gameplay-card-label">🗺️ Node Map</div>
 </div>
 <div class="gameplay-card">
-<img alt="Delegate or DIY exercise" decoding="async" loading="lazy" src="assets/delegate-or-diy.jpg"/>
-<div class="gameplay-card-label">🤖 Delegate or DIY</div>
+<img alt="Delegate or DIY" decoding="async" loading="lazy" src="assets/03-delegate-1320x2868.png"/>
+<div class="gameplay-card-label">🎯 Delegate or DIY</div>
 </div>
 <div class="gameplay-card">
-<img alt="AI Duel results screen" decoding="async" loading="lazy" src="assets/duel-victory.jpg"/>
+<img alt="AI Duels" decoding="async" loading="lazy" src="assets/05-duels-1320x2868.png"/>
 <div class="gameplay-card-label">⚔️ AI Duels</div>
 </div>
 <div class="gameplay-card">
-<img alt="Prompt Lab with feedback" decoding="async" loading="lazy" src="assets/prompt-lab.jpg"/>
+<img alt="Prompt Lab" decoding="async" loading="lazy" src="assets/06-prompt-lab-1320x2868.png"/>
 <div class="gameplay-card-label">🧪 Prompt Lab</div>
 </div>
 <div class="gameplay-card">
-<img alt="Weekly AI News feed" decoding="async" loading="lazy" src="assets/news.jpg"/>
+<img alt="Weekly AI News" decoding="async" loading="lazy" src="assets/07-ai-news-1320x2868.png"/>
 <div class="gameplay-card-label">📰 Weekly AI News</div>
 </div>
 </div>
