@@ -142,6 +142,22 @@ nav{
 }
 .founder-stat-label{font-size:12px;color:var(--text3);margin-top:2px;font-weight:500}
 
+/* ══════════════════ URGENCY QUOTES ══════════════════ */
+.urgency-grid{
+  display:grid;grid-template-columns:repeat(2,1fr);gap:32px 48px;
+  max-width:960px;margin:48px auto 0
+}
+.urgency-item{display:flex;flex-direction:column;gap:10px}
+.urgency-quote{
+  font-size:17px;color:#fff;line-height:1.55;font-style:italic
+}
+.urgency-quote::before{content:'\201C'}
+.urgency-quote::after{content:'\201D'}
+.urgency-attr{font-size:13px;color:var(--text3);font-weight:500}
+@media(max-width:768px){
+  .urgency-grid{grid-template-columns:1fr;gap:28px}
+}
+
 /* ══════════════════ SECTION UTILS ══════════════════ */
 section{padding:100px 24px;position:relative}
 .s-label{
@@ -453,6 +469,29 @@ footer a:hover{color:var(--text2)}
 </div>
 </div>
 </div>
+<!-- ═══════ URGENCY QUOTES ═══════ -->
+<section class="reveal">
+<p class="s-label">The Urgency Is Real</p>
+<h2 class="s-title">Leaders are sounding the alarm.</h2>
+<div class="urgency-grid">
+<div class="urgency-item">
+<div class="urgency-quote">You're not going to lose your job to AI. You're going to lose it to someone who uses AI.</div>
+<div class="urgency-attr">&mdash; Jensen Huang, CEO of NVIDIA</div>
+</div>
+<div class="urgency-item">
+<div class="urgency-quote">If you don't know AI, you are going to fail. Period, end of story.</div>
+<div class="urgency-attr">&mdash; Mark Cuban</div>
+</div>
+<div class="urgency-item">
+<div class="urgency-quote">AI is going to eliminate a lot of current jobs. There will be classes of jobs that totally go away.</div>
+<div class="urgency-attr">&mdash; Sam Altman, CEO of OpenAI</div>
+</div>
+<div class="urgency-item">
+<div class="urgency-quote">AI could displace half of all entry-level white-collar jobs within five years.</div>
+<div class="urgency-attr">&mdash; Dario Amodei, CEO of Anthropic</div>
+</div>
+</div>
+</section>
 <!-- ═══════ HOW IT WORKS ═══════ -->
 <section class="reveal">
 <p class="s-label">How It Works</p>
@@ -484,25 +523,25 @@ footer a:hover{color:var(--text2)}
 <div class="why-card">
 <span class="icon">⚡</span>
 <h3>Real reps, not theory.</h3>
-<p>Fast lessons built around real AI judgment calls, workplace scenarios, and prompt decisions you can use immediately.</p>
+<p>Learn through real AI decisions, not passive content.</p>
 </div>
 <div class="why-card">
 <span class="icon">⚔️</span>
 <h3>Competitive by design.</h3>
-<p>Duels, XP, streaks, hearts, and rank progression turn AI learning into a loop you actually want to come back to.</p>
+<p>Duels, XP, streaks, and ranks make the skill stick.</p>
 </div>
 <div class="why-card">
 <span class="icon">🧪</span>
 <h3>Progress you can see.</h3>
-<p>Prompt Lab coaching and evolving ranks make improvement visible, so you feel sharper instead of guessing whether you're getting better.</p>
+<p>Prompt coaching and evolving tiers make improvement obvious.</p>
 </div>
 </div>
 </section>
 <!-- ═══════ GAMEPLAY SHOWCASE ═══════ -->
 <section class="gameplay reveal" id="gameplay">
 <p class="s-label">Inside the App</p>
-<h2 class="s-title">Built to stick,<br/>not to bore.</h2>
-<p class="s-sub">Every screen is designed to teach, test, and reward. See for yourself.</p>
+<h2 class="s-title">The loop that makes<br/>AI stick.</h2>
+<p class="s-sub">Pick a path &rarr; crush a lesson &rarr; duel a rival &rarr; rank up &rarr; sharpen in Prompt Lab. Repeat daily.</p>
 <div class="gameplay-grid">
 <div class="gameplay-card">
 <img alt="Node Map" decoding="async" loading="lazy" src="assets/01-node-map-1320x2868.png"/>
@@ -533,8 +572,8 @@ footer a:hover{color:var(--text2)}
 <!-- ═══════ RANK EVOLUTION ═══════ -->
 <section class="rank-section reveal">
 <p class="s-label">Rank Progression</p>
-<h2 class="s-title">Level up. Evolve Kiro.</h2>
-<p class="s-sub">Every rank tier transforms your mascot. Six evolutions from Bronze rookie to Iridescent legend.</p>
+<h2 class="s-title">Earn XP. Climb ranks. Evolve Kiro.</h2>
+<p class="s-sub">Six visible tiers of progress that make you want to come back tomorrow.</p>
 <div class="rank-track">
 <div class="rank-tier">
 <img alt="Bronze Kiro" class="rank-tier-img" decoding="async" loading="lazy" src="assets/bronze-kiro.png"/>
@@ -629,8 +668,8 @@ footer a:hover{color:var(--text2)}
 <!-- ═══════ FINAL CTA ═══════ -->
 <section class="final-cta reveal">
 <img alt="Kiro" class="mascot-accent" decoding="async" loading="lazy" src="assets/gold-kiro.png"/>
-<h2>Your unfair AI advantage<br/>starts <span class="grad">here.</span></h2>
-<p class="sub">7-day free trial. 5 minutes a day. Start building real AI fluency.</p>
+<h2>Start free.<br/><span class="grad">Get fluent.</span></h2>
+<p class="sub">Free to start. 5 minutes a day. No experience needed.</p>
 <a class="btn-primary" href="https://apps.apple.com/app/id6759628066">Start Free — Download Kiro →</a>
 <p class="pricing">Free 7-day trial on annual · Then <strong>$69.99/year</strong> or <strong>$12.99/month</strong></p>
 </section>
