@@ -142,20 +142,20 @@ nav{
 }
 .founder-stat-label{font-size:12px;color:var(--text3);margin-top:2px;font-weight:500}
 
-/* ══════════════════ URGENCY QUOTES ══════════════════ */
-.urgency-grid{
-  display:grid;grid-template-columns:repeat(2,1fr);gap:32px 48px;
-  max-width:960px;margin:48px auto 0
+/* ══════════════════ WHY NOW ══════════════════ */
+.why-now-body{
+  max-width:600px;margin:24px auto 0;
+  font-size:16px;color:var(--text2);line-height:1.7;text-align:center
 }
-.urgency-item{display:flex;flex-direction:column;gap:10px}
-.urgency-quote{
-  font-size:17px;color:#fff;line-height:1.55;font-style:italic
+.why-now-chips{
+  display:flex;gap:12px;justify-content:center;flex-wrap:wrap;
+  margin-top:32px
 }
-.urgency-quote::before{content:'\201C'}
-.urgency-quote::after{content:'\201D'}
-.urgency-attr{font-size:13px;color:var(--text3);font-weight:500}
-@media(max-width:768px){
-  .urgency-grid{grid-template-columns:1fr;gap:28px}
+.why-now-chip{
+  padding:8px 20px;border-radius:100px;font-size:13px;font-weight:600;
+  color:var(--cyan);letter-spacing:.3px;
+  border:1px solid rgba(0,229,255,.15);
+  background:rgba(0,229,255,.04)
 }
 
 /* ══════════════════ SECTION UTILS ══════════════════ */
@@ -246,26 +246,34 @@ section{padding:100px 24px;position:relative}
 .rank-tier:nth-of-type(5) .rank-tier-name{color:#B9F2FF}
 .rank-tier:nth-of-type(6) .rank-tier-name{color:var(--cyan)}
 /* Locked tier */
-.rank-tier--locked .rank-tier-name{opacity:.35}
+.rank-tier--locked .rank-tier-name{
+  opacity:.5;
+  background:linear-gradient(90deg,#00E5FF,#B9F2FF,#00E5FF);
+  background-size:200% 100%;
+  -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;
+  animation:shimmer 5s ease infinite
+}
 .rank-tier-locked{
   width:100px;height:100px;
   display:flex;align-items:center;justify-content:center;
   border-radius:50%;
-  background:radial-gradient(circle,rgba(255,255,255,.04) 0%,rgba(0,0,0,.3) 100%);
-  border:2px solid rgba(255,255,255,.08);
-  box-shadow:inset 0 0 24px rgba(0,0,0,.5),0 0 12px rgba(0,229,255,.06);
-  transition:all .3s
+  background:radial-gradient(circle,rgba(0,229,255,.03) 0%,rgba(0,0,0,.35) 100%);
+  border:1.5px solid rgba(0,229,255,.12);
+  box-shadow:inset 0 0 20px rgba(0,0,0,.4),0 0 20px rgba(0,229,255,.06);
+  transition:all .4s
 }
 .rank-tier--locked:hover .rank-tier-locked{
-  border-color:rgba(0,229,255,.18);
-  box-shadow:inset 0 0 24px rgba(0,0,0,.5),0 0 18px rgba(0,229,255,.12)
+  border-color:rgba(0,229,255,.3);
+  box-shadow:inset 0 0 20px rgba(0,0,0,.4),0 0 28px rgba(0,229,255,.18)
 }
-.rank-tier-locked-icon{font-size:32px;filter:grayscale(.5) brightness(.7);transition:all .3s}
-.rank-tier--locked:hover .rank-tier-locked-icon{filter:grayscale(.3) brightness(.85)}
+.rank-tier-locked-icon{font-size:28px;filter:grayscale(.3) brightness(.8);transition:all .4s}
+.rank-tier--locked:hover .rank-tier-locked-icon{filter:grayscale(0) brightness(1)}
 .rank-tier-hint{
-  font-size:10px;color:var(--text3);opacity:.45;
-  letter-spacing:.5px;margin-top:-4px
+  font-size:10px;color:var(--cyan);opacity:.4;
+  letter-spacing:.5px;margin-top:-4px;
+  transition:opacity .3s
 }
+.rank-tier--locked:hover .rank-tier-hint{opacity:.7}
 .rank-arrow{
   color:var(--text3);font-size:18px;flex-shrink:0;margin-top:-20px;opacity:.4
 }
@@ -469,27 +477,15 @@ footer a:hover{color:var(--text2)}
 </div>
 </div>
 </div>
-<!-- ═══════ URGENCY QUOTES ═══════ -->
+<!-- ═══════ WHY NOW ═══════ -->
 <section class="reveal">
-<p class="s-label">The Urgency Is Real</p>
-<h2 class="s-title">Leaders are sounding the alarm.</h2>
-<div class="urgency-grid">
-<div class="urgency-item">
-<div class="urgency-quote">You're not going to lose your job to AI. You're going to lose it to someone who uses AI.</div>
-<div class="urgency-attr">&mdash; Jensen Huang, CEO of NVIDIA</div>
-</div>
-<div class="urgency-item">
-<div class="urgency-quote">If you don't know AI, you are going to fail. Period, end of story.</div>
-<div class="urgency-attr">&mdash; Mark Cuban</div>
-</div>
-<div class="urgency-item">
-<div class="urgency-quote">AI is going to eliminate a lot of current jobs. There will be classes of jobs that totally go away.</div>
-<div class="urgency-attr">&mdash; Sam Altman, CEO of OpenAI</div>
-</div>
-<div class="urgency-item">
-<div class="urgency-quote">AI could displace half of all entry-level white-collar jobs within five years.</div>
-<div class="urgency-attr">&mdash; Dario Amodei, CEO of Anthropic</div>
-</div>
+<p class="s-label">Why Now</p>
+<h2 class="s-title">AI fluency is becoming<br/>a real advantage.</h2>
+<p class="why-now-body">The people getting good at AI now will move faster, think better, and create more leverage at work. Most people are still watching from the sidelines. Kiro helps you build the skill in 5 minutes a day &mdash; before you're forced to learn it under pressure.</p>
+<div class="why-now-chips">
+<span class="why-now-chip">Move faster</span>
+<span class="why-now-chip">Think better with AI</span>
+<span class="why-now-chip">Build the skill early</span>
 </div>
 </section>
 <!-- ═══════ HOW IT WORKS ═══════ -->
@@ -605,7 +601,7 @@ footer a:hover{color:var(--text2)}
 <span class="rank-tier-locked-icon">🔒</span>
 </div>
 <span class="rank-tier-name">Iridescent</span>
-<span class="rank-tier-hint">Unlock at the top</span>
+<span class="rank-tier-hint">Reach the top to unlock</span>
 </div>
 </div>
 </section>
