@@ -6,6 +6,15 @@
 <title>AI IQ Test — How fluent are you? | Kiro</title>
 <meta content="Take the Kiro AI IQ Test. 10 questions. Find out where you stand — and how far you could go." name="description"/>
 <meta content="#0A0E1A" name="theme-color"/>
+<meta property="og:title" content="What's your AI IQ? Take the Kiro Quiz."/>
+<meta property="og:description" content="10 questions. 2 minutes. Find out where you stand on AI fluency."/>
+<meta property="og:image" content="https://www.trykiro.app/assets/kiro-app-icon-512.png"/>
+<meta property="og:url" content="https://www.trykiro.app/quiz.html"/>
+<meta property="og:type" content="website"/>
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:title" content="What's your AI IQ? Take the Kiro Quiz."/>
+<meta name="twitter:description" content="10 questions. 2 minutes. Find out where you stand on AI fluency."/>
+<meta name="twitter:image" content="https://www.trykiro.app/assets/kiro-app-icon-512.png"/>
 <link href="assets/favicon-64.png" rel="icon" type="image/png"/>
 <link href="assets/apple-touch-icon.png" rel="apple-touch-icon"/>
 <link href="https://fonts.googleapis.com" rel="preconnect"/>
@@ -169,16 +178,16 @@ body{font-family:'Outfit',sans-serif;background:var(--bg);color:var(--text);over
 
 <script>
 const questions=[
-{q:"What does 'LLM' stand for?",opts:["Large Language Model","Linear Logic Machine","Learning Linguistic Module","Large Learning Matrix"],ans:0},
-{q:"Which company created ChatGPT?",opts:["Google","Meta","OpenAI","Anthropic"],ans:2},
-{q:"What is a 'prompt' in the context of AI?",opts:["A login password","An instruction or input you give to an AI","A type of AI model","A programming language"],ans:1},
-{q:"What is an AI 'hallucination'?",opts:["When AI generates false or made-up information","When AI runs out of memory","When AI crashes","When AI translates incorrectly"],ans:0},
-{q:"Which of these is the best prompting technique for complex tasks?",opts:["Using all caps","Asking shorter questions","Breaking the task into steps (chain of thought)","Repeating the question multiple times"],ans:2},
-{q:"What does 'RAG' stand for in AI?",opts:["Rapid AI Generation","Retrieval-Augmented Generation","Random Answer Generator","Recursive Algorithm Growth"],ans:1},
-{q:"You need a 15-page legal contract proofread for typos. Should you:",opts:["Do it yourself manually","Delegate it entirely to AI","Ignore the typos","Hire a new lawyer"],ans:1},
-{q:"What is 'temperature' in AI model settings?",opts:["How fast the model responds","The size of the model","A setting that controls randomness/creativity of outputs","The server's CPU heat level"],ans:2},
-{q:"Which of these is NOT a real AI model?",opts:["Claude","Gemini","LLaMA","Orion-X7"],ans:3},
-{q:"What is 'fine-tuning' an AI model?",opts:["Adjusting screen resolution","Training a pre-trained model on specific data for a particular task","Deleting old data","Increasing the model's speed"],ans:1}
+{q:"What\u2019s the biggest risk of asking AI to summarize a long document?",opts:["It takes too long","It might leave out or misrepresent key details","It will refuse","It costs more tokens"],ans:1},
+{q:"What\u2019s the difference between AI \u2018training\u2019 and \u2018inference\u2019?",opts:["Training is when AI learns from data; inference is when it uses that learning to generate outputs","They\u2019re the same thing","Training is faster than inference","Inference only works offline"],ans:0},
+{q:"You ask AI to write a product description and it sounds generic. What should you try first?",opts:["Switch to a different AI model","Add specific details about your audience, tone, and what makes the product unique","Make the prompt shorter so the AI isn\u2019t overwhelmed","Ask it to \u2018be more creative\u2019"],ans:1},
+{q:"What does 'context window' mean?",opts:["The screen size of the AI app","The amount of text an AI can process in a single conversation","The time limit on a chat session","A browser extension for AI"],ans:1},
+{q:"An AI model gives you a confident, well-written answer with a source citation. What should you assume?",opts:["It\u2019s accurate because it cited a source","The source is real but you should verify the claim","The citation itself may be fabricated and needs verification","Nothing \u2014 AI always cites correctly"],ans:2},
+{q:"Why would a company use RAG instead of fine-tuning for a customer support bot?",opts:["RAG is always cheaper","RAG lets the bot pull from up-to-date docs without retraining the model","Fine-tuning doesn\u2019t work for customer support","RAG doesn\u2019t require any data"],ans:1},
+{q:"What does 'temperature' control in an AI model?",opts:["Processing speed","How creative vs. predictable the output is","The length of the response","How many sources it references"],ans:1},
+{q:"Your company wants to use AI to answer customer questions using internal docs. What approach fits best?",opts:["Fine-tune GPT-4 from scratch","Build a RAG system that retrieves from your knowledge base","Copy-paste docs into every chat","Train your own LLM"],ans:1},
+{q:"You use AI to draft a contract clause. It reads perfectly. What\u2019s the most dangerous assumption?",opts:["That it took too long to generate","That because it sounds professional, it\u2019s legally accurate","That the formatting won\u2019t match your template","That it used too many tokens"],ans:1},
+{q:"When is fine-tuning a model better than using a detailed prompt?",opts:["Always \u2014 fine-tuning is superior to prompting","When you need consistent behavior across thousands of similar tasks","When you want the AI to browse the internet","When the model is too slow"],ans:1}
 ];
 
 const letters=['A','B','C','D'];
