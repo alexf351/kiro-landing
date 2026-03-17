@@ -180,6 +180,29 @@ body::before{
 }
 .toast.show{opacity:1}
 
+/* WRONG ANSWER NUDGE */
+.quiz-nudge{
+  margin-top:12px;padding:10px 16px;border-radius:10px;
+  background:rgba(0,229,255,.04);border:1px solid rgba(0,229,255,.1);
+  font-size:13px;color:var(--cyan);text-align:center;
+  animation:fadeIn .25s ease
+}
+/* CHALLENGE INTRO */
+.challenge-bar{
+  background:rgba(0,229,255,.06);border:1px solid rgba(0,229,255,.15);
+  border-radius:12px;padding:14px 20px;margin-bottom:28px;
+  font-size:14px;color:var(--cyan);font-weight:600;
+  animation:fadeIn .4s ease
+}
+.challenge-bar span{color:var(--text);font-weight:800}
+/* WEAKNESS TAG */
+.results-weakness{
+  font-size:13px;color:var(--text3);margin-bottom:24px;
+  padding:8px 16px;border-radius:8px;background:var(--surface);
+  display:inline-block;animation:fadeIn .4s ease .45s both
+}
+.results-weakness strong{color:var(--text2)}
+
 @keyframes fadeIn{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
 @media(max-width:480px){
   body{padding:16px}
@@ -233,25 +256,41 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
 
 <script>
 const questions=[
-{q:"What\u2019s the biggest risk of asking AI to summarize a long document?",opts:["It takes too long to process and slows down your workflow","It will refuse to summarize if the document is too large","It costs significantly more tokens than other tasks","It might leave out or misrepresent key details"],ans:3,diff:"easy"},
-{q:"What\u2019s the difference between AI \u2018training\u2019 and \u2018inference\u2019?",opts:["They\u2019re the same thing, just different vendor terminology","Training is faster than inference because it uses less data","Training is when AI learns from data; inference is when it uses that learning to generate outputs","Inference is when AI collects new training data from users"],ans:2,diff:"easy"},
-{q:"You ask AI to write a product description and it sounds generic. What should you try first?",opts:["Switch to a different AI model that specializes in marketing","Make the prompt shorter so the AI isn\u2019t overwhelmed by details","Ask it to \u2018be more creative\u2019 and try again with the same prompt","Add specific details about your audience, tone, and what makes the product unique"],ans:3,diff:"easy"},
-{q:"What does \u2018context window\u2019 mean?",opts:["The amount of text an AI can process in a single conversation","The screen size and layout settings of the AI app","A browser extension that adds AI to every website","The time limit before a chat session automatically expires"],ans:0,diff:"medium"},
-{q:"An AI model gives you a confident, well-written answer with a source citation. What should you assume?",opts:["It\u2019s accurate because it took the time to cite a source","Nothing \u2014 AI models always cite sources correctly by design","The source is real but the specific claim might be slightly off","The citation itself may be fabricated and needs verification"],ans:3,diff:"medium"},
-{q:"Why would a company use RAG instead of fine-tuning for a customer support bot?",opts:["Fine-tuning doesn\u2019t work at all for customer support use cases","RAG doesn\u2019t require any data, so it\u2019s easier to set up","RAG is always cheaper regardless of the use case or scale","RAG lets the bot pull from up-to-date docs without retraining the model"],ans:3,diff:"medium"},
-{q:"What does \u2018temperature\u2019 control in an AI model?",opts:["How creative vs. predictable the output is","The total processing speed of each API request","How many external sources it pulls from for answers","The maximum length and word count of the response"],ans:0,diff:"medium"},
-{q:"Your company wants to use AI to answer customer questions using internal docs. What approach fits best?",opts:["Copy-paste all your docs into every single chat session","Train your own large language model from scratch on company data","Fine-tune GPT-4 from scratch using your entire company database","Build a RAG system that retrieves relevant info from your knowledge base"],ans:3,diff:"hard"},
-{q:"You use AI to draft a contract clause. It reads perfectly. What\u2019s the most dangerous assumption?",opts:["That because it sounds professional, it\u2019s legally accurate","That the formatting won\u2019t match your existing contract template","That it took too long to generate compared to writing it manually","That it used too many tokens and will increase your API costs"],ans:0,diff:"hard"},
-{q:"When is fine-tuning a model better than using a detailed prompt?",opts:["When you want the AI to browse the internet for real-time data","Always \u2014 fine-tuning is superior to prompting in every scenario","When you need consistent behavior across thousands of similar tasks","When the model is running too slowly and you need to speed it up"],ans:2,diff:"hard"}
+{q:"What\u2019s the biggest risk of asking AI to summarize a long document?",opts:["It takes too long to process and slows down your workflow","It will refuse to summarize if the document is too large","It costs significantly more tokens than other tasks","It might leave out or misrepresent key details"],ans:3,diff:"easy",topic:"AI Fundamentals",nudge:"Kiro\u2019s AI Fundamentals path covers how AI handles text."},
+{q:"What\u2019s the difference between AI \u2018training\u2019 and \u2018inference\u2019?",opts:["They\u2019re the same thing, just different vendor terminology","Training is faster than inference because it uses less data","Training is when AI learns from data; inference is when it uses that learning to generate outputs","Inference is when AI collects new training data from users"],ans:2,diff:"easy",topic:"AI Fundamentals",nudge:"This is covered in Kiro\u2019s AI Fundamentals lessons."},
+{q:"You ask AI to write a product description and it sounds generic. What should you try first?",opts:["Switch to a different AI model that specializes in marketing","Make the prompt shorter so the AI isn\u2019t overwhelmed by details","Ask it to \u2018be more creative\u2019 and try again with the same prompt","Add specific details about your audience, tone, and what makes the product unique"],ans:3,diff:"easy",topic:"Prompt Engineering",nudge:"Kiro\u2019s Prompt Engineering path teaches exactly this."},
+{q:"What does \u2018context window\u2019 mean?",opts:["The amount of text an AI can process in a single conversation","The screen size and layout settings of the AI app","A browser extension that adds AI to every website","The time limit before a chat session automatically expires"],ans:0,diff:"medium",topic:"AI Tools",nudge:"Kiro\u2019s AI Tools path breaks down how models actually work."},
+{q:"An AI model gives you a confident, well-written answer with a source citation. What should you assume?",opts:["It\u2019s accurate because it took the time to cite a source","Nothing \u2014 AI models always cite sources correctly by design","The source is real but the specific claim might be slightly off","The citation itself may be fabricated and needs verification"],ans:3,diff:"medium",topic:"AI Ethics",nudge:"Spotting hallucinations is a core skill in Kiro\u2019s AI Ethics path."},
+{q:"Why would a company use RAG instead of fine-tuning for a customer support bot?",opts:["Fine-tuning doesn\u2019t work at all for customer support use cases","RAG doesn\u2019t require any data, so it\u2019s easier to set up","RAG is always cheaper regardless of the use case or scale","RAG lets the bot pull from up-to-date docs without retraining the model"],ans:3,diff:"medium",topic:"AI at Work",nudge:"Kiro\u2019s AI at Work path covers real business AI decisions."},
+{q:"What does \u2018temperature\u2019 control in an AI model?",opts:["How creative vs. predictable the output is","The total processing speed of each API request","How many external sources it pulls from for answers","The maximum length and word count of the response"],ans:0,diff:"medium",topic:"AI Tools",nudge:"Kiro\u2019s AI Tools path teaches model settings like this."},
+{q:"Your company wants to use AI to answer customer questions using internal docs. What approach fits best?",opts:["Copy-paste all your docs into every single chat session","Train your own large language model from scratch on company data","Fine-tune GPT-4 from scratch using your entire company database","Build a RAG system that retrieves relevant info from your knowledge base"],ans:3,diff:"hard",topic:"AI at Work",nudge:"This is a Delegate or DIY scenario \u2014 Kiro trains you on these."},
+{q:"You use AI to draft a contract clause. It reads perfectly. What\u2019s the most dangerous assumption?",opts:["That because it sounds professional, it\u2019s legally accurate","That the formatting won\u2019t match your existing contract template","That it took too long to generate compared to writing it manually","That it used too many tokens and will increase your API costs"],ans:0,diff:"hard",topic:"AI Ethics",nudge:"Kiro\u2019s AI Ethics path teaches you to catch exactly this."},
+{q:"When is fine-tuning a model better than using a detailed prompt?",opts:["When you want the AI to browse the internet for real-time data","Always \u2014 fine-tuning is superior to prompting in every scenario","When you need consistent behavior across thousands of similar tasks","When the model is running too slowly and you need to speed it up"],ans:2,diff:"hard",topic:"Prompt Engineering",nudge:"Kiro\u2019s Prompt Engineering path covers when to prompt vs. fine-tune."}
 ];
 
 const letters=['A','B','C','D'];
 const diffLabels={easy:'Easy',medium:'Medium',hard:'Hard'};
 let current=0,score=0;
+const missed=[];
+
+// #4 — Challenge URL: check for ?score= param
+(function(){
+  const params=new URLSearchParams(window.location.search);
+  const friendScore=params.get('score');
+  if(friendScore!==null){
+    const intro=document.getElementById('quizIntro');
+    const badge=intro.querySelector('.quiz-badge');
+    const challenge=document.createElement('div');
+    challenge.className='challenge-bar';
+    challenge.innerHTML=`Your friend scored <span>${friendScore}/10</span>. Can you beat them?`;
+    intro.insertBefore(challenge,badge);
+  }
+})();
 
 document.getElementById('startBtn').addEventListener('click',()=>{
   document.getElementById('quizIntro').style.display='none';
   document.getElementById('quizGame').style.display='block';
+  if(window.posthog)posthog.capture('quiz_started');
   showQuestion();
 });
 
@@ -284,17 +323,26 @@ function handleAnswer(idx){
   const q=questions[current];
   const btns=document.querySelectorAll('.quiz-option');
   btns.forEach(b=>{b.classList.add('disabled');b.style.pointerEvents='none'});
-  if(idx===q.ans){
+  const correct=idx===q.ans;
+  if(correct){
     score++;
     btns[idx].classList.add('correct');
   } else {
     btns[idx].classList.add('wrong');
     btns[q.ans].classList.add('reveal-correct');
+    missed.push(q.topic);
+    // #2 — Show nudge on wrong answer
+    const opts=document.querySelector('.quiz-options');
+    const nudge=document.createElement('div');
+    nudge.className='quiz-nudge';
+    nudge.textContent=q.nudge;
+    opts.after(nudge);
   }
+  if(window.posthog)posthog.capture('quiz_answer',{question:current+1,correct,topic:q.topic,difficulty:q.diff});
   setTimeout(()=>{
     current++;
     if(current<10){showQuestion()}else{showResults()}
-  },1500);
+  },correct?1200:2200);
 }
 
 function showResults(){
@@ -309,29 +357,45 @@ function showResults(){
   else if(score<=9){rank='Platinum';rankClass='rank-platinum';msg='Impressive. Kiro Pro will push you even further.';mascot='platinum-kiro.png'}
   else{rank='Diamond';rankClass='rank-diamond';msg='Impressive. Kiro Pro will push you even further.';mascot='diamond-kiro.png'}
 
+  // #3 — Find weakest topic
+  let weaknessHtml='';
+  if(missed.length>0){
+    const counts={};
+    missed.forEach(t=>{counts[t]=(counts[t]||0)+1});
+    const weakest=Object.entries(counts).sort((a,b)=>b[1]-a[1])[0][0];
+    weaknessHtml=`<div class="results-weakness">Your gap: <strong>${weakest}</strong> \u2014 Kiro has a full path for that.</div>`;
+  }
+
   r.innerHTML=`<div class="quiz-results">
     <img alt="${rank} Kiro" class="results-mascot" decoding="async" src="assets/${mascot}"/>
     <div class="score-big">${score}/10</div>
     <div class="score-label">Your AI Fluency Score</div>
     <div class="rank-badge ${rankClass}">${rank}</div>
+    ${weaknessHtml}
     <p class="message">${msg}</p>
     <div class="btn-row">
       <a class="btn-primary" href="https://apps.apple.com/app/id6759628066">Download Kiro &mdash; It's Free</a>
-      <button class="btn-secondary" id="shareBtn">Share Your Score</button>
+      <button class="btn-secondary" id="shareBtn">Challenge a Friend</button>
     </div>
     <button class="retake" id="retakeBtn">Retake Quiz</button>
   </div>`;
 
+  // #1 — PostHog quiz completed event
+  if(window.posthog)posthog.capture('quiz_completed',{score,rank,missed_topics:missed});
+
+  // #4 — Share with challenge URL
   document.getElementById('shareBtn').addEventListener('click',()=>{
-    const text=`I scored ${score}/10 on the Kiro AI IQ Test. What's your AI fluency? trykiro.app/quiz`;
+    const url=`https://www.trykiro.app/quiz.html?score=${score}`;
+    const text=`I scored ${score}/10 on the Kiro AI IQ Test. Can you beat me? ${url}`;
     navigator.clipboard.writeText(text).then(()=>{
+      if(window.posthog)posthog.capture('quiz_shared',{score,rank});
       const t=document.getElementById('toast');t.classList.add('show');
       setTimeout(()=>t.classList.remove('show'),2000);
     });
   });
 
   document.getElementById('retakeBtn').addEventListener('click',()=>{
-    current=0;score=0;
+    current=0;score=0;missed.length=0;
     r.style.display='none';
     document.getElementById('quizGame').style.display='block';
     showQuestion();
