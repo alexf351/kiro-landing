@@ -141,7 +141,7 @@ body::before{
 /* RESULTS */
 .quiz-results{animation:fadeIn .5s ease}
 .results-mascot{
-  width:160px;height:160px;object-fit:contain;margin-bottom:24px;
+  width:220px;height:220px;object-fit:contain;margin-bottom:28px;
   filter:drop-shadow(0 0 20px rgba(0,229,255,.2));
   animation:resultsPop .6s cubic-bezier(.34,1.56,.64,1)
 }
@@ -152,7 +152,7 @@ body::before{
   animation:scoreReveal .5s ease .2s both
 }
 @keyframes scoreReveal{from{opacity:0;transform:scale(.8)}to{opacity:1;transform:scale(1)}}
-.quiz-results .score-label{font-size:15px;color:var(--text3);margin-bottom:24px}
+.quiz-results .score-label{font-size:16px;color:var(--text2);margin-bottom:24px;font-weight:600}
 .quiz-results .rank-badge{
   display:inline-flex;align-items:center;gap:8px;
   padding:10px 24px;border-radius:100px;font-size:15px;font-weight:700;
@@ -351,11 +351,11 @@ function showResults(){
   r.style.display='block';
 
   let rank,rankClass,msg,mascot;
-  if(score<=3){rank='Bronze';rankClass='rank-bronze';msg='Most people score here. Kiro can get you to Platinum in a week.';mascot='bronze-kiro.png'}
-  else if(score<=5){rank='Silver';rankClass='rank-silver';msg='Most people score here. Kiro can get you to Platinum in a week.';mascot='silver-kiro.png'}
-  else if(score<=7){rank='Gold';rankClass='rank-gold';msg="You\u2019ve got a foundation. Kiro will sharpen it into a real skill.";mascot='gold-kiro.png'}
-  else if(score<=9){rank='Platinum';rankClass='rank-platinum';msg='Impressive. Kiro Pro will push you even further.';mascot='platinum-kiro.png'}
-  else{rank='Diamond';rankClass='rank-diamond';msg='Impressive. Kiro Pro will push you even further.';mascot='diamond-kiro.png'}
+  if(score<=3){rank='Bronze';rankClass='rank-bronze';msg='You\u2019re early in your AI journey \u2014 and that\u2019s the best time to start. Kiro can get you to Platinum in a week.';mascot='bronze-kiro.png'}
+  else if(score<=5){rank='Silver';rankClass='rank-silver';msg='You know more than most people. A few focused days with Kiro and you\u2019ll be dangerous.';mascot='silver-kiro.png'}
+  else if(score<=7){rank='Gold';rankClass='rank-gold';msg='Solid foundation. You\u2019re ahead of the curve \u2014 Kiro will turn that into real fluency.';mascot='gold-kiro.png'}
+  else if(score<=9){rank='Platinum';rankClass='rank-platinum';msg='You\u2019re in the top tier. Kiro Pro\u2019s advanced paths will sharpen your edge even further.';mascot='platinum-kiro.png'}
+  else{rank='Diamond';rankClass='rank-diamond';msg='Perfect score. You might already be an AI expert \u2014 but Kiro\u2019s Prompt Lab and duels will still challenge you.';mascot='diamond-kiro.png'}
 
   // #3 — Find weakest topic
   let weaknessHtml='';
