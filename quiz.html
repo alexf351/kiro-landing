@@ -125,8 +125,24 @@ body::before{
   cursor:pointer;transition:all .2s;text-align:left;display:flex;align-items:center;gap:12px
 }
 .quiz-option:hover:not(.disabled){border-color:rgba(0,229,255,.3);background:rgba(0,229,255,.04)}
-.quiz-option.correct{border-color:var(--success);background:rgba(46,204,113,.1);color:var(--success);animation:correctPop .4s cubic-bezier(.34,1.56,.64,1);box-shadow:0 0 20px rgba(46,204,113,.2)}
-@keyframes correctPop{0%{transform:scale(1)}40%{transform:scale(1.04)}100%{transform:scale(1)}}
+.quiz-option.correct{
+  border-color:var(--success);background:rgba(46,204,113,.12);color:var(--success);
+  animation:correctPop .5s cubic-bezier(.34,1.56,.64,1);
+  box-shadow:0 0 28px rgba(46,204,113,.3),inset 0 0 12px rgba(46,204,113,.06)
+}
+@keyframes correctPop{0%{transform:scale(1)}30%{transform:scale(1.06)}60%{transform:scale(.98)}100%{transform:scale(1)}}
+.quiz-option.correct .quiz-option-letter{
+  animation:letterSpin .5s ease;
+  background:var(--success);color:#fff
+}
+@keyframes letterSpin{0%{transform:rotate(0deg) scale(1)}50%{transform:rotate(180deg) scale(1.3)}100%{transform:rotate(360deg) scale(1)}}
+.correct-streak{
+  position:fixed;top:50%;left:50%;transform:translate(-50%,-50%);
+  font-size:48px;font-weight:900;color:var(--success);
+  pointer-events:none;z-index:300;
+  animation:streakPop .8s ease forwards;opacity:0
+}
+@keyframes streakPop{0%{opacity:0;transform:translate(-50%,-50%) scale(.5)}20%{opacity:1;transform:translate(-50%,-50%) scale(1.2)}50%{opacity:1;transform:translate(-50%,-60%) scale(1)}100%{opacity:0;transform:translate(-50%,-80%) scale(.8)}}
 .quiz-option.wrong{border-color:var(--error);background:rgba(255,71,87,.1);color:var(--error)}
 .quiz-option.reveal-correct{border-color:var(--success);background:rgba(46,204,113,.06)}
 .quiz-option.disabled{cursor:default;opacity:.7}
@@ -306,8 +322,9 @@ const letters=['A','B','C','D'];
 const diffLabels={easy:'Easy',medium:'Medium',hard:'Hard'};
 let quizIndex=0;
 let questions=allQuizzes[0];
-let current=0,score=0;
+let current=0,score=0,streak=0;
 const missed=[];
+const streakWords=['Nice!','Correct!','On fire!','Unstoppable!','Genius!'];
 
 // #4 — Challenge URL: check for ?score= param
 (function(){
@@ -362,9 +379,15 @@ function handleAnswer(idx){
   btns.forEach(b=>{b.classList.add('disabled');b.style.pointerEvents='none'});
   const correct=idx===q.ans;
   if(correct){
-    score++;
+    score++;streak++;
     btns[idx].classList.add('correct');
+    const pop=document.createElement('div');
+    pop.className='correct-streak';
+    pop.textContent=streakWords[Math.min(streak-1,streakWords.length-1)];
+    document.body.appendChild(pop);
+    setTimeout(()=>pop.remove(),900);
   } else {
+    streak=0;
     btns[idx].classList.add('wrong');
     btns[q.ans].classList.add('reveal-correct');
     missed.push(q.topic);
@@ -437,7 +460,7 @@ function showResults(){
   document.getElementById('retakeBtn').addEventListener('click',()=>{
     quizIndex=(quizIndex+1)%allQuizzes.length;
     questions=allQuizzes[quizIndex];
-    current=0;score=0;missed.length=0;
+    current=0;score=0;streak=0;missed.length=0;
     r.style.display='none';
     document.getElementById('quizGame').style.display='block';
     if(window.posthog)posthog.capture('quiz_started',{quiz_number:quizIndex+1});
