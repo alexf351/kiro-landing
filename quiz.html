@@ -28,15 +28,31 @@
   --cyan:#00E5FF;--gold:#FFD700;--error:#FF4757;--success:#2ECC71;
 }
 html{-webkit-font-smoothing:antialiased}
-body{font-family:'Outfit',sans-serif;background:var(--bg);color:var(--text);overflow-x:hidden;line-height:1.6;min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:24px}
+body{
+  font-family:'Outfit',sans-serif;background:var(--bg);color:var(--text);
+  overflow-x:hidden;line-height:1.6;min-height:100vh;
+  display:flex;flex-direction:column;align-items:center;justify-content:center;
+  padding:24px;position:relative
+}
+body::before{
+  content:'';position:fixed;top:-100px;left:50%;transform:translateX(-50%);
+  width:800px;height:800px;
+  background:radial-gradient(ellipse at center,rgba(0,229,255,.06) 0%,transparent 65%);
+  pointer-events:none;z-index:0
+}
 
-.quiz-wrap{max-width:600px;width:100%;text-align:center}
+.quiz-wrap{max-width:600px;width:100%;text-align:center;position:relative;z-index:1}
 
 /* NAV */
-.quiz-nav{position:fixed;top:0;left:0;right:0;padding:16px 24px;z-index:100;display:flex;align-items:center;justify-content:space-between}
+.quiz-nav{
+  position:fixed;top:0;left:0;right:0;padding:14px 24px;z-index:100;
+  display:flex;align-items:center;justify-content:space-between;
+  backdrop-filter:blur(24px);-webkit-backdrop-filter:blur(24px);
+  background:rgba(10,14,26,0.75);border-bottom:1px solid rgba(30,39,64,0.4)
+}
 .quiz-nav a{color:var(--text2);text-decoration:none;font-size:14px;font-weight:600;transition:color .2s}
 .quiz-nav a:hover{color:var(--text)}
-.quiz-logo{font-family:'JetBrains Mono',monospace;font-weight:700;font-size:18px;color:var(--text);text-decoration:none}
+.quiz-logo{font-family:'JetBrains Mono',monospace;font-weight:700;font-size:18px;color:var(--text) !important;text-decoration:none}
 
 /* INTRO */
 .quiz-intro .quiz-badge{
@@ -45,6 +61,12 @@ body{font-family:'Outfit',sans-serif;background:var(--bg);color:var(--text);over
   padding:7px 16px;border-radius:100px;font-size:13px;font-weight:600;color:var(--cyan);
   margin-bottom:28px;letter-spacing:.4px
 }
+.quiz-intro-mascot{
+  width:80px;height:80px;object-fit:contain;margin-bottom:24px;
+  filter:drop-shadow(0 0 24px rgba(0,229,255,.18));
+  animation:floatBounce 3s ease-in-out infinite
+}
+@keyframes floatBounce{0%,100%{transform:translateY(0)}50%{transform:translateY(-6px)}}
 .quiz-intro h1{
   font-size:clamp(32px,5vw,48px);font-weight:900;line-height:1.08;
   letter-spacing:-1.5px;margin-bottom:16px
@@ -65,20 +87,34 @@ body{font-family:'Outfit',sans-serif;background:var(--bg);color:var(--text);over
 }
 .btn-primary:hover{transform:translateY(-2px);box-shadow:0 0 60px rgba(0,229,255,.35)}
 .btn-secondary{
-  background:transparent;color:var(--text2);border:1px solid var(--surface-border);
-  padding:14px 28px;border-radius:13px;font-family:'Outfit',sans-serif;font-weight:600;
-  font-size:15px;cursor:pointer;text-decoration:none;transition:all .2s;display:inline-flex;align-items:center;gap:8px
+  background:transparent;color:var(--text3);border:1px solid var(--surface-border);
+  padding:12px 24px;border-radius:13px;font-family:'Outfit',sans-serif;font-weight:600;
+  font-size:14px;cursor:pointer;text-decoration:none;transition:all .2s;display:inline-flex;align-items:center;gap:8px
 }
-.btn-secondary:hover{border-color:var(--text3);color:var(--text)}
+.btn-secondary:hover{border-color:var(--text3);color:var(--text2)}
 
 /* PROGRESS */
 .quiz-progress{margin-bottom:32px}
-.quiz-progress-label{font-size:13px;color:var(--text3);font-weight:600;letter-spacing:.5px;margin-bottom:10px}
+.quiz-progress-top{display:flex;justify-content:space-between;align-items:center;margin-bottom:10px}
+.quiz-progress-label{font-size:13px;color:var(--text3);font-weight:600;letter-spacing:.5px}
+.quiz-progress-hint{font-size:12px;color:var(--cyan);font-weight:600;opacity:0;transition:opacity .3s}
+.quiz-progress-hint.visible{opacity:1}
 .quiz-progress-bar{height:4px;background:var(--surface);border-radius:4px;overflow:hidden}
 .quiz-progress-fill{height:100%;background:var(--cyan);border-radius:4px;transition:width .4s ease}
 
 /* QUESTION */
 .quiz-question{animation:fadeIn .3s ease}
+.quiz-q-number{
+  display:inline-block;font-size:11px;font-weight:700;letter-spacing:2px;
+  text-transform:uppercase;color:var(--text3);margin-bottom:14px
+}
+.quiz-q-difficulty{
+  display:inline-block;margin-left:8px;padding:2px 8px;border-radius:6px;
+  font-size:10px;font-weight:700;letter-spacing:1px;text-transform:uppercase
+}
+.diff-easy{background:rgba(46,204,113,.1);color:var(--success)}
+.diff-medium{background:rgba(255,215,0,.1);color:var(--gold)}
+.diff-hard{background:rgba(255,71,87,.1);color:var(--error)}
 .quiz-question h2{font-size:clamp(20px,3.5vw,26px);font-weight:700;line-height:1.35;margin-bottom:28px;letter-spacing:-.3px}
 .quiz-options{display:flex;flex-direction:column;gap:10px}
 .quiz-option{
@@ -102,24 +138,33 @@ body{font-family:'Outfit',sans-serif;background:var(--bg);color:var(--text);over
 .quiz-option.wrong .quiz-option-letter{background:rgba(255,71,87,.2);color:var(--error)}
 
 /* RESULTS */
-.quiz-results{animation:fadeIn .4s ease}
+.quiz-results{animation:fadeIn .5s ease}
+.results-mascot{
+  width:72px;height:72px;object-fit:contain;margin-bottom:20px;
+  filter:drop-shadow(0 0 20px rgba(0,229,255,.2));
+  animation:resultsPop .6s cubic-bezier(.34,1.56,.64,1)
+}
+@keyframes resultsPop{from{opacity:0;transform:scale(.5)}to{opacity:1;transform:scale(1)}}
 .quiz-results .score-big{
   font-family:'JetBrains Mono',monospace;font-size:clamp(56px,10vw,80px);
-  font-weight:700;letter-spacing:-3px;margin-bottom:4px
+  font-weight:700;letter-spacing:-3px;margin-bottom:4px;
+  animation:scoreReveal .5s ease .2s both
 }
+@keyframes scoreReveal{from{opacity:0;transform:scale(.8)}to{opacity:1;transform:scale(1)}}
 .quiz-results .score-label{font-size:15px;color:var(--text3);margin-bottom:24px}
 .quiz-results .rank-badge{
   display:inline-flex;align-items:center;gap:8px;
   padding:10px 24px;border-radius:100px;font-size:15px;font-weight:700;
-  letter-spacing:.5px;margin-bottom:16px
+  letter-spacing:.5px;margin-bottom:16px;
+  animation:fadeIn .4s ease .4s both
 }
 .rank-bronze{background:rgba(205,127,50,.12);color:#CD7F32;border:1px solid rgba(205,127,50,.25)}
 .rank-silver{background:rgba(192,192,192,.12);color:#C0C0C0;border:1px solid rgba(192,192,192,.25)}
 .rank-gold{background:rgba(255,215,0,.1);color:var(--gold);border:1px solid rgba(255,215,0,.2)}
 .rank-platinum{background:rgba(229,228,226,.1);color:#E5E4E2;border:1px solid rgba(229,228,226,.2)}
 .rank-diamond{background:rgba(185,242,255,.1);color:#B9F2FF;border:1px solid rgba(185,242,255,.2)}
-.quiz-results .message{font-size:16px;color:var(--text2);max-width:400px;margin:0 auto 32px;line-height:1.6}
-.quiz-results .btn-row{display:flex;flex-direction:column;gap:10px;align-items:center}
+.quiz-results .message{font-size:16px;color:var(--text2);max-width:400px;margin:0 auto 32px;line-height:1.6;animation:fadeIn .4s ease .5s both}
+.quiz-results .btn-row{display:flex;flex-direction:column;gap:10px;align-items:center;animation:fadeIn .4s ease .6s both}
 .quiz-results .retake{
   margin-top:20px;font-size:14px;color:var(--text3);
   text-decoration:none;cursor:pointer;background:none;border:none;
@@ -139,6 +184,7 @@ body{font-family:'Outfit',sans-serif;background:var(--bg);color:var(--text);over
   body{padding:16px}
   .quiz-option{padding:14px 16px;font-size:14px}
   .quiz-results .btn-row .btn-primary,.quiz-results .btn-row .btn-secondary{width:100%;justify-content:center}
+  .quiz-intro-mascot{width:64px;height:64px}
 }
 </style>
 <script>
@@ -157,17 +203,21 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
 
 <!-- INTRO -->
 <div class="quiz-intro" id="quizIntro">
-<div class="quiz-badge">🧠 AI IQ Test</div>
+<img alt="Kiro" class="quiz-intro-mascot" decoding="async" src="assets/diamond-kiro.png"/>
+<div class="quiz-badge">AI IQ Test</div>
 <h1>How fluent are you<br/>in <span>AI?</span></h1>
-<p>10 questions. 2 minutes. Find out where you stand — and how far you could go.</p>
-<button class="btn-primary" id="startBtn">Take the Quiz →</button>
-<div class="quiz-meta">No signup required · Free</div>
+<p>10 questions. 2 minutes. Find out where you stand &mdash; and how far you could go.</p>
+<button class="btn-primary" id="startBtn">Take the Quiz &rarr;</button>
+<div class="quiz-meta">No signup required &middot; Free</div>
 </div>
 
 <!-- QUIZ -->
 <div id="quizGame" style="display:none">
 <div class="quiz-progress">
+<div class="quiz-progress-top">
 <div class="quiz-progress-label" id="progressLabel">Question 1 of 10</div>
+<div class="quiz-progress-hint" id="progressHint"></div>
+</div>
 <div class="quiz-progress-bar"><div class="quiz-progress-fill" id="progressFill" style="width:10%"></div></div>
 </div>
 <div id="questionArea"></div>
@@ -182,19 +232,20 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
 
 <script>
 const questions=[
-{q:"What\u2019s the biggest risk of asking AI to summarize a long document?",opts:["It takes too long","It might leave out or misrepresent key details","It will refuse","It costs more tokens"],ans:1},
-{q:"What\u2019s the difference between AI \u2018training\u2019 and \u2018inference\u2019?",opts:["Training is when AI learns from data; inference is when it uses that learning to generate outputs","They\u2019re the same thing","Training is faster than inference","Inference only works offline"],ans:0},
-{q:"You ask AI to write a product description and it sounds generic. What should you try first?",opts:["Switch to a different AI model","Add specific details about your audience, tone, and what makes the product unique","Make the prompt shorter so the AI isn\u2019t overwhelmed","Ask it to \u2018be more creative\u2019"],ans:1},
-{q:"What does 'context window' mean?",opts:["The screen size of the AI app","The amount of text an AI can process in a single conversation","The time limit on a chat session","A browser extension for AI"],ans:1},
-{q:"An AI model gives you a confident, well-written answer with a source citation. What should you assume?",opts:["It\u2019s accurate because it cited a source","The source is real but you should verify the claim","The citation itself may be fabricated and needs verification","Nothing \u2014 AI always cites correctly"],ans:2},
-{q:"Why would a company use RAG instead of fine-tuning for a customer support bot?",opts:["RAG is always cheaper","RAG lets the bot pull from up-to-date docs without retraining the model","Fine-tuning doesn\u2019t work for customer support","RAG doesn\u2019t require any data"],ans:1},
-{q:"What does 'temperature' control in an AI model?",opts:["Processing speed","How creative vs. predictable the output is","The length of the response","How many sources it references"],ans:1},
-{q:"Your company wants to use AI to answer customer questions using internal docs. What approach fits best?",opts:["Fine-tune GPT-4 from scratch","Build a RAG system that retrieves from your knowledge base","Copy-paste docs into every chat","Train your own LLM"],ans:1},
-{q:"You use AI to draft a contract clause. It reads perfectly. What\u2019s the most dangerous assumption?",opts:["That it took too long to generate","That because it sounds professional, it\u2019s legally accurate","That the formatting won\u2019t match your template","That it used too many tokens"],ans:1},
-{q:"When is fine-tuning a model better than using a detailed prompt?",opts:["Always \u2014 fine-tuning is superior to prompting","When you need consistent behavior across thousands of similar tasks","When you want the AI to browse the internet","When the model is too slow"],ans:1}
+{q:"What\u2019s the biggest risk of asking AI to summarize a long document?",opts:["It takes too long to process and slows down your workflow","It will refuse to summarize if the document is too large","It costs significantly more tokens than other tasks","It might leave out or misrepresent key details"],ans:3,diff:"easy"},
+{q:"What\u2019s the difference between AI \u2018training\u2019 and \u2018inference\u2019?",opts:["They\u2019re the same thing, just different vendor terminology","Training is faster than inference because it uses less data","Training is when AI learns from data; inference is when it uses that learning to generate outputs","Inference is when AI collects new training data from users"],ans:2,diff:"easy"},
+{q:"You ask AI to write a product description and it sounds generic. What should you try first?",opts:["Switch to a different AI model that specializes in marketing","Make the prompt shorter so the AI isn\u2019t overwhelmed by details","Ask it to \u2018be more creative\u2019 and try again with the same prompt","Add specific details about your audience, tone, and what makes the product unique"],ans:3,diff:"easy"},
+{q:"What does \u2018context window\u2019 mean?",opts:["The amount of text an AI can process in a single conversation","The screen size and layout settings of the AI app","A browser extension that adds AI to every website","The time limit before a chat session automatically expires"],ans:0,diff:"medium"},
+{q:"An AI model gives you a confident, well-written answer with a source citation. What should you assume?",opts:["It\u2019s accurate because it took the time to cite a source","Nothing \u2014 AI models always cite sources correctly by design","The source is real but the specific claim might be slightly off","The citation itself may be fabricated and needs verification"],ans:3,diff:"medium"},
+{q:"Why would a company use RAG instead of fine-tuning for a customer support bot?",opts:["Fine-tuning doesn\u2019t work at all for customer support use cases","RAG doesn\u2019t require any data, so it\u2019s easier to set up","RAG is always cheaper regardless of the use case or scale","RAG lets the bot pull from up-to-date docs without retraining the model"],ans:3,diff:"medium"},
+{q:"What does \u2018temperature\u2019 control in an AI model?",opts:["How creative vs. predictable the output is","The total processing speed of each API request","How many external sources it pulls from for answers","The maximum length and word count of the response"],ans:0,diff:"medium"},
+{q:"Your company wants to use AI to answer customer questions using internal docs. What approach fits best?",opts:["Copy-paste all your docs into every single chat session","Train your own large language model from scratch on company data","Fine-tune GPT-4 from scratch using your entire company database","Build a RAG system that retrieves relevant info from your knowledge base"],ans:3,diff:"hard"},
+{q:"You use AI to draft a contract clause. It reads perfectly. What\u2019s the most dangerous assumption?",opts:["That because it sounds professional, it\u2019s legally accurate","That the formatting won\u2019t match your existing contract template","That it took too long to generate compared to writing it manually","That it used too many tokens and will increase your API costs"],ans:0,diff:"hard"},
+{q:"When is fine-tuning a model better than using a detailed prompt?",opts:["When you want the AI to browse the internet for real-time data","Always \u2014 fine-tuning is superior to prompting in every scenario","When you need consistent behavior across thousands of similar tasks","When the model is running too slowly and you need to speed it up"],ans:2,diff:"hard"}
 ];
 
 const letters=['A','B','C','D'];
+const diffLabels={easy:'Easy',medium:'Medium',hard:'Hard'};
 let current=0,score=0;
 
 document.getElementById('startBtn').addEventListener('click',()=>{
@@ -207,8 +258,20 @@ function showQuestion(){
   const q=questions[current];
   document.getElementById('progressLabel').textContent=`Question ${current+1} of 10`;
   document.getElementById('progressFill').style.width=((current+1)*10)+'%';
+
+  const hint=document.getElementById('progressHint');
+  if(current>=6){
+    hint.textContent=current>=8?'Last one!':'Almost there!';
+    hint.classList.add('visible');
+  } else {
+    hint.classList.remove('visible');
+  }
+
   const area=document.getElementById('questionArea');
-  area.innerHTML=`<div class="quiz-question"><h2>${q.q}</h2><div class="quiz-options">${
+  area.innerHTML=`<div class="quiz-question">
+    <div class="quiz-q-number">Q${current+1}<span class="quiz-q-difficulty diff-${q.diff}">${diffLabels[q.diff]}</span></div>
+    <h2>${q.q}</h2>
+    <div class="quiz-options">${
     q.opts.map((o,i)=>`<button class="quiz-option" data-idx="${i}"><span class="quiz-option-letter">${letters[i]}</span>${o}</button>`).join('')
   }</div></div>`;
   area.querySelectorAll('.quiz-option').forEach(btn=>{
@@ -238,21 +301,22 @@ function showResults(){
   const r=document.getElementById('quizResults');
   r.style.display='block';
 
-  let rank,rankClass,msg;
-  if(score<=3){rank='Bronze';rankClass='rank-bronze';msg='Most people score here. Kiro can get you to Platinum in a week.'}
-  else if(score<=5){rank='Silver';rankClass='rank-silver';msg='Most people score here. Kiro can get you to Platinum in a week.'}
-  else if(score<=7){rank='Gold';rankClass='rank-gold';msg="You've got a foundation. Kiro will sharpen it into a real skill."}
-  else if(score<=9){rank='Platinum';rankClass='rank-platinum';msg='Impressive. Kiro Pro will push you even further.'}
-  else{rank='Diamond';rankClass='rank-diamond';msg='Impressive. Kiro Pro will push you even further.'}
+  let rank,rankClass,msg,mascot;
+  if(score<=3){rank='Bronze';rankClass='rank-bronze';msg='Most people score here. Kiro can get you to Platinum in a week.';mascot='bronze-kiro.png'}
+  else if(score<=5){rank='Silver';rankClass='rank-silver';msg='Most people score here. Kiro can get you to Platinum in a week.';mascot='silver-kiro.png'}
+  else if(score<=7){rank='Gold';rankClass='rank-gold';msg="You\u2019ve got a foundation. Kiro will sharpen it into a real skill.";mascot='gold-kiro.png'}
+  else if(score<=9){rank='Platinum';rankClass='rank-platinum';msg='Impressive. Kiro Pro will push you even further.';mascot='platinum-kiro.png'}
+  else{rank='Diamond';rankClass='rank-diamond';msg='Impressive. Kiro Pro will push you even further.';mascot='diamond-kiro.png'}
 
   r.innerHTML=`<div class="quiz-results">
+    <img alt="${rank} Kiro" class="results-mascot" decoding="async" src="assets/${mascot}"/>
     <div class="score-big">${score}/10</div>
     <div class="score-label">Your AI Fluency Score</div>
     <div class="rank-badge ${rankClass}">${rank}</div>
     <p class="message">${msg}</p>
     <div class="btn-row">
       <a class="btn-primary" href="https://apps.apple.com/app/id6759628066">Download Kiro &mdash; It's Free</a>
-      <button class="btn-secondary" id="shareBtn">📋 Share Your Score</button>
+      <button class="btn-secondary" id="shareBtn">Share Your Score</button>
     </div>
     <button class="retake" id="retakeBtn">Retake Quiz</button>
   </div>`;
@@ -268,7 +332,8 @@ function showResults(){
   document.getElementById('retakeBtn').addEventListener('click',()=>{
     current=0;score=0;
     r.style.display='none';
-    document.getElementById('quizIntro').style.display='block';
+    document.getElementById('quizGame').style.display='block';
+    showQuestion();
   });
 }
 </script>

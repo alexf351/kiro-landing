@@ -179,10 +179,11 @@ nav{
 /* ══════════════════ EXERCISE TYPES ══════════════════ */
 .exercise-types{margin-top:36px;text-align:center}
 .exercise-types-label{font-size:12px;font-weight:700;color:var(--text3);letter-spacing:2px;text-transform:uppercase;margin-bottom:14px}
-.exercise-pills{display:flex;flex-wrap:wrap;gap:8px;justify-content:center}
+.exercise-pills{display:flex;gap:8px;overflow-x:auto;-webkit-overflow-scrolling:touch;scrollbar-width:none;-ms-overflow-style:none}
+.exercise-pills::-webkit-scrollbar{display:none}
 .exercise-pill{
   padding:6px 14px;border-radius:100px;font-size:12px;font-weight:600;
-  color:var(--text2);letter-spacing:.2px;
+  color:var(--text2);letter-spacing:.2px;white-space:nowrap;flex-shrink:0;
   border:1px solid var(--surface-border);
   background:var(--surface);
   box-shadow:0 0 20px rgba(0,229,255,.1);transition:box-shadow .3s
@@ -685,9 +686,9 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
 <div class="proof-grid">
 <div class="proof-card">
 <div class="proof-stars">★★★★★</div>
-<p class="proof-text">"Delegate or DIY changed how I think about AI at work. I use that framework every day now."</p>
-<p class="proof-author">— Beta tester, Product Manager</p>
-<span class="proof-role">Uses it before work</span>
+<p class="proof-text">"I used what I learned in Kiro to automate half my weekly reports. My manager noticed within days."</p>
+<p class="proof-author">&mdash; Beta tester, Product Manager</p>
+<span class="proof-role">Applied AI at work in week 1</span>
 </div>
 <div class="proof-card">
 <div class="proof-stars">★★★★★</div>
