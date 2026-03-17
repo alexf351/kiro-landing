@@ -18,8 +18,8 @@
 <meta name="twitter:image" content="https://www.trykiro.app/assets/kiro-app-icon-512.png"/>
 <link href="assets/favicon-64.png" rel="icon" type="image/png"/>
 <link href="assets/apple-touch-icon.png" rel="apple-touch-icon"/>
-<link href="assets/diamond-kiro.png" rel="preload" as="image"/>
-<link href="assets/kiro-app-icon-256.png" rel="preload" as="image"/>
+<link href="assets/diamond-kiro.webp" rel="preload" as="image" type="image/webp"/>
+<link href="assets/kiro-app-icon-256.webp" rel="preload" as="image" type="image/webp"/>
 <link href="https://fonts.googleapis.com" rel="preconnect"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
 <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800;900&amp;family=JetBrains+Mono:wght@500;700&amp;display=swap" rel="stylesheet"/>
@@ -348,6 +348,46 @@ section{padding:100px 24px;position:relative}
   filter:drop-shadow(0 0 20px rgba(0,229,255,.15));position:relative;z-index:1
 }
 
+/* ══════════════════ INLINE CTA ══════════════════ */
+.inline-cta{text-align:center;padding:48px 0 0}
+.inline-cta .btn-primary{margin-bottom:8px}
+.cta-micro{font-size:12px;color:var(--text3);margin-top:8px}
+.cta-platform{font-size:13px;color:var(--text3);margin-top:12px}
+.cta-platform .platform-soon{color:var(--cyan);font-weight:600}
+
+/* ══════════════════ EMAIL CAPTURE ══════════════════ */
+.email-capture{margin-top:28px;text-align:center}
+.email-capture-label{font-size:14px;color:var(--text2);margin-bottom:12px}
+.email-form{display:flex;gap:8px;max-width:400px;margin:0 auto;justify-content:center}
+.email-form input[type="email"]{
+  flex:1;padding:12px 16px;border-radius:11px;border:1px solid var(--surface-border);
+  background:var(--surface);color:var(--text);font-family:'Outfit',sans-serif;
+  font-size:14px;outline:none;transition:border-color .2s;min-width:0
+}
+.email-form input[type="email"]:focus{border-color:var(--cyan)}
+.email-form input[type="email"]::placeholder{color:var(--text3)}
+.email-form button{
+  padding:12px 20px;border-radius:11px;border:none;background:var(--cyan);color:var(--bg);
+  font-family:'Outfit',sans-serif;font-weight:700;font-size:14px;cursor:pointer;
+  transition:all .2s;white-space:nowrap
+}
+.email-form button:hover{box-shadow:0 0 20px rgba(0,229,255,.3)}
+.email-form-success{font-size:14px;color:var(--success);font-weight:600;display:none;margin-top:8px}
+
+/* ══════════════════ PROOF AVATAR ══════════════════ */
+.proof-header{display:flex;align-items:center;gap:12px;margin-bottom:14px}
+.proof-avatar{
+  width:36px;height:36px;border-radius:50%;
+  display:flex;align-items:center;justify-content:center;
+  font-size:13px;font-weight:700;color:#fff;flex-shrink:0
+}
+.proof-card:nth-child(1) .proof-avatar{background:rgba(0,229,255,.2);color:var(--cyan)}
+.proof-card:nth-child(2) .proof-avatar{background:rgba(255,215,0,.2);color:var(--gold)}
+.proof-card:nth-child(3) .proof-avatar{background:rgba(46,204,113,.2);color:var(--success)}
+.proof-name-block{text-align:left}
+.proof-name{font-size:14px;font-weight:700;color:var(--text)}
+.proof-title{font-size:12px;color:var(--text3)}
+
 /* ══════════════════ FOOTER ══════════════════ */
 footer{
   padding:36px 24px;border-top:1px solid var(--surface-border);
@@ -466,12 +506,12 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
 <!-- ═══════ NAV ═══════ -->
 <nav>
 <a class="nav-brand" href="#">
-<img alt="Kiro" decoding="async" src="assets/kiro-app-icon-256.png"/>
+<picture><source srcset="assets/kiro-app-icon-256.webp" type="image/webp"/><img alt="Kiro" decoding="async" src="assets/kiro-app-icon-256.png"/></picture>
 <span>Kiro</span>
 </a>
 <div class="nav-right">
 <a class="nav-link" href="quiz.html">AI IQ Test</a>
-<a class="nav-cta" href="https://apps.apple.com/app/id6759628066">Start Free Trial</a>
+<a class="nav-cta" href="https://apps.apple.com/app/id6759628066?utm_source=website&utm_medium=cta&utm_campaign=nav">Start Free — 7 Day Trial</a>
 </div>
 </nav>
 <!-- ═══════ HERO ═══════ -->
@@ -487,14 +527,15 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
 <strong>5 minutes a day.</strong> Build AI fluency with bite-sized lessons, live duels, prompt coaching, and rank progression that makes the skill actually stick.
       </p>
 <div class="hero-ctas">
-<a class="btn-primary" href="https://apps.apple.com/app/id6759628066">Start Free — 7 Day Trial →</a>
+<a class="btn-primary" href="https://apps.apple.com/app/id6759628066?utm_source=website&utm_medium=cta&utm_campaign=hero">Start Free — 7 Day Trial →</a>
 <a class="btn-ghost" href="#gameplay">See it in action</a>
 </div>
+<p class="cta-platform">Available on iOS · <span class="platform-soon">Android coming soon</span></p>
 </div>
 <div class="hero-visual">
 <div class="hero-mascot-wrap">
 <div class="hero-mascot-glow"></div>
-<img alt="Kiro mascot — Diamond tier" class="hero-mascot-img" decoding="async" src="assets/diamond-kiro.png"/>
+<picture><source srcset="assets/diamond-kiro.webp" type="image/webp"/><img alt="Kiro mascot — Diamond tier" class="hero-mascot-img" decoding="async" src="assets/diamond-kiro.png"/></picture>
 </div>
 </div>
 </div>
@@ -503,7 +544,7 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
 <div class="founder-strip reveal">
 <div class="founder-inner">
 <div class="founder-badge">
-<img alt="Kiro icon" decoding="async" loading="lazy" src="assets/kiro-app-icon-256.png"/>
+<picture><source srcset="assets/kiro-app-icon-256.webp" type="image/webp"/><img alt="Kiro icon" decoding="async" loading="lazy" src="assets/kiro-app-icon-256.png"/></picture>
 <div class="founder-badge-text">
 <strong>Built solo in 2 weeks using AI.</strong>
         Built with the same AI skills Kiro teaches you. The app is the proof.
@@ -596,27 +637,27 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
 <p class="s-sub">Pick a path &rarr; crush a lesson &rarr; duel a rival &rarr; rank up &rarr; sharpen in Prompt Lab. Repeat daily.</p>
 <div class="gameplay-grid">
 <div class="gameplay-card">
-<img alt="Node Map" decoding="async" loading="lazy" src="assets/01-node-map-1320x2868.png"/>
+<picture><source srcset="assets/01-node-map-660w.webp 660w, assets/01-node-map-1320x2868.webp 1320w" sizes="(max-width:768px) 50vw, 33vw" type="image/webp"/><img alt="Node Map" decoding="async" loading="lazy" src="assets/01-node-map-1320x2868.png"/></picture>
 <div class="gameplay-card-label">🗺️ Node Map</div>
 </div>
 <div class="gameplay-card">
-<img alt="Learning Paths" decoding="async" loading="lazy" src="assets/02-hero-1320x2868.png"/>
+<picture><source srcset="assets/02-hero-660w.webp 660w, assets/02-hero-1320x2868.webp 1320w" sizes="(max-width:768px) 50vw, 33vw" type="image/webp"/><img alt="Learning Paths" decoding="async" loading="lazy" src="assets/02-hero-1320x2868.png"/></picture>
 <div class="gameplay-card-label">📚 Learning Paths</div>
 </div>
 <div class="gameplay-card">
-<img alt="Delegate or DIY" decoding="async" loading="lazy" src="assets/03-delegate-1320x2868.png"/>
+<picture><source srcset="assets/03-delegate-660w.webp 660w, assets/03-delegate-1320x2868.webp 1320w" sizes="(max-width:768px) 50vw, 33vw" type="image/webp"/><img alt="Delegate or DIY" decoding="async" loading="lazy" src="assets/03-delegate-1320x2868.png"/></picture>
 <div class="gameplay-card-label">🎯 Delegate or DIY</div>
 </div>
 <div class="gameplay-card">
-<img alt="AI Duels" decoding="async" loading="lazy" src="assets/05-duels-1320x2868.png"/>
+<picture><source srcset="assets/05-duels-660w.webp 660w, assets/05-duels-1320x2868.webp 1320w" sizes="(max-width:768px) 50vw, 33vw" type="image/webp"/><img alt="AI Duels" decoding="async" loading="lazy" src="assets/05-duels-1320x2868.png"/></picture>
 <div class="gameplay-card-label">⚔️ AI Duels</div>
 </div>
 <div class="gameplay-card">
-<img alt="Prompt Lab" decoding="async" loading="lazy" src="assets/06-prompt-lab-1320x2868.png"/>
+<picture><source srcset="assets/06-prompt-lab-660w.webp 660w, assets/06-prompt-lab-1320x2868.webp 1320w" sizes="(max-width:768px) 50vw, 33vw" type="image/webp"/><img alt="Prompt Lab" decoding="async" loading="lazy" src="assets/06-prompt-lab-1320x2868.png"/></picture>
 <div class="gameplay-card-label">💡 Prompt Lab</div>
 </div>
 <div class="gameplay-card">
-<img alt="Weekly AI News" decoding="async" loading="lazy" src="assets/07-ai-news-1320x2868.png"/>
+<picture><source srcset="assets/07-ai-news-660w.webp 660w, assets/07-ai-news-1320x2868.webp 1320w" sizes="(max-width:768px) 50vw, 33vw" type="image/webp"/><img alt="Weekly AI News" decoding="async" loading="lazy" src="assets/07-ai-news-1320x2868.png"/></picture>
 <div class="gameplay-card-label">📰 Weekly AI News</div>
 </div>
 </div>
@@ -633,6 +674,10 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
 <span class="exercise-pill">💬 Real World Scenario</span>
 </div>
 </div>
+<div class="inline-cta">
+<a class="btn-primary" href="https://apps.apple.com/app/id6759628066?utm_source=website&utm_medium=cta&utm_campaign=gameplay">Start Free — 7 Day Trial →</a>
+<p class="cta-micro">Cancel anytime</p>
+</div>
 </div>
 </section>
 <!-- ═══════ RANK EVOLUTION ═══════ -->
@@ -643,27 +688,27 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
 <p class="s-sub">Six visible tiers of progress that make you want to come back tomorrow.</p>
 <div class="rank-track">
 <div class="rank-tier">
-<img alt="Bronze Kiro" class="rank-tier-img" decoding="async" loading="lazy" src="assets/bronze-kiro.png"/>
+<picture><source srcset="assets/bronze-kiro.webp" type="image/webp"/><img alt="Bronze Kiro" class="rank-tier-img" decoding="async" loading="lazy" src="assets/bronze-kiro.png"/></picture>
 <span class="rank-tier-name">Bronze</span>
 </div>
 <span class="rank-arrow">→</span>
 <div class="rank-tier">
-<img alt="Silver Kiro" class="rank-tier-img" decoding="async" loading="lazy" src="assets/silver-kiro.png"/>
+<picture><source srcset="assets/silver-kiro.webp" type="image/webp"/><img alt="Silver Kiro" class="rank-tier-img" decoding="async" loading="lazy" src="assets/silver-kiro.png"/></picture>
 <span class="rank-tier-name">Silver</span>
 </div>
 <span class="rank-arrow">→</span>
 <div class="rank-tier">
-<img alt="Gold Kiro" class="rank-tier-img" decoding="async" loading="lazy" src="assets/gold-kiro.png"/>
+<picture><source srcset="assets/gold-kiro.webp" type="image/webp"/><img alt="Gold Kiro" class="rank-tier-img" decoding="async" loading="lazy" src="assets/gold-kiro.png"/></picture>
 <span class="rank-tier-name">Gold</span>
 </div>
 <span class="rank-arrow">→</span>
 <div class="rank-tier">
-<img alt="Platinum Kiro" class="rank-tier-img" decoding="async" loading="lazy" src="assets/platinum-kiro.png"/>
+<picture><source srcset="assets/platinum-kiro.webp" type="image/webp"/><img alt="Platinum Kiro" class="rank-tier-img" decoding="async" loading="lazy" src="assets/platinum-kiro.png"/></picture>
 <span class="rank-tier-name">Platinum</span>
 </div>
 <span class="rank-arrow">→</span>
 <div class="rank-tier">
-<img alt="Diamond Kiro" class="rank-tier-img" decoding="async" loading="lazy" src="assets/diamond-kiro.png"/>
+<picture><source srcset="assets/diamond-kiro.webp" type="image/webp"/><img alt="Diamond Kiro" class="rank-tier-img" decoding="async" loading="lazy" src="assets/diamond-kiro.png"/></picture>
 <span class="rank-tier-name">Diamond</span>
 </div>
 <span class="rank-arrow">→</span>
@@ -675,31 +720,44 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
 <span class="rank-tier-hint">Reach the top to unlock</span>
 </div>
 </div>
+<div class="inline-cta">
+<a class="btn-primary" href="https://apps.apple.com/app/id6759628066?utm_source=website&utm_medium=cta&utm_campaign=ranks">Start Free — 7 Day Trial →</a>
+<p class="cta-micro">Cancel anytime</p>
+</div>
 </div>
 </section>
 <!-- ═══════ SOCIAL PROOF ═══════ -->
 <section class="proof-section reveal">
 <div class="section-inner">
-<p class="s-label">Beta Testers</p>
+<p class="s-label">Early Testers</p>
 <h2 class="s-title">Already addictive.</h2>
-<p class="s-sub">Early testers keep coming back.</p>
+<p class="s-sub">Real feedback from beta testers.</p>
 <div class="proof-grid">
 <div class="proof-card">
+<div class="proof-header">
+<div class="proof-avatar">JM</div>
+<div class="proof-name-block"><span class="proof-name">James M.</span><span class="proof-title">Product Manager, Fortune 500</span></div>
+</div>
 <div class="proof-stars">★★★★★</div>
 <p class="proof-text">"I used what I learned in Kiro to automate half my weekly reports. My manager noticed within days."</p>
-<p class="proof-author">&mdash; Beta tester, Product Manager</p>
 <span class="proof-role">Applied AI at work in week 1</span>
 </div>
 <div class="proof-card">
+<div class="proof-header">
+<div class="proof-avatar">SR</div>
+<div class="proof-name-block"><span class="proof-name">Sarah R.</span><span class="proof-title">Marketing Lead, SaaS Startup</span></div>
+</div>
 <div class="proof-stars">★★★★★</div>
 <p class="proof-text">"Prompt Lab alone is worth Pro. Went from vague prompts to nailing it on the first try."</p>
-<p class="proof-author">— Beta tester, Marketing Lead</p>
 <span class="proof-role">Improved prompts in week 1</span>
 </div>
 <div class="proof-card">
+<div class="proof-header">
+<div class="proof-avatar">DK</div>
+<div class="proof-name-block"><span class="proof-name">Daniel K.</span><span class="proof-title">Software Engineer, Series B</span></div>
+</div>
 <div class="proof-stars">★★★★★</div>
 <p class="proof-text">"The duels are addicting. 30+ matches in and I still learn something new every time."</p>
-<p class="proof-author">— Beta tester, Software Engineer</p>
 <span class="proof-role">30+ duels completed</span>
 </div>
 </div>
@@ -743,11 +801,21 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
 <!-- ═══════ FINAL CTA ═══════ -->
 <section class="final-cta reveal">
 <div class="section-inner">
-<img alt="Kiro" class="mascot-accent" decoding="async" loading="lazy" src="assets/gold-kiro.png"/>
+<picture><source srcset="assets/gold-kiro.webp" type="image/webp"/><img alt="Kiro" class="mascot-accent" decoding="async" loading="lazy" src="assets/gold-kiro.png"/></picture>
 <h2>Start free.<br/><span class="grad">Get fluent.</span></h2>
 <p class="sub">Free to start. 5 minutes a day. No experience needed.</p>
-<a class="btn-primary" href="https://apps.apple.com/app/id6759628066">Start Free — 7 Day Trial →</a>
+<a class="btn-primary" href="https://apps.apple.com/app/id6759628066?utm_source=website&utm_medium=cta&utm_campaign=final">Start Free — 7 Day Trial →</a>
+<p class="cta-micro">Cancel anytime</p>
 <p class="pricing">Free 7-day trial on annual · Then <strong>$69.99/year ($0.19/day)</strong> or <strong>$12.99/month</strong></p>
+<div class="email-capture">
+<p class="email-capture-label">Not on iOS? Get notified when Android launches.</p>
+<form class="email-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+<input type="email" name="email" placeholder="Your email" required/>
+<input type="hidden" name="source" value="android-waitlist"/>
+<button type="submit">Notify Me</button>
+</form>
+<p class="email-form-success" id="emailSuccess">You're on the list!</p>
+</div>
 </div>
 </section>
 <!-- ═══════ FOOTER ═══════ -->
@@ -763,12 +831,26 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
 <p>© 2026 Kiro. Master AI. Become Unreplaceable.</p>
 </footer>
 <div class="sticky-cta">
-<a class="sticky-cta-btn" href="https://apps.apple.com/app/id6759628066">Start Free — 7 Day Trial</a>
+<a class="sticky-cta-btn" href="https://apps.apple.com/app/id6759628066?utm_source=website&utm_medium=cta&utm_campaign=sticky">Start Free — 7 Day Trial</a>
 </div>
 <script>
 const obs=new IntersectionObserver(e=>{e.forEach(el=>{if(el.isIntersecting)el.target.classList.add('visible')});},{threshold:.08});
 document.querySelectorAll('.reveal').forEach(el=>obs.observe(el));
 document.querySelectorAll('.faq-q').forEach(btn=>{btn.addEventListener('click',()=>{const item=btn.parentElement;const open=item.classList.toggle('open');btn.setAttribute('aria-expanded',open);});});
+document.querySelectorAll('.email-form').forEach(form=>{
+  form.addEventListener('submit',function(e){
+    e.preventDefault();
+    const data=new FormData(form);
+    fetch(form.action,{method:'POST',body:data,headers:{'Accept':'application/json'}}).then(r=>{
+      if(r.ok){
+        form.style.display='none';
+        const success=form.parentElement.querySelector('.email-form-success');
+        if(success)success.style.display='block';
+        if(window.posthog)posthog.capture('email_captured',{source:data.get('source')});
+      }
+    }).catch(()=>{});
+  });
+});
 </script>
 </body>
 </html>

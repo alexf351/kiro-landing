@@ -228,6 +228,28 @@ body::before{
 }
 .results-weakness strong{color:var(--text2)}
 
+/* EMAIL CAPTURE */
+.email-capture{margin-top:20px;animation:fadeIn .4s ease .7s both}
+.email-capture-label{font-size:14px;color:var(--text2);margin-bottom:10px}
+.email-form{display:flex;gap:8px;justify-content:center}
+.email-form input[type="email"]{
+  flex:1;padding:12px 16px;border-radius:11px;border:1px solid var(--surface-border);
+  background:var(--surface);color:var(--text);font-family:'Outfit',sans-serif;
+  font-size:14px;outline:none;transition:border-color .2s;min-width:0
+}
+.email-form input[type="email"]:focus{border-color:var(--cyan)}
+.email-form input[type="email"]::placeholder{color:var(--text3)}
+.email-form button{
+  padding:12px 20px;border-radius:11px;border:none;background:var(--cyan);color:var(--bg);
+  font-family:'Outfit',sans-serif;font-weight:700;font-size:14px;cursor:pointer;
+  transition:all .2s;white-space:nowrap
+}
+.email-form button:hover{box-shadow:0 0 20px rgba(0,229,255,.3)}
+.email-form-success{font-size:14px;color:var(--success);font-weight:600;display:none;margin-top:8px}
+.cta-micro{font-size:12px;color:var(--text3);margin-top:8px}
+.cta-platform{font-size:13px;color:var(--text3);margin-top:10px}
+.cta-platform .platform-soon{color:var(--cyan);font-weight:600}
+
 @keyframes fadeIn{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
 @media(max-width:480px){
   body{padding:16px}
@@ -244,7 +266,7 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
 <body>
 
 <nav class="quiz-nav">
-<a class="quiz-logo" href="index.html"><img alt="Kiro" decoding="async" src="assets/kiro-app-icon-256.png"/><span>Kiro</span></a>
+<a class="quiz-logo" href="index.html"><picture><source srcset="assets/kiro-app-icon-256.webp" type="image/webp"/><img alt="Kiro" decoding="async" src="assets/kiro-app-icon-256.png"/></picture><span>Kiro</span></a>
 <a href="index.html">&larr; Back to site</a>
 </nav>
 
@@ -252,7 +274,7 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
 
 <!-- INTRO -->
 <div class="quiz-intro" id="quizIntro">
-<img alt="Kiro" class="quiz-intro-mascot" decoding="async" src="assets/diamond-kiro.png"/>
+<picture><source srcset="assets/diamond-kiro.webp" type="image/webp"/><img alt="Kiro" class="quiz-intro-mascot" decoding="async" src="assets/diamond-kiro.png"/></picture>
 <div class="quiz-badge">AI IQ Test</div>
 <h1>How fluent are you<br/>in <span>AI?</span></h1>
 <p>10 questions. 2 minutes. Find out where you stand &mdash; and how far you could go.</p>
@@ -427,15 +449,28 @@ function showResults(){
   }
 
   r.innerHTML=`<div class="quiz-results">
-    <img alt="${rank} Kiro" class="results-mascot" decoding="async" src="assets/${mascot}"/>
+    <picture><source srcset="assets/${mascot.replace('.png','.webp')}" type="image/webp"/><img alt="${rank} Kiro" class="results-mascot" decoding="async" src="assets/${mascot}"/></picture>
     <div class="score-big shimmer-${rank.toLowerCase()}">${score}/10</div>
     <div class="score-label">Your AI Fluency Score</div>
     <div class="rank-badge ${rankClass}">${rank}</div>
     ${weaknessHtml}
     <p class="message">${msg}</p>
     <div class="btn-row">
-      <a class="btn-primary" href="https://apps.apple.com/app/id6759628066">Download Kiro &mdash; It's Free</a>
+      <a class="btn-primary" href="https://apps.apple.com/app/id6759628066?utm_source=website&utm_medium=cta&utm_campaign=quiz_results">Download Kiro &mdash; It's Free</a>
+      <p class="cta-micro">Cancel anytime</p>
+      <p class="cta-platform">Available on iOS · <span class="platform-soon">Android coming soon</span></p>
       <button class="btn-secondary" id="shareBtn">Challenge a Friend</button>
+    </div>
+    <div class="email-capture">
+      <p class="email-capture-label">Get your personalized AI learning plan</p>
+      <form class="email-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+        <input type="email" name="email" placeholder="Your email" required/>
+        <input type="hidden" name="source" value="quiz-results"/>
+        <input type="hidden" name="score" value="${score}"/>
+        <input type="hidden" name="rank" value="${rank}"/>
+        <button type="submit">Send Plan</button>
+      </form>
+      <p class="email-form-success" id="quizEmailSuccess">Check your inbox!</p>
     </div>
     <button class="retake" id="retakeBtn">Retake Quiz</button>
   </div>`;
@@ -456,6 +491,22 @@ function showResults(){
 
   const retakeLabel=quizIndex<allQuizzes.length-1?'Try Quiz '+(quizIndex+2)+' \u2192':'Retake Quiz';
   document.getElementById('retakeBtn').textContent=retakeLabel;
+
+  const emailForm=r.querySelector('.email-form');
+  if(emailForm){
+    emailForm.addEventListener('submit',function(e){
+      e.preventDefault();
+      const data=new FormData(emailForm);
+      fetch(emailForm.action,{method:'POST',body:data,headers:{'Accept':'application/json'}}).then(res=>{
+        if(res.ok){
+          emailForm.style.display='none';
+          const success=document.getElementById('quizEmailSuccess');
+          if(success)success.style.display='block';
+          if(window.posthog)posthog.capture('email_captured',{source:'quiz-results',score,rank});
+        }
+      }).catch(()=>{});
+    });
+  }
 
   document.getElementById('retakeBtn').addEventListener('click',()=>{
     quizIndex=(quizIndex+1)%allQuizzes.length;
