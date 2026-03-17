@@ -149,9 +149,13 @@ body::before{
 .quiz-results .score-big{
   font-family:'JetBrains Mono',monospace;font-size:clamp(56px,10vw,80px);
   font-weight:700;letter-spacing:-3px;margin-bottom:4px;
-  animation:scoreReveal .5s ease .2s both
+  background:linear-gradient(90deg,#00E5FF,#fff,#00B4D8,#fff,#00E5FF);
+  background-size:300% 100%;
+  -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;
+  animation:scoreReveal .5s ease .2s both,scoreShimmer 3s ease infinite .7s
 }
 @keyframes scoreReveal{from{opacity:0;transform:scale(.8)}to{opacity:1;transform:scale(1)}}
+@keyframes scoreShimmer{0%,100%{background-position:0% 50%}50%{background-position:100% 50%}}
 .quiz-results .score-label{font-size:16px;color:var(--text2);margin-bottom:24px;font-weight:600}
 .quiz-results .rank-badge{
   display:inline-flex;align-items:center;gap:8px;
