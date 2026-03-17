@@ -189,6 +189,7 @@ nav{
 
 /* ══════════════════ SECTION UTILS ══════════════════ */
 section{padding:100px 24px;position:relative}
+.section-inner{max-width:1140px;margin:0 auto}
 .s-label{
   font-size:11px;font-weight:700;letter-spacing:3px;text-transform:uppercase;
   color:var(--cyan);margin-bottom:14px;text-align:center
@@ -310,10 +311,14 @@ section{padding:100px 24px;position:relative}
 /* ══════════════════ SOCIAL PROOF ══════════════════ */
 .proof-section{background:var(--bg1);border-top:1px solid var(--surface-border);border-bottom:1px solid var(--surface-border)}
 .proof-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;max-width:960px;margin:0 auto}
-.proof-card{background:var(--surface);border:1px solid var(--surface-border);border-radius:16px;padding:28px}
+.proof-card{background:var(--surface);border:1px solid var(--surface-border);border-radius:16px;padding:28px;border-left:3px solid var(--surface-border)}
+.proof-card:nth-child(1){border-left-color:var(--cyan)}
+.proof-card:nth-child(2){border-left-color:var(--gold)}
+.proof-card:nth-child(3){border-left-color:var(--success)}
 .proof-stars{color:var(--gold);font-size:14px;margin-bottom:10px;letter-spacing:2px}
 .proof-text{font-size:15px;line-height:1.55;color:var(--text);margin-bottom:14px}
 .proof-author{font-size:13px;color:var(--text3);font-weight:500}
+.proof-role{display:block;font-size:12px;color:var(--text3);margin-top:2px;font-style:italic}
 
 /* ══════════════════ FINAL CTA ══════════════════ */
 .final-cta{text-align:center;padding:120px 24px;position:relative}
@@ -372,10 +377,17 @@ footer a:hover{color:var(--text2)}
 }
 .faq-q:hover{color:var(--cyan)}
 .faq-toggle{
-  font-size:20px;color:var(--text3);flex-shrink:0;
-  transition:transform .25s
+  width:20px;height:20px;flex-shrink:0;position:relative;
+  transition:transform .3s ease
 }
+.faq-toggle::before,.faq-toggle::after{
+  content:'';position:absolute;background:var(--text3);border-radius:1px;
+  transition:background .2s
+}
+.faq-toggle::before{width:12px;height:2px;top:50%;left:50%;transform:translate(-50%,-50%)}
+.faq-toggle::after{width:2px;height:12px;top:50%;left:50%;transform:translate(-50%,-50%)}
 .faq-item.open .faq-toggle{transform:rotate(45deg)}
+.faq-q:hover .faq-toggle::before,.faq-q:hover .faq-toggle::after{background:var(--cyan)}
 .faq-a{
   max-height:0;overflow:hidden;transition:max-height .3s ease,padding .3s ease;
   color:#B8B8B8;font-size:14px;line-height:1.7;padding:0 0 0
@@ -449,12 +461,12 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
 <!-- ═══════ NAV ═══════ -->
 <nav>
 <a class="nav-brand" href="#">
-<img alt="Kiro" decoding="async" loading="lazy" src="assets/kiro-app-icon-256.png"/>
+<img alt="Kiro" decoding="async" src="assets/kiro-app-icon-256.png"/>
 <span>Kiro</span>
 </a>
 <div class="nav-right">
 <a class="nav-link" href="quiz.html">AI IQ Test</a>
-<a class="nav-cta" href="https://apps.apple.com/app/id6759628066">Download Free</a>
+<a class="nav-cta" href="https://apps.apple.com/app/id6759628066">Start Free Trial</a>
 </div>
 </nav>
 <!-- ═══════ HERO ═══════ -->
@@ -515,18 +527,21 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
 </div>
 <!-- ═══════ WHY NOW ═══════ -->
 <section class="reveal">
+<div class="section-inner">
 <p class="s-label">Why Now</p>
 <h2 class="s-title">AI fluency is becoming<br/>a real advantage.</h2>
 <p class="why-now-body">The people getting good at AI now will move faster, think better, and create more leverage at work. Most people are still watching from the sidelines. Kiro helps you build the skill in 5 minutes a day &mdash; before you're forced to learn it under pressure.</p>
 <div class="why-now-chips">
 <span class="why-now-chip">Move faster</span>
-<span class="why-now-chip">Think better with AI</span>
+<span class="why-now-chip">Work smarter with AI</span>
 <span class="why-now-chip">Build the skill early</span>
 </div>
 <a class="quiz-callout" href="quiz.html">How fluent are you? Take the AI IQ Test &rarr;</a>
+</div>
 </section>
 <!-- ═══════ HOW IT WORKS ═══════ -->
 <section class="reveal">
+<div class="section-inner">
 <p class="s-label">How It Works</p>
 <h2 class="s-title">Three steps. Zero confusion.</h2>
 <div class="hiw-grid">
@@ -546,9 +561,11 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
 <div class="hiw-item-sub">Earn XP, climb ranks, evolve your mascot, and duel other learners.</div>
 </div>
 </div>
+</div>
 </section>
 <!-- ═══════ WHY KIRO ═══════ -->
 <section class="reveal">
+<div class="section-inner">
 <p class="s-label">Why Kiro Works</p>
 <h2 class="s-title">Not a course. Not a chatbot.<br/>A training system.</h2>
 <p class="s-sub">Kiro drills you on real AI skills the way Duolingo drills you on Spanish — daily, competitive, and impossible to quit.</p>
@@ -569,9 +586,11 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
 <p>Prompt coaching and evolving tiers make improvement obvious.</p>
 </div>
 </div>
+</div>
 </section>
 <!-- ═══════ GAMEPLAY SHOWCASE ═══════ -->
 <section class="gameplay reveal" id="gameplay">
+<div class="section-inner">
 <p class="s-label">Inside the App</p>
 <h2 class="s-title">The loop that makes<br/>AI stick.</h2>
 <p class="s-sub">Pick a path &rarr; crush a lesson &rarr; duel a rival &rarr; rank up &rarr; sharpen in Prompt Lab. Repeat daily.</p>
@@ -614,9 +633,11 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
 <span class="exercise-pill">💬 Real World Scenario</span>
 </div>
 </div>
+</div>
 </section>
 <!-- ═══════ RANK EVOLUTION ═══════ -->
 <section class="rank-section reveal">
+<div class="section-inner">
 <p class="s-label">Rank Progression</p>
 <h2 class="s-title">Earn XP. Climb ranks. Evolve Kiro.</h2>
 <p class="s-sub">Six visible tiers of progress that make you want to come back tomorrow.</p>
@@ -654,9 +675,11 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
 <span class="rank-tier-hint">Reach the top to unlock</span>
 </div>
 </div>
+</div>
 </section>
 <!-- ═══════ SOCIAL PROOF ═══════ -->
 <section class="proof-section reveal">
+<div class="section-inner">
 <p class="s-label">Beta Testers</p>
 <h2 class="s-title">Already addictive.</h2>
 <p class="s-sub">Early testers keep coming back.</p>
@@ -664,60 +687,68 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
 <div class="proof-card">
 <div class="proof-stars">★★★★★</div>
 <p class="proof-text">"Delegate or DIY changed how I think about AI at work. I use that framework every day now."</p>
-<p class="proof-author">— Beta tester, Product Manager · uses it before work</p>
+<p class="proof-author">— Beta tester, Product Manager</p>
+<span class="proof-role">Uses it before work</span>
 </div>
 <div class="proof-card">
 <div class="proof-stars">★★★★★</div>
 <p class="proof-text">"Prompt Lab alone is worth Pro. Went from vague prompts to nailing it on the first try."</p>
-<p class="proof-author">— Beta tester, Marketing Lead · improved prompts in week 1</p>
+<p class="proof-author">— Beta tester, Marketing Lead</p>
+<span class="proof-role">Improved prompts in week 1</span>
 </div>
 <div class="proof-card">
 <div class="proof-stars">★★★★★</div>
 <p class="proof-text">"The duels are addicting. 30+ matches in and I still learn something new every time."</p>
-<p class="proof-author">— Beta tester, Software Engineer · 30+ duels completed</p>
+<p class="proof-author">— Beta tester, Software Engineer</p>
+<span class="proof-role">30+ duels completed</span>
+</div>
 </div>
 </div>
 </section>
 <!-- ═══════ FAQ ═══════ -->
 <section class="reveal">
+<div class="section-inner">
 <p class="s-label">FAQ</p>
 <h2 class="s-title">Got questions?</h2>
 <div class="faq-list">
 
 <div class="faq-item">
-<button class="faq-q" aria-expanded="false">Is Kiro free?<span class="faq-toggle">+</span></button>
+<button class="faq-q" aria-expanded="false">Is Kiro free?<span class="faq-toggle" aria-hidden="true"></span></button>
 <div class="faq-a">Yes &mdash; Kiro is free to download and includes access to core lessons so you can try it risk-free. To unlock all 9 learning paths, unlimited hearts, AI duels, the Prompt Lab, and 1,000+ exercises, you can upgrade to Kiro Pro. There's a free 7-day trial on the annual plan so you can experience everything before you're charged.</div>
 </div>
 
 <div class="faq-item">
-<button class="faq-q" aria-expanded="false">Do I need AI experience?<span class="faq-toggle">+</span></button>
+<button class="faq-q" aria-expanded="false">Do I need AI experience?<span class="faq-toggle" aria-hidden="true"></span></button>
 <div class="faq-a">Not at all. Kiro is built for complete beginners and experienced users alike. The app starts with AI fundamentals and builds up through 9 progressive learning paths. Whether you've never opened ChatGPT or you prompt daily, Kiro meets you where you are and pushes you further.</div>
 </div>
 
 <div class="faq-item">
-<button class="faq-q" aria-expanded="false">How is this different from watching YouTube tutorials?<span class="faq-toggle">+</span></button>
+<button class="faq-q" aria-expanded="false">How is this different from watching YouTube tutorials?<span class="faq-toggle" aria-hidden="true"></span></button>
 <div class="faq-a">YouTube is passive &mdash; you watch, you forget. Kiro is active. Every lesson asks you to make decisions, answer questions, rank options, spot hallucinations, and refine real prompts. Then you test your skills in live AI duels against other learners. That's how fluency actually sticks.</div>
 </div>
 
 <div class="faq-item">
-<button class="faq-q" aria-expanded="false">How long does each lesson take?<span class="faq-toggle">+</span></button>
+<button class="faq-q" aria-expanded="false">How long does each lesson take?<span class="faq-toggle" aria-hidden="true"></span></button>
 <div class="faq-a">About 5 minutes. Each lesson is designed to fit into your morning routine, commute, or lunch break. Short enough to stay consistent, deep enough to actually learn something every session.</div>
 </div>
 
 <div class="faq-item">
-<button class="faq-q" aria-expanded="false">What AI topics does Kiro cover?<span class="faq-toggle">+</span></button>
+<button class="faq-q" aria-expanded="false">What AI topics does Kiro cover?<span class="faq-toggle" aria-hidden="true"></span></button>
 <div class="faq-a">9 learning paths covering AI Fundamentals, Prompt Engineering, AI at Work, AI Ethics &amp; Safety, AI Tools &amp; Platforms, Data &amp; AI, AI in Creative Work, AI in Business, and AI News &amp; Trends. Over 1,000 exercises across 8 different exercise types &mdash; from multiple choice to real-world scenarios to prompt coaching.</div>
 </div>
 
 </div>
+</div>
 </section>
 <!-- ═══════ FINAL CTA ═══════ -->
 <section class="final-cta reveal">
+<div class="section-inner">
 <img alt="Kiro" class="mascot-accent" decoding="async" loading="lazy" src="assets/gold-kiro.png"/>
 <h2>Start free.<br/><span class="grad">Get fluent.</span></h2>
 <p class="sub">Free to start. 5 minutes a day. No experience needed.</p>
-<a class="btn-primary" href="https://apps.apple.com/app/id6759628066">Start Free — Download Kiro →</a>
+<a class="btn-primary" href="https://apps.apple.com/app/id6759628066">Start Free — 7 Day Trial →</a>
 <p class="pricing">Free 7-day trial on annual · Then <strong>$69.99/year ($0.19/day)</strong> or <strong>$12.99/month</strong></p>
+</div>
 </section>
 <!-- ═══════ FOOTER ═══════ -->
 <footer>
@@ -732,12 +763,12 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
 <p>© 2026 Kiro. Master AI. Become Unreplaceable.</p>
 </footer>
 <div class="sticky-cta">
-<a class="sticky-cta-btn" href="https://apps.apple.com/app/id6759628066">Download Kiro</a>
+<a class="sticky-cta-btn" href="https://apps.apple.com/app/id6759628066">Start Free — 7 Day Trial</a>
 </div>
 <script>
 const obs=new IntersectionObserver(e=>{e.forEach(el=>{if(el.isIntersecting)el.target.classList.add('visible')});},{threshold:.08});
 document.querySelectorAll('.reveal').forEach(el=>obs.observe(el));
-document.querySelectorAll('.faq-q').forEach(btn=>{btn.addEventListener('click',()=>{const item=btn.parentElement;const open=item.classList.toggle('open');btn.setAttribute('aria-expanded',open);btn.querySelector('.faq-toggle').textContent=open?'−':'+';});});
+document.querySelectorAll('.faq-q').forEach(btn=>{btn.addEventListener('click',()=>{const item=btn.parentElement;const open=item.classList.toggle('open');btn.setAttribute('aria-expanded',open);});});
 </script>
 </body>
 </html>
