@@ -348,6 +348,31 @@ section{padding:100px 24px;position:relative}
   filter:drop-shadow(0 0 20px rgba(0,229,255,.15));position:relative;z-index:1
 }
 
+/* ══════════════════ MINI QUIZ ══════════════════ */
+.mini-quiz{max-width:560px;margin:0 auto}
+.mini-quiz-q{font-size:clamp(18px,3vw,22px);font-weight:700;line-height:1.35;margin-bottom:20px;letter-spacing:-.3px}
+.mini-quiz-opts{display:flex;flex-direction:column;gap:8px;margin-bottom:20px}
+.mini-quiz-opt{
+  width:100%;padding:14px 18px;border-radius:12px;
+  background:var(--surface);border:1px solid var(--surface-border);
+  color:var(--text);font-family:'Outfit',sans-serif;font-size:14px;font-weight:500;
+  cursor:pointer;transition:all .2s;text-align:left;display:flex;align-items:center;gap:10px
+}
+.mini-quiz-opt:hover:not(.mq-disabled){border-color:rgba(0,229,255,.3);background:rgba(0,229,255,.04)}
+.mini-quiz-opt.mq-correct{border-color:var(--success);background:rgba(46,204,113,.12);color:var(--success)}
+.mini-quiz-opt.mq-wrong{border-color:var(--error);background:rgba(255,71,87,.1);color:var(--error)}
+.mini-quiz-opt.mq-reveal{border-color:var(--success);background:rgba(46,204,113,.06)}
+.mini-quiz-opt.mq-disabled{cursor:default;opacity:.7}
+.mini-quiz-opt-letter{
+  width:26px;height:26px;border-radius:8px;background:rgba(255,255,255,.06);
+  display:flex;align-items:center;justify-content:center;
+  font-size:12px;font-weight:700;color:var(--text3);flex-shrink:0
+}
+.mini-quiz-opt.mq-correct .mini-quiz-opt-letter{background:rgba(46,204,113,.2);color:var(--success)}
+.mini-quiz-opt.mq-wrong .mini-quiz-opt-letter{background:rgba(255,71,87,.2);color:var(--error)}
+.mini-quiz-result{text-align:center;margin-top:24px;animation:fadeInUp .4s ease}
+.mini-quiz-result p{font-size:14px;color:var(--text2);margin-bottom:16px}
+
 /* ══════════════════ INLINE CTA ══════════════════ */
 .inline-cta{text-align:center;padding:48px 0 0}
 .inline-cta .btn-primary{margin-bottom:8px}
@@ -524,13 +549,14 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
 <span class="line2">Become unreplaceable.</span>
 </h1>
 <p class="hero-sub">
-<strong>5 minutes a day.</strong> Build AI fluency with bite-sized lessons, live duels, prompt coaching, and rank progression that makes the skill actually stick.
+<strong>5 minutes a day.</strong> The people building AI skills now will have the edge. Start today &mdash; no experience needed.
       </p>
 <div class="hero-ctas">
 <a class="btn-primary" href="https://apps.apple.com/app/id6759628066?utm_source=website&utm_medium=cta&utm_campaign=hero">Start Free — 7 Day Trial →</a>
 <a class="btn-ghost" href="#gameplay">See it in action</a>
 </div>
 <p class="cta-platform">Available on iOS · <span class="platform-soon">Android coming soon</span></p>
+<p class="cta-micro">Free to start · Pro from $0.19/day</p>
 </div>
 <div class="hero-visual">
 <div class="hero-mascot-wrap">
@@ -565,6 +591,10 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
 <div class="founder-stat-label">learning paths</div>
 </div>
 <div class="founder-stat">
+<div class="founder-stat-val">8</div>
+<div class="founder-stat-label">exercise types</div>
+</div>
+<div class="founder-stat">
 <div class="founder-stat-val">1</div>
 <div class="founder-stat-label">developer</div>
 </div>
@@ -578,6 +608,26 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
 <h2 class="s-title">Most people are watching<br/>from the sidelines.</h2>
 <p class="why-now-body">AI is already changing how people work, think, and get hired. The ones building the skill now will have the edge. Kiro gets you there in 5 minutes a day.</p>
 <a class="quiz-callout" href="quiz.html">How fluent are you? Take the AI IQ Test &rarr;</a>
+</div>
+</section>
+<!-- ═══════ MINI QUIZ ═══════ -->
+<section class="reveal">
+<div class="section-inner">
+<p class="s-label">Quick Test</p>
+<h2 class="s-title">Can you get this one right?</h2>
+<div class="mini-quiz" id="miniQuiz">
+<p class="mini-quiz-q">An AI model gives you a confident answer with a source citation. What should you assume?</p>
+<div class="mini-quiz-opts">
+<button class="mini-quiz-opt" data-idx="0"><span class="mini-quiz-opt-letter">A</span>It's accurate because it cited a real source</button>
+<button class="mini-quiz-opt" data-idx="1"><span class="mini-quiz-opt-letter">B</span>The citation may be completely fabricated and needs verification</button>
+<button class="mini-quiz-opt" data-idx="2"><span class="mini-quiz-opt-letter">C</span>The source is real but the claim might be slightly off</button>
+<button class="mini-quiz-opt" data-idx="3"><span class="mini-quiz-opt-letter">D</span>AI models always cite sources correctly by design</button>
+</div>
+<div class="mini-quiz-result" id="miniQuizResult" style="display:none">
+<p id="miniQuizMsg"></p>
+<a class="btn-primary" href="quiz.html">Take the Full AI IQ Test &rarr;</a>
+</div>
+</div>
 </div>
 </section>
 <!-- ═══════ HOW IT WORKS ═══════ -->
@@ -851,6 +901,26 @@ document.querySelectorAll('.email-form').forEach(form=>{
     }).catch(()=>{});
   });
 });
+(function(){
+  const correctIdx=1;
+  const btns=document.querySelectorAll('.mini-quiz-opt');
+  btns.forEach(btn=>{
+    btn.addEventListener('click',function(){
+      const idx=parseInt(btn.dataset.idx);
+      btns.forEach(b=>{b.classList.add('mq-disabled');b.style.pointerEvents='none'});
+      if(idx===correctIdx){
+        btn.classList.add('mq-correct');
+        document.getElementById('miniQuizMsg').textContent='Correct! AI citations can be fabricated \u2014 a core skill Kiro teaches.';
+      } else {
+        btn.classList.add('mq-wrong');
+        btns[correctIdx].classList.add('mq-reveal');
+        document.getElementById('miniQuizMsg').textContent='Not quite \u2014 AI citations can be completely fabricated. Kiro teaches you to spot this.';
+      }
+      document.getElementById('miniQuizResult').style.display='block';
+      if(window.posthog)posthog.capture('mini_quiz_answer',{correct:idx===correctIdx});
+    });
+  });
+})();
 </script>
 </body>
 </html>

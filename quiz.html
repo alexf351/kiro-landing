@@ -252,6 +252,17 @@ body::before{
 .email-form button:hover{background:rgba(0,229,255,.08)}
 .email-form-success{font-size:12px;color:var(--success);font-weight:600;display:none;margin-top:6px}
 .cta-micro{font-size:12px;color:var(--text3);margin-top:8px}
+.share-row{display:flex;gap:16px;align-items:center;justify-content:center;margin-top:4px;animation:fadeIn .4s ease .7s both}
+.share-row a{
+  color:var(--text3);font-size:13px;font-weight:600;text-decoration:none;
+  transition:color .2s;display:inline-flex;align-items:center;gap:4px
+}
+.share-row a:hover{color:var(--cyan)}
+.results-next{
+  font-size:13px;color:var(--cyan);margin-bottom:20px;
+  animation:fadeIn .4s ease .55s both
+}
+.results-next strong{font-weight:700}
 .cta-platform{font-size:13px;color:var(--text3);margin-top:10px}
 .cta-platform .platform-soon{color:var(--cyan);font-weight:600}
 
@@ -281,7 +292,7 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
 <div class="quiz-intro" id="quizIntro">
 <picture><source srcset="assets/diamond-kiro.webp" type="image/webp"/><img alt="Kiro" class="quiz-intro-mascot" decoding="async" src="assets/diamond-kiro.png"/></picture>
 <div class="quiz-badge">AI IQ Test</div>
-<h1>How fluent are you<br/>in <span>AI?</span></h1>
+<h1>The AI question <span>90%</span> of<br/>professionals get wrong</h1>
 <p>10 questions. 2 minutes. Find out where you stand &mdash; and how far you could go.</p>
 <button class="btn-primary" id="startBtn">Take the Quiz &rarr;</button>
 <div class="quiz-meta">No signup required &middot; Free</div>
@@ -445,12 +456,13 @@ function showResults(){
   else{rank='Diamond';rankClass='rank-diamond';msg='Perfect score. You might already be an AI expert \u2014 but Kiro\u2019s Prompt Lab and duels will still challenge you.';mascot='diamond-kiro.png'}
 
   // #3 — Find weakest topic
-  let weaknessHtml='';
+  let weaknessHtml='',nextStepHtml='';
   if(missed.length>0){
     const counts={};
     missed.forEach(t=>{counts[t]=(counts[t]||0)+1});
     const weakest=Object.entries(counts).sort((a,b)=>b[1]-a[1])[0][0];
     weaknessHtml=`<div class="results-weakness">Your gap: <strong>${weakest}</strong> \u2014 Kiro has a full path for that.</div>`;
+    nextStepHtml=`<p class="results-next">Your next step: <strong>${weakest} Basics</strong></p>`;
   }
 
   r.innerHTML=`<div class="quiz-results">
@@ -462,9 +474,15 @@ function showResults(){
     <div class="score-label">Your AI Fluency Score</div>
     ${weaknessHtml}
     <p class="message">${msg}</p>
+    ${nextStepHtml}
     <div class="btn-row">
       <a class="btn-primary" href="https://apps.apple.com/app/id6759628066?utm_source=website&utm_medium=cta&utm_campaign=quiz_results">Download Kiro &mdash; It's Free</a>
       <button class="results-link" id="shareBtn">Challenge a Friend &rarr;</button>
+      <div class="share-row">
+        <a href="https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent('https://www.trykiro.app/quiz.html?score='+score)}" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://twitter.com/intent/tweet?text=${encodeURIComponent('I scored '+score+'/10 on the Kiro AI IQ Test. Can you beat me?')}&url=${encodeURIComponent('https://www.trykiro.app/quiz.html?score='+score)}" target="_blank" rel="noopener">X</a>
+        <a href="https://wa.me/?text=${encodeURIComponent('I scored '+score+'/10 on the Kiro AI IQ Test. Can you beat me? https://www.trykiro.app/quiz.html?score='+score)}" target="_blank" rel="noopener">WhatsApp</a>
+      </div>
     </div>
     <div class="email-capture">
       <form class="email-form" action="https://formspree.io/f/mbdzpzzp" method="POST">
