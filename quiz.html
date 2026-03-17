@@ -125,7 +125,8 @@ body::before{
   cursor:pointer;transition:all .2s;text-align:left;display:flex;align-items:center;gap:12px
 }
 .quiz-option:hover:not(.disabled){border-color:rgba(0,229,255,.3);background:rgba(0,229,255,.04)}
-.quiz-option.correct{border-color:var(--success);background:rgba(46,204,113,.1);color:var(--success)}
+.quiz-option.correct{border-color:var(--success);background:rgba(46,204,113,.1);color:var(--success);animation:correctPop .4s cubic-bezier(.34,1.56,.64,1);box-shadow:0 0 20px rgba(46,204,113,.2)}
+@keyframes correctPop{0%{transform:scale(1)}40%{transform:scale(1.04)}100%{transform:scale(1)}}
 .quiz-option.wrong{border-color:var(--error);background:rgba(255,71,87,.1);color:var(--error)}
 .quiz-option.reveal-correct{border-color:var(--success);background:rgba(46,204,113,.06)}
 .quiz-option.disabled{cursor:default;opacity:.7}
