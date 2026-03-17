@@ -156,16 +156,17 @@ body::before{
 .quiz-option.wrong .quiz-option-letter{background:rgba(255,71,87,.2);color:var(--error)}
 
 /* RESULTS */
-.quiz-results{animation:fadeIn .5s ease}
+.quiz-results{animation:fadeIn .5s ease;padding-top:20px}
 .results-mascot{
-  width:150px;height:150px;object-fit:contain;margin-bottom:20px;
-  filter:drop-shadow(0 0 20px rgba(0,229,255,.2));
+  width:100px;height:100px;object-fit:contain;margin-bottom:16px;
+  filter:drop-shadow(0 0 16px rgba(0,229,255,.2));
   animation:resultsPop .6s cubic-bezier(.34,1.56,.64,1)
 }
 @keyframes resultsPop{from{opacity:0;transform:scale(.5)}to{opacity:1;transform:scale(1)}}
+.results-score-row{display:flex;align-items:center;justify-content:center;gap:16px;margin-bottom:8px}
 .quiz-results .score-big{
-  font-family:'JetBrains Mono',monospace;font-size:clamp(56px,10vw,80px);
-  font-weight:700;letter-spacing:-3px;margin-bottom:4px;
+  font-family:'JetBrains Mono',monospace;font-size:clamp(44px,8vw,64px);
+  font-weight:700;letter-spacing:-3px;
   background-size:300% 100%;
   -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;
   animation:scoreReveal .5s ease .2s both,scoreShimmer 3s ease infinite .7s
@@ -177,20 +178,19 @@ body::before{
 .score-big.shimmer-diamond{background-image:linear-gradient(90deg,#B9F2FF,#fff,#00E5FF,#fff,#B9F2FF)}
 @keyframes scoreReveal{from{opacity:0;transform:scale(.8)}to{opacity:1;transform:scale(1)}}
 @keyframes scoreShimmer{0%,100%{background-position:0% 50%}50%{background-position:100% 50%}}
-.quiz-results .score-label{font-size:16px;color:var(--text2);margin-bottom:24px;font-weight:600}
+.quiz-results .score-label{font-size:14px;color:var(--text2);margin-bottom:16px;font-weight:600}
 .quiz-results .rank-badge{
   display:inline-flex;align-items:center;gap:8px;
-  padding:10px 24px;border-radius:100px;font-size:15px;font-weight:700;
-  letter-spacing:.5px;margin-bottom:16px;
-  animation:fadeIn .4s ease .4s both
+  padding:8px 20px;border-radius:100px;font-size:14px;font-weight:700;
+  letter-spacing:.5px;flex-shrink:0
 }
 .rank-bronze{background:rgba(205,127,50,.12);color:#CD7F32;border:1px solid rgba(205,127,50,.25)}
 .rank-silver{background:rgba(192,192,192,.12);color:#C0C0C0;border:1px solid rgba(192,192,192,.25)}
 .rank-gold{background:rgba(255,215,0,.1);color:var(--gold);border:1px solid rgba(255,215,0,.2)}
 .rank-platinum{background:rgba(229,228,226,.1);color:#E5E4E2;border:1px solid rgba(229,228,226,.2)}
 .rank-diamond{background:rgba(185,242,255,.1);color:#B9F2FF;border:1px solid rgba(185,242,255,.2)}
-.quiz-results .message{font-size:16px;color:var(--text2);max-width:400px;margin:0 auto 32px;line-height:1.6;animation:fadeIn .4s ease .5s both}
-.quiz-results .btn-row{display:flex;flex-direction:column;gap:10px;align-items:center;animation:fadeIn .4s ease .6s both}
+.quiz-results .message{font-size:15px;color:var(--text2);max-width:400px;margin:0 auto 24px;line-height:1.55;animation:fadeIn .4s ease .5s both}
+.quiz-results .btn-row{display:flex;gap:10px;align-items:center;justify-content:center;flex-wrap:wrap;animation:fadeIn .4s ease .6s both}
 .quiz-results .retake{
   margin-top:20px;font-size:14px;color:var(--text3);
   text-decoration:none;cursor:pointer;background:none;border:none;
@@ -450,25 +450,24 @@ function showResults(){
 
   r.innerHTML=`<div class="quiz-results">
     <picture><source srcset="assets/${mascot.replace('.png','.webp')}" type="image/webp"/><img alt="${rank} Kiro" class="results-mascot" decoding="async" src="assets/${mascot}"/></picture>
-    <div class="score-big shimmer-${rank.toLowerCase()}">${score}/10</div>
+    <div class="results-score-row">
+      <div class="score-big shimmer-${rank.toLowerCase()}">${score}/10</div>
+      <div class="rank-badge ${rankClass}">${rank}</div>
+    </div>
     <div class="score-label">Your AI Fluency Score</div>
-    <div class="rank-badge ${rankClass}">${rank}</div>
     ${weaknessHtml}
     <p class="message">${msg}</p>
     <div class="btn-row">
       <a class="btn-primary" href="https://apps.apple.com/app/id6759628066?utm_source=website&utm_medium=cta&utm_campaign=quiz_results">Download Kiro &mdash; It's Free</a>
-      <p class="cta-micro">Cancel anytime</p>
-      <p class="cta-platform">Available on iOS · <span class="platform-soon">Android coming soon</span></p>
       <button class="btn-secondary" id="shareBtn">Challenge a Friend</button>
     </div>
     <div class="email-capture">
-      <p class="email-capture-label">Get your personalized AI learning plan</p>
       <form class="email-form" action="https://formspree.io/f/mbdzpzzp" method="POST">
-        <input type="email" name="email" placeholder="Your email" required/>
+        <input type="email" name="email" placeholder="Get your AI learning plan" required/>
         <input type="hidden" name="source" value="quiz-results"/>
         <input type="hidden" name="score" value="${score}"/>
         <input type="hidden" name="rank" value="${rank}"/>
-        <button type="submit">Send Plan</button>
+        <button type="submit">Send</button>
       </form>
       <p class="email-form-success" id="quizEmailSuccess">Check your inbox!</p>
     </div>
