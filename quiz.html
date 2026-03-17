@@ -52,7 +52,8 @@ body::before{
 }
 .quiz-nav a{color:var(--text2);text-decoration:none;font-size:14px;font-weight:600;transition:color .2s}
 .quiz-nav a:hover{color:var(--text)}
-.quiz-logo{font-family:'JetBrains Mono',monospace;font-weight:700;font-size:18px;color:var(--text) !important;text-decoration:none}
+.quiz-logo{display:flex;align-items:center;gap:10px;font-weight:700;font-size:19px;color:var(--text) !important;text-decoration:none;letter-spacing:-0.5px}
+.quiz-logo img{width:34px;height:34px;border-radius:9px}
 
 /* INTRO */
 .quiz-intro .quiz-badge{
@@ -62,7 +63,7 @@ body::before{
   margin-bottom:28px;letter-spacing:.4px
 }
 .quiz-intro-mascot{
-  width:80px;height:80px;object-fit:contain;margin-bottom:24px;
+  width:80px;height:80px;object-fit:contain;margin:0 auto 24px;display:block;
   filter:drop-shadow(0 0 24px rgba(0,229,255,.18));
   animation:floatBounce 3s ease-in-out infinite
 }
@@ -195,7 +196,7 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
 <body>
 
 <nav class="quiz-nav">
-<a class="quiz-logo" href="index.html">Kiro</a>
+<a class="quiz-logo" href="index.html"><img alt="Kiro" decoding="async" src="assets/kiro-app-icon-256.png"/><span>Kiro</span></a>
 <a href="index.html">&larr; Back to site</a>
 </nav>
 
