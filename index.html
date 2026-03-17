@@ -184,7 +184,10 @@ nav{
   padding:6px 14px;border-radius:100px;font-size:12px;font-weight:600;
   color:var(--text2);letter-spacing:.2px;
   border:1px solid var(--surface-border);
-  background:var(--surface)
+  background:var(--surface);
+  box-shadow:0 0 20px rgba(0,229,255,.1);transition:box-shadow .3s
+}
+.exercise-pill:hover{box-shadow:0 0 24px rgba(0,229,255,.25)
 }
 
 /* ══════════════════ SECTION UTILS ══════════════════ */
@@ -233,9 +236,10 @@ section{padding:100px 24px;position:relative}
 .gameplay-card{
   border-radius:18px;overflow:hidden;border:1px solid var(--surface-border);
   background:var(--surface);transition:all .3s;
-  display:flex;flex-direction:column
+  display:flex;flex-direction:column;
+  box-shadow:0 0 20px rgba(0,229,255,.1)
 }
-.gameplay-card:hover{transform:translateY(-4px);border-color:rgba(0,229,255,.2)}
+.gameplay-card:hover{transform:translateY(-4px);border-color:rgba(0,229,255,.2);box-shadow:0 0 24px rgba(0,229,255,.25)}
 .gameplay-card img{width:100%;height:auto;display:block}
 .gameplay-card-label{
   padding:10px 12px;text-align:center;
@@ -529,13 +533,8 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
 <section class="reveal">
 <div class="section-inner">
 <p class="s-label">Why Now</p>
-<h2 class="s-title">AI fluency is becoming<br/>a real advantage.</h2>
-<p class="why-now-body">The people getting good at AI now will move faster, think better, and create more leverage at work. Most people are still watching from the sidelines. Kiro helps you build the skill in 5 minutes a day &mdash; before you're forced to learn it under pressure.</p>
-<div class="why-now-chips">
-<span class="why-now-chip">Move faster</span>
-<span class="why-now-chip">Work smarter with AI</span>
-<span class="why-now-chip">Build the skill early</span>
-</div>
+<h2 class="s-title">Most people are watching<br/>from the sidelines.</h2>
+<p class="why-now-body">AI is already changing how people work, think, and get hired. The ones building the skill now will have the edge. Kiro gets you there in 5 minutes a day.</p>
 <a class="quiz-callout" href="quiz.html">How fluent are you? Take the AI IQ Test &rarr;</a>
 </div>
 </section>
