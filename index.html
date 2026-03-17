@@ -20,14 +20,17 @@
 <link href="assets/apple-touch-icon.png" rel="apple-touch-icon"/>
 <link href="assets/diamond-kiro.webp" rel="preload" as="image" type="image/webp"/>
 <link href="assets/kiro-app-icon-256.webp" rel="preload" as="image" type="image/webp"/>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"SoftwareApplication","name":"Kiro","description":"The Duolingo for AI. Build AI fluency in 5 minutes a day.","applicationCategory":"EducationApplication","operatingSystem":"iOS","offers":[{"@type":"Offer","price":"0","priceCurrency":"USD","description":"Free with optional Pro upgrade"},{"@type":"Offer","price":"69.99","priceCurrency":"USD","description":"Annual Pro plan ($0.19/day)"},{"@type":"Offer","price":"12.99","priceCurrency":"USD","description":"Monthly Pro plan"}],"url":"https://www.trykiro.app","downloadUrl":"https://apps.apple.com/app/id6759628066"}
+</script>
 <link href="https://fonts.googleapis.com" rel="preconnect"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
-<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800;900&amp;family=JetBrains+Mono:wght@500;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700;800;900&amp;family=JetBrains+Mono:wght@700&amp;display=swap" rel="stylesheet"/>
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
 :root{
   --bg:#0A0E1A;--bg1:#0F1425;--surface:#141B2D;--surface-border:#1E2740;
-  --text:#FFFFFF;--text2:#8B95B0;--text3:#4A5370;
+  --text:#FFFFFF;--text2:#8B95B0;--text3:#7A849E;
   --cyan:#00E5FF;--gold:#FFD700;--error:#FF4757;--success:#2ECC71;
 }
 html{scroll-behavior:smooth;-webkit-font-smoothing:antialiased}
@@ -127,8 +130,10 @@ nav{
 }
 .hero-mascot-img{
   position:relative;z-index:1;width:100%;height:100%;object-fit:contain;
-  filter:drop-shadow(0 0 36px rgba(0,229,255,.22))
+  filter:drop-shadow(0 0 36px rgba(0,229,255,.22));
+  animation:mascotFloat 3s ease-in-out infinite
 }
+@keyframes mascotFloat{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}
 
 /* ══════════════════ FOUNDER STRIP ══════════════════ */
 .founder-strip{
@@ -528,6 +533,7 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
 </script>
 </head>
 <body>
+<a href="#main" style="position:absolute;left:-9999px;top:0;padding:8px;background:var(--cyan);color:var(--bg);z-index:9999;font-weight:700" onfocus="this.style.left='0';" onblur="this.style.left='-9999px';">Skip to content</a>
 <!-- ═══════ NAV ═══════ -->
 <nav>
 <a class="nav-brand" href="#">
@@ -540,10 +546,11 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
 </div>
 </nav>
 <!-- ═══════ HERO ═══════ -->
+<main id="main">
 <section class="hero">
 <div class="hero-inner">
 <div class="hero-content">
-<div class="hero-eyebrow"><span class="emoji">🐧</span> Duolingo for AI</div>
+<div class="hero-eyebrow"><span class="emoji" aria-hidden="true">🐧</span> Duolingo for AI</div>
 <h1>
 <span class="line1">Learn AI like a game.</span>
 <span class="line2">Become unreplaceable.</span>
@@ -573,7 +580,7 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
 <picture><source srcset="assets/kiro-app-icon-256.webp" type="image/webp"/><img alt="Kiro icon" decoding="async" loading="lazy" src="assets/kiro-app-icon-256.png"/></picture>
 <div class="founder-badge-text">
 <strong>Built solo in 2 weeks using AI.</strong>
-        Built with the same AI skills Kiro teaches you. The app is the proof.
+        The founder used the exact AI skills Kiro teaches to build the entire app. Kiro is its own proof.
       </div>
 </div>
 <div class="founder-divider"></div>
@@ -637,19 +644,19 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
 <h2 class="s-title">Three steps. Zero confusion.</h2>
 <div class="hiw-grid">
 <div class="hiw-item">
-<div class="hiw-item-icon">🎯</div>
-<div class="hiw-item-title">Pick a path</div>
-<div class="hiw-item-sub">Choose from 9 AI learning paths &mdash; from prompt engineering to AI ethics.</div>
+<div class="hiw-item-icon" aria-hidden="true">🎯</div>
+<div class="hiw-item-title">Day 1: Pick a path</div>
+<div class="hiw-item-sub">Choose from 9 AI learning paths. Start with Prompt Engineering, AI Fundamentals, or whatever fits your goal.</div>
 </div>
 <div class="hiw-item">
-<div class="hiw-item-icon">⚡</div>
-<div class="hiw-item-title">Learn in 5 minutes</div>
-<div class="hiw-item-sub">Bite-sized lessons with real-world scenarios. No fluff, no lectures.</div>
+<div class="hiw-item-icon" aria-hidden="true">⚡</div>
+<div class="hiw-item-title">Day 3: Write your first prompt</div>
+<div class="hiw-item-sub">Bite-sized lessons with real decisions. By day 3, you're building prompts that actually work.</div>
 </div>
 <div class="hiw-item">
-<div class="hiw-item-icon">🏆</div>
-<div class="hiw-item-title">Level up</div>
-<div class="hiw-item-sub">Earn XP, climb ranks, evolve your mascot, and duel other learners.</div>
+<div class="hiw-item-icon" aria-hidden="true">🏆</div>
+<div class="hiw-item-title">Day 7: Automate a real task</div>
+<div class="hiw-item-sub">Earn XP, climb ranks, duel other learners &mdash; and start applying AI at work.</div>
 </div>
 </div>
 </div>
@@ -662,17 +669,17 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
 <p class="s-sub">Kiro drills you on real AI skills the way Duolingo drills you on Spanish — daily, competitive, and impossible to quit.</p>
 <div class="why-grid">
 <div class="why-card">
-<span class="icon">⚡</span>
+<span class="icon" aria-hidden="true">⚡</span>
 <h3>Real reps, not theory.</h3>
 <p>Learn through real AI decisions, not passive content.</p>
 </div>
 <div class="why-card">
-<span class="icon">🔥</span>
+<span class="icon" aria-hidden="true">🔥</span>
 <h3>Competitive by design.</h3>
-<p>Duels, XP, streaks, and ranks make the skill stick.</p>
+<p>Duels, XP, streaks, and ranks make the skill stick. Users who hit a 7-day streak are 3.6x more likely to finish their path.</p>
 </div>
 <div class="why-card">
-<span class="icon">📊</span>
+<span class="icon" aria-hidden="true">📊</span>
 <h3>Progress you can see.</h3>
 <p>Prompt coaching and evolving tiers make improvement obvious.</p>
 </div>
@@ -868,6 +875,7 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
 </div>
 </div>
 </section>
+</main>
 <!-- ═══════ FOOTER ═══════ -->
 <footer>
 <div class="footer-links">
