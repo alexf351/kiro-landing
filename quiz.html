@@ -259,7 +259,8 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
 <div class="toast" id="toast">Copied to clipboard!</div>
 
 <script>
-const questions=[
+const allQuizzes=[
+[
 {q:"What\u2019s the biggest risk of asking AI to summarize a long document?",opts:["It takes too long to process and slows down your workflow","It will refuse to summarize if the document is too large","It costs significantly more tokens than other tasks","It might leave out or misrepresent key details"],ans:3,diff:"easy",topic:"AI Fundamentals",nudge:"Kiro\u2019s AI Fundamentals path covers how AI handles text."},
 {q:"What\u2019s the difference between AI \u2018training\u2019 and \u2018inference\u2019?",opts:["They\u2019re the same thing, just different vendor terminology","Training is faster than inference because it uses less data","Training is when AI learns from data; inference is when it uses that learning to generate outputs","Inference is when AI collects new training data from users"],ans:2,diff:"easy",topic:"AI Fundamentals",nudge:"This is covered in Kiro\u2019s AI Fundamentals lessons."},
 {q:"You ask AI to write a product description and it sounds generic. What should you try first?",opts:["Switch to a different AI model that specializes in marketing","Make the prompt shorter so the AI isn\u2019t overwhelmed by details","Ask it to \u2018be more creative\u2019 and try again with the same prompt","Add specific details about your audience, tone, and what makes the product unique"],ans:3,diff:"easy",topic:"Prompt Engineering",nudge:"Kiro\u2019s Prompt Engineering path teaches exactly this."},
@@ -270,10 +271,37 @@ const questions=[
 {q:"Your company wants to use AI to answer customer questions using internal docs. What approach fits best?",opts:["Copy-paste all your docs into every single chat session","Train your own large language model from scratch on company data","Fine-tune GPT-4 from scratch using your entire company database","Build a RAG system that retrieves relevant info from your knowledge base"],ans:3,diff:"hard",topic:"AI at Work",nudge:"This is a Delegate or DIY scenario \u2014 Kiro trains you on these."},
 {q:"You use AI to draft a contract clause. It reads perfectly. What\u2019s the most dangerous assumption?",opts:["That because it sounds professional, it\u2019s legally accurate","That the formatting won\u2019t match your existing contract template","That it took too long to generate compared to writing it manually","That it used too many tokens and will increase your API costs"],ans:0,diff:"hard",topic:"AI Ethics",nudge:"Kiro\u2019s AI Ethics path teaches you to catch exactly this."},
 {q:"When is fine-tuning a model better than using a detailed prompt?",opts:["When you want the AI to browse the internet for real-time data","Always \u2014 fine-tuning is superior to prompting in every scenario","When you need consistent behavior across thousands of similar tasks","When the model is running too slowly and you need to speed it up"],ans:2,diff:"hard",topic:"Prompt Engineering",nudge:"Kiro\u2019s Prompt Engineering path covers when to prompt vs. fine-tune."}
+],
+[
+{q:"What does GPT stand for?",opts:["General Processing Tool for language and data tasks","Generative Pre-trained Transformer","Global Pattern Technology used in neural networks","Guided Prompt Training for AI assistants"],ans:1,diff:"easy",topic:"AI Fundamentals",nudge:"Kiro\u2019s AI Fundamentals path covers all the key terminology."},
+{q:"What is the main advantage of using AI for data analysis over doing it manually?",opts:["AI is always 100% accurate with data interpretation","AI can process and find patterns in large datasets much faster","AI eliminates the need for any human oversight of results","AI data analysis is free and requires no computing resources"],ans:1,diff:"easy",topic:"AI at Work",nudge:"Kiro\u2019s AI at Work path teaches practical AI applications."},
+{q:"Which prompting technique helps AI break down a complex problem step by step?",opts:["Zero-shot prompting with no examples or context given","Few-shot prompting by showing several example outputs","Chain-of-thought prompting that asks the AI to reason through each step","Temperature adjustment to make the model think more carefully"],ans:2,diff:"easy",topic:"Prompt Engineering",nudge:"Chain-of-thought is a key technique in Kiro\u2019s Prompt Engineering path."},
+{q:"What is a \u2018token\u2019 in AI language models?",opts:["A piece of text (roughly a word or part of a word) the model processes","A security key needed to access the AI\u2019s API endpoint","A type of cryptocurrency used to pay for AI model usage","A visual element the AI generates alongside text responses"],ans:0,diff:"medium",topic:"AI Tools",nudge:"Kiro\u2019s AI Tools path explains how models process language."},
+{q:"Your AI assistant writes a persuasive argument that \u2018sounds right.\u2019 What\u2019s the hidden risk?",opts:["It probably plagiarized the content from a specific source","AI can\u2019t write persuasively, so something is technically wrong","Fluent writing doesn\u2019t mean the underlying facts are accurate","The writing style will trigger AI detection tools automatically"],ans:2,diff:"medium",topic:"AI Ethics",nudge:"Kiro\u2019s AI Ethics path trains you to separate fluency from accuracy."},
+{q:"What is \u2018prompt injection\u2019?",opts:["When your prompt is too long and gets cut off by the model","When someone crafts input that tricks AI into ignoring its instructions","When you accidentally paste the same prompt twice in a row","When the AI injects its own questions into your conversation thread"],ans:1,diff:"medium",topic:"AI Ethics",nudge:"Kiro\u2019s AI Ethics path covers AI security risks like this."},
+{q:"You need to extract specific data points from 500 PDF invoices. Best AI approach?",opts:["Read each one yourself and use AI to double-check your notes","Ask AI to summarize all 500 invoices in a single prompt at once","Use an AI-powered document extraction tool designed for structured data","Train a custom AI model from scratch specifically for invoice reading"],ans:2,diff:"medium",topic:"AI at Work",nudge:"This is a classic Delegate or DIY scenario \u2014 Kiro covers these."},
+{q:"What\u2019s the key difference between GPT-4 and an open-source model like LLaMA?",opts:["GPT-4 is always more accurate for every possible use case","LLaMA can be self-hosted and modified; GPT-4 is a closed commercial API","Open-source models don\u2019t use transformer architecture at all","GPT-4 is free while LLaMA requires an expensive enterprise license"],ans:1,diff:"hard",topic:"AI Tools",nudge:"Kiro\u2019s AI Tools path compares major models and when to use each."},
+{q:"A client asks you to \u2018just use AI\u2019 to automate their entire hiring pipeline. What\u2019s the biggest concern?",opts:["AI hiring tools are too expensive for most companies to use","The AI might send too many emails to candidates each day","Automated hiring decisions can encode bias and raise serious legal issues","AI can\u2019t read resumes, so it would reject every single applicant"],ans:2,diff:"hard",topic:"AI Ethics",nudge:"Kiro\u2019s AI Ethics path covers bias, fairness, and responsible AI use."},
+{q:"What is \u2018agentic AI\u2019?",opts:["AI that only works when connected to the internet via an agent server","AI that generates images of secret agents and spy characters","AI systems that can plan, use tools, and take multi-step actions autonomously","A marketing term for any chatbot with a custom personality or persona"],ans:2,diff:"hard",topic:"AI Fundamentals",nudge:"Agentic AI is the frontier \u2014 Kiro\u2019s advanced paths cover this."}
+],
+[
+{q:"What does \u2018multimodal AI\u2019 mean?",opts:["AI that can only process one type of input at a time efficiently","AI that works across multiple devices simultaneously via the cloud","AI that can understand and generate multiple types of content like text, images, and audio","AI that uses multiple programming languages in its codebase"],ans:2,diff:"easy",topic:"AI Fundamentals",nudge:"Kiro\u2019s AI Fundamentals path covers multimodal capabilities."},
+{q:"You want AI to write in your brand\u2019s voice. What\u2019s the most effective approach?",opts:["Just ask it to \u2018sound professional\u2019 and hope it matches your tone","Include examples of your existing brand copy in the prompt for reference","Change the temperature to 0 so it copies your style precisely","Use a different AI model for each piece of brand content you create"],ans:1,diff:"easy",topic:"Prompt Engineering",nudge:"Few-shot prompting with examples is key \u2014 Kiro teaches this."},
+{q:"What is the primary purpose of an AI \u2018system prompt\u2019?",opts:["To set the AI\u2019s role, behavior rules, and context before the user interacts","To display a loading animation while the model processes your request","To test whether the AI model is currently online and working properly","To automatically translate the user\u2019s input into English before processing"],ans:0,diff:"easy",topic:"Prompt Engineering",nudge:"System prompts are foundational \u2014 covered in Kiro\u2019s Prompt Engineering path."},
+{q:"Your team wants to use AI but is worried about sensitive company data. What\u2019s the safest first step?",opts:["Ban all AI tools completely until regulations are finalized","Let everyone use whatever AI tool they personally prefer the most","Start with an enterprise AI tool that offers data privacy guarantees","Only allow the CEO to use AI and share outputs with the team"],ans:2,diff:"medium",topic:"AI at Work",nudge:"Kiro\u2019s AI at Work path covers enterprise AI adoption strategies."},
+{q:"What\u2019s the difference between \u2018zero-shot\u2019 and \u2018few-shot\u2019 prompting?",opts:["Zero-shot uses no examples; few-shot provides examples to guide the output","Zero-shot is faster because the AI skips its thinking step entirely","Few-shot only works with paid API access to premium AI models","There is no real difference \u2014 they\u2019re interchangeable prompting terms"],ans:0,diff:"medium",topic:"Prompt Engineering",nudge:"Kiro\u2019s Prompt Engineering path drills these techniques with real exercises."},
+{q:"An AI generates working code that passes all your tests. Should you trust it completely?",opts:["Yes \u2014 if the tests pass, the code is guaranteed to be correct and secure","No \u2014 AI code can have security vulnerabilities, edge cases, and logic errors that tests miss","Only if you used the most expensive AI model available for coding","Yes, but only if you asked the AI to also write the test cases for you"],ans:1,diff:"medium",topic:"AI at Work",nudge:"Kiro teaches critical evaluation of AI outputs in real scenarios."},
+{q:"What is \u2018embeddings\u2019 in AI?",opts:["The process of placing AI chips inside physical devices and hardware","Numerical representations of text that capture semantic meaning for comparison","A technique for hiding watermarks inside AI-generated content and images","The way AI models are installed and deployed on cloud server infrastructure"],ans:1,diff:"medium",topic:"AI Tools",nudge:"Embeddings power search and RAG \u2014 Kiro\u2019s AI Tools path explains how."},
+{q:"You\u2019re evaluating two AI tools for your team. Tool A is 95% accurate but a black box. Tool B is 85% accurate but fully explainable. Which matters more in a healthcare context?",opts:["Tool A \u2014 accuracy is the only metric that matters in any healthcare setting","Tool B \u2014 explainability is critical in healthcare for trust, audits, and accountability","Neither \u2014 AI shouldn\u2019t be used in healthcare under any circumstances at all","It depends entirely on which tool has the nicer user interface and design"],ans:1,diff:"hard",topic:"AI Ethics",nudge:"Kiro\u2019s AI Ethics path covers the accuracy vs. explainability tradeoff."},
+{q:"What\u2019s the most likely reason an AI model performs well in testing but fails in production?",opts:["The production servers are always slower than the testing environment","The test data didn\u2019t represent the diversity and messiness of real-world inputs","AI models automatically degrade their performance after a trial period ends","Production users ask harder questions than the QA testing team does"],ans:1,diff:"hard",topic:"AI Fundamentals",nudge:"Data distribution gaps are a core concept in Kiro\u2019s AI Fundamentals path."},
+{q:"Your CEO wants to build a \u2018proprietary AI\u2019 for the company. What question should you ask first?",opts:["Which programming language should we use to build our custom AI from scratch?","Do we actually need a custom model, or can we solve this with prompting and existing tools?","How many GPUs do we need to purchase to begin training our own model?","Should we hire 50 machine learning engineers to start the AI division?"],ans:1,diff:"hard",topic:"AI at Work",nudge:"Build vs. buy is a key decision \u2014 Kiro\u2019s AI at Work path covers this."}
+]
 ];
 
 const letters=['A','B','C','D'];
 const diffLabels={easy:'Easy',medium:'Medium',hard:'Hard'};
+let quizIndex=0;
+let questions=allQuizzes[0];
 let current=0,score=0;
 const missed=[];
 
@@ -300,7 +328,8 @@ document.getElementById('startBtn').addEventListener('click',()=>{
 
 function showQuestion(){
   const q=questions[current];
-  document.getElementById('progressLabel').textContent=`Question ${current+1} of 10`;
+  const quizLabel=allQuizzes.length>1?` \u00b7 Quiz ${quizIndex+1}`:'';
+  document.getElementById('progressLabel').textContent=`Question ${current+1} of 10${quizLabel}`;
   document.getElementById('progressFill').style.width=((current+1)*10)+'%';
 
   const hint=document.getElementById('progressHint');
@@ -398,10 +427,16 @@ function showResults(){
     });
   });
 
+  const retakeLabel=quizIndex<allQuizzes.length-1?'Try Quiz '+(quizIndex+2)+' \u2192':'Retake Quiz';
+  document.getElementById('retakeBtn').textContent=retakeLabel;
+
   document.getElementById('retakeBtn').addEventListener('click',()=>{
+    quizIndex=(quizIndex+1)%allQuizzes.length;
+    questions=allQuizzes[quizIndex];
     current=0;score=0;missed.length=0;
     r.style.display='none';
     document.getElementById('quizGame').style.display='block';
+    if(window.posthog)posthog.capture('quiz_started',{quiz_number:quizIndex+1});
     showQuestion();
   });
 }
