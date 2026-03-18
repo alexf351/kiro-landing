@@ -39,22 +39,39 @@ body{font-family:'Outfit',sans-serif;background:var(--bg);color:var(--text);over
 /* ══════════════════ NAV ══════════════════ */
 nav{
   position:fixed;top:0;left:0;right:0;z-index:100;
-  padding:14px 28px;display:flex;justify-content:space-between;align-items:center;
-  backdrop-filter:blur(24px);-webkit-backdrop-filter:blur(24px);
-  background:rgba(10,14,26,0.75);border-bottom:1px solid rgba(30,39,64,0.4);
+  padding:0 32px;height:64px;display:flex;justify-content:space-between;align-items:center;
+  backdrop-filter:blur(20px) saturate(1.2);-webkit-backdrop-filter:blur(20px) saturate(1.2);
+  background:rgba(10,14,26,0.6);
+  border-bottom:1px solid rgba(255,255,255,.04)
+}
+nav::after{
+  content:'';position:absolute;bottom:0;left:0;right:0;height:1px;
+  background:linear-gradient(90deg,transparent 15%,rgba(0,229,255,.06) 50%,transparent 85%)
 }
 .nav-brand{display:flex;align-items:center;gap:10px;text-decoration:none}
-.nav-brand img{width:34px;height:34px;border-radius:9px}
-.nav-brand span{font-weight:700;font-size:19px;color:var(--text);letter-spacing:-0.5px}
-.nav-right{display:flex;align-items:center;gap:20px}
-.nav-link{color:var(--text2);text-decoration:none;font-size:14px;font-weight:600;transition:color .2s}
-.nav-link:hover{color:var(--text)}
-.nav-cta{
-  background:var(--cyan);color:var(--bg);border:none;padding:10px 22px;border-radius:11px;
-  font-family:'Outfit',sans-serif;font-weight:700;font-size:14px;cursor:pointer;text-decoration:none;
+.nav-brand img{
+  width:32px;height:32px;border-radius:10px;
+  box-shadow:0 0 12px rgba(0,229,255,.08)
+}
+.nav-brand span{font-weight:800;font-size:18px;color:var(--text);letter-spacing:-.5px}
+.nav-right{display:flex;align-items:center;gap:24px}
+.nav-link{
+  color:var(--text3);text-decoration:none;font-size:13px;font-weight:600;
   transition:all .2s;letter-spacing:.3px
 }
-.nav-cta:hover{transform:translateY(-1px);box-shadow:0 4px 24px rgba(0,229,255,.3)}
+.nav-link:hover{color:var(--cyan)}
+.nav-cta{
+  background:rgba(0,229,255,.1);color:var(--cyan);
+  border:1px solid rgba(0,229,255,.2);
+  padding:9px 20px;border-radius:10px;
+  font-family:'Outfit',sans-serif;font-weight:700;font-size:13px;cursor:pointer;text-decoration:none;
+  transition:all .3s;letter-spacing:.3px;
+  backdrop-filter:blur(4px);-webkit-backdrop-filter:blur(4px)
+}
+.nav-cta:hover{
+  background:rgba(0,229,255,.15);border-color:rgba(0,229,255,.35);
+  box-shadow:0 0 20px rgba(0,229,255,.12);transform:translateY(-1px)
+}
 
 /* ══════════════════ HERO ══════════════════ */
 .hero{
@@ -604,28 +621,57 @@ section{padding:100px 24px;position:relative}
 .proof-card:nth-child(3) .proof-role{color:var(--success);background:rgba(46,204,113,.06);border:1px solid rgba(46,204,113,.1)}
 
 /* ══════════════════ FINAL CTA ══════════════════ */
-.final-cta{text-align:center;padding:120px 24px;position:relative}
+.final-cta{
+  text-align:center;padding:140px 24px 100px;position:relative;overflow:hidden
+}
 .final-cta::before{
-  content:'';position:absolute;bottom:0;left:50%;transform:translateX(-50%);
-  width:700px;height:700px;
-  background:radial-gradient(circle,rgba(0,229,255,.05) 0%,transparent 65%);
-  pointer-events:none
+  content:'';position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);
+  width:1000px;height:1000px;
+  background:
+    radial-gradient(ellipse at 40% 50%,rgba(0,229,255,.06) 0%,transparent 50%),
+    radial-gradient(ellipse at 60% 40%,rgba(255,215,0,.03) 0%,transparent 45%);
+  pointer-events:none;animation:ctaAmbient 10s ease-in-out infinite alternate
+}
+@keyframes ctaAmbient{
+  0%{transform:translate(-50%,-50%) scale(1);opacity:.7}
+  100%{transform:translate(-50%,-50%) scale(1.1);opacity:1}
 }
 .final-cta h2{
-  font-size:clamp(38px,6vw,60px);font-weight:900;letter-spacing:-2.5px;
-  line-height:1.05;margin-bottom:18px;position:relative;z-index:1
+  font-size:clamp(42px,7vw,68px);font-weight:900;letter-spacing:-3px;
+  line-height:1.02;margin-bottom:20px;position:relative;z-index:1
 }
 .final-cta h2 .grad{
-  background:linear-gradient(90deg,var(--cyan),#00B4D8);
-  -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text
+  background:linear-gradient(90deg,var(--cyan),#00B4D8,var(--gold),var(--cyan));
+  background-size:300% 100%;
+  -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;
+  animation:iridescent 8s ease infinite
 }
-.final-cta .sub{font-size:17px;color:var(--text2);margin-bottom:36px;max-width:420px;margin-left:auto;margin-right:auto;line-height:1.5;position:relative;z-index:1}
-.final-cta .pricing{margin-top:20px;color:var(--text3);font-size:14px;position:relative;z-index:1}
-.final-cta .pricing strong{color:var(--text2)}
+.final-cta .sub{
+  font-size:17px;color:var(--text2);margin-bottom:40px;max-width:420px;
+  margin-left:auto;margin-right:auto;line-height:1.6;position:relative;z-index:1
+}
+.final-cta .btn-primary{position:relative;z-index:1}
+.final-cta .cta-micro{
+  font-size:11px;color:var(--text3);opacity:.4;margin-top:10px;
+  position:relative;z-index:1;letter-spacing:.3px
+}
+.final-cta .pricing{
+  margin-top:48px;font-size:12px;position:relative;z-index:1;
+  color:var(--text3);opacity:.5;
+  border:none;background:none;padding:0;display:block
+}
+.final-cta .pricing strong{color:var(--text3);font-weight:600}
 .final-cta .mascot-accent{
-  width:64px;height:64px;object-fit:contain;margin:0 auto 24px;display:block;
-  filter:drop-shadow(0 0 20px rgba(0,229,255,.15));position:relative;z-index:1
+  width:80px;height:80px;object-fit:contain;margin:0 auto 28px;display:block;
+  filter:drop-shadow(0 0 24px rgba(255,215,0,.15)) drop-shadow(0 0 8px rgba(0,229,255,.08));
+  position:relative;z-index:1;
+  animation:mascotFloat 4s ease-in-out infinite
 }
+.final-cta .email-capture{
+  position:relative;z-index:1;margin-top:12px;opacity:.5;transition:opacity .3s
+}
+.final-cta .email-capture:hover{opacity:.8}
+.final-cta .email-capture-label{font-size:12px;color:var(--text3);margin-bottom:8px}
 
 /* ══════════════════ MINI QUIZ ══════════════════ */
 .mini-quiz-section{
@@ -761,12 +807,37 @@ section{padding:100px 24px;position:relative}
 
 /* ══════════════════ FOOTER ══════════════════ */
 footer{
-  padding:36px 24px;border-top:1px solid var(--surface-border);
-  text-align:center;color:var(--text3);font-size:13px
+  padding:56px 24px 40px;
+  border-top:none;
+  text-align:center;color:var(--text3);font-size:13px;
+  background:var(--bg);position:relative
 }
-footer a{color:var(--text3);text-decoration:none;transition:color .2s;padding:10px 4px;min-height:44px;display:inline-flex;align-items:center}
-footer a:hover{color:var(--text2)}
-.footer-links{display:flex;gap:24px;justify-content:center;margin-bottom:14px;flex-wrap:wrap}
+footer::before{
+  content:'';position:absolute;top:0;left:0;right:0;height:1px;
+  background:linear-gradient(90deg,transparent 15%,rgba(0,229,255,.06) 50%,transparent 85%)
+}
+.footer-inner{max-width:600px;margin:0 auto}
+.footer-brand{
+  display:flex;align-items:center;justify-content:center;gap:8px;
+  margin-bottom:24px;opacity:.6
+}
+.footer-brand img{width:24px;height:24px;border-radius:7px}
+.footer-brand span{font-weight:700;font-size:15px;color:var(--text);letter-spacing:-.3px}
+footer a{
+  color:var(--text3);text-decoration:none;transition:all .2s;
+  padding:10px 6px;min-height:44px;display:inline-flex;align-items:center;
+  font-weight:500;font-size:13px
+}
+footer a:hover{color:var(--cyan)}
+.footer-links{
+  display:flex;gap:8px;justify-content:center;margin-bottom:24px;flex-wrap:wrap
+}
+.footer-links a{
+  padding:8px 14px;border-radius:8px;font-size:12px;font-weight:600;
+  color:var(--text3);transition:all .2s
+}
+.footer-links a:hover{color:var(--text);background:rgba(255,255,255,.03)}
+footer .footer-copy{opacity:.3;font-size:11px;letter-spacing:.5px}
 
 /* ══════════════════ HOW IT WORKS ══════════════════ */
 .hiw-section{position:relative;overflow:hidden}
@@ -828,48 +899,80 @@ footer a:hover{color:var(--text2)}
 }
 
 /* ══════════════════ FAQ ══════════════════ */
+.faq-section{position:relative}
+.faq-section .s-label{font-size:11px;letter-spacing:4px;color:var(--text3);opacity:.7}
+.faq-section .s-title{
+  background:linear-gradient(180deg,var(--text) 40%,var(--text2));
+  -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;
+  margin-bottom:8px
+}
 .faq-list{max-width:680px;margin:48px auto 0}
-.faq-item{border-bottom:1px solid var(--surface-border)}
-.faq-item:first-child{border-top:1px solid var(--surface-border)}
+.faq-item{
+  border-bottom:1px solid rgba(255,255,255,.04);
+  transition:all .3s
+}
+.faq-item:first-child{border-top:1px solid rgba(255,255,255,.04)}
+.faq-item.open{
+  background:rgba(0,229,255,.02);
+  margin:0 -20px;padding:0 20px;
+  border-radius:16px;
+  border-color:transparent
+}
+.faq-item.open+.faq-item{border-top-color:transparent}
 .faq-q{
   display:flex;align-items:center;justify-content:space-between;gap:16px;
-  padding:20px 0;cursor:pointer;width:100%;
-  background:none;border:none;text-align:left;color:#fff;
-  font-size:16px;font-weight:700;font-family:inherit;line-height:1.4
+  padding:22px 0;cursor:pointer;width:100%;
+  background:none;border:none;text-align:left;color:var(--text);
+  font-size:16px;font-weight:700;font-family:inherit;line-height:1.4;
+  transition:color .2s
 }
 .faq-q:hover{color:var(--cyan)}
 .faq-toggle{
-  width:20px;height:20px;flex-shrink:0;position:relative;
-  transition:transform .3s ease
+  width:32px;height:32px;flex-shrink:0;position:relative;
+  border-radius:10px;background:rgba(255,255,255,.03);
+  border:1px solid rgba(255,255,255,.06);
+  transition:all .3s ease
+}
+.faq-item.open .faq-toggle{
+  background:rgba(0,229,255,.06);border-color:rgba(0,229,255,.12)
 }
 .faq-toggle::before,.faq-toggle::after{
   content:'';position:absolute;background:var(--text3);border-radius:1px;
-  transition:background .2s
+  transition:all .3s
 }
 .faq-toggle::before{width:12px;height:2px;top:50%;left:50%;transform:translate(-50%,-50%)}
 .faq-toggle::after{width:2px;height:12px;top:50%;left:50%;transform:translate(-50%,-50%)}
 .faq-item.open .faq-toggle{transform:rotate(45deg)}
+.faq-item.open .faq-toggle::before,.faq-item.open .faq-toggle::after{background:var(--cyan)}
+.faq-q:hover .faq-toggle{border-color:rgba(0,229,255,.15)}
 .faq-q:hover .faq-toggle::before,.faq-q:hover .faq-toggle::after{background:var(--cyan)}
 .faq-a{
-  max-height:0;overflow:hidden;transition:max-height .3s ease,padding .3s ease;
-  color:#B8B8B8;font-size:14px;line-height:1.7;padding:0 0 0
+  max-height:0;overflow:hidden;
+  transition:max-height .4s cubic-bezier(.4,0,.2,1),padding .4s cubic-bezier(.4,0,.2,1);
+  color:var(--text2);font-size:15px;line-height:1.75;padding:0 0 0
 }
-.faq-item.open .faq-a{max-height:500px;padding:0 0 20px}
+.faq-item.open .faq-a{max-height:500px;padding:0 0 24px}
 
 /* ══════════════════ STICKY MOBILE CTA ══════════════════ */
 .sticky-cta{
   display:none;position:fixed;bottom:0;left:0;right:0;z-index:9999;
-  padding:12px 20px;
-  background:var(--bg);
-  border-top:1px solid rgba(0,229,255,.15);
-  box-shadow:0 -4px 20px rgba(0,0,0,.5)
+  padding:12px 16px;
+  background:rgba(10,14,26,.85);
+  backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px);
+  border-top:1px solid rgba(255,255,255,.04);
+  box-shadow:0 -8px 32px rgba(0,0,0,.5)
+}
+.sticky-cta::before{
+  content:'';position:absolute;top:0;left:0;right:0;height:1px;
+  background:linear-gradient(90deg,transparent 10%,rgba(0,229,255,.1) 50%,transparent 90%)
 }
 .sticky-cta-btn{
   display:block;width:100%;padding:14px 24px;
-  background:#00E5FF;color:#0A0E1A;
-  font-size:15px;font-weight:700;letter-spacing:.5px;
+  background:linear-gradient(135deg,var(--cyan),#00B4D8);color:var(--bg);
+  font-size:15px;font-weight:700;letter-spacing:.3px;
   text-align:center;text-decoration:none;
-  border:none;border-radius:12px;cursor:pointer
+  border:none;border-radius:12px;cursor:pointer;
+  box-shadow:0 0 24px rgba(0,229,255,.2)
 }
 @media(max-width:768px){
   .sticky-cta{display:block}
@@ -945,7 +1048,6 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
 <section class="hero">
 <div class="hero-inner">
 <div class="hero-content">
-<div class="hero-eyebrow"><span class="emoji" aria-hidden="true">🐧</span> Duolingo for AI</div>
 <h1>
 <span class="line1">Learn AI like a game.</span>
 <span class="line2">Become unreplaceable.</span>
@@ -1217,7 +1319,7 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
 </div>
 </section>
 <!-- ═══════ FAQ ═══════ -->
-<section class="reveal">
+<section class="faq-section reveal">
 <div class="section-inner">
 <p class="s-label">FAQ</p>
 <h2 class="s-title">Got questions?</h2>
@@ -1225,27 +1327,27 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
 
 <div class="faq-item">
 <button class="faq-q" aria-expanded="false">Is Kiro free?<span class="faq-toggle" aria-hidden="true"></span></button>
-<div class="faq-a">Yes &mdash; Kiro is free to download and includes access to core lessons so you can try it risk-free. To unlock all 9 learning paths, unlimited hearts, AI duels, the Prompt Lab, and 1,000+ exercises, you can upgrade to Kiro Pro. There's a free 7-day trial on the annual plan so you can experience everything before you're charged.</div>
+<div class="faq-a">Free to download and try. Kiro Pro unlocks everything (all 10 paths, unlimited hearts, duels, Prompt Lab, 1,000+ exercises). Annual plan comes with a 7-day free trial.</div>
 </div>
 
 <div class="faq-item">
 <button class="faq-q" aria-expanded="false">Do I need AI experience?<span class="faq-toggle" aria-hidden="true"></span></button>
-<div class="faq-a">Not at all. Kiro is built for complete beginners and experienced users alike. The app starts with AI fundamentals and builds up through 9 progressive learning paths. Whether you've never opened ChatGPT or you prompt daily, Kiro meets you where you are and pushes you further.</div>
+<div class="faq-a">Nope. It starts from zero and builds up. If you've never touched ChatGPT, you're fine. If you use AI daily, Kiro will still push you with advanced paths like AI Agents, Automation, and Prompt Engineering.</div>
 </div>
 
 <div class="faq-item">
 <button class="faq-q" aria-expanded="false">How is this different from watching YouTube tutorials?<span class="faq-toggle" aria-hidden="true"></span></button>
-<div class="faq-a">YouTube is passive &mdash; you watch, you forget. Kiro is active. Every lesson asks you to make decisions, answer questions, rank options, spot hallucinations, and refine real prompts. Then you test your skills in live AI duels against other learners. That's how fluency actually sticks.</div>
+<div class="faq-a">YouTube is passive. You watch, you forget. Kiro makes you answer questions, rank options, spot AI hallucinations, refine real prompts, and duel other learners. You're doing the thinking, not just consuming.</div>
 </div>
 
 <div class="faq-item">
 <button class="faq-q" aria-expanded="false">How long does each lesson take?<span class="faq-toggle" aria-hidden="true"></span></button>
-<div class="faq-a">About 5 minutes. Each lesson is designed to fit into your morning routine, commute, or lunch break. Short enough to stay consistent, deep enough to actually learn something every session.</div>
+<div class="faq-a">About 5 minutes.</div>
 </div>
 
 <div class="faq-item">
 <button class="faq-q" aria-expanded="false">What AI topics does Kiro cover?<span class="faq-toggle" aria-hidden="true"></span></button>
-<div class="faq-a">9 learning paths covering AI Fundamentals, Prompt Engineering, AI at Work, AI Ethics &amp; Safety, AI Tools &amp; Platforms, Data &amp; AI, AI in Creative Work, AI in Business, and AI News &amp; Trends. Over 1,000 exercises across 8 different exercise types &mdash; from multiple choice to real-world scenarios to prompt coaching.</div>
+<div class="faq-a">Ten learning paths: AI Foundations, Prompt Engineering, AI Tools, AI Automation, AI Agents, AI Business, AI for Marketing, AI for Finance, AI for Managers, and AI for Healthcare. Over 1,000 exercises across 8 different formats.</div>
 </div>
 
 </div>
@@ -1274,6 +1376,11 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
 </main>
 <!-- ═══════ FOOTER ═══════ -->
 <footer>
+<div class="footer-inner">
+<div class="footer-brand">
+<picture><source srcset="assets/kiro-app-icon-256.webp" type="image/webp"/><img alt="Kiro" src="assets/kiro-app-icon-256.png"/></picture>
+<span>Kiro</span>
+</div>
 <div class="footer-links">
 <a href="privacy.html">Privacy</a>
 <a href="terms.html">Terms</a>
@@ -1282,7 +1389,8 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
 <a href="https://x.com/Kiro_App" target="_blank" rel="noopener">X</a>
 <a href="https://www.youtube.com/channel/UCHxieC5ZrIgHQnAzHAVI8oA" target="_blank" rel="noopener">YouTube</a>
 </div>
-<p>© 2026 Kiro. Master AI. Become Unreplaceable.</p>
+<p class="footer-copy">© 2026 Kiro. Master AI. Become Unreplaceable.</p>
+</div>
 </footer>
 <div class="sticky-cta">
 <a class="sticky-cta-btn" href="https://apps.apple.com/app/id6759628066?utm_source=website&utm_medium=cta&utm_campaign=sticky">Start Free — 7 Day Trial</a>
