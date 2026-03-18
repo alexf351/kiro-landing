@@ -114,6 +114,9 @@ body::before{
 }
 .btn-primary:hover::before{left:100%}
 .btn-primary:hover{transform:translateY(-2px);box-shadow:0 0 60px rgba(0,229,255,.4),0 8px 32px rgba(0,0,0,.4)}
+.btn-primary:focus-visible,.btn-secondary:focus-visible,.results-link:focus-visible,.quiz-option:focus-visible{
+  outline:2px solid var(--cyan);outline-offset:2px
+}
 .btn-secondary{
   background:transparent;color:var(--text3);border:1px solid var(--surface-border);
   padding:12px 24px;border-radius:13px;font-family:'Outfit',sans-serif;font-weight:600;
@@ -326,6 +329,15 @@ body::before{
 .cta-platform{font-size:13px;color:var(--text3);margin-top:10px}
 .cta-platform .platform-soon{color:var(--cyan);font-weight:600}
 
+/* FOOTER */
+.quiz-footer{
+  position:fixed;bottom:0;left:0;right:0;
+  padding:12px 24px;text-align:center;font-size:11px;color:var(--text3);opacity:.4;
+  background:transparent
+}
+.quiz-footer a{color:var(--text3);text-decoration:none;transition:color .2s;padding:4px 8px}
+.quiz-footer a:hover{color:var(--cyan)}
+
 @keyframes fadeIn{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
 @media(max-width:480px){
   body{padding:16px}
@@ -334,6 +346,7 @@ body::before{
   .quiz-results .btn-row .btn-primary,.quiz-results .btn-row .btn-secondary{width:100%;justify-content:center}
   .quiz-intro-mascot{width:100px;height:100px}
   .results-mascot{width:90px;height:90px}
+  .quiz-option{backdrop-filter:none;-webkit-backdrop-filter:none}
 }
 </style>
 <script>
@@ -378,6 +391,7 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
 </div>
 
 <div class="toast" id="toast">Copied to clipboard!</div>
+<div class="quiz-footer"><a href="privacy.html">Privacy</a> · <a href="terms.html">Terms</a></div>
 
 <script>
 const allQuizzes=[
