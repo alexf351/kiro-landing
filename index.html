@@ -283,17 +283,25 @@ nav{
 }
 
 /* ══════════════════ EXERCISE TYPES ══════════════════ */
-.exercise-types{margin-top:36px;text-align:center}
-.exercise-types-label{font-size:12px;font-weight:700;color:var(--text3);letter-spacing:2px;text-transform:uppercase;margin-bottom:14px}
-.exercise-pills{display:grid;grid-template-columns:repeat(4,auto);gap:8px;justify-content:center}
-.exercise-pill{
-  padding:5px 10px;border-radius:100px;font-size:12px;font-weight:600;
-  color:var(--text2);letter-spacing:.1px;white-space:nowrap;
-  border:1px solid var(--surface-border);
-  background:var(--surface);
-  box-shadow:0 0 20px rgba(0,229,255,.1);transition:box-shadow .3s
+.exercise-types{margin-top:48px;text-align:center}
+.exercise-types-label{
+  font-size:11px;font-weight:700;color:var(--text3);letter-spacing:4px;
+  text-transform:uppercase;margin-bottom:18px;opacity:.7
 }
-.exercise-pill:hover{box-shadow:0 0 24px rgba(0,229,255,.25)
+.exercise-pills{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;max-width:700px;margin:0 auto}
+.exercise-pill{
+  padding:8px 16px;border-radius:10px;font-size:12px;font-weight:600;
+  color:var(--text2);letter-spacing:.2px;white-space:nowrap;
+  border:1px solid rgba(255,255,255,.05);
+  background:rgba(20,27,45,.6);
+  backdrop-filter:blur(4px);-webkit-backdrop-filter:blur(4px);
+  transition:all .3s
+}
+.exercise-pill:hover{
+  border-color:rgba(0,229,255,.15);color:var(--text);
+  background:rgba(0,229,255,.04);
+  box-shadow:0 0 16px rgba(0,229,255,.08);
+  transform:translateY(-1px)
 }
 
 /* ══════════════════ SECTION UTILS ══════════════════ */
@@ -313,43 +321,107 @@ section{padding:100px 24px;position:relative}
 }
 
 /* ══════════════════ WHY KIRO (3 CARDS) ══════════════════ */
+.why-kiro-section{position:relative;overflow:hidden}
+.why-kiro-section .s-label{font-size:11px;letter-spacing:4px;color:var(--text3);opacity:.7}
+.why-kiro-section .s-title{
+  font-size:clamp(34px,5vw,52px);
+  background:linear-gradient(180deg,var(--text) 40%,var(--text2));
+  -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text
+}
 .why-grid{
-  display:grid;grid-template-columns:repeat(3,1fr);gap:20px;
-  max-width:1000px;margin:0 auto
+  display:grid;grid-template-columns:repeat(3,1fr);gap:16px;
+  max-width:1020px;margin:0 auto
 }
 .why-card{
-  background:var(--surface);border:1px solid var(--surface-border);
-  border-radius:20px;padding:36px 28px;position:relative;overflow:hidden;
-  transition:all .3s
+  background:rgba(20,27,45,.6);
+  border:1px solid rgba(255,255,255,.04);
+  border-radius:20px;padding:40px 32px;position:relative;overflow:hidden;
+  transition:all .4s;
+  backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px)
+}
+.why-card::before{
+  content:'';position:absolute;top:0;left:0;right:0;height:1px;
+  background:linear-gradient(90deg,transparent 10%,rgba(255,255,255,.06) 50%,transparent 90%)
 }
 .why-card::after{
-  content:'';position:absolute;top:0;left:0;right:0;height:2px;
-  background:linear-gradient(90deg,transparent,var(--cyan),transparent);
-  opacity:0;transition:opacity .3s
+  content:'';position:absolute;inset:0;opacity:0;transition:opacity .4s;
+  pointer-events:none
 }
-.why-card:hover{border-color:rgba(0,229,255,.15);transform:translateY(-3px)}
-.why-card:hover::after{opacity:.6}
-.why-card .icon{font-size:28px;margin-bottom:18px;display:block;color:var(--cyan)}
-.why-card h3{font-size:19px;font-weight:700;margin-bottom:8px;letter-spacing:-.3px}
-.why-card p{color:var(--text2);font-size:14px;line-height:1.55}
+.why-card:nth-child(1)::after{background:linear-gradient(135deg,rgba(0,229,255,.05),transparent 50%)}
+.why-card:nth-child(2)::after{background:linear-gradient(135deg,rgba(255,165,0,.04),transparent 50%)}
+.why-card:nth-child(3)::after{background:linear-gradient(135deg,rgba(46,204,113,.04),transparent 50%)}
+.why-card:hover{
+  border-color:rgba(255,255,255,.08);
+  transform:translateY(-4px);
+  box-shadow:0 16px 48px rgba(0,0,0,.3)
+}
+.why-card:hover::after{opacity:1}
+.why-card .icon{
+  width:52px;height:52px;border-radius:14px;
+  display:flex;align-items:center;justify-content:center;
+  font-size:24px;margin-bottom:24px;
+  transition:all .4s
+}
+.why-card:nth-child(1) .icon{
+  background:rgba(0,229,255,.08);border:1px solid rgba(0,229,255,.12)
+}
+.why-card:nth-child(2) .icon{
+  background:rgba(255,165,0,.06);border:1px solid rgba(255,165,0,.1)
+}
+.why-card:nth-child(3) .icon{
+  background:rgba(46,204,113,.06);border:1px solid rgba(46,204,113,.1)
+}
+.why-card:hover .icon{transform:scale(1.08)}
+.why-card h3{
+  font-size:20px;font-weight:800;margin-bottom:10px;letter-spacing:-.4px;
+  color:var(--text)
+}
+.why-card p{color:var(--text2);font-size:14px;line-height:1.65}
 
 /* ══════════════════ GAMEPLAY SHOWCASE ══════════════════ */
-.gameplay{overflow:hidden}
+.gameplay{overflow:hidden;position:relative}
+.gameplay::before{
+  content:'';position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);
+  width:1000px;height:800px;
+  background:radial-gradient(ellipse at center,rgba(0,229,255,.03) 0%,transparent 55%);
+  pointer-events:none
+}
+.gameplay .s-label{font-size:11px;letter-spacing:4px;color:var(--text3);opacity:.7}
+.gameplay .s-title{
+  background:linear-gradient(180deg,var(--text) 40%,var(--text2));
+  -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text
+}
 .gameplay-grid{
-  display:grid;grid-template-columns:repeat(3,1fr);gap:16px;
-  max-width:900px;margin:0 auto
+  display:grid;grid-template-columns:repeat(3,1fr);gap:20px;
+  max-width:960px;margin:0 auto
 }
 .gameplay-card{
-  border-radius:18px;overflow:hidden;border:1px solid var(--surface-border);
-  background:var(--surface);transition:all .3s;
+  border-radius:20px;overflow:hidden;
+  border:1px solid rgba(255,255,255,.05);
+  background:rgba(20,27,45,.7);
+  transition:all .4s;
   display:flex;flex-direction:column;
-  box-shadow:0 0 20px rgba(0,229,255,.1)
+  box-shadow:0 8px 32px rgba(0,0,0,.25);
+  backdrop-filter:blur(4px);-webkit-backdrop-filter:blur(4px);
+  position:relative
 }
-.gameplay-card:hover{transform:translateY(-4px);border-color:rgba(0,229,255,.2);box-shadow:0 0 24px rgba(0,229,255,.25)}
-.gameplay-card img{width:100%;height:auto;display:block}
+.gameplay-card::before{
+  content:'';position:absolute;top:0;left:0;right:0;height:1px;
+  background:linear-gradient(90deg,transparent 10%,rgba(0,229,255,.08) 50%,transparent 90%);
+  z-index:2
+}
+.gameplay-card:hover{
+  transform:translateY(-12px) scale(1.04);
+  border-color:rgba(0,229,255,.2);
+  box-shadow:0 28px 80px rgba(0,0,0,.5),0 0 40px rgba(0,229,255,.12),0 0 80px rgba(0,229,255,.05)
+}
+.gameplay-card:hover img{filter:brightness(1.08)}
+.gameplay-card img{width:100%;height:auto;display:block;transition:filter .4s}
 .gameplay-card-label{
-  padding:10px 12px;text-align:center;
-  font-size:13px;font-weight:600;color:var(--text2);letter-spacing:.2px
+  padding:12px 14px;text-align:center;
+  font-size:13px;font-weight:700;color:var(--text2);letter-spacing:.3px;
+  background:rgba(10,14,26,.6);
+  border-top:1px solid rgba(255,255,255,.03)
 }
 
 /* ══════════════════ RANK EVOLUTION ══════════════════ */
@@ -715,7 +787,7 @@ footer a:hover{color:var(--text2)}
   .hero-mascot-glow{width:300px;height:300px}
   .why-grid{grid-template-columns:1fr}
   .proof-grid{grid-template-columns:1fr}
-  .gameplay-grid{grid-template-columns:repeat(2,1fr)}
+  .gameplay-grid{grid-template-columns:repeat(2,1fr);gap:14px}
   .rank-track{flex-wrap:wrap;justify-content:center;gap:16px}
   .rank-arrow{display:none}
   .rank-tier-img{width:72px;height:72px}
@@ -729,7 +801,7 @@ footer a:hover{color:var(--text2)}
 @media(max-width:480px){
   .hero-ctas{flex-direction:column;width:100%}
   .btn-primary,.btn-ghost{width:100%;text-align:center;justify-content:center}
-  .gameplay-grid{grid-template-columns:repeat(2,1fr);gap:12px}
+  .gameplay-grid{grid-template-columns:repeat(2,1fr);gap:10px}
   .rank-tier-img{width:56px;height:56px}
   .rank-tier-locked{width:56px;height:56px}
   .rank-tier-locked-icon{font-size:20px}
@@ -874,7 +946,7 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
 </div>
 </section>
 <!-- ═══════ WHY KIRO ═══════ -->
-<section class="reveal">
+<section class="why-kiro-section reveal">
 <div class="section-inner">
 <p class="s-label">Why Kiro Works</p>
 <h2 class="s-title">Not a course. Not a chatbot.<br/>A training system.</h2>
