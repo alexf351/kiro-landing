@@ -175,7 +175,7 @@ nav{
   background:rgba(0,229,255,.04)
 }
 .quiz-callout{
-  display:block;margin-top:28px;text-align:center;width:100%;
+  display:inline-block;margin-top:28px;text-align:center;padding:12px 0;
   font-size:14px;font-weight:600;color:var(--cyan);text-decoration:none;
   transition:opacity .2s
 }
@@ -186,7 +186,7 @@ nav{
 .exercise-types-label{font-size:12px;font-weight:700;color:var(--text3);letter-spacing:2px;text-transform:uppercase;margin-bottom:14px}
 .exercise-pills{display:grid;grid-template-columns:repeat(4,auto);gap:8px;justify-content:center}
 .exercise-pill{
-  padding:5px 10px;border-radius:100px;font-size:11px;font-weight:600;
+  padding:5px 10px;border-radius:100px;font-size:12px;font-weight:600;
   color:var(--text2);letter-spacing:.1px;white-space:nowrap;
   border:1px solid var(--surface-border);
   background:var(--surface);
@@ -199,7 +199,7 @@ nav{
 section{padding:100px 24px;position:relative}
 .section-inner{max-width:1140px;margin:0 auto}
 .s-label{
-  font-size:11px;font-weight:700;letter-spacing:3px;text-transform:uppercase;
+  font-size:12px;font-weight:700;letter-spacing:2px;text-transform:uppercase;
   color:var(--cyan);margin-bottom:14px;text-align:center
 }
 .s-title{
@@ -308,7 +308,7 @@ section{padding:100px 24px;position:relative}
 .rank-tier-locked-icon{font-size:28px;filter:grayscale(.3) brightness(.8);transition:all .4s}
 .rank-tier--locked:hover .rank-tier-locked-icon{filter:grayscale(0) brightness(1)}
 .rank-tier-hint{
-  font-size:10px;color:var(--cyan);opacity:.4;
+  font-size:11px;color:var(--cyan);opacity:.4;
   letter-spacing:.5px;margin-top:-4px;
   transition:opacity .3s
 }
@@ -390,9 +390,9 @@ section{padding:100px 24px;position:relative}
 .email-capture-label{font-size:14px;color:var(--text2);margin-bottom:12px}
 .email-form{display:flex;gap:8px;max-width:400px;margin:0 auto;justify-content:center}
 .email-form input[type="email"]{
-  flex:1;padding:12px 16px;border-radius:11px;border:1px solid var(--surface-border);
+  flex:1;padding:13px 16px;border-radius:11px;border:1px solid var(--surface-border);
   background:var(--surface);color:var(--text);font-family:'Outfit',sans-serif;
-  font-size:14px;outline:none;transition:border-color .2s;min-width:0
+  font-size:16px;outline:none;transition:border-color .2s;min-width:0
 }
 .email-form input[type="email"]:focus{border-color:var(--cyan)}
 .email-form input[type="email"]::placeholder{color:var(--text3)}
@@ -423,7 +423,7 @@ footer{
   padding:36px 24px;border-top:1px solid var(--surface-border);
   text-align:center;color:var(--text3);font-size:13px
 }
-footer a{color:var(--text3);text-decoration:none;transition:color .2s}
+footer a{color:var(--text3);text-decoration:none;transition:color .2s;padding:10px 4px;min-height:44px;display:inline-flex;align-items:center}
 footer a:hover{color:var(--text2)}
 .footer-links{display:flex;gap:24px;justify-content:center;margin-bottom:14px;flex-wrap:wrap}
 
@@ -438,6 +438,8 @@ footer a:hover{color:var(--text2)}
 @media(max-width:768px){
   .hiw-grid{grid-template-columns:1fr;gap:36px;max-width:400px}
   .exercise-pills{grid-template-columns:repeat(2,auto)}
+  .nav-cta{display:none}
+  .nav-link{padding:10px 4px;min-height:44px;display:inline-flex;align-items:center}
 }
 
 /* ══════════════════ FAQ ══════════════════ */
