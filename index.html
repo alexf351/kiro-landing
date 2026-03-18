@@ -232,9 +232,32 @@ nav{
 }
 
 /* ══════════════════ WHY NOW ══════════════════ */
+.why-now{
+  padding:120px 24px;position:relative;overflow:hidden;
+  background:var(--bg)
+}
+.why-now::before{
+  content:'';position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);
+  width:800px;height:600px;
+  background:radial-gradient(ellipse at center,rgba(0,229,255,.03) 0%,transparent 60%);
+  pointer-events:none
+}
+.why-now .section-inner{
+  max-width:720px;position:relative;z-index:1;text-align:center
+}
+.why-now .s-label{
+  font-size:11px;letter-spacing:4px;color:var(--text3);margin-bottom:24px;
+  opacity:.7
+}
+.why-now .s-title{
+  font-size:clamp(36px,5.5vw,56px);font-weight:900;letter-spacing:-2.5px;
+  line-height:1.05;margin-bottom:28px;
+  background:linear-gradient(180deg,var(--text) 40%,var(--text2));
+  -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text
+}
 .why-now-body{
-  max-width:600px;margin:24px auto 0;
-  font-size:16px;color:var(--text2);line-height:1.7;text-align:center
+  max-width:560px;margin:0 auto;
+  font-size:17px;color:var(--text2);line-height:1.75;text-align:center
 }
 .why-now-chips{
   display:flex;gap:12px;justify-content:center;flex-wrap:wrap;
@@ -247,11 +270,17 @@ nav{
   background:rgba(0,229,255,.04)
 }
 .quiz-callout{
-  display:inline-block;margin-top:28px;text-align:center;padding:12px 0;
-  font-size:14px;font-weight:600;color:var(--cyan);text-decoration:none;
-  transition:opacity .2s
+  display:inline-flex;align-items:center;gap:8px;margin-top:36px;
+  padding:14px 28px;border-radius:12px;
+  font-size:15px;font-weight:700;color:var(--cyan);text-decoration:none;
+  background:rgba(0,229,255,.04);border:1px solid rgba(0,229,255,.12);
+  transition:all .3s;
+  backdrop-filter:blur(4px);-webkit-backdrop-filter:blur(4px)
 }
-.quiz-callout:hover{opacity:.75}
+.quiz-callout:hover{
+  background:rgba(0,229,255,.08);border-color:rgba(0,229,255,.25);
+  transform:translateY(-1px);box-shadow:0 4px 24px rgba(0,229,255,.1)
+}
 
 /* ══════════════════ EXERCISE TYPES ══════════════════ */
 .exercise-types{margin-top:36px;text-align:center}
@@ -691,7 +720,7 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
 </div>
 </div>
 <!-- ═══════ WHY NOW ═══════ -->
-<section class="reveal">
+<section class="why-now reveal">
 <div class="section-inner">
 <p class="s-label">Why Now</p>
 <h2 class="s-title">Most people are watching<br/>from the sidelines.</h2>
