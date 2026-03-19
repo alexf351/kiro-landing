@@ -380,12 +380,16 @@ body{
 @keyframes fadeIn{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
 @media(max-width:480px){
   body{padding:16px}
+  .quiz-intro h1 br{display:none}
+  .quiz-intro h1{letter-spacing:-1.5px}
   .quiz-option{padding:14px 16px;font-size:14px}
   .quiz-options{gap:12px}
   .quiz-results .btn-row .btn-primary,.quiz-results .btn-row .btn-secondary{width:100%;justify-content:center}
   .quiz-intro-mascot{width:100px;height:100px}
   .results-mascot{width:90px;height:90px}
   .quiz-option{backdrop-filter:none;-webkit-backdrop-filter:none}
+  .quiz-wrap{padding-bottom:48px}
+  .toast{bottom:52px}
 }
 </style>
 <script>

@@ -40,10 +40,10 @@ body{font-family:'Outfit',sans-serif;background:var(--bg);color:var(--text);over
 .ambient-gradient{
   position:fixed;top:0;left:0;right:0;bottom:0;z-index:-2;pointer-events:none;
   background:
-    radial-gradient(ellipse 80% 60% at 15% 25%,rgba(0,229,255,.1),transparent),
-    radial-gradient(ellipse 60% 70% at 85% 75%,rgba(100,50,180,.08),transparent),
-    radial-gradient(ellipse 50% 40% at 50% 50%,rgba(0,180,216,.06),transparent),
-    radial-gradient(ellipse 40% 50% at 70% 20%,rgba(255,215,0,.03),transparent);
+    radial-gradient(ellipse 80% 60% at 15% 25%,rgba(0,229,255,.085),transparent),
+    radial-gradient(ellipse 60% 70% at 85% 75%,rgba(100,50,180,.068),transparent),
+    radial-gradient(ellipse 50% 40% at 50% 50%,rgba(0,180,216,.05),transparent),
+    radial-gradient(ellipse 40% 50% at 70% 20%,rgba(255,215,0,.025),transparent);
   background-size:200% 200%;
   animation:ambientDrift 25s ease-in-out infinite alternate
 }
@@ -903,7 +903,7 @@ footer .footer-copy{opacity:.3;font-size:11px;letter-spacing:.5px}
 @media(max-width:768px){
   .hiw-grid{grid-template-columns:1fr;gap:40px;max-width:400px}
   .hiw-grid::before{display:none}
-  .exercise-pills{grid-template-columns:repeat(2,auto)}
+  .exercise-pills{display:grid;grid-template-columns:repeat(2,1fr);gap:8px}
   .nav-cta{display:none}
   .nav-link{padding:10px 4px;min-height:44px;display:inline-flex;align-items:center}
   .mini-quiz{padding:28px 20px;border-radius:18px}
@@ -1033,15 +1033,25 @@ footer .footer-copy{opacity:.3;font-size:11px;letter-spacing:.5px}
   section{padding:72px 20px}
 }
 @media(max-width:480px){
+  section{padding:56px 16px}
   .hero-ctas{flex-direction:column;width:100%}
   .btn-primary,.btn-ghost{width:100%;text-align:center;justify-content:center}
+  .hero h1{letter-spacing:-2px}
+  .why-now .s-title{letter-spacing:-1.5px}
+  .final-cta h2{letter-spacing:-2px}
+  .why-now .s-title br,
+  .why-kiro-section .s-title br,
+  .gameplay .s-title br{display:none}
   .gameplay-grid{grid-template-columns:repeat(2,1fr);gap:12px}
   .rank-tier-img{width:64px;height:64px}
   .rank-tier-locked{width:64px;height:64px}
   .rank-tier-locked-icon{font-size:20px}
+  .rank-tier-hint{display:none}
   .founder-stats{grid-template-columns:repeat(2,1fr)}
   .founder-stat:nth-child(2)::after{display:none}
   .founder-stat:nth-child(4)::after{display:none}
+  .founder-stat:last-child{grid-column:1 / -1}
+  .why-card{padding:28px 24px}
 }
 </style>
 <script>
