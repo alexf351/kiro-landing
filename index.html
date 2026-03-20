@@ -25,13 +25,14 @@
 </script>
 <link href="https://fonts.googleapis.com" rel="preconnect"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
-<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700;800;900&amp;family=JetBrains+Mono:wght@700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&amp;family=JetBrains+Mono:wght@700&amp;display=swap" rel="stylesheet"/>
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
 :root{
   --bg:#0A0E1A;--bg1:#0F1425;--surface:#141B2D;--surface-border:#1E2740;
   --text:#FFFFFF;--text2:#8B95B0;--text3:#7A849E;
-  --cyan:#00E5FF;--gold:#FFD700;--error:#FF4757;--success:#2ECC71;
+  --cyan:#00E5FF;--cyan-light:#00B4D8;--gold:#FFD700;--error:#FF4757;--success:#2ECC71;
+  --iridescent-pink:#FF6BFF;
 }
 html{scroll-behavior:smooth;-webkit-font-smoothing:antialiased}
 body{font-family:'Outfit',sans-serif;background:var(--bg);color:var(--text);overflow-x:hidden;line-height:1.6}
@@ -74,10 +75,10 @@ nav::after{
 }
 .nav-brand{display:flex;align-items:center;gap:10px;text-decoration:none}
 .nav-brand img{
-  width:32px;height:32px;border-radius:10px;
+  width:32px;height:32px;border-radius:12px;
   box-shadow:0 0 12px rgba(0,229,255,.08)
 }
-.nav-brand span{font-weight:800;font-size:18px;color:var(--text);letter-spacing:-.5px}
+.nav-brand span{font-weight:700;font-size:18px;color:var(--text);letter-spacing:-.5px}
 .nav-right{display:flex;align-items:center;gap:24px}
 .nav-link{
   color:var(--text3);text-decoration:none;font-size:13px;font-weight:600;
@@ -87,7 +88,7 @@ nav::after{
 .nav-cta{
   background:rgba(0,229,255,.1);color:var(--cyan);
   border:1px solid rgba(0,229,255,.2);
-  padding:9px 20px;border-radius:10px;
+  padding:9px 20px;border-radius:12px;
   font-family:'Outfit',sans-serif;font-weight:700;font-size:13px;cursor:pointer;text-decoration:none;
   transition:all .3s;letter-spacing:.3px;
   backdrop-filter:blur(4px);-webkit-backdrop-filter:blur(4px)
@@ -135,7 +136,7 @@ nav::after{
 .hero h1 .line1{display:block;color:var(--text)}
 .hero h1 .line2{
   display:block;
-  background:linear-gradient(90deg,var(--cyan),#00B4D8,var(--gold),var(--cyan));
+  background:linear-gradient(90deg,var(--cyan),var(--cyan-light),var(--gold),var(--cyan));
   background-size:300% 100%;
   -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;
   animation:iridescent 8s ease infinite
@@ -151,7 +152,7 @@ nav::after{
 
 .hero-ctas{display:flex;gap:14px;align-items:center;animation:fadeInUp .8s ease;flex-wrap:wrap}
 .btn-primary{
-  background:linear-gradient(135deg,var(--cyan),#00B4D8);color:var(--bg);
+  background:linear-gradient(135deg,var(--cyan),var(--cyan-light));color:var(--bg);
   border:none;padding:16px 36px;border-radius:14px;
   font-family:'Outfit',sans-serif;font-weight:700;font-size:16px;cursor:pointer;text-decoration:none;
   transition:all .3s;display:inline-flex;align-items:center;gap:8px;
@@ -173,7 +174,9 @@ nav::after{
   backdrop-filter:blur(4px);-webkit-backdrop-filter:blur(4px)
 }
 .btn-ghost:hover{border-color:rgba(0,229,255,.25);color:var(--text);background:rgba(0,229,255,.04)}
-.btn-primary:focus-visible,.btn-ghost:focus-visible,.nav-cta:focus-visible,.quiz-callout:focus-visible,.faq-q:focus-visible{
+.btn-primary:focus-visible,.btn-ghost:focus-visible,.nav-cta:focus-visible,.quiz-callout:focus-visible,.faq-q:focus-visible,
+.nav-brand:focus-visible,.nav-link:focus-visible,.footer-links a:focus-visible,footer a:focus-visible,
+.sticky-cta-btn:focus-visible,.mini-quiz-opt:focus-visible,.email-form button:focus-visible{
   outline:2px solid var(--cyan);outline-offset:2px
 }
 
@@ -280,7 +283,7 @@ nav::after{
 }
 .why-now .s-label{margin-bottom:24px}
 .why-now .s-title{
-  font-size:clamp(36px,5.5vw,56px);font-weight:900;letter-spacing:-2.5px;
+  font-size:clamp(36px,5.5vw,56px);font-weight:700;letter-spacing:-2.5px;
   line-height:1.05;margin-bottom:28px;
   background:linear-gradient(180deg,var(--text) 40%,var(--text2));
   -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text
@@ -322,7 +325,7 @@ nav::after{
 }
 .exercise-pills{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;max-width:700px;margin:0 auto}
 .exercise-pill{
-  padding:8px 16px;border-radius:10px;font-size:12px;font-weight:600;
+  padding:8px 16px;border-radius:12px;font-size:12px;font-weight:600;
   color:var(--text2);letter-spacing:.2px;white-space:nowrap;
   border:1px solid rgba(255,255,255,.05);
   background:rgba(20,27,45,.6);
@@ -344,7 +347,7 @@ section{padding:100px 24px;position:relative}
   color:var(--text3);opacity:.7;margin-bottom:14px;text-align:center
 }
 .s-title{
-  font-size:clamp(34px,5vw,52px);font-weight:800;letter-spacing:-2px;
+  font-size:clamp(34px,5vw,52px);font-weight:700;letter-spacing:-2px;
   line-height:1.08;text-align:center;margin-bottom:18px;
   background:linear-gradient(180deg,var(--text) 40%,var(--text2));
   -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text
@@ -372,7 +375,7 @@ section{padding:100px 24px;position:relative}
 .why-card{
   background:rgba(20,27,45,.6);
   border:1px solid rgba(255,255,255,.04);
-  border-radius:20px;padding:40px 32px;position:relative;overflow:hidden;
+  border-radius:16px;padding:40px 32px;position:relative;overflow:hidden;
   transition:all .4s;
   backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px)
 }
@@ -394,7 +397,7 @@ section{padding:100px 24px;position:relative}
 }
 .why-card:hover::after{opacity:1}
 .why-card .icon{
-  width:52px;height:52px;border-radius:14px;
+  width:52px;height:52px;border-radius:12px;
   display:flex;align-items:center;justify-content:center;
   font-size:24px;margin-bottom:24px;
   transition:all .4s
@@ -410,7 +413,7 @@ section{padding:100px 24px;position:relative}
 }
 .why-card:hover .icon{transform:scale(1.08)}
 .why-card h3{
-  font-size:20px;font-weight:800;margin-bottom:10px;letter-spacing:-.4px;
+  font-size:20px;font-weight:700;margin-bottom:10px;letter-spacing:-.4px;
   color:var(--text)
 }
 .why-card p{color:var(--text2);font-size:14px;line-height:1.65}
@@ -428,7 +431,7 @@ section{padding:100px 24px;position:relative}
   max-width:960px;margin:0 auto
 }
 .gameplay-card{
-  border-radius:20px;overflow:hidden;
+  border-radius:16px;overflow:hidden;
   border:1px solid rgba(255,255,255,.05);
   background:rgba(20,27,45,.7);
   transition:all .4s;
@@ -510,7 +513,7 @@ section{padding:100px 24px;position:relative}
 .rank-tier:nth-of-type(4):hover .rank-tier-img{filter:drop-shadow(0 0 32px rgba(229,228,226,.35))}
 .rank-tier:nth-of-type(5):hover .rank-tier-img{filter:drop-shadow(0 0 36px rgba(185,242,255,.5))}
 .rank-tier-name{
-  font-size:11px;font-weight:800;letter-spacing:1.5px;text-transform:uppercase
+  font-size:11px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase
 }
 .rank-tier:nth-of-type(1) .rank-tier-name{color:#CD7F32}
 .rank-tier:nth-of-type(2) .rank-tier-name{color:#C0C0C0}
@@ -529,14 +532,14 @@ section{padding:100px 24px;position:relative}
   display:flex;align-items:center;padding:0 2px
 }
 .rank-track .rank-arrow::before{
-  content:'›';font-size:20px;font-weight:300;
+  content:'›';font-size:20px;font-weight:400;
   color:var(--text3);opacity:.3;
   display:block
 }
 /* Locked tier */
 .rank-tier--locked .rank-tier-name{
   opacity:.5;
-  background:linear-gradient(90deg,#00E5FF,#B9F2FF,#FF6BFF,#00E5FF);
+  background:linear-gradient(90deg,#00E5FF,#B9F2FF,var(--iridescent-pink),#00E5FF);
   background-size:300% 100%;
   -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;
   animation:iridescentLock 6s ease infinite
@@ -590,7 +593,7 @@ section{padding:100px 24px;position:relative}
 .proof-card{
   background:rgba(20,27,45,.6);
   border:1px solid rgba(255,255,255,.04);
-  border-radius:20px;padding:32px 28px;
+  border-radius:16px;padding:32px 28px;
   position:relative;overflow:hidden;
   transition:all .4s;
   backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px)
@@ -646,7 +649,7 @@ section{padding:100px 24px;position:relative}
   line-height:1.02;margin-bottom:20px;position:relative;z-index:1
 }
 .final-cta h2 .grad{
-  background:linear-gradient(90deg,var(--cyan),#00B4D8,var(--gold),var(--cyan));
+  background:linear-gradient(90deg,var(--cyan),var(--cyan-light),var(--gold),var(--cyan));
   background-size:300% 100%;
   -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;
   animation:iridescent 8s ease infinite
@@ -688,7 +691,7 @@ section{padding:100px 24px;position:relative}
 }
 .mini-quiz{
   max-width:600px;margin:0 auto;
-  padding:40px 36px;border-radius:24px;
+  padding:40px 36px;border-radius:16px;
   background:rgba(20,27,45,.8);
   border:1px solid rgba(0,229,255,.08);
   box-shadow:
@@ -701,7 +704,7 @@ section{padding:100px 24px;position:relative}
 .mini-quiz::before{
   content:'';position:absolute;top:0;left:0;right:0;height:1px;
   background:linear-gradient(90deg,transparent 5%,rgba(0,229,255,.12) 50%,transparent 95%);
-  border-radius:24px 24px 0 0
+  border-radius:16px 16px 0 0
 }
 .mini-quiz-q{
   font-size:clamp(18px,3vw,22px);font-weight:700;line-height:1.4;
@@ -711,9 +714,9 @@ section{padding:100px 24px;position:relative}
 }
 .mini-quiz-opts{display:flex;flex-direction:column;gap:10px;margin-bottom:20px}
 .mini-quiz-opt{
-  width:100%;padding:16px 20px;border-radius:14px;
+  width:100%;padding:16px 20px;border-radius:12px;
   background:rgba(255,255,255,.02);border:1px solid rgba(255,255,255,.06);
-  color:var(--text);font-family:'Outfit',sans-serif;font-size:14px;font-weight:500;
+  color:var(--text);font-family:'Outfit',sans-serif;font-size:14px;font-weight:600;
   cursor:pointer;transition:all .25s;text-align:left;
   display:flex;align-items:center;gap:12px;
   position:relative;overflow:hidden
@@ -743,7 +746,7 @@ section{padding:100px 24px;position:relative}
 .mini-quiz-opt.mq-reveal{border-color:var(--success);background:rgba(46,204,113,.05)}
 .mini-quiz-opt.mq-disabled{cursor:default;opacity:.6}
 .mini-quiz-opt-letter{
-  width:30px;height:30px;border-radius:10px;
+  width:30px;height:30px;border-radius:8px;
   background:rgba(0,229,255,.06);border:1px solid rgba(0,229,255,.1);
   display:flex;align-items:center;justify-content:center;
   font-size:12px;font-weight:700;color:var(--cyan);flex-shrink:0;
@@ -769,14 +772,14 @@ section{padding:100px 24px;position:relative}
 .email-capture-label{font-size:14px;color:var(--text2);margin-bottom:12px}
 .email-form{display:flex;gap:8px;max-width:400px;margin:0 auto;justify-content:center}
 .email-form input[type="email"]{
-  flex:1;padding:13px 16px;border-radius:11px;border:1px solid var(--surface-border);
+  flex:1;padding:13px 16px;border-radius:12px;border:1px solid var(--surface-border);
   background:var(--surface);color:var(--text);font-family:'Outfit',sans-serif;
   font-size:16px;outline:none;transition:border-color .2s;min-width:0
 }
-.email-form input[type="email"]:focus{border-color:var(--cyan)}
+.email-form input[type="email"]:focus-visible{border-color:var(--cyan);outline:2px solid var(--cyan);outline-offset:2px}
 .email-form input[type="email"]::placeholder{color:var(--text3)}
 .email-form button{
-  padding:12px 20px;border-radius:11px;border:1px solid var(--cyan);
+  padding:12px 20px;border-radius:12px;border:1px solid var(--cyan);
   background:transparent;color:var(--cyan);
   font-family:'Outfit',sans-serif;font-weight:700;font-size:14px;cursor:pointer;
   transition:all .2s;white-space:nowrap
@@ -824,12 +827,12 @@ footer::before{
   display:flex;align-items:center;justify-content:center;gap:8px;
   margin-bottom:24px;opacity:.6
 }
-.footer-brand img{width:24px;height:24px;border-radius:7px}
+.footer-brand img{width:24px;height:24px;border-radius:8px}
 .footer-brand span{font-weight:700;font-size:15px;color:var(--text);letter-spacing:-.3px}
 footer a{
   color:var(--text3);text-decoration:none;transition:all .2s;
   padding:10px 6px;min-height:44px;display:inline-flex;align-items:center;
-  font-weight:500;font-size:13px
+  font-weight:600;font-size:13px
 }
 footer a:hover{color:var(--cyan)}
 .footer-links{
@@ -866,7 +869,7 @@ footer .footer-copy{opacity:.3;font-size:11px;letter-spacing:.5px}
   text-align:center;padding:0 24px;position:relative;z-index:1
 }
 .hiw-item-icon{
-  width:88px;height:88px;border-radius:22px;margin:0 auto 24px;
+  width:88px;height:88px;border-radius:16px;margin:0 auto 24px;
   display:flex;align-items:center;justify-content:center;
   font-size:36px;position:relative;
   background:rgba(20,27,45,.9);
@@ -906,7 +909,7 @@ footer .footer-copy{opacity:.3;font-size:11px;letter-spacing:.5px}
   .exercise-pills{display:grid;grid-template-columns:repeat(2,1fr);gap:8px}
   .nav-cta{display:none}
   .nav-link{padding:10px 4px;min-height:44px;display:inline-flex;align-items:center}
-  .mini-quiz{padding:28px 20px;border-radius:18px}
+  .mini-quiz{padding:28px 20px;border-radius:16px}
   .exercise-pill,.why-now-chip,.mini-quiz-opt{backdrop-filter:none;-webkit-backdrop-filter:none}
 }
 
@@ -945,7 +948,7 @@ footer .footer-copy{opacity:.3;font-size:11px;letter-spacing:.5px}
 .faq-q:hover{color:var(--cyan)}
 .faq-toggle{
   width:32px;height:32px;flex-shrink:0;position:relative;
-  border-radius:10px;background:rgba(255,255,255,.03);
+  border-radius:8px;background:rgba(255,255,255,.03);
   border:1px solid rgba(255,255,255,.06);
   transition:all .3s ease
 }
@@ -984,7 +987,7 @@ footer .footer-copy{opacity:.3;font-size:11px;letter-spacing:.5px}
 }
 .sticky-cta-btn{
   display:block;width:100%;padding:14px 24px;
-  background:linear-gradient(135deg,var(--cyan),#00B4D8);color:var(--bg);
+  background:linear-gradient(135deg,var(--cyan),var(--cyan-light));color:var(--bg);
   font-size:15px;font-weight:700;letter-spacing:.3px;
   text-align:center;text-decoration:none;
   border:none;border-radius:12px;cursor:pointer;
