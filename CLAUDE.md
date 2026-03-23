@@ -43,3 +43,26 @@ All images are served locally from the `assets/` folder via relative paths (e.g.
 - 6 app screenshots used in the gameplay showcase (named `01-node-map-...`, `02-hero-...`, etc.)
 
 OG/Twitter meta images use the absolute URL `https://www.trykiro.app/assets/...` for social preview cards.
+
+## Design Context
+
+See `.impeccable.md` for full design tokens and rationale. Key points:
+
+### Users
+Mix of ambitious professionals and curious learners. Mobile-first, 5-min daily sessions. Emotions: excitement + empowerment.
+
+### Brand Personality
+Bold, playful, smart, sleek, ambitious, futuristic. High energy and game-like with premium tech substance.
+
+### Aesthetic Direction
+- Dark mode only. Deep navy (#0A0E1A) with cyan (#00E5FF) accent
+- Glassmorphic surfaces, ambient gradients, glow effects
+- Anti-reference: NOT generic edtech (no Coursera/Udemy feel)
+- Reference vibe: "Duolingo gamification meets Valorant UI aesthetic"
+
+### Design Principles
+1. **Game, not classroom** — lean into competitive gamification
+2. **Premium darkness** — depth through layered surfaces and subtle glows
+3. **Motion with purpose** — animations reinforce feedback loops
+4. **Bold simplicity** — large type, clear hierarchy, one focal point per screen
+5. **Accessible energy** — WCAG AA contrast, keyboard nav, reduced-motion support

@@ -28,11 +28,17 @@
 <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&amp;family=JetBrains+Mono:wght@700&amp;display=swap" rel="stylesheet"/>
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
+.skip-link{position:absolute;left:-9999px;top:0;padding:8px 16px;background:var(--cyan);color:var(--bg);z-index:9999;font-weight:700;text-decoration:none;border-radius:0 0 8px 0}
+.skip-link:focus{left:0}
 :root{
   --bg:#0A0E1A;--bg1:#0F1425;--surface:#141B2D;--surface-border:#1E2740;
   --text:#FFFFFF;--text2:#8B95B0;--text3:#7A849E;
   --cyan:#00E5FF;--cyan-light:#00B4D8;--gold:#FFD700;--error:#FF4757;--success:#2ECC71;
   --iridescent-pink:#FF6BFF;
+  --surface-50:rgba(20,27,45,.5);--surface-60:rgba(20,27,45,.6);--surface-70:rgba(20,27,45,.7);
+  --surface-80:rgba(20,27,45,.8);--surface-90:rgba(20,27,45,.9);
+  --nav-bg:rgba(10,14,26,.6);--nav-bg-heavy:rgba(10,14,26,.85);
+  --white-border:rgba(255,255,255,.04);
 }
 html{scroll-behavior:smooth;-webkit-font-smoothing:antialiased}
 body{font-family:'Outfit',sans-serif;background:var(--bg);color:var(--text);overflow-x:hidden;line-height:1.6}
@@ -66,8 +72,8 @@ nav{
   position:fixed;top:0;left:0;right:0;z-index:100;
   padding:0 32px;height:64px;display:flex;justify-content:space-between;align-items:center;
   backdrop-filter:blur(20px) saturate(1.2);-webkit-backdrop-filter:blur(20px) saturate(1.2);
-  background:rgba(10,14,26,0.6);
-  border-bottom:1px solid rgba(255,255,255,.04)
+  background:var(--nav-bg);
+  border-bottom:1px solid var(--white-border)
 }
 nav::after{
   content:'';position:absolute;bottom:0;left:0;right:0;height:1px;
@@ -328,7 +334,7 @@ nav::after{
   padding:8px 16px;border-radius:12px;font-size:12px;font-weight:600;
   color:var(--text2);letter-spacing:.2px;white-space:nowrap;
   border:1px solid rgba(255,255,255,.05);
-  background:rgba(20,27,45,.6);
+  background:var(--surface-60);
   backdrop-filter:blur(4px);-webkit-backdrop-filter:blur(4px);
   transition:all .3s
 }
@@ -373,8 +379,8 @@ section{padding:100px 24px;position:relative}
   max-width:1020px;margin:0 auto
 }
 .why-card{
-  background:rgba(20,27,45,.6);
-  border:1px solid rgba(255,255,255,.04);
+  background:var(--surface-60);
+  border:1px solid var(--white-border);
   border-radius:16px;padding:40px 32px;position:relative;overflow:hidden;
   transition:all .4s;
   backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px)
@@ -433,7 +439,7 @@ section{padding:100px 24px;position:relative}
 .gameplay-card{
   border-radius:16px;overflow:hidden;
   border:1px solid rgba(255,255,255,.05);
-  background:rgba(20,27,45,.7);
+  background:var(--surface-70);
   transition:all .4s;
   display:flex;flex-direction:column;
   box-shadow:0 8px 32px rgba(0,0,0,.25);
@@ -455,7 +461,7 @@ section{padding:100px 24px;position:relative}
 .gameplay-card-label{
   padding:12px 14px;text-align:center;
   font-size:13px;font-weight:700;color:var(--text2);letter-spacing:.3px;
-  background:rgba(10,14,26,.6);
+  background:var(--nav-bg);
   border-top:1px solid rgba(255,255,255,.03)
 }
 
@@ -591,8 +597,8 @@ section{padding:100px 24px;position:relative}
 }
 .proof-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;max-width:1020px;margin:0 auto}
 .proof-card{
-  background:rgba(20,27,45,.6);
-  border:1px solid rgba(255,255,255,.04);
+  background:var(--surface-60);
+  border:1px solid var(--white-border);
   border-radius:16px;padding:32px 28px;
   position:relative;overflow:hidden;
   transition:all .4s;
@@ -692,7 +698,7 @@ section{padding:100px 24px;position:relative}
 .mini-quiz{
   max-width:600px;margin:0 auto;
   padding:40px 36px;border-radius:16px;
-  background:rgba(20,27,45,.8);
+  background:var(--surface-80);
   border:1px solid rgba(0,229,255,.08);
   box-shadow:
     0 0 0 1px rgba(255,255,255,.02),
@@ -872,7 +878,7 @@ footer .footer-copy{opacity:.3;font-size:11px;letter-spacing:.5px}
   width:88px;height:88px;border-radius:16px;margin:0 auto 24px;
   display:flex;align-items:center;justify-content:center;
   font-size:36px;position:relative;
-  background:rgba(20,27,45,.9);
+  background:var(--surface-90);
   border:1px solid rgba(0,229,255,.1);
   box-shadow:0 8px 32px rgba(0,0,0,.3),0 0 0 1px rgba(255,255,255,.02);
   transition:all .4s
@@ -976,9 +982,9 @@ footer .footer-copy{opacity:.3;font-size:11px;letter-spacing:.5px}
 .sticky-cta{
   display:none;position:fixed;bottom:0;left:0;right:0;z-index:9999;
   padding:12px 16px;
-  background:rgba(10,14,26,.85);
+  background:var(--nav-bg-heavy);
   backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px);
-  border-top:1px solid rgba(255,255,255,.04);
+  border-top:1px solid var(--white-border);
   box-shadow:0 -8px 32px rgba(0,0,0,.5)
 }
 .sticky-cta::before{
@@ -1045,7 +1051,7 @@ footer .footer-copy{opacity:.3;font-size:11px;letter-spacing:.5px}
   .why-now .s-title br,
   .why-kiro-section .s-title br,
   .gameplay .s-title br{display:none}
-  .gameplay-grid{grid-template-columns:repeat(2,1fr);gap:12px}
+  .gameplay-grid{grid-template-columns:1fr;gap:12px;max-width:360px;margin-left:auto;margin-right:auto}
   .rank-tier-img{width:64px;height:64px}
   .rank-tier-locked{width:64px;height:64px}
   .rank-tier-locked-icon{font-size:20px}
@@ -1055,6 +1061,7 @@ footer .footer-copy{opacity:.3;font-size:11px;letter-spacing:.5px}
   .founder-stat:nth-child(4)::after{display:none}
   .founder-stat:last-child{grid-column:1 / -1}
   .why-card{padding:28px 24px}
+  nav{padding:0 16px}
 }
 </style>
 <script>
@@ -1064,10 +1071,10 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
 </head>
 <body>
 <div class="ambient-gradient"></div>
-<canvas class="stars-canvas" id="starsCanvas"></canvas>
-<a href="#main" style="position:absolute;left:-9999px;top:0;padding:8px;background:var(--cyan);color:var(--bg);z-index:9999;font-weight:700" onfocus="this.style.left='0';" onblur="this.style.left='-9999px';">Skip to content</a>
+<canvas class="stars-canvas" id="starsCanvas" aria-hidden="true"></canvas>
+<a href="#main" class="skip-link">Skip to content</a>
 <!-- ═══════ NAV ═══════ -->
-<nav>
+<nav aria-label="Main navigation">
 <a class="nav-brand" href="#">
 <picture><source srcset="assets/kiro-app-icon-256.webp" type="image/webp"/><img alt="Kiro" decoding="async" src="assets/kiro-app-icon-256.png"/></picture>
 <span>Kiro</span>
@@ -1079,10 +1086,10 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
 </nav>
 <!-- ═══════ HERO ═══════ -->
 <main id="main">
-<section class="hero">
+<section class="hero" aria-labelledby="hero-heading">
 <div class="hero-inner">
 <div class="hero-content">
-<h1>
+<h1 id="hero-heading">
 <span class="line1">Learn AI like a game.</span>
 <span class="line2">Become unreplaceable.</span>
 </h1>
@@ -1141,19 +1148,19 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
 </div>
 </div>
 <!-- ═══════ WHY NOW ═══════ -->
-<section class="why-now reveal">
+<section class="why-now reveal" aria-labelledby="why-now-heading">
 <div class="section-inner">
 <p class="s-label">Why Now</p>
-<h2 class="s-title">Most people are watching<br/>from the sidelines.</h2>
+<h2 class="s-title" id="why-now-heading">Most people are watching<br/>from the sidelines.</h2>
 <p class="why-now-body">AI is already changing how people work, think, and get hired. The ones building the skill now will have the edge. Kiro gets you there in 5 minutes a day. New lessons drop as AI evolves &mdash; so your skills never go stale.</p>
 <a class="quiz-callout" href="quiz.html">How fluent are you? Take the AI IQ Test &rarr;</a>
 </div>
 </section>
 <!-- ═══════ MINI QUIZ ═══════ -->
-<section class="mini-quiz-section reveal">
+<section class="mini-quiz-section reveal" aria-labelledby="mini-quiz-heading">
 <div class="section-inner">
 <p class="s-label">Quick Test</p>
-<h2 class="s-title">Can you get this one right?</h2>
+<h2 class="s-title" id="mini-quiz-heading">Can you get this one right?</h2>
 <div class="mini-quiz" id="miniQuiz">
 <p class="mini-quiz-q">An AI model gives you a confident answer with a source citation. What should you assume?</p>
 <div class="mini-quiz-opts">
@@ -1170,10 +1177,10 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
 </div>
 </section>
 <!-- ═══════ HOW IT WORKS ═══════ -->
-<section class="hiw-section reveal">
+<section class="hiw-section reveal" aria-labelledby="hiw-heading">
 <div class="section-inner">
 <p class="s-label">How It Works</p>
-<h2 class="s-title">Three steps. Zero confusion.</h2>
+<h2 class="s-title" id="hiw-heading">Three steps. Zero confusion.</h2>
 <div class="hiw-grid">
 <div class="hiw-item">
 <div class="hiw-item-icon" aria-hidden="true">🎯<span class="hiw-step-num">1</span></div>
@@ -1194,10 +1201,10 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
 </div>
 </section>
 <!-- ═══════ WHY KIRO ═══════ -->
-<section class="why-kiro-section reveal">
+<section class="why-kiro-section reveal" aria-labelledby="why-kiro-heading">
 <div class="section-inner">
 <p class="s-label">Why Kiro Works</p>
-<h2 class="s-title">Not a course. Not a chatbot.<br/>A training system.</h2>
+<h2 class="s-title" id="why-kiro-heading">Not a course. Not a chatbot.<br/>A training system.</h2>
 <p class="s-sub">Kiro drills you on real AI skills — daily, competitive, and impossible to quit.</p>
 <div class="why-grid">
 <div class="why-card">
@@ -1219,34 +1226,34 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
 </div>
 </section>
 <!-- ═══════ GAMEPLAY SHOWCASE ═══════ -->
-<section class="gameplay reveal" id="gameplay">
+<section class="gameplay reveal" id="gameplay" aria-labelledby="gameplay-heading">
 <div class="section-inner">
 <p class="s-label">Inside the App</p>
-<h2 class="s-title">The loop that makes<br/>AI stick.</h2>
+<h2 class="s-title" id="gameplay-heading">The loop that makes<br/>AI stick.</h2>
 <p class="s-sub">Pick a path &rarr; crush a lesson &rarr; duel a rival &rarr; rank up &rarr; sharpen in Prompt Lab. Repeat daily.</p>
 <div class="gameplay-grid">
 <div class="gameplay-card">
-<picture><source srcset="assets/01-node-map-660w.webp 660w, assets/01-node-map-1320x2868.webp 1320w" sizes="(max-width:768px) 50vw, 33vw" type="image/webp"/><img alt="Node Map" decoding="async" loading="lazy" src="assets/01-node-map-1320x2868.png"/></picture>
+<picture><source srcset="assets/01-node-map-660w.webp 660w, assets/01-node-map-1320x2868.webp 1320w" sizes="(max-width:768px) 50vw, 33vw" type="image/webp"/><img alt="Kiro app: Node Map screen showing a visual path of connected lesson nodes to complete" decoding="async" loading="lazy" src="assets/01-node-map-1320x2868.png"/></picture>
 <div class="gameplay-card-label">🗺️ Node Map</div>
 </div>
 <div class="gameplay-card">
-<picture><source srcset="assets/02-hero-660w.webp 660w, assets/02-hero-1320x2868.webp 1320w" sizes="(max-width:768px) 50vw, 33vw" type="image/webp"/><img alt="Learning Paths" decoding="async" loading="lazy" src="assets/02-hero-1320x2868.png"/></picture>
+<picture><source srcset="assets/02-hero-660w.webp 660w, assets/02-hero-1320x2868.webp 1320w" sizes="(max-width:768px) 50vw, 33vw" type="image/webp"/><img alt="Kiro app: Learning Paths screen showing 10 AI topic paths to choose from" decoding="async" loading="lazy" src="assets/02-hero-1320x2868.png"/></picture>
 <div class="gameplay-card-label">📚 Learning Paths</div>
 </div>
 <div class="gameplay-card">
-<picture><source srcset="assets/03-delegate-660w.webp 660w, assets/03-delegate-1320x2868.webp 1320w" sizes="(max-width:768px) 50vw, 33vw" type="image/webp"/><img alt="Delegate or DIY" decoding="async" loading="lazy" src="assets/03-delegate-1320x2868.png"/></picture>
+<picture><source srcset="assets/03-delegate-660w.webp 660w, assets/03-delegate-1320x2868.webp 1320w" sizes="(max-width:768px) 50vw, 33vw" type="image/webp"/><img alt="Kiro app: Delegate or DIY exercise asking whether to use AI or handle a task yourself" decoding="async" loading="lazy" src="assets/03-delegate-1320x2868.png"/></picture>
 <div class="gameplay-card-label">🎯 Delegate or DIY</div>
 </div>
 <div class="gameplay-card">
-<picture><source srcset="assets/05-duels-660w.webp 660w, assets/05-duels-1320x2868.webp 1320w" sizes="(max-width:768px) 50vw, 33vw" type="image/webp"/><img alt="AI Duels" decoding="async" loading="lazy" src="assets/05-duels-1320x2868.png"/></picture>
+<picture><source srcset="assets/05-duels-660w.webp 660w, assets/05-duels-1320x2868.webp 1320w" sizes="(max-width:768px) 50vw, 33vw" type="image/webp"/><img alt="Kiro app: AI Duels screen showing a live competitive match against another learner" decoding="async" loading="lazy" src="assets/05-duels-1320x2868.png"/></picture>
 <div class="gameplay-card-label">⚔️ AI Duels</div>
 </div>
 <div class="gameplay-card">
-<picture><source srcset="assets/06-prompt-lab-660w.webp 660w, assets/06-prompt-lab-1320x2868.webp 1320w" sizes="(max-width:768px) 50vw, 33vw" type="image/webp"/><img alt="Prompt Lab" decoding="async" loading="lazy" src="assets/06-prompt-lab-1320x2868.png"/></picture>
+<picture><source srcset="assets/06-prompt-lab-660w.webp 660w, assets/06-prompt-lab-1320x2868.webp 1320w" sizes="(max-width:768px) 50vw, 33vw" type="image/webp"/><img alt="Kiro app: Prompt Lab coaching screen with AI feedback on your prompt quality" decoding="async" loading="lazy" src="assets/06-prompt-lab-1320x2868.png"/></picture>
 <div class="gameplay-card-label">💡 Prompt Lab</div>
 </div>
 <div class="gameplay-card">
-<picture><source srcset="assets/07-ai-news-660w.webp 660w, assets/07-ai-news-1320x2868.webp 1320w" sizes="(max-width:768px) 50vw, 33vw" type="image/webp"/><img alt="Weekly AI News" decoding="async" loading="lazy" src="assets/07-ai-news-1320x2868.png"/></picture>
+<picture><source srcset="assets/07-ai-news-660w.webp 660w, assets/07-ai-news-1320x2868.webp 1320w" sizes="(max-width:768px) 50vw, 33vw" type="image/webp"/><img alt="Kiro app: Weekly AI News feed with curated updates on the latest AI developments" decoding="async" loading="lazy" src="assets/07-ai-news-1320x2868.png"/></picture>
 <div class="gameplay-card-label">📰 Weekly AI News</div>
 </div>
 </div>
@@ -1286,10 +1293,10 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
 </div>
 </section>
 <!-- ═══════ RANK EVOLUTION ═══════ -->
-<section class="rank-section reveal">
+<section class="rank-section reveal" aria-labelledby="rank-heading">
 <div class="section-inner">
 <p class="s-label">Rank Progression</p>
-<h2 class="s-title">Earn XP. Climb ranks. Evolve Kiro.</h2>
+<h2 class="s-title" id="rank-heading">Earn XP. Climb ranks. Evolve Kiro.</h2>
 <p class="s-sub">Six visible tiers of progress that make you want to come back tomorrow.</p>
 <div class="rank-track">
 <div class="rank-tier">
@@ -1328,10 +1335,10 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
 </div>
 </section>
 <!-- ═══════ SOCIAL PROOF ═══════ -->
-<section class="proof-section reveal">
+<section class="proof-section reveal" aria-labelledby="proof-heading">
 <div class="section-inner">
 <p class="s-label">Early Testers</p>
-<h2 class="s-title">Already addictive.</h2>
+<h2 class="s-title" id="proof-heading">Already addictive.</h2>
 <p class="s-sub">Real feedback from beta testers.</p>
 <div class="proof-grid">
 <div class="proof-card">
@@ -1365,45 +1372,45 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
 </div>
 </section>
 <!-- ═══════ FAQ ═══════ -->
-<section class="faq-section reveal">
+<section class="faq-section reveal" aria-labelledby="faq-heading">
 <div class="section-inner">
 <p class="s-label">FAQ</p>
-<h2 class="s-title">Got questions?</h2>
+<h2 class="s-title" id="faq-heading">Got questions?</h2>
 <div class="faq-list">
 
 <div class="faq-item">
-<button class="faq-q" aria-expanded="false">Is Kiro free?<span class="faq-toggle" aria-hidden="true"></span></button>
-<div class="faq-a">Yes — more than you'd expect. Free gets you 72+ lessons across all 10 paths, daily challenges, XP, ranks, and all 13 exercise types. Kiro Pro unlocks unlimited hearts, duels, and Prompt Lab. Annual plan comes with a 7-day free trial.</div>
+<button class="faq-q" aria-expanded="false" aria-controls="faq-a-1">Is Kiro free?<span class="faq-toggle" aria-hidden="true"></span></button>
+<div class="faq-a" id="faq-a-1">Yes — more than you'd expect. Free gets you 72+ lessons across all 10 paths, daily challenges, XP, ranks, and all 13 exercise types. Kiro Pro unlocks unlimited hearts, duels, and Prompt Lab. Annual plan comes with a 7-day free trial.</div>
 </div>
 
 <div class="faq-item">
-<button class="faq-q" aria-expanded="false">Do I need AI experience?<span class="faq-toggle" aria-hidden="true"></span></button>
-<div class="faq-a">Nope. It starts from zero and builds up. If you've never touched ChatGPT, you're fine. If you use AI daily, Kiro will still push you with advanced paths like AI Agents, Automation, and Prompt Engineering.</div>
+<button class="faq-q" aria-expanded="false" aria-controls="faq-a-2">Do I need AI experience?<span class="faq-toggle" aria-hidden="true"></span></button>
+<div class="faq-a" id="faq-a-2">Nope. It starts from zero and builds up. If you've never touched ChatGPT, you're fine. If you use AI daily, Kiro will still push you with advanced paths like AI Agents, Automation, and Prompt Engineering.</div>
 </div>
 
 <div class="faq-item">
-<button class="faq-q" aria-expanded="false">How is this different from watching YouTube tutorials?<span class="faq-toggle" aria-hidden="true"></span></button>
-<div class="faq-a">YouTube is passive. You watch, you forget. Kiro makes you answer questions, rank options, spot AI hallucinations, refine real prompts, and duel other learners. You're doing the thinking, not just consuming.</div>
+<button class="faq-q" aria-expanded="false" aria-controls="faq-a-3">How is this different from watching YouTube tutorials?<span class="faq-toggle" aria-hidden="true"></span></button>
+<div class="faq-a" id="faq-a-3">YouTube is passive. You watch, you forget. Kiro makes you answer questions, rank options, spot AI hallucinations, refine real prompts, and duel other learners. You're doing the thinking, not just consuming.</div>
 </div>
 
 <div class="faq-item">
-<button class="faq-q" aria-expanded="false">How long does each lesson take?<span class="faq-toggle" aria-hidden="true"></span></button>
-<div class="faq-a">About 5 minutes.</div>
+<button class="faq-q" aria-expanded="false" aria-controls="faq-a-4">How long does each lesson take?<span class="faq-toggle" aria-hidden="true"></span></button>
+<div class="faq-a" id="faq-a-4">About 5 minutes.</div>
 </div>
 
 <div class="faq-item">
-<button class="faq-q" aria-expanded="false">What AI topics does Kiro cover?<span class="faq-toggle" aria-hidden="true"></span></button>
-<div class="faq-a">Ten learning paths: AI Foundations, Prompt Engineering, AI Tools, AI Automation, AI Agents, AI Business, AI for Marketing, AI for Finance, AI for Managers, and AI for Healthcare. Over 1,400 exercises across 13 different formats.</div>
+<button class="faq-q" aria-expanded="false" aria-controls="faq-a-5">What AI topics does Kiro cover?<span class="faq-toggle" aria-hidden="true"></span></button>
+<div class="faq-a" id="faq-a-5">Ten learning paths: AI Foundations, Prompt Engineering, AI Tools, AI Automation, AI Agents, AI Business, AI for Marketing, AI for Finance, AI for Managers, and AI for Healthcare. Over 1,400 exercises across 13 different formats.</div>
 </div>
 
 </div>
 </div>
 </section>
 <!-- ═══════ FINAL CTA ═══════ -->
-<section class="final-cta reveal">
+<section class="final-cta reveal" aria-labelledby="final-cta-heading">
 <div class="section-inner">
 <picture><source srcset="assets/gold-kiro.webp" type="image/webp"/><img alt="Kiro" class="mascot-accent" decoding="async" loading="lazy" src="assets/gold-kiro.png"/></picture>
-<h2>Start free.<br/><span class="grad">Become dangerous.</span></h2>
+<h2 id="final-cta-heading">Start free.<br/><span class="grad">Become dangerous.</span></h2>
 <p class="sub">Free to start. 5 minutes a day. No experience needed.</p>
 <a class="btn-primary" href="https://apps.apple.com/app/id6759628066?utm_source=website&utm_medium=cta&utm_campaign=final">Start Free — 7 Day Trial →</a>
 <p class="cta-micro">Cancel anytime</p>
@@ -1411,7 +1418,7 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
 <div class="email-capture">
 <p class="email-capture-label">Not on iOS? Get notified when Android launches.</p>
 <form class="email-form" action="https://formspree.io/f/mbdzpzzp" method="POST">
-<input type="email" name="email" placeholder="Your email" required/>
+<input type="email" name="email" placeholder="Your email" required aria-label="Email address"/>
 <input type="hidden" name="source" value="android-waitlist"/>
 <button type="submit">Notify Me</button>
 </form>
@@ -1430,10 +1437,10 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
 <div class="footer-links">
 <a href="privacy.html">Privacy</a>
 <a href="terms.html">Terms</a>
-<a href="https://tiktok.com/@kiro.app">TikTok</a>
-<a href="https://instagram.com/kiro_app">Instagram</a>
-<a href="https://x.com/Kiro_App" target="_blank" rel="noopener">X</a>
-<a href="https://www.youtube.com/channel/UCHxieC5ZrIgHQnAzHAVI8oA" target="_blank" rel="noopener">YouTube</a>
+<a href="https://tiktok.com/@kiro.app" target="_blank" rel="noopener noreferrer">TikTok</a>
+<a href="https://instagram.com/kiro_app" target="_blank" rel="noopener noreferrer">Instagram</a>
+<a href="https://x.com/Kiro_App" target="_blank" rel="noopener noreferrer">X</a>
+<a href="https://www.youtube.com/channel/UCHxieC5ZrIgHQnAzHAVI8oA" target="_blank" rel="noopener noreferrer">YouTube</a>
 </div>
 <p class="footer-copy">© 2026 Kiro. Master AI. Become Unreplaceable.</p>
 </div>
@@ -1448,6 +1455,8 @@ document.querySelectorAll('.faq-q').forEach(btn=>{btn.addEventListener('click',(
 document.querySelectorAll('.email-form').forEach(form=>{
   form.addEventListener('submit',function(e){
     e.preventDefault();
+    const btn=form.querySelector('button[type="submit"]');
+    if(btn){btn.disabled=true;btn.textContent='Sending…';}
     const data=new FormData(form);
     fetch(form.action,{method:'POST',body:data,headers:{'Accept':'application/json'}}).then(r=>{
       if(r.ok){
@@ -1455,8 +1464,12 @@ document.querySelectorAll('.email-form').forEach(form=>{
         const success=form.parentElement.querySelector('.email-form-success');
         if(success)success.style.display='block';
         if(window.posthog)posthog.capture('email_captured',{source:data.get('source')});
+      } else {
+        if(btn){btn.disabled=false;btn.textContent='Try again';}
       }
-    }).catch(()=>{});
+    }).catch(()=>{
+      if(btn){btn.disabled=false;btn.textContent='Try again';}
+    });
   });
 });
 (function(){
@@ -1483,7 +1496,7 @@ document.querySelectorAll('.email-form').forEach(form=>{
   const c=document.getElementById('starsCanvas');
   if(!c)return;
   const ctx=c.getContext('2d');
-  let w,h;
+  let w,h,raf;
   function resize(){w=c.width=window.innerWidth;h=c.height=window.innerHeight}
   resize();window.addEventListener('resize',resize);
   const particles=[];
@@ -1593,10 +1606,11 @@ document.querySelectorAll('.email-form').forEach(form=>{
     }
     if(Math.random()<0.12)spawnParticle();
     if(Math.random()<0.008)spawnShooter();
-    requestAnimationFrame(draw);
+    raf=requestAnimationFrame(draw);
   }
+  document.addEventListener('visibilitychange',()=>{if(document.hidden){cancelAnimationFrame(raf)}else{raf=requestAnimationFrame(draw)}});
   for(let i=0;i<35;i++)spawnParticle();
-  draw();
+  raf=requestAnimationFrame(draw);
 })();
 </script>
 </body>
