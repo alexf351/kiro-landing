@@ -381,6 +381,19 @@ body{
 .quiz-footer a:hover{color:var(--cyan)}
 
 @keyframes fadeIn{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
+/* Quiz option stagger entrance */
+@keyframes optSlideIn{from{opacity:0;transform:translateX(-10px)}to{opacity:1;transform:translateX(0)}}
+.quiz-option{animation:optSlideIn .3s cubic-bezier(.25,1,.5,1) both}
+.quiz-option:nth-child(1){animation-delay:.04s}
+.quiz-option:nth-child(2){animation-delay:.11s}
+.quiz-option:nth-child(3){animation-delay:.18s}
+.quiz-option:nth-child(4){animation-delay:.25s}
+/* Button active states */
+.btn-primary:active{transform:scale(0.97) translateY(0) !important;transition-duration:.08s !important}
+.btn-secondary:active{transform:scale(0.97) !important;transition-duration:.08s !important}
+/* Nav entrance */
+.quiz-nav{animation:navSlideIn .5s cubic-bezier(.25,1,.5,1) both}
+@keyframes navSlideIn{from{opacity:0;transform:translateY(-10px)}to{opacity:1;transform:translateY(0)}}
 @media(max-width:480px){
   body{padding:16px}
   .quiz-intro h1 br{display:none}

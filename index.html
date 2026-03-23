@@ -741,9 +741,10 @@ section{padding:100px 24px;position:relative}
 .mini-quiz-opt.mq-correct{
   border-color:var(--success);background:rgba(46,204,113,.1);color:var(--success);
   box-shadow:0 0 24px rgba(46,204,113,.12);
-  animation:optCorrect .4s ease
+  animation:optCorrect .4s ease,optCorrectBurst .7s ease
 }
 @keyframes optCorrect{0%{transform:scale(1)}40%{transform:scale(1.02)}100%{transform:scale(1)}}
+@keyframes optCorrectBurst{0%{box-shadow:0 0 0 0 rgba(46,204,113,.5)}60%{box-shadow:0 0 0 18px rgba(46,204,113,0)}100%{box-shadow:0 0 24px rgba(46,204,113,.12)}}
 .mini-quiz-opt.mq-wrong{
   border-color:var(--error);background:rgba(255,71,87,.08);color:var(--error);
   animation:optWrong .4s ease
@@ -869,8 +870,11 @@ footer .footer-copy{opacity:.3;font-size:11px;letter-spacing:.5px}
 .hiw-grid::before{
   content:'';position:absolute;top:44px;left:16%;right:16%;height:1px;
   background:linear-gradient(90deg,rgba(0,229,255,.06),rgba(0,229,255,.2) 50%,rgba(255,215,0,.15));
-  z-index:0
+  z-index:0;
+  transform-origin:left center;transform:scaleX(0);
+  transition:transform 1s cubic-bezier(.25,1,.5,1) .1s
 }
+.hiw-section.reveal.visible .hiw-grid::before{transform:scaleX(1)}
 .hiw-item{
   text-align:center;padding:0 24px;position:relative;z-index:1
 }
@@ -1003,7 +1007,8 @@ footer .footer-copy{opacity:.3;font-size:11px;letter-spacing:.5px}
   box-shadow:0 0 40px rgba(0,229,255,.35);transform:translateY(-1px)
 }
 @media(max-width:768px){
-  .sticky-cta{display:block}
+  .sticky-cta{display:block;transform:translateY(100%);transition:transform .45s cubic-bezier(.25,1,.5,1)}
+  .sticky-cta.slide-in{transform:translateY(0)}
   body{padding-bottom:72px}
 }
 
@@ -1012,6 +1017,27 @@ footer .footer-copy{opacity:.3;font-size:11px;letter-spacing:.5px}
 @keyframes fadeInDown{from{opacity:0;transform:translateY(-12px)}to{opacity:1;transform:translateY(0)}}
 .reveal{opacity:0;transform:translateY(28px);transition:all .65s cubic-bezier(.23,1,.32,1)}
 .reveal.visible{opacity:1;transform:translateY(0)}
+/* Stagger card entrances */
+@keyframes staggerIn{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:translateY(0)}}
+.stagger-item{opacity:0;transform:translateY(20px)}
+.reveal.visible .stagger-item{opacity:1;transform:translateY(0);animation:staggerIn .55s cubic-bezier(.23,1,.32,1) backwards}
+.reveal.visible [data-stagger="1"]{animation-delay:.05s}
+.reveal.visible [data-stagger="2"]{animation-delay:.15s}
+.reveal.visible [data-stagger="3"]{animation-delay:.25s}
+.reveal.visible [data-stagger="4"]{animation-delay:.35s}
+.reveal.visible [data-stagger="5"]{animation-delay:.45s}
+.reveal.visible [data-stagger="6"]{animation-delay:.55s}
+.reveal.visible [data-stagger="7"]{animation-delay:.65s}
+/* Button active feedback */
+.btn-primary:active{transform:scale(0.97) translateY(0) !important;transition-duration:.08s !important}
+.btn-ghost:active{transform:scale(0.97) !important;transition-duration:.08s !important}
+.nav-cta:active,.sticky-cta-btn:active{transform:scale(0.97) !important;transition-duration:.08s !important}
+/* Nav entrance */
+nav{animation:navSlideIn .5s cubic-bezier(.25,1,.5,1) both}
+@keyframes navSlideIn{from{opacity:0;transform:translateY(-10px)}to{opacity:1;transform:translateY(0)}}
+/* Final CTA glow pulse */
+@keyframes ctaBtnGlow{0%,100%{box-shadow:0 0 40px rgba(0,229,255,.2),0 4px 20px rgba(0,0,0,.3)}50%{box-shadow:0 0 80px rgba(0,229,255,.45),0 8px 32px rgba(0,0,0,.4)}}
+.final-cta .btn-primary{animation:ctaBtnGlow 3.5s ease-in-out infinite}
 
 /* ══════════════════ RESPONSIVE ══════════════════ */
 @media(max-width:1024px){
@@ -1125,23 +1151,23 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
 <div class="founder-divider"></div>
 <div class="founder-stats">
 <div class="founder-stat">
-<div class="founder-stat-val">14</div>
+<div class="founder-stat-val" data-count="14">14</div>
 <div class="founder-stat-label">days to ship</div>
 </div>
 <div class="founder-stat">
-<div class="founder-stat-val">1,400+</div>
+<div class="founder-stat-val" data-count="1400" data-count-suffix="+">1,400+</div>
 <div class="founder-stat-label">exercises</div>
 </div>
 <div class="founder-stat">
-<div class="founder-stat-val">10</div>
+<div class="founder-stat-val" data-count="10">10</div>
 <div class="founder-stat-label">learning paths</div>
 </div>
 <div class="founder-stat">
-<div class="founder-stat-val">13</div>
+<div class="founder-stat-val" data-count="13">13</div>
 <div class="founder-stat-label">exercise types</div>
 </div>
 <div class="founder-stat">
-<div class="founder-stat-val">1</div>
+<div class="founder-stat-val" data-count="1">1</div>
 <div class="founder-stat-label">developer</div>
 </div>
 </div>
@@ -1182,17 +1208,17 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
 <p class="s-label">How It Works</p>
 <h2 class="s-title" id="hiw-heading">Three steps. Zero confusion.</h2>
 <div class="hiw-grid">
-<div class="hiw-item">
+<div class="hiw-item stagger-item" data-stagger="1">
 <div class="hiw-item-icon" aria-hidden="true">🎯<span class="hiw-step-num">1</span></div>
 <div class="hiw-item-title">Day 1: Pick a path</div>
 <div class="hiw-item-sub">Choose from 10 AI learning paths. Start with Prompt Engineering, AI Foundations, or whatever fits your goal.</div>
 </div>
-<div class="hiw-item">
+<div class="hiw-item stagger-item" data-stagger="2">
 <div class="hiw-item-icon" aria-hidden="true">⚡<span class="hiw-step-num">2</span></div>
 <div class="hiw-item-title">Day 3: Start building real prompts</div>
 <div class="hiw-item-sub">Bite-sized lessons with real decisions. You'll be building prompts that actually work.</div>
 </div>
-<div class="hiw-item">
+<div class="hiw-item stagger-item" data-stagger="3">
 <div class="hiw-item-icon" aria-hidden="true">🏆<span class="hiw-step-num">3</span></div>
 <div class="hiw-item-title">Day 7: Start applying AI at work</div>
 <div class="hiw-item-sub">Earn XP, climb ranks, duel other learners &mdash; and bring AI into your real workflow.</div>
@@ -1207,17 +1233,17 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
 <h2 class="s-title" id="why-kiro-heading">Not a course. Not a chatbot.<br/>A training system.</h2>
 <p class="s-sub">Kiro drills you on real AI skills — daily, competitive, and impossible to quit.</p>
 <div class="why-grid">
-<div class="why-card">
+<div class="why-card stagger-item" data-stagger="1">
 <span class="icon" aria-hidden="true">⚡</span>
 <h3>Real reps, not theory.</h3>
 <p>Learn through real AI decisions, not passive content.</p>
 </div>
-<div class="why-card">
+<div class="why-card stagger-item" data-stagger="2">
 <span class="icon" aria-hidden="true">🔥</span>
 <h3>Competitive by design.</h3>
 <p>Duels, XP, streaks, and ranks make the skill stick. Users who hit a 7-day streak are 3.6x more likely to finish their path.</p>
 </div>
-<div class="why-card">
+<div class="why-card stagger-item" data-stagger="3">
 <span class="icon" aria-hidden="true">📊</span>
 <h3>Progress you can see.</h3>
 <p>Prompt coaching and evolving tiers make improvement obvious.</p>
@@ -1232,27 +1258,27 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
 <h2 class="s-title" id="gameplay-heading">The loop that makes<br/>AI stick.</h2>
 <p class="s-sub">Pick a path &rarr; crush a lesson &rarr; duel a rival &rarr; rank up &rarr; sharpen in Prompt Lab. Repeat daily.</p>
 <div class="gameplay-grid">
-<div class="gameplay-card">
+<div class="gameplay-card stagger-item" data-stagger="1">
 <picture><source srcset="assets/01-node-map-660w.webp 660w, assets/01-node-map-1320x2868.webp 1320w" sizes="(max-width:768px) 50vw, 33vw" type="image/webp"/><img alt="Kiro app: Node Map screen showing a visual path of connected lesson nodes to complete" decoding="async" loading="lazy" src="assets/01-node-map-1320x2868.png"/></picture>
 <div class="gameplay-card-label">🗺️ Node Map</div>
 </div>
-<div class="gameplay-card">
+<div class="gameplay-card stagger-item" data-stagger="2">
 <picture><source srcset="assets/02-hero-660w.webp 660w, assets/02-hero-1320x2868.webp 1320w" sizes="(max-width:768px) 50vw, 33vw" type="image/webp"/><img alt="Kiro app: Learning Paths screen showing 10 AI topic paths to choose from" decoding="async" loading="lazy" src="assets/02-hero-1320x2868.png"/></picture>
 <div class="gameplay-card-label">📚 Learning Paths</div>
 </div>
-<div class="gameplay-card">
+<div class="gameplay-card stagger-item" data-stagger="3">
 <picture><source srcset="assets/03-delegate-660w.webp 660w, assets/03-delegate-1320x2868.webp 1320w" sizes="(max-width:768px) 50vw, 33vw" type="image/webp"/><img alt="Kiro app: Delegate or DIY exercise asking whether to use AI or handle a task yourself" decoding="async" loading="lazy" src="assets/03-delegate-1320x2868.png"/></picture>
 <div class="gameplay-card-label">🎯 Delegate or DIY</div>
 </div>
-<div class="gameplay-card">
+<div class="gameplay-card stagger-item" data-stagger="4">
 <picture><source srcset="assets/05-duels-660w.webp 660w, assets/05-duels-1320x2868.webp 1320w" sizes="(max-width:768px) 50vw, 33vw" type="image/webp"/><img alt="Kiro app: AI Duels screen showing a live competitive match against another learner" decoding="async" loading="lazy" src="assets/05-duels-1320x2868.png"/></picture>
 <div class="gameplay-card-label">⚔️ AI Duels</div>
 </div>
-<div class="gameplay-card">
+<div class="gameplay-card stagger-item" data-stagger="5">
 <picture><source srcset="assets/06-prompt-lab-660w.webp 660w, assets/06-prompt-lab-1320x2868.webp 1320w" sizes="(max-width:768px) 50vw, 33vw" type="image/webp"/><img alt="Kiro app: Prompt Lab coaching screen with AI feedback on your prompt quality" decoding="async" loading="lazy" src="assets/06-prompt-lab-1320x2868.png"/></picture>
 <div class="gameplay-card-label">💡 Prompt Lab</div>
 </div>
-<div class="gameplay-card">
+<div class="gameplay-card stagger-item" data-stagger="6">
 <picture><source srcset="assets/07-ai-news-660w.webp 660w, assets/07-ai-news-1320x2868.webp 1320w" sizes="(max-width:768px) 50vw, 33vw" type="image/webp"/><img alt="Kiro app: Weekly AI News feed with curated updates on the latest AI developments" decoding="async" loading="lazy" src="assets/07-ai-news-1320x2868.png"/></picture>
 <div class="gameplay-card-label">📰 Weekly AI News</div>
 </div>
@@ -1299,32 +1325,32 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
 <h2 class="s-title" id="rank-heading">Earn XP. Climb ranks. Evolve Kiro.</h2>
 <p class="s-sub">Six visible tiers of progress that make you want to come back tomorrow.</p>
 <div class="rank-track">
-<div class="rank-tier">
+<div class="rank-tier stagger-item" data-stagger="1">
 <picture><source srcset="assets/bronze-kiro.webp" type="image/webp"/><img alt="Bronze Kiro" class="rank-tier-img" decoding="async" loading="lazy" src="assets/bronze-kiro.png"/></picture>
 <span class="rank-tier-name">Bronze</span>
 </div>
 <span class="rank-arrow">→</span>
-<div class="rank-tier">
+<div class="rank-tier stagger-item" data-stagger="2">
 <picture><source srcset="assets/silver-kiro.webp" type="image/webp"/><img alt="Silver Kiro" class="rank-tier-img" decoding="async" loading="lazy" src="assets/silver-kiro.png"/></picture>
 <span class="rank-tier-name">Silver</span>
 </div>
 <span class="rank-arrow">→</span>
-<div class="rank-tier">
+<div class="rank-tier stagger-item" data-stagger="3">
 <picture><source srcset="assets/gold-kiro.webp" type="image/webp"/><img alt="Gold Kiro" class="rank-tier-img" decoding="async" loading="lazy" src="assets/gold-kiro.png"/></picture>
 <span class="rank-tier-name">Gold</span>
 </div>
 <span class="rank-arrow">→</span>
-<div class="rank-tier">
+<div class="rank-tier stagger-item" data-stagger="4">
 <picture><source srcset="assets/platinum-kiro.webp" type="image/webp"/><img alt="Platinum Kiro" class="rank-tier-img" decoding="async" loading="lazy" src="assets/platinum-kiro.png"/></picture>
 <span class="rank-tier-name">Platinum</span>
 </div>
 <span class="rank-arrow">→</span>
-<div class="rank-tier">
+<div class="rank-tier stagger-item" data-stagger="5">
 <picture><source srcset="assets/diamond-kiro.webp" type="image/webp"/><img alt="Diamond Kiro" class="rank-tier-img" decoding="async" loading="lazy" src="assets/diamond-kiro.png"/></picture>
 <span class="rank-tier-name">Diamond</span>
 </div>
 <span class="rank-arrow">→</span>
-<div class="rank-tier rank-tier--locked">
+<div class="rank-tier rank-tier--locked stagger-item" data-stagger="6">
 <div class="rank-tier-locked" aria-label="Locked mascot">
 <span class="rank-tier-locked-icon">🔒</span>
 </div>
@@ -1341,7 +1367,7 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
 <h2 class="s-title" id="proof-heading">Already addictive.</h2>
 <p class="s-sub">Real feedback from beta testers.</p>
 <div class="proof-grid">
-<div class="proof-card">
+<div class="proof-card stagger-item" data-stagger="1">
 <div class="proof-header">
 <div class="proof-avatar">JM</div>
 <div class="proof-name-block"><span class="proof-name">James M.</span><span class="proof-title">Product Manager, Fortune 500</span></div>
@@ -1350,7 +1376,7 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
 <p class="proof-text">"I used what I learned in Kiro to automate half my weekly reports. My manager noticed within days."</p>
 <span class="proof-role">Applied AI at work in week 1</span>
 </div>
-<div class="proof-card">
+<div class="proof-card stagger-item" data-stagger="2">
 <div class="proof-header">
 <div class="proof-avatar">SR</div>
 <div class="proof-name-block"><span class="proof-name">Sarah R.</span><span class="proof-title">Marketing Lead, SaaS Startup</span></div>
@@ -1359,7 +1385,7 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
 <p class="proof-text">"Prompt Lab alone is worth Pro. Went from vague prompts to nailing it on the first try."</p>
 <span class="proof-role">Improved prompts in week 1</span>
 </div>
-<div class="proof-card">
+<div class="proof-card stagger-item" data-stagger="3">
 <div class="proof-header">
 <div class="proof-avatar">DK</div>
 <div class="proof-name-block"><span class="proof-name">Daniel K.</span><span class="proof-title">Software Engineer, Series B</span></div>
@@ -1451,6 +1477,35 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
 <script>
 const obs=new IntersectionObserver(e=>{e.forEach(el=>{if(el.isIntersecting)el.target.classList.add('visible')});},{threshold:.08});
 document.querySelectorAll('.reveal').forEach(el=>obs.observe(el));
+// Counter animation for founder stats
+(function(){
+  const els=document.querySelectorAll('.founder-stat-val[data-count]');
+  if(!els.length)return;
+  const cobs=new IntersectionObserver(entries=>{
+    entries.forEach(e=>{
+      if(!e.isIntersecting||e.target.dataset.counted)return;
+      e.target.dataset.counted='1';
+      const el=e.target,target=parseInt(el.dataset.count,10),suffix=el.dataset.countSuffix||'';
+      const dur=1200,t0=performance.now();
+      (function tick(now){
+        const p=Math.min((now-t0)/dur,1),eased=1-Math.pow(1-p,3),v=Math.round(target*eased);
+        el.textContent=(v>=1000?v.toLocaleString():v)+suffix;
+        if(p<1)requestAnimationFrame(tick);
+      })(t0);
+    });
+  },{threshold:.6});
+  els.forEach(el=>cobs.observe(el));
+})();
+// Sticky CTA slides up when hero CTAs scroll out of view
+(function(){
+  const heroCtas=document.querySelector('.hero-ctas');
+  const stickyCta=document.querySelector('.sticky-cta');
+  if(!heroCtas||!stickyCta)return;
+  const sobs=new IntersectionObserver(entries=>{
+    stickyCta.classList.toggle('slide-in',!entries[0].isIntersecting);
+  });
+  sobs.observe(heroCtas);
+})();
 document.querySelectorAll('.faq-q').forEach(btn=>{btn.addEventListener('click',()=>{const item=btn.parentElement;const open=item.classList.toggle('open');btn.setAttribute('aria-expanded',open);});});
 document.querySelectorAll('.email-form').forEach(form=>{
   form.addEventListener('submit',function(e){
