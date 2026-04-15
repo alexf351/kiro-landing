@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Delete Your Kiro Account</title>
+<meta content="#0A0E1A" name="theme-color"/>
+<link rel="icon" href="assets/favicon-64.png" type="image/png">
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700;800;900&family=JetBrains+Mono:wght@700&display=swap" rel="stylesheet"/>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+:root{
+  --bg:#0A0E1A;--bg1:#0F1425;--surface:#141B2D;--surface-border:#1E2740;
+  --text:#FFFFFF;--text2:#8B95B0;--text3:#8890AA;
+  --cyan:#00E5FF;--gold:#FFD700;
+  --surface-50:rgba(20,27,45,.5);--nav-bg:rgba(10,14,26,.6);--white-border:rgba(255,255,255,.04);
+}
+html{-webkit-font-smoothing:antialiased;scroll-behavior:smooth}
+body{font-family:'Outfit',sans-serif;background:var(--bg);color:var(--text);line-height:1.7;overflow-x:hidden}
+
+.legal-nav{
+  position:fixed;top:0;left:0;right:0;z-index:100;height:64px;padding:0 32px;
+  display:flex;align-items:center;justify-content:space-between;
+  backdrop-filter:blur(20px) saturate(1.2);-webkit-backdrop-filter:blur(20px) saturate(1.2);
+  background:var(--nav-bg);border-bottom:1px solid var(--white-border)
+}
+.legal-nav::after{
+  content:'';position:absolute;bottom:0;left:0;right:0;height:1px;
+  background:linear-gradient(90deg,transparent 15%,rgba(0,229,255,.06) 50%,transparent 85%)
+}
+.legal-nav-brand{display:flex;align-items:center;gap:10px;text-decoration:none}
+.legal-nav-brand img{width:32px;height:32px;border-radius:10px;box-shadow:0 0 12px rgba(0,229,255,.08)}
+.legal-nav-brand span{font-weight:800;font-size:18px;color:var(--text);letter-spacing:-.5px}
+.legal-nav a.back-link{
+  color:var(--text3);text-decoration:none;font-size:13px;font-weight:600;
+  transition:all .2s;letter-spacing:.3px;padding:10px 0;min-height:44px;
+  display:inline-flex;align-items:center
+}
+.legal-nav a.back-link:hover{color:var(--cyan)}
+
+main{max-width:740px;margin:0 auto;padding:120px 24px 80px}
+.eyebrow{
+  font-size:11px;font-weight:700;letter-spacing:4px;text-transform:uppercase;
+  color:var(--text3);opacity:.7;margin-bottom:16px
+}
+h1{
+  font-size:clamp(32px,5vw,48px);font-weight:900;letter-spacing:-2px;line-height:1.05;
+  margin-bottom:12px;
+  background:linear-gradient(180deg,var(--text) 40%,var(--text2));
+  -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text
+}
+.lede{font-size:17px;color:var(--text2);margin-bottom:48px;max-width:620px}
+
+section{
+  padding:28px 28px;margin:16px 0;border-radius:18px;
+  background:var(--surface-50);border:1px solid var(--white-border);
+  backdrop-filter:blur(4px);-webkit-backdrop-filter:blur(4px);
+  position:relative
+}
+section::before{
+  content:'';position:absolute;top:0;left:0;right:0;height:1px;
+  background:linear-gradient(90deg,transparent 10%,rgba(255,255,255,.04) 50%,transparent 90%);
+  border-radius:18px 18px 0 0
+}
+section h2{
+  font-size:18px;font-weight:800;letter-spacing:-.3px;margin-bottom:14px;
+  color:var(--text);line-height:1.2
+}
+section p,section li{color:var(--text2);font-size:15px;line-height:1.75}
+section p{margin-bottom:12px}
+section p:last-child{margin-bottom:0}
+section ul{padding-left:20px;margin-bottom:12px}
+section li{margin-bottom:6px}
+section li strong{color:var(--text)}
+section a{color:var(--cyan);text-decoration:none;transition:opacity .2s}
+section a:hover{opacity:.7}
+
+.cta-wrap{display:flex;justify-content:center;margin:40px 0 8px}
+.delete-btn{
+  display:inline-flex;align-items:center;gap:10px;
+  padding:16px 28px;border-radius:14px;
+  background:linear-gradient(180deg,var(--cyan),#00B8D4);
+  color:#06121A;font-weight:800;font-size:15px;letter-spacing:.3px;
+  text-decoration:none;
+  box-shadow:0 0 24px rgba(0,229,255,.25),0 8px 24px rgba(0,0,0,.4);
+  transition:transform .2s,box-shadow .2s
+}
+.delete-btn:hover{transform:translateY(-2px);box-shadow:0 0 36px rgba(0,229,255,.4),0 12px 28px rgba(0,0,0,.5)}
+
+.legal-footer{
+  margin-top:64px;padding-top:24px;text-align:center;
+  border-top:1px solid rgba(255,255,255,.03);
+  font-size:11px;color:var(--text3);opacity:.4
+}
+
+.ambient-gradient{
+  position:fixed;top:0;left:0;right:0;bottom:0;z-index:-2;pointer-events:none;
+  background:
+    radial-gradient(ellipse 80% 60% at 15% 25%,rgba(0,229,255,.06),transparent),
+    radial-gradient(ellipse 60% 70% at 85% 75%,rgba(100,50,180,.04),transparent);
+  background-size:200% 200%;
+  animation:ambientDrift 25s ease-in-out infinite alternate
+}
+@keyframes ambientDrift{
+  0%{background-position:0% 0%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 100%}
+}
+
+@media(max-width:480px){
+  main{padding:100px 16px 60px}
+  section{padding:20px 18px}
+}
+</style></head>
+<body>
+<div class="ambient-gradient"></div>
+<nav class="legal-nav">
+<a class="legal-nav-brand" href="index.html">
+<picture><source srcset="assets/kiro-app-icon-256.webp" type="image/webp"/><img alt="Kiro" src="assets/kiro-app-icon-256.png"/></picture>
+<span>Kiro AI</span>
+</a>
+<a class="back-link" href="index.html">&larr; Back to Kiro</a>
+</nav>
+<main>
+<div class="eyebrow">Account</div>
+<h1>Delete Your Account</h1>
+<p class="lede">You can permanently delete your Kiro account and all associated data at any time. Just send us a quick email and we&rsquo;ll take care of it.</p>
+
+<section>
+<h2>How to Request Deletion</h2>
+<p>Email <a href="mailto:support@trykiro.app?subject=Delete%20My%20Account">support@trykiro.app</a> from the address associated with your Kiro account with the subject line &ldquo;Delete My Account.&rdquo;</p>
+<p>We&rsquo;ll confirm your identity and process the deletion within <strong>7 business days</strong>. You&rsquo;ll receive an email confirmation once your data has been removed.</p>
+<div class="cta-wrap">
+<a class="delete-btn" href="mailto:support@trykiro.app?subject=Delete%20My%20Account">Email support to delete my account &rarr;</a>
+</div>
+</section>
+
+<section>
+<h2>What Gets Deleted</h2>
+<p>When we process your request, the following data is permanently removed from our systems:</p>
+<ul>
+<li><strong>Profile</strong> &mdash; email, display name, and account credentials</li>
+<li><strong>Learning progress</strong> &mdash; lesson completion and node map state</li>
+<li><strong>XP</strong> &mdash; all experience points earned</li>
+<li><strong>Streaks</strong> &mdash; daily streak history and streak freezes</li>
+<li><strong>Duels</strong> &mdash; match history and duel stats</li>
+<li><strong>Rank</strong> &mdash; current tier and rank progression data</li>
+<li><strong>Prompt Lab data</strong> &mdash; saved prompts and evaluation history</li>
+</ul>
+<p>This action is permanent and cannot be undone.</p>
+</section>
+
+<section>
+<h2>Subscriptions</h2>
+<p>Kiro subscriptions are billed and managed by Apple (App Store) or Google (Play Store), not by Kiro directly. Deleting your account does <strong>not</strong> automatically cancel an active subscription.</p>
+<p>To cancel a subscription, manage it through your Apple ID or Google Play account settings:</p>
+<ul>
+<li><strong>iOS</strong> &mdash; Settings &rarr; [your name] &rarr; Subscriptions</li>
+<li><strong>Android</strong> &mdash; Play Store &rarr; Profile &rarr; Payments &amp; subscriptions &rarr; Subscriptions</li>
+</ul>
+</section>
+
+<section>
+<h2>Questions</h2>
+<p>If you have any questions about account deletion or what happens to your data, reach out to <a href="mailto:support@trykiro.app">support@trykiro.app</a> and we&rsquo;ll get back to you.</p>
+</section>
+
+<div class="legal-footer">&copy; 2026 Kiro. Master AI. Become Unreplaceable.</div>
+</main>
+</body></html>
