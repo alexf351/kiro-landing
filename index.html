@@ -21,11 +21,11 @@
 <link href="assets/diamond-kiro.webp" rel="preload" as="image" type="image/webp"/>
 <link href="assets/kiro-app-icon-256.webp" rel="preload" as="image" type="image/webp"/>
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"SoftwareApplication","name":"Kiro","description":"The Duolingo for AI. Build AI fluency in 5 minutes a day.","applicationCategory":"EducationApplication","operatingSystem":"iOS","offers":[{"@type":"Offer","price":"0","priceCurrency":"USD","description":"Free with optional Pro upgrade"},{"@type":"Offer","price":"59.99","priceCurrency":"USD","description":"Annual Pro plan ($5.00/month)"},{"@type":"Offer","price":"9.99","priceCurrency":"USD","description":"Monthly Pro plan"}],"url":"https://www.trykiro.app","downloadUrl":"https://apps.apple.com/app/id6759628066"}
+{"@context":"https://schema.org","@type":"SoftwareApplication","name":"Kiro","description":"The Duolingo for AI. Build AI fluency in 5 minutes a day.","applicationCategory":"EducationApplication","operatingSystem":"iOS","offers":[{"@type":"Offer","price":"0","priceCurrency":"USD","description":"Free with optional Pro upgrade"},{"@type":"Offer","price":"24.99","priceCurrency":"USD","description":"3-Month Pro plan ($1.92/week, includes 7-day free trial)"},{"@type":"Offer","price":"9.99","priceCurrency":"USD","description":"Weekly Pro plan"}],"url":"https://www.trykiro.app","downloadUrl":"https://apps.apple.com/app/id6759628066"}
 </script>
 <link href="https://fonts.googleapis.com" rel="preconnect"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
-<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&amp;family=JetBrains+Mono:wght@700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800;900&amp;family=JetBrains+Mono:wght@400;500;700&amp;display=swap" rel="stylesheet"/>
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
 .skip-link{position:absolute;left:-9999px;top:0;padding:8px 16px;background:var(--cyan);color:var(--bg);z-index:9999;font-weight:700;text-decoration:none;border-radius:0 0 8px 0}
@@ -33,12 +33,15 @@
 :root{
   --bg:#0A0E1A;--bg1:#0F1425;--surface:#141B2D;--surface-border:#1E2740;
   --text:#FFFFFF;--text2:#8B95B0;--text3:#8890AA;
-  --cyan:#00E5FF;--cyan-light:#00B4D8;--gold:#FFD700;--error:#FF4757;--success:#2ECC71;
-  --iridescent-pink:#FF6BFF;
+  --cyan:#00E5FF;--cyan-light:#00B4D8;--cyan-deep:#0096B0;--gold:#FFD700;--error:#FF4757;--success:#2ECC71;
+  --iridescent-pink:#FF6BFF;--iridescent-blue:#B9F2FF;
+  --bronze:#CD7F32;--silver:#C0C0C0;--platinum:#E5E4E2;
   --surface-50:rgba(20,27,45,.5);--surface-60:rgba(20,27,45,.6);--surface-70:rgba(20,27,45,.7);
   --surface-80:rgba(20,27,45,.8);--surface-90:rgba(20,27,45,.9);
   --nav-bg:rgba(10,14,26,.6);--nav-bg-heavy:rgba(10,14,26,.85);
   --white-border:rgba(255,255,255,.04);
+  --hud-line:rgba(0,229,255,.15);--hud-line-soft:rgba(0,229,255,.08);
+  --hud-radial:radial-gradient(ellipse 60% 40% at 50% 50%,rgba(0,229,255,.05),transparent 70%);
 }
 html{scroll-behavior:smooth;-webkit-font-smoothing:antialiased}
 body{font-family:'Outfit',sans-serif;background:var(--bg);color:var(--text);overflow-x:hidden;line-height:1.6}
@@ -65,6 +68,83 @@ body{font-family:'Outfit',sans-serif;background:var(--bg);color:var(--text);over
 .stars-canvas{
   position:fixed;top:0;left:0;width:100%;height:100%;
   z-index:-1;pointer-events:none
+}
+
+/* ══════════════════ HUD PRIMITIVES ══════════════════ */
+/* Tactical blueprint grid — subtle, used behind key sections */
+.hud-grid-bg{
+  position:absolute;inset:0;pointer-events:none;opacity:.4;
+  background-image:
+    linear-gradient(to right,rgba(0,229,255,.04) 1px,transparent 1px),
+    linear-gradient(to bottom,rgba(0,229,255,.04) 1px,transparent 1px);
+  background-size:64px 64px;
+  -webkit-mask-image:radial-gradient(ellipse 70% 55% at 50% 50%,#000 30%,transparent 85%);
+  mask-image:radial-gradient(ellipse 70% 55% at 50% 50%,#000 30%,transparent 85%)
+}
+/* Live status pill with pulsing dot */
+.hud-pill{
+  display:inline-flex;align-items:center;gap:10px;
+  padding:7px 14px 7px 12px;border-radius:100px;
+  background:rgba(10,14,26,.55);
+  border:1px solid rgba(0,229,255,.18);
+  font-family:'JetBrains Mono',monospace;
+  font-size:11px;font-weight:500;
+  letter-spacing:1.8px;text-transform:uppercase;
+  color:var(--cyan);
+  backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);
+  box-shadow:0 0 24px rgba(0,229,255,.05),inset 0 1px 0 rgba(255,255,255,.03)
+}
+.hud-pill::before{
+  content:'';width:6px;height:6px;border-radius:50%;
+  background:var(--cyan);
+  box-shadow:0 0 10px var(--cyan),0 0 4px var(--cyan);
+  animation:hudPulse 2.2s ease-in-out infinite
+}
+.hud-pill .hud-pill-sep{color:var(--text3);opacity:.5;margin:0 2px}
+.hud-pill .hud-pill-val{color:var(--text);font-weight:700;letter-spacing:1px}
+@keyframes hudPulse{
+  0%,100%{opacity:.55;transform:scale(.88)}
+  50%{opacity:1;transform:scale(1.15)}
+}
+/* Monospace coordinate label */
+.hud-coord{
+  font-family:'JetBrains Mono',monospace;
+  font-size:10px;font-weight:500;
+  letter-spacing:2.5px;text-transform:uppercase;
+  color:var(--text3);
+  display:inline-flex;align-items:center;gap:8px
+}
+.hud-coord::before{
+  content:'';width:20px;height:1px;background:var(--hud-line);
+  display:inline-block
+}
+.hud-coord--r::before{display:none}
+.hud-coord--r::after{
+  content:'';width:20px;height:1px;background:var(--hud-line);
+  display:inline-block
+}
+/* Tick bar — horizontal ticks of varying heights */
+.hud-ticks{
+  display:flex;gap:4px;align-items:flex-end;height:14px;
+  opacity:.45
+}
+.hud-ticks span{display:block;width:1px;background:var(--cyan)}
+.hud-ticks span:nth-child(3n){height:60%}
+.hud-ticks span:nth-child(3n+1){height:100%}
+.hud-ticks span:nth-child(3n+2){height:35%}
+.hud-ticks span:nth-child(5n){background:var(--gold)}
+/* Corner brackets — reusable outer markers */
+.hud-corners{position:relative}
+.hud-corners::before,
+.hud-corners::after{
+  content:'';position:absolute;width:12px;height:12px;
+  pointer-events:none;transition:all .3s ease;
+  border-color:rgba(0,229,255,.35);border-style:solid;border-width:0
+}
+.hud-corners::before{top:-1px;left:-1px;border-top-width:1px;border-left-width:1px}
+.hud-corners::after{bottom:-1px;right:-1px;border-bottom-width:1px;border-right-width:1px}
+.hud-corners:hover::before,.hud-corners:hover::after{
+  width:18px;height:18px;border-color:var(--cyan)
 }
 
 /* ══════════════════ NAV ══════════════════ */
@@ -128,12 +208,60 @@ nav::after{
   0%{transform:translateX(-50%) scale(1) rotate(0deg);opacity:.8}
   100%{transform:translateX(-50%) scale(1.08) rotate(2deg);opacity:1}
 }
+/* Backdrop type — massive outlined KIRO behind hero */
+.hero-backdrop{
+  position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);
+  pointer-events:none;z-index:0;
+  font-family:'Outfit',sans-serif;font-weight:900;
+  font-size:clamp(180px,32vw,480px);
+  letter-spacing:-.055em;line-height:.78;
+  color:transparent;
+  -webkit-text-stroke:1.5px rgba(0,229,255,.07);
+  text-stroke:1.5px rgba(0,229,255,.07);
+  user-select:none;white-space:nowrap;
+  -webkit-mask-image:linear-gradient(180deg,transparent 0%,#000 22%,#000 78%,transparent 100%);
+  mask-image:linear-gradient(180deg,transparent 0%,#000 22%,#000 78%,transparent 100%);
+  opacity:.85
+}
+.hero-backdrop span{
+  display:inline-block;
+  background:linear-gradient(180deg,rgba(0,229,255,.14) 0%,rgba(0,229,255,.02) 60%,transparent 100%);
+  -webkit-background-clip:text;background-clip:text;
+  -webkit-text-fill-color:transparent
+}
+/* Corner HUD coord readouts on hero viewport */
+.hero-hud-coord{
+  position:absolute;z-index:2;
+  font-family:'JetBrains Mono',monospace;
+  font-size:10px;font-weight:500;letter-spacing:2.5px;
+  color:var(--text3);opacity:.45;text-transform:uppercase;
+  display:flex;align-items:center;gap:8px;pointer-events:none
+}
+.hero-hud-coord::before{
+  content:'';width:14px;height:1px;background:var(--hud-line)
+}
+.hero-hud-coord--tl{top:88px;left:32px}
+.hero-hud-coord--br{bottom:32px;right:32px;flex-direction:row-reverse}
+.hero-hud-coord--br::before{content:none}
+.hero-hud-coord--br::after{
+  content:'';width:14px;height:1px;background:var(--hud-line)
+}
 .hero-inner{
   display:flex;align-items:center;gap:80px;max-width:1200px;width:100%;
   position:relative;z-index:1
 }
 .hero-content{flex:1;min-width:0}
-.hero-visual{flex:0 0 380px;position:relative;display:flex;align-items:center;justify-content:center}
+.hero-visual{flex:0 0 420px;position:relative;display:flex;align-items:center;justify-content:center}
+/* Status badge above H1 */
+.hero-badge-row{
+  display:flex;align-items:center;gap:12px;flex-wrap:wrap;
+  margin-bottom:28px;animation:fadeInUp .5s ease
+}
+.hero-badge-meta{
+  font-family:'JetBrains Mono',monospace;
+  font-size:10px;font-weight:500;letter-spacing:2.5px;
+  color:var(--text3);opacity:.55;text-transform:uppercase
+}
 
 .hero h1{
   font-size:clamp(44px,6.5vw,76px);font-weight:900;line-height:1.0;
@@ -186,14 +314,14 @@ nav::after{
   outline:2px solid var(--cyan);outline-offset:2px
 }
 
-/* Hero mascot visual */
+/* Hero mascot visual — tactical HUD stage */
 .hero-mascot-wrap{
-  position:relative;width:360px;height:360px;
+  position:relative;width:420px;height:420px;
   animation:fadeInUp .8s ease
 }
 .hero-mascot-glow{
   position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);
-  width:400px;height:400px;border-radius:50%;
+  width:440px;height:440px;border-radius:50%;
   background:
     radial-gradient(circle,rgba(0,229,255,.12) 0%,rgba(0,229,255,.04) 40%,transparent 70%);
   box-shadow:
@@ -206,71 +334,197 @@ nav::after{
   0%,100%{transform:translate(-50%,-50%) scale(1);opacity:.8}
   50%{transform:translate(-50%,-50%) scale(1.06);opacity:1}
 }
+/* Dashed outer ring, counter-rotating slow */
+.hero-mascot-frame{
+  position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);
+  width:420px;height:420px;border-radius:50%;
+  border:1px dashed rgba(0,229,255,.14);
+  animation:ringRotate 60s linear infinite reverse;
+  pointer-events:none
+}
+/* Main ring with tracking marker */
 .hero-mascot-ring{
   position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);
-  width:340px;height:340px;border-radius:50%;
-  border:1px solid rgba(0,229,255,.08);
+  width:360px;height:360px;border-radius:50%;
+  border:1px solid rgba(0,229,255,.12);
   animation:ringRotate 20s linear infinite;
   pointer-events:none
 }
 .hero-mascot-ring::before{
-  content:'';position:absolute;top:-2px;left:50%;width:4px;height:4px;
+  content:'';position:absolute;top:-3px;left:50%;width:6px;height:6px;margin-left:-3px;
   border-radius:50%;background:var(--cyan);
-  box-shadow:0 0 8px 2px rgba(0,229,255,.6)
+  box-shadow:0 0 12px 2px rgba(0,229,255,.7)
+}
+/* Tick marks around the mascot — 12 positions every 30deg */
+.hero-mascot-ticks{
+  position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);
+  width:360px;height:360px;border-radius:50%;
+  pointer-events:none
+}
+.hero-mascot-ticks span{
+  position:absolute;top:0;left:50%;
+  width:1px;height:8px;background:rgba(0,229,255,.3);
+  transform-origin:center 180px;margin-left:-1px
+}
+.hero-mascot-ticks span:nth-child(3n+1){
+  height:14px;width:2px;background:rgba(0,229,255,.55);margin-left:-1px
+}
+.hero-mascot-ticks span:nth-child(1){transform:rotate(0deg)}
+.hero-mascot-ticks span:nth-child(2){transform:rotate(30deg)}
+.hero-mascot-ticks span:nth-child(3){transform:rotate(60deg)}
+.hero-mascot-ticks span:nth-child(4){transform:rotate(90deg)}
+.hero-mascot-ticks span:nth-child(5){transform:rotate(120deg)}
+.hero-mascot-ticks span:nth-child(6){transform:rotate(150deg)}
+.hero-mascot-ticks span:nth-child(7){transform:rotate(180deg)}
+.hero-mascot-ticks span:nth-child(8){transform:rotate(210deg)}
+.hero-mascot-ticks span:nth-child(9){transform:rotate(240deg)}
+.hero-mascot-ticks span:nth-child(10){transform:rotate(270deg)}
+.hero-mascot-ticks span:nth-child(11){transform:rotate(300deg)}
+.hero-mascot-ticks span:nth-child(12){transform:rotate(330deg)}
+/* Corner brackets around the stage */
+.hero-mascot-brackets{position:absolute;inset:0;pointer-events:none}
+.hero-mascot-brackets::before,
+.hero-mascot-brackets::after{
+  content:'';position:absolute;width:24px;height:24px;
+  border:1.5px solid rgba(0,229,255,.35)
+}
+.hero-mascot-brackets::before{top:0;left:0;border-right:0;border-bottom:0}
+.hero-mascot-brackets::after{bottom:0;right:0;border-left:0;border-top:0}
+.hero-mascot-brackets-b2{position:absolute;inset:0;pointer-events:none}
+.hero-mascot-brackets-b2::before,
+.hero-mascot-brackets-b2::after{
+  content:'';position:absolute;width:24px;height:24px;
+  border:1.5px solid rgba(0,229,255,.35)
+}
+.hero-mascot-brackets-b2::before{top:0;right:0;border-left:0;border-bottom:0}
+.hero-mascot-brackets-b2::after{bottom:0;left:0;border-right:0;border-top:0}
+/* HUD readout top/bottom of stage */
+.hero-mascot-readout{
+  position:absolute;top:-6px;left:50%;transform:translateX(-50%);
+  font-family:'JetBrains Mono',monospace;font-size:10px;font-weight:500;
+  letter-spacing:2.5px;color:var(--cyan);opacity:.75;
+  white-space:nowrap;text-transform:uppercase;
+  padding:4px 10px;background:var(--bg);
+  display:flex;align-items:center;gap:8px;z-index:2
+}
+.hero-mascot-readout::before,
+.hero-mascot-readout::after{
+  content:'';width:14px;height:1px;background:rgba(0,229,255,.5)
+}
+.hero-mascot-tag{
+  position:absolute;bottom:-6px;left:50%;transform:translateX(-50%);
+  font-family:'JetBrains Mono',monospace;font-size:9px;font-weight:500;
+  letter-spacing:3px;color:var(--text3);opacity:.6;
+  white-space:nowrap;text-transform:uppercase;
+  padding:4px 10px;background:var(--bg);z-index:2
 }
 @keyframes ringRotate{from{transform:translate(-50%,-50%) rotate(0deg)}to{transform:translate(-50%,-50%) rotate(360deg)}}
 .hero-mascot-img{
-  position:relative;z-index:1;width:100%;height:100%;object-fit:contain;
-  filter:drop-shadow(0 0 48px rgba(0,229,255,.25)) drop-shadow(0 0 12px rgba(255,215,0,.08));
+  position:relative;z-index:1;width:72%;height:72%;object-fit:contain;
+  margin:14%;
+  filter:drop-shadow(0 0 48px rgba(0,229,255,.28)) drop-shadow(0 0 12px rgba(255,215,0,.08));
   animation:mascotFloat 4s ease-in-out infinite
 }
 @keyframes mascotFloat{0%,100%{transform:translateY(0) scale(1)}50%{transform:translateY(-10px) scale(1.01)}}
 
-/* ══════════════════ FOUNDER STRIP ══════════════════ */
+/* ══════════════════ FOUNDER / TELEMETRY PANEL ══════════════════ */
 .founder-strip{
-  padding:64px 24px;position:relative;overflow:hidden;
+  padding:72px 24px 96px;position:relative;overflow:hidden;
   background:linear-gradient(180deg,var(--bg1) 0%,var(--bg) 100%);
-  border-top:1px solid rgba(0,229,255,.06);
+  border-top:1px solid rgba(0,229,255,.08);
   border-bottom:1px solid var(--surface-border)
 }
 .founder-strip::before{
   content:'';position:absolute;top:0;left:0;right:0;height:1px;
-  background:linear-gradient(90deg,transparent 10%,rgba(0,229,255,.15) 50%,transparent 90%)
+  background:linear-gradient(90deg,transparent 10%,rgba(0,229,255,.22) 50%,transparent 90%)
 }
 .founder-inner{
-  max-width:1000px;margin:0 auto;
-  display:flex;flex-direction:column;align-items:center;gap:40px
+  max-width:1100px;margin:0 auto;position:relative
 }
-.founder-badge{
-  display:flex;align-items:center;gap:16px;flex-shrink:0;
-  padding:16px 28px;border-radius:16px;
-  background:rgba(0,229,255,.03);border:1px solid rgba(0,229,255,.08);
-  backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px)
+.founder-head{
+  display:flex;flex-direction:column;align-items:center;gap:18px;
+  text-align:center;margin-bottom:56px
 }
-.founder-badge img{width:44px;height:44px;border-radius:12px;border:2px solid rgba(0,229,255,.15)}
-.founder-badge-text{font-size:14px;color:var(--text2);line-height:1.5}
-.founder-badge-text strong{color:var(--text);display:block;font-weight:700;font-size:15px}
-.founder-divider{display:none}
+.founder-head .hud-pill{margin-bottom:2px}
+.founder-claim{
+  font-family:'Outfit',sans-serif;font-weight:800;
+  font-size:clamp(28px,4vw,44px);letter-spacing:-1.5px;line-height:1.05;
+  color:var(--text);margin:0
+}
+.founder-claim-em{
+  font-weight:900;
+  background:linear-gradient(90deg,var(--cyan),var(--gold));
+  -webkit-background-clip:text;background-clip:text;
+  -webkit-text-fill-color:transparent
+}
+.founder-sub{
+  font-size:15px;color:var(--text2);max-width:580px;line-height:1.65;margin:0
+}
+.founder-sub strong{color:var(--text);font-weight:700}
+/* Telemetry panel frame */
+.founder-stats-wrap{
+  position:relative;padding:28px 8px;
+  border:1px solid rgba(0,229,255,.14);
+  background:
+    linear-gradient(180deg,rgba(20,27,45,.45) 0%,rgba(20,27,45,.25) 100%);
+  backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);
+  border-radius:2px
+}
+.founder-stats-wrap::before,
+.founder-stats-wrap::after{
+  content:'';position:absolute;width:14px;height:14px;
+  border:1.5px solid var(--cyan);pointer-events:none
+}
+.founder-stats-wrap::before{top:-1px;left:-1px;border-right:0;border-bottom:0}
+.founder-stats-wrap::after{bottom:-1px;right:-1px;border-left:0;border-top:0}
+.founder-stats-wrap-b{position:absolute;inset:0;pointer-events:none}
+.founder-stats-wrap-b::before,
+.founder-stats-wrap-b::after{
+  content:'';position:absolute;width:14px;height:14px;
+  border:1.5px solid var(--cyan)
+}
+.founder-stats-wrap-b::before{top:-1px;right:-1px;border-left:0;border-bottom:0}
+.founder-stats-wrap-b::after{bottom:-1px;left:-1px;border-right:0;border-top:0}
+.founder-stats-head{
+  position:absolute;top:-10px;left:50%;transform:translateX(-50%);
+  padding:3px 16px;background:var(--bg);
+  font-family:'JetBrains Mono',monospace;
+  font-size:10px;font-weight:500;letter-spacing:3px;
+  color:var(--cyan);text-transform:uppercase;
+  display:flex;align-items:center;gap:10px;white-space:nowrap
+}
+.founder-stats-head::before{
+  content:'';width:6px;height:6px;border-radius:50%;background:var(--cyan);
+  box-shadow:0 0 8px var(--cyan);
+  animation:hudPulse 2s ease-in-out infinite
+}
 .founder-stats{
-  display:grid;grid-template-columns:repeat(5,1fr);gap:0;width:100%;max-width:800px
+  display:grid;grid-template-columns:repeat(5,1fr);gap:0;width:100%
 }
 .founder-stat{
-  text-align:center;padding:20px 16px;position:relative
+  text-align:center;padding:18px 12px;position:relative
 }
 .founder-stat:not(:last-child)::after{
-  content:'';position:absolute;right:0;top:20%;height:60%;width:1px;
-  background:linear-gradient(180deg,transparent,rgba(0,229,255,.12),transparent)
+  content:'';position:absolute;right:0;top:18%;height:64%;width:1px;
+  background:linear-gradient(180deg,transparent 0%,rgba(0,229,255,.22) 50%,transparent 100%)
+}
+.founder-stat-idx{
+  font-family:'JetBrains Mono',monospace;
+  font-size:10px;font-weight:500;letter-spacing:2.5px;
+  color:var(--text3);opacity:.6;margin-bottom:14px;
+  text-transform:uppercase
 }
 .founder-stat-val{
-  font-family:'JetBrains Mono',monospace;font-weight:700;font-size:clamp(24px,3vw,32px);
-  letter-spacing:-1px;line-height:1;
-  background:linear-gradient(180deg,var(--cyan),rgba(0,229,255,.7));
-  -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;
-  filter:drop-shadow(0 0 8px rgba(0,229,255,.15))
+  font-family:'JetBrains Mono',monospace;
+  font-weight:700;font-size:clamp(30px,3.6vw,40px);
+  letter-spacing:-.5px;line-height:1;
+  color:var(--text);
+  font-variant-numeric:tabular-nums;
+  margin-bottom:12px
 }
 .founder-stat-label{
-  font-size:12px;color:var(--text3);margin-top:6px;font-weight:600;
-  letter-spacing:.5px;text-transform:uppercase
+  font-size:11px;color:var(--text2);
+  font-weight:600;letter-spacing:1.2px;text-transform:uppercase;line-height:1.3
 }
 
 /* ══════════════════ WHY NOW ══════════════════ */
@@ -403,21 +657,26 @@ section{padding:100px 24px;position:relative}
 }
 .why-card:hover::after{opacity:1}
 .why-card .icon{
-  width:52px;height:52px;border-radius:12px;
+  width:48px;height:48px;border-radius:4px;
   display:flex;align-items:center;justify-content:center;
-  font-size:24px;margin-bottom:24px;
+  margin-bottom:28px;position:relative;
   transition:all .4s
 }
+.why-card .icon svg{width:22px;height:22px;stroke-width:1.5;transition:all .4s}
 .why-card:nth-child(1) .icon{
-  background:rgba(0,229,255,.08);border:1px solid rgba(0,229,255,.12)
+  background:rgba(0,229,255,.08);border:1px solid rgba(0,229,255,.18)
 }
+.why-card:nth-child(1) .icon svg{color:var(--cyan);filter:drop-shadow(0 0 4px rgba(0,229,255,.3))}
 .why-card:nth-child(2) .icon{
-  background:rgba(255,165,0,.06);border:1px solid rgba(255,165,0,.1)
+  background:rgba(255,165,0,.08);border:1px solid rgba(255,165,0,.18)
 }
+.why-card:nth-child(2) .icon svg{color:#FFB347;filter:drop-shadow(0 0 4px rgba(255,165,0,.35))}
 .why-card:nth-child(3) .icon{
-  background:rgba(46,204,113,.06);border:1px solid rgba(46,204,113,.1)
+  background:rgba(46,204,113,.08);border:1px solid rgba(46,204,113,.18)
 }
-.why-card:hover .icon{transform:scale(1.08)}
+.why-card:nth-child(3) .icon svg{color:var(--success);filter:drop-shadow(0 0 4px rgba(46,204,113,.3))}
+.why-card:hover .icon{transform:scale(1.08) rotate(-2deg)}
+.why-card:hover .icon svg{transform:scale(1.08)}
 .why-card h3{
   font-size:20px;font-weight:700;margin-bottom:10px;letter-spacing:-.4px;
   color:var(--text)
@@ -433,12 +692,12 @@ section{padding:100px 24px;position:relative}
   pointer-events:none
 }
 .gameplay-grid{
-  display:grid;grid-template-columns:repeat(4,1fr);gap:16px;
-  max-width:1160px;margin:0 auto
+  display:grid;grid-template-columns:repeat(4,1fr);gap:14px;
+  max-width:1180px;margin:0 auto
 }
 .gameplay-card{
-  border-radius:16px;overflow:hidden;
-  border:1px solid rgba(255,255,255,.05);
+  border-radius:14px;overflow:hidden;
+  border:1px solid rgba(255,255,255,.06);
   background:var(--surface-70);
   transition:all .4s;
   display:flex;flex-direction:column;
@@ -448,21 +707,38 @@ section{padding:100px 24px;position:relative}
 }
 .gameplay-card::before{
   content:'';position:absolute;top:0;left:0;right:0;height:1px;
-  background:linear-gradient(90deg,transparent 10%,rgba(0,229,255,.08) 50%,transparent 90%);
-  z-index:2
+  background:linear-gradient(90deg,transparent 10%,rgba(0,229,255,.1) 50%,transparent 90%);
+  z-index:3
 }
 .gameplay-card:hover{
   transform:translateY(-6px) scale(1.02);
-  border-color:rgba(0,229,255,.15);
-  box-shadow:0 20px 60px rgba(0,0,0,.4),0 0 30px rgba(0,229,255,.1)
+  border-color:rgba(0,229,255,.2);
+  box-shadow:0 20px 60px rgba(0,0,0,.4),0 0 36px rgba(0,229,255,.12)
 }
-.gameplay-card:hover img{filter:brightness(1.08)}
-.gameplay-card img{width:100%;height:auto;display:block;transition:filter .4s}
+.gameplay-card picture{display:block;position:relative}
+.gameplay-card img{
+  width:100%;height:auto;display:block;
+  transition:filter .4s,transform 6s ease
+}
+.gameplay-card:hover img{filter:brightness(1.08);transform:scale(1.03)}
+/* Card label */
 .gameplay-card-label{
-  padding:12px 14px;text-align:center;
-  font-size:13px;font-weight:700;color:var(--text2);letter-spacing:.3px;
-  background:var(--nav-bg);
-  border-top:1px solid rgba(255,255,255,.03)
+  padding:11px 14px;text-align:left;
+  font-size:13px;font-weight:700;color:var(--text);letter-spacing:.1px;
+  background:rgba(10,14,26,.78);
+  border-top:1px solid rgba(0,229,255,.08);
+  display:flex;align-items:center;gap:10px;
+  backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);
+  position:relative;z-index:2
+}
+.gameplay-card-idx{
+  font-family:'JetBrains Mono',monospace;
+  font-size:10px;font-weight:500;letter-spacing:1.5px;
+  color:var(--cyan);opacity:.7;flex-shrink:0
+}
+.gameplay-card-meta{
+  margin-left:auto;font-family:'JetBrains Mono',monospace;
+  font-size:10px;color:var(--text3);letter-spacing:1.5px;opacity:.7
 }
 
 /* ══════════════════ RANK EVOLUTION ══════════════════ */
@@ -476,133 +752,218 @@ section{padding:100px 24px;position:relative}
   background:radial-gradient(ellipse at center,rgba(0,229,255,.03) 0%,transparent 50%);
   pointer-events:none
 }
+/* HUD readout strip above track */
+.rank-readout{
+  max-width:1100px;margin:0 auto 32px;
+  display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:14px;
+  padding:14px 20px;position:relative;
+  border-top:1px solid rgba(0,229,255,.12);
+  border-bottom:1px solid rgba(0,229,255,.12)
+}
+.rank-readout::before,
+.rank-readout::after{
+  content:'';position:absolute;width:10px;height:10px;
+  border:1.5px solid var(--cyan)
+}
+.rank-readout::before{top:-1px;left:-1px;border-right:0;border-bottom:0}
+.rank-readout::after{bottom:-1px;right:-1px;border-left:0;border-top:0}
+.rank-readout-group{
+  display:flex;align-items:center;gap:10px;
+  font-family:'JetBrains Mono',monospace;
+  font-size:11px;letter-spacing:2px;text-transform:uppercase
+}
+.rank-readout-label{color:var(--text3);opacity:.8}
+.rank-readout-sep{color:var(--text3);opacity:.4}
+.rank-readout-val{color:var(--cyan);font-weight:700}
+
+/* Track */
 .rank-track{
-  max-width:1060px;margin:0 auto;display:flex;align-items:center;
-  justify-content:center;gap:0;position:relative;
-  padding:32px 0
+  max-width:1100px;margin:0 auto;
+  display:grid;grid-template-columns:repeat(6,1fr);gap:8px;
+  position:relative;padding:18px 0 24px
 }
+/* Dashed segmented progress line behind */
 .rank-track::before{
-  content:'';position:absolute;top:50%;left:60px;right:60px;height:2px;
-  background:linear-gradient(90deg,
-    #CD7F32 0%,#C0C0C0 20%,var(--gold) 40%,#E5E4E2 60%,#B9F2FF 80%,rgba(0,229,255,.4) 100%);
-  opacity:.25;transform:translateY(-50%);
-  filter:blur(0.5px)
+  content:'';position:absolute;top:96px;left:calc(100%/12);right:calc(100%/12);height:1px;
+  background-image:
+    linear-gradient(90deg,rgba(205,127,50,.35) 0%,rgba(192,192,192,.3) 20%,rgba(255,215,0,.4) 40%,rgba(229,228,226,.3) 60%,rgba(185,242,255,.4) 80%,rgba(0,229,255,.3) 100%);
+  -webkit-mask-image:repeating-linear-gradient(90deg,#000 0 12px,transparent 12px 20px);
+  mask-image:repeating-linear-gradient(90deg,#000 0 12px,transparent 12px 20px);
+  opacity:.8
 }
+/* Glow beneath the line */
 .rank-track::after{
-  content:'';position:absolute;top:50%;left:60px;right:60px;height:6px;
+  content:'';position:absolute;top:92px;left:calc(100%/12);right:calc(100%/12);height:8px;
   background:linear-gradient(90deg,
-    rgba(205,127,50,.08) 0%,rgba(192,192,192,.06) 20%,rgba(255,215,0,.08) 40%,
-    rgba(229,228,226,.06) 60%,rgba(185,242,255,.08) 80%,rgba(0,229,255,.06) 100%);
-  transform:translateY(-50%);border-radius:3px;
-  filter:blur(4px)
+    rgba(205,127,50,.15) 0%,rgba(192,192,192,.12) 20%,rgba(255,215,0,.2) 40%,
+    rgba(229,228,226,.12) 60%,rgba(185,242,255,.2) 80%,rgba(0,229,255,.15) 100%);
+  filter:blur(10px);
+  opacity:.5
 }
 .rank-tier{
-  display:flex;flex-direction:column;align-items:center;gap:14px;
-  position:relative;z-index:1;flex:1;
+  display:flex;flex-direction:column;align-items:center;gap:6px;
+  position:relative;z-index:1;
   transition:all .4s
 }
+/* Tier index */
+.rank-tier-idx{
+  font-family:'JetBrains Mono',monospace;
+  font-size:10px;font-weight:500;letter-spacing:2px;
+  color:var(--text3);opacity:.55;text-transform:uppercase;
+  margin-bottom:4px
+}
+/* Pedestal — contains mascot + plinth */
+.rank-tier-pedestal{
+  position:relative;width:100%;max-width:140px;
+  display:flex;flex-direction:column;align-items:center
+}
 .rank-tier-img{
-  width:110px;height:110px;object-fit:contain;
+  width:100px;height:100px;object-fit:contain;
   transition:all .4s ease;
-  position:relative;z-index:1
+  position:relative;z-index:2
 }
-/* Per-tier glow via drop-shadow */
-.rank-tier:nth-of-type(1) .rank-tier-img{filter:drop-shadow(0 0 12px rgba(205,127,50,.2))}
-.rank-tier:nth-of-type(2) .rank-tier-img{filter:drop-shadow(0 0 14px rgba(192,192,192,.2))}
-.rank-tier:nth-of-type(3) .rank-tier-img{filter:drop-shadow(0 0 16px rgba(255,215,0,.25))}
-.rank-tier:nth-of-type(4) .rank-tier-img{filter:drop-shadow(0 0 18px rgba(229,228,226,.2))}
-.rank-tier:nth-of-type(5) .rank-tier-img{filter:drop-shadow(0 0 22px rgba(185,242,255,.3))}
-.rank-tier:hover .rank-tier-img{transform:scale(1.18) translateY(-6px)}
-.rank-tier:nth-of-type(1):hover .rank-tier-img{filter:drop-shadow(0 0 28px rgba(205,127,50,.4))}
-.rank-tier:nth-of-type(2):hover .rank-tier-img{filter:drop-shadow(0 0 28px rgba(192,192,192,.35))}
-.rank-tier:nth-of-type(3):hover .rank-tier-img{filter:drop-shadow(0 0 32px rgba(255,215,0,.45))}
-.rank-tier:nth-of-type(4):hover .rank-tier-img{filter:drop-shadow(0 0 32px rgba(229,228,226,.35))}
-.rank-tier:nth-of-type(5):hover .rank-tier-img{filter:drop-shadow(0 0 36px rgba(185,242,255,.5))}
+.rank-tier:nth-of-type(1) .rank-tier-img{filter:drop-shadow(0 4px 12px rgba(205,127,50,.3))}
+.rank-tier:nth-of-type(2) .rank-tier-img{filter:drop-shadow(0 4px 14px rgba(192,192,192,.28))}
+.rank-tier:nth-of-type(3) .rank-tier-img{filter:drop-shadow(0 4px 16px rgba(255,215,0,.4))}
+.rank-tier:nth-of-type(4) .rank-tier-img{filter:drop-shadow(0 4px 18px rgba(229,228,226,.28))}
+.rank-tier:nth-of-type(5) .rank-tier-img{filter:drop-shadow(0 4px 22px rgba(185,242,255,.45))}
+.rank-tier:hover .rank-tier-img{transform:scale(1.14) translateY(-10px)}
+/* Plinth — trophy base */
+.rank-plinth{
+  position:relative;width:112px;height:26px;margin-top:-8px;
+  background:
+    linear-gradient(180deg,rgba(30,39,64,.7) 0%,rgba(10,14,26,.9) 100%);
+  border:1px solid rgba(255,255,255,.06);border-top:1px solid rgba(0,229,255,.12);
+  border-radius:2px 2px 6px 6px;
+  box-shadow:0 4px 16px rgba(0,0,0,.35),inset 0 1px 0 rgba(255,255,255,.03);
+  transition:all .4s;z-index:1
+}
+.rank-plinth::before{
+  content:'';position:absolute;top:5px;left:10%;right:10%;height:1px;
+  background:linear-gradient(90deg,transparent,currentColor,transparent);
+  opacity:.25
+}
+.rank-plinth::after{
+  content:'';position:absolute;inset:0;
+  background:radial-gradient(ellipse at center 100%,rgba(0,229,255,.15) 0%,transparent 60%);
+  opacity:0;transition:opacity .4s;border-radius:inherit
+}
+.rank-tier:nth-of-type(1) .rank-plinth{color:var(--bronze);border-top-color:rgba(205,127,50,.3)}
+.rank-tier:nth-of-type(2) .rank-plinth{color:var(--silver);border-top-color:rgba(192,192,192,.3)}
+.rank-tier:nth-of-type(3) .rank-plinth{color:var(--gold);border-top-color:rgba(255,215,0,.4)}
+.rank-tier:nth-of-type(4) .rank-plinth{color:var(--platinum);border-top-color:rgba(229,228,226,.3)}
+.rank-tier:nth-of-type(5) .rank-plinth{color:var(--iridescent-blue);border-top-color:rgba(185,242,255,.4)}
+.rank-tier:nth-of-type(6) .rank-plinth{color:var(--cyan);border-top-color:rgba(0,229,255,.3)}
+.rank-tier:hover .rank-plinth{
+  border-top-color:currentColor;
+  box-shadow:0 6px 20px rgba(0,0,0,.4),0 0 24px color-mix(in srgb,currentColor 30%,transparent),inset 0 1px 0 rgba(255,255,255,.05)
+}
+.rank-tier:hover .rank-plinth::after{opacity:.6;background:radial-gradient(ellipse at center,color-mix(in srgb,currentColor 25%,transparent) 0%,transparent 70%)}
+
+/* Tier name */
 .rank-tier-name{
-  font-size:11px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase
+  font-family:'JetBrains Mono',monospace;
+  font-size:11px;font-weight:700;letter-spacing:2.5px;text-transform:uppercase;
+  margin-top:10px
 }
-.rank-tier:nth-of-type(1) .rank-tier-name{color:#CD7F32}
-.rank-tier:nth-of-type(2) .rank-tier-name{color:#C0C0C0}
-.rank-tier:nth-of-type(3) .rank-tier-name{color:#FFD700}
-.rank-tier:nth-of-type(4) .rank-tier-name{color:#E5E4E2}
-.rank-tier:nth-of-type(5) .rank-tier-name{color:#B9F2FF}
+/* Tier XP threshold */
+.rank-tier-xp{
+  font-family:'JetBrains Mono',monospace;
+  font-size:9.5px;font-weight:500;letter-spacing:1.5px;
+  color:var(--text3);opacity:.55;
+  margin-top:4px;text-transform:uppercase;
+  transition:color .3s,opacity .3s
+}
+.rank-tier:hover .rank-tier-xp{color:var(--cyan);opacity:.9}
+.rank-tier:nth-of-type(1) .rank-tier-name{color:var(--bronze)}
+.rank-tier:nth-of-type(2) .rank-tier-name{color:var(--silver)}
+.rank-tier:nth-of-type(3) .rank-tier-name{color:var(--gold)}
+.rank-tier:nth-of-type(4) .rank-tier-name{color:var(--platinum)}
+.rank-tier:nth-of-type(5) .rank-tier-name{color:var(--iridescent-blue)}
 .rank-tier:nth-of-type(6) .rank-tier-name{color:var(--cyan)}
-/* Arrows as glowing chevrons */
-.rank-arrow{
-  flex-shrink:0;margin-top:-20px;font-size:16px;
-  opacity:0;width:0;overflow:hidden
-}
-.rank-track .rank-arrow{
-  width:auto;opacity:1;
-  color:transparent;font-size:0;
-  display:flex;align-items:center;padding:0 2px
-}
-.rank-track .rank-arrow::before{
-  content:'›';font-size:20px;font-weight:400;
-  color:var(--text3);opacity:.3;
-  display:block
-}
 /* Locked tier */
 .rank-tier--locked .rank-tier-name{
-  opacity:.5;
-  background:linear-gradient(90deg,#00E5FF,#B9F2FF,var(--iridescent-pink),#00E5FF);
+  background:linear-gradient(90deg,#00E5FF,#B9F2FF,var(--iridescent-pink),#FFD700,#00E5FF);
   background-size:300% 100%;
   -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;
   animation:iridescentLock 6s ease infinite
 }
 @keyframes iridescentLock{0%,100%{background-position:0% 50%}50%{background-position:100% 50%}}
 .rank-tier-locked{
-  width:110px;height:110px;
+  width:100px;height:100px;
   display:flex;align-items:center;justify-content:center;
   border-radius:50%;position:relative;
-  background:radial-gradient(circle,rgba(0,229,255,.04) 0%,rgba(0,0,0,.4) 100%);
-  border:1.5px solid rgba(0,229,255,.1);
+  background:
+    conic-gradient(from 45deg,rgba(0,229,255,.1),rgba(255,107,255,.1),rgba(185,242,255,.1),rgba(255,215,0,.06),rgba(0,229,255,.1)),
+    radial-gradient(circle,rgba(10,14,26,.4) 0%,rgba(0,0,0,.7) 100%);
+  border:1.5px solid rgba(0,229,255,.18);
   box-shadow:
-    inset 0 0 24px rgba(0,0,0,.5),
-    0 0 24px rgba(0,229,255,.06),
-    0 0 60px rgba(0,229,255,.03);
-  transition:all .4s
+    inset 0 0 30px rgba(0,0,0,.6),
+    0 0 30px rgba(255,107,255,.1),
+    0 0 60px rgba(0,229,255,.06);
+  animation:lockedPrism 10s linear infinite;
+  transition:all .4s;z-index:2
 }
+@keyframes lockedPrism{0%{filter:hue-rotate(0deg) brightness(1)}50%{filter:hue-rotate(180deg) brightness(1.08)}100%{filter:hue-rotate(360deg) brightness(1)}}
 .rank-tier-locked::before{
   content:'';position:absolute;inset:-3px;border-radius:50%;
   border:1px solid transparent;
-  background:linear-gradient(135deg,rgba(0,229,255,.12),rgba(255,107,255,.08),rgba(0,229,255,.12)) border-box;
+  background:conic-gradient(from 0deg,rgba(0,229,255,.4),rgba(255,107,255,.3),rgba(185,242,255,.4),rgba(255,215,0,.25),rgba(0,229,255,.4));
   -webkit-mask:linear-gradient(#fff 0 0) padding-box,linear-gradient(#fff 0 0);
   -webkit-mask-composite:xor;mask-composite:exclude;
   animation:ringRotateSlow 12s linear infinite;
-  opacity:.5
+  opacity:.6
+}
+.rank-tier-locked::after{
+  content:'';position:absolute;inset:6px;border-radius:50%;
+  background:repeating-conic-gradient(from 0deg,transparent 0deg 18deg,rgba(0,229,255,.06) 18deg 19deg);
+  pointer-events:none
 }
 @keyframes ringRotateSlow{from{transform:rotate(0deg)}to{transform:rotate(360deg)}}
 .rank-tier--locked:hover .rank-tier-locked{
-  border-color:rgba(0,229,255,.25);
+  border-color:rgba(0,229,255,.5);
   box-shadow:
-    inset 0 0 24px rgba(0,0,0,.5),
-    0 0 40px rgba(0,229,255,.15),
-    0 0 80px rgba(255,107,255,.06)
+    inset 0 0 30px rgba(0,0,0,.6),
+    0 0 60px rgba(255,107,255,.3),
+    0 0 120px rgba(0,229,255,.15)
 }
-.rank-tier-locked-icon{font-size:28px;filter:grayscale(.3) brightness(.7);transition:all .4s}
-.rank-tier--locked:hover .rank-tier-locked-icon{filter:grayscale(0) brightness(1);transform:scale(1.1)}
+.rank-tier-locked-icon{
+  display:flex;align-items:center;justify-content:center;
+  color:rgba(255,255,255,.45);transition:all .4s;z-index:2
+}
+.rank-tier-locked-icon svg{width:28px;height:28px}
+.rank-tier--locked:hover .rank-tier-locked-icon{color:var(--cyan);transform:scale(1.12)}
 .rank-tier-hint{
-  font-size:11px;color:var(--cyan);opacity:.35;
-  letter-spacing:.5px;margin-top:-4px;
+  font-family:'JetBrains Mono',monospace;
+  font-size:9px;color:var(--cyan);opacity:.45;
+  letter-spacing:2px;margin-top:4px;
+  text-transform:uppercase;
   transition:opacity .3s
 }
-.rank-tier--locked:hover .rank-tier-hint{opacity:.7}
+.rank-tier--locked:hover .rank-tier-hint{opacity:.85}
+.rank-arrow{display:none}
 
-/* ══════════════════ SOCIAL PROOF ══════════════════ */
+/* ══════════════════ SOCIAL PROOF (EDITORIAL) ══════════════════ */
 .proof-section{
   position:relative;overflow:hidden;
   background:linear-gradient(180deg,var(--bg) 0%,var(--bg1) 50%,var(--bg) 100%);
   border-top:none;border-bottom:none
 }
-.proof-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;max-width:1020px;margin:0 auto}
+.proof-grid{
+  display:grid;
+  grid-template-columns:minmax(0,1.35fr) minmax(0,1fr);
+  gap:14px;
+  max-width:1080px;margin:0 auto
+}
+.proof-col{display:flex;flex-direction:column;gap:14px}
 .proof-card{
   background:var(--surface-60);
   border:1px solid var(--white-border);
-  border-radius:16px;padding:32px 28px;
+  border-radius:14px;padding:28px 26px;
   position:relative;overflow:hidden;
   transition:all .4s;
-  backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px)
+  backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);
+  display:flex;flex-direction:column
 }
 .proof-card::before{
   content:'';position:absolute;top:0;left:0;right:0;height:1px;
@@ -611,28 +972,77 @@ section{padding:100px 24px;position:relative}
 .proof-card::after{
   content:'';position:absolute;inset:0;opacity:0;transition:opacity .4s;pointer-events:none
 }
-.proof-card:nth-child(1)::after{background:linear-gradient(160deg,rgba(0,229,255,.04),transparent 40%)}
-.proof-card:nth-child(2)::after{background:linear-gradient(160deg,rgba(255,215,0,.03),transparent 40%)}
-.proof-card:nth-child(3)::after{background:linear-gradient(160deg,rgba(46,204,113,.03),transparent 40%)}
+.proof-card--feature::after{background:linear-gradient(160deg,rgba(0,229,255,.06),transparent 45%)}
+.proof-card--sm-1::after{background:linear-gradient(160deg,rgba(255,215,0,.04),transparent 45%)}
+.proof-card--sm-2::after{background:linear-gradient(160deg,rgba(46,204,113,.04),transparent 45%)}
 .proof-card:hover{
-  border-color:rgba(255,255,255,.08);
+  border-color:rgba(255,255,255,.1);
   transform:translateY(-4px);
   box-shadow:0 16px 48px rgba(0,0,0,.3)
 }
 .proof-card:hover::after{opacity:1}
-.proof-stars{color:var(--gold);font-size:12px;margin-bottom:14px;letter-spacing:3px;opacity:.8}
+/* Feature card — large editorial pull quote */
+.proof-card--feature{
+  padding:44px 44px 36px;
+  border-color:rgba(0,229,255,.15);
+  background:
+    linear-gradient(180deg,rgba(20,27,45,.65) 0%,rgba(20,27,45,.35) 100%);
+  min-height:100%
+}
+.proof-card--feature::before{
+  background:linear-gradient(90deg,transparent 5%,rgba(0,229,255,.25) 50%,transparent 95%);
+  height:1px
+}
+.proof-quote-mark{
+  position:absolute;top:-28px;left:26px;
+  font-family:'Outfit',sans-serif;font-weight:900;
+  font-size:260px;color:var(--cyan);opacity:.14;
+  line-height:1;pointer-events:none;user-select:none
+}
+.proof-feature-meta{
+  display:flex;align-items:center;gap:10px;margin-bottom:24px;
+  font-family:'JetBrains Mono',monospace;
+  font-size:10px;font-weight:500;letter-spacing:2.5px;
+  color:var(--cyan);text-transform:uppercase;
+  position:relative;z-index:1
+}
+.proof-feature-meta::after{
+  content:'';flex:1;height:1px;background:linear-gradient(90deg,rgba(0,229,255,.2),transparent)
+}
+.proof-card--feature .proof-stars{
+  color:var(--gold);font-size:14px;margin-bottom:16px;letter-spacing:4px;
+  position:relative;z-index:1
+}
+.proof-card--feature .proof-text{
+  font-size:clamp(18px,2.2vw,24px);line-height:1.5;color:var(--text);
+  font-style:normal;font-weight:500;letter-spacing:-.3px;
+  margin-bottom:28px;opacity:1;position:relative;z-index:1
+}
+.proof-card--feature .proof-footer{
+  display:flex;align-items:center;gap:14px;flex-wrap:wrap;
+  position:relative;z-index:1;margin-top:auto;padding-top:16px;
+  border-top:1px solid rgba(255,255,255,.05)
+}
+.proof-card--feature .proof-avatar{
+  width:46px;height:46px;font-size:15px
+}
+.proof-card--feature .proof-role{margin-left:auto}
+/* Small cards */
+.proof-card--sm-1,.proof-card--sm-2{flex:1;padding:24px 24px}
+.proof-stars{color:var(--gold);font-size:12px;margin-bottom:12px;letter-spacing:3px;opacity:.85}
 .proof-text{
-  font-size:15px;line-height:1.65;color:var(--text);margin-bottom:18px;
-  font-style:italic;opacity:.9
+  font-size:15px;line-height:1.6;color:var(--text);margin-bottom:16px;
+  font-style:italic;opacity:.92
 }
 .proof-role{
-  display:inline-block;font-size:11px;font-weight:700;margin-top:4px;
-  letter-spacing:.5px;text-transform:uppercase;
-  padding:6px 14px;border-radius:8px
+  display:inline-block;font-size:10px;font-weight:700;margin-top:0;
+  letter-spacing:1.2px;text-transform:uppercase;
+  padding:5px 11px;border-radius:6px;
+  font-family:'JetBrains Mono',monospace
 }
-.proof-card:nth-child(1) .proof-role{color:var(--cyan);background:rgba(0,229,255,.06);border:1px solid rgba(0,229,255,.1)}
-.proof-card:nth-child(2) .proof-role{color:var(--gold);background:rgba(255,215,0,.05);border:1px solid rgba(255,215,0,.08)}
-.proof-card:nth-child(3) .proof-role{color:var(--success);background:rgba(46,204,113,.06);border:1px solid rgba(46,204,113,.1)}
+.proof-card--feature .proof-role{color:var(--cyan);background:rgba(0,229,255,.08);border:1px solid rgba(0,229,255,.18)}
+.proof-card--sm-1 .proof-role{color:var(--gold);background:rgba(255,215,0,.06);border:1px solid rgba(255,215,0,.12)}
+.proof-card--sm-2 .proof-role{color:var(--success);background:rgba(46,204,113,.08);border:1px solid rgba(46,204,113,.14)}
 
 /* ══════════════════ FINAL CTA ══════════════════ */
 .final-cta{
@@ -795,28 +1205,29 @@ section{padding:100px 24px;position:relative}
 .email-form-success{font-size:14px;color:var(--success);font-weight:600;display:none;margin-top:8px}
 
 /* ══════════════════ PROOF AVATAR ══════════════════ */
-.proof-header{display:flex;align-items:center;gap:14px;margin-bottom:18px}
+.proof-header{display:flex;align-items:center;gap:12px;margin-bottom:16px}
 .proof-avatar{
-  width:42px;height:42px;border-radius:12px;
+  width:42px;height:42px;border-radius:10px;
   display:flex;align-items:center;justify-content:center;
-  font-size:14px;font-weight:700;flex-shrink:0;
+  font-family:'JetBrains Mono',monospace;
+  font-size:12px;font-weight:700;letter-spacing:1px;flex-shrink:0;
   position:relative
 }
-.proof-card:nth-child(1) .proof-avatar{
-  background:linear-gradient(135deg,rgba(0,229,255,.15),rgba(0,229,255,.06));
-  color:var(--cyan);border:1px solid rgba(0,229,255,.12)
+.proof-card--feature .proof-avatar{
+  background:linear-gradient(135deg,rgba(0,229,255,.2),rgba(0,229,255,.08));
+  color:var(--cyan);border:1px solid rgba(0,229,255,.22)
 }
-.proof-card:nth-child(2) .proof-avatar{
-  background:linear-gradient(135deg,rgba(255,215,0,.12),rgba(255,215,0,.04));
-  color:var(--gold);border:1px solid rgba(255,215,0,.1)
+.proof-card--sm-1 .proof-avatar{
+  background:linear-gradient(135deg,rgba(255,215,0,.14),rgba(255,215,0,.05));
+  color:var(--gold);border:1px solid rgba(255,215,0,.16)
 }
-.proof-card:nth-child(3) .proof-avatar{
-  background:linear-gradient(135deg,rgba(46,204,113,.12),rgba(46,204,113,.04));
-  color:var(--success);border:1px solid rgba(46,204,113,.1)
+.proof-card--sm-2 .proof-avatar{
+  background:linear-gradient(135deg,rgba(46,204,113,.14),rgba(46,204,113,.05));
+  color:var(--success);border:1px solid rgba(46,204,113,.16)
 }
-.proof-name-block{text-align:left}
-.proof-name{font-size:14px;font-weight:700;color:var(--text);display:block}
-.proof-title{font-size:12px;color:var(--text3);display:block;margin-top:2px}
+.proof-name-block{text-align:left;display:flex;flex-direction:column;gap:2px}
+.proof-name{font-size:14px;font-weight:700;color:var(--text);display:block;letter-spacing:.1px}
+.proof-title{font-size:11px;color:var(--text3);display:block;letter-spacing:.5px}
 
 /* ══════════════════ FOOTER ══════════════════ */
 footer{
@@ -879,30 +1290,54 @@ footer .footer-copy{opacity:.3;font-size:11px;letter-spacing:.5px}
   text-align:center;padding:0 24px;position:relative;z-index:1
 }
 .hiw-item-icon{
-  width:88px;height:88px;border-radius:16px;margin:0 auto 24px;
+  width:88px;height:88px;border-radius:4px;margin:0 auto 28px;
   display:flex;align-items:center;justify-content:center;
-  font-size:36px;position:relative;
+  position:relative;
   background:var(--surface-90);
   border:1px solid rgba(0,229,255,.1);
-  box-shadow:0 8px 32px rgba(0,0,0,.3),0 0 0 1px rgba(255,255,255,.02);
+  box-shadow:0 8px 32px rgba(0,0,0,.3),0 0 0 1px rgba(255,255,255,.02),inset 0 1px 0 rgba(255,255,255,.03);
   transition:all .4s
 }
+.hiw-item-icon::before,
+.hiw-item-icon::after{
+  content:'';position:absolute;width:10px;height:10px;
+  pointer-events:none;transition:all .3s
+}
+.hiw-item-icon::before{
+  top:-1px;left:-1px;
+  border-top:1.5px solid var(--cyan);border-left:1.5px solid var(--cyan)
+}
+.hiw-item-icon::after{
+  bottom:-1px;right:-1px;
+  border-bottom:1.5px solid var(--cyan);border-right:1.5px solid var(--cyan)
+}
+.hiw-item-icon svg{width:34px;height:34px;stroke-width:1.4;transition:transform .4s}
 .hiw-item:nth-child(1) .hiw-item-icon{
-  background:linear-gradient(135deg,rgba(0,229,255,.08),rgba(20,27,45,.9));
-  border-color:rgba(0,229,255,.15)
+  background:linear-gradient(135deg,rgba(0,229,255,.1),rgba(20,27,45,.9));
+  border-color:rgba(0,229,255,.2)
 }
+.hiw-item:nth-child(1) .hiw-item-icon svg{color:var(--cyan);filter:drop-shadow(0 0 6px rgba(0,229,255,.3))}
 .hiw-item:nth-child(2) .hiw-item-icon{
-  background:linear-gradient(135deg,rgba(0,180,216,.08),rgba(20,27,45,.9));
-  border-color:rgba(0,180,216,.15)
+  background:linear-gradient(135deg,rgba(0,180,216,.1),rgba(20,27,45,.9));
+  border-color:rgba(0,180,216,.2)
 }
+.hiw-item:nth-child(2) .hiw-item-icon svg{color:var(--cyan-light);filter:drop-shadow(0 0 6px rgba(0,180,216,.3))}
+.hiw-item:nth-child(2) .hiw-item-icon::before,
+.hiw-item:nth-child(2) .hiw-item-icon::after{border-color:var(--cyan-light)}
 .hiw-item:nth-child(3) .hiw-item-icon{
-  background:linear-gradient(135deg,rgba(255,215,0,.06),rgba(20,27,45,.9));
-  border-color:rgba(255,215,0,.12)
+  background:linear-gradient(135deg,rgba(255,215,0,.08),rgba(20,27,45,.9));
+  border-color:rgba(255,215,0,.18)
 }
+.hiw-item:nth-child(3) .hiw-item-icon svg{color:var(--gold);filter:drop-shadow(0 0 6px rgba(255,215,0,.25))}
+.hiw-item:nth-child(3) .hiw-item-icon::before,
+.hiw-item:nth-child(3) .hiw-item-icon::after{border-color:var(--gold)}
 .hiw-item:hover .hiw-item-icon{transform:translateY(-4px)}
-.hiw-item:nth-child(1):hover .hiw-item-icon{box-shadow:0 12px 40px rgba(0,0,0,.3),0 0 24px rgba(0,229,255,.1)}
-.hiw-item:nth-child(2):hover .hiw-item-icon{box-shadow:0 12px 40px rgba(0,0,0,.3),0 0 24px rgba(0,180,216,.1)}
-.hiw-item:nth-child(3):hover .hiw-item-icon{box-shadow:0 12px 40px rgba(0,0,0,.3),0 0 24px rgba(255,215,0,.08)}
+.hiw-item:hover .hiw-item-icon svg{transform:scale(1.08)}
+.hiw-item:hover .hiw-item-icon::before,
+.hiw-item:hover .hiw-item-icon::after{width:14px;height:14px}
+.hiw-item:nth-child(1):hover .hiw-item-icon{box-shadow:0 12px 40px rgba(0,0,0,.3),0 0 28px rgba(0,229,255,.15)}
+.hiw-item:nth-child(2):hover .hiw-item-icon{box-shadow:0 12px 40px rgba(0,0,0,.3),0 0 28px rgba(0,180,216,.15)}
+.hiw-item:nth-child(3):hover .hiw-item-icon{box-shadow:0 12px 40px rgba(0,0,0,.3),0 0 28px rgba(255,215,0,.12)}
 .hiw-step-num{
   position:absolute;top:-6px;right:-6px;
   width:24px;height:24px;border-radius:50%;
@@ -935,35 +1370,52 @@ footer .footer-copy{opacity:.3;font-size:11px;letter-spacing:.5px}
   pointer-events:none
 }
 .faq-section .s-title{margin-bottom:8px}
-.faq-list{max-width:680px;margin:48px auto 0}
+.faq-list{max-width:720px;margin:48px auto 0}
 .faq-item{
-  border-bottom:1px solid rgba(255,255,255,.04);
+  position:relative;
+  border-top:1px solid rgba(255,255,255,.05);
   transition:all .3s
 }
-.faq-item:first-child{border-top:1px solid rgba(255,255,255,.04)}
-.faq-item.open{
-  background:rgba(0,229,255,.02);
-  margin:0 -20px;padding:0 20px;
-  border-radius:16px;
-  border-color:transparent
+.faq-item:last-child{border-bottom:1px solid rgba(255,255,255,.05)}
+/* Left accent bar — animates on open */
+.faq-item::before{
+  content:'';position:absolute;left:-16px;top:18px;bottom:18px;width:2px;
+  background:linear-gradient(180deg,var(--cyan),var(--cyan-light));
+  box-shadow:0 0 12px rgba(0,229,255,.4);
+  transform:scaleY(0);transform-origin:center;opacity:0;
+  transition:transform .4s cubic-bezier(.25,1,.5,1),opacity .3s;
+  border-radius:2px;pointer-events:none
 }
-.faq-item.open+.faq-item{border-top-color:transparent}
+.faq-item.open::before{transform:scaleY(1);opacity:1}
+.faq-item.open{background:linear-gradient(90deg,rgba(0,229,255,.03),transparent 60%)}
 .faq-q{
-  display:flex;align-items:center;justify-content:space-between;gap:16px;
-  padding:22px 0;cursor:pointer;width:100%;
+  display:flex;align-items:flex-start;gap:16px;
+  padding:22px 4px 22px 4px;cursor:pointer;width:100%;
   background:none;border:none;text-align:left;color:var(--text);
-  font-size:16px;font-weight:700;font-family:inherit;line-height:1.4;
+  font-size:16px;font-weight:700;font-family:inherit;line-height:1.45;
   transition:color .2s
 }
-.faq-q:hover{color:var(--cyan)}
+.faq-q-num{
+  font-family:'JetBrains Mono',monospace;
+  font-size:11px;font-weight:500;letter-spacing:1.5px;
+  color:var(--text3);opacity:.5;flex-shrink:0;
+  padding-top:3px;
+  transition:color .3s,opacity .3s;
+  min-width:24px
+}
+.faq-item.open .faq-q-num,
+.faq-q:hover .faq-q-num{color:var(--cyan);opacity:1}
+.faq-q-text{flex:1}
+.faq-q:hover .faq-q-text{color:var(--cyan)}
 .faq-toggle{
   width:32px;height:32px;flex-shrink:0;position:relative;
   border-radius:8px;background:rgba(255,255,255,.03);
   border:1px solid rgba(255,255,255,.06);
-  transition:all .3s ease
+  transition:all .3s ease;align-self:center
 }
 .faq-item.open .faq-toggle{
-  background:rgba(0,229,255,.06);border-color:rgba(0,229,255,.12)
+  background:rgba(0,229,255,.08);border-color:rgba(0,229,255,.2);
+  box-shadow:0 0 16px rgba(0,229,255,.12)
 }
 .faq-toggle::before,.faq-toggle::after{
   content:'';position:absolute;background:var(--text3);border-radius:1px;
@@ -973,14 +1425,14 @@ footer .footer-copy{opacity:.3;font-size:11px;letter-spacing:.5px}
 .faq-toggle::after{width:2px;height:12px;top:50%;left:50%;transform:translate(-50%,-50%)}
 .faq-item.open .faq-toggle{transform:rotate(45deg)}
 .faq-item.open .faq-toggle::before,.faq-item.open .faq-toggle::after{background:var(--cyan)}
-.faq-q:hover .faq-toggle{border-color:rgba(0,229,255,.15)}
+.faq-q:hover .faq-toggle{border-color:rgba(0,229,255,.2)}
 .faq-q:hover .faq-toggle::before,.faq-q:hover .faq-toggle::after{background:var(--cyan)}
 .faq-a{
   max-height:0;overflow:hidden;
   transition:max-height .4s cubic-bezier(.4,0,.2,1),padding .4s cubic-bezier(.4,0,.2,1);
-  color:var(--text2);font-size:15px;line-height:1.75;padding:0 0 0
+  color:var(--text2);font-size:15px;line-height:1.75;padding:0 0 0 44px
 }
-.faq-item.open .faq-a{max-height:500px;padding:0 0 24px}
+.faq-item.open .faq-a{max-height:500px;padding:0 0 26px 44px}
 
 /* ══════════════════ STICKY MOBILE CTA ══════════════════ */
 .sticky-cta{
@@ -1028,6 +1480,8 @@ footer .footer-copy{opacity:.3;font-size:11px;letter-spacing:.5px}
 .reveal.visible [data-stagger="5"]{animation-delay:.45s}
 .reveal.visible [data-stagger="6"]{animation-delay:.55s}
 .reveal.visible [data-stagger="7"]{animation-delay:.65s}
+.reveal.visible [data-stagger="8"]{animation-delay:.75s}
+.reveal.visible [data-stagger="9"]{animation-delay:.85s}
 /* Button active feedback */
 .btn-primary:active{transform:scale(0.97) translateY(0) !important;transition-duration:.08s !important}
 .btn-ghost:active{transform:scale(0.97) !important;transition-duration:.08s !important}
@@ -1050,9 +1504,18 @@ nav{animation:navSlideIn .5s cubic-bezier(.25,1,.5,1) both}
 }
 @media(max-width:768px){
   .hero{padding:100px 20px 60px;min-height:auto}
-  .hero-mascot-wrap{width:260px;height:260px}
+  .hero-mascot-wrap{width:280px;height:280px}
   .hero-mascot-ring{width:240px;height:240px}
-  .hero-mascot-glow{width:300px;height:300px}
+  .hero-mascot-ticks{width:240px;height:240px}
+  .hero-mascot-ticks span{transform-origin:center 120px;height:6px}
+  .hero-mascot-ticks span:nth-child(3n+1){height:10px}
+  .hero-mascot-frame{width:280px;height:280px}
+  .hero-mascot-glow{width:320px;height:320px}
+  .hero-hud-coord--tl,.hero-hud-coord--br{display:none}
+  .hero-backdrop{font-size:200px;opacity:.55}
+  .hero-mascot-brackets::before,.hero-mascot-brackets::after,
+  .hero-mascot-brackets-b2::before,.hero-mascot-brackets-b2::after{width:18px;height:18px}
+  .hero-badge-row{justify-content:center}
   .why-grid{grid-template-columns:1fr}
   .proof-grid{grid-template-columns:1fr}
   .gameplay-grid{grid-template-columns:repeat(2,1fr);gap:12px}
@@ -1113,8 +1576,15 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
 <!-- ═══════ HERO ═══════ -->
 <main id="main">
 <section class="hero" aria-labelledby="hero-heading">
+<div class="hero-backdrop" aria-hidden="true"><span>KIRO</span></div>
+<p class="hero-hud-coord hero-hud-coord--tl" aria-hidden="true">SYS.01 — SKILL.DEPLOY</p>
+<p class="hero-hud-coord hero-hud-coord--br" aria-hidden="true">v2026.4 // CYAN.TIER</p>
 <div class="hero-inner">
 <div class="hero-content">
+<div class="hero-badge-row">
+<span class="hud-pill"><span>LIVE</span><span class="hud-pill-sep">//</span><span class="hud-pill-val">iOS APP</span></span>
+<span class="hero-badge-meta">BUILT SOLO · 14 DAYS</span>
+</div>
 <h1 id="hero-heading">
 <span class="line1">Learn AI like a game.</span>
 <span class="line2">Become unreplaceable.</span>
@@ -1127,48 +1597,60 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
 <a class="btn-ghost" href="#gameplay">See it in action</a>
 </div>
 <p class="cta-platform">Available on iOS · <span class="platform-soon">Android coming soon</span></p>
-<p class="cta-micro">Free to start · Pro from $5/month</p>
+<p class="cta-micro">Free to start · Pro from $1.92/week</p>
 </div>
 <div class="hero-visual">
 <div class="hero-mascot-wrap">
 <div class="hero-mascot-glow"></div>
-<div class="hero-mascot-ring"></div>
+<div class="hero-mascot-frame" aria-hidden="true"></div>
+<div class="hero-mascot-ticks" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>
+<div class="hero-mascot-ring" aria-hidden="true"></div>
+<div class="hero-mascot-brackets" aria-hidden="true"></div>
+<div class="hero-mascot-brackets-b2" aria-hidden="true"></div>
+<div class="hero-mascot-readout" aria-hidden="true">◆ TIER V // DIAMOND</div>
+<div class="hero-mascot-tag" aria-hidden="true">DIAMOND I · 4,000+ XP</div>
 <picture><source srcset="assets/diamond-kiro.webp" type="image/webp"/><img alt="Kiro mascot — Diamond tier" class="hero-mascot-img" decoding="async" src="assets/diamond-kiro.png"/></picture>
 </div>
 </div>
 </div>
 </section>
-<!-- ═══════ FOUNDER PROOF STRIP ═══════ -->
+<!-- ═══════ FOUNDER PROOF STRIP / TELEMETRY ═══════ -->
 <div class="founder-strip reveal">
 <div class="founder-inner">
-<div class="founder-badge">
-<picture><source srcset="assets/kiro-app-icon-256.webp" type="image/webp"/><img alt="Kiro icon" decoding="async" loading="lazy" src="assets/kiro-app-icon-256.png"/></picture>
-<div class="founder-badge-text">
-<strong>Built solo in 2 weeks using AI.</strong>
-        The founder used the exact AI skills Kiro teaches to build the entire app. Kiro is its own proof.
-      </div>
+<div class="founder-head">
+<span class="hud-pill"><span>DEPLOYED</span><span class="hud-pill-sep">//</span><span class="hud-pill-val">MARCH 2026</span></span>
+<h2 class="founder-claim">Built solo. <span class="founder-claim-em">In 14 days.</span></h2>
+<p class="founder-sub">The founder used the exact AI skills Kiro teaches to ship the entire app in under two weeks. <strong>Kiro is its own proof.</strong></p>
 </div>
-<div class="founder-divider"></div>
+<div class="founder-stats-wrap">
+<div class="founder-stats-wrap-b" aria-hidden="true"></div>
+<span class="founder-stats-head">◆ SYSTEM STATUS — LIVE TELEMETRY</span>
 <div class="founder-stats">
 <div class="founder-stat">
+<div class="founder-stat-idx">01 /</div>
 <div class="founder-stat-val" data-count="14">14</div>
-<div class="founder-stat-label">days to ship</div>
+<div class="founder-stat-label">Days to ship</div>
 </div>
 <div class="founder-stat">
+<div class="founder-stat-idx">02 /</div>
 <div class="founder-stat-val" data-count="1400" data-count-suffix="+">1,400+</div>
-<div class="founder-stat-label">exercises</div>
+<div class="founder-stat-label">Exercises</div>
 </div>
 <div class="founder-stat">
+<div class="founder-stat-idx">03 /</div>
 <div class="founder-stat-val" data-count="10">10</div>
-<div class="founder-stat-label">learning paths</div>
+<div class="founder-stat-label">Learning paths</div>
 </div>
 <div class="founder-stat">
+<div class="founder-stat-idx">04 /</div>
 <div class="founder-stat-val" data-count="13">13</div>
-<div class="founder-stat-label">exercise types</div>
+<div class="founder-stat-label">Exercise types</div>
 </div>
 <div class="founder-stat">
+<div class="founder-stat-idx">05 /</div>
 <div class="founder-stat-val" data-count="1">1</div>
-<div class="founder-stat-label">developer</div>
+<div class="founder-stat-label">Developer</div>
+</div>
 </div>
 </div>
 </div>
@@ -1177,7 +1659,7 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
 <section class="why-now reveal" aria-labelledby="why-now-heading">
 <div class="section-inner">
 <p class="s-label">Why Now</p>
-<h2 class="s-title" id="why-now-heading">Most people are watching<br/>from the sidelines.</h2>
+<h2 class="s-title" id="why-now-heading">Most people are watching <br/>from the sidelines.</h2>
 <p class="why-now-body">AI is already changing how people work, think, and get hired. The ones building the skill now will have the edge. Kiro gets you there in 5 minutes a day. New lessons drop as AI evolves &mdash; so your skills never go stale.</p>
 <a class="quiz-callout" href="quiz.html">How fluent are you? Take the AI IQ Test &rarr;</a>
 </div>
@@ -1209,17 +1691,17 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
 <h2 class="s-title" id="hiw-heading">Three steps. Zero confusion.</h2>
 <div class="hiw-grid">
 <div class="hiw-item stagger-item" data-stagger="1">
-<div class="hiw-item-icon" aria-hidden="true">🎯<span class="hiw-step-num">1</span></div>
+<div class="hiw-item-icon" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><circle cx="16" cy="16" r="12"/><circle cx="16" cy="16" r="7"/><circle cx="16" cy="16" r="2" fill="currentColor" stroke="none"/><line x1="16" y1="1" x2="16" y2="5"/><line x1="16" y1="27" x2="16" y2="31"/><line x1="1" y1="16" x2="5" y2="16"/><line x1="27" y1="16" x2="31" y2="16"/></svg><span class="hiw-step-num">01</span></div>
 <div class="hiw-item-title">Day 1: Pick a path</div>
 <div class="hiw-item-sub">Choose from 10 AI learning paths. Start with Prompt Engineering, AI Foundations, or whatever fits your goal.</div>
 </div>
 <div class="hiw-item stagger-item" data-stagger="2">
-<div class="hiw-item-icon" aria-hidden="true">⚡<span class="hiw-step-num">2</span></div>
+<div class="hiw-item-icon" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-linejoin="round" stroke-linecap="round"><path d="M18 2 L6 18 L15 18 L14 30 L26 14 L17 14 Z"/></svg><span class="hiw-step-num">02</span></div>
 <div class="hiw-item-title">Day 3: Start building real prompts</div>
 <div class="hiw-item-sub">Bite-sized lessons with real decisions. You'll be building prompts that actually work.</div>
 </div>
 <div class="hiw-item stagger-item" data-stagger="3">
-<div class="hiw-item-icon" aria-hidden="true">🏆<span class="hiw-step-num">3</span></div>
+<div class="hiw-item-icon" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M9 4 h14 v6 a7 7 0 0 1 -14 0 Z"/><path d="M9 7 h-4 a3 3 0 0 0 4 5"/><path d="M23 7 h4 a3 3 0 0 1 -4 5"/><line x1="16" y1="17" x2="16" y2="23"/><line x1="11" y1="23" x2="21" y2="23"/><line x1="10" y1="28" x2="22" y2="28"/></svg><span class="hiw-step-num">03</span></div>
 <div class="hiw-item-title">Day 7: Start applying AI at work</div>
 <div class="hiw-item-sub">Earn XP, climb ranks, duel other learners &mdash; and bring AI into your real workflow.</div>
 </div>
@@ -1230,21 +1712,21 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
 <section class="why-kiro-section reveal" aria-labelledby="why-kiro-heading">
 <div class="section-inner">
 <p class="s-label">Why Kiro Works</p>
-<h2 class="s-title" id="why-kiro-heading">Not a course. Not a chatbot.<br/>A training system.</h2>
+<h2 class="s-title" id="why-kiro-heading">Not a course. Not a chatbot. <br/>A training system.</h2>
 <p class="s-sub">Kiro drills you on real AI skills — daily, competitive, and impossible to quit.</p>
 <div class="why-grid">
 <div class="why-card stagger-item" data-stagger="1">
-<span class="icon" aria-hidden="true">⚡</span>
+<span class="icon" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="12" width="3" height="8" rx="1"/><rect x="5" y="9" width="3" height="14" rx="1"/><line x1="8" y1="16" x2="24" y2="16" stroke-width="2.5"/><rect x="24" y="9" width="3" height="14" rx="1"/><rect x="27" y="12" width="3" height="8" rx="1"/></svg></span>
 <h3>Real reps, not theory.</h3>
 <p>Learn through real AI decisions, not passive content.</p>
 </div>
 <div class="why-card stagger-item" data-stagger="2">
-<span class="icon" aria-hidden="true">🔥</span>
+<span class="icon" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M16 3 C 19 10 26 12 23 22 C 21 28 12 28 10 22 C 8 18 11 16 13 18 C 11 12 15 10 16 3 Z"/><path d="M14 22 C 12 22 12 20 13 19 C 14 20 15 20 15 19 C 15 17 17 16 17 15 C 19 17 20 19 19 21 C 19 23 16 23 14 22 Z" fill="currentColor" fill-opacity=".2" stroke="none"/></svg></span>
 <h3>Competitive by design.</h3>
 <p>Duels, XP, streaks, and ranks make the skill stick. Users who hit a 7-day streak are 3.6x more likely to finish their path.</p>
 </div>
 <div class="why-card stagger-item" data-stagger="3">
-<span class="icon" aria-hidden="true">📊</span>
+<span class="icon" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="21" width="4" height="7"/><rect x="14" y="15" width="4" height="13"/><rect x="24" y="9" width="4" height="19"/><path d="M3 19 L10 12 L17 8 L29 3" stroke-dasharray="2 2"/></svg></span>
 <h3>Progress you can see.</h3>
 <p>Prompt coaching and evolving tiers make improvement obvious.</p>
 </div>
@@ -1255,40 +1737,40 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
 <section class="gameplay reveal" id="gameplay" aria-labelledby="gameplay-heading">
 <div class="section-inner">
 <p class="s-label">Inside the App</p>
-<h2 class="s-title" id="gameplay-heading">The loop that makes<br/>AI stick.</h2>
+<h2 class="s-title" id="gameplay-heading">The loop that makes <br/>AI stick.</h2>
 <p class="s-sub">Pick a path &rarr; crush a lesson &rarr; duel a rival &rarr; rank up &rarr; sharpen in Prompt Lab. Repeat daily.</p>
 <div class="gameplay-grid">
 <div class="gameplay-card stagger-item" data-stagger="1">
-<picture><source srcset="assets/01-node-map-660w.webp 660w, assets/01-node-map-1320x2868.webp 1320w" sizes="(max-width:768px) 50vw, 33vw" type="image/webp"/><img alt="Kiro app: Node Map screen showing a visual path of connected lesson nodes to complete" decoding="async" loading="lazy" src="assets/01-node-map-1320x2868.png"/></picture>
-<div class="gameplay-card-label">🗺️ Node Map</div>
+<picture><source srcset="assets/04-xp-660w.webp 660w, assets/04-xp-1320x2868.webp 1320w" sizes="(max-width:768px) 50vw, 25vw" type="image/webp"/><img alt="Kiro app: Perfect XP screen showing a flawless lesson score with full XP reward" decoding="async" loading="lazy" src="assets/04-xp-1320x2868.png"/></picture>
+<div class="gameplay-card-label"><span class="gameplay-card-idx">01/</span>Perfect XP</div>
 </div>
 <div class="gameplay-card stagger-item" data-stagger="2">
-<picture><source srcset="assets/02-hero-660w.webp 660w, assets/02-hero-1320x2868.webp 1320w" sizes="(max-width:768px) 50vw, 33vw" type="image/webp"/><img alt="Kiro app: Learning Paths screen showing 10 AI topic paths to choose from" decoding="async" loading="lazy" src="assets/02-hero-1320x2868.png"/></picture>
-<div class="gameplay-card-label">📚 Learning Paths</div>
+<picture><source srcset="assets/06-prompt-lab-660w.webp 660w, assets/06-prompt-lab-1320x2868.webp 1320w" sizes="(max-width:768px) 50vw, 25vw" type="image/webp"/><img alt="Kiro app: Prompt Lab coaching screen with AI feedback on your prompt quality" decoding="async" loading="lazy" src="assets/06-prompt-lab-1320x2868.png"/></picture>
+<div class="gameplay-card-label"><span class="gameplay-card-idx">02/</span>Prompt Lab</div>
 </div>
 <div class="gameplay-card stagger-item" data-stagger="3">
-<picture><source srcset="assets/03-delegate-660w.webp 660w, assets/03-delegate-1320x2868.webp 1320w" sizes="(max-width:768px) 50vw, 33vw" type="image/webp"/><img alt="Kiro app: Delegate or DIY exercise asking whether to use AI or handle a task yourself" decoding="async" loading="lazy" src="assets/03-delegate-1320x2868.png"/></picture>
-<div class="gameplay-card-label">🎯 Delegate or DIY</div>
+<picture><source srcset="assets/05-duels-660w.webp 660w, assets/05-duels-1320x2868.webp 1320w" sizes="(max-width:768px) 50vw, 25vw" type="image/webp"/><img alt="Kiro app: AI Duels screen showing a live competitive match against another learner" decoding="async" loading="lazy" src="assets/05-duels-1320x2868.png"/></picture>
+<div class="gameplay-card-label"><span class="gameplay-card-idx">03/</span>AI Duels<span class="gameplay-card-meta">LIVE · 1v1</span></div>
 </div>
 <div class="gameplay-card stagger-item" data-stagger="4">
-<picture><source srcset="assets/04-xp-660w.webp 660w, assets/04-xp-1320x2868.webp 1320w" sizes="(max-width:768px) 50vw, 33vw" type="image/webp"/><img alt="Kiro app: Perfect XP screen showing a flawless lesson score with full XP reward" decoding="async" loading="lazy" src="assets/04-xp-1320x2868.png"/></picture>
-<div class="gameplay-card-label">⭐ Perfect XP</div>
+<picture><source srcset="assets/02-hero-660w.webp 660w, assets/02-hero-1320x2868.webp 1320w" sizes="(max-width:768px) 50vw, 25vw" type="image/webp"/><img alt="Kiro app: Learning Paths screen showing 10 AI topic paths to choose from" decoding="async" loading="lazy" src="assets/02-hero-1320x2868.png"/></picture>
+<div class="gameplay-card-label"><span class="gameplay-card-idx">04/</span>Learning Paths</div>
 </div>
 <div class="gameplay-card stagger-item" data-stagger="5">
-<picture><source srcset="assets/05-duels-660w.webp 660w, assets/05-duels-1320x2868.webp 1320w" sizes="(max-width:768px) 50vw, 33vw" type="image/webp"/><img alt="Kiro app: AI Duels screen showing a live competitive match against another learner" decoding="async" loading="lazy" src="assets/05-duels-1320x2868.png"/></picture>
-<div class="gameplay-card-label">⚔️ AI Duels</div>
+<picture><source srcset="assets/08-ranks-660w.webp 660w, assets/08-ranks-1320x2868.webp 1320w" sizes="(max-width:768px) 50vw, 25vw" type="image/webp"/><img alt="Kiro app: Rank Up screen showing progression to a new rank tier" decoding="async" loading="lazy" src="assets/08-ranks-1320x2868.png"/></picture>
+<div class="gameplay-card-label"><span class="gameplay-card-idx">05/</span>Rank Up</div>
 </div>
 <div class="gameplay-card stagger-item" data-stagger="6">
-<picture><source srcset="assets/06-prompt-lab-660w.webp 660w, assets/06-prompt-lab-1320x2868.webp 1320w" sizes="(max-width:768px) 50vw, 33vw" type="image/webp"/><img alt="Kiro app: Prompt Lab coaching screen with AI feedback on your prompt quality" decoding="async" loading="lazy" src="assets/06-prompt-lab-1320x2868.png"/></picture>
-<div class="gameplay-card-label">💡 Prompt Lab</div>
+<picture><source srcset="assets/03-delegate-660w.webp 660w, assets/03-delegate-1320x2868.webp 1320w" sizes="(max-width:768px) 50vw, 25vw" type="image/webp"/><img alt="Kiro app: Delegate or DIY exercise asking whether to use AI or handle a task yourself" decoding="async" loading="lazy" src="assets/03-delegate-1320x2868.png"/></picture>
+<div class="gameplay-card-label"><span class="gameplay-card-idx">06/</span>Delegate or DIY</div>
 </div>
 <div class="gameplay-card stagger-item" data-stagger="7">
-<picture><source srcset="assets/07-ai-news-660w.webp 660w, assets/07-ai-news-1320x2868.webp 1320w" sizes="(max-width:768px) 50vw, 33vw" type="image/webp"/><img alt="Kiro app: Weekly AI News feed with curated updates on the latest AI developments" decoding="async" loading="lazy" src="assets/07-ai-news-1320x2868.png"/></picture>
-<div class="gameplay-card-label">📰 Weekly AI News</div>
+<picture><source srcset="assets/07-ai-news-660w.webp 660w, assets/07-ai-news-1320x2868.webp 1320w" sizes="(max-width:768px) 50vw, 25vw" type="image/webp"/><img alt="Kiro app: Weekly AI News feed with curated updates on the latest AI developments" decoding="async" loading="lazy" src="assets/07-ai-news-1320x2868.png"/></picture>
+<div class="gameplay-card-label"><span class="gameplay-card-idx">07/</span>Weekly AI News</div>
 </div>
 <div class="gameplay-card stagger-item" data-stagger="8">
-<picture><source srcset="assets/08-ranks-660w.webp 660w, assets/08-ranks-1320x2868.webp 1320w" sizes="(max-width:768px) 50vw, 33vw" type="image/webp"/><img alt="Kiro app: Rank Up screen showing progression to a new rank tier" decoding="async" loading="lazy" src="assets/08-ranks-1320x2868.png"/></picture>
-<div class="gameplay-card-label">🏆 Rank Up</div>
+<picture><source srcset="assets/01-node-map-660w.webp 660w, assets/01-node-map-1320x2868.webp 1320w" sizes="(max-width:768px) 50vw, 25vw" type="image/webp"/><img alt="Kiro app: Node Map screen showing a visual path of connected lesson nodes to complete" decoding="async" loading="lazy" src="assets/01-node-map-1320x2868.png"/></picture>
+<div class="gameplay-card-label"><span class="gameplay-card-idx">08/</span>Node Map</div>
 </div>
 </div>
 <div class="exercise-types">
@@ -1298,7 +1780,7 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
 <span class="exercise-pill">💬 Prompt Engineering</span>
 <span class="exercise-pill">🛠️ AI Tools</span>
 <span class="exercise-pill">⚡ AI Automation</span>
-<span class="exercise-pill">🧠 AI Agents</span>
+<span class="exercise-pill">🕹️ AI Agents</span>
 <span class="exercise-pill">💰 AI Business</span>
 <span class="exercise-pill">📣 AI for Marketing</span>
 <span class="exercise-pill">📈 AI for Finance</span>
@@ -1314,7 +1796,7 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
 <span class="exercise-pill">⚖️ Compare</span>
 <span class="exercise-pill">📝 Fill in the Blank</span>
 <span class="exercise-pill">🔗 Match Pairs</span>
-<span class="exercise-pill">🧩 Build Sequence</span>
+<span class="exercise-pill">🏗️ Build Sequence</span>
 <span class="exercise-pill">🔍 Spot the Error</span>
 <span class="exercise-pill">💬 Chat Sim</span>
 <span class="exercise-pill">💡 Sandbox</span>
@@ -1332,38 +1814,68 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
 <p class="s-label">Rank Progression</p>
 <h2 class="s-title" id="rank-heading">Earn XP. Climb ranks. Evolve Kiro.</h2>
 <p class="s-sub">Six visible tiers of progress that make you want to come back tomorrow.</p>
+<div class="rank-readout" aria-hidden="true">
+<span class="rank-readout-group"><span class="rank-readout-label">◆ PROGRESSION</span><span class="rank-readout-sep">//</span><span class="rank-readout-val">TIER I → VI</span></span>
+<span class="rank-readout-group"><span class="rank-readout-label">XP RANGE</span><span class="rank-readout-sep">//</span><span class="rank-readout-val">0 → 5,000+</span></span>
+<span class="rank-readout-group"><span class="rank-readout-label">STATE</span><span class="rank-readout-sep">//</span><span class="rank-readout-val">5 UNLOCKED · 1 LOCKED</span></span>
+</div>
 <div class="rank-track">
 <div class="rank-tier stagger-item" data-stagger="1">
+<span class="rank-tier-idx">TIER I</span>
+<div class="rank-tier-pedestal">
 <picture><source srcset="assets/bronze-kiro.webp" type="image/webp"/><img alt="Bronze Kiro" class="rank-tier-img" decoding="async" loading="lazy" src="assets/bronze-kiro.png"/></picture>
+<div class="rank-plinth" aria-hidden="true"></div>
+</div>
 <span class="rank-tier-name">Bronze</span>
+<span class="rank-tier-xp">0 XP</span>
 </div>
-<span class="rank-arrow">→</span>
 <div class="rank-tier stagger-item" data-stagger="2">
+<span class="rank-tier-idx">TIER II</span>
+<div class="rank-tier-pedestal">
 <picture><source srcset="assets/silver-kiro.webp" type="image/webp"/><img alt="Silver Kiro" class="rank-tier-img" decoding="async" loading="lazy" src="assets/silver-kiro.png"/></picture>
+<div class="rank-plinth" aria-hidden="true"></div>
+</div>
 <span class="rank-tier-name">Silver</span>
+<span class="rank-tier-xp">200 XP</span>
 </div>
-<span class="rank-arrow">→</span>
 <div class="rank-tier stagger-item" data-stagger="3">
+<span class="rank-tier-idx">TIER III</span>
+<div class="rank-tier-pedestal">
 <picture><source srcset="assets/gold-kiro.webp" type="image/webp"/><img alt="Gold Kiro" class="rank-tier-img" decoding="async" loading="lazy" src="assets/gold-kiro.png"/></picture>
+<div class="rank-plinth" aria-hidden="true"></div>
+</div>
 <span class="rank-tier-name">Gold</span>
+<span class="rank-tier-xp">550 XP</span>
 </div>
-<span class="rank-arrow">→</span>
 <div class="rank-tier stagger-item" data-stagger="4">
+<span class="rank-tier-idx">TIER IV</span>
+<div class="rank-tier-pedestal">
 <picture><source srcset="assets/platinum-kiro.webp" type="image/webp"/><img alt="Platinum Kiro" class="rank-tier-img" decoding="async" loading="lazy" src="assets/platinum-kiro.png"/></picture>
+<div class="rank-plinth" aria-hidden="true"></div>
+</div>
 <span class="rank-tier-name">Platinum</span>
+<span class="rank-tier-xp">1,100 XP</span>
 </div>
-<span class="rank-arrow">→</span>
 <div class="rank-tier stagger-item" data-stagger="5">
+<span class="rank-tier-idx">TIER V</span>
+<div class="rank-tier-pedestal">
 <picture><source srcset="assets/diamond-kiro.webp" type="image/webp"/><img alt="Diamond Kiro" class="rank-tier-img" decoding="async" loading="lazy" src="assets/diamond-kiro.png"/></picture>
-<span class="rank-tier-name">Diamond</span>
+<div class="rank-plinth" aria-hidden="true"></div>
 </div>
-<span class="rank-arrow">→</span>
+<span class="rank-tier-name">Diamond</span>
+<span class="rank-tier-xp">2,300 XP</span>
+</div>
 <div class="rank-tier rank-tier--locked stagger-item" data-stagger="6">
+<span class="rank-tier-idx">TIER VI</span>
+<div class="rank-tier-pedestal">
 <div class="rank-tier-locked" aria-label="Locked mascot">
-<span class="rank-tier-locked-icon">🔒</span>
+<span class="rank-tier-locked-icon"><svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="7" y="14" width="18" height="13" rx="2"/><path d="M11 14 v-4 a5 5 0 0 1 10 0 v4"/><circle cx="16" cy="20" r="1.5" fill="currentColor" stroke="none"/></svg></span>
+</div>
+<div class="rank-plinth" aria-hidden="true"></div>
 </div>
 <span class="rank-tier-name">Iridescent</span>
-<span class="rank-tier-hint">Reach the top to unlock</span>
+<span class="rank-tier-xp">5,000 XP</span>
+<span class="rank-tier-hint">Reach top to unlock</span>
 </div>
 </div>
 </div>
@@ -1375,32 +1887,36 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
 <h2 class="s-title" id="proof-heading">Already addictive.</h2>
 <p class="s-sub">Real feedback from beta testers.</p>
 <div class="proof-grid">
-<div class="proof-card stagger-item" data-stagger="1">
+<div class="proof-card proof-card--feature stagger-item" data-stagger="1">
+<span class="proof-quote-mark" aria-hidden="true">&ldquo;</span>
+<div class="proof-feature-meta">◆ TOP PICK · TIER 01</div>
+<div class="proof-stars" aria-label="5 out of 5 stars">★★★★★</div>
+<p class="proof-text">Prompt Lab alone is worth Pro. Went from vague prompts to nailing it on the first try.</p>
+<div class="proof-footer">
+<div class="proof-avatar">SR</div>
+<div class="proof-name-block"><span class="proof-name">Sarah R.</span><span class="proof-title">Marketing Lead · SaaS Startup</span></div>
+<span class="proof-role">Improved in week 1</span>
+</div>
+</div>
+<div class="proof-col">
+<div class="proof-card proof-card--sm-1 stagger-item" data-stagger="2">
 <div class="proof-header">
 <div class="proof-avatar">JM</div>
-<div class="proof-name-block"><span class="proof-name">James M.</span><span class="proof-title">Product Manager, Fortune 500</span></div>
+<div class="proof-name-block"><span class="proof-name">James M.</span><span class="proof-title">Product Manager · Fortune 500</span></div>
 </div>
-<div class="proof-stars">★★★★★</div>
+<div class="proof-stars" aria-label="5 out of 5 stars">★★★★★</div>
 <p class="proof-text">"I used what I learned in Kiro to automate half my weekly reports. My manager noticed within days."</p>
-<span class="proof-role">Applied AI at work in week 1</span>
+<span class="proof-role">Applied AI at work</span>
 </div>
-<div class="proof-card stagger-item" data-stagger="2">
-<div class="proof-header">
-<div class="proof-avatar">SR</div>
-<div class="proof-name-block"><span class="proof-name">Sarah R.</span><span class="proof-title">Marketing Lead, SaaS Startup</span></div>
-</div>
-<div class="proof-stars">★★★★★</div>
-<p class="proof-text">"Prompt Lab alone is worth Pro. Went from vague prompts to nailing it on the first try."</p>
-<span class="proof-role">Improved prompts in week 1</span>
-</div>
-<div class="proof-card stagger-item" data-stagger="3">
+<div class="proof-card proof-card--sm-2 stagger-item" data-stagger="3">
 <div class="proof-header">
 <div class="proof-avatar">DK</div>
-<div class="proof-name-block"><span class="proof-name">Daniel K.</span><span class="proof-title">Software Engineer, Series B</span></div>
+<div class="proof-name-block"><span class="proof-name">Daniel K.</span><span class="proof-title">Software Engineer · Series B</span></div>
 </div>
-<div class="proof-stars">★★★★★</div>
+<div class="proof-stars" aria-label="5 out of 5 stars">★★★★★</div>
 <p class="proof-text">"The duels are addicting. 30+ matches in and I still learn something new every time."</p>
 <span class="proof-role">30+ duels completed</span>
+</div>
 </div>
 </div>
 </div>
@@ -1413,27 +1929,27 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
 <div class="faq-list">
 
 <div class="faq-item">
-<button class="faq-q" aria-expanded="false" aria-controls="faq-a-1">Is Kiro free?<span class="faq-toggle" aria-hidden="true"></span></button>
-<div class="faq-a" id="faq-a-1">Yes. Free gets you 30+ lessons across all 10 paths, daily challenges, XP, ranks, and all 13 exercise types. Kiro Pro unlocks unlimited hearts, full lesson access, duels, and Prompt Lab. Annual plan comes with a 7-day free trial.</div>
+<button class="faq-q" aria-expanded="false" aria-controls="faq-a-1"><span class="faq-q-num">01</span><span class="faq-q-text">Is Kiro free?</span><span class="faq-toggle" aria-hidden="true"></span></button>
+<div class="faq-a" id="faq-a-1">Yes. Free gets you 30+ lessons across all 10 paths, daily challenges, XP, ranks, and all 13 exercise types. Kiro Pro unlocks unlimited hearts, full lesson access, duels, and Prompt Lab. The 3-Month plan comes with a 7-day free trial. Cancel anytime.</div>
 </div>
 
 <div class="faq-item">
-<button class="faq-q" aria-expanded="false" aria-controls="faq-a-2">Do I need AI experience?<span class="faq-toggle" aria-hidden="true"></span></button>
+<button class="faq-q" aria-expanded="false" aria-controls="faq-a-2"><span class="faq-q-num">02</span><span class="faq-q-text">Do I need AI experience?</span><span class="faq-toggle" aria-hidden="true"></span></button>
 <div class="faq-a" id="faq-a-2">Nope. It starts from zero and builds up. If you've never touched ChatGPT, you're fine. If you use AI daily, Kiro will still push you with advanced paths like AI Agents, Automation, and Prompt Engineering.</div>
 </div>
 
 <div class="faq-item">
-<button class="faq-q" aria-expanded="false" aria-controls="faq-a-3">How is this different from watching video tutorials?<span class="faq-toggle" aria-hidden="true"></span></button>
+<button class="faq-q" aria-expanded="false" aria-controls="faq-a-3"><span class="faq-q-num">03</span><span class="faq-q-text">How is this different from watching video tutorials?</span><span class="faq-toggle" aria-hidden="true"></span></button>
 <div class="faq-a" id="faq-a-3">Video tutorials are passive. You watch, you forget. Kiro makes you answer questions, rank options, spot AI hallucinations, refine real prompts, and duel other learners. You're doing the thinking, not just consuming.</div>
 </div>
 
 <div class="faq-item">
-<button class="faq-q" aria-expanded="false" aria-controls="faq-a-4">How long does each lesson take?<span class="faq-toggle" aria-hidden="true"></span></button>
+<button class="faq-q" aria-expanded="false" aria-controls="faq-a-4"><span class="faq-q-num">04</span><span class="faq-q-text">How long does each lesson take?</span><span class="faq-toggle" aria-hidden="true"></span></button>
 <div class="faq-a" id="faq-a-4">About 5 minutes.</div>
 </div>
 
 <div class="faq-item">
-<button class="faq-q" aria-expanded="false" aria-controls="faq-a-5">What AI topics does Kiro cover?<span class="faq-toggle" aria-hidden="true"></span></button>
+<button class="faq-q" aria-expanded="false" aria-controls="faq-a-5"><span class="faq-q-num">05</span><span class="faq-q-text">What AI topics does Kiro cover?</span><span class="faq-toggle" aria-hidden="true"></span></button>
 <div class="faq-a" id="faq-a-5">Ten learning paths: AI Foundations, Prompt Engineering, AI Tools, AI Automation, AI Agents, AI Business, AI for Marketing, AI for Finance, AI for Managers, and AI for Healthcare. Over 1,400 exercises across 13 different formats.</div>
 </div>
 
@@ -1448,7 +1964,7 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
 <p class="sub">Free to start. 5 minutes a day. No experience needed.</p>
 <a class="btn-primary" href="https://apps.apple.com/app/id6759628066?utm_source=website&utm_medium=cta&utm_campaign=final">Start Free — 7 Day Trial →</a>
 <p class="cta-micro">Cancel anytime</p>
-<p class="pricing">Free 7-day trial on annual · Then <strong>$5.00/month billed annually at $59.99</strong> or <strong>$9.99/month</strong></p>
+<p class="pricing">7-day free trial on 3-Month · Then <strong>$24.99 every 3 months ($1.92/week)</strong> or <strong>$9.99/week</strong> · Cancel anytime</p>
 <div class="email-capture">
 <p class="email-capture-label">Not on iOS? Get notified when Android launches.</p>
 <form class="email-form" action="https://formspree.io/f/mbdzpzzp" method="POST">
@@ -1471,8 +1987,9 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
 <div class="footer-links">
 <a href="privacy.html">Privacy</a>
 <a href="terms.html">Terms</a>
-<a href="https://tiktok.com/@kiro.app" target="_blank" rel="noopener noreferrer">TikTok</a>
 <a href="https://instagram.com/kiro_app" target="_blank" rel="noopener noreferrer">Instagram</a>
+<a href="https://tiktok.com/@kiro.app" target="_blank" rel="noopener noreferrer">TikTok</a>
+<a href="https://www.youtube.com/@tryKiro" target="_blank" rel="noopener noreferrer">YouTube</a>
 <a href="https://x.com/Kiro_App" target="_blank" rel="noopener noreferrer">X</a>
 </div>
 <p class="footer-copy">© 2026 Kiro. Master AI. Become Unreplaceable.</p>
