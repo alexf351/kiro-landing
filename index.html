@@ -1285,6 +1285,28 @@ footer .footer-copy{opacity:.3;font-size:11px;letter-spacing:.5px}
 .hiw-item{
   text-align:center;padding:0 16px;position:relative;z-index:1
 }
+.hiw-item-mascot{
+  display:block;width:96px;height:96px;
+  margin:0 auto 16px;
+  filter:drop-shadow(0 12px 24px rgba(0,0,0,.45));
+  animation:mascotFloat 4s ease-in-out infinite;
+  pointer-events:none
+}
+.hiw-item-mascot img{
+  width:100%;height:100%;object-fit:contain;display:block
+}
+.hiw-item:nth-child(2) .hiw-item-mascot{animation-delay:.6s}
+.hiw-item:nth-child(3) .hiw-item-mascot{animation-delay:1.2s}
+.section-mascot{
+  display:block;width:84px;height:84px;
+  margin:0 auto 12px;
+  filter:drop-shadow(0 12px 24px rgba(0,0,0,.4));
+  animation:mascotFloat 5s ease-in-out infinite;
+  pointer-events:none
+}
+.section-mascot img{
+  width:100%;height:100%;object-fit:contain;display:block
+}
 .hiw-item-shot{
   display:block;width:240px;max-width:80%;
   aspect-ratio:1320/2868;
@@ -1632,6 +1654,7 @@ Choose a guided path for <strong>ChatGPT, Claude, Gemini, Perplexity, AI Coding,
 <!-- ═══════ SECTION 2: TOOLS YOU'LL MASTER ═══════ -->
 <section class="tools-section reveal" aria-labelledby="tools-heading">
 <div class="section-inner">
+<picture class="section-mascot"><source srcset="assets/iridescent-kiro.webp" type="image/webp"/><img alt="" decoding="async" loading="lazy" src="assets/iridescent-kiro.png"/></picture>
 <p class="s-label">Pick Your Tool</p>
 <h2 class="s-title" id="tools-heading">The tools you&rsquo;ll master.</h2>
 <p class="s-sub">Eighteen guided paths. The ones people actually use, first.</p>
@@ -1683,6 +1706,7 @@ Choose a guided path for <strong>ChatGPT, Claude, Gemini, Perplexity, AI Coding,
 <p class="s-sub">Built around real tools, not generic theory. Reps, not videos. Five minutes a day.</p>
 <div class="hiw-grid">
 <div class="hiw-item stagger-item" data-stagger="1">
+<picture class="hiw-item-mascot"><source srcset="assets/bronze-kiro.webp" type="image/webp"/><img alt="" decoding="async" loading="lazy" src="assets/bronze-kiro.png"/></picture>
 <div class="hiw-item-shot">
 <picture><source srcset="assets/02-learning-paths-660w.webp 660w, assets/02-learning-paths-1320x2868.webp 1320w" sizes="(max-width:768px) 60vw, 220px" type="image/webp"/><img alt="Kiro app: choose your learning path" decoding="async" loading="lazy" src="assets/02-learning-paths-1320x2868.png"/></picture>
 <span class="hiw-step-num">01</span>
@@ -1691,6 +1715,7 @@ Choose a guided path for <strong>ChatGPT, Claude, Gemini, Perplexity, AI Coding,
 <div class="hiw-item-sub">ChatGPT. Claude. Gemini. Perplexity. Plus 14 paths covering job hunting, image gen, vibe coding, and the work verticals.</div>
 </div>
 <div class="hiw-item stagger-item" data-stagger="2">
+<picture class="hiw-item-mascot"><source srcset="assets/silver-kiro.webp" type="image/webp"/><img alt="" decoding="async" loading="lazy" src="assets/silver-kiro.png"/></picture>
 <div class="hiw-item-shot">
 <picture><source srcset="assets/01-prompt-lab-660w.webp 660w, assets/01-prompt-lab-1320x2868.webp 1320w" sizes="(max-width:768px) 60vw, 220px" type="image/webp"/><img alt="Kiro app: Prompt Lab practice with AI feedback" decoding="async" loading="lazy" src="assets/01-prompt-lab-1320x2868.png"/></picture>
 <span class="hiw-step-num">02</span>
@@ -1699,6 +1724,7 @@ Choose a guided path for <strong>ChatGPT, Claude, Gemini, Perplexity, AI Coding,
 <div class="hiw-item-sub">Real prompts, real decisions, real feedback. The reps that actually stick.</div>
 </div>
 <div class="hiw-item stagger-item" data-stagger="3">
+<picture class="hiw-item-mascot"><source srcset="assets/gold-kiro.webp" type="image/webp"/><img alt="" decoding="async" loading="lazy" src="assets/gold-kiro.png"/></picture>
 <div class="hiw-item-shot">
 <picture><source srcset="assets/04-duel-victory-660w.webp 660w, assets/04-duel-victory-1320x2868.webp 1320w" sizes="(max-width:768px) 60vw, 220px" type="image/webp"/><img alt="Kiro app: duel victory + XP rewards" decoding="async" loading="lazy" src="assets/04-duel-victory-1320x2868.png"/></picture>
 <span class="hiw-step-num">03</span>
