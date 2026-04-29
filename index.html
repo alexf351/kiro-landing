@@ -499,7 +499,7 @@ nav::after{
   animation:hudPulse 2s ease-in-out infinite
 }
 .founder-stats{
-  display:grid;grid-template-columns:repeat(5,1fr);gap:0;width:100%
+  display:grid;grid-template-columns:repeat(6,1fr);gap:0;width:100%
 }
 .founder-stat{
   text-align:center;padding:18px 12px;position:relative
@@ -1352,6 +1352,7 @@ footer .footer-copy{opacity:.3;font-size:11px;letter-spacing:.5px}
   .hiw-grid{grid-template-columns:1fr;gap:40px;max-width:400px}
   .hiw-grid::before{display:none}
   .exercise-pills{display:grid;grid-template-columns:repeat(2,1fr);gap:8px}
+  .exercise-pill{white-space:normal;text-align:center;line-height:1.3}
   .nav-cta{display:none}
   .nav-link{padding:10px 4px;min-height:44px;display:inline-flex;align-items:center}
   .mini-quiz{padding:28px 20px;border-radius:16px}
@@ -1548,7 +1549,7 @@ nav{animation:navSlideIn .5s cubic-bezier(.25,1,.5,1) both}
   .founder-stats{grid-template-columns:repeat(2,1fr)}
   .founder-stat:nth-child(2)::after{display:none}
   .founder-stat:nth-child(4)::after{display:none}
-  .founder-stat:last-child{grid-column:1 / -1}
+  .founder-stat:nth-child(6)::after{display:none}
   .why-card{padding:28px 24px}
   nav{padding:0 16px}
 }
@@ -1633,21 +1634,26 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
 </div>
 <div class="founder-stat">
 <div class="founder-stat-idx">02 /</div>
-<div class="founder-stat-val" data-count="1400" data-count-suffix="+">1,400+</div>
-<div class="founder-stat-label">Exercises</div>
-</div>
-<div class="founder-stat">
-<div class="founder-stat-idx">03 /</div>
-<div class="founder-stat-val" data-count="10">10</div>
+<div class="founder-stat-val" data-count="18">18</div>
 <div class="founder-stat-label">Learning paths</div>
 </div>
 <div class="founder-stat">
+<div class="founder-stat-idx">03 /</div>
+<div class="founder-stat-val" data-count="345">345</div>
+<div class="founder-stat-label">Lessons</div>
+</div>
+<div class="founder-stat">
 <div class="founder-stat-idx">04 /</div>
+<div class="founder-stat-val" data-count="2075" data-count-suffix="+">2,075+</div>
+<div class="founder-stat-label">Exercises</div>
+</div>
+<div class="founder-stat">
+<div class="founder-stat-idx">05 /</div>
 <div class="founder-stat-val" data-count="13">13</div>
 <div class="founder-stat-label">Exercise types</div>
 </div>
 <div class="founder-stat">
-<div class="founder-stat-idx">05 /</div>
+<div class="founder-stat-idx">06 /</div>
 <div class="founder-stat-val" data-count="1">1</div>
 <div class="founder-stat-label">Developer</div>
 </div>
@@ -1693,7 +1699,7 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
 <div class="hiw-item stagger-item" data-stagger="1">
 <div class="hiw-item-icon" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><circle cx="16" cy="16" r="12"/><circle cx="16" cy="16" r="7"/><circle cx="16" cy="16" r="2" fill="currentColor" stroke="none"/><line x1="16" y1="1" x2="16" y2="5"/><line x1="16" y1="27" x2="16" y2="31"/><line x1="1" y1="16" x2="5" y2="16"/><line x1="27" y1="16" x2="31" y2="16"/></svg><span class="hiw-step-num">01</span></div>
 <div class="hiw-item-title">Day 1: Pick a path</div>
-<div class="hiw-item-sub">Choose from 10 AI learning paths. Start with Prompt Engineering, AI Foundations, or whatever fits your goal.</div>
+<div class="hiw-item-sub">Choose from 18 AI learning paths. Start with Prompt Engineering, AI Foundations, or whatever fits your goal.</div>
 </div>
 <div class="hiw-item stagger-item" data-stagger="2">
 <div class="hiw-item-icon" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-linejoin="round" stroke-linecap="round"><path d="M18 2 L6 18 L15 18 L14 30 L26 14 L17 14 Z"/></svg><span class="hiw-step-num">02</span></div>
@@ -1781,11 +1787,19 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
 <span class="exercise-pill">🛠️ AI Tools</span>
 <span class="exercise-pill">⚡ AI Automation</span>
 <span class="exercise-pill">🕹️ AI Agents</span>
-<span class="exercise-pill">💰 AI Business</span>
+<span class="exercise-pill">💰 AI for Business</span>
 <span class="exercise-pill">📣 AI for Marketing</span>
 <span class="exercise-pill">📈 AI for Finance</span>
 <span class="exercise-pill">👔 AI for Managers</span>
 <span class="exercise-pill">🏥 AI for Healthcare</span>
+<span class="exercise-pill">🟢 ChatGPT Mastery</span>
+<span class="exercise-pill">🧡 Claude Mastery</span>
+<span class="exercise-pill">🔍 Perplexity / AI Search Mastery</span>
+<span class="exercise-pill">✨ Gemini Mastery</span>
+<span class="exercise-pill">🎨 AI Image Generation</span>
+<span class="exercise-pill">🎬 AI Video Generation</span>
+<span class="exercise-pill">💻 Vibe Coding with AI</span>
+<span class="exercise-pill">💼 AI for Job Hunting</span>
 </div>
 </div>
 <div class="exercise-types" style="margin-top:24px">
@@ -1930,7 +1944,7 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
 
 <div class="faq-item">
 <button class="faq-q" aria-expanded="false" aria-controls="faq-a-1"><span class="faq-q-num">01</span><span class="faq-q-text">Is Kiro free?</span><span class="faq-toggle" aria-hidden="true"></span></button>
-<div class="faq-a" id="faq-a-1">Yes. Free gets you 30+ lessons across all 10 paths, daily challenges, XP, ranks, and all 13 exercise types. Kiro Pro unlocks unlimited hearts, full lesson access, duels, and Prompt Lab. The 3-Month plan comes with a 7-day free trial. Cancel anytime.</div>
+<div class="faq-a" id="faq-a-1">Yes. Free gets you a starter slice across all 18 paths, daily challenges, XP, ranks, and all 13 exercise types. Kiro Pro unlocks unlimited hearts, full lesson access, duels, weekly news briefings, and Prompt Lab. The 3-Month plan comes with a 7-day free trial. Cancel anytime.</div>
 </div>
 
 <div class="faq-item">
@@ -1950,7 +1964,7 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
 
 <div class="faq-item">
 <button class="faq-q" aria-expanded="false" aria-controls="faq-a-5"><span class="faq-q-num">05</span><span class="faq-q-text">What AI topics does Kiro cover?</span><span class="faq-toggle" aria-hidden="true"></span></button>
-<div class="faq-a" id="faq-a-5">Ten learning paths: AI Foundations, Prompt Engineering, AI Tools, AI Automation, AI Agents, AI Business, AI for Marketing, AI for Finance, AI for Managers, and AI for Healthcare. Over 1,400 exercises across 13 different formats.</div>
+<div class="faq-a" id="faq-a-5">Eighteen learning paths grouped into four tracks: <strong>Core skills</strong> (AI Foundations, Prompt Engineering, AI Tools, AI Automation, AI Agents); <strong>Work verticals</strong> (AI for Business, Marketing, Finance, Managers, Healthcare, Job Hunting); <strong>Tool mastery</strong> (ChatGPT, Claude, Perplexity / AI Search, Gemini); and <strong>Creative &amp; coding</strong> (AI Image Generation, AI Video Generation, Vibe Coding with AI). 345 lessons and 2,075+ exercises across 13 different formats — plus weekly news briefings, live duels, and a daily challenge.</div>
 </div>
 
 </div>
