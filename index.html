@@ -590,7 +590,11 @@ nav::after{
   border:1px solid rgba(255,255,255,.05);
   background:var(--surface-60);
   backdrop-filter:blur(4px);-webkit-backdrop-filter:blur(4px);
-  transition:all .3s
+  transition:all .3s;
+  display:inline-flex;align-items:center;gap:6px
+}
+.pill-logo{
+  width:18px;height:18px;object-fit:contain;flex-shrink:0
 }
 .exercise-pill:hover{
   border-color:rgba(0,229,255,.15);color:var(--text);
@@ -1792,11 +1796,11 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
 <span class="exercise-pill">📈 AI for Finance</span>
 <span class="exercise-pill">👔 AI for Managers</span>
 <span class="exercise-pill">🏥 AI for Healthcare</span>
-<span class="exercise-pill">🟢 ChatGPT Mastery</span>
-<span class="exercise-pill">🧡 Claude Mastery</span>
-<span class="exercise-pill">🔍 Perplexity / AI Search Mastery</span>
-<span class="exercise-pill">✨ Gemini Mastery</span>
-<span class="exercise-pill">🎨 AI Image Generation</span>
+<span class="exercise-pill"><img class="pill-logo" src="assets/chatgpt.png" alt="" loading="lazy" decoding="async"/>ChatGPT Mastery</span>
+<span class="exercise-pill"><img class="pill-logo" src="assets/claude.png" alt="" loading="lazy" decoding="async"/>Claude Mastery</span>
+<span class="exercise-pill"><img class="pill-logo" src="assets/perplexity.png" alt="" loading="lazy" decoding="async"/>Perplexity / AI Search Mastery</span>
+<span class="exercise-pill"><img class="pill-logo" src="assets/gemini.png" alt="" loading="lazy" decoding="async"/>Gemini Mastery</span>
+<span class="exercise-pill"><img class="pill-logo" src="assets/midjourney.png" alt="" loading="lazy" decoding="async"/>AI Image Generation</span>
 <span class="exercise-pill">🎬 AI Video Generation</span>
 <span class="exercise-pill">💻 Vibe Coding with AI</span>
 <span class="exercise-pill">💼 AI for Job Hunting</span>
