@@ -1279,19 +1279,37 @@ footer .footer-copy{opacity:.3;font-size:11px;letter-spacing:.5px}
   pointer-events:none
 }
 .hiw-grid{
-  display:grid;grid-template-columns:repeat(3,1fr);gap:0;
-  max-width:960px;margin:56px auto 0;position:relative
+  display:grid;grid-template-columns:repeat(3,1fr);gap:24px;
+  max-width:1080px;margin:56px auto 0;position:relative
 }
-.hiw-grid::before{
-  content:'';position:absolute;top:44px;left:16%;right:16%;height:1px;
-  background:linear-gradient(90deg,rgba(0,229,255,.06),rgba(0,229,255,.2) 50%,rgba(255,215,0,.15));
-  z-index:0;
-  transform-origin:left center;transform:scaleX(0);
-  transition:transform 1s cubic-bezier(.25,1,.5,1) .1s
-}
-.hiw-section.reveal.visible .hiw-grid::before{transform:scaleX(1)}
 .hiw-item{
-  text-align:center;padding:0 24px;position:relative;z-index:1
+  text-align:center;padding:0 16px;position:relative;z-index:1
+}
+.hiw-item-shot{
+  display:block;width:240px;max-width:80%;
+  aspect-ratio:1320/2868;
+  border-radius:32px;overflow:hidden;
+  margin:0 auto 32px;
+  position:relative;
+  background:#0A0E1A;
+  border:1px solid rgba(255,255,255,.08);
+  box-shadow:0 24px 60px -12px rgba(0,0,0,.5),0 0 40px -8px rgba(0,229,255,.06);
+  transition:transform .4s,box-shadow .4s
+}
+.hiw-item-shot picture,.hiw-item-shot img{display:block;width:100%;height:100%;object-fit:cover}
+.hiw-item-shot .hiw-step-num{
+  position:absolute;top:12px;right:12px;
+  width:32px;height:32px;border-radius:50%;
+  background:rgba(10,14,26,.85);
+  display:flex;align-items:center;justify-content:center;
+  font-family:'JetBrains Mono',monospace;font-size:11px;font-weight:700;color:var(--cyan);
+  border:1px solid rgba(0,229,255,.3);
+  z-index:2;backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);
+  letter-spacing:.5px
+}
+.hiw-item:hover .hiw-item-shot{
+  transform:translateY(-4px);
+  box-shadow:0 32px 64px -12px rgba(0,0,0,.6),0 0 60px -8px rgba(0,229,255,.15)
 }
 .hiw-item-icon{
   width:88px;height:88px;border-radius:4px;margin:0 auto 28px;
@@ -1611,161 +1629,12 @@ Choose a guided path for <strong>ChatGPT, Claude, Gemini, Perplexity, AI Coding,
 </div>
 </div>
 </section>
-<!-- ═══════ FOUNDER PROOF STRIP / TELEMETRY ═══════ -->
-<div class="founder-strip reveal">
-<div class="founder-inner">
-<div class="founder-head">
-<h2 class="founder-claim">Shipped solo. <span class="founder-claim-em">In 14 days.</span></h2>
-<p class="founder-sub">The founder used the exact AI tools and workflows Kiro teaches &mdash; ChatGPT, Claude, vibe coding &mdash; to ship the entire app in under two weeks. <strong>Kiro is its own proof.</strong></p>
-</div>
-<div class="founder-stats-wrap">
-<div class="founder-stats">
-<div class="founder-stat">
-<div class="founder-stat-val" data-count="14">14</div>
-<div class="founder-stat-label">Days to ship</div>
-</div>
-<div class="founder-stat">
-<div class="founder-stat-val" data-count="18">18</div>
-<div class="founder-stat-label">Learning paths</div>
-</div>
-<div class="founder-stat">
-<div class="founder-stat-val" data-count="345">345</div>
-<div class="founder-stat-label">Lessons</div>
-</div>
-<div class="founder-stat">
-<div class="founder-stat-val" data-count="2075" data-count-suffix="+">2,075+</div>
-<div class="founder-stat-label">Exercises</div>
-</div>
-<div class="founder-stat">
-<div class="founder-stat-val" data-count="13">13</div>
-<div class="founder-stat-label">Exercise types</div>
-</div>
-<div class="founder-stat">
-<div class="founder-stat-val" data-count="1">1</div>
-<div class="founder-stat-label">Developer</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<!-- ═══════ WHY NOW ═══════ -->
-<section class="why-now reveal" aria-labelledby="why-now-heading">
+<!-- ═══════ SECTION 2: TOOLS YOU'LL MASTER ═══════ -->
+<section class="tools-section reveal" aria-labelledby="tools-heading">
 <div class="section-inner">
-<p class="s-label">The Gap</p>
-<h2 class="s-title" id="why-now-heading">Knowing about AI <br/>isn&rsquo;t the same as using it.</h2>
-<p class="why-now-body">Most people have heard of ChatGPT, Claude, and Gemini. Few actually use them well. Kiro turns those tools into a skill you train &mdash; not content you scroll. New paths drop as the tools evolve, so your fluency never goes stale.</p>
-<a class="quiz-callout" href="quiz.html">How fluent are you? Take the AI IQ Test &rarr;</a>
-</div>
-</section>
-<!-- ═══════ MINI QUIZ ═══════ -->
-<section class="mini-quiz-section reveal" aria-labelledby="mini-quiz-heading">
-<div class="section-inner">
-<p class="s-label">Quick Test</p>
-<h2 class="s-title" id="mini-quiz-heading">Can you get this one right?</h2>
-<div class="mini-quiz" id="miniQuiz">
-<p class="mini-quiz-q">An AI model gives you a confident answer with a source citation. What should you assume?</p>
-<div class="mini-quiz-opts">
-<button class="mini-quiz-opt" data-idx="0"><span class="mini-quiz-opt-letter">A</span>It's accurate because it cited a real source</button>
-<button class="mini-quiz-opt" data-idx="1"><span class="mini-quiz-opt-letter">B</span>The citation may be completely fabricated and needs verification</button>
-<button class="mini-quiz-opt" data-idx="2"><span class="mini-quiz-opt-letter">C</span>The source is real but the claim might be slightly off</button>
-<button class="mini-quiz-opt" data-idx="3"><span class="mini-quiz-opt-letter">D</span>AI models always cite sources correctly by design</button>
-</div>
-<div class="mini-quiz-result" id="miniQuizResult" style="display:none">
-<p id="miniQuizMsg"></p>
-<a class="btn-primary" href="quiz.html">Take the Full AI IQ Test &rarr;</a>
-</div>
-</div>
-</div>
-</section>
-<!-- ═══════ HOW IT WORKS ═══════ -->
-<section class="hiw-section reveal" aria-labelledby="hiw-heading">
-<div class="section-inner">
-<p class="s-label">How It Works</p>
-<h2 class="s-title" id="hiw-heading">Three steps. Real fluency.</h2>
-<div class="hiw-grid">
-<div class="hiw-item stagger-item" data-stagger="1">
-<div class="hiw-item-icon" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><circle cx="16" cy="16" r="12"/><circle cx="16" cy="16" r="7"/><circle cx="16" cy="16" r="2" fill="currentColor" stroke="none"/><line x1="16" y1="1" x2="16" y2="5"/><line x1="16" y1="27" x2="16" y2="31"/><line x1="1" y1="16" x2="5" y2="16"/><line x1="27" y1="16" x2="31" y2="16"/></svg><span class="hiw-step-num">01</span></div>
-<div class="hiw-item-title">Choose your tool.</div>
-<div class="hiw-item-sub">Pick a guided path: ChatGPT, Claude, Gemini, Perplexity, AI Coding, Job Hunting, or 12 more. One tool, one track, no overwhelm.</div>
-</div>
-<div class="hiw-item stagger-item" data-stagger="2">
-<div class="hiw-item-icon" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-linejoin="round" stroke-linecap="round"><path d="M18 2 L6 18 L15 18 L14 30 L26 14 L17 14 Z"/></svg><span class="hiw-step-num">02</span></div>
-<div class="hiw-item-title">Practice, don&rsquo;t watch.</div>
-<div class="hiw-item-sub">5-minute daily lessons with real prompts, real decisions, and real feedback. Reps that actually stick &mdash; not videos that don&rsquo;t.</div>
-</div>
-<div class="hiw-item stagger-item" data-stagger="3">
-<div class="hiw-item-icon" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M9 4 h14 v6 a7 7 0 0 1 -14 0 Z"/><path d="M9 7 h-4 a3 3 0 0 0 4 5"/><path d="M23 7 h4 a3 3 0 0 1 -4 5"/><line x1="16" y1="17" x2="16" y2="23"/><line x1="11" y1="23" x2="21" y2="23"/><line x1="10" y1="28" x2="22" y2="28"/></svg><span class="hiw-step-num">03</span></div>
-<div class="hiw-item-title">See your skill compound.</div>
-<div class="hiw-item-sub">Earn XP, build streaks, climb six ranks, and duel other learners. Progress is visible &mdash; and so is the moment you bring it to work.</div>
-</div>
-</div>
-</div>
-</section>
-<!-- ═══════ WHY KIRO ═══════ -->
-<section class="why-kiro-section reveal" aria-labelledby="why-kiro-heading">
-<div class="section-inner">
-<p class="s-label">Why Kiro Works</p>
-<h2 class="s-title" id="why-kiro-heading">Not a course. Not a chatbot. <br/>A training system.</h2>
-<p class="s-sub">Guided reps on the actual tools and workflows you&rsquo;ll use &mdash; daily, competitive, and impossible to quit.</p>
-<div class="why-grid">
-<div class="why-card stagger-item" data-stagger="1">
-<span class="icon" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="12" width="3" height="8" rx="1"/><rect x="5" y="9" width="3" height="14" rx="1"/><line x1="8" y1="16" x2="24" y2="16" stroke-width="2.5"/><rect x="24" y="9" width="3" height="14" rx="1"/><rect x="27" y="12" width="3" height="8" rx="1"/></svg></span>
-<h3>Guided reps, not passive video.</h3>
-<p>Tutorials don&rsquo;t make you fluent. Kiro drills real prompts, real workflows, real tool decisions &mdash; with feedback every step.</p>
-</div>
-<div class="why-card stagger-item" data-stagger="2">
-<span class="icon" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M16 3 C 19 10 26 12 23 22 C 21 28 12 28 10 22 C 8 18 11 16 13 18 C 11 12 15 10 16 3 Z"/><path d="M14 22 C 12 22 12 20 13 19 C 14 20 15 20 15 19 C 15 17 17 16 17 15 C 19 17 20 19 19 21 C 19 23 16 23 14 22 Z" fill="currentColor" fill-opacity=".2" stroke="none"/></svg></span>
-<h3>Built around the tools.</h3>
-<p>Every path is shaped to the actual tool &mdash; ChatGPT&rsquo;s voice, Claude&rsquo;s reasoning, Gemini&rsquo;s multimodal, Perplexity&rsquo;s search. No generic theory.</p>
-</div>
-<div class="why-card stagger-item" data-stagger="3">
-<span class="icon" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="21" width="4" height="7"/><rect x="14" y="15" width="4" height="13"/><rect x="24" y="9" width="4" height="19"/><path d="M3 19 L10 12 L17 8 L29 3" stroke-dasharray="2 2"/></svg></span>
-<h3>Daily streaks compound.</h3>
-<p>XP, ranks, and streaks turn 5 minutes a day into real fluency. 7-day streakers are 3.6&times; more likely to finish a path.</p>
-</div>
-</div>
-</div>
-</section>
-<!-- ═══════ GAMEPLAY SHOWCASE ═══════ -->
-<section class="gameplay reveal" id="gameplay" aria-labelledby="gameplay-heading">
-<div class="section-inner">
-<p class="s-label">Inside the App</p>
-<h2 class="s-title" id="gameplay-heading">Learn. Train. <br/>Progress.</h2>
-<p class="s-sub">Learn in guided lessons. Train in Prompt Lab and live duels. Progress through XP, streaks, and six visible ranks. All in 5 minutes a day.</p>
-<div class="gameplay-grid">
-<div class="gameplay-card stagger-item" data-stagger="1">
-<picture><source srcset="assets/01-prompt-lab-660w.webp 660w, assets/01-prompt-lab-1320x2868.webp 1320w" sizes="(max-width:768px) 50vw, 25vw" type="image/webp"/><img alt="Kiro app: Prompt Lab practice screen with AI feedback scoring your prompt" decoding="async" loading="lazy" src="assets/01-prompt-lab-1320x2868.png"/></picture>
-<div class="gameplay-card-label">Prompt Lab</div>
-</div>
-<div class="gameplay-card stagger-item" data-stagger="2">
-<picture><source srcset="assets/02-learning-paths-660w.webp 660w, assets/02-learning-paths-1320x2868.webp 1320w" sizes="(max-width:768px) 50vw, 25vw" type="image/webp"/><img alt="Kiro app: Learning Paths screen showing AI topic paths to choose from" decoding="async" loading="lazy" src="assets/02-learning-paths-1320x2868.png"/></picture>
-<div class="gameplay-card-label">Learning Paths</div>
-</div>
-<div class="gameplay-card stagger-item" data-stagger="3">
-<picture><source srcset="assets/03-delegate-or-diy-660w.webp 660w, assets/03-delegate-or-diy-1320x2868.webp 1320w" sizes="(max-width:768px) 50vw, 25vw" type="image/webp"/><img alt="Kiro app: Delegate or DIY exercise asking whether to use AI or handle a task yourself" decoding="async" loading="lazy" src="assets/03-delegate-or-diy-1320x2868.png"/></picture>
-<div class="gameplay-card-label">Delegate or DIY</div>
-</div>
-<div class="gameplay-card stagger-item" data-stagger="4">
-<picture><source srcset="assets/04-duel-victory-660w.webp 660w, assets/04-duel-victory-1320x2868.webp 1320w" sizes="(max-width:768px) 50vw, 25vw" type="image/webp"/><img alt="Kiro app: AI Duel victory screen with a live 1v1 scorecard and XP reward" decoding="async" loading="lazy" src="assets/04-duel-victory-1320x2868.png"/></picture>
-<div class="gameplay-card-label">AI Duels<span class="gameplay-card-meta">LIVE · 1v1</span></div>
-</div>
-<div class="gameplay-card stagger-item" data-stagger="5">
-<picture><source srcset="assets/05-node-map-660w.webp 660w, assets/05-node-map-1320x2868.webp 1320w" sizes="(max-width:768px) 50vw, 25vw" type="image/webp"/><img alt="Kiro app: Node Map screen showing a visual path of connected lesson nodes to complete" decoding="async" loading="lazy" src="assets/05-node-map-1320x2868.png"/></picture>
-<div class="gameplay-card-label">Node Map</div>
-</div>
-<div class="gameplay-card stagger-item" data-stagger="6">
-<picture><source srcset="assets/06-news-660w.webp 660w, assets/06-news-1320x2868.webp 1320w" sizes="(max-width:768px) 50vw, 25vw" type="image/webp"/><img alt="Kiro app: Weekly AI News feed with curated updates on the latest AI developments" decoding="async" loading="lazy" src="assets/06-news-1320x2868.png"/></picture>
-<div class="gameplay-card-label">Weekly AI News</div>
-</div>
-<div class="gameplay-card stagger-item" data-stagger="7">
-<picture><source srcset="assets/07-perfect-xp-660w.webp 660w, assets/07-perfect-xp-1320x2868.webp 1320w" sizes="(max-width:768px) 50vw, 25vw" type="image/webp"/><img alt="Kiro app: Perfect XP results screen showing a flawless lesson and streak progress" decoding="async" loading="lazy" src="assets/07-perfect-xp-1320x2868.png"/></picture>
-<div class="gameplay-card-label">Perfect XP</div>
-</div>
-<div class="gameplay-card stagger-item" data-stagger="8">
-<picture><source srcset="assets/08-ranks-660w.webp 660w, assets/08-ranks-1320x2868.webp 1320w" sizes="(max-width:768px) 50vw, 25vw" type="image/webp"/><img alt="Kiro app: Evolution Unlocked screen showing Kiro ranking up to Diamond" decoding="async" loading="lazy" src="assets/08-ranks-1320x2868.png"/></picture>
-<div class="gameplay-card-label">Rank Up</div>
-</div>
-</div>
+<p class="s-label">Pick Your Tool</p>
+<h2 class="s-title" id="tools-heading">The tools you&rsquo;ll master.</h2>
+<p class="s-sub">Eighteen guided paths. The ones people actually use, first.</p>
 <div class="exercise-types">
 <div class="exercise-types-label">Tool Mastery</div>
 <div class="exercise-pills">
@@ -1804,22 +1673,38 @@ Choose a guided path for <strong>ChatGPT, Claude, Gemini, Perplexity, AI Coding,
 <span class="exercise-pill">🛠️ AI Tools</span>
 </div>
 </div>
-<div class="exercise-types" style="margin-top:24px">
-<div class="exercise-types-label">Exercise Types</div>
-<div class="exercise-pills">
-<span class="exercise-pill">✅ Multiple Choice</span>
-<span class="exercise-pill">✔️ True / False</span>
-<span class="exercise-pill">⚖️ Compare</span>
-<span class="exercise-pill">📝 Fill in the Blank</span>
-<span class="exercise-pill">🔗 Match Pairs</span>
-<span class="exercise-pill">🏗️ Build Sequence</span>
-<span class="exercise-pill">🔍 Spot the Error</span>
-<span class="exercise-pill">💬 Chat Sim</span>
-<span class="exercise-pill">💡 Sandbox</span>
-<span class="exercise-pill">🖼️ Image MC</span>
-<span class="exercise-pill">🚨 Spot the Hallucination</span>
-<span class="exercise-pill">🤔 Delegate or DIY</span>
-<span class="exercise-pill">🔄 Prompt Refine Loop</span>
+</div>
+</section>
+<!-- ═══════ SECTION 3: HOW KIRO WORKS ═══════ -->
+<section class="hiw-section reveal" aria-labelledby="hiw-heading">
+<div class="section-inner">
+<p class="s-label">How Kiro Works</p>
+<h2 class="s-title" id="hiw-heading">Pick. Practice. Progress.</h2>
+<p class="s-sub">Built around real tools, not generic theory. Reps, not videos. Five minutes a day.</p>
+<div class="hiw-grid">
+<div class="hiw-item stagger-item" data-stagger="1">
+<div class="hiw-item-shot">
+<picture><source srcset="assets/02-learning-paths-660w.webp 660w, assets/02-learning-paths-1320x2868.webp 1320w" sizes="(max-width:768px) 60vw, 220px" type="image/webp"/><img alt="Kiro app: choose your learning path" decoding="async" loading="lazy" src="assets/02-learning-paths-1320x2868.png"/></picture>
+<span class="hiw-step-num">01</span>
+</div>
+<div class="hiw-item-title">Pick your tool.</div>
+<div class="hiw-item-sub">ChatGPT. Claude. Gemini. Perplexity. Plus 14 paths covering job hunting, image gen, vibe coding, and the work verticals.</div>
+</div>
+<div class="hiw-item stagger-item" data-stagger="2">
+<div class="hiw-item-shot">
+<picture><source srcset="assets/01-prompt-lab-660w.webp 660w, assets/01-prompt-lab-1320x2868.webp 1320w" sizes="(max-width:768px) 60vw, 220px" type="image/webp"/><img alt="Kiro app: Prompt Lab practice with AI feedback" decoding="async" loading="lazy" src="assets/01-prompt-lab-1320x2868.png"/></picture>
+<span class="hiw-step-num">02</span>
+</div>
+<div class="hiw-item-title">Practice, don&rsquo;t watch.</div>
+<div class="hiw-item-sub">Real prompts, real decisions, real feedback. The reps that actually stick.</div>
+</div>
+<div class="hiw-item stagger-item" data-stagger="3">
+<div class="hiw-item-shot">
+<picture><source srcset="assets/04-duel-victory-660w.webp 660w, assets/04-duel-victory-1320x2868.webp 1320w" sizes="(max-width:768px) 60vw, 220px" type="image/webp"/><img alt="Kiro app: duel victory + XP rewards" decoding="async" loading="lazy" src="assets/04-duel-victory-1320x2868.png"/></picture>
+<span class="hiw-step-num">03</span>
+</div>
+<div class="hiw-item-title">Watch it compound.</div>
+<div class="hiw-item-sub">XP, streaks, six ranks, live duels. Seven-day streakers are 3.6&times; more likely to finish a path.</div>
 </div>
 </div>
 </div>
@@ -1894,43 +1779,80 @@ Choose a guided path for <strong>ChatGPT, Claude, Gemini, Perplexity, AI Coding,
 <!-- ═══════ SOCIAL PROOF ═══════ -->
 <section class="proof-section reveal" aria-labelledby="proof-heading">
 <div class="section-inner">
-<p class="s-label">Early Testers</p>
-<h2 class="s-title" id="proof-heading">Already addictive.</h2>
-<p class="s-sub">Real feedback from beta testers.</p>
+<p class="s-label">Real Talk</p>
+<h2 class="s-title" id="proof-heading">Real reviews. Real users.</h2>
+<p class="s-sub">From the App Store, unedited.</p>
 <div class="proof-grid">
 <div class="proof-card proof-card--feature stagger-item" data-stagger="1">
 <span class="proof-quote-mark" aria-hidden="true">&ldquo;</span>
 <div class="proof-stars" aria-label="5 out of 5 stars">★★★★★</div>
-<p class="proof-text">Prompt Lab alone is worth Pro. Went from vague prompts to nailing it on the first try.</p>
+<p class="proof-text">Tried this out because AI is becoming implemented in every aspect of my work. I thought I already understood how to utilize AI tools, but this made me realize I was leaving a lot on the table. Kiro taught me how to use AI more effectively for both work and personal use.</p>
 <div class="proof-footer">
-<div class="proof-avatar">SR</div>
-<div class="proof-name-block"><span class="proof-name">Sarah R.</span><span class="proof-title">Marketing Lead · SaaS Startup</span></div>
-<span class="proof-role">Improved in week 1</span>
+<div class="proof-avatar">A</div>
+<div class="proof-name-block"><span class="proof-name">abrjav</span><span class="proof-title">App Store · United States</span></div>
+<span class="proof-role">Surprisingly Helpful</span>
 </div>
 </div>
 <div class="proof-col">
 <div class="proof-card proof-card--sm-1 stagger-item" data-stagger="2">
 <div class="proof-header">
-<div class="proof-avatar">JM</div>
-<div class="proof-name-block"><span class="proof-name">James M.</span><span class="proof-title">Product Manager · Fortune 500</span></div>
+<div class="proof-avatar">M</div>
+<div class="proof-name-block"><span class="proof-name">michael19583173</span><span class="proof-title">App Store · United States</span></div>
 </div>
 <div class="proof-stars" aria-label="5 out of 5 stars">★★★★★</div>
-<p class="proof-text">"I used what I learned in Kiro to automate half my weekly reports. My manager noticed within days."</p>
-<span class="proof-role">Applied AI at work</span>
+<p class="proof-text">&ldquo;Easy to use and includes a lot of new information even I, a frequent AI user, found helpful.&rdquo;</p>
+<span class="proof-role">Helpful App</span>
 </div>
 <div class="proof-card proof-card--sm-2 stagger-item" data-stagger="3">
 <div class="proof-header">
-<div class="proof-avatar">DK</div>
-<div class="proof-name-block"><span class="proof-name">Daniel K.</span><span class="proof-title">Software Engineer · Series B</span></div>
+<div class="proof-avatar">J</div>
+<div class="proof-name-block"><span class="proof-name">Jmf275</span><span class="proof-title">App Store · United States</span></div>
 </div>
 <div class="proof-stars" aria-label="5 out of 5 stars">★★★★★</div>
-<p class="proof-text">"The duels are addicting. 30+ matches in and I still learn something new every time."</p>
-<span class="proof-role">30+ duels completed</span>
+<p class="proof-text">&ldquo;Great app! Very helpful with engaging learning exercises geared to specific goals.&rdquo;</p>
+<span class="proof-role">Great app!</span>
 </div>
 </div>
 </div>
 </div>
 </section>
+<!-- ═══════ FOUNDER PROOF STRIP / TELEMETRY ═══════ -->
+<div class="founder-strip reveal">
+<div class="founder-inner">
+<div class="founder-head">
+<h2 class="founder-claim">Shipped solo. <span class="founder-claim-em">In 14 days.</span></h2>
+<p class="founder-sub">The founder used the exact AI tools and workflows Kiro teaches &mdash; ChatGPT, Claude, vibe coding &mdash; to ship the entire app in under two weeks. <strong>Kiro is its own proof.</strong></p>
+</div>
+<div class="founder-stats-wrap">
+<div class="founder-stats">
+<div class="founder-stat">
+<div class="founder-stat-val" data-count="14">14</div>
+<div class="founder-stat-label">Days to ship</div>
+</div>
+<div class="founder-stat">
+<div class="founder-stat-val" data-count="18">18</div>
+<div class="founder-stat-label">Learning paths</div>
+</div>
+<div class="founder-stat">
+<div class="founder-stat-val" data-count="345">345</div>
+<div class="founder-stat-label">Lessons</div>
+</div>
+<div class="founder-stat">
+<div class="founder-stat-val" data-count="2075" data-count-suffix="+">2,075+</div>
+<div class="founder-stat-label">Exercises</div>
+</div>
+<div class="founder-stat">
+<div class="founder-stat-val" data-count="13">13</div>
+<div class="founder-stat-label">Exercise types</div>
+</div>
+<div class="founder-stat">
+<div class="founder-stat-val" data-count="1">1</div>
+<div class="founder-stat-label">Developer</div>
+</div>
+</div>
+</div>
+</div>
+</div>
 <!-- ═══════ FAQ ═══════ -->
 <section class="faq-section reveal" aria-labelledby="faq-heading">
 <div class="section-inner">
@@ -1970,8 +1892,8 @@ Choose a guided path for <strong>ChatGPT, Claude, Gemini, Perplexity, AI Coding,
 <section class="final-cta reveal" aria-labelledby="final-cta-heading">
 <div class="section-inner">
 <picture><source srcset="assets/gold-kiro.webp" type="image/webp"/><img alt="Kiro" class="mascot-accent" decoding="async" loading="lazy" src="assets/gold-kiro.png"/></picture>
-<h2 id="final-cta-heading">Pick your tool.<br/><span class="grad">Get fluent.</span></h2>
-<p class="sub">18 guided paths. 5 minutes a day. Free to start &mdash; no experience needed.</p>
+<h2 id="final-cta-heading">Stop scrolling.<br/><span class="grad">Start training.</span></h2>
+<p class="sub">5 minutes a day. Pick a tool. Get fluent.</p>
 <a class="btn-primary" href="https://apps.apple.com/app/id6759628066?utm_source=website&utm_medium=cta&utm_campaign=final">Start Free — 7 Day Trial →</a>
 <p class="cta-micro">Cancel anytime</p>
 <p class="pricing">7-day free trial on 3-Month · Then <strong>$24.99 every 3 months ($1.92/week)</strong> or <strong>$9.99/week</strong> · Cancel anytime</p>
