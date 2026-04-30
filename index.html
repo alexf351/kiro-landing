@@ -9,13 +9,17 @@
 <meta content="#0A0E1A" name="theme-color"/>
 <meta property="og:title" content="Kiro — Master the AI tools that matter."/>
 <meta property="og:description" content="Choose a guided path for ChatGPT, Claude, Gemini, Perplexity, AI Coding, Image &amp; Video Generation, Job Hunting, and more. Build real AI skill in 5 minutes a day."/>
-<meta property="og:image" content="https://www.trykiro.app/assets/kiro-app-icon-512.png"/>
+<meta property="og:image" content="https://www.trykiro.app/assets/og-card.png"/>
+<meta property="og:image:width" content="1200"/>
+<meta property="og:image:height" content="630"/>
+<meta property="og:image:alt" content="Master the AI tools that matter — ChatGPT, Claude, Gemini, Perplexity, AI Coding."/>
 <meta property="og:url" content="https://www.trykiro.app"/>
 <meta property="og:type" content="website"/>
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:title" content="Kiro — Master the AI tools that matter."/>
 <meta name="twitter:description" content="Choose a guided path for ChatGPT, Claude, Gemini, Perplexity, AI Coding, Image &amp; Video Generation, Job Hunting, and more. Build real AI skill in 5 minutes a day."/>
-<meta name="twitter:image" content="https://www.trykiro.app/assets/kiro-app-icon-512.png"/>
+<meta name="twitter:image" content="https://www.trykiro.app/assets/og-card.png"/>
+<meta name="twitter:image:alt" content="Master the AI tools that matter — ChatGPT, Claude, Gemini, Perplexity, AI Coding."/>
 <link href="assets/favicon-64.png" rel="icon" type="image/png"/>
 <link href="assets/apple-touch-icon.png" rel="apple-touch-icon"/>
 <link href="assets/diamond-kiro.webp" rel="preload" as="image" type="image/webp"/>
@@ -1604,6 +1608,16 @@ nav{animation:navSlideIn .5s cubic-bezier(.25,1,.5,1) both}
   nav{padding:0 16px}
 }
 
+@media(prefers-reduced-motion:reduce){
+  *,*::before,*::after{
+    animation-duration:.01ms !important;
+    animation-iteration-count:1 !important;
+    transition-duration:.01ms !important;
+    scroll-behavior:auto !important
+  }
+  .stars-canvas,.ambient-gradient{display:none}
+}
+
 /* ════════ Section accent rhythm — bold per-section colors ════════ */
 /* Section 2: Tools You'll Master — iridescent purple */
 .tools-section{
@@ -2081,6 +2095,11 @@ document.querySelectorAll('.email-form').forEach(form=>{
 (function(){
   const c=document.getElementById('starsCanvas');
   if(!c)return;
+  // Skip the starfield on mobile (CPU drain on low-end devices) and when
+  // the user prefers reduced motion.
+  const reduced=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  const isMobile=window.matchMedia('(max-width: 768px)').matches||(navigator.maxTouchPoints>0&&window.innerWidth<900);
+  if(reduced||isMobile){c.style.display='none';return}
   const ctx=c.getContext('2d');
   let w,h,raf;
   function resize(){w=c.width=window.innerWidth;h=c.height=window.innerHeight}
