@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-Kiro is a static marketing website and interactive quiz for an AI learning app ("The Duolingo for AI"). It consists of static HTML files with inline CSS and vanilla JavaScript, ready to deploy to any static host.
+Iro is a static marketing website and interactive quiz for an AI learning app ("The Duolingo for AI"). It consists of static HTML files with inline CSS and vanilla JavaScript, ready to deploy to any static host.
 
 ## Development
 
@@ -42,7 +42,7 @@ All images are served locally from the `assets/` folder via relative paths (e.g.
 - App icon in multiple sizes (256, 512, favicon, apple-touch-icon)
 - 6 app screenshots used in the gameplay showcase (named `01-node-map-...`, `02-hero-...`, etc.)
 
-OG/Twitter meta images use the absolute URL `https://www.trykiro.app/assets/...` for social preview cards.
+OG/Twitter meta images use the absolute URL `https://www.tryiro.com/assets/...` for social preview cards.
 
 ## Design Context
 

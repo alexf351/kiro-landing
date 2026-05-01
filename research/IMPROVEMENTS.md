@@ -1,4 +1,4 @@
-# Kiro Website Improvements — Combined Master List
+# Iro Website Improvements — Combined Master List
 
 ## Tier 1 — Critical (Do First)
 
@@ -89,7 +89,7 @@
 
 ### 15. Reframe "Built solo in 2 weeks"
 - Currently reads as "side project"
-- Reposition: "The founder used the AI skills Kiro teaches to build the entire app solo — Kiro is its own proof"
+- Reposition: "The founder used the AI skills Iro teaches to build the entire app solo — Iro is its own proof"
 
 ### 16. Add mini personalization to landing page
 - "Why do you want to learn AI?" with 3-4 clickable options
