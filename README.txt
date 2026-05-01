@@ -1,4 +1,4 @@
-Kiro deployment package
+Iro deployment package
 
 Files:
 - index.html
