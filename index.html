@@ -985,140 +985,6 @@ section{padding:140px 24px;position:relative}
 .rank-tier--locked:hover .rank-tier-hint{opacity:.85}
 .rank-arrow{display:none}
 
-/* ══════════════════ DUEL — core competitive feature ══════════════════ */
-.duel-section{
-  position:relative;overflow:hidden;
-  padding-top:160px;padding-bottom:160px;
-  background:
-    radial-gradient(ellipse 1100px 700px at 50% 50%,rgba(0,229,255,.06) 0%,transparent 60%),
-    linear-gradient(180deg,var(--bg) 0%,#06080F 50%,var(--bg) 100%)
-}
-.duel-section::before{
-  content:'';position:absolute;top:0;left:0;right:0;height:1px;
-  background:linear-gradient(90deg,transparent 5%,rgba(0,229,255,.22) 50%,transparent 95%)
-}
-.duel-section::after{
-  content:'';position:absolute;bottom:0;left:0;right:0;height:1px;
-  background:linear-gradient(90deg,transparent 5%,rgba(0,229,255,.22) 50%,transparent 95%)
-}
-.duel-section .s-label{color:var(--cyan);opacity:1}
-@media(max-width:768px){.duel-section{padding-top:88px;padding-bottom:88px}}
-/* Stage */
-.duel-stage{
-  display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:24px;
-  max-width:980px;margin:0 auto;padding:8px 8px 28px;
-  transform:scale(1.06);
-  transform-origin:center
-}
-.duel-side{
-  display:flex;flex-direction:column;align-items:center;gap:14px;
-  padding:36px 28px 32px;border-radius:18px;
-  background:rgba(20,27,45,.55);
-  border:1px solid rgba(255,255,255,.06);
-  position:relative;min-height:280px
-}
-.duel-side--you{
-  border-color:rgba(0,229,255,.22);
-  background:linear-gradient(180deg,rgba(0,229,255,.06) 0%,rgba(20,27,45,.6) 100%);
-  box-shadow:0 16px 48px rgba(0,0,0,.4),0 0 36px rgba(0,229,255,.1)
-}
-.duel-side--ai{
-  border-color:rgba(255,215,0,.18);
-  background:linear-gradient(180deg,rgba(255,215,0,.04) 0%,rgba(20,27,45,.6) 100%);
-  box-shadow:0 16px 48px rgba(0,0,0,.4),0 0 36px rgba(255,215,0,.06)
-}
-.duel-side-label{
-  font-family:'JetBrains Mono',monospace;
-  font-size:11px;font-weight:600;letter-spacing:3px;text-transform:uppercase;
-  color:var(--text3);opacity:.85
-}
-.duel-side--you .duel-side-label{color:var(--cyan);opacity:1}
-.duel-side--ai .duel-side-label{color:var(--gold);opacity:1}
-.duel-mascot{display:block;width:140px;height:140px}
-.duel-mascot img{width:100%;height:100%;object-fit:contain;filter:drop-shadow(0 12px 32px rgba(0,229,255,.3))}
-.duel-ai-stack{
-  display:grid;grid-template-columns:repeat(2,52px);gap:12px;
-  width:140px;height:140px;align-content:center;justify-content:center
-}
-.duel-ai-stack img{
-  width:52px;height:52px;object-fit:contain;border-radius:12px;
-  background:rgba(255,255,255,.04);
-  border:1px solid rgba(255,255,255,.06);
-  padding:8px;
-  filter:drop-shadow(0 4px 12px rgba(0,0,0,.4))
-}
-.duel-stats{display:flex;gap:14px;flex-wrap:wrap;justify-content:center;margin-top:4px}
-.duel-stat{
-  display:flex;flex-direction:column;align-items:center;gap:2px;
-  padding:8px 14px;border-radius:10px;
-  background:rgba(10,14,26,.55);
-  border:1px solid rgba(255,255,255,.05);
-  min-width:120px
-}
-.duel-stat-num{
-  font-family:'JetBrains Mono',monospace;font-weight:700;
-  font-size:18px;color:var(--text);letter-spacing:-.3px
-}
-.duel-side--you .duel-stat-num{color:var(--cyan)}
-.duel-side--ai .duel-stat-num{color:var(--gold)}
-.duel-stat-label{
-  font-size:10px;font-weight:600;letter-spacing:1.2px;text-transform:uppercase;
-  color:var(--text3)
-}
-/* VS */
-.duel-vs{
-  position:relative;width:120px;height:120px;
-  display:flex;align-items:center;justify-content:center;flex-shrink:0
-}
-.duel-vs-ring{
-  position:absolute;inset:0;border-radius:50%;
-  border:1px solid rgba(0,229,255,.3);
-  background:radial-gradient(circle,rgba(0,229,255,.18) 0%,rgba(255,215,0,.06) 50%,transparent 75%);
-  box-shadow:0 0 48px rgba(0,229,255,.3),inset 0 0 24px rgba(0,229,255,.15)
-}
-.duel-vs-text{
-  position:relative;z-index:2;
-  font-family:'Geist','Outfit',sans-serif;font-weight:900;
-  font-size:42px;letter-spacing:-2px;line-height:1;
-  background:linear-gradient(180deg,var(--cyan) 0%,#1AECFF 50%,var(--gold) 110%);
-  -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;
-  text-shadow:0 0 24px rgba(0,229,255,.4)
-}
-.duel-vs-spark{
-  position:absolute;inset:-8px;border-radius:50%;pointer-events:none;
-  background:conic-gradient(from 0deg,transparent 0deg 80deg,rgba(0,229,255,.3) 90deg 100deg,transparent 110deg 260deg,rgba(255,215,0,.25) 270deg 280deg,transparent 290deg 360deg);
-  opacity:.5;
-  -webkit-mask:radial-gradient(circle,transparent 56%,#000 58%);
-          mask:radial-gradient(circle,transparent 56%,#000 58%)
-}
-/* Meta pills below stage */
-.duel-meta{
-  display:flex;gap:10px;flex-wrap:wrap;justify-content:center;margin-top:32px
-}
-.duel-meta-pill{
-  display:inline-flex;align-items:center;gap:8px;
-  padding:8px 14px;border-radius:100px;
-  font-family:'JetBrains Mono',monospace;
-  font-size:11px;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;
-  color:var(--text2);
-  background:rgba(20,27,45,.55);
-  border:1px solid rgba(255,255,255,.06)
-}
-.duel-meta-dot{
-  width:6px;height:6px;border-radius:50%;background:var(--cyan);
-  box-shadow:0 0 8px var(--cyan);
-  animation:hudPulse 2s ease-in-out infinite
-}
-@media(max-width:760px){
-  .duel-stage{grid-template-columns:1fr;transform:none;gap:16px}
-  .duel-side{padding:24px 18px 22px;min-height:auto}
-  .duel-mascot,.duel-ai-stack{width:110px;height:110px}
-  .duel-ai-stack{grid-template-columns:repeat(2,40px)}
-  .duel-ai-stack img{width:40px;height:40px;padding:6px}
-  .duel-vs{width:80px;height:80px;justify-self:center;margin:-8px 0}
-  .duel-vs-text{font-size:28px;letter-spacing:-1.4px}
-}
-
 /* ══════════════════ SOCIAL PROOF (EDITORIAL) ══════════════════ */
 .proof-section{
   position:relative;overflow:hidden;
@@ -1695,23 +1561,12 @@ footer .footer-copy{opacity:.3;font-size:11px;letter-spacing:.5px}
 /* Nav entrance */
 nav{animation:navSlideIn .5s cubic-bezier(.25,1,.5,1) both}
 @keyframes navSlideIn{from{opacity:0;transform:translateY(-10px)}to{opacity:1;transform:translateY(0)}}
-/* Final CTA — gold button, brightest element on the page */
 .final-cta .btn-primary{
-  background:linear-gradient(180deg,#FFE56A 0%,#FFD700 50%,#E0B200 100%);
-  color:#1A1300;
   box-shadow:
-    0 1px 0 rgba(255,255,255,.45) inset,
-    0 12px 30px rgba(0,0,0,.45),
-    0 0 0 1px rgba(255,215,0,.55),
-    0 0 64px rgba(255,215,0,.5)
-}
-.final-cta .btn-primary:hover{
-  background:linear-gradient(180deg,#FFEC85 0%,#FFDD1A 50%,#E5B800 100%);
-  box-shadow:
-    0 1px 0 rgba(255,255,255,.55) inset,
-    0 18px 40px rgba(0,0,0,.55),
-    0 0 0 1px rgba(255,215,0,.75),
-    0 0 96px rgba(255,215,0,.65)
+    0 1px 0 rgba(255,255,255,.28) inset,
+    0 10px 28px rgba(0,0,0,.4),
+    0 0 0 1px rgba(0,229,255,.5),
+    0 0 56px rgba(0,229,255,.35)
 }
 .final-cta .mascot-accent{width:64px;height:64px;opacity:.7;margin-bottom:24px}
 
@@ -2077,49 +1932,10 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
 </div>
 </div>
 </section>
-<!-- ═══════ DUEL — core competitive feature ═══════ -->
-<section class="duel-section reveal" aria-labelledby="duel-heading">
-<div class="section-inner">
-<p class="s-label">05 / Live duels</p>
-<h2 class="s-title" id="duel-heading">Prove you&rsquo;re better than AI.</h2>
-<p class="s-sub">Real-time prompt duels. You vs. the model. Spot the hallucination. Pick the better answer. Win XP.</p>
-<div class="duel-stage">
-<div class="duel-side duel-side--you">
-<div class="duel-side-label">YOU</div>
-<picture class="duel-mascot"><source srcset="assets/diamond-kiro.webp" type="image/webp"/><img alt="Iro mascot" decoding="async" loading="lazy" src="assets/diamond-kiro.png"/></picture>
-<div class="duel-stats">
-<div class="duel-stat"><span class="duel-stat-num">+50</span><span class="duel-stat-label">XP on win</span></div>
-</div>
-</div>
-<div class="duel-vs" aria-hidden="true">
-<div class="duel-vs-ring"></div>
-<div class="duel-vs-text">VS</div>
-<div class="duel-vs-spark"></div>
-</div>
-<div class="duel-side duel-side--ai">
-<div class="duel-side-label">THE MODEL</div>
-<div class="duel-ai-stack">
-<img src="assets/chatgpt.png" alt="" loading="lazy" decoding="async"/>
-<img src="assets/claude.png" alt="" loading="lazy" decoding="async"/>
-<img src="assets/gemini.png" alt="" loading="lazy" decoding="async"/>
-<img src="assets/perplexity.png" alt="" loading="lazy" decoding="async"/>
-</div>
-<div class="duel-stats">
-<div class="duel-stat"><span class="duel-stat-num">4</span><span class="duel-stat-label">models, randomized</span></div>
-</div>
-</div>
-</div>
-<div class="duel-meta">
-<span class="duel-meta-pill"><span class="duel-meta-dot"></span>Live in app</span>
-<span class="duel-meta-pill">Best-of-3 rounds</span>
-<span class="duel-meta-pill">Streaks count double</span>
-</div>
-</div>
-</section>
 <!-- ═══════ SOCIAL PROOF ═══════ -->
 <section class="proof-section reveal" aria-labelledby="proof-heading">
 <div class="section-inner">
-<p class="s-label">06 / Reviews</p>
+<p class="s-label">05 / Reviews</p>
 <h2 class="s-title" id="proof-heading">From the App Store. Unedited.</h2>
 <p class="s-sub">No paid testimonials. No stock avatars. Just real users.</p>
 <div class="proof-grid">
@@ -2196,7 +2012,7 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
 <!-- ═══════ FAQ ═══════ -->
 <section class="faq-section reveal" aria-labelledby="faq-heading">
 <div class="section-inner">
-<p class="s-label">07 / FAQ</p>
+<p class="s-label">06 / FAQ</p>
 <h2 class="s-title" id="faq-heading">Questions, answered.</h2>
 <div class="faq-list">
 
