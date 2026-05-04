@@ -215,23 +215,6 @@ nav::after{
   -webkit-background-clip:text;background-clip:text;
   -webkit-text-fill-color:transparent
 }
-/* Corner HUD coord readouts on hero viewport */
-.hero-hud-coord{
-  position:absolute;z-index:2;
-  font-family:'JetBrains Mono',monospace;
-  font-size:10px;font-weight:500;letter-spacing:2.5px;
-  color:var(--text3);opacity:.45;text-transform:uppercase;
-  display:flex;align-items:center;gap:8px;pointer-events:none
-}
-.hero-hud-coord::before{
-  content:'';width:14px;height:1px;background:var(--hud-line)
-}
-.hero-hud-coord--tl{top:88px;left:32px}
-.hero-hud-coord--br{bottom:32px;right:32px;flex-direction:row-reverse}
-.hero-hud-coord--br::before{content:none}
-.hero-hud-coord--br::after{
-  content:'';width:14px;height:1px;background:var(--hud-line)
-}
 .hero-inner{
   display:flex;align-items:center;gap:80px;max-width:1200px;width:100%;
   position:relative;z-index:1
@@ -294,100 +277,15 @@ nav::after{
 }
 .hero-mascot-glow{
   position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);
-  width:440px;height:440px;border-radius:50%;
+  width:520px;height:520px;border-radius:50%;
   background:
-    radial-gradient(circle,rgba(0,229,255,.10) 0%,rgba(0,229,255,.03) 40%,transparent 70%);
-  pointer-events:none
+    radial-gradient(circle,rgba(0,229,255,.16) 0%,rgba(0,229,255,.05) 35%,transparent 65%);
+  pointer-events:none;filter:blur(8px)
 }
-/* Dashed outer ring, counter-rotating slow */
-.hero-mascot-frame{
-  position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);
-  width:420px;height:420px;border-radius:50%;
-  border:1px dashed rgba(0,229,255,.14);
-  animation:ringRotate 60s linear infinite reverse;
-  pointer-events:none
-}
-/* Main ring with tracking marker */
-.hero-mascot-ring{
-  position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);
-  width:360px;height:360px;border-radius:50%;
-  border:1px solid rgba(0,229,255,.12);
-  animation:ringRotate 20s linear infinite;
-  pointer-events:none
-}
-.hero-mascot-ring::before{
-  content:'';position:absolute;top:-3px;left:50%;width:6px;height:6px;margin-left:-3px;
-  border-radius:50%;background:var(--cyan);
-  box-shadow:0 0 12px 2px rgba(0,229,255,.7)
-}
-/* Tick marks around the mascot — 12 positions every 30deg */
-.hero-mascot-ticks{
-  position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);
-  width:360px;height:360px;border-radius:50%;
-  pointer-events:none
-}
-.hero-mascot-ticks span{
-  position:absolute;top:0;left:50%;
-  width:1px;height:8px;background:rgba(0,229,255,.3);
-  transform-origin:center 180px;margin-left:-1px
-}
-.hero-mascot-ticks span:nth-child(3n+1){
-  height:14px;width:2px;background:rgba(0,229,255,.55);margin-left:-1px
-}
-.hero-mascot-ticks span:nth-child(1){transform:rotate(0deg)}
-.hero-mascot-ticks span:nth-child(2){transform:rotate(30deg)}
-.hero-mascot-ticks span:nth-child(3){transform:rotate(60deg)}
-.hero-mascot-ticks span:nth-child(4){transform:rotate(90deg)}
-.hero-mascot-ticks span:nth-child(5){transform:rotate(120deg)}
-.hero-mascot-ticks span:nth-child(6){transform:rotate(150deg)}
-.hero-mascot-ticks span:nth-child(7){transform:rotate(180deg)}
-.hero-mascot-ticks span:nth-child(8){transform:rotate(210deg)}
-.hero-mascot-ticks span:nth-child(9){transform:rotate(240deg)}
-.hero-mascot-ticks span:nth-child(10){transform:rotate(270deg)}
-.hero-mascot-ticks span:nth-child(11){transform:rotate(300deg)}
-.hero-mascot-ticks span:nth-child(12){transform:rotate(330deg)}
-/* Corner brackets around the stage */
-.hero-mascot-brackets{position:absolute;inset:0;pointer-events:none}
-.hero-mascot-brackets::before,
-.hero-mascot-brackets::after{
-  content:'';position:absolute;width:24px;height:24px;
-  border:1.5px solid rgba(0,229,255,.35)
-}
-.hero-mascot-brackets::before{top:0;left:0;border-right:0;border-bottom:0}
-.hero-mascot-brackets::after{bottom:0;right:0;border-left:0;border-top:0}
-.hero-mascot-brackets-b2{position:absolute;inset:0;pointer-events:none}
-.hero-mascot-brackets-b2::before,
-.hero-mascot-brackets-b2::after{
-  content:'';position:absolute;width:24px;height:24px;
-  border:1.5px solid rgba(0,229,255,.35)
-}
-.hero-mascot-brackets-b2::before{top:0;right:0;border-left:0;border-bottom:0}
-.hero-mascot-brackets-b2::after{bottom:0;left:0;border-right:0;border-top:0}
-/* HUD readout top/bottom of stage */
-.hero-mascot-readout{
-  position:absolute;top:-6px;left:50%;transform:translateX(-50%);
-  font-family:'JetBrains Mono',monospace;font-size:10px;font-weight:500;
-  letter-spacing:2.5px;color:var(--cyan);opacity:.75;
-  white-space:nowrap;text-transform:uppercase;
-  padding:4px 10px;background:var(--bg);
-  display:flex;align-items:center;gap:8px;z-index:2
-}
-.hero-mascot-readout::before,
-.hero-mascot-readout::after{
-  content:'';width:14px;height:1px;background:rgba(0,229,255,.5)
-}
-.hero-mascot-tag{
-  position:absolute;bottom:-6px;left:50%;transform:translateX(-50%);
-  font-family:'JetBrains Mono',monospace;font-size:9px;font-weight:500;
-  letter-spacing:3px;color:var(--text3);opacity:.6;
-  white-space:nowrap;text-transform:uppercase;
-  padding:4px 10px;background:var(--bg);z-index:2
-}
-@keyframes ringRotate{from{transform:translate(-50%,-50%) rotate(0deg)}to{transform:translate(-50%,-50%) rotate(360deg)}}
 .hero-mascot-img{
-  position:relative;z-index:1;width:72%;height:72%;object-fit:contain;
-  margin:14%;
-  filter:drop-shadow(0 0 48px rgba(0,229,255,.28)) drop-shadow(0 0 12px rgba(255,215,0,.08));
+  position:relative;z-index:1;width:88%;height:88%;object-fit:contain;
+  margin:6%;
+  filter:drop-shadow(0 24px 56px rgba(0,229,255,.22)) drop-shadow(0 12px 24px rgba(0,0,0,.45));
   animation:mascotFloat 4s ease-in-out infinite
 }
 @keyframes mascotFloat{0%,100%{transform:translateY(0) scale(1)}50%{transform:translateY(-10px) scale(1.01)}}
@@ -543,26 +441,28 @@ nav::after{
 }
 .exercise-pills{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;max-width:700px;margin:0 auto}
 .exercise-pill{
-  padding:8px 16px;border-radius:12px;font-size:12px;font-weight:600;
-  color:var(--text2);letter-spacing:.2px;white-space:nowrap;
-  border:1px solid rgba(255,255,255,.05);
-  background:var(--surface-60);
-  backdrop-filter:blur(4px);-webkit-backdrop-filter:blur(4px);
-  transition:all .3s;
-  display:inline-flex;align-items:center;gap:6px
+  padding:9px 16px;border-radius:10px;font-size:13px;font-weight:600;
+  color:var(--text);letter-spacing:-.1px;white-space:nowrap;
+  border:1px solid rgba(255,255,255,.07);
+  background:rgba(20,27,45,.55);
+  transition:border-color .25s ease,background .25s ease,transform .25s cubic-bezier(.2,.9,.3,1.2);
+  display:inline-flex;align-items:center;gap:8px
 }
 .pill-logo{
-  width:18px;height:18px;object-fit:contain;flex-shrink:0
+  width:16px;height:16px;object-fit:contain;flex-shrink:0;border-radius:3px
+}
+.exercise-pill--dot::before{
+  content:'';width:5px;height:5px;border-radius:50%;
+  background:var(--cyan);opacity:.7;flex-shrink:0
 }
 .exercise-pill:hover{
-  border-color:rgba(0,229,255,.15);color:var(--text);
-  background:rgba(0,229,255,.04);
-  box-shadow:0 0 16px rgba(0,229,255,.08);
+  border-color:rgba(0,229,255,.28);
+  background:rgba(0,229,255,.05);
   transform:translateY(-1px)
 }
 
 /* ══════════════════ SECTION UTILS ══════════════════ */
-section{padding:100px 24px;position:relative}
+section{padding:140px 24px;position:relative}
 .section-inner{max-width:1140px;margin:0 auto}
 .s-label{
   font-family:'JetBrains Mono',monospace;
@@ -595,11 +495,10 @@ section{padding:100px 24px;position:relative}
   max-width:1020px;margin:0 auto
 }
 .why-card{
-  background:var(--surface-60);
+  background:rgba(20,27,45,.55);
   border:1px solid var(--white-border);
-  border-radius:16px;padding:40px 32px;position:relative;overflow:hidden;
-  transition:all .4s;
-  backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px)
+  border-radius:18px;padding:44px 36px;position:relative;overflow:hidden;
+  transition:transform .35s cubic-bezier(.2,.9,.3,1.2),border-color .25s ease,box-shadow .35s ease
 }
 .why-card::before{
   content:'';position:absolute;top:0;left:0;right:0;height:1px;
@@ -658,13 +557,12 @@ section{padding:100px 24px;position:relative}
   max-width:1180px;margin:0 auto
 }
 .gameplay-card{
-  border-radius:14px;overflow:hidden;
-  border:1px solid rgba(255,255,255,.06);
-  background:var(--surface-70);
-  transition:all .4s;
+  border-radius:16px;overflow:hidden;
+  border:1px solid rgba(255,255,255,.07);
+  background:rgba(20,27,45,.7);
+  transition:transform .4s cubic-bezier(.2,.9,.3,1.2),border-color .25s ease,box-shadow .4s ease;
   display:flex;flex-direction:column;
-  box-shadow:0 8px 32px rgba(0,0,0,.25);
-  backdrop-filter:blur(4px);-webkit-backdrop-filter:blur(4px);
+  box-shadow:0 12px 40px rgba(0,0,0,.35);
   position:relative
 }
 .gameplay-card::before{
@@ -865,7 +763,6 @@ section{padding:100px 24px;position:relative}
   background:repeating-conic-gradient(from 0deg,transparent 0deg 18deg,rgba(0,229,255,.06) 18deg 19deg);
   pointer-events:none
 }
-@keyframes ringRotateSlow{from{transform:rotate(0deg)}to{transform:rotate(360deg)}}
 .rank-tier--locked:hover .rank-tier-locked{
   border-color:rgba(0,229,255,.5);
   box-shadow:
@@ -903,12 +800,11 @@ section{padding:100px 24px;position:relative}
 }
 .proof-col{display:flex;flex-direction:column;gap:14px}
 .proof-card{
-  background:var(--surface-60);
+  background:rgba(20,27,45,.55);
   border:1px solid var(--white-border);
-  border-radius:14px;padding:28px 26px;
+  border-radius:16px;padding:32px 30px;
   position:relative;overflow:hidden;
-  transition:all .4s;
-  backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);
+  transition:transform .35s cubic-bezier(.2,.9,.3,1.2),border-color .25s ease,box-shadow .35s ease;
   display:flex;flex-direction:column
 }
 .proof-card::before{
@@ -1480,16 +1376,8 @@ nav{animation:navSlideIn .5s cubic-bezier(.25,1,.5,1) both}
 @media(max-width:768px){
   .hero{padding:100px 20px 60px;min-height:auto}
   .hero-mascot-wrap{width:280px;height:280px}
-  .hero-mascot-ring{width:240px;height:240px}
-  .hero-mascot-ticks{width:240px;height:240px}
-  .hero-mascot-ticks span{transform-origin:center 120px;height:6px}
-  .hero-mascot-ticks span:nth-child(3n+1){height:10px}
-  .hero-mascot-frame{width:280px;height:280px}
-  .hero-mascot-glow{width:320px;height:320px}
-  .hero-hud-coord--tl,.hero-hud-coord--br{display:none}
+  .hero-mascot-glow{width:380px;height:380px}
   .hero-backdrop{font-size:200px;opacity:.55}
-  .hero-mascot-brackets::before,.hero-mascot-brackets::after,
-  .hero-mascot-brackets-b2::before,.hero-mascot-brackets-b2::after{width:18px;height:18px}
   .hero-badge-row{justify-content:center}
   .why-grid{grid-template-columns:1fr}
   .proof-grid{grid-template-columns:1fr}
@@ -1626,8 +1514,6 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
 <div class="hero-visual">
 <div class="hero-mascot-wrap">
 <div class="hero-mascot-glow"></div>
-<div class="hero-mascot-frame" aria-hidden="true"></div>
-<div class="hero-mascot-ticks" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>
 <picture><source srcset="assets/diamond-kiro.webp" type="image/webp"/><img alt="Iro mascot — Diamond tier" class="hero-mascot-img" decoding="async" src="assets/diamond-kiro.png"/></picture>
 </div>
 </div>
@@ -1643,39 +1529,39 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
 <div class="exercise-types">
 <div class="exercise-types-label">Tool Mastery</div>
 <div class="exercise-pills">
-<span class="exercise-pill"><img class="pill-logo" src="assets/chatgpt.png" alt="" loading="lazy" decoding="async"/>ChatGPT Mastery</span>
-<span class="exercise-pill"><img class="pill-logo" src="assets/claude.png" alt="" loading="lazy" decoding="async"/>Claude Mastery</span>
-<span class="exercise-pill"><img class="pill-logo" src="assets/gemini.png" alt="" loading="lazy" decoding="async"/>Gemini Mastery</span>
-<span class="exercise-pill"><img class="pill-logo" src="assets/perplexity.png" alt="" loading="lazy" decoding="async"/>Perplexity / AI Search Mastery</span>
+<span class="exercise-pill"><img class="pill-logo" src="assets/chatgpt.png" alt="" loading="lazy" decoding="async"/>ChatGPT</span>
+<span class="exercise-pill"><img class="pill-logo" src="assets/claude.png" alt="" loading="lazy" decoding="async"/>Claude</span>
+<span class="exercise-pill"><img class="pill-logo" src="assets/gemini.png" alt="" loading="lazy" decoding="async"/>Gemini</span>
+<span class="exercise-pill"><img class="pill-logo" src="assets/perplexity.png" alt="" loading="lazy" decoding="async"/>Perplexity</span>
 </div>
 </div>
 <div class="exercise-types" style="margin-top:32px">
 <div class="exercise-types-label">Creative &amp; Coding</div>
 <div class="exercise-pills">
 <span class="exercise-pill"><img class="pill-logo" src="assets/midjourney.png" alt="" loading="lazy" decoding="async"/>AI Image Generation</span>
-<span class="exercise-pill">🎬 AI Video Generation</span>
-<span class="exercise-pill">💻 Vibe Coding with AI</span>
+<span class="exercise-pill exercise-pill--dot">AI Video Generation</span>
+<span class="exercise-pill exercise-pill--dot">Vibe Coding with AI</span>
 </div>
 </div>
 <div class="exercise-types" style="margin-top:32px">
 <div class="exercise-types-label">Work &amp; Career</div>
 <div class="exercise-pills">
-<span class="exercise-pill">💼 AI for Job Hunting</span>
-<span class="exercise-pill">💰 AI for Business</span>
-<span class="exercise-pill">📣 AI for Marketing</span>
-<span class="exercise-pill">📈 AI for Finance</span>
-<span class="exercise-pill">👔 AI for Managers</span>
-<span class="exercise-pill">🏥 AI for Healthcare</span>
+<span class="exercise-pill exercise-pill--dot">AI for Job Hunting</span>
+<span class="exercise-pill exercise-pill--dot">AI for Business</span>
+<span class="exercise-pill exercise-pill--dot">AI for Marketing</span>
+<span class="exercise-pill exercise-pill--dot">AI for Finance</span>
+<span class="exercise-pill exercise-pill--dot">AI for Managers</span>
+<span class="exercise-pill exercise-pill--dot">AI for Healthcare</span>
 </div>
 </div>
 <div class="exercise-types" style="margin-top:32px">
 <div class="exercise-types-label">Core Skills</div>
 <div class="exercise-pills">
-<span class="exercise-pill">🤖 AI Foundations</span>
-<span class="exercise-pill">💬 Prompt Engineering</span>
-<span class="exercise-pill">🕹️ AI Agents</span>
-<span class="exercise-pill">⚡ AI Automation</span>
-<span class="exercise-pill">🛠️ AI Tools</span>
+<span class="exercise-pill exercise-pill--dot">AI Foundations</span>
+<span class="exercise-pill exercise-pill--dot">Prompt Engineering</span>
+<span class="exercise-pill exercise-pill--dot">AI Agents</span>
+<span class="exercise-pill exercise-pill--dot">AI Automation</span>
+<span class="exercise-pill exercise-pill--dot">AI Tools</span>
 </div>
 </div>
 </div>
@@ -1903,8 +1789,7 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
 <h2 id="final-cta-heading">Stop scrolling.<br/><span class="grad">Start training.</span></h2>
 <p class="sub">5 minutes a day. Pick a tool. Get fluent.</p>
 <a class="btn-primary" href="https://apps.apple.com/app/id6759628066?utm_source=website&utm_medium=cta&utm_campaign=final">Start Free — 7 Day Trial →</a>
-<p class="cta-micro">Cancel anytime</p>
-<p class="pricing">7-day free trial on 3-Month · Then <strong>$24.99 every 3 months ($1.92/week)</strong> or <strong>$9.99/week</strong> · Cancel anytime</p>
+<p class="pricing">7-day free trial · Then <strong>$24.99 / 3 months</strong> or <strong>$9.99 / week</strong> · Cancel anytime</p>
 <div class="email-capture">
 <p class="email-capture-label">Not on iOS? Get notified when Android launches.</p>
 <form class="email-form" action="https://formspree.io/f/mbdzpzzp" method="POST">
