@@ -217,6 +217,26 @@ nav::after{
     radial-gradient(ellipse at 50% 35%,rgba(0,229,255,.07) 0%,transparent 55%);
   pointer-events:none
 }
+/* Hero vignette — depth at the edges, focus pulled to the centre */
+.hero::after{
+  content:'';position:absolute;inset:0;pointer-events:none;z-index:0;
+  background:radial-gradient(ellipse 110% 80% at 50% 50%,transparent 35%,rgba(0,0,0,.55) 100%)
+}
+/* Hero CTA glow — primary button is the brightest element on the page */
+.hero .btn-primary{
+  box-shadow:
+    0 1px 0 rgba(255,255,255,.32) inset,
+    0 10px 28px rgba(0,0,0,.45),
+    0 0 0 1px rgba(0,229,255,.55),
+    0 0 48px rgba(0,229,255,.45)
+}
+.hero .btn-primary:hover{
+  box-shadow:
+    0 1px 0 rgba(255,255,255,.36) inset,
+    0 16px 40px rgba(0,0,0,.55),
+    0 0 0 1px rgba(0,229,255,.7),
+    0 0 72px rgba(0,229,255,.6)
+}
 /* Backdrop type — massive outlined KIRO behind hero */
 .hero-backdrop{
   position:absolute;left:50%;top:50%;
@@ -271,11 +291,17 @@ nav::after{
   animation:wordRise .9s cubic-bezier(.16,1,.3,1) forwards
 }
 .hero-h1-reveal .line1 .word:nth-child(1) > span{animation-delay:.05s}
-.hero-h1-reveal .line1 .word:nth-child(2) > span{animation-delay:.13s}
-.hero-h1-reveal .line1 .word:nth-child(3) > span{animation-delay:.21s}
-.hero-h1-reveal .line1 .word:nth-child(4) > span{animation-delay:.29s}
-.hero-h1-reveal .line2 .word:nth-child(1) > span{animation-delay:.4s}
-.hero-h1-reveal .line2 .word:nth-child(2) > span{animation-delay:.48s}
+.hero-h1-reveal .line1 .word:nth-child(2) > span{animation-delay:.12s}
+.hero-h1-reveal .line1 .word:nth-child(3) > span{animation-delay:.19s}
+.hero-h1-reveal .line1 .word:nth-child(4) > span{animation-delay:.26s}
+.hero-h1-reveal .line2 .word:nth-child(1) > span{animation-delay:.36s}
+.hero-h1-reveal .line2 .word:nth-child(2) > span{animation-delay:.42s}
+.hero-h1-reveal .line2 .word:nth-child(3) > span{animation-delay:.48s}
+.hero-h1-reveal .line2 .word:nth-child(4) > span{animation-delay:.54s}
+.hero-h1-reveal .line2 .word:nth-child(5) > span{animation-delay:.6s}
+.hero-h1-reveal .line2 .word:nth-child(6) > span{animation-delay:.66s}
+.hero-h1-reveal .line2 .word:nth-child(7) > span{animation-delay:.72s}
+.hero-h1-reveal .line2 .word:nth-child(8) > span{animation-delay:.78s}
 @keyframes wordRise{from{transform:translateY(115%)}to{transform:translateY(0)}}
 
 .hero-sub{
@@ -423,6 +449,122 @@ nav::after{
 .founder-stat-label{
   font-size:11px;color:var(--text2);
   font-weight:600;letter-spacing:1.2px;text-transform:uppercase;line-height:1.3
+}
+
+/* ══════════════════ GAME LOOP — addiction loop visual ══════════════════ */
+.game-loop{
+  position:relative;overflow:hidden;
+  background:linear-gradient(180deg,var(--bg) 0%,#0c1430 60%,var(--bg) 100%);
+  border-top:1px solid rgba(0,229,255,.06);
+  border-bottom:1px solid rgba(0,229,255,.06)
+}
+.game-loop::before{
+  content:'';position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);
+  width:1100px;height:600px;
+  background:radial-gradient(ellipse at center,rgba(0,229,255,.08) 0%,transparent 65%);
+  pointer-events:none
+}
+.game-loop .section-inner{position:relative;z-index:1}
+.game-loop .s-label{color:var(--cyan);opacity:1}
+.loop-flow{
+  display:flex;align-items:flex-start;justify-content:center;gap:14px;
+  flex-wrap:wrap;max-width:1100px;margin:0 auto;padding:0 8px
+}
+.loop-node{
+  flex:0 0 auto;min-width:148px;
+  display:flex;flex-direction:column;align-items:center;gap:10px;
+  padding:22px 18px 20px;border-radius:14px;
+  background:rgba(20,27,45,.55);
+  border:1px solid rgba(255,255,255,.06);
+  transition:transform .35s cubic-bezier(.2,.9,.3,1.2),border-color .25s ease,box-shadow .35s ease
+}
+.loop-node:hover{
+  transform:translateY(-3px);
+  border-color:rgba(0,229,255,.22);
+  box-shadow:0 12px 36px rgba(0,0,0,.35),0 0 28px rgba(0,229,255,.08)
+}
+.loop-node-icon{
+  width:46px;height:46px;border-radius:12px;
+  display:flex;align-items:center;justify-content:center;
+  background:rgba(255,255,255,.04);
+  border:1px solid rgba(255,255,255,.08);
+  color:var(--text2)
+}
+.loop-node-icon svg{width:22px;height:22px}
+.loop-node-icon--cyan{
+  background:rgba(0,229,255,.1);border-color:rgba(0,229,255,.25);color:var(--cyan);
+  box-shadow:0 0 18px rgba(0,229,255,.15)
+}
+.loop-node-icon--gold{
+  background:rgba(255,215,0,.1);border-color:rgba(255,215,0,.28);color:var(--gold);
+  box-shadow:0 0 18px rgba(255,215,0,.18)
+}
+.loop-node-icon--flame{
+  background:rgba(255,107,53,.1);border-color:rgba(255,107,53,.3);color:#FF8A3D;
+  box-shadow:0 0 18px rgba(255,107,53,.18)
+}
+.loop-node-label{
+  font-family:'Geist','Outfit',sans-serif;
+  font-size:15px;font-weight:800;letter-spacing:-.2px;color:var(--text)
+}
+.loop-node-vis{
+  font-family:'JetBrains Mono',monospace;
+  font-size:11px;font-weight:500;letter-spacing:1.4px;text-transform:uppercase;
+  color:var(--text3);min-height:14px;display:flex;align-items:center;justify-content:center;gap:6px
+}
+.loop-vis-bar{
+  width:84px;height:6px;border-radius:3px;
+  background:rgba(255,255,255,.06);position:relative;overflow:hidden
+}
+.loop-vis-bar span{
+  position:absolute;top:0;left:0;height:100%;
+  background:linear-gradient(90deg,var(--cyan),#1AECFF);
+  border-radius:3px;
+  box-shadow:0 0 10px rgba(0,229,255,.45)
+}
+.loop-vis-tier{display:flex;gap:3px}
+.loop-vis-tier .lt{
+  width:11px;height:11px;border-radius:50%;
+  background:rgba(255,255,255,.08);
+  border:1px solid rgba(255,255,255,.05)
+}
+.loop-vis-tier .lt-bronze.lt-active,.loop-vis-tier .lt-bronze:not(:last-child){background:#CD7F32;opacity:.55;border-color:rgba(205,127,50,.3)}
+.loop-vis-tier .lt-silver{background:#C0C0C0;opacity:.55;border-color:rgba(192,192,192,.3)}
+.loop-vis-tier .lt-gold{background:#FFD700;opacity:.55;border-color:rgba(255,215,0,.3)}
+.loop-vis-tier .lt-platinum{background:rgba(229,228,226,.25)}
+.loop-vis-tier .lt-diamond{background:rgba(185,242,255,.18)}
+.loop-vis-tier .lt-active{
+  opacity:1;
+  box-shadow:0 0 0 2px rgba(255,215,0,.25),0 0 14px rgba(255,215,0,.4);
+  transform:scale(1.15)
+}
+.loop-node-meta{
+  font-family:'JetBrains Mono',monospace;
+  font-size:10px;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;
+  color:var(--cyan)
+}
+.loop-node-meta--gold{color:var(--gold)}
+.loop-node--repeat .loop-node-icon{
+  background:rgba(0,229,255,.07);border-color:rgba(0,229,255,.2);color:var(--cyan)
+}
+.loop-arrow{
+  font-family:'JetBrains Mono',monospace;font-size:24px;color:var(--text3);opacity:.55;
+  display:flex;align-items:center;height:46px;margin-top:22px;
+  font-weight:300;letter-spacing:0
+}
+.loop-arrow--cycle{color:var(--cyan);opacity:.85;font-size:26px;text-shadow:0 0 14px rgba(0,229,255,.4)}
+@media(max-width:900px){
+  .loop-flow{gap:10px}
+  .loop-node{min-width:128px;padding:18px 14px}
+  .loop-arrow{font-size:20px}
+}
+@media(max-width:600px){
+  .loop-flow{flex-direction:column;align-items:stretch;gap:8px;max-width:340px}
+  .loop-node{flex-direction:row;justify-content:flex-start;text-align:left;min-width:0;padding:14px 16px;gap:14px}
+  .loop-node-icon{width:40px;height:40px;flex-shrink:0}
+  .loop-node-label{font-size:14px}
+  .loop-node-vis,.loop-node-meta{margin-left:auto}
+  .loop-arrow{display:none}
 }
 
 /* ══════════════════ WHY NOW ══════════════════ */
@@ -640,7 +782,11 @@ section{padding:140px 24px;position:relative}
 /* ══════════════════ RANK EVOLUTION ══════════════════ */
 .rank-section{
   position:relative;overflow:hidden;
-  background:linear-gradient(180deg,var(--bg) 0%,rgba(10,14,26,.95) 50%,var(--bg) 100%)
+  padding-top:180px;padding-bottom:180px;
+  background:linear-gradient(180deg,var(--bg) 0%,#0a1428 35%,#0a1428 65%,var(--bg) 100%)
+}
+@media(max-width:768px){
+  .rank-section{padding-top:96px;padding-bottom:96px}
 }
 .rank-section::before{
   content:'';position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);
@@ -680,7 +826,7 @@ section{padding:140px 24px;position:relative}
 }
 /* Dashed segmented progress line behind */
 .rank-track::before{
-  content:'';position:absolute;top:96px;left:calc(100%/12);right:calc(100%/12);height:1px;
+  content:'';position:absolute;top:114px;left:calc(100%/12);right:calc(100%/12);height:1px;
   background-image:
     linear-gradient(90deg,rgba(205,127,50,.35) 0%,rgba(192,192,192,.3) 20%,rgba(255,215,0,.4) 40%,rgba(229,228,226,.3) 60%,rgba(185,242,255,.4) 80%,rgba(0,229,255,.3) 100%);
   -webkit-mask-image:repeating-linear-gradient(90deg,#000 0 12px,transparent 12px 20px);
@@ -689,7 +835,7 @@ section{padding:140px 24px;position:relative}
 }
 /* Glow beneath the line */
 .rank-track::after{
-  content:'';position:absolute;top:92px;left:calc(100%/12);right:calc(100%/12);height:8px;
+  content:'';position:absolute;top:110px;left:calc(100%/12);right:calc(100%/12);height:8px;
   background:linear-gradient(90deg,
     rgba(205,127,50,.15) 0%,rgba(192,192,192,.12) 20%,rgba(255,215,0,.2) 40%,
     rgba(229,228,226,.12) 60%,rgba(185,242,255,.2) 80%,rgba(0,229,255,.15) 100%);
@@ -710,23 +856,40 @@ section{padding:140px 24px;position:relative}
 }
 /* Pedestal — contains mascot + plinth */
 .rank-tier-pedestal{
-  position:relative;width:100%;max-width:140px;
+  position:relative;width:100%;max-width:170px;
   display:flex;flex-direction:column;align-items:center
 }
+/* Per-tier glow halo behind mascot */
+.rank-tier-pedestal::before{
+  content:'';position:absolute;top:-8px;left:50%;transform:translateX(-50%);
+  width:160px;height:160px;border-radius:50%;
+  background:radial-gradient(circle,var(--rt-glow,rgba(0,229,255,.15)) 0%,transparent 65%);
+  filter:blur(6px);
+  pointer-events:none;z-index:0;
+  transition:opacity .4s ease;
+  opacity:.85
+}
+.rank-tier:hover .rank-tier-pedestal::before{opacity:1}
+.rank-tier:nth-of-type(1) .rank-tier-pedestal{--rt-glow:rgba(205,127,50,.35)}
+.rank-tier:nth-of-type(2) .rank-tier-pedestal{--rt-glow:rgba(192,192,192,.30)}
+.rank-tier:nth-of-type(3) .rank-tier-pedestal{--rt-glow:rgba(255,215,0,.42)}
+.rank-tier:nth-of-type(4) .rank-tier-pedestal{--rt-glow:rgba(229,228,226,.30)}
+.rank-tier:nth-of-type(5) .rank-tier-pedestal{--rt-glow:rgba(185,242,255,.48)}
+.rank-tier:nth-of-type(6) .rank-tier-pedestal{--rt-glow:rgba(0,229,255,.32)}
 .rank-tier-img{
-  width:100px;height:100px;object-fit:contain;
+  width:130px;height:130px;object-fit:contain;
   transition:all .4s ease;
   position:relative;z-index:2
 }
-.rank-tier:nth-of-type(1) .rank-tier-img{filter:drop-shadow(0 4px 12px rgba(205,127,50,.3))}
-.rank-tier:nth-of-type(2) .rank-tier-img{filter:drop-shadow(0 4px 14px rgba(192,192,192,.28))}
-.rank-tier:nth-of-type(3) .rank-tier-img{filter:drop-shadow(0 4px 16px rgba(255,215,0,.4))}
-.rank-tier:nth-of-type(4) .rank-tier-img{filter:drop-shadow(0 4px 18px rgba(229,228,226,.28))}
-.rank-tier:nth-of-type(5) .rank-tier-img{filter:drop-shadow(0 4px 22px rgba(185,242,255,.45))}
+.rank-tier:nth-of-type(1) .rank-tier-img{filter:drop-shadow(0 6px 16px rgba(205,127,50,.45))}
+.rank-tier:nth-of-type(2) .rank-tier-img{filter:drop-shadow(0 6px 18px rgba(192,192,192,.4))}
+.rank-tier:nth-of-type(3) .rank-tier-img{filter:drop-shadow(0 6px 22px rgba(255,215,0,.55))}
+.rank-tier:nth-of-type(4) .rank-tier-img{filter:drop-shadow(0 6px 24px rgba(229,228,226,.4))}
+.rank-tier:nth-of-type(5) .rank-tier-img{filter:drop-shadow(0 6px 28px rgba(185,242,255,.6))}
 .rank-tier:hover .rank-tier-img{transform:scale(1.14) translateY(-10px)}
 /* Plinth — trophy base */
 .rank-plinth{
-  position:relative;width:112px;height:26px;margin-top:-8px;
+  position:relative;width:142px;height:30px;margin-top:-8px;
   background:
     linear-gradient(180deg,rgba(30,39,64,.7) 0%,rgba(10,14,26,.9) 100%);
   border:1px solid rgba(255,255,255,.06);border-top:1px solid rgba(0,229,255,.12);
@@ -821,6 +984,140 @@ section{padding:140px 24px;position:relative}
 }
 .rank-tier--locked:hover .rank-tier-hint{opacity:.85}
 .rank-arrow{display:none}
+
+/* ══════════════════ DUEL — core competitive feature ══════════════════ */
+.duel-section{
+  position:relative;overflow:hidden;
+  padding-top:160px;padding-bottom:160px;
+  background:
+    radial-gradient(ellipse 1100px 700px at 50% 50%,rgba(0,229,255,.06) 0%,transparent 60%),
+    linear-gradient(180deg,var(--bg) 0%,#06080F 50%,var(--bg) 100%)
+}
+.duel-section::before{
+  content:'';position:absolute;top:0;left:0;right:0;height:1px;
+  background:linear-gradient(90deg,transparent 5%,rgba(0,229,255,.22) 50%,transparent 95%)
+}
+.duel-section::after{
+  content:'';position:absolute;bottom:0;left:0;right:0;height:1px;
+  background:linear-gradient(90deg,transparent 5%,rgba(0,229,255,.22) 50%,transparent 95%)
+}
+.duel-section .s-label{color:var(--cyan);opacity:1}
+@media(max-width:768px){.duel-section{padding-top:88px;padding-bottom:88px}}
+/* Stage */
+.duel-stage{
+  display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:24px;
+  max-width:980px;margin:0 auto;padding:8px 8px 28px;
+  transform:scale(1.06);
+  transform-origin:center
+}
+.duel-side{
+  display:flex;flex-direction:column;align-items:center;gap:14px;
+  padding:36px 28px 32px;border-radius:18px;
+  background:rgba(20,27,45,.55);
+  border:1px solid rgba(255,255,255,.06);
+  position:relative;min-height:280px
+}
+.duel-side--you{
+  border-color:rgba(0,229,255,.22);
+  background:linear-gradient(180deg,rgba(0,229,255,.06) 0%,rgba(20,27,45,.6) 100%);
+  box-shadow:0 16px 48px rgba(0,0,0,.4),0 0 36px rgba(0,229,255,.1)
+}
+.duel-side--ai{
+  border-color:rgba(255,215,0,.18);
+  background:linear-gradient(180deg,rgba(255,215,0,.04) 0%,rgba(20,27,45,.6) 100%);
+  box-shadow:0 16px 48px rgba(0,0,0,.4),0 0 36px rgba(255,215,0,.06)
+}
+.duel-side-label{
+  font-family:'JetBrains Mono',monospace;
+  font-size:11px;font-weight:600;letter-spacing:3px;text-transform:uppercase;
+  color:var(--text3);opacity:.85
+}
+.duel-side--you .duel-side-label{color:var(--cyan);opacity:1}
+.duel-side--ai .duel-side-label{color:var(--gold);opacity:1}
+.duel-mascot{display:block;width:140px;height:140px}
+.duel-mascot img{width:100%;height:100%;object-fit:contain;filter:drop-shadow(0 12px 32px rgba(0,229,255,.3))}
+.duel-ai-stack{
+  display:grid;grid-template-columns:repeat(2,52px);gap:12px;
+  width:140px;height:140px;align-content:center;justify-content:center
+}
+.duel-ai-stack img{
+  width:52px;height:52px;object-fit:contain;border-radius:12px;
+  background:rgba(255,255,255,.04);
+  border:1px solid rgba(255,255,255,.06);
+  padding:8px;
+  filter:drop-shadow(0 4px 12px rgba(0,0,0,.4))
+}
+.duel-stats{display:flex;gap:14px;flex-wrap:wrap;justify-content:center;margin-top:4px}
+.duel-stat{
+  display:flex;flex-direction:column;align-items:center;gap:2px;
+  padding:8px 14px;border-radius:10px;
+  background:rgba(10,14,26,.55);
+  border:1px solid rgba(255,255,255,.05);
+  min-width:120px
+}
+.duel-stat-num{
+  font-family:'JetBrains Mono',monospace;font-weight:700;
+  font-size:18px;color:var(--text);letter-spacing:-.3px
+}
+.duel-side--you .duel-stat-num{color:var(--cyan)}
+.duel-side--ai .duel-stat-num{color:var(--gold)}
+.duel-stat-label{
+  font-size:10px;font-weight:600;letter-spacing:1.2px;text-transform:uppercase;
+  color:var(--text3)
+}
+/* VS */
+.duel-vs{
+  position:relative;width:120px;height:120px;
+  display:flex;align-items:center;justify-content:center;flex-shrink:0
+}
+.duel-vs-ring{
+  position:absolute;inset:0;border-radius:50%;
+  border:1px solid rgba(0,229,255,.3);
+  background:radial-gradient(circle,rgba(0,229,255,.18) 0%,rgba(255,215,0,.06) 50%,transparent 75%);
+  box-shadow:0 0 48px rgba(0,229,255,.3),inset 0 0 24px rgba(0,229,255,.15)
+}
+.duel-vs-text{
+  position:relative;z-index:2;
+  font-family:'Geist','Outfit',sans-serif;font-weight:900;
+  font-size:42px;letter-spacing:-2px;line-height:1;
+  background:linear-gradient(180deg,var(--cyan) 0%,#1AECFF 50%,var(--gold) 110%);
+  -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;
+  text-shadow:0 0 24px rgba(0,229,255,.4)
+}
+.duel-vs-spark{
+  position:absolute;inset:-8px;border-radius:50%;pointer-events:none;
+  background:conic-gradient(from 0deg,transparent 0deg 80deg,rgba(0,229,255,.3) 90deg 100deg,transparent 110deg 260deg,rgba(255,215,0,.25) 270deg 280deg,transparent 290deg 360deg);
+  opacity:.5;
+  -webkit-mask:radial-gradient(circle,transparent 56%,#000 58%);
+          mask:radial-gradient(circle,transparent 56%,#000 58%)
+}
+/* Meta pills below stage */
+.duel-meta{
+  display:flex;gap:10px;flex-wrap:wrap;justify-content:center;margin-top:32px
+}
+.duel-meta-pill{
+  display:inline-flex;align-items:center;gap:8px;
+  padding:8px 14px;border-radius:100px;
+  font-family:'JetBrains Mono',monospace;
+  font-size:11px;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;
+  color:var(--text2);
+  background:rgba(20,27,45,.55);
+  border:1px solid rgba(255,255,255,.06)
+}
+.duel-meta-dot{
+  width:6px;height:6px;border-radius:50%;background:var(--cyan);
+  box-shadow:0 0 8px var(--cyan);
+  animation:hudPulse 2s ease-in-out infinite
+}
+@media(max-width:760px){
+  .duel-stage{grid-template-columns:1fr;transform:none;gap:16px}
+  .duel-side{padding:24px 18px 22px;min-height:auto}
+  .duel-mascot,.duel-ai-stack{width:110px;height:110px}
+  .duel-ai-stack{grid-template-columns:repeat(2,40px)}
+  .duel-ai-stack img{width:40px;height:40px;padding:6px}
+  .duel-vs{width:80px;height:80px;justify-self:center;margin:-8px 0}
+  .duel-vs-text{font-size:28px;letter-spacing:-1.4px}
+}
 
 /* ══════════════════ SOCIAL PROOF (EDITORIAL) ══════════════════ */
 .proof-section{
@@ -1398,7 +1695,25 @@ footer .footer-copy{opacity:.3;font-size:11px;letter-spacing:.5px}
 /* Nav entrance */
 nav{animation:navSlideIn .5s cubic-bezier(.25,1,.5,1) both}
 @keyframes navSlideIn{from{opacity:0;transform:translateY(-10px)}to{opacity:1;transform:translateY(0)}}
-.final-cta .btn-primary{box-shadow:0 0 48px rgba(0,229,255,.22),0 6px 24px rgba(0,0,0,.35)}
+/* Final CTA — gold button, brightest element on the page */
+.final-cta .btn-primary{
+  background:linear-gradient(180deg,#FFE56A 0%,#FFD700 50%,#E0B200 100%);
+  color:#1A1300;
+  box-shadow:
+    0 1px 0 rgba(255,255,255,.45) inset,
+    0 12px 30px rgba(0,0,0,.45),
+    0 0 0 1px rgba(255,215,0,.55),
+    0 0 64px rgba(255,215,0,.5)
+}
+.final-cta .btn-primary:hover{
+  background:linear-gradient(180deg,#FFEC85 0%,#FFDD1A 50%,#E5B800 100%);
+  box-shadow:
+    0 1px 0 rgba(255,255,255,.55) inset,
+    0 18px 40px rgba(0,0,0,.55),
+    0 0 0 1px rgba(255,215,0,.75),
+    0 0 96px rgba(255,215,0,.65)
+}
+.final-cta .mascot-accent{width:64px;height:64px;opacity:.7;margin-bottom:24px}
 
 /* ══════════════════ RESPONSIVE ══════════════════ */
 @media(max-width:1024px){
@@ -1421,8 +1736,9 @@ nav{animation:navSlideIn .5s cubic-bezier(.25,1,.5,1) both}
   .rank-track{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;justify-items:center}
   .rank-track::before,.rank-track::after{display:none}
   .rank-track .rank-arrow{display:none}
-  .rank-tier-img{width:80px;height:80px}
-  .rank-tier-locked{width:80px;height:80px}
+  .rank-tier-img{width:104px;height:104px}
+  .rank-tier-locked{width:104px;height:104px}
+  .rank-tier-pedestal::before{width:120px;height:120px}
   .rank-tier-locked-icon{font-size:24px}
   .founder-stats{grid-template-columns:repeat(3,1fr)}
   .founder-stat:nth-child(3)::after{display:none}
@@ -1440,8 +1756,9 @@ nav{animation:navSlideIn .5s cubic-bezier(.25,1,.5,1) both}
   .why-kiro-section .s-title br,
   .gameplay .s-title br{display:none}
   .gameplay-grid{grid-template-columns:1fr;gap:12px;max-width:360px;margin-left:auto;margin-right:auto}
-  .rank-tier-img{width:64px;height:64px}
-  .rank-tier-locked{width:64px;height:64px}
+  .rank-tier-img{width:84px;height:84px}
+  .rank-tier-locked{width:84px;height:84px}
+  .rank-tier-pedestal::before{width:96px;height:96px}
   .rank-tier-locked-icon{font-size:20px}
   .rank-tier-hint{display:none}
   .founder-stats{grid-template-columns:repeat(2,1fr)}
@@ -1537,11 +1854,11 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
 <span class="hud-pill"><span>Live on iOS</span></span>
 </div>
 <h1 id="hero-heading" class="hero-h1-reveal">
-<span class="line1"><span class="word"><span>Master</span></span> <span class="word"><span>the</span></span> <span class="word"><span>AI</span></span> <span class="word"><span>tools</span></span></span>
-<span class="line2"><span class="word"><span>that</span></span> <span class="word"><span>matter.</span></span></span>
+<span class="line1"><span class="word"><span>AI</span></span> <span class="word"><span>is</span></span> <span class="word"><span>moving</span></span> <span class="word"><span>fast.</span></span></span>
+<span class="line2"><span class="word"><span>You&rsquo;re</span></span> <span class="word"><span>either</span></span> <span class="word"><span>learning</span></span> <span class="word"><span>it</span></span> <span class="word"><span>&mdash;</span></span> <span class="word"><span>or</span></span> <span class="word"><span>falling</span></span> <span class="word"><span>behind.</span></span></span>
 </h1>
 <p class="hero-sub">
-<strong>ChatGPT. Claude. Gemini. Perplexity.</strong> AI coding, image gen, video gen, job hunting. Five minutes a day.
+<strong>5 minutes a day.</strong> Real skills. No fluff.
       </p>
 <div class="hero-ctas">
 <a class="btn-primary btn-magnetic" href="https://apps.apple.com/app/id6759628066?utm_source=website&utm_medium=cta&utm_campaign=hero">Start Free — 7 Day Trial →</a>
@@ -1557,12 +1874,64 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
 </div>
 </div>
 </section>
+<!-- ═══════ GAME LOOP — addiction loop visualization ═══════ -->
+<section class="game-loop reveal" aria-labelledby="loop-heading">
+<div class="section-inner">
+<p class="s-label">01 / The loop</p>
+<h2 class="s-title" id="loop-heading">This isn&rsquo;t content. It&rsquo;s a system.</h2>
+<p class="s-sub">Five mechanics. One unbreakable habit loop. Every day you come back, you compound.</p>
+<div class="loop-flow">
+<div class="loop-node stagger-item" data-stagger="1">
+<div class="loop-node-icon" aria-hidden="true">
+<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5.5A1.5 1.5 0 0 1 5.5 4H19v15.5A1.5 1.5 0 0 1 17.5 21H6a2 2 0 0 1-2-2Z"/><path d="M7 8h8M7 12h8M7 16h5"/></svg>
+</div>
+<div class="loop-node-label">Lesson</div>
+<div class="loop-node-vis loop-vis-text">5 min · daily</div>
+</div>
+<div class="loop-arrow" aria-hidden="true">→</div>
+<div class="loop-node stagger-item" data-stagger="2">
+<div class="loop-node-icon loop-node-icon--cyan" aria-hidden="true">
+<svg viewBox="0 0 24 24" fill="currentColor"><path d="M13 2 3 14h7l-1 8 10-12h-7l1-8Z"/></svg>
+</div>
+<div class="loop-node-label">XP</div>
+<div class="loop-node-vis loop-vis-bar"><span style="width:72%"></span></div>
+<div class="loop-node-meta">+25 XP</div>
+</div>
+<div class="loop-arrow" aria-hidden="true">→</div>
+<div class="loop-node stagger-item" data-stagger="3">
+<div class="loop-node-icon loop-node-icon--gold" aria-hidden="true">
+<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"><path d="m12 3 2.6 5.3 5.9.9-4.3 4.1 1 5.8L12 16.4l-5.2 2.7 1-5.8L3.5 9.2l5.9-.9Z"/></svg>
+</div>
+<div class="loop-node-label">Rank</div>
+<div class="loop-node-vis loop-vis-tier"><span class="lt lt-bronze"></span><span class="lt lt-silver"></span><span class="lt lt-gold lt-active"></span><span class="lt lt-platinum"></span><span class="lt lt-diamond"></span></div>
+<div class="loop-node-meta">Tier up</div>
+</div>
+<div class="loop-arrow" aria-hidden="true">→</div>
+<div class="loop-node stagger-item" data-stagger="4">
+<div class="loop-node-icon loop-node-icon--flame" aria-hidden="true">
+<svg viewBox="0 0 24 24" fill="currentColor"><path d="M13 2c.5 3-1 4.5-2.5 6S8 11 8 13a4 4 0 1 0 8 0c0-1.5-1-2.5-1.5-3.5C16 9 17 11 17 13.5a5 5 0 1 1-10 0c0-3.5 2-5 3.5-7C11.5 5 12.5 3.5 13 2Z"/></svg>
+</div>
+<div class="loop-node-label">Streak</div>
+<div class="loop-node-vis loop-vis-text">Day 7</div>
+<div class="loop-node-meta loop-node-meta--gold">on fire</div>
+</div>
+<div class="loop-arrow loop-arrow--cycle" aria-hidden="true">↻</div>
+<div class="loop-node loop-node--repeat stagger-item" data-stagger="5">
+<div class="loop-node-icon" aria-hidden="true">
+<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12a9 9 0 0 1 15-6.7L21 8"/><path d="M21 3v5h-5"/><path d="M21 12a9 9 0 0 1-15 6.7L3 16"/><path d="M3 21v-5h5"/></svg>
+</div>
+<div class="loop-node-label">Repeat</div>
+<div class="loop-node-vis loop-vis-text">Tomorrow</div>
+</div>
+</div>
+</div>
+</section>
 <!-- ═══════ SECTION 2: TOOLS YOU'LL MASTER ═══════ -->
 <section class="tools-section reveal" aria-labelledby="tools-heading">
 <div class="section-inner">
 <picture class="section-mascot"><source srcset="assets/platinum-kiro.webp" type="image/webp"/><img alt="" decoding="async" loading="lazy" src="assets/platinum-kiro.png"/></picture>
 <p class="s-label">02 / The tools</p>
-<h2 class="s-title" id="tools-heading">The tools you&rsquo;ll master.</h2>
+<h2 class="s-title" id="tools-heading">Stop using AI like Google.<br/>Start using it like a pro.</h2>
 <p class="s-sub">Eighteen guided paths. The ones people actually use, first.</p>
 <div class="exercise-types">
 <div class="exercise-types-label">Tool Mastery</div>
@@ -1645,8 +2014,8 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
 <section class="rank-section reveal" aria-labelledby="rank-heading">
 <div class="section-inner">
 <p class="s-label">04 / Progression</p>
-<h2 class="s-title" id="rank-heading">Six ranks. One climb.</h2>
-<p class="s-sub">Earn XP. Move up. Watch Iro evolve. The reason you come back tomorrow.</p>
+<h2 class="s-title" id="rank-heading">You don&rsquo;t just learn AI.<br/>You level up.</h2>
+<p class="s-sub">Six ranks. Five thousand XP. One unbroken climb. Watch Iro evolve as you do.</p>
 <div class="rank-track">
 <div class="rank-tier stagger-item" data-stagger="1">
 <span class="rank-tier-idx">TIER I</span>
@@ -1708,10 +2077,49 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
 </div>
 </div>
 </section>
+<!-- ═══════ DUEL — core competitive feature ═══════ -->
+<section class="duel-section reveal" aria-labelledby="duel-heading">
+<div class="section-inner">
+<p class="s-label">05 / Live duels</p>
+<h2 class="s-title" id="duel-heading">Prove you&rsquo;re better than AI.</h2>
+<p class="s-sub">Real-time prompt duels. You vs. the model. Spot the hallucination. Pick the better answer. Win XP.</p>
+<div class="duel-stage">
+<div class="duel-side duel-side--you">
+<div class="duel-side-label">YOU</div>
+<picture class="duel-mascot"><source srcset="assets/diamond-kiro.webp" type="image/webp"/><img alt="Iro mascot" decoding="async" loading="lazy" src="assets/diamond-kiro.png"/></picture>
+<div class="duel-stats">
+<div class="duel-stat"><span class="duel-stat-num">+50</span><span class="duel-stat-label">XP on win</span></div>
+</div>
+</div>
+<div class="duel-vs" aria-hidden="true">
+<div class="duel-vs-ring"></div>
+<div class="duel-vs-text">VS</div>
+<div class="duel-vs-spark"></div>
+</div>
+<div class="duel-side duel-side--ai">
+<div class="duel-side-label">THE MODEL</div>
+<div class="duel-ai-stack">
+<img src="assets/chatgpt.png" alt="" loading="lazy" decoding="async"/>
+<img src="assets/claude.png" alt="" loading="lazy" decoding="async"/>
+<img src="assets/gemini.png" alt="" loading="lazy" decoding="async"/>
+<img src="assets/perplexity.png" alt="" loading="lazy" decoding="async"/>
+</div>
+<div class="duel-stats">
+<div class="duel-stat"><span class="duel-stat-num">4</span><span class="duel-stat-label">models, randomized</span></div>
+</div>
+</div>
+</div>
+<div class="duel-meta">
+<span class="duel-meta-pill"><span class="duel-meta-dot"></span>Live in app</span>
+<span class="duel-meta-pill">Best-of-3 rounds</span>
+<span class="duel-meta-pill">Streaks count double</span>
+</div>
+</div>
+</section>
 <!-- ═══════ SOCIAL PROOF ═══════ -->
 <section class="proof-section reveal" aria-labelledby="proof-heading">
 <div class="section-inner">
-<p class="s-label">05 / Reviews</p>
+<p class="s-label">06 / Reviews</p>
 <h2 class="s-title" id="proof-heading">From the App Store. Unedited.</h2>
 <p class="s-sub">No paid testimonials. No stock avatars. Just real users.</p>
 <div class="proof-grid">
@@ -1788,7 +2196,7 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
 <!-- ═══════ FAQ ═══════ -->
 <section class="faq-section reveal" aria-labelledby="faq-heading">
 <div class="section-inner">
-<p class="s-label">06 / FAQ</p>
+<p class="s-label">07 / FAQ</p>
 <h2 class="s-title" id="faq-heading">Questions, answered.</h2>
 <div class="faq-list">
 
@@ -1824,8 +2232,8 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
 <section class="final-cta reveal" aria-labelledby="final-cta-heading">
 <div class="section-inner">
 <picture><source srcset="assets/gold-kiro.webp" type="image/webp"/><img alt="Iro" class="mascot-accent" decoding="async" loading="lazy" src="assets/gold-kiro.png"/></picture>
-<h2 id="final-cta-heading">Stop scrolling.<br/><span class="grad">Start training.</span></h2>
-<p class="sub">5 minutes a day. Pick a tool. Get fluent.</p>
+<h2 id="final-cta-heading">5 minutes a day is enough.<br/><span class="grad">The only question is: will you do it?</span></h2>
+<p class="sub">No fluff. No theory. Just reps that compound.</p>
 <a class="btn-primary btn-magnetic" href="https://apps.apple.com/app/id6759628066?utm_source=website&utm_medium=cta&utm_campaign=final">Start Free — 7 Day Trial →</a>
 <p class="pricing">7-day free trial · Then <strong>$24.99 / 3 months</strong> or <strong>$9.99 / week</strong> · Cancel anytime</p>
 <div class="email-capture">
