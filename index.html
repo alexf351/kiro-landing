@@ -56,24 +56,12 @@ h1,h2,h3,.s-title,.s-label,.founder-claim,.hiw-item-title{
 }
 .hero h1{letter-spacing:-2.5px}
 
-/* ══════════════════ AMBIENT EFFECTS ══════════════════ */
+/* ══════════════════ AMBIENT — disciplined, static ══════════════════ */
 .ambient-gradient{
   position:fixed;top:0;left:0;right:0;bottom:0;z-index:-2;pointer-events:none;
   background:
-    radial-gradient(ellipse 80% 60% at 15% 25%,rgba(0,229,255,.085),transparent),
-    radial-gradient(ellipse 60% 70% at 85% 75%,rgba(100,50,180,.068),transparent),
-    radial-gradient(ellipse 50% 40% at 50% 50%,rgba(0,180,216,.05),transparent),
-    radial-gradient(ellipse 40% 50% at 70% 20%,rgba(255,215,0,.025),transparent);
-  background-size:200% 200%;
-  animation:ambientDrift 25s ease-in-out infinite alternate
-}
-@keyframes ambientDrift{
-  0%{background-position:0% 0%}
-  20%{background-position:40% 20%}
-  40%{background-position:80% 40%}
-  60%{background-position:60% 70%}
-  80%{background-position:20% 90%}
-  100%{background-position:0% 100%}
+    radial-gradient(ellipse 70% 50% at 12% 0%,rgba(0,229,255,.06),transparent 60%),
+    radial-gradient(ellipse 50% 45% at 100% 100%,rgba(0,180,216,.035),transparent 65%)
 }
 .stars-canvas{
   position:fixed;top:0;left:0;width:100%;height:100%;
@@ -203,20 +191,8 @@ nav::after{
   content:'';position:absolute;top:-200px;left:50%;transform:translateX(-50%);
   width:1200px;height:1200px;
   background:
-    radial-gradient(ellipse at 30% 40%,rgba(0,229,255,.09) 0%,transparent 50%),
-    radial-gradient(ellipse at 70% 60%,rgba(255,215,0,.04) 0%,transparent 45%),
-    radial-gradient(ellipse at 50% 20%,rgba(0,180,216,.06) 0%,transparent 55%);
-  pointer-events:none;animation:heroAmbient 12s ease-in-out infinite alternate
-}
-.hero::after{
-  content:'';position:absolute;top:0;left:0;right:0;bottom:0;
-  background:
-    linear-gradient(135deg,rgba(0,229,255,.02) 0%,transparent 40%,transparent 60%,rgba(255,215,0,.015) 100%);
+    radial-gradient(ellipse at 50% 35%,rgba(0,229,255,.07) 0%,transparent 55%);
   pointer-events:none
-}
-@keyframes heroAmbient{
-  0%{transform:translateX(-50%) scale(1) rotate(0deg);opacity:.8}
-  100%{transform:translateX(-50%) scale(1.08) rotate(2deg);opacity:1}
 }
 /* Backdrop type — massive outlined KIRO behind hero */
 .hero-backdrop{
@@ -274,50 +250,37 @@ nav::after{
 }
 
 .hero h1{
-  font-size:clamp(44px,6.5vw,76px);font-weight:900;line-height:1.0;
-  letter-spacing:-3px;margin-bottom:24px;animation:fadeInUp .6s ease
+  font-size:clamp(52px,8.4vw,104px);font-weight:900;line-height:.94;
+  letter-spacing:-3.5px;margin-bottom:28px;animation:fadeInUp .6s ease
 }
 .hero h1 .line1{display:block;color:var(--text)}
-.hero h1 .line2{
-  display:block;
-  background:linear-gradient(90deg,var(--cyan),var(--cyan-light),var(--gold),var(--cyan));
-  background-size:300% 100%;
-  -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;
-  animation:iridescent 8s ease infinite
-}
-@keyframes iridescent{0%,100%{background-position:0% 50%}50%{background-position:100% 50%}}
-@keyframes shimmer{0%,100%{background-position:0% 50%}50%{background-position:100% 50%}}
+.hero h1 .line2{display:block;color:var(--cyan)}
 
 .hero-sub{
-  font-size:clamp(16px,2vw,19px);color:var(--text2);max-width:480px;
-  margin-bottom:40px;line-height:1.6;animation:fadeInUp .7s ease
+  font-size:clamp(17px,1.5vw,21px);color:var(--text2);max-width:520px;
+  margin-bottom:44px;line-height:1.55;animation:fadeInUp .7s ease;letter-spacing:-.1px
 }
-.hero-sub strong{color:var(--text);font-weight:600}
+.hero-sub strong{color:var(--text);font-weight:700}
 
 .hero-ctas{display:flex;gap:14px;align-items:center;animation:fadeInUp .8s ease;flex-wrap:wrap}
 .btn-primary{
-  background:linear-gradient(135deg,var(--cyan),var(--cyan-light));color:var(--bg);
-  border:none;padding:16px 36px;border-radius:14px;
-  font-family:'Outfit',sans-serif;font-weight:700;font-size:16px;cursor:pointer;text-decoration:none;
-  transition:all .3s;display:inline-flex;align-items:center;gap:8px;
-  box-shadow:0 0 40px rgba(0,229,255,.2),0 4px 20px rgba(0,0,0,.3);
-  position:relative;overflow:hidden
+  background:var(--cyan);color:var(--bg);
+  border:none;padding:17px 36px;border-radius:14px;
+  font-family:'Outfit',sans-serif;font-weight:800;font-size:16px;cursor:pointer;text-decoration:none;
+  transition:transform .25s cubic-bezier(.2,.9,.3,1.2),box-shadow .25s ease,background .25s ease;
+  display:inline-flex;align-items:center;gap:8px;letter-spacing:-.1px;
+  box-shadow:0 1px 0 rgba(255,255,255,.25) inset,0 8px 24px rgba(0,0,0,.35),0 0 0 1px rgba(0,229,255,.4)
 }
-.btn-primary::before{
-  content:'';position:absolute;top:0;left:-100%;width:100%;height:100%;
-  background:linear-gradient(90deg,transparent,rgba(255,255,255,.15),transparent);
-  transition:left .5s ease
-}
-.btn-primary:hover::before{left:100%}
-.btn-primary:hover{transform:translateY(-2px);box-shadow:0 0 60px rgba(0,229,255,.4),0 8px 32px rgba(0,0,0,.4)}
+.btn-primary:hover{transform:translateY(-2px);background:#1AECFF;box-shadow:0 1px 0 rgba(255,255,255,.3) inset,0 14px 32px rgba(0,0,0,.45),0 0 0 1px rgba(0,229,255,.55)}
 .btn-ghost{
-  background:rgba(255,255,255,.03);color:var(--text2);
-  border:1px solid rgba(255,255,255,.08);
-  padding:16px 28px;border-radius:14px;font-family:'Outfit',sans-serif;font-weight:600;
-  font-size:15px;cursor:pointer;text-decoration:none;transition:all .3s;
-  backdrop-filter:blur(4px);-webkit-backdrop-filter:blur(4px)
+  background:transparent;color:var(--text);
+  border:1px solid rgba(255,255,255,.16);
+  padding:17px 28px;border-radius:14px;font-family:'Outfit',sans-serif;font-weight:700;
+  font-size:15px;cursor:pointer;text-decoration:none;
+  transition:transform .25s cubic-bezier(.2,.9,.3,1.2),border-color .2s ease,background .2s ease;
+  letter-spacing:-.1px
 }
-.btn-ghost:hover{border-color:rgba(0,229,255,.25);color:var(--text);background:rgba(0,229,255,.04)}
+.btn-ghost:hover{border-color:rgba(255,255,255,.32);background:rgba(255,255,255,.04);transform:translateY(-2px)}
 .btn-primary:focus-visible,.btn-ghost:focus-visible,.nav-cta:focus-visible,.quiz-callout:focus-visible,.faq-q:focus-visible,
 .nav-brand:focus-visible,.nav-link:focus-visible,.footer-links a:focus-visible,footer a:focus-visible,
 .sticky-cta-btn:focus-visible,.mini-quiz-opt:focus-visible,.email-form button:focus-visible{
@@ -333,16 +296,8 @@ nav::after{
   position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);
   width:440px;height:440px;border-radius:50%;
   background:
-    radial-gradient(circle,rgba(0,229,255,.12) 0%,rgba(0,229,255,.04) 40%,transparent 70%);
-  box-shadow:
-    0 0 80px 20px rgba(0,229,255,.08),
-    0 0 160px 60px rgba(0,180,216,.04);
-  pointer-events:none;
-  animation:glowPulse 4s ease-in-out infinite
-}
-@keyframes glowPulse{
-  0%,100%{transform:translate(-50%,-50%) scale(1);opacity:.8}
-  50%{transform:translate(-50%,-50%) scale(1.06);opacity:1}
+    radial-gradient(circle,rgba(0,229,255,.10) 0%,rgba(0,229,255,.03) 40%,transparent 70%);
+  pointer-events:none
 }
 /* Dashed outer ring, counter-rotating slow */
 .hero-mascot-frame{
@@ -461,12 +416,7 @@ nav::after{
   font-size:clamp(28px,4vw,44px);letter-spacing:-1.5px;line-height:1.05;
   color:var(--text);margin:0
 }
-.founder-claim-em{
-  font-weight:900;
-  background:linear-gradient(90deg,var(--cyan),var(--gold));
-  -webkit-background-clip:text;background-clip:text;
-  -webkit-text-fill-color:transparent
-}
+.founder-claim-em{font-weight:900;color:var(--cyan)}
 .founder-sub{
   font-size:15px;color:var(--text2);max-width:580px;line-height:1.65;margin:0
 }
@@ -553,10 +503,8 @@ nav::after{
 }
 .why-now .s-label{margin-bottom:24px}
 .why-now .s-title{
-  font-size:clamp(36px,5.5vw,56px);font-weight:700;letter-spacing:-2.5px;
-  line-height:1.05;margin-bottom:28px;
-  background:linear-gradient(180deg,var(--text) 40%,var(--text2));
-  -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text
+  font-size:clamp(40px,6vw,68px);font-weight:800;letter-spacing:-2.8px;
+  line-height:1.02;margin-bottom:28px;color:var(--text)
 }
 .why-now-body{
   max-width:560px;margin:0 auto;
@@ -617,18 +565,18 @@ nav::after{
 section{padding:100px 24px;position:relative}
 .section-inner{max-width:1140px;margin:0 auto}
 .s-label{
-  font-size:11px;font-weight:700;letter-spacing:4px;text-transform:uppercase;
-  color:var(--text3);opacity:.7;margin-bottom:14px;text-align:center
+  font-family:'JetBrains Mono',monospace;
+  font-size:11px;font-weight:500;letter-spacing:3px;text-transform:uppercase;
+  color:var(--text3);opacity:.85;margin-bottom:18px;text-align:center
 }
 .s-title{
-  font-size:clamp(34px,5vw,52px);font-weight:700;letter-spacing:-2px;
-  line-height:1.08;text-align:center;margin-bottom:18px;
-  background:linear-gradient(180deg,var(--text) 40%,var(--text2));
-  -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text
+  font-size:clamp(38px,5.6vw,64px);font-weight:800;letter-spacing:-2.4px;
+  line-height:1.04;text-align:center;margin-bottom:20px;
+  color:var(--text)
 }
 .s-sub{
-  font-size:16px;color:var(--text2);text-align:center;max-width:520px;
-  margin:0 auto 56px;line-height:1.55
+  font-size:17px;color:var(--text2);text-align:center;max-width:540px;
+  margin:0 auto 64px;line-height:1.55
 }
 
 /* ══════════════════ WHY KIRO (3 CARDS) ══════════════════ */
@@ -896,37 +844,21 @@ section{padding:100px 24px;position:relative}
 .rank-tier:nth-of-type(5) .rank-tier-name{color:var(--iridescent-blue)}
 .rank-tier:nth-of-type(6) .rank-tier-name{color:var(--cyan)}
 /* Locked tier */
-.rank-tier--locked .rank-tier-name{
-  background:linear-gradient(90deg,#00E5FF,#B9F2FF,var(--iridescent-pink),#FFD700,#00E5FF);
-  background-size:300% 100%;
-  -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;
-  animation:iridescentLock 6s ease infinite
-}
-@keyframes iridescentLock{0%,100%{background-position:0% 50%}50%{background-position:100% 50%}}
+.rank-tier--locked .rank-tier-name{color:var(--iridescent-blue)}
 .rank-tier-locked{
   width:100px;height:100px;
   display:flex;align-items:center;justify-content:center;
   border-radius:50%;position:relative;
-  background:
-    conic-gradient(from 45deg,rgba(0,229,255,.1),rgba(255,107,255,.1),rgba(185,242,255,.1),rgba(255,215,0,.06),rgba(0,229,255,.1)),
-    radial-gradient(circle,rgba(10,14,26,.4) 0%,rgba(0,0,0,.7) 100%);
-  border:1.5px solid rgba(0,229,255,.18);
+  background:radial-gradient(circle,rgba(20,27,45,.5) 0%,rgba(0,0,0,.75) 100%);
+  border:1.5px solid rgba(0,229,255,.22);
   box-shadow:
     inset 0 0 30px rgba(0,0,0,.6),
-    0 0 30px rgba(255,107,255,.1),
-    0 0 60px rgba(0,229,255,.06);
-  animation:lockedPrism 10s linear infinite;
+    0 0 24px rgba(0,229,255,.08);
   transition:all .4s;z-index:2
 }
-@keyframes lockedPrism{0%{filter:hue-rotate(0deg) brightness(1)}50%{filter:hue-rotate(180deg) brightness(1.08)}100%{filter:hue-rotate(360deg) brightness(1)}}
 .rank-tier-locked::before{
   content:'';position:absolute;inset:-3px;border-radius:50%;
-  border:1px solid transparent;
-  background:conic-gradient(from 0deg,rgba(0,229,255,.4),rgba(255,107,255,.3),rgba(185,242,255,.4),rgba(255,215,0,.25),rgba(0,229,255,.4));
-  -webkit-mask:linear-gradient(#fff 0 0) padding-box,linear-gradient(#fff 0 0);
-  -webkit-mask-composite:xor;mask-composite:exclude;
-  animation:ringRotateSlow 12s linear infinite;
-  opacity:.6
+  border:1px solid rgba(0,229,255,.25);opacity:.7
 }
 .rank-tier-locked::after{
   content:'';position:absolute;inset:6px;border-radius:50%;
@@ -1066,24 +998,14 @@ section{padding:100px 24px;position:relative}
   content:'';position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);
   width:1000px;height:1000px;
   background:
-    radial-gradient(ellipse at 40% 50%,rgba(0,229,255,.06) 0%,transparent 50%),
-    radial-gradient(ellipse at 60% 40%,rgba(255,215,0,.03) 0%,transparent 45%);
-  pointer-events:none;animation:ctaAmbient 10s ease-in-out infinite alternate
-}
-@keyframes ctaAmbient{
-  0%{transform:translate(-50%,-50%) scale(1);opacity:.7}
-  100%{transform:translate(-50%,-50%) scale(1.1);opacity:1}
+    radial-gradient(ellipse at 50% 45%,rgba(0,229,255,.05) 0%,transparent 55%);
+  pointer-events:none
 }
 .final-cta h2{
-  font-size:clamp(42px,7vw,68px);font-weight:900;letter-spacing:-3px;
-  line-height:1.02;margin-bottom:20px;position:relative;z-index:1
+  font-size:clamp(48px,8vw,88px);font-weight:900;letter-spacing:-3.5px;
+  line-height:.96;margin-bottom:22px;position:relative;z-index:1
 }
-.final-cta h2 .grad{
-  background:linear-gradient(90deg,var(--cyan),var(--cyan-light),var(--gold),var(--cyan));
-  background-size:300% 100%;
-  -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;
-  animation:iridescent 8s ease infinite
-}
+.final-cta h2 .grad{color:var(--cyan)}
 .final-cta .sub{
   font-size:17px;color:var(--text2);margin-bottom:40px;max-width:420px;
   margin-left:auto;margin-right:auto;line-height:1.6;position:relative;z-index:1
@@ -1544,9 +1466,7 @@ footer .footer-copy{opacity:.3;font-size:11px;letter-spacing:.5px}
 /* Nav entrance */
 nav{animation:navSlideIn .5s cubic-bezier(.25,1,.5,1) both}
 @keyframes navSlideIn{from{opacity:0;transform:translateY(-10px)}to{opacity:1;transform:translateY(0)}}
-/* Final CTA glow pulse */
-@keyframes ctaBtnGlow{0%,100%{box-shadow:0 0 40px rgba(0,229,255,.2),0 4px 20px rgba(0,0,0,.3)}50%{box-shadow:0 0 80px rgba(0,229,255,.45),0 8px 32px rgba(0,0,0,.4)}}
-.final-cta .btn-primary{animation:ctaBtnGlow 3.5s ease-in-out infinite}
+.final-cta .btn-primary{box-shadow:0 0 48px rgba(0,229,255,.22),0 6px 24px rgba(0,0,0,.35)}
 
 /* ══════════════════ RESPONSIVE ══════════════════ */
 @media(max-width:1024px){
@@ -1701,8 +1621,7 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
 <a class="btn-primary" href="https://apps.apple.com/app/id6759628066?utm_source=website&utm_medium=cta&utm_campaign=hero">Start Free — 7 Day Trial →</a>
 <a class="btn-ghost" href="#hiw-heading">See it in action</a>
 </div>
-<p class="cta-platform">Available on iOS · <span class="platform-soon">Android coming soon</span></p>
-<p class="cta-micro">Free to start · Pro from $1.92/week</p>
+<p class="cta-platform">iOS · Free to start · Pro from $1.92/week · <span class="platform-soon">Android soon</span></p>
 </div>
 <div class="hero-visual">
 <div class="hero-mascot-wrap">
@@ -1718,7 +1637,7 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
 <section class="tools-section reveal" aria-labelledby="tools-heading">
 <div class="section-inner">
 <picture class="section-mascot"><source srcset="assets/platinum-kiro.webp" type="image/webp"/><img alt="" decoding="async" loading="lazy" src="assets/platinum-kiro.png"/></picture>
-<p class="s-label">Pick Your Tool</p>
+<p class="s-label">02 / The tools</p>
 <h2 class="s-title" id="tools-heading">The tools you&rsquo;ll master.</h2>
 <p class="s-sub">Eighteen guided paths. The ones people actually use, first.</p>
 <div class="exercise-types">
@@ -1764,9 +1683,9 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
 <!-- ═══════ SECTION 3: HOW KIRO WORKS ═══════ -->
 <section class="hiw-section reveal" aria-labelledby="hiw-heading">
 <div class="section-inner">
-<p class="s-label">How Iro Works</p>
-<h2 class="s-title" id="hiw-heading">Pick. Practice. Progress.</h2>
-<p class="s-sub">Built around real tools, not generic theory. Reps, not videos. Five minutes a day.</p>
+<p class="s-label">03 / How it works</p>
+<h2 class="s-title" id="hiw-heading">A real system, not a course.</h2>
+<p class="s-sub">Real tools. Real reps. Real feedback. Five minutes a day, built to compound.</p>
 <div class="hiw-grid">
 <div class="hiw-item stagger-item" data-stagger="1">
 <picture class="hiw-item-mascot"><source srcset="assets/bronze-kiro.webp" type="image/webp"/><img alt="" decoding="async" loading="lazy" src="assets/bronze-kiro.png"/></picture>
@@ -1801,9 +1720,9 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
 <!-- ═══════ RANK EVOLUTION ═══════ -->
 <section class="rank-section reveal" aria-labelledby="rank-heading">
 <div class="section-inner">
-<p class="s-label">Rank Progression</p>
-<h2 class="s-title" id="rank-heading">Earn XP. Climb ranks. Evolve Iro.</h2>
-<p class="s-sub">Six visible tiers of progress that make you want to come back tomorrow.</p>
+<p class="s-label">04 / Progression</p>
+<h2 class="s-title" id="rank-heading">Six ranks. One climb.</h2>
+<p class="s-sub">Earn XP. Move up. Watch Iro evolve. The reason you come back tomorrow.</p>
 <div class="rank-track">
 <div class="rank-tier stagger-item" data-stagger="1">
 <span class="rank-tier-idx">TIER I</span>
@@ -1868,9 +1787,9 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
 <!-- ═══════ SOCIAL PROOF ═══════ -->
 <section class="proof-section reveal" aria-labelledby="proof-heading">
 <div class="section-inner">
-<p class="s-label">Real Talk</p>
-<h2 class="s-title" id="proof-heading">Real reviews. Real users.</h2>
-<p class="s-sub">From the App Store, unedited.</p>
+<p class="s-label">05 / Reviews</p>
+<h2 class="s-title" id="proof-heading">From the App Store. Unedited.</h2>
+<p class="s-sub">No paid testimonials. No stock avatars. Just real users.</p>
 <div class="proof-grid">
 <div class="proof-card proof-card--feature stagger-item" data-stagger="1">
 <span class="proof-quote-mark" aria-hidden="true">&ldquo;</span>
@@ -1945,8 +1864,8 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
 <!-- ═══════ FAQ ═══════ -->
 <section class="faq-section reveal" aria-labelledby="faq-heading">
 <div class="section-inner">
-<p class="s-label">FAQ</p>
-<h2 class="s-title" id="faq-heading">Got questions?</h2>
+<p class="s-label">06 / FAQ</p>
+<h2 class="s-title" id="faq-heading">Questions, answered.</h2>
 <div class="faq-list">
 
 <div class="faq-item">
