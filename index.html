@@ -42,6 +42,26 @@
   pointer-events:none;will-change:transform
 }
 .parallax{will-change:transform}
+/* Cursor-tracking ambient glow (desktop only) */
+.cursor-glow{
+  position:fixed;top:0;left:0;width:520px;height:520px;
+  margin-left:-260px;margin-top:-260px;
+  pointer-events:none;z-index:0;opacity:0;
+  background:radial-gradient(circle,rgba(0,229,255,.10) 0%,rgba(0,229,255,.04) 30%,transparent 65%);
+  transition:opacity .4s ease;
+  transform:translate3d(var(--cx,50vw),var(--cy,50vh),0);
+  will-change:transform,opacity;
+  mix-blend-mode:screen
+}
+@media(hover:hover) and (pointer:fine){
+  .cursor-glow.is-active{opacity:1}
+}
+@media(hover:none),(pointer:coarse){
+  .cursor-glow{display:none}
+}
+/* Magnetic CTAs */
+.btn-magnetic{transition:transform .35s cubic-bezier(.2,.9,.3,1.2),box-shadow .25s ease,background .25s ease}
+.btn-magnetic:hover{transition-duration:.12s}
 :root{
   --bg:#0A0E1A;--bg1:#0F1425;--surface:#141B2D;--surface-border:#1E2740;
   --text:#FFFFFF;--text2:#8B95B0;--text3:#8890AA;
@@ -71,11 +91,6 @@ h1,h2,h3,.s-title,.s-label,.founder-claim,.hiw-item-title{
     radial-gradient(ellipse 70% 50% at 12% 0%,rgba(0,229,255,.06),transparent 60%),
     radial-gradient(ellipse 50% 45% at 100% 100%,rgba(0,180,216,.035),transparent 65%)
 }
-.stars-canvas{
-  position:fixed;top:0;left:0;width:100%;height:100%;
-  z-index:-1;pointer-events:none
-}
-
 /* ══════════════════ HUD PRIMITIVES ══════════════════ */
 /* Tactical blueprint grid — subtle, used behind key sections */
 .hud-grid-bg{
@@ -243,10 +258,25 @@ nav::after{
 
 .hero h1{
   font-size:clamp(52px,8.4vw,104px);font-weight:900;line-height:.94;
-  letter-spacing:-3.5px;margin-bottom:28px;animation:fadeInUp .6s ease
+  letter-spacing:-3.5px;margin-bottom:28px
 }
 .hero h1 .line1{display:block;color:var(--text)}
 .hero h1 .line2{display:block;color:var(--cyan)}
+/* Word-by-word cinematic reveal */
+.hero-h1-reveal .word{
+  display:inline-block;overflow:hidden;vertical-align:baseline
+}
+.hero-h1-reveal .word > span{
+  display:inline-block;transform:translateY(115%);
+  animation:wordRise .9s cubic-bezier(.16,1,.3,1) forwards
+}
+.hero-h1-reveal .line1 .word:nth-child(1) > span{animation-delay:.05s}
+.hero-h1-reveal .line1 .word:nth-child(2) > span{animation-delay:.13s}
+.hero-h1-reveal .line1 .word:nth-child(3) > span{animation-delay:.21s}
+.hero-h1-reveal .line1 .word:nth-child(4) > span{animation-delay:.29s}
+.hero-h1-reveal .line2 .word:nth-child(1) > span{animation-delay:.4s}
+.hero-h1-reveal .line2 .word:nth-child(2) > span{animation-delay:.48s}
+@keyframes wordRise{from{transform:translateY(115%)}to{transform:translateY(0)}}
 
 .hero-sub{
   font-size:clamp(17px,1.5vw,21px);color:var(--text2);max-width:520px;
@@ -791,6 +821,140 @@ section{padding:140px 24px;position:relative}
 }
 .rank-tier--locked:hover .rank-tier-hint{opacity:.85}
 .rank-arrow{display:none}
+
+/* ══════════════════ RANK CINEMA — pinned scroll evolution ══════════════════ */
+.rank-cinema{
+  position:relative;padding:0;
+  background:linear-gradient(180deg,var(--bg) 0%,#0d1530 35%,#0d1530 65%,var(--bg) 100%);
+  overflow:hidden
+}
+.rank-cinema::before{
+  content:'';position:absolute;top:0;left:0;right:0;height:1px;
+  background:linear-gradient(90deg,transparent 5%,rgba(0,229,255,.25) 50%,transparent 95%)
+}
+.rank-cinema::after{
+  content:'';position:absolute;bottom:0;left:0;right:0;height:1px;
+  background:linear-gradient(90deg,transparent 5%,rgba(0,229,255,.25) 50%,transparent 95%)
+}
+.rank-cinema-track{
+  position:relative;height:540vh
+}
+.rank-cinema-stage{
+  position:sticky;top:0;height:100vh;
+  display:flex;flex-direction:column;align-items:center;justify-content:center;
+  padding:80px 24px 64px;text-align:center;
+  overflow:hidden
+}
+.rank-cinema-head{margin-bottom:8px}
+.rank-cinema-head .s-label{margin-bottom:14px}
+.rank-cinema-head .s-title{
+  font-size:clamp(36px,4.4vw,52px);font-weight:800;letter-spacing:-1.8px;
+  line-height:1.05;margin-bottom:10px;color:var(--text)
+}
+.rank-cinema-head .s-sub{
+  font-size:15px;color:var(--text2);max-width:480px;margin:0 auto 0;line-height:1.5
+}
+/* Mascot stage — all mascots stacked, only active visible */
+.rank-cinema-mascot{
+  position:relative;width:min(420px,55vh);height:min(420px,55vh);
+  margin:8px auto 4px
+}
+.rank-cinema-glow{
+  position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);
+  width:120%;height:120%;border-radius:50%;
+  background:radial-gradient(circle,var(--rc-glow,rgba(0,229,255,.18)) 0%,transparent 60%);
+  filter:blur(8px);
+  transition:background .6s ease;
+  pointer-events:none
+}
+.rank-mascot-img{
+  position:absolute;inset:0;
+  display:flex;align-items:center;justify-content:center;
+  opacity:0;transform:scale(.86);
+  transition:opacity .6s cubic-bezier(.16,1,.3,1),transform .6s cubic-bezier(.16,1,.3,1);
+  filter:drop-shadow(0 24px 56px rgba(0,0,0,.5));
+  will-change:opacity,transform
+}
+.rank-mascot-img img{width:100%;height:100%;object-fit:contain}
+.rank-mascot-img.is-active{opacity:1;transform:scale(1)}
+/* Tier name + XP */
+.rank-cinema-info{
+  display:flex;flex-direction:column;align-items:center;gap:6px;
+  min-height:140px;justify-content:flex-start;margin-top:6px
+}
+.rank-cinema-name{
+  font-family:'Geist','Outfit',sans-serif;font-weight:900;
+  font-size:clamp(56px,9vw,112px);letter-spacing:-3.8px;line-height:.95;
+  color:var(--rc-color,var(--cyan));
+  transition:color .6s ease,opacity .35s ease,transform .45s cubic-bezier(.16,1,.3,1);
+  text-transform:uppercase
+}
+.rank-cinema-name.is-flip{opacity:0;transform:translateY(14px)}
+.rank-cinema-tier-idx{
+  font-family:'JetBrains Mono',monospace;
+  font-size:11px;font-weight:500;letter-spacing:3.5px;text-transform:uppercase;
+  color:var(--text3);opacity:.7
+}
+.rank-cinema-xp{
+  font-family:'JetBrains Mono',monospace;
+  font-size:14px;font-weight:600;letter-spacing:1.2px;
+  color:var(--text2);font-variant-numeric:tabular-nums
+}
+.rank-cinema-xp-num{color:var(--text);font-weight:700}
+/* Progress timeline */
+.rank-cinema-progress{
+  position:relative;width:min(900px,100%);margin:24px auto 0;
+  padding:0 8px
+}
+.rank-cinema-progress-bar{
+  position:relative;height:2px;background:rgba(255,255,255,.06);border-radius:1px;
+  overflow:visible
+}
+.rank-cinema-progress-fill{
+  position:absolute;top:0;left:0;height:100%;
+  background:linear-gradient(90deg,#CD7F32 0%,#C0C0C0 18%,#FFD700 38%,#E5E4E2 58%,#B9F2FF 78%,#00E5FF 100%);
+  border-radius:1px;
+  width:var(--rc-progress,0%);
+  box-shadow:0 0 12px rgba(0,229,255,.4);
+  transition:width .15s linear
+}
+.rank-cinema-ticks{
+  list-style:none;margin:0;padding:0;
+  display:grid;grid-template-columns:repeat(6,1fr);
+  margin-top:14px;gap:4px
+}
+.rank-cinema-ticks li{
+  text-align:center;position:relative;
+  display:flex;flex-direction:column;align-items:center;gap:6px
+}
+.rank-cinema-ticks li::before{
+  content:'';position:absolute;top:-21px;left:50%;transform:translateX(-50%);
+  width:8px;height:8px;border-radius:50%;
+  background:rgba(255,255,255,.12);
+  transition:background .35s ease,box-shadow .35s ease,transform .35s cubic-bezier(.2,.9,.3,1.2)
+}
+.rank-cinema-ticks li.is-passed::before{background:var(--rc-tick,var(--cyan))}
+.rank-cinema-ticks li.is-active::before{
+  background:var(--rc-tick,var(--cyan));
+  box-shadow:0 0 0 4px rgba(0,229,255,.18),0 0 18px rgba(0,229,255,.5);
+  transform:translateX(-50%) scale(1.3)
+}
+.rank-cinema-ticks li span{
+  font-family:'JetBrains Mono',monospace;
+  font-size:10px;font-weight:500;letter-spacing:2px;text-transform:uppercase;
+  color:var(--text3);opacity:.55;
+  transition:color .35s ease,opacity .35s ease
+}
+.rank-cinema-ticks li.is-active span{color:var(--text);opacity:1}
+.rank-cinema-ticks li.is-passed span{opacity:.85}
+/* Mobile fallback — disable pin, simpler stacked layout */
+@media(max-width:768px){
+  .rank-cinema-track{height:auto}
+  .rank-cinema-stage{position:relative;height:auto;min-height:auto;padding:72px 20px}
+  .rank-cinema-mascot{width:240px;height:240px}
+  .rank-cinema-name{font-size:clamp(48px,12vw,72px);letter-spacing:-2.2px}
+  .rank-cinema-ticks li span{font-size:9px;letter-spacing:1px}
+}
 
 /* ══════════════════ SOCIAL PROOF (EDITORIAL) ══════════════════ */
 .proof-section{
@@ -1429,7 +1593,7 @@ nav{animation:navSlideIn .5s cubic-bezier(.25,1,.5,1) both}
     transition-duration:.01ms !important;
     scroll-behavior:auto !important
   }
-  .stars-canvas,.ambient-gradient{display:none}
+  .ambient-gradient,.cursor-glow{display:none}
 }
 
 /* ════════ Section accent rhythm — bold per-section colors ════════ */
@@ -1482,8 +1646,8 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
 </head>
 <body>
 <div class="scroll-progress" aria-hidden="true"></div>
+<div class="cursor-glow" aria-hidden="true"></div>
 <div class="ambient-gradient"></div>
-<canvas class="stars-canvas" id="starsCanvas" aria-hidden="true"></canvas>
 <a href="#main" class="skip-link">Skip to content</a>
 <!-- ═══════ NAV ═══════ -->
 <nav aria-label="Main navigation">
@@ -1505,15 +1669,15 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
 <div class="hero-badge-row">
 <span class="hud-pill"><span>Live on iOS</span></span>
 </div>
-<h1 id="hero-heading">
-<span class="line1">Master the AI tools</span>
-<span class="line2">that matter.</span>
+<h1 id="hero-heading" class="hero-h1-reveal">
+<span class="line1"><span class="word"><span>Master</span></span> <span class="word"><span>the</span></span> <span class="word"><span>AI</span></span> <span class="word"><span>tools</span></span></span>
+<span class="line2"><span class="word"><span>that</span></span> <span class="word"><span>matter.</span></span></span>
 </h1>
 <p class="hero-sub">
 <strong>ChatGPT. Claude. Gemini. Perplexity.</strong> AI coding, image gen, video gen, job hunting. Five minutes a day.
       </p>
 <div class="hero-ctas">
-<a class="btn-primary" href="https://apps.apple.com/app/id6759628066?utm_source=website&utm_medium=cta&utm_campaign=hero">Start Free — 7 Day Trial →</a>
+<a class="btn-primary btn-magnetic" href="https://apps.apple.com/app/id6759628066?utm_source=website&utm_medium=cta&utm_campaign=hero">Start Free — 7 Day Trial →</a>
 <a class="btn-ghost" href="#hiw-heading">See it in action</a>
 </div>
 <p class="cta-platform">iOS · Free to start · Pro from $1.92/week · <span class="platform-soon">Android soon</span></p>
@@ -1610,69 +1774,39 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
 </div>
 </div>
 </section>
-<!-- ═══════ RANK EVOLUTION ═══════ -->
-<section class="rank-section reveal" aria-labelledby="rank-heading">
-<div class="section-inner">
+<!-- ═══════ RANK CINEMA ═══════ -->
+<section class="rank-cinema" aria-labelledby="rank-heading" id="rankCinema">
+<div class="rank-cinema-track">
+<div class="rank-cinema-stage">
+<div class="rank-cinema-head">
 <p class="s-label">04 / Progression</p>
-<h2 class="s-title" id="rank-heading">Six ranks. One climb.</h2>
-<p class="s-sub">Earn XP. Move up. Watch Iro evolve. The reason you come back tomorrow.</p>
-<div class="rank-track">
-<div class="rank-tier stagger-item" data-stagger="1">
-<span class="rank-tier-idx">TIER I</span>
-<div class="rank-tier-pedestal">
-<picture><source srcset="assets/bronze-kiro.webp" type="image/webp"/><img alt="Bronze Iro" class="rank-tier-img" decoding="async" loading="lazy" src="assets/bronze-kiro.png"/></picture>
-<div class="rank-plinth" aria-hidden="true"></div>
+<h2 class="s-title" id="rank-heading">Watch Iro evolve.</h2>
+<p class="s-sub">Six ranks. Five thousand XP. One unbroken climb.</p>
 </div>
-<span class="rank-tier-name">Bronze</span>
-<span class="rank-tier-xp">0 XP</span>
+<div class="rank-cinema-mascot" id="rankMascotStage" aria-live="polite">
+<div class="rank-cinema-glow" aria-hidden="true"></div>
+<picture class="rank-mascot-img is-active" data-tier="0"><source srcset="assets/bronze-kiro.webp" type="image/webp"/><img alt="Bronze Iro" decoding="async" src="assets/bronze-kiro.png"/></picture>
+<picture class="rank-mascot-img" data-tier="1"><source srcset="assets/silver-kiro.webp" type="image/webp"/><img alt="Silver Iro" decoding="async" loading="lazy" src="assets/silver-kiro.png"/></picture>
+<picture class="rank-mascot-img" data-tier="2"><source srcset="assets/gold-kiro.webp" type="image/webp"/><img alt="Gold Iro" decoding="async" loading="lazy" src="assets/gold-kiro.png"/></picture>
+<picture class="rank-mascot-img" data-tier="3"><source srcset="assets/platinum-kiro.webp" type="image/webp"/><img alt="Platinum Iro" decoding="async" loading="lazy" src="assets/platinum-kiro.png"/></picture>
+<picture class="rank-mascot-img" data-tier="4"><source srcset="assets/diamond-kiro.webp" type="image/webp"/><img alt="Diamond Iro" decoding="async" loading="lazy" src="assets/diamond-kiro.png"/></picture>
+<picture class="rank-mascot-img" data-tier="5"><source srcset="assets/iridescent-kiro.webp" type="image/webp"/><img alt="Iridescent Iro" decoding="async" loading="lazy" src="assets/iridescent-kiro.png"/></picture>
 </div>
-<div class="rank-tier stagger-item" data-stagger="2">
-<span class="rank-tier-idx">TIER II</span>
-<div class="rank-tier-pedestal">
-<picture><source srcset="assets/silver-kiro.webp" type="image/webp"/><img alt="Silver Iro" class="rank-tier-img" decoding="async" loading="lazy" src="assets/silver-kiro.png"/></picture>
-<div class="rank-plinth" aria-hidden="true"></div>
+<div class="rank-cinema-info">
+<div class="rank-cinema-tier-idx" id="rankTierIdx">TIER I</div>
+<div class="rank-cinema-name" id="rankTierName">Bronze</div>
+<div class="rank-cinema-xp"><span class="rank-cinema-xp-num" id="rankXpNum">0</span> / 5,000 XP</div>
 </div>
-<span class="rank-tier-name">Silver</span>
-<span class="rank-tier-xp">200 XP</span>
-</div>
-<div class="rank-tier stagger-item" data-stagger="3">
-<span class="rank-tier-idx">TIER III</span>
-<div class="rank-tier-pedestal">
-<picture><source srcset="assets/gold-kiro.webp" type="image/webp"/><img alt="Gold Iro" class="rank-tier-img" decoding="async" loading="lazy" src="assets/gold-kiro.png"/></picture>
-<div class="rank-plinth" aria-hidden="true"></div>
-</div>
-<span class="rank-tier-name">Gold</span>
-<span class="rank-tier-xp">550 XP</span>
-</div>
-<div class="rank-tier stagger-item" data-stagger="4">
-<span class="rank-tier-idx">TIER IV</span>
-<div class="rank-tier-pedestal">
-<picture><source srcset="assets/platinum-kiro.webp" type="image/webp"/><img alt="Platinum Iro" class="rank-tier-img" decoding="async" loading="lazy" src="assets/platinum-kiro.png"/></picture>
-<div class="rank-plinth" aria-hidden="true"></div>
-</div>
-<span class="rank-tier-name">Platinum</span>
-<span class="rank-tier-xp">1,100 XP</span>
-</div>
-<div class="rank-tier stagger-item" data-stagger="5">
-<span class="rank-tier-idx">TIER V</span>
-<div class="rank-tier-pedestal">
-<picture><source srcset="assets/diamond-kiro.webp" type="image/webp"/><img alt="Diamond Iro" class="rank-tier-img" decoding="async" loading="lazy" src="assets/diamond-kiro.png"/></picture>
-<div class="rank-plinth" aria-hidden="true"></div>
-</div>
-<span class="rank-tier-name">Diamond</span>
-<span class="rank-tier-xp">2,300 XP</span>
-</div>
-<div class="rank-tier rank-tier--locked stagger-item" data-stagger="6">
-<span class="rank-tier-idx">TIER VI</span>
-<div class="rank-tier-pedestal">
-<div class="rank-tier-locked" aria-label="Locked mascot">
-<span class="rank-tier-locked-icon"><svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="7" y="14" width="18" height="13" rx="2"/><path d="M11 14 v-4 a5 5 0 0 1 10 0 v4"/><circle cx="16" cy="20" r="1.5" fill="currentColor" stroke="none"/></svg></span>
-</div>
-<div class="rank-plinth" aria-hidden="true"></div>
-</div>
-<span class="rank-tier-name">Iridescent</span>
-<span class="rank-tier-xp">5,000 XP</span>
-<span class="rank-tier-hint">Reach top to unlock</span>
+<div class="rank-cinema-progress">
+<div class="rank-cinema-progress-bar"><div class="rank-cinema-progress-fill" id="rankProgressFill"></div></div>
+<ul class="rank-cinema-ticks" id="rankCinemaTicks">
+<li class="is-active" data-tier="0"><span>Bronze</span></li>
+<li data-tier="1"><span>Silver</span></li>
+<li data-tier="2"><span>Gold</span></li>
+<li data-tier="3"><span>Platinum</span></li>
+<li data-tier="4"><span>Diamond</span></li>
+<li data-tier="5"><span>Iridescent</span></li>
+</ul>
 </div>
 </div>
 </div>
@@ -1795,7 +1929,7 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
 <picture><source srcset="assets/gold-kiro.webp" type="image/webp"/><img alt="Iro" class="mascot-accent" decoding="async" loading="lazy" src="assets/gold-kiro.png"/></picture>
 <h2 id="final-cta-heading">Stop scrolling.<br/><span class="grad">Start training.</span></h2>
 <p class="sub">5 minutes a day. Pick a tool. Get fluent.</p>
-<a class="btn-primary" href="https://apps.apple.com/app/id6759628066?utm_source=website&utm_medium=cta&utm_campaign=final">Start Free — 7 Day Trial →</a>
+<a class="btn-primary btn-magnetic" href="https://apps.apple.com/app/id6759628066?utm_source=website&utm_medium=cta&utm_campaign=final">Start Free — 7 Day Trial →</a>
 <p class="pricing">7-day free trial · Then <strong>$24.99 / 3 months</strong> or <strong>$9.99 / week</strong> · Cancel anytime</p>
 <div class="email-capture">
 <p class="email-capture-label">Not on iOS? Get notified when Android launches.</p>
@@ -1932,130 +2066,114 @@ document.querySelectorAll('.email-form').forEach(form=>{
     });
   });
 })();
+// Cursor-tracking ambient glow (desktop only)
 (function(){
-  const c=document.getElementById('starsCanvas');
-  if(!c)return;
-  // Skip the starfield on mobile (CPU drain on low-end devices) and when
-  // the user prefers reduced motion.
+  const glow=document.querySelector('.cursor-glow');
+  if(!glow)return;
+  const fine=window.matchMedia('(hover:hover) and (pointer:fine)').matches;
   const reduced=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-  const isMobile=window.matchMedia('(max-width: 768px)').matches||(navigator.maxTouchPoints>0&&window.innerWidth<900);
-  if(reduced||isMobile){c.style.display='none';return}
-  const ctx=c.getContext('2d');
-  let w,h,raf;
-  function resize(){w=c.width=window.innerWidth;h=c.height=window.innerHeight}
-  resize();window.addEventListener('resize',resize);
-  const particles=[];
-  const shooters=[];
-  const colors=[
-    {h:185,s:'100%',l:'75%'},// cyan
-    {h:190,s:'90%',l:'80%'}, // light cyan
-    {h:0,s:'0%',l:'90%'},    // white
-    {h:42,s:'90%',l:'65%'},  // gold
-    {h:270,s:'60%',l:'70%'}  // purple
+  if(!fine||reduced)return;
+  let tx=window.innerWidth/2,ty=window.innerHeight/2,cx=tx,cy=ty,raf;
+  function loop(){
+    cx+=(tx-cx)*0.18;cy+=(ty-cy)*0.18;
+    glow.style.setProperty('--cx',cx+'px');
+    glow.style.setProperty('--cy',cy+'px');
+    raf=requestAnimationFrame(loop);
+  }
+  window.addEventListener('mousemove',e=>{tx=e.clientX;ty=e.clientY;glow.classList.add('is-active')},{passive:true});
+  window.addEventListener('mouseleave',()=>glow.classList.remove('is-active'));
+  loop();
+})();
+// Magnetic CTAs — buttons subtly lean toward cursor when nearby
+(function(){
+  const fine=window.matchMedia('(hover:hover) and (pointer:fine)').matches;
+  const reduced=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  if(!fine||reduced)return;
+  const radius=120,strength=0.35;
+  document.querySelectorAll('.btn-magnetic').forEach(btn=>{
+    let bx=0,by=0,bw=0,bh=0,active=false;
+    function measure(){const r=btn.getBoundingClientRect();bx=r.left+r.width/2;by=r.top+r.height/2;bw=r.width;bh=r.height}
+    btn.addEventListener('mouseenter',()=>{measure();active=true});
+    btn.addEventListener('mouseleave',()=>{active=false;btn.style.transform=''});
+    btn.addEventListener('mousemove',e=>{
+      if(!active)return;
+      const dx=e.clientX-bx,dy=e.clientY-by;
+      const dist=Math.hypot(dx,dy);
+      if(dist>radius){btn.style.transform='';return}
+      const f=(1-dist/radius)*strength;
+      btn.style.transform=`translate(${dx*f}px,${dy*f - 2}px)`;
+    });
+  });
+})();
+// Rank Cinema — scroll-driven mascot evolution
+(function(){
+  const sec=document.getElementById('rankCinema');
+  if(!sec)return;
+  const reduced=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  const isMobile=window.matchMedia('(max-width: 768px)').matches;
+  const tiers=[
+    {name:'Bronze',idx:'TIER I',xp:0,color:'#CD7F32',glow:'rgba(205,127,50,.22)'},
+    {name:'Silver',idx:'TIER II',xp:200,color:'#D9D9DD',glow:'rgba(192,192,192,.22)'},
+    {name:'Gold',idx:'TIER III',xp:550,color:'#FFD700',glow:'rgba(255,215,0,.22)'},
+    {name:'Platinum',idx:'TIER IV',xp:1100,color:'#E5E4E2',glow:'rgba(229,228,226,.22)'},
+    {name:'Diamond',idx:'TIER V',xp:2300,color:'#B9F2FF',glow:'rgba(185,242,255,.28)'},
+    {name:'Iridescent',idx:'TIER VI',xp:5000,color:'#00E5FF',glow:'rgba(0,229,255,.28)'}
   ];
-  function pickColor(){
-    const r=Math.random();
-    if(r<0.35)return colors[0];
-    if(r<0.55)return colors[1];
-    if(r<0.7)return colors[2];
-    if(r<0.88)return colors[3];
-    return colors[4];
-  }
-  function spawnParticle(){
-    if(particles.length>=60)return;
-    const col=pickColor();
-    const sizeClass=Math.random();
-    const isLarge=sizeClass>0.92;
-    const isMed=sizeClass>0.75;
-    const speed=isLarge?0.1+Math.random()*0.2:isMed?0.2+Math.random()*0.4:0.15+Math.random()*0.6;
-    const angle=-0.3+Math.random()*0.8;
-    particles.push({
-      x:Math.random()*w*1.2-w*0.1,
-      y:Math.random()*h,
-      vx:Math.cos(angle)*speed,
-      vy:Math.sin(angle)*speed+0.05,
-      life:0,
-      maxLife:200+Math.random()*400,
-      size:isLarge?2.5+Math.random():isMed?1.2+Math.random()*0.8:0.4+Math.random()*0.6,
-      glow:isLarge,
-      col:col,
-      alpha:isLarge?0.6:isMed?0.45:0.25+Math.random()*0.2,
-      trail:isMed||isLarge?15+Math.random()*20:0
+  const mascots=Array.from(sec.querySelectorAll('.rank-mascot-img'));
+  const ticks=Array.from(sec.querySelectorAll('.rank-cinema-ticks li'));
+  const nameEl=sec.querySelector('#rankTierName');
+  const idxEl=sec.querySelector('#rankTierIdx');
+  const xpEl=sec.querySelector('#rankXpNum');
+  const fillEl=sec.querySelector('#rankProgressFill');
+  const stage=sec.querySelector('.rank-cinema-stage');
+  const glowEl=sec.querySelector('.rank-cinema-glow');
+  let lastTier=-1,ticking=false;
+  function setTier(t){
+    if(t===lastTier)return;
+    const tier=tiers[t];
+    mascots.forEach(m=>m.classList.toggle('is-active',+m.dataset.tier===t));
+    ticks.forEach((li,i)=>{
+      li.classList.toggle('is-active',i===t);
+      li.classList.toggle('is-passed',i<t);
     });
-  }
-  function spawnShooter(){
-    if(shooters.length>=4)return;
-    const col=Math.random()<0.25?colors[3]:colors[0];
-    const angle=0.2+Math.random()*0.5;
-    const speed=3+Math.random()*4;
-    const startSide=Math.random();
-    let sx,sy;
-    if(startSide<0.6){sx=-20;sy=Math.random()*h*0.6}
-    else if(startSide<0.85){sx=Math.random()*w*0.5;sy=-20}
-    else{sx=w+20;sy=Math.random()*h*0.4}
-    const dir=startSide>=0.85?1:-1;
-    shooters.push({
-      x:sx,y:sy,
-      vx:Math.cos(angle)*speed*(startSide>=0.85?-1:1),
-      vy:Math.sin(angle)*speed,
-      life:0,maxLife:60+Math.random()*40,
-      size:1+Math.random()*0.8,
-      len:100+Math.random()*120,
-      col:col
-    });
-  }
-  function draw(){
-    ctx.clearRect(0,0,w,h);
-    // particles
-    for(let i=particles.length-1;i>=0;i--){
-      const p=particles[i];
-      p.x+=p.vx;p.y+=p.vy;p.life++;
-      const fade=p.life<20?p.life/20:p.life>p.maxLife-50?(p.maxLife-p.life)/50:1;
-      const a=fade*p.alpha;
-      if(p.glow){
-        ctx.beginPath();ctx.arc(p.x,p.y,p.size*4,0,Math.PI*2);
-        ctx.fillStyle=`hsla(${p.col.h},${p.col.s},${p.col.l},${a*0.12})`;
-        ctx.fill();
-      }
-      if(p.trail>0){
-        const grad=ctx.createLinearGradient(p.x,p.y,p.x-p.vx*p.trail,p.y-p.vy*p.trail);
-        grad.addColorStop(0,`hsla(${p.col.h},${p.col.s},${p.col.l},${a*0.6})`);
-        grad.addColorStop(1,`hsla(${p.col.h},${p.col.s},${p.col.l},0)`);
-        ctx.beginPath();ctx.moveTo(p.x,p.y);ctx.lineTo(p.x-p.vx*p.trail,p.y-p.vy*p.trail);
-        ctx.strokeStyle=grad;ctx.lineWidth=p.size*0.6;ctx.stroke();
-      }
-      ctx.beginPath();ctx.arc(p.x,p.y,p.size,0,Math.PI*2);
-      ctx.fillStyle=`hsla(${p.col.h},${p.col.s},${p.col.l},${a})`;
-      ctx.fill();
-      if(p.life>=p.maxLife||p.x>w+50||p.y>h+50||p.x<-50)particles.splice(i,1);
+    if(nameEl){
+      nameEl.classList.add('is-flip');
+      setTimeout(()=>{
+        nameEl.textContent=tier.name;
+        nameEl.style.color=tier.color;
+        nameEl.classList.remove('is-flip');
+      },180);
     }
-    // shooters
-    for(let i=shooters.length-1;i>=0;i--){
-      const s=shooters[i];
-      s.x+=s.vx;s.y+=s.vy;s.life++;
-      const fade=s.life<8?s.life/8:s.life>s.maxLife-15?(s.maxLife-s.life)/15:1;
-      const a=fade*0.7;
-      const tx=s.x-s.vx/Math.sqrt(s.vx*s.vx+s.vy*s.vy)*s.len;
-      const ty=s.y-s.vy/Math.sqrt(s.vx*s.vx+s.vy*s.vy)*s.len;
-      const grad=ctx.createLinearGradient(s.x,s.y,tx,ty);
-      grad.addColorStop(0,`hsla(${s.col.h},${s.col.s},95%,${a})`);
-      grad.addColorStop(0.08,`hsla(${s.col.h},${s.col.s},${s.col.l},${a*0.8})`);
-      grad.addColorStop(0.4,`hsla(${s.col.h},${s.col.s},${s.col.l},${a*0.2})`);
-      grad.addColorStop(1,`hsla(${s.col.h},${s.col.s},${s.col.l},0)`);
-      ctx.beginPath();ctx.moveTo(s.x,s.y);ctx.lineTo(tx,ty);
-      ctx.strokeStyle=grad;ctx.lineWidth=s.size;ctx.stroke();
-      ctx.beginPath();ctx.arc(s.x,s.y,s.size*1.5,0,Math.PI*2);
-      ctx.fillStyle=`hsla(${s.col.h},${s.col.s},90%,${a*0.5})`;
-      ctx.fill();
-      if(s.life>=s.maxLife||s.x>w+150||s.y>h+150||s.x<-150||s.y<-150)shooters.splice(i,1);
-    }
-    if(Math.random()<0.12)spawnParticle();
-    if(Math.random()<0.008)spawnShooter();
-    raf=requestAnimationFrame(draw);
+    if(idxEl)idxEl.textContent=tier.idx;
+    if(stage)stage.style.setProperty('--rc-color',tier.color);
+    if(glowEl)glowEl.style.background=`radial-gradient(circle,${tier.glow} 0%,transparent 60%)`;
+    lastTier=t;
   }
-  document.addEventListener('visibilitychange',()=>{if(document.hidden){cancelAnimationFrame(raf)}else{raf=requestAnimationFrame(draw)}});
-  for(let i=0;i<35;i++)spawnParticle();
-  raf=requestAnimationFrame(draw);
+  function update(){
+    const r=sec.getBoundingClientRect();
+    const total=sec.offsetHeight-window.innerHeight;
+    const scrolled=Math.max(0,Math.min(total,-r.top));
+    const p=total>0?scrolled/total:0;
+    // tier index 0..5 with stable hold near each step
+    const t=Math.min(5,Math.floor(p*5.999));
+    setTier(t);
+    // smooth XP and progress
+    const xp=Math.round(p*5000);
+    if(xpEl)xpEl.textContent=xp.toLocaleString();
+    if(fillEl)fillEl.style.width=(p*100).toFixed(2)+'%';
+    ticking=false;
+  }
+  if(reduced||isMobile){
+    // Static fallback: show iridescent (final form) and full progress
+    setTier(5);
+    if(xpEl)xpEl.textContent='5,000';
+    if(fillEl)fillEl.style.width='100%';
+    return;
+  }
+  window.addEventListener('scroll',()=>{
+    if(!ticking){requestAnimationFrame(update);ticking=true;}
+  },{passive:true});
+  update();
 })();
 </script>
 </body>
