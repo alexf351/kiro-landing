@@ -4,11 +4,11 @@
 <head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>Iro — Master the AI tools that matter.</title>
-<meta content="Master ChatGPT, Claude, Gemini, Perplexity, AI Coding, Image &amp; Video Generation, Job Hunting, and more. Guided paths, 5-minute daily lessons, real practice — Duolingo-style training for the AI era." name="description"/>
+<title>Iro — Master the AI tools that matter. Train like it's a game.</title>
+<meta content="Master ChatGPT, Claude, Gemini, Perplexity, agents, automation, and more. 5-minute daily lessons. Earn XP, climb ranks, build real AI fluency — gamified training for the AI era." name="description"/>
 <meta content="#0A0E1A" name="theme-color"/>
-<meta property="og:title" content="Iro — Master the AI tools that matter."/>
-<meta property="og:description" content="Choose a guided path for ChatGPT, Claude, Gemini, Perplexity, AI Coding, Image &amp; Video Generation, Job Hunting, and more. Build real AI skill in 5 minutes a day."/>
+<meta property="og:title" content="Iro — Master the AI tools that matter. Train like it's a game."/>
+<meta property="og:description" content="Master ChatGPT, Claude, Gemini, Perplexity, agents, and more. 5-minute lessons. Earn XP, climb ranks, build real AI fluency."/>
 <meta property="og:image" content="https://www.tryiro.com/assets/og-card.png"/>
 <meta property="og:image:width" content="1200"/>
 <meta property="og:image:height" content="630"/>
@@ -16,8 +16,8 @@
 <meta property="og:url" content="https://www.tryiro.com"/>
 <meta property="og:type" content="website"/>
 <meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:title" content="Iro — Master the AI tools that matter."/>
-<meta name="twitter:description" content="Choose a guided path for ChatGPT, Claude, Gemini, Perplexity, AI Coding, Image &amp; Video Generation, Job Hunting, and more. Build real AI skill in 5 minutes a day."/>
+<meta name="twitter:title" content="Iro — Master the AI tools that matter. Train like it's a game."/>
+<meta name="twitter:description" content="Master ChatGPT, Claude, Gemini, Perplexity, agents, and more. 5-minute lessons. Earn XP, climb ranks, build real AI fluency."/>
 <meta name="twitter:image" content="https://www.tryiro.com/assets/og-card.png"/>
 <meta name="twitter:image:alt" content="Master the AI tools that matter — ChatGPT, Claude, Gemini, Perplexity, AI Coding."/>
 <link href="assets/favicon-64.png" rel="icon" type="image/png"/>
@@ -294,15 +294,38 @@ nav::after{
 .hero-h1-reveal .line1 .word:nth-child(2) > span{animation-delay:.12s}
 .hero-h1-reveal .line1 .word:nth-child(3) > span{animation-delay:.19s}
 .hero-h1-reveal .line1 .word:nth-child(4) > span{animation-delay:.26s}
-.hero-h1-reveal .line2 .word:nth-child(1) > span{animation-delay:.36s}
-.hero-h1-reveal .line2 .word:nth-child(2) > span{animation-delay:.42s}
-.hero-h1-reveal .line2 .word:nth-child(3) > span{animation-delay:.48s}
-.hero-h1-reveal .line2 .word:nth-child(4) > span{animation-delay:.54s}
-.hero-h1-reveal .line2 .word:nth-child(5) > span{animation-delay:.6s}
-.hero-h1-reveal .line2 .word:nth-child(6) > span{animation-delay:.66s}
-.hero-h1-reveal .line2 .word:nth-child(7) > span{animation-delay:.72s}
-.hero-h1-reveal .line2 .word:nth-child(8) > span{animation-delay:.78s}
+.hero-h1-reveal .line1 .word:nth-child(5) > span{animation-delay:.33s}
+.hero-h1-reveal .line1 .word:nth-child(6) > span{animation-delay:.40s}
+.hero-h1-reveal .line2 .word:nth-child(1) > span{animation-delay:.5s}
+.hero-h1-reveal .line2 .word:nth-child(2) > span{animation-delay:.56s}
+.hero-h1-reveal .line2 .word:nth-child(3) > span{animation-delay:.62s}
+.hero-h1-reveal .line2 .word:nth-child(4) > span{animation-delay:.68s}
+.hero-h1-reveal .line2 .word:nth-child(5) > span{animation-delay:.74s}
 @keyframes wordRise{from{transform:translateY(115%)}to{transform:translateY(0)}}
+/* Hero trust snippet — small, subtle, below the CTA stack */
+.hero-trust{
+  display:inline-flex;flex-direction:column;align-items:flex-start;gap:6px;
+  margin-top:22px;padding:12px 16px;border-radius:12px;
+  max-width:440px;
+  background:rgba(20,27,45,.55);
+  border:1px solid rgba(255,255,255,.06);
+  animation:fadeInUp 1s ease both .9s
+}
+.hero-trust-stars{
+  font-family:'JetBrains Mono',monospace;
+  font-size:11px;letter-spacing:3px;color:var(--gold);
+  text-shadow:0 0 10px rgba(255,215,0,.4)
+}
+.hero-trust-quote{
+  font-size:13px;line-height:1.5;color:var(--text);
+  font-weight:500;font-style:italic;margin:0;letter-spacing:-.05px
+}
+.hero-trust-source{
+  font-family:'JetBrains Mono',monospace;
+  font-size:9.5px;letter-spacing:2px;text-transform:uppercase;
+  color:var(--text3);opacity:.75
+}
+@media(max-width:1024px){.hero-trust{margin-left:auto;margin-right:auto;align-items:center;text-align:center}}
 
 .hero-sub{
   font-size:clamp(17px,1.5vw,21px);color:var(--text2);max-width:520px;
@@ -1956,17 +1979,22 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
 <span class="hud-pill"><span>Live on iOS</span></span>
 </div>
 <h1 id="hero-heading" class="hero-h1-reveal">
-<span class="line1"><span class="word"><span>AI</span></span> <span class="word"><span>is</span></span> <span class="word"><span>moving</span></span> <span class="word"><span>fast.</span></span></span>
-<span class="line2"><span class="word"><span>You&rsquo;re</span></span> <span class="word"><span>either</span></span> <span class="word"><span>learning</span></span> <span class="word"><span>it</span></span> <span class="word"><span>&mdash;</span></span> <span class="word"><span>or</span></span> <span class="word"><span>falling</span></span> <span class="word"><span>behind.</span></span></span>
+<span class="line1"><span class="word"><span>Master</span></span> <span class="word"><span>the</span></span> <span class="word"><span>AI</span></span> <span class="word"><span>tools</span></span> <span class="word"><span>that</span></span> <span class="word"><span>matter.</span></span></span>
+<span class="line2"><span class="word"><span>Train</span></span> <span class="word"><span>like</span></span> <span class="word"><span>it&rsquo;s</span></span> <span class="word"><span>a</span></span> <span class="word"><span>game.</span></span></span>
 </h1>
 <p class="hero-sub">
-<strong>5 minutes a day.</strong> Real skills. No fluff.
+5-minute lessons for <strong>ChatGPT, Claude, Gemini, Perplexity</strong>, agents, automation, and more. Earn XP, climb ranks, and build real AI fluency.
       </p>
 <div class="hero-ctas">
 <a class="btn-primary btn-magnetic" href="https://apps.apple.com/app/id6759628066?utm_source=website&utm_medium=cta&utm_campaign=hero">Start Free — 7 Day Trial →</a>
 <a class="btn-ghost" href="#hiw-heading">See it in action</a>
 </div>
 <p class="cta-platform">iOS · Free to start · Pro from $1.92/week · <span class="platform-soon">Android soon</span></p>
+<aside class="hero-trust" aria-label="App Store review">
+<span class="hero-trust-stars" aria-hidden="true">★★★★★</span>
+<p class="hero-trust-quote">&ldquo;I thought I already understood AI tools, but this made me realize I was leaving a lot on the table.&rdquo;</p>
+<span class="hero-trust-source">App Store review</span>
+</aside>
 </div>
 <div class="hero-visual">
 <div class="hero-mascot-wrap parallax" data-parallax="0.18">
@@ -1981,14 +2009,14 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
 <div class="section-inner">
 <p class="s-label">01 / The loop</p>
 <h2 class="s-title" id="loop-heading">This isn&rsquo;t content. It&rsquo;s a system.</h2>
-<p class="s-sub">Five mechanics. One unbreakable habit loop. Every day you come back, you compound.</p>
+<p class="s-sub">Learn one tool. Earn XP. Keep your streak. Unlock the next version of Iro.</p>
 <div class="loop-flow">
 <div class="loop-node stagger-item" data-stagger="1">
 <div class="loop-node-icon" aria-hidden="true">
 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5.5A1.5 1.5 0 0 1 5.5 4H19v15.5A1.5 1.5 0 0 1 17.5 21H6a2 2 0 0 1-2-2Z"/><path d="M7 8h8M7 12h8M7 16h5"/></svg>
 </div>
 <div class="loop-node-label">Lesson</div>
-<div class="loop-node-vis loop-vis-text">5 min · daily</div>
+<div class="loop-node-vis loop-vis-text">5-minute reps</div>
 </div>
 <div class="loop-arrow" aria-hidden="true">→</div>
 <div class="loop-node stagger-item" data-stagger="2">
@@ -1997,7 +2025,7 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
 </div>
 <div class="loop-node-label">XP</div>
 <div class="loop-node-vis loop-vis-bar"><span style="width:72%"></span></div>
-<div class="loop-node-meta">+25 XP</div>
+<div class="loop-node-meta">Earn progress</div>
 </div>
 <div class="loop-arrow" aria-hidden="true">→</div>
 <div class="loop-node stagger-item" data-stagger="3">
@@ -2006,7 +2034,7 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
 </div>
 <div class="loop-node-label">Rank</div>
 <div class="loop-node-vis loop-vis-tier"><span class="lt lt-bronze"></span><span class="lt lt-silver"></span><span class="lt lt-gold lt-active"></span><span class="lt lt-platinum"></span><span class="lt lt-diamond"></span></div>
-<div class="loop-node-meta">Tier up</div>
+<div class="loop-node-meta">Unlock tiers</div>
 </div>
 <div class="loop-arrow" aria-hidden="true">→</div>
 <div class="loop-node stagger-item" data-stagger="4">
@@ -2015,7 +2043,7 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
 </div>
 <div class="loop-node-label">Streak</div>
 <div class="loop-node-vis loop-vis-text">Day 7</div>
-<div class="loop-node-meta loop-node-meta--gold">on fire</div>
+<div class="loop-node-meta loop-node-meta--gold">Build the habit</div>
 </div>
 <div class="loop-arrow loop-arrow--cycle" aria-hidden="true">↻</div>
 <div class="loop-node loop-node--repeat stagger-item" data-stagger="5">
@@ -2023,7 +2051,7 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12a9 9 0 0 1 15-6.7L21 8"/><path d="M21 3v5h-5"/><path d="M21 12a9 9 0 0 1-15 6.7L3 16"/><path d="M3 21v-5h5"/></svg>
 </div>
 <div class="loop-node-label">Repeat</div>
-<div class="loop-node-vis loop-vis-text">Tomorrow</div>
+<div class="loop-node-vis loop-vis-text">Come back tomorrow</div>
 </div>
 </div>
 </div>
@@ -2034,7 +2062,7 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
 <picture class="section-mascot"><source srcset="assets/platinum-kiro.webp" type="image/webp"/><img alt="" decoding="async" loading="lazy" src="assets/platinum-kiro.png"/></picture>
 <p class="s-label">02 / The tools</p>
 <h2 class="s-title" id="tools-heading">Stop using AI like Google.<br/>Start using it like a pro.</h2>
-<p class="s-sub">Eighteen guided paths. The ones people actually use, first.</p>
+<p class="s-sub">Eighteen guided paths. Start with the tools people actually use. Then level into agents, automation, and advanced workflows.</p>
 <div class="exercise-types">
 <div class="exercise-types-label">Tool Mastery</div>
 <div class="exercise-pills">
@@ -2079,8 +2107,8 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
 <section class="hiw-section reveal" aria-labelledby="hiw-heading">
 <div class="section-inner">
 <p class="s-label">03 / How it works</p>
-<h2 class="s-title" id="hiw-heading">A real system, not a course.</h2>
-<p class="s-sub">Real tools. Real reps. Real feedback. Five minutes a day, built to compound.</p>
+<h2 class="s-title" id="hiw-heading">You practice. You don&rsquo;t just watch.</h2>
+<p class="s-sub">Every lesson makes you do the thing: write prompts, compare outputs, spot hallucinations, and get feedback.</p>
 <div class="hiw-grid">
 <div class="hiw-item stagger-item" data-stagger="1">
 <picture class="hiw-item-mascot"><source srcset="assets/bronze-kiro.webp" type="image/webp"/><img alt="" decoding="async" loading="lazy" src="assets/bronze-kiro.png"/></picture>
@@ -2088,8 +2116,8 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
 <picture><source srcset="assets/02-learning-paths-660w.webp 660w, assets/02-learning-paths-1320x2868.webp 1320w" sizes="(max-width:768px) 60vw, 220px" type="image/webp"/><img alt="Iro app: choose your learning path" decoding="async" loading="lazy" src="assets/02-learning-paths-1320x2868.png"/></picture>
 <span class="hiw-step-num">01</span>
 </div>
-<div class="hiw-item-title">Pick your tool.</div>
-<div class="hiw-item-sub">ChatGPT. Claude. Gemini. Perplexity. Plus 14 paths covering job hunting, image gen, vibe coding, and the work verticals.</div>
+<div class="hiw-item-title">Pick a tool.</div>
+<div class="hiw-item-sub">Start with ChatGPT, Claude, Gemini, Perplexity, or a career path that matches how you actually use AI.</div>
 </div>
 <div class="hiw-item stagger-item" data-stagger="2">
 <picture class="hiw-item-mascot"><source srcset="assets/silver-kiro.webp" type="image/webp"/><img alt="" decoding="async" loading="lazy" src="assets/silver-kiro.png"/></picture>
@@ -2097,8 +2125,8 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
 <picture><source srcset="assets/01-prompt-lab-660w.webp 660w, assets/01-prompt-lab-1320x2868.webp 1320w" sizes="(max-width:768px) 60vw, 220px" type="image/webp"/><img alt="Iro app: Prompt Lab practice with AI feedback" decoding="async" loading="lazy" src="assets/01-prompt-lab-1320x2868.png"/></picture>
 <span class="hiw-step-num">02</span>
 </div>
-<div class="hiw-item-title">Practice, don&rsquo;t watch.</div>
-<div class="hiw-item-sub">Real prompts, real decisions, real feedback. The reps that actually stick.</div>
+<div class="hiw-item-title">Do real reps.</div>
+<div class="hiw-item-sub">Write prompts, make decisions, compare outputs, and learn by actively practicing.</div>
 </div>
 <div class="hiw-item stagger-item" data-stagger="3">
 <picture class="hiw-item-mascot"><source srcset="assets/gold-kiro.webp" type="image/webp"/><img alt="" decoding="async" loading="lazy" src="assets/gold-kiro.png"/></picture>
@@ -2106,8 +2134,8 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
 <picture><source srcset="assets/04-duel-victory-660w.webp 660w, assets/04-duel-victory-1320x2868.webp 1320w" sizes="(max-width:768px) 60vw, 220px" type="image/webp"/><img alt="Iro app: duel victory + XP rewards" decoding="async" loading="lazy" src="assets/04-duel-victory-1320x2868.png"/></picture>
 <span class="hiw-step-num">03</span>
 </div>
-<div class="hiw-item-title">Watch it compound.</div>
-<div class="hiw-item-sub">XP, streaks, six ranks, live duels. Seven-day streakers are 3.6&times; more likely to finish a path.</div>
+<div class="hiw-item-title">Get feedback.</div>
+<div class="hiw-item-sub">Earn XP, protect your streak, climb ranks, and prove your skill in live duels.</div>
 </div>
 </div>
 </div>
@@ -2117,7 +2145,7 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
 <div class="section-inner">
 <p class="s-label">04 / Progression</p>
 <h2 class="s-title" id="rank-heading">You don&rsquo;t just learn AI.<br/>You level up.</h2>
-<p class="s-sub">Six ranks. Five thousand XP. One unbroken climb. Watch Iro evolve as you do.</p>
+<p class="s-sub">Six ranks. Five thousand XP. One unbroken climb. Watch Iro evolve as you do &mdash; from Bronze to the rank you have to earn to see.</p>
 <div class="rank-track">
 <div class="rank-tier stagger-item" data-stagger="1">
 <span class="rank-tier-idx">TIER I</span>
@@ -2183,8 +2211,8 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
 <section class="duel-section reveal" aria-labelledby="duel-heading">
 <div class="section-inner">
 <p class="s-label">05 / Live duels</p>
-<h2 class="s-title" id="duel-heading">Prove you&rsquo;re better than AI.</h2>
-<p class="s-sub">Five multiple-choice questions. Speed and accuracy. ELO ranked.</p>
+<h2 class="s-title" id="duel-heading">Learn it. Then prove it.</h2>
+<p class="s-sub">Five-question speed rounds where accuracy, confidence, and timing all matter.</p>
 <div class="duel-arena hud-corners" aria-label="Duel preview">
 <!-- HUD bar -->
 <div class="duel-hud">
@@ -2254,10 +2282,9 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
 </div>
 </div>
 <div class="duel-meta">
-<span class="duel-meta-pill"><span class="duel-meta-dot"></span>Live in app</span>
 <span class="duel-meta-pill">5 questions</span>
-<span class="duel-meta-pill">Accuracy + speed</span>
-<span class="duel-meta-pill">ELO ranked</span>
+<span class="duel-meta-pill">Speed + accuracy</span>
+<span class="duel-meta-pill"><span class="duel-meta-dot"></span>ELO ranked</span>
 </div>
 </div>
 </section>
@@ -2305,8 +2332,8 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
 <div class="founder-strip reveal">
 <div class="founder-inner">
 <div class="founder-head">
-<h2 class="founder-claim">Shipped solo. <span class="founder-claim-em">In 14 days.</span></h2>
-<p class="founder-sub">Built solo with the exact tools Iro teaches &mdash; ChatGPT, Claude, vibe coding. <strong>Iro is its own proof.</strong></p>
+<h2 class="founder-claim">I built Iro <span class="founder-claim-em">with the same AI tools it teaches.</span></h2>
+<p class="founder-sub">One founder. 14 days. ChatGPT, Claude, vibe coding, and hundreds of reps. <strong>Iro isn&rsquo;t theory &mdash; it&rsquo;s proof that AI fluency compounds.</strong></p>
 </div>
 <div class="founder-stats-wrap">
 <div class="founder-stats">
@@ -2377,7 +2404,7 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
 <section class="final-cta reveal" aria-labelledby="final-cta-heading">
 <div class="section-inner">
 <picture><source srcset="assets/gold-kiro.webp" type="image/webp"/><img alt="Iro" class="mascot-accent" decoding="async" loading="lazy" src="assets/gold-kiro.png"/></picture>
-<h2 id="final-cta-heading">5 minutes a day is enough.<br/><span class="grad">The only question is: will you do it?</span></h2>
+<h2 id="final-cta-heading">5 minutes a day is enough.<br/><span class="grad">The only question is whether you&rsquo;ll start.</span></h2>
 <p class="sub">No fluff. No theory. Just reps that compound.</p>
 <a class="btn-primary btn-magnetic" href="https://apps.apple.com/app/id6759628066?utm_source=website&utm_medium=cta&utm_campaign=final">Start Free — 7 Day Trial →</a>
 <p class="pricing">7-day free trial · Then <strong>$24.99 / 3 months</strong> or <strong>$9.99 / week</strong> · Cancel anytime</p>
