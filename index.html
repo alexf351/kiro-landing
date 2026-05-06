@@ -1920,7 +1920,7 @@ nav{animation:navSlideIn .5s cubic-bezier(.25,1,.5,1) both}
 .hero::before{animation:heroPulse 8s ease-in-out infinite}
 @keyframes heroPulse{0%,100%{opacity:.8;transform:translateX(-50%) scale(1)}50%{opacity:1;transform:translateX(-50%) scale(1.06)}}
 .hero-trust{box-shadow:0 18px 48px rgba(0,0,0,.35),0 0 0 1px rgba(255,255,255,.04) inset}
-.rank-track::after{content:'';position:absolute;left:6%;right:6%;top:48%;height:2px;background:linear-gradient(90deg,rgba(0,229,255,.05) 0%,rgba(0,229,255,.2) 55%,rgba(185,242,255,.55) 82%,rgba(255,215,0,.72) 100%);filter:blur(.2px);z-index:-1;animation:rankSweep 3.2s linear infinite}
+.rank-track::after{content:'';position:absolute;left:6%;right:6%;top:48%;height:2px;background:linear-gradient(90deg,transparent,rgba(0,229,255,.75),transparent);filter:blur(.2px);z-index:-1;animation:rankSweep 3.2s linear infinite}
 @keyframes rankSweep{0%{opacity:.2;transform:translateX(-7%)}50%{opacity:.95}100%{opacity:.2;transform:translateX(7%)}}
 .rank-tier:hover .rank-tier-name{letter-spacing:.9px;text-shadow:0 0 14px color-mix(in srgb,currentColor 65%,transparent)}
 .duel-arena::selection{background:rgba(0,229,255,.25)}
@@ -2315,7 +2315,7 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
 <span class="rank-tier-idx">TIER VI</span>
 <div class="rank-tier-pedestal">
 <picture><source srcset="assets/iridescent-kiro.webp" type="image/webp"/><img alt="Iridescent Iro" class="rank-tier-img" decoding="async" loading="lazy" src="assets/iridescent-kiro.png"/></picture>
-<div class="rank-plinth">Iridescent</div>
+<div class="rank-plinth" aria-hidden="true"></div>
 </div>
 <span class="rank-tier-name">Iridescent</span>
 <span class="rank-tier-xp">5,000 XP</span>
