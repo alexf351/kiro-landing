@@ -957,11 +957,11 @@ section{padding:140px 24px;position:relative}
   transition:all .4s ease;
   position:relative;z-index:2
 }
-.rank-tier:nth-of-type(1) .rank-tier-img{filter:drop-shadow(0 6px 16px rgba(205,127,50,.45))}
-.rank-tier:nth-of-type(2) .rank-tier-img{filter:drop-shadow(0 6px 18px rgba(192,192,192,.4))}
-.rank-tier:nth-of-type(3) .rank-tier-img{filter:drop-shadow(0 6px 22px rgba(255,215,0,.55))}
-.rank-tier:nth-of-type(4) .rank-tier-img{filter:drop-shadow(0 6px 24px rgba(229,228,226,.4))}
-.rank-tier:nth-of-type(5) .rank-tier-img{filter:drop-shadow(0 6px 28px rgba(185,242,255,.6))}
+.rank-tier:nth-of-type(1) .rank-tier-img{filter:drop-shadow(0 5px 12px rgba(205,127,50,.28));opacity:.86}
+.rank-tier:nth-of-type(2) .rank-tier-img{filter:drop-shadow(0 5px 14px rgba(192,192,192,.26));opacity:.88}
+.rank-tier:nth-of-type(3) .rank-tier-img{filter:drop-shadow(0 5px 16px rgba(255,215,0,.32));opacity:.9}
+.rank-tier:nth-of-type(4) .rank-tier-img{filter:drop-shadow(0 6px 18px rgba(229,228,226,.3));opacity:.92}
+.rank-tier:nth-of-type(5) .rank-tier-img{filter:drop-shadow(0 6px 20px rgba(185,242,255,.38));opacity:.94}
 .rank-tier:hover .rank-tier-img{transform:scale(1.14) translateY(-10px)}
 /* Plinth — trophy base */
 .rank-plinth{
@@ -971,8 +971,11 @@ section{padding:140px 24px;position:relative}
   border:1px solid rgba(255,255,255,.06);border-top:1px solid rgba(0,229,255,.12);
   border-radius:2px 2px 6px 6px;
   box-shadow:0 4px 16px rgba(0,0,0,.35),inset 0 1px 0 rgba(255,255,255,.03);
-  transition:all .4s;z-index:1
+  transition:all .4s;z-index:1;
+  display:flex;align-items:center;justify-content:center;
+  font-family:'JetBrains Mono',monospace;font-size:11px;font-weight:700;letter-spacing:1.3px;text-transform:uppercase
 }
+
 .rank-plinth::before{
   content:'';position:absolute;top:5px;left:10%;right:10%;height:1px;
   background:linear-gradient(90deg,transparent,currentColor,transparent);
@@ -989,6 +992,8 @@ section{padding:140px 24px;position:relative}
 .rank-tier:nth-of-type(4) .rank-plinth{color:var(--platinum);border-top-color:rgba(229,228,226,.3)}
 .rank-tier:nth-of-type(5) .rank-plinth{color:var(--iridescent-blue);border-top-color:rgba(185,242,255,.4)}
 .rank-tier:nth-of-type(6) .rank-plinth{color:var(--cyan);border-top-color:rgba(0,229,255,.3)}
+.rank-tier:nth-of-type(6){transform:scale(1.24);z-index:3}
+.rank-tier:nth-of-type(6) .rank-tier-pedestal::before{width:176px;height:176px;opacity:1;background:radial-gradient(circle,rgba(0,229,255,.35) 0%,rgba(185,242,255,.22) 35%,rgba(255,215,0,.18) 56%,transparent 78%)}
 .rank-tier:nth-of-type(6) .rank-tier-img{filter:drop-shadow(0 10px 36px rgba(0,229,255,.66)) drop-shadow(0 0 24px rgba(255,255,255,.35))}
 .rank-tier:hover .rank-plinth{
   border-top-color:currentColor;
@@ -997,11 +1002,7 @@ section{padding:140px 24px;position:relative}
 .rank-tier:hover .rank-plinth::after{opacity:.6;background:radial-gradient(ellipse at center,color-mix(in srgb,currentColor 25%,transparent) 0%,transparent 70%)}
 
 /* Tier name */
-.rank-tier-name{
-  font-family:'JetBrains Mono',monospace;
-  font-size:11px;font-weight:700;letter-spacing:2.5px;text-transform:uppercase;
-  margin-top:10px
-}
+.rank-tier-name{display:none}
 /* Tier XP threshold */
 .rank-tier-xp{
   font-family:'JetBrains Mono',monospace;
@@ -1017,6 +1018,7 @@ section{padding:140px 24px;position:relative}
 .rank-tier:nth-of-type(4) .rank-tier-name{color:var(--platinum)}
 .rank-tier:nth-of-type(5) .rank-tier-name{color:var(--iridescent-blue)}
 .rank-tier:nth-of-type(6) .rank-tier-name{color:var(--cyan)}
+.rank-tier:nth-of-type(6)::after{content:'FINAL FORM';position:absolute;top:-14px;left:50%;transform:translateX(-50%);padding:4px 10px;border-radius:999px;background:rgba(0,229,255,.12);border:1px solid rgba(0,229,255,.38);color:var(--cyan);font:700 9px 'JetBrains Mono',monospace;letter-spacing:1.2px}
 /* Locked tier */
 .rank-tier--locked .rank-tier-name{color:var(--iridescent-blue)}
 .rank-tier-locked{
@@ -1955,6 +1957,7 @@ nav{animation:navSlideIn .5s cubic-bezier(.25,1,.5,1) both}
   .rank-tier-img{width:104px;height:104px}
   .rank-tier-locked{width:104px;height:104px}
   .rank-tier-pedestal::before{width:120px;height:120px}
+  .rank-tier:nth-of-type(6){transform:scale(1.08)}
   .rank-tier-locked-icon{font-size:24px}
   .founder-stats{grid-template-columns:repeat(3,1fr)}
   .founder-stat:nth-child(3)::after{display:none}
@@ -1975,6 +1978,7 @@ nav{animation:navSlideIn .5s cubic-bezier(.25,1,.5,1) both}
   .rank-tier-img{width:84px;height:84px}
   .rank-tier-locked{width:84px;height:84px}
   .rank-tier-pedestal::before{width:96px;height:96px}
+  .rank-tier:nth-of-type(6){transform:scale(1.02)}
   .rank-tier-locked-icon{font-size:20px}
   .rank-tier-hint{display:none}
   .founder-stats{grid-template-columns:repeat(2,1fr)}
@@ -2266,7 +2270,7 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
 <span class="rank-tier-idx">TIER I</span>
 <div class="rank-tier-pedestal">
 <picture><source srcset="assets/bronze-kiro.webp" type="image/webp"/><img alt="Bronze Iro" class="rank-tier-img" decoding="async" loading="lazy" src="assets/bronze-kiro.png"/></picture>
-<div class="rank-plinth" aria-hidden="true"></div>
+<div class="rank-plinth">Bronze</div>
 </div>
 <span class="rank-tier-name">Bronze</span>
 <span class="rank-tier-xp">0 XP</span>
@@ -2275,7 +2279,7 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
 <span class="rank-tier-idx">TIER II</span>
 <div class="rank-tier-pedestal">
 <picture><source srcset="assets/silver-kiro.webp" type="image/webp"/><img alt="Silver Iro" class="rank-tier-img" decoding="async" loading="lazy" src="assets/silver-kiro.png"/></picture>
-<div class="rank-plinth" aria-hidden="true"></div>
+<div class="rank-plinth">Silver</div>
 </div>
 <span class="rank-tier-name">Silver</span>
 <span class="rank-tier-xp">200 XP</span>
@@ -2284,7 +2288,7 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
 <span class="rank-tier-idx">TIER III</span>
 <div class="rank-tier-pedestal">
 <picture><source srcset="assets/gold-kiro.webp" type="image/webp"/><img alt="Gold Iro" class="rank-tier-img" decoding="async" loading="lazy" src="assets/gold-kiro.png"/></picture>
-<div class="rank-plinth" aria-hidden="true"></div>
+<div class="rank-plinth">Gold</div>
 </div>
 <span class="rank-tier-name">Gold</span>
 <span class="rank-tier-xp">550 XP</span>
@@ -2293,7 +2297,7 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
 <span class="rank-tier-idx">TIER IV</span>
 <div class="rank-tier-pedestal">
 <picture><source srcset="assets/platinum-kiro.webp" type="image/webp"/><img alt="Platinum Iro" class="rank-tier-img" decoding="async" loading="lazy" src="assets/platinum-kiro.png"/></picture>
-<div class="rank-plinth" aria-hidden="true"></div>
+<div class="rank-plinth">Platinum</div>
 </div>
 <span class="rank-tier-name">Platinum</span>
 <span class="rank-tier-xp">1,100 XP</span>
@@ -2302,7 +2306,7 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
 <span class="rank-tier-idx">TIER V</span>
 <div class="rank-tier-pedestal">
 <picture><source srcset="assets/diamond-kiro.webp" type="image/webp"/><img alt="Diamond Iro" class="rank-tier-img" decoding="async" loading="lazy" src="assets/diamond-kiro.png"/></picture>
-<div class="rank-plinth" aria-hidden="true"></div>
+<div class="rank-plinth">Diamond</div>
 </div>
 <span class="rank-tier-name">Diamond</span>
 <span class="rank-tier-xp">2,300 XP</span>
@@ -2404,8 +2408,8 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
 <section class="proof-section reveal" aria-labelledby="proof-heading">
 <div class="section-inner">
 <p class="s-label">06 / Reviews</p>
-<h2 class="s-title" id="proof-heading">From the App Store. Unedited.</h2>
-<p class="s-sub">No paid testimonials. No stock avatars. Just real users.</p>
+<h2 class="s-title" id="proof-heading">People are already leveling up.</h2>
+<p class="s-sub">Real App Store reviews from learners building AI fluency one session at a time.</p>
 <div class="proof-grid">
 <div class="proof-card proof-card--feature stagger-item" data-stagger="1">
 <span class="proof-quote-mark" aria-hidden="true">&ldquo;</span>
