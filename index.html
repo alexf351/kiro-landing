@@ -680,7 +680,8 @@ nav::after{
   justify-content:flex-start;padding:16px 18px;font-size:16px;
   border-color:rgba(0,229,255,.24);
   background:linear-gradient(180deg,rgba(0,229,255,.14),rgba(20,27,45,.7));
-  box-shadow:0 10px 26px rgba(0,0,0,.28)
+  box-shadow:0 10px 26px rgba(0,0,0,.28);
+  white-space:normal;line-height:1.25;min-height:62px
 }
 .exercise-pills--primary .pill-logo{width:24px;height:24px}
 .exercise-pill:hover{
@@ -1284,6 +1285,15 @@ section{padding:140px 24px;position:relative}
   .duel-opt{padding:10px 12px 10px 10px;gap:10px}
   .duel-opt-text{font-size:13px}
   .duel-opt-key{width:22px;height:22px;font-size:10px}
+  .exercise-pills--primary{grid-template-columns:1fr;gap:10px}
+  .exercise-pills--primary .exercise-pill{font-size:15px;padding:14px 14px;min-height:56px}
+  .rank-track{gap:18px}
+}
+
+@media (prefers-reduced-motion: reduce){
+  .hero-hud,.hero-particles span,.loop-arrow,.duel-hud-timer,.duel-vs,.final-cta .btn-primary{
+    animation:none !important
+  }
 }
 
 /* ══════════════════ SOCIAL PROOF (EDITORIAL) ══════════════════ */
