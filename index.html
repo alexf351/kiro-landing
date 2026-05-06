@@ -594,28 +594,46 @@ nav::after{
 
 .mini-demo{
   position:relative;overflow:hidden;
-  background:linear-gradient(180deg,#081124 0%,#0a142b 45%,var(--bg) 100%);
+  background:linear-gradient(180deg,#0b1230 0%,#0d1632 46%,#16122c 100%);
   border-top:1px solid rgba(0,229,255,.09);border-bottom:1px solid rgba(0,229,255,.09)
 }
+.mini-demo-grid{max-width:920px;margin:0 auto;display:grid;grid-template-columns:minmax(0,1fr) 220px;gap:18px;align-items:stretch}
 .mini-demo-card{
-  max-width:760px;margin:0 auto;padding:26px;border-radius:20px;
-  background:rgba(13,20,38,.78);border:1px solid rgba(0,229,255,.22);
-  box-shadow:0 30px 72px rgba(0,0,0,.42),0 0 60px rgba(0,229,255,.08)
+  padding:22px;border-radius:18px;
+  background:linear-gradient(180deg,rgba(10,16,34,.92),rgba(11,19,38,.84));
+  border:1px solid rgba(0,229,255,.2);
+  box-shadow:0 26px 66px rgba(0,0,0,.42),0 0 0 1px rgba(0,229,255,.08) inset,0 0 52px rgba(0,229,255,.08)
 }
+.mini-demo-hud{display:flex;flex-wrap:wrap;gap:8px;justify-content:space-between;align-items:center;margin-bottom:12px}
+.mini-demo-hud span{padding:5px 9px;border-radius:999px;font:600 10px 'JetBrains Mono',monospace;letter-spacing:1.1px;text-transform:uppercase;border:1px solid rgba(255,255,255,.09);color:var(--text2);background:rgba(255,255,255,.02)}
+.mini-demo-hud .hud-xp{color:var(--gold);border-color:rgba(255,215,0,.22);background:rgba(255,215,0,.06)}
 .mini-demo-q{font-size:26px;font-weight:800;letter-spacing:-.8px;line-height:1.15;margin-bottom:16px}
 .mini-demo-opts{display:grid;gap:10px}
-.mini-demo-opt{border:1px solid rgba(255,255,255,.09);background:rgba(255,255,255,.02);color:var(--text);border-radius:12px;padding:14px;text-align:left;font:600 14px 'Outfit',sans-serif;cursor:pointer;transition:transform .2s ease,border-color .2s ease,background .2s ease}
+.mini-demo-opt{border:1px solid rgba(255,255,255,.09);background:rgba(15,23,44,.85);color:var(--text);border-radius:12px;padding:14px;text-align:left;font:600 14px 'Outfit',sans-serif;cursor:pointer;transition:transform .2s ease,border-color .2s ease,background .2s ease,opacity .2s ease}
 .mini-demo-opt:hover{transform:translateY(-1px);border-color:rgba(0,229,255,.28)}
 .mini-demo-opt.is-right{border-color:rgba(46,204,113,.5);background:rgba(46,204,113,.1)}
+.mini-demo-opt.is-right{box-shadow:0 0 0 1px rgba(46,204,113,.25) inset,0 0 22px rgba(46,204,113,.16)}
 .mini-demo-opt.is-wrong{opacity:.55}
 .mini-demo-foot{display:flex;flex-wrap:wrap;align-items:center;gap:12px;margin-top:16px}
-.mini-demo-xp{font-family:'JetBrains Mono',monospace;font-size:12px;color:var(--success);opacity:0;transform:translateY(5px);transition:.25s}
+.mini-demo-xp{font-family:'JetBrains Mono',monospace;font-size:11px;color:var(--gold);opacity:0;transform:translateY(5px);transition:.25s;padding:6px 10px;border-radius:999px;border:1px solid rgba(255,215,0,.28);background:rgba(255,215,0,.08)}
 .mini-demo-xp.show{opacity:1;transform:translateY(0)}
+.mini-demo-xp.pulse{animation:xpPulse .35s ease}
+.mini-demo-xp.almost{color:var(--text2);border-color:rgba(255,255,255,.18);background:rgba(255,255,255,.05)}
 .mini-demo-progress{flex:1;min-width:180px;height:8px;border-radius:99px;background:rgba(255,255,255,.08);overflow:hidden}
 .mini-demo-progress>span{display:block;height:100%;width:0;background:linear-gradient(90deg,var(--cyan),#1AECFF);transition:width .45s ease}
 .mini-demo-reaction{font-size:13px;color:var(--text2)}
 .mini-demo-cta{display:none}
 .mini-demo-cta.show{display:inline-flex}
+.mini-demo-cta.show{box-shadow:0 0 0 1px rgba(0,229,255,.38),0 12px 28px rgba(0,0,0,.35),0 0 36px rgba(0,229,255,.28)}
+@keyframes xpPulse{50%{transform:translateY(-2px) scale(1.04)}}
+.mini-demo-coach{
+  border:1px solid rgba(0,229,255,.18);border-radius:16px;padding:14px;
+  background:linear-gradient(180deg,rgba(13,20,38,.88),rgba(10,17,34,.8));
+  display:flex;flex-direction:column;justify-content:center;align-items:center;gap:10px;text-align:center
+}
+.mini-demo-coach img{width:78px;height:78px;object-fit:contain;filter:drop-shadow(0 0 18px rgba(0,229,255,.35))}
+.mini-demo-coach small{font:600 10px 'JetBrains Mono',monospace;letter-spacing:1.2px;color:var(--text3)}
+.mini-demo-coach p{font-size:12px;color:var(--text2);line-height:1.4}
 @media(max-width:900px){
    .loop-flow{gap:10px}
   .loop-node{min-width:128px;padding:18px 14px}
@@ -1318,8 +1336,13 @@ section{padding:140px 24px;position:relative}
   .exercise-pills--primary{grid-template-columns:1fr;gap:10px}
   .exercise-pills--primary .exercise-pill{font-size:15px;padding:14px 14px;min-height:56px}
   .rank-track{gap:18px}
+  .mini-demo-grid{grid-template-columns:1fr}
   .mini-demo-card{padding:18px}
   .mini-demo-q{font-size:20px}
+  .mini-demo-coach{order:2}
+  .mini-demo-hud{justify-content:flex-start}
+  .mini-demo-hud span{font-size:9px}
+  .mini-demo-opt{font-size:14px}
 }
 
 @media (prefers-reduced-motion: reduce){
@@ -1920,7 +1943,7 @@ nav{animation:navSlideIn .5s cubic-bezier(.25,1,.5,1) both}
 .hero::before{animation:heroPulse 8s ease-in-out infinite}
 @keyframes heroPulse{0%,100%{opacity:.8;transform:translateX(-50%) scale(1)}50%{opacity:1;transform:translateX(-50%) scale(1.06)}}
 .hero-trust{box-shadow:0 18px 48px rgba(0,0,0,.35),0 0 0 1px rgba(255,255,255,.04) inset}
-.rank-track::after{content:'';position:absolute;left:6%;right:6%;top:48%;height:2px;background:linear-gradient(90deg,transparent,rgba(0,229,255,.75),transparent);filter:blur(.2px);z-index:-1;animation:rankSweep 3.2s linear infinite}
+.rank-track::after{content:'';position:absolute;left:6%;right:6%;top:48%;height:2px;background:linear-gradient(90deg,rgba(0,229,255,.05) 0%,rgba(0,229,255,.2) 55%,rgba(185,242,255,.55) 82%,rgba(255,215,0,.72) 100%);filter:blur(.2px);z-index:-1;animation:rankSweep 3.2s linear infinite}
 @keyframes rankSweep{0%{opacity:.2;transform:translateX(-7%)}50%{opacity:.95}100%{opacity:.2;transform:translateX(7%)}}
 .rank-tier:hover .rank-tier-name{letter-spacing:.9px;text-shadow:0 0 14px color-mix(in srgb,currentColor 65%,transparent)}
 .duel-arena::selection{background:rgba(0,229,255,.25)}
@@ -1985,6 +2008,8 @@ nav{animation:navSlideIn .5s cubic-bezier(.25,1,.5,1) both}
   .founder-stat:nth-child(2)::after{display:none}
   .founder-stat:nth-child(4)::after{display:none}
   .founder-stat:nth-child(6)::after{display:none}
+  .final-proof-strip{gap:6px}
+  .final-proof-chip{font-size:10px;padding:7px 10px}
   .why-card{padding:28px 24px}
   nav{padding:0 16px}
 }
@@ -2158,7 +2183,10 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
 <div class="section-inner">
 <p class="s-label">01.5 / Quick demo</p>
 <h2 class="s-title" id="mini-demo-heading">Feel one rep in 5 seconds.</h2>
+<div class="mini-demo-grid">
 <div class="mini-demo-card">
+<div class="mini-demo-hud"><span>Prompt Engineering</span><span>Lesson 2 / 12</span><span class="hud-xp">+10 XP</span></div>
+<div class="mini-demo-progress" aria-hidden="true"><span></span></div>
 <div class="mini-demo-q">Which prompt gets the most reliable answer?</div>
 <div class="mini-demo-opts" role="group" aria-label="Prompt choices">
 <button class="mini-demo-opt" data-opt="a">A. “Tell me about AI.”</button>
@@ -2166,11 +2194,16 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
 <button class="mini-demo-opt" data-opt="c">C. “Give me every fact about GPT.”</button>
 </div>
 <div class="mini-demo-foot">
-<div class="mini-demo-xp">+10 XP</div>
-<div class="mini-demo-progress" aria-hidden="true"><span></span></div>
+<div class="mini-demo-xp">Correct +10 XP</div>
 <div class="mini-demo-reaction">Iro: Tight prompt. Higher signal, less hallucination.</div>
 <a class="btn-primary mini-demo-cta" href="https://apps.apple.com/app/id6759628066?utm_source=website&utm_medium=cta&utm_campaign=demo">Keep training in the app</a>
 </div>
+</div>
+<aside class="mini-demo-coach" aria-hidden="true">
+<picture><source srcset="assets/diamond-kiro.webp" type="image/webp"/><img src="assets/diamond-kiro.png" alt=""/></picture>
+<small>Coach mode</small>
+<p>Fast reps. Clear feedback. XP every session.</p>
+</aside>
 </div>
 </div>
 </section>
@@ -2315,7 +2348,7 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
 <span class="rank-tier-idx">TIER VI</span>
 <div class="rank-tier-pedestal">
 <picture><source srcset="assets/iridescent-kiro.webp" type="image/webp"/><img alt="Iridescent Iro" class="rank-tier-img" decoding="async" loading="lazy" src="assets/iridescent-kiro.png"/></picture>
-<div class="rank-plinth" aria-hidden="true"></div>
+<div class="rank-plinth">Iridescent</div>
 </div>
 <span class="rank-tier-name">Iridescent</span>
 <span class="rank-tier-xp">5,000 XP</span>
@@ -2510,7 +2543,7 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
 
 <div class="faq-item">
 <button class="faq-q" aria-expanded="false" aria-controls="faq-a-5"><span class="faq-q-num">05</span><span class="faq-q-text">What AI topics does Iro cover?</span><span class="faq-toggle" aria-hidden="true"></span></button>
-<div class="faq-a" id="faq-a-5">Eighteen paths in four tracks. <strong>Tool mastery:</strong> ChatGPT, Claude, Gemini, Perplexity. <strong>Creative &amp; coding:</strong> image gen, video gen, vibe coding. <strong>Work &amp; career:</strong> job hunting, business, marketing, finance, managers, healthcare. <strong>Core skills:</strong> foundations, prompt engineering, agents, automation, tools. 345 lessons, 2,075+ exercises, plus weekly news, daily challenges, and live duels.</div>
+<div class="faq-a" id="faq-a-5">Iro covers 18 paths across four tracks: Tool Mastery, Creative &amp; Coding, Work &amp; Career, and Core Skills.<br/><br/>You&rsquo;ll train on ChatGPT, Claude, Gemini, Perplexity, image/video generation, vibe coding, job hunting, business, marketing, finance, managers, healthcare, AI foundations, prompt engineering, agents, automation, and AI tools.<br/><br/>The full app includes 345 lessons, 2,075+ exercises, weekly news, daily challenges, and live duels.</div>
 </div>
 
 </div>
@@ -2523,11 +2556,11 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
 <h2 id="final-cta-heading">5 minutes a day is enough.<br/><span class="grad">The only question is whether you&rsquo;ll start.</span></h2>
 <p class="sub">No fluff. No theory. Just reps that compound.</p>
 <div class="final-proof-strip" aria-label="Product proof highlights">
-<span class="final-proof-chip">Real App Store reviews</span>
+<span class="final-proof-chip">Loved by early users</span>
 <span class="final-proof-chip"><strong>18</strong> paths</span>
 <span class="final-proof-chip"><strong>345</strong> lessons</span>
 <span class="final-proof-chip"><strong>2,075+</strong> exercises</span>
-<span class="final-proof-chip">Built solo with the tools it teaches</span>
+<span class="final-proof-chip">Built solo with AI</span>
 </div>
 <a class="btn-primary btn-magnetic" href="https://apps.apple.com/app/id6759628066?utm_source=website&utm_medium=cta&utm_campaign=final">Start Free — 7 Day Trial →</a>
 <p class="pricing">7-day free trial · Then <strong>$24.99 / 3 months</strong> or <strong>$9.99 / week</strong> · Cancel anytime</p>
@@ -2558,7 +2591,7 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
 <a href="https://www.youtube.com/@tryiroapp" target="_blank" rel="noopener noreferrer">YouTube</a>
 <a href="https://x.com/tryiroapp" target="_blank" rel="noopener noreferrer">X</a>
 </div>
-<p class="footer-copy">© 2026 Iro. Master AI. Become Unreplaceable.</p>
+<p class="footer-copy">© 2026 Iro. Master AI. Stay ahead.</p>
 </div>
 </footer>
 <div class="sticky-cta">
@@ -2673,14 +2706,24 @@ document.querySelectorAll('.email-form').forEach(form=>{
   const bar=document.querySelector('.mini-demo-progress > span');
   const reaction=document.querySelector('.mini-demo-reaction');
   const cta=document.querySelector('.mini-demo-cta');
+  let solved=false;
   opts.forEach(btn=>btn.addEventListener('click',()=>{
+    if(solved)return;
     const isRight=btn.dataset.opt==='b';
-    opts.forEach(o=>{o.disabled=true;o.classList.add(o.dataset.opt==='b'?'is-right':'is-wrong');});
-    if(!isRight)reaction.textContent='Close — best answers come from constraints.';
-    if(xp)xp.classList.add('show');
-    if(bar)bar.style.width='38%';
-    if(cta)cta.classList.add('show');
-    if(window.posthog)posthog.capture('mini_demo_answer',{correct:isRight});
+    opts.forEach(o=>o.classList.remove('is-wrong'));
+    if(isRight){
+      solved=true;
+      opts.forEach(o=>{o.disabled=true;o.classList.add(o.dataset.opt==='b'?'is-right':'is-wrong');});
+      if(reaction)reaction.textContent='Iro: Tight prompt. Higher signal, less hallucination.';
+      if(xp){xp.textContent='Correct +10 XP';xp.classList.remove('almost');xp.classList.add('show','pulse');setTimeout(()=>xp.classList.remove('pulse'),360);}
+      if(bar)bar.style.width='38%';
+      if(cta)cta.classList.add('show');
+    }else{
+      btn.classList.add('is-wrong');
+      if(reaction)reaction.textContent='Almost — try the more grounded prompt.';
+      if(xp){xp.textContent='Try again';xp.classList.add('show','almost');}
+      if(bar)bar.style.width='18%';
+    }
   }));
 })();
 // Cursor-tracking ambient glow (desktop only)
