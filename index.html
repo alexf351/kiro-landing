@@ -612,6 +612,7 @@ nav::after{
 .mini-demo-opt{border:1px solid rgba(255,255,255,.09);background:rgba(15,23,44,.85);color:var(--text);border-radius:12px;padding:14px;text-align:left;font:600 14px 'Outfit',sans-serif;cursor:pointer;transition:transform .2s ease,border-color .2s ease,background .2s ease,opacity .2s ease}
 .mini-demo-opt:hover{transform:translateY(-1px);border-color:rgba(0,229,255,.28)}
 .mini-demo-opt.is-right{border-color:rgba(46,204,113,.5);background:rgba(46,204,113,.1)}
+.mini-demo-opt.is-right{box-shadow:0 0 0 1px rgba(46,204,113,.25) inset,0 0 22px rgba(46,204,113,.16)}
 .mini-demo-opt.is-wrong{opacity:.55}
 .mini-demo-foot{display:flex;flex-wrap:wrap;align-items:center;gap:12px;margin-top:16px}
 .mini-demo-xp{font-family:'JetBrains Mono',monospace;font-size:11px;color:var(--gold);opacity:0;transform:translateY(5px);transition:.25s;padding:6px 10px;border-radius:999px;border:1px solid rgba(255,215,0,.28);background:rgba(255,215,0,.08)}
@@ -623,6 +624,7 @@ nav::after{
 .mini-demo-reaction{font-size:13px;color:var(--text2)}
 .mini-demo-cta{display:none}
 .mini-demo-cta.show{display:inline-flex}
+.mini-demo-cta.show{box-shadow:0 0 0 1px rgba(0,229,255,.38),0 12px 28px rgba(0,0,0,.35),0 0 36px rgba(0,229,255,.28)}
 @keyframes xpPulse{50%{transform:translateY(-2px) scale(1.04)}}
 .mini-demo-coach{
   border:1px solid rgba(0,229,255,.18);border-radius:16px;padding:14px;
@@ -1338,6 +1340,9 @@ section{padding:140px 24px;position:relative}
   .mini-demo-card{padding:18px}
   .mini-demo-q{font-size:20px}
   .mini-demo-coach{order:2}
+  .mini-demo-hud{justify-content:flex-start}
+  .mini-demo-hud span{font-size:9px}
+  .mini-demo-opt{font-size:14px}
 }
 
 @media (prefers-reduced-motion: reduce){
@@ -2719,7 +2724,6 @@ document.querySelectorAll('.email-form').forEach(form=>{
       if(xp){xp.textContent='Try again';xp.classList.add('show','almost');}
       if(bar)bar.style.width='18%';
     }
-    if(window.posthog)posthog.capture('mini_demo_answer',{correct:isRight});
   }));
 })();
 // Cursor-tracking ambient glow (desktop only)
