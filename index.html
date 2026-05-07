@@ -1313,6 +1313,36 @@ section{padding:140px 24px;position:relative}
   box-shadow:0 0 8px var(--cyan);
   animation:hudPulse 2s ease-in-out infinite
 }
+/* Video arena — replaces the static preview */
+.duel-arena--video{padding:0;overflow:hidden}
+.duel-video-wrap{
+  position:relative;width:100%;aspect-ratio:16/9;
+  background:#05060C;
+  border-bottom:1px solid rgba(0,229,255,.16)
+}
+.duel-video-wrap video{
+  position:absolute;inset:0;width:100%;height:100%;
+  object-fit:cover;display:block;background:#05060C
+}
+.duel-video-sound{
+  position:absolute;top:14px;right:14px;z-index:2;
+  display:inline-flex;align-items:center;gap:8px;
+  padding:8px 14px;border-radius:100px;
+  font-family:'JetBrains Mono',monospace;
+  font-size:10px;font-weight:700;letter-spacing:1.8px;text-transform:uppercase;
+  color:var(--text);
+  background:rgba(8,12,24,.78);
+  border:1px solid rgba(0,229,255,.45);
+  box-shadow:0 0 24px rgba(0,229,255,.28),inset 0 0 12px rgba(0,229,255,.08);
+  cursor:pointer;backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);
+  transition:transform .18s ease,box-shadow .18s ease,border-color .18s ease
+}
+.duel-video-sound:hover{transform:translateY(-1px);box-shadow:0 0 32px rgba(0,229,255,.42),inset 0 0 14px rgba(0,229,255,.12);border-color:var(--cyan)}
+.duel-video-sound:focus-visible{outline:2px solid var(--cyan);outline-offset:2px}
+.duel-video-sound svg{width:13px;height:13px;color:var(--cyan)}
+.duel-video-sound[data-muted="false"]{border-color:rgba(255,215,0,.55);box-shadow:0 0 24px rgba(255,215,0,.22),inset 0 0 12px rgba(255,215,0,.08)}
+.duel-video-sound[data-muted="false"] svg{color:var(--gold)}
+@media(max-width:640px){.duel-video-sound{top:10px;right:10px;padding:6px 10px;font-size:9px;letter-spacing:1.4px}}
 /* Mobile: collapse the roster, simplify everything */
 @media(max-width:640px){
   .duel-arena{max-width:100%}
@@ -2360,79 +2390,28 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
 <section class="duel-section reveal" aria-labelledby="duel-heading">
 <div class="section-inner">
 <p class="s-label">05 / Live duels</p>
-<h2 class="s-title" id="duel-heading">Learn it. Then prove it.</h2>
-<p class="s-sub">Five-question speed rounds where accuracy, confidence, and timing all matter.</p>
-<div class="duel-arena hud-corners" aria-label="Duel preview">
-<!-- HUD bar -->
-<div class="duel-hud">
-<div class="duel-hud-status"><span class="duel-hud-dot"></span>Duel <span class="duel-hud-sep">·</span> Live</div>
-<div class="duel-hud-meta">
-<span class="duel-hud-q">Q <strong>4</strong> / 5</span>
-<span class="duel-hud-sep">·</span>
-<span class="duel-hud-timer"><svg viewBox="0 0 16 16" width="11" height="11" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="8" cy="9" r="5.5"/><path d="M8 6v3l1.5 1.5"/><path d="M6.5 2h3"/></svg>00:08</span>
-</div>
-</div>
-<!-- Combatants -->
-<div class="duel-roster">
-<div class="duel-fighter duel-fighter--you">
-<picture class="duel-fighter-avatar"><source srcset="assets/diamond-kiro.webp" type="image/webp"/><img alt="You" decoding="async" loading="lazy" src="assets/diamond-kiro.png"/></picture>
-<div class="duel-fighter-meta">
-<div class="duel-fighter-name">YOU</div>
-<div class="duel-fighter-elo">1487 <span>ELO</span></div>
-<div class="duel-fighter-delta duel-fighter-delta--up">▲ +12</div>
-</div>
-</div>
-<div class="duel-vs" aria-hidden="true">VS</div><div class="duel-score">
-<div class="duel-score-num"><span class="duel-score-you">3</span><span class="duel-score-sep">–</span><span class="duel-score-bot">0</span></div>
-<div class="duel-score-label">Wins</div>
-<div class="duel-score-dots" aria-hidden="true">
-<span class="dot dot-win"></span>
-<span class="dot dot-win"></span>
-<span class="dot dot-win"></span>
-<span class="dot dot-active"></span>
-<span class="dot"></span>
-</div>
-</div>
-<div class="duel-fighter duel-fighter--bot">
-<div class="duel-fighter-meta">
-<div class="duel-fighter-name">OPS-7</div>
-<div class="duel-fighter-elo">1432 <span>ELO</span></div>
-<div class="duel-fighter-delta duel-fighter-delta--down">▼ -12</div>
-</div>
-<div class="duel-fighter-avatar duel-fighter-avatar--bot" aria-hidden="true">
-<svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
-<line x1="32" y1="7" x2="32" y2="14"/>
-<circle cx="32" cy="6" r="2.2" fill="currentColor"/>
-<rect x="13" y="14" width="38" height="34" rx="7"/>
-<circle cx="24" cy="28" r="3" fill="currentColor" stroke="none"/>
-<circle cx="40" cy="28" r="3" fill="currentColor" stroke="none"/>
-<rect x="22" y="38" width="20" height="3.5" rx="1.5" fill="currentColor" stroke="none"/>
-<line x1="9" y1="26" x2="13" y2="26"/>
-<line x1="9" y1="34" x2="13" y2="34"/>
-<line x1="51" y1="26" x2="55" y2="26"/>
-<line x1="51" y1="34" x2="55" y2="34"/>
-<line x1="20" y1="48" x2="20" y2="56"/>
-<line x1="44" y1="48" x2="44" y2="56"/>
-</svg>
-</div>
-</div>
-</div>
-<!-- Question card -->
-<div class="duel-question">
-<div class="duel-q-label">Question 4 of 5</div>
-<div class="duel-q-text">Which prompt minimizes AI hallucinations?</div>
-<div class="duel-options" role="radiogroup" aria-label="Answer options">
-<div class="duel-opt"><span class="duel-opt-key">A</span><span class="duel-opt-text">&ldquo;Tell me everything about Mars.&rdquo;</span></div>
-<div class="duel-opt duel-opt--picked"><span class="duel-opt-key">B</span><span class="duel-opt-text">&ldquo;Summarize this article using only the text provided.&rdquo;</span><span class="duel-opt-mark" aria-hidden="true"><svg viewBox="0 0 16 16" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="m3 8 3.5 3.5L13 5"/></svg></span></div>
-<div class="duel-opt"><span class="duel-opt-key">C</span><span class="duel-opt-text">&ldquo;What&rsquo;s true about black holes?&rdquo;</span></div>
-<div class="duel-opt"><span class="duel-opt-key">D</span><span class="duel-opt-text">&ldquo;Give me facts on quantum physics.&rdquo;</span></div>
-</div>
-<div class="duel-tempo"><span>Locked in</span><span class="duel-tempo-bar"><span></span></span><span class="duel-tempo-time">2.4s</span></div>
+<h2 class="s-title" id="duel-heading">Step into the arena.</h2>
+<p class="s-sub">Cyberpunk arenas, battle music, podium reveals. Duel 60+ rivals &mdash; from LeBron to Beyonc&eacute; &mdash; and chain combos for bonus XP.</p>
+<div class="duel-arena duel-arena--video hud-corners" aria-label="Duel gameplay video">
+<div class="duel-video-wrap">
+<video
+  id="duel-demo-video"
+  src="assets/duel-demo.mp4"
+  poster="assets/04-duel-victory-1320x2868.webp"
+  autoplay muted loop playsinline preload="metadata"
+  aria-label="Iro duel gameplay demo">
+</video>
+<button type="button" class="duel-video-sound" data-muted="true" aria-label="Unmute video" aria-pressed="false">
+<svg class="duel-video-sound-icon-muted" viewBox="0 0 16 16" width="13" height="13" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 6h2l3-2.5v9L5 10H3z"/><path d="m11 6 3 3"/><path d="m14 6-3 3"/></svg>
+<svg class="duel-video-sound-icon-on" viewBox="0 0 16 16" width="13" height="13" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="display:none"><path d="M3 6h2l3-2.5v9L5 10H3z"/><path d="M11 5.5a3 3 0 0 1 0 5"/><path d="M13 3.5a6 6 0 0 1 0 9"/></svg>
+<span class="duel-video-sound-label">Tap for sound</span>
+</button>
 </div>
 </div>
 <div class="duel-meta">
-<span class="duel-meta-pill">5 questions</span>
-<span class="duel-meta-pill">Speed + accuracy</span>
+<span class="duel-meta-pill">Cyberpunk arenas</span>
+<span class="duel-meta-pill">60+ rivals</span>
+<span class="duel-meta-pill">Combo bonuses</span>
 <span class="duel-meta-pill"><span class="duel-meta-dot"></span>ELO ranked</span>
 </div>
 </div>
@@ -2764,6 +2743,34 @@ document.querySelectorAll('.email-form').forEach(form=>{
       btn.style.transform=`translate(${dx*f}px,${dy*f - 2}px)`;
     });
   });
+})();
+/* Duel video — unmute toggle (browsers block autoplay-with-sound, so we start muted) */
+(function(){
+  const video=document.getElementById('duel-demo-video');
+  const btn=document.querySelector('.duel-video-sound');
+  if(!video||!btn)return;
+  const iconMuted=btn.querySelector('.duel-video-sound-icon-muted');
+  const iconOn=btn.querySelector('.duel-video-sound-icon-on');
+  const label=btn.querySelector('.duel-video-sound-label');
+  function sync(){
+    const muted=video.muted;
+    btn.dataset.muted=muted?'true':'false';
+    btn.setAttribute('aria-pressed',muted?'false':'true');
+    btn.setAttribute('aria-label',muted?'Unmute video':'Mute video');
+    if(iconMuted)iconMuted.style.display=muted?'':'none';
+    if(iconOn)iconOn.style.display=muted?'none':'';
+    if(label)label.textContent=muted?'Tap for sound':'Sound on';
+  }
+  btn.addEventListener('click',()=>{
+    video.muted=!video.muted;
+    if(!video.muted){
+      const p=video.play();
+      if(p&&typeof p.catch==='function')p.catch(()=>{});
+    }
+    sync();
+  });
+  video.addEventListener('volumechange',sync);
+  sync();
 })();
 </script>
 </body>
