@@ -2080,8 +2080,9 @@ nav{animation:navSlideIn .5s cubic-bezier(.25,1,.5,1) both}
 @media(max-width:768px){
   .hero{padding:100px 20px 60px;min-height:auto}
   .hero-mascot-wrap{width:280px;height:280px}
-  .hero-mascot-glow{width:380px;height:380px}
-  .hero-backdrop{font-size:200px;opacity:.55}
+  .hero-mascot-glow{width:340px;height:340px}
+  .hero-particles{inset:0}
+  .hero-backdrop{font-size:140px;opacity:.55}
   .hero-badge-row{justify-content:center}
   .why-grid{grid-template-columns:1fr}
   .proof-grid{grid-template-columns:1fr}
@@ -2093,11 +2094,22 @@ nav{animation:navSlideIn .5s cubic-bezier(.25,1,.5,1) both}
   .rank-tier-locked{width:104px;height:104px}
   .rank-tier-pedestal::before{width:120px;height:120px}
   .rank-tier:nth-of-type(6){transform:scale(1.08)}
+  .rank-tier:nth-of-type(6) .rank-tier-pedestal::before{width:128px;height:128px}
   .rank-tier-locked-icon{font-size:24px}
   .founder-stats{grid-template-columns:repeat(3,1fr)}
   .founder-stat:nth-child(3)::after{display:none}
   .founder-badge{flex-direction:column;text-align:center}
   section{padding:72px 20px}
+}
+@media(max-width:540px){
+  /* Mid-mobile (iPhone 14/15/16 Pro Max ≈ 430px) — rank tier columns get tight */
+  .rank-tier-img{width:92px;height:92px}
+  .rank-tier-locked{width:92px;height:92px}
+  .rank-tier-pedestal::before{width:108px;height:108px}
+  .rank-tier:nth-of-type(6){transform:scale(1.04)}
+  .rank-tier:nth-of-type(6) .rank-tier-pedestal::before{width:108px;height:108px}
+  .rank-track{gap:14px}
+  .rank-plinth{width:104px}
 }
 @media(max-width:480px){
   section{padding:56px 16px}
@@ -2114,8 +2126,10 @@ nav{animation:navSlideIn .5s cubic-bezier(.25,1,.5,1) both}
   .rank-tier-locked{width:84px;height:84px}
   .rank-tier-pedestal::before{width:96px;height:96px}
   .rank-tier:nth-of-type(6){transform:scale(1.02)}
+  .rank-tier:nth-of-type(6) .rank-tier-pedestal::before{width:96px;height:96px}
   .rank-tier-locked-icon{font-size:20px}
   .rank-tier-hint{display:none}
+  .rank-plinth{width:84px;font-size:9px;letter-spacing:1px}
   .founder-stats{grid-template-columns:repeat(2,1fr)}
   .founder-stat:nth-child(2)::after{display:none}
   .founder-stat:nth-child(4)::after{display:none}
