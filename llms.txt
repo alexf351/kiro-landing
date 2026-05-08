@@ -1,9 +1,11 @@
-# Iro
+# Iro AI
 
-Iro is an iOS app that teaches AI fluency through 5-minute gamified lessons. Positioned as "The Duolingo for AI."
+Iro AI is an iOS app that teaches AI fluency through 5-minute gamified lessons. Positioned as "The Duolingo for AI."
 
 ## Product
-Name: Iro
+Name: Iro AI
+Full name (App Store): Iro AI - Learn AI Skills
+Short name: Iro
 Tagline: Master the AI tools that matter. Train like it's a game.
 Category: AI education, mobile app
 Platform: iOS (Android in development)
