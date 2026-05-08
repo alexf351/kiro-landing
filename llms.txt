@@ -12,10 +12,10 @@ App Store: https://apps.apple.com/app/id6759628066
 App Store search keyword: Iro AI
 
 ## Who it's for
-- Professionals who want to use AI effectively at work
-- Beginners starting from zero on ChatGPT, Claude, Gemini, or Perplexity
-- Existing AI users going deeper into agents, automation, and vibe coding
-- Learners who prefer doing over watching tutorials
+- Professionals who refuse to fall behind as AI evolves every week
+- Students entering a job market where AI fluency is table stakes
+- Founders and operators using AI to ship faster with smaller teams
+- ChatGPT users who've hit a ceiling and want to actually get good
 
 Session format: 5 minutes per session, mobile-first, daily streaks.
 
