@@ -8,15 +8,16 @@
 <meta content="#0A0E1A" name="theme-color"/>
 <meta property="og:title" content="The AI question 90% of professionals get wrong | Iro"/>
 <meta property="og:description" content="10 questions. 2 minutes. Find out where you stand on AI — and how far you could go."/>
-<meta property="og:image" content="https://www.tryiro.com/assets/kiro-app-icon-512.png"/>
-<meta property="og:url" content="https://www.tryiro.com/quiz.html"/>
+<meta property="og:image" content="https://tryiro.com/assets/kiro-app-icon-512.png"/>
+<meta property="og:url" content="https://tryiro.com/quiz.html"/>
 <meta property="og:type" content="website"/>
+<link rel="canonical" href="https://tryiro.com/quiz.html"/>
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:title" content="The AI question 90% of professionals get wrong | Iro"/>
 <meta name="twitter:description" content="10 questions. 2 minutes. Find out where you stand on AI — and how far you could go."/>
-<meta name="twitter:image" content="https://www.tryiro.com/assets/kiro-app-icon-512.png"/>
+<meta name="twitter:image" content="https://tryiro.com/assets/kiro-app-icon-512.png"/>
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"Quiz","name":"AI IQ Test","description":"10-question interactive quiz testing AI fluency across ChatGPT, Claude, prompt engineering, hallucinations, and AI tools. Free, no signup. Maps your score to a rank tier (Bronze through Diamond) and recommends a personalized learning path.","url":"https://www.tryiro.com/quiz.html","numberOfQuestions":10,"timeRequired":"PT2M","inLanguage":"en","learningResourceType":"Quiz","educationalUse":"Self-assessment","isPartOf":{"@type":"WebSite","name":"Iro","url":"https://www.tryiro.com"},"provider":{"@type":"Organization","name":"Iro","url":"https://www.tryiro.com"},"about":[{"@type":"Thing","name":"ChatGPT"},{"@type":"Thing","name":"Claude"},{"@type":"Thing","name":"Prompt engineering"},{"@type":"Thing","name":"AI hallucinations"},{"@type":"Thing","name":"AI tools"}]}
+{"@context":"https://schema.org","@type":"Quiz","name":"AI IQ Test","description":"10-question interactive quiz testing AI fluency across ChatGPT, Claude, prompt engineering, hallucinations, and AI tools. Free, no signup. Maps your score to a rank tier (Bronze through Diamond) and recommends a personalized learning path.","url":"https://tryiro.com/quiz.html","numberOfQuestions":10,"timeRequired":"PT2M","inLanguage":"en","learningResourceType":"Quiz","educationalUse":"Self-assessment","isPartOf":{"@type":"WebSite","name":"Iro","url":"https://tryiro.com"},"provider":{"@type":"Organization","name":"Iro","url":"https://tryiro.com"},"about":[{"@type":"Thing","name":"ChatGPT"},{"@type":"Thing","name":"Claude"},{"@type":"Thing","name":"Prompt engineering"},{"@type":"Thing","name":"AI hallucinations"},{"@type":"Thing","name":"AI tools"}]}
 </script>
 <link href="assets/favicon-64.png" rel="icon" type="image/png"/>
 <link href="assets/apple-touch-icon.png" rel="apple-touch-icon"/>
@@ -1026,7 +1027,7 @@ function showResults(){
 
   // #4 — Share with challenge URL
   document.getElementById('shareBtn').addEventListener('click',()=>{
-    const url=`https://www.tryiro.com/quiz.html?score=${score}`;
+    const url=`https://tryiro.com/quiz.html?score=${score}`;
     const text=`I scored ${score}/10 on the Iro IQ Test. Can you beat me? ${url}`;
     navigator.clipboard.writeText(text).then(()=>{
       if(window.posthog)posthog.capture('quiz_shared',{score,rank});
