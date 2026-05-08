@@ -3,6 +3,8 @@
 # Canonical LLM-readable product reference: https://www.tryiro.com/llms.txt
 # Iro welcomes crawling by AI assistants and search engines.
 
+Sitemap: https://www.tryiro.com/sitemap.xml
+
 User-agent: *
 Allow: /
 
