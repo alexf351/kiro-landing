@@ -2192,6 +2192,27 @@ nav{animation:navSlideIn .5s cubic-bezier(.25,1,.5,1) both}
 }
 .proof-section .section-inner{position:relative;z-index:1}
 .proof-section .s-label{color:var(--success);opacity:1}
+/* In-app browser fallback (TikTok / Instagram / Facebook etc. can't launch the App Store) */
+.iab-overlay{position:fixed;inset:0;z-index:10000;display:none;align-items:flex-end;justify-content:center;background:rgba(5,8,16,.72);backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px);padding:16px}
+.iab-overlay.open{display:flex;animation:iabFade .18s ease-out}
+@keyframes iabFade{from{opacity:0}to{opacity:1}}
+.iab-card{position:relative;width:100%;max-width:440px;background:linear-gradient(180deg,#141B2D 0%,#0F1425 100%);border:1px solid var(--surface-border);border-radius:20px;padding:24px 22px 20px;box-shadow:0 24px 60px rgba(0,0,0,.6),0 0 0 1px rgba(0,229,255,.08);animation:iabSlide .24s cubic-bezier(.2,.8,.2,1)}
+@keyframes iabSlide{from{transform:translateY(24px);opacity:0}to{transform:translateY(0);opacity:1}}
+.iab-close{position:absolute;top:10px;right:10px;width:32px;height:32px;border:none;background:transparent;color:var(--text2);font-size:22px;line-height:1;cursor:pointer;border-radius:8px}
+.iab-close:hover{color:var(--text);background:rgba(255,255,255,.06)}
+.iab-title{font-size:20px;font-weight:800;color:var(--text);margin:0 0 6px;letter-spacing:-.01em}
+.iab-title em{color:var(--cyan);font-style:normal}
+.iab-sub{font-size:14px;color:var(--text2);margin:0 0 16px;line-height:1.5}
+.iab-steps{list-style:none;padding:0;margin:0 0 16px;display:flex;flex-direction:column;gap:8px}
+.iab-steps li{display:flex;gap:10px;align-items:flex-start;font-size:14px;color:var(--text);line-height:1.45}
+.iab-steps li::before{content:counter(iab);counter-increment:iab;flex:none;width:22px;height:22px;border-radius:50%;background:rgba(0,229,255,.12);color:var(--cyan);font-size:12px;font-weight:700;display:flex;align-items:center;justify-content:center;font-family:'JetBrains Mono',monospace;margin-top:1px}
+.iab-steps{counter-reset:iab}
+.iab-url{display:flex;align-items:center;gap:8px;background:rgba(10,14,26,.6);border:1px solid var(--surface-border);border-radius:10px;padding:8px 8px 8px 12px;margin-bottom:12px}
+.iab-url-text{flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-family:'JetBrains Mono',monospace;font-size:12px;color:var(--text2)}
+.iab-url-copy{flex:none;background:rgba(0,229,255,.12);border:1px solid rgba(0,229,255,.3);color:var(--cyan);font-size:12px;font-weight:700;padding:6px 12px;border-radius:8px;cursor:pointer;font-family:inherit;transition:background .15s}
+.iab-url-copy:hover{background:rgba(0,229,255,.2)}
+.iab-url-copy.copied{background:rgba(46,204,113,.18);border-color:rgba(46,204,113,.4);color:var(--success)}
+.iab-hint{font-size:12px;color:var(--text3);margin:0;text-align:center}
 </style>
 <script>
 !function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.crossOrigin="anonymous",p.async=!0,p.src=s.api_host.replace(".i.posthog.com","-assets.i.posthog.com")+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="init capture register register_once register_for_session unregister unregister_for_session getFeatureFlag getFeatureFlagPayload isFeatureEnabled reloadFeatureFlags updateEarlyAccessFeatureEnrollment getEarlyAccessFeatures on onFeatureFlags onSessionId getSurveys getActiveMatchingSurveys renderSurvey canRenderSurvey identify setPersonProperties group resetGroups setPersonPropertiesForFlags resetPersonPropertiesForFlags setGroupPropertiesForFlags resetGroupPropertiesForFlags reset get_distinct_id getGroups get_session_id get_session_replay_url alias set_config startSessionRecording stopSessionRecording sessionRecordingStarted captureException loadToolbar get_property getSessionProperty createPersonProfile opt_in_capturing opt_out_capturing has_opted_in_capturing has_opted_out_capturing clear_opt_in_out_capturing debug getPageViewId".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
@@ -2200,6 +2221,23 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
 <script async src="https://aromatic-caribou-889.convex.site/api/a/am_xBvr5KPeNgRbN-Cp"></script>
 </head>
 <body>
+<div class="iab-overlay" id="iabOverlay" role="dialog" aria-modal="true" aria-labelledby="iabTitle" hidden>
+<div class="iab-card">
+<button class="iab-close" type="button" aria-label="Close" id="iabClose">&times;</button>
+<h2 class="iab-title" id="iabTitle">Open in your <em>browser</em> to continue</h2>
+<p class="iab-sub" id="iabSub">The App Store can't open inside TikTok. Open this page in Safari or Chrome to start your free trial.</p>
+<ol class="iab-steps" id="iabSteps">
+<li>Tap the <strong>&hellip;</strong> menu in the top-right corner</li>
+<li>Choose <strong>Open in browser</strong> (or <strong>Open in Safari</strong>)</li>
+<li>Tap <strong>Start Free</strong> again — the App Store will open</li>
+</ol>
+<div class="iab-url">
+<span class="iab-url-text" id="iabUrlText">tryiro.com</span>
+<button class="iab-url-copy" type="button" id="iabUrlCopy">Copy link</button>
+</div>
+<p class="iab-hint">Or copy the link and paste it into your browser.</p>
+</div>
+</div>
 <div class="scroll-progress" aria-hidden="true"></div>
 <div class="cursor-glow" aria-hidden="true"></div>
 <div class="ambient-gradient"></div>
@@ -2899,6 +2937,63 @@ document.querySelectorAll('.email-form').forEach(form=>{
   });
   video.addEventListener('volumechange',sync);
   sync();
+})();
+/* In-app browser detection: TikTok / Instagram / Facebook / Snapchat / LinkedIn webviews
+   can't launch the App Store, so iOS shows "Action can't be completed." Intercept App Store
+   links from these webviews and show a small overlay telling the user to open in their browser. */
+(function(){
+  const ua=navigator.userAgent||'';
+  const checks=[
+    {name:'tiktok',re:/BytedanceWebview|musical_ly|TikTok|Bytedance/i,label:'TikTok'},
+    {name:'instagram',re:/Instagram/i,label:'Instagram'},
+    {name:'facebook',re:/FBAN|FBAV|FB_IAB|FB4A/i,label:'Facebook'},
+    {name:'snapchat',re:/Snapchat/i,label:'Snapchat'},
+    {name:'linkedin',re:/LinkedInApp/i,label:'LinkedIn'},
+    {name:'pinterest',re:/Pinterest/i,label:'Pinterest'}
+  ];
+  const hit=checks.find(c=>c.re.test(ua));
+  if(!hit)return;
+  document.documentElement.classList.add('in-app-browser','iab-'+hit.name);
+  const overlay=document.getElementById('iabOverlay');
+  const closeBtn=document.getElementById('iabClose');
+  const subEl=document.getElementById('iabSub');
+  const urlText=document.getElementById('iabUrlText');
+  const copyBtn=document.getElementById('iabUrlCopy');
+  if(!overlay)return;
+  const pageUrl='https://tryiro.com/';
+  urlText.textContent=pageUrl.replace(/^https?:\/\//,'');
+  subEl.textContent='The App Store can’t open inside '+hit.label+'. Open this page in your browser to start your free trial.';
+  function show(source){
+    overlay.hidden=false;
+    overlay.classList.add('open');
+    document.body.style.overflow='hidden';
+    if(window.posthog)posthog.capture('inapp_browser_blocked',{browser:hit.name,source:source||'unknown'});
+  }
+  function hide(){
+    overlay.classList.remove('open');
+    overlay.hidden=true;
+    document.body.style.overflow='';
+  }
+  closeBtn.addEventListener('click',hide);
+  overlay.addEventListener('click',e=>{if(e.target===overlay)hide();});
+  document.addEventListener('keydown',e=>{if(e.key==='Escape'&&!overlay.hidden)hide();});
+  copyBtn.addEventListener('click',()=>{
+    const done=()=>{copyBtn.textContent='Copied!';copyBtn.classList.add('copied');setTimeout(()=>{copyBtn.textContent='Copy link';copyBtn.classList.remove('copied');},2200);};
+    if(navigator.clipboard&&navigator.clipboard.writeText){
+      navigator.clipboard.writeText(pageUrl).then(done).catch(fallback);
+    }else{fallback();}
+    function fallback(){
+      const ta=document.createElement('textarea');ta.value=pageUrl;ta.setAttribute('readonly','');ta.style.position='fixed';ta.style.opacity='0';document.body.appendChild(ta);ta.select();
+      try{document.execCommand('copy');done();}catch(_){}
+      document.body.removeChild(ta);
+    }
+  });
+  document.addEventListener('click',e=>{
+    const a=e.target.closest&&e.target.closest('a[href*="apps.apple.com"],a[href^="itms-apps:"]');
+    if(!a)return;
+    e.preventDefault();
+    show(a.getAttribute('data-campaign')||a.className||'link');
+  },true);
 })();
 </script>
 </body>
