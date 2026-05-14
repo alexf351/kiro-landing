@@ -2992,7 +2992,26 @@ document.querySelectorAll('.email-form').forEach(form=>{
     const a=e.target.closest&&e.target.closest('a[href*="apps.apple.com"],a[href^="itms-apps:"]');
     if(!a)return;
     e.preventDefault();
-    show(a.getAttribute('data-campaign')||a.className||'link');
+    const href=a.getAttribute('href')||'';
+    // itms-apps:// is a system URL scheme — iOS dispatches it directly to the App Store app,
+    // bypassing the universal-link blocking that webviews do for https://apps.apple.com.
+    const itmsUrl=href.replace(/^https?:\/\/apps\.apple\.com/,'itms-apps://apps.apple.com');
+    const source=a.getAttribute('data-campaign')||a.className||'link';
+    if(window.posthog)posthog.capture('inapp_browser_appstore_attempt',{browser:hit.name,source:source});
+    let left=false;
+    const mark=()=>{left=true;};
+    document.addEventListener('visibilitychange',mark,{once:true});
+    window.addEventListener('pagehide',mark,{once:true});
+    window.addEventListener('blur',mark,{once:true});
+    // Trigger the URL scheme. If the App Store opens, the page goes hidden and `left` becomes true.
+    try{window.location.href=itmsUrl;}catch(_){/* webview may throw on unknown scheme */}
+    // If we're still here ~1.4s later, the scheme was blocked — fall back to the instructions overlay.
+    setTimeout(()=>{
+      document.removeEventListener('visibilitychange',mark);
+      window.removeEventListener('pagehide',mark);
+      window.removeEventListener('blur',mark);
+      if(!left&&!document.hidden){show(source);}
+    },1400);
   },true);
 })();
 </script>
