@@ -1,6 +1,31 @@
 {
   "redirects": [
     {
+      "source": "/privacy",
+      "destination": "/privacy.html",
+      "permanent": true
+    },
+    {
+      "source": "/terms",
+      "destination": "/terms.html",
+      "permanent": true
+    },
+    {
+      "source": "/quiz",
+      "destination": "/quiz.html",
+      "permanent": true
+    },
+    {
+      "source": "/delete-account",
+      "destination": "/delete-account.html",
+      "permanent": true
+    },
+    {
+      "source": "/ai-iq-test",
+      "destination": "/quiz.html",
+      "permanent": true
+    },
+    {
       "source": "/:path*",
       "has": [
         {
@@ -21,6 +46,113 @@
       ],
       "destination": "https://tryiro.com/:path*",
       "permanent": true
+    }
+  ],
+  "headers": [
+    {
+      "source": "/llms.txt",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "text/plain; charset=utf-8"
+        },
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=3600"
+        }
+      ]
+    },
+    {
+      "source": "/llms-full.txt",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "text/plain; charset=utf-8"
+        },
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=3600"
+        }
+      ]
+    },
+    {
+      "source": "/sitemap.xml",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "application/xml; charset=utf-8"
+        },
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=3600"
+        }
+      ]
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/about",
+      "destination": "/about.html"
+    },
+    {
+      "source": "/learn-chatgpt",
+      "destination": "/learn-chatgpt.html"
+    },
+    {
+      "source": "/prompt-engineering-app",
+      "destination": "/prompt-engineering-app.html"
+    },
+    {
+      "source": "/ai-agents-course",
+      "destination": "/ai-agents-course.html"
+    },
+    {
+      "source": "/duolingo-for-ai",
+      "destination": "/duolingo-for-ai.html"
+    },
+    {
+      "source": "/best-ai-learning-app",
+      "destination": "/best-ai-learning-app.html"
+    },
+    {
+      "source": "/learn-claude",
+      "destination": "/learn-claude.html"
+    },
+    {
+      "source": "/learn-gemini",
+      "destination": "/learn-gemini.html"
+    },
+    {
+      "source": "/learn-perplexity",
+      "destination": "/learn-perplexity.html"
+    },
+    {
+      "source": "/ai-for-marketing",
+      "destination": "/ai-for-marketing.html"
+    },
+    {
+      "source": "/ai-for-students",
+      "destination": "/ai-for-students.html"
+    },
+    {
+      "source": "/ai-for-work",
+      "destination": "/ai-for-work.html"
+    },
+    {
+      "source": "/ai-automation-course",
+      "destination": "/ai-automation-course.html"
+    },
+    {
+      "source": "/learn-ai-on-iphone",
+      "destination": "/learn-ai-on-iphone.html"
+    },
+    {
+      "source": "/iro-ai-vs-video-courses",
+      "destination": "/iro-ai-vs-video-courses.html"
+    },
+    {
+      "source": "/ai-course-alternative",
+      "destination": "/ai-course-alternative.html"
     }
   ]
 }
