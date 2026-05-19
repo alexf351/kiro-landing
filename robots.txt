@@ -1,6 +1,7 @@
 # Iro — robots.txt
 #
 # Canonical LLM-readable product reference: https://tryiro.com/llms.txt
+# Detailed LLM-readable product reference: https://tryiro.com/llms-full.txt
 # Iro welcomes crawling by AI assistants and search engines.
 
 Sitemap: https://tryiro.com/sitemap.xml
