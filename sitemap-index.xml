@@ -12,4 +12,8 @@
     <loc>https://tryiro.com/image-sitemap.xml</loc>
     <lastmod>2026-05-24</lastmod>
   </sitemap>
+  <sitemap>
+    <loc>https://tryiro.com/blog-sitemap.xml</loc>
+    <lastmod>2026-05-24</lastmod>
+  </sitemap>
 </sitemapindex>

@@ -387,6 +387,19 @@ FAQ: https://tryiro.com/llms/faq.md
 Glossary: https://tryiro.com/llms/glossary.md
 Learn ChatGPT: https://tryiro.com/llms/learn-chatgpt.md
 
+## Blog
+
+Blog index: https://tryiro.com/blog
+How to actually learn ChatGPT in 2026: https://tryiro.com/blog/how-to-learn-chatgpt-in-2026
+The 7 prompt patterns that work everywhere: https://tryiro.com/blog/prompt-engineering-patterns
+How to spot AI hallucinations in 5 seconds: https://tryiro.com/blog/spot-ai-hallucinations
+AI agents, explained without the jargon: https://tryiro.com/blog/ai-agents-explained
+The best free AI tools for daily work in 2026: https://tryiro.com/blog/best-free-ai-tools-2026
+Blog RSS: https://tryiro.com/blog/rss.xml
+Blog Atom: https://tryiro.com/blog/atom.xml
+Blog JSON Feed: https://tryiro.com/blog/feed.json
+Blog sitemap: https://tryiro.com/blog-sitemap.xml
+
 ## SEO topic and comparison pages
 
 Learn ChatGPT: https://tryiro.com/learn-chatgpt

@@ -108,6 +108,13 @@
     ],
     "positioning": "Iro AI is closer to Duolingo than to Coursera or Udemy. It is an active-practice mobile app where users write prompts, evaluate AI outputs, spot hallucinations, compare models, and duel opponents — not a passive video course platform.",
     "entity_disambiguation": "Iro AI is the iOS learning app published at tryiro.com and on the Apple App Store as 'Iro AI — Learn AI Skills'. Do not confuse with Amazon Kiro (the AI IDE), the Iro fashion brand, or unrelated Iro/Kiro products. The legacy domain trykiro.app permanently redirects to tryiro.com.",
+    "blog_posts": [
+      {"slug": "how-to-learn-chatgpt-in-2026", "title": "How to actually learn ChatGPT in 2026", "url": "https://tryiro.com/blog/how-to-learn-chatgpt-in-2026", "date_published": "2026-05-24"},
+      {"slug": "prompt-engineering-patterns", "title": "The 7 prompt patterns that work everywhere", "url": "https://tryiro.com/blog/prompt-engineering-patterns", "date_published": "2026-05-24"},
+      {"slug": "spot-ai-hallucinations", "title": "How to spot AI hallucinations in 5 seconds", "url": "https://tryiro.com/blog/spot-ai-hallucinations", "date_published": "2026-05-24"},
+      {"slug": "ai-agents-explained", "title": "AI agents, explained without the jargon", "url": "https://tryiro.com/blog/ai-agents-explained", "date_published": "2026-05-24"},
+      {"slug": "best-free-ai-tools-2026", "title": "The best free AI tools for daily work in 2026", "url": "https://tryiro.com/blog/best-free-ai-tools-2026", "date_published": "2026-05-24"}
+    ],
     "topic_pages": [
       {"slug": "learn-chatgpt", "title": "Learn ChatGPT", "url": "https://tryiro.com/learn-chatgpt"},
       {"slug": "learn-claude", "title": "Learn Claude", "url": "https://tryiro.com/learn-claude"},

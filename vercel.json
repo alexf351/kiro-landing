@@ -245,6 +245,35 @@
         {"key": "Cache-Control","value": "public, max-age=3600"},
         {"key": "Access-Control-Allow-Origin","value": "*"}
       ]
+    },
+    {
+      "source": "/blog/rss.xml",
+      "headers": [
+        {"key": "Content-Type","value": "application/rss+xml; charset=utf-8"},
+        {"key": "Cache-Control","value": "public, max-age=3600"}
+      ]
+    },
+    {
+      "source": "/blog/atom.xml",
+      "headers": [
+        {"key": "Content-Type","value": "application/atom+xml; charset=utf-8"},
+        {"key": "Cache-Control","value": "public, max-age=3600"}
+      ]
+    },
+    {
+      "source": "/blog/feed.json",
+      "headers": [
+        {"key": "Content-Type","value": "application/feed+json; charset=utf-8"},
+        {"key": "Cache-Control","value": "public, max-age=3600"},
+        {"key": "Access-Control-Allow-Origin","value": "*"}
+      ]
+    },
+    {
+      "source": "/llms/blog/(.*).md",
+      "headers": [
+        {"key": "Content-Type","value": "text/markdown; charset=utf-8"},
+        {"key": "Cache-Control","value": "public, max-age=3600"}
+      ]
     }
   ],
   "rewrites": [
@@ -363,6 +392,30 @@
     {
       "source": "/changelog",
       "destination": "/changelog.html"
+    },
+    {
+      "source": "/blog",
+      "destination": "/blog/index.html"
+    },
+    {
+      "source": "/blog/how-to-learn-chatgpt-in-2026",
+      "destination": "/blog/how-to-learn-chatgpt-in-2026.html"
+    },
+    {
+      "source": "/blog/prompt-engineering-patterns",
+      "destination": "/blog/prompt-engineering-patterns.html"
+    },
+    {
+      "source": "/blog/spot-ai-hallucinations",
+      "destination": "/blog/spot-ai-hallucinations.html"
+    },
+    {
+      "source": "/blog/ai-agents-explained",
+      "destination": "/blog/ai-agents-explained.html"
+    },
+    {
+      "source": "/blog/best-free-ai-tools-2026",
+      "destination": "/blog/best-free-ai-tools-2026.html"
     }
   ]
 }

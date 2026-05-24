@@ -22,8 +22,12 @@ sitemap                     https://tryiro.com/sitemap.xml
 sitemap index               https://tryiro.com/sitemap-index.xml
 news sitemap                https://tryiro.com/news-sitemap.xml
 image sitemap               https://tryiro.com/image-sitemap.xml
+blog sitemap                https://tryiro.com/blog-sitemap.xml
 atom feed                   https://tryiro.com/atom.xml
 json feed                   https://tryiro.com/feed.json
+blog rss                    https://tryiro.com/blog/rss.xml
+blog atom                   https://tryiro.com/blog/atom.xml
+blog json feed              https://tryiro.com/blog/feed.json
 robots policy               https://tryiro.com/robots.txt
 
 ## Markdown mirrors (LLM-friendly clean text)
@@ -56,6 +60,14 @@ ai course alternative       https://tryiro.com/llms/ai-course-alternative.md
 about iro ai                https://tryiro.com/llms/about.md
 ai iq test                  https://tryiro.com/llms/quiz.md
 changelog                   https://tryiro.com/llms/changelog.md
+
+## Blog (markdown mirrors)
+blog index                  https://tryiro.com/llms/blog/index.md
+how to learn chatgpt 2026   https://tryiro.com/llms/blog/how-to-learn-chatgpt-in-2026.md
+prompt engineering patterns https://tryiro.com/llms/blog/prompt-engineering-patterns.md
+spot ai hallucinations      https://tryiro.com/llms/blog/spot-ai-hallucinations.md
+ai agents explained         https://tryiro.com/llms/blog/ai-agents-explained.md
+best free ai tools 2026     https://tryiro.com/llms/blog/best-free-ai-tools-2026.md
 
 ## Support and policy
 privacy policy              https://tryiro.com/privacy
