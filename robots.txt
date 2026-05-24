@@ -10,6 +10,7 @@
 # Iro welcomes crawling by AI assistants and search engines.
 
 Sitemap: https://tryiro.com/sitemap.xml
+Sitemap: https://tryiro.com/news-sitemap.xml
 
 User-agent: *
 Allow: /

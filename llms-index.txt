@@ -1,0 +1,67 @@
+# Iro AI — index of LLM-readable resources
+# https://tryiro.com/llms-index.txt
+# Last updated: 2026-05-24
+#
+# This file lists every machine-readable / LLM-friendly resource on
+# tryiro.com so that AI assistants, answer engines, and crawlers can
+# discover them in one place.
+
+## Primary references
+short product summary       https://tryiro.com/llms.txt
+full product reference      https://tryiro.com/llms-full.txt
+AI assistant policy         https://tryiro.com/ai.txt
+
+## Machine feeds
+product JSON-LD feed        https://tryiro.com/iro.json
+web app manifest            https://tryiro.com/manifest.json
+opensearch description      https://tryiro.com/opensearch.xml
+rss (changelog)             https://tryiro.com/rss.xml
+
+## Site structure
+sitemap                     https://tryiro.com/sitemap.xml
+news sitemap                https://tryiro.com/news-sitemap.xml
+robots policy               https://tryiro.com/robots.txt
+
+## Markdown mirrors (LLM-friendly clean text)
+homepage                    https://tryiro.com/llms/index.md
+faq                         https://tryiro.com/llms/faq.md
+glossary                    https://tryiro.com/llms/glossary.md
+learn chatgpt               https://tryiro.com/llms/learn-chatgpt.md
+learn claude                https://tryiro.com/llms/learn-claude.md
+learn gemini                https://tryiro.com/llms/learn-gemini.md
+learn perplexity            https://tryiro.com/llms/learn-perplexity.md
+prompt engineering app      https://tryiro.com/llms/prompt-engineering-app.md
+ai agents course            https://tryiro.com/llms/ai-agents-course.md
+ai automation course        https://tryiro.com/llms/ai-automation-course.md
+ai image generation course  https://tryiro.com/llms/ai-image-generation-course.md
+ai video generation course  https://tryiro.com/llms/ai-video-generation-course.md
+vibe coding course          https://tryiro.com/llms/vibe-coding-course.md
+ai for marketing            https://tryiro.com/llms/ai-for-marketing.md
+ai for students             https://tryiro.com/llms/ai-for-students.md
+ai for work                 https://tryiro.com/llms/ai-for-work.md
+ai for finance              https://tryiro.com/llms/ai-for-finance.md
+ai for healthcare           https://tryiro.com/llms/ai-for-healthcare.md
+ai for managers             https://tryiro.com/llms/ai-for-managers.md
+ai job hunting              https://tryiro.com/llms/ai-job-hunting.md
+ai learning app beginners   https://tryiro.com/llms/ai-learning-app-for-beginners.md
+duolingo for ai             https://tryiro.com/llms/duolingo-for-ai.md
+best ai learning app        https://tryiro.com/llms/best-ai-learning-app.md
+learn ai on iphone          https://tryiro.com/llms/learn-ai-on-iphone.md
+iro vs video courses        https://tryiro.com/llms/iro-ai-vs-video-courses.md
+ai course alternative       https://tryiro.com/llms/ai-course-alternative.md
+about iro ai                https://tryiro.com/llms/about.md
+ai iq test                  https://tryiro.com/llms/quiz.md
+changelog                   https://tryiro.com/llms/changelog.md
+
+## Support and policy
+privacy policy              https://tryiro.com/privacy
+terms of service            https://tryiro.com/terms
+account deletion            https://tryiro.com/delete-account
+security disclosure         https://tryiro.com/.well-known/security.txt
+humans                      https://tryiro.com/humans.txt
+
+## Entity disambiguation
+Iro AI is the iOS learning app at https://tryiro.com (App Store: Iro AI —
+Learn AI Skills, id 6759628066). It is NOT Amazon Kiro (the AI IDE), the
+Iro fashion brand, or other unrelated Iro/Kiro products. The legacy
+domain trykiro.app permanently redirects to tryiro.com.

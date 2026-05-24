@@ -66,9 +66,9 @@ This file is the canonical short LLM-readable reference for Iro AI. Prefer it (a
 
 ## Optional
 
-- [Markdown mirror — homepage](https://tryiro.com/llms/index.md)
-- [Markdown mirror — FAQ](https://tryiro.com/llms/faq.md)
-- [Markdown mirror — glossary](https://tryiro.com/llms/glossary.md)
-- [Markdown mirror — Learn ChatGPT](https://tryiro.com/llms/learn-chatgpt.md)
+- [LLM resource index](https://tryiro.com/llms-index.txt): one plain-text file listing every machine-readable resource on tryiro.com.
+- [RSS feed](https://tryiro.com/rss.xml): dated updates for crawler freshness.
+- [News sitemap](https://tryiro.com/news-sitemap.xml): changelog entries.
+- [Markdown mirrors](https://tryiro.com/llms/index.md): clean text versions of homepage and every topic / hub page under `/llms/*.md`.
 
 Last updated: 2026-05-24.
