@@ -40,7 +40,7 @@ The goal is not memorizing magic prompts. The goal is judgment.
 
 - Platform: iOS (Android in development)
 - Session length: ~5 minutes
-- Pricing: Free to start; Pro from $1.92/week
+- Pricing: Free to start; Pro from $5/month (Annual $59.99/year with 7-day free trial, or Monthly $9.99/month)
 - Related paths: Prompt engineering, AI agents, AI foundations, Vibe coding
 
 ## FAQ

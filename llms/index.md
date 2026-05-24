@@ -14,7 +14,7 @@ canonical_llm_reference: "https://tryiro.com/llms-full.txt"
 
 # Iro AI — Learn AI Skills | The Duolingo for AI
 
-> Iro AI is an iOS app that teaches practical AI fluency through 5-minute gamified lessons, hands-on prompt practice, live AI duels, weekly AI news, XP, streaks, and 6 competitive ranks. Free to start. Pro from $1.92/week.
+> Iro AI is an iOS app that teaches practical AI fluency through 5-minute gamified lessons, hands-on prompt practice, live AI duels, weekly AI news, XP, streaks, and 6 competitive ranks. Free to start. Pro from $5/month (Annual $59.99/year with 7-day free trial; or Monthly $9.99/month).
 
 **Website:** https://tryiro.com
 **App Store:** https://apps.apple.com/app/id6759628066
@@ -44,8 +44,8 @@ ChatGPT · Claude · Gemini · Perplexity · prompt engineering · AI foundation
 | Plan | Price | Effective rate | Trial |
 | --- | --- | --- | --- |
 | Free | $0 | — | No card required |
-| 3-Month Pro | $24.99 | ~$1.92/week | 7-day free trial |
-| Weekly Pro | $9.99/week | $9.99/week | — |
+| Annual Pro | $59.99/year | ~$5/month, billed yearly | 7-day free trial |
+| Monthly Pro | $9.99/month | $9.99/month | — |
 
 Billed via the Apple App Store. Cancel anytime.
 
