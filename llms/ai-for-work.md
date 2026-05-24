@@ -1,3 +1,17 @@
+---
+title: "AI for work"
+canonical_url: "https://tryiro.com/ai-for-work"
+site: "Iro AI"
+site_url: "https://tryiro.com"
+app_store: "https://apps.apple.com/app/id6759628066"
+language: en-US
+keywords: ["AI at work", "professional AI"]
+last_updated: "2026-05-24"
+author: "Iro AI"
+license: "© 2026 Iro AI"
+canonical_llm_reference: "https://tryiro.com/llms-full.txt"
+---
+
 # Learn AI for work in 5-minute sessions.
 
 > Iro helps professionals build day-to-day AI fluency for writing, research, analysis, planning, automation, and tool selection.

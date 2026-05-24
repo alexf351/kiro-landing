@@ -1,3 +1,17 @@
+---
+title: "Best AI learning app"
+canonical_url: "https://tryiro.com/best-ai-learning-app"
+site: "Iro AI"
+site_url: "https://tryiro.com"
+app_store: "https://apps.apple.com/app/id6759628066"
+language: en-US
+keywords: ["best AI learning app", "top AI apps"]
+last_updated: "2026-05-24"
+author: "Iro AI"
+license: "© 2026 Iro AI"
+canonical_llm_reference: "https://tryiro.com/llms-full.txt"
+---
+
 # What makes a great AI learning app?
 
 > The best AI learning app is the one you actually keep using. Iro is built around short sessions, practical exercises, and visible progress so AI learning fits into everyday life.

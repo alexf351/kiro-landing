@@ -1,3 +1,17 @@
+---
+title: "AI video generation course"
+canonical_url: "https://tryiro.com/ai-video-generation-course"
+site: "Iro AI"
+site_url: "https://tryiro.com"
+app_store: "https://apps.apple.com/app/id6759628066"
+language: en-US
+keywords: ["Sora", "Veo", "Runway", "Pika", "Luma", "Kling"]
+last_updated: "2026-05-24"
+author: "Iro AI"
+license: "© 2026 Iro AI"
+canonical_llm_reference: "https://tryiro.com/llms-full.txt"
+---
+
 # Make AI video that actually communicates.
 
 > Iro teaches AI video prompting through short daily reps. You learn to direct subject, motion, framing, and pacing, then iterate with judgment across Sora, Veo, Runway, Pika, Luma, and Kling.

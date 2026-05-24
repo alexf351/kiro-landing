@@ -1,3 +1,17 @@
+---
+title: "AI IQ test by Iro AI"
+canonical_url: "https://tryiro.com/quiz"
+site: "Iro AI"
+site_url: "https://tryiro.com"
+app_store: "https://apps.apple.com/app/id6759628066"
+language: en-US
+keywords: ["AI IQ test", "free quiz", "AI literacy assessment"]
+last_updated: "2026-05-24"
+author: "Iro AI"
+license: "© 2026 Iro AI"
+canonical_llm_reference: "https://tryiro.com/llms-full.txt"
+---
+
 # AI IQ Test by Iro AI
 
 > Free, no-signup AI IQ test. 10 questions. About 2 minutes. Ranks Bronze to Iridescent and recommends a learning path.

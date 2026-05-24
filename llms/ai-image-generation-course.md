@@ -1,3 +1,17 @@
+---
+title: "AI image generation course"
+canonical_url: "https://tryiro.com/ai-image-generation-course"
+site: "Iro AI"
+site_url: "https://tryiro.com"
+app_store: "https://apps.apple.com/app/id6759628066"
+language: en-US
+keywords: ["Midjourney", "DALL·E", "Stable Diffusion", "Imagen", "Flux"]
+last_updated: "2026-05-24"
+author: "Iro AI"
+license: "© 2026 Iro AI"
+canonical_llm_reference: "https://tryiro.com/llms-full.txt"
+---
+
 # Make AI images that look intentional.
 
 > Iro teaches AI image prompting through short daily reps. You learn to direct style, composition, and detail, then iterate with judgment instead of dice rolls. Skills transfer across Midjourney, DALL·E, Stable Diffusion, Imagen, and Flux.

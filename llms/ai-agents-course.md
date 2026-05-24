@@ -1,3 +1,17 @@
+---
+title: "AI agents course"
+canonical_url: "https://tryiro.com/ai-agents-course"
+site: "Iro AI"
+site_url: "https://tryiro.com"
+app_store: "https://apps.apple.com/app/id6759628066"
+language: en-US
+keywords: ["AI agents", "automation"]
+last_updated: "2026-05-24"
+author: "Iro AI"
+license: "© 2026 Iro AI"
+canonical_llm_reference: "https://tryiro.com/llms-full.txt"
+---
+
 # Learn AI agents without the jargon spiral.
 
 > Iro teaches the foundations behind agents and automation in plain language, then turns concepts into quick practice so you understand when agents help, where they fail, and how to design safer workflows.

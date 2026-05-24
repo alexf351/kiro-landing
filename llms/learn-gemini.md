@@ -1,3 +1,17 @@
+---
+title: "Learn Gemini"
+canonical_url: "https://tryiro.com/learn-gemini"
+site: "Iro AI"
+site_url: "https://tryiro.com"
+app_store: "https://apps.apple.com/app/id6759628066"
+language: en-US
+keywords: ["Gemini", "Google AI"]
+last_updated: "2026-05-24"
+author: "Iro AI"
+license: "© 2026 Iro AI"
+canonical_llm_reference: "https://tryiro.com/llms-full.txt"
+---
+
 # Learn Gemini as part of real AI fluency.
 
 > Iro helps learners understand Gemini alongside other major AI tools, so they can choose the right assistant, write clearer prompts, and evaluate results with confidence.

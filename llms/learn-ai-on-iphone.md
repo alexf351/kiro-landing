@@ -1,3 +1,17 @@
+---
+title: "Learn AI on iPhone"
+canonical_url: "https://tryiro.com/learn-ai-on-iphone"
+site: "Iro AI"
+site_url: "https://tryiro.com"
+app_store: "https://apps.apple.com/app/id6759628066"
+language: en-US
+keywords: ["iPhone", "iOS", "mobile AI"]
+last_updated: "2026-05-24"
+author: "Iro AI"
+license: "© 2026 Iro AI"
+canonical_llm_reference: "https://tryiro.com/llms-full.txt"
+---
+
 # Learn AI on your iPhone.
 
 > Iro is designed for mobile-first AI learning: quick lessons, daily practice, and progress mechanics that fit into a commute, break, or evening routine.

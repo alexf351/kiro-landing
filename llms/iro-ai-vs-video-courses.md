@@ -1,3 +1,17 @@
+---
+title: "Iro AI vs video courses"
+canonical_url: "https://tryiro.com/iro-ai-vs-video-courses"
+site: "Iro AI"
+site_url: "https://tryiro.com"
+app_store: "https://apps.apple.com/app/id6759628066"
+language: en-US
+keywords: ["video courses", "active practice"]
+last_updated: "2026-05-24"
+author: "Iro AI"
+license: "© 2026 Iro AI"
+canonical_llm_reference: "https://tryiro.com/llms-full.txt"
+---
+
 # Iro AI vs. passive video courses.
 
 > Video courses can explain concepts, but active practice builds judgment. Iro focuses on short exercises, feedback loops, and gamified repetition.

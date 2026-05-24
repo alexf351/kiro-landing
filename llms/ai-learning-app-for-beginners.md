@@ -1,3 +1,17 @@
+---
+title: "AI learning app for beginners"
+canonical_url: "https://tryiro.com/ai-learning-app-for-beginners"
+site: "Iro AI"
+site_url: "https://tryiro.com"
+app_store: "https://apps.apple.com/app/id6759628066"
+language: en-US
+keywords: ["beginners", "start AI"]
+last_updated: "2026-05-24"
+author: "Iro AI"
+license: "© 2026 Iro AI"
+canonical_llm_reference: "https://tryiro.com/llms-full.txt"
+---
+
 # The friendliest way to start learning AI.
 
 > Iro starts you at zero. Five minutes a day, plain-language lessons, real exercises, and a clear path from 'what is a prompt?' to 'I can actually use this'.

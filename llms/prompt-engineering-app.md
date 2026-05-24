@@ -1,3 +1,17 @@
+---
+title: "Prompt engineering app"
+canonical_url: "https://tryiro.com/prompt-engineering-app"
+site: "Iro AI"
+site_url: "https://tryiro.com"
+app_store: "https://apps.apple.com/app/id6759628066"
+language: en-US
+keywords: ["prompt engineering", "Prompt Lab"]
+last_updated: "2026-05-24"
+author: "Iro AI"
+license: "© 2026 Iro AI"
+canonical_llm_reference: "https://tryiro.com/llms-full.txt"
+---
+
 # A prompt engineering app built for daily practice.
 
 > Prompt engineering is a skill you build by doing. Iro gives you short exercises, Prompt Lab feedback, and realistic AI tasks so better prompting becomes a habit.

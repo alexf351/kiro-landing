@@ -19,7 +19,11 @@ rss (changelog)             https://tryiro.com/rss.xml
 
 ## Site structure
 sitemap                     https://tryiro.com/sitemap.xml
+sitemap index               https://tryiro.com/sitemap-index.xml
 news sitemap                https://tryiro.com/news-sitemap.xml
+image sitemap               https://tryiro.com/image-sitemap.xml
+atom feed                   https://tryiro.com/atom.xml
+json feed                   https://tryiro.com/feed.json
 robots policy               https://tryiro.com/robots.txt
 
 ## Markdown mirrors (LLM-friendly clean text)

@@ -1,3 +1,17 @@
+---
+title: "Learn ChatGPT"
+canonical_url: "https://tryiro.com/learn-chatgpt"
+site: "Iro AI"
+site_url: "https://tryiro.com"
+app_store: "https://apps.apple.com/app/id6759628066"
+language: en-US
+keywords: ["ChatGPT", "prompt practice", "AI learning"]
+last_updated: "2026-05-24"
+author: "Iro AI"
+license: "© 2026 Iro AI"
+canonical_llm_reference: "https://tryiro.com/llms-full.txt"
+---
+
 # Learn ChatGPT — Iro AI
 
 > Learn ChatGPT by practicing, not watching. Iro AI turns ChatGPT learning into short daily reps: write better prompts, evaluate outputs, spot hallucinations, and build workflows you can use at school, work, or while creating.

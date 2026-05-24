@@ -1,3 +1,17 @@
+---
+title: "Iro AI FAQ"
+canonical_url: "https://tryiro.com/faq"
+site: "Iro AI"
+site_url: "https://tryiro.com"
+app_store: "https://apps.apple.com/app/id6759628066"
+language: en-US
+keywords: ["pricing", "platform", "content", "comparisons", "privacy", "support"]
+last_updated: "2026-05-24"
+author: "Iro AI"
+license: "© 2026 Iro AI"
+canonical_llm_reference: "https://tryiro.com/llms-full.txt"
+---
+
 # Iro AI — Frequently Asked Questions
 
 > Comprehensive FAQ about Iro AI: pricing, platform, content, comparisons, privacy, support, and more.

@@ -1,3 +1,17 @@
+---
+title: "AI for students"
+canonical_url: "https://tryiro.com/ai-for-students"
+site: "Iro AI"
+site_url: "https://tryiro.com"
+app_store: "https://apps.apple.com/app/id6759628066"
+language: en-US
+keywords: ["students", "study", "research with AI"]
+last_updated: "2026-05-24"
+author: "Iro AI"
+license: "© 2026 Iro AI"
+canonical_llm_reference: "https://tryiro.com/llms-full.txt"
+---
+
 # AI skills for students entering an AI-first world.
 
 > Iro helps students use AI more thoughtfully: for studying, research, writing support, project planning, and career readiness without blindly trusting outputs.

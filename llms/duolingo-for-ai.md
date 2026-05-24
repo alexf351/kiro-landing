@@ -1,3 +1,17 @@
+---
+title: "Duolingo for AI"
+canonical_url: "https://tryiro.com/duolingo-for-ai"
+site: "Iro AI"
+site_url: "https://tryiro.com"
+app_store: "https://apps.apple.com/app/id6759628066"
+language: en-US
+keywords: ["Duolingo for AI", "gamified learning"]
+last_updated: "2026-05-24"
+author: "Iro AI"
+license: "© 2026 Iro AI"
+canonical_llm_reference: "https://tryiro.com/llms-full.txt"
+---
+
 # The Duolingo-style way to learn AI.
 
 > If long courses do not fit your schedule, Iro uses the mechanics people expect from language-learning apps—short lessons, streaks, XP, ranks, and active recall—to help you build AI fluency.

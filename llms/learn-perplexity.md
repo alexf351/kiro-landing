@@ -1,3 +1,17 @@
+---
+title: "Learn Perplexity"
+canonical_url: "https://tryiro.com/learn-perplexity"
+site: "Iro AI"
+site_url: "https://tryiro.com"
+app_store: "https://apps.apple.com/app/id6759628066"
+language: en-US
+keywords: ["Perplexity", "AI search"]
+last_updated: "2026-05-24"
+author: "Iro AI"
+license: "© 2026 Iro AI"
+canonical_llm_reference: "https://tryiro.com/llms-full.txt"
+---
+
 # Learn Perplexity for better AI research.
 
 > Perplexity and AI search tools are strongest when users ask sharper questions and verify sources. Iro teaches those habits through short active exercises.

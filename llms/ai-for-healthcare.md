@@ -1,3 +1,17 @@
+---
+title: "AI for healthcare"
+canonical_url: "https://tryiro.com/ai-for-healthcare"
+site: "Iro AI"
+site_url: "https://tryiro.com"
+app_store: "https://apps.apple.com/app/id6759628066"
+language: en-US
+keywords: ["healthcare", "clinical AI literacy"]
+last_updated: "2026-05-24"
+author: "Iro AI"
+license: "© 2026 Iro AI"
+canonical_llm_reference: "https://tryiro.com/llms-full.txt"
+---
+
 # AI fluency for healthcare work.
 
 > Iro teaches clinicians, students, and healthcare operators how to use AI tools — ChatGPT, Claude, Gemini, Perplexity — for research, drafting, and admin support, with a clear-eyed view of limits. Iro is not medical advice.

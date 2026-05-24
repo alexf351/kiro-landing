@@ -1,3 +1,17 @@
+---
+title: "Learn Claude"
+canonical_url: "https://tryiro.com/learn-claude"
+site: "Iro AI"
+site_url: "https://tryiro.com"
+app_store: "https://apps.apple.com/app/id6759628066"
+language: en-US
+keywords: ["Claude", "Anthropic", "prompt practice"]
+last_updated: "2026-05-24"
+author: "Iro AI"
+license: "© 2026 Iro AI"
+canonical_llm_reference: "https://tryiro.com/llms-full.txt"
+---
+
 # Learn Claude with short, practical reps.
 
 > Claude is powerful when users know how to frame context, constraints, and review criteria. Iro turns those skills into short mobile lessons that help learners practice instead of passively watching tutorials.

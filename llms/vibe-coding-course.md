@@ -1,3 +1,17 @@
+---
+title: "Vibe coding course"
+canonical_url: "https://tryiro.com/vibe-coding-course"
+site: "Iro AI"
+site_url: "https://tryiro.com"
+app_store: "https://apps.apple.com/app/id6759628066"
+language: en-US
+keywords: ["vibe coding", "AI-assisted coding"]
+last_updated: "2026-05-24"
+author: "Iro AI"
+license: "© 2026 Iro AI"
+canonical_llm_reference: "https://tryiro.com/llms-full.txt"
+---
+
 # Vibe coding, learned by doing.
 
 > Iro turns AI-assisted coding into short daily reps. You learn to describe intent, set constraints, evaluate AI-written code, and ship — instead of pasting prompts you don't fully understand.

@@ -1,3 +1,17 @@
+---
+title: "AI job hunting"
+canonical_url: "https://tryiro.com/ai-job-hunting"
+site: "Iro AI"
+site_url: "https://tryiro.com"
+app_store: "https://apps.apple.com/app/id6759628066"
+language: en-US
+keywords: ["resume", "cover letter", "interview prep", "outreach"]
+last_updated: "2026-05-24"
+author: "Iro AI"
+license: "© 2026 Iro AI"
+canonical_llm_reference: "https://tryiro.com/llms-full.txt"
+---
+
 # Use AI to land the job — without getting flagged.
 
 > Iro teaches job hunters how to use ChatGPT, Claude, Gemini, and Perplexity for résumés, cover letters, applications, prep, and outreach — while sounding like a real person, not a copy-paste bot.

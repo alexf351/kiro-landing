@@ -1,3 +1,17 @@
+---
+title: "AI automation course"
+canonical_url: "https://tryiro.com/ai-automation-course"
+site: "Iro AI"
+site_url: "https://tryiro.com"
+app_store: "https://apps.apple.com/app/id6759628066"
+language: en-US
+keywords: ["AI automation", "workflows"]
+last_updated: "2026-05-24"
+author: "Iro AI"
+license: "© 2026 Iro AI"
+canonical_llm_reference: "https://tryiro.com/llms-full.txt"
+---
+
 # Learn AI automation as a practical workflow skill.
 
 > Iro teaches automation from the ground up: define the task, break it into steps, choose tools, add checks, and know where human review belongs.
