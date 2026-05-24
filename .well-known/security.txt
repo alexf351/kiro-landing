@@ -1,0 +1,12 @@
+# Iro AI — security policy (RFC 9116)
+# https://tryiro.com/.well-known/security.txt
+
+Contact: https://tryiro.com/about
+Expires: 2027-05-24T00:00:00.000Z
+Preferred-Languages: en
+Canonical: https://tryiro.com/.well-known/security.txt
+Policy: https://tryiro.com/privacy
+
+# We appreciate responsible disclosure. Please describe the issue,
+# affected URL(s), and steps to reproduce. We will acknowledge receipt
+# and follow up after triage.

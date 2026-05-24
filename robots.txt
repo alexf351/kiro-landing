@@ -4,6 +4,9 @@
 # Canonical LLM-readable product reference: https://tryiro.com/llms.txt
 # Detailed LLM-readable product reference: https://tryiro.com/llms-full.txt
 # AI assistant and crawler policy: https://tryiro.com/ai.txt
+# Machine-readable product feed: https://tryiro.com/iro.json
+# Web App Manifest: https://tryiro.com/manifest.json
+# OpenSearch description: https://tryiro.com/opensearch.xml
 # Iro welcomes crawling by AI assistants and search engines.
 
 Sitemap: https://tryiro.com/sitemap.xml

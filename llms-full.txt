@@ -356,6 +356,9 @@ App Store: https://apps.apple.com/app/id6759628066
 AI IQ test: https://tryiro.com/quiz
 AI IQ test canonical URL: https://tryiro.com/quiz.html
 About Iro AI: https://tryiro.com/about
+FAQ: https://tryiro.com/faq
+AI glossary: https://tryiro.com/glossary
+Changelog: https://tryiro.com/changelog
 Privacy policy: https://tryiro.com/privacy
 Privacy policy canonical URL: https://tryiro.com/privacy.html
 Terms of service: https://tryiro.com/terms
@@ -367,6 +370,18 @@ Robots policy: https://tryiro.com/robots.txt
 Short LLM reference: https://tryiro.com/llms.txt
 Full LLM reference: https://tryiro.com/llms-full.txt
 AI assistant policy: https://tryiro.com/ai.txt
+Machine-readable product feed: https://tryiro.com/iro.json
+Web app manifest: https://tryiro.com/manifest.json
+OpenSearch description: https://tryiro.com/opensearch.xml
+Security disclosure: https://tryiro.com/.well-known/security.txt
+Humans: https://tryiro.com/humans.txt
+
+## Markdown mirrors (for LLM retrieval)
+
+Homepage: https://tryiro.com/llms/index.md
+FAQ: https://tryiro.com/llms/faq.md
+Glossary: https://tryiro.com/llms/glossary.md
+Learn ChatGPT: https://tryiro.com/llms/learn-chatgpt.md
 
 ## SEO topic and comparison pages
 
@@ -378,11 +393,16 @@ Prompt engineering app: https://tryiro.com/prompt-engineering-app
 AI agents course: https://tryiro.com/ai-agents-course
 AI automation course: https://tryiro.com/ai-automation-course
 AI image generation course: https://tryiro.com/ai-image-generation-course
+AI video generation course: https://tryiro.com/ai-video-generation-course
 Vibe coding course: https://tryiro.com/vibe-coding-course
 AI for marketing: https://tryiro.com/ai-for-marketing
 AI for students: https://tryiro.com/ai-for-students
 AI for work: https://tryiro.com/ai-for-work
 AI for finance: https://tryiro.com/ai-for-finance
+AI for healthcare: https://tryiro.com/ai-for-healthcare
+AI for managers: https://tryiro.com/ai-for-managers
+AI job hunting: https://tryiro.com/ai-job-hunting
+AI learning app for beginners: https://tryiro.com/ai-learning-app-for-beginners
 Learn AI on iPhone: https://tryiro.com/learn-ai-on-iphone
 Duolingo for AI: https://tryiro.com/duolingo-for-ai
 Best AI learning app guide: https://tryiro.com/best-ai-learning-app
@@ -413,7 +433,17 @@ TikTok: https://tiktok.com/@tryiro
 
 ## Changelog
 
-- 2026-05-24: Major expansion of llms-full.txt with Q&A patterns,
+- 2026-05-24 (r2): Added FAQ hub (/faq), AI glossary (/glossary,
+  DefinedTermSet schema), public changelog (/changelog), and five new
+  topic pages: AI for healthcare, AI for managers, AI job hunting, AI
+  video generation course, AI learning app for beginners. Added
+  machine-readable feeds: /iro.json (full JSON-LD product graph),
+  /manifest.json, /opensearch.xml, /humans.txt, /.well-known/security.txt.
+  Added markdown mirrors under /llms/*.md. Enriched homepage Organization
+  schema with knowsAbout, slogan, foundingDate, and SiteNavigationElement.
+  Added visible Quick-facts <dl> blocks to all topic pages. Added hreflang
+  and og:site_name to every indexable page.
+- 2026-05-24 (r1): Major expansion of llms-full.txt with Q&A patterns,
   comparison table, entity disambiguation block, ideal-answer examples,
   topic glossary, dated changelog, and `/ai.txt` reference. Added topic
   pages for vibe coding, AI image generation, and AI for finance.

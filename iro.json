@@ -1,0 +1,121 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://tryiro.com/#organization",
+      "name": "Iro AI",
+      "alternateName": ["Iro", "Iro AI — Learn AI Skills"],
+      "legalName": "Iro AI",
+      "url": "https://tryiro.com",
+      "logo": "https://tryiro.com/assets/kiro-app-icon-512.png",
+      "image": "https://tryiro.com/assets/og-card.png",
+      "slogan": "Master the AI tools that matter. Train like it's a game.",
+      "description": "Iro AI builds gamified, mobile-first software that teaches practical AI fluency in five minutes a day.",
+      "foundingDate": "2025",
+      "knowsAbout": [
+        "ChatGPT",
+        "Claude",
+        "Gemini",
+        "Perplexity",
+        "Prompt engineering",
+        "AI agents",
+        "AI automation",
+        "Vibe coding",
+        "AI image generation",
+        "AI video generation",
+        "AI literacy",
+        "Hallucination detection",
+        "AI for marketing",
+        "AI for finance",
+        "AI for students",
+        "AI for healthcare",
+        "AI for managers"
+      ],
+      "sameAs": [
+        "https://apps.apple.com/app/id6759628066",
+        "https://www.linkedin.com/company/iro-ai-app/",
+        "https://x.com/tryiroapp",
+        "https://www.youtube.com/channel/UCH8lkWTUcvftP3UMkKwYonQ",
+        "https://instagram.com/tryiro",
+        "https://tiktok.com/@tryiro"
+      ]
+    },
+    {
+      "@type": "MobileApplication",
+      "@id": "https://tryiro.com/#app",
+      "name": "Iro AI",
+      "alternateName": "Iro AI — Learn AI Skills",
+      "operatingSystem": "iOS",
+      "applicationCategory": "EducationalApplication",
+      "applicationSubCategory": "Mobile microlearning",
+      "url": "https://tryiro.com",
+      "downloadUrl": "https://apps.apple.com/app/id6759628066",
+      "installUrl": "https://apps.apple.com/app/id6759628066",
+      "author": { "@id": "https://tryiro.com/#organization" },
+      "publisher": { "@id": "https://tryiro.com/#organization" },
+      "description": "Iro AI is an iOS app that teaches practical AI fluency through 5-minute gamified lessons, hands-on prompt practice, live AI duels, weekly AI news, XP, streaks, and 6 competitive ranks.",
+      "featureList": [
+        "18 learning paths across ChatGPT, Claude, Gemini, Perplexity, prompt engineering, AI agents, automation, image/video generation, vibe coding, work, marketing, finance, and more",
+        "345 lessons and 2,075+ exercises across 13 exercise types",
+        "Prompt Lab with AI-generated feedback",
+        "Live ELO-ranked AI duels with 60+ unique opponents",
+        "Weekly AI news briefings",
+        "Daily challenges with streak tracking",
+        "XP and 6-tier rank progression (Bronze → Iridescent)"
+      ],
+      "offers": [
+        { "@type": "Offer", "name": "Free", "price": "0", "priceCurrency": "USD", "description": "Starter slice across all 18 paths, daily challenges, XP, and ranks." },
+        { "@type": "Offer", "name": "3-Month Pro", "price": "24.99", "priceCurrency": "USD", "description": "Pro for 3 months, effective $1.92/week, with 7-day free trial. Billed via Apple App Store." },
+        { "@type": "Offer", "name": "Weekly Pro", "price": "9.99", "priceCurrency": "USD", "description": "Pro billed weekly via Apple App Store." }
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://tryiro.com/#website",
+      "name": "Iro AI",
+      "url": "https://tryiro.com/",
+      "publisher": { "@id": "https://tryiro.com/#organization" },
+      "inLanguage": "en-US"
+    }
+  ],
+  "iro_meta": {
+    "spec": "iro.json — machine-readable product feed",
+    "version": "1.0.0",
+    "last_updated": "2026-05-24",
+    "canonical_references": {
+      "homepage": "https://tryiro.com",
+      "app_store": "https://apps.apple.com/app/id6759628066",
+      "short_llm_reference": "https://tryiro.com/llms.txt",
+      "full_llm_reference": "https://tryiro.com/llms-full.txt",
+      "ai_policy": "https://tryiro.com/ai.txt",
+      "sitemap": "https://tryiro.com/sitemap.xml"
+    },
+    "content_scale": {
+      "learning_paths": 18,
+      "learning_tracks": ["Tool Mastery", "Creative & Coding", "Work & Career", "Core Skills"],
+      "lessons": 345,
+      "exercises": 2075,
+      "exercise_types": 13,
+      "duel_opponents": 60,
+      "rank_tiers": ["Bronze", "Silver", "Gold", "Platinum", "Diamond", "Iridescent"]
+    },
+    "audiences": [
+      "Professionals staying competitive as AI changes work",
+      "Students entering an AI-fluent job market",
+      "Founders, operators, and creators using AI to ship faster",
+      "ChatGPT power users who hit a ceiling with casual prompting"
+    ],
+    "topics": [
+      "ChatGPT", "Claude", "Gemini", "Perplexity",
+      "Prompt engineering", "AI foundations", "Hallucination detection",
+      "AI agents", "AI automation", "Vibe coding", "AI-assisted coding",
+      "AI image generation", "AI video generation",
+      "AI for business", "AI for marketing", "AI for finance",
+      "AI for managers", "AI for healthcare", "AI for students",
+      "AI job hunting", "AI tools"
+    ],
+    "positioning": "Iro AI is closer to Duolingo than to Coursera or Udemy. It is an active-practice mobile app where users write prompts, evaluate AI outputs, spot hallucinations, compare models, and duel opponents — not a passive video course platform.",
+    "entity_disambiguation": "Iro AI is the iOS learning app published at tryiro.com and on the Apple App Store as 'Iro AI — Learn AI Skills'. Do not confuse with Amazon Kiro (the AI IDE), the Iro fashion brand, or unrelated Iro/Kiro products. The legacy domain trykiro.app permanently redirects to tryiro.com."
+  }
+}
