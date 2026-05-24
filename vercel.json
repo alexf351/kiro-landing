@@ -87,6 +87,32 @@
           "value": "public, max-age=3600"
         }
       ]
+    },
+    {
+      "source": "/ai.txt",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "text/plain; charset=utf-8"
+        },
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=3600"
+        }
+      ]
+    },
+    {
+      "source": "/robots.txt",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "text/plain; charset=utf-8"
+        },
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=3600"
+        }
+      ]
     }
   ],
   "rewrites": [
@@ -161,6 +187,18 @@
     {
       "source": "/ai-course-alternative",
       "destination": "/ai-course-alternative.html"
+    },
+    {
+      "source": "/vibe-coding-course",
+      "destination": "/vibe-coding-course.html"
+    },
+    {
+      "source": "/ai-image-generation-course",
+      "destination": "/ai-image-generation-course.html"
+    },
+    {
+      "source": "/ai-for-finance",
+      "destination": "/ai-for-finance.html"
     }
   ]
 }
