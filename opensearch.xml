@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/"
+                      xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+  <ShortName>Iro AI</ShortName>
+  <LongName>Iro AI — Learn AI Skills</LongName>
+  <Description>Search Iro AI — the iOS app for gamified AI learning. Master ChatGPT, Claude, Gemini, Perplexity, prompt engineering, and AI agents.</Description>
+  <InputEncoding>UTF-8</InputEncoding>
+  <Image height="64" width="64" type="image/png">https://tryiro.com/assets/favicon-64.png</Image>
+  <Image height="256" width="256" type="image/png">https://tryiro.com/assets/kiro-app-icon-256.png</Image>
+  <Url type="text/html" method="get" template="https://tryiro.com/?q={searchTerms}"/>
+  <Url type="application/opensearchdescription+xml" rel="self" template="https://tryiro.com/opensearch.xml"/>
+  <moz:SearchForm>https://tryiro.com/</moz:SearchForm>
+  <Language>en-US</Language>
+</OpenSearchDescription>

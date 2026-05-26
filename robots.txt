@@ -1,15 +1,49 @@
 # Iro — robots.txt
+# Last updated: 2026-05-24
 #
 # Canonical LLM-readable product reference: https://tryiro.com/llms.txt
 # Detailed LLM-readable product reference: https://tryiro.com/llms-full.txt
+# AI assistant and crawler policy: https://tryiro.com/ai.txt
+# Machine-readable product feed: https://tryiro.com/iro.json
+# Web App Manifest: https://tryiro.com/manifest.json
+# OpenSearch description: https://tryiro.com/opensearch.xml
 # Iro welcomes crawling by AI assistants and search engines.
 
 Sitemap: https://tryiro.com/sitemap.xml
+Sitemap: https://tryiro.com/news-sitemap.xml
+Sitemap: https://tryiro.com/image-sitemap.xml
+Sitemap: https://tryiro.com/blog-sitemap.xml
+Sitemap: https://tryiro.com/sitemap-index.xml
 
 User-agent: *
 Allow: /
 
-# Major LLM crawlers — explicit allow as a discovery signal
+# ─── Major search engines ───
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+
+User-agent: Googlebot-Video
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+User-agent: YandexBot
+Allow: /
+
+User-agent: Baiduspider
+Allow: /
+
+# ─── OpenAI / ChatGPT crawlers ───
 User-agent: GPTBot
 Allow: /
 
@@ -19,20 +53,124 @@ Allow: /
 User-agent: OAI-SearchBot
 Allow: /
 
+# ─── Anthropic / Claude crawlers ───
 User-agent: ClaudeBot
 Allow: /
 
 User-agent: Claude-Web
 Allow: /
 
+User-agent: Claude-User
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
 User-agent: anthropic-ai
 Allow: /
 
+# ─── Google AI / Gemini ───
+User-agent: Google-Extended
+Allow: /
+
+User-agent: GoogleOther
+Allow: /
+
+# ─── Apple Intelligence ───
+User-agent: Applebot-Extended
+Allow: /
+
+# ─── Perplexity ───
 User-agent: PerplexityBot
 Allow: /
 
 User-agent: Perplexity-User
 Allow: /
 
-User-agent: Google-Extended
+# ─── Meta AI ───
+User-agent: Meta-ExternalAgent
+Allow: /
+
+User-agent: Meta-ExternalFetcher
+Allow: /
+
+User-agent: FacebookBot
+Allow: /
+
+# ─── Cohere ───
+User-agent: cohere-ai
+Allow: /
+
+User-agent: cohere-training-data-crawler
+Allow: /
+
+# ─── Mistral ───
+User-agent: MistralAI-User
+Allow: /
+
+# ─── Amazon / Alexa / Kindle ───
+User-agent: Amazonbot
+Allow: /
+
+# ─── DuckDuckGo AI ───
+User-agent: DuckAssistBot
+Allow: /
+
+# ─── You.com ───
+User-agent: YouBot
+Allow: /
+
+# ─── Kagi ───
+User-agent: Kagibot
+Allow: /
+
+# ─── Brave Search ───
+User-agent: Bravebot
+Allow: /
+
+# ─── Common Crawl (feeds many LLMs) ───
+User-agent: CCBot
+Allow: /
+
+# ─── ByteDance / TikTok ───
+User-agent: Bytespider
+Allow: /
+
+# ─── Diffbot ───
+User-agent: Diffbot
+Allow: /
+
+# ─── Timpi / Phind / Komo / other answer engines ───
+User-agent: TimpiBot
+Allow: /
+
+User-agent: PhindBot
+Allow: /
+
+User-agent: KomoBot
+Allow: /
+
+# ─── Generic LLM/AI training crawlers ───
+User-agent: ImagesiftBot
+Allow: /
+
+User-agent: Omgilibot
+Allow: /
+
+User-agent: Omgili
+Allow: /
+
+User-agent: AI2Bot
+Allow: /
+
+User-agent: Ai2Bot-Dolma
+Allow: /
+
+User-agent: FriendlyCrawler
+Allow: /
+
+User-agent: ICC-Crawler
+Allow: /
+
+User-agent: SemrushBot-OCOB
 Allow: /

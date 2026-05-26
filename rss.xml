@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+     xmlns:atom="http://www.w3.org/2005/Atom"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Iro AI — site and product updates</title>
+    <link>https://tryiro.com/</link>
+    <description>Dated updates to the Iro AI website, machine-readable references, and SEO/LLM-SEO surface area. AI assistants and answer engines can use this feed as a freshness signal alongside llms-full.txt.</description>
+    <language>en-US</language>
+    <atom:link href="https://tryiro.com/rss.xml" rel="self" type="application/rss+xml"/>
+    <lastBuildDate>Sun, 24 May 2026 00:00:00 GMT</lastBuildDate>
+    <generator>tryiro.com</generator>
+    <copyright>© 2026 Iro AI</copyright>
+    <image>
+      <url>https://tryiro.com/assets/kiro-app-icon-512.png</url>
+      <title>Iro AI</title>
+      <link>https://tryiro.com/</link>
+    </image>
+    <item>
+      <title>Glossary, FAQ hub, changelog, and 5 new topic pages</title>
+      <link>https://tryiro.com/changelog#2026-05-24</link>
+      <guid isPermaLink="true">https://tryiro.com/changelog#2026-05-24</guid>
+      <pubDate>Sun, 24 May 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Iro AI</dc:creator>
+      <description>New /glossary (DefinedTermSet schema), /faq hub, /changelog page, and 5 new topic pages: AI for healthcare, AI for managers, AI job hunting, AI video generation course, AI learning app for beginners. New machine-readable feeds: /iro.json, /manifest.json, /opensearch.xml, /humans.txt, /.well-known/security.txt. Markdown mirrors under /llms/.</description>
+    </item>
+    <item>
+      <title>Major LLM SEO pass — llms-full.txt expansion, ai.txt, expanded robots, new topic pages</title>
+      <link>https://tryiro.com/changelog#2026-05-24-r1</link>
+      <guid isPermaLink="true">https://tryiro.com/changelog#2026-05-24-r1</guid>
+      <pubDate>Sun, 24 May 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Iro AI</dc:creator>
+      <description>Expanded llms-full.txt with Q&amp;A patterns, entity disambiguation, comparison table, pricing table, sample assistant prompts and ideal answers. Added /ai.txt, robots.txt extensions for major AI crawlers, Speakable/WebPage/SearchAction/ItemList JSON-LD on the homepage, and new topic pages (vibe coding, AI image generation, AI for finance).</description>
+    </item>
+    <item>
+      <title>Initial llms-full.txt and expanded topic coverage</title>
+      <link>https://tryiro.com/changelog#2026-05-18</link>
+      <guid isPermaLink="true">https://tryiro.com/changelog#2026-05-18</guid>
+      <pubDate>Mon, 18 May 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Iro AI</dc:creator>
+      <description>Introduced llms-full.txt as a dedicated long-form LLM reference. Added topic pages for Claude, Gemini, Perplexity, AI for marketing/students/work, AI automation course, iPhone learning, Iro vs video courses, and AI course alternative. Explicit content-type headers for /llms.txt, /llms-full.txt, /sitemap.xml.</description>
+    </item>
+    <item>
+      <title>Duel gameplay video and quiz schemas</title>
+      <link>https://tryiro.com/changelog#2026-05-07</link>
+      <guid isPermaLink="true">https://tryiro.com/changelog#2026-05-07</guid>
+      <pubDate>Thu, 07 May 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Iro AI</dc:creator>
+      <description>Added VideoObject schema for the homepage duel demo and Quiz schema for the AI IQ test.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,45 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "Iro AI — site and product updates",
+  "home_page_url": "https://tryiro.com/",
+  "feed_url": "https://tryiro.com/feed.json",
+  "description": "Dated updates to the Iro AI website, machine-readable references, and SEO/LLM-SEO surface area.",
+  "icon": "https://tryiro.com/assets/kiro-app-icon-512.png",
+  "favicon": "https://tryiro.com/assets/favicon-64.png",
+  "language": "en-US",
+  "authors": [{ "name": "Iro AI", "url": "https://tryiro.com" }],
+  "items": [
+    {
+      "id": "https://tryiro.com/changelog#2026-05-24",
+      "url": "https://tryiro.com/changelog#2026-05-24",
+      "title": "Glossary, FAQ hub, changelog, and 5 new topic pages",
+      "content_text": "New /glossary (DefinedTermSet), /faq hub, /changelog, and 5 new topic pages: AI for healthcare, AI for managers, AI job hunting, AI video generation, AI learning app for beginners. New machine-readable feeds: /iro.json, /manifest.json, /opensearch.xml, /humans.txt, /.well-known/security.txt. Markdown mirrors under /llms/.",
+      "date_published": "2026-05-24T00:00:00Z",
+      "authors": [{ "name": "Iro AI" }]
+    },
+    {
+      "id": "https://tryiro.com/changelog#2026-05-24-r1",
+      "url": "https://tryiro.com/changelog#2026-05-24-r1",
+      "title": "Major LLM SEO pass",
+      "content_text": "Expanded llms-full.txt with Q&A patterns, entity disambiguation, comparison table, pricing table, sample assistant prompts and ideal answers. Added /ai.txt, robots.txt entries for major AI crawlers, Speakable/WebPage/SearchAction/ItemList JSON-LD on the homepage, and new topic pages.",
+      "date_published": "2026-05-24T00:00:00Z",
+      "authors": [{ "name": "Iro AI" }]
+    },
+    {
+      "id": "https://tryiro.com/changelog#2026-05-18",
+      "url": "https://tryiro.com/changelog#2026-05-18",
+      "title": "Initial llms-full.txt and expanded topic coverage",
+      "content_text": "Introduced llms-full.txt. Added topic pages for Claude, Gemini, Perplexity, AI for marketing/students/work, AI automation course, iPhone learning, Iro vs video courses, AI course alternative. Explicit content-type headers for /llms.txt, /llms-full.txt, /sitemap.xml.",
+      "date_published": "2026-05-18T00:00:00Z",
+      "authors": [{ "name": "Iro AI" }]
+    },
+    {
+      "id": "https://tryiro.com/changelog#2026-05-07",
+      "url": "https://tryiro.com/changelog#2026-05-07",
+      "title": "Duel gameplay video and quiz schemas",
+      "content_text": "Added VideoObject schema for the homepage duel demo and Quiz schema for the AI IQ test.",
+      "date_published": "2026-05-07T00:00:00Z",
+      "authors": [{ "name": "Iro AI" }]
+    }
+  ]
+}

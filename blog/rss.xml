@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+     xmlns:atom="http://www.w3.org/2005/Atom"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Iro AI Blog</title>
+    <link>https://tryiro.com/blog</link>
+    <description>Short, practical writing on AI fluency, prompting, AI tools, and the active-practice method that beats endless video courses.</description>
+    <language>en-US</language>
+    <atom:link href="https://tryiro.com/blog/rss.xml" rel="self" type="application/rss+xml"/>
+    <lastBuildDate>Sun, 24 May 2026 00:00:00 GMT</lastBuildDate>
+    <generator>tryiro.com</generator>
+    <copyright>© 2026 Iro AI</copyright>
+    <image>
+      <url>https://tryiro.com/assets/og/blog.png</url>
+      <title>Iro AI Blog</title>
+      <link>https://tryiro.com/blog</link>
+    </image>
+    <item>
+      <title>How to actually learn ChatGPT in 2026</title>
+      <link>https://tryiro.com/blog/how-to-learn-chatgpt-in-2026</link>
+      <guid isPermaLink="true">https://tryiro.com/blog/how-to-learn-chatgpt-in-2026</guid>
+      <pubDate>Sun, 24 May 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Iro AI</dc:creator>
+      <category>AI fluency</category>
+      <description>Most people learn ChatGPT by random experimentation and hit a ceiling. Here's the active-practice method that builds judgment instead of just memorising prompts.</description>
+    </item>
+    <item>
+      <title>The 7 prompt patterns that work everywhere</title>
+      <link>https://tryiro.com/blog/prompt-engineering-patterns</link>
+      <guid isPermaLink="true">https://tryiro.com/blog/prompt-engineering-patterns</guid>
+      <pubDate>Sun, 24 May 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Iro AI</dc:creator>
+      <category>Prompt engineering</category>
+      <description>Forget magic phrases. These 7 prompt patterns transfer across models and survive model upgrades — the foundation of practical prompt engineering.</description>
+    </item>
+    <item>
+      <title>How to spot AI hallucinations in 5 seconds</title>
+      <link>https://tryiro.com/blog/spot-ai-hallucinations</link>
+      <guid isPermaLink="true">https://tryiro.com/blog/spot-ai-hallucinations</guid>
+      <pubDate>Sun, 24 May 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Iro AI</dc:creator>
+      <category>AI fluency</category>
+      <description>AI models confidently invent facts, citations, and numbers. Here are the five-second checks that catch most hallucinations — and a longer set for when stakes are high.</description>
+    </item>
+    <item>
+      <title>AI agents, explained without the jargon</title>
+      <link>https://tryiro.com/blog/ai-agents-explained</link>
+      <guid isPermaLink="true">https://tryiro.com/blog/ai-agents-explained</guid>
+      <pubDate>Sun, 24 May 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Iro AI</dc:creator>
+      <category>AI agents</category>
+      <description>Strip away the hype: an AI agent is a system that pursues a goal through multiple steps, often using tools. Here's what they really do, when they're worth using, and where they predictably break.</description>
+    </item>
+    <item>
+      <title>The best free AI tools for daily work in 2026</title>
+      <link>https://tryiro.com/blog/best-free-ai-tools-2026</link>
+      <guid isPermaLink="true">https://tryiro.com/blog/best-free-ai-tools-2026</guid>
+      <pubDate>Sun, 24 May 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Iro AI</dc:creator>
+      <category>AI tools</category>
+      <description>A 2026-up-to-date guide to free-tier AI tools that are actually worth using for daily work — what each is good for, where they fall short, and how to combine them.</description>
+    </item>
+  </channel>
+</rss>

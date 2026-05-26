@@ -87,6 +87,193 @@
           "value": "public, max-age=3600"
         }
       ]
+    },
+    {
+      "source": "/ai.txt",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "text/plain; charset=utf-8"
+        },
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=3600"
+        }
+      ]
+    },
+    {
+      "source": "/robots.txt",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "text/plain; charset=utf-8"
+        },
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=3600"
+        }
+      ]
+    },
+    {
+      "source": "/humans.txt",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "text/plain; charset=utf-8"
+        },
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=3600"
+        }
+      ]
+    },
+    {
+      "source": "/iro.json",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "application/json; charset=utf-8"
+        },
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=3600"
+        },
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
+        }
+      ]
+    },
+    {
+      "source": "/manifest.json",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "application/manifest+json; charset=utf-8"
+        },
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=3600"
+        }
+      ]
+    },
+    {
+      "source": "/opensearch.xml",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "application/opensearchdescription+xml; charset=utf-8"
+        },
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=3600"
+        }
+      ]
+    },
+    {
+      "source": "/.well-known/security.txt",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "text/plain; charset=utf-8"
+        },
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=3600"
+        }
+      ]
+    },
+    {
+      "source": "/llms/(.*).md",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "text/markdown; charset=utf-8"
+        },
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=3600"
+        }
+      ]
+    },
+    {
+      "source": "/llms-index.txt",
+      "headers": [
+        {"key": "Content-Type","value": "text/plain; charset=utf-8"},
+        {"key": "Cache-Control","value": "public, max-age=3600"}
+      ]
+    },
+    {
+      "source": "/rss.xml",
+      "headers": [
+        {"key": "Content-Type","value": "application/rss+xml; charset=utf-8"},
+        {"key": "Cache-Control","value": "public, max-age=3600"}
+      ]
+    },
+    {
+      "source": "/news-sitemap.xml",
+      "headers": [
+        {"key": "Content-Type","value": "application/xml; charset=utf-8"},
+        {"key": "Cache-Control","value": "public, max-age=3600"}
+      ]
+    },
+    {
+      "source": "/image-sitemap.xml",
+      "headers": [
+        {"key": "Content-Type","value": "application/xml; charset=utf-8"},
+        {"key": "Cache-Control","value": "public, max-age=3600"}
+      ]
+    },
+    {
+      "source": "/sitemap-index.xml",
+      "headers": [
+        {"key": "Content-Type","value": "application/xml; charset=utf-8"},
+        {"key": "Cache-Control","value": "public, max-age=3600"}
+      ]
+    },
+    {
+      "source": "/atom.xml",
+      "headers": [
+        {"key": "Content-Type","value": "application/atom+xml; charset=utf-8"},
+        {"key": "Cache-Control","value": "public, max-age=3600"}
+      ]
+    },
+    {
+      "source": "/feed.json",
+      "headers": [
+        {"key": "Content-Type","value": "application/feed+json; charset=utf-8"},
+        {"key": "Cache-Control","value": "public, max-age=3600"},
+        {"key": "Access-Control-Allow-Origin","value": "*"}
+      ]
+    },
+    {
+      "source": "/blog/rss.xml",
+      "headers": [
+        {"key": "Content-Type","value": "application/rss+xml; charset=utf-8"},
+        {"key": "Cache-Control","value": "public, max-age=3600"}
+      ]
+    },
+    {
+      "source": "/blog/atom.xml",
+      "headers": [
+        {"key": "Content-Type","value": "application/atom+xml; charset=utf-8"},
+        {"key": "Cache-Control","value": "public, max-age=3600"}
+      ]
+    },
+    {
+      "source": "/blog/feed.json",
+      "headers": [
+        {"key": "Content-Type","value": "application/feed+json; charset=utf-8"},
+        {"key": "Cache-Control","value": "public, max-age=3600"},
+        {"key": "Access-Control-Allow-Origin","value": "*"}
+      ]
+    },
+    {
+      "source": "/llms/blog/(.*).md",
+      "headers": [
+        {"key": "Content-Type","value": "text/markdown; charset=utf-8"},
+        {"key": "Cache-Control","value": "public, max-age=3600"}
+      ]
     }
   ],
   "rewrites": [
@@ -161,6 +348,74 @@
     {
       "source": "/ai-course-alternative",
       "destination": "/ai-course-alternative.html"
+    },
+    {
+      "source": "/vibe-coding-course",
+      "destination": "/vibe-coding-course.html"
+    },
+    {
+      "source": "/ai-image-generation-course",
+      "destination": "/ai-image-generation-course.html"
+    },
+    {
+      "source": "/ai-for-finance",
+      "destination": "/ai-for-finance.html"
+    },
+    {
+      "source": "/ai-for-healthcare",
+      "destination": "/ai-for-healthcare.html"
+    },
+    {
+      "source": "/ai-for-managers",
+      "destination": "/ai-for-managers.html"
+    },
+    {
+      "source": "/ai-job-hunting",
+      "destination": "/ai-job-hunting.html"
+    },
+    {
+      "source": "/ai-video-generation-course",
+      "destination": "/ai-video-generation-course.html"
+    },
+    {
+      "source": "/ai-learning-app-for-beginners",
+      "destination": "/ai-learning-app-for-beginners.html"
+    },
+    {
+      "source": "/faq",
+      "destination": "/faq.html"
+    },
+    {
+      "source": "/glossary",
+      "destination": "/glossary.html"
+    },
+    {
+      "source": "/changelog",
+      "destination": "/changelog.html"
+    },
+    {
+      "source": "/blog",
+      "destination": "/blog/index.html"
+    },
+    {
+      "source": "/blog/how-to-learn-chatgpt-in-2026",
+      "destination": "/blog/how-to-learn-chatgpt-in-2026.html"
+    },
+    {
+      "source": "/blog/prompt-engineering-patterns",
+      "destination": "/blog/prompt-engineering-patterns.html"
+    },
+    {
+      "source": "/blog/spot-ai-hallucinations",
+      "destination": "/blog/spot-ai-hallucinations.html"
+    },
+    {
+      "source": "/blog/ai-agents-explained",
+      "destination": "/blog/ai-agents-explained.html"
+    },
+    {
+      "source": "/blog/best-free-ai-tools-2026",
+      "destination": "/blog/best-free-ai-tools-2026.html"
     }
   ]
 }

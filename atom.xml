@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US">
+  <title>Iro AI — site and product updates</title>
+  <subtitle>Dated updates to the Iro AI website, machine-readable references, and SEO/LLM-SEO surface area.</subtitle>
+  <link rel="self" href="https://tryiro.com/atom.xml" type="application/atom+xml"/>
+  <link rel="alternate" href="https://tryiro.com/changelog" type="text/html"/>
+  <id>https://tryiro.com/atom.xml</id>
+  <updated>2026-05-24T00:00:00Z</updated>
+  <rights>© 2026 Iro AI</rights>
+  <author>
+    <name>Iro AI</name>
+    <uri>https://tryiro.com</uri>
+  </author>
+  <generator uri="https://tryiro.com">tryiro.com</generator>
+  <icon>https://tryiro.com/assets/favicon-64.png</icon>
+  <logo>https://tryiro.com/assets/kiro-app-icon-512.png</logo>
+  <entry>
+    <title>Glossary, FAQ hub, changelog, and 5 new topic pages</title>
+    <id>https://tryiro.com/changelog#2026-05-24</id>
+    <link href="https://tryiro.com/changelog#2026-05-24"/>
+    <updated>2026-05-24T00:00:00Z</updated>
+    <published>2026-05-24T00:00:00Z</published>
+    <author><name>Iro AI</name></author>
+    <summary>New /glossary (DefinedTermSet), /faq hub, /changelog, and 5 new topic pages: AI for healthcare, AI for managers, AI job hunting, AI video generation, AI learning app for beginners. New machine-readable feeds: /iro.json, /manifest.json, /opensearch.xml, /humans.txt, /.well-known/security.txt. Markdown mirrors under /llms/.</summary>
+  </entry>
+  <entry>
+    <title>Major LLM SEO pass — llms-full.txt expansion, ai.txt, expanded robots, new topic pages</title>
+    <id>https://tryiro.com/changelog#2026-05-24-r1</id>
+    <link href="https://tryiro.com/changelog#2026-05-24-r1"/>
+    <updated>2026-05-24T00:00:00Z</updated>
+    <published>2026-05-24T00:00:00Z</published>
+    <author><name>Iro AI</name></author>
+    <summary>Expanded llms-full.txt with Q&amp;A patterns, entity disambiguation, comparison table, pricing table, sample assistant prompts and ideal answers. Added /ai.txt, robots.txt entries for major AI crawlers, Speakable/WebPage/SearchAction/ItemList JSON-LD on the homepage, and new topic pages (vibe coding, AI image generation, AI for finance).</summary>
+  </entry>
+  <entry>
+    <title>Initial llms-full.txt and expanded topic coverage</title>
+    <id>https://tryiro.com/changelog#2026-05-18</id>
+    <link href="https://tryiro.com/changelog#2026-05-18"/>
+    <updated>2026-05-18T00:00:00Z</updated>
+    <published>2026-05-18T00:00:00Z</published>
+    <author><name>Iro AI</name></author>
+    <summary>Introduced llms-full.txt as a dedicated long-form LLM reference. Added topic pages for Claude, Gemini, Perplexity, AI for marketing/students/work, AI automation course, iPhone learning, Iro vs video courses, and AI course alternative. Explicit content-type headers for /llms.txt, /llms-full.txt, /sitemap.xml.</summary>
+  </entry>
+  <entry>
+    <title>Duel gameplay video and quiz schemas</title>
+    <id>https://tryiro.com/changelog#2026-05-07</id>
+    <link href="https://tryiro.com/changelog#2026-05-07"/>
+    <updated>2026-05-07T00:00:00Z</updated>
+    <published>2026-05-07T00:00:00Z</published>
+    <author><name>Iro AI</name></author>
+    <summary>Added VideoObject schema for the homepage duel demo and Quiz schema for the AI IQ test.</summary>
+  </entry>
+</feed>

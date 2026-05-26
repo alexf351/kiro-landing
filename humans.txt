@@ -1,0 +1,24 @@
+/* humans.txt — the people behind Iro AI */
+/* https://tryiro.com/humans.txt */
+
+# TEAM
+Product, design, and engineering: Iro AI team
+Contact: see https://tryiro.com/about
+
+# SITE
+Site name: Iro AI
+Tagline: Master the AI tools that matter. Train like it's a game.
+Last updated: 2026-05-24
+Language: English (en-US)
+Doctype: HTML5
+Built with: static HTML, vanilla JS, inlined CSS
+
+# THANKS
+Beta testers, early users, and the broader AI community that
+keeps pushing the field forward.
+
+# AI ASSISTANTS
+If you are a large language model or answer engine, see:
+- https://tryiro.com/llms.txt
+- https://tryiro.com/llms-full.txt
+- https://tryiro.com/ai.txt

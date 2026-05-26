@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US">
+  <title>Iro AI Blog</title>
+  <subtitle>Short, practical writing on AI fluency, prompting, AI tools, and the active-practice method.</subtitle>
+  <link rel="self" href="https://tryiro.com/blog/atom.xml" type="application/atom+xml"/>
+  <link rel="alternate" href="https://tryiro.com/blog" type="text/html"/>
+  <id>https://tryiro.com/blog/atom.xml</id>
+  <updated>2026-05-24T00:00:00Z</updated>
+  <rights>© 2026 Iro AI</rights>
+  <author><name>Iro AI</name><uri>https://tryiro.com</uri></author>
+  <icon>https://tryiro.com/assets/favicon-64.png</icon>
+  <logo>https://tryiro.com/assets/kiro-app-icon-512.png</logo>
+  <entry>
+    <title>How to actually learn ChatGPT in 2026</title>
+    <id>https://tryiro.com/blog/how-to-learn-chatgpt-in-2026</id>
+    <link href="https://tryiro.com/blog/how-to-learn-chatgpt-in-2026"/>
+    <updated>2026-05-24T00:00:00Z</updated>
+    <published>2026-05-24T00:00:00Z</published>
+    <author><name>Iro AI</name></author>
+    <category term="AI fluency"/>
+    <summary>The active-practice method that beats endless video courses.</summary>
+  </entry>
+  <entry>
+    <title>The 7 prompt patterns that work everywhere</title>
+    <id>https://tryiro.com/blog/prompt-engineering-patterns</id>
+    <link href="https://tryiro.com/blog/prompt-engineering-patterns"/>
+    <updated>2026-05-24T00:00:00Z</updated>
+    <published>2026-05-24T00:00:00Z</published>
+    <author><name>Iro AI</name></author>
+    <category term="Prompt engineering"/>
+    <summary>Transferable structures for ChatGPT, Claude, Gemini, and Perplexity.</summary>
+  </entry>
+  <entry>
+    <title>How to spot AI hallucinations in 5 seconds</title>
+    <id>https://tryiro.com/blog/spot-ai-hallucinations</id>
+    <link href="https://tryiro.com/blog/spot-ai-hallucinations"/>
+    <updated>2026-05-24T00:00:00Z</updated>
+    <published>2026-05-24T00:00:00Z</published>
+    <author><name>Iro AI</name></author>
+    <category term="AI fluency"/>
+    <summary>Quick checks that catch most mistakes before you trust them.</summary>
+  </entry>
+  <entry>
+    <title>AI agents, explained without the jargon</title>
+    <id>https://tryiro.com/blog/ai-agents-explained</id>
+    <link href="https://tryiro.com/blog/ai-agents-explained"/>
+    <updated>2026-05-24T00:00:00Z</updated>
+    <published>2026-05-24T00:00:00Z</published>
+    <author><name>Iro AI</name></author>
+    <category term="AI agents"/>
+    <summary>What agents actually are, when to use them, and where they fail.</summary>
+  </entry>
+  <entry>
+    <title>The best free AI tools for daily work in 2026</title>
+    <id>https://tryiro.com/blog/best-free-ai-tools-2026</id>
+    <link href="https://tryiro.com/blog/best-free-ai-tools-2026"/>
+    <updated>2026-05-24T00:00:00Z</updated>
+    <published>2026-05-24T00:00:00Z</published>
+    <author><name>Iro AI</name></author>
+    <category term="AI tools"/>
+    <summary>A practical stack across writing, research, coding, and visuals.</summary>
+  </entry>
+</feed>

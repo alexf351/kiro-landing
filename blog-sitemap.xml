@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://tryiro.com/blog</loc>
+    <lastmod>2026-05-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://tryiro.com/assets/og/blog.png</image:loc>
+      <image:title>Iro AI Blog</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://tryiro.com/blog/how-to-learn-chatgpt-in-2026</loc>
+    <lastmod>2026-05-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://tryiro.com/assets/og/how-to-learn-chatgpt-in-2026.png</image:loc>
+      <image:title>How to actually learn ChatGPT in 2026</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://tryiro.com/blog/prompt-engineering-patterns</loc>
+    <lastmod>2026-05-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://tryiro.com/assets/og/prompt-engineering-patterns.png</image:loc>
+      <image:title>The 7 prompt patterns that work everywhere</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://tryiro.com/blog/spot-ai-hallucinations</loc>
+    <lastmod>2026-05-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://tryiro.com/assets/og/spot-ai-hallucinations.png</image:loc>
+      <image:title>How to spot AI hallucinations in 5 seconds</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://tryiro.com/blog/ai-agents-explained</loc>
+    <lastmod>2026-05-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://tryiro.com/assets/og/ai-agents-explained.png</image:loc>
+      <image:title>AI agents, explained without the jargon</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://tryiro.com/blog/best-free-ai-tools-2026</loc>
+    <lastmod>2026-05-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://tryiro.com/assets/og/best-free-ai-tools-2026.png</image:loc>
+      <image:title>The best free AI tools for daily work in 2026</image:title>
+    </image:image>
+  </url>
+</urlset>

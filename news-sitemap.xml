@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
+  <url>
+    <loc>https://tryiro.com/changelog#2026-05-24</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Iro AI</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-24</news:publication_date>
+      <news:title>Glossary, FAQ hub, changelog, and 5 new topic pages</news:title>
+      <news:keywords>Iro AI, AI education, glossary, FAQ, changelog, AI agents, vibe coding</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://tryiro.com/changelog#2026-05-24-r1</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Iro AI</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-24</news:publication_date>
+      <news:title>Major LLM SEO pass — llms-full.txt expansion, ai.txt, new topic pages</news:title>
+      <news:keywords>Iro AI, LLM SEO, llms.txt, ai.txt, robots.txt, vibe coding, AI image generation, AI for finance</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://tryiro.com/changelog#2026-05-18</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Iro AI</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-18</news:publication_date>
+      <news:title>Initial llms-full.txt and expanded topic coverage</news:title>
+      <news:keywords>Iro AI, llms-full.txt, topic pages</news:keywords>
+    </news:news>
+  </url>
+</urlset>
