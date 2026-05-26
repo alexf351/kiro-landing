@@ -166,6 +166,39 @@ nav{position:fixed;top:0;left:0;width:100%;z-index:100;padding:14px 24px;display
 .proof-chip{padding:8px 16px;border-radius:999px;font-size:13px;font-weight:600;color:var(--text2);background:var(--surface);border:1px solid var(--surface-border);white-space:nowrap}
 .proof-chip strong{color:var(--text);font-weight:700}
 
+/* ═══ HOW IT WORKS ═══ */
+.hiw{padding:80px 24px;position:relative;z-index:1}
+.hiw-inner{max-width:1100px;margin:0 auto;text-align:center}
+.hiw h2{font-size:clamp(28px,4vw,42px);letter-spacing:-1.5px;margin-bottom:12px}
+.hiw .s-sub{font-size:17px;color:var(--text2);margin-bottom:48px;max-width:560px;margin-left:auto;margin-right:auto;line-height:1.6}
+.hiw-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;text-align:left}
+.hiw-card{background:rgba(255,255,255,.03);border:1px solid var(--surface-border);border-radius:20px;padding:28px 24px;backdrop-filter:blur(12px);position:relative}
+.hiw-num{font-family:'JetBrains Mono',monospace;font-size:13px;font-weight:700;color:var(--cyan);letter-spacing:2px;margin-bottom:12px;display:block}
+.hiw-card h3{font-size:20px;font-weight:800;margin-bottom:8px;letter-spacing:-.3px}
+.hiw-card p{font-size:14px;color:var(--text2);line-height:1.6}
+
+/* ═══ SOCIAL PROOF ═══ */
+.proof{padding:60px 24px 80px;position:relative;z-index:1}
+.proof-inner{max-width:1100px;margin:0 auto;text-align:center}
+.proof h2{font-size:clamp(24px,3.5vw,36px);letter-spacing:-1px;margin-bottom:36px}
+.proof-cards{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;text-align:left}
+.proof-card{background:rgba(255,255,255,.03);border:1px solid var(--surface-border);border-radius:18px;padding:24px;backdrop-filter:blur(12px)}
+.proof-card-stars{color:var(--gold);font-size:13px;letter-spacing:2px;margin-bottom:10px}
+.proof-card-text{font-size:14px;color:var(--text2);line-height:1.65;font-style:italic;margin-bottom:14px}
+.proof-card-source{font-size:12px;color:var(--text3);font-weight:600}
+
+/* ═══ FAQ ═══ */
+.faq-section{padding:60px 24px 80px;position:relative;z-index:1}
+.faq-inner{max-width:740px;margin:0 auto}
+.faq-section h2{font-size:clamp(26px,3.5vw,38px);letter-spacing:-1.2px;margin-bottom:28px;text-align:center}
+.faq-item{border:1px solid var(--surface-border);border-radius:16px;margin-bottom:12px;overflow:hidden;background:rgba(255,255,255,.02)}
+.faq-item summary{padding:18px 22px;font-weight:700;font-size:15px;cursor:pointer;list-style:none;display:flex;align-items:center;justify-content:space-between;color:var(--text);transition:color .2s}
+.faq-item summary::-webkit-details-marker{display:none}
+.faq-item summary::after{content:'+';font-size:20px;color:var(--text3);font-weight:400;transition:transform .2s}
+.faq-item[open] summary::after{content:'−'}
+.faq-item[open] summary{color:var(--cyan)}
+.faq-answer{padding:0 22px 18px;font-size:14px;color:var(--text2);line-height:1.7}
+
 /* ═══ FINAL CTA ═══ */
 .final-cta{padding:100px 24px 80px;text-align:center;position:relative;z-index:1}
 .final-cta-inner{max-width:640px;margin:0 auto}
@@ -234,6 +267,8 @@ footer{padding:48px 24px 32px;border-top:1px solid var(--surface-border);positio
   .hero-mascot-img{width:200px}
   .hero-mascot-glow{width:240px;height:240px}
   .features-grid{grid-template-columns:1fr}
+  .hiw-grid{grid-template-columns:1fr}
+  .proof-cards{grid-template-columns:1fr}
   .sticky-cta{display:block}
   .footer-inner{flex-direction:column;text-align:center}
   .footer-links{justify-content:center}
@@ -355,6 +390,82 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
 <span class="proof-chip"><strong>60+</strong> opponents</span>
 <span class="proof-chip"><strong>6</strong> ranks</span>
 </div>
+</div>
+</section>
+
+<!-- HOW IT WORKS -->
+<section class="hiw" aria-labelledby="hiw-heading">
+<div class="hiw-inner">
+<h2 id="hiw-heading">How Iro works.</h2>
+<p class="s-sub">Three moves. Five minutes. Every day.</p>
+<div class="hiw-grid">
+<div class="hiw-card reveal">
+<span class="hiw-num">01</span>
+<h3>Pick a path</h3>
+<p>Choose from 18 learning paths across ChatGPT, Claude, Gemini, Perplexity, prompt engineering, AI agents, automation, image generation, vibe coding, and more.</p>
+</div>
+<div class="hiw-card reveal">
+<span class="hiw-num">02</span>
+<h3>Do the reps</h3>
+<p>Short exercises, real prompts, AI-generated feedback. Each session takes about 5 minutes. Streaks and XP keep you coming back.</p>
+</div>
+<div class="hiw-card reveal">
+<span class="hiw-num">03</span>
+<h3>Level up</h3>
+<p>Climb 6 ranks from Bronze to Iridescent. Duel opponents. Unlock Prompt Lab. Build the AI fluency that compounds into real-world skill.</p>
+</div>
+</div>
+</div>
+</section>
+
+<!-- SOCIAL PROOF -->
+<section class="proof" aria-labelledby="proof-heading">
+<div class="proof-inner">
+<h2 id="proof-heading">What people are saying.</h2>
+<div class="proof-cards">
+<div class="proof-card reveal">
+<div class="proof-card-stars" aria-hidden="true">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+<p class="proof-card-text">&ldquo;I thought I already understood AI tools, but this made me realize I was leaving a lot on the table. Iro taught me how to use AI more effectively for both work and personal use.&rdquo;</p>
+<span class="proof-card-source">App Store review</span>
+</div>
+<div class="proof-card reveal">
+<div class="proof-card-stars" aria-hidden="true">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+<p class="proof-card-text">&ldquo;Way better than watching YouTube tutorials. The exercises actually make you think, and the duels are weirdly addictive.&rdquo;</p>
+<span class="proof-card-source">App Store review</span>
+</div>
+<div class="proof-card reveal">
+<div class="proof-card-stars" aria-hidden="true">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+<p class="proof-card-text">&ldquo;Five minutes a day and I already feel more confident using Claude and ChatGPT at work. The streak mechanic keeps me consistent.&rdquo;</p>
+<span class="proof-card-source">App Store review</span>
+</div>
+</div>
+</div>
+</section>
+
+<!-- FAQ -->
+<section class="faq-section" aria-labelledby="faq-heading">
+<div class="faq-inner">
+<h2 id="faq-heading">Questions, answered.</h2>
+<details class="faq-item">
+<summary>Is Iro free?</summary>
+<div class="faq-answer">Yes. The free tier includes a starter slice across all 18 paths, daily challenges, XP, and ranks. No credit card required. Pro unlocks full lessons, duels, news briefings, and Prompt Lab. Annual is $59.99/year ($5/month, 7-day free trial). Monthly is $9.99/month. Cancel anytime.</div>
+</details>
+<details class="faq-item">
+<summary>Do I need AI experience?</summary>
+<div class="faq-answer">Nope. Beginner paths start from zero on ChatGPT, Claude, Gemini, and Perplexity. Already fluent? Advanced paths cover AI agents, automation, and vibe coding.</div>
+</details>
+<details class="faq-item">
+<summary>How is this different from video tutorials?</summary>
+<div class="faq-answer">Videos are passive — you watch, you forget. Iro makes you write real prompts, spot hallucinations, compare ChatGPT vs. Claude outputs, and duel rivals. You think, not consume.</div>
+</details>
+<details class="faq-item">
+<summary>How long does each lesson take?</summary>
+<div class="faq-answer">About 5 minutes.</div>
+</details>
+<details class="faq-item">
+<summary>What AI topics does Iro cover?</summary>
+<div class="faq-answer">18 paths across four tracks: Tool Mastery, Creative &amp; Coding, Work &amp; Career, and Core Skills. You'll train on ChatGPT, Claude, Gemini, Perplexity, image/video generation, vibe coding, job hunting, business, marketing, finance, healthcare, AI foundations, prompt engineering, agents, automation, and AI tools.</div>
+</details>
 </div>
 </section>
 
