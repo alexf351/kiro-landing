@@ -1,0 +1,52 @@
+{
+  "slug": "prompt-engineering",
+  "order": 2,
+  "title": "Prompt Engineering: Patterns That Survive Model Updates",
+  "shortName": "Prompt Engineering",
+  "tagline": "Reusable prompt structures for any model",
+  "lede": "The transferable prompt patterns that work across ChatGPT, Claude, Gemini, and Perplexity — and survive every model upgrade.",
+  "description": "Practical prompt engineering for 2026: the transferable patterns that work across ChatGPT, Claude, Gemini, and Perplexity — and survive every model upgrade.",
+  "keywords": [
+    "prompt engineering",
+    "prompt patterns",
+    "ChatGPT prompts",
+    "Claude prompts",
+    "prompt design 2026"
+  ],
+  "datePublished": "2026-05-28",
+  "dateModified": "2026-05-28",
+  "intro": [
+    "<p>Prompt engineering has a branding problem. It sounds like a dark art of secret phrases. It is not. Good prompting is just clear specification — telling a model who it should be, what you want, what it needs to know, and what the output must look like.</p>",
+    "<p>The phrases that trend on social media stop working the moment a model updates. Patterns do not. A pattern is a reusable structure for organising a request, and the same handful of patterns work across <a href=\"/learn-chatgpt\">ChatGPT</a>, <a href=\"/learn-claude\">Claude</a>, <a href=\"/learn-gemini\">Gemini</a>, and <a href=\"/learn-perplexity\">Perplexity</a>.</p>",
+    "<p>This pillar teaches prompting as a transferable skill you can drill. Start with the core patterns, then practise combining them in Iro AI's <a href=\"/prompt-engineering-app\">Prompt Lab</a> until the right structure for a task becomes automatic.</p>"
+  ],
+  "faq": [
+    {
+      "q": "Is prompt engineering still worth learning in 2026?",
+      "a": "Yes — more than ever, but not as a list of magic phrases. The durable skill is specifying a task clearly enough that any model can do it well. That transfers across every assistant and every model upgrade."
+    },
+    {
+      "q": "Do I need a different prompt for each AI model?",
+      "a": "Rarely. The same patterns work across ChatGPT, Claude, Gemini, and Perplexity. You tune details — Claude is strong at self-critique, Perplexity at grounded research — but the structure stays the same."
+    },
+    {
+      "q": "What is the single most useful pattern?",
+      "a": "Role-Goal-Constraints: tell the model who to be, what to achieve, and what the output must do or avoid. See <a href=\"/blog/prompt-engineering-patterns\">the 7 prompt patterns</a> for the full set."
+    }
+  ],
+  "related": [
+    "/blog/prompt-engineering-patterns",
+    "/blog/how-to-learn-chatgpt-in-2026",
+    "/blog/best-free-ai-tools-2026"
+  ],
+  "relatedLabels": [
+    {
+      "href": "/prompt-engineering-app",
+      "label": "Prompt Lab in Iro AI"
+    },
+    {
+      "href": "/quiz",
+      "label": "Free AI IQ test"
+    }
+  ]
+}

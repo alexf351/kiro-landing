@@ -1,0 +1,119 @@
+{
+  "slug": "ai-agents-explained",
+  "order": 4,
+  "pillar": "ai-agents",
+  "title": "AI agents, explained without the jargon",
+  "lede": "What agents actually are, when to use them, and where they fail.",
+  "description": "Strip away the hype: an AI agent is a system that pursues a goal through multiple steps, often using tools. Here's what they really do, when they're worth using, and where they predictably break.",
+  "keywords": [
+    "AI agents",
+    "LLM agents",
+    "agent workflows",
+    "AI automation",
+    "autonomous AI"
+  ],
+  "datePublished": "2026-05-24",
+  "dateModified": "2026-05-24",
+  "readingTime": 8,
+  "articleSection": "AI fluency",
+  "feedCategory": "AI agents",
+  "feedTags": [
+    "AI agents"
+  ],
+  "inlineCtaAfter": 2,
+  "toc": [
+    {
+      "href": "#definition",
+      "label": "The plain definition"
+    },
+    {
+      "href": "#categories",
+      "label": "Workflow vs agent vs assistant"
+    },
+    {
+      "href": "#when",
+      "label": "When agents are worth it"
+    },
+    {
+      "href": "#fail",
+      "label": "Where they predictably fail"
+    },
+    {
+      "href": "#design",
+      "label": "Designing a safer agent"
+    }
+  ],
+  "sections": [
+    {
+      "id": "definition",
+      "heading": "The plain definition",
+      "html": "<p>An AI agent is a system that pursues a goal across multiple steps, usually by calling tools or APIs along the way. That's it.</p><p>Stripped of marketing, an agent is: a loop that calls a language model, the model decides what to do next, executes something (search, read a file, send an email, run code), reads the result, decides the next step, and so on until it's done.</p><p>Everything else — \"autonomous,\" \"agentic,\" \"reasoning\" — is decoration. The core is: model + tools + loop + termination condition.</p>"
+    },
+    {
+      "id": "categories",
+      "heading": "Workflow vs agent vs assistant",
+      "html": "<p>Three things often get conflated. Distinguishing them helps you decide what to build.</p><ul><li><strong>Assistant.</strong> One prompt, one response. ChatGPT in chat mode. Useful, but every step needs you.</li><li><strong>Workflow.</strong> A fixed sequence of steps, each calling an AI model. \"Draft, then critique, then rewrite\" is a workflow. The path is deterministic.</li><li><strong>Agent.</strong> Same model + tools, but the model picks the next step. The path is dynamic, decided at runtime.</li></ul><p>Workflows are easier to debug. Agents are more flexible. Most production systems are workflows pretending to be agents — and that's usually correct.</p>"
+    },
+    {
+      "id": "when",
+      "heading": "When agents are worth it",
+      "html": "<p>Agents make sense when three things are true:</p><ol><li><strong>The path can't be predicted.</strong> If you can map the steps in advance, build a workflow.</li><li><strong>The downside of a wrong step is bounded.</strong> Agents will make wrong calls. You need to be okay with that, or have human review at the right points.</li><li><strong>The task takes long enough that adaptivity matters.</strong> A 3-step task is rarely worth the complexity of an agent.</li></ol><p>Concrete examples: research that has to follow citations wherever they lead; customer-support triage across many possible categories; multi-step debugging where the diagnosis affects the next test. None of these have a fixed script.</p>"
+    },
+    {
+      "id": "fail",
+      "heading": "Where they predictably fail",
+      "html": "<p>Agents have well-documented failure modes. Knowing them is half of designing one well.</p><p><strong>Goal drift.</strong> The agent loses track of what it was supposed to do and pursues a tangent. Mitigation: re-state the goal in every loop iteration.</p><p><strong>Tool misuse.</strong> The agent calls the wrong tool with confidence. Mitigation: tight tool descriptions, validation of arguments, and a small toolset.</p><p><strong>Overconfidence on retrieved data.</strong> The agent reads a search result and quotes it as truth. <a href=\"/blog/spot-ai-hallucinations\">Hallucination detection</a> applies inside agents too.</p><p><strong>Infinite loops.</strong> The agent keeps trying the same thing in slightly different ways. Mitigation: a max-step budget and explicit termination conditions.</p><p><strong>Prompt injection.</strong> Untrusted content (an email body, a webpage) tries to override the agent's instructions. Mitigation: separate trusted and untrusted contexts, never let user content set high-level goals.</p>"
+    },
+    {
+      "id": "design",
+      "heading": "Designing a safer agent",
+      "html": "<p>If you're building one, six principles get you most of the way:</p><ol><li>Start with a workflow. Only switch to an agent when the workflow visibly fails.</li><li>Limit the toolset. Five well-named tools beat fifteen vague ones.</li><li>Put a human in the loop for irreversible actions (sending emails, making payments, editing live files).</li><li>Log everything. You will need to debug.</li><li>Set a step budget. Stop the loop after N iterations.</li><li>Have an explicit success criterion the model can check against.</li></ol><p>This is the same mental model Iro AI's <a href=\"/ai-agents-course\">AI agents course</a> teaches in 5-minute exercises — not how to write the code, but how to think about when and where agents help.</p>"
+    }
+  ],
+  "readNext": [
+    {
+      "href": "/blog/spot-ai-hallucinations",
+      "label": "How to spot AI hallucinations in 5 seconds"
+    },
+    {
+      "href": "/blog/prompt-engineering-patterns",
+      "label": "The 7 prompt patterns that work everywhere"
+    },
+    {
+      "href": "/ai-agents-course",
+      "label": "AI agents in Iro AI"
+    },
+    {
+      "href": "/ai-automation-course",
+      "label": "AI automation in Iro AI"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Do I need to be a developer to use agents?",
+      "a": "No. Plenty of products (research tools, coding assistants, customer-support platforms) ship pre-built agents. Iro AI's agents path is designed for non-engineers — see <a href=\"/ai-agents-course\">/ai-agents-course</a>."
+    },
+    {
+      "q": "What's the difference between an agent and an automation?",
+      "a": "Automation is fixed: \"when X happens, do Y.\" An agent decides what Y should be based on context. Most real systems mix both."
+    },
+    {
+      "q": "Are agents the future of AI?",
+      "a": "Some workloads will be agent-shaped. Many will stay as workflows or assistants. The framing of \"agents vs everything else\" oversells how distinct they are."
+    },
+    {
+      "q": "How do I evaluate an agent in production?",
+      "a": "Track three things: task completion rate, average steps to completion, and the rate of human intervention. The last one is usually the most informative."
+    }
+  ],
+  "related": [
+    "/ai-agents-course",
+    "/ai-automation-course",
+    "/vibe-coding-course",
+    "/learn-claude",
+    "/blog/spot-ai-hallucinations",
+    "/blog/prompt-engineering-patterns",
+    "/blog/how-to-learn-chatgpt-in-2026",
+    "/glossary"
+  ]
+}

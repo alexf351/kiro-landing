@@ -1,0 +1,32 @@
+---
+title: "AI Fluency: Learn AI the Way That Actually Sticks"
+canonical_url: "https://tryiro.com/blog/ai-fluency"
+site: "Iro AI"
+site_url: "https://tryiro.com"
+language: en-US
+last_updated: "2026-05-28"
+keywords: ["AI fluency", "how to learn AI", "AI skills", "learn AI 2026", "AI for beginners"]
+author: "Iro AI"
+license: "© 2026 Iro AI"
+type: "content-pillar"
+---
+
+# AI Fluency: Learn AI the Way That Actually Sticks
+
+> Build real AI fluency in 2026 — the active-practice method, the free tools worth using, and how to tell when AI is wrong.
+
+**Canonical:** https://tryiro.com/blog/ai-fluency
+**Last updated:** 2026-05-28
+
+AI fluency is the ability to get reliable, useful results from AI tools — and to know when not to trust them. It is not about memorising magic prompts. It is a skill you build through active practice, the same way you would learn a language or an instrument.
+
+This pillar collects everything Iro AI has written on building that skill from zero: the method that beats passive video courses, the free tools actually worth your attention in 2026, and the verification habits that separate people who use AI well from people who get burned by it.
+
+Work through the posts below in order, or jump straight to whichever gap is most urgent for you. Each one is a short, practical read with a 5-minute exercise you can try the same day. When you are ready to make it a habit, the [gamified daily lessons](/duolingo-for-ai) in Iro AI are built around exactly this loop.
+
+## Posts in this pillar
+
+- [How to actually learn ChatGPT in 2026](https://tryiro.com/blog/how-to-learn-chatgpt-in-2026) — Most people learn ChatGPT by random experimentation and hit a ceiling. Here's the active-practice method that builds judgment instead of just memorising prompts.
+- [How to spot AI hallucinations in 5 seconds](https://tryiro.com/blog/spot-ai-hallucinations) — AI models confidently invent facts, citations, and numbers. Here are the five-second checks that catch most hallucinations — and a longer set for when stakes are high.
+- [The best free AI tools for daily work in 2026](https://tryiro.com/blog/best-free-ai-tools-2026) — A 2026-up-to-date guide to free-tier AI tools that are actually worth using for daily work — what each is good for, where they fall short, and how to combine them.
+- [AI for beginners: a 30-day learning plan](https://tryiro.com/blog/ai-for-beginners-30-day-plan) — A beginner-friendly 30-day plan to learn AI from scratch: what to practise each week, which free tools to use, and how to build a daily habit that actually sticks.

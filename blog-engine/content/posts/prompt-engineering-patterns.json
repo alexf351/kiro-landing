@@ -1,0 +1,153 @@
+{
+  "slug": "prompt-engineering-patterns",
+  "order": 2,
+  "pillar": "prompt-engineering",
+  "title": "The 7 prompt patterns that work everywhere",
+  "lede": "Transferable structures for ChatGPT, Claude, Gemini, and Perplexity.",
+  "description": "Forget magic phrases. These 7 prompt patterns transfer across models and survive model upgrades — the foundation of practical prompt engineering.",
+  "keywords": [
+    "prompt engineering",
+    "prompt patterns",
+    "ChatGPT prompts",
+    "Claude prompts",
+    "prompt design"
+  ],
+  "datePublished": "2026-05-24",
+  "dateModified": "2026-05-24",
+  "readingTime": 9,
+  "articleSection": "AI fluency",
+  "feedCategory": "Prompt engineering",
+  "feedTags": [
+    "Prompt engineering"
+  ],
+  "inlineCtaAfter": 2,
+  "toc": [
+    {
+      "href": "#p1",
+      "label": "1. The Role-Goal-Constraints frame"
+    },
+    {
+      "href": "#p2",
+      "label": "2. Few-shot with anchors"
+    },
+    {
+      "href": "#p3",
+      "label": "3. Output format contract"
+    },
+    {
+      "href": "#p4",
+      "label": "4. Self-critique loop"
+    },
+    {
+      "href": "#p5",
+      "label": "5. Decomposition"
+    },
+    {
+      "href": "#p6",
+      "label": "6. Comparison prompt"
+    },
+    {
+      "href": "#p7",
+      "label": "7. Verify-then-trust"
+    },
+    {
+      "href": "#combine",
+      "label": "Putting them together"
+    }
+  ],
+  "sections": [
+    {
+      "id": "intro",
+      "heading": "Why patterns beat prompts",
+      "html": "<p>People share prompts the way restaurants share recipes. Copy, paste, eat. Then the model updates and the prompt stops working.</p><p>Patterns are different. A pattern is a <em>structure</em> — a way of organising information for an AI model that survives whatever the model does next. Master the patterns and you can write a prompt for any model, any task, any version.</p><p>These seven are the ones that show up over and over in real work. They're what Iro AI's <a href=\"/prompt-engineering-app\">Prompt Lab</a> drills.</p>"
+    },
+    {
+      "id": "p1",
+      "heading": "1. The Role-Goal-Constraints frame",
+      "html": "<p>The most reliable opener for any non-trivial task. Four parts:</p><ul><li><strong>Role.</strong> Who is the model supposed to be? (\"You are a senior litigation associate.\")</li><li><strong>Goal.</strong> What is the user trying to accomplish? (\"Draft a discovery objection.\")</li><li><strong>Context.</strong> What does the model need to know? (Facts, audience, prior decisions.)</li><li><strong>Constraints.</strong> What must the output do, avoid, or fit inside? (\"Under 200 words. No case citations. Tone: assertive but cordial.\")</li></ul><p>Without role and constraints, you get average output. With them, you get specific.</p>"
+    },
+    {
+      "id": "p2",
+      "heading": "2. Few-shot with anchors",
+      "html": "<p>For tasks where style matters more than reasoning — classifications, rewrites, tone-matching — give the model two or three examples that bracket the kind of output you want, then ask for the next one in the same shape.</p><p>The trick is <em>anchoring</em>: pick examples that span the range. Don't give three nearly-identical examples. Give a clearly-easy one, a clearly-hard one, and a middle one. The model learns the structure, not the surface.</p>"
+    },
+    {
+      "id": "p3",
+      "heading": "3. Output format contract",
+      "html": "<p>Specify the output shape up front. Not as a wish — as a contract.</p><blockquote>Return ONLY a JSON object with these keys: <code>summary</code> (string, ≤ 40 words), <code>risks</code> (array of objects with <code>name</code> and <code>severity</code>), and <code>next_step</code> (string). No prose outside the JSON.</blockquote><p>This is how you stop the model from preambling. The format contract is also what makes a prompt programmable — you can feed the output to the next step without parsing free text.</p>"
+    },
+    {
+      "id": "p4",
+      "heading": "4. Self-critique loop",
+      "html": "<p>Ask the model to grade its own first draft before producing the final answer:</p><blockquote>Step 1: draft an answer. Step 2: list three specific weaknesses of the draft. Step 3: produce a second draft that fixes those weaknesses. Return only step 3.</blockquote><p>This costs you a few seconds and almost always improves the answer. It works because the model is better at evaluating writing than at writing first drafts.</p>"
+    },
+    {
+      "id": "p5",
+      "heading": "5. Decomposition",
+      "html": "<p>For anything complex, don't ask for the whole answer in one prompt. Ask the model to <em>plan</em> the answer first, then execute the plan in subsequent turns.</p><p>This is the basis of <a href=\"/ai-agents-course\">agentic workflows</a>: break a goal into named steps, do each step, gate progress on review. It's also what makes long answers actually useful — without decomposition, the model loses the thread halfway through.</p>"
+    },
+    {
+      "id": "p6",
+      "heading": "6. Comparison prompt",
+      "html": "<p>When you can't tell whether an answer is good, ask the model to produce two or three different versions and compare them on explicit criteria you supply.</p><p>This is far more reliable than asking for one \"good\" answer. The model is better at choosing among options than at hitting a single target.</p>"
+    },
+    {
+      "id": "p7",
+      "heading": "7. Verify-then-trust",
+      "html": "<p>The last pattern is a discipline more than a prompt. For any factual claim the model makes — numbers, dates, names, citations — check it before you trust it.</p><p>Two cheap checks: paste the claim back and ask the model to find sources; or run the same claim through a grounded tool like Perplexity. <a href=\"/blog/spot-ai-hallucinations\">Hallucination detection</a> has its own post — read that next.</p>"
+    },
+    {
+      "id": "combine",
+      "heading": "Putting them together",
+      "html": "<p>Most real prompts use three or four patterns at once. A typical work prompt might use Role-Goal-Constraints + Output format + Self-critique. A research prompt might use Decomposition + Comparison + Verify-then-trust.</p><p>The skill is knowing which patterns to combine for the task. That's not something you read your way to — you have to drill it. Iro AI's <a href=\"/prompt-engineering-app\">Prompt Lab</a> is the fastest way; the <a href=\"/learn-chatgpt\">ChatGPT path</a> and <a href=\"/learn-claude\">Claude path</a> apply the same patterns inside specific tools.</p>"
+    }
+  ],
+  "readNext": [
+    {
+      "href": "/blog/how-to-learn-chatgpt-in-2026",
+      "label": "How to actually learn ChatGPT in 2026"
+    },
+    {
+      "href": "/blog/spot-ai-hallucinations",
+      "label": "How to spot AI hallucinations in 5 seconds"
+    },
+    {
+      "href": "/prompt-engineering-app",
+      "label": "Prompt Lab in Iro AI"
+    },
+    {
+      "href": "/learn-claude",
+      "label": "Learn Claude in Iro AI"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Do these patterns work for image and video models too?",
+      "a": "Some of them. Role-Goal-Constraints maps cleanly to image and video prompting (subject, style, framing, motion, mood). Decomposition matters less. See <a href=\"/ai-image-generation-course\">image generation</a> and <a href=\"/ai-video-generation-course\">video generation</a> paths."
+    },
+    {
+      "q": "Aren't system prompts more important than these patterns?",
+      "a": "System prompts use the same patterns. A good system prompt is mostly Role + Constraints + Output format set once at the top of the conversation."
+    },
+    {
+      "q": "Which model handles these patterns best?",
+      "a": "All four major assistants (ChatGPT, Claude, Gemini, Perplexity) respond well to all seven patterns. Claude tends to be best at Self-critique. Perplexity is best at Verify-then-trust because it's built for grounded answers."
+    },
+    {
+      "q": "How do I know which patterns to combine for a given task?",
+      "a": "Reps. That's what Iro AI's Prompt Lab is for — you practise patterns on small tasks until the choice becomes automatic."
+    }
+  ],
+  "related": [
+    "/prompt-engineering-app",
+    "/learn-chatgpt",
+    "/learn-claude",
+    "/learn-gemini",
+    "/learn-perplexity",
+    "/ai-image-generation-course",
+    "/ai-video-generation-course",
+    "/ai-agents-course",
+    "/blog/spot-ai-hallucinations",
+    "/blog/how-to-learn-chatgpt-in-2026"
+  ]
+}

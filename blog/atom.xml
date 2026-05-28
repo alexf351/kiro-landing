@@ -5,7 +5,7 @@
   <link rel="self" href="https://tryiro.com/blog/atom.xml" type="application/atom+xml"/>
   <link rel="alternate" href="https://tryiro.com/blog" type="text/html"/>
   <id>https://tryiro.com/blog/atom.xml</id>
-  <updated>2026-05-24T00:00:00Z</updated>
+  <updated>2026-05-28T00:00:00Z</updated>
   <rights>© 2026 Iro AI</rights>
   <author><name>Iro AI</name><uri>https://tryiro.com</uri></author>
   <icon>https://tryiro.com/assets/favicon-64.png</icon>
@@ -59,5 +59,15 @@
     <author><name>Iro AI</name></author>
     <category term="AI tools"/>
     <summary>A practical stack across writing, research, coding, and visuals.</summary>
+  </entry>
+  <entry>
+    <title>AI for beginners: a 30-day learning plan</title>
+    <id>https://tryiro.com/blog/ai-for-beginners-30-day-plan</id>
+    <link href="https://tryiro.com/blog/ai-for-beginners-30-day-plan"/>
+    <updated>2026-05-28T00:00:00Z</updated>
+    <published>2026-05-28T00:00:00Z</published>
+    <author><name>Iro AI</name></author>
+    <category term="AI fluency"/>
+    <summary>Four weeks from zero to genuinely useful — five minutes a day.</summary>
   </entry>
 </feed>

@@ -1,0 +1,44 @@
+{
+  "rewrites": [
+    {
+      "source": "/blog",
+      "destination": "/blog/index.html"
+    },
+    {
+      "source": "/blog/ai-fluency",
+      "destination": "/blog/ai-fluency.html"
+    },
+    {
+      "source": "/blog/prompt-engineering",
+      "destination": "/blog/prompt-engineering.html"
+    },
+    {
+      "source": "/blog/ai-agents",
+      "destination": "/blog/ai-agents.html"
+    },
+    {
+      "source": "/blog/how-to-learn-chatgpt-in-2026",
+      "destination": "/blog/how-to-learn-chatgpt-in-2026.html"
+    },
+    {
+      "source": "/blog/prompt-engineering-patterns",
+      "destination": "/blog/prompt-engineering-patterns.html"
+    },
+    {
+      "source": "/blog/spot-ai-hallucinations",
+      "destination": "/blog/spot-ai-hallucinations.html"
+    },
+    {
+      "source": "/blog/ai-agents-explained",
+      "destination": "/blog/ai-agents-explained.html"
+    },
+    {
+      "source": "/blog/best-free-ai-tools-2026",
+      "destination": "/blog/best-free-ai-tools-2026.html"
+    },
+    {
+      "source": "/blog/ai-for-beginners-30-day-plan",
+      "destination": "/blog/ai-for-beginners-30-day-plan.html"
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "slug": "ai-for-beginners-30-day-plan",
+  "order": 6,
+  "pillar": "ai-fluency",
+  "title": "AI for beginners: a 30-day learning plan",
+  "lede": "Four weeks from zero to genuinely useful — five minutes a day.",
+  "description": "A beginner-friendly 30-day plan to learn AI from scratch: what to practise each week, which free tools to use, and how to build a daily habit that actually sticks.",
+  "keywords": ["AI for beginners", "learn AI in 30 days", "AI learning plan", "how to start learning AI", "beginner AI guide"],
+  "datePublished": "2026-05-28",
+  "dateModified": "2026-05-28",
+  "readingTime": 7,
+  "articleSection": "AI fluency",
+  "feedCategory": "AI fluency",
+  "feedTags": ["AI fluency", "Beginners"],
+  "inlineCtaAfter": 3,
+  "toc": [
+    { "href": "#tldr", "label": "TL;DR" },
+    { "href": "#start-here", "label": "Start here" },
+    { "href": "#week1", "label": "Week 1: get comfortable" },
+    { "href": "#week2", "label": "Week 2: prompt with structure" },
+    { "href": "#week3", "label": "Week 3: verify everything" },
+    { "href": "#week4", "label": "Week 4: build a workflow" },
+    { "href": "#habit", "label": "Keep the habit going" }
+  ],
+  "sections": [
+    {
+      "id": "tldr",
+      "heading": "TL;DR",
+      "html": "<ul><li>Spend <strong>5 minutes a day for 30 days</strong> on one free AI assistant — that is enough to get genuinely useful.</li><li><strong>Week 1</strong> build the habit, <strong>Week 2</strong> prompt with structure, <strong>Week 3</strong> verify everything, <strong>Week 4</strong> build a repeatable workflow.</li><li>The skill that matters is judgment — choosing the right tool and checking the output — not memorising prompts.</li></ul>"
+    },
+    {
+      "id": "start-here",
+      "heading": "Start here: what you are actually learning",
+      "html": "<p>Most beginners try to learn AI by collecting tips. They watch a few videos, save some clever prompts, and end up no more capable than when they started. The skill that matters is not a list of tricks — it is judgment: framing a task well, picking the right tool, and knowing when the answer is wrong.</p><p>This plan builds that judgment in four weeks, five minutes a day. You only need a free account on one AI assistant to start. By the end you will be able to delegate real work to AI and trust the result, because you will know how to check it.</p>"
+    },
+    {
+      "id": "week1",
+      "heading": "Week 1: get comfortable",
+      "html": "<p>The goal this week is reps, not perfection. Pick one assistant — <a href=\"/learn-chatgpt\">ChatGPT</a> is the easiest first choice — and use it for one small real task every day: draft an email, summarise an article, plan your week, explain a concept you half-understand.</p><p>Do not optimise yet. You are building the reflex of reaching for AI when a task appears. Notice which answers feel useful and which feel generic — that gap is the thing the next three weeks fix.</p>"
+    },
+    {
+      "id": "week2",
+      "heading": "Week 2: prompt with structure",
+      "html": "<p>Now add structure. Average prompts get average output; specific prompts get specific output. The most reliable opener is Role-Goal-Constraints: tell the model who to be, what you want, and what the output must do or avoid.</p><blockquote>You are a hiring manager at a small startup. Write a rejection email to a candidate who interviewed well but was not selected. Warm, under 120 words, leaves the door open.</blockquote><p>Practise rewriting last week's vague prompts into structured ones and compare the results. When you want the full toolkit, the <a href=\"/blog/prompt-engineering-patterns\">7 prompt patterns that work everywhere</a> are the patterns to drill.</p>"
+    },
+    {
+      "id": "week3",
+      "heading": "Week 3: verify everything",
+      "html": "<p>This is the week that separates confident users from burned ones. AI states wrong things as confidently as right ones, so you have to supply the doubt it does not. Every day, take one factual claim an AI gives you and check it before you trust it.</p><ul><li><strong>Names, dates, numbers, citations</strong> — treat them as hypotheses until verified.</li><li><strong>Cross-check</strong> against a grounded tool like <a href=\"/learn-perplexity\">Perplexity</a> that cites real sources.</li><li><strong>Ask for sources after the claim</strong> — if they do not exist, do not quote it.</li></ul><p>The full set of fast checks lives in <a href=\"/blog/spot-ai-hallucinations\">how to spot AI hallucinations in 5 seconds</a>.</p>"
+    },
+    {
+      "id": "week4",
+      "heading": "Week 4: build a small workflow",
+      "html": "<p>In the final week, chain your new skills into one repeatable workflow you will actually reuse. Pick a recurring task — weekly report, content draft, research summary — and design a three-step process: draft, critique, finalise.</p><p>Learn which tool fits each step. The <a href=\"/blog/best-free-ai-tools-2026\">best free AI tools for daily work</a> breaks down what each assistant is good at. If your workflow needs the model to make decisions on its own, read <a href=\"/blog/ai-agents-explained\">AI agents, explained without the jargon</a> first — most tasks are better as a simple workflow than an agent.</p>"
+    },
+    {
+      "id": "habit",
+      "heading": "Keep the habit going",
+      "html": "<p>Thirty days is enough to get capable. Staying capable is about not stopping. The tool that beats every other tool is the one you open every day — and a streak is the cheapest way to make that automatic.</p><p>Iro AI is built for exactly this: 5-minute gamified lessons, feedback on every exercise, and streaks that keep you coming back. Start free, and if you want to know your baseline first, take the <a href=\"/quiz\">free AI IQ test</a> — 10 questions, 2 minutes, and it tells you your weakest topic.</p>"
+    }
+  ],
+  "readNext": [
+    { "href": "/blog/how-to-learn-chatgpt-in-2026", "label": "How to actually learn ChatGPT in 2026" },
+    { "href": "/blog/prompt-engineering-patterns", "label": "The 7 prompt patterns that work everywhere" },
+    { "href": "/blog/spot-ai-hallucinations", "label": "How to spot AI hallucinations in 5 seconds" },
+    { "href": "/duolingo-for-ai", "label": "The Duolingo for AI" }
+  ],
+  "faq": [
+    {
+      "q": "Can a complete beginner really learn AI in 30 days?",
+      "a": "Yes — to a genuinely useful level. Thirty days of 5-minute daily practice is enough to draft, research, and verify with AI confidently. Mastery keeps going, but you will be past the hard part."
+    },
+    {
+      "q": "Do I need to pay for any tools to follow this plan?",
+      "a": "No. The free tiers of ChatGPT, Claude, and Perplexity cover everything in this plan. See <a href=\"/blog/best-free-ai-tools-2026\">the best free AI tools for daily work</a>."
+    },
+    {
+      "q": "How much time per day does it take?",
+      "a": "About 5 minutes. The plan is deliberately small so the habit survives busy days. Consistency matters far more than session length."
+    },
+    {
+      "q": "What should I do after the 30 days?",
+      "a": "Pick a specialisation. Iro AI has structured paths for <a href=\"/learn-chatgpt\">ChatGPT</a>, <a href=\"/prompt-engineering-app\">prompt engineering</a>, <a href=\"/ai-agents-course\">AI agents</a>, and more — keep practising in the area most useful to your work."
+    }
+  ],
+  "related": [
+    "/blog/how-to-learn-chatgpt-in-2026",
+    "/blog/prompt-engineering-patterns",
+    "/blog/spot-ai-hallucinations",
+    "/blog/best-free-ai-tools-2026",
+    "/blog/ai-agents-explained",
+    "/learn-chatgpt",
+    "/learn-perplexity",
+    "/duolingo-for-ai",
+    "/quiz"
+  ]
+}
