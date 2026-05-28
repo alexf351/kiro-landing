@@ -28,6 +28,7 @@
   "footer": [
     { "href": "/privacy", "label": "Privacy", "external": false },
     { "href": "/terms", "label": "Terms", "external": false },
+    { "href": "/blog", "label": "Blog", "external": false },
     { "href": "https://instagram.com/tryiro", "label": "Instagram", "external": true },
     { "href": "https://www.tiktok.com/@tryiro", "label": "TikTok", "external": true },
     { "href": "https://www.youtube.com/@tryiro", "label": "YouTube", "external": true },
