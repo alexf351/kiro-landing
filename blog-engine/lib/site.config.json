@@ -1,0 +1,58 @@
+{
+  "site": "Iro AI",
+  "domain": "https://tryiro.com",
+  "language": "en-US",
+  "author": "Iro AI",
+  "copyright": "© 2026 Iro AI",
+  "twitterSite": "@tryiroapp",
+  "appStoreUrl": "https://apps.apple.com/app/id6759628066",
+  "appStoreId": "6759628066",
+  "tagline": "Master AI. Stay ahead.",
+  "articleSection": "AI fluency",
+  "firstDate": "2026-05-24",
+  "buildDate": "2026-05-28",
+  "icons": {
+    "favicon": "/assets/favicon-64.png",
+    "appleTouch": "/assets/apple-touch-icon.png",
+    "tile": "/assets/kiro-app-icon-256.png",
+    "logo512": "/assets/kiro-app-icon-512.png",
+    "brand": "/assets/kiro-app-icon-256.png"
+  },
+  "nav": [
+    { "href": "/learn-chatgpt", "label": "Learn ChatGPT" },
+    { "href": "/prompt-engineering-app", "label": "Prompt Engineering" },
+    { "href": "/ai-agents-course", "label": "AI Agents" },
+    { "href": "/quiz", "label": "AI IQ Test" },
+    { "href": "/about", "label": "About" }
+  ],
+  "footer": [
+    { "href": "/privacy", "label": "Privacy", "external": false },
+    { "href": "/terms", "label": "Terms", "external": false },
+    { "href": "/blog", "label": "Blog", "external": false },
+    { "href": "https://instagram.com/tryiro", "label": "Instagram", "external": true },
+    { "href": "https://www.tiktok.com/@tryiro", "label": "TikTok", "external": true },
+    { "href": "https://www.youtube.com/@tryiro", "label": "YouTube", "external": true },
+    { "href": "https://x.com/tryiro", "label": "X", "external": true },
+    { "href": "https://www.linkedin.com/company/tryiro", "label": "LinkedIn", "external": true }
+  ],
+  "cta": {
+    "heading": "Practice this, don't just read it.",
+    "body": "Iro AI turns ideas like the ones in this post into 5-minute exercises with feedback. Free tier, Pro from $5/month (Annual $59.99/yr, 7-day free trial).",
+    "primaryLabel": "Download Iro AI",
+    "secondaryHref": "/quiz",
+    "secondaryLabel": "Take the AI IQ test"
+  },
+  "blog": {
+    "base": "/blog",
+    "title": "The Iro AI Blog",
+    "shortName": "Iro AI Blog",
+    "heroEyebrow": "Iro AI Blog",
+    "heroTitle": "Practical AI fluency, one post at a time.",
+    "description": "Short, practical writing on AI fluency, prompting, AI tools, and the active-practice method that beats endless video courses.",
+    "feedDescriptionShort": "Short, practical writing on AI fluency, prompting, AI tools, and the active-practice method.",
+    "keywords": "Iro AI blog, AI fluency, prompt engineering, ChatGPT tips, AI agents, AI tools",
+    "ogImage": "/assets/og/blog.png",
+    "pillarsHeading": "Start with a pillar",
+    "pillarsIntro": "Each pillar is a complete topic hub. Start there, then dive into the deep-dive posts inside it."
+  }
+}

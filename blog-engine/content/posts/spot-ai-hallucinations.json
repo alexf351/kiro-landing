@@ -1,0 +1,122 @@
+{
+  "slug": "spot-ai-hallucinations",
+  "order": 3,
+  "pillar": "ai-fluency",
+  "title": "How to spot AI hallucinations in 5 seconds",
+  "lede": "Quick checks that catch most mistakes before you trust them.",
+  "description": "AI models confidently invent facts, citations, and numbers. Here are the five-second checks that catch most hallucinations — and a longer set for when stakes are high.",
+  "keywords": [
+    "AI hallucination",
+    "hallucination detection",
+    "ChatGPT mistakes",
+    "AI accuracy",
+    "fact-checking AI"
+  ],
+  "datePublished": "2026-05-24",
+  "dateModified": "2026-05-24",
+  "readingTime": 6,
+  "articleSection": "AI fluency",
+  "feedCategory": "AI fluency",
+  "feedTags": [
+    "AI fluency",
+    "Hallucination"
+  ],
+  "inlineCtaAfter": 2,
+  "toc": [
+    {
+      "href": "#what",
+      "label": "What a hallucination is (and isn't)"
+    },
+    {
+      "href": "#five-second",
+      "label": "The 5-second checks"
+    },
+    {
+      "href": "#deeper",
+      "label": "The deeper checks"
+    },
+    {
+      "href": "#shapes",
+      "label": "Common hallucination shapes"
+    },
+    {
+      "href": "#practise",
+      "label": "Where to practise"
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "heading": "What a hallucination is (and isn't)",
+      "html": "<p>A hallucination is when an AI confidently states something that isn't true. Not a typo. Not a misunderstanding. A real claim, well-written, presented with no flag, that's wrong.</p><p>It's not the same as a wrong opinion or a value judgement. \"This essay is well-structured\" can be debated. \"This essay won the Pulitzer Prize in 2019\" is either true or false — and that's where hallucinations live.</p><p>The reason this matters: AI outputs <em>look</em> equally confident whether they're true or invented. Your job is to add the doubt the model doesn't supply.</p>"
+    },
+    {
+      "id": "five-second",
+      "heading": "The 5-second checks",
+      "html": "<p>Run these first. They catch most of what matters.</p><ol><li><strong>Does the answer contain a name, date, statistic, or citation?</strong> If yes, treat it as a hypothesis, not a fact. Verify before quoting.</li><li><strong>Is the model's confidence higher than its data should allow?</strong> Watch for sweeping claims about recent events, niche topics, internal company info — none of which the model could actually know.</li><li><strong>Does the answer feel suspiciously well-suited to your question?</strong> Hallucinations often \"give you what you wanted to hear.\" Real answers push back.</li><li><strong>Are the URLs and titles plausible-but-unfamiliar?</strong> Made-up citations look correct on the surface — real journal, real-sounding title, plausible authors, fake DOI. Click through before trusting.</li><li><strong>Does it cite a specific person?</strong> Search the quote. If it doesn't exist verbatim somewhere, the model wrote it.</li></ol>"
+    },
+    {
+      "id": "deeper",
+      "heading": "The deeper checks (when stakes are high)",
+      "html": "<p>For anything you're shipping, signing, or quoting, do these too:</p><p><strong>Cross-check against a grounded tool.</strong> Ask the same question in Perplexity or another search-grounded assistant. If they disagree on a fact, the fact needs human verification. Iro AI's <a href=\"/learn-perplexity\">Perplexity path</a> drills this habit.</p><p><strong>Re-prompt with a contradiction.</strong> Tell the model the opposite is true and watch how easily it flips. If it caves immediately, the original answer wasn't grounded — it was generated.</p><p><strong>Ask for sources <em>after</em> the claim.</strong> If sources don't exist, the claim is unsupported by the model's training data. Don't quote.</p><p><strong>Check the dates.</strong> Models often confidently report on \"recent\" events that happened after their training data was cut off. If the model is talking about anything from the last few months and isn't using live search, assume it's wrong.</p>"
+    },
+    {
+      "id": "shapes",
+      "heading": "Common hallucination shapes",
+      "html": "<p>After you've seen a few, you start to recognise the shapes:</p><ul><li><strong>Fake citations.</strong> Real-looking journal, real-sounding paper title, made-up DOI or volume/issue.</li><li><strong>Confused entities.</strong> Two different real people merged into one. A real product attributed to the wrong company.</li><li><strong>Drifted dates.</strong> A real event placed in the wrong year by ±3.</li><li><strong>Compound-noun nonsense.</strong> \"As shown by the Lichtenberg–Rao theorem of 1972...\" — neither the theorem nor the year exists, but they sound right.</li><li><strong>Plausible misattribution.</strong> A quote that <em>sounds</em> like Buffett, attributed to Buffett, that he never said.</li></ul><p>The shape almost always involves a real-sounding noun phrase that nobody bothers to verify because it sounds familiar.</p>"
+    },
+    {
+      "id": "practise",
+      "heading": "Where to practise",
+      "html": "<p>Hallucination detection is a muscle. You can build it by doing — every time you use an AI model, pick one claim and verify it. Over a month, you'll start catching them automatically.</p><p>Iro AI builds this directly into its exercises. The <a href=\"/learn-chatgpt\">ChatGPT</a>, <a href=\"/learn-claude\">Claude</a>, and <a href=\"/learn-perplexity\">Perplexity</a> paths each include hallucination-spotting drills. The <a href=\"/quiz\">free AI IQ test</a> includes a few of them too.</p>"
+    }
+  ],
+  "readNext": [
+    {
+      "href": "/blog/how-to-learn-chatgpt-in-2026",
+      "label": "How to actually learn ChatGPT in 2026"
+    },
+    {
+      "href": "/blog/prompt-engineering-patterns",
+      "label": "The 7 prompt patterns that work everywhere"
+    },
+    {
+      "href": "/learn-perplexity",
+      "label": "Learn Perplexity (grounded AI search)"
+    },
+    {
+      "href": "/glossary",
+      "label": "AI glossary — hallucination, RAG, and more"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Do the newest models still hallucinate?",
+      "a": "Yes. Hallucination rates have dropped significantly with recent models, but they're not zero, and they tend to be more confident when wrong. The skill of verification matters more, not less."
+    },
+    {
+      "q": "Is using RAG (retrieval-augmented generation) a fix?",
+      "a": "RAG dramatically reduces hallucinations because the model is given real source documents at runtime. It doesn't eliminate them — models can still misread or misquote retrieved sources. Always check direct quotes."
+    },
+    {
+      "q": "How do I know if a tool is 'grounded'?",
+      "a": "Grounded tools cite specific sources you can click. Perplexity is grounded. The default ChatGPT and Claude chat modes are not, unless you turn on browsing or supply documents."
+    },
+    {
+      "q": "Can I trust AI for medical, legal, or financial advice?",
+      "a": "Not without expert verification. AI can be useful for drafting and research support in those fields, but it should not be the final answer. See <a href=\"/ai-for-healthcare\">AI for healthcare</a> and <a href=\"/ai-for-finance\">AI for finance</a> for limits-first guidance."
+    }
+  ],
+  "related": [
+    "/learn-chatgpt",
+    "/learn-claude",
+    "/learn-perplexity",
+    "/ai-for-healthcare",
+    "/ai-for-finance",
+    "/glossary",
+    "/quiz",
+    "/blog/how-to-learn-chatgpt-in-2026",
+    "/blog/prompt-engineering-patterns",
+    "/blog/ai-agents-explained"
+  ]
+}

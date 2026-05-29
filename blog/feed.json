@@ -7,12 +7,75 @@
   "icon": "https://tryiro.com/assets/kiro-app-icon-512.png",
   "favicon": "https://tryiro.com/assets/favicon-64.png",
   "language": "en-US",
-  "authors": [{ "name": "Iro AI", "url": "https://tryiro.com" }],
+  "authors": [
+    {
+      "name": "Iro AI",
+      "url": "https://tryiro.com"
+    }
+  ],
   "items": [
-    { "id": "https://tryiro.com/blog/how-to-learn-chatgpt-in-2026", "url": "https://tryiro.com/blog/how-to-learn-chatgpt-in-2026", "title": "How to actually learn ChatGPT in 2026", "summary": "The active-practice method that beats endless video courses.", "date_published": "2026-05-24T00:00:00Z", "tags": ["AI fluency","ChatGPT"] },
-    { "id": "https://tryiro.com/blog/prompt-engineering-patterns", "url": "https://tryiro.com/blog/prompt-engineering-patterns", "title": "The 7 prompt patterns that work everywhere", "summary": "Transferable structures for ChatGPT, Claude, Gemini, and Perplexity.", "date_published": "2026-05-24T00:00:00Z", "tags": ["Prompt engineering"] },
-    { "id": "https://tryiro.com/blog/spot-ai-hallucinations", "url": "https://tryiro.com/blog/spot-ai-hallucinations", "title": "How to spot AI hallucinations in 5 seconds", "summary": "Quick checks that catch most mistakes before you trust them.", "date_published": "2026-05-24T00:00:00Z", "tags": ["AI fluency","Hallucination"] },
-    { "id": "https://tryiro.com/blog/ai-agents-explained", "url": "https://tryiro.com/blog/ai-agents-explained", "title": "AI agents, explained without the jargon", "summary": "What agents actually are, when to use them, and where they fail.", "date_published": "2026-05-24T00:00:00Z", "tags": ["AI agents"] },
-    { "id": "https://tryiro.com/blog/best-free-ai-tools-2026", "url": "https://tryiro.com/blog/best-free-ai-tools-2026", "title": "The best free AI tools for daily work in 2026", "summary": "A practical stack across writing, research, coding, and visuals.", "date_published": "2026-05-24T00:00:00Z", "tags": ["AI tools"] }
+    {
+      "id": "https://tryiro.com/blog/how-to-learn-chatgpt-in-2026",
+      "url": "https://tryiro.com/blog/how-to-learn-chatgpt-in-2026",
+      "title": "How to actually learn ChatGPT in 2026",
+      "summary": "The active-practice method that beats endless video courses.",
+      "date_published": "2026-05-24T00:00:00Z",
+      "tags": [
+        "AI fluency",
+        "ChatGPT"
+      ]
+    },
+    {
+      "id": "https://tryiro.com/blog/prompt-engineering-patterns",
+      "url": "https://tryiro.com/blog/prompt-engineering-patterns",
+      "title": "The 7 prompt patterns that work everywhere",
+      "summary": "Transferable structures for ChatGPT, Claude, Gemini, and Perplexity.",
+      "date_published": "2026-05-24T00:00:00Z",
+      "tags": [
+        "Prompt engineering"
+      ]
+    },
+    {
+      "id": "https://tryiro.com/blog/spot-ai-hallucinations",
+      "url": "https://tryiro.com/blog/spot-ai-hallucinations",
+      "title": "How to spot AI hallucinations in 5 seconds",
+      "summary": "Quick checks that catch most mistakes before you trust them.",
+      "date_published": "2026-05-24T00:00:00Z",
+      "tags": [
+        "AI fluency",
+        "Hallucination"
+      ]
+    },
+    {
+      "id": "https://tryiro.com/blog/ai-agents-explained",
+      "url": "https://tryiro.com/blog/ai-agents-explained",
+      "title": "AI agents, explained without the jargon",
+      "summary": "What agents actually are, when to use them, and where they fail.",
+      "date_published": "2026-05-24T00:00:00Z",
+      "tags": [
+        "AI agents"
+      ]
+    },
+    {
+      "id": "https://tryiro.com/blog/best-free-ai-tools-2026",
+      "url": "https://tryiro.com/blog/best-free-ai-tools-2026",
+      "title": "The best free AI tools for daily work in 2026",
+      "summary": "A practical stack across writing, research, coding, and visuals.",
+      "date_published": "2026-05-24T00:00:00Z",
+      "tags": [
+        "AI tools"
+      ]
+    },
+    {
+      "id": "https://tryiro.com/blog/ai-for-beginners-30-day-plan",
+      "url": "https://tryiro.com/blog/ai-for-beginners-30-day-plan",
+      "title": "AI for beginners: a 30-day learning plan",
+      "summary": "Four weeks from zero to genuinely useful — five minutes a day.",
+      "date_published": "2026-05-28T00:00:00Z",
+      "tags": [
+        "AI fluency",
+        "Beginners"
+      ]
+    }
   ]
 }

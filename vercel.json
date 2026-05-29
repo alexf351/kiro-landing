@@ -416,6 +416,22 @@
     {
       "source": "/blog/best-free-ai-tools-2026",
       "destination": "/blog/best-free-ai-tools-2026.html"
+    },
+    {
+      "source": "/blog/ai-for-beginners-30-day-plan",
+      "destination": "/blog/ai-for-beginners-30-day-plan.html"
+    },
+    {
+      "source": "/blog/ai-fluency",
+      "destination": "/blog/ai-fluency.html"
+    },
+    {
+      "source": "/blog/prompt-engineering",
+      "destination": "/blog/prompt-engineering.html"
+    },
+    {
+      "source": "/blog/ai-agents",
+      "destination": "/blog/ai-agents.html"
     }
   ]
 }

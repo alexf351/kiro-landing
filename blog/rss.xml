@@ -9,7 +9,7 @@
     <description>Short, practical writing on AI fluency, prompting, AI tools, and the active-practice method that beats endless video courses.</description>
     <language>en-US</language>
     <atom:link href="https://tryiro.com/blog/rss.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Sun, 24 May 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 28 May 2026 00:00:00 GMT</lastBuildDate>
     <generator>tryiro.com</generator>
     <copyright>© 2026 Iro AI</copyright>
     <image>
@@ -61,6 +61,15 @@
       <dc:creator>Iro AI</dc:creator>
       <category>AI tools</category>
       <description>A 2026-up-to-date guide to free-tier AI tools that are actually worth using for daily work — what each is good for, where they fall short, and how to combine them.</description>
+    </item>
+    <item>
+      <title>AI for beginners: a 30-day learning plan</title>
+      <link>https://tryiro.com/blog/ai-for-beginners-30-day-plan</link>
+      <guid isPermaLink="true">https://tryiro.com/blog/ai-for-beginners-30-day-plan</guid>
+      <pubDate>Thu, 28 May 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Iro AI</dc:creator>
+      <category>AI fluency</category>
+      <description>A beginner-friendly 30-day plan to learn AI from scratch: what to practise each week, which free tools to use, and how to build a daily habit that actually sticks.</description>
     </item>
   </channel>
 </rss>

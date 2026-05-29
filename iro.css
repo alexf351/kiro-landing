@@ -1,0 +1,121 @@
+/* ============================================================
+   Iro AI — shared design system (new look)
+   Loaded AFTER each page's inline <style> so it brings the
+   legacy content pages + blog in line with the redesigned home.
+   Targets the existing class names so no markup changes are needed.
+   Tokens + nav + footer + buttons + typography mirror index.html.
+   ============================================================ */
+:root{
+  --bg:#070A12; --bg-2:#0A0E18; --elev:#0E1320;
+  --surface:rgba(255,255,255,.028); --surface-2:rgba(255,255,255,.05);
+  --line:rgba(255,255,255,.08); --line-strong:rgba(255,255,255,.14);
+  --ink:#F2F5FF; --ink-2:#9BA7C4; --ink-3:#616E8C;
+  --accent:#00E5FF; --accent-rgb:0,229,255; --accent-ink:#04222B;
+  --gold:#FFD45A; --gold-rgb:255,212,90;
+  --ease:cubic-bezier(.2,.8,.2,1); --ease-out:cubic-bezier(.16,1,.3,1);
+
+  /* legacy token names used by the legal pages — remap to the new palette */
+  --bg1:#0A0E18; --surface-border:rgba(255,255,255,.08);
+  --text:#F2F5FF; --text2:#9BA7C4; --text3:#616E8C;
+  --cyan:#00E5FF;
+  --nav-bg:rgba(7,10,18,.8); --white-border:rgba(255,255,255,.08);
+}
+
+/* ---------- base ---------- */
+body{background:var(--bg);color:var(--ink);font-family:'Outfit',system-ui,-apple-system,sans-serif;
+  line-height:1.6;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
+a{color:var(--accent)}
+::selection{background:rgba(var(--accent-rgb),.3);color:#fff}
+h1,h2,h3,h4{font-family:'Geist','Outfit',sans-serif;font-weight:800}
+.page{background:
+  radial-gradient(ellipse 60% 50% at 78% -5%,rgba(var(--accent-rgb),.10),transparent 60%),
+  radial-gradient(ellipse 55% 45% at 8% 8%,rgba(var(--accent-rgb),.05),transparent 60%),
+  radial-gradient(ellipse 80% 60% at 50% 120%,rgba(var(--accent-rgb),.04),transparent 55%),
+  var(--bg)}
+
+/* ---------- nav (sticky blur) ---------- */
+.nav{position:sticky;top:0;z-index:100;height:62px;gap:24px;
+  padding:0 clamp(20px,5vw,64px);
+  background:rgba(7,10,18,.8);backdrop-filter:blur(18px) saturate(1.3);-webkit-backdrop-filter:blur(18px) saturate(1.3);
+  border-bottom:1px solid var(--line)}
+.brand{display:flex;align-items:center;gap:11px;color:var(--ink);
+  font-family:'Geist',sans-serif;font-weight:700;font-size:18px;letter-spacing:-.02em}
+.brand img{width:30px;height:30px;border-radius:9px;box-shadow:0 0 0 1px var(--line),0 4px 14px rgba(0,0,0,.5)}
+.nav-links{display:flex;align-items:center;gap:26px;flex-wrap:wrap;font-size:13.5px}
+.nav-links a{color:var(--ink-2);font-weight:500;letter-spacing:.01em;transition:color .2s}
+.nav-links a:hover{color:var(--ink);text-decoration:none}
+.nav-links a[href="/quiz"],.nav-links a[href="/quiz.html"]{color:var(--accent);font-weight:600}
+@media(max-width:760px){.nav{height:auto;flex-direction:column;align-items:flex-start;gap:12px;
+  padding-top:14px;padding-bottom:14px}}
+
+/* ---------- eyebrow ---------- */
+.eyebrow{font-family:'JetBrains Mono',ui-monospace,monospace;font-size:11.5px;font-weight:500;
+  letter-spacing:.26em;text-transform:uppercase;color:var(--accent);
+  display:inline-flex;align-items:center;gap:10px}
+.eyebrow::before{content:'';width:22px;height:1px;background:var(--accent);opacity:.6}
+
+/* ---------- headings + body copy ---------- */
+.hero h1{font-family:'Geist',sans-serif;font-weight:800;letter-spacing:-.04em;color:var(--ink)}
+.hero p{color:var(--ink-2)}
+.content h2,.faq h2,.related h2{font-family:'Geist',sans-serif;font-weight:800;letter-spacing:-.03em;color:var(--ink)}
+.content p,.content li,.faq p,.faq summary,.faq details{color:var(--ink-2)}
+.content h3{color:var(--ink)}
+
+/* ---------- buttons ---------- */
+.btn{font-family:'Outfit',sans-serif;font-weight:700;letter-spacing:-.01em;border-radius:13px;
+  padding:14px 24px;border:1px solid transparent;
+  transition:transform .35s var(--ease),box-shadow .3s ease,background .3s ease,border-color .3s ease}
+.btn:not(.secondary){
+  background:linear-gradient(180deg,color-mix(in oklab,var(--accent),#fff 22%),var(--accent));
+  color:var(--accent-ink);
+  box-shadow:0 1px 0 rgba(255,255,255,.35) inset,0 10px 30px rgba(0,0,0,.45),
+    0 0 0 1px rgba(var(--accent-rgb),.5),0 0 40px rgba(var(--accent-rgb),.28)}
+.btn:not(.secondary):hover{transform:translateY(-2px);text-decoration:none;
+  box-shadow:0 1px 0 rgba(255,255,255,.4) inset,0 16px 40px rgba(0,0,0,.5),
+    0 0 0 1px rgba(var(--accent-rgb),.7),0 0 64px rgba(var(--accent-rgb),.45)}
+.btn.secondary{background:var(--surface-2);color:var(--ink);border-color:var(--line-strong);box-shadow:none}
+.btn.secondary:hover{transform:translateY(-2px);text-decoration:none;
+  border-color:rgba(var(--accent-rgb),.4);background:rgba(var(--accent-rgb),.06)}
+
+/* ---------- cards / surfaces ---------- */
+.card{background:var(--surface);border:1px solid var(--line);border-radius:18px;
+  transition:transform .4s var(--ease),border-color .3s,box-shadow .3s}
+.card:hover{transform:translateY(-4px);border-color:var(--line-strong);box-shadow:0 16px 34px rgba(0,0,0,.4)}
+.card h3{font-family:'Geist',sans-serif;font-weight:700;color:var(--ink)}
+.card p,.card li{color:var(--ink-2)}
+
+/* ---------- FAQ accordion ---------- */
+.faq details{background:var(--surface);border:1px solid var(--line);border-radius:14px}
+.faq summary{font-family:'Geist',sans-serif;font-weight:700;color:var(--ink)}
+
+/* ---------- pills ---------- */
+.pill{border:1px solid rgba(var(--accent-rgb),.2);background:rgba(var(--accent-rgb),.06);
+  color:var(--accent);border-radius:100px;
+  font-family:'JetBrains Mono',ui-monospace,monospace;font-weight:500;letter-spacing:.08em}
+.note{color:var(--ink-3)}
+
+/* ---------- footer ---------- */
+.footer{border-top:1px solid var(--line);color:var(--ink-3)}
+.footer a{color:var(--ink-2);transition:color .2s}
+.footer a:hover{color:var(--accent);text-decoration:none}
+.footer p{font-family:'JetBrains Mono',ui-monospace,monospace;font-size:11px;color:var(--ink-3);letter-spacing:.04em}
+
+/* ============================================================
+   Blog-specific surfaces (engine output uses these classes)
+   ============================================================ */
+.lede{color:var(--ink-2)}
+.meta{color:var(--ink-3)}
+.hero-img{border:1px solid var(--line)}
+.toc{background:var(--surface);border:1px solid var(--line)}
+.toc strong{color:var(--accent)}
+.toc a{color:var(--ink)}
+.cta-box{background:var(--surface-2);border:1px solid rgba(var(--accent-rgb),.25)}
+.cta-box h3{color:var(--ink)}
+.cta-box p{color:var(--ink-2)}
+.posts-list li,.related li{background:var(--surface);border:1px solid var(--line)}
+.posts-list h2 a,.related li a{color:var(--ink)}
+.posts-list p,.related li p{color:var(--ink-2)}
+.content blockquote{border-left:3px solid var(--accent);background:rgba(var(--accent-rgb),.05);color:var(--ink)}
+.content code{background:rgba(var(--accent-rgb),.08);border:1px solid rgba(var(--accent-rgb),.18);color:#CFF8FF}
+
+@media(prefers-reduced-motion:reduce){*{animation-duration:.001ms!important;transition-duration:.05s!important}}

@@ -1,0 +1,53 @@
+{
+  "slug": "ai-fluency",
+  "order": 1,
+  "title": "AI Fluency: Learn AI the Way That Actually Sticks",
+  "shortName": "AI Fluency",
+  "tagline": "The fundamentals — tools, judgment, and a daily habit",
+  "lede": "Build real AI fluency in 2026 — the active-practice method, the free tools worth using, and how to tell when AI is wrong.",
+  "description": "How to build real AI fluency in 2026: the active-practice method, the free AI tools worth using, and how to tell when AI is wrong. Start here, then go deep.",
+  "keywords": [
+    "AI fluency",
+    "how to learn AI",
+    "AI skills",
+    "learn AI 2026",
+    "AI for beginners"
+  ],
+  "datePublished": "2026-05-28",
+  "dateModified": "2026-05-28",
+  "intro": [
+    "<p>AI fluency is the ability to get reliable, useful results from AI tools — and to know when not to trust them. It is not about memorising magic prompts. It is a skill you build through active practice, the same way you would learn a language or an instrument.</p>",
+    "<p>This pillar collects everything Iro AI has written on building that skill from zero: the method that beats passive video courses, the free tools actually worth your attention in 2026, and the verification habits that separate people who use AI well from people who get burned by it.</p>",
+    "<p>Work through the posts below in order, or jump straight to whichever gap is most urgent for you. Each one is a short, practical read with a 5-minute exercise you can try the same day. When you are ready to make it a habit, the <a href=\"/duolingo-for-ai\">gamified daily lessons</a> in Iro AI are built around exactly this loop.</p>"
+  ],
+  "faq": [
+    {
+      "q": "How long does it take to become fluent in AI?",
+      "a": "With about 5 minutes of structured daily practice, most people feel noticeably more capable within two to three weeks. True fluency — the point where reaching for the right tool and prompt is automatic — usually takes a couple of months of consistent reps."
+    },
+    {
+      "q": "Do I need to learn to code to be AI-fluent?",
+      "a": "No. AI fluency is about judgment: framing tasks clearly, choosing the right tool, and checking the output. Everything in this pillar is written for non-engineers, though the same habits help developers too."
+    },
+    {
+      "q": "Where should I start?",
+      "a": "Start with <a href=\"/blog/ai-for-beginners-30-day-plan\">the 30-day beginner plan</a> or <a href=\"/blog/how-to-learn-chatgpt-in-2026\">how to actually learn ChatGPT</a>, then learn to <a href=\"/blog/spot-ai-hallucinations\">spot hallucinations</a> so you can trust your own results."
+    }
+  ],
+  "related": [
+    "/blog/ai-for-beginners-30-day-plan",
+    "/blog/how-to-learn-chatgpt-in-2026",
+    "/blog/spot-ai-hallucinations",
+    "/blog/best-free-ai-tools-2026"
+  ],
+  "relatedLabels": [
+    {
+      "href": "/best-ai-learning-app",
+      "label": "Best AI learning app"
+    },
+    {
+      "href": "/quiz",
+      "label": "Free AI IQ test"
+    }
+  ]
+}

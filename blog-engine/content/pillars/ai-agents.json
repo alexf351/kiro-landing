@@ -1,0 +1,52 @@
+{
+  "slug": "ai-agents",
+  "order": 3,
+  "title": "AI Agents & Automation: From Hype to Working Systems",
+  "shortName": "AI Agents",
+  "tagline": "What agents really are and when to use them",
+  "lede": "A clear-eyed guide to AI agents and automation — what an agent actually is, when it beats a simple workflow, and how to design one that does not break.",
+  "description": "A clear-eyed guide to AI agents and automation: what an agent actually is, when it beats a simple workflow, and how to design one that does not break in production.",
+  "keywords": [
+    "AI agents",
+    "LLM agents",
+    "AI automation",
+    "agentic workflows",
+    "when to use AI agents"
+  ],
+  "datePublished": "2026-05-28",
+  "dateModified": "2026-05-28",
+  "intro": [
+    "<p>No category in AI is more hyped — or more misunderstood — than agents. Strip away the marketing and an agent is something simple: a loop that lets a model decide its own next step, using tools, until a goal is met.</p>",
+    "<p>That simplicity matters, because most problems people reach for an agent to solve are better handled by a plain, predictable workflow. Knowing the difference is the whole skill. This pillar covers what agents really are, the few situations where they earn their complexity, and the failure modes — goal drift, tool misuse, prompt injection — that you have to design around.</p>",
+    "<p>You do not need to be an engineer to follow it. The same judgment applies whether you are configuring a no-code automation or evaluating a product that claims to be agentic. When you want to practise the concepts, Iro AI's <a href=\"/ai-agents-course\">AI agents</a> and <a href=\"/ai-automation-course\">automation</a> paths turn them into 5-minute exercises.</p>"
+  ],
+  "faq": [
+    {
+      "q": "What is the difference between an AI agent and an automation?",
+      "a": "An automation follows a fixed rule: when X happens, do Y. An agent decides what Y should be based on context. Most real systems mix both, and a plain workflow is usually the right starting point."
+    },
+    {
+      "q": "Do I need to code to use AI agents?",
+      "a": "No. Many products ship pre-built agents for research, support, and coding. The skill that matters for everyone is knowing when an agent helps and when it just adds risk."
+    },
+    {
+      "q": "When is an agent actually worth the complexity?",
+      "a": "When the path to the goal cannot be predicted in advance, the cost of a wrong step is bounded, and the task is long enough that adaptivity pays off. See <a href=\"/blog/ai-agents-explained\">AI agents, explained without the jargon</a>."
+    }
+  ],
+  "related": [
+    "/blog/ai-agents-explained",
+    "/blog/prompt-engineering-patterns",
+    "/blog/spot-ai-hallucinations"
+  ],
+  "relatedLabels": [
+    {
+      "href": "/ai-agents-course",
+      "label": "AI agents in Iro AI"
+    },
+    {
+      "href": "/ai-automation-course",
+      "label": "AI automation in Iro AI"
+    }
+  ]
+}

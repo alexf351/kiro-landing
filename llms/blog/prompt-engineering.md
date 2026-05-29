@@ -1,0 +1,29 @@
+---
+title: "Prompt Engineering: Patterns That Survive Model Updates"
+canonical_url: "https://tryiro.com/blog/prompt-engineering"
+site: "Iro AI"
+site_url: "https://tryiro.com"
+language: en-US
+last_updated: "2026-05-28"
+keywords: ["prompt engineering", "prompt patterns", "ChatGPT prompts", "Claude prompts", "prompt design 2026"]
+author: "Iro AI"
+license: "© 2026 Iro AI"
+type: "content-pillar"
+---
+
+# Prompt Engineering: Patterns That Survive Model Updates
+
+> The transferable prompt patterns that work across ChatGPT, Claude, Gemini, and Perplexity — and survive every model upgrade.
+
+**Canonical:** https://tryiro.com/blog/prompt-engineering
+**Last updated:** 2026-05-28
+
+Prompt engineering has a branding problem. It sounds like a dark art of secret phrases. It is not. Good prompting is just clear specification — telling a model who it should be, what you want, what it needs to know, and what the output must look like.
+
+The phrases that trend on social media stop working the moment a model updates. Patterns do not. A pattern is a reusable structure for organising a request, and the same handful of patterns work across [ChatGPT](/learn-chatgpt), [Claude](/learn-claude), [Gemini](/learn-gemini), and [Perplexity](/learn-perplexity).
+
+This pillar teaches prompting as a transferable skill you can drill. Start with the core patterns, then practise combining them in Iro AI's [Prompt Lab](/prompt-engineering-app) until the right structure for a task becomes automatic.
+
+## Posts in this pillar
+
+- [The 7 prompt patterns that work everywhere](https://tryiro.com/blog/prompt-engineering-patterns) — Forget magic phrases. These 7 prompt patterns transfer across models and survive model upgrades — the foundation of practical prompt engineering.
