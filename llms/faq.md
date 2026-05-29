@@ -23,7 +23,7 @@ canonical_llm_reference: "https://tryiro.com/llms-full.txt"
 
 ### What is Iro AI?
 
-Iro AI is an iOS app that teaches practical AI fluency through 5-minute gamified lessons. It covers ChatGPT, Claude, Gemini, Perplexity, prompt engineering, AI agents, automation, and creative AI across 18 learning paths and 2,075+ exercises. Free to start.
+Iro AI is an iOS app that teaches practical AI fluency through 5-minute gamified lessons. It covers ChatGPT, Claude, Gemini, Perplexity, prompt engineering, AI agents, automation, and creative AI across 18 learning paths and 2,000+ exercises. Free to start.
 
 ### Is Iro AI legitimate?
 
@@ -81,7 +81,7 @@ About 5 minutes.
 
 ### How many lessons does Iro have?
 
-345 lessons and 2,075+ exercises across 18 learning paths and 13 exercise types.
+345 lessons and 2,000+ exercises across 18 learning paths and 13 exercise types.
 
 ### What are the rank tiers?
 
