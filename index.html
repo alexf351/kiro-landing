@@ -585,6 +585,7 @@ nav .wrap{display:flex;align-items:center;justify-content:space-between}
 .proof-top{display:flex;align-items:center;justify-content:center;gap:clamp(28px,6vw,80px);flex-wrap:wrap;
   margin-bottom:clamp(48px,6vh,72px)}
 .proof-stat{text-align:center}
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
 .proof-stat .big{font-family:'Geist',sans-serif;font-size:clamp(48px,6vw,72px);font-weight:800;letter-spacing:-.04em;
   line-height:1;color:var(--ink)}
 .proof-stat .big .accent{color:var(--accent)}
@@ -1000,11 +1001,11 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
       <h2 class="sec-title">People keep <span class="accent">coming back.</span></h2>
     </div>
     <div class="proof-top reveal" data-d="1">
-      <div class="proof-stat"><div class="big"><span class="accent">4.6</span></div><div class="stars">★★★★★</div><div class="lab">App Store rating</div></div>
-      <div class="proof-sep"></div>
-      <div class="proof-stat"><div class="big" data-count="2075" data-suffix="+">0</div><div class="lab">Hands-on exercises</div></div>
-      <div class="proof-sep"></div>
-      <div class="proof-stat"><div class="big" data-count="18">0</div><div class="lab">Learning paths</div></div>
+      <div class="proof-stat"><span class="sr-only">4.6 out of 5 App Store rating</span><div class="big" aria-hidden="true"><span class="accent">4.6</span></div><div class="stars" aria-hidden="true">★★★★★</div><div class="lab" aria-hidden="true">App Store rating</div></div>
+      <div class="proof-sep" aria-hidden="true"></div>
+      <div class="proof-stat"><span class="sr-only">2,000+ hands-on exercises</span><div class="big" data-target="2000" data-suffix="+" aria-hidden="true">2,000+</div><div class="lab" aria-hidden="true">Hands-on exercises</div></div>
+      <div class="proof-sep" aria-hidden="true"></div>
+      <div class="proof-stat"><span class="sr-only">18 learning paths</span><div class="big" data-target="18" aria-hidden="true">18</div><div class="lab" aria-hidden="true">Learning paths</div></div>
     </div>
     <div class="reviews-feat reveal" data-d="1">
       <article class="review-big">
@@ -1706,8 +1707,10 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
   });
 
   /* ---- count-up stats ---- */
+  // Markup already renders the final values (truthful for SEO / no-JS / SR).
+  // Only normal users with motion enabled get the visual count-up from 0.
   function animateCount(el){
-    var target = parseFloat(el.getAttribute('data-count'));
+    var target = parseFloat(el.getAttribute('data-target'));
     var suffix = el.getAttribute('data-suffix') || '';
     var dur = 1400, t0 = null;
     function tick(ts){
@@ -1720,17 +1723,14 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
     }
     requestAnimationFrame(tick);
   }
-  var counters = document.querySelectorAll('[data-count]');
-  if ('IntersectionObserver' in window && !reduce) {
+  var counters = document.querySelectorAll('[data-target]');
+  if (counters.length && 'IntersectionObserver' in window && !reduce) {
     var co = new IntersectionObserver(function (entries) {
       entries.forEach(function (e) { if (e.isIntersecting) { animateCount(e.target); co.unobserve(e.target); } });
     }, { threshold: 0.5 });
     counters.forEach(function (el) { co.observe(el); });
-  } else {
-    counters.forEach(function (el) {
-      el.textContent = parseFloat(el.getAttribute('data-count')).toLocaleString() + (el.getAttribute('data-suffix') || '');
-    });
   }
+  // No-JS, reduced-motion, or no IntersectionObserver: the default HTML already shows the final values.
   /* ---- Android notify form ---- */
   var notifyForm = document.getElementById('notifyForm');
   if (notifyForm) {
