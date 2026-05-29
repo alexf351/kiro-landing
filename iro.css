@@ -13,6 +13,12 @@
   --accent:#00E5FF; --accent-rgb:0,229,255; --accent-ink:#04222B;
   --gold:#FFD45A; --gold-rgb:255,212,90;
   --ease:cubic-bezier(.2,.8,.2,1); --ease-out:cubic-bezier(.16,1,.3,1);
+
+  /* legacy token names used by the legal pages — remap to the new palette */
+  --bg1:#0A0E18; --surface-border:rgba(255,255,255,.08);
+  --text:#F2F5FF; --text2:#9BA7C4; --text3:#616E8C;
+  --cyan:#00E5FF;
+  --nav-bg:rgba(7,10,18,.8); --white-border:rgba(255,255,255,.08);
 }
 
 /* ---------- base ---------- */
