@@ -803,11 +803,49 @@ footer .wrap{display:flex;flex-direction:column;gap:24px}
   .ranks-rail{grid-template-columns:1fr;max-width:300px}
   .loop-row{flex-direction:column}
   .hero-chip{display:none}
+  /* lift the hero copy + skill universe into the first viewport */
+  .hero-uni{padding-top:84px;padding-bottom:44px}
+  .hero-uni h1{margin-bottom:16px}
+  .hero-uni .hero-sub{margin-bottom:0;font-size:16px}
+  .hero-uni .hero-universe{margin-top:20px}
+  .hero-uni-note{margin-top:18px}
 }
 
+/* In-app browser fallback (TikTok / Instagram / Facebook etc. can't launch the App Store) */
+.iab-overlay{position:fixed;inset:0;z-index:10000;display:none;align-items:flex-end;justify-content:center;background:rgba(5,8,16,.78);backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px);padding:16px}
+.iab-overlay.open{display:flex;animation:iabFade .18s ease-out}
+@keyframes iabFade{from{opacity:0}to{opacity:1}}
+.iab-card{position:relative;width:100%;max-width:420px;background:linear-gradient(180deg,#0E1320,#0A0E18);border:1px solid var(--line-strong);border-radius:20px;padding:28px 22px 18px;box-shadow:0 24px 60px rgba(0,0,0,.6),0 0 0 1px rgba(var(--accent-rgb),.1);animation:iabSlide .24s cubic-bezier(.2,.8,.2,1);text-align:center}
+@keyframes iabSlide{from{transform:translateY(24px);opacity:0}to{transform:translateY(0);opacity:1}}
+.iab-close{position:absolute;top:8px;right:8px;width:36px;height:36px;border:none;background:transparent;color:var(--ink-2);font-size:24px;line-height:1;cursor:pointer;border-radius:10px}
+.iab-close:hover{color:var(--ink);background:rgba(255,255,255,.06)}
+.iab-title{font-family:'Geist',sans-serif;font-size:24px;font-weight:800;color:var(--ink);margin:0 0 18px;letter-spacing:-.02em;line-height:1.2}
+.iab-title em{color:var(--accent);font-style:normal}
+.iab-steps{list-style:none;padding:0;margin:0 0 14px;display:flex;flex-direction:column;gap:10px;text-align:left;counter-reset:iab}
+.iab-steps li{display:flex;gap:12px;align-items:center;font-size:16px;color:var(--ink);line-height:1.35;background:rgba(var(--accent-rgb),.04);border:1px solid rgba(var(--accent-rgb),.12);border-radius:12px;padding:12px 14px}
+.iab-steps li::before{content:counter(iab);counter-increment:iab;flex:none;width:28px;height:28px;border-radius:50%;background:var(--accent);color:var(--accent-ink);font-size:15px;font-weight:800;display:flex;align-items:center;justify-content:center;font-family:'JetBrains Mono',monospace}
+.iab-steps b{font-weight:800;color:var(--ink)}
+.iab-glyph{display:inline-flex;align-items:center;justify-content:center;min-width:30px;height:24px;padding:0 8px;border-radius:6px;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.16);font-family:'JetBrains Mono',monospace;font-size:16px;font-weight:800;color:var(--ink);letter-spacing:1px;line-height:1;vertical-align:-2px}
+.iab-after{font-size:15px;color:var(--ink-2);margin:0 0 14px;line-height:1.5}
+.iab-after b{color:var(--ink);font-weight:800}
+.iab-copy{background:none;border:none;color:var(--ink-3);font-size:13px;font-family:inherit;cursor:pointer;padding:6px 8px;text-decoration:underline;text-decoration-color:rgba(155,167,196,.4);text-underline-offset:3px}
+.iab-copy:hover{color:var(--accent);text-decoration-color:var(--accent)}
+.iab-copy.copied{color:#4ADE80;text-decoration-color:#4ADE80}
 </style>
 </head>
 <body>
+<div class="iab-overlay" id="iabOverlay" role="dialog" aria-modal="true" aria-labelledby="iabTitle" hidden>
+<div class="iab-card">
+<button class="iab-close" type="button" aria-label="Close" id="iabClose">&times;</button>
+<h2 class="iab-title" id="iabTitle">Open in <em>Safari</em> to install</h2>
+<ol class="iab-steps">
+<li>Tap <span class="iab-glyph" aria-label="three dots menu">&hellip;</span> <b>top-right</b></li>
+<li>Tap <b>Open in Safari</b></li>
+</ol>
+<p class="iab-after">Then tap <b>Get the app</b> again — the App Store opens.</p>
+<button class="iab-copy" type="button" id="iabUrlCopy">or copy link</button>
+</div>
+</div>
 <div class="bg-field"></div>
 <div class="bg-grid"></div>
 
@@ -834,9 +872,6 @@ footer .wrap{display:flex;flex-direction:column;gap:24px}
   <div class="hero-wordmark" aria-hidden="true">iro</div>
   <div class="wrap">
     <div class="hero-lead">
-      <div class="hero-badges">
-        <span class="pill"><span class="dot"></span>iOS · Free to start</span>
-      </div>
       <h1 class="reveal in">Master AI.<br/><span class="accent">Train like it's a game.</span></h1>
       <p class="hero-sub reveal in" data-d="1">Five minutes a day on the tools that matter: <b>ChatGPT, Claude, Gemini</b> and more. Scan your skills, climb the ranks, build real AI fluency.</p>
     </div>
@@ -1687,6 +1722,50 @@ footer .wrap{display:flex;flex-direction:column;gap:24px}
   }
 })();
 
+</script>
+<script>
+/* In-app browser detection: TikTok / Instagram / Facebook / Snapchat / LinkedIn webviews
+   can't launch the App Store, so iOS shows "Action can't be completed." Intercept App Store
+   links from these webviews and show an overlay telling the user to open in their browser. */
+(function(){
+  var ua=navigator.userAgent||'';
+  var checks=[
+    {name:'tiktok',re:/BytedanceWebview|musical_ly|TikTok|Bytedance/i},
+    {name:'instagram',re:/Instagram/i},
+    {name:'facebook',re:/FBAN|FBAV|FB_IAB|FB4A/i},
+    {name:'snapchat',re:/Snapchat/i},
+    {name:'linkedin',re:/LinkedInApp/i},
+    {name:'pinterest',re:/Pinterest/i}
+  ];
+  var hit=checks.find(function(c){return c.re.test(ua);});
+  if(!hit)return;
+  document.documentElement.classList.add('in-app-browser','iab-'+hit.name);
+  var overlay=document.getElementById('iabOverlay');
+  var closeBtn=document.getElementById('iabClose');
+  var copyBtn=document.getElementById('iabUrlCopy');
+  if(!overlay)return;
+  var pageUrl='https://tryiro.com/';
+  function show(source){
+    overlay.hidden=false;overlay.classList.add('open');document.body.style.overflow='hidden';
+    if(window.posthog)posthog.capture('inapp_browser_blocked',{browser:hit.name,source:source||'unknown'});
+  }
+  function hide(){overlay.classList.remove('open');overlay.hidden=true;document.body.style.overflow='';}
+  closeBtn.addEventListener('click',hide);
+  overlay.addEventListener('click',function(e){if(e.target===overlay)hide();});
+  document.addEventListener('keydown',function(e){if(e.key==='Escape'&&!overlay.hidden)hide();});
+  copyBtn.addEventListener('click',function(){
+    var done=function(){copyBtn.textContent='link copied — paste in Safari';copyBtn.classList.add('copied');setTimeout(function(){copyBtn.textContent='or copy link';copyBtn.classList.remove('copied');},2400);};
+    function fallback(){var ta=document.createElement('textarea');ta.value=pageUrl;ta.setAttribute('readonly','');ta.style.position='fixed';ta.style.opacity='0';document.body.appendChild(ta);ta.select();try{document.execCommand('copy');done();}catch(_){}document.body.removeChild(ta);}
+    if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(pageUrl).then(done).catch(fallback);}else{fallback();}
+  });
+  // These webviews block apps.apple.com universal links AND itms-apps:// — intercept and show the overlay.
+  document.addEventListener('click',function(e){
+    var a=e.target.closest&&e.target.closest('a[href*="apps.apple.com"],a[href^="itms-apps:"]');
+    if(!a)return;
+    e.preventDefault();
+    show(a.className||'link');
+  },true);
+})();
 </script>
 </body>
 </html>
