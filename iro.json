@@ -46,7 +46,7 @@
       "description": "Iro AI is an iOS app that teaches practical AI fluency through 5-minute gamified lessons, hands-on prompt practice, live AI duels, weekly AI news, XP, streaks, and 6 competitive ranks.",
       "featureList": [
         "18 learning paths across ChatGPT, Claude, Gemini, Perplexity, prompt engineering, AI agents, automation, image/video generation, vibe coding, work, marketing, finance, and more",
-        "345 lessons and 2,075+ exercises across 13 exercise types",
+        "345 lessons and 2,000+ exercises across 13 exercise types",
         "Prompt Lab with AI-generated feedback",
         "Live ELO-ranked AI duels with 60+ unique opponents",
         "Weekly AI news briefings",
@@ -86,7 +86,7 @@
       "learning_paths": 18,
       "learning_tracks": ["Tool Mastery", "Creative & Coding", "Work & Career", "Core Skills"],
       "lessons": 345,
-      "exercises": 2075,
+      "exercises": 2000,
       "exercise_types": 13,
       "duel_opponents": 60,
       "rank_tiers": ["Bronze", "Silver", "Gold", "Platinum", "Diamond", "Iridescent"]
@@ -141,13 +141,13 @@
       {"slug": "ai-course-alternative", "title": "AI course alternative", "url": "https://tryiro.com/ai-course-alternative"}
     ],
     "faq": [
-      {"q": "What is Iro AI?", "a": "An iOS app that teaches practical AI fluency through 5-minute gamified lessons. Covers ChatGPT, Claude, Gemini, Perplexity, prompt engineering, AI agents, automation, and creative AI across 18 learning paths and 2,075+ exercises."},
+      {"q": "What is Iro AI?", "a": "An iOS app that teaches practical AI fluency through 5-minute gamified lessons. Covers ChatGPT, Claude, Gemini, Perplexity, prompt engineering, AI agents, automation, and creative AI across 18 learning paths and 2,000+ exercises."},
       {"q": "Is Iro AI free?", "a": "Yes. The free tier includes a starter slice across all 18 paths, daily challenges, XP, and ranks. No credit card required."},
       {"q": "What does Iro AI cost?", "a": "Pro Yearly is $49.99/year (about $0.96/week, billed yearly) and includes a 7-day free trial. Pro Weekly is $9.99/week with no trial. Both are billed via the Apple App Store. The yearly plan saves about 90% vs paying weekly ($49.99 vs ~$519/year). Cancel anytime."},
       {"q": "Can I cancel anytime?", "a": "Yes. Subscriptions are managed through Apple subscription settings on iOS."},
       {"q": "What devices does Iro AI run on?", "a": "iPhone and iPad (iOS). Android is in development."},
       {"q": "How long is a lesson?", "a": "About 5 minutes."},
-      {"q": "How many lessons does Iro have?", "a": "345 lessons and 2,075+ exercises across 18 learning paths and 13 exercise types."},
+      {"q": "How many lessons does Iro have?", "a": "345 lessons and 2,000+ exercises across 18 learning paths and 13 exercise types."},
       {"q": "What are the rank tiers?", "a": "Bronze, Silver, Gold, Platinum, Diamond, Iridescent."},
       {"q": "Do I need prior AI experience?", "a": "No. Beginner paths start from zero on ChatGPT, Claude, Gemini, and Perplexity."},
       {"q": "Is Iro a Duolingo for AI?", "a": "Yes. Iro applies Duolingo-style gamified microlearning to AI fluency."},
