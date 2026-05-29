@@ -130,6 +130,10 @@ const ctaBox = (slug) =>
   )}">${cfg.cta.primaryLabel}</a><a class="btn secondary" href="${cfg.cta.secondaryHref}">${cfg.cta.secondaryLabel}</a></div></div>`;
 
 // Shared <head> alternate/meta blocks reused across page types.
+const FONTS_CSS = `<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@400..900&family=Outfit:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="/iro.css"/>`;
 const HEAD_ICONS = `<link rel="icon" href="${cfg.icons.favicon}" type="image/png"/>
 <link rel="apple-touch-icon" href="${cfg.icons.appleTouch}"/>`;
 
@@ -278,6 +282,7 @@ ${HEAD_ICONS}
 <script type="application/ld+json">${jsonld(blogPosting)}</script>
 <script type="application/ld+json">${jsonld(breadcrumb)}</script>
 <style>${STYLE}</style>
+${FONTS_CSS}
 ${relatedLinks}
 <script type="application/ld+json">${jsonld(faqLd)}</script>
 </head>
@@ -445,6 +450,7 @@ ${HEAD_ICONS}
     faqLd ? `\n<script type="application/ld+json">${jsonld(faqLd)}</script>` : ''
   }
 <style>${STYLE}</style>
+${FONTS_CSS}
 ${relatedLinks}
 </head>
 <body><div class="page">
@@ -594,6 +600,7 @@ ${HEAD_ICONS}
 <script type="application/ld+json">${jsonld(webpage)}</script>
 <script type="application/ld+json">${jsonld(pillarsLd)}</script>
 <style>${STYLE}</style>
+${FONTS_CSS}
 </head>
 <body><div class="page">
 ${NAV}
