@@ -346,7 +346,13 @@ nav .wrap{display:flex;align-items:center;justify-content:space-between}
 .ia-arrow svg{width:22px;height:22px}
 .ia-arrow:hover{border-color:rgba(var(--accent-rgb),.5);background:rgba(var(--accent-rgb),.08);color:var(--accent);transform:scale(1.06)}
 .ia-arrow:active{transform:scale(.95)}
-.ia-dots{display:flex;align-items:center;gap:7px}
+.ia-stage{position:relative;display:flex;width:max-content;max-width:100%;margin:0 auto}
+.ia-arrow.ia-side{position:absolute;top:50%;transform:translateY(-50%);z-index:6;background:rgba(8,12,22,.62);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);box-shadow:0 6px 18px rgba(0,0,0,.45)}
+.ia-arrow.ia-side#iaPrev{left:8px}
+.ia-arrow.ia-side#iaNext{right:8px}
+.ia-arrow.ia-side:hover{transform:translateY(-50%) scale(1.06);background:rgba(var(--accent-rgb),.16);color:var(--accent)}
+.ia-arrow.ia-side:active{transform:translateY(-50%) scale(.95)}
+.ia-dots{display:flex;align-items:center;gap:7px;justify-content:center}
 .ia-dot{width:8px;height:8px;border-radius:100px;border:0;padding:0;cursor:pointer;background:var(--line-strong);
   transition:width .3s var(--ease),background .3s,box-shadow .3s}
 .ia-dot:hover{background:var(--ink-3)}
@@ -933,17 +939,17 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
 
     <div class="ia reveal">
       <div class="ia-left">
-        <div class="device ia-phone">
-          <div class="island"></div>
-          <div class="screen"><img id="iaImg" src="assets/screens/prompt-lab.jpg" alt="Iro app screen"/></div>
-          <div class="glare"></div>
+        <div class="ia-stage">
+          <button class="ia-arrow ia-side" id="iaPrev" aria-label="Previous screen"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg></button>
+          <div class="device ia-phone">
+            <div class="island"></div>
+            <div class="screen"><img id="iaImg" src="assets/screens/prompt-lab.jpg" alt="Iro app screen"/></div>
+            <div class="glare"></div>
+          </div>
+          <button class="ia-arrow ia-side" id="iaNext" aria-label="Next screen"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18l6-6-6-6"/></svg></button>
         </div>
-        <div class="ia-nav">
-          <button class="ia-arrow" id="iaPrev" aria-label="Previous screen"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg></button>
-          <div class="ia-dots" id="iaDots" role="tablist" aria-label="App screens"></div>
-          <button class="ia-arrow" id="iaNext" aria-label="Next screen"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18l6-6-6-6"/></svg></button>
-        </div>
-        <div class="ia-hint">Tap through the app</div>
+        <div class="ia-dots" id="iaDots" role="tablist" aria-label="App screens"></div>
+        <div class="ia-hint">Tap, swipe, or use the arrows</div>
       </div>
 
       <div class="ia-right">
@@ -1520,7 +1526,7 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
     var next = document.getElementById('iaNext');
     if (!img || !copy || !dots) return;
 
-    var cur = 0, timer = null, userTouched = false, N = SCREENS.length;
+    var cur = 0, timer = null, N = SCREENS.length, inView = false, hovering = false;
 
     SCREENS.forEach(function(s){ var im = new Image(); im.src = s.img; });
 
@@ -1548,37 +1554,47 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
       dotEls.forEach(function(el,idx){ el.classList.toggle('on', idx===cur); el.setAttribute('aria-selected', idx===cur); });
     }
 
+    var DELAY = 4500;
+    var reduce = window.matchMedia('(prefers-reduced-motion:reduce)').matches;
     function go(d){ render(cur + d); }
-    function stopAuto(){ if (timer){ clearInterval(timer); timer = null; } }
-    function userGo(d){ userTouched = true; stopAuto(); go(d); }
+    function tick(){ if (inView && !hovering) go(1); }
+    function resetTimer(){ if (timer){ clearInterval(timer); timer = null; } if (!reduce && inView) timer = setInterval(tick, DELAY); }
+    // Manual nav moves a screen and restarts the clock (auto-advance keeps going, just pauses one beat).
+    function nav(d){ go(d); resetTimer(); }
+    function navTo(i){ render(i); resetTimer(); }
 
-    if (prev) prev.addEventListener('click', function(){ userGo(-1); });
-    if (next) next.addEventListener('click', function(){ userGo(1); });
-    dotEls.forEach(function(el){ el.addEventListener('click', function(){ userTouched = true; stopAuto(); render(+el.getAttribute('data-i')); }); });
+    if (prev) prev.addEventListener('click', function(){ nav(-1); });
+    if (next) next.addEventListener('click', function(){ nav(1); });
+    dotEls.forEach(function(el){ el.addEventListener('click', function(){ navTo(+el.getAttribute('data-i')); }); });
 
-    // swipe on the phone
-    var sx = 0, sw = false;
-    img.parentElement.addEventListener('pointerdown', function(e){ sw = true; sx = e.clientX; });
+    // tap the left/right half of the phone, or swipe left/right
+    var phone = document.querySelector('.ia-phone') || img.parentElement;
+    var sx = 0, sy = 0, down = false;
+    phone.addEventListener('pointerdown', function(e){ down = true; sx = e.clientX; sy = e.clientY; });
     window.addEventListener('pointerup', function(e){
-      if (!sw) return; sw = false;
-      var dx = e.clientX - sx; if (Math.abs(dx) > 40) userGo(dx < 0 ? 1 : -1);
+      if (!down) return; down = false;
+      var dx = e.clientX - sx, dy = e.clientY - sy;
+      if (Math.abs(dx) > 40 && Math.abs(dx) > Math.abs(dy)) { nav(dx < 0 ? 1 : -1); return; } // swipe
+      if (Math.abs(dx) < 10 && Math.abs(dy) < 10) {                                            // tap
+        var r = phone.getBoundingClientRect();
+        nav(e.clientX < r.left + r.width / 2 ? -1 : 1);
+      }
     });
 
     var section = document.getElementById('showcase');
-    function startAuto(){ if (userTouched || timer) return; timer = setInterval(function(){ if (!userTouched) go(1); }, 4600); }
     if (section){
-      section.addEventListener('mouseenter', stopAuto);
-      section.addEventListener('mouseleave', function(){ if (!userTouched) startAuto(); });
+      section.addEventListener('mouseenter', function(){ hovering = true; });
+      section.addEventListener('mouseleave', function(){ hovering = false; });
     }
 
     render(0);
 
     if ('IntersectionObserver' in window){
       var io = new IntersectionObserver(function(es){
-        es.forEach(function(e){ if (e.isIntersecting) startAuto(); else stopAuto(); });
-      }, { threshold:0.4 });
+        es.forEach(function(e){ inView = e.isIntersecting; resetTimer(); });
+      }, { threshold:0.35 });
       io.observe(section || dots);
-    }
+    } else { inView = true; resetTimer(); }
   }
 
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', mount);
