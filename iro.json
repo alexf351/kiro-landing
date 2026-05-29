@@ -55,8 +55,8 @@
       ],
       "offers": [
         { "@type": "Offer", "name": "Free", "price": "0", "priceCurrency": "USD", "description": "Starter slice across all 18 paths, daily challenges, XP, and ranks." },
-        { "@type": "Offer", "name": "Annual Pro", "price": "59.99", "priceCurrency": "USD", "description": "$59.99/year (effective $5/month, billed yearly). Includes 7-day free trial. Saves ~50% vs Monthly ($59.99 vs $119.88/year). Billed via Apple App Store." },
-        { "@type": "Offer", "name": "Monthly Pro", "price": "9.99", "priceCurrency": "USD", "description": "$9.99/month. No trial. Cancel anytime. Billed via Apple App Store." }
+        { "@type": "Offer", "name": "Pro Yearly", "price": "49.99", "priceCurrency": "USD", "description": "$49.99/year (about $0.96/week, billed yearly). Includes 7-day free trial. Saves ~90% vs paying weekly ($49.99 vs ~$519/year). Billed via Apple App Store." },
+        { "@type": "Offer", "name": "Pro Weekly", "price": "9.99", "priceCurrency": "USD", "description": "$9.99/week. No trial. Cancel anytime. Billed via Apple App Store." }
       ]
     },
     {
@@ -143,7 +143,7 @@
     "faq": [
       {"q": "What is Iro AI?", "a": "An iOS app that teaches practical AI fluency through 5-minute gamified lessons. Covers ChatGPT, Claude, Gemini, Perplexity, prompt engineering, AI agents, automation, and creative AI across 18 learning paths and 2,075+ exercises."},
       {"q": "Is Iro AI free?", "a": "Yes. The free tier includes a starter slice across all 18 paths, daily challenges, XP, and ranks. No credit card required."},
-      {"q": "What does Iro AI cost?", "a": "Annual Pro is $59.99/year (effective $5/month, billed yearly) and includes a 7-day free trial. Monthly Pro is $9.99/month with no trial. Both are billed via the Apple App Store. Annual saves about 50% vs Monthly ($59.99 vs $119.88/year). Cancel anytime."},
+      {"q": "What does Iro AI cost?", "a": "Pro Yearly is $49.99/year (about $0.96/week, billed yearly) and includes a 7-day free trial. Pro Weekly is $9.99/week with no trial. Both are billed via the Apple App Store. The yearly plan saves about 90% vs paying weekly ($49.99 vs ~$519/year). Cancel anytime."},
       {"q": "Can I cancel anytime?", "a": "Yes. Subscriptions are managed through Apple subscription settings on iOS."},
       {"q": "What devices does Iro AI run on?", "a": "iPhone and iPad (iOS). Android is in development."},
       {"q": "How long is a lesson?", "a": "About 5 minutes."},
