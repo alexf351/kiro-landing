@@ -3,6 +3,7 @@
 <head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<script>if(/android/i.test(navigator.userAgent))document.documentElement.className+=" is-android";</script>
 <title>Iro AI — Learn AI Skills | The Duolingo for AI</title>
 <meta content="Iro AI — master ChatGPT, Claude, Gemini, Perplexity in 5-min daily lessons. Earn XP, climb ranks, build real AI fluency. Free to start." name="description"/>
 <meta name="google-site-verification" content="uONlEdikz9IkC7fxQdpFSi6ewOEyp0gsyNWDiMSVRVc"/>
@@ -738,6 +739,18 @@ nav .wrap{display:flex;align-items:center;justify-content:space-between}
 .android-row{display:flex;align-items:center;gap:10px;font-size:14.5px;color:var(--ink-2)}
 .android-row b{color:var(--ink);font-weight:600}
 .android-row svg{width:20px;height:20px;color:var(--accent);flex-shrink:0}
+/* Android-only hero notice (shown via .is-android on <html>) */
+.android-banner{display:none;flex-direction:column;gap:12px;max-width:460px;margin:26px auto 0;padding:16px 18px;border-radius:16px;background:rgba(var(--accent-rgb),.06);border:1px solid rgba(var(--accent-rgb),.25);text-align:left}
+html.is-android .android-banner{display:flex}
+.android-banner-msg{display:flex;align-items:center;gap:11px;font-size:14.5px;color:var(--ink-2);line-height:1.45;margin:0}
+.android-banner-msg b{color:var(--ink);font-weight:700}
+.android-banner-msg svg{width:24px;height:24px;color:var(--accent);flex-shrink:0}
+.android-notify{display:flex;gap:8px;width:100%}
+.android-notify input{flex:1;min-width:0;padding:12px 14px;border-radius:11px;background:var(--surface-2);border:1px solid var(--line-strong);color:var(--ink);font-family:'Outfit',sans-serif;font-size:15px;outline:none;transition:border-color .2s}
+.android-notify input::placeholder{color:var(--ink-3)}
+.android-notify input:focus{border-color:rgba(var(--accent-rgb),.5)}
+.android-notify .btn{padding:12px 18px;white-space:nowrap}
+.android-done{font-size:14px;color:var(--accent);font-weight:600}
 .notify{display:flex;gap:8px;width:100%;max-width:400px}
 .notify input{flex:1;min-width:0;padding:13px 16px;border-radius:12px;background:var(--surface-2);border:1px solid var(--line-strong);
   color:var(--ink);font-family:'Outfit',sans-serif;font-size:15px;outline:none;transition:border-color .2s}
@@ -884,6 +897,16 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
     <div class="hero-lead">
       <h1 class="reveal in">Master AI.<br/><span class="accent">Train like it's a game.</span></h1>
       <p class="hero-sub reveal in" data-d="1">Five minutes a day on the tools that matter: <b>ChatGPT, Claude, Gemini</b> and more. Scan your skills, climb the ranks, build real AI fluency.</p>
+      <div class="android-banner" id="androidBanner">
+        <p class="android-banner-msg"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M6 18a1 1 0 0 0 1 1h1v3.5a1.5 1.5 0 0 0 3 0V19h2v3.5a1.5 1.5 0 0 0 3 0V19h1a1 1 0 0 0 1-1V8H6zM3.5 8A1.5 1.5 0 0 0 2 9.5v6a1.5 1.5 0 0 0 3 0v-6A1.5 1.5 0 0 0 3.5 8m17 0A1.5 1.5 0 0 0 19 9.5v6a1.5 1.5 0 0 0 3 0v-6A1.5 1.5 0 0 0 20.5 8M15.53 2.16l1.3-1.3a.5.5 0 0 0-.7-.7l-1.48 1.47A6 6 0 0 0 12 1a6 6 0 0 0-2.65.63L7.87.16a.5.5 0 1 0-.7.7l1.3 1.3A5.98 5.98 0 0 0 6 7h12a5.98 5.98 0 0 0-2.47-4.84M9.5 5a1 1 0 1 1 0-2 1 1 0 0 1 0 2m5 0a1 1 0 1 1 0-2 1 1 0 0 1 0 2"/></svg><span><b>On Android?</b> Iro is iOS-only for now — get notified the day it drops.</span></p>
+        <form class="android-notify" id="androidForm" action="https://formspree.io/f/mbdzpzzp" method="POST" novalidate>
+          <input type="email" id="androidEmail" name="email" required placeholder="you@email.com" aria-label="Your email"/>
+          <input type="hidden" name="_subject" value="New Android waitlist signup"/>
+          <input type="hidden" name="source" value="hero-android-banner"/>
+          <button type="submit" class="btn btn-primary">Notify me</button>
+        </form>
+        <div class="android-done" id="androidDone" hidden>You're on the list — we'll email you when Android lands.</div>
+      </div>
     </div>
 
     <div class="hero-actions reveal in" data-d="2">
@@ -1731,24 +1754,24 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
     counters.forEach(function (el) { co.observe(el); });
   }
   // No-JS, reduced-motion, or no IntersectionObserver: the default HTML already shows the final values.
-  /* ---- Android notify form ---- */
-  var notifyForm = document.getElementById('notifyForm');
-  if (notifyForm) {
-    notifyForm.addEventListener('submit', function (e) {
+  /* ---- Android waitlist forms (hero banner + final CTA) ---- */
+  function wireNotify(form, done) {
+    if (!form) return;
+    form.addEventListener('submit', function (e) {
       e.preventDefault();
-      var email = document.getElementById('notifyEmail');
-      var done = document.getElementById('notifyDone');
+      var email = form.querySelector('input[type="email"]');
       if (email && email.value && /\S+@\S+\.\S+/.test(email.value)) {
-        var btn = notifyForm.querySelector('button');
+        var btn = form.querySelector('button');
         if (btn) { btn.disabled = true; btn.textContent = 'Adding…'; }
-        fetch(notifyForm.action, {
+        var srcEl = form.querySelector('input[name="source"]');
+        fetch(form.action, {
           method: 'POST',
           headers: { 'Accept': 'application/json' },
-          body: new FormData(notifyForm)
+          body: new FormData(form)
         }).then(function () {
-          if (window.posthog) posthog.capture('android_waitlist_signup');
+          if (window.posthog) posthog.capture('android_waitlist_signup', { source: srcEl ? srcEl.value : 'final-cta' });
         }).catch(function () {}).then(function () {
-          notifyForm.style.display = 'none';
+          form.style.display = 'none';
           if (done) done.hidden = false;
         });
       } else if (email) {
@@ -1757,6 +1780,8 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
       }
     });
   }
+  wireNotify(document.getElementById('notifyForm'), document.getElementById('notifyDone'));
+  wireNotify(document.getElementById('androidForm'), document.getElementById('androidDone'));
 })();
 
 </script>
