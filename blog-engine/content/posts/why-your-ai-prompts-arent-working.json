@@ -12,6 +12,8 @@
   "articleSection": "AI fluency",
   "feedCategory": "Prompt engineering",
   "feedTags": ["Prompt engineering", "ChatGPT"],
+  "howToName": "How to fix AI prompts that aren't working",
+  "howToStepIds": ["vague", "role", "format", "first-draft", "examples"],
   "inlineCtaAfter": 2,
   "toc": [
     { "href": "#tldr", "label": "TL;DR" },

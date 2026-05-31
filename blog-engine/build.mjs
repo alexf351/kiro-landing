@@ -197,6 +197,27 @@ function renderPost(post) {
       acceptedAnswer: { '@type': 'Answer', text: stripTags(f.a) },
     })),
   };
+  // Optional HowTo schema for step-by-step posts (built from the listed section ids).
+  const howToLd = post.howToStepIds
+    ? {
+        '@context': 'https://schema.org',
+        '@type': 'HowTo',
+        name: post.howToName || title,
+        description: desc,
+        image: ogImg,
+        totalTime: `PT${rt}M`,
+        step: post.howToStepIds.map((sid, i) => {
+          const s = post.sections.find((x) => x.id === sid);
+          return {
+            '@type': 'HowToStep',
+            position: i + 1,
+            name: s ? s.heading : sid,
+            text: s ? stripTags(s.html) : '',
+            url: `${url}#${sid}`,
+          };
+        }),
+      }
+    : null;
 
   const relatedLinks = (post.related || []).map((r) => `<link rel="related" href="${abs(r)}"/>`).join('\n');
   const toc = post.toc.map((t) => `<a href="${t.href}">${t.label}</a>`).join('');
@@ -284,7 +305,9 @@ ${HEAD_ICONS}
 <style>${STYLE}</style>
 ${FONTS_CSS}
 ${relatedLinks}
-<script type="application/ld+json">${jsonld(faqLd)}</script>
+<script type="application/ld+json">${jsonld(faqLd)}</script>${
+    howToLd ? `\n<script type="application/ld+json">${jsonld(howToLd)}</script>` : ''
+  }
 </head>
 <body><div class="page">
 ${NAV}

@@ -12,6 +12,8 @@
   "articleSection": "AI fluency",
   "feedCategory": "AI fluency",
   "feedTags": ["AI fluency", "Beginners"],
+  "howToName": "How to learn AI in 30 days",
+  "howToStepIds": ["week1", "week2", "week3", "week4", "habit"],
   "inlineCtaAfter": 3,
   "toc": [
     { "href": "#tldr", "label": "TL;DR" },
