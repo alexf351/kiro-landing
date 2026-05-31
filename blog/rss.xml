@@ -9,7 +9,7 @@
     <description>Short, practical writing on AI fluency, prompting, AI tools, and the active-practice method that beats endless video courses.</description>
     <language>en-US</language>
     <atom:link href="https://tryiro.com/blog/rss.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Thu, 28 May 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 31 May 2026 00:00:00 GMT</lastBuildDate>
     <generator>tryiro.com</generator>
     <copyright>© 2026 Iro AI</copyright>
     <image>
@@ -70,6 +70,33 @@
       <dc:creator>Iro AI</dc:creator>
       <category>AI fluency</category>
       <description>A beginner-friendly 30-day plan to learn AI from scratch: what to practise each week, which free tools to use, and how to build a daily habit that actually sticks.</description>
+    </item>
+    <item>
+      <title>ChatGPT vs Claude vs Gemini: which should you use in 2026?</title>
+      <link>https://tryiro.com/blog/chatgpt-vs-claude-vs-gemini</link>
+      <guid isPermaLink="true">https://tryiro.com/blog/chatgpt-vs-claude-vs-gemini</guid>
+      <pubDate>Sun, 31 May 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Iro AI</dc:creator>
+      <category>AI tools</category>
+      <description>ChatGPT vs Claude vs Gemini in 2026: what each is genuinely best at, where each falls short, and how to pick the right one for writing, research, coding, and everyday work.</description>
+    </item>
+    <item>
+      <title>Why your AI prompts aren't working (and how to fix them)</title>
+      <link>https://tryiro.com/blog/why-your-ai-prompts-arent-working</link>
+      <guid isPermaLink="true">https://tryiro.com/blog/why-your-ai-prompts-arent-working</guid>
+      <pubDate>Sun, 31 May 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Iro AI</dc:creator>
+      <category>Prompt engineering</category>
+      <description>If ChatGPT keeps giving you generic, useless answers, the prompt is usually the problem. Here are the five most common prompt mistakes and how to fix each one fast.</description>
+    </item>
+    <item>
+      <title>AI automation for beginners: 5 things to automate this week</title>
+      <link>https://tryiro.com/blog/ai-automation-for-beginners</link>
+      <guid isPermaLink="true">https://tryiro.com/blog/ai-automation-for-beginners</guid>
+      <pubDate>Sun, 31 May 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Iro AI</dc:creator>
+      <category>AI automation</category>
+      <description>A beginner's guide to AI automation: five high-value, no-code tasks you can automate this week, plus how to tell when a simple workflow beats a fancy AI agent.</description>
     </item>
   </channel>
 </rss>

@@ -39,6 +39,18 @@
     {
       "source": "/blog/ai-for-beginners-30-day-plan",
       "destination": "/blog/ai-for-beginners-30-day-plan.html"
+    },
+    {
+      "source": "/blog/chatgpt-vs-claude-vs-gemini",
+      "destination": "/blog/chatgpt-vs-claude-vs-gemini.html"
+    },
+    {
+      "source": "/blog/why-your-ai-prompts-arent-working",
+      "destination": "/blog/why-your-ai-prompts-arent-working.html"
+    },
+    {
+      "source": "/blog/ai-automation-for-beginners",
+      "destination": "/blog/ai-automation-for-beginners.html"
     }
   ]
 }

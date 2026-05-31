@@ -27,3 +27,4 @@ You do not need to be an engineer to follow it. The same judgment applies whethe
 ## Posts in this pillar
 
 - [AI agents, explained without the jargon](https://tryiro.com/blog/ai-agents-explained) — Strip away the hype: an AI agent is a system that pursues a goal through multiple steps, often using tools. Here's what they really do, when they're worth using, and where they predictably break.
+- [AI automation for beginners: 5 things to automate this week](https://tryiro.com/blog/ai-automation-for-beginners) — A beginner's guide to AI automation: five high-value, no-code tasks you can automate this week, plus how to tell when a simple workflow beats a fancy AI agent.

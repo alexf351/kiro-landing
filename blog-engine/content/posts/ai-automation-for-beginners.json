@@ -1,0 +1,100 @@
+{
+  "slug": "ai-automation-for-beginners",
+  "order": 9,
+  "pillar": "ai-agents",
+  "title": "AI automation for beginners: 5 things to automate this week",
+  "lede": "No code, no agents — just five repetitive tasks you can hand to AI starting today.",
+  "description": "A beginner's guide to AI automation: five high-value, no-code tasks you can automate this week, plus how to tell when a simple workflow beats a fancy AI agent.",
+  "keywords": ["AI automation for beginners", "no-code AI automation", "automate tasks with AI", "AI workflows", "what to automate with AI"],
+  "datePublished": "2026-05-31",
+  "dateModified": "2026-05-31",
+  "readingTime": 7,
+  "articleSection": "AI fluency",
+  "feedCategory": "AI automation",
+  "feedTags": ["AI automation", "AI tools"],
+  "inlineCtaAfter": 2,
+  "toc": [
+    { "href": "#tldr", "label": "TL;DR" },
+    { "href": "#what-counts", "label": "What it means" },
+    { "href": "#email", "label": "1. Inbox triage" },
+    { "href": "#research", "label": "2. Research summaries" },
+    { "href": "#data", "label": "3. Data cleanup" },
+    { "href": "#content", "label": "4. Repurposing content" },
+    { "href": "#meetings", "label": "5. Meeting notes" },
+    { "href": "#agent-or-workflow", "label": "Agent or workflow?" }
+  ],
+  "sections": [
+    {
+      "id": "tldr",
+      "heading": "TL;DR",
+      "html": "<ul><li>You do not need code or AI agents to automate — you need to spot repetitive tasks.</li><li>Start with five: inbox triage, research summaries, data cleanup, repurposing content, and meeting notes.</li><li>If a task has a fixed recipe, a simple workflow beats a fancy agent every time.</li></ul>"
+    },
+    {
+      "id": "what-counts",
+      "heading": "What \"AI automation\" actually means",
+      "html": "<p>Automation does not have to mean building software. For most people it means handing a repetitive, rule-ish task to AI so you stop doing it by hand. No agents, no scripts to start — just a clear prompt you reuse, or a built-in AI feature in a tool you already have.</p><p>The skill is noticing which tasks repeat. Here are five worth automating this week.</p>"
+    },
+    {
+      "id": "email",
+      "heading": "1. Inbox triage and replies",
+      "html": "<p>Paste a long email or thread and ask AI to summarise it, flag what needs a decision, and draft a reply in your tone. You review and send. Ten minutes of email becomes two — and nothing important gets buried.</p>"
+    },
+    {
+      "id": "research",
+      "heading": "2. Research summaries",
+      "html": "<p>Instead of reading five articles, drop the links or text into a grounded tool and ask for a one-paragraph summary with the key claims and any disagreements. Use <a href=\"/learn-perplexity\">Perplexity</a> when you need sources you can click — and always <a href=\"/blog/spot-ai-hallucinations\">verify the facts</a> before you rely on them.</p>"
+    },
+    {
+      "id": "data",
+      "heading": "3. Data cleanup and formatting",
+      "html": "<p>Messy list, inconsistent dates, a table that needs reshaping? AI is great at \"here is the data, return it in exactly this format.\" Specify the output precisely and it does the tedious part in seconds. Paste the result straight into your sheet.</p>"
+    },
+    {
+      "id": "content",
+      "heading": "4. Repurposing content",
+      "html": "<p>One piece of content can become five. Turn a blog post into a thread, an email, and three captions with a single structured prompt. Give it the source, the target format, and the tone, and let it do the reshaping.</p>"
+    },
+    {
+      "id": "meetings",
+      "heading": "5. Meeting notes into action items",
+      "html": "<p>Paste a transcript and ask for a summary, the decisions made, and a list of action items with owners. The notes write themselves, and nothing falls through the cracks.</p>"
+    },
+    {
+      "id": "agent-or-workflow",
+      "heading": "Agent or workflow? (don't overcomplicate)",
+      "html": "<p>You will be tempted to reach for an \"AI agent\" for all of this. Usually you should not. If a task follows a fixed recipe — and all five above do — a simple, reusable prompt or workflow is more reliable than an agent that decides its own steps. Agents earn their complexity only when the path cannot be predicted in advance. We unpack exactly when in <a href=\"/blog/ai-agents-explained\">AI agents, explained without the jargon</a>.</p><p>Want to build the judgment for this hands-on? Iro AI's <a href=\"/ai-automation-course\">automation</a> and <a href=\"/ai-agents-course\">AI agents</a> paths turn these decisions into 5-minute exercises.</p>"
+    }
+  ],
+  "readNext": [
+    { "href": "/blog/ai-agents-explained", "label": "AI agents, explained without the jargon" },
+    { "href": "/blog/best-free-ai-tools-2026", "label": "The best free AI tools for daily work in 2026" },
+    { "href": "/ai-automation-course", "label": "AI automation in Iro AI" },
+    { "href": "/blog/prompt-engineering-patterns", "label": "The 7 prompt patterns that work everywhere" }
+  ],
+  "faq": [
+    {
+      "q": "Do I need to know how to code to automate with AI?",
+      "a": "No. Most high-value automation is just a reusable prompt or a built-in AI feature. Start there before touching code or agents."
+    },
+    {
+      "q": "What should I automate first?",
+      "a": "Whatever you do repeatedly and dislike. Inbox triage and meeting notes are the usual quick wins."
+    },
+    {
+      "q": "When should I use an AI agent instead?",
+      "a": "Only when the steps cannot be predicted in advance. For fixed, repeatable tasks a simple workflow is more reliable. See <a href=\"/blog/ai-agents-explained\">AI agents, explained</a>."
+    },
+    {
+      "q": "Is it safe to automate with AI?",
+      "a": "For low-stakes tasks, yes. Keep a human review step for anything that sends, pays, or publishes, and verify facts before you trust them."
+    }
+  ],
+  "related": [
+    "/blog/ai-agents-explained",
+    "/blog/best-free-ai-tools-2026",
+    "/blog/prompt-engineering-patterns",
+    "/ai-automation-course",
+    "/ai-agents-course",
+    "/learn-perplexity"
+  ]
+}
