@@ -101,4 +101,34 @@
       <image:title>AI for beginners: a 30-day learning plan</image:title>
     </image:image>
   </url>
+  <url>
+    <loc>https://tryiro.com/blog/chatgpt-vs-claude-vs-gemini</loc>
+    <lastmod>2026-05-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://tryiro.com/assets/og/chatgpt-vs-claude-vs-gemini.png</image:loc>
+      <image:title>ChatGPT vs Claude vs Gemini: which should you use in 2026?</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://tryiro.com/blog/why-your-ai-prompts-arent-working</loc>
+    <lastmod>2026-05-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://tryiro.com/assets/og/why-your-ai-prompts-arent-working.png</image:loc>
+      <image:title>Why your AI prompts aren't working (and how to fix them)</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://tryiro.com/blog/ai-automation-for-beginners</loc>
+    <lastmod>2026-05-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://tryiro.com/assets/og/ai-automation-for-beginners.png</image:loc>
+      <image:title>AI automation for beginners: 5 things to automate this week</image:title>
+    </image:image>
+  </url>
 </urlset>

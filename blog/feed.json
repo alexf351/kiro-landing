@@ -76,6 +76,41 @@
         "AI fluency",
         "Beginners"
       ]
+    },
+    {
+      "id": "https://tryiro.com/blog/chatgpt-vs-claude-vs-gemini",
+      "url": "https://tryiro.com/blog/chatgpt-vs-claude-vs-gemini",
+      "title": "ChatGPT vs Claude vs Gemini: which should you use in 2026?",
+      "summary": "A practical, no-hype comparison — and why the right answer is usually more than one.",
+      "date_published": "2026-05-31T00:00:00Z",
+      "tags": [
+        "AI tools",
+        "ChatGPT",
+        "Claude",
+        "Gemini"
+      ]
+    },
+    {
+      "id": "https://tryiro.com/blog/why-your-ai-prompts-arent-working",
+      "url": "https://tryiro.com/blog/why-your-ai-prompts-arent-working",
+      "title": "Why your AI prompts aren't working (and how to fix them)",
+      "summary": "Five reasons prompts fail — and the quick fixes that turn vague output into useful work.",
+      "date_published": "2026-05-31T00:00:00Z",
+      "tags": [
+        "Prompt engineering",
+        "ChatGPT"
+      ]
+    },
+    {
+      "id": "https://tryiro.com/blog/ai-automation-for-beginners",
+      "url": "https://tryiro.com/blog/ai-automation-for-beginners",
+      "title": "AI automation for beginners: 5 things to automate this week",
+      "summary": "No code, no agents — just five repetitive tasks you can hand to AI starting today.",
+      "date_published": "2026-05-31T00:00:00Z",
+      "tags": [
+        "AI automation",
+        "AI tools"
+      ]
     }
   ]
 }
