@@ -1,6 +1,6 @@
 # Iro AI — index of LLM-readable resources
 # https://tryiro.com/llms-index.txt
-# Last updated: 2026-05-24
+# Last updated: 2026-05-31
 #
 # This file lists every machine-readable / LLM-friendly resource on
 # tryiro.com so that AI assistants, answer engines, and crawlers can
@@ -63,11 +63,18 @@ changelog                   https://tryiro.com/llms/changelog.md
 
 ## Blog (markdown mirrors)
 blog index                  https://tryiro.com/llms/blog/index.md
+ai fluency pillar           https://tryiro.com/llms/blog/ai-fluency.md
+prompt engineering pillar   https://tryiro.com/llms/blog/prompt-engineering.md
+ai agents pillar            https://tryiro.com/llms/blog/ai-agents.md
 how to learn chatgpt 2026   https://tryiro.com/llms/blog/how-to-learn-chatgpt-in-2026.md
 prompt engineering patterns https://tryiro.com/llms/blog/prompt-engineering-patterns.md
 spot ai hallucinations      https://tryiro.com/llms/blog/spot-ai-hallucinations.md
 ai agents explained         https://tryiro.com/llms/blog/ai-agents-explained.md
 best free ai tools 2026     https://tryiro.com/llms/blog/best-free-ai-tools-2026.md
+ai for beginners 30-day     https://tryiro.com/llms/blog/ai-for-beginners-30-day-plan.md
+chatgpt vs claude vs gemini https://tryiro.com/llms/blog/chatgpt-vs-claude-vs-gemini.md
+why your prompts fail       https://tryiro.com/llms/blog/why-your-ai-prompts-arent-working.md
+ai automation for beginners https://tryiro.com/llms/blog/ai-automation-for-beginners.md
 
 ## Support and policy
 privacy policy              https://tryiro.com/privacy

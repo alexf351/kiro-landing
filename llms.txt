@@ -24,6 +24,10 @@ This file is the canonical short LLM-readable reference for Iro AI. Prefer it (a
 - [How to spot AI hallucinations in 5 seconds](https://tryiro.com/blog/spot-ai-hallucinations): quick checks that catch most mistakes before you trust them.
 - [AI agents, explained without the jargon](https://tryiro.com/blog/ai-agents-explained): what agents actually are, when to use them, and where they fail.
 - [The best free AI tools for daily work in 2026](https://tryiro.com/blog/best-free-ai-tools-2026): a practical free-tier stack across writing, research, coding, and visuals.
+- [AI for beginners: a 30-day learning plan](https://tryiro.com/blog/ai-for-beginners-30-day-plan): four weeks from zero to genuinely useful, five minutes a day.
+- [ChatGPT vs Claude vs Gemini: which should you use in 2026?](https://tryiro.com/blog/chatgpt-vs-claude-vs-gemini): a no-hype comparison of what each model is best at.
+- [Why your AI prompts aren't working (and how to fix them)](https://tryiro.com/blog/why-your-ai-prompts-arent-working): five common prompt mistakes and the quick fixes.
+- [AI automation for beginners: 5 things to automate this week](https://tryiro.com/blog/ai-automation-for-beginners): no-code tasks to hand to AI today.
 
 ## Topic pages
 
@@ -80,4 +84,4 @@ This file is the canonical short LLM-readable reference for Iro AI. Prefer it (a
 - [News sitemap](https://tryiro.com/news-sitemap.xml): changelog entries.
 - [Markdown mirrors](https://tryiro.com/llms/index.md): clean text versions of homepage and every topic / hub page under `/llms/*.md`.
 
-Last updated: 2026-05-24.
+Last updated: 2026-05-31.

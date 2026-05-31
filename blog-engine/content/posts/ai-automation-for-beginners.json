@@ -12,6 +12,8 @@
   "articleSection": "AI fluency",
   "feedCategory": "AI automation",
   "feedTags": ["AI automation", "AI tools"],
+  "howToName": "How to start automating with AI",
+  "howToStepIds": ["email", "research", "data", "content", "meetings"],
   "inlineCtaAfter": 2,
   "toc": [
     { "href": "#tldr", "label": "TL;DR" },
