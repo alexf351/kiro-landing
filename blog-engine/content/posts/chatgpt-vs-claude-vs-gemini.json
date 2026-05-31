@@ -16,6 +16,7 @@
   "toc": [
     { "href": "#tldr", "label": "TL;DR" },
     { "href": "#short-answer", "label": "The short answer" },
+    { "href": "#at-a-glance", "label": "At a glance" },
     { "href": "#chatgpt", "label": "ChatGPT" },
     { "href": "#claude", "label": "Claude" },
     { "href": "#gemini", "label": "Gemini" },
@@ -31,6 +32,11 @@
       "id": "short-answer",
       "heading": "The honest short answer",
       "html": "<p>There is no single best AI. There is a best AI <em>for a given task</em>, and the gap between the top models is smaller than the marketing suggests. For most people the honest advice is: start with ChatGPT, add a second model once you hit its limits, and learn to tell which job suits which tool.</p><p>Here is what each one is genuinely good at in 2026 — and where each one quietly falls short.</p>"
+    },
+    {
+      "id": "at-a-glance",
+      "heading": "At a glance",
+      "html": "<p>The quick version, before the detail:</p><div class=\"cmp-wrap\"><table class=\"cmp-table\"><thead><tr><th></th><th>ChatGPT</th><th>Claude</th><th>Gemini</th></tr></thead><tbody><tr><th>Best for</th><td>General writing, quick drafts, everyday questions</td><td>Long documents, careful reasoning, code review</td><td>Work inside Google Docs, Gmail, and Sheets</td></tr><tr><th>Free tier</th><td>Largest and most generous</td><td>Smaller limits</td><td>Generous, especially in Google apps</td></tr><tr><th>Weak spot</th><td>Verbose; confidently wrong at times</td><td>Tighter free limits</td><td>Less of a favorite as a standalone chat</td></tr><tr><th>Reach for it when</th><td>You want a fast, reliable default</td><td>The input is long or the stakes are high</td><td>Your work already lives in Google</td></tr></tbody></table></div>"
     },
     {
       "id": "chatgpt",

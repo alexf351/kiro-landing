@@ -118,4 +118,12 @@ h1,h2,h3,h4{font-family:'Geist','Outfit',sans-serif;font-weight:800}
 .content blockquote{border-left:3px solid var(--accent);background:rgba(var(--accent-rgb),.05);color:var(--ink)}
 .content code{background:rgba(var(--accent-rgb),.08);border:1px solid rgba(var(--accent-rgb),.18);color:#CFF8FF}
 
+/* comparison tables (blog posts + comparison pages) */
+.cmp-wrap{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:20px 0;border:1px solid var(--line);border-radius:14px}
+.cmp-table{width:100%;border-collapse:collapse;font-size:14.5px;min-width:520px}
+.cmp-table th,.cmp-table td{padding:12px 14px;text-align:left;vertical-align:top;border-bottom:1px solid var(--line);color:var(--ink-2);line-height:1.45}
+.cmp-table thead th{color:var(--ink);font-family:'Geist',sans-serif;font-weight:700;background:rgba(var(--accent-rgb),.06);border-bottom:1px solid var(--line-strong)}
+.cmp-table tbody th{color:var(--ink);font-weight:600;white-space:nowrap}
+.cmp-table tr:last-child th,.cmp-table tr:last-child td{border-bottom:0}
+
 @media(prefers-reduced-motion:reduce){*{animation-duration:.001ms!important;transition-duration:.05s!important}}

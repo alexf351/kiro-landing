@@ -36,6 +36,10 @@ There is no single best AI. There is a best AI _for a given task_, and the gap b
 
 Here is what each one is genuinely good at in 2026 — and where each one quietly falls short.
 
+## At a glance
+
+The quick version, before the detail:
+
 ## ChatGPT: the best default
 
 **Best for:** general writing, brainstorming, quick drafts, everyday questions, and learning. ChatGPT has the largest free tier, the most polish, and the easiest help to find when you are stuck.

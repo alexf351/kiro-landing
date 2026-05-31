@@ -966,7 +966,7 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
           <button class="ia-arrow ia-side" id="iaPrev" aria-label="Previous screen"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg></button>
           <div class="device ia-phone">
             <div class="island"></div>
-            <div class="screen"><img id="iaImg" src="assets/screens/prompt-lab.jpg" alt="Iro app screen"/></div>
+            <div class="screen"><img id="iaImg" src="assets/screens/prompt-lab.jpg" alt="Iro app screen" loading="lazy" decoding="async"/></div>
             <div class="glare"></div>
           </div>
           <button class="ia-arrow ia-side" id="iaNext" aria-label="Next screen"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18l6-6-6-6"/></svg></button>
@@ -1185,7 +1185,7 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
 <!-- ============ FINAL CTA ============ -->
 <section class="final" data-screen-label="Final CTA">
   <div class="wrap">
-    <img class="cta-mascot reveal" src="assets/iridescent-kiro.webp" alt="Iro the penguin"/>
+    <img class="cta-mascot reveal" src="assets/iridescent-kiro.webp" alt="Iro the penguin" loading="lazy" decoding="async"/>
     <h2 class="reveal" data-d="1">Train your AI fluency<br/>like it is <span class="accent">a game.</span></h2>
     <p class="reveal" data-d="2">Five minutes a day. Free to start. Your future self will thank you.</p>
     <div class="hero-ctas reveal" data-d="3">
@@ -1551,7 +1551,7 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
 
     var cur = 0, timer = null, N = SCREENS.length, inView = false, hovering = false;
 
-    SCREENS.forEach(function(s){ var im = new Image(); im.src = s.img; });
+    function preload(i){ var im = new Image(); im.src = SCREENS[((i % N) + N) % N].img; }
 
     dots.innerHTML = SCREENS.map(function(s,i){
       return '<button class="ia-dot" role="tab" data-i="'+i+'" aria-label="'+s.t+'"></button>';
@@ -1560,6 +1560,7 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
 
     function render(i){
       cur = (i + N) % N;
+      preload(cur + 1);
       var s = SCREENS[cur];
       img.classList.add('swapping');
       setTimeout(function(){
