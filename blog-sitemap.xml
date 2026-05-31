@@ -131,4 +131,24 @@
       <image:title>AI automation for beginners: 5 things to automate this week</image:title>
     </image:image>
   </url>
+  <url>
+    <loc>https://tryiro.com/blog/iro-ai-vs-coursiv</loc>
+    <lastmod>2026-05-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://tryiro.com/assets/og/iro-ai-vs-coursiv.png</image:loc>
+      <image:title>Iro AI vs Coursiv: which AI learning app is right for you in 2026?</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://tryiro.com/blog/iro-ai-vs-learnova</loc>
+    <lastmod>2026-05-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://tryiro.com/assets/og/iro-ai-vs-learnova.png</image:loc>
+      <image:title>Iro AI vs Learnova: which AI learning app should you pick in 2026?</image:title>
+    </image:image>
+  </url>
 </urlset>

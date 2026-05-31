@@ -51,6 +51,14 @@
     {
       "source": "/blog/ai-automation-for-beginners",
       "destination": "/blog/ai-automation-for-beginners.html"
+    },
+    {
+      "source": "/blog/iro-ai-vs-coursiv",
+      "destination": "/blog/iro-ai-vs-coursiv.html"
+    },
+    {
+      "source": "/blog/iro-ai-vs-learnova",
+      "destination": "/blog/iro-ai-vs-learnova.html"
     }
   ]
 }
