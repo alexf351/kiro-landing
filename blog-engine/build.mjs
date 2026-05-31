@@ -245,6 +245,7 @@ function renderPost(post) {
 <head>
 <meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
+<meta name="apple-itunes-app" content="app-id=6759628066"/>
 <title>${esc(title)} | Iro AI Blog</title>
 <meta name="description" content="${esc(desc)}"/>
 <meta name="keywords" content="${esc(kw)}"/>
@@ -419,6 +420,7 @@ function renderPillar(pillar) {
 <head>
 <meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
+<meta name="apple-itunes-app" content="app-id=6759628066"/>
 <title>${esc(pillar.title)} | Iro AI Blog</title>
 <meta name="description" content="${esc(pillar.description)}"/>
 <meta name="keywords" content="${esc(kw)}"/>
@@ -571,6 +573,7 @@ function renderIndex() {
 <head>
 <meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
+<meta name="apple-itunes-app" content="app-id=6759628066"/>
 <title>The Iro AI Blog — Practical AI Fluency</title>
 <meta name="description" content="${esc(b.description)}"/>
 <meta name="keywords" content="${esc(b.keywords)}"/>
