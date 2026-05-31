@@ -1,0 +1,89 @@
+{
+  "slug": "iro-ai-vs-learnova",
+  "order": 11,
+  "pillar": "ai-fluency",
+  "title": "Iro AI vs Learnova: which AI learning app should you pick in 2026?",
+  "lede": "Two mobile apps that teach you AI tools — but one has you reading lessons and one has you practicing. Here's how to choose.",
+  "description": "An honest Iro AI vs Learnova comparison for 2026: how the two AI learning apps differ on teaching style, hands-on practice, pricing, and who each one suits best.",
+  "keywords": ["Iro AI vs Learnova", "Learnova alternative", "Learnova review", "AI Tools Mastery app", "best AI learning app 2026"],
+  "datePublished": "2026-05-31",
+  "dateModified": "2026-05-31",
+  "readingTime": 7,
+  "articleSection": "AI fluency",
+  "feedCategory": "AI learning apps",
+  "feedTags": ["AI learning", "Learnova", "app comparison"],
+  "inlineCtaAfter": 2,
+  "toc": [
+    { "href": "#tldr", "label": "TL;DR" },
+    { "href": "#at-a-glance", "label": "At a glance" },
+    { "href": "#learnova", "label": "What Learnova does well" },
+    { "href": "#iro", "label": "Where Iro AI is different" },
+    { "href": "#pricing", "label": "Pricing, honestly" },
+    { "href": "#choose", "label": "Which to choose" }
+  ],
+  "sections": [
+    {
+      "id": "tldr",
+      "heading": "TL;DR",
+      "html": "<ul><li><strong>Learnova</strong> (also listed as AI Tools Mastery) teaches AI tools through step-by-step courses, quizzes, and a hands-on playground — a solid course-style app.</li><li><strong>Iro AI</strong> is built game-first: short drills, streaks, and rank tiers designed to make the skill stick through repeated active recall.</li><li>Both are mobile-first and both have a free way in. The deciding factor is whether you want a course to work through or a daily practice habit.</li><li>Iro AI keeps pricing simple — one annual price with a free trial — and starts with a free AI IQ test.</li></ul>"
+    },
+    {
+      "id": "at-a-glance",
+      "heading": "At a glance",
+      "html": "<p>The quick version, before the detail:</p><div class=\"cmp-wrap\"><table class=\"cmp-table\"><thead><tr><th></th><th>Iro AI</th><th>Learnova</th></tr></thead><tbody><tr><th>How you learn</th><td>Game-like active practice — drills, streaks, rank tiers</td><td>Step-by-step courses with quizzes and a practice playground</td></tr><tr><th>Format</th><td>Bite-sized, mobile-first, feedback-driven</td><td>Structured modules, mobile-first</td></tr><tr><th>Free entry point</th><td>Free AI IQ test, no signup to try</td><td>Free basic tier with limited access</td></tr><tr><th>Pricing style</th><td>One annual price + 7-day free trial</td><td>Tiered subscription (free + premium)</td></tr><tr><th>Best for</th><td>Building a daily AI-practice habit that sticks</td><td>Working through a guided AI-tools curriculum</td></tr></tbody></table></div><p class=\"note\">Learnova details reflect publicly available information and may change — always check current terms before subscribing to any app, including ours.</p>"
+    },
+    {
+      "id": "learnova",
+      "heading": "What Learnova does well",
+      "html": "<p>Learnova breaks AI tools down into clear, step-by-step lessons and pairs them with interactive quizzes and a hands-on playground where you can try what you just learned. It also offers a categorized prompt library, which is a nice touch for beginners who want examples to copy and adapt.</p><p>If you like the structure of a proper course — modules, a logical order, a free tier to sample before paying — Learnova delivers that cleanly, and the in-app playground means you're not only reading.</p>"
+    },
+    {
+      "id": "iro",
+      "heading": "Where Iro AI is different",
+      "html": "<p>Learnova and Iro AI agree that practice matters — the difference is emphasis. Learnova is a course with practice attached; Iro AI is practice with just enough teaching attached. Iro is built like a game: short drills, instant feedback, streaks, and rank tiers that pull you back day after day until the skill is automatic.</p><p>Everything is organized into focused paths — <a href=\"/learn-chatgpt\">ChatGPT</a>, <a href=\"/learn-claude\">Claude</a>, <a href=\"/learn-gemini\">Gemini</a>, and more — and you can start with the <a href=\"/quiz\">free AI IQ test</a> to find your weak spots first. If you're brand new, the <a href=\"/blog/ai-for-beginners-30-day-plan\">30-day AI plan</a> is the place to begin.</p>"
+    },
+    {
+      "id": "pricing",
+      "heading": "Pricing, honestly",
+      "html": "<p>Both apps let you start without paying, which is the right way to do it.</p><p><strong>Learnova</strong> uses a tiered model: a free basic plan with limited access, plus premium subscriptions that unlock the full content and tools. That's a fair structure — just check exactly what the free tier includes and what the premium plan renews at.</p><p><strong>Iro AI</strong> keeps it to one number: Pro is <strong>$49.99/year</strong> (about <strong>$0.96/week</strong>) with a <strong>7-day free trial</strong>, on top of the always-free AI IQ test. One plan, one renewal, easy to reason about.</p>"
+    },
+    {
+      "id": "choose",
+      "heading": "Which one should you choose?",
+      "html": "<p>A simple way to decide:</p><ul><li><strong>You want a daily practice habit</strong> that makes AI skills automatic, with game-like motivation and simple pricing? <strong>Iro AI.</strong></li><li><strong>You want a structured course</strong> with modules, a playground, and a free tier to sample? <strong>Learnova</strong> is a reasonable choice.</li></ul><p>Either way, start free: the <a href=\"/quiz\">AI IQ test</a> takes a few minutes and tells you exactly which skills to build next. Comparing other options too? See <a href=\"/blog/iro-ai-vs-coursiv\">Iro AI vs Coursiv</a> and <a href=\"/blog/best-free-ai-tools-2026\">the best free AI tools for 2026</a>.</p>"
+    }
+  ],
+  "readNext": [
+    { "href": "/blog/iro-ai-vs-coursiv", "label": "Iro AI vs Coursiv: which AI learning app is right for you?" },
+    { "href": "/blog/ai-for-beginners-30-day-plan", "label": "The 30-day AI plan for complete beginners" },
+    { "href": "/blog/best-free-ai-tools-2026", "label": "The best free AI tools for daily work in 2026" },
+    { "href": "/quiz", "label": "Take the free AI IQ test" }
+  ],
+  "faq": [
+    {
+      "q": "Is Iro AI a good Learnova alternative?",
+      "a": "Yes. Learnova is a course-style app with quizzes and a playground, while Iro AI is a practice-first, game-like app designed to build a daily habit. If retention and motivation matter most to you, Iro AI's drill-and-feedback approach is the bigger differentiator."
+    },
+    {
+      "q": "How much does Learnova cost vs Iro AI?",
+      "a": "Learnova uses a tiered model — a free basic plan plus premium subscriptions; check current terms for exact prices. Iro AI Pro is $49.99/year (about $0.96/week) with a 7-day free trial, plus a free AI IQ test."
+    },
+    {
+      "q": "Do both apps have a free version?",
+      "a": "Yes. Learnova offers a limited free basic tier, and Iro AI offers a free AI IQ test you can take without signing up, plus a 7-day free trial of Pro."
+    },
+    {
+      "q": "Which app helps AI skills stick better?",
+      "a": "Skills stick through repeated active recall, not passive reading. Iro AI is designed around that — short drills, instant feedback, streaks, and rank tiers — whereas course-style apps lean more on lessons. Try both free tiers and see which keeps you coming back."
+    }
+  ],
+  "related": [
+    "/blog/iro-ai-vs-coursiv",
+    "/blog/ai-for-beginners-30-day-plan",
+    "/blog/best-free-ai-tools-2026",
+    "/blog/chatgpt-vs-claude-vs-gemini",
+    "/learn-chatgpt",
+    "/learn-gemini",
+    "/quiz"
+  ]
+}

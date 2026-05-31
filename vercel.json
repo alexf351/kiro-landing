@@ -199,80 +199,152 @@
     {
       "source": "/llms-index.txt",
       "headers": [
-        {"key": "Content-Type","value": "text/plain; charset=utf-8"},
-        {"key": "Cache-Control","value": "public, max-age=3600"}
+        {
+          "key": "Content-Type",
+          "value": "text/plain; charset=utf-8"
+        },
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=3600"
+        }
       ]
     },
     {
       "source": "/rss.xml",
       "headers": [
-        {"key": "Content-Type","value": "application/rss+xml; charset=utf-8"},
-        {"key": "Cache-Control","value": "public, max-age=3600"}
+        {
+          "key": "Content-Type",
+          "value": "application/rss+xml; charset=utf-8"
+        },
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=3600"
+        }
       ]
     },
     {
       "source": "/news-sitemap.xml",
       "headers": [
-        {"key": "Content-Type","value": "application/xml; charset=utf-8"},
-        {"key": "Cache-Control","value": "public, max-age=3600"}
+        {
+          "key": "Content-Type",
+          "value": "application/xml; charset=utf-8"
+        },
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=3600"
+        }
       ]
     },
     {
       "source": "/image-sitemap.xml",
       "headers": [
-        {"key": "Content-Type","value": "application/xml; charset=utf-8"},
-        {"key": "Cache-Control","value": "public, max-age=3600"}
+        {
+          "key": "Content-Type",
+          "value": "application/xml; charset=utf-8"
+        },
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=3600"
+        }
       ]
     },
     {
       "source": "/sitemap-index.xml",
       "headers": [
-        {"key": "Content-Type","value": "application/xml; charset=utf-8"},
-        {"key": "Cache-Control","value": "public, max-age=3600"}
+        {
+          "key": "Content-Type",
+          "value": "application/xml; charset=utf-8"
+        },
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=3600"
+        }
       ]
     },
     {
       "source": "/atom.xml",
       "headers": [
-        {"key": "Content-Type","value": "application/atom+xml; charset=utf-8"},
-        {"key": "Cache-Control","value": "public, max-age=3600"}
+        {
+          "key": "Content-Type",
+          "value": "application/atom+xml; charset=utf-8"
+        },
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=3600"
+        }
       ]
     },
     {
       "source": "/feed.json",
       "headers": [
-        {"key": "Content-Type","value": "application/feed+json; charset=utf-8"},
-        {"key": "Cache-Control","value": "public, max-age=3600"},
-        {"key": "Access-Control-Allow-Origin","value": "*"}
+        {
+          "key": "Content-Type",
+          "value": "application/feed+json; charset=utf-8"
+        },
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=3600"
+        },
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
+        }
       ]
     },
     {
       "source": "/blog/rss.xml",
       "headers": [
-        {"key": "Content-Type","value": "application/rss+xml; charset=utf-8"},
-        {"key": "Cache-Control","value": "public, max-age=3600"}
+        {
+          "key": "Content-Type",
+          "value": "application/rss+xml; charset=utf-8"
+        },
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=3600"
+        }
       ]
     },
     {
       "source": "/blog/atom.xml",
       "headers": [
-        {"key": "Content-Type","value": "application/atom+xml; charset=utf-8"},
-        {"key": "Cache-Control","value": "public, max-age=3600"}
+        {
+          "key": "Content-Type",
+          "value": "application/atom+xml; charset=utf-8"
+        },
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=3600"
+        }
       ]
     },
     {
       "source": "/blog/feed.json",
       "headers": [
-        {"key": "Content-Type","value": "application/feed+json; charset=utf-8"},
-        {"key": "Cache-Control","value": "public, max-age=3600"},
-        {"key": "Access-Control-Allow-Origin","value": "*"}
+        {
+          "key": "Content-Type",
+          "value": "application/feed+json; charset=utf-8"
+        },
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=3600"
+        },
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
+        }
       ]
     },
     {
       "source": "/llms/blog/(.*).md",
       "headers": [
-        {"key": "Content-Type","value": "text/markdown; charset=utf-8"},
-        {"key": "Cache-Control","value": "public, max-age=3600"}
+        {
+          "key": "Content-Type",
+          "value": "text/markdown; charset=utf-8"
+        },
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=3600"
+        }
       ]
     }
   ],
@@ -444,6 +516,14 @@
     {
       "source": "/blog/ai-automation-for-beginners",
       "destination": "/blog/ai-automation-for-beginners.html"
+    },
+    {
+      "source": "/blog/iro-ai-vs-coursiv",
+      "destination": "/blog/iro-ai-vs-coursiv.html"
+    },
+    {
+      "source": "/blog/iro-ai-vs-learnova",
+      "destination": "/blog/iro-ai-vs-learnova.html"
     }
   ]
 }
