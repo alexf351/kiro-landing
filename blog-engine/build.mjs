@@ -159,6 +159,7 @@ function renderPost(post) {
   if (pillar) crumbs.push({ '@type': 'ListItem', position: 3, name: pillar.title, item: pillarUrl(pillar) });
   crumbs.push({ '@type': 'ListItem', position: crumbs.length + 1, name: title, item: url });
 
+  const au = cfg.blogAuthor;
   const blogPosting = {
     '@context': 'https://schema.org',
     '@type': 'BlogPosting',
@@ -173,7 +174,7 @@ function renderPost(post) {
     wordCount: null,
     inLanguage: 'en-US',
     isPartOf: { '@type': 'Blog', '@id': D + '/blog#blog', name: 'Iro AI Blog', url: D + '/blog' },
-    author: { '@type': 'Organization', '@id': D + '/#organization', name: 'Iro AI', url: D },
+    author: { '@type': 'Person', '@id': D + '/#author', name: au.name, url: au.url, jobTitle: au.jobTitle, sameAs: au.sameAs },
     publisher: {
       '@type': 'Organization',
       '@id': D + '/#organization',
@@ -258,7 +259,7 @@ function renderPost(post) {
 <meta name="rating" content="general"/>
 <meta name="referrer" content="strict-origin-when-cross-origin"/>
 <meta name="DC.title" content="${esc(title)} | Iro AI Blog"/>
-<meta name="DC.creator" content="Iro AI"/>
+<meta name="DC.creator" content="${esc(au.name)}"/>
 <meta name="DC.publisher" content="Iro AI"/>
 <meta name="DC.language" content="en-US"/>
 <meta name="DC.rights" content="${cfg.copyright}"/>
@@ -283,7 +284,7 @@ function renderPost(post) {
 <link rel="alternate" type="application/ld+json" title="Iro AI machine-readable product feed" href="/iro.json"/>
 <meta property="article:published_time" content="${iso(dp)}"/>
 <meta property="article:modified_time" content="${iso(dm)}"/>
-<meta property="article:author" content="Iro AI"/>
+<meta property="article:author" content="${esc(au.name)}"/>
 <meta property="article:section" content="${esc(section)}"/>
 <meta property="og:title" content="${esc(title)}"/>
 <meta property="og:description" content="${esc(desc)}"/>
@@ -316,7 +317,7 @@ ${NAV}
 <p class="eyebrow">${cfg.blog.heroEyebrow}</p>
 <h1>${title}</h1>
 <p class="lede">${post.lede}</p>
-<p class="meta"><span>By Iro AI</span><span>${dp}</span><span>~${rt} min read</span>${pillarMeta}</p>
+<p class="meta"><span>By <a href="${au.url}" rel="author" target="_blank">${esc(au.name)}</a></span><span>${dp}</span><span>~${rt} min read</span>${pillarMeta}</p>
 <img class="hero-img" src="${heroSrc}" alt="${esc(title)}" width="1200" height="630"/>
 </article>
 <div class="content">
@@ -324,6 +325,7 @@ ${content}
 </div>
 <section class="related"><h2>Read next</h2><ul>${readNext}</ul></section>
 <section class="faq"><h2>FAQ</h2>${faq}</section>
+<section class="related"><h2>About the author</h2><ul><li><a href="${au.url}" rel="author" target="_blank">${esc(au.name)}</a><p>${esc(au.bio)}</p></li></ul></section>
 </main>
 ${FOOTER}
 </div></body></html>
@@ -789,7 +791,7 @@ keywords: ${kwArr}
 date_published: "${post.datePublished}"
 date_modified: "${post.dateModified || post.datePublished}"
 reading_time_minutes: ${post.readingTime}
-author: "Iro AI"
+author: "${cfg.blogAuthor.name}"
 license: "${cfg.copyright}"
 canonical_llm_reference: "${D}/llms-full.txt"
 pillar: "${post.pillar || ''}"

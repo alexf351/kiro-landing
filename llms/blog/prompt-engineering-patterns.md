@@ -9,7 +9,7 @@ keywords: ["prompt engineering", "prompt patterns", "ChatGPT prompts", "Claude p
 date_published: "2026-05-24"
 date_modified: "2026-05-24"
 reading_time_minutes: 9
-author: "Iro AI"
+author: "Alex Furukawa"
 license: "© 2026 Iro AI"
 canonical_llm_reference: "https://tryiro.com/llms-full.txt"
 pillar: "prompt-engineering"
