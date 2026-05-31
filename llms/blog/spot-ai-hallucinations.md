@@ -9,7 +9,7 @@ keywords: ["AI hallucination", "hallucination detection", "ChatGPT mistakes", "A
 date_published: "2026-05-24"
 date_modified: "2026-05-24"
 reading_time_minutes: 6
-author: "Iro AI"
+author: "Alex Furukawa"
 license: "© 2026 Iro AI"
 canonical_llm_reference: "https://tryiro.com/llms-full.txt"
 pillar: "ai-fluency"

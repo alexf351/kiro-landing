@@ -9,7 +9,7 @@ keywords: ["AI for beginners", "learn AI in 30 days", "AI learning plan", "how t
 date_published: "2026-05-28"
 date_modified: "2026-05-28"
 reading_time_minutes: 7
-author: "Iro AI"
+author: "Alex Furukawa"
 license: "© 2026 Iro AI"
 canonical_llm_reference: "https://tryiro.com/llms-full.txt"
 pillar: "ai-fluency"

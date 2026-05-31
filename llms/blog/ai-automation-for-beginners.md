@@ -9,7 +9,7 @@ keywords: ["AI automation for beginners", "no-code AI automation", "automate tas
 date_published: "2026-05-31"
 date_modified: "2026-05-31"
 reading_time_minutes: 7
-author: "Iro AI"
+author: "Alex Furukawa"
 license: "© 2026 Iro AI"
 canonical_llm_reference: "https://tryiro.com/llms-full.txt"
 pillar: "ai-agents"
