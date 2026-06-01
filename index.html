@@ -849,6 +849,29 @@ footer .wrap{display:flex;flex-direction:column;gap:24px}
 .iab-copy{background:none;border:none;color:var(--ink-3);font-size:13px;font-family:inherit;cursor:pointer;padding:6px 8px;text-decoration:underline;text-decoration-color:rgba(155,167,196,.4);text-underline-offset:3px}
 .iab-copy:hover{color:var(--accent);text-decoration-color:var(--accent)}
 .iab-copy.copied{color:#4ADE80;text-decoration-color:#4ADE80}
+
+/* Custom App Store banner — shown to iOS visitors where Apple's native Smart App
+   Banner won't appear (app already installed, in-app browsers, dismissed-and-cached).
+   Hidden by default; revealed via .show set by JS only on iOS, non-standalone. */
+.app-banner{position:fixed;left:0;right:0;bottom:0;z-index:9000;display:none;
+  align-items:center;gap:12px;padding:10px 14px;
+  padding-bottom:calc(10px + env(safe-area-inset-bottom,0px));
+  background:rgba(10,14,24,.92);backdrop-filter:blur(16px) saturate(1.3);-webkit-backdrop-filter:blur(16px) saturate(1.3);
+  border-top:1px solid var(--line-strong);box-shadow:0 -8px 30px rgba(0,0,0,.45)}
+.app-banner.show{display:flex;animation:abUp .26s cubic-bezier(.2,.8,.2,1)}
+@keyframes abUp{from{transform:translateY(100%)}to{transform:translateY(0)}}
+.app-banner-x{flex:none;width:26px;height:26px;border:none;background:transparent;color:var(--ink-3);font-size:22px;line-height:1;cursor:pointer;border-radius:8px;padding:0}
+.app-banner-x:hover{color:var(--ink)}
+.app-banner-icon{flex:none;width:46px;height:46px;border-radius:11px;box-shadow:0 0 0 1px var(--line),0 4px 12px rgba(0,0,0,.5)}
+.app-banner-txt{flex:1;min-width:0;line-height:1.25}
+.app-banner-txt b{display:block;font-family:'Geist',sans-serif;font-weight:700;font-size:15px;color:var(--ink)}
+.app-banner-txt span{display:block;font-size:12.5px;color:var(--ink-2);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.app-banner-get{flex:none;font-family:'Outfit',sans-serif;font-weight:700;font-size:14px;letter-spacing:.02em;text-transform:uppercase;
+  color:var(--accent-ink);background:linear-gradient(180deg,color-mix(in oklab,var(--accent),#fff 22%),var(--accent));
+  border-radius:100px;padding:9px 20px;text-decoration:none;
+  box-shadow:0 0 0 1px rgba(var(--accent-rgb),.5),0 0 22px rgba(var(--accent-rgb),.25)}
+.app-banner-get:active{transform:scale(.97)}
+html.is-android .app-banner{display:none!important}
 </style>
 <script>
 !function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.crossOrigin="anonymous",p.async=!0,p.src=s.api_host.replace(".i.posthog.com","-assets.i.posthog.com")+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="init capture register register_once register_for_session unregister unregister_for_session getFeatureFlag getFeatureFlagPayload isFeatureEnabled reloadFeatureFlags updateEarlyAccessFeatureEnrollment getEarlyAccessFeatures on onFeatureFlags onSessionId getSurveys getActiveMatchingSurveys renderSurvey canRenderSurvey identify setPersonProperties group resetGroups setPersonPropertiesForFlags resetPersonPropertiesForFlags setGroupPropertiesForFlags resetGroupPropertiesForFlags reset get_distinct_id getGroups get_session_id get_session_replay_url alias set_config startSessionRecording stopSessionRecording sessionRecordingStarted captureException loadToolbar get_property getSessionProperty createPersonProfile opt_in_capturing opt_out_capturing has_opted_in_capturing has_opted_out_capturing clear_opt_in_out_capturing debug getPageViewId".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
@@ -869,6 +892,12 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
 <p class="iab-after">Then tap <b>Get the app</b> again — the App Store opens.</p>
 <button class="iab-copy" type="button" id="iabUrlCopy">or copy link</button>
 </div>
+</div>
+<div class="app-banner" id="appBanner" role="region" aria-label="Get the Iro AI app">
+<button class="app-banner-x" type="button" aria-label="Dismiss" id="appBannerX">&times;</button>
+<img class="app-banner-icon" src="assets/kiro-app-icon-256.png" alt="Iro AI app icon"/>
+<div class="app-banner-txt"><b>Iro AI</b><span>Master AI. Free on the App Store.</span></div>
+<a class="app-banner-get" href="https://apps.apple.com/app/id6759628066" id="appBannerGet">Get</a>
 </div>
 <div class="bg-field"></div>
 <div class="bg-grid"></div>
@@ -1829,6 +1858,36 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
     e.preventDefault();
     show(a.className||'link');
   },true);
+})();
+</script>
+<script>
+/* Custom App Store banner. Apple's native Smart App Banner won't render when the
+   app is already installed, inside in-app browsers, or after a cached dismissal.
+   Show our own bar to iOS visitors (not Android, not installed PWA), once per ~7 days.
+   The Get link is handled by the in-app-browser interceptor above when relevant, and
+   UTM-tagged by the attribution script below. */
+(function(){
+  var ua=navigator.userAgent||'';
+  var isIOS=/iPhone|iPod/i.test(ua)||(/iPad/i.test(ua))||(navigator.platform==='MacIntel'&&navigator.maxTouchPoints>1);
+  var standalone=window.navigator.standalone===true||window.matchMedia('(display-mode: standalone)').matches;
+  if(!isIOS||standalone||/android/i.test(ua))return;
+  var KEY='iro_appbanner_dismissed';
+  try{var t=parseInt(localStorage.getItem(KEY)||'0',10);if(t&&Date.now()-t<7*864e5)return;}catch(_){}
+  var bar=document.getElementById('appBanner');if(!bar)return;
+  var x=document.getElementById('appBannerX');
+  // Delay slightly so it slides in after first paint rather than competing with the hero.
+  setTimeout(function(){
+    bar.classList.add('show');
+    if(window.posthog)posthog.capture('app_banner_shown');
+  },900);
+  x.addEventListener('click',function(){
+    bar.classList.remove('show');
+    try{localStorage.setItem(KEY,String(Date.now()));}catch(_){}
+    if(window.posthog)posthog.capture('app_banner_dismissed');
+  });
+  document.getElementById('appBannerGet').addEventListener('click',function(){
+    if(window.posthog)posthog.capture('app_banner_get');
+  });
 })();
 </script>
 <script>
