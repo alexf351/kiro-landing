@@ -59,8 +59,7 @@
         { "@type": "Offer", "name": "Free", "price": "0", "priceCurrency": "USD", "description": "Starter slice across all 18 paths, daily challenges, XP, and ranks." },
         { "@type": "Offer", "name": "Pro Yearly", "price": "49.99", "priceCurrency": "USD", "description": "$49.99/year (about $0.96/week, billed yearly). Includes 7-day free trial. Saves ~90% vs paying weekly ($49.99 vs ~$519/year). Billed via Apple App Store." },
         { "@type": "Offer", "name": "Pro Weekly", "price": "9.99", "priceCurrency": "USD", "description": "$9.99/week. No trial. Cancel anytime. Billed via Apple App Store." }
-      ],
-      "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.6", "ratingCount": "11", "bestRating": "5", "worstRating": "1" }
+      ]
     },
     {
       "@type": "WebSite",
