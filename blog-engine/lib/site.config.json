@@ -38,9 +38,10 @@
     { "href": "/blog", "label": "Blog", "external": false },
     { "href": "https://instagram.com/tryiro", "label": "Instagram", "external": true },
     { "href": "https://www.tiktok.com/@tryiro", "label": "TikTok", "external": true },
-    { "href": "https://www.youtube.com/@tryiro", "label": "YouTube", "external": true },
-    { "href": "https://x.com/tryiro", "label": "X", "external": true },
-    { "href": "https://www.linkedin.com/company/tryiro", "label": "LinkedIn", "external": true }
+    { "href": "https://www.youtube.com/@tryiroai", "label": "YouTube", "external": true },
+    { "href": "https://x.com/tryiroapp", "label": "X", "external": true },
+    { "href": "https://www.linkedin.com/company/iro-ai-app/", "label": "LinkedIn", "external": true },
+    { "href": "https://www.facebook.com/people/Iro-AI-Learn-AI-Skills/61589434050207/", "label": "Facebook", "external": true }
   ],
   "cta": {
     "heading": "Practice this, don't just read it.",
