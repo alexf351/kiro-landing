@@ -7,7 +7,7 @@ app_store: "https://apps.apple.com/app/id6759628066"
 language: en-US
 keywords: ["learn ChatGPT", "ChatGPT 2026", "prompt practice", "active learning", "AI fluency"]
 date_published: "2026-05-24"
-date_modified: "2026-05-24"
+date_modified: "2026-06-01"
 reading_time_minutes: 7
 author: "Alex Furukawa"
 license: "© 2026 Iro AI"
@@ -21,7 +21,16 @@ pillar: "ai-fluency"
 
 **Canonical:** https://tryiro.com/blog/how-to-learn-chatgpt-in-2026
 **Published:** 2026-05-24
+**Updated:** 2026-06-01
 **Reading time:** ~7 min
+**Author:** Alex Furukawa — Founder of Iro AI
+
+## Key takeaways
+
+- The fastest way to learn ChatGPT is to use it on your own real tasks daily, not to watch tutorials.
+- Master four moves first: give context, assign a role, show an example, and iterate on the output.
+- ChatGPT’s free tier is enough to become fluent — you rarely need to pay just to learn.
+- Plan about five minutes a day for two weeks to go from beginner to genuinely useful.
 
 ## Why most ChatGPT learning fails
 
@@ -107,3 +116,7 @@ Iro is active practice in 5-minute sessions, not video lectures. You write promp
 - [How to spot AI hallucinations in 5 seconds](https://tryiro.com/blog/spot-ai-hallucinations)
 - [Practice ChatGPT in Iro AI](https://tryiro.com/learn-chatgpt)
 - [Prompt engineering in Iro AI](https://tryiro.com/prompt-engineering-app)
+
+## About the author
+
+Alex Furukawa — Founder of Iro AI. Alex Furukawa is the founder of Iro AI, the gamified app for learning to use AI well. He writes about practical AI fluency — prompting, AI tools, and the daily habits that turn AI from a novelty into real leverage.

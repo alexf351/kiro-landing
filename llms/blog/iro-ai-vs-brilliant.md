@@ -22,13 +22,14 @@ pillar: "ai-fluency"
 **Canonical:** https://tryiro.com/blog/iro-ai-vs-brilliant
 **Published:** 2026-06-01
 **Reading time:** ~7 min
+**Author:** Alex Furukawa — Founder of Iro AI
 
-## TL;DR
+## Key takeaways
 
-- **Brilliant** teaches the _foundations_ — math, logic, probability, and how neural networks work under the hood — through interactive problem-solving.
-- **Iro AI** teaches the _applied skill_ — actually using ChatGPT, Claude, Gemini and other tools to get real work done.
-- They are not really rivals. Brilliant makes you understand AI; Iro AI makes you good at using it.
-- If your goal is "use AI well at work or in daily life," start with Iro AI. If you want to understand the science beneath it, Brilliant is superb.
+- Brilliant teaches the math and concepts behind AI; Iro AI teaches you to use AI tools like ChatGPT and Claude for real work.
+- They are complements, not competitors: Brilliant builds understanding, Iro builds applied fluency.
+- Choose Iro AI if your goal is practical AI skills; choose Brilliant for conceptual depth.
+- Both are gamified and mobile-first, with short daily lessons.
 
 ## At a glance
 
@@ -86,3 +87,7 @@ For someone who just wants to use AI tools confidently, Iro AI is the more direc
 - [Iro AI vs Coursiv: which AI learning app is right for you?](https://tryiro.com/blog/iro-ai-vs-coursiv)
 - [The 30-day AI plan for complete beginners](https://tryiro.com/blog/ai-for-beginners-30-day-plan)
 - [Take the free AI IQ test](https://tryiro.com/quiz)
+
+## About the author
+
+Alex Furukawa — Founder of Iro AI. Alex Furukawa is the founder of Iro AI, the gamified app for learning to use AI well. He writes about practical AI fluency — prompting, AI tools, and the daily habits that turn AI from a novelty into real leverage.

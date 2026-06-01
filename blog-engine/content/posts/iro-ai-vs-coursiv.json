@@ -4,29 +4,54 @@
   "pillar": "ai-fluency",
   "title": "Iro AI vs Coursiv: which AI learning app is right for you in 2026?",
   "lede": "Both teach you to use AI in a few minutes a day. The real difference is how you learn — and how you pay.",
+  "keyTakeaways": [
+    "Iro AI and Coursiv both teach AI in short daily lessons but differ in teaching style and pricing.",
+    "Iro AI is practice-first — drills, duels, and instant feedback rather than passive video lessons.",
+    "Iro has a free tier and one transparent annual price; check Coursiv’s current terms before subscribing.",
+    "Pick Iro AI if you learn by doing; pick a course app if you prefer guided video lessons."
+  ],
   "description": "An honest Iro AI vs Coursiv comparison for 2026: how the two AI learning apps differ on teaching style, pricing, free trials, and who each one is actually best for.",
-  "keywords": ["Iro AI vs Coursiv", "Coursiv alternative", "Coursiv review", "best AI learning app", "AI course app 2026"],
+  "keywords": [
+    "Iro AI vs Coursiv",
+    "Coursiv alternative",
+    "Coursiv review",
+    "best AI learning app",
+    "AI course app 2026"
+  ],
   "datePublished": "2026-05-31",
-  "dateModified": "2026-05-31",
+  "dateModified": "2026-06-01",
   "readingTime": 7,
   "articleSection": "AI fluency",
   "feedCategory": "AI learning apps",
-  "feedTags": ["AI learning", "Coursiv", "app comparison"],
+  "feedTags": [
+    "AI learning",
+    "Coursiv",
+    "app comparison"
+  ],
   "inlineCtaAfter": 2,
   "toc": [
-    { "href": "#tldr", "label": "TL;DR" },
-    { "href": "#at-a-glance", "label": "At a glance" },
-    { "href": "#coursiv", "label": "What Coursiv does well" },
-    { "href": "#iro", "label": "Where Iro AI is different" },
-    { "href": "#pricing", "label": "Pricing, honestly" },
-    { "href": "#choose", "label": "Which to choose" }
+    {
+      "href": "#at-a-glance",
+      "label": "At a glance"
+    },
+    {
+      "href": "#coursiv",
+      "label": "What Coursiv does well"
+    },
+    {
+      "href": "#iro",
+      "label": "Where Iro AI is different"
+    },
+    {
+      "href": "#pricing",
+      "label": "Pricing, honestly"
+    },
+    {
+      "href": "#choose",
+      "label": "Which to choose"
+    }
   ],
   "sections": [
-    {
-      "id": "tldr",
-      "heading": "TL;DR",
-      "html": "<ul><li><strong>Coursiv</strong> is a video-and-reading course app built around a 28-day challenge — good if you like a structured curriculum to watch through.</li><li><strong>Iro AI</strong> is built around active practice — short quizzes and drills that make you <em>use</em> the skill, not just read about it.</li><li>Pricing differs in style: Coursiv runs on auto-renewing multi-week subscriptions; Iro AI is one simple annual price with a free trial, and a free AI IQ test to start.</li><li>If you learn by doing and want pricing you can predict, Iro AI fits. If you prefer sitting through a guided course, Coursiv is reasonable.</li></ul>"
-    },
     {
       "id": "at-a-glance",
       "heading": "At a glance",
@@ -54,10 +79,22 @@
     }
   ],
   "readNext": [
-    { "href": "/blog/iro-ai-vs-learnova", "label": "Iro AI vs Learnova: which AI learning app wins?" },
-    { "href": "/blog/ai-for-beginners-30-day-plan", "label": "The 30-day AI plan for complete beginners" },
-    { "href": "/blog/chatgpt-vs-claude-vs-gemini", "label": "ChatGPT vs Claude vs Gemini in 2026" },
-    { "href": "/quiz", "label": "Take the free AI IQ test" }
+    {
+      "href": "/blog/iro-ai-vs-learnova",
+      "label": "Iro AI vs Learnova: which AI learning app wins?"
+    },
+    {
+      "href": "/blog/ai-for-beginners-30-day-plan",
+      "label": "The 30-day AI plan for complete beginners"
+    },
+    {
+      "href": "/blog/chatgpt-vs-claude-vs-gemini",
+      "label": "ChatGPT vs Claude vs Gemini in 2026"
+    },
+    {
+      "href": "/quiz",
+      "label": "Take the free AI IQ test"
+    }
   ],
   "faq": [
     {

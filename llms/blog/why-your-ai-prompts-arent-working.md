@@ -7,7 +7,7 @@ app_store: "https://apps.apple.com/app/id6759628066"
 language: en-US
 keywords: ["why ChatGPT gives bad answers", "fix AI prompts", "better ChatGPT prompts", "prompt mistakes", "prompt engineering tips"]
 date_published: "2026-05-31"
-date_modified: "2026-05-31"
+date_modified: "2026-06-01"
 reading_time_minutes: 7
 author: "Alex Furukawa"
 license: "© 2026 Iro AI"
@@ -21,13 +21,16 @@ pillar: "prompt-engineering"
 
 **Canonical:** https://tryiro.com/blog/why-your-ai-prompts-arent-working
 **Published:** 2026-05-31
+**Updated:** 2026-06-01
 **Reading time:** ~7 min
+**Author:** Alex Furukawa — Founder of Iro AI
 
-## TL;DR
+## Key takeaways
 
-- Bad output is almost always a **bad prompt**, not a bad model.
-- The five usual culprits: too vague, no role or context, no output format, accepting the first draft, and no examples.
-- Each one has a ten-second fix.
+- Most weak AI results come from vague prompts, not weak models — the fix is clearer input.
+- Add context, specify the audience and format, and give an example of what good looks like.
+- Ask for one thing at a time; overloaded prompts produce muddy answers.
+- If the first answer is off, refine it with specific feedback instead of starting over.
 
 ## 1. You are being too vague
 
@@ -83,3 +86,7 @@ Practice with feedback. Iro AI's Prompt Lab scores your prompts and points out w
 - [How to actually learn ChatGPT in 2026](https://tryiro.com/blog/how-to-learn-chatgpt-in-2026)
 - [How to spot AI hallucinations in 5 seconds](https://tryiro.com/blog/spot-ai-hallucinations)
 - [Prompt Lab in Iro AI](https://tryiro.com/prompt-engineering-app)
+
+## About the author
+
+Alex Furukawa — Founder of Iro AI. Alex Furukawa is the founder of Iro AI, the gamified app for learning to use AI well. He writes about practical AI fluency — prompting, AI tools, and the daily habits that turn AI from a novelty into real leverage.

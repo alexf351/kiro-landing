@@ -4,28 +4,50 @@
   "pillar": "ai-fluency",
   "title": "Iro AI vs Duolingo: the \"Duolingo for AI,\" explained",
   "lede": "People call Iro \"the Duolingo for AI\" for a reason — same addictive method, completely different subject. Here's how they compare.",
+  "keyTakeaways": [
+    "Duolingo teaches languages; Iro AI applies the same gamified, five-minute-a-day method to learning AI tools.",
+    "They are not substitutes — choose by subject: Duolingo for a language, Iro AI for AI fluency.",
+    "The shared lesson is that short daily active practice beats long passive courses.",
+    "Iro AI is often called “the Duolingo for AI” for exactly this reason."
+  ],
   "description": "Iro AI vs Duolingo in 2026: how the gamified-learning method that made Duolingo famous applies to learning AI tools — and why they're not actually competitors.",
-  "keywords": ["Iro AI vs Duolingo", "Duolingo for AI", "gamified AI learning", "learn AI like Duolingo", "best AI learning app 2026"],
+  "keywords": [
+    "Iro AI vs Duolingo",
+    "Duolingo for AI",
+    "gamified AI learning",
+    "learn AI like Duolingo",
+    "best AI learning app 2026"
+  ],
   "datePublished": "2026-06-01",
   "dateModified": "2026-06-01",
   "readingTime": 6,
   "articleSection": "AI fluency",
   "feedCategory": "AI learning apps",
-  "feedTags": ["AI learning", "Duolingo", "gamification"],
+  "feedTags": [
+    "AI learning",
+    "Duolingo",
+    "gamification"
+  ],
   "inlineCtaAfter": 2,
   "toc": [
-    { "href": "#tldr", "label": "TL;DR" },
-    { "href": "#at-a-glance", "label": "At a glance" },
-    { "href": "#method", "label": "The method they share" },
-    { "href": "#subject", "label": "The subject that differs" },
-    { "href": "#choose", "label": "Which to choose" }
+    {
+      "href": "#at-a-glance",
+      "label": "At a glance"
+    },
+    {
+      "href": "#method",
+      "label": "The method they share"
+    },
+    {
+      "href": "#subject",
+      "label": "The subject that differs"
+    },
+    {
+      "href": "#choose",
+      "label": "Which to choose"
+    }
   ],
   "sections": [
-    {
-      "id": "tldr",
-      "heading": "TL;DR",
-      "html": "<ul><li><strong>Duolingo</strong> teaches <em>languages</em> with short, gamified daily lessons, streaks, and XP.</li><li><strong>Iro AI</strong> borrows that exact method and points it at a different subject: <em>using AI tools</em> like ChatGPT, Claude, and Gemini well.</li><li>They aren't competitors — you'd never choose one \"instead of\" the other. If you want to learn a language, use Duolingo. If you want to get good at AI, use Iro AI.</li><li>The shared idea is the important part: short daily practice with feedback beats long passive courses, whatever the subject.</li></ul>"
-    },
     {
       "id": "at-a-glance",
       "heading": "At a glance",
@@ -48,10 +70,22 @@
     }
   ],
   "readNext": [
-    { "href": "/blog/iro-ai-vs-brilliant", "label": "Iro AI vs Brilliant: which gets you good at AI?" },
-    { "href": "/blog/iro-ai-vs-coursiv", "label": "Iro AI vs Coursiv: which AI learning app is right for you?" },
-    { "href": "/blog/ai-for-beginners-30-day-plan", "label": "The 30-day AI plan for complete beginners" },
-    { "href": "/quiz", "label": "Take the free AI IQ test" }
+    {
+      "href": "/blog/iro-ai-vs-brilliant",
+      "label": "Iro AI vs Brilliant: which gets you good at AI?"
+    },
+    {
+      "href": "/blog/iro-ai-vs-coursiv",
+      "label": "Iro AI vs Coursiv: which AI learning app is right for you?"
+    },
+    {
+      "href": "/blog/ai-for-beginners-30-day-plan",
+      "label": "The 30-day AI plan for complete beginners"
+    },
+    {
+      "href": "/quiz",
+      "label": "Take the free AI IQ test"
+    }
   ],
   "faq": [
     {

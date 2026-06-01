@@ -4,30 +4,59 @@
   "pillar": "ai-fluency",
   "title": "ChatGPT vs Claude vs Gemini: which should you use in 2026?",
   "lede": "A practical, no-hype comparison — and why the right answer is usually more than one.",
+  "keyTakeaways": [
+    "ChatGPT, Claude, and Gemini are the three leading general-purpose AI assistants in 2026, and the best one depends on the task.",
+    "Claude is often preferred for writing, long documents, and coding; ChatGPT for its ecosystem and tools; Gemini for Google integration and research.",
+    "All three have free tiers, so the real differentiator is how you prompt them, not raw capability.",
+    "Most power users keep two open and switch based on the job."
+  ],
   "description": "ChatGPT vs Claude vs Gemini in 2026: what each is genuinely best at, where each falls short, and how to pick the right one for writing, research, coding, and everyday work.",
-  "keywords": ["ChatGPT vs Claude", "Claude vs Gemini", "ChatGPT vs Gemini", "best AI model 2026", "which AI to use"],
+  "keywords": [
+    "ChatGPT vs Claude",
+    "Claude vs Gemini",
+    "ChatGPT vs Gemini",
+    "best AI model 2026",
+    "which AI to use"
+  ],
   "datePublished": "2026-05-31",
-  "dateModified": "2026-05-31",
+  "dateModified": "2026-06-01",
   "readingTime": 8,
   "articleSection": "AI fluency",
   "feedCategory": "AI tools",
-  "feedTags": ["AI tools", "ChatGPT", "Claude", "Gemini"],
+  "feedTags": [
+    "AI tools",
+    "ChatGPT",
+    "Claude",
+    "Gemini"
+  ],
   "inlineCtaAfter": 2,
   "toc": [
-    { "href": "#tldr", "label": "TL;DR" },
-    { "href": "#short-answer", "label": "The short answer" },
-    { "href": "#at-a-glance", "label": "At a glance" },
-    { "href": "#chatgpt", "label": "ChatGPT" },
-    { "href": "#claude", "label": "Claude" },
-    { "href": "#gemini", "label": "Gemini" },
-    { "href": "#choose", "label": "How to choose" }
+    {
+      "href": "#short-answer",
+      "label": "The short answer"
+    },
+    {
+      "href": "#at-a-glance",
+      "label": "At a glance"
+    },
+    {
+      "href": "#chatgpt",
+      "label": "ChatGPT"
+    },
+    {
+      "href": "#claude",
+      "label": "Claude"
+    },
+    {
+      "href": "#gemini",
+      "label": "Gemini"
+    },
+    {
+      "href": "#choose",
+      "label": "How to choose"
+    }
   ],
   "sections": [
-    {
-      "id": "tldr",
-      "heading": "TL;DR",
-      "html": "<ul><li><strong>ChatGPT</strong> is the best all-round default — start here.</li><li><strong>Claude</strong> wins on long documents, careful reasoning, and code review.</li><li><strong>Gemini</strong> is strongest when your work already lives in Google (Docs, Gmail, Sheets).</li><li>The people who get the most out of AI use two or three and switch based on the task.</li></ul>"
-    },
     {
       "id": "short-answer",
       "heading": "The honest short answer",
@@ -60,10 +89,22 @@
     }
   ],
   "readNext": [
-    { "href": "/blog/best-free-ai-tools-2026", "label": "The best free AI tools for daily work in 2026" },
-    { "href": "/blog/how-to-learn-chatgpt-in-2026", "label": "How to actually learn ChatGPT in 2026" },
-    { "href": "/learn-claude", "label": "Learn Claude in Iro AI" },
-    { "href": "/learn-gemini", "label": "Learn Gemini in Iro AI" }
+    {
+      "href": "/blog/best-free-ai-tools-2026",
+      "label": "The best free AI tools for daily work in 2026"
+    },
+    {
+      "href": "/blog/how-to-learn-chatgpt-in-2026",
+      "label": "How to actually learn ChatGPT in 2026"
+    },
+    {
+      "href": "/learn-claude",
+      "label": "Learn Claude in Iro AI"
+    },
+    {
+      "href": "/learn-gemini",
+      "label": "Learn Gemini in Iro AI"
+    }
   ],
   "faq": [
     {

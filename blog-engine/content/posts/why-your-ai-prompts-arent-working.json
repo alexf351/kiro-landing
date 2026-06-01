@@ -4,32 +4,65 @@
   "pillar": "prompt-engineering",
   "title": "Why your AI prompts aren't working (and how to fix them)",
   "lede": "Five reasons prompts fail — and the quick fixes that turn vague output into useful work.",
+  "keyTakeaways": [
+    "Most weak AI results come from vague prompts, not weak models — the fix is clearer input.",
+    "Add context, specify the audience and format, and give an example of what good looks like.",
+    "Ask for one thing at a time; overloaded prompts produce muddy answers.",
+    "If the first answer is off, refine it with specific feedback instead of starting over."
+  ],
   "description": "If ChatGPT keeps giving you generic, useless answers, the prompt is usually the problem. Here are the five most common prompt mistakes and how to fix each one fast.",
-  "keywords": ["why ChatGPT gives bad answers", "fix AI prompts", "better ChatGPT prompts", "prompt mistakes", "prompt engineering tips"],
+  "keywords": [
+    "why ChatGPT gives bad answers",
+    "fix AI prompts",
+    "better ChatGPT prompts",
+    "prompt mistakes",
+    "prompt engineering tips"
+  ],
   "datePublished": "2026-05-31",
-  "dateModified": "2026-05-31",
+  "dateModified": "2026-06-01",
   "readingTime": 7,
   "articleSection": "AI fluency",
   "feedCategory": "Prompt engineering",
-  "feedTags": ["Prompt engineering", "ChatGPT"],
+  "feedTags": [
+    "Prompt engineering",
+    "ChatGPT"
+  ],
   "howToName": "How to fix AI prompts that aren't working",
-  "howToStepIds": ["vague", "role", "format", "first-draft", "examples"],
+  "howToStepIds": [
+    "vague",
+    "role",
+    "format",
+    "first-draft",
+    "examples"
+  ],
   "inlineCtaAfter": 2,
   "toc": [
-    { "href": "#tldr", "label": "TL;DR" },
-    { "href": "#vague", "label": "Too vague" },
-    { "href": "#role", "label": "No role or context" },
-    { "href": "#format", "label": "No output format" },
-    { "href": "#first-draft", "label": "Accepting the first draft" },
-    { "href": "#examples", "label": "No examples" },
-    { "href": "#together", "label": "Putting it together" }
+    {
+      "href": "#vague",
+      "label": "Too vague"
+    },
+    {
+      "href": "#role",
+      "label": "No role or context"
+    },
+    {
+      "href": "#format",
+      "label": "No output format"
+    },
+    {
+      "href": "#first-draft",
+      "label": "Accepting the first draft"
+    },
+    {
+      "href": "#examples",
+      "label": "No examples"
+    },
+    {
+      "href": "#together",
+      "label": "Putting it together"
+    }
   ],
   "sections": [
-    {
-      "id": "tldr",
-      "heading": "TL;DR",
-      "html": "<ul><li>Bad output is almost always a <strong>bad prompt</strong>, not a bad model.</li><li>The five usual culprits: too vague, no role or context, no output format, accepting the first draft, and no examples.</li><li>Each one has a ten-second fix.</li></ul>"
-    },
     {
       "id": "vague",
       "heading": "1. You are being too vague",
@@ -62,10 +95,22 @@
     }
   ],
   "readNext": [
-    { "href": "/blog/prompt-engineering-patterns", "label": "The 7 prompt patterns that work everywhere" },
-    { "href": "/blog/how-to-learn-chatgpt-in-2026", "label": "How to actually learn ChatGPT in 2026" },
-    { "href": "/blog/spot-ai-hallucinations", "label": "How to spot AI hallucinations in 5 seconds" },
-    { "href": "/prompt-engineering-app", "label": "Prompt Lab in Iro AI" }
+    {
+      "href": "/blog/prompt-engineering-patterns",
+      "label": "The 7 prompt patterns that work everywhere"
+    },
+    {
+      "href": "/blog/how-to-learn-chatgpt-in-2026",
+      "label": "How to actually learn ChatGPT in 2026"
+    },
+    {
+      "href": "/blog/spot-ai-hallucinations",
+      "label": "How to spot AI hallucinations in 5 seconds"
+    },
+    {
+      "href": "/prompt-engineering-app",
+      "label": "Prompt Lab in Iro AI"
+    }
   ],
   "faq": [
     {

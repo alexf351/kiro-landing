@@ -7,7 +7,7 @@ app_store: "https://apps.apple.com/app/id6759628066"
 language: en-US
 keywords: ["prompt engineering", "prompt patterns", "ChatGPT prompts", "Claude prompts", "prompt design"]
 date_published: "2026-05-24"
-date_modified: "2026-05-24"
+date_modified: "2026-06-01"
 reading_time_minutes: 9
 author: "Alex Furukawa"
 license: "© 2026 Iro AI"
@@ -21,7 +21,16 @@ pillar: "prompt-engineering"
 
 **Canonical:** https://tryiro.com/blog/prompt-engineering-patterns
 **Published:** 2026-05-24
+**Updated:** 2026-06-01
 **Reading time:** ~9 min
+**Author:** Alex Furukawa — Founder of Iro AI
+
+## Key takeaways
+
+- Most prompting problems are solved by a few repeatable patterns: role, context, examples, and step-by-step instructions.
+- The single biggest upgrade is giving the model context and a clear goal before asking for output.
+- Few-shot examples (showing one to three samples) reliably improve format and quality.
+- Treat the first output as a draft and refine it with specific feedback.
 
 ## Why patterns beat prompts
 
@@ -112,3 +121,7 @@ Reps. That's what Iro AI's Prompt Lab is for — you practise patterns on small 
 - [How to spot AI hallucinations in 5 seconds](https://tryiro.com/blog/spot-ai-hallucinations)
 - [Prompt Lab in Iro AI](https://tryiro.com/prompt-engineering-app)
 - [Learn Claude in Iro AI](https://tryiro.com/learn-claude)
+
+## About the author
+
+Alex Furukawa — Founder of Iro AI. Alex Furukawa is the founder of Iro AI, the gamified app for learning to use AI well. He writes about practical AI fluency — prompting, AI tools, and the daily habits that turn AI from a novelty into real leverage.

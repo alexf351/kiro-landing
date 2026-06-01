@@ -4,6 +4,12 @@
   "pillar": "prompt-engineering",
   "title": "The 7 prompt patterns that work everywhere",
   "lede": "Transferable structures for ChatGPT, Claude, Gemini, and Perplexity.",
+  "keyTakeaways": [
+    "Most prompting problems are solved by a few repeatable patterns: role, context, examples, and step-by-step instructions.",
+    "The single biggest upgrade is giving the model context and a clear goal before asking for output.",
+    "Few-shot examples (showing one to three samples) reliably improve format and quality.",
+    "Treat the first output as a draft and refine it with specific feedback."
+  ],
   "description": "Forget magic phrases. These 7 prompt patterns transfer across models and survive model upgrades — the foundation of practical prompt engineering.",
   "keywords": [
     "prompt engineering",
@@ -13,7 +19,7 @@
     "prompt design"
   ],
   "datePublished": "2026-05-24",
-  "dateModified": "2026-05-24",
+  "dateModified": "2026-06-01",
   "readingTime": 9,
   "articleSection": "AI fluency",
   "feedCategory": "Prompt engineering",

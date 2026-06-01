@@ -4,6 +4,12 @@
   "pillar": "ai-fluency",
   "title": "How to actually learn ChatGPT in 2026",
   "lede": "The active-practice method that beats endless video courses.",
+  "keyTakeaways": [
+    "The fastest way to learn ChatGPT is to use it on your own real tasks daily, not to watch tutorials.",
+    "Master four moves first: give context, assign a role, show an example, and iterate on the output.",
+    "ChatGPT’s free tier is enough to become fluent — you rarely need to pay just to learn.",
+    "Plan about five minutes a day for two weeks to go from beginner to genuinely useful."
+  ],
   "description": "Most people learn ChatGPT by random experimentation and hit a ceiling. Here's the active-practice method that builds judgment instead of just memorising prompts.",
   "keywords": [
     "learn ChatGPT",
@@ -13,7 +19,7 @@
     "AI fluency"
   ],
   "datePublished": "2026-05-24",
-  "dateModified": "2026-05-24",
+  "dateModified": "2026-06-01",
   "readingTime": 7,
   "articleSection": "AI fluency",
   "feedCategory": "AI fluency",

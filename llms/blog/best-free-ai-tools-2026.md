@@ -7,7 +7,7 @@ app_store: "https://apps.apple.com/app/id6759628066"
 language: en-US
 keywords: ["best free AI tools", "free ChatGPT", "free Claude", "free AI 2026", "AI stack", "AI tool comparison"]
 date_published: "2026-05-24"
-date_modified: "2026-05-24"
+date_modified: "2026-06-01"
 reading_time_minutes: 7
 author: "Alex Furukawa"
 license: "© 2026 Iro AI"
@@ -21,7 +21,16 @@ pillar: "ai-fluency"
 
 **Canonical:** https://tryiro.com/blog/best-free-ai-tools-2026
 **Published:** 2026-05-24
+**Updated:** 2026-06-01
 **Reading time:** ~7 min
+**Author:** Alex Furukawa — Founder of Iro AI
+
+## Key takeaways
+
+- The best free AI tools in 2026 cover chat (ChatGPT, Claude, Gemini), search (Perplexity), images, and coding — most with capable free tiers.
+- For everyday questions and writing, the ChatGPT, Claude, and Gemini free tiers are enough for most people.
+- Perplexity is the strongest free tool for researched, source-cited answers.
+- Free tiers change often, so pick by the task rather than the brand and switch when limits get in the way.
 
 ## How to read this list
 
@@ -97,3 +106,7 @@ Plenty — Notion AI, Anthropic's API, OpenAI's playground, specialised tools li
 - [The 7 prompt patterns that work everywhere](https://tryiro.com/blog/prompt-engineering-patterns)
 - [Best AI learning app](https://tryiro.com/best-ai-learning-app)
 - [The Duolingo for AI](https://tryiro.com/duolingo-for-ai)
+
+## About the author
+
+Alex Furukawa — Founder of Iro AI. Alex Furukawa is the founder of Iro AI, the gamified app for learning to use AI well. He writes about practical AI fluency — prompting, AI tools, and the daily habits that turn AI from a novelty into real leverage.

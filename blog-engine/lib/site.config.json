@@ -7,7 +7,8 @@
     "name": "Alex Furukawa",
     "jobTitle": "Founder of Iro AI",
     "url": "https://www.linkedin.com/in/alex-furukawa",
-    "sameAs": ["https://www.linkedin.com/in/alex-furukawa"],
+    "sameAs": ["https://www.linkedin.com/in/alex-furukawa", "https://x.com/tryiroapp"],
+    "knowsAbout": ["Artificial intelligence", "Prompt engineering", "ChatGPT", "Claude", "Google Gemini", "Perplexity AI", "AI agents", "AI automation", "Generative AI", "AI literacy", "AI education"],
     "bio": "Alex Furukawa is the founder of Iro AI, the gamified app for learning to use AI well. He writes about practical AI fluency — prompting, AI tools, and the daily habits that turn AI from a novelty into real leverage."
   },
   "copyright": "© 2026 Iro AI",
