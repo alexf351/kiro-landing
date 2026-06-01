@@ -28,3 +28,4 @@ This pillar teaches prompting as a transferable skill you can drill. Start with 
 
 - [The 7 prompt patterns that work everywhere](https://tryiro.com/blog/prompt-engineering-patterns) — Forget magic phrases. These 7 prompt patterns transfer across models and survive model upgrades — the foundation of practical prompt engineering.
 - [Why your AI prompts aren't working (and how to fix them)](https://tryiro.com/blog/why-your-ai-prompts-arent-working) — If ChatGPT keeps giving you generic, useless answers, the prompt is usually the problem. Here are the five most common prompt mistakes and how to fix each one fast.
+- [What is prompt engineering? A clear definition with examples](https://tryiro.com/blog/what-is-prompt-engineering) — Prompt engineering is the skill of structuring AI instructions to get reliably better output. A plain-English definition, why it works, before-and-after examples, and whether it still matters in 2026.

@@ -143,5 +143,14 @@
       <category>AI fluency</category>
       <description>AI fluency is the practical ability to use, direct, and evaluate AI tools to get better results. Here is a clear definition, a 4-layer framework, and how to build it in 5 minutes a day.</description>
     </item>
+    <item>
+      <title>What is prompt engineering? A clear definition with examples</title>
+      <link>https://tryiro.com/blog/what-is-prompt-engineering</link>
+      <guid isPermaLink="true">https://tryiro.com/blog/what-is-prompt-engineering</guid>
+      <pubDate>Mon, 01 Jun 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Iro AI</dc:creator>
+      <category>Prompt engineering</category>
+      <description>Prompt engineering is the skill of structuring AI instructions to get reliably better output. A plain-English definition, why it works, before-and-after examples, and whether it still matters in 2026.</description>
+    </item>
   </channel>
 </rss>

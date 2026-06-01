@@ -171,6 +171,18 @@
         "AI literacy",
         "learning AI"
       ]
+    },
+    {
+      "id": "https://tryiro.com/blog/what-is-prompt-engineering",
+      "url": "https://tryiro.com/blog/what-is-prompt-engineering",
+      "title": "What is prompt engineering? A clear definition with examples",
+      "summary": "Prompt engineering is the skill of writing and structuring instructions so an AI model reliably gives you the output you actually want. Here's what it means, why it works, and how to get good at it — with before-and-after examples.",
+      "date_published": "2026-06-01T00:00:00Z",
+      "tags": [
+        "prompt engineering",
+        "prompting",
+        "AI skills"
+      ]
     }
   ]
 }

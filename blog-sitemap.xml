@@ -181,4 +181,14 @@
       <image:title>What is AI fluency? A practical definition (and how to build it)</image:title>
     </image:image>
   </url>
+  <url>
+    <loc>https://tryiro.com/blog/what-is-prompt-engineering</loc>
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://tryiro.com/assets/og/what-is-prompt-engineering.png</image:loc>
+      <image:title>What is prompt engineering? A clear definition with examples</image:title>
+    </image:image>
+  </url>
 </urlset>
