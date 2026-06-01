@@ -72,8 +72,8 @@ html{-webkit-font-smoothing:antialiased}
 body{
   font-family:'Outfit',sans-serif;background:var(--bg);color:var(--text);
   overflow-x:hidden;line-height:1.6;min-height:100vh;
-  display:flex;flex-direction:column;align-items:center;justify-content:center;
-  padding:24px;position:relative
+  display:flex;flex-direction:column;align-items:center;justify-content:flex-start;
+  padding:80px 24px 40px;position:relative
 }
 .ambient-gradient{
   position:fixed;top:0;left:0;right:0;bottom:0;z-index:-2;pointer-events:none;
@@ -98,7 +98,7 @@ body{
   z-index:-1;pointer-events:none
 }
 
-.quiz-wrap{max-width:720px;width:100%;text-align:center;position:relative;z-index:1}
+.quiz-wrap{max-width:720px;width:100%;text-align:center;position:relative;z-index:1;margin:auto 0}
 
 /* ══════════════════ HUD PRIMITIVES ══════════════════ */
 .hud-pill{
@@ -772,7 +772,7 @@ body{
   .page-hud-coord{display:none}
 }
 @media(max-width:480px){
-  body{padding:16px}
+  body{padding:76px 16px 32px}
   .quiz-intro h1 br{display:none}
   .quiz-intro h1{letter-spacing:-1.5px}
   .quiz-option{padding:14px 16px;font-size:14px}
