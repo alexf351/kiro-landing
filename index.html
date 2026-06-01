@@ -996,7 +996,7 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
           <button class="ia-arrow ia-side" id="iaPrev" aria-label="Previous screen"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg></button>
           <div class="device ia-phone">
             <div class="island"></div>
-            <div class="screen"><img id="iaImg" src="assets/screens/prompt-lab.jpg" alt="Iro app screen" loading="lazy" decoding="async"/></div>
+            <div class="screen"><img id="iaImg" src="assets/screens/skill-tree.jpg" alt="Iro app screen" loading="lazy" decoding="async"/></div>
             <div class="glare"></div>
           </div>
           <button class="ia-arrow ia-side" id="iaNext" aria-label="Next screen"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18l6-6-6-6"/></svg></button>
@@ -1538,36 +1538,36 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
   'use strict';
 
   var SCREENS = [
-    { img:'assets/screens/prompt-lab.jpg',    t:'Prompt Lab',   h:'Write real prompts',   tag:'INSTANT FEEDBACK',
-      d:'Type a prompt and Iro grades it out of 10 in seconds, then shows you exactly how to make it sharper.',
-      b:['Scored on clarity, context and intent','Specific fixes, not vague praise','Practice on your own real scenarios'] },
     { img:'assets/screens/skill-tree.jpg',  t:'Skill scan',   h:'See your Operator Build', tag:'SKILL SCAN',
       d:'Iro scans your fluency across six skill zones and ranks you from Bronze to Iridescent, flagging your strongest skill and your weak spot.',
       b:['Six skill zones, each scored out of 100','Strongest skill and weak spot called out','Your rank climbs as you train'] },
     { img:'assets/screens/learning-path-list.jpg', t:'Paths',        h:'Choose your track',     tag:'18 PATHS',
       d:'Eighteen guided paths, from total beginner on ChatGPT to AI agents and automation.',
       b:['Tools, work, creative and core skills','Start from zero or jump ahead','345 lessons, about 5 minutes each'] },
-    { img:'assets/screens/delegate-or-diy.jpg', t:'Delegate or DIY', h:'Build real AI judgment', tag:'JUDGMENT DRILLS',
-      d:'Scenario drills train the skill nobody teaches: when to hand a task to AI, do it yourself, or collaborate.',
-      b:['Decide: delegate, DIY, or collaborate','Judgment, not just prompt tricks','Combos and hearts keep every round tense'] },
-    { img:'assets/screens/prompt-library.jpg', t:'Prompt Library', h:'Steal 100 ready prompts', tag:'100 PROMPTS',
-      d:'A searchable library of 100 battle-tested prompts across productivity, writing, analysis, coding, and creativity. Copy one and go.',
-      b:['100 prompts, sorted by category','One tap to copy and paste','Tagged by difficulty and run time'] },
-    { img:'assets/screens/duel-victory.jpg',   t:'Duels',        h:'Battle live opponents', tag:'LIVE PvP',
-      d:'Go head-to-head with rivals, win to earn XP and climb the ranked ladder.',
-      b:['ELO matchmaking against 60+ rivals','Chain combos for bonus XP','Cyberpunk arenas and podium reveals'] },
+    { img:'assets/screens/prompt-lab.jpg',    t:'Prompt Lab',   h:'Write real prompts',   tag:'INSTANT FEEDBACK',
+      d:'Type a prompt and Iro grades it out of 10 in seconds, then shows you exactly how to make it sharper.',
+      b:['Scored on clarity, context and intent','Specific fixes, not vague praise','Practice on your own real scenarios'] },
     { img:'assets/screens/node-map.jpg',       t:'Skill map',    h:'Watch it connect',      tag:'PROGRESS',
       d:'Every lesson links into one growing map so your fluency visibly compounds.',
       b:['See how skills build on each other','Spot gaps before they cost you','Unlock new branches as you level'] },
+    { img:'assets/screens/prompt-library.jpg', t:'Prompt Library', h:'Steal 100 ready prompts', tag:'100 PROMPTS',
+      d:'A searchable library of 100 battle-tested prompts across productivity, writing, analysis, coding, and creativity. Copy one and go.',
+      b:['100 prompts, sorted by category','One tap to copy and paste','Tagged by difficulty and run time'] },
+    { img:'assets/screens/delegate-or-diy.jpg', t:'Delegate or DIY', h:'Build real AI judgment', tag:'JUDGMENT DRILLS',
+      d:'Scenario drills train the skill nobody teaches: when to hand a task to AI, do it yourself, or collaborate.',
+      b:['Decide: delegate, DIY, or collaborate','Judgment, not just prompt tricks','Combos and hearts keep every round tense'] },
+    { img:'assets/screens/duel-victory.jpg',   t:'Duels',        h:'Battle live opponents', tag:'LIVE PvP',
+      d:'Go head-to-head with rivals, win to earn XP and climb the ranked ladder.',
+      b:['ELO matchmaking against 60+ rivals','Chain combos for bonus XP','Cyberpunk arenas and podium reveals'] },
+    { img:'assets/screens/ranks.jpg',          t:'Ranks',        h:'Evolve Iro',            tag:'6 RANKS',
+      d:'Climb six ranks and watch your penguin evolve from Bronze all the way to Iridescent.',
+      b:['Six tiers of visible progress','Iro levels up as you do','Proof you are actually getting good'] },
     { img:'assets/screens/perfect-xp.jpg',     t:'XP & streaks', h:'Earn every answer',     tag:'DAILY HABIT',
       d:'Correct reps build XP and daily streaks, the momentum that keeps the habit alive.',
       b:['XP on every correct rep','Daily streaks that pull you back','Perfect-round bonuses'] },
     { img:'assets/screens/news.jpg',           t:'Weekly news',  h:'Stay current',          tag:'WEEKLY',
       d:'Short weekly briefings on what actually shipped in AI, with a quiz to make it stick.',
-      b:['What launched, minus the hype','Two-minute reads','A quick quiz to lock it in'] },
-    { img:'assets/screens/ranks.jpg',          t:'Ranks',        h:'Evolve Iro',            tag:'6 RANKS',
-      d:'Climb six ranks and watch your penguin evolve from Bronze all the way to Iridescent.',
-      b:['Six tiers of visible progress','Iro levels up as you do','Proof you are actually getting good'] }
+      b:['What launched, minus the hype','Two-minute reads','A quick quiz to lock it in'] }
   ];
 
   var CHECK = '<svg class="ia-ck" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="m8.5 12 2.5 2.5 4.5-5"/></svg>';
