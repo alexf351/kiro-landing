@@ -11,22 +11,54 @@
     "You can reach useful fluency in about five minutes a day over a few weeks; the goal is a habit, not memorized tricks."
   ],
   "description": "AI fluency is the practical ability to use, direct, and evaluate AI tools to get better results. Here is a clear definition, a 4-layer framework, and how to build it in 5 minutes a day.",
-  "keywords": ["what is AI fluency", "AI fluency definition", "AI fluency meaning", "how to build AI fluency", "AI literacy vs AI fluency", "become AI fluent"],
+  "keywords": [
+    "what is AI fluency",
+    "AI fluency definition",
+    "AI fluency meaning",
+    "how to build AI fluency",
+    "AI literacy vs AI fluency",
+    "become AI fluent"
+  ],
   "datePublished": "2026-06-01",
   "dateModified": "2026-06-01",
   "readingTime": 8,
   "articleSection": "AI fluency",
   "feedCategory": "AI fluency",
-  "feedTags": ["AI fluency", "AI literacy", "learning AI"],
+  "feedTags": [
+    "AI fluency",
+    "AI literacy",
+    "learning AI"
+  ],
   "inlineCtaAfter": 2,
   "toc": [
-    { "href": "#definition", "label": "Definition" },
-    { "href": "#layers", "label": "The 4 layers" },
-    { "href": "#vs-literacy", "label": "Fluency vs literacy" },
-    { "href": "#why", "label": "Why it matters" },
-    { "href": "#build", "label": "How to build it" },
-    { "href": "#measure", "label": "How to measure it" },
-    { "href": "#myths", "label": "Common myths" }
+    {
+      "href": "#definition",
+      "label": "Definition"
+    },
+    {
+      "href": "#layers",
+      "label": "The 4 layers"
+    },
+    {
+      "href": "#vs-literacy",
+      "label": "Fluency vs literacy"
+    },
+    {
+      "href": "#why",
+      "label": "Why it matters"
+    },
+    {
+      "href": "#build",
+      "label": "How to build it"
+    },
+    {
+      "href": "#measure",
+      "label": "How to measure it"
+    },
+    {
+      "href": "#myths",
+      "label": "Common myths"
+    }
   ],
   "sections": [
     {
@@ -66,10 +98,22 @@
     }
   ],
   "readNext": [
-    { "href": "/blog/ai-for-beginners-30-day-plan", "label": "The 30-day AI plan for complete beginners" },
-    { "href": "/blog/prompt-engineering-patterns", "label": "The 7 prompt patterns that work everywhere" },
-    { "href": "/blog/spot-ai-hallucinations", "label": "How to spot AI hallucinations in 5 seconds" },
-    { "href": "/quiz", "label": "Take the free AI IQ test" }
+    {
+      "href": "/blog/ai-for-beginners-30-day-plan",
+      "label": "The 30-day AI plan for complete beginners"
+    },
+    {
+      "href": "/blog/prompt-engineering-patterns",
+      "label": "The 7 prompt patterns that work everywhere"
+    },
+    {
+      "href": "/blog/spot-ai-hallucinations",
+      "label": "How to spot AI hallucinations in 5 seconds"
+    },
+    {
+      "href": "/quiz",
+      "label": "Take the free AI IQ test"
+    }
   ],
   "faq": [
     {
@@ -96,6 +140,7 @@
     "/blog/chatgpt-vs-claude-vs-gemini",
     "/learn-chatgpt",
     "/glossary",
-    "/quiz"
+    "/quiz",
+    "/blog/what-is-prompt-engineering"
   ]
 }

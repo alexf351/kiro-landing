@@ -1,0 +1,96 @@
+{
+  "slug": "what-is-prompt-engineering",
+  "order": 15,
+  "pillar": "prompt-engineering",
+  "title": "What is prompt engineering? A clear definition with examples",
+  "lede": "Prompt engineering is the skill of writing and structuring instructions so an AI model reliably gives you the output you actually want. Here's what it means, why it works, and how to get good at it — with before-and-after examples.",
+  "keyTakeaways": [
+    "Prompt engineering is writing and structuring AI instructions so the model reliably produces the output you want.",
+    "It works because models respond to context, specificity, and structure — vague prompts get vague answers.",
+    "The core moves are: give context, assign a role, show an example, specify the format, and iterate.",
+    "It is still a valuable skill in 2026 — better models reward clear direction; they don't replace it.",
+    "You learn it by writing real prompts and adjusting based on results, not by memorizing prompt templates."
+  ],
+  "description": "Prompt engineering is the skill of structuring AI instructions to get reliably better output. A plain-English definition, why it works, before-and-after examples, and whether it still matters in 2026.",
+  "keywords": ["what is prompt engineering", "prompt engineering definition", "prompt engineering meaning", "prompt engineering examples", "is prompt engineering still relevant", "how to learn prompt engineering"],
+  "datePublished": "2026-06-01",
+  "dateModified": "2026-06-01",
+  "readingTime": 8,
+  "articleSection": "Prompt engineering",
+  "feedCategory": "Prompt engineering",
+  "feedTags": ["prompt engineering", "prompting", "AI skills"],
+  "inlineCtaAfter": 2,
+  "toc": [
+    { "href": "#definition", "label": "Definition" },
+    { "href": "#why", "label": "Why it works" },
+    { "href": "#moves", "label": "The core moves" },
+    { "href": "#example", "label": "Before & after" },
+    { "href": "#still-relevant", "label": "Still relevant in 2026?" },
+    { "href": "#learn", "label": "How to learn it" }
+  ],
+  "sections": [
+    {
+      "id": "definition",
+      "heading": "What is prompt engineering?",
+      "html": "<p><strong>Prompt engineering is the skill of writing and structuring the instructions you give an AI model so it reliably produces the output you actually want.</strong> A <a href=\"/glossary#prompt\">prompt</a> is the request you type; prompt engineering is doing it deliberately — adding the context, role, examples, and format that turn a vague answer into a useful one.</p><p>It is less about secret magic words and more about clear communication. The same model can produce a generic, useless reply or a sharp, exactly-right one depending entirely on how you ask. Prompt engineering is the difference between those two outcomes.</p>"
+    },
+    {
+      "id": "why",
+      "heading": "Why does prompt engineering work?",
+      "html": "<p>It works because a <a href=\"/glossary#llm\">large language model</a> generates its answer based on the text you give it. The model has no idea what you know, what you're trying to do, or what \"good\" looks like to you — unless you tell it. Everything you leave out, it has to guess, and it guesses toward the average.</p><p>So when you add specifics — who the answer is for, what role the model should play, an example of the format you want — you're narrowing the model's target from \"a plausible response\" to \"the response you need.\" More relevant context in means more relevant output out. That's the whole mechanism.</p>"
+    },
+    {
+      "id": "moves",
+      "heading": "The core moves of prompt engineering",
+      "html": "<p>Most of prompt engineering comes down to five repeatable moves. You rarely need all five at once — but knowing them means you always have a next lever to pull.</p><ol><li><strong>Give context.</strong> State the situation, the audience, and the goal. \"Write a follow-up email\" is weak; \"Write a short, warm follow-up email to a client who went quiet after a proposal\" is strong.</li><li><strong>Assign a role.</strong> \"You are an experienced copy editor\" primes the model to respond with that lens. Roles set tone and standards.</li><li><strong>Show an example.</strong> One or two samples of the output you want (<a href=\"/glossary#few-shot-prompting\">few-shot prompting</a>) teaches the model the shape better than any description.</li><li><strong>Specify the format.</strong> Ask for a table, three bullet points, a specific length, or a tone. Constraints make outputs usable.</li><li><strong>Iterate.</strong> Treat the first answer as a draft. \"Make it shorter and less formal\" gets you there faster than rewriting the prompt from scratch.</li></ol><p>Want the deeper, reusable versions of these? See <a href=\"/blog/prompt-engineering-patterns\">the 7 prompt patterns that work everywhere</a>.</p>"
+    },
+    {
+      "id": "example",
+      "heading": "Prompt engineering example: before and after",
+      "html": "<p>Here's the difference in practice. Same goal, same model.</p><p><strong>Weak prompt:</strong> \"Write a product description for my water bottle.\"</p><p>You'll get something generic and forgettable, because the model knows nothing about the bottle, the buyer, or your brand.</p><p><strong>Engineered prompt:</strong> \"You are a direct-response copywriter. Write a 50-word product description for an insulated steel water bottle aimed at hikers. Emphasize that it keeps water cold for 24 hours and survives drops. Tone: rugged and confident, no clichés. Give me two options.\"</p><p>Now the model has a role, an audience, the key benefits, a length, a tone, and a format. The output goes from filler to usable on the first try. Nothing about the model changed — only the instruction did. That gap <em>is</em> prompt engineering.</p>"
+    },
+    {
+      "id": "still-relevant",
+      "heading": "Is prompt engineering still relevant in 2026?",
+      "html": "<p>Yes — and the \"prompt engineering is dead\" headlines get it backwards. As models get more capable, they get <em>better at following clear direction</em>, which raises the payoff for giving it. A smarter model still can't read your mind; it still doesn't know your audience, your constraints, or your definition of good unless you supply them.</p><p>What's changing is that the basics are getting easier — you no longer need bizarre incantations to get a coherent answer. But the high-value layer of prompt engineering — context, judgment, knowing what to ask and how to evaluate the result — is becoming <em>more</em> important, not less, as AI gets woven into real work. It's a durable skill precisely because it's about communication, not any one model's quirks.</p>"
+    },
+    {
+      "id": "learn",
+      "heading": "How to learn prompt engineering",
+      "html": "<p>You learn prompt engineering the way you learn any skill: by doing it, getting feedback, and adjusting — not by collecting prompt templates you'll never reuse. The fastest path:</p><ul><li><strong>Practice on real tasks</strong> you actually need done, so you can judge whether the output is genuinely better.</li><li><strong>Change one thing at a time</strong> — add a role, then an example, then a format — and watch how each move changes the result.</li><li><strong>Do short daily reps.</strong> Five minutes a day of deliberate practice beats one long tutorial you forget by Monday.</li><li><strong>Build judgment, not just prompts</strong> — learning to spot a <a href=\"/glossary#hallucination\">hallucination</a> or a weak answer is half the skill.</li></ul><p>This is exactly what Iro AI's <a href=\"/prompt-engineering-app\">prompt engineering practice</a> drills — you write real prompts and get instant feedback on what to sharpen. New to all of it? Start with <a href=\"/blog/what-is-ai-fluency\">what AI fluency is</a> and the <a href=\"/blog/ai-for-beginners-30-day-plan\">30-day beginner plan</a>.</p>"
+    }
+  ],
+  "readNext": [
+    { "href": "/blog/prompt-engineering-patterns", "label": "The 7 prompt patterns that work everywhere" },
+    { "href": "/blog/why-your-ai-prompts-arent-working", "label": "Why your AI prompts aren't working" },
+    { "href": "/blog/what-is-ai-fluency", "label": "What is AI fluency?" },
+    { "href": "/quiz", "label": "Take the free AI IQ test" }
+  ],
+  "faq": [
+    {
+      "q": "What is prompt engineering in simple terms?",
+      "a": "Prompt engineering is writing your instructions to an AI clearly and deliberately — adding context, a role, examples, and a format — so it gives you the output you actually want instead of a generic guess. It's structured communication with the model, not secret magic words."
+    },
+    {
+      "q": "What is an example of prompt engineering?",
+      "a": "Instead of \"write a product description for my water bottle,\" an engineered prompt says: \"You are a direct-response copywriter. Write a 50-word description of an insulated steel water bottle for hikers, emphasizing 24-hour cold retention and durability, in a rugged tone. Give two options.\" The added role, audience, benefits, length, and format produce a far better result."
+    },
+    {
+      "q": "Is prompt engineering still relevant in 2026?",
+      "a": "Yes. More capable models follow clear direction better, which raises the value of giving it. The basics have gotten easier, but the high-value layer — context, judgment, and evaluating output — matters more as AI spreads into real work. It's a durable skill because it's about communication, not any one model."
+    },
+    {
+      "q": "How long does it take to learn prompt engineering?",
+      "a": "You can learn the core moves in a day and get genuinely good with a few weeks of short daily practice on real tasks. It's a skill built through reps and feedback, not by memorizing templates."
+    }
+  ],
+  "related": [
+    "/blog/prompt-engineering-patterns",
+    "/blog/why-your-ai-prompts-arent-working",
+    "/blog/what-is-ai-fluency",
+    "/blog/how-to-learn-chatgpt-in-2026",
+    "/prompt-engineering-app",
+    "/glossary",
+    "/quiz"
+  ]
+}

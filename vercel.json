@@ -536,6 +536,10 @@
     {
       "source": "/blog/what-is-ai-fluency",
       "destination": "/blog/what-is-ai-fluency.html"
+    },
+    {
+      "source": "/blog/what-is-prompt-engineering",
+      "destination": "/blog/what-is-prompt-engineering.html"
     }
   ]
 }
