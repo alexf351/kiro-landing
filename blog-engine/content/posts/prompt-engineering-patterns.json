@@ -75,7 +75,7 @@
     {
       "id": "p2",
       "heading": "2. Few-shot with anchors",
-      "html": "<p>For tasks where style matters more than reasoning — classifications, rewrites, tone-matching — give the model two or three examples that bracket the kind of output you want, then ask for the next one in the same shape.</p><p>The trick is <em>anchoring</em>: pick examples that span the range. Don't give three nearly-identical examples. Give a clearly-easy one, a clearly-hard one, and a middle one. The model learns the structure, not the surface.</p>"
+      "html": "<p>For tasks where style matters more than reasoning — classifications, rewrites, tone-matching — give the model two or three examples that bracket the kind of output you want, then ask for the next one in the same shape.</p><p>The trick is <em>anchoring</em>: pick examples that span the range. Don't give three nearly-identical examples. Give a clearly-easy one, a clearly-hard one, and a middle one. The model learns the structure, not the surface.</p><p>Few-shot prompting works because large language models are strong in-context learners by design — the behavior OpenAI documented in <a href=\"https://arxiv.org/abs/2005.14165\" rel=\"nofollow noopener\" target=\"_blank\">“Language Models are Few-Shot Learners”</a> (Brown et al., 2020).</p>"
     },
     {
       "id": "p3",
@@ -90,7 +90,7 @@
     {
       "id": "p5",
       "heading": "5. Decomposition",
-      "html": "<p>For anything complex, don't ask for the whole answer in one prompt. Ask the model to <em>plan</em> the answer first, then execute the plan in subsequent turns.</p><p>This is the basis of <a href=\"/ai-agents-course\">agentic workflows</a>: break a goal into named steps, do each step, gate progress on review. It's also what makes long answers actually useful — without decomposition, the model loses the thread halfway through.</p>"
+      "html": "<p>For anything complex, don't ask for the whole answer in one prompt. Ask the model to <em>plan</em> the answer first, then execute the plan in subsequent turns.</p><p>This is the basis of <a href=\"/ai-agents-course\">agentic workflows</a>: break a goal into named steps, do each step, gate progress on review. It's also what makes long answers actually useful — without decomposition, the model loses the thread halfway through.</p><p>Breaking a problem into steps measurably improves accuracy on complex tasks — the core finding behind <a href=\"https://arxiv.org/abs/2201.11903\" rel=\"nofollow noopener\" target=\"_blank\">chain-of-thought prompting</a> (Wei et al., 2022).</p>"
     },
     {
       "id": "p6",

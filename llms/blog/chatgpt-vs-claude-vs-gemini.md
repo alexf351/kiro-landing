@@ -48,17 +48,23 @@ The quick version, before the detail:
 
 **Falls short:** it can be confidently wrong, and its answers are often longer than they need to be. Treat the first draft as a starting point, not the finish line. New to it? Start with [how to actually learn ChatGPT](/blog/how-to-learn-chatgpt-in-2026), and the [ChatGPT path](/learn-chatgpt) in Iro AI drills the habits.
 
+Official page: [OpenAI ChatGPT](https://openai.com/chatgpt/).
+
 ## Claude: best for long, careful work
 
 **Best for:** long documents, multi-page edits, careful reasoning, and code review. Paste a 30-page PDF or a messy codebase and Claude tends to stay coherent where others drift.
 
 **Falls short:** smaller free limits than ChatGPT, and it can be more cautious or verbose on simple tasks. Reach for it when the input is big or the stakes are high. Iro AI has a dedicated [Claude path](/learn-claude).
 
+Official page: [Anthropic Claude](https://www.anthropic.com/claude).
+
 ## Gemini: best inside Google
 
 **Best for:** anything already inside Google. Gemini lives in Docs, Gmail, and Sheets, so it is the natural choice when your work is there and you want AI in the same window.
 
 **Falls short:** as a standalone chat it is less often the favorite, and quality varies more by task. Use it where the Google integration saves you copy-paste. See the [Gemini path](/learn-gemini).
+
+Official page: [Google Gemini](https://gemini.google.com/).
 
 ## How to choose (a simple rule)
 

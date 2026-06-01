@@ -57,6 +57,8 @@ For tasks where style matters more than reasoning — classifications, rewrites,
 
 The trick is _anchoring_: pick examples that span the range. Don't give three nearly-identical examples. Give a clearly-easy one, a clearly-hard one, and a middle one. The model learns the structure, not the surface.
 
+Few-shot prompting works because large language models are strong in-context learners by design — the behavior OpenAI documented in [“Language Models are Few-Shot Learners”](https://arxiv.org/abs/2005.14165) (Brown et al., 2020).
+
 ## 3. Output format contract
 
 Specify the output shape up front. Not as a wish — as a contract.
@@ -78,6 +80,8 @@ This costs you a few seconds and almost always improves the answer. It works bec
 For anything complex, don't ask for the whole answer in one prompt. Ask the model to _plan_ the answer first, then execute the plan in subsequent turns.
 
 This is the basis of [agentic workflows](/ai-agents-course): break a goal into named steps, do each step, gate progress on review. It's also what makes long answers actually useful — without decomposition, the model loses the thread halfway through.
+
+Breaking a problem into steps measurably improves accuracy on complex tasks — the core finding behind [chain-of-thought prompting](https://arxiv.org/abs/2201.11903) (Wei et al., 2022).
 
 ## 6. Comparison prompt
 

@@ -70,17 +70,17 @@
     {
       "id": "chatgpt",
       "heading": "ChatGPT: the best default",
-      "html": "<p><strong>Best for:</strong> general writing, brainstorming, quick drafts, everyday questions, and learning. ChatGPT has the largest free tier, the most polish, and the easiest help to find when you are stuck.</p><p><strong>Falls short:</strong> it can be confidently wrong, and its answers are often longer than they need to be. Treat the first draft as a starting point, not the finish line. New to it? Start with <a href=\"/blog/how-to-learn-chatgpt-in-2026\">how to actually learn ChatGPT</a>, and the <a href=\"/learn-chatgpt\">ChatGPT path</a> in Iro AI drills the habits.</p>"
+      "html": "<p><strong>Best for:</strong> general writing, brainstorming, quick drafts, everyday questions, and learning. ChatGPT has the largest free tier, the most polish, and the easiest help to find when you are stuck.</p><p><strong>Falls short:</strong> it can be confidently wrong, and its answers are often longer than they need to be. Treat the first draft as a starting point, not the finish line. New to it? Start with <a href=\"/blog/how-to-learn-chatgpt-in-2026\">how to actually learn ChatGPT</a>, and the <a href=\"/learn-chatgpt\">ChatGPT path</a> in Iro AI drills the habits.</p><p>Official page: <a href=\"https://openai.com/chatgpt/\" rel=\"nofollow noopener\" target=\"_blank\">OpenAI ChatGPT</a>.</p>"
     },
     {
       "id": "claude",
       "heading": "Claude: best for long, careful work",
-      "html": "<p><strong>Best for:</strong> long documents, multi-page edits, careful reasoning, and code review. Paste a 30-page PDF or a messy codebase and Claude tends to stay coherent where others drift.</p><p><strong>Falls short:</strong> smaller free limits than ChatGPT, and it can be more cautious or verbose on simple tasks. Reach for it when the input is big or the stakes are high. Iro AI has a dedicated <a href=\"/learn-claude\">Claude path</a>.</p>"
+      "html": "<p><strong>Best for:</strong> long documents, multi-page edits, careful reasoning, and code review. Paste a 30-page PDF or a messy codebase and Claude tends to stay coherent where others drift.</p><p><strong>Falls short:</strong> smaller free limits than ChatGPT, and it can be more cautious or verbose on simple tasks. Reach for it when the input is big or the stakes are high. Iro AI has a dedicated <a href=\"/learn-claude\">Claude path</a>.</p><p>Official page: <a href=\"https://www.anthropic.com/claude\" rel=\"nofollow noopener\" target=\"_blank\">Anthropic Claude</a>.</p>"
     },
     {
       "id": "gemini",
       "heading": "Gemini: best inside Google",
-      "html": "<p><strong>Best for:</strong> anything already inside Google. Gemini lives in Docs, Gmail, and Sheets, so it is the natural choice when your work is there and you want AI in the same window.</p><p><strong>Falls short:</strong> as a standalone chat it is less often the favorite, and quality varies more by task. Use it where the Google integration saves you copy-paste. See the <a href=\"/learn-gemini\">Gemini path</a>.</p>"
+      "html": "<p><strong>Best for:</strong> anything already inside Google. Gemini lives in Docs, Gmail, and Sheets, so it is the natural choice when your work is there and you want AI in the same window.</p><p><strong>Falls short:</strong> as a standalone chat it is less often the favorite, and quality varies more by task. Use it where the Google integration saves you copy-paste. See the <a href=\"/learn-gemini\">Gemini path</a>.</p><p>Official page: <a href=\"https://gemini.google.com/\" rel=\"nofollow noopener\" target=\"_blank\">Google Gemini</a>.</p>"
     },
     {
       "id": "choose",
