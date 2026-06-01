@@ -171,4 +171,14 @@
       <image:title>Iro AI vs Duolingo: the "Duolingo for AI," explained</image:title>
     </image:image>
   </url>
+  <url>
+    <loc>https://tryiro.com/blog/what-is-ai-fluency</loc>
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://tryiro.com/assets/og/what-is-ai-fluency.png</image:loc>
+      <image:title>What is AI fluency? A practical definition (and how to build it)</image:title>
+    </image:image>
+  </url>
 </urlset>
