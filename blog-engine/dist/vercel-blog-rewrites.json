@@ -59,6 +59,14 @@
     {
       "source": "/blog/iro-ai-vs-learnova",
       "destination": "/blog/iro-ai-vs-learnova.html"
+    },
+    {
+      "source": "/blog/iro-ai-vs-brilliant",
+      "destination": "/blog/iro-ai-vs-brilliant.html"
+    },
+    {
+      "source": "/blog/iro-ai-vs-duolingo",
+      "destination": "/blog/iro-ai-vs-duolingo.html"
     }
   ]
 }

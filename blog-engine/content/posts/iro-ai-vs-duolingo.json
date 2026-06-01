@@ -1,0 +1,83 @@
+{
+  "slug": "iro-ai-vs-duolingo",
+  "order": 13,
+  "pillar": "ai-fluency",
+  "title": "Iro AI vs Duolingo: the \"Duolingo for AI,\" explained",
+  "lede": "People call Iro \"the Duolingo for AI\" for a reason — same addictive method, completely different subject. Here's how they compare.",
+  "description": "Iro AI vs Duolingo in 2026: how the gamified-learning method that made Duolingo famous applies to learning AI tools — and why they're not actually competitors.",
+  "keywords": ["Iro AI vs Duolingo", "Duolingo for AI", "gamified AI learning", "learn AI like Duolingo", "best AI learning app 2026"],
+  "datePublished": "2026-06-01",
+  "dateModified": "2026-06-01",
+  "readingTime": 6,
+  "articleSection": "AI fluency",
+  "feedCategory": "AI learning apps",
+  "feedTags": ["AI learning", "Duolingo", "gamification"],
+  "inlineCtaAfter": 2,
+  "toc": [
+    { "href": "#tldr", "label": "TL;DR" },
+    { "href": "#at-a-glance", "label": "At a glance" },
+    { "href": "#method", "label": "The method they share" },
+    { "href": "#subject", "label": "The subject that differs" },
+    { "href": "#choose", "label": "Which to choose" }
+  ],
+  "sections": [
+    {
+      "id": "tldr",
+      "heading": "TL;DR",
+      "html": "<ul><li><strong>Duolingo</strong> teaches <em>languages</em> with short, gamified daily lessons, streaks, and XP.</li><li><strong>Iro AI</strong> borrows that exact method and points it at a different subject: <em>using AI tools</em> like ChatGPT, Claude, and Gemini well.</li><li>They aren't competitors — you'd never choose one \"instead of\" the other. If you want to learn a language, use Duolingo. If you want to get good at AI, use Iro AI.</li><li>The shared idea is the important part: short daily practice with feedback beats long passive courses, whatever the subject.</li></ul>"
+    },
+    {
+      "id": "at-a-glance",
+      "heading": "At a glance",
+      "html": "<p>The quick version, before the detail:</p><div class=\"cmp-wrap\"><table class=\"cmp-table\"><thead><tr><th></th><th>Iro AI</th><th>Duolingo</th></tr></thead><tbody><tr><th>Subject</th><td>Using AI tools — prompting, ChatGPT, Claude, Gemini, agents</td><td>Languages — Spanish, French, Japanese, and dozens more</td></tr><tr><th>Method</th><td>Short daily drills, streaks, XP, rank tiers</td><td>Short daily lessons, streaks, XP, leagues</td></tr><tr><th>Why it works</th><td>Active practice + feedback beats passive video</td><td>Active practice + repetition beats rote study</td></tr><tr><th>Best for</th><td>Building real AI fluency in 5 minutes a day</td><td>Building language skills in 5 minutes a day</td></tr><tr><th>Pricing style</th><td>Free tier + one annual price; free AI IQ test</td><td>Free tier + Super/Max subscription</td></tr></tbody></table></div><p class=\"note\">Duolingo details reflect publicly available information and may change — always check current terms.</p>"
+    },
+    {
+      "id": "method",
+      "heading": "The method they share",
+      "html": "<p>Duolingo proved something important to hundreds of millions of people: you learn far more from five focused minutes a day — answering, getting instant feedback, keeping a streak — than from an hour of passive video you forget by morning. Short reps, fast feedback, and a reason to come back tomorrow.</p><p>Iro AI is built on that same loop. Drills instead of lectures, instant feedback instead of a quiz at the end, streaks and rank tiers instead of a progress bar you abandon. That's why people call it <a href=\"/duolingo-for-ai\">the Duolingo for AI</a> — and why it works for a skill, AI fluency, that most courses teach in exactly the wrong way.</p>"
+    },
+    {
+      "id": "subject",
+      "heading": "The subject that differs",
+      "html": "<p>Here's the obvious-but-important part: Duolingo doesn't teach AI, and Iro doesn't teach French. They aren't substitutes. Duolingo is the right tool for learning a language. Iro AI is the right tool for learning to actually use AI — writing prompts that work, picking the right model, spotting <a href=\"/blog/spot-ai-hallucinations\">hallucinations</a>, and turning AI into real leverage at work.</p><p>So the honest comparison isn't \"which is better.\" It's \"same proven method, applied to the skill you actually want.\" If that skill is AI, the <a href=\"/quiz\">free AI IQ test</a> shows you where to start.</p>"
+    },
+    {
+      "id": "choose",
+      "heading": "Which one should you choose?",
+      "html": "<p>This one's easy:</p><ul><li><strong>Want to learn a language?</strong> <strong>Duolingo.</strong> It's the best at what it does.</li><li><strong>Want to get good at AI tools?</strong> <strong>Iro AI.</strong> Same daily-habit method, pointed at AI fluency.</li><li><strong>Love the Duolingo style and want it for AI?</strong> That's literally what Iro is built to be.</li></ul><p>Start with the <a href=\"/quiz\">free AI IQ test</a> to see your AI skill level, then build the habit. Curious how Iro stacks up against actual AI-learning apps? See <a href=\"/blog/iro-ai-vs-coursiv\">Iro AI vs Coursiv</a> and <a href=\"/blog/iro-ai-vs-brilliant\">Iro AI vs Brilliant</a>.</p>"
+    }
+  ],
+  "readNext": [
+    { "href": "/blog/iro-ai-vs-brilliant", "label": "Iro AI vs Brilliant: which gets you good at AI?" },
+    { "href": "/blog/iro-ai-vs-coursiv", "label": "Iro AI vs Coursiv: which AI learning app is right for you?" },
+    { "href": "/blog/ai-for-beginners-30-day-plan", "label": "The 30-day AI plan for complete beginners" },
+    { "href": "/quiz", "label": "Take the free AI IQ test" }
+  ],
+  "faq": [
+    {
+      "q": "Is Iro AI really \"the Duolingo for AI\"?",
+      "a": "That's the idea behind it: Iro uses the same gamified daily-practice method Duolingo made famous — short drills, streaks, XP, instant feedback — but applies it to learning AI tools like ChatGPT, Claude, and Gemini instead of languages."
+    },
+    {
+      "q": "Does Duolingo teach you AI or ChatGPT?",
+      "a": "No. Duolingo teaches languages. It uses AI under the hood for its lessons, but it doesn't teach you to use AI tools. For that, Iro AI's tool-specific paths are purpose-built."
+    },
+    {
+      "q": "Should I use Duolingo or Iro AI?",
+      "a": "They're not substitutes — pick by subject. Use Duolingo to learn a language and Iro AI to learn AI tools. Many people happily use both, since each is a five-minute daily habit."
+    },
+    {
+      "q": "Why does the Duolingo method work for learning AI?",
+      "a": "Because AI fluency is a skill, and skills stick through active practice and recall, not passive watching. Short daily drills with feedback — the Duolingo loop — are exactly how you build a skill. That's the method Iro AI is built on."
+    }
+  ],
+  "related": [
+    "/blog/iro-ai-vs-brilliant",
+    "/blog/iro-ai-vs-coursiv",
+    "/blog/iro-ai-vs-learnova",
+    "/blog/ai-for-beginners-30-day-plan",
+    "/duolingo-for-ai",
+    "/quiz",
+    "/learn-chatgpt"
+  ]
+}

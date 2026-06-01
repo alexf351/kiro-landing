@@ -5,7 +5,7 @@
   <link rel="self" href="https://tryiro.com/blog/atom.xml" type="application/atom+xml"/>
   <link rel="alternate" href="https://tryiro.com/blog" type="text/html"/>
   <id>https://tryiro.com/blog/atom.xml</id>
-  <updated>2026-05-31T00:00:00Z</updated>
+  <updated>2026-06-01T00:00:00Z</updated>
   <rights>© 2026 Iro AI</rights>
   <author><name>Iro AI</name><uri>https://tryiro.com</uri></author>
   <icon>https://tryiro.com/assets/favicon-64.png</icon>
@@ -119,5 +119,25 @@
     <author><name>Iro AI</name></author>
     <category term="AI learning apps"/>
     <summary>Two mobile apps that teach you AI tools — but one has you reading lessons and one has you practicing. Here's how to choose.</summary>
+  </entry>
+  <entry>
+    <title>Iro AI vs Brilliant: which should you use to actually get good at AI?</title>
+    <id>https://tryiro.com/blog/iro-ai-vs-brilliant</id>
+    <link href="https://tryiro.com/blog/iro-ai-vs-brilliant"/>
+    <updated>2026-06-01T00:00:00Z</updated>
+    <published>2026-06-01T00:00:00Z</published>
+    <author><name>Iro AI</name></author>
+    <category term="AI learning apps"/>
+    <summary>Both are gamified, both are excellent at what they do — but they teach two very different things. Here's how to pick.</summary>
+  </entry>
+  <entry>
+    <title>Iro AI vs Duolingo: the "Duolingo for AI," explained</title>
+    <id>https://tryiro.com/blog/iro-ai-vs-duolingo</id>
+    <link href="https://tryiro.com/blog/iro-ai-vs-duolingo"/>
+    <updated>2026-06-01T00:00:00Z</updated>
+    <published>2026-06-01T00:00:00Z</published>
+    <author><name>Iro AI</name></author>
+    <category term="AI learning apps"/>
+    <summary>People call Iro "the Duolingo for AI" for a reason — same addictive method, completely different subject. Here's how they compare.</summary>
   </entry>
 </feed>

@@ -1,0 +1,89 @@
+{
+  "slug": "iro-ai-vs-brilliant",
+  "order": 12,
+  "pillar": "ai-fluency",
+  "title": "Iro AI vs Brilliant: which should you use to actually get good at AI?",
+  "lede": "Both are gamified, both are excellent at what they do — but they teach two very different things. Here's how to pick.",
+  "description": "An honest Iro AI vs Brilliant comparison for 2026: Brilliant teaches the math and concepts behind AI; Iro AI teaches you to use AI tools for real work. Which fits your goal.",
+  "keywords": ["Iro AI vs Brilliant", "Brilliant alternative", "Brilliant AI course", "learn AI app", "best app to learn AI 2026"],
+  "datePublished": "2026-06-01",
+  "dateModified": "2026-06-01",
+  "readingTime": 7,
+  "articleSection": "AI fluency",
+  "feedCategory": "AI learning apps",
+  "feedTags": ["AI learning", "Brilliant", "app comparison"],
+  "inlineCtaAfter": 2,
+  "toc": [
+    { "href": "#tldr", "label": "TL;DR" },
+    { "href": "#at-a-glance", "label": "At a glance" },
+    { "href": "#brilliant", "label": "What Brilliant is great at" },
+    { "href": "#iro", "label": "What Iro AI is for" },
+    { "href": "#together", "label": "Why they pair well" },
+    { "href": "#choose", "label": "Which to choose" }
+  ],
+  "sections": [
+    {
+      "id": "tldr",
+      "heading": "TL;DR",
+      "html": "<ul><li><strong>Brilliant</strong> teaches the <em>foundations</em> — math, logic, probability, and how neural networks work under the hood — through interactive problem-solving.</li><li><strong>Iro AI</strong> teaches the <em>applied skill</em> — actually using ChatGPT, Claude, Gemini and other tools to get real work done.</li><li>They are not really rivals. Brilliant makes you understand AI; Iro AI makes you good at using it.</li><li>If your goal is \"use AI well at work or in daily life,\" start with Iro AI. If you want to understand the science beneath it, Brilliant is superb.</li></ul>"
+    },
+    {
+      "id": "at-a-glance",
+      "heading": "At a glance",
+      "html": "<p>The quick version, before the detail:</p><div class=\"cmp-wrap\"><table class=\"cmp-table\"><thead><tr><th></th><th>Iro AI</th><th>Brilliant</th></tr></thead><tbody><tr><th>What it teaches</th><td>Using AI tools — prompting, ChatGPT, Claude, Gemini, agents</td><td>Math, logic, CS, and the concepts behind AI/ML</td></tr><tr><th>Goal</th><td>Practical AI fluency for work and daily life</td><td>Deep conceptual understanding of how things work</td></tr><tr><th>Format</th><td>Game-like drills, streaks, rank tiers, mobile-first</td><td>Interactive, hands-on problem-solving, mobile-first</td></tr><tr><th>Best for</th><td>Getting results from AI tools today</td><td>Building first-principles understanding</td></tr><tr><th>Pricing style</th><td>One annual price + 7-day free trial; free AI IQ test</td><td>Subscription with a free trial</td></tr></tbody></table></div><p class=\"note\">Brilliant details reflect publicly available information and may change — always check current terms before subscribing to any app, including ours.</p>"
+    },
+    {
+      "id": "brilliant",
+      "heading": "What Brilliant is great at",
+      "html": "<p>Brilliant is one of the best learning apps ever made for <em>understanding things</em>. Instead of lectures, it teaches math, logic, probability, computer science, and the ideas behind neural networks through interactive puzzles you solve step by step. If you have ever wanted to genuinely understand what a model is doing — not just use it — Brilliant is hard to beat.</p><p>For students, engineers, and the endlessly curious, that conceptual depth is the whole point. It builds the kind of first-principles intuition that lasts.</p>"
+    },
+    {
+      "id": "iro",
+      "heading": "What Iro AI is for",
+      "html": "<p>Iro AI answers a different question: <em>how do I actually use these tools to get something done?</em> Not the math behind a transformer — the practical skill of writing a prompt that works, choosing the right model, catching a hallucination, and chaining steps into a result. It is built like a game: short drills, instant feedback, streaks, and rank tiers, organized into paths for the tools people really use — <a href=\"/learn-chatgpt\">ChatGPT</a>, <a href=\"/learn-claude\">Claude</a>, <a href=\"/learn-gemini\">Gemini</a>, and more.</p><p>You can see where you stand in a few minutes with the <a href=\"/quiz\">free AI IQ test</a>, then close the gaps. New to all this? Start with <a href=\"/blog/ai-for-beginners-30-day-plan\">the 30-day AI plan for beginners</a>.</p>"
+    },
+    {
+      "id": "together",
+      "heading": "Why they actually pair well",
+      "html": "<p>Here is the honest truth most comparison posts miss: these two are complements, not competitors. Brilliant builds the <em>understanding</em>; Iro AI builds the <em>fluency</em>. Knowing how a neural network learns won't write you a great prompt — and writing great prompts doesn't require knowing the calculus. The strongest learners do both: understand the machine, then practice using it until it's second nature.</p><p>If you only have time for one, pick based on your goal. If you want both, they reinforce each other beautifully.</p>"
+    },
+    {
+      "id": "choose",
+      "heading": "Which one should you choose?",
+      "html": "<p>A simple way to decide:</p><ul><li><strong>Want to use AI well at work, school, or daily life?</strong> <strong>Iro AI.</strong> It drills the applied skill directly.</li><li><strong>Want to understand the math and science underneath AI?</strong> <strong>Brilliant.</strong> Nothing teaches concepts better.</li><li><strong>Want both?</strong> Use Brilliant for the theory and Iro AI for the practice — they don't overlap.</li></ul><p>Either way, start free: the <a href=\"/quiz\">AI IQ test</a> takes a few minutes and shows you exactly which applied skills to build next. Comparing other apps too? See <a href=\"/blog/iro-ai-vs-coursiv\">Iro AI vs Coursiv</a> and <a href=\"/blog/iro-ai-vs-duolingo\">Iro AI vs Duolingo</a>.</p>"
+    }
+  ],
+  "readNext": [
+    { "href": "/blog/iro-ai-vs-duolingo", "label": "Iro AI vs Duolingo: the Duolingo for AI, explained" },
+    { "href": "/blog/iro-ai-vs-coursiv", "label": "Iro AI vs Coursiv: which AI learning app is right for you?" },
+    { "href": "/blog/ai-for-beginners-30-day-plan", "label": "The 30-day AI plan for complete beginners" },
+    { "href": "/quiz", "label": "Take the free AI IQ test" }
+  ],
+  "faq": [
+    {
+      "q": "Is Iro AI a good Brilliant alternative?",
+      "a": "It depends on your goal. They teach different things: Brilliant teaches the math and concepts behind AI, while Iro AI teaches you to use AI tools like ChatGPT and Claude for real work. If your goal is practical AI fluency, Iro AI is the better fit; if it's conceptual depth, Brilliant is."
+    },
+    {
+      "q": "Does Brilliant teach you to use ChatGPT?",
+      "a": "Brilliant focuses on foundations — math, logic, CS, and how AI/ML works conceptually — rather than hands-on skills with specific tools like ChatGPT or Claude. For drilling those applied skills, Iro AI's tool-specific paths are purpose-built for it."
+    },
+    {
+      "q": "Can I use both Brilliant and Iro AI?",
+      "a": "Yes, and they pair well. Brilliant builds the understanding of how AI works; Iro AI builds the fluency to use it. They don't overlap, so using both gives you theory and practice."
+    },
+    {
+      "q": "Which is better for a complete beginner to AI tools?",
+      "a": "For someone who just wants to use AI tools confidently, Iro AI is the more direct path — it drills prompting and tool use from zero. Start with the free AI IQ test, then the 30-day beginner plan."
+    }
+  ],
+  "related": [
+    "/blog/iro-ai-vs-duolingo",
+    "/blog/iro-ai-vs-coursiv",
+    "/blog/iro-ai-vs-learnova",
+    "/blog/ai-for-beginners-30-day-plan",
+    "/learn-chatgpt",
+    "/learn-claude",
+    "/quiz"
+  ]
+}
