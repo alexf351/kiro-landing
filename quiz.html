@@ -768,6 +768,24 @@ body{
 /* Nav entrance */
 .quiz-nav{animation:navSlideIn .5s cubic-bezier(.25,1,.5,1) both}
 @keyframes navSlideIn{from{opacity:0;transform:translateY(-10px)}to{opacity:1;transform:translateY(0)}}
+
+/* Short viewports (e.g. landscape laptops): compress the intro so the CTA
+   stays above the fold. The mascot stage is scaled as one unit and the freed
+   space reclaimed with a negative margin. */
+@media(max-height:900px){
+  body{padding-top:68px}
+  .intro-stage{transform:scale(.72);transform-origin:center top;margin:0 auto -64px}
+  .intro-badge-row{margin-bottom:18px}
+  .quiz-intro h1{margin-bottom:14px}
+  .quiz-intro p{margin-bottom:24px}
+}
+@media(max-height:740px){
+  body{padding-top:64px}
+  .intro-stage{transform:scale(.56);transform-origin:center top;margin:0 auto -108px}
+  .intro-badge-row{margin-bottom:12px}
+  .quiz-intro h1{font-size:clamp(28px,4.4vw,40px);margin-bottom:10px}
+  .quiz-intro p{font-size:15px;margin-bottom:16px}
+}
 @media(max-width:768px){
   .page-hud-coord{display:none}
 }
