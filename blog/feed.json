@@ -159,6 +159,18 @@
         "Duolingo",
         "gamification"
       ]
+    },
+    {
+      "id": "https://tryiro.com/blog/what-is-ai-fluency",
+      "url": "https://tryiro.com/blog/what-is-ai-fluency",
+      "title": "What is AI fluency? A practical definition (and how to build it)",
+      "summary": "AI fluency is the practical ability to use, direct, and judge AI tools well enough to get reliably better results than you would without them. Here's what it actually means — and how to build it in a few minutes a day.",
+      "date_published": "2026-06-01T00:00:00Z",
+      "tags": [
+        "AI fluency",
+        "AI literacy",
+        "learning AI"
+      ]
     }
   ]
 }

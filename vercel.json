@@ -532,6 +532,10 @@
     {
       "source": "/blog/iro-ai-vs-duolingo",
       "destination": "/blog/iro-ai-vs-duolingo.html"
+    },
+    {
+      "source": "/blog/what-is-ai-fluency",
+      "destination": "/blog/what-is-ai-fluency.html"
     }
   ]
 }
