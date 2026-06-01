@@ -59,7 +59,6 @@
     {
       "source": "/blog/iro-ai-vs-learnova",
       "destination": "/blog/iro-ai-vs-learnova.html"
-<<<<<<< HEAD
     },
     {
       "source": "/blog/iro-ai-vs-brilliant",
@@ -68,8 +67,6 @@
     {
       "source": "/blog/iro-ai-vs-duolingo",
       "destination": "/blog/iro-ai-vs-duolingo.html"
-=======
->>>>>>> origin/master
     }
   ]
 }
