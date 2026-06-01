@@ -135,6 +135,30 @@
         "Learnova",
         "app comparison"
       ]
+    },
+    {
+      "id": "https://tryiro.com/blog/iro-ai-vs-brilliant",
+      "url": "https://tryiro.com/blog/iro-ai-vs-brilliant",
+      "title": "Iro AI vs Brilliant: which should you use to actually get good at AI?",
+      "summary": "Both are gamified, both are excellent at what they do — but they teach two very different things. Here's how to pick.",
+      "date_published": "2026-06-01T00:00:00Z",
+      "tags": [
+        "AI learning",
+        "Brilliant",
+        "app comparison"
+      ]
+    },
+    {
+      "id": "https://tryiro.com/blog/iro-ai-vs-duolingo",
+      "url": "https://tryiro.com/blog/iro-ai-vs-duolingo",
+      "title": "Iro AI vs Duolingo: the \"Duolingo for AI,\" explained",
+      "summary": "People call Iro \"the Duolingo for AI\" for a reason — same addictive method, completely different subject. Here's how they compare.",
+      "date_published": "2026-06-01T00:00:00Z",
+      "tags": [
+        "AI learning",
+        "Duolingo",
+        "gamification"
+      ]
     }
   ]
 }

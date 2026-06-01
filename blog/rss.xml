@@ -9,7 +9,7 @@
     <description>Short, practical writing on AI fluency, prompting, AI tools, and the active-practice method that beats endless video courses.</description>
     <language>en-US</language>
     <atom:link href="https://tryiro.com/blog/rss.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Sun, 31 May 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 01 Jun 2026 00:00:00 GMT</lastBuildDate>
     <generator>tryiro.com</generator>
     <copyright>© 2026 Iro AI</copyright>
     <image>
@@ -115,6 +115,24 @@
       <dc:creator>Iro AI</dc:creator>
       <category>AI learning apps</category>
       <description>An honest Iro AI vs Learnova comparison for 2026: how the two AI learning apps differ on teaching style, hands-on practice, pricing, and who each one suits best.</description>
+    </item>
+    <item>
+      <title>Iro AI vs Brilliant: which should you use to actually get good at AI?</title>
+      <link>https://tryiro.com/blog/iro-ai-vs-brilliant</link>
+      <guid isPermaLink="true">https://tryiro.com/blog/iro-ai-vs-brilliant</guid>
+      <pubDate>Mon, 01 Jun 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Iro AI</dc:creator>
+      <category>AI learning apps</category>
+      <description>An honest Iro AI vs Brilliant comparison for 2026: Brilliant teaches the math and concepts behind AI; Iro AI teaches you to use AI tools for real work. Which fits your goal.</description>
+    </item>
+    <item>
+      <title>Iro AI vs Duolingo: the "Duolingo for AI," explained</title>
+      <link>https://tryiro.com/blog/iro-ai-vs-duolingo</link>
+      <guid isPermaLink="true">https://tryiro.com/blog/iro-ai-vs-duolingo</guid>
+      <pubDate>Mon, 01 Jun 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Iro AI</dc:creator>
+      <category>AI learning apps</category>
+      <description>Iro AI vs Duolingo in 2026: how the gamified-learning method that made Duolingo famous applies to learning AI tools — and why they're not actually competitors.</description>
     </item>
   </channel>
 </rss>
