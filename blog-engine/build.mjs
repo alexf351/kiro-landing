@@ -114,7 +114,7 @@ const pillarUrl = (p) => `${D}/blog/${p.slug}`;
 const og = (slug) => `${D}/assets/og/${slug}.png`;
 
 // ---------- shared chrome ----------
-const STYLE = `*{box-sizing:border-box}body{margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:#0A0E1A;color:#fff;line-height:1.75}a{color:#00E5FF;text-decoration:none}a:hover{text-decoration:underline}.page{min-height:100vh;background:radial-gradient(circle at 20% 0%,rgba(0,229,255,.16),transparent 34rem),radial-gradient(circle at 80% 10%,rgba(255,215,0,.08),transparent 30rem),#0A0E1A}.nav{position:sticky;top:0;z-index:10;display:flex;align-items:center;justify-content:space-between;gap:24px;padding:18px clamp(20px,5vw,64px);background:rgba(10,14,26,.82);backdrop-filter:blur(18px);border-bottom:1px solid rgba(255,255,255,.06)}.brand{display:flex;align-items:center;gap:10px;color:#fff;font-weight:900}.brand img{width:32px;height:32px;border-radius:9px}.nav-links{display:flex;gap:16px;flex-wrap:wrap;font-size:.95rem}.nav-links a{color:#C9D2EA}.hero,.content,.related,.faq{max-width:760px;margin:0 auto;padding:clamp(28px,5vw,56px) clamp(20px,5vw,36px)}.hero{padding-top:clamp(48px,8vw,96px)}.eyebrow{color:#00E5FF;text-transform:uppercase;letter-spacing:.14em;font-size:.78rem;font-weight:900;margin:0 0 14px}.hero h1{font-size:clamp(2rem,5vw,3.4rem);line-height:1.1;letter-spacing:-.04em;margin:0 0 18px}.lede{color:#C9D2EA;font-size:clamp(1.05rem,2vw,1.2rem);margin:0 0 22px;line-height:1.7}.meta{color:#8B95B0;font-size:.92rem;font-family:JetBrains Mono,ui-monospace,Menlo,monospace;display:flex;gap:18px;flex-wrap:wrap;margin-bottom:24px}.hero-img{width:100%;border-radius:18px;border:1px solid rgba(255,255,255,.08);margin:8px 0 20px;display:block}.content h2{font-size:clamp(1.4rem,3vw,2rem);margin:42px 0 12px;letter-spacing:-.02em;color:#fff;scroll-margin-top:72px}.content h3{font-size:1.18rem;margin:28px 0 10px;letter-spacing:-.01em;color:#fff}.content p,.content li{color:#CFD6EA;font-size:1.04rem}.content p{margin:0 0 16px}.content ul,.content ol{margin:0 0 16px;padding-left:22px}.content li{margin:6px 0}.content blockquote{margin:18px 0;padding:14px 18px;border-left:3px solid #00E5FF;background:rgba(0,229,255,.05);border-radius:0 14px 14px 0;color:#E6ECF8}.content code{background:rgba(0,229,255,.08);border:1px solid rgba(0,229,255,.18);padding:1px 6px;border-radius:6px;font-size:.92em;color:#CFF8FF}.toc{background:rgba(20,27,45,.7);border:1px solid rgba(255,255,255,.08);border-radius:18px;padding:18px 22px;margin:0 0 22px;font-size:.95rem}.toc strong{color:#fff;display:block;margin-bottom:6px;font-size:.78rem;letter-spacing:.14em;text-transform:uppercase;color:#00E5FF}.toc a{color:#CFF8FF;font-weight:600;display:inline-block;margin:3px 14px 3px 0}.cta-box{background:rgba(20,27,45,.85);border:1px solid rgba(0,229,255,.25);border-radius:18px;padding:22px 24px;margin:28px 0;text-align:left}.cta-box h3{margin:0 0 8px;font-size:1.1rem;color:#fff}.cta-box p{margin:0 0 14px;color:#CFD6EA}.cta-row{display:flex;gap:12px;flex-wrap:wrap}.btn{display:inline-flex;align-items:center;justify-content:center;border-radius:999px;padding:12px 20px;font-weight:900;border:1px solid rgba(0,229,255,.35);background:linear-gradient(135deg,#00E5FF,#00B4D8);color:#06111c;font-size:.95rem}.btn.secondary{background:rgba(255,255,255,.06);color:#fff;border-color:rgba(255,255,255,.16)}.related h2,.faq h2{font-size:clamp(1.3rem,2.5vw,1.7rem);margin:0 0 14px;letter-spacing:-.02em}.related ul{list-style:none;padding:0;margin:0}.related li{background:rgba(20,27,45,.7);border:1px solid rgba(255,255,255,.08);border-radius:14px;padding:14px 18px;margin:10px 0}.related li a{font-weight:700;color:#fff}.related li p{margin:6px 0 0;color:#8B95B0;font-size:.92rem}.faq details{background:rgba(20,27,45,.78);border:1px solid rgba(255,255,255,.08);border-radius:14px;padding:14px 18px;margin:10px 0}.faq summary{font-weight:800;cursor:pointer;color:#fff}.faq p{color:#CFD6EA;margin:8px 0 0}.footer{padding:34px clamp(20px,5vw,64px);border-top:1px solid rgba(255,255,255,.08);color:#8B95B0;margin-top:48px}.footer nav{display:flex;gap:16px;flex-wrap:wrap;margin-bottom:10px}.footer a{color:#C9D2EA}.posts-list{list-style:none;padding:0;margin:0}.posts-list li{background:rgba(20,27,45,.7);border:1px solid rgba(255,255,255,.08);border-radius:18px;padding:22px 24px;margin:14px 0}.posts-list h2{font-size:1.3rem;margin:0 0 6px}.posts-list h2 a{color:#fff}.posts-list .meta{margin-bottom:6px}.posts-list p{color:#CFD6EA;margin:6px 0 0;font-size:1rem}@media(max-width:800px){.nav{align-items:flex-start;flex-direction:column}.hero h1{font-size:2.1rem}}`;
+const STYLE = `*{box-sizing:border-box}body{margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:#0A0E1A;color:#fff;line-height:1.75}a{color:#00E5FF;text-decoration:none}a:hover{text-decoration:underline}.page{min-height:100vh;background:radial-gradient(circle at 20% 0%,rgba(0,229,255,.16),transparent 34rem),radial-gradient(circle at 80% 10%,rgba(255,215,0,.08),transparent 30rem),#0A0E1A}.nav{position:sticky;top:0;z-index:10;display:flex;align-items:center;justify-content:space-between;gap:24px;padding:18px clamp(20px,5vw,64px);background:rgba(10,14,26,.82);backdrop-filter:blur(18px);border-bottom:1px solid rgba(255,255,255,.06)}.brand{display:flex;align-items:center;gap:10px;color:#fff;font-weight:900}.brand img{width:32px;height:32px;border-radius:9px}.nav-links{display:flex;gap:16px;flex-wrap:wrap;font-size:.95rem}.nav-links a{color:#C9D2EA}.hero,.content,.related,.faq{max-width:760px;margin:0 auto;padding:clamp(28px,5vw,56px) clamp(20px,5vw,36px)}.hero{padding-top:clamp(48px,8vw,96px)}.eyebrow{color:#00E5FF;text-transform:uppercase;letter-spacing:.14em;font-size:.78rem;font-weight:900;margin:0 0 14px}.hero h1{font-size:clamp(2rem,5vw,3.4rem);line-height:1.1;letter-spacing:-.04em;margin:0 0 18px}.lede{color:#C9D2EA;font-size:clamp(1.05rem,2vw,1.2rem);margin:0 0 22px;line-height:1.7}.meta{color:#8B95B0;font-size:.92rem;font-family:JetBrains Mono,ui-monospace,Menlo,monospace;display:flex;gap:18px;flex-wrap:wrap;margin-bottom:24px}.hero-img{width:100%;border-radius:18px;border:1px solid rgba(255,255,255,.08);margin:8px 0 20px;display:block}.content h2{font-size:clamp(1.4rem,3vw,2rem);margin:42px 0 12px;letter-spacing:-.02em;color:#fff;scroll-margin-top:72px}.content h3{font-size:1.18rem;margin:28px 0 10px;letter-spacing:-.01em;color:#fff}.content p,.content li{color:#CFD6EA;font-size:1.04rem}.content p{margin:0 0 16px}.content ul,.content ol{margin:0 0 16px;padding-left:22px}.content li{margin:6px 0}.content blockquote{margin:18px 0;padding:14px 18px;border-left:3px solid #00E5FF;background:rgba(0,229,255,.05);border-radius:0 14px 14px 0;color:#E6ECF8}.content code{background:rgba(0,229,255,.08);border:1px solid rgba(0,229,255,.18);padding:1px 6px;border-radius:6px;font-size:.92em;color:#CFF8FF}.toc{background:rgba(20,27,45,.7);border:1px solid rgba(255,255,255,.08);border-radius:18px;padding:18px 22px;margin:0 0 22px;font-size:.95rem}.toc strong{color:#fff;display:block;margin-bottom:6px;font-size:.78rem;letter-spacing:.14em;text-transform:uppercase;color:#00E5FF}.toc a{color:#CFF8FF;font-weight:600;display:inline-block;margin:3px 14px 3px 0}.key-takeaways{background:linear-gradient(180deg,rgba(0,229,255,.08),rgba(0,229,255,.02));border:1px solid rgba(0,229,255,.22);border-radius:18px;padding:18px 24px 20px;margin:0 0 22px}.key-takeaways h2{font-size:.8rem;letter-spacing:.14em;text-transform:uppercase;color:#00E5FF;margin:0 0 10px;scroll-margin-top:72px}.key-takeaways ul{margin:0;padding-left:20px}.key-takeaways li{color:#E6ECF8;font-size:1.05rem;margin:8px 0;font-weight:500}.cta-box{background:rgba(20,27,45,.85);border:1px solid rgba(0,229,255,.25);border-radius:18px;padding:22px 24px;margin:28px 0;text-align:left}.cta-box h3{margin:0 0 8px;font-size:1.1rem;color:#fff}.cta-box p{margin:0 0 14px;color:#CFD6EA}.cta-row{display:flex;gap:12px;flex-wrap:wrap}.btn{display:inline-flex;align-items:center;justify-content:center;border-radius:999px;padding:12px 20px;font-weight:900;border:1px solid rgba(0,229,255,.35);background:linear-gradient(135deg,#00E5FF,#00B4D8);color:#06111c;font-size:.95rem}.btn.secondary{background:rgba(255,255,255,.06);color:#fff;border-color:rgba(255,255,255,.16)}.related h2,.faq h2{font-size:clamp(1.3rem,2.5vw,1.7rem);margin:0 0 14px;letter-spacing:-.02em}.related ul{list-style:none;padding:0;margin:0}.related li{background:rgba(20,27,45,.7);border:1px solid rgba(255,255,255,.08);border-radius:14px;padding:14px 18px;margin:10px 0}.related li a{font-weight:700;color:#fff}.related li p{margin:6px 0 0;color:#8B95B0;font-size:.92rem}.faq details{background:rgba(20,27,45,.78);border:1px solid rgba(255,255,255,.08);border-radius:14px;padding:14px 18px;margin:10px 0}.faq summary{font-weight:800;cursor:pointer;color:#fff}.faq p{color:#CFD6EA;margin:8px 0 0}.footer{padding:34px clamp(20px,5vw,64px);border-top:1px solid rgba(255,255,255,.08);color:#8B95B0;margin-top:48px}.footer nav{display:flex;gap:16px;flex-wrap:wrap;margin-bottom:10px}.footer a{color:#C9D2EA}.posts-list{list-style:none;padding:0;margin:0}.posts-list li{background:rgba(20,27,45,.7);border:1px solid rgba(255,255,255,.08);border-radius:18px;padding:22px 24px;margin:14px 0}.posts-list h2{font-size:1.3rem;margin:0 0 6px}.posts-list h2 a{color:#fff}.posts-list .meta{margin-bottom:6px}.posts-list p{color:#CFD6EA;margin:6px 0 0;font-size:1rem}@media(max-width:800px){.nav{align-items:flex-start;flex-direction:column}.hero h1{font-size:2.1rem}}`;
 
 const NAV = `<header class="nav"><a class="brand" href="/"><img src="${cfg.icons.brand}" alt="Iro AI"/>Iro AI</a><nav class="nav-links">${cfg.nav
   .map((n) => `<a href="${n.href}">${n.label}</a>`)
@@ -169,6 +169,22 @@ function renderPost(post) {
   crumbs.push({ '@type': 'ListItem', position: crumbs.length + 1, name: title, item: url });
 
   const au = cfg.blogAuthor;
+  // Real word count (entity signal) from the rendered body + lede.
+  const wordCount = stripTags([post.lede, ...(post.keyTakeaways || []), ...post.sections.map((s) => s.html)].join(' '))
+    .split(/\s+/)
+    .filter(Boolean).length;
+  const authorNode = {
+    '@type': 'Person',
+    '@id': D + '/#author',
+    name: au.name,
+    url: au.url,
+    jobTitle: au.jobTitle,
+    description: au.bio,
+    sameAs: au.sameAs,
+    ...(au.knowsAbout ? { knowsAbout: au.knowsAbout } : {}),
+    ...(au.image ? { image: D + au.image } : {}),
+    worksFor: { '@type': 'Organization', '@id': D + '/#organization', name: 'Iro AI', url: D },
+  };
   const blogPosting = {
     '@context': 'https://schema.org',
     '@type': 'BlogPosting',
@@ -180,10 +196,11 @@ function renderPost(post) {
     image: ogImg,
     datePublished: dp,
     dateModified: dm,
-    wordCount: null,
+    wordCount,
     inLanguage: 'en-US',
+    isAccessibleForFree: true,
     isPartOf: { '@type': 'Blog', '@id': D + '/blog#blog', name: 'Iro AI Blog', url: D + '/blog' },
-    author: { '@type': 'Person', '@id': D + '/#author', name: au.name, url: au.url, jobTitle: au.jobTitle, sameAs: au.sameAs },
+    author: authorNode,
     publisher: {
       '@type': 'Organization',
       '@id': D + '/#organization',
@@ -191,7 +208,7 @@ function renderPost(post) {
       url: D,
       logo: { '@type': 'ImageObject', url: D + cfg.icons.logo512 },
     },
-    speakable: { '@type': 'SpeakableSpecification', cssSelector: ['h1', 'h2', 'p'] },
+    speakable: { '@type': 'SpeakableSpecification', cssSelector: ['h1', 'h2', 'p', '.key-takeaways'] },
     keywords: kw,
     articleSection: section,
     timeRequired: `PT${rt}M`,
@@ -232,9 +249,17 @@ function renderPost(post) {
   const relatedLinks = (post.related || []).map((r) => `<link rel="related" href="${abs(r)}"/>`).join('\n');
   const toc = post.toc.map((t) => `<a href="${t.href}">${t.label}</a>`).join('');
 
+  // Key takeaways box — the highest-leverage GEO block. Sits at the very top of
+  // the body so answer engines lift it almost verbatim into summaries.
+  const takeaways = (post.keyTakeaways && post.keyTakeaways.length)
+    ? `<aside class="key-takeaways" aria-label="Key takeaways"><h2>Key takeaways</h2><ul>${post.keyTakeaways
+        .map((t) => `<li>${t}</li>`)
+        .join('')}</ul></aside>`
+    : '';
+
   // Content body: sections, with an inline CTA after the Nth section + a closing CTA.
   const after = (post.inlineCtaAfter || 2) - 1;
-  const lines = [`<div class="toc"><strong>In this post</strong>${toc}</div>`];
+  const lines = [takeaways, `<div class="toc"><strong>In this post</strong>${toc}</div>`].filter(Boolean);
   post.sections.forEach((s, i) => {
     lines.push(`<h2 id="${s.id}">${s.heading}</h2>`);
     lines.push(s.html);
@@ -328,7 +353,7 @@ ${NAV}
 <p class="eyebrow">${cfg.blog.heroEyebrow}</p>
 <h1>${title}</h1>
 <p class="lede">${post.lede}</p>
-<p class="meta"><span>By <a href="${au.url}" rel="author" target="_blank">${esc(au.name)}</a></span><span>${dp}</span><span>~${rt} min read</span>${pillarMeta}</p>
+<p class="meta"><span>By <a href="${au.url}" rel="author" target="_blank">${esc(au.name)}</a></span><span><time datetime="${dp}">Published ${dp}</time></span>${dm !== dp ? `<span><time datetime="${dm}">Updated ${dm}</time></span>` : ''}<span>~${rt} min read</span>${pillarMeta}</p>
 <img class="hero-img" src="${heroSrc}" alt="${esc(title)}" width="1200" height="630"/>
 </article>
 <div class="content">
@@ -795,6 +820,9 @@ function renderPostMd(post) {
   const sections = post.sections.map((s) => `## ${s.heading}\n\n${blocksToMd(s.html)}`).join('\n\n');
   const faq = post.faq.map((f) => `**${f.q}**\n\n${stripTags(f.a)}`).join('\n\n');
   const readNext = post.readNext.map((r) => `- [${r.label}](${abs(r.href)})`).join('\n');
+  const takeawaysMd = (post.keyTakeaways && post.keyTakeaways.length)
+    ? `## Key takeaways\n\n${post.keyTakeaways.map((t) => `- ${stripTags(t)}`).join('\n')}\n\n`
+    : '';
   return `---
 title: "${post.title}"
 canonical_url: "${url}"
@@ -817,10 +845,12 @@ pillar: "${post.pillar || ''}"
 > ${post.lede}
 
 **Canonical:** ${url}
-**Published:** ${post.datePublished}
+**Published:** ${post.datePublished}${post.dateModified && post.dateModified !== post.datePublished ? `
+**Updated:** ${post.dateModified}` : ''}
 **Reading time:** ~${post.readingTime} min
+**Author:** ${cfg.blogAuthor.name} — ${cfg.blogAuthor.jobTitle}
 
-${sections}
+${takeawaysMd}${sections}
 
 ## FAQ
 
@@ -829,6 +859,10 @@ ${faq}
 ## Read next
 
 ${readNext}
+
+## About the author
+
+${cfg.blogAuthor.name} — ${cfg.blogAuthor.jobTitle}. ${cfg.blogAuthor.bio}
 `;
 }
 

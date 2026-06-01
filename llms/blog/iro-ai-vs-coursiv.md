@@ -7,7 +7,7 @@ app_store: "https://apps.apple.com/app/id6759628066"
 language: en-US
 keywords: ["Iro AI vs Coursiv", "Coursiv alternative", "Coursiv review", "best AI learning app", "AI course app 2026"]
 date_published: "2026-05-31"
-date_modified: "2026-05-31"
+date_modified: "2026-06-01"
 reading_time_minutes: 7
 author: "Alex Furukawa"
 license: "© 2026 Iro AI"
@@ -21,14 +21,16 @@ pillar: "ai-fluency"
 
 **Canonical:** https://tryiro.com/blog/iro-ai-vs-coursiv
 **Published:** 2026-05-31
+**Updated:** 2026-06-01
 **Reading time:** ~7 min
+**Author:** Alex Furukawa — Founder of Iro AI
 
-## TL;DR
+## Key takeaways
 
-- **Coursiv** is a video-and-reading course app built around a 28-day challenge — good if you like a structured curriculum to watch through.
-- **Iro AI** is built around active practice — short quizzes and drills that make you _use_ the skill, not just read about it.
-- Pricing differs in style: Coursiv runs on auto-renewing multi-week subscriptions; Iro AI is one simple annual price with a free trial, and a free AI IQ test to start.
-- If you learn by doing and want pricing you can predict, Iro AI fits. If you prefer sitting through a guided course, Coursiv is reasonable.
+- Iro AI and Coursiv both teach AI in short daily lessons but differ in teaching style and pricing.
+- Iro AI is practice-first — drills, duels, and instant feedback rather than passive video lessons.
+- Iro has a free tier and one transparent annual price; check Coursiv’s current terms before subscribing.
+- Pick Iro AI if you learn by doing; pick a course app if you prefer guided video lessons.
 
 ## At a glance
 
@@ -87,3 +89,7 @@ Retention comes from practice and recall, not just watching. That's why Iro AI i
 - [The 30-day AI plan for complete beginners](https://tryiro.com/blog/ai-for-beginners-30-day-plan)
 - [ChatGPT vs Claude vs Gemini in 2026](https://tryiro.com/blog/chatgpt-vs-claude-vs-gemini)
 - [Take the free AI IQ test](https://tryiro.com/quiz)
+
+## About the author
+
+Alex Furukawa — Founder of Iro AI. Alex Furukawa is the founder of Iro AI, the gamified app for learning to use AI well. He writes about practical AI fluency — prompting, AI tools, and the daily habits that turn AI from a novelty into real leverage.

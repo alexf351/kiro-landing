@@ -4,6 +4,12 @@
   "pillar": "ai-fluency",
   "title": "How to spot AI hallucinations in 5 seconds",
   "lede": "Quick checks that catch most mistakes before you trust them.",
+  "keyTakeaways": [
+    "An AI hallucination is a confident, plausible-sounding answer that is actually false.",
+    "The biggest risk areas are specific facts, citations, numbers, quotes, and recent events.",
+    "Catch hallucinations by asking for sources, cross-checking key claims, and distrusting suspiciously specific details.",
+    "Treat AI output as a fast first draft to verify, not a final source of truth."
+  ],
   "description": "AI models confidently invent facts, citations, and numbers. Here are the five-second checks that catch most hallucinations — and a longer set for when stakes are high.",
   "keywords": [
     "AI hallucination",
@@ -13,7 +19,7 @@
     "fact-checking AI"
   ],
   "datePublished": "2026-05-24",
-  "dateModified": "2026-05-24",
+  "dateModified": "2026-06-01",
   "readingTime": 6,
   "articleSection": "AI fluency",
   "feedCategory": "AI fluency",

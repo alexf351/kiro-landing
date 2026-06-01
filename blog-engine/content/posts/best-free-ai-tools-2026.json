@@ -4,6 +4,12 @@
   "pillar": "ai-fluency",
   "title": "The best free AI tools for daily work in 2026",
   "lede": "A practical stack across writing, research, coding, and visuals.",
+  "keyTakeaways": [
+    "The best free AI tools in 2026 cover chat (ChatGPT, Claude, Gemini), search (Perplexity), images, and coding — most with capable free tiers.",
+    "For everyday questions and writing, the ChatGPT, Claude, and Gemini free tiers are enough for most people.",
+    "Perplexity is the strongest free tool for researched, source-cited answers.",
+    "Free tiers change often, so pick by the task rather than the brand and switch when limits get in the way."
+  ],
   "description": "A 2026-up-to-date guide to free-tier AI tools that are actually worth using for daily work — what each is good for, where they fall short, and how to combine them.",
   "keywords": [
     "best free AI tools",
@@ -14,7 +20,7 @@
     "AI tool comparison"
   ],
   "datePublished": "2026-05-24",
-  "dateModified": "2026-05-24",
+  "dateModified": "2026-06-01",
   "readingTime": 7,
   "articleSection": "AI fluency",
   "feedCategory": "AI tools",

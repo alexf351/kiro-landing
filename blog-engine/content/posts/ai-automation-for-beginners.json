@@ -4,33 +4,69 @@
   "pillar": "ai-agents",
   "title": "AI automation for beginners: 5 things to automate this week",
   "lede": "No code, no agents — just five repetitive tasks you can hand to AI starting today.",
+  "keyTakeaways": [
+    "AI automation chains AI steps into a workflow that runs with little or no human input, turning a 30-minute task into a one-click one.",
+    "Start by automating boring, repeatable work: email drafting, summarizing, data cleanup, and report generation.",
+    "You do not need to code — tools like ChatGPT, Zapier, and Make let beginners build useful automations in an afternoon.",
+    "The highest-ROI first automation is usually the task you do most often and dislike most."
+  ],
   "description": "A beginner's guide to AI automation: five high-value, no-code tasks you can automate this week, plus how to tell when a simple workflow beats a fancy AI agent.",
-  "keywords": ["AI automation for beginners", "no-code AI automation", "automate tasks with AI", "AI workflows", "what to automate with AI"],
+  "keywords": [
+    "AI automation for beginners",
+    "no-code AI automation",
+    "automate tasks with AI",
+    "AI workflows",
+    "what to automate with AI"
+  ],
   "datePublished": "2026-05-31",
-  "dateModified": "2026-05-31",
+  "dateModified": "2026-06-01",
   "readingTime": 7,
   "articleSection": "AI fluency",
   "feedCategory": "AI automation",
-  "feedTags": ["AI automation", "AI tools"],
+  "feedTags": [
+    "AI automation",
+    "AI tools"
+  ],
   "howToName": "How to start automating with AI",
-  "howToStepIds": ["email", "research", "data", "content", "meetings"],
+  "howToStepIds": [
+    "email",
+    "research",
+    "data",
+    "content",
+    "meetings"
+  ],
   "inlineCtaAfter": 2,
   "toc": [
-    { "href": "#tldr", "label": "TL;DR" },
-    { "href": "#what-counts", "label": "What it means" },
-    { "href": "#email", "label": "1. Inbox triage" },
-    { "href": "#research", "label": "2. Research summaries" },
-    { "href": "#data", "label": "3. Data cleanup" },
-    { "href": "#content", "label": "4. Repurposing content" },
-    { "href": "#meetings", "label": "5. Meeting notes" },
-    { "href": "#agent-or-workflow", "label": "Agent or workflow?" }
+    {
+      "href": "#what-counts",
+      "label": "What it means"
+    },
+    {
+      "href": "#email",
+      "label": "1. Inbox triage"
+    },
+    {
+      "href": "#research",
+      "label": "2. Research summaries"
+    },
+    {
+      "href": "#data",
+      "label": "3. Data cleanup"
+    },
+    {
+      "href": "#content",
+      "label": "4. Repurposing content"
+    },
+    {
+      "href": "#meetings",
+      "label": "5. Meeting notes"
+    },
+    {
+      "href": "#agent-or-workflow",
+      "label": "Agent or workflow?"
+    }
   ],
   "sections": [
-    {
-      "id": "tldr",
-      "heading": "TL;DR",
-      "html": "<ul><li>You do not need code or AI agents to automate — you need to spot repetitive tasks.</li><li>Start with five: inbox triage, research summaries, data cleanup, repurposing content, and meeting notes.</li><li>If a task has a fixed recipe, a simple workflow beats a fancy agent every time.</li></ul>"
-    },
     {
       "id": "what-counts",
       "heading": "What \"AI automation\" actually means",
@@ -68,10 +104,22 @@
     }
   ],
   "readNext": [
-    { "href": "/blog/ai-agents-explained", "label": "AI agents, explained without the jargon" },
-    { "href": "/blog/best-free-ai-tools-2026", "label": "The best free AI tools for daily work in 2026" },
-    { "href": "/ai-automation-course", "label": "AI automation in Iro AI" },
-    { "href": "/blog/prompt-engineering-patterns", "label": "The 7 prompt patterns that work everywhere" }
+    {
+      "href": "/blog/ai-agents-explained",
+      "label": "AI agents, explained without the jargon"
+    },
+    {
+      "href": "/blog/best-free-ai-tools-2026",
+      "label": "The best free AI tools for daily work in 2026"
+    },
+    {
+      "href": "/ai-automation-course",
+      "label": "AI automation in Iro AI"
+    },
+    {
+      "href": "/blog/prompt-engineering-patterns",
+      "label": "The 7 prompt patterns that work everywhere"
+    }
   ],
   "faq": [
     {

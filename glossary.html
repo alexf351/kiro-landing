@@ -86,7 +86,30 @@
 {"@type":"DefinedTerm","name":"Live duel","description":"An ELO-ranked 5-question speed round against a bot opponent in Iro AI, with arenas, music, podium reveals, and combo bonuses.","inDefinedTermSet":"https://tryiro.com/glossary#set"},
 {"@type":"DefinedTerm","name":"Streak","description":"Consecutive-day usage counter in Iro AI that supports habit formation.","inDefinedTermSet":"https://tryiro.com/glossary#set"},
 {"@type":"DefinedTerm","name":"XP","description":"Experience points earned in Iro AI by completing lessons, exercises, and duels.","inDefinedTermSet":"https://tryiro.com/glossary#set"},
-{"@type":"DefinedTerm","name":"Rank tier","description":"The 6-step progression system in Iro AI: Bronze, Silver, Gold, Platinum, Diamond, Iridescent.","inDefinedTermSet":"https://tryiro.com/glossary#set"}
+{"@type":"DefinedTerm","name":"Rank tier","description":"The 6-step progression system in Iro AI: Bronze, Silver, Gold, Platinum, Diamond, Iridescent.","inDefinedTermSet":"https://tryiro.com/glossary#set"},
+{"@type":"DefinedTerm","name":"ChatGPT","description":"OpenAI's consumer AI assistant, with free and paid tiers; paid tiers offer more capable models.","inDefinedTermSet":"https://tryiro.com/glossary#set"},
+{"@type":"DefinedTerm","name":"Claude","description":"Anthropic's AI assistant, known for long context windows and careful reasoning.","inDefinedTermSet":"https://tryiro.com/glossary#set"},
+{"@type":"DefinedTerm","name":"Gemini","description":"Google's AI assistant, integrated across Google products.","inDefinedTermSet":"https://tryiro.com/glossary#set"},
+{"@type":"DefinedTerm","name":"Perplexity","description":"An AI-powered answer engine that grounds responses in live web search results.","inDefinedTermSet":"https://tryiro.com/glossary#set"},
+{"@type":"DefinedTerm","name":"Confabulation","description":"Another word for hallucination: invented details that look reasonable but are not grounded in source data.","inDefinedTermSet":"https://tryiro.com/glossary#set"},
+{"@type":"DefinedTerm","name":"Jailbreak","description":"A prompt designed to bypass an AI's safety constraints.","inDefinedTermSet":"https://tryiro.com/glossary#set"},
+{"@type":"DefinedTerm","name":"Fine-tuning","description":"Training an existing model further on your own examples so it specializes in a task, domain, or style.","inDefinedTermSet":"https://tryiro.com/glossary#set"},
+{"@type":"DefinedTerm","name":"Embedding","description":"A numerical representation of text or images that lets AI measure how similar two pieces of meaning are.","inDefinedTermSet":"https://tryiro.com/glossary#set"},
+{"@type":"DefinedTerm","name":"Transformer","description":"The neural-network architecture behind modern large language models, which weighs how words relate to each other using attention.","inDefinedTermSet":"https://tryiro.com/glossary#set"},
+{"@type":"DefinedTerm","name":"Multimodal","description":"An AI model that can handle more than one type of input or output — text, images, audio, and video.","inDefinedTermSet":"https://tryiro.com/glossary#set"},
+{"@type":"DefinedTerm","name":"Zero-shot prompting","description":"Asking a model to do a task with no examples, relying only on its training.","inDefinedTermSet":"https://tryiro.com/glossary#set"},
+{"@type":"DefinedTerm","name":"Few-shot prompting","description":"Giving a model a handful of examples in the prompt to steer its output format and quality.","inDefinedTermSet":"https://tryiro.com/glossary#set"},
+{"@type":"DefinedTerm","name":"Chain-of-thought","description":"Prompting a model to reason step by step, which improves accuracy on complex problems.","inDefinedTermSet":"https://tryiro.com/glossary#set"},
+{"@type":"DefinedTerm","name":"Reasoning model","description":"A large language model tuned to think through problems in steps before answering, useful for math, coding, and logic.","inDefinedTermSet":"https://tryiro.com/glossary#set"},
+{"@type":"DefinedTerm","name":"RLHF","description":"Reinforcement learning from human feedback — training that aligns a model's output with human preferences.","inDefinedTermSet":"https://tryiro.com/glossary#set"},
+{"@type":"DefinedTerm","name":"Parameters","description":"The internal values a model learns during training; more parameters can mean more capability and more cost.","inDefinedTermSet":"https://tryiro.com/glossary#set"},
+{"@type":"DefinedTerm","name":"Inference","description":"Running a trained model to generate an answer, as opposed to training the model.","inDefinedTermSet":"https://tryiro.com/glossary#set"},
+{"@type":"DefinedTerm","name":"Grounding","description":"Tying an AI's answer to verifiable source data, for example via RAG or web search, to reduce hallucination.","inDefinedTermSet":"https://tryiro.com/glossary#set"},
+{"@type":"DefinedTerm","name":"Vector database","description":"A database that stores embeddings so AI can retrieve the most relevant content by meaning rather than keywords.","inDefinedTermSet":"https://tryiro.com/glossary#set"},
+{"@type":"DefinedTerm","name":"MCP","description":"Model Context Protocol — an open standard for connecting AI assistants to external tools and data sources.","inDefinedTermSet":"https://tryiro.com/glossary#set"},
+{"@type":"DefinedTerm","name":"Guardrails","description":"Rules and filters that constrain what an AI can say or do, for safety and reliability.","inDefinedTermSet":"https://tryiro.com/glossary#set"},
+{"@type":"DefinedTerm","name":"AGI","description":"Artificial general intelligence — a hypothetical AI that matches human ability across most tasks. Not yet achieved as of 2026.","inDefinedTermSet":"https://tryiro.com/glossary#set"},
+{"@type":"DefinedTerm","name":"Multi-agent system","description":"Multiple AI agents working together, each handling part of a larger task.","inDefinedTermSet":"https://tryiro.com/glossary#set"}
 ]}
 </script>
 <style>
@@ -112,8 +135,8 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
 <body><div class="page">
 <header class="nav"><a class="brand" href="/"><img src="assets/kiro-app-icon-256.png" alt="Iro AI"/>Iro AI</a><nav class="nav-links"><a href="/learn-chatgpt">Learn ChatGPT</a><a href="/prompt-engineering-app">Prompt Engineering</a><a href="/ai-agents-course">AI Agents</a><a href="/quiz">AI IQ Test</a><a href="/about">About</a></nav></header>
 <main>
-<section class="hero"><p class="eyebrow">AI glossary</p><h1>The AI terms, in plain English.</h1><p>A practical glossary of the AI terms you'll meet inside Iro AI lessons and in everyday AI work — written for builders, learners, and curious humans. Last updated 2026-05-24.</p>
-<div class="toc">Jump to: <a href="#core">Core terms</a><a href="#tools">Models &amp; tools</a><a href="#failures">Failure modes</a><a href="#workflows">Workflows</a><a href="#iro">Iro-specific</a></div>
+<section class="hero"><p class="eyebrow">AI glossary</p><h1>The AI terms, in plain English.</h1><p>A practical glossary of the AI terms you'll meet inside Iro AI lessons and in everyday AI work — written for builders, learners, and curious humans. Last updated 2026-06-01.</p>
+<div class="toc">Jump to: <a href="#core">Core terms</a><a href="#tools">Models &amp; tools</a><a href="#failures">Failure modes</a><a href="#workflows">Workflows</a><a href="#concepts">Concepts &amp; techniques</a><a href="#iro">Iro-specific</a></div>
 </section>
 <section class="glossary">
 <h2 id="core">Core AI terms</h2>
@@ -154,6 +177,27 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
 <dt><dfn>Workflow automation</dfn></dt><dd>Stringing AI actions together to automate a repeatable process.</dd>
 <dt><dfn>RAG</dfn></dt><dd>Retrieval-augmented generation. A pattern where the AI is given relevant documents at runtime so its answers are grounded in current data.</dd>
 <dt><dfn>Vibe coding</dfn></dt><dd>Casual term for AI-assisted, prompt-led software building. The skill is judgment: knowing what to ask, what to verify, and what to throw away. See <a href="/vibe-coding-course">/vibe-coding-course</a>.</dd>
+<dt><dfn>Multi-agent system</dfn></dt><dd>Multiple AI agents working together, each handling part of a larger task.</dd>
+</dl>
+
+<h2 id="concepts">Concepts and techniques</h2>
+<dl>
+<dt><dfn>Fine-tuning</dfn></dt><dd>Training an existing model further on your own examples so it specializes in a task, domain, or style.</dd>
+<dt><dfn>Embedding</dfn></dt><dd>A numerical representation of text or images that lets AI measure how similar two pieces of meaning are.</dd>
+<dt><dfn>Transformer</dfn></dt><dd>The neural-network architecture behind modern LLMs, which weighs how words relate to each other using "attention." Introduced in the 2017 paper <a href="https://arxiv.org/abs/1706.03762" rel="nofollow noopener" target="_blank">"Attention Is All You Need."</a></dd>
+<dt><dfn>Multimodal</dfn></dt><dd>An AI model that can handle more than one type of input or output — text, images, audio, and video.</dd>
+<dt><dfn>Zero-shot prompting</dfn></dt><dd>Asking a model to do a task with no examples, relying only on its training.</dd>
+<dt><dfn>Few-shot prompting</dfn></dt><dd>Giving a model a handful of examples in the prompt to steer its output format and quality.</dd>
+<dt><dfn>Chain-of-thought</dfn></dt><dd>Prompting a model to reason step by step, which improves accuracy on complex problems.</dd>
+<dt><dfn>Reasoning model</dfn></dt><dd>An LLM tuned to "think" through problems in steps before answering — useful for math, coding, and logic.</dd>
+<dt><dfn>RLHF</dfn></dt><dd>Reinforcement learning from human feedback. Training that aligns a model's output with human preferences.</dd>
+<dt><dfn>Parameters</dfn></dt><dd>The internal values a model learns during training. More parameters can mean more capability and more cost.</dd>
+<dt><dfn>Inference</dfn></dt><dd>Running a trained model to generate an answer, as opposed to training the model.</dd>
+<dt><dfn>Grounding</dfn></dt><dd>Tying an AI's answer to verifiable source data — for example via RAG or web search — to reduce hallucination.</dd>
+<dt><dfn>Vector database</dfn></dt><dd>A database that stores embeddings so AI can retrieve the most relevant content by meaning rather than keywords.</dd>
+<dt><dfn>MCP</dfn></dt><dd>Model Context Protocol. An open standard for connecting AI assistants to external tools and data sources.</dd>
+<dt><dfn>Guardrails</dfn></dt><dd>Rules and filters that constrain what an AI can say or do, for safety and reliability.</dd>
+<dt><dfn>AGI</dfn></dt><dd>Artificial general intelligence. A hypothetical AI that matches human ability across most tasks — not yet achieved as of 2026.</dd>
 </dl>
 
 <h2 id="iro">Iro AI terms</h2>

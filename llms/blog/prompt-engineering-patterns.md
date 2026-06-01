@@ -7,7 +7,7 @@ app_store: "https://apps.apple.com/app/id6759628066"
 language: en-US
 keywords: ["prompt engineering", "prompt patterns", "ChatGPT prompts", "Claude prompts", "prompt design"]
 date_published: "2026-05-24"
-date_modified: "2026-05-24"
+date_modified: "2026-06-01"
 reading_time_minutes: 9
 author: "Alex Furukawa"
 license: "© 2026 Iro AI"
@@ -21,7 +21,16 @@ pillar: "prompt-engineering"
 
 **Canonical:** https://tryiro.com/blog/prompt-engineering-patterns
 **Published:** 2026-05-24
+**Updated:** 2026-06-01
 **Reading time:** ~9 min
+**Author:** Alex Furukawa — Founder of Iro AI
+
+## Key takeaways
+
+- Most prompting problems are solved by a few repeatable patterns: role, context, examples, and step-by-step instructions.
+- The single biggest upgrade is giving the model context and a clear goal before asking for output.
+- Few-shot examples (showing one to three samples) reliably improve format and quality.
+- Treat the first output as a draft and refine it with specific feedback.
 
 ## Why patterns beat prompts
 
@@ -48,6 +57,8 @@ For tasks where style matters more than reasoning — classifications, rewrites,
 
 The trick is _anchoring_: pick examples that span the range. Don't give three nearly-identical examples. Give a clearly-easy one, a clearly-hard one, and a middle one. The model learns the structure, not the surface.
 
+Few-shot prompting works because large language models are strong in-context learners by design — the behavior OpenAI documented in [“Language Models are Few-Shot Learners”](https://arxiv.org/abs/2005.14165) (Brown et al., 2020).
+
 ## 3. Output format contract
 
 Specify the output shape up front. Not as a wish — as a contract.
@@ -69,6 +80,8 @@ This costs you a few seconds and almost always improves the answer. It works bec
 For anything complex, don't ask for the whole answer in one prompt. Ask the model to _plan_ the answer first, then execute the plan in subsequent turns.
 
 This is the basis of [agentic workflows](/ai-agents-course): break a goal into named steps, do each step, gate progress on review. It's also what makes long answers actually useful — without decomposition, the model loses the thread halfway through.
+
+Breaking a problem into steps measurably improves accuracy on complex tasks — the core finding behind [chain-of-thought prompting](https://arxiv.org/abs/2201.11903) (Wei et al., 2022).
 
 ## 6. Comparison prompt
 
@@ -112,3 +125,7 @@ Reps. That's what Iro AI's Prompt Lab is for — you practise patterns on small 
 - [How to spot AI hallucinations in 5 seconds](https://tryiro.com/blog/spot-ai-hallucinations)
 - [Prompt Lab in Iro AI](https://tryiro.com/prompt-engineering-app)
 - [Learn Claude in Iro AI](https://tryiro.com/learn-claude)
+
+## About the author
+
+Alex Furukawa — Founder of Iro AI. Alex Furukawa is the founder of Iro AI, the gamified app for learning to use AI well. He writes about practical AI fluency — prompting, AI tools, and the daily habits that turn AI from a novelty into real leverage.

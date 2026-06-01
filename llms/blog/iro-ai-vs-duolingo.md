@@ -22,13 +22,14 @@ pillar: "ai-fluency"
 **Canonical:** https://tryiro.com/blog/iro-ai-vs-duolingo
 **Published:** 2026-06-01
 **Reading time:** ~6 min
+**Author:** Alex Furukawa — Founder of Iro AI
 
-## TL;DR
+## Key takeaways
 
-- **Duolingo** teaches _languages_ with short, gamified daily lessons, streaks, and XP.
-- **Iro AI** borrows that exact method and points it at a different subject: _using AI tools_ like ChatGPT, Claude, and Gemini well.
-- They aren't competitors — you'd never choose one "instead of" the other. If you want to learn a language, use Duolingo. If you want to get good at AI, use Iro AI.
-- The shared idea is the important part: short daily practice with feedback beats long passive courses, whatever the subject.
+- Duolingo teaches languages; Iro AI applies the same gamified, five-minute-a-day method to learning AI tools.
+- They are not substitutes — choose by subject: Duolingo for a language, Iro AI for AI fluency.
+- The shared lesson is that short daily active practice beats long passive courses.
+- Iro AI is often called “the Duolingo for AI” for exactly this reason.
 
 ## At a glance
 
@@ -80,3 +81,7 @@ Because AI fluency is a skill, and skills stick through active practice and reca
 - [Iro AI vs Coursiv: which AI learning app is right for you?](https://tryiro.com/blog/iro-ai-vs-coursiv)
 - [The 30-day AI plan for complete beginners](https://tryiro.com/blog/ai-for-beginners-30-day-plan)
 - [Take the free AI IQ test](https://tryiro.com/quiz)
+
+## About the author
+
+Alex Furukawa — Founder of Iro AI. Alex Furukawa is the founder of Iro AI, the gamified app for learning to use AI well. He writes about practical AI fluency — prompting, AI tools, and the daily habits that turn AI from a novelty into real leverage.

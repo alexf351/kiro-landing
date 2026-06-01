@@ -7,7 +7,7 @@ app_store: "https://apps.apple.com/app/id6759628066"
 language: en-US
 keywords: ["AI hallucination", "hallucination detection", "ChatGPT mistakes", "AI accuracy", "fact-checking AI"]
 date_published: "2026-05-24"
-date_modified: "2026-05-24"
+date_modified: "2026-06-01"
 reading_time_minutes: 6
 author: "Alex Furukawa"
 license: "© 2026 Iro AI"
@@ -21,7 +21,16 @@ pillar: "ai-fluency"
 
 **Canonical:** https://tryiro.com/blog/spot-ai-hallucinations
 **Published:** 2026-05-24
+**Updated:** 2026-06-01
 **Reading time:** ~6 min
+**Author:** Alex Furukawa — Founder of Iro AI
+
+## Key takeaways
+
+- An AI hallucination is a confident, plausible-sounding answer that is actually false.
+- The biggest risk areas are specific facts, citations, numbers, quotes, and recent events.
+- Catch hallucinations by asking for sources, cross-checking key claims, and distrusting suspiciously specific details.
+- Treat AI output as a fast first draft to verify, not a final source of truth.
 
 ## What a hallucination is (and isn't)
 
@@ -95,3 +104,7 @@ Not without expert verification. AI can be useful for drafting and research supp
 - [The 7 prompt patterns that work everywhere](https://tryiro.com/blog/prompt-engineering-patterns)
 - [Learn Perplexity (grounded AI search)](https://tryiro.com/learn-perplexity)
 - [AI glossary — hallucination, RAG, and more](https://tryiro.com/glossary)
+
+## About the author
+
+Alex Furukawa — Founder of Iro AI. Alex Furukawa is the founder of Iro AI, the gamified app for learning to use AI well. He writes about practical AI fluency — prompting, AI tools, and the daily habits that turn AI from a novelty into real leverage.

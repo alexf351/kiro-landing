@@ -7,7 +7,7 @@ app_store: "https://apps.apple.com/app/id6759628066"
 language: en-US
 keywords: ["ChatGPT vs Claude", "Claude vs Gemini", "ChatGPT vs Gemini", "best AI model 2026", "which AI to use"]
 date_published: "2026-05-31"
-date_modified: "2026-05-31"
+date_modified: "2026-06-01"
 reading_time_minutes: 8
 author: "Alex Furukawa"
 license: "© 2026 Iro AI"
@@ -21,14 +21,16 @@ pillar: "ai-fluency"
 
 **Canonical:** https://tryiro.com/blog/chatgpt-vs-claude-vs-gemini
 **Published:** 2026-05-31
+**Updated:** 2026-06-01
 **Reading time:** ~8 min
+**Author:** Alex Furukawa — Founder of Iro AI
 
-## TL;DR
+## Key takeaways
 
-- **ChatGPT** is the best all-round default — start here.
-- **Claude** wins on long documents, careful reasoning, and code review.
-- **Gemini** is strongest when your work already lives in Google (Docs, Gmail, Sheets).
-- The people who get the most out of AI use two or three and switch based on the task.
+- ChatGPT, Claude, and Gemini are the three leading general-purpose AI assistants in 2026, and the best one depends on the task.
+- Claude is often preferred for writing, long documents, and coding; ChatGPT for its ecosystem and tools; Gemini for Google integration and research.
+- All three have free tiers, so the real differentiator is how you prompt them, not raw capability.
+- Most power users keep two open and switch based on the job.
 
 ## The honest short answer
 
@@ -46,17 +48,23 @@ The quick version, before the detail:
 
 **Falls short:** it can be confidently wrong, and its answers are often longer than they need to be. Treat the first draft as a starting point, not the finish line. New to it? Start with [how to actually learn ChatGPT](/blog/how-to-learn-chatgpt-in-2026), and the [ChatGPT path](/learn-chatgpt) in Iro AI drills the habits.
 
+Official page: [OpenAI ChatGPT](https://openai.com/chatgpt/).
+
 ## Claude: best for long, careful work
 
 **Best for:** long documents, multi-page edits, careful reasoning, and code review. Paste a 30-page PDF or a messy codebase and Claude tends to stay coherent where others drift.
 
 **Falls short:** smaller free limits than ChatGPT, and it can be more cautious or verbose on simple tasks. Reach for it when the input is big or the stakes are high. Iro AI has a dedicated [Claude path](/learn-claude).
 
+Official page: [Anthropic Claude](https://www.anthropic.com/claude).
+
 ## Gemini: best inside Google
 
 **Best for:** anything already inside Google. Gemini lives in Docs, Gmail, and Sheets, so it is the natural choice when your work is there and you want AI in the same window.
 
 **Falls short:** as a standalone chat it is less often the favorite, and quality varies more by task. Use it where the Google integration saves you copy-paste. See the [Gemini path](/learn-gemini).
+
+Official page: [Google Gemini](https://gemini.google.com/).
 
 ## How to choose (a simple rule)
 
@@ -93,3 +101,7 @@ Mostly yes. Good prompts are about clear specification, which transfers across m
 - [How to actually learn ChatGPT in 2026](https://tryiro.com/blog/how-to-learn-chatgpt-in-2026)
 - [Learn Claude in Iro AI](https://tryiro.com/learn-claude)
 - [Learn Gemini in Iro AI](https://tryiro.com/learn-gemini)
+
+## About the author
+
+Alex Furukawa — Founder of Iro AI. Alex Furukawa is the founder of Iro AI, the gamified app for learning to use AI well. He writes about practical AI fluency — prompting, AI tools, and the daily habits that turn AI from a novelty into real leverage.

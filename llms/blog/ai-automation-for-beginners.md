@@ -7,7 +7,7 @@ app_store: "https://apps.apple.com/app/id6759628066"
 language: en-US
 keywords: ["AI automation for beginners", "no-code AI automation", "automate tasks with AI", "AI workflows", "what to automate with AI"]
 date_published: "2026-05-31"
-date_modified: "2026-05-31"
+date_modified: "2026-06-01"
 reading_time_minutes: 7
 author: "Alex Furukawa"
 license: "© 2026 Iro AI"
@@ -21,13 +21,16 @@ pillar: "ai-agents"
 
 **Canonical:** https://tryiro.com/blog/ai-automation-for-beginners
 **Published:** 2026-05-31
+**Updated:** 2026-06-01
 **Reading time:** ~7 min
+**Author:** Alex Furukawa — Founder of Iro AI
 
-## TL;DR
+## Key takeaways
 
-- You do not need code or AI agents to automate — you need to spot repetitive tasks.
-- Start with five: inbox triage, research summaries, data cleanup, repurposing content, and meeting notes.
-- If a task has a fixed recipe, a simple workflow beats a fancy agent every time.
+- AI automation chains AI steps into a workflow that runs with little or no human input, turning a 30-minute task into a one-click one.
+- Start by automating boring, repeatable work: email drafting, summarizing, data cleanup, and report generation.
+- You do not need to code — tools like ChatGPT, Zapier, and Make let beginners build useful automations in an afternoon.
+- The highest-ROI first automation is usually the task you do most often and dislike most.
 
 ## What "AI automation" actually means
 
@@ -85,3 +88,7 @@ For low-stakes tasks, yes. Keep a human review step for anything that sends, pay
 - [The best free AI tools for daily work in 2026](https://tryiro.com/blog/best-free-ai-tools-2026)
 - [AI automation in Iro AI](https://tryiro.com/ai-automation-course)
 - [The 7 prompt patterns that work everywhere](https://tryiro.com/blog/prompt-engineering-patterns)
+
+## About the author
+
+Alex Furukawa — Founder of Iro AI. Alex Furukawa is the founder of Iro AI, the gamified app for learning to use AI well. He writes about practical AI fluency — prompting, AI tools, and the daily habits that turn AI from a novelty into real leverage.

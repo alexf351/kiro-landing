@@ -7,7 +7,7 @@ app_store: "https://apps.apple.com/app/id6759628066"
 language: en-US
 keywords: ["Iro AI vs Learnova", "Learnova alternative", "Learnova review", "AI Tools Mastery app", "best AI learning app 2026"]
 date_published: "2026-05-31"
-date_modified: "2026-05-31"
+date_modified: "2026-06-01"
 reading_time_minutes: 7
 author: "Alex Furukawa"
 license: "© 2026 Iro AI"
@@ -21,14 +21,16 @@ pillar: "ai-fluency"
 
 **Canonical:** https://tryiro.com/blog/iro-ai-vs-learnova
 **Published:** 2026-05-31
+**Updated:** 2026-06-01
 **Reading time:** ~7 min
+**Author:** Alex Furukawa — Founder of Iro AI
 
-## TL;DR
+## Key takeaways
 
-- **Learnova** (also listed as AI Tools Mastery) teaches AI tools through step-by-step courses, quizzes, and a hands-on playground — a solid course-style app.
-- **Iro AI** is built game-first: short drills, streaks, and rank tiers designed to make the skill stick through repeated active recall.
-- Both are mobile-first and both have a free way in. The deciding factor is whether you want a course to work through or a daily practice habit.
-- Iro AI keeps pricing simple — one annual price with a free trial — and starts with a free AI IQ test.
+- Iro AI and Learnova both teach AI through a mobile app, but Iro emphasizes hands-on practice and gamified duels.
+- Iro AI offers a free tier and a transparent annual price; verify Learnova’s current pricing before committing.
+- Choose based on whether you prefer active drills (Iro) or a more course-like structure.
+- Both target busy people who want AI skills in a few minutes a day.
 
 ## At a glance
 
@@ -87,3 +89,7 @@ Skills stick through repeated active recall, not passive reading. Iro AI is desi
 - [The 30-day AI plan for complete beginners](https://tryiro.com/blog/ai-for-beginners-30-day-plan)
 - [The best free AI tools for daily work in 2026](https://tryiro.com/blog/best-free-ai-tools-2026)
 - [Take the free AI IQ test](https://tryiro.com/quiz)
+
+## About the author
+
+Alex Furukawa — Founder of Iro AI. Alex Furukawa is the founder of Iro AI, the gamified app for learning to use AI well. He writes about practical AI fluency — prompting, AI tools, and the daily habits that turn AI from a novelty into real leverage.

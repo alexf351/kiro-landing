@@ -7,7 +7,7 @@ app_store: "https://apps.apple.com/app/id6759628066"
 language: en-US
 keywords: ["AI agents", "LLM agents", "agent workflows", "AI automation", "autonomous AI"]
 date_published: "2026-05-24"
-date_modified: "2026-05-24"
+date_modified: "2026-06-01"
 reading_time_minutes: 8
 author: "Alex Furukawa"
 license: "© 2026 Iro AI"
@@ -21,7 +21,16 @@ pillar: "ai-agents"
 
 **Canonical:** https://tryiro.com/blog/ai-agents-explained
 **Published:** 2026-05-24
+**Updated:** 2026-06-01
 **Reading time:** ~8 min
+**Author:** Alex Furukawa — Founder of Iro AI
+
+## Key takeaways
+
+- An AI agent is software that uses a large language model to plan and take multi-step actions toward a goal — not just answer a single prompt.
+- Agents differ from chatbots by their ability to use tools, call APIs, and loop until a task is finished.
+- Agents are worth it for repetitive, multi-step workflows like research, data entry, and scheduling; they are overkill for one-off questions.
+- As of 2026, most agents still need human oversight — reliability drops as tasks get longer and more open-ended.
 
 ## The plain definition
 
@@ -102,3 +111,7 @@ Track three things: task completion rate, average steps to completion, and the r
 - [The 7 prompt patterns that work everywhere](https://tryiro.com/blog/prompt-engineering-patterns)
 - [AI agents in Iro AI](https://tryiro.com/ai-agents-course)
 - [AI automation in Iro AI](https://tryiro.com/ai-automation-course)
+
+## About the author
+
+Alex Furukawa — Founder of Iro AI. Alex Furukawa is the founder of Iro AI, the gamified app for learning to use AI well. He writes about practical AI fluency — prompting, AI tools, and the daily habits that turn AI from a novelty into real leverage.

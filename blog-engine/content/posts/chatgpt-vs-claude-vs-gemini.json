@@ -4,30 +4,59 @@
   "pillar": "ai-fluency",
   "title": "ChatGPT vs Claude vs Gemini: which should you use in 2026?",
   "lede": "A practical, no-hype comparison — and why the right answer is usually more than one.",
+  "keyTakeaways": [
+    "ChatGPT, Claude, and Gemini are the three leading general-purpose AI assistants in 2026, and the best one depends on the task.",
+    "Claude is often preferred for writing, long documents, and coding; ChatGPT for its ecosystem and tools; Gemini for Google integration and research.",
+    "All three have free tiers, so the real differentiator is how you prompt them, not raw capability.",
+    "Most power users keep two open and switch based on the job."
+  ],
   "description": "ChatGPT vs Claude vs Gemini in 2026: what each is genuinely best at, where each falls short, and how to pick the right one for writing, research, coding, and everyday work.",
-  "keywords": ["ChatGPT vs Claude", "Claude vs Gemini", "ChatGPT vs Gemini", "best AI model 2026", "which AI to use"],
+  "keywords": [
+    "ChatGPT vs Claude",
+    "Claude vs Gemini",
+    "ChatGPT vs Gemini",
+    "best AI model 2026",
+    "which AI to use"
+  ],
   "datePublished": "2026-05-31",
-  "dateModified": "2026-05-31",
+  "dateModified": "2026-06-01",
   "readingTime": 8,
   "articleSection": "AI fluency",
   "feedCategory": "AI tools",
-  "feedTags": ["AI tools", "ChatGPT", "Claude", "Gemini"],
+  "feedTags": [
+    "AI tools",
+    "ChatGPT",
+    "Claude",
+    "Gemini"
+  ],
   "inlineCtaAfter": 2,
   "toc": [
-    { "href": "#tldr", "label": "TL;DR" },
-    { "href": "#short-answer", "label": "The short answer" },
-    { "href": "#at-a-glance", "label": "At a glance" },
-    { "href": "#chatgpt", "label": "ChatGPT" },
-    { "href": "#claude", "label": "Claude" },
-    { "href": "#gemini", "label": "Gemini" },
-    { "href": "#choose", "label": "How to choose" }
+    {
+      "href": "#short-answer",
+      "label": "The short answer"
+    },
+    {
+      "href": "#at-a-glance",
+      "label": "At a glance"
+    },
+    {
+      "href": "#chatgpt",
+      "label": "ChatGPT"
+    },
+    {
+      "href": "#claude",
+      "label": "Claude"
+    },
+    {
+      "href": "#gemini",
+      "label": "Gemini"
+    },
+    {
+      "href": "#choose",
+      "label": "How to choose"
+    }
   ],
   "sections": [
-    {
-      "id": "tldr",
-      "heading": "TL;DR",
-      "html": "<ul><li><strong>ChatGPT</strong> is the best all-round default — start here.</li><li><strong>Claude</strong> wins on long documents, careful reasoning, and code review.</li><li><strong>Gemini</strong> is strongest when your work already lives in Google (Docs, Gmail, Sheets).</li><li>The people who get the most out of AI use two or three and switch based on the task.</li></ul>"
-    },
     {
       "id": "short-answer",
       "heading": "The honest short answer",
@@ -41,17 +70,17 @@
     {
       "id": "chatgpt",
       "heading": "ChatGPT: the best default",
-      "html": "<p><strong>Best for:</strong> general writing, brainstorming, quick drafts, everyday questions, and learning. ChatGPT has the largest free tier, the most polish, and the easiest help to find when you are stuck.</p><p><strong>Falls short:</strong> it can be confidently wrong, and its answers are often longer than they need to be. Treat the first draft as a starting point, not the finish line. New to it? Start with <a href=\"/blog/how-to-learn-chatgpt-in-2026\">how to actually learn ChatGPT</a>, and the <a href=\"/learn-chatgpt\">ChatGPT path</a> in Iro AI drills the habits.</p>"
+      "html": "<p><strong>Best for:</strong> general writing, brainstorming, quick drafts, everyday questions, and learning. ChatGPT has the largest free tier, the most polish, and the easiest help to find when you are stuck.</p><p><strong>Falls short:</strong> it can be confidently wrong, and its answers are often longer than they need to be. Treat the first draft as a starting point, not the finish line. New to it? Start with <a href=\"/blog/how-to-learn-chatgpt-in-2026\">how to actually learn ChatGPT</a>, and the <a href=\"/learn-chatgpt\">ChatGPT path</a> in Iro AI drills the habits.</p><p>Official page: <a href=\"https://openai.com/chatgpt/\" rel=\"nofollow noopener\" target=\"_blank\">OpenAI ChatGPT</a>.</p>"
     },
     {
       "id": "claude",
       "heading": "Claude: best for long, careful work",
-      "html": "<p><strong>Best for:</strong> long documents, multi-page edits, careful reasoning, and code review. Paste a 30-page PDF or a messy codebase and Claude tends to stay coherent where others drift.</p><p><strong>Falls short:</strong> smaller free limits than ChatGPT, and it can be more cautious or verbose on simple tasks. Reach for it when the input is big or the stakes are high. Iro AI has a dedicated <a href=\"/learn-claude\">Claude path</a>.</p>"
+      "html": "<p><strong>Best for:</strong> long documents, multi-page edits, careful reasoning, and code review. Paste a 30-page PDF or a messy codebase and Claude tends to stay coherent where others drift.</p><p><strong>Falls short:</strong> smaller free limits than ChatGPT, and it can be more cautious or verbose on simple tasks. Reach for it when the input is big or the stakes are high. Iro AI has a dedicated <a href=\"/learn-claude\">Claude path</a>.</p><p>Official page: <a href=\"https://www.anthropic.com/claude\" rel=\"nofollow noopener\" target=\"_blank\">Anthropic Claude</a>.</p>"
     },
     {
       "id": "gemini",
       "heading": "Gemini: best inside Google",
-      "html": "<p><strong>Best for:</strong> anything already inside Google. Gemini lives in Docs, Gmail, and Sheets, so it is the natural choice when your work is there and you want AI in the same window.</p><p><strong>Falls short:</strong> as a standalone chat it is less often the favorite, and quality varies more by task. Use it where the Google integration saves you copy-paste. See the <a href=\"/learn-gemini\">Gemini path</a>.</p>"
+      "html": "<p><strong>Best for:</strong> anything already inside Google. Gemini lives in Docs, Gmail, and Sheets, so it is the natural choice when your work is there and you want AI in the same window.</p><p><strong>Falls short:</strong> as a standalone chat it is less often the favorite, and quality varies more by task. Use it where the Google integration saves you copy-paste. See the <a href=\"/learn-gemini\">Gemini path</a>.</p><p>Official page: <a href=\"https://gemini.google.com/\" rel=\"nofollow noopener\" target=\"_blank\">Google Gemini</a>.</p>"
     },
     {
       "id": "choose",
@@ -60,10 +89,22 @@
     }
   ],
   "readNext": [
-    { "href": "/blog/best-free-ai-tools-2026", "label": "The best free AI tools for daily work in 2026" },
-    { "href": "/blog/how-to-learn-chatgpt-in-2026", "label": "How to actually learn ChatGPT in 2026" },
-    { "href": "/learn-claude", "label": "Learn Claude in Iro AI" },
-    { "href": "/learn-gemini", "label": "Learn Gemini in Iro AI" }
+    {
+      "href": "/blog/best-free-ai-tools-2026",
+      "label": "The best free AI tools for daily work in 2026"
+    },
+    {
+      "href": "/blog/how-to-learn-chatgpt-in-2026",
+      "label": "How to actually learn ChatGPT in 2026"
+    },
+    {
+      "href": "/learn-claude",
+      "label": "Learn Claude in Iro AI"
+    },
+    {
+      "href": "/learn-gemini",
+      "label": "Learn Gemini in Iro AI"
+    }
   ],
   "faq": [
     {

@@ -4,32 +4,65 @@
   "pillar": "ai-fluency",
   "title": "AI for beginners: a 30-day learning plan",
   "lede": "Four weeks from zero to genuinely useful — five minutes a day.",
+  "keyTakeaways": [
+    "You can build real AI fluency in about five minutes a day over 30 days, with no technical background required.",
+    "Week 1 covers the basics of ChatGPT and Claude; weeks 2 to 4 add prompting, fact-checking, and applying AI to your own work.",
+    "Daily practice beats binge-watching tutorials — short, active reps with feedback are how skills actually stick.",
+    "By day 30 the goal is a daily AI habit, not a list of memorized tricks."
+  ],
   "description": "A beginner-friendly 30-day plan to learn AI from scratch: what to practise each week, which free tools to use, and how to build a daily habit that actually sticks.",
-  "keywords": ["AI for beginners", "learn AI in 30 days", "AI learning plan", "how to start learning AI", "beginner AI guide"],
+  "keywords": [
+    "AI for beginners",
+    "learn AI in 30 days",
+    "AI learning plan",
+    "how to start learning AI",
+    "beginner AI guide"
+  ],
   "datePublished": "2026-05-28",
-  "dateModified": "2026-05-28",
+  "dateModified": "2026-06-01",
   "readingTime": 7,
   "articleSection": "AI fluency",
   "feedCategory": "AI fluency",
-  "feedTags": ["AI fluency", "Beginners"],
+  "feedTags": [
+    "AI fluency",
+    "Beginners"
+  ],
   "howToName": "How to learn AI in 30 days",
-  "howToStepIds": ["week1", "week2", "week3", "week4", "habit"],
+  "howToStepIds": [
+    "week1",
+    "week2",
+    "week3",
+    "week4",
+    "habit"
+  ],
   "inlineCtaAfter": 3,
   "toc": [
-    { "href": "#tldr", "label": "TL;DR" },
-    { "href": "#start-here", "label": "Start here" },
-    { "href": "#week1", "label": "Week 1: get comfortable" },
-    { "href": "#week2", "label": "Week 2: prompt with structure" },
-    { "href": "#week3", "label": "Week 3: verify everything" },
-    { "href": "#week4", "label": "Week 4: build a workflow" },
-    { "href": "#habit", "label": "Keep the habit going" }
+    {
+      "href": "#start-here",
+      "label": "Start here"
+    },
+    {
+      "href": "#week1",
+      "label": "Week 1: get comfortable"
+    },
+    {
+      "href": "#week2",
+      "label": "Week 2: prompt with structure"
+    },
+    {
+      "href": "#week3",
+      "label": "Week 3: verify everything"
+    },
+    {
+      "href": "#week4",
+      "label": "Week 4: build a workflow"
+    },
+    {
+      "href": "#habit",
+      "label": "Keep the habit going"
+    }
   ],
   "sections": [
-    {
-      "id": "tldr",
-      "heading": "TL;DR",
-      "html": "<ul><li>Spend <strong>5 minutes a day for 30 days</strong> on one free AI assistant — that is enough to get genuinely useful.</li><li><strong>Week 1</strong> build the habit, <strong>Week 2</strong> prompt with structure, <strong>Week 3</strong> verify everything, <strong>Week 4</strong> build a repeatable workflow.</li><li>The skill that matters is judgment — choosing the right tool and checking the output — not memorising prompts.</li></ul>"
-    },
     {
       "id": "start-here",
       "heading": "Start here: what you are actually learning",
@@ -62,10 +95,22 @@
     }
   ],
   "readNext": [
-    { "href": "/blog/how-to-learn-chatgpt-in-2026", "label": "How to actually learn ChatGPT in 2026" },
-    { "href": "/blog/prompt-engineering-patterns", "label": "The 7 prompt patterns that work everywhere" },
-    { "href": "/blog/spot-ai-hallucinations", "label": "How to spot AI hallucinations in 5 seconds" },
-    { "href": "/duolingo-for-ai", "label": "The Duolingo for AI" }
+    {
+      "href": "/blog/how-to-learn-chatgpt-in-2026",
+      "label": "How to actually learn ChatGPT in 2026"
+    },
+    {
+      "href": "/blog/prompt-engineering-patterns",
+      "label": "The 7 prompt patterns that work everywhere"
+    },
+    {
+      "href": "/blog/spot-ai-hallucinations",
+      "label": "How to spot AI hallucinations in 5 seconds"
+    },
+    {
+      "href": "/duolingo-for-ai",
+      "label": "The Duolingo for AI"
+    }
   ],
   "faq": [
     {

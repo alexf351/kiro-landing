@@ -4,6 +4,12 @@
   "pillar": "ai-agents",
   "title": "AI agents, explained without the jargon",
   "lede": "What agents actually are, when to use them, and where they fail.",
+  "keyTakeaways": [
+    "An AI agent is software that uses a large language model to plan and take multi-step actions toward a goal — not just answer a single prompt.",
+    "Agents differ from chatbots by their ability to use tools, call APIs, and loop until a task is finished.",
+    "Agents are worth it for repetitive, multi-step workflows like research, data entry, and scheduling; they are overkill for one-off questions.",
+    "As of 2026, most agents still need human oversight — reliability drops as tasks get longer and more open-ended."
+  ],
   "description": "Strip away the hype: an AI agent is a system that pursues a goal through multiple steps, often using tools. Here's what they really do, when they're worth using, and where they predictably break.",
   "keywords": [
     "AI agents",
@@ -13,7 +19,7 @@
     "autonomous AI"
   ],
   "datePublished": "2026-05-24",
-  "dateModified": "2026-05-24",
+  "dateModified": "2026-06-01",
   "readingTime": 8,
   "articleSection": "AI fluency",
   "feedCategory": "AI agents",

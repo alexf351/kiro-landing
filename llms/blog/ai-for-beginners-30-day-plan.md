@@ -7,7 +7,7 @@ app_store: "https://apps.apple.com/app/id6759628066"
 language: en-US
 keywords: ["AI for beginners", "learn AI in 30 days", "AI learning plan", "how to start learning AI", "beginner AI guide"]
 date_published: "2026-05-28"
-date_modified: "2026-05-28"
+date_modified: "2026-06-01"
 reading_time_minutes: 7
 author: "Alex Furukawa"
 license: "© 2026 Iro AI"
@@ -21,13 +21,16 @@ pillar: "ai-fluency"
 
 **Canonical:** https://tryiro.com/blog/ai-for-beginners-30-day-plan
 **Published:** 2026-05-28
+**Updated:** 2026-06-01
 **Reading time:** ~7 min
+**Author:** Alex Furukawa — Founder of Iro AI
 
-## TL;DR
+## Key takeaways
 
-- Spend **5 minutes a day for 30 days** on one free AI assistant — that is enough to get genuinely useful.
-- **Week 1** build the habit, **Week 2** prompt with structure, **Week 3** verify everything, **Week 4** build a repeatable workflow.
-- The skill that matters is judgment — choosing the right tool and checking the output — not memorising prompts.
+- You can build real AI fluency in about five minutes a day over 30 days, with no technical background required.
+- Week 1 covers the basics of ChatGPT and Claude; weeks 2 to 4 add prompting, fact-checking, and applying AI to your own work.
+- Daily practice beats binge-watching tutorials — short, active reps with feedback are how skills actually stick.
+- By day 30 the goal is a daily AI habit, not a list of memorized tricks.
 
 ## Start here: what you are actually learning
 
@@ -95,3 +98,7 @@ Pick a specialisation. Iro AI has structured paths for ChatGPT, prompt engineeri
 - [The 7 prompt patterns that work everywhere](https://tryiro.com/blog/prompt-engineering-patterns)
 - [How to spot AI hallucinations in 5 seconds](https://tryiro.com/blog/spot-ai-hallucinations)
 - [The Duolingo for AI](https://tryiro.com/duolingo-for-ai)
+
+## About the author
+
+Alex Furukawa — Founder of Iro AI. Alex Furukawa is the founder of Iro AI, the gamified app for learning to use AI well. He writes about practical AI fluency — prompting, AI tools, and the daily habits that turn AI from a novelty into real leverage.
