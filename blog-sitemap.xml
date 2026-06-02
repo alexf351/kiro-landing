@@ -191,4 +191,24 @@
       <image:title>What is prompt engineering? A clear definition with examples</image:title>
     </image:image>
   </url>
+  <url>
+    <loc>https://tryiro.com/blog/chatgpt-vs-claude</loc>
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://tryiro.com/assets/og/chatgpt-vs-claude.png</image:loc>
+      <image:title>ChatGPT vs Claude: which should you use in 2026?</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://tryiro.com/blog/how-to-use-ai-for-studying</loc>
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://tryiro.com/assets/og/how-to-use-ai-for-studying.png</image:loc>
+      <image:title>How to use AI for studying (without cheating yourself)</image:title>
+    </image:image>
+  </url>
 </urlset>

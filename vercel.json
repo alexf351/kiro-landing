@@ -544,6 +544,14 @@
     {
       "source": "/ai-prompts",
       "destination": "/ai-prompts.html"
+    },
+    {
+      "source": "/blog/chatgpt-vs-claude",
+      "destination": "/blog/chatgpt-vs-claude.html"
+    },
+    {
+      "source": "/blog/how-to-use-ai-for-studying",
+      "destination": "/blog/how-to-use-ai-for-studying.html"
     }
   ]
 }
