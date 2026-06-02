@@ -11,21 +11,50 @@
     "If you can only pick one, choose ChatGPT for general versatility and Claude for serious writing or code. Many power users keep both."
   ],
   "description": "ChatGPT vs Claude in 2026: an honest, side-by-side comparison of strengths, pricing, and who each is best for — so you can pick the right AI assistant (or use both well).",
-  "keywords": ["ChatGPT vs Claude", "Claude vs ChatGPT", "ChatGPT or Claude", "Claude vs ChatGPT 2026", "is Claude better than ChatGPT", "best AI assistant"],
+  "keywords": [
+    "ChatGPT vs Claude",
+    "Claude vs ChatGPT",
+    "ChatGPT or Claude",
+    "Claude vs ChatGPT 2026",
+    "is Claude better than ChatGPT",
+    "best AI assistant"
+  ],
   "datePublished": "2026-06-01",
   "dateModified": "2026-06-01",
   "readingTime": 7,
   "articleSection": "AI fluency",
   "feedCategory": "AI tools",
-  "feedTags": ["ChatGPT", "Claude", "AI tools comparison"],
+  "feedTags": [
+    "ChatGPT",
+    "Claude",
+    "AI tools comparison"
+  ],
   "inlineCtaAfter": 2,
   "toc": [
-    { "href": "#short-answer", "label": "Short answer" },
-    { "href": "#at-a-glance", "label": "At a glance" },
-    { "href": "#chatgpt", "label": "Where ChatGPT wins" },
-    { "href": "#claude", "label": "Where Claude wins" },
-    { "href": "#pricing", "label": "Pricing" },
-    { "href": "#choose", "label": "How to choose" }
+    {
+      "href": "#short-answer",
+      "label": "Short answer"
+    },
+    {
+      "href": "#at-a-glance",
+      "label": "At a glance"
+    },
+    {
+      "href": "#chatgpt",
+      "label": "Where ChatGPT wins"
+    },
+    {
+      "href": "#claude",
+      "label": "Where Claude wins"
+    },
+    {
+      "href": "#pricing",
+      "label": "Pricing"
+    },
+    {
+      "href": "#choose",
+      "label": "How to choose"
+    }
   ],
   "sections": [
     {
@@ -60,10 +89,22 @@
     }
   ],
   "readNext": [
-    { "href": "/blog/chatgpt-vs-claude-vs-gemini", "label": "ChatGPT vs Claude vs Gemini: the 3-way breakdown" },
-    { "href": "/blog/what-is-prompt-engineering", "label": "What is prompt engineering?" },
-    { "href": "/ai-prompts", "label": "The free AI prompt library" },
-    { "href": "/quiz", "label": "Take the free AI IQ test" }
+    {
+      "href": "/blog/chatgpt-vs-claude-vs-gemini",
+      "label": "ChatGPT vs Claude vs Gemini: the 3-way breakdown"
+    },
+    {
+      "href": "/blog/what-is-prompt-engineering",
+      "label": "What is prompt engineering?"
+    },
+    {
+      "href": "/ai-prompts",
+      "label": "The free AI prompt library"
+    },
+    {
+      "href": "/quiz",
+      "label": "Take the free AI IQ test"
+    }
   ],
   "faq": [
     {
@@ -91,6 +132,7 @@
     "/learn-chatgpt",
     "/learn-claude",
     "/ai-prompts",
-    "/quiz"
+    "/quiz",
+    "/ai-tools-comparison"
   ]
 }
