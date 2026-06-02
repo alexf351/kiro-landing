@@ -409,6 +409,11 @@
         "slug": "ai-prompts",
         "title": "AI Prompt Library",
         "url": "https://tryiro.com/ai-prompts"
+      },
+      {
+        "slug": "ai-tools-comparison",
+        "title": "AI Tools Comparison",
+        "url": "https://tryiro.com/ai-tools-comparison"
       }
     ],
     "faq": [
