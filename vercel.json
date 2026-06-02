@@ -540,6 +540,10 @@
     {
       "source": "/blog/what-is-prompt-engineering",
       "destination": "/blog/what-is-prompt-engineering.html"
+    },
+    {
+      "source": "/ai-prompts",
+      "destination": "/ai-prompts.html"
     }
   ]
 }

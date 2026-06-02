@@ -12,21 +12,50 @@
     "You learn it by writing real prompts and adjusting based on results, not by memorizing prompt templates."
   ],
   "description": "Prompt engineering is the skill of structuring AI instructions to get reliably better output. A plain-English definition, why it works, before-and-after examples, and whether it still matters in 2026.",
-  "keywords": ["what is prompt engineering", "prompt engineering definition", "prompt engineering meaning", "prompt engineering examples", "is prompt engineering still relevant", "how to learn prompt engineering"],
+  "keywords": [
+    "what is prompt engineering",
+    "prompt engineering definition",
+    "prompt engineering meaning",
+    "prompt engineering examples",
+    "is prompt engineering still relevant",
+    "how to learn prompt engineering"
+  ],
   "datePublished": "2026-06-01",
   "dateModified": "2026-06-01",
   "readingTime": 8,
   "articleSection": "Prompt engineering",
   "feedCategory": "Prompt engineering",
-  "feedTags": ["prompt engineering", "prompting", "AI skills"],
+  "feedTags": [
+    "prompt engineering",
+    "prompting",
+    "AI skills"
+  ],
   "inlineCtaAfter": 2,
   "toc": [
-    { "href": "#definition", "label": "Definition" },
-    { "href": "#why", "label": "Why it works" },
-    { "href": "#moves", "label": "The core moves" },
-    { "href": "#example", "label": "Before & after" },
-    { "href": "#still-relevant", "label": "Still relevant in 2026?" },
-    { "href": "#learn", "label": "How to learn it" }
+    {
+      "href": "#definition",
+      "label": "Definition"
+    },
+    {
+      "href": "#why",
+      "label": "Why it works"
+    },
+    {
+      "href": "#moves",
+      "label": "The core moves"
+    },
+    {
+      "href": "#example",
+      "label": "Before & after"
+    },
+    {
+      "href": "#still-relevant",
+      "label": "Still relevant in 2026?"
+    },
+    {
+      "href": "#learn",
+      "label": "How to learn it"
+    }
   ],
   "sections": [
     {
@@ -61,10 +90,22 @@
     }
   ],
   "readNext": [
-    { "href": "/blog/prompt-engineering-patterns", "label": "The 7 prompt patterns that work everywhere" },
-    { "href": "/blog/why-your-ai-prompts-arent-working", "label": "Why your AI prompts aren't working" },
-    { "href": "/blog/what-is-ai-fluency", "label": "What is AI fluency?" },
-    { "href": "/quiz", "label": "Take the free AI IQ test" }
+    {
+      "href": "/blog/prompt-engineering-patterns",
+      "label": "The 7 prompt patterns that work everywhere"
+    },
+    {
+      "href": "/blog/why-your-ai-prompts-arent-working",
+      "label": "Why your AI prompts aren't working"
+    },
+    {
+      "href": "/blog/what-is-ai-fluency",
+      "label": "What is AI fluency?"
+    },
+    {
+      "href": "/quiz",
+      "label": "Take the free AI IQ test"
+    }
   ],
   "faq": [
     {
@@ -91,6 +132,7 @@
     "/blog/how-to-learn-chatgpt-in-2026",
     "/prompt-engineering-app",
     "/glossary",
-    "/quiz"
+    "/quiz",
+    "/ai-prompts"
   ]
 }
