@@ -183,6 +183,30 @@
         "prompting",
         "AI skills"
       ]
+    },
+    {
+      "id": "https://tryiro.com/blog/chatgpt-vs-claude",
+      "url": "https://tryiro.com/blog/chatgpt-vs-claude",
+      "title": "ChatGPT vs Claude: which should you use in 2026?",
+      "summary": "ChatGPT and Claude are the two best general-purpose AI assistants in 2026 — and the right pick depends on what you do most. Here's an honest, side-by-side breakdown.",
+      "date_published": "2026-06-01T00:00:00Z",
+      "tags": [
+        "ChatGPT",
+        "Claude",
+        "AI tools comparison"
+      ]
+    },
+    {
+      "id": "https://tryiro.com/blog/how-to-use-ai-for-studying",
+      "url": "https://tryiro.com/blog/how-to-use-ai-for-studying",
+      "title": "How to use AI for studying (without cheating yourself)",
+      "summary": "Used well, AI is the best study partner ever invented — it explains, quizzes, and plans around you. Used lazily, it quietly robs you of the learning. Here's how to get the upside.",
+      "date_published": "2026-06-01T00:00:00Z",
+      "tags": [
+        "AI for students",
+        "studying",
+        "learning with AI"
+      ]
     }
   ]
 }

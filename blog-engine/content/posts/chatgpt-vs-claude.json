@@ -1,0 +1,96 @@
+{
+  "slug": "chatgpt-vs-claude",
+  "order": 16,
+  "pillar": "ai-fluency",
+  "title": "ChatGPT vs Claude: which should you use in 2026?",
+  "lede": "ChatGPT and Claude are the two best general-purpose AI assistants in 2026 — and the right pick depends on what you do most. Here's an honest, side-by-side breakdown.",
+  "keyTakeaways": [
+    "ChatGPT is the best all-rounder: the widest ecosystem (voice, image generation, custom GPTs), the biggest free tier, and the most third-party integrations.",
+    "Claude is the favorite for writing, long documents, and coding — it handles big context carefully and tends to follow nuanced instructions closely.",
+    "Both have capable free tiers, so the real differentiator is how you prompt them, not raw intelligence.",
+    "If you can only pick one, choose ChatGPT for general versatility and Claude for serious writing or code. Many power users keep both."
+  ],
+  "description": "ChatGPT vs Claude in 2026: an honest, side-by-side comparison of strengths, pricing, and who each is best for — so you can pick the right AI assistant (or use both well).",
+  "keywords": ["ChatGPT vs Claude", "Claude vs ChatGPT", "ChatGPT or Claude", "Claude vs ChatGPT 2026", "is Claude better than ChatGPT", "best AI assistant"],
+  "datePublished": "2026-06-01",
+  "dateModified": "2026-06-01",
+  "readingTime": 7,
+  "articleSection": "AI fluency",
+  "feedCategory": "AI tools",
+  "feedTags": ["ChatGPT", "Claude", "AI tools comparison"],
+  "inlineCtaAfter": 2,
+  "toc": [
+    { "href": "#short-answer", "label": "Short answer" },
+    { "href": "#at-a-glance", "label": "At a glance" },
+    { "href": "#chatgpt", "label": "Where ChatGPT wins" },
+    { "href": "#claude", "label": "Where Claude wins" },
+    { "href": "#pricing", "label": "Pricing" },
+    { "href": "#choose", "label": "How to choose" }
+  ],
+  "sections": [
+    {
+      "id": "short-answer",
+      "heading": "The short answer",
+      "html": "<p><strong>Use ChatGPT if you want the most versatile all-rounder; use Claude if your work is mostly writing, long documents, or code.</strong> Both are excellent in 2026, and for everyday questions you genuinely can't go wrong with either. The differences show up at the edges — ecosystem and features lean ChatGPT; careful long-form writing and coding lean Claude.</p><p>One honest point most comparisons skip: the gap between the two matters far less than the gap between a good prompt and a lazy one. How you ask shapes the answer more than which logo is at the top. That skill — <a href=\"/blog/what-is-prompt-engineering\">prompt engineering</a> — transfers across both.</p>"
+    },
+    {
+      "id": "at-a-glance",
+      "heading": "At a glance",
+      "html": "<div class=\"cmp-wrap\"><table class=\"cmp-table\"><thead><tr><th></th><th>ChatGPT</th><th>Claude</th></tr></thead><tbody><tr><th>Maker</th><td>OpenAI</td><td>Anthropic</td></tr><tr><th>Best for</th><td>All-purpose use, ecosystem, voice, images</td><td>Writing, long documents, coding, careful reasoning</td></tr><tr><th>Strengths</th><td>Custom GPTs, image generation, voice mode, widest integrations</td><td>Large context, nuanced instruction-following, natural prose</td></tr><tr><th>Free tier</th><td>Generous, with access to capable models</td><td>Capable, with usage limits</td></tr><tr><th>Ecosystem</th><td>Very large (apps, plugins, API)</td><td>Growing; strong with developer tools</td></tr></tbody></table></div><p class=\"note\">Details reflect publicly available information in 2026 and change often — check each tool's current plans and features.</p>"
+    },
+    {
+      "id": "chatgpt",
+      "heading": "Where ChatGPT wins",
+      "html": "<p>ChatGPT is the most complete package. It bundles the widest set of features into one place — image generation, voice conversations, data analysis, and custom GPTs you can tailor to a task — and it has the largest ecosystem of integrations and third-party tools built around it. If you want one assistant that does a bit of everything, ChatGPT is the safe default.</p><p>It's also the most beginner-friendly on-ramp: the free tier is generous, the interface is polished, and there's more written about how to use it than any other tool. If you're starting out, see <a href=\"/blog/how-to-learn-chatgpt-in-2026\">how to actually learn ChatGPT</a>. Official details: <a href=\"https://openai.com/chatgpt/\" rel=\"nofollow noopener\" target=\"_blank\">OpenAI ChatGPT</a>.</p>"
+    },
+    {
+      "id": "claude",
+      "heading": "Where Claude wins",
+      "html": "<p>Claude shines on serious text work. Paste a long document, a messy contract, or a large codebase and Claude tends to hold the whole thing in view and respond with care — it's a favorite among writers and developers for exactly this. Its prose often reads more naturally out of the box, and it tends to follow nuanced, multi-part instructions closely rather than flattening them.</p><p>If your days are mostly drafting, editing, analyzing long material, or writing and reviewing code, Claude is worth making your default. Official details: <a href=\"https://www.anthropic.com/claude\" rel=\"nofollow noopener\" target=\"_blank\">Anthropic Claude</a>. (Want the three-way picture including Gemini? See <a href=\"/blog/chatgpt-vs-claude-vs-gemini\">ChatGPT vs Claude vs Gemini</a>.)</p>"
+    },
+    {
+      "id": "pricing",
+      "heading": "Pricing: do you even need to pay?",
+      "html": "<p>For most people, no — at least not to start. Both ChatGPT and Claude have free tiers capable enough to learn on and to handle everyday tasks. You hit the limits when you use them heavily, want the most advanced models, or need higher usage caps; that's when a paid plan earns its keep.</p><p>A practical approach: start free on both, notice which one you keep reaching for, and pay for that one. Pricing and model access change frequently, so check current plans rather than trusting a number in any article — including this one.</p>"
+    },
+    {
+      "id": "choose",
+      "heading": "How to choose (a simple rule)",
+      "html": "<p>Decide by your most common task:</p><ul><li><strong>General use, images, voice, lots of integrations?</strong> <strong>ChatGPT.</strong></li><li><strong>Heavy writing, long documents, or coding?</strong> <strong>Claude.</strong></li><li><strong>Not sure?</strong> Start with ChatGPT — it's the most forgiving all-rounder — and add Claude when you hit a task it doesn't nail.</li></ul><p>And the highest-leverage move either way: get better at directing whichever you choose. The free <a href=\"/quiz\">AI IQ test</a> shows where your skills stand, and the <a href=\"/ai-prompts\">free prompt library</a> gives you copy-paste prompts that work in both.</p>"
+    }
+  ],
+  "readNext": [
+    { "href": "/blog/chatgpt-vs-claude-vs-gemini", "label": "ChatGPT vs Claude vs Gemini: the 3-way breakdown" },
+    { "href": "/blog/what-is-prompt-engineering", "label": "What is prompt engineering?" },
+    { "href": "/ai-prompts", "label": "The free AI prompt library" },
+    { "href": "/quiz", "label": "Take the free AI IQ test" }
+  ],
+  "faq": [
+    {
+      "q": "Is Claude better than ChatGPT?",
+      "a": "Neither is strictly better — it depends on the task. Claude is often preferred for writing, long documents, and coding; ChatGPT is the more versatile all-rounder with a bigger ecosystem (voice, image generation, custom GPTs). For everyday questions, both are excellent."
+    },
+    {
+      "q": "Should I use ChatGPT or Claude for writing?",
+      "a": "Many writers prefer Claude for long-form and editing work — its prose tends to read naturally and it follows nuanced instructions closely. ChatGPT is still very capable; the bigger factor is how clearly you prompt. Try the same task in both and keep the one you like."
+    },
+    {
+      "q": "Are ChatGPT and Claude free?",
+      "a": "Both have capable free tiers that are enough for most people to learn on and use daily. Paid plans unlock the most advanced models and higher usage limits. Start free on both and pay for whichever you reach for most."
+    },
+    {
+      "q": "Can I use ChatGPT and Claude together?",
+      "a": "Yes, and many power users do — ChatGPT for general tasks, images, and voice; Claude for serious writing and code. Keeping both and switching by task gets you the best of each."
+    }
+  ],
+  "related": [
+    "/blog/chatgpt-vs-claude-vs-gemini",
+    "/blog/what-is-prompt-engineering",
+    "/blog/how-to-learn-chatgpt-in-2026",
+    "/blog/what-is-ai-fluency",
+    "/learn-chatgpt",
+    "/learn-claude",
+    "/ai-prompts",
+    "/quiz"
+  ]
+}

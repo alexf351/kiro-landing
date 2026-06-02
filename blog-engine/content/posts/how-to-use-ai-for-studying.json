@@ -1,0 +1,90 @@
+{
+  "slug": "how-to-use-ai-for-studying",
+  "order": 17,
+  "pillar": "ai-fluency",
+  "title": "How to use AI for studying (without cheating yourself)",
+  "lede": "Used well, AI is the best study partner ever invented — it explains, quizzes, and plans around you. Used lazily, it quietly robs you of the learning. Here's how to get the upside.",
+  "keyTakeaways": [
+    "AI is a study multiplier when it makes you think more, not less — use it to explain, quiz, and plan, not to hand you answers you copy.",
+    "The five highest-value study moves: explain a concept simply, test yourself, summarize your notes, build a study plan, and generate practice problems.",
+    "Always verify what AI tells you — it can sound confident and be wrong, which is dangerous when you're learning something new.",
+    "The skill that lasts isn't the answer it gives; it's learning to direct and check it — that's AI fluency."
+  ],
+  "description": "How to use AI for studying the right way: the 5 best ways to study with ChatGPT or Claude, what to avoid so you actually learn, and copy-paste study prompts.",
+  "keywords": ["how to use AI for studying", "AI for studying", "ChatGPT for studying", "study with AI", "AI study tips", "best AI for students"],
+  "datePublished": "2026-06-01",
+  "dateModified": "2026-06-01",
+  "readingTime": 7,
+  "articleSection": "AI fluency",
+  "feedCategory": "AI fluency",
+  "feedTags": ["AI for students", "studying", "learning with AI"],
+  "inlineCtaAfter": 2,
+  "toc": [
+    { "href": "#short-answer", "label": "The short answer" },
+    { "href": "#ways", "label": "5 ways to study with AI" },
+    { "href": "#avoid", "label": "What to avoid" },
+    { "href": "#tools", "label": "Which tool to use" },
+    { "href": "#prompts", "label": "Study prompts to steal" }
+  ],
+  "sections": [
+    {
+      "id": "short-answer",
+      "heading": "The short answer",
+      "html": "<p><strong>The right way to use AI for studying is to make it ask you to think — explaining concepts, quizzing you, and planning your time — not to hand you finished answers you copy down.</strong> The difference between a student who gets smarter with AI and one who gets dependent on it isn't the tool; it's whether the AI is doing the thinking or prompting <em>you</em> to.</p><p>Think of it as the world's most patient tutor: available at 2am, never judges your question, and will re-explain something five different ways. That's a genuine superpower for learning — if you point it at understanding rather than shortcuts.</p>"
+    },
+    {
+      "id": "ways",
+      "heading": "5 high-value ways to study with AI",
+      "html": "<ol><li><strong>Explain a concept until it clicks.</strong> Ask it to explain something \"like I'm new to it,\" with an analogy and an example — then ask follow-ups until there are no gaps. Re-explaining on demand is where AI beats a textbook.</li><li><strong>Quiz yourself.</strong> Have it ask you questions one at a time, increasing in difficulty, and explain why each answer is right or wrong. Active recall is one of the most proven ways to make things stick.</li><li><strong>Summarize and organize your notes.</strong> Paste messy notes and ask for a clean summary, a concept map, or the five things most likely to be tested.</li><li><strong>Build a study plan.</strong> Give it your deadline and goal and have it produce a day-by-day plan with short daily tasks and self-tests.</li><li><strong>Generate practice problems.</strong> Ask for extra practice questions in the style of your exam, then have it grade your attempts and show the working.</li></ol><p>Notice the pattern: in every one, you're still doing the mental work. The AI is the coach, not the player.</p>"
+    },
+    {
+      "id": "avoid",
+      "heading": "What to avoid (so you don't cheat yourself)",
+      "html": "<p>The failure mode is letting AI think for you. A few rules that keep you honest:</p><ul><li><strong>Don't copy answers you can't reproduce.</strong> If you couldn't explain it without the AI, you haven't learned it. Use it to understand, then close the tab and do it yourself.</li><li><strong>Verify everything important.</strong> AI can state wrong facts, dates, and formulas with total confidence — a real risk when you don't yet know the material. Cross-check against your textbook or a trusted source. Here's <a href=\"/blog/spot-ai-hallucinations\">how to spot AI hallucinations</a>.</li><li><strong>Respect your school's rules.</strong> Using AI to learn is great; submitting AI-written work as your own is usually against the rules and, more importantly, skips the learning you're paying for.</li></ul>"
+    },
+    {
+      "id": "tools",
+      "heading": "Which AI tool should students use?",
+      "html": "<p>For most studying, the free tier of <a href=\"/learn-chatgpt\">ChatGPT</a> or <a href=\"/learn-claude\">Claude</a> is more than enough — you rarely need to pay to learn. ChatGPT is the most versatile all-rounder; Claude is excellent for working through long readings and explaining them carefully. For research where you need sources, <a href=\"/learn-perplexity\">Perplexity</a> cites its references, which makes verification easier.</p><p>Don't overthink the choice. Pick one, build the habit, and switch only if it stops serving you. (Curious which fits you? <a href=\"/blog/chatgpt-vs-claude\">ChatGPT vs Claude</a> breaks it down.)</p>"
+    },
+    {
+      "id": "prompts",
+      "heading": "Study prompts to steal",
+      "html": "<p>Copy these straight into any AI tool and swap in your topic:</p><ul><li><em>\"Explain [concept] like I'm new to it, with one analogy and one example, then ask me a question to check I understood.\"</em></li><li><em>\"Quiz me on [topic] with five increasingly hard questions, one at a time, and tell me why each answer is right or wrong.\"</em></li><li><em>\"I have [X days] to learn [topic] for [exam]. Build a day-by-day plan with a 30-minute task and a self-test each day.\"</em></li><li><em>\"I'll explain [concept] in my own words — point out exactly where I'm wrong or fuzzy, then give the corrected version.\"</em></li></ul><p>Want more? The <a href=\"/ai-prompts\">free AI prompt library</a> has a whole section of learning prompts. And if you want to get genuinely good at directing AI — the skill behind all of this — that's exactly what <a href=\"/quiz\">Iro AI</a> trains.</p>"
+    }
+  ],
+  "readNext": [
+    { "href": "/ai-prompts", "label": "The free AI prompt library" },
+    { "href": "/blog/spot-ai-hallucinations", "label": "How to spot AI hallucinations" },
+    { "href": "/blog/what-is-ai-fluency", "label": "What is AI fluency?" },
+    { "href": "/quiz", "label": "Take the free AI IQ test" }
+  ],
+  "faq": [
+    {
+      "q": "Is it cheating to use AI for studying?",
+      "a": "Using AI to learn — to explain concepts, quiz you, or plan your time — is not cheating; it's smart studying. Submitting AI-written work as your own usually is, and it skips the learning anyway. The honest test: if you couldn't reproduce it without the AI, you haven't learned it yet."
+    },
+    {
+      "q": "What is the best AI for students?",
+      "a": "For most studying, the free tier of ChatGPT or Claude is plenty — ChatGPT is the versatile all-rounder, Claude is great for long readings, and Perplexity is best when you need cited sources. You rarely need to pay just to study."
+    },
+    {
+      "q": "Can AI help me study for exams?",
+      "a": "Yes — ask it to generate practice questions in your exam's style, quiz you with active recall, summarize the most testable points, and build a day-by-day plan. Just verify facts against your course material, since AI can be confidently wrong."
+    },
+    {
+      "q": "How do I use ChatGPT to study without just copying answers?",
+      "a": "Point it at understanding, not output: have it explain, ask you questions, and check your reasoning. Then close it and reproduce the work yourself. If you can explain it unaided, it stuck."
+    }
+  ],
+  "related": [
+    "/blog/what-is-ai-fluency",
+    "/blog/spot-ai-hallucinations",
+    "/blog/ai-for-beginners-30-day-plan",
+    "/blog/chatgpt-vs-claude",
+    "/ai-prompts",
+    "/ai-for-students",
+    "/glossary",
+    "/quiz"
+  ]
+}
