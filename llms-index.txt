@@ -1,6 +1,6 @@
 # Iro AI — index of LLM-readable resources
 # https://tryiro.com/llms-index.txt
-# Last updated: 2026-05-31
+# Last updated: 2026-06-02
 #
 # This file lists every machine-readable / LLM-friendly resource on
 # tryiro.com so that AI assistants, answer engines, and crawlers can
@@ -15,6 +15,7 @@ AI assistant policy         https://tryiro.com/ai.txt
 product JSON-LD feed        https://tryiro.com/iro.json
 web app manifest            https://tryiro.com/manifest.json
 opensearch description      https://tryiro.com/opensearch.xml
+localization map            https://tryiro.com/localization.json
 rss (changelog)             https://tryiro.com/rss.xml
 
 ## Site structure
@@ -29,6 +30,11 @@ blog rss                    https://tryiro.com/blog/rss.xml
 blog atom                   https://tryiro.com/blog/atom.xml
 blog json feed              https://tryiro.com/blog/feed.json
 robots policy               https://tryiro.com/robots.txt
+
+## Localized homepages
+spanish homepage            https://tryiro.com/es
+french homepage             https://tryiro.com/fr
+german homepage             https://tryiro.com/de
 
 ## Markdown mirrors (LLM-friendly clean text)
 homepage                    https://tryiro.com/llms/index.md

@@ -1,0 +1,46 @@
+{
+  "defaultLocale": "en",
+  "locales": [
+    {
+      "code": "en",
+      "name": "English",
+      "url": "https://tryiro.com/"
+    },
+    {
+      "code": "es",
+      "name": "Español",
+      "url": "https://tryiro.com/es",
+      "htmlFile": "es.html"
+    },
+    {
+      "code": "fr",
+      "name": "Français",
+      "url": "https://tryiro.com/fr",
+      "htmlFile": "fr.html"
+    },
+    {
+      "code": "de",
+      "name": "Deutsch",
+      "url": "https://tryiro.com/de",
+      "htmlFile": "de.html"
+    }
+  ],
+  "localizedSurfaces": [
+    "homepage",
+    "hreflang",
+    "sitemap",
+    "JSON-LD WebPage metadata"
+  ],
+  "lastUpdated": "2026-06-02",
+  "detection": {
+    "mode": "client-side suggestion banner",
+    "autoRedirect": false,
+    "source": "navigator.languages",
+    "supportedLocales": [
+      "es",
+      "fr",
+      "de"
+    ],
+    "persistence": "localStorage remembers dismissals for 30 days and explicit language choices indefinitely"
+  }
+}
