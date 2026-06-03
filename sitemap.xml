@@ -5,10 +5,13 @@
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://tryiro.com/</loc>
-    <lastmod>2026-05-31</lastmod>
+    <lastmod>2026-06-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://tryiro.com/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tryiro.com/es"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tryiro.com/fr"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://tryiro.com/de"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tryiro.com/"/>
     <image:image>
       <image:loc>https://tryiro.com/assets/og-card.png</image:loc>
@@ -46,6 +49,39 @@
       <video:duration>48</video:duration>
       <video:family_friendly>yes</video:family_friendly>
     </video:video>
+  </url>
+  <url>
+    <loc>https://tryiro.com/es</loc>
+    <lastmod>2026-06-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tryiro.com/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tryiro.com/es"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tryiro.com/fr"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://tryiro.com/de"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tryiro.com/"/>
+  </url>
+  <url>
+    <loc>https://tryiro.com/fr</loc>
+    <lastmod>2026-06-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tryiro.com/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tryiro.com/es"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tryiro.com/fr"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://tryiro.com/de"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tryiro.com/"/>
+  </url>
+  <url>
+    <loc>https://tryiro.com/de</loc>
+    <lastmod>2026-06-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tryiro.com/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tryiro.com/es"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tryiro.com/fr"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://tryiro.com/de"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tryiro.com/"/>
   </url>
   <url><loc>https://tryiro.com/quiz</loc><lastmod>2026-05-31</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
   <url><loc>https://tryiro.com/about</loc><lastmod>2026-05-31</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>

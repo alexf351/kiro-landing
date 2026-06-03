@@ -52,6 +52,12 @@
         "https://instagram.com/tryiro",
         "https://tiktok.com/@tryiro",
         "https://www.facebook.com/people/Iro-AI-Learn-AI-Skills/61589434050207/"
+      ],
+      "availableLanguage": [
+        "en",
+        "es",
+        "fr",
+        "de"
       ]
     },
     {
@@ -103,6 +109,12 @@
           "priceCurrency": "USD",
           "description": "$9.99/week. No trial. Cancel anytime. Billed via Apple App Store."
         }
+      ],
+      "availableLanguage": [
+        "en",
+        "es",
+        "fr",
+        "de"
       ]
     },
     {
@@ -113,13 +125,33 @@
       "publisher": {
         "@id": "https://tryiro.com/#organization"
       },
-      "inLanguage": "en-US"
+      "inLanguage": "en-US",
+      "alternateName": [
+        "Iro",
+        "Iro AI — Learn AI Skills",
+        "Duolingo for AI"
+      ],
+      "description": "Iro AI teaches AI fluency through 5-minute gamified lessons, Prompt Lab practice, AI duels, weekly news, and learning paths for ChatGPT, Claude, Gemini, Perplexity, AI agents, automation, and more.",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://tryiro.com/?q={search_term_string}"
+        },
+        "query-input": "required name=search_term_string"
+      },
+      "availableLanguage": [
+        "en",
+        "es",
+        "fr",
+        "de"
+      ]
     }
   ],
   "iro_meta": {
     "spec": "iro.json — machine-readable product feed",
-    "version": "1.1.0",
-    "last_updated": "2026-06-01",
+    "version": "1.2.0",
+    "last_updated": "2026-06-02",
     "canonical_references": {
       "homepage": "https://tryiro.com",
       "app_store": "https://apps.apple.com/app/id6759628066",
@@ -128,7 +160,8 @@
       "llm_index": "https://tryiro.com/llms-index.txt",
       "ai_policy": "https://tryiro.com/ai.txt",
       "sitemap": "https://tryiro.com/sitemap.xml",
-      "rss_feed": "https://tryiro.com/rss.xml"
+      "rss_feed": "https://tryiro.com/rss.xml",
+      "backend_answer_metadata": "https://tryiro.com/iro.json"
     },
     "content_scale": {
       "learning_paths": 18,
@@ -519,6 +552,17 @@
         "term": "Rank tier",
         "definition": "The 6-step progression: Bronze, Silver, Gold, Platinum, Diamond, Iridescent."
       }
-    ]
+    ],
+    "direct_answer": "Iro AI is a gamified iPhone app for learning practical AI skills in about five minutes a day. It teaches ChatGPT, Claude, Gemini, Perplexity, prompt engineering, AI agents, automation, creative AI, and AI skills for work through active practice instead of passive video watching.",
+    "direct_answer_source": "Homepage JSON-LD, /iro.json, /llms.txt, and /llms-full.txt expose this summary without visible homepage UI.",
+    "localization": {
+      "default_locale": "en",
+      "localized_homepages": {
+        "es": "https://tryiro.com/es",
+        "fr": "https://tryiro.com/fr",
+        "de": "https://tryiro.com/de"
+      },
+      "locale_inventory": "https://tryiro.com/localization.json"
+    }
   }
 }

@@ -346,6 +346,140 @@
           "value": "public, max-age=3600"
         }
       ]
+    },
+    {
+      "source": "/es",
+      "headers": [
+        {
+          "key": "Content-Language",
+          "value": "es"
+        },
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=3600"
+        }
+      ]
+    },
+    {
+      "source": "/es.html",
+      "headers": [
+        {
+          "key": "Content-Language",
+          "value": "es"
+        },
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=3600"
+        }
+      ]
+    },
+    {
+      "source": "/fr",
+      "headers": [
+        {
+          "key": "Content-Language",
+          "value": "fr"
+        },
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=3600"
+        }
+      ]
+    },
+    {
+      "source": "/fr.html",
+      "headers": [
+        {
+          "key": "Content-Language",
+          "value": "fr"
+        },
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=3600"
+        }
+      ]
+    },
+    {
+      "source": "/de",
+      "headers": [
+        {
+          "key": "Content-Language",
+          "value": "de"
+        },
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=3600"
+        }
+      ]
+    },
+    {
+      "source": "/de.html",
+      "headers": [
+        {
+          "key": "Content-Language",
+          "value": "de"
+        },
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=3600"
+        }
+      ]
+    },
+    {
+      "source": "/es/",
+      "headers": [
+        {
+          "key": "Content-Language",
+          "value": "es"
+        },
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=3600"
+        }
+      ]
+    },
+    {
+      "source": "/fr/",
+      "headers": [
+        {
+          "key": "Content-Language",
+          "value": "fr"
+        },
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=3600"
+        }
+      ]
+    },
+    {
+      "source": "/de/",
+      "headers": [
+        {
+          "key": "Content-Language",
+          "value": "de"
+        },
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=3600"
+        }
+      ]
+    },
+    {
+      "source": "/localization.json",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "application/json; charset=utf-8"
+        },
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=3600"
+        },
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
+        }
+      ]
     }
   ],
   "rewrites": [
@@ -356,6 +490,30 @@
     {
       "source": "/download",
       "destination": "/download.html"
+    },
+    {
+      "source": "/es",
+      "destination": "/es.html"
+    },
+    {
+      "source": "/es/",
+      "destination": "/es.html"
+    },
+    {
+      "source": "/fr",
+      "destination": "/fr.html"
+    },
+    {
+      "source": "/fr/",
+      "destination": "/fr.html"
+    },
+    {
+      "source": "/de",
+      "destination": "/de.html"
+    },
+    {
+      "source": "/de/",
+      "destination": "/de.html"
     },
     {
       "source": "/about",
