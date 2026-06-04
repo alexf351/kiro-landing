@@ -714,6 +714,14 @@
     {
       "source": "/ai-tools-comparison",
       "destination": "/ai-tools-comparison.html"
+    },
+    {
+      "source": "/how-to-learn-ai",
+      "destination": "/how-to-learn-ai.html"
+    },
+    {
+      "source": "/learn-llms",
+      "destination": "/learn-llms.html"
     }
   ]
 }

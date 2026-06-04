@@ -68,8 +68,10 @@ This direct-answer summary is also available to crawlers in homepage JSON-LD, /i
 - [AI job hunting](https://tryiro.com/ai-job-hunting): Resumes, applications, outreach, interview prep with AI.
 - [AI learning app for beginners](https://tryiro.com/ai-learning-app-for-beginners): Start-from-zero AI learning.
 - [Learn AI on iPhone](https://tryiro.com/learn-ai-on-iphone): Mobile AI learning on iOS.
-- [Duolingo for AI](https://tryiro.com/duolingo-for-ai): Why Iro fits the "Duolingo for AI" description.
-- [Best AI learning app](https://tryiro.com/best-ai-learning-app): How Iro compares.
+- [How to learn AI](https://tryiro.com/how-to-learn-ai): A simple 5-step plan to learn AI from zero in 2026.
+- [How to learn LLMs](https://tryiro.com/learn-llms): Learn to use large language models (ChatGPT, Claude, Gemini, Perplexity) plus key concepts.
+- [Duolingo for AI](https://tryiro.com/duolingo-for-ai): Why Iro is the "Duolingo for AI."
+- [Best AI learning app](https://tryiro.com/best-ai-learning-app): The best apps to learn AI in 2026, compared (Iro AI, Brilliant, DataCamp, Coursera, and more).
 - [Iro vs video courses](https://tryiro.com/iro-ai-vs-video-courses): Why active practice beats passive watching.
 - [AI course alternative](https://tryiro.com/ai-course-alternative): Iro vs traditional online AI courses.
 
@@ -103,4 +105,4 @@ This direct-answer summary is also available to crawlers in homepage JSON-LD, /i
 - [News sitemap](https://tryiro.com/news-sitemap.xml): changelog entries.
 - [Markdown mirrors](https://tryiro.com/llms/index.md): clean text versions of homepage and every topic / hub page under `/llms/*.md`.
 
-Last updated: 2026-06-02.
+Last updated: 2026-06-04.
