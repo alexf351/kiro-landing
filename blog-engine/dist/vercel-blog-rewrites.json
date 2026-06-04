@@ -103,6 +103,14 @@
     {
       "source": "/blog/chatgpt-prompts-for-beginners",
       "destination": "/blog/chatgpt-prompts-for-beginners.html"
+    },
+    {
+      "source": "/blog/ai-agents-vs-automation",
+      "destination": "/blog/ai-agents-vs-automation.html"
+    },
+    {
+      "source": "/blog/how-to-use-ai-at-work",
+      "destination": "/blog/how-to-use-ai-at-work.html"
     }
   ]
 }

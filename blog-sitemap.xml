@@ -261,4 +261,24 @@
       <image:title>15 ChatGPT prompts for beginners (copy, paste, and learn)</image:title>
     </image:image>
   </url>
+  <url>
+    <loc>https://tryiro.com/blog/ai-agents-vs-automation</loc>
+    <lastmod>2026-06-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://tryiro.com/assets/og/ai-agents-vs-automation.png</image:loc>
+      <image:title>AI agents vs. automation: what's the difference (and when to use each)?</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://tryiro.com/blog/how-to-use-ai-at-work</loc>
+    <lastmod>2026-06-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://tryiro.com/assets/og/how-to-use-ai-at-work.png</image:loc>
+      <image:title>How to use AI at work (a practical guide for 2026)</image:title>
+    </image:image>
+  </url>
 </urlset>

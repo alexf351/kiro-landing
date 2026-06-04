@@ -1,0 +1,127 @@
+{
+  "slug": "how-to-use-ai-at-work",
+  "order": 24,
+  "pillar": "ai-fluency",
+  "title": "How to use AI at work (a practical guide for 2026)",
+  "lede": "The best way to use AI at work is to start with a few high-value, low-risk tasks — drafting, summarizing, and research — verify everything that matters, and follow your company's rules. Here's where to start and how to do it responsibly.",
+  "keyTakeaways": [
+    "Start with high-value, low-risk tasks: drafting, summarizing, brainstorming, and first-pass research — not high-stakes decisions.",
+    "Always verify anything important and never paste confidential or personal data into tools your company hasn't approved.",
+    "The skill that separates useful AI use from embarrassing mistakes is judgment — knowing when to trust the output.",
+    "A few minutes of daily practice on real work tasks builds usable AI fluency in two to three weeks."
+  ],
+  "description": "How to use AI at work in 2026: the best starting tasks, how to do it responsibly (verify, protect data, follow policy), and how to build the habit. A practical guide for any role.",
+  "keywords": [
+    "how to use AI at work",
+    "using AI at work",
+    "AI for work",
+    "AI at work examples",
+    "how to use ChatGPT at work",
+    "AI productivity at work"
+  ],
+  "datePublished": "2026-06-04",
+  "dateModified": "2026-06-04",
+  "readingTime": 7,
+  "articleSection": "AI fluency",
+  "feedCategory": "AI fluency",
+  "feedTags": [
+    "AI fluency",
+    "AI for work",
+    "productivity"
+  ],
+  "inlineCtaAfter": 2,
+  "toc": [
+    {
+      "href": "#answer",
+      "label": "Where to start"
+    },
+    {
+      "href": "#tasks",
+      "label": "Best tasks"
+    },
+    {
+      "href": "#responsibly",
+      "label": "Do it responsibly"
+    },
+    {
+      "href": "#better",
+      "label": "Get better results"
+    },
+    {
+      "href": "#habit",
+      "label": "Build the habit"
+    }
+  ],
+  "sections": [
+    {
+      "id": "answer",
+      "heading": "How should you start using AI at work?",
+      "html": "<p><strong>The best way to start using AI at work is to pick a few high-value, low-risk tasks — drafting, summarizing, and first-pass research — and let AI do the heavy lifting while you stay the editor.</strong> Don't try to automate your whole job overnight. Pick one repetitive task you do often, use AI on it this week, and build from there.</p><p>The goal isn't to replace your judgment; it's to remove the blank-page friction and the busywork so you spend your time on the parts that actually need you.</p>"
+    },
+    {
+      "id": "tasks",
+      "heading": "The best tasks to use AI for at work",
+      "html": "<p>These deliver value fast with low risk, across almost any role:</p><ul><li><strong>Drafting</strong> — emails, summaries, outlines, first drafts of documents. AI is excellent at beating the blank page.</li><li><strong>Summarizing</strong> — condensing long threads, reports, or meeting notes into the key points.</li><li><strong>Brainstorming</strong> — generating options, angles, names, and counterarguments to react to.</li><li><strong>Research (first pass)</strong> — getting oriented on a topic quickly, then verifying with sources (a tool like <a href=\"/learn-perplexity\">Perplexity</a> shows citations).</li><li><strong>Reformatting</strong> — turning messy notes into a clean table, agenda, or checklist.</li></ul><p>Hold AI back from high-stakes, final decisions and anything where a confident wrong answer would be costly — until you've verified it.</p>"
+    },
+    {
+      "id": "responsibly",
+      "heading": "How to use AI at work responsibly",
+      "html": "<p>Using AI well at work is as much about judgment as output. Three rules keep you safe:</p><ul><li><strong>Verify what matters.</strong> Treat AI output as a confident draft, not fact. Check names, numbers, quotes, and claims before they leave your hands. Learn to <a href=\"/blog/spot-ai-hallucinations\">spot hallucinations</a>.</li><li><strong>Protect data.</strong> Don't paste confidential, customer, or personal information into tools your employer hasn't approved. Check your company's AI policy first.</li><li><strong>Stay accountable.</strong> You own the work, not the model. Review and edit anything you send or publish; AI assists, it doesn't sign off.</li></ul><p>Used this way, AI makes you faster <em>and</em> more careful — not reckless.</p>"
+    },
+    {
+      "id": "better",
+      "heading": "How to get better results at work",
+      "html": "<p>If the output is mediocre, the fix is almost always more context, not a fancier prompt. Tell the model who it's for, what you're trying to achieve, and the format you want, then refine the first draft. Give it an example of \"good\" when you can.</p><p>That habit — context, format, iterate — is the core of <a href=\"/blog/what-is-prompt-engineering\">prompt engineering</a>, and it works across ChatGPT, Claude, and Gemini. The <a href=\"/blog/chatgpt-prompts-for-beginners\">beginner prompt templates</a> are a good place to start for common work tasks.</p>"
+    },
+    {
+      "id": "habit",
+      "heading": "Build the habit (a few minutes a day)",
+      "html": "<p>Using AI at work becomes second nature the same way any skill does: short, daily, real practice. Pick one task a day to run through AI, notice what worked, and adjust. In two to three weeks it stops being a novelty and becomes part of how you work — that's <a href=\"/blog/what-is-ai-fluency\">AI fluency</a>.</p><p>If you want a structured path tailored to your role — marketing, finance, management, and more — Iro AI turns these habits into five-minute daily exercises with feedback. See <a href=\"/ai-for-work\">AI for work</a> or check where you stand with the free <a href=\"/quiz\">AI IQ test</a>.</p>"
+    }
+  ],
+  "readNext": [
+    {
+      "href": "/blog/chatgpt-prompts-for-beginners",
+      "label": "15 ChatGPT prompts for beginners"
+    },
+    {
+      "href": "/blog/what-is-ai-fluency",
+      "label": "What is AI fluency?"
+    },
+    {
+      "href": "/blog/spot-ai-hallucinations",
+      "label": "How to spot AI hallucinations in 5 seconds"
+    },
+    {
+      "href": "/quiz",
+      "label": "Take the free AI IQ test"
+    }
+  ],
+  "faq": [
+    {
+      "q": "How do I start using AI at work?",
+      "a": "Start with a few high-value, low-risk tasks like drafting, summarizing, and first-pass research. Pick one repetitive task you do often, use AI on it this week, verify the output, and expand from there."
+    },
+    {
+      "q": "What are the best uses of AI at work?",
+      "a": "Drafting emails and documents, summarizing long content, brainstorming options, doing first-pass research, and reformatting messy notes. These save time fast with low risk, as long as you verify anything important."
+    },
+    {
+      "q": "Is it safe to use AI at work?",
+      "a": "It's safe if you follow three rules: verify anything that matters, never paste confidential or personal data into unapproved tools, and stay accountable for the final work. Always check your company's AI policy."
+    },
+    {
+      "q": "Will using AI at work get me in trouble?",
+      "a": "Not if you use approved tools, protect sensitive data, and review the output before it goes out. Problems come from pasting confidential information into public tools or shipping unverified AI output — both avoidable."
+    }
+  ],
+  "related": [
+    "/blog/chatgpt-prompts-for-beginners",
+    "/blog/what-is-ai-fluency",
+    "/blog/spot-ai-hallucinations",
+    "/blog/ai-skills-for-2026",
+    "/ai-for-work",
+    "/learn-chatgpt",
+    "/quiz"
+  ]
+}

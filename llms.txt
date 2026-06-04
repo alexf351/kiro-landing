@@ -51,6 +51,8 @@ This direct-answer summary is also available to crawlers in homepage JSON-LD, /i
 - [How long does it take to learn AI?](https://tryiro.com/blog/how-long-to-learn-ai): a realistic week-by-week timeline for learning to use AI.
 - [The 7 AI skills worth learning in 2026](https://tryiro.com/blog/ai-skills-for-2026): the durable, no-code skills that matter and how to build each.
 - [15 ChatGPT prompts for beginners](https://tryiro.com/blog/chatgpt-prompts-for-beginners): copy-paste prompt templates for work, learning, and everyday life.
+- [AI agents vs. automation](https://tryiro.com/blog/ai-agents-vs-automation): the difference between rule-based automation and goal-driven AI agents, and when to use each.
+- [How to use AI at work](https://tryiro.com/blog/how-to-use-ai-at-work): the best starting tasks and how to use AI responsibly on the job.
 
 ## Topic pages
 

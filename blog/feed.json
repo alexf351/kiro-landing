@@ -267,6 +267,30 @@
         "ChatGPT",
         "beginners"
       ]
+    },
+    {
+      "id": "https://tryiro.com/blog/ai-agents-vs-automation",
+      "url": "https://tryiro.com/blog/ai-agents-vs-automation",
+      "title": "AI agents vs. automation: what's the difference (and when to use each)?",
+      "summary": "Automation follows fixed rules you define; an AI agent decides its own steps toward a goal. Knowing which one to reach for saves time and avoids expensive surprises. Here's the difference in plain English, with examples.",
+      "date_published": "2026-06-04T00:00:00Z",
+      "tags": [
+        "AI agents",
+        "automation",
+        "AI workflows"
+      ]
+    },
+    {
+      "id": "https://tryiro.com/blog/how-to-use-ai-at-work",
+      "url": "https://tryiro.com/blog/how-to-use-ai-at-work",
+      "title": "How to use AI at work (a practical guide for 2026)",
+      "summary": "The best way to use AI at work is to start with a few high-value, low-risk tasks — drafting, summarizing, and research — verify everything that matters, and follow your company's rules. Here's where to start and how to do it responsibly.",
+      "date_published": "2026-06-04T00:00:00Z",
+      "tags": [
+        "AI fluency",
+        "AI for work",
+        "productivity"
+      ]
     }
   ]
 }

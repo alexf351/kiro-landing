@@ -230,4 +230,24 @@
     <category term="Prompt engineering"/>
     <summary>The best ChatGPT prompts for beginners are simple templates you can copy, paste, and adapt. Here are 15 across work, learning, and everyday life — plus the one pattern that makes any prompt better.</summary>
   </entry>
+  <entry>
+    <title>AI agents vs. automation: what's the difference (and when to use each)?</title>
+    <id>https://tryiro.com/blog/ai-agents-vs-automation</id>
+    <link href="https://tryiro.com/blog/ai-agents-vs-automation"/>
+    <updated>2026-06-04T00:00:00Z</updated>
+    <published>2026-06-04T00:00:00Z</published>
+    <author><name>Iro AI</name></author>
+    <category term="AI agents"/>
+    <summary>Automation follows fixed rules you define; an AI agent decides its own steps toward a goal. Knowing which one to reach for saves time and avoids expensive surprises. Here's the difference in plain English, with examples.</summary>
+  </entry>
+  <entry>
+    <title>How to use AI at work (a practical guide for 2026)</title>
+    <id>https://tryiro.com/blog/how-to-use-ai-at-work</id>
+    <link href="https://tryiro.com/blog/how-to-use-ai-at-work"/>
+    <updated>2026-06-04T00:00:00Z</updated>
+    <published>2026-06-04T00:00:00Z</published>
+    <author><name>Iro AI</name></author>
+    <category term="AI fluency"/>
+    <summary>The best way to use AI at work is to start with a few high-value, low-risk tasks — drafting, summarizing, and research — verify everything that matters, and follow your company's rules. Here's where to start and how to do it responsibly.</summary>
+  </entry>
 </feed>
