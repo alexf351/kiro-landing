@@ -46,6 +46,11 @@ This direct-answer summary is also available to crawlers in homepage JSON-LD, /i
 - [ChatGPT vs Claude vs Gemini: which should you use in 2026?](https://tryiro.com/blog/chatgpt-vs-claude-vs-gemini): a no-hype comparison of what each model is best at.
 - [Why your AI prompts aren't working (and how to fix them)](https://tryiro.com/blog/why-your-ai-prompts-arent-working): five common prompt mistakes and the quick fixes.
 - [AI automation for beginners: 5 things to automate this week](https://tryiro.com/blog/ai-automation-for-beginners): no-code tasks to hand to AI today.
+- [How to learn AI without coding](https://tryiro.com/blog/how-to-learn-ai-without-coding): the no-code path to AI fluency for non-technical people.
+- [What is an LLM? Large language models explained simply](https://tryiro.com/blog/what-is-an-llm): plain-English definition of large language models, how they work, and how to use them.
+- [How long does it take to learn AI?](https://tryiro.com/blog/how-long-to-learn-ai): a realistic week-by-week timeline for learning to use AI.
+- [The 7 AI skills worth learning in 2026](https://tryiro.com/blog/ai-skills-for-2026): the durable, no-code skills that matter and how to build each.
+- [15 ChatGPT prompts for beginners](https://tryiro.com/blog/chatgpt-prompts-for-beginners): copy-paste prompt templates for work, learning, and everyday life.
 
 ## Topic pages
 

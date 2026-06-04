@@ -207,6 +207,66 @@
         "studying",
         "learning with AI"
       ]
+    },
+    {
+      "id": "https://tryiro.com/blog/how-to-learn-ai-without-coding",
+      "url": "https://tryiro.com/blog/how-to-learn-ai-without-coding",
+      "title": "How to learn AI without coding (a no-code path for 2026)",
+      "summary": "You do not need to code to learn AI. Using AI tools well is a language-and-judgment skill, not a programming one. Here is the no-code path — what to learn, in what order, and how to practice it in a few minutes a day.",
+      "date_published": "2026-06-04T00:00:00Z",
+      "tags": [
+        "AI fluency",
+        "learning AI",
+        "beginners"
+      ]
+    },
+    {
+      "id": "https://tryiro.com/blog/what-is-an-llm",
+      "url": "https://tryiro.com/blog/what-is-an-llm",
+      "title": "What is an LLM? Large language models explained simply",
+      "summary": "A large language model (LLM) is an AI trained on huge amounts of text to predict the next word — which lets it answer, write, summarize, and reason in plain language. Here's how LLMs work, what they're good and bad at, and how to use them well.",
+      "date_published": "2026-06-04T00:00:00Z",
+      "tags": [
+        "AI fluency",
+        "LLMs",
+        "AI basics"
+      ]
+    },
+    {
+      "id": "https://tryiro.com/blog/how-long-to-learn-ai",
+      "url": "https://tryiro.com/blog/how-long-to-learn-ai",
+      "title": "How long does it take to learn AI? A realistic timeline",
+      "summary": "Learning to use AI is faster than most people expect: with about five minutes of focused practice a day, you can be genuinely useful in two to three weeks. Here's a realistic timeline — and why building AI takes far longer than using it.",
+      "date_published": "2026-06-04T00:00:00Z",
+      "tags": [
+        "AI fluency",
+        "learning AI",
+        "beginners"
+      ]
+    },
+    {
+      "id": "https://tryiro.com/blog/ai-skills-for-2026",
+      "url": "https://tryiro.com/blog/ai-skills-for-2026",
+      "title": "The 7 AI skills worth learning in 2026",
+      "summary": "The most valuable AI skill in 2026 isn't any single tool — it's the ability to direct, judge, and apply AI to real work. Here are the seven skills that matter most, why they're durable, and how to build each one.",
+      "date_published": "2026-06-04T00:00:00Z",
+      "tags": [
+        "AI fluency",
+        "AI skills",
+        "career"
+      ]
+    },
+    {
+      "id": "https://tryiro.com/blog/chatgpt-prompts-for-beginners",
+      "url": "https://tryiro.com/blog/chatgpt-prompts-for-beginners",
+      "title": "15 ChatGPT prompts for beginners (copy, paste, and learn)",
+      "summary": "The best ChatGPT prompts for beginners are simple templates you can copy, paste, and adapt. Here are 15 across work, learning, and everyday life — plus the one pattern that makes any prompt better.",
+      "date_published": "2026-06-04T00:00:00Z",
+      "tags": [
+        "prompt engineering",
+        "ChatGPT",
+        "beginners"
+      ]
     }
   ]
 }
