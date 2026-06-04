@@ -1,0 +1,137 @@
+{
+  "slug": "what-is-an-llm",
+  "order": 19,
+  "pillar": "ai-fluency",
+  "title": "What is an LLM? Large language models explained simply",
+  "lede": "A large language model (LLM) is an AI trained on huge amounts of text to predict the next word — which lets it answer, write, summarize, and reason in plain language. Here's how LLMs work, what they're good and bad at, and how to use them well.",
+  "keyTakeaways": [
+    "A large language model (LLM) is an AI system trained on vast amounts of text to predict the next word, which lets it understand and generate human language.",
+    "ChatGPT, Claude, Gemini, and Perplexity are all powered by LLMs — when you chat with them, you're using an LLM.",
+    "LLMs are strong at language tasks but can be confidently wrong (hallucinate), so you should verify anything that matters.",
+    "You don't need to understand the math to use LLMs well — getting good at them is a prompting-and-judgment skill."
+  ],
+  "description": "What is an LLM? A large language model is an AI trained on text to predict the next word. Here's how LLMs work, examples, what they're bad at, and how to use them well — in plain English.",
+  "keywords": [
+    "what is an LLM",
+    "large language model",
+    "LLM meaning",
+    "how do LLMs work",
+    "LLM explained",
+    "what is a large language model"
+  ],
+  "datePublished": "2026-06-04",
+  "dateModified": "2026-06-04",
+  "readingTime": 7,
+  "articleSection": "AI fluency",
+  "feedCategory": "AI fluency",
+  "feedTags": [
+    "AI fluency",
+    "LLMs",
+    "AI basics"
+  ],
+  "inlineCtaAfter": 3,
+  "toc": [
+    {
+      "href": "#definition",
+      "label": "Definition"
+    },
+    {
+      "href": "#how",
+      "label": "How they work"
+    },
+    {
+      "href": "#examples",
+      "label": "Examples"
+    },
+    {
+      "href": "#bad",
+      "label": "What they're bad at"
+    },
+    {
+      "href": "#use",
+      "label": "Using them well"
+    },
+    {
+      "href": "#terms",
+      "label": "Key terms"
+    }
+  ],
+  "sections": [
+    {
+      "id": "definition",
+      "heading": "What is an LLM?",
+      "html": "<p><strong>A large language model (LLM) is an artificial-intelligence system trained on enormous amounts of text to predict the most likely next word in a sequence.</strong> That one mechanism, run at massive scale, is enough to let an LLM answer questions, write, summarize, translate, explain, and reason in natural language.</p><p>In plain terms: an LLM is the engine behind modern AI chatbots. When you type a message into ChatGPT, Claude, Gemini, or Perplexity and get a fluent reply, an LLM produced it. You don't need to understand the math to use one well — just as you don't need to understand combustion to drive a car.</p>"
+    },
+    {
+      "id": "how",
+      "heading": "How do LLMs work?",
+      "html": "<p>LLMs learn from text in two broad phases. First, during <strong>training</strong>, the model reads a huge amount of text and repeatedly tries to predict the next word, adjusting itself each time it's wrong. Over billions of examples, it builds a statistical sense of how language fits together — facts, styles, reasoning patterns, and all.</p><p>Then, when you use it, the model does <strong>inference</strong>: it takes your prompt and generates a reply one token (a chunk of text) at a time, each token chosen based on everything before it. It isn't looking up answers in a database; it's generating the most plausible continuation. That's why LLMs are so flexible — and also why they sometimes produce confident nonsense.</p>"
+    },
+    {
+      "id": "examples",
+      "heading": "What are some examples of LLMs?",
+      "html": "<p>The AI tools most people use every day are all built on LLMs:</p><ul><li><strong><a href=\"/learn-chatgpt\">ChatGPT</a></strong> (OpenAI) — the most widely used, a strong all-rounder.</li><li><strong><a href=\"/learn-claude\">Claude</a></strong> (Anthropic) — known for long-document handling and natural writing.</li><li><strong><a href=\"/learn-gemini\">Gemini</a></strong> (Google) — integrated across Google's apps.</li><li><strong><a href=\"/learn-perplexity\">Perplexity</a></strong> — an answer engine that pairs an LLM with live web search and citations.</li></ul><p>They differ in personality and strengths, but they're the same kind of thing under the hood. The skills you build on one transfer to the others.</p>"
+    },
+    {
+      "id": "bad",
+      "heading": "What are LLMs bad at?",
+      "html": "<p>Knowing the limits is half of using LLMs well:</p><ul><li><strong>Hallucinations.</strong> An LLM can state false things confidently because it generates plausible text, not verified facts. Always check important claims. Here's <a href=\"/blog/spot-ai-hallucinations\">how to spot hallucinations fast</a>.</li><li><strong>Fresh or private information.</strong> A base model only knows what it was trained on, so it can miss recent events unless it can search the web.</li><li><strong>Exact math and counting.</strong> They reason in language, not arithmetic, so they can slip on precise calculations.</li><li><strong>Knowing what they don't know.</strong> They rarely say \"I'm not sure\" on their own — you have to prompt for it and verify.</li></ul>"
+    },
+    {
+      "id": "use",
+      "heading": "How do you get good at using LLMs?",
+      "html": "<p>Getting good at LLMs is a practical skill, not a technical one. The fundamentals:</p><ul><li><strong>Prompt deliberately</strong> — give context, a role, a clear task, and the output format you want, then iterate.</li><li><strong>Verify</strong> — treat the output as a confident draft, not a final answer.</li><li><strong>Pick the right model</strong> for the job, and lean on tools like Perplexity when you need sources.</li></ul><p>The fastest way to build the habit is short, active daily practice. Our full guide on <a href=\"/learn-llms\">how to learn LLMs</a> walks through the core concepts and a routine, and the <a href=\"/blog/prompt-engineering-patterns\">prompt patterns that work everywhere</a> are a great next read.</p>"
+    },
+    {
+      "id": "terms",
+      "heading": "Key LLM terms, defined",
+      "html": "<ul><li><strong>Token</strong> — a chunk of text (roughly three-quarters of a word) that the model reads and writes.</li><li><strong>Context window</strong> — how much text the model can consider at once.</li><li><strong>Prompt</strong> — the instructions and context you give the model.</li><li><strong>Hallucination</strong> — a confident but false or made-up answer.</li><li><strong>Fine-tuning</strong> — extra training that adapts a model to a specific task or style.</li><li><strong>Temperature</strong> — a setting that controls how random vs. focused the output is.</li></ul><p>More plain-language definitions are in the <a href=\"/glossary\">Iro AI glossary</a>.</p>"
+    }
+  ],
+  "readNext": [
+    {
+      "href": "/learn-llms",
+      "label": "How to learn LLMs: a practical guide"
+    },
+    {
+      "href": "/blog/what-is-ai-fluency",
+      "label": "What is AI fluency?"
+    },
+    {
+      "href": "/blog/spot-ai-hallucinations",
+      "label": "How to spot AI hallucinations in 5 seconds"
+    },
+    {
+      "href": "/quiz",
+      "label": "Take the free AI IQ test"
+    }
+  ],
+  "faq": [
+    {
+      "q": "What is an LLM in simple terms?",
+      "a": "A large language model (LLM) is an AI trained on huge amounts of text to predict the next word, which lets it answer questions, write, summarize, and reason in natural language. ChatGPT, Claude, Gemini, and Perplexity are all powered by LLMs."
+    },
+    {
+      "q": "What does LLM stand for?",
+      "a": "LLM stands for 'large language model' — 'large' because it's trained on vast amounts of text with billions of parameters, and 'language model' because it models how language works by predicting text."
+    },
+    {
+      "q": "Is ChatGPT an LLM?",
+      "a": "ChatGPT is an application built on top of an LLM (OpenAI's GPT models). The LLM is the underlying model; ChatGPT is the chat interface and product around it. The same is true of Claude, Gemini, and Perplexity."
+    },
+    {
+      "q": "Do I need to understand how LLMs work to use them?",
+      "a": "No. Using LLMs well is a prompting-and-judgment skill, not a technical one. Understanding the basics (like why they hallucinate) helps you use them more safely, but you don't need the math."
+    }
+  ],
+  "related": [
+    "/learn-llms",
+    "/blog/what-is-ai-fluency",
+    "/blog/spot-ai-hallucinations",
+    "/blog/how-to-learn-ai-without-coding",
+    "/learn-chatgpt",
+    "/glossary",
+    "/ai-tools-comparison",
+    "/quiz"
+  ]
+}

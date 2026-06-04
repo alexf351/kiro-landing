@@ -1,0 +1,135 @@
+{
+  "slug": "chatgpt-prompts-for-beginners",
+  "order": 22,
+  "pillar": "prompt-engineering",
+  "title": "15 ChatGPT prompts for beginners (copy, paste, and learn)",
+  "lede": "The best ChatGPT prompts for beginners are simple templates you can copy, paste, and adapt. Here are 15 across work, learning, and everyday life — plus the one pattern that makes any prompt better.",
+  "keyTakeaways": [
+    "Good beginner prompts share a structure: give context, a role, a clear task, and the format you want.",
+    "Copy-paste these 15 prompts for work, learning, and everyday life, then swap in your own details.",
+    "The fastest upgrade to any prompt is adding context and asking for a specific format — not finding 'magic words.'",
+    "Prompting is a skill that transfers to every AI tool, so practicing it on ChatGPT pays off on Claude, Gemini, and Perplexity too."
+  ],
+  "description": "15 ChatGPT prompts for beginners to copy and paste — for work, learning, and everyday life — plus the simple structure that makes any prompt better. No experience needed.",
+  "keywords": [
+    "ChatGPT prompts for beginners",
+    "best ChatGPT prompts",
+    "ChatGPT prompt examples",
+    "easy ChatGPT prompts",
+    "how to write ChatGPT prompts"
+  ],
+  "datePublished": "2026-06-04",
+  "dateModified": "2026-06-04",
+  "readingTime": 7,
+  "articleSection": "Prompt engineering",
+  "feedCategory": "Prompt engineering",
+  "feedTags": [
+    "prompt engineering",
+    "ChatGPT",
+    "beginners"
+  ],
+  "inlineCtaAfter": 3,
+  "toc": [
+    {
+      "href": "#answer",
+      "label": "Where to start"
+    },
+    {
+      "href": "#anatomy",
+      "label": "Anatomy of a prompt"
+    },
+    {
+      "href": "#work",
+      "label": "Prompts for work"
+    },
+    {
+      "href": "#learning",
+      "label": "Prompts for learning"
+    },
+    {
+      "href": "#everyday",
+      "label": "Everyday prompts"
+    },
+    {
+      "href": "#better",
+      "label": "Make any prompt better"
+    }
+  ],
+  "sections": [
+    {
+      "id": "answer",
+      "heading": "The best ChatGPT prompts for beginners",
+      "html": "<p><strong>The best beginner prompts aren't clever tricks — they're simple templates that tell ChatGPT what you want, in what role, and in what format.</strong> Copy any prompt below, paste it into ChatGPT, and replace the bracketed parts with your details. The point isn't to memorize them; it's to notice the pattern so you can write your own.</p>"
+    },
+    {
+      "id": "anatomy",
+      "heading": "What makes a good ChatGPT prompt?",
+      "html": "<p>Almost every strong prompt has four parts:</p><ul><li><strong>Context</strong> — the situation and any background ChatGPT needs.</li><li><strong>Role</strong> — who you want it to act as (\"a hiring manager,\" \"a patient tutor\").</li><li><strong>Task</strong> — the specific thing to do.</li><li><strong>Format</strong> — how you want the answer (a list, a table, 100 words, a polite email).</li></ul><p>Miss these and you get vague answers; include them and ChatGPT gets sharp. This is the core idea behind <a href=\"/blog/what-is-prompt-engineering\">prompt engineering</a>.</p>"
+    },
+    {
+      "id": "work",
+      "heading": "5 ChatGPT prompts for work",
+      "html": "<ol><li><code>Rewrite this email to be clearer and more polite, keeping it under 120 words: [paste email]</code></li><li><code>You are a careful editor. Tighten this paragraph and flag anything unclear: [paste text]</code></li><li><code>Summarize this document into 5 bullet points a busy manager could read in 30 seconds: [paste text]</code></li><li><code>Act as a meeting facilitator. Turn these messy notes into a clear agenda with time blocks: [paste notes]</code></li><li><code>Give me three subject-line options for an email announcing [thing], ranked from safest to boldest.</code></li></ol>"
+    },
+    {
+      "id": "learning",
+      "heading": "5 ChatGPT prompts for learning",
+      "html": "<ol><li><code>Explain [topic] to me like I'm a smart 12-year-old, then again at an expert level.</code></li><li><code>You are a patient tutor. Quiz me on [topic] one question at a time, and explain why my answer is right or wrong.</code></li><li><code>I want to learn [skill]. Give me a 7-day plan with one 15-minute task per day.</code></li><li><code>What are the most common mistakes beginners make with [topic], and how do I avoid them?</code></li><li><code>Compare [option A] and [option B] in a table, with a one-line recommendation for a beginner.</code></li></ol><p>Want a structured version of this? See <a href=\"/blog/how-to-use-ai-for-studying\">how to use AI for studying</a>.</p>"
+    },
+    {
+      "id": "everyday",
+      "heading": "5 ChatGPT prompts for everyday life",
+      "html": "<ol><li><code>Plan a simple 5-dinner week for two people who want to eat healthier, with a grocery list.</code></li><li><code>Help me draft a friendly message to [person] about [situation]. Keep it warm and brief.</code></li><li><code>I have [items] in my fridge. Suggest 3 meals I can make with mostly these.</code></li><li><code>Turn this rambling to-do brain-dump into a prioritized list with the top 3 starred: [paste]</code></li><li><code>Act as a travel planner. Build a relaxed 3-day itinerary for [place] for someone who likes [interests].</code></li></ol>"
+    },
+    {
+      "id": "better",
+      "heading": "How to make any prompt better",
+      "html": "<p>If an answer isn't great, you almost never need a \"magic\" prompt — you need to add one of these:</p><ul><li><strong>More context.</strong> Tell ChatGPT who it's for, what you've tried, and any constraints.</li><li><strong>A clear format.</strong> Ask for a table, a word count, bullet points, or a specific tone.</li><li><strong>An example.</strong> Show one example of what \"good\" looks like.</li><li><strong>A follow-up.</strong> Treat the first answer as a draft and ask it to revise: \"make it shorter,\" \"more formal,\" \"add a step.\"</li></ul><p>That habit — context, format, iterate — is most of prompt engineering. If your prompts keep falling flat, see <a href=\"/blog/why-your-ai-prompts-arent-working\">why your AI prompts aren't working</a>, and practice hands-on with the <a href=\"/prompt-engineering-app\">prompt engineering app</a>.</p>"
+    }
+  ],
+  "readNext": [
+    {
+      "href": "/blog/prompt-engineering-patterns",
+      "label": "The 7 prompt patterns that work everywhere"
+    },
+    {
+      "href": "/blog/why-your-ai-prompts-arent-working",
+      "label": "Why your AI prompts aren't working"
+    },
+    {
+      "href": "/blog/what-is-prompt-engineering",
+      "label": "What is prompt engineering?"
+    },
+    {
+      "href": "/quiz",
+      "label": "Take the free AI IQ test"
+    }
+  ],
+  "faq": [
+    {
+      "q": "What are good ChatGPT prompts for beginners?",
+      "a": "Good beginner prompts are simple templates that include context, a role, a clear task, and the format you want — for example, 'You are a patient tutor. Quiz me on [topic] one question at a time and explain my mistakes.' Copy a template, then swap in your own details."
+    },
+    {
+      "q": "How do I write a good ChatGPT prompt?",
+      "a": "Include four things: context (the background), a role (who ChatGPT should act as), the task (what to do), and the format (how you want the answer). Then treat the first reply as a draft and refine it."
+    },
+    {
+      "q": "Do I need experience to use ChatGPT prompts?",
+      "a": "No. Start by copying a template and replacing the bracketed parts. The more you notice the underlying pattern — context, role, task, format — the faster you'll write your own."
+    },
+    {
+      "q": "Do these prompts work on other AI tools?",
+      "a": "Yes. The same structure works on Claude, Gemini, and Perplexity. Prompting is a skill that transfers across every AI tool, which is why it's worth practicing."
+    }
+  ],
+  "related": [
+    "/blog/prompt-engineering-patterns",
+    "/blog/why-your-ai-prompts-arent-working",
+    "/blog/what-is-prompt-engineering",
+    "/prompt-engineering-app",
+    "/learn-chatgpt",
+    "/ai-prompts",
+    "/quiz"
+  ]
+}

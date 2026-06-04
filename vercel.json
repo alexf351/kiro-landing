@@ -712,8 +712,44 @@
       "destination": "/blog/how-to-use-ai-for-studying.html"
     },
     {
+      "source": "/blog/how-to-learn-ai-without-coding",
+      "destination": "/blog/how-to-learn-ai-without-coding.html"
+    },
+    {
+      "source": "/blog/what-is-an-llm",
+      "destination": "/blog/what-is-an-llm.html"
+    },
+    {
+      "source": "/blog/how-long-to-learn-ai",
+      "destination": "/blog/how-long-to-learn-ai.html"
+    },
+    {
+      "source": "/blog/ai-skills-for-2026",
+      "destination": "/blog/ai-skills-for-2026.html"
+    },
+    {
+      "source": "/blog/chatgpt-prompts-for-beginners",
+      "destination": "/blog/chatgpt-prompts-for-beginners.html"
+    },
+    {
+      "source": "/blog/ai-agents-vs-automation",
+      "destination": "/blog/ai-agents-vs-automation.html"
+    },
+    {
+      "source": "/blog/how-to-use-ai-at-work",
+      "destination": "/blog/how-to-use-ai-at-work.html"
+    },
+    {
       "source": "/ai-tools-comparison",
       "destination": "/ai-tools-comparison.html"
+    },
+    {
+      "source": "/how-to-learn-ai",
+      "destination": "/how-to-learn-ai.html"
+    },
+    {
+      "source": "/learn-llms",
+      "destination": "/learn-llms.html"
     }
   ]
 }

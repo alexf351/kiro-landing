@@ -9,7 +9,7 @@
     <description>Short, practical writing on AI fluency, prompting, AI tools, and the active-practice method that beats endless video courses.</description>
     <language>en-US</language>
     <atom:link href="https://tryiro.com/blog/rss.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Mon, 01 Jun 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 04 Jun 2026 00:00:00 GMT</lastBuildDate>
     <generator>tryiro.com</generator>
     <copyright>© 2026 Iro AI</copyright>
     <image>
@@ -169,6 +169,69 @@
       <dc:creator>Iro AI</dc:creator>
       <category>AI fluency</category>
       <description>How to use AI for studying the right way: the 5 best ways to study with ChatGPT or Claude, what to avoid so you actually learn, and copy-paste study prompts.</description>
+    </item>
+    <item>
+      <title>How to learn AI without coding (a no-code path for 2026)</title>
+      <link>https://tryiro.com/blog/how-to-learn-ai-without-coding</link>
+      <guid isPermaLink="true">https://tryiro.com/blog/how-to-learn-ai-without-coding</guid>
+      <pubDate>Thu, 04 Jun 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Iro AI</dc:creator>
+      <category>AI fluency</category>
+      <description>You don't need to code to learn AI. Here's the no-code path to AI fluency in 2026 — the tools, the skills, and a five-minute-a-day routine that works for non-technical people.</description>
+    </item>
+    <item>
+      <title>What is an LLM? Large language models explained simply</title>
+      <link>https://tryiro.com/blog/what-is-an-llm</link>
+      <guid isPermaLink="true">https://tryiro.com/blog/what-is-an-llm</guid>
+      <pubDate>Thu, 04 Jun 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Iro AI</dc:creator>
+      <category>AI fluency</category>
+      <description>What is an LLM? A large language model is an AI trained on text to predict the next word. Here's how LLMs work, examples, what they're bad at, and how to use them well — in plain English.</description>
+    </item>
+    <item>
+      <title>How long does it take to learn AI? A realistic timeline</title>
+      <link>https://tryiro.com/blog/how-long-to-learn-ai</link>
+      <guid isPermaLink="true">https://tryiro.com/blog/how-long-to-learn-ai</guid>
+      <pubDate>Thu, 04 Jun 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Iro AI</dc:creator>
+      <category>AI fluency</category>
+      <description>How long does it take to learn AI? With five minutes of daily practice, you can be useful in two to three weeks. Here's a realistic week-by-week timeline and how to learn AI faster.</description>
+    </item>
+    <item>
+      <title>The 7 AI skills worth learning in 2026</title>
+      <link>https://tryiro.com/blog/ai-skills-for-2026</link>
+      <guid isPermaLink="true">https://tryiro.com/blog/ai-skills-for-2026</guid>
+      <pubDate>Thu, 04 Jun 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Iro AI</dc:creator>
+      <category>AI fluency</category>
+      <description>The 7 AI skills worth learning in 2026 — prompting, tool choice, judgment, verification, workflow, agents, and continuous learning — why they're durable, and how to build each one.</description>
+    </item>
+    <item>
+      <title>15 ChatGPT prompts for beginners (copy, paste, and learn)</title>
+      <link>https://tryiro.com/blog/chatgpt-prompts-for-beginners</link>
+      <guid isPermaLink="true">https://tryiro.com/blog/chatgpt-prompts-for-beginners</guid>
+      <pubDate>Thu, 04 Jun 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Iro AI</dc:creator>
+      <category>Prompt engineering</category>
+      <description>15 ChatGPT prompts for beginners to copy and paste — for work, learning, and everyday life — plus the simple structure that makes any prompt better. No experience needed.</description>
+    </item>
+    <item>
+      <title>AI agents vs. automation: what's the difference (and when to use each)?</title>
+      <link>https://tryiro.com/blog/ai-agents-vs-automation</link>
+      <guid isPermaLink="true">https://tryiro.com/blog/ai-agents-vs-automation</guid>
+      <pubDate>Thu, 04 Jun 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Iro AI</dc:creator>
+      <category>AI agents</category>
+      <description>AI agents vs automation explained: automation follows fixed rules, an AI agent decides its own steps toward a goal. Learn the difference, see examples, and know when to use each.</description>
+    </item>
+    <item>
+      <title>How to use AI at work (a practical guide for 2026)</title>
+      <link>https://tryiro.com/blog/how-to-use-ai-at-work</link>
+      <guid isPermaLink="true">https://tryiro.com/blog/how-to-use-ai-at-work</guid>
+      <pubDate>Thu, 04 Jun 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Iro AI</dc:creator>
+      <category>AI fluency</category>
+      <description>How to use AI at work in 2026: the best starting tasks, how to do it responsibly (verify, protect data, follow policy), and how to build the habit. A practical guide for any role.</description>
     </item>
   </channel>
 </rss>
