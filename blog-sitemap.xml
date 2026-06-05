@@ -42,6 +42,16 @@
     </image:image>
   </url>
   <url>
+    <loc>https://tryiro.com/blog/ai-tools</loc>
+    <lastmod>2026-06-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.88</priority>
+    <image:image>
+      <image:loc>https://tryiro.com/assets/og/ai-tools.png</image:loc>
+      <image:title>AI Tools in 2026: Pick the Right One, Then Use It Well</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://tryiro.com/blog/how-to-learn-chatgpt-in-2026</loc>
     <lastmod>2026-06-01</lastmod>
     <changefreq>monthly</changefreq>
@@ -279,6 +289,66 @@
     <image:image>
       <image:loc>https://tryiro.com/assets/og/how-to-use-ai-at-work.png</image:loc>
       <image:title>How to use AI at work (a practical guide for 2026)</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://tryiro.com/blog/chatgpt-vs-gemini</loc>
+    <lastmod>2026-06-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://tryiro.com/assets/og/chatgpt-vs-gemini.png</image:loc>
+      <image:title>ChatGPT vs Gemini: which should you use in 2026?</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://tryiro.com/blog/best-ai-apps</loc>
+    <lastmod>2026-06-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://tryiro.com/assets/og/best-ai-apps.png</image:loc>
+      <image:title>The best AI apps in 2026 (and what each is best for)</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://tryiro.com/blog/what-is-generative-ai</loc>
+    <lastmod>2026-06-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://tryiro.com/assets/og/what-is-generative-ai.png</image:loc>
+      <image:title>What is generative AI? A simple explanation with examples</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://tryiro.com/blog/what-is-agentic-ai</loc>
+    <lastmod>2026-06-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://tryiro.com/assets/og/what-is-agentic-ai.png</image:loc>
+      <image:title>What is agentic AI? Agents explained simply (2026)</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://tryiro.com/blog/how-to-write-a-prompt</loc>
+    <lastmod>2026-06-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://tryiro.com/assets/og/how-to-write-a-prompt.png</image:loc>
+      <image:title>How to write a good AI prompt: a step-by-step guide</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://tryiro.com/blog/the-ai-fluency-pyramid</loc>
+    <lastmod>2026-06-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://tryiro.com/assets/og/the-ai-fluency-pyramid.png</image:loc>
+      <image:title>The AI Fluency Pyramid: the 5 levels of getting good at AI</image:title>
     </image:image>
   </url>
 </urlset>

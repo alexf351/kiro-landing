@@ -1,0 +1,136 @@
+{
+  "slug": "what-is-generative-ai",
+  "order": 27,
+  "pillar": "ai-fluency",
+  "title": "What is generative AI? A simple explanation with examples",
+  "lede": "Generative AI is artificial intelligence that creates new content — text, images, audio, video, or code — in response to a prompt. Here's how it works, what it can and can't do, and how to use it well.",
+  "keyTakeaways": [
+    "Generative AI is AI that creates new content (text, images, audio, video, code) from a prompt, rather than just classifying or predicting from data.",
+    "It works by learning patterns from huge datasets, then generating the most plausible new output — large language models like ChatGPT are one major type.",
+    "It's powerful for drafting, summarizing, brainstorming, and creating media, but it can be confidently wrong, so you verify what matters.",
+    "Getting value from generative AI is a skill: clear prompts, good judgment, and practice."
+  ],
+  "description": "What is generative AI? A plain-English explanation: how it works, real examples (text, images, video, code), how it differs from traditional AI, its limits, and how to use it well.",
+  "keywords": [
+    "what is generative AI",
+    "generative AI explained",
+    "generative AI examples",
+    "generative AI meaning",
+    "gen AI",
+    "how does generative AI work"
+  ],
+  "datePublished": "2026-06-05",
+  "dateModified": "2026-06-05",
+  "readingTime": 7,
+  "articleSection": "AI fluency",
+  "feedCategory": "AI fluency",
+  "feedTags": [
+    "AI fluency",
+    "generative AI",
+    "AI basics"
+  ],
+  "inlineCtaAfter": 3,
+  "toc": [
+    {
+      "href": "#answer",
+      "label": "Definition"
+    },
+    {
+      "href": "#how",
+      "label": "How it works"
+    },
+    {
+      "href": "#examples",
+      "label": "Examples"
+    },
+    {
+      "href": "#vs",
+      "label": "vs traditional AI"
+    },
+    {
+      "href": "#limits",
+      "label": "Limits"
+    },
+    {
+      "href": "#use",
+      "label": "Using it well"
+    }
+  ],
+  "sections": [
+    {
+      "id": "answer",
+      "heading": "What is generative AI?",
+      "html": "<p><strong>Generative AI is artificial intelligence that creates new content — text, images, audio, video, or code — in response to a prompt.</strong> Instead of only analyzing or classifying existing data, it <em>generates</em> something new that didn't exist before: an essay, a picture, a song, a working snippet of code. When you ask ChatGPT to write an email or ask an image model for a logo, you're using generative AI.</p>"
+    },
+    {
+      "id": "how",
+      "heading": "How does generative AI work?",
+      "html": "<p>Generative AI models learn patterns from enormous amounts of example data, then use those patterns to produce plausible new output. A text model like a <a href=\"/blog/what-is-an-llm\">large language model</a> is trained to predict the next word over and over until it can write coherently; an image model learns the relationship between descriptions and pictures, then generates an image to match your words.</p><p>The key idea: it's not copying or looking up answers — it's generating the most likely result based on everything it has learned. That flexibility is why it's so capable, and also why it sometimes produces confident nonsense.</p>"
+    },
+    {
+      "id": "examples",
+      "heading": "Examples of generative AI",
+      "html": "<p>Generative AI spans every kind of media:</p><ul><li><strong>Text</strong> — ChatGPT, Claude, Gemini: writing, summarizing, answering, coding.</li><li><strong>Images</strong> — tools that turn a text prompt into artwork, logos, or photos.</li><li><strong>Video</strong> — models that generate short clips from a description.</li><li><strong>Audio</strong> — music, voiceovers, and sound from prompts.</li><li><strong>Code</strong> — assistants that write and explain software from plain-language requests.</li></ul><p>Most people start with text tools — see the <a href=\"/blog/best-ai-apps\">best AI apps</a> for a shortlist.</p>"
+    },
+    {
+      "id": "vs",
+      "heading": "Generative AI vs traditional AI",
+      "html": "<p><strong>Traditional AI mostly <em>analyzes</em>; generative AI <em>creates</em>.</strong> Older or \"discriminative\" AI answers questions like <em>is this email spam?</em> or <em>which category is this?</em> Generative AI instead produces new content: <em>write the email</em>, <em>draw the picture</em>, <em>draft the code</em>. Both are useful — generative AI is simply the wave that put creation in everyone's hands.</p>"
+    },
+    {
+      "id": "limits",
+      "heading": "What generative AI can't do well",
+      "html": "<ul><li><strong>Guarantee accuracy.</strong> It can <a href=\"/blog/spot-ai-hallucinations\">hallucinate</a> — state false things confidently — so verify anything that matters.</li><li><strong>Know recent or private facts</strong> unless it can search or you provide them.</li><li><strong>Do exact math reliably</strong> on its own.</li><li><strong>Replace judgment.</strong> It produces drafts; you decide what's good.</li></ul><p>Used with these limits in mind, it's a force multiplier. Used blindly, it's a liability.</p>"
+    },
+    {
+      "id": "use",
+      "heading": "How to use generative AI well",
+      "html": "<p>The difference between mediocre and great results is almost never the tool — it's how you direct it. Give context, a role, a clear task, and the format you want, then verify the output. That skill, <a href=\"/blog/what-is-ai-fluency\">AI fluency</a>, transfers across every generative tool.</p><p>Iro AI turns it into a five-minute daily habit — practice real prompts, get feedback, and learn to judge AI output. Start with the free <a href=\"/quiz\">AI IQ test</a> to see where you stand.</p>"
+    }
+  ],
+  "readNext": [
+    {
+      "href": "/blog/what-is-an-llm",
+      "label": "What is an LLM?"
+    },
+    {
+      "href": "/blog/what-is-agentic-ai",
+      "label": "What is agentic AI?"
+    },
+    {
+      "href": "/blog/what-is-ai-fluency",
+      "label": "What is AI fluency?"
+    },
+    {
+      "href": "/quiz",
+      "label": "Take the free AI IQ test"
+    }
+  ],
+  "faq": [
+    {
+      "q": "What is generative AI in simple terms?",
+      "a": "Generative AI is AI that creates new content — text, images, audio, video, or code — from a prompt, instead of just analyzing existing data. ChatGPT writing an email or an image model making a picture are both generative AI."
+    },
+    {
+      "q": "What is an example of generative AI?",
+      "a": "ChatGPT, Claude, and Gemini (text), image generators that turn prompts into pictures, video and music generators, and coding assistants are all examples of generative AI."
+    },
+    {
+      "q": "What is the difference between generative AI and AI?",
+      "a": "Generative AI is a type of AI focused on creating new content. Traditional AI often analyzes or classifies existing data (like detecting spam), while generative AI produces something new, like writing the email itself."
+    },
+    {
+      "q": "Is ChatGPT generative AI?",
+      "a": "Yes. ChatGPT is a generative AI application built on a large language model — it generates new text in response to your prompts."
+    }
+  ],
+  "related": [
+    "/blog/what-is-an-llm",
+    "/blog/what-is-agentic-ai",
+    "/blog/what-is-ai-fluency",
+    "/learn-llms",
+    "/glossary",
+    "/blog/best-ai-apps",
+    "/quiz"
+  ]
+}

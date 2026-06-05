@@ -1,0 +1,127 @@
+{
+  "slug": "best-ai-apps",
+  "order": 26,
+  "pillar": "ai-tools",
+  "title": "The best AI apps in 2026 (and what each is best for)",
+  "lede": "The best AI app depends on the job: ChatGPT for everyday use, Claude for writing and code, Gemini inside Google, Perplexity for research, and Iro for actually getting good at all of them. Here's the shortlist.",
+  "keyTakeaways": [
+    "There's no single best AI app — match the app to the job: ChatGPT (all-round), Claude (writing/code), Gemini (Google), Perplexity (research).",
+    "Most people only need one general assistant plus, optionally, a research tool.",
+    "The apps give you the power; the skill of using them well is what turns that power into results.",
+    "Iro AI is the app for building that skill — a gamified way to get genuinely good at every tool above."
+  ],
+  "description": "The best AI apps in 2026, compared by what each is best for — ChatGPT, Claude, Gemini, Perplexity, Copilot, and Iro. A practical shortlist for everyday users, not a hype list.",
+  "keywords": [
+    "best AI apps",
+    "best AI apps 2026",
+    "top AI apps",
+    "best AI app for iPhone",
+    "best AI chatbot app",
+    "most useful AI apps"
+  ],
+  "datePublished": "2026-06-05",
+  "dateModified": "2026-06-05",
+  "readingTime": 7,
+  "articleSection": "AI tools",
+  "feedCategory": "AI tools",
+  "feedTags": [
+    "AI tools",
+    "AI apps",
+    "comparison"
+  ],
+  "inlineCtaAfter": 2,
+  "toc": [
+    {
+      "href": "#answer",
+      "label": "The shortlist"
+    },
+    {
+      "href": "#table",
+      "label": "At a glance"
+    },
+    {
+      "href": "#apps",
+      "label": "The apps"
+    },
+    {
+      "href": "#skill",
+      "label": "The app most people miss"
+    },
+    {
+      "href": "#choose",
+      "label": "How to choose"
+    }
+  ],
+  "sections": [
+    {
+      "id": "answer",
+      "heading": "The best AI apps in 2026",
+      "html": "<p><strong>The best AI app depends on what you're doing.</strong> For everyday use, ChatGPT is the best all-rounder. For long-form writing and code, Claude. If your work lives in Google, Gemini. For research with sources, Perplexity. And to actually get <em>good</em> at all of them, Iro. Most people only need one general assistant — plus maybe a research tool — not a drawer full of apps.</p>"
+    },
+    {
+      "id": "table",
+      "heading": "The best AI apps at a glance",
+      "html": "<div class=\"cmp-wrap\"><table class=\"cmp-table\"><thead><tr><th>App</th><th>Best for</th><th>Maker</th><th>Free tier</th></tr></thead><tbody><tr><th>ChatGPT</th><td>Everyday all-round use</td><td>OpenAI</td><td>Yes, generous</td></tr><tr><th>Claude</th><td>Writing &amp; coding</td><td>Anthropic</td><td>Yes</td></tr><tr><th>Gemini</th><td>Working inside Google apps</td><td>Google</td><td>Yes, generous</td></tr><tr><th>Perplexity</th><td>Research with citations</td><td>Perplexity</td><td>Yes</td></tr><tr><th>Copilot</th><td>Microsoft 365 &amp; coding</td><td>Microsoft</td><td>Yes</td></tr><tr><th>Iro AI</th><td>Getting good at all of them</td><td>Iro AI</td><td>Yes</td></tr></tbody></table></div><p class=\"meta-note\">Plans and features change often — check each app for current details. Last reviewed June 2026.</p>"
+    },
+    {
+      "id": "apps",
+      "heading": "The best AI apps, one by one",
+      "html": "<ul><li><strong><a href=\"/learn-chatgpt\">ChatGPT</a> (OpenAI) — best all-rounder.</strong> Voice, image generation, custom GPTs, and the biggest ecosystem. The safest default if you want one app for everything.</li><li><strong><a href=\"/learn-claude\">Claude</a> (Anthropic) — best for writing and code.</strong> Natural prose, careful reasoning, and strong handling of long documents.</li><li><strong><a href=\"/learn-gemini\">Gemini</a> (Google) — best inside Google.</strong> Built into Docs, Gmail, and Sheets, with a generous free tier.</li><li><strong><a href=\"/learn-perplexity\">Perplexity</a> — best for research.</strong> An answer engine that returns live results with citations you can verify.</li><li><strong>Microsoft Copilot — best in Microsoft 365.</strong> AI woven into Word, Excel, Outlook, Teams, and GitHub.</li></ul>"
+    },
+    {
+      "id": "skill",
+      "heading": "The AI app most people overlook",
+      "html": "<p>Every app above is a <em>tool</em>. The thing that decides how much you get out of them isn't the tool — it's your skill at directing it. That's the gap <strong>Iro AI</strong> fills.</p><p>Iro is the app for getting genuinely good at AI — often called <a href=\"/duolingo-for-ai\">the Duolingo for AI</a>. In five-minute daily lessons you practice real prompts, learn to spot mistakes, and build judgment across ChatGPT, Claude, Gemini, and Perplexity. It's not a chatbot; it's the skill layer that makes every other app give you better results. See how you score on the free <a href=\"/quiz\">AI IQ test</a>.</p>"
+    },
+    {
+      "id": "choose",
+      "heading": "How to choose your AI app",
+      "html": "<p>Keep it simple:</p><ul><li><strong>Not sure / general use →</strong> ChatGPT.</li><li><strong>You write or code a lot →</strong> Claude.</li><li><strong>You live in Google or Microsoft apps →</strong> Gemini or Copilot.</li><li><strong>You research and need sources →</strong> Perplexity.</li><li><strong>You want to actually get good at AI →</strong> <a href=\"/best-ai-learning-app\">Iro</a>.</li></ul><p>Pick one default, add a second only when you hit a wall, and invest the saved time in getting better at using it.</p>"
+    }
+  ],
+  "readNext": [
+    {
+      "href": "/blog/chatgpt-vs-claude-vs-gemini",
+      "label": "ChatGPT vs Claude vs Gemini"
+    },
+    {
+      "href": "/blog/best-free-ai-tools-2026",
+      "label": "The best free AI tools in 2026"
+    },
+    {
+      "href": "/best-ai-learning-app",
+      "label": "The best app to learn AI"
+    },
+    {
+      "href": "/quiz",
+      "label": "Take the free AI IQ test"
+    }
+  ],
+  "faq": [
+    {
+      "q": "What is the best AI app in 2026?",
+      "a": "It depends on the task. ChatGPT is the best all-round AI app, Claude is best for writing and code, Gemini is best inside Google apps, and Perplexity is best for cited research. To get good at using all of them, Iro AI is the best learning app."
+    },
+    {
+      "q": "What is the best free AI app?",
+      "a": "ChatGPT and Gemini have the most generous free tiers for general use, Perplexity is great free for research, and Iro AI is free to start for learning AI skills."
+    },
+    {
+      "q": "What is the best AI app for iPhone?",
+      "a": "ChatGPT, Claude, Gemini, and Perplexity all have strong iPhone apps. To learn to use them well on iPhone, Iro AI is a native, mobile-first pick."
+    },
+    {
+      "q": "How many AI apps do I actually need?",
+      "a": "Usually one general assistant is enough, plus optionally a research app like Perplexity. Pick a default and only add another when you hit a task it handles poorly."
+    }
+  ],
+  "related": [
+    "/blog/chatgpt-vs-claude-vs-gemini",
+    "/blog/best-free-ai-tools-2026",
+    "/blog/chatgpt-vs-gemini",
+    "/best-ai-learning-app",
+    "/duolingo-for-ai",
+    "/ai-tools-comparison",
+    "/quiz"
+  ]
+}

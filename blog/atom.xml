@@ -5,7 +5,7 @@
   <link rel="self" href="https://tryiro.com/blog/atom.xml" type="application/atom+xml"/>
   <link rel="alternate" href="https://tryiro.com/blog" type="text/html"/>
   <id>https://tryiro.com/blog/atom.xml</id>
-  <updated>2026-06-04T00:00:00Z</updated>
+  <updated>2026-06-05T00:00:00Z</updated>
   <rights>© 2026 Iro AI</rights>
   <author><name>Iro AI</name><uri>https://tryiro.com</uri></author>
   <icon>https://tryiro.com/assets/favicon-64.png</icon>
@@ -249,5 +249,65 @@
     <author><name>Iro AI</name></author>
     <category term="AI fluency"/>
     <summary>The best way to use AI at work is to start with a few high-value, low-risk tasks — drafting, summarizing, and research — verify everything that matters, and follow your company's rules. Here's where to start and how to do it responsibly.</summary>
+  </entry>
+  <entry>
+    <title>ChatGPT vs Gemini: which should you use in 2026?</title>
+    <id>https://tryiro.com/blog/chatgpt-vs-gemini</id>
+    <link href="https://tryiro.com/blog/chatgpt-vs-gemini"/>
+    <updated>2026-06-05T00:00:00Z</updated>
+    <published>2026-06-05T00:00:00Z</published>
+    <author><name>Iro AI</name></author>
+    <category term="AI tools"/>
+    <summary>ChatGPT is the more versatile all-rounder; Gemini is the better choice if your work lives inside Google. Here's the honest head-to-head — strengths, free tiers, and the best pick for each kind of task.</summary>
+  </entry>
+  <entry>
+    <title>The best AI apps in 2026 (and what each is best for)</title>
+    <id>https://tryiro.com/blog/best-ai-apps</id>
+    <link href="https://tryiro.com/blog/best-ai-apps"/>
+    <updated>2026-06-05T00:00:00Z</updated>
+    <published>2026-06-05T00:00:00Z</published>
+    <author><name>Iro AI</name></author>
+    <category term="AI tools"/>
+    <summary>The best AI app depends on the job: ChatGPT for everyday use, Claude for writing and code, Gemini inside Google, Perplexity for research, and Iro for actually getting good at all of them. Here's the shortlist.</summary>
+  </entry>
+  <entry>
+    <title>What is generative AI? A simple explanation with examples</title>
+    <id>https://tryiro.com/blog/what-is-generative-ai</id>
+    <link href="https://tryiro.com/blog/what-is-generative-ai"/>
+    <updated>2026-06-05T00:00:00Z</updated>
+    <published>2026-06-05T00:00:00Z</published>
+    <author><name>Iro AI</name></author>
+    <category term="AI fluency"/>
+    <summary>Generative AI is artificial intelligence that creates new content — text, images, audio, video, or code — in response to a prompt. Here's how it works, what it can and can't do, and how to use it well.</summary>
+  </entry>
+  <entry>
+    <title>What is agentic AI? Agents explained simply (2026)</title>
+    <id>https://tryiro.com/blog/what-is-agentic-ai</id>
+    <link href="https://tryiro.com/blog/what-is-agentic-ai"/>
+    <updated>2026-06-05T00:00:00Z</updated>
+    <published>2026-06-05T00:00:00Z</published>
+    <author><name>Iro AI</name></author>
+    <category term="AI agents"/>
+    <summary>Agentic AI is AI that pursues a goal on its own — planning steps, using tools, and adapting — instead of just answering one prompt at a time. Here's what it means, how it differs from chatbots and generative AI, and when it's actually useful.</summary>
+  </entry>
+  <entry>
+    <title>How to write a good AI prompt: a step-by-step guide</title>
+    <id>https://tryiro.com/blog/how-to-write-a-prompt</id>
+    <link href="https://tryiro.com/blog/how-to-write-a-prompt"/>
+    <updated>2026-06-05T00:00:00Z</updated>
+    <published>2026-06-05T00:00:00Z</published>
+    <author><name>Iro AI</name></author>
+    <category term="Prompt engineering"/>
+    <summary>A good prompt has four parts: context, role, task, and format. Add those, then refine the first answer. Here's the simple recipe, with before-and-after examples you can copy.</summary>
+  </entry>
+  <entry>
+    <title>The AI Fluency Pyramid: the 5 levels of getting good at AI</title>
+    <id>https://tryiro.com/blog/the-ai-fluency-pyramid</id>
+    <link href="https://tryiro.com/blog/the-ai-fluency-pyramid"/>
+    <updated>2026-06-05T00:00:00Z</updated>
+    <published>2026-06-05T00:00:00Z</published>
+    <author><name>Iro AI</name></author>
+    <category term="AI fluency"/>
+    <summary>Most people get stuck on the bottom two levels of using AI and never reach the top, where the real leverage is. The AI Fluency Pyramid maps the five levels — from simply having access to fully integrating AI into your work — so you can see where you are and what to climb next.</summary>
   </entry>
 </feed>

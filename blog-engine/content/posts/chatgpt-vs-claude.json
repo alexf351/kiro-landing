@@ -1,7 +1,7 @@
 {
   "slug": "chatgpt-vs-claude",
   "order": 16,
-  "pillar": "ai-fluency",
+  "pillar": "ai-tools",
   "title": "ChatGPT vs Claude: which should you use in 2026?",
   "lede": "ChatGPT and Claude are the two best general-purpose AI assistants in 2026 — and the right pick depends on what you do most. Here's an honest, side-by-side breakdown.",
   "keyTakeaways": [
@@ -22,7 +22,7 @@
   "datePublished": "2026-06-01",
   "dateModified": "2026-06-01",
   "readingTime": 7,
-  "articleSection": "AI fluency",
+  "articleSection": "AI tools",
   "feedCategory": "AI tools",
   "feedTags": [
     "ChatGPT",

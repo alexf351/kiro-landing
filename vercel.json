@@ -740,6 +740,34 @@
       "destination": "/blog/how-to-use-ai-at-work.html"
     },
     {
+      "source": "/blog/ai-tools",
+      "destination": "/blog/ai-tools.html"
+    },
+    {
+      "source": "/blog/chatgpt-vs-gemini",
+      "destination": "/blog/chatgpt-vs-gemini.html"
+    },
+    {
+      "source": "/blog/best-ai-apps",
+      "destination": "/blog/best-ai-apps.html"
+    },
+    {
+      "source": "/blog/what-is-generative-ai",
+      "destination": "/blog/what-is-generative-ai.html"
+    },
+    {
+      "source": "/blog/what-is-agentic-ai",
+      "destination": "/blog/what-is-agentic-ai.html"
+    },
+    {
+      "source": "/blog/how-to-write-a-prompt",
+      "destination": "/blog/how-to-write-a-prompt.html"
+    },
+    {
+      "source": "/blog/the-ai-fluency-pyramid",
+      "destination": "/blog/the-ai-fluency-pyramid.html"
+    },
+    {
       "source": "/ai-tools-comparison",
       "destination": "/ai-tools-comparison.html"
     },

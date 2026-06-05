@@ -1,0 +1,126 @@
+{
+  "slug": "how-to-write-a-prompt",
+  "order": 29,
+  "pillar": "prompt-engineering",
+  "title": "How to write a good AI prompt: a step-by-step guide",
+  "lede": "A good prompt has four parts: context, role, task, and format. Add those, then refine the first answer. Here's the simple recipe, with before-and-after examples you can copy.",
+  "keyTakeaways": [
+    "A good prompt has four parts: context (background), role (who the AI should act as), task (what to do), and format (how you want the answer).",
+    "The biggest upgrade to a weak answer is usually more context and a specific format — not a 'magic' phrase.",
+    "Treat the first answer as a draft and refine it; iteration is part of prompting.",
+    "The same recipe works across ChatGPT, Claude, Gemini, and Perplexity."
+  ],
+  "description": "How to write a good AI prompt, step by step: the context-role-task-format recipe, before-and-after examples, and how to refine answers. Works on ChatGPT, Claude, and Gemini.",
+  "keywords": [
+    "how to write a prompt",
+    "how to write a good AI prompt",
+    "how to write ChatGPT prompts",
+    "prompt writing guide",
+    "how to prompt AI"
+  ],
+  "datePublished": "2026-06-05",
+  "dateModified": "2026-06-05",
+  "readingTime": 7,
+  "articleSection": "Prompt engineering",
+  "feedCategory": "Prompt engineering",
+  "feedTags": [
+    "prompt engineering",
+    "ChatGPT",
+    "how to"
+  ],
+  "inlineCtaAfter": 3,
+  "toc": [
+    {
+      "href": "#answer",
+      "label": "The recipe"
+    },
+    {
+      "href": "#parts",
+      "label": "The 4 parts"
+    },
+    {
+      "href": "#example",
+      "label": "Before & after"
+    },
+    {
+      "href": "#refine",
+      "label": "How to refine"
+    },
+    {
+      "href": "#mistakes",
+      "label": "Mistakes"
+    }
+  ],
+  "sections": [
+    {
+      "id": "answer",
+      "heading": "How do you write a good AI prompt?",
+      "html": "<p><strong>A good prompt gives the AI four things: context, a role, a clear task, and the output format you want.</strong> Most weak answers come from skipping these — the model has to guess what you mean. Add them and you'll get sharp, useful results from ChatGPT, Claude, Gemini, or any other tool. Then treat the first answer as a draft and refine it.</p>"
+    },
+    {
+      "id": "parts",
+      "heading": "The four parts of a great prompt",
+      "html": "<ol><li><strong>Context</strong> — the background the AI needs: who it's for, what you've tried, any constraints. <em>\"I'm emailing a client who missed a deadline; tone should stay warm.\"</em></li><li><strong>Role</strong> — who the AI should act as: <em>\"You are an experienced customer-success manager.\"</em></li><li><strong>Task</strong> — the specific thing to do: <em>\"Write a 3-sentence reply that asks for a new date without blaming them.\"</em></li><li><strong>Format</strong> — how you want it: length, structure, tone. <em>\"Under 80 words, friendly, no jargon.\"</em></li></ol><p>You won't need all four every time, but the more ambiguous the task, the more they help. This is the heart of <a href=\"/blog/what-is-prompt-engineering\">prompt engineering</a>.</p>"
+    },
+    {
+      "id": "example",
+      "heading": "Before and after: a weak prompt vs a good one",
+      "html": "<p><strong>Weak:</strong> <code>write a post about our new feature</code></p><p>You'll get something generic, because the AI is guessing the audience, tone, length, and the feature itself.</p><p><strong>Good:</strong> <code>You are a product marketer. Write a LinkedIn post (under 120 words, confident but not hypey) announcing our new AI feedback feature for our app that helps people learn AI. Audience: busy professionals. End with a question to drive comments.</code></p><p>Same model, dramatically better output — because it now has context, a role, a task, and a format. For more reusable structures, see <a href=\"/blog/prompt-engineering-patterns\">the 7 prompt patterns that work everywhere</a>.</p>"
+    },
+    {
+      "id": "refine",
+      "heading": "How to refine the first answer",
+      "html": "<p>The first answer is a draft, not the deliverable. Improve it with quick follow-ups:</p><ul><li><strong>Adjust:</strong> \"Make it shorter / more formal / more specific.\"</li><li><strong>Add an example:</strong> show one sample of \"good\" and ask it to match.</li><li><strong>Ask for options:</strong> \"Give me three versions, ranked.\"</li><li><strong>Push back:</strong> \"That intro is generic — try a sharper hook.\"</li></ul><p>Two or three rounds of this beats hunting for a perfect one-shot prompt.</p>"
+    },
+    {
+      "id": "mistakes",
+      "heading": "Common prompting mistakes",
+      "html": "<p><strong>Being vague.</strong> \"Make it better\" gives the model nothing to aim at — say what \"better\" means. <strong>Skipping context.</strong> The AI can't read your mind about audience or constraints. <strong>Accepting the first draft.</strong> Iterating is where the quality comes from. <strong>Chasing magic words.</strong> There aren't any — clarity beats tricks. If your prompts keep underperforming, see <a href=\"/blog/why-your-ai-prompts-arent-working\">why your AI prompts aren't working</a>, and practice hands-on in the <a href=\"/prompt-engineering-app\">Prompt Lab</a>.</p>"
+    }
+  ],
+  "readNext": [
+    {
+      "href": "/blog/prompt-engineering-patterns",
+      "label": "The 7 prompt patterns that work everywhere"
+    },
+    {
+      "href": "/blog/chatgpt-prompts-for-beginners",
+      "label": "15 ChatGPT prompts for beginners"
+    },
+    {
+      "href": "/blog/why-your-ai-prompts-arent-working",
+      "label": "Why your AI prompts aren't working"
+    },
+    {
+      "href": "/quiz",
+      "label": "Take the free AI IQ test"
+    }
+  ],
+  "faq": [
+    {
+      "q": "How do you write a good AI prompt?",
+      "a": "Give the AI four things: context (the background), a role (who it should act as), a clear task (what to do), and the format you want (length, structure, tone). Then treat the first answer as a draft and refine it with quick follow-ups."
+    },
+    {
+      "q": "What is the formula for a good prompt?",
+      "a": "A reliable formula is Context + Role + Task + Format: tell the AI the situation, who to be, exactly what to do, and how you want the answer. The more ambiguous the task, the more these matter."
+    },
+    {
+      "q": "Why are my prompts not working?",
+      "a": "Usually the prompt is too vague or missing context and a clear format. Add who it's for, the constraints, and exactly what 'good' looks like, then iterate on the first answer instead of starting over."
+    },
+    {
+      "q": "Does the same prompt work on ChatGPT, Claude, and Gemini?",
+      "a": "Mostly yes. The context-role-task-format structure works across all major AI tools. You tune small details per model, but the core recipe transfers."
+    }
+  ],
+  "related": [
+    "/blog/prompt-engineering-patterns",
+    "/blog/chatgpt-prompts-for-beginners",
+    "/blog/why-your-ai-prompts-arent-working",
+    "/blog/what-is-prompt-engineering",
+    "/prompt-engineering-app",
+    "/learn-chatgpt",
+    "/quiz"
+  ]
+}

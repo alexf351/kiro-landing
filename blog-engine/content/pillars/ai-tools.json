@@ -1,0 +1,55 @@
+{
+  "slug": "ai-tools",
+  "order": 4,
+  "title": "AI Tools in 2026: Pick the Right One, Then Use It Well",
+  "shortName": "AI Tools",
+  "tagline": "Compare AI tools and get more from each",
+  "lede": "ChatGPT, Claude, Gemini, Perplexity, Copilot — which AI tool should you actually use? Honest comparisons, the best pick for each job, and the skill that beats picking the 'perfect' tool.",
+  "description": "Compare the best AI tools in 2026 — ChatGPT, Claude, Gemini, Perplexity, and Copilot. Honest head-to-heads, the best tool for each task, and how to get more out of any of them.",
+  "keywords": [
+    "AI tools",
+    "best AI tools",
+    "ChatGPT vs Claude vs Gemini",
+    "AI tools comparison",
+    "which AI tool to use",
+    "AI apps 2026"
+  ],
+  "datePublished": "2026-06-05",
+  "dateModified": "2026-06-05",
+  "intro": [
+    "<p>There is no single best AI tool — the right one depends on what you do most. <a href=\"/learn-chatgpt\">ChatGPT</a> is the most versatile all-rounder, <a href=\"/learn-claude\">Claude</a> shines on long writing and code, <a href=\"/learn-gemini\">Gemini</a> lives inside Google's apps, and <a href=\"/learn-perplexity\">Perplexity</a> answers with citations. This pillar compares them honestly so you can stop tool-shopping and start working.</p>",
+    "<p>But here is the part most comparisons miss: the gap between these tools matters far less than the gap between using one well and using it lazily. A clear prompt, good context, and the judgment to catch mistakes will beat a \"better\" model used carelessly every time.</p>",
+    "<p>So use these guides to pick a sensible default, then build the skill that actually moves the needle — <a href=\"/blog/what-is-ai-fluency\">AI fluency</a>. The fastest way to see where you stand is the free <a href=\"/quiz\">AI IQ test</a>.</p>"
+  ],
+  "faq": [
+    {
+      "q": "What is the best AI tool in 2026?",
+      "a": "There's no single best — it depends on the task. ChatGPT is the best all-rounder, Claude is best for writing and coding, Gemini is best inside Google apps, and Perplexity is best for cited research. For everyday use, ChatGPT is the safest default."
+    },
+    {
+      "q": "Do I need more than one AI tool?",
+      "a": "Most people are fine with one. Many power users keep two — for example ChatGPT for general work plus Claude for writing or Perplexity for research. Pick a default and add a second only when you hit a task it doesn't handle well."
+    },
+    {
+      "q": "Which AI tool is best and free?",
+      "a": "ChatGPT, Claude, Gemini, and Perplexity all have capable free tiers, with ChatGPT and Gemini especially generous. You rarely need to pay just to get started."
+    }
+  ],
+  "related": [
+    "/blog/chatgpt-vs-claude",
+    "/blog/chatgpt-vs-gemini",
+    "/blog/chatgpt-vs-claude-vs-gemini",
+    "/blog/best-ai-apps",
+    "/blog/best-free-ai-tools-2026"
+  ],
+  "relatedLabels": [
+    {
+      "href": "/ai-tools-comparison",
+      "label": "Full AI tools comparison"
+    },
+    {
+      "href": "/quiz",
+      "label": "Free AI IQ test"
+    }
+  ]
+}

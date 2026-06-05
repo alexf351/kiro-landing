@@ -53,6 +53,13 @@ This direct-answer summary is also available to crawlers in homepage JSON-LD, /i
 - [15 ChatGPT prompts for beginners](https://tryiro.com/blog/chatgpt-prompts-for-beginners): copy-paste prompt templates for work, learning, and everyday life.
 - [AI agents vs. automation](https://tryiro.com/blog/ai-agents-vs-automation): the difference between rule-based automation and goal-driven AI agents, and when to use each.
 - [How to use AI at work](https://tryiro.com/blog/how-to-use-ai-at-work): the best starting tasks and how to use AI responsibly on the job.
+- [AI Tools (pillar)](https://tryiro.com/blog/ai-tools): hub comparing ChatGPT, Claude, Gemini, Perplexity, and Copilot, with the best tool for each job.
+- [ChatGPT vs Gemini](https://tryiro.com/blog/chatgpt-vs-gemini): honest head-to-head and the best pick for each task.
+- [The best AI apps in 2026](https://tryiro.com/blog/best-ai-apps): the leading AI apps compared by what each is best for.
+- [What is generative AI?](https://tryiro.com/blog/what-is-generative-ai): plain-English definition, examples, and how it differs from traditional AI.
+- [What is agentic AI?](https://tryiro.com/blog/what-is-agentic-ai): AI agents explained, and how they differ from chatbots and generative AI.
+- [How to write a good AI prompt](https://tryiro.com/blog/how-to-write-a-prompt): the context-role-task-format recipe with before-and-after examples.
+- [The AI Fluency Pyramid](https://tryiro.com/blog/the-ai-fluency-pyramid): an original 5-level framework for getting good at AI (Access, Operation, Direction, Judgment, Leverage).
 
 ## Topic pages
 

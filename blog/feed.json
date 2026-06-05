@@ -291,6 +291,78 @@
         "AI for work",
         "productivity"
       ]
+    },
+    {
+      "id": "https://tryiro.com/blog/chatgpt-vs-gemini",
+      "url": "https://tryiro.com/blog/chatgpt-vs-gemini",
+      "title": "ChatGPT vs Gemini: which should you use in 2026?",
+      "summary": "ChatGPT is the more versatile all-rounder; Gemini is the better choice if your work lives inside Google. Here's the honest head-to-head — strengths, free tiers, and the best pick for each kind of task.",
+      "date_published": "2026-06-05T00:00:00Z",
+      "tags": [
+        "AI tools",
+        "ChatGPT",
+        "Gemini"
+      ]
+    },
+    {
+      "id": "https://tryiro.com/blog/best-ai-apps",
+      "url": "https://tryiro.com/blog/best-ai-apps",
+      "title": "The best AI apps in 2026 (and what each is best for)",
+      "summary": "The best AI app depends on the job: ChatGPT for everyday use, Claude for writing and code, Gemini inside Google, Perplexity for research, and Iro for actually getting good at all of them. Here's the shortlist.",
+      "date_published": "2026-06-05T00:00:00Z",
+      "tags": [
+        "AI tools",
+        "AI apps",
+        "comparison"
+      ]
+    },
+    {
+      "id": "https://tryiro.com/blog/what-is-generative-ai",
+      "url": "https://tryiro.com/blog/what-is-generative-ai",
+      "title": "What is generative AI? A simple explanation with examples",
+      "summary": "Generative AI is artificial intelligence that creates new content — text, images, audio, video, or code — in response to a prompt. Here's how it works, what it can and can't do, and how to use it well.",
+      "date_published": "2026-06-05T00:00:00Z",
+      "tags": [
+        "AI fluency",
+        "generative AI",
+        "AI basics"
+      ]
+    },
+    {
+      "id": "https://tryiro.com/blog/what-is-agentic-ai",
+      "url": "https://tryiro.com/blog/what-is-agentic-ai",
+      "title": "What is agentic AI? Agents explained simply (2026)",
+      "summary": "Agentic AI is AI that pursues a goal on its own — planning steps, using tools, and adapting — instead of just answering one prompt at a time. Here's what it means, how it differs from chatbots and generative AI, and when it's actually useful.",
+      "date_published": "2026-06-05T00:00:00Z",
+      "tags": [
+        "AI agents",
+        "agentic AI",
+        "AI basics"
+      ]
+    },
+    {
+      "id": "https://tryiro.com/blog/how-to-write-a-prompt",
+      "url": "https://tryiro.com/blog/how-to-write-a-prompt",
+      "title": "How to write a good AI prompt: a step-by-step guide",
+      "summary": "A good prompt has four parts: context, role, task, and format. Add those, then refine the first answer. Here's the simple recipe, with before-and-after examples you can copy.",
+      "date_published": "2026-06-05T00:00:00Z",
+      "tags": [
+        "prompt engineering",
+        "ChatGPT",
+        "how to"
+      ]
+    },
+    {
+      "id": "https://tryiro.com/blog/the-ai-fluency-pyramid",
+      "url": "https://tryiro.com/blog/the-ai-fluency-pyramid",
+      "title": "The AI Fluency Pyramid: the 5 levels of getting good at AI",
+      "summary": "Most people get stuck on the bottom two levels of using AI and never reach the top, where the real leverage is. The AI Fluency Pyramid maps the five levels — from simply having access to fully integrating AI into your work — so you can see where you are and what to climb next.",
+      "date_published": "2026-06-05T00:00:00Z",
+      "tags": [
+        "AI fluency",
+        "framework",
+        "AI skills"
+      ]
     }
   ]
 }

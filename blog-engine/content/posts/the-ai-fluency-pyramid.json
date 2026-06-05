@@ -1,0 +1,127 @@
+{
+  "slug": "the-ai-fluency-pyramid",
+  "order": 30,
+  "pillar": "ai-fluency",
+  "title": "The AI Fluency Pyramid: the 5 levels of getting good at AI",
+  "lede": "Most people get stuck on the bottom two levels of using AI and never reach the top, where the real leverage is. The AI Fluency Pyramid maps the five levels — from simply having access to fully integrating AI into your work — so you can see where you are and what to climb next.",
+  "keyTakeaways": [
+    "The AI Fluency Pyramid has five levels: Access, Operation, Direction, Judgment, and Leverage.",
+    "Most people plateau at Level 2 (basic operation) and assume AI is overhyped — the value lives at Levels 3–5.",
+    "Each level unlocks the next: you can't get leverage from AI you can't direct or judge.",
+    "You climb the pyramid through short, active daily practice, not by watching more tutorials."
+  ],
+  "description": "The AI Fluency Pyramid is a 5-level framework for getting good at AI — Access, Operation, Direction, Judgment, and Leverage. Find your level and learn how to climb to the next.",
+  "keywords": [
+    "AI fluency pyramid",
+    "levels of AI fluency",
+    "how good am I at AI",
+    "getting good at AI",
+    "AI skill levels",
+    "AI fluency framework"
+  ],
+  "datePublished": "2026-06-05",
+  "dateModified": "2026-06-05",
+  "readingTime": 8,
+  "articleSection": "AI fluency",
+  "feedCategory": "AI fluency",
+  "feedTags": [
+    "AI fluency",
+    "framework",
+    "AI skills"
+  ],
+  "inlineCtaAfter": 2,
+  "toc": [
+    {
+      "href": "#answer",
+      "label": "The pyramid"
+    },
+    {
+      "href": "#levels",
+      "label": "The 5 levels"
+    },
+    {
+      "href": "#plateau",
+      "label": "The Level 2 plateau"
+    },
+    {
+      "href": "#climb",
+      "label": "How to climb"
+    },
+    {
+      "href": "#find",
+      "label": "Find your level"
+    }
+  ],
+  "sections": [
+    {
+      "id": "answer",
+      "heading": "The AI Fluency Pyramid, explained",
+      "html": "<p><strong>The AI Fluency Pyramid is a five-level model of how good someone is at using AI: Access, Operation, Direction, Judgment, and Leverage.</strong> Each level builds on the one below it. The reason two people get wildly different results from the same AI tools isn't the tools — it's how high they've climbed this pyramid. Most people stall near the bottom, where AI feels like a gimmick, and never reach the top, where it becomes a genuine edge.</p>"
+    },
+    {
+      "id": "levels",
+      "heading": "The five levels of AI fluency",
+      "html": "<ol><li><strong>Level 1 — Access.</strong> You have the tools open and have tried them once or twice. AI is a curiosity. Almost everyone is at least here now.</li><li><strong>Level 2 — Operation.</strong> You can run basic requests and get basic answers. You type a question, take whatever comes back, and move on. Useful, but you're leaving most of the value on the table.</li><li><strong>Level 3 — Direction.</strong> You <em>steer</em> the model: context, role, task, and format, plus follow-ups. Your results jump because you're <a href=\"/blog/how-to-write-a-prompt\">writing real prompts</a> instead of hoping.</li><li><strong>Level 4 — Judgment.</strong> You evaluate output instead of trusting it: catching <a href=\"/blog/spot-ai-hallucinations\">hallucinations</a>, checking sources, and knowing when to trust, edit, or discard. This is where AI becomes safe to rely on.</li><li><strong>Level 5 — Leverage.</strong> AI is woven into how you work — drafting, analyzing, automating, and <a href=\"/blog/ai-agents-vs-automation\">delegating multi-step tasks</a> — so it compounds your output. This is the level worth climbing to.</li></ol>"
+    },
+    {
+      "id": "plateau",
+      "heading": "Why most people get stuck at Level 2",
+      "html": "<p>Here's the trap: Level 2 is just good enough to feel like \"using AI,\" so people stop there. They type vague questions, get mediocre answers, and quietly conclude AI is overhyped. They're not wrong about <em>their</em> results — they just never climbed past operation into direction and judgment, which is where the actual value lives.</p><p>The jump from Level 2 to Level 3 is the highest-ROI move in the whole pyramid, and it's mostly about one habit: stop asking, start directing.</p>"
+    },
+    {
+      "id": "climb",
+      "heading": "How to climb the pyramid",
+      "html": "<p>You climb the same way you build any skill — short, active, repeated practice with feedback, not more passive video:</p><ul><li><strong>Level 2 → 3:</strong> practice the <a href=\"/blog/how-to-write-a-prompt\">context-role-task-format</a> recipe on real tasks until it's automatic.</li><li><strong>Level 3 → 4:</strong> make a habit of verifying — ask \"how would I know if this is wrong?\" every time.</li><li><strong>Level 4 → 5:</strong> wire AI into your actual workflow and learn what to <a href=\"/blog/how-to-use-ai-at-work\">delegate at work</a>.</li></ul><p>This is exactly the climb Iro AI is built for — five-minute daily reps that move you up a level at a time. The <a href=\"/how-to-learn-ai\">how to learn AI</a> guide sequences it.</p>"
+    },
+    {
+      "id": "find",
+      "heading": "Find your level",
+      "html": "<p>A quick self-check: if you take whatever the AI gives you, you're around Level 2; if you steer it and refine, Level 3; if you reliably catch its mistakes, Level 4; if AI is woven into your daily work, Level 5. For a sharper read, the free <a href=\"/quiz\">AI IQ test</a> scores you in about two minutes and points you to the next level to climb.</p>"
+    }
+  ],
+  "readNext": [
+    {
+      "href": "/blog/what-is-ai-fluency",
+      "label": "What is AI fluency?"
+    },
+    {
+      "href": "/blog/ai-skills-for-2026",
+      "label": "The 7 AI skills worth learning in 2026"
+    },
+    {
+      "href": "/blog/how-to-write-a-prompt",
+      "label": "How to write a good AI prompt"
+    },
+    {
+      "href": "/quiz",
+      "label": "Take the free AI IQ test"
+    }
+  ],
+  "faq": [
+    {
+      "q": "What are the levels of AI fluency?",
+      "a": "The AI Fluency Pyramid has five levels: Access (you've tried AI), Operation (basic requests), Direction (you steer the model with good prompts), Judgment (you evaluate and verify output), and Leverage (AI is integrated into your work and compounds your output)."
+    },
+    {
+      "q": "How do I know how good I am at AI?",
+      "a": "Check which level you operate at: taking whatever the AI gives you is Level 2; steering and refining is Level 3; reliably catching mistakes is Level 4; weaving AI into daily work is Level 5. The free AI IQ test gives a quick, scored read."
+    },
+    {
+      "q": "Why do some people get so much more out of AI?",
+      "a": "Because they've climbed higher on the AI Fluency Pyramid. The tools are the same; the difference is the skill of directing and judging them. Most people plateau at basic operation and never reach the levels where the real leverage is."
+    },
+    {
+      "q": "How do I get better at using AI?",
+      "a": "Climb one level at a time with short, active daily practice: learn to direct the model with clear prompts, build the habit of verifying its output, then integrate it into your real work."
+    }
+  ],
+  "related": [
+    "/blog/what-is-ai-fluency",
+    "/blog/ai-skills-for-2026",
+    "/blog/how-to-write-a-prompt",
+    "/blog/how-to-use-ai-at-work",
+    "/how-to-learn-ai",
+    "/quiz",
+    "/best-ai-learning-app"
+  ]
+}
