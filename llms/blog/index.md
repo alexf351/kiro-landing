@@ -21,6 +21,7 @@ license: "© 2026 Iro AI"
 - [AI Fluency: Learn AI the Way That Actually Sticks](https://tryiro.com/blog/ai-fluency) — The fundamentals — tools, judgment, and a daily habit
 - [Prompt Engineering: Patterns That Survive Model Updates](https://tryiro.com/blog/prompt-engineering) — Reusable prompt structures for any model
 - [AI Agents & Automation: From Hype to Working Systems](https://tryiro.com/blog/ai-agents) — What agents really are and when to use them
+- [AI Tools in 2026: Pick the Right One, Then Use It Well](https://tryiro.com/blog/ai-tools) — Compare AI tools and get more from each
 
 ## Posts
 
@@ -48,3 +49,9 @@ license: "© 2026 Iro AI"
 - [15 ChatGPT prompts for beginners (copy, paste, and learn)](https://tryiro.com/blog/chatgpt-prompts-for-beginners) — 15 ChatGPT prompts for beginners to copy and paste — for work, learning, and everyday life — plus the simple structure that makes any prompt better. No experience needed.
 - [AI agents vs. automation: what's the difference (and when to use each)?](https://tryiro.com/blog/ai-agents-vs-automation) — AI agents vs automation explained: automation follows fixed rules, an AI agent decides its own steps toward a goal. Learn the difference, see examples, and know when to use each.
 - [How to use AI at work (a practical guide for 2026)](https://tryiro.com/blog/how-to-use-ai-at-work) — How to use AI at work in 2026: the best starting tasks, how to do it responsibly (verify, protect data, follow policy), and how to build the habit. A practical guide for any role.
+- [ChatGPT vs Gemini: which should you use in 2026?](https://tryiro.com/blog/chatgpt-vs-gemini) — ChatGPT vs Gemini in 2026: an honest comparison of strengths, free tiers, ecosystems, and the best pick for each task. Plus the one skill that matters more than the tool you choose.
+- [The best AI apps in 2026 (and what each is best for)](https://tryiro.com/blog/best-ai-apps) — The best AI apps in 2026, compared by what each is best for — ChatGPT, Claude, Gemini, Perplexity, Copilot, and Iro. A practical shortlist for everyday users, not a hype list.
+- [What is generative AI? A simple explanation with examples](https://tryiro.com/blog/what-is-generative-ai) — What is generative AI? A plain-English explanation: how it works, real examples (text, images, video, code), how it differs from traditional AI, its limits, and how to use it well.
+- [What is agentic AI? Agents explained simply (2026)](https://tryiro.com/blog/what-is-agentic-ai) — What is agentic AI? A plain-English explanation of AI agents in 2026 — how they differ from chatbots and generative AI, real examples, when they're useful, and the risks to manage.
+- [How to write a good AI prompt: a step-by-step guide](https://tryiro.com/blog/how-to-write-a-prompt) — How to write a good AI prompt, step by step: the context-role-task-format recipe, before-and-after examples, and how to refine answers. Works on ChatGPT, Claude, and Gemini.
+- [The AI Fluency Pyramid: the 5 levels of getting good at AI](https://tryiro.com/blog/the-ai-fluency-pyramid) — The AI Fluency Pyramid is a 5-level framework for getting good at AI — Access, Operation, Direction, Judgment, and Leverage. Find your level and learn how to climb to the next.

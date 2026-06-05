@@ -9,7 +9,7 @@
     <description>Short, practical writing on AI fluency, prompting, AI tools, and the active-practice method that beats endless video courses.</description>
     <language>en-US</language>
     <atom:link href="https://tryiro.com/blog/rss.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Thu, 04 Jun 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 05 Jun 2026 00:00:00 GMT</lastBuildDate>
     <generator>tryiro.com</generator>
     <copyright>© 2026 Iro AI</copyright>
     <image>
@@ -232,6 +232,60 @@
       <dc:creator>Iro AI</dc:creator>
       <category>AI fluency</category>
       <description>How to use AI at work in 2026: the best starting tasks, how to do it responsibly (verify, protect data, follow policy), and how to build the habit. A practical guide for any role.</description>
+    </item>
+    <item>
+      <title>ChatGPT vs Gemini: which should you use in 2026?</title>
+      <link>https://tryiro.com/blog/chatgpt-vs-gemini</link>
+      <guid isPermaLink="true">https://tryiro.com/blog/chatgpt-vs-gemini</guid>
+      <pubDate>Fri, 05 Jun 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Iro AI</dc:creator>
+      <category>AI tools</category>
+      <description>ChatGPT vs Gemini in 2026: an honest comparison of strengths, free tiers, ecosystems, and the best pick for each task. Plus the one skill that matters more than the tool you choose.</description>
+    </item>
+    <item>
+      <title>The best AI apps in 2026 (and what each is best for)</title>
+      <link>https://tryiro.com/blog/best-ai-apps</link>
+      <guid isPermaLink="true">https://tryiro.com/blog/best-ai-apps</guid>
+      <pubDate>Fri, 05 Jun 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Iro AI</dc:creator>
+      <category>AI tools</category>
+      <description>The best AI apps in 2026, compared by what each is best for — ChatGPT, Claude, Gemini, Perplexity, Copilot, and Iro. A practical shortlist for everyday users, not a hype list.</description>
+    </item>
+    <item>
+      <title>What is generative AI? A simple explanation with examples</title>
+      <link>https://tryiro.com/blog/what-is-generative-ai</link>
+      <guid isPermaLink="true">https://tryiro.com/blog/what-is-generative-ai</guid>
+      <pubDate>Fri, 05 Jun 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Iro AI</dc:creator>
+      <category>AI fluency</category>
+      <description>What is generative AI? A plain-English explanation: how it works, real examples (text, images, video, code), how it differs from traditional AI, its limits, and how to use it well.</description>
+    </item>
+    <item>
+      <title>What is agentic AI? Agents explained simply (2026)</title>
+      <link>https://tryiro.com/blog/what-is-agentic-ai</link>
+      <guid isPermaLink="true">https://tryiro.com/blog/what-is-agentic-ai</guid>
+      <pubDate>Fri, 05 Jun 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Iro AI</dc:creator>
+      <category>AI agents</category>
+      <description>What is agentic AI? A plain-English explanation of AI agents in 2026 — how they differ from chatbots and generative AI, real examples, when they're useful, and the risks to manage.</description>
+    </item>
+    <item>
+      <title>How to write a good AI prompt: a step-by-step guide</title>
+      <link>https://tryiro.com/blog/how-to-write-a-prompt</link>
+      <guid isPermaLink="true">https://tryiro.com/blog/how-to-write-a-prompt</guid>
+      <pubDate>Fri, 05 Jun 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Iro AI</dc:creator>
+      <category>Prompt engineering</category>
+      <description>How to write a good AI prompt, step by step: the context-role-task-format recipe, before-and-after examples, and how to refine answers. Works on ChatGPT, Claude, and Gemini.</description>
+    </item>
+    <item>
+      <title>The AI Fluency Pyramid: the 5 levels of getting good at AI</title>
+      <link>https://tryiro.com/blog/the-ai-fluency-pyramid</link>
+      <guid isPermaLink="true">https://tryiro.com/blog/the-ai-fluency-pyramid</guid>
+      <pubDate>Fri, 05 Jun 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Iro AI</dc:creator>
+      <category>AI fluency</category>
+      <description>The AI Fluency Pyramid is a 5-level framework for getting good at AI — Access, Operation, Direction, Judgment, and Leverage. Find your level and learn how to climb to the next.</description>
     </item>
   </channel>
 </rss>
