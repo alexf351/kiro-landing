@@ -219,6 +219,10 @@
         {
           "key": "Cache-Control",
           "value": "public, max-age=3600"
+        },
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex"
         }
       ]
     },
@@ -271,6 +275,10 @@
         {
           "key": "Cache-Control",
           "value": "public, max-age=3600"
+        },
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex"
         }
       ]
     },
@@ -288,6 +296,10 @@
         {
           "key": "Access-Control-Allow-Origin",
           "value": "*"
+        },
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex"
         }
       ]
     },
