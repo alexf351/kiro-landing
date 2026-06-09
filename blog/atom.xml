@@ -5,7 +5,7 @@
   <link rel="self" href="https://tryiro.com/blog/atom.xml" type="application/atom+xml"/>
   <link rel="alternate" href="https://tryiro.com/blog" type="text/html"/>
   <id>https://tryiro.com/blog/atom.xml</id>
-  <updated>2026-06-05T00:00:00Z</updated>
+  <updated>2026-06-09T00:00:00Z</updated>
   <rights>© 2026 Iro AI</rights>
   <author><name>Iro AI</name><uri>https://tryiro.com</uri></author>
   <icon>https://tryiro.com/assets/favicon-64.png</icon>
@@ -309,5 +309,45 @@
     <author><name>Iro AI</name></author>
     <category term="AI fluency"/>
     <summary>Most people get stuck on the bottom two levels of using AI and never reach the top, where the real leverage is. The AI Fluency Pyramid maps the five levels — from simply having access to fully integrating AI into your work — so you can see where you are and what to climb next.</summary>
+  </entry>
+  <entry>
+    <title>Claude vs Gemini: which should you use in 2026?</title>
+    <id>https://tryiro.com/blog/claude-vs-gemini</id>
+    <link href="https://tryiro.com/blog/claude-vs-gemini"/>
+    <updated>2026-06-09T00:00:00Z</updated>
+    <published>2026-06-09T00:00:00Z</published>
+    <author><name>Iro AI</name></author>
+    <category term="AI tools"/>
+    <summary>Claude is the better pick for serious writing, coding, and long documents; Gemini wins if your work lives in Google and for generous free multimodal use. Here's the honest head-to-head.</summary>
+  </entry>
+  <entry>
+    <title>ChatGPT vs Perplexity: which should you use in 2026?</title>
+    <id>https://tryiro.com/blog/chatgpt-vs-perplexity</id>
+    <link href="https://tryiro.com/blog/chatgpt-vs-perplexity"/>
+    <updated>2026-06-09T00:00:00Z</updated>
+    <published>2026-06-09T00:00:00Z</published>
+    <author><name>Iro AI</name></author>
+    <category term="AI tools"/>
+    <summary>ChatGPT is a versatile assistant for creating and doing; Perplexity is an answer engine for research with citations. They're built for different jobs — and many people use both. Here's how to choose.</summary>
+  </entry>
+  <entry>
+    <title>Will AI take your job? An honest answer (and how to stay ahead)</title>
+    <id>https://tryiro.com/blog/will-ai-take-your-job</id>
+    <link href="https://tryiro.com/blog/will-ai-take-your-job"/>
+    <updated>2026-06-09T00:00:00Z</updated>
+    <published>2026-06-09T00:00:00Z</published>
+    <author><name>Iro AI</name></author>
+    <category term="AI fluency"/>
+    <summary>AI is unlikely to take your whole job soon — but it will change most jobs, and people who use AI well will outcompete those who don't. Here's the honest picture and how to future-proof yourself.</summary>
+  </entry>
+  <entry>
+    <title>What is AI literacy? A clear definition for 2026</title>
+    <id>https://tryiro.com/blog/what-is-ai-literacy</id>
+    <link href="https://tryiro.com/blog/what-is-ai-literacy"/>
+    <updated>2026-06-09T00:00:00Z</updated>
+    <published>2026-06-09T00:00:00Z</published>
+    <author><name>Iro AI</name></author>
+    <category term="AI fluency"/>
+    <summary>AI literacy is understanding what AI is, how it works at a basic level, what it can and can't do, and how to use it responsibly. Here's a clear definition, why it matters, and how to build it.</summary>
   </entry>
 </feed>

@@ -363,6 +363,54 @@
         "framework",
         "AI skills"
       ]
+    },
+    {
+      "id": "https://tryiro.com/blog/claude-vs-gemini",
+      "url": "https://tryiro.com/blog/claude-vs-gemini",
+      "title": "Claude vs Gemini: which should you use in 2026?",
+      "summary": "Claude is the better pick for serious writing, coding, and long documents; Gemini wins if your work lives in Google and for generous free multimodal use. Here's the honest head-to-head.",
+      "date_published": "2026-06-09T00:00:00Z",
+      "tags": [
+        "AI tools",
+        "Claude",
+        "Gemini"
+      ]
+    },
+    {
+      "id": "https://tryiro.com/blog/chatgpt-vs-perplexity",
+      "url": "https://tryiro.com/blog/chatgpt-vs-perplexity",
+      "title": "ChatGPT vs Perplexity: which should you use in 2026?",
+      "summary": "ChatGPT is a versatile assistant for creating and doing; Perplexity is an answer engine for research with citations. They're built for different jobs — and many people use both. Here's how to choose.",
+      "date_published": "2026-06-09T00:00:00Z",
+      "tags": [
+        "AI tools",
+        "ChatGPT",
+        "Perplexity"
+      ]
+    },
+    {
+      "id": "https://tryiro.com/blog/will-ai-take-your-job",
+      "url": "https://tryiro.com/blog/will-ai-take-your-job",
+      "title": "Will AI take your job? An honest answer (and how to stay ahead)",
+      "summary": "AI is unlikely to take your whole job soon — but it will change most jobs, and people who use AI well will outcompete those who don't. Here's the honest picture and how to future-proof yourself.",
+      "date_published": "2026-06-09T00:00:00Z",
+      "tags": [
+        "AI fluency",
+        "careers",
+        "future of work"
+      ]
+    },
+    {
+      "id": "https://tryiro.com/blog/what-is-ai-literacy",
+      "url": "https://tryiro.com/blog/what-is-ai-literacy",
+      "title": "What is AI literacy? A clear definition for 2026",
+      "summary": "AI literacy is understanding what AI is, how it works at a basic level, what it can and can't do, and how to use it responsibly. Here's a clear definition, why it matters, and how to build it.",
+      "date_published": "2026-06-09T00:00:00Z",
+      "tags": [
+        "AI fluency",
+        "AI literacy",
+        "AI basics"
+      ]
     }
   ]
 }

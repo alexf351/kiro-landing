@@ -5,7 +5,7 @@ listing (App Store Connect). ASO metadata lives in App Store Connect, **not**
 in this repo — this file is the source copy to paste in and A/B test.
 
 App: **Iro AI — Learn AI Skills** · App ID `6759628066`
-Last updated: 2026-06-05 · Maintained alongside `llms-full.txt` (single source of product facts)
+Last updated: 2026-06-09 · Maintained alongside `llms-full.txt` (single source of product facts)
 
 > **Field limits (Apple):** Name ≤ 30 chars · Subtitle ≤ 30 chars · Keyword field
 > ≤ 100 chars · Promotional text ≤ 170 chars · Description ≤ 4000 chars. The
@@ -210,3 +210,34 @@ with the web localization effort so brand voice matches across surfaces.)
   Challenge week") add indexed surfaces and re-engagement.
 - **Drive external traffic** to the App Store page (the website, the AI IQ test,
   social) — download velocity from outside Search lifts Search rank too.
+
+---
+
+## 12. Social proof to feature (live as of June 2026)
+
+The App Store rating is now **4.7★**. Ratings and recent reviews are a top
+conversion lever — surface them in the screenshots and promotional text, and
+keep them fresh.
+
+**Real review quotes worth featuring** (use as screenshot overlays or in the
+promo text — these are genuine App Store reviews):
+
+- *"I have cut down on time in the office tremendously… A must for me!"* — Max K.
+- *"I use ChatGPT and Claude daily and still learned things I didn't know I was missing. 5 minutes a day and it actually sticks."* — Jenny
+- *"So helpful especially at work… definitely worth the subscription."*
+
+**Promo-text variant that leads with social proof** (≤170 chars):
+
+```
+4.7★ — "5 minutes a day and it actually sticks." Learn ChatGPT, Claude & Gemini by doing, not watching. Free to start, with live duels and weekly AI news.
+```
+(150 chars.) Rotate this against the feature-led promo text in §4 and keep the
+better performer.
+
+**Action items to grow the rating (compounding ASO):**
+- Trigger `SKStoreReviewController` after a satisfying moment (a duel win or a
+  streak milestone), never mid-lesson. Apple allows up to 3 prompts/year per user.
+- Reply to reviews in App Store Connect — it lifts sentiment and can prompt
+  rating updates.
+- Add a "4.7★ on the App Store" trust line near the primary CTA on any new
+  landing or campaign pages (the homepage already shows it).

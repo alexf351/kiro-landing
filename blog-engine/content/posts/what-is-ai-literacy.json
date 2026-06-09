@@ -1,0 +1,127 @@
+{
+  "slug": "what-is-ai-literacy",
+  "order": 34,
+  "pillar": "ai-fluency",
+  "title": "What is AI literacy? A clear definition for 2026",
+  "lede": "AI literacy is understanding what AI is, how it works at a basic level, what it can and can't do, and how to use it responsibly. Here's a clear definition, why it matters, and how to build it.",
+  "keyTakeaways": [
+    "AI literacy is understanding what AI is, how it works at a basic level, what it can and can't do, and how to use it responsibly.",
+    "It differs from AI fluency: literacy is understanding (awareness), fluency is being able to use AI well (capability). You want both.",
+    "Core components: knowing how tools like ChatGPT work, spotting their limits and biases, and using them ethically and safely.",
+    "It's increasingly a baseline skill for school and work — and it's learnable by anyone, no technical background required."
+  ],
+  "description": "What is AI literacy? A clear 2026 definition: understanding what AI is, how it works, its limits, and how to use it responsibly — how it differs from AI fluency, and how to build it.",
+  "keywords": [
+    "what is AI literacy",
+    "AI literacy definition",
+    "AI literacy meaning",
+    "why is AI literacy important",
+    "AI literacy vs AI fluency",
+    "how to improve AI literacy"
+  ],
+  "datePublished": "2026-06-09",
+  "dateModified": "2026-06-09",
+  "readingTime": 7,
+  "articleSection": "AI fluency",
+  "feedCategory": "AI fluency",
+  "feedTags": [
+    "AI fluency",
+    "AI literacy",
+    "AI basics"
+  ],
+  "inlineCtaAfter": 3,
+  "toc": [
+    {
+      "href": "#answer",
+      "label": "Definition"
+    },
+    {
+      "href": "#components",
+      "label": "What it includes"
+    },
+    {
+      "href": "#vs-fluency",
+      "label": "Literacy vs fluency"
+    },
+    {
+      "href": "#why",
+      "label": "Why it matters"
+    },
+    {
+      "href": "#build",
+      "label": "How to build it"
+    }
+  ],
+  "sections": [
+    {
+      "id": "answer",
+      "heading": "What is AI literacy?",
+      "html": "<p><strong>AI literacy is understanding what AI is, how it works at a basic level, what it can and can't do, and how to use it responsibly.</strong> It's the awareness layer of working with AI: knowing that a tool like ChatGPT predicts text and can be confidently wrong, recognizing where AI helps and where it shouldn't be trusted, and understanding the ethical and privacy questions that come with it. You don't need to be technical to be AI-literate — it's about informed judgment, not building models.</p>"
+    },
+    {
+      "id": "components",
+      "heading": "What does AI literacy include?",
+      "html": "<p>AI literacy has a few core components:</p><ul><li><strong>How it works.</strong> A basic grasp of what AI and <a href=\"/blog/what-is-an-llm\">large language models</a> are and how they generate answers.</li><li><strong>Capabilities and limits.</strong> Knowing what AI is good at and where it fails — including <a href=\"/blog/spot-ai-hallucinations\">hallucinations</a>, bias, and gaps in recent or private knowledge.</li><li><strong>Responsible use.</strong> Understanding privacy, accuracy, attribution, and when <em>not</em> to use AI.</li><li><strong>Evaluation.</strong> Being able to question and verify what an AI tells you.</li></ul>"
+    },
+    {
+      "id": "vs-fluency",
+      "heading": "AI literacy vs AI fluency: what's the difference?",
+      "html": "<p>The two are related but distinct. <strong>AI literacy is understanding AI; <a href=\"/blog/what-is-ai-fluency\">AI fluency</a> is being able to use it well.</strong> Literacy is knowing that a model can hallucinate; fluency is reliably getting a great answer <em>and</em> catching the one fact it got wrong before you rely on it. Literacy is awareness; fluency is capability. You want both — literacy keeps you safe, fluency makes you effective.</p>"
+    },
+    {
+      "id": "why",
+      "heading": "Why AI literacy matters now",
+      "html": "<p>AI literacy is quickly becoming a baseline expectation in school and at work, the way basic computer skills did a generation ago. People who understand AI's limits use it safely and get more from it; people who don't either avoid it and fall behind, or trust it blindly and get burned by confident mistakes. As AI gets woven into more tools and decisions, being able to think clearly about it — not just operate it — protects you and the people who rely on your work.</p>"
+    },
+    {
+      "id": "build",
+      "heading": "How to build AI literacy",
+      "html": "<p>You build AI literacy the same way you build any practical understanding — by using AI and reflecting on it, not by reading one article:</p><ul><li><strong>Use a tool on real tasks</strong> and notice where it helps and where it slips.</li><li><strong>Learn the basics</strong> of how it works (start with <a href=\"/blog/what-is-generative-ai\">what generative AI is</a>) and its common failure modes.</li><li><strong>Practice verifying</strong> — make checking AI's claims a habit.</li><li><strong>Build toward fluency</strong> so understanding turns into capability.</li></ul><p>Iro AI teaches both literacy and fluency through short daily lessons. See where you stand with the free <a href=\"/quiz\">AI IQ test</a>, or browse the plain-language <a href=\"/glossary\">AI glossary</a>.</p>"
+    }
+  ],
+  "readNext": [
+    {
+      "href": "/blog/what-is-ai-fluency",
+      "label": "What is AI fluency?"
+    },
+    {
+      "href": "/blog/what-is-generative-ai",
+      "label": "What is generative AI?"
+    },
+    {
+      "href": "/blog/spot-ai-hallucinations",
+      "label": "How to spot AI hallucinations"
+    },
+    {
+      "href": "/quiz",
+      "label": "Take the free AI IQ test"
+    }
+  ],
+  "faq": [
+    {
+      "q": "What is AI literacy in simple terms?",
+      "a": "AI literacy is understanding what AI is, how it works at a basic level, what it can and can't do, and how to use it responsibly. It's about informed judgment when using tools like ChatGPT — no technical background required."
+    },
+    {
+      "q": "What is the difference between AI literacy and AI fluency?",
+      "a": "AI literacy is understanding AI; AI fluency is being able to use it well. Literacy is awareness (knowing a model can be wrong); fluency is capability (reliably getting great results and catching mistakes). You want both."
+    },
+    {
+      "q": "Why is AI literacy important?",
+      "a": "It's becoming a baseline skill for school and work. AI-literate people use AI safely and effectively, while those without it either fall behind or trust AI blindly and get burned by confident errors."
+    },
+    {
+      "q": "How can I improve my AI literacy?",
+      "a": "Use AI on real tasks and notice where it helps and fails, learn the basics of how it works and its limits, and make verifying its claims a habit. Short daily practice, like Iro AI's lessons, builds it quickly."
+    }
+  ],
+  "related": [
+    "/blog/what-is-ai-fluency",
+    "/blog/what-is-generative-ai",
+    "/blog/what-is-an-llm",
+    "/blog/spot-ai-hallucinations",
+    "/how-to-learn-ai",
+    "/glossary",
+    "/quiz"
+  ]
+}

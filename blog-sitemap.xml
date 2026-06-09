@@ -351,4 +351,44 @@
       <image:title>The AI Fluency Pyramid: the 5 levels of getting good at AI</image:title>
     </image:image>
   </url>
+  <url>
+    <loc>https://tryiro.com/blog/claude-vs-gemini</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://tryiro.com/assets/og/claude-vs-gemini.png</image:loc>
+      <image:title>Claude vs Gemini: which should you use in 2026?</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://tryiro.com/blog/chatgpt-vs-perplexity</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://tryiro.com/assets/og/chatgpt-vs-perplexity.png</image:loc>
+      <image:title>ChatGPT vs Perplexity: which should you use in 2026?</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://tryiro.com/blog/will-ai-take-your-job</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://tryiro.com/assets/og/will-ai-take-your-job.png</image:loc>
+      <image:title>Will AI take your job? An honest answer (and how to stay ahead)</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://tryiro.com/blog/what-is-ai-literacy</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://tryiro.com/assets/og/what-is-ai-literacy.png</image:loc>
+      <image:title>What is AI literacy? A clear definition for 2026</image:title>
+    </image:image>
+  </url>
 </urlset>

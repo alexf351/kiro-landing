@@ -60,6 +60,10 @@ This direct-answer summary is also available to crawlers in homepage JSON-LD, /i
 - [What is agentic AI?](https://tryiro.com/blog/what-is-agentic-ai): AI agents explained, and how they differ from chatbots and generative AI.
 - [How to write a good AI prompt](https://tryiro.com/blog/how-to-write-a-prompt): the context-role-task-format recipe with before-and-after examples.
 - [The AI Fluency Pyramid](https://tryiro.com/blog/the-ai-fluency-pyramid): an original 5-level framework for getting good at AI (Access, Operation, Direction, Judgment, Leverage).
+- [Claude vs Gemini](https://tryiro.com/blog/claude-vs-gemini): honest head-to-head and the best pick for writing, coding, and Google work.
+- [ChatGPT vs Perplexity](https://tryiro.com/blog/chatgpt-vs-perplexity): assistant vs answer engine — when to use each for creating vs research.
+- [Will AI take your job?](https://tryiro.com/blog/will-ai-take-your-job): an honest answer on AI and jobs, and how to stay ahead by becoming AI-fluent.
+- [What is AI literacy?](https://tryiro.com/blog/what-is-ai-literacy): a clear definition, how it differs from AI fluency, and how to build it.
 
 ## Topic pages
 
