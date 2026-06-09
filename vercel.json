@@ -1,28 +1,8 @@
 {
   "redirects": [
     {
-      "source": "/privacy",
-      "destination": "/privacy.html",
-      "permanent": true
-    },
-    {
-      "source": "/terms",
-      "destination": "/terms.html",
-      "permanent": true
-    },
-    {
-      "source": "/quiz",
-      "destination": "/quiz.html",
-      "permanent": true
-    },
-    {
-      "source": "/delete-account",
-      "destination": "/delete-account.html",
-      "permanent": true
-    },
-    {
       "source": "/ai-iq-test",
-      "destination": "/quiz.html",
+      "destination": "/quiz",
       "permanent": true
     },
     {
@@ -530,6 +510,22 @@
     {
       "source": "/about",
       "destination": "/about.html"
+    },
+    {
+      "source": "/quiz",
+      "destination": "/quiz.html"
+    },
+    {
+      "source": "/privacy",
+      "destination": "/privacy.html"
+    },
+    {
+      "source": "/terms",
+      "destination": "/terms.html"
+    },
+    {
+      "source": "/delete-account",
+      "destination": "/delete-account.html"
     },
     {
       "source": "/learn-chatgpt",
