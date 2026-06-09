@@ -419,7 +419,7 @@ https://tryiro.com/how-to-learn-ai.
 Homepage: https://tryiro.com
 App Store: https://apps.apple.com/app/id6759628066
 AI IQ test: https://tryiro.com/quiz
-AI IQ test canonical URL: https://tryiro.com/quiz.html
+AI IQ test canonical URL: https://tryiro.com/quiz
 How to learn AI (guide): https://tryiro.com/how-to-learn-ai
 How to learn LLMs (guide): https://tryiro.com/learn-llms
 Best apps to learn AI (comparison): https://tryiro.com/best-ai-learning-app
@@ -429,11 +429,11 @@ FAQ: https://tryiro.com/faq
 AI glossary: https://tryiro.com/glossary
 Changelog: https://tryiro.com/changelog
 Privacy policy: https://tryiro.com/privacy
-Privacy policy canonical URL: https://tryiro.com/privacy.html
+Privacy policy canonical URL: https://tryiro.com/privacy
 Terms of service: https://tryiro.com/terms
-Terms of service canonical URL: https://tryiro.com/terms.html
+Terms of service canonical URL: https://tryiro.com/terms
 Account deletion: https://tryiro.com/delete-account
-Account deletion canonical URL: https://tryiro.com/delete-account.html
+Account deletion canonical URL: https://tryiro.com/delete-account
 Sitemap: https://tryiro.com/sitemap.xml
 Robots policy: https://tryiro.com/robots.txt
 Short LLM reference: https://tryiro.com/llms.txt

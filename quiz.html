@@ -9,17 +9,17 @@
 <meta property="og:title" content="AI IQ Test by Iro AI — The question 90% of professionals get wrong"/>
 <meta property="og:description" content="Iro AI's free AI IQ Test: 10 questions, 2 minutes. Find out where you stand on AI — and how far you could go."/>
 <meta property="og:image" content="https://tryiro.com/assets/og/quiz.png"/>
-<meta property="og:url" content="https://tryiro.com/quiz.html"/>
+<meta property="og:url" content="https://tryiro.com/quiz"/>
 <meta property="og:type" content="website"/>
-<link rel="canonical" href="https://tryiro.com/quiz.html"/>
-<link rel="alternate" hreflang="en" href="https://tryiro.com/quiz.html"/>
-<link rel="alternate" hreflang="x-default" href="https://tryiro.com/quiz.html"/>
+<link rel="canonical" href="https://tryiro.com/quiz"/>
+<link rel="alternate" hreflang="en" href="https://tryiro.com/quiz"/>
+<link rel="alternate" hreflang="x-default" href="https://tryiro.com/quiz"/>
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:title" content="AI IQ Test by Iro AI — The question 90% of professionals get wrong"/>
 <meta name="twitter:description" content="Iro AI's free AI IQ Test: 10 questions, 2 minutes. Find out where you stand on AI — and how far you could go."/>
 <meta name="twitter:image" content="https://tryiro.com/assets/og/quiz.png"/>
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"Quiz","name":"AI IQ Test by Iro AI","description":"Iro AI's 10-question interactive quiz testing AI fluency across ChatGPT, Claude, prompt engineering, hallucinations, and AI tools. Free, no signup. Maps your score to a rank tier (Bronze through Diamond) and recommends a personalized learning path.","url":"https://tryiro.com/quiz.html","numberOfQuestions":10,"timeRequired":"PT2M","inLanguage":"en","learningResourceType":"Quiz","educationalUse":"Self-assessment","isAccessibleForFree":true,"isPartOf":{"@type":"WebSite","name":"Iro AI","url":"https://tryiro.com"},"provider":{"@type":"Organization","name":"Iro AI","alternateName":"Iro","url":"https://tryiro.com"},"about":[{"@type":"Thing","name":"ChatGPT"},{"@type":"Thing","name":"Claude"},{"@type":"Thing","name":"Prompt engineering"},{"@type":"Thing","name":"AI hallucinations"},{"@type":"Thing","name":"AI tools"}]}
+{"@context":"https://schema.org","@type":"Quiz","name":"AI IQ Test by Iro AI","description":"Iro AI's 10-question interactive quiz testing AI fluency across ChatGPT, Claude, prompt engineering, hallucinations, and AI tools. Free, no signup. Maps your score to a rank tier (Bronze through Diamond) and recommends a personalized learning path.","url":"https://tryiro.com/quiz","numberOfQuestions":10,"timeRequired":"PT2M","inLanguage":"en","learningResourceType":"Quiz","educationalUse":"Self-assessment","isAccessibleForFree":true,"isPartOf":{"@type":"WebSite","name":"Iro AI","url":"https://tryiro.com"},"provider":{"@type":"Organization","name":"Iro AI","alternateName":"Iro","url":"https://tryiro.com"},"about":[{"@type":"Thing","name":"ChatGPT"},{"@type":"Thing","name":"Claude"},{"@type":"Thing","name":"Prompt engineering"},{"@type":"Thing","name":"AI hallucinations"},{"@type":"Thing","name":"AI tools"}]}
 </script>
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"WebPage","url":"https://tryiro.com/quiz","name":"AI IQ Test by Iro AI","description":"Free, no-signup AI IQ test — 10 questions, ~2 minutes. Find out where you stand on AI and get a personalized learning path recommendation.","speakable":{"@type":"SpeakableSpecification","cssSelector":["h1","h2"]},"isPartOf":{"@type":"WebSite","name":"Iro AI","url":"https://tryiro.com/"},"about":[{"@type":"Thing","name":"AI assessment"},{"@type":"Thing","name":"AI literacy quiz"}],"inLanguage":"en-US"}
@@ -1083,7 +1083,7 @@ function showResults(){
 
   // #4 — Share with challenge URL
   document.getElementById('shareBtn').addEventListener('click',()=>{
-    const url=`https://tryiro.com/quiz.html?score=${score}`;
+    const url=`https://tryiro.com/quiz?score=${score}`;
     const text=`I scored ${score}/10 on the Iro IQ Test. Can you beat me? ${url}`;
     navigator.clipboard.writeText(text).then(()=>{
       if(window.posthog)posthog.capture('quiz_shared',{score,rank});
