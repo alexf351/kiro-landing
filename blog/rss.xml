@@ -9,7 +9,7 @@
     <description>Short, practical writing on AI fluency, prompting, AI tools, and the active-practice method that beats endless video courses.</description>
     <language>en-US</language>
     <atom:link href="https://tryiro.com/blog/rss.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Fri, 05 Jun 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 09 Jun 2026 00:00:00 GMT</lastBuildDate>
     <generator>tryiro.com</generator>
     <copyright>© 2026 Iro AI</copyright>
     <image>
@@ -286,6 +286,42 @@
       <dc:creator>Iro AI</dc:creator>
       <category>AI fluency</category>
       <description>The AI Fluency Pyramid is a 5-level framework for getting good at AI — Access, Operation, Direction, Judgment, and Leverage. Find your level and learn how to climb to the next.</description>
+    </item>
+    <item>
+      <title>Claude vs Gemini: which should you use in 2026?</title>
+      <link>https://tryiro.com/blog/claude-vs-gemini</link>
+      <guid isPermaLink="true">https://tryiro.com/blog/claude-vs-gemini</guid>
+      <pubDate>Tue, 09 Jun 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Iro AI</dc:creator>
+      <category>AI tools</category>
+      <description>Claude vs Gemini in 2026: an honest comparison of writing, coding, reasoning, free tiers, and Google integration — plus the best pick for each task and what matters more than the tool.</description>
+    </item>
+    <item>
+      <title>ChatGPT vs Perplexity: which should you use in 2026?</title>
+      <link>https://tryiro.com/blog/chatgpt-vs-perplexity</link>
+      <guid isPermaLink="true">https://tryiro.com/blog/chatgpt-vs-perplexity</guid>
+      <pubDate>Tue, 09 Jun 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Iro AI</dc:creator>
+      <category>AI tools</category>
+      <description>ChatGPT vs Perplexity in 2026: assistant vs answer engine. Compare strengths, citations, free tiers, and the best pick for research vs creating — plus why many people use both.</description>
+    </item>
+    <item>
+      <title>Will AI take your job? An honest answer (and how to stay ahead)</title>
+      <link>https://tryiro.com/blog/will-ai-take-your-job</link>
+      <guid isPermaLink="true">https://tryiro.com/blog/will-ai-take-your-job</guid>
+      <pubDate>Tue, 09 Jun 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Iro AI</dc:creator>
+      <category>AI fluency</category>
+      <description>Will AI take your job? An honest answer: AI changes most jobs more than it eliminates them, and the real risk is being out-competed by people who use AI well. Here's how to future-proof your career.</description>
+    </item>
+    <item>
+      <title>What is AI literacy? A clear definition for 2026</title>
+      <link>https://tryiro.com/blog/what-is-ai-literacy</link>
+      <guid isPermaLink="true">https://tryiro.com/blog/what-is-ai-literacy</guid>
+      <pubDate>Tue, 09 Jun 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Iro AI</dc:creator>
+      <category>AI fluency</category>
+      <description>What is AI literacy? A clear 2026 definition: understanding what AI is, how it works, its limits, and how to use it responsibly — how it differs from AI fluency, and how to build it.</description>
     </item>
   </channel>
 </rss>

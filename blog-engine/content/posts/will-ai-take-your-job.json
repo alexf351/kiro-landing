@@ -1,0 +1,127 @@
+{
+  "slug": "will-ai-take-your-job",
+  "order": 33,
+  "pillar": "ai-fluency",
+  "title": "Will AI take your job? An honest answer (and how to stay ahead)",
+  "lede": "AI is unlikely to take your whole job soon — but it will change most jobs, and people who use AI well will outcompete those who don't. Here's the honest picture and how to future-proof yourself.",
+  "keyTakeaways": [
+    "AI is more likely to change your job than to eliminate it outright — it automates tasks, not usually whole roles.",
+    "The real risk isn't 'AI takes your job' — it's that someone who uses AI well does the same work faster and better than you.",
+    "Jobs heavy on routine, repetitive digital tasks are most exposed; judgment, relationships, and creativity are more durable.",
+    "The best way to stay ahead is to become AI-fluent: learn to direct and judge these tools as part of your work."
+  ],
+  "description": "Will AI take your job? An honest answer: AI changes most jobs more than it eliminates them, and the real risk is being out-competed by people who use AI well. Here's how to future-proof your career.",
+  "keywords": [
+    "will AI take my job",
+    "will AI replace my job",
+    "is my job safe from AI",
+    "jobs AI will replace",
+    "how to future-proof your job from AI",
+    "AI and jobs"
+  ],
+  "datePublished": "2026-06-09",
+  "dateModified": "2026-06-09",
+  "readingTime": 7,
+  "articleSection": "AI fluency",
+  "feedCategory": "AI fluency",
+  "feedTags": [
+    "AI fluency",
+    "careers",
+    "future of work"
+  ],
+  "inlineCtaAfter": 2,
+  "toc": [
+    {
+      "href": "#answer",
+      "label": "Honest answer"
+    },
+    {
+      "href": "#tasks",
+      "label": "Tasks vs jobs"
+    },
+    {
+      "href": "#exposed",
+      "label": "Most exposed"
+    },
+    {
+      "href": "#durable",
+      "label": "Most durable"
+    },
+    {
+      "href": "#future-proof",
+      "label": "How to stay ahead"
+    }
+  ],
+  "sections": [
+    {
+      "id": "answer",
+      "heading": "Will AI take your job?",
+      "html": "<p><strong>Probably not your whole job, and probably not soon — but it will change how most jobs are done.</strong> AI is very good at automating specific <em>tasks</em> (drafting, summarizing, sorting, first-pass analysis) and far less good at replacing the full bundle of judgment, relationships, accountability, and context that makes up a real role. The more useful way to think about it: the risk isn't a robot taking your seat — it's a colleague who uses AI well doing your work faster and better than you do.</p>"
+    },
+    {
+      "id": "tasks",
+      "heading": "AI replaces tasks, not usually whole jobs",
+      "html": "<p>Most jobs are a collection of tasks. AI chips away at the routine ones and leaves the rest — which often makes the human <em>more</em> valuable on the parts that remain. A marketer who hands first drafts to AI spends more time on strategy; an analyst who automates data cleanup spends more time on interpretation.</p><p>That shift rewards people who can <a href=\"/blog/how-to-use-ai-at-work\">fold AI into their work</a> and redirect the time it frees up toward higher-value judgment.</p>"
+    },
+    {
+      "id": "exposed",
+      "heading": "Which jobs are most exposed?",
+      "html": "<p>Roles built mostly around <strong>routine, repetitive, digital tasks</strong> are the most exposed — high-volume writing, basic data entry and processing, simple coding, and first-line support that follows scripts. If a big chunk of a job can be written down as a clear, repeatable procedure, AI can do more of it.</p><p>The honest implication: the answer isn't to hide from AI, it's to move up the value chain into the parts AI can't do alone.</p>"
+    },
+    {
+      "id": "durable",
+      "heading": "Which skills stay valuable?",
+      "html": "<p>The parts of work that hold up well share a theme — they need a human in the loop:</p><ul><li><strong>Judgment</strong> — deciding what's right when there's no clear procedure.</li><li><strong>Relationships and trust</strong> — selling, leading, negotiating, caring.</li><li><strong>Creativity and taste</strong> — knowing what's good and what's worth making.</li><li><strong>Accountability</strong> — owning outcomes, not just outputs.</li><li><strong>Directing AI itself</strong> — the new meta-skill that multiplies all of the above.</li></ul>"
+    },
+    {
+      "id": "future-proof",
+      "heading": "How to stay ahead of AI",
+      "html": "<p>The most reliable way to future-proof your career isn't to out-run AI — it's to become the person who uses it best. Concretely:</p><ul><li><strong>Become AI-fluent.</strong> Learn to direct and judge AI tools as a normal part of your work — see <a href=\"/blog/the-ai-fluency-pyramid\">the AI Fluency Pyramid</a>.</li><li><strong>Automate your own busywork</strong> so you spend time on judgment, not tasks.</li><li><strong>Double down on the durable skills</strong> above.</li><li><strong>Keep learning</strong> — the tools change monthly, so the habit of learning them is the real moat.</li></ul><p>Iro AI turns this into five-minute daily practice. See where you stand with the free <a href=\"/quiz\">AI IQ test</a>, or start with <a href=\"/how-to-learn-ai\">how to learn AI</a>.</p>"
+    }
+  ],
+  "readNext": [
+    {
+      "href": "/blog/ai-skills-for-2026",
+      "label": "The 7 AI skills worth learning in 2026"
+    },
+    {
+      "href": "/blog/the-ai-fluency-pyramid",
+      "label": "The AI Fluency Pyramid"
+    },
+    {
+      "href": "/blog/how-to-use-ai-at-work",
+      "label": "How to use AI at work"
+    },
+    {
+      "href": "/quiz",
+      "label": "Take the free AI IQ test"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Will AI take my job?",
+      "a": "Most likely AI will change your job rather than take it outright. It automates specific tasks, not the full bundle of judgment, relationships, and accountability a role requires. The bigger risk is being out-competed by people who use AI well — so the best move is to become AI-fluent."
+    },
+    {
+      "q": "Which jobs are most at risk from AI?",
+      "a": "Jobs built mostly around routine, repetitive digital tasks — high-volume writing, basic data processing, simple coding, and script-based support — are most exposed. Roles heavy on judgment, relationships, and creativity are more durable."
+    },
+    {
+      "q": "How do I future-proof my job from AI?",
+      "a": "Become the person who uses AI best: learn to direct and judge AI tools, automate your own busywork, double down on judgment and relationship skills, and keep learning as the tools change. AI fluency is the most durable career skill."
+    },
+    {
+      "q": "Will AI replace all jobs?",
+      "a": "No. AI is reshaping work by automating tasks within jobs, but most roles also require judgment, accountability, and human connection that AI can't supply on its own. New roles are emerging around using and managing AI."
+    }
+  ],
+  "related": [
+    "/blog/ai-skills-for-2026",
+    "/blog/the-ai-fluency-pyramid",
+    "/blog/how-to-use-ai-at-work",
+    "/blog/what-is-ai-fluency",
+    "/how-to-learn-ai",
+    "/quiz",
+    "/best-ai-learning-app"
+  ]
+}

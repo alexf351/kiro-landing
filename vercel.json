@@ -780,6 +780,22 @@
       "destination": "/blog/the-ai-fluency-pyramid.html"
     },
     {
+      "source": "/blog/claude-vs-gemini",
+      "destination": "/blog/claude-vs-gemini.html"
+    },
+    {
+      "source": "/blog/chatgpt-vs-perplexity",
+      "destination": "/blog/chatgpt-vs-perplexity.html"
+    },
+    {
+      "source": "/blog/will-ai-take-your-job",
+      "destination": "/blog/will-ai-take-your-job.html"
+    },
+    {
+      "source": "/blog/what-is-ai-literacy",
+      "destination": "/blog/what-is-ai-literacy.html"
+    },
+    {
       "source": "/ai-tools-comparison",
       "destination": "/ai-tools-comparison.html"
     },
