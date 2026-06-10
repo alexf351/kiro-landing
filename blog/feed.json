@@ -411,6 +411,66 @@
         "AI literacy",
         "AI basics"
       ]
+    },
+    {
+      "id": "https://tryiro.com/blog/how-to-use-chatgpt",
+      "url": "https://tryiro.com/blog/how-to-use-chatgpt",
+      "title": "How to use ChatGPT: a beginner's guide for 2026",
+      "summary": "To use ChatGPT well, give it context, a role, a clear task, and the format you want — then refine the first answer. Here's how to start, what to use it for, and the habits that get great results.",
+      "date_published": "2026-06-10T00:00:00Z",
+      "tags": [
+        "AI tools",
+        "ChatGPT",
+        "beginners"
+      ]
+    },
+    {
+      "id": "https://tryiro.com/blog/ai-for-small-business",
+      "url": "https://tryiro.com/blog/ai-for-small-business",
+      "title": "AI for small business: practical ways to use it in 2026",
+      "summary": "Small businesses can use AI today to save hours on marketing, customer service, admin, and analysis — no technical team required. Here are the highest-value uses and how to start safely.",
+      "date_published": "2026-06-10T00:00:00Z",
+      "tags": [
+        "AI fluency",
+        "small business",
+        "AI for work"
+      ]
+    },
+    {
+      "id": "https://tryiro.com/blog/how-to-tell-if-something-is-ai-generated",
+      "url": "https://tryiro.com/blog/how-to-tell-if-something-is-ai-generated",
+      "title": "How to tell if something is AI-generated (text, images & more)",
+      "summary": "There's no 100% reliable way to detect AI content, but a handful of tells — generic phrasing, factual slips, too-perfect structure, and visual glitches — catch most of it. Here's what to look for.",
+      "date_published": "2026-06-10T00:00:00Z",
+      "tags": [
+        "AI fluency",
+        "AI detection",
+        "AI literacy"
+      ]
+    },
+    {
+      "id": "https://tryiro.com/blog/ai-vs-machine-learning",
+      "url": "https://tryiro.com/blog/ai-vs-machine-learning",
+      "title": "AI vs machine learning vs deep learning: the difference, explained",
+      "summary": "AI is the broad goal of machines doing smart things; machine learning is the main way we build it; deep learning is a powerful type of machine learning. Here's how they fit together, in plain English.",
+      "date_published": "2026-06-10T00:00:00Z",
+      "tags": [
+        "AI fluency",
+        "machine learning",
+        "AI basics"
+      ]
+    },
+    {
+      "id": "https://tryiro.com/blog/best-ai-tools-for-students",
+      "url": "https://tryiro.com/blog/best-ai-tools-for-students",
+      "title": "The best AI tools for students in 2026 (and how to use them honestly)",
+      "summary": "The best AI tools for students help you learn faster — explaining concepts, quizzing you, and checking your work — not do the work for you. Here's the shortlist and how to use them without cheating.",
+      "date_published": "2026-06-10T00:00:00Z",
+      "tags": [
+        "AI tools",
+        "students",
+        "studying"
+      ]
     }
   ]
 }

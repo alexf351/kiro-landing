@@ -1,0 +1,126 @@
+{
+  "slug": "best-ai-tools-for-students",
+  "order": 39,
+  "pillar": "ai-tools",
+  "title": "The best AI tools for students in 2026 (and how to use them honestly)",
+  "lede": "The best AI tools for students help you learn faster — explaining concepts, quizzing you, and checking your work — not do the work for you. Here's the shortlist and how to use them without cheating.",
+  "keyTakeaways": [
+    "The best AI tools for students are general assistants (ChatGPT, Claude, Gemini) plus Perplexity for sourced research.",
+    "Use AI to understand, quiz, and check your work — not to write it for you, which is cheating and teaches you nothing.",
+    "Always verify facts and citations; AI can invent sources and get details wrong.",
+    "The durable skill is learning how to use AI well — a graduate who's AI-fluent has a real edge."
+  ],
+  "description": "The best AI tools for students in 2026 — ChatGPT, Claude, Gemini, Perplexity and more — compared by use, plus how to use AI to study honestly without cheating.",
+  "keywords": [
+    "best AI tools for students",
+    "AI tools for students",
+    "best AI for studying",
+    "AI study tools",
+    "AI tools for college students"
+  ],
+  "datePublished": "2026-06-10",
+  "dateModified": "2026-06-10",
+  "readingTime": 7,
+  "articleSection": "AI tools",
+  "feedCategory": "AI tools",
+  "feedTags": [
+    "AI tools",
+    "students",
+    "studying"
+  ],
+  "inlineCtaAfter": 2,
+  "toc": [
+    {
+      "href": "#answer",
+      "label": "The shortlist"
+    },
+    {
+      "href": "#table",
+      "label": "At a glance"
+    },
+    {
+      "href": "#how",
+      "label": "How to use them"
+    },
+    {
+      "href": "#honest",
+      "label": "Without cheating"
+    },
+    {
+      "href": "#skill",
+      "label": "The real edge"
+    }
+  ],
+  "sections": [
+    {
+      "id": "answer",
+      "heading": "The best AI tools for students",
+      "html": "<p><strong>The best AI tools for students are a general assistant — ChatGPT, Claude, or Gemini — plus Perplexity for research with citations.</strong> Used well, they help you <em>learn faster</em>: explaining tricky concepts, quizzing you, outlining essays, and checking your work. Used badly, they write your assignment for you, which is cheating and teaches you nothing. The shortlist below is about the first kind.</p>"
+    },
+    {
+      "id": "table",
+      "heading": "Best AI tools for students at a glance",
+      "html": "<div class=\"cmp-wrap\"><table class=\"cmp-table\"><thead><tr><th>Tool</th><th>Best for students</th><th>Free tier</th></tr></thead><tbody><tr><th>ChatGPT</th><td>Explaining concepts, quizzing, outlining, study plans</td><td>Yes, generous</td></tr><tr><th>Claude</th><td>Long readings, essay feedback, careful explanations</td><td>Yes</td></tr><tr><th>Gemini</th><td>Working inside Google Docs and Drive</td><td>Yes, generous</td></tr><tr><th>Perplexity</th><td>Research with citations you can check</td><td>Yes</td></tr><tr><th>Iro AI</th><td>Learning to use all of the above well</td><td>Yes</td></tr></tbody></table></div><p class=\"note\">Always follow your school's AI policy. Plans change — check each tool.</p>"
+    },
+    {
+      "id": "how",
+      "heading": "How students should actually use AI",
+      "html": "<p>The highest-value, honest uses:</p><ul><li><strong>Explain it to me</strong> — \"explain this concept simply, then at an advanced level.\"</li><li><strong>Quiz me</strong> — \"ask me one question at a time on this topic and explain my mistakes.\"</li><li><strong>Outline, don't write</strong> — get a structure, then write it yourself.</li><li><strong>Feedback</strong> — \"what's unclear or weak in this paragraph I wrote?\"</li><li><strong>Research</strong> — use Perplexity to find sources, then read and cite them yourself.</li></ul><p>More on this in <a href=\"/blog/how-to-use-ai-for-studying\">how to use AI for studying</a>.</p>"
+    },
+    {
+      "id": "honest",
+      "heading": "Using AI without cheating",
+      "html": "<p>The line is simple: <strong>use AI to learn, not to submit.</strong> Having AI explain a proof so you understand it is studying; pasting its essay into your assignment is cheating — and it's increasingly detectable and against most academic-integrity policies. Two non-negotiables: <strong>follow your school's AI rules</strong>, and <strong>verify everything</strong>. AI can invent citations and state wrong facts confidently, so check sources before you rely on them — see <a href=\"/blog/how-to-tell-if-something-is-ai-generated\">why you can't trust AI blindly</a>.</p>"
+    },
+    {
+      "id": "skill",
+      "heading": "The real edge: learning to use AI well",
+      "html": "<p>Here's the part that outlasts any single class: employers increasingly expect graduates who can use AI effectively. The students who win aren't the ones who let AI do their homework — they're the ones who build genuine <a href=\"/blog/what-is-ai-fluency\">AI fluency</a>: prompting well, judging output, and applying it to real work. Iro AI builds that in five-minute daily lessons. See where you stand with the free <a href=\"/quiz\">AI IQ test</a>.</p>"
+    }
+  ],
+  "readNext": [
+    {
+      "href": "/blog/how-to-use-ai-for-studying",
+      "label": "How to use AI for studying"
+    },
+    {
+      "href": "/blog/best-ai-apps",
+      "label": "The best AI apps in 2026"
+    },
+    {
+      "href": "/blog/how-to-write-a-prompt",
+      "label": "How to write a good AI prompt"
+    },
+    {
+      "href": "/quiz",
+      "label": "Take the free AI IQ test"
+    }
+  ],
+  "faq": [
+    {
+      "q": "What are the best AI tools for students?",
+      "a": "A general assistant — ChatGPT, Claude, or Gemini — plus Perplexity for research with citations. ChatGPT is great for explaining and quizzing, Claude for long readings and essay feedback, Gemini inside Google apps, and Perplexity for sourced research. All have free tiers."
+    },
+    {
+      "q": "Is using AI for school cheating?",
+      "a": "It depends how you use it. Using AI to explain concepts, quiz you, or give feedback is studying. Submitting AI-written work as your own is cheating and violates most academic-integrity policies. Always follow your school's AI rules."
+    },
+    {
+      "q": "What is the best AI tool for studying?",
+      "a": "ChatGPT is a strong all-round study tool for explanations, quizzing, and outlining. Pair it with Perplexity when you need sources you can cite. The best results come from using them to learn, not to do the work for you."
+    },
+    {
+      "q": "Can AI tools help me study without doing the work for me?",
+      "a": "Yes — ask AI to explain concepts, quiz you one question at a time, outline (but not write) essays, and give feedback on work you've written. Verify facts and citations, since AI can get them wrong."
+    }
+  ],
+  "related": [
+    "/blog/how-to-use-ai-for-studying",
+    "/blog/best-ai-apps",
+    "/blog/how-to-tell-if-something-is-ai-generated",
+    "/blog/what-is-ai-fluency",
+    "/ai-for-students",
+    "/ai-tools-comparison",
+    "/quiz"
+  ]
+}

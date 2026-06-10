@@ -1,0 +1,135 @@
+{
+  "slug": "how-to-use-chatgpt",
+  "order": 35,
+  "pillar": "ai-tools",
+  "title": "How to use ChatGPT: a beginner's guide for 2026",
+  "lede": "To use ChatGPT well, give it context, a role, a clear task, and the format you want — then refine the first answer. Here's how to start, what to use it for, and the habits that get great results.",
+  "keyTakeaways": [
+    "ChatGPT is free to start — sign up, type a request in plain language, and refine the answer with follow-ups.",
+    "Great results come from good prompts: give context, a role, a clear task, and the output format you want.",
+    "Best starter uses: drafting, summarizing, explaining, brainstorming, and planning — verify anything important.",
+    "Treat the first reply as a draft and iterate; that habit matters more than any 'magic' prompt."
+  ],
+  "description": "How to use ChatGPT in 2026: a step-by-step beginner's guide — how to start, what to use it for, how to write prompts that work, and the mistakes to avoid.",
+  "keywords": [
+    "how to use ChatGPT",
+    "how to use ChatGPT for beginners",
+    "ChatGPT beginner guide",
+    "how does ChatGPT work",
+    "getting started with ChatGPT"
+  ],
+  "datePublished": "2026-06-10",
+  "dateModified": "2026-06-10",
+  "readingTime": 7,
+  "articleSection": "AI tools",
+  "feedCategory": "AI tools",
+  "feedTags": [
+    "AI tools",
+    "ChatGPT",
+    "beginners"
+  ],
+  "inlineCtaAfter": 3,
+  "toc": [
+    {
+      "href": "#answer",
+      "label": "Quick start"
+    },
+    {
+      "href": "#start",
+      "label": "How to start"
+    },
+    {
+      "href": "#prompts",
+      "label": "Writing prompts"
+    },
+    {
+      "href": "#uses",
+      "label": "What to use it for"
+    },
+    {
+      "href": "#mistakes",
+      "label": "Mistakes to avoid"
+    },
+    {
+      "href": "#better",
+      "label": "Get better"
+    }
+  ],
+  "sections": [
+    {
+      "id": "answer",
+      "heading": "How do you use ChatGPT?",
+      "html": "<p><strong>To use ChatGPT, open it, type what you want in plain language, and refine the answer with follow-ups.</strong> It's free to start. The difference between a mediocre result and a great one is the prompt: give it context, a role, a clear task, and the format you want. Then treat the first reply as a draft and improve it. That's the whole skill — and it transfers to Claude, Gemini, and every other AI tool.</p>"
+    },
+    {
+      "id": "start",
+      "heading": "Getting started with ChatGPT",
+      "html": "<p>Three steps to your first useful result:</p><ol><li><strong>Sign up</strong> at chat.openai.com or the ChatGPT app — the free tier is plenty to learn on.</li><li><strong>Type a real request</strong> in normal language: <em>\"Help me write a polite email asking for a deadline extension.\"</em></li><li><strong>Refine it.</strong> Reply with \"make it shorter\" or \"more formal\" until it's right.</li></ol><p>That's it. You don't need any technical knowledge — see <a href=\"/blog/how-to-learn-ai-without-coding\">learning AI without coding</a> if that's a worry.</p>"
+    },
+    {
+      "id": "prompts",
+      "heading": "How to write prompts that work",
+      "html": "<p>A good prompt usually has four parts:</p><ul><li><strong>Context</strong> — the background and constraints.</li><li><strong>Role</strong> — who ChatGPT should act as (\"a patient tutor\").</li><li><strong>Task</strong> — exactly what to do.</li><li><strong>Format</strong> — length, structure, tone.</li></ul><p>Compare <code>write a post about our feature</code> (vague) with <code>You are a marketer. Write a 100-word LinkedIn post announcing our new feature, confident but not hypey, ending with a question.</code> Same tool, far better result. Full walkthrough: <a href=\"/blog/how-to-write-a-prompt\">how to write a good AI prompt</a>.</p>"
+    },
+    {
+      "id": "uses",
+      "heading": "What can you use ChatGPT for?",
+      "html": "<p>The best starter uses are high-value and low-risk:</p><ul><li><strong>Drafting</strong> — emails, posts, outlines, first drafts.</li><li><strong>Summarizing</strong> — long articles, threads, notes.</li><li><strong>Explaining</strong> — \"explain this like I'm new to it.\"</li><li><strong>Brainstorming</strong> — ideas, names, angles.</li><li><strong>Planning</strong> — trips, meals, projects, study schedules.</li></ul><p>Want copy-paste starters? Grab <a href=\"/blog/chatgpt-prompts-for-beginners\">15 ChatGPT prompts for beginners</a>.</p>"
+    },
+    {
+      "id": "mistakes",
+      "heading": "Common beginner mistakes",
+      "html": "<p><strong>Trusting it blindly.</strong> ChatGPT can be confidently wrong (a <a href=\"/blog/spot-ai-hallucinations\">hallucination</a>) — verify names, numbers, and facts. <strong>Being too vague.</strong> The more context you give, the better the answer. <strong>Accepting the first draft.</strong> Iterating is where quality comes from. <strong>Pasting sensitive data</strong> into it for work without checking your company's policy.</p>"
+    },
+    {
+      "id": "better",
+      "heading": "How to get genuinely good at ChatGPT",
+      "html": "<p>Using ChatGPT well is a skill you build with short, regular practice on real tasks — not by reading one guide. Notice what worked, adjust, and branch into other tools as you go. Iro AI turns this into five-minute daily lessons with feedback, and the free <a href=\"/quiz\">AI IQ test</a> shows where you stand in about two minutes. Going deeper on ChatGPT specifically? See <a href=\"/learn-chatgpt\">learn ChatGPT</a>.</p>"
+    }
+  ],
+  "readNext": [
+    {
+      "href": "/blog/how-to-write-a-prompt",
+      "label": "How to write a good AI prompt"
+    },
+    {
+      "href": "/blog/chatgpt-prompts-for-beginners",
+      "label": "15 ChatGPT prompts for beginners"
+    },
+    {
+      "href": "/blog/best-ai-apps",
+      "label": "The best AI apps in 2026"
+    },
+    {
+      "href": "/quiz",
+      "label": "Take the free AI IQ test"
+    }
+  ],
+  "faq": [
+    {
+      "q": "How do I start using ChatGPT?",
+      "a": "Sign up at chat.openai.com or in the ChatGPT app (the free tier is enough), type a request in plain language like 'help me write a polite follow-up email,' and refine the answer with follow-ups such as 'make it shorter.' No technical knowledge needed."
+    },
+    {
+      "q": "Is ChatGPT free to use?",
+      "a": "Yes, ChatGPT has a capable free tier that's plenty for learning and everyday tasks. Paid plans add more advanced models and features, but you don't need to pay to get started."
+    },
+    {
+      "q": "What can I use ChatGPT for?",
+      "a": "Drafting emails and documents, summarizing long content, explaining concepts, brainstorming ideas, and planning. Use it for high-value, low-risk tasks first, and verify anything important."
+    },
+    {
+      "q": "How do I get better results from ChatGPT?",
+      "a": "Give it context, a role, a clear task, and the format you want, then refine the first answer. The habit of iterating beats hunting for a perfect one-shot prompt, and the skill transfers to other AI tools."
+    }
+  ],
+  "related": [
+    "/blog/how-to-write-a-prompt",
+    "/blog/chatgpt-prompts-for-beginners",
+    "/blog/spot-ai-hallucinations",
+    "/blog/best-ai-apps",
+    "/learn-chatgpt",
+    "/how-to-learn-ai",
+    "/quiz"
+  ]
+}

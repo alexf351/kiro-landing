@@ -391,4 +391,54 @@
       <image:title>What is AI literacy? A clear definition for 2026</image:title>
     </image:image>
   </url>
+  <url>
+    <loc>https://tryiro.com/blog/how-to-use-chatgpt</loc>
+    <lastmod>2026-06-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://tryiro.com/assets/og/how-to-use-chatgpt.png</image:loc>
+      <image:title>How to use ChatGPT: a beginner's guide for 2026</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://tryiro.com/blog/ai-for-small-business</loc>
+    <lastmod>2026-06-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://tryiro.com/assets/og/ai-for-small-business.png</image:loc>
+      <image:title>AI for small business: practical ways to use it in 2026</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://tryiro.com/blog/how-to-tell-if-something-is-ai-generated</loc>
+    <lastmod>2026-06-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://tryiro.com/assets/og/how-to-tell-if-something-is-ai-generated.png</image:loc>
+      <image:title>How to tell if something is AI-generated (text, images &amp; more)</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://tryiro.com/blog/ai-vs-machine-learning</loc>
+    <lastmod>2026-06-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://tryiro.com/assets/og/ai-vs-machine-learning.png</image:loc>
+      <image:title>AI vs machine learning vs deep learning: the difference, explained</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://tryiro.com/blog/best-ai-tools-for-students</loc>
+    <lastmod>2026-06-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://tryiro.com/assets/og/best-ai-tools-for-students.png</image:loc>
+      <image:title>The best AI tools for students in 2026 (and how to use them honestly)</image:title>
+    </image:image>
+  </url>
 </urlset>
