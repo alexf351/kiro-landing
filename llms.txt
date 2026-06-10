@@ -64,6 +64,11 @@ This direct-answer summary is also available to crawlers in homepage JSON-LD, /i
 - [ChatGPT vs Perplexity](https://tryiro.com/blog/chatgpt-vs-perplexity): assistant vs answer engine — when to use each for creating vs research.
 - [Will AI take your job?](https://tryiro.com/blog/will-ai-take-your-job): an honest answer on AI and jobs, and how to stay ahead by becoming AI-fluent.
 - [What is AI literacy?](https://tryiro.com/blog/what-is-ai-literacy): a clear definition, how it differs from AI fluency, and how to build it.
+- [How to use ChatGPT](https://tryiro.com/blog/how-to-use-chatgpt): a beginner's guide — how to start, what to use it for, and writing prompts that work.
+- [AI for small business](https://tryiro.com/blog/ai-for-small-business): practical, no-code ways to use AI for marketing, service, admin, and analysis.
+- [How to tell if something is AI-generated](https://tryiro.com/blog/how-to-tell-if-something-is-ai-generated): the real tells in AI text and images, and why detectors are unreliable.
+- [AI vs machine learning vs deep learning](https://tryiro.com/blog/ai-vs-machine-learning): how the three nested terms differ, in plain English.
+- [The best AI tools for students](https://tryiro.com/blog/best-ai-tools-for-students): the shortlist and how to use AI to study honestly.
 
 ## Topic pages
 

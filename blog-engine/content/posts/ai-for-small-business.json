@@ -1,0 +1,126 @@
+{
+  "slug": "ai-for-small-business",
+  "order": 36,
+  "pillar": "ai-fluency",
+  "title": "AI for small business: practical ways to use it in 2026",
+  "lede": "Small businesses can use AI today to save hours on marketing, customer service, admin, and analysis — no technical team required. Here are the highest-value uses and how to start safely.",
+  "keyTakeaways": [
+    "Small businesses can get real value from AI now without a technical team — start with marketing, customer service, admin, and analysis.",
+    "Begin with one repetitive, low-risk task, use a free tool, and expand from there.",
+    "Verify anything customer-facing or financial, and don't paste sensitive data into tools you haven't vetted.",
+    "The biggest win is time: AI handles the busywork so you focus on customers and growth."
+  ],
+  "description": "AI for small business in 2026: practical, no-code ways to use AI for marketing, customer service, admin, and analysis — the best starting tasks, free tools, and how to do it safely.",
+  "keywords": [
+    "AI for small business",
+    "how small businesses can use AI",
+    "AI tools for small business",
+    "AI for entrepreneurs",
+    "using AI in business"
+  ],
+  "datePublished": "2026-06-10",
+  "dateModified": "2026-06-10",
+  "readingTime": 7,
+  "articleSection": "AI fluency",
+  "feedCategory": "AI fluency",
+  "feedTags": [
+    "AI fluency",
+    "small business",
+    "AI for work"
+  ],
+  "inlineCtaAfter": 2,
+  "toc": [
+    {
+      "href": "#answer",
+      "label": "The short version"
+    },
+    {
+      "href": "#uses",
+      "label": "Best uses"
+    },
+    {
+      "href": "#start",
+      "label": "How to start"
+    },
+    {
+      "href": "#safe",
+      "label": "Doing it safely"
+    },
+    {
+      "href": "#skill",
+      "label": "Build the skill"
+    }
+  ],
+  "sections": [
+    {
+      "id": "answer",
+      "heading": "How can small businesses use AI?",
+      "html": "<p><strong>Small businesses can use AI today to save hours every week on marketing, customer service, admin, and analysis — no technical team required.</strong> The tools are cheap or free, work in a browser, and need no setup. The trick isn't a big AI strategy; it's picking one repetitive task that eats your time and handing the first draft to AI, then expanding from there.</p>"
+    },
+    {
+      "id": "uses",
+      "heading": "The highest-value uses for small business",
+      "html": "<ul><li><strong>Marketing:</strong> draft social posts, emails, product descriptions, and ad copy; repurpose one piece of content into many.</li><li><strong>Customer service:</strong> draft replies to common questions, summarize tickets, and write FAQ answers (a human approves).</li><li><strong>Admin:</strong> turn messy notes into agendas, summarize documents, draft proposals and SOPs.</li><li><strong>Analysis:</strong> get a first-pass read on a spreadsheet, reviews, or survey responses.</li><li><strong>Research:</strong> get oriented on a competitor, supplier, or market — then verify with sources.</li></ul><p>For the day-to-day playbook, see <a href=\"/blog/how-to-use-ai-at-work\">how to use AI at work</a>.</p>"
+    },
+    {
+      "id": "start",
+      "heading": "How to start (this week)",
+      "html": "<ol><li><strong>Pick one painful, repetitive task</strong> — the thing you dread doing every week.</li><li><strong>Use a free tool</strong> — ChatGPT, Claude, or Gemini are all great starting points; see the <a href=\"/blog/best-ai-tools-for-students\">tool roundups</a> and the <a href=\"/ai-tools-comparison\">AI tools comparison</a>.</li><li><strong>Give it context</strong> — who your business serves, your tone, the goal — and refine the output.</li><li><strong>Bank the time saved</strong> and add a second task once the first feels natural.</li></ol>"
+    },
+    {
+      "id": "safe",
+      "heading": "Using AI safely in your business",
+      "html": "<p>Three rules keep you out of trouble:</p><ul><li><strong>Verify anything customer-facing or financial.</strong> AI can be confidently wrong — you own the final output.</li><li><strong>Protect data.</strong> Don't paste customer details, contracts, or sensitive info into tools you haven't vetted; check their privacy terms.</li><li><strong>Keep a human in the loop</strong> for anything that affects a real customer or a real dollar.</li></ul><p>Learn to catch errors with <a href=\"/blog/spot-ai-hallucinations\">spotting hallucinations</a>.</p>"
+    },
+    {
+      "id": "skill",
+      "heading": "The real advantage: getting fluent",
+      "html": "<p>Any competitor can open ChatGPT. The edge goes to owners and teams who use it <em>well</em> — clear prompts, good judgment, AI woven into the workflow. That's <a href=\"/blog/what-is-ai-fluency\">AI fluency</a>, and a few minutes of practice a day compounds fast. Iro AI builds it through short lessons, including paths for marketing, business, and work. See where your team stands with the free <a href=\"/quiz\">AI IQ test</a>.</p>"
+    }
+  ],
+  "readNext": [
+    {
+      "href": "/blog/how-to-use-ai-at-work",
+      "label": "How to use AI at work"
+    },
+    {
+      "href": "/blog/best-ai-apps",
+      "label": "The best AI apps in 2026"
+    },
+    {
+      "href": "/blog/ai-automation-for-beginners",
+      "label": "AI automation for beginners"
+    },
+    {
+      "href": "/quiz",
+      "label": "Take the free AI IQ test"
+    }
+  ],
+  "faq": [
+    {
+      "q": "How can a small business use AI?",
+      "a": "Start with marketing (drafting posts and emails), customer service (drafting replies and FAQs), admin (summaries, proposals, notes), and analysis (first-pass reads on data). Pick one repetitive task, use a free tool like ChatGPT, and expand from there."
+    },
+    {
+      "q": "What are the best AI tools for small business?",
+      "a": "General assistants like ChatGPT, Claude, and Gemini cover most needs, with Perplexity for sourced research. Most have capable free tiers, so you can start without spending anything."
+    },
+    {
+      "q": "Is it safe for a small business to use AI?",
+      "a": "Yes, if you verify customer-facing and financial outputs, avoid pasting sensitive data into unvetted tools, and keep a human approving anything that affects a real customer or dollar."
+    },
+    {
+      "q": "Do I need technical skills to use AI in my business?",
+      "a": "No. The tools work in a browser with plain-language prompts. The valuable skill is communication and judgment — directing the tool and checking its output — not coding."
+    }
+  ],
+  "related": [
+    "/blog/how-to-use-ai-at-work",
+    "/blog/best-ai-apps",
+    "/blog/ai-automation-for-beginners",
+    "/blog/what-is-ai-fluency",
+    "/ai-for-marketing",
+    "/ai-for-work",
+    "/quiz"
+  ]
+}

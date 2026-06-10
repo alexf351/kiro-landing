@@ -1,0 +1,125 @@
+{
+  "slug": "how-to-tell-if-something-is-ai-generated",
+  "order": 37,
+  "pillar": "ai-fluency",
+  "title": "How to tell if something is AI-generated (text, images & more)",
+  "lede": "There's no 100% reliable way to detect AI content, but a handful of tells — generic phrasing, factual slips, too-perfect structure, and visual glitches — catch most of it. Here's what to look for.",
+  "keyTakeaways": [
+    "No detector is 100% reliable — AI-detection tools produce false positives and are easily fooled, so use judgment, not just a tool.",
+    "Text tells: generic, hedge-heavy phrasing, confident factual errors, repetition, and unusually smooth but empty structure.",
+    "Image tells: odd hands and teeth, garbled text, inconsistent lighting, and too-perfect symmetry.",
+    "The reliable move is to verify claims against sources rather than trying to 'spot the robot.'"
+  ],
+  "description": "How to tell if something is AI-generated: the real tells in AI text and images, why detection tools are unreliable, and the verification habit that actually works.",
+  "keywords": [
+    "how to tell if something is AI generated",
+    "how to detect AI writing",
+    "is this AI generated",
+    "AI content detection",
+    "how to spot AI generated text"
+  ],
+  "datePublished": "2026-06-10",
+  "dateModified": "2026-06-10",
+  "readingTime": 7,
+  "articleSection": "AI fluency",
+  "feedCategory": "AI fluency",
+  "feedTags": [
+    "AI fluency",
+    "AI detection",
+    "AI literacy"
+  ],
+  "inlineCtaAfter": 3,
+  "toc": [
+    {
+      "href": "#answer",
+      "label": "Short answer"
+    },
+    {
+      "href": "#text",
+      "label": "Text tells"
+    },
+    {
+      "href": "#images",
+      "label": "Image tells"
+    },
+    {
+      "href": "#tools",
+      "label": "Why detectors fail"
+    },
+    {
+      "href": "#verify",
+      "label": "What actually works"
+    }
+  ],
+  "sections": [
+    {
+      "id": "answer",
+      "heading": "Can you tell if something is AI-generated?",
+      "html": "<p><strong>Sometimes — but there's no 100% reliable way to detect AI content.</strong> AI-detection tools are easily fooled and regularly flag human writing by mistake, so they shouldn't be trusted on their own. What works better is knowing the common tells and, above all, verifying the claims. The goal isn't to 'catch the robot' — it's to decide whether the content is accurate and trustworthy, which matters whether a human or an AI wrote it.</p>"
+    },
+    {
+      "id": "text",
+      "heading": "Tells that text is AI-generated",
+      "html": "<p>No single sign is proof, but these patterns are common in AI writing:</p><ul><li><strong>Generic, hedge-heavy phrasing</strong> — lots of \"it's important to note\" and \"in today's world,\" little specificity.</li><li><strong>Confident factual slips</strong> — plausible-sounding claims, names, or numbers that turn out wrong (<a href=\"/blog/spot-ai-hallucinations\">hallucinations</a>).</li><li><strong>Too-smooth structure</strong> — perfectly balanced paragraphs and lists that say very little.</li><li><strong>Repetition</strong> — the same idea restated in slightly different words.</li><li><strong>No real voice or lived detail</strong> — no anecdotes, opinions, or specifics only a person would know.</li></ul>"
+    },
+    {
+      "id": "images",
+      "heading": "Tells that an image is AI-generated",
+      "html": "<ul><li><strong>Hands, teeth, and ears</strong> — extra fingers, melted details, odd symmetry.</li><li><strong>Garbled text</strong> — signs and labels that look like letters but aren't words.</li><li><strong>Inconsistent lighting and reflections</strong> — shadows that don't match the scene.</li><li><strong>Too-perfect or uncanny</strong> — skin and backgrounds that look airbrushed and seamless.</li><li><strong>Background nonsense</strong> — objects that blur into each other on close inspection.</li></ul><p>As models improve, these tells fade — which is exactly why verification beats visual inspection.</p>"
+    },
+    {
+      "id": "tools",
+      "heading": "Why AI-detection tools aren't reliable",
+      "html": "<p>It's tempting to paste text into an \"AI detector,\" but they have two big problems: they produce <strong>false positives</strong> (flagging genuine human writing, which has caused real harm to students) and they're <strong>easily evaded</strong> with light editing. They output a confidence score, not proof. Treat any detector result as a weak signal, never a verdict — especially for anything consequential like grading or accusations.</p>"
+    },
+    {
+      "id": "verify",
+      "heading": "What actually works: verify, don't just detect",
+      "html": "<p>The reliable habit is to stop asking \"did an AI write this?\" and start asking \"is this true and trustworthy?\" Check specific claims against reputable sources, look for citations, and be skeptical of confident statements with no support. A tool like <a href=\"/learn-perplexity\">Perplexity</a> makes source-checking fast. This is core <a href=\"/blog/what-is-ai-literacy\">AI literacy</a> — and it protects you whether the content is human or machine made. Test your instincts with the free <a href=\"/quiz\">AI IQ test</a>.</p>"
+    }
+  ],
+  "readNext": [
+    {
+      "href": "/blog/spot-ai-hallucinations",
+      "label": "How to spot AI hallucinations in 5 seconds"
+    },
+    {
+      "href": "/blog/what-is-ai-literacy",
+      "label": "What is AI literacy?"
+    },
+    {
+      "href": "/blog/what-is-generative-ai",
+      "label": "What is generative AI?"
+    },
+    {
+      "href": "/quiz",
+      "label": "Take the free AI IQ test"
+    }
+  ],
+  "faq": [
+    {
+      "q": "How can you tell if something is AI-generated?",
+      "a": "Look for tells like generic hedge-heavy phrasing, confident factual errors, too-smooth empty structure, and (in images) odd hands, garbled text, and inconsistent lighting. No single sign is proof, so verify the actual claims rather than relying on 'spotting the robot.'"
+    },
+    {
+      "q": "Are AI detectors accurate?",
+      "a": "Not reliably. AI-detection tools produce false positives (flagging human writing) and are easily evaded with light editing. They give a confidence score, not proof, so they shouldn't be used alone for anything consequential."
+    },
+    {
+      "q": "How do you spot an AI-generated image?",
+      "a": "Check hands, teeth, and ears for glitches, look for garbled text on signs, inconsistent lighting and reflections, and an uncanny too-perfect look. These tells are fading as models improve, so verification matters more than visual inspection."
+    },
+    {
+      "q": "What is the most reliable way to check AI content?",
+      "a": "Verify the claims, not the authorship. Check specific facts against reputable sources, look for citations, and be skeptical of confident statements with no support — this works whether the content is human or AI made."
+    }
+  ],
+  "related": [
+    "/blog/spot-ai-hallucinations",
+    "/blog/what-is-ai-literacy",
+    "/blog/what-is-generative-ai",
+    "/learn-perplexity",
+    "/glossary",
+    "/quiz"
+  ]
+}

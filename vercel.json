@@ -792,6 +792,26 @@
       "destination": "/blog/what-is-ai-literacy.html"
     },
     {
+      "source": "/blog/how-to-use-chatgpt",
+      "destination": "/blog/how-to-use-chatgpt.html"
+    },
+    {
+      "source": "/blog/ai-for-small-business",
+      "destination": "/blog/ai-for-small-business.html"
+    },
+    {
+      "source": "/blog/how-to-tell-if-something-is-ai-generated",
+      "destination": "/blog/how-to-tell-if-something-is-ai-generated.html"
+    },
+    {
+      "source": "/blog/ai-vs-machine-learning",
+      "destination": "/blog/ai-vs-machine-learning.html"
+    },
+    {
+      "source": "/blog/best-ai-tools-for-students",
+      "destination": "/blog/best-ai-tools-for-students.html"
+    },
+    {
       "source": "/ai-tools-comparison",
       "destination": "/ai-tools-comparison.html"
     },

@@ -9,7 +9,7 @@
     <description>Short, practical writing on AI fluency, prompting, AI tools, and the active-practice method that beats endless video courses.</description>
     <language>en-US</language>
     <atom:link href="https://tryiro.com/blog/rss.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Tue, 09 Jun 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 10 Jun 2026 00:00:00 GMT</lastBuildDate>
     <generator>tryiro.com</generator>
     <copyright>© 2026 Iro AI</copyright>
     <image>
@@ -322,6 +322,51 @@
       <dc:creator>Iro AI</dc:creator>
       <category>AI fluency</category>
       <description>What is AI literacy? A clear 2026 definition: understanding what AI is, how it works, its limits, and how to use it responsibly — how it differs from AI fluency, and how to build it.</description>
+    </item>
+    <item>
+      <title>How to use ChatGPT: a beginner's guide for 2026</title>
+      <link>https://tryiro.com/blog/how-to-use-chatgpt</link>
+      <guid isPermaLink="true">https://tryiro.com/blog/how-to-use-chatgpt</guid>
+      <pubDate>Wed, 10 Jun 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Iro AI</dc:creator>
+      <category>AI tools</category>
+      <description>How to use ChatGPT in 2026: a step-by-step beginner's guide — how to start, what to use it for, how to write prompts that work, and the mistakes to avoid.</description>
+    </item>
+    <item>
+      <title>AI for small business: practical ways to use it in 2026</title>
+      <link>https://tryiro.com/blog/ai-for-small-business</link>
+      <guid isPermaLink="true">https://tryiro.com/blog/ai-for-small-business</guid>
+      <pubDate>Wed, 10 Jun 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Iro AI</dc:creator>
+      <category>AI fluency</category>
+      <description>AI for small business in 2026: practical, no-code ways to use AI for marketing, customer service, admin, and analysis — the best starting tasks, free tools, and how to do it safely.</description>
+    </item>
+    <item>
+      <title>How to tell if something is AI-generated (text, images &amp; more)</title>
+      <link>https://tryiro.com/blog/how-to-tell-if-something-is-ai-generated</link>
+      <guid isPermaLink="true">https://tryiro.com/blog/how-to-tell-if-something-is-ai-generated</guid>
+      <pubDate>Wed, 10 Jun 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Iro AI</dc:creator>
+      <category>AI fluency</category>
+      <description>How to tell if something is AI-generated: the real tells in AI text and images, why detection tools are unreliable, and the verification habit that actually works.</description>
+    </item>
+    <item>
+      <title>AI vs machine learning vs deep learning: the difference, explained</title>
+      <link>https://tryiro.com/blog/ai-vs-machine-learning</link>
+      <guid isPermaLink="true">https://tryiro.com/blog/ai-vs-machine-learning</guid>
+      <pubDate>Wed, 10 Jun 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Iro AI</dc:creator>
+      <category>AI fluency</category>
+      <description>AI vs machine learning vs deep learning explained simply: clear definitions, how they're related (nested, not separate), real examples, and where generative AI and ChatGPT fit.</description>
+    </item>
+    <item>
+      <title>The best AI tools for students in 2026 (and how to use them honestly)</title>
+      <link>https://tryiro.com/blog/best-ai-tools-for-students</link>
+      <guid isPermaLink="true">https://tryiro.com/blog/best-ai-tools-for-students</guid>
+      <pubDate>Wed, 10 Jun 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Iro AI</dc:creator>
+      <category>AI tools</category>
+      <description>The best AI tools for students in 2026 — ChatGPT, Claude, Gemini, Perplexity and more — compared by use, plus how to use AI to study honestly without cheating.</description>
     </item>
   </channel>
 </rss>
