@@ -1,6 +1,6 @@
 # Iro AI — Full LLM Reference
 
-Last updated: 2026-06-04
+Last updated: 2026-06-10
 Canonical source: https://tryiro.com/llms-full.txt
 Short source: https://tryiro.com/llms.txt
 Website: https://tryiro.com
@@ -192,8 +192,9 @@ Users earn XP and progress through 6 rank tiers:
 
 ## Pricing
 
-Free tier: starter slice across all 18 paths, daily challenges, XP, and
-ranks. No credit card required.
+Free tier: 10 free lessons in a starter path of the user's choice plus
+1 free lesson in every other path (27 free lessons total), daily
+challenges, XP, and ranks. No credit card required.
 
 Pro tier unlocks: full lessons, live duels, weekly news briefings, and
 Prompt Lab.
@@ -232,7 +233,8 @@ practice rather than long video lectures or unstructured experimentation.
 
 ### Is Iro AI free?
 
-Yes. The free tier includes a starter slice across all 18 paths, daily
+Yes. The free tier includes 10 lessons in a starter path of your choice
+plus 1 lesson in every other path (27 free lessons total), daily
 challenges, XP, and ranks. No credit card is required. Pro unlocks full
 lessons, live duels, weekly news briefings, and Prompt Lab. A 7-day free
 trial is available on the Pro Yearly plan.

@@ -56,7 +56,7 @@
   --cyan:#00E5FF;--cyan-light:#00B4D8;--cyan-deep:#0096B0;--gold:#FFD45A;
   --error:#FF4757;--success:#2ECC71;
   /* harmonized aliases shared with the rest of the site */
-  --ink:#F2F5FF;--ink-2:#9BA7C4;--ink-3:#616E8C;
+  --ink:#F2F5FF;--ink-2:#9BA7C4;--ink-3:#7A87A8;
   --accent:#00E5FF;--accent-rgb:0,229,255;--accent-ink:#04222B;
   --line:rgba(255,255,255,.08);--line-strong:rgba(255,255,255,.14);
   --radius:18px;--ease:cubic-bezier(.2,.8,.2,1);--ease-out:cubic-bezier(.16,1,.3,1);
@@ -626,6 +626,15 @@ body{
   animation:fadeIn .4s ease .5s both
 }
 .quiz-results .btn-row{display:flex;flex-direction:column;gap:12px;align-items:center;animation:fadeIn .4s ease .6s both}
+.results-android{margin:26px auto 0;max-width:440px;padding:16px 18px;background:var(--surface);border:1px solid var(--surface-border);border-radius:16px;text-align:left;animation:fadeIn .4s ease .8s both}
+.results-android p{margin:0 0 10px;font-size:14px;color:var(--ink-2)}
+.results-android p b{color:var(--ink)}
+.results-android form{display:flex;gap:8px}
+.results-android input[type=email]{flex:1;min-width:0;padding:11px 14px;border-radius:11px;border:1px solid var(--surface-border);background:rgba(255,255,255,.04);color:var(--ink);font-size:14px}
+.results-android input[type=email]:focus{outline:none;border-color:var(--cyan)}
+.results-android button{padding:11px 16px;border-radius:11px;border:none;background:var(--cyan);color:var(--accent-ink);font-weight:800;font-size:14px;cursor:pointer}
+.results-android .results-privacy{margin:8px 0 0;font-size:11.5px;color:var(--ink-3)}
+.results-android .results-notify-done{margin:0;font-size:14px;color:var(--success)}
 .results-link{
   font-family:'JetBrains Mono',monospace;
   font-size:12px;color:var(--cyan);font-weight:500;letter-spacing:2px;text-transform:uppercase;
@@ -1064,6 +1073,17 @@ function showResults(){
       <button class="results-link" id="shareBtn">Challenge a Friend</button>
       <button class="retake" id="retakeBtn">Retake Quiz</button>
     </div>
+    <div class="results-android">
+      <p><b>On Android?</b> Iro is iOS-only for now — leave your email and we'll send one message the day it drops.</p>
+      <form id="quizNotifyForm" action="https://formspree.io/f/mbdzpzzp" method="POST" novalidate>
+        <input type="email" name="email" required placeholder="you@email.com" aria-label="Your email"/>
+        <input type="hidden" name="_subject" value="New Android waitlist signup"/>
+        <input type="hidden" name="source" value="quiz-results"/>
+        <button type="submit">Notify me</button>
+      </form>
+      <p class="results-privacy">No spam — one email when Android ships.</p>
+      <div class="results-notify-done" id="quizNotifyDone" hidden>You're on the list — we'll email you when Android lands.</div>
+    </div>
   </div>`;
 
   // #1 — PostHog quiz completed event
@@ -1080,6 +1100,26 @@ function showResults(){
     if(window.posthog)posthog.capture('quiz_started',{quiz_number:quizIndex+1});
     showQuestion();
   });
+
+  // Android waitlist capture on results (mirrors homepage Formspree flow)
+  const qnForm=document.getElementById('quizNotifyForm');
+  if(qnForm){
+    qnForm.addEventListener('submit',function(e){
+      e.preventDefault();
+      const em=qnForm.querySelector('input[type="email"]');
+      if(em&&em.value&&/\S+@\S+\.\S+/.test(em.value)){
+        const b=qnForm.querySelector('button');
+        if(b){b.disabled=true;b.textContent='Adding…';}
+        fetch(qnForm.action,{method:'POST',headers:{'Accept':'application/json'},body:new FormData(qnForm)})
+          .then(()=>{if(window.posthog)posthog.capture('android_waitlist_signup',{source:'quiz-results',score,rank});})
+          .catch(()=>{}).then(()=>{
+            qnForm.style.display='none';
+            const pn=qnForm.parentElement.querySelector('.results-privacy');if(pn)pn.style.display='none';
+            const dn=document.getElementById('quizNotifyDone');if(dn)dn.hidden=false;
+          });
+      }else if(em){em.focus();em.style.borderColor='#FF4757';}
+    });
+  }
 
   // #4 — Share with challenge URL
   document.getElementById('shareBtn').addEventListener('click',()=>{

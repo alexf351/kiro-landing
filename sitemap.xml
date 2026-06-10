@@ -5,7 +5,7 @@
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://tryiro.com/</loc>
-    <lastmod>2026-06-02</lastmod>
+    <lastmod>2026-06-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://tryiro.com/"/>
@@ -26,29 +26,21 @@
       <image:title>Iro AI Diamond rank mascot</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://tryiro.com/assets/01-prompt-lab-1320x2868.png</image:loc>
+      <image:loc>https://tryiro.com/assets/screens/prompt-lab.webp</image:loc>
       <image:title>Iro AI Prompt Lab — active prompt practice</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://tryiro.com/assets/02-learning-paths-1320x2868.png</image:loc>
+      <image:loc>https://tryiro.com/assets/screens/learning-path-list.webp</image:loc>
       <image:title>Iro AI learning paths across ChatGPT, Claude, Gemini, Perplexity</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://tryiro.com/assets/04-duel-victory-1320x2868.png</image:loc>
+      <image:loc>https://tryiro.com/assets/screens/duel-victory.webp</image:loc>
       <image:title>Iro AI live AI duel victory podium</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://tryiro.com/assets/08-ranks-1320x2868.png</image:loc>
+      <image:loc>https://tryiro.com/assets/screens/ranks.webp</image:loc>
       <image:title>Iro AI rank progression — Bronze to Iridescent</image:title>
     </image:image>
-    <video:video>
-      <video:thumbnail_loc>https://tryiro.com/assets/04-duel-victory-1320x2868.png</video:thumbnail_loc>
-      <video:title>Iro AI duel gameplay demo</video:title>
-      <video:description>Live duel gameplay in Iro AI: cyberpunk arena, battle music, podium reveal with score countup, and combo bonuses.</video:description>
-      <video:content_loc>https://tryiro.com/assets/duel-demo.mp4</video:content_loc>
-      <video:duration>48</video:duration>
-      <video:family_friendly>yes</video:family_friendly>
-    </video:video>
   </url>
   <url>
     <loc>https://tryiro.com/es</loc>

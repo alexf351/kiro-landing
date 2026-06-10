@@ -65,9 +65,6 @@
 {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Is Iro free?","acceptedAnswer":{"@type":"Answer","text":"Yes. Free gets you 10 lessons in a starter path of your choice plus 1 lesson in every other path (27 total), 5 duels, 3 hearts, and the beginner prompt library. Pro unlocks all 345 lessons, the Prompt Lab, the full prompt library, unlimited duels and hearts, and shareable certificates. Pro is $49.99 a year (about $0.96 a week) with a 7-day free trial, or $9.99 a week. Cancel anytime."}},{"@type":"Question","name":"Do I need any AI experience?","acceptedAnswer":{"@type":"Answer","text":"None at all. Beginner paths start from zero on ChatGPT, Claude, Gemini, and Perplexity. Already comfortable? Advanced paths cover AI agents, automation, and vibe coding."}},{"@type":"Question","name":"How is this different from watching tutorials?","acceptedAnswer":{"@type":"Answer","text":"Videos are passive. You watch, then you forget. Iro makes you write real prompts, spot hallucinations, compare model outputs, and duel rivals. You think instead of consume, so it sticks."}},{"@type":"Question","name":"How long does each lesson take?","acceptedAnswer":{"@type":"Answer","text":"About five minutes. It is built for a coffee break or a commute, and the daily streak keeps the habit going."}},{"@type":"Question","name":"What AI topics does Iro cover?","acceptedAnswer":{"@type":"Answer","text":"Iro covers 18 paths across four tracks: Tool Mastery, Creative & Coding, Work & Career, and Core Skills. You will train on ChatGPT, Claude, Gemini, Perplexity, image and video generation, vibe coding, job hunting, business, marketing, finance, managers, healthcare, AI foundations, prompt engineering, agents, automation, and AI tools. The full app includes 345 lessons, 2,000+ exercises, weekly news, daily challenges, and live duels."}},{"@type":"Question","name":"Is Iro the Duolingo for AI?","acceptedAnswer":{"@type":"Answer","text":"Yes. Iro AI is widely described as the Duolingo for AI — it applies the same gamified, five-minute-a-day model (streaks, XP, ranks, live duels) to learning how to use AI tools instead of languages."}},{"@type":"Question","name":"Is Iro the best app to learn AI?","acceptedAnswer":{"@type":"Answer","text":"For building everyday AI fluency — getting genuinely good at using ChatGPT, Claude, Gemini, Perplexity, and prompting — Iro AI is the strongest pick because it makes you practice actively, every day, in about five minutes. For data science use DataCamp, for ML theory use Brilliant, and for certificates use Coursera."}}]}
 </script>
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"VideoObject","name":"Iro duel gameplay demo","description":"Live duel gameplay in Iro: cyberpunk arena, battle music, podium reveal with score countup, and combo bonuses. Iro features 60+ unique opponents and ELO matchmaking.","thumbnailUrl":["https://tryiro.com/assets/04-duel-victory-1320x2868.webp"],"uploadDate":"2026-05-07T16:09:56-07:00","contentUrl":"https://tryiro.com/assets/duel-demo.mp4","duration":"PT48S","width":1280,"height":2774}
-</script>
-<script type="application/ld+json">
 {"@context":"https://schema.org","@type":"WebSite","@id":"https://tryiro.com/#website","name":"Iro AI","alternateName":["Iro","Iro AI — Learn AI Skills","Duolingo for AI"],"url":"https://tryiro.com/","description":"Iro AI teaches AI fluency through 5-minute gamified lessons, Prompt Lab practice, AI duels, weekly news, and learning paths for ChatGPT, Claude, Gemini, Perplexity, AI agents, automation, and more.","publisher":{"@id":"https://tryiro.com/#organization"},"inLanguage":"en","potentialAction":{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://tryiro.com/?q={search_term_string}"},"query-input":"required name=search_term_string"},"about":[{"@type":"Thing","name":"AI fluency"},{"@type":"Thing","name":"Prompt engineering"},{"@type":"Thing","name":"ChatGPT"},{"@type":"Thing","name":"Claude"},{"@type":"Thing","name":"Gemini"},{"@type":"Thing","name":"Perplexity"},{"@type":"Thing","name":"AI agents"},{"@type":"Thing","name":"AI automation"}]}
 </script>
 <script type="application/ld+json">
@@ -104,7 +101,7 @@
   /* ink */
   --ink:#F2F5FF;
   --ink-2:#9BA7C4;
-  --ink-3:#616E8C;
+  --ink-3:#7A87A8;
 
   /* accent (tweakable) */
   --accent:#00E5FF;
@@ -613,6 +610,15 @@ nav .wrap{display:flex;align-items:center;justify-content:space-between}
 .proof-sep{width:1px;height:80px;background:var(--line-strong)}
 .reviews-feat{display:grid;grid-template-columns:1.45fr 1fr;gap:16px;max-width:1080px;margin:0 auto;align-items:stretch}
 .reviews-row2{display:grid;grid-template-columns:1fr 1fr 1fr;gap:16px;max-width:1080px;margin:16px auto 0;align-items:stretch}
+.skip-nav{position:absolute;left:-9999px;top:0;z-index:9999;padding:12px 18px;background:var(--accent);color:var(--accent-ink);font-weight:800;border-radius:0 0 12px 0}
+.skip-nav:focus{left:0}
+.notify-privacy{margin:8px 0 0;font-size:12px;color:var(--ink-3)}
+.quiz-banner{max-width:1080px;margin:64px auto 0;padding:34px clamp(22px,4vw,44px);display:flex;align-items:center;justify-content:space-between;gap:24px;flex-wrap:wrap;
+  background:linear-gradient(120deg,rgba(var(--accent-rgb),.10),rgba(var(--accent-rgb),.03) 55%,transparent);border:1px solid rgba(var(--accent-rgb),.25);border-radius:22px}
+.quiz-banner-copy h3{font-family:'Geist',sans-serif;font-weight:800;font-size:clamp(20px,2.6vw,27px);letter-spacing:-.025em;margin:0 0 6px;color:var(--ink)}
+.quiz-banner-copy p{margin:0;color:var(--ink-2);font-size:15.5px}
+.quiz-banner-meta{font-family:'JetBrains Mono',monospace;font-size:10.5px;letter-spacing:.18em;color:var(--accent);text-transform:uppercase;display:block;margin-bottom:10px}
+@media(max-width:680px){.quiz-banner{flex-direction:column;align-items:flex-start}}
 .review-big{position:relative;display:flex;flex-direction:column;padding:40px 38px;border-radius:20px;
   background:var(--surface);border:1px solid var(--line);overflow:hidden}
 .review-big::before{content:'\201C';position:absolute;top:-12px;left:26px;font-family:'Geist',sans-serif;font-weight:800;
@@ -917,6 +923,7 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
 <meta name="apple-itunes-app" content="app-id=6759628066"/>
 </head>
 <body>
+<a class="skip-nav" href="#top">Skip to content</a>
 <div class="iab-overlay" id="iabOverlay" role="dialog" aria-modal="true" aria-labelledby="iabTitle" hidden>
 <div class="iab-card">
 <button class="iab-close" type="button" aria-label="Close" id="iabClose">&times;</button>
@@ -984,6 +991,7 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
           <input type="hidden" name="source" value="hero-android-banner"/>
           <button type="submit" class="btn btn-primary">Notify me</button>
         </form>
+        <p class="notify-privacy">No spam — one email when Android ships.</p>
         <div class="android-done" id="androidDone" hidden>You're on the list — we'll email you when Android lands.</div>
       </div>
     </div>
@@ -994,7 +1002,7 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
           <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M16.36 1.43c.04 1.06-.36 2.08-1.04 2.84-.72.81-1.9 1.44-3.03 1.35-.05-1.04.4-2.09 1.06-2.79.74-.81 1.99-1.4 3.01-1.4zM20.6 17.2c-.55 1.27-.82 1.84-1.53 2.96-.99 1.57-2.39 3.52-4.12 3.53-1.54.02-1.94-1-4.03-.99-2.09.01-2.53 1.01-4.07.99-1.73-.02-3.05-1.78-4.04-3.34C-.06 16.1-.35 10.97 1.36 8.24c1.2-1.94 3.1-3.08 4.89-3.08 1.82 0 2.97 1 4.48 1 1.46 0 2.35-1 4.46-1 1.59 0 3.28.87 4.48 2.37-3.94 2.16-3.3 7.79.93 9.67z"/></svg>
           <span class="btn-stack"><small>Download on the</small><b>App Store</b></span>
         </a>
-        <a class="btn btn-ghost btn-lg" href="#showcase">See it in action</a>
+        <a class="btn btn-ghost btn-lg" href="/quiz.html">Take the free AI IQ test</a>
       </div>
       <div class="hero-trust">
         <span class="stars">★★★★★</span>
@@ -1153,6 +1161,14 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
         <span class="rev-chip">Love this app</span>
       </article>
     </div>
+    <div class="quiz-banner reveal" data-d="1">
+      <div class="quiz-banner-copy">
+        <span class="quiz-banner-meta">Free · 10 questions · ~2 min · No signup</span>
+        <h3>How good are you at AI, really?</h3>
+        <p>Take the AI IQ test, get ranked Bronze to Iridescent, and see exactly which skill to train first.</p>
+      </div>
+      <a class="btn btn-primary btn-lg" href="/quiz.html">Take the AI IQ test</a>
+    </div>
   </div>
 </section>
 
@@ -1300,6 +1316,7 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
         <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M16.36 1.43c.04 1.06-.36 2.08-1.04 2.84-.72.81-1.9 1.44-3.03 1.35-.05-1.04.4-2.09 1.06-2.79.74-.81 1.99-1.4 3.01-1.4zM20.6 17.2c-.55 1.27-.82 1.84-1.53 2.96-.99 1.57-2.39 3.52-4.12 3.53-1.54.02-1.94-1-4.03-.99-2.09.01-2.53 1.01-4.07.99-1.73-.02-3.05-1.78-4.04-3.34C-.06 16.1-.35 10.97 1.36 8.24c1.2-1.94 3.1-3.08 4.89-3.08 1.82 0 2.97 1 4.48 1 1.46 0 2.35-1 4.46-1 1.59 0 3.28.87 4.48 2.37-3.94 2.16-3.3 7.79.93 9.67z"/></svg>
         <span class="btn-stack"><small>Download on the</small><b>App Store</b></span>
       </a>
+      <a class="btn btn-ghost btn-lg" href="/quiz.html">Take the free AI IQ test</a>
     </div>
 
     <div class="android reveal" data-d="4">
@@ -1312,6 +1329,7 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
         <input type="hidden" name="_subject" value="New Android waitlist signup"/>
         <button type="submit" class="btn btn-ghost">Notify me</button>
       </form>
+      <p class="notify-privacy">No spam — one email when Android ships.</p>
       <div class="notify-done" id="notifyDone" hidden>You're on the list. We'll email you when Android lands.</div>
     </div>
   </div>
@@ -1838,12 +1856,14 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
   document.querySelectorAll('.faq-item').forEach(function (item) {
     var q = item.querySelector('.faq-q');
     var a = item.querySelector('.faq-a');
+    q.setAttribute('aria-expanded', 'false');
     q.addEventListener('click', function () {
       var isOpen = item.classList.contains('open');
       document.querySelectorAll('.faq-item.open').forEach(function (o) {
         o.classList.remove('open'); o.querySelector('.faq-a').style.maxHeight = null;
+        var ob = o.querySelector('.faq-q'); if (ob) ob.setAttribute('aria-expanded', 'false');
       });
-      if (!isOpen) { item.classList.add('open'); a.style.maxHeight = a.scrollHeight + 'px'; }
+      if (!isOpen) { item.classList.add('open'); a.style.maxHeight = a.scrollHeight + 'px'; q.setAttribute('aria-expanded', 'true'); }
     });
   });
 
