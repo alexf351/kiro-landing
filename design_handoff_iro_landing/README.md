@@ -98,7 +98,7 @@ A radial, interactive "AI Rank Scan / Operator Build". Layout is a centered colu
 
 > The example scores/archetypes per rank live in `BUILDS` in `skilltree.js` and are illustrative — wire to real scan data when available. The skill→path grouping is an **editorial mapping** (the app has no fixed path-to-skill table); confirm/adjust in `NODES`.
 
-**`.hero-actions`** (below universe): App Store button (`.btn-primary`, with Apple logo + "Download on the App Store"), ghost "See it in action" (→ #showcase), and trust row (★★★★★ "4.6 on the App Store" · "345 lessons across 18 paths"). A `data-herocta="above|below"` attribute on `<html>` flips this block above/below the universe (default `below`).
+**`.hero-actions`** (below universe): App Store button (`.btn-primary`, with Apple logo + "Download on the App Store"), ghost "See it in action" (→ #showcase), and trust row (★★★★★ "4.7 on the App Store" · "345 lessons across 18 paths"). A `data-herocta="above|below"` attribute on `<html>` flips this block above/below the universe (default `below`).
 
 ### 3. Inside the app (`#showcase`) — `showcase.js`
 Two columns. **Left**: an iPhone mockup (`.device.ia-phone`) showing one app screen (`#iaImg`), with a control row beneath = round prev arrow + 7 progress dots (active = elongated accent pill, `#iaDots`) + next arrow, then a "Tap through the app" hint. **Right** (`.ia-right`, top-aligned): a caption (`#iaCaption`) showing eyebrow `NN / 07 · NAME`, headline, description, 3 check-bullets, and a tag pill — all swapping per screen; and BELOW it a **2×2 "Daily loop"** card grid (`.loop-row`): 01 Learn a skill (5 min) · 02 Practice for real (13 types) · 03 Earn XP & streaks (daily) · 04 Rank up (6 ranks).
@@ -108,7 +108,7 @@ Two columns. **Left**: an iPhone mockup (`.device.ia-phone`) showing one app scr
 
 ### 4. Proof (`#proof`)
 - Centered header "People keep coming back."
-- Stat row (`.proof-top`): **4.6** App Store rating (★★★★★) · count-up "2,075+" hands-on exercises · count-up "18" learning paths. Count-ups animate when scrolled into view (`app.js`, `[data-count]`).
+- Stat row (`.proof-top`): **4.7** App Store rating (★★★★★) · count-up "2,075+" hands-on exercises · count-up "18" learning paths. Count-ups animate when scrolled into view (`app.js`, `[data-count]`).
 - **Reviews** = featured layout (`.reviews-feat`, grid 1.45fr/1fr): one big card left (abrjav, "Surprisingly helpful", 5★) + two stacked cards right (michael19583173 "Helpful app"; Jmf275 "Great app!"). These are **real App Store reviews**. Each card: avatar initial tile, username, "App Store · United States", gold stars, quote (NOT italic), and a mono review-title chip.
 
 ### 5. Get certified (`#certs`)
@@ -168,6 +168,6 @@ Centered: iridescent mascot, h2 "Train your AI fluency like it is a game.", subl
 
 ## Notes / open items
 - Skill→path mapping and per-rank example scores are editorial; confirm against real data.
-- Rating is set to **4.6** (US App Store) per the client; if a global average is shown elsewhere, label it.
+- Rating is set to **4.7** (US App Store) per the client; if a global average is shown elsewhere, label it.
 - No italic fonts anywhere; keep that rule.
 - The page targets AI-curious professionals / career-minded learners; copy tone is confident and plain, no hype.

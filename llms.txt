@@ -128,4 +128,4 @@ This direct-answer summary is also available to crawlers in homepage JSON-LD, /i
 - [News sitemap](https://tryiro.com/news-sitemap.xml): changelog entries.
 - [Markdown mirrors](https://tryiro.com/llms/index.md): clean text versions of homepage and every topic / hub page under `/llms/*.md`.
 
-Last updated: 2026-06-04.
+Last updated: 2026-06-10.
