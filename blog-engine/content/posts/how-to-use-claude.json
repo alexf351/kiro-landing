@@ -1,0 +1,126 @@
+{
+  "slug": "how-to-use-claude",
+  "order": 41,
+  "pillar": "ai-tools",
+  "title": "How to use Claude: a beginner's guide for 2026",
+  "lede": "Claude is an AI assistant that's especially good at writing, long documents, and code. To use it well, give it context, a role, and clear instructions — then iterate. Here's how to start and what it's best for.",
+  "keyTakeaways": [
+    "Claude (by Anthropic) is an AI assistant best for writing, careful reasoning, long documents, and code.",
+    "It's free to start at claude.ai — type a request in plain language and refine the answer.",
+    "Claude follows nuanced, multi-part instructions closely, so detailed prompts pay off.",
+    "Like every AI tool, it can be confidently wrong — verify anything important."
+  ],
+  "description": "How to use Claude in 2026: a beginner's guide to Anthropic's AI — how to start, what it's best at, how to prompt it well, and how it compares to ChatGPT.",
+  "keywords": [
+    "how to use Claude",
+    "how to use Claude AI",
+    "Claude AI beginner guide",
+    "Claude Anthropic how to",
+    "getting started with Claude"
+  ],
+  "datePublished": "2026-06-11",
+  "dateModified": "2026-06-11",
+  "readingTime": 6,
+  "articleSection": "AI tools",
+  "feedCategory": "AI tools",
+  "feedTags": [
+    "AI tools",
+    "Claude",
+    "beginners"
+  ],
+  "inlineCtaAfter": 3,
+  "toc": [
+    {
+      "href": "#answer",
+      "label": "Quick start"
+    },
+    {
+      "href": "#start",
+      "label": "How to start"
+    },
+    {
+      "href": "#best",
+      "label": "What it's best at"
+    },
+    {
+      "href": "#prompts",
+      "label": "Prompting Claude"
+    },
+    {
+      "href": "#vs",
+      "label": "Claude vs ChatGPT"
+    }
+  ],
+  "sections": [
+    {
+      "id": "answer",
+      "heading": "How do you use Claude?",
+      "html": "<p><strong>To use Claude, go to claude.ai (or the app), type what you want in plain language, and refine the answer with follow-ups.</strong> Claude is an AI assistant made by Anthropic, and it's especially strong at writing, careful reasoning, working through long documents, and code. It's free to start. The better your prompt — context, a role, clear instructions, and the format you want — the better Claude's output.</p>"
+    },
+    {
+      "id": "start",
+      "heading": "Getting started with Claude",
+      "html": "<ol><li><strong>Go to claude.ai</strong> or download the app and sign up — the free tier is enough to learn on.</li><li><strong>Type a real request</strong>, e.g. <em>\"You are an editor. Tighten this paragraph and flag anything unclear: [paste].\"</em></li><li><strong>Iterate</strong> — \"make it warmer,\" \"shorter,\" \"add an example\" — until it's right.</li></ol><p>No technical skills required — see <a href=\"/blog/how-to-learn-ai-without-coding\">learning AI without coding</a>.</p>"
+    },
+    {
+      "id": "best",
+      "heading": "What is Claude best at?",
+      "html": "<ul><li><strong>Writing</strong> — natural prose and editing that needs nuance.</li><li><strong>Long documents</strong> — summarizing and reasoning over big inputs.</li><li><strong>Code</strong> — explaining, writing, and reviewing it.</li><li><strong>Following detailed instructions</strong> — it handles multi-part requests carefully.</li></ul><p>Dig deeper at <a href=\"/learn-claude\">learn Claude</a>.</p>"
+    },
+    {
+      "id": "prompts",
+      "heading": "How to prompt Claude well",
+      "html": "<p>The same recipe that works everywhere works with Claude: give <strong>context</strong>, assign a <strong>role</strong>, state the <strong>task</strong>, and specify the <strong>format</strong>. Claude rewards detail — it follows nuanced instructions closely, so spelling out exactly what you want (and what to avoid) gets sharp results. Full walkthrough: <a href=\"/blog/how-to-write-a-prompt\">how to write a good AI prompt</a>. And as with any model, <a href=\"/blog/spot-ai-hallucinations\">verify important claims</a>.</p>"
+    },
+    {
+      "id": "vs",
+      "heading": "Claude vs ChatGPT: which should you use?",
+      "html": "<p>Use Claude when text quality matters most — long writing, careful reasoning, code. Use ChatGPT as the more versatile all-rounder with the biggest ecosystem. Many people keep both. The full breakdown is in <a href=\"/blog/chatgpt-vs-claude\">ChatGPT vs Claude</a>. Whichever you pick, the skill of directing it — <a href=\"/blog/what-is-ai-fluency\">AI fluency</a> — matters more than the choice. Check yours with the free <a href=\"/quiz\">AI IQ test</a>.</p>"
+    }
+  ],
+  "readNext": [
+    {
+      "href": "/blog/chatgpt-vs-claude",
+      "label": "ChatGPT vs Claude"
+    },
+    {
+      "href": "/blog/how-to-write-a-prompt",
+      "label": "How to write a good AI prompt"
+    },
+    {
+      "href": "/blog/best-ai-apps",
+      "label": "The best AI apps in 2026"
+    },
+    {
+      "href": "/quiz",
+      "label": "Take the free AI IQ test"
+    }
+  ],
+  "faq": [
+    {
+      "q": "How do I start using Claude?",
+      "a": "Go to claude.ai or the Claude app, sign up (the free tier is enough), and type a request in plain language. Refine the answer with follow-ups like 'make it shorter' or 'more formal.' No technical knowledge required."
+    },
+    {
+      "q": "Is Claude free to use?",
+      "a": "Yes, Claude has a capable free tier that's plenty for learning and everyday tasks. Paid plans add higher limits and more advanced models."
+    },
+    {
+      "q": "What is Claude best for?",
+      "a": "Claude is especially good at writing, careful reasoning, working through long documents, and code. It follows detailed, multi-part instructions closely, so it rewards specific prompts."
+    },
+    {
+      "q": "Is Claude better than ChatGPT?",
+      "a": "Claude is often preferred for writing and code; ChatGPT is the more versatile all-rounder. Neither is universally better — it depends on your main task, and many people use both."
+    }
+  ],
+  "related": [
+    "/blog/chatgpt-vs-claude",
+    "/blog/how-to-write-a-prompt",
+    "/blog/best-ai-apps",
+    "/blog/claude-vs-gemini",
+    "/learn-claude",
+    "/how-to-learn-ai",
+    "/quiz"
+  ]
+}

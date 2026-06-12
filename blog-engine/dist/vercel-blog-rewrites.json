@@ -175,6 +175,30 @@
     {
       "source": "/blog/best-ai-tools-for-students",
       "destination": "/blog/best-ai-tools-for-students.html"
+    },
+    {
+      "source": "/blog/chatgpt-alternatives",
+      "destination": "/blog/chatgpt-alternatives.html"
+    },
+    {
+      "source": "/blog/how-to-use-claude",
+      "destination": "/blog/how-to-use-claude.html"
+    },
+    {
+      "source": "/blog/how-to-use-gemini",
+      "destination": "/blog/how-to-use-gemini.html"
+    },
+    {
+      "source": "/blog/what-is-rag",
+      "destination": "/blog/what-is-rag.html"
+    },
+    {
+      "source": "/blog/ai-for-teachers",
+      "destination": "/blog/ai-for-teachers.html"
+    },
+    {
+      "source": "/blog/chatgpt-vs-copilot",
+      "destination": "/blog/chatgpt-vs-copilot.html"
     }
   ]
 }

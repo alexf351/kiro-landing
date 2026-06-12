@@ -1,0 +1,126 @@
+{
+  "slug": "chatgpt-alternatives",
+  "order": 40,
+  "pillar": "ai-tools",
+  "title": "The best ChatGPT alternatives in 2026 (and when to use each)",
+  "lede": "The best ChatGPT alternatives are Claude for writing and code, Gemini inside Google, Perplexity for cited research, and Copilot in Microsoft 365. Here's when each one beats ChatGPT — and when to just stick with ChatGPT.",
+  "keyTakeaways": [
+    "The top ChatGPT alternatives are Claude, Gemini, Perplexity, and Microsoft Copilot — each wins for a specific job.",
+    "Claude is best for writing and code, Gemini for Google apps, Perplexity for sourced research, Copilot for Microsoft 365.",
+    "Most people don't need to replace ChatGPT — they add one alternative for a task it handles less well.",
+    "Whatever you use, prompting skill transfers across all of them and matters more than the tool."
+  ],
+  "description": "The best ChatGPT alternatives in 2026 — Claude, Gemini, Perplexity, and Copilot — compared by what each does better than ChatGPT, with a side-by-side table and how to choose.",
+  "keywords": [
+    "ChatGPT alternatives",
+    "best ChatGPT alternative",
+    "alternatives to ChatGPT",
+    "ChatGPT competitors",
+    "free ChatGPT alternatives"
+  ],
+  "datePublished": "2026-06-11",
+  "dateModified": "2026-06-11",
+  "readingTime": 7,
+  "articleSection": "AI tools",
+  "feedCategory": "AI tools",
+  "feedTags": [
+    "AI tools",
+    "ChatGPT",
+    "comparison"
+  ],
+  "inlineCtaAfter": 2,
+  "toc": [
+    {
+      "href": "#answer",
+      "label": "Short answer"
+    },
+    {
+      "href": "#table",
+      "label": "At a glance"
+    },
+    {
+      "href": "#alts",
+      "label": "The alternatives"
+    },
+    {
+      "href": "#choose",
+      "label": "How to choose"
+    },
+    {
+      "href": "#skill",
+      "label": "What matters more"
+    }
+  ],
+  "sections": [
+    {
+      "id": "answer",
+      "heading": "The best ChatGPT alternatives",
+      "html": "<p><strong>The best ChatGPT alternatives are Claude (writing and code), Gemini (Google apps), Perplexity (cited research), and Microsoft Copilot (Microsoft 365).</strong> ChatGPT is still the best all-rounder, so for most people the question isn't \"what replaces ChatGPT\" — it's \"which tool do I add for the one job ChatGPT handles less well.\" Here's how the main alternatives stack up.</p>"
+    },
+    {
+      "id": "table",
+      "heading": "ChatGPT alternatives at a glance",
+      "html": "<div class=\"cmp-wrap\"><table class=\"cmp-table\"><thead><tr><th>Alternative</th><th>Better than ChatGPT for</th><th>Maker</th><th>Free tier</th></tr></thead><tbody><tr><th>Claude</th><td>Long-form writing, careful reasoning, code</td><td>Anthropic</td><td>Yes</td></tr><tr><th>Gemini</th><td>Working inside Google Docs, Gmail, Sheets</td><td>Google</td><td>Yes, generous</td></tr><tr><th>Perplexity</th><td>Research with verifiable citations</td><td>Perplexity</td><td>Yes</td></tr><tr><th>Microsoft Copilot</th><td>Word, Excel, Outlook, Teams</td><td>Microsoft</td><td>Yes</td></tr></tbody></table></div><p class=\"note\">Plans and features change often — check each tool. Last reviewed June 2026.</p>"
+    },
+    {
+      "id": "alts",
+      "heading": "The alternatives, one by one",
+      "html": "<ul><li><strong><a href=\"/learn-claude\">Claude</a> (Anthropic)</strong> — the go-to for natural writing, long documents, and code. The closest alternative for serious text work. See <a href=\"/blog/chatgpt-vs-claude\">ChatGPT vs Claude</a>.</li><li><strong><a href=\"/learn-gemini\">Gemini</a> (Google)</strong> — best if your work lives in Google apps, with a generous free tier. See <a href=\"/blog/chatgpt-vs-gemini\">ChatGPT vs Gemini</a>.</li><li><strong><a href=\"/learn-perplexity\">Perplexity</a></strong> — an answer engine that cites its sources, ideal for research. See <a href=\"/blog/chatgpt-vs-perplexity\">ChatGPT vs Perplexity</a>.</li><li><strong>Microsoft Copilot</strong> — AI built into Office; best if your day runs on Microsoft 365.</li></ul>"
+    },
+    {
+      "id": "choose",
+      "heading": "How to choose a ChatGPT alternative",
+      "html": "<p>Pick by the job ChatGPT isn't nailing for you:</p><ul><li><strong>You write or code a lot →</strong> Claude.</li><li><strong>You live in Google apps →</strong> Gemini.</li><li><strong>You need sources you can cite →</strong> Perplexity.</li><li><strong>You live in Microsoft 365 →</strong> Copilot.</li></ul><p>Most people keep ChatGPT as the default and add one of these. The full breakdown is in the <a href=\"/ai-tools-comparison\">AI tools comparison</a> and <a href=\"/blog/best-ai-apps\">best AI apps</a>.</p>"
+    },
+    {
+      "id": "skill",
+      "heading": "The thing no alternative fixes",
+      "html": "<p>Switching tools won't fix a vague prompt. The biggest lever on your results isn't which assistant you use — it's how well you direct it. That skill, <a href=\"/blog/what-is-ai-fluency\">AI fluency</a>, transfers across ChatGPT and every alternative. Build it a few minutes a day; the free <a href=\"/quiz\">AI IQ test</a> shows where you stand.</p>"
+    }
+  ],
+  "readNext": [
+    {
+      "href": "/blog/best-ai-apps",
+      "label": "The best AI apps in 2026"
+    },
+    {
+      "href": "/blog/chatgpt-vs-claude",
+      "label": "ChatGPT vs Claude"
+    },
+    {
+      "href": "/blog/chatgpt-vs-perplexity",
+      "label": "ChatGPT vs Perplexity"
+    },
+    {
+      "href": "/quiz",
+      "label": "Take the free AI IQ test"
+    }
+  ],
+  "faq": [
+    {
+      "q": "What is the best alternative to ChatGPT?",
+      "a": "It depends on the task. Claude is the best alternative for writing and code, Gemini for working inside Google apps, Perplexity for research with citations, and Microsoft Copilot for Microsoft 365. ChatGPT remains the best all-rounder for general use."
+    },
+    {
+      "q": "Are there free ChatGPT alternatives?",
+      "a": "Yes. Claude, Gemini, and Perplexity all have capable free tiers, with Gemini especially generous. You can try the main alternatives without paying."
+    },
+    {
+      "q": "Is Claude better than ChatGPT?",
+      "a": "Claude is often better for long-form writing, careful reasoning, and code, while ChatGPT is the more versatile all-rounder with the biggest ecosystem. Many people use both."
+    },
+    {
+      "q": "Do I need a ChatGPT alternative?",
+      "a": "Usually not as a replacement — most people keep ChatGPT as their default and add one alternative for a specific job it handles less well, like Perplexity for cited research."
+    }
+  ],
+  "related": [
+    "/blog/best-ai-apps",
+    "/blog/chatgpt-vs-claude",
+    "/blog/chatgpt-vs-gemini",
+    "/blog/chatgpt-vs-perplexity",
+    "/ai-tools-comparison",
+    "/learn-claude",
+    "/quiz"
+  ]
+}

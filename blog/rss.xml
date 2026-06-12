@@ -9,7 +9,7 @@
     <description>Short, practical writing on AI fluency, prompting, AI tools, and the active-practice method that beats endless video courses.</description>
     <language>en-US</language>
     <atom:link href="https://tryiro.com/blog/rss.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Wed, 10 Jun 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 11 Jun 2026 00:00:00 GMT</lastBuildDate>
     <generator>tryiro.com</generator>
     <copyright>© 2026 Iro AI</copyright>
     <image>
@@ -367,6 +367,60 @@
       <dc:creator>Iro AI</dc:creator>
       <category>AI tools</category>
       <description>The best AI tools for students in 2026 — ChatGPT, Claude, Gemini, Perplexity and more — compared by use, plus how to use AI to study honestly without cheating.</description>
+    </item>
+    <item>
+      <title>The best ChatGPT alternatives in 2026 (and when to use each)</title>
+      <link>https://tryiro.com/blog/chatgpt-alternatives</link>
+      <guid isPermaLink="true">https://tryiro.com/blog/chatgpt-alternatives</guid>
+      <pubDate>Thu, 11 Jun 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Iro AI</dc:creator>
+      <category>AI tools</category>
+      <description>The best ChatGPT alternatives in 2026 — Claude, Gemini, Perplexity, and Copilot — compared by what each does better than ChatGPT, with a side-by-side table and how to choose.</description>
+    </item>
+    <item>
+      <title>How to use Claude: a beginner's guide for 2026</title>
+      <link>https://tryiro.com/blog/how-to-use-claude</link>
+      <guid isPermaLink="true">https://tryiro.com/blog/how-to-use-claude</guid>
+      <pubDate>Thu, 11 Jun 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Iro AI</dc:creator>
+      <category>AI tools</category>
+      <description>How to use Claude in 2026: a beginner's guide to Anthropic's AI — how to start, what it's best at, how to prompt it well, and how it compares to ChatGPT.</description>
+    </item>
+    <item>
+      <title>How to use Gemini: a beginner's guide for 2026</title>
+      <link>https://tryiro.com/blog/how-to-use-gemini</link>
+      <guid isPermaLink="true">https://tryiro.com/blog/how-to-use-gemini</guid>
+      <pubDate>Thu, 11 Jun 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Iro AI</dc:creator>
+      <category>AI tools</category>
+      <description>How to use Gemini in 2026: a beginner's guide to Google's AI — how to start, using it inside Google apps, prompting tips, and how it compares to ChatGPT.</description>
+    </item>
+    <item>
+      <title>What is RAG (retrieval-augmented generation)? Explained simply</title>
+      <link>https://tryiro.com/blog/what-is-rag</link>
+      <guid isPermaLink="true">https://tryiro.com/blog/what-is-rag</guid>
+      <pubDate>Thu, 11 Jun 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Iro AI</dc:creator>
+      <category>AI fluency</category>
+      <description>What is RAG (retrieval-augmented generation)? A plain-English explanation: how it works, why it reduces hallucinations and adds citations, real examples, and why it matters.</description>
+    </item>
+    <item>
+      <title>AI for teachers: practical, responsible ways to use it in 2026</title>
+      <link>https://tryiro.com/blog/ai-for-teachers</link>
+      <guid isPermaLink="true">https://tryiro.com/blog/ai-for-teachers</guid>
+      <pubDate>Thu, 11 Jun 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Iro AI</dc:creator>
+      <category>AI fluency</category>
+      <description>AI for teachers in 2026: practical, responsible ways to use AI for lesson planning, feedback, differentiation, and quizzes — plus how to handle student data and academic integrity.</description>
+    </item>
+    <item>
+      <title>ChatGPT vs Microsoft Copilot: which should you use in 2026?</title>
+      <link>https://tryiro.com/blog/chatgpt-vs-copilot</link>
+      <guid isPermaLink="true">https://tryiro.com/blog/chatgpt-vs-copilot</guid>
+      <pubDate>Thu, 11 Jun 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Iro AI</dc:creator>
+      <category>AI tools</category>
+      <description>ChatGPT vs Microsoft Copilot in 2026: an honest comparison of versatility vs Microsoft 365 integration, with a side-by-side table and the best pick for your workflow.</description>
     </item>
   </channel>
 </rss>

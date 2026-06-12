@@ -1,0 +1,126 @@
+{
+  "slug": "what-is-rag",
+  "order": 43,
+  "pillar": "ai-fluency",
+  "title": "What is RAG (retrieval-augmented generation)? Explained simply",
+  "lede": "RAG, or retrieval-augmented generation, is a technique that lets an AI look up real information before answering — so it's more accurate and can cite sources. Here's how it works and why it matters.",
+  "keyTakeaways": [
+    "RAG (retrieval-augmented generation) connects an AI model to a real source of information so it retrieves facts before generating an answer.",
+    "It reduces hallucinations and lets the AI cite sources and use up-to-date or private data the base model never saw.",
+    "Perplexity and many AI search and 'chat with your documents' tools use RAG.",
+    "You don't need to build RAG to benefit — knowing it exists tells you why grounded, cited answers are more trustworthy."
+  ],
+  "description": "What is RAG (retrieval-augmented generation)? A plain-English explanation: how it works, why it reduces hallucinations and adds citations, real examples, and why it matters.",
+  "keywords": [
+    "what is RAG",
+    "retrieval augmented generation",
+    "RAG explained",
+    "RAG AI meaning",
+    "what is retrieval augmented generation"
+  ],
+  "datePublished": "2026-06-11",
+  "dateModified": "2026-06-11",
+  "readingTime": 6,
+  "articleSection": "AI fluency",
+  "feedCategory": "AI fluency",
+  "feedTags": [
+    "AI fluency",
+    "RAG",
+    "AI basics"
+  ],
+  "inlineCtaAfter": 3,
+  "toc": [
+    {
+      "href": "#answer",
+      "label": "Definition"
+    },
+    {
+      "href": "#how",
+      "label": "How it works"
+    },
+    {
+      "href": "#why",
+      "label": "Why it matters"
+    },
+    {
+      "href": "#examples",
+      "label": "Examples"
+    },
+    {
+      "href": "#use",
+      "label": "What it means for you"
+    }
+  ],
+  "sections": [
+    {
+      "id": "answer",
+      "heading": "What is RAG?",
+      "html": "<p><strong>RAG (retrieval-augmented generation) is a technique that lets an AI look up real information from a trusted source before it answers, instead of relying only on what it memorized during training.</strong> The model <em>retrieves</em> relevant facts, then <em>generates</em> an answer using them. The result is more accurate, can cite sources, and can use recent or private information the base <a href=\"/blog/what-is-an-llm\">language model</a> never saw.</p>"
+    },
+    {
+      "id": "how",
+      "heading": "How does RAG work?",
+      "html": "<p>In three steps:</p><ol><li><strong>Retrieve.</strong> When you ask a question, the system searches a knowledge source — the live web, a company's documents, a database — for the most relevant passages.</li><li><strong>Augment.</strong> It adds those passages to your prompt as context.</li><li><strong>Generate.</strong> The model writes an answer grounded in that retrieved context, often with citations.</li></ol><p>So instead of answering from memory alone, the AI answers from memory <em>plus</em> fresh, relevant facts.</p>"
+    },
+    {
+      "id": "why",
+      "heading": "Why RAG matters",
+      "html": "<p>RAG fixes two big weaknesses of language models:</p><ul><li><strong>Hallucinations.</strong> Grounding answers in retrieved sources makes the AI far less likely to <a href=\"/blog/spot-ai-hallucinations\">make things up</a>.</li><li><strong>Stale or missing knowledge.</strong> A base model only knows its training data. RAG lets it use today's news or your private files without retraining.</li></ul><p>That's why a cited, grounded answer is generally more trustworthy than an unsourced one.</p>"
+    },
+    {
+      "id": "examples",
+      "heading": "Examples of RAG",
+      "html": "<ul><li><strong><a href=\"/learn-perplexity\">Perplexity</a></strong> and other AI search tools — they retrieve live web results and answer with citations.</li><li><strong>\"Chat with your documents\" tools</strong> — upload a PDF or connect a knowledge base and ask questions about it.</li><li><strong>Company assistants</strong> that answer from internal policies and docs.</li></ul><p>Anytime an AI shows you sources or answers about your own files, RAG is usually behind it.</p>"
+    },
+    {
+      "id": "use",
+      "heading": "What RAG means for you",
+      "html": "<p>You don't need to build RAG to benefit from it — but knowing it exists makes you a smarter user. When an answer comes with citations, you can check it; when it doesn't, be more skeptical. Preferring grounded, sourced tools for anything factual is part of <a href=\"/blog/what-is-ai-literacy\">AI literacy</a>. Want to sharpen the broader skill of using AI well? Start with the free <a href=\"/quiz\">AI IQ test</a>.</p>"
+    }
+  ],
+  "readNext": [
+    {
+      "href": "/blog/what-is-an-llm",
+      "label": "What is an LLM?"
+    },
+    {
+      "href": "/blog/spot-ai-hallucinations",
+      "label": "How to spot AI hallucinations"
+    },
+    {
+      "href": "/blog/what-is-agentic-ai",
+      "label": "What is agentic AI?"
+    },
+    {
+      "href": "/quiz",
+      "label": "Take the free AI IQ test"
+    }
+  ],
+  "faq": [
+    {
+      "q": "What is RAG in simple terms?",
+      "a": "RAG (retrieval-augmented generation) is when an AI looks up real information from a trusted source before answering, instead of relying only on memorized training data. It retrieves relevant facts, then generates an answer using them — making the response more accurate and citable."
+    },
+    {
+      "q": "Why is RAG used?",
+      "a": "RAG reduces hallucinations by grounding answers in real sources, and it lets an AI use up-to-date or private information the base model never saw — without retraining. That's why RAG answers often come with citations."
+    },
+    {
+      "q": "What is an example of RAG?",
+      "a": "Perplexity and other AI search tools use RAG to answer with live web citations. 'Chat with your documents' tools and company assistants that answer from internal files are also RAG."
+    },
+    {
+      "q": "What is the difference between RAG and a normal AI model?",
+      "a": "A normal language model answers only from what it learned during training. A RAG system first retrieves relevant, current information and adds it to the prompt, so the answer is grounded in real sources rather than memory alone."
+    }
+  ],
+  "related": [
+    "/blog/what-is-an-llm",
+    "/blog/spot-ai-hallucinations",
+    "/blog/what-is-agentic-ai",
+    "/blog/what-is-ai-literacy",
+    "/learn-perplexity",
+    "/glossary",
+    "/quiz"
+  ]
+}
