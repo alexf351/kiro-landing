@@ -471,6 +471,78 @@
         "students",
         "studying"
       ]
+    },
+    {
+      "id": "https://tryiro.com/blog/chatgpt-alternatives",
+      "url": "https://tryiro.com/blog/chatgpt-alternatives",
+      "title": "The best ChatGPT alternatives in 2026 (and when to use each)",
+      "summary": "The best ChatGPT alternatives are Claude for writing and code, Gemini inside Google, Perplexity for cited research, and Copilot in Microsoft 365. Here's when each one beats ChatGPT — and when to just stick with ChatGPT.",
+      "date_published": "2026-06-11T00:00:00Z",
+      "tags": [
+        "AI tools",
+        "ChatGPT",
+        "comparison"
+      ]
+    },
+    {
+      "id": "https://tryiro.com/blog/how-to-use-claude",
+      "url": "https://tryiro.com/blog/how-to-use-claude",
+      "title": "How to use Claude: a beginner's guide for 2026",
+      "summary": "Claude is an AI assistant that's especially good at writing, long documents, and code. To use it well, give it context, a role, and clear instructions — then iterate. Here's how to start and what it's best for.",
+      "date_published": "2026-06-11T00:00:00Z",
+      "tags": [
+        "AI tools",
+        "Claude",
+        "beginners"
+      ]
+    },
+    {
+      "id": "https://tryiro.com/blog/how-to-use-gemini",
+      "url": "https://tryiro.com/blog/how-to-use-gemini",
+      "title": "How to use Gemini: a beginner's guide for 2026",
+      "summary": "Gemini is Google's AI assistant, built into Docs, Gmail, and Sheets. To use it well, prompt it clearly and lean on its Google integration. Here's how to start and what it's best for.",
+      "date_published": "2026-06-11T00:00:00Z",
+      "tags": [
+        "AI tools",
+        "Gemini",
+        "beginners"
+      ]
+    },
+    {
+      "id": "https://tryiro.com/blog/what-is-rag",
+      "url": "https://tryiro.com/blog/what-is-rag",
+      "title": "What is RAG (retrieval-augmented generation)? Explained simply",
+      "summary": "RAG, or retrieval-augmented generation, is a technique that lets an AI look up real information before answering — so it's more accurate and can cite sources. Here's how it works and why it matters.",
+      "date_published": "2026-06-11T00:00:00Z",
+      "tags": [
+        "AI fluency",
+        "RAG",
+        "AI basics"
+      ]
+    },
+    {
+      "id": "https://tryiro.com/blog/ai-for-teachers",
+      "url": "https://tryiro.com/blog/ai-for-teachers",
+      "title": "AI for teachers: practical, responsible ways to use it in 2026",
+      "summary": "Teachers can use AI to cut prep time on lesson plans, feedback, and differentiation — freeing hours for actual teaching. Here are the highest-value uses and how to use it responsibly with students.",
+      "date_published": "2026-06-11T00:00:00Z",
+      "tags": [
+        "AI fluency",
+        "education",
+        "teachers"
+      ]
+    },
+    {
+      "id": "https://tryiro.com/blog/chatgpt-vs-copilot",
+      "url": "https://tryiro.com/blog/chatgpt-vs-copilot",
+      "title": "ChatGPT vs Microsoft Copilot: which should you use in 2026?",
+      "summary": "ChatGPT is the versatile all-rounder; Microsoft Copilot is AI built into Word, Excel, Outlook, and Teams. If your work lives in Microsoft 365, Copilot wins on integration. Here's the honest comparison.",
+      "date_published": "2026-06-11T00:00:00Z",
+      "tags": [
+        "AI tools",
+        "ChatGPT",
+        "Copilot"
+      ]
     }
   ]
 }

@@ -441,4 +441,64 @@
       <image:title>The best AI tools for students in 2026 (and how to use them honestly)</image:title>
     </image:image>
   </url>
+  <url>
+    <loc>https://tryiro.com/blog/chatgpt-alternatives</loc>
+    <lastmod>2026-06-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://tryiro.com/assets/og/chatgpt-alternatives.png</image:loc>
+      <image:title>The best ChatGPT alternatives in 2026 (and when to use each)</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://tryiro.com/blog/how-to-use-claude</loc>
+    <lastmod>2026-06-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://tryiro.com/assets/og/how-to-use-claude.png</image:loc>
+      <image:title>How to use Claude: a beginner's guide for 2026</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://tryiro.com/blog/how-to-use-gemini</loc>
+    <lastmod>2026-06-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://tryiro.com/assets/og/how-to-use-gemini.png</image:loc>
+      <image:title>How to use Gemini: a beginner's guide for 2026</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://tryiro.com/blog/what-is-rag</loc>
+    <lastmod>2026-06-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://tryiro.com/assets/og/what-is-rag.png</image:loc>
+      <image:title>What is RAG (retrieval-augmented generation)? Explained simply</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://tryiro.com/blog/ai-for-teachers</loc>
+    <lastmod>2026-06-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://tryiro.com/assets/og/ai-for-teachers.png</image:loc>
+      <image:title>AI for teachers: practical, responsible ways to use it in 2026</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://tryiro.com/blog/chatgpt-vs-copilot</loc>
+    <lastmod>2026-06-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://tryiro.com/assets/og/chatgpt-vs-copilot.png</image:loc>
+      <image:title>ChatGPT vs Microsoft Copilot: which should you use in 2026?</image:title>
+    </image:image>
+  </url>
 </urlset>

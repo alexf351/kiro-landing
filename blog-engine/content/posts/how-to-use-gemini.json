@@ -1,0 +1,126 @@
+{
+  "slug": "how-to-use-gemini",
+  "order": 42,
+  "pillar": "ai-tools",
+  "title": "How to use Gemini: a beginner's guide for 2026",
+  "lede": "Gemini is Google's AI assistant, built into Docs, Gmail, and Sheets. To use it well, prompt it clearly and lean on its Google integration. Here's how to start and what it's best for.",
+  "keyTakeaways": [
+    "Gemini (by Google) is an AI assistant that works on its own and directly inside Google apps like Docs, Gmail, and Sheets.",
+    "It's free to start at gemini.google.com — type a request in plain language and refine it.",
+    "Gemini shines when your work already lives in Google Workspace and for multimodal tasks.",
+    "As with any AI, verify important facts — it can be confidently wrong."
+  ],
+  "description": "How to use Gemini in 2026: a beginner's guide to Google's AI — how to start, using it inside Google apps, prompting tips, and how it compares to ChatGPT.",
+  "keywords": [
+    "how to use Gemini",
+    "how to use Google Gemini",
+    "Gemini AI beginner guide",
+    "Gemini in Google Docs",
+    "getting started with Gemini"
+  ],
+  "datePublished": "2026-06-11",
+  "dateModified": "2026-06-11",
+  "readingTime": 6,
+  "articleSection": "AI tools",
+  "feedCategory": "AI tools",
+  "feedTags": [
+    "AI tools",
+    "Gemini",
+    "beginners"
+  ],
+  "inlineCtaAfter": 3,
+  "toc": [
+    {
+      "href": "#answer",
+      "label": "Quick start"
+    },
+    {
+      "href": "#start",
+      "label": "How to start"
+    },
+    {
+      "href": "#google",
+      "label": "Inside Google apps"
+    },
+    {
+      "href": "#best",
+      "label": "What it's best at"
+    },
+    {
+      "href": "#vs",
+      "label": "Gemini vs ChatGPT"
+    }
+  ],
+  "sections": [
+    {
+      "id": "answer",
+      "heading": "How do you use Gemini?",
+      "html": "<p><strong>To use Gemini, go to gemini.google.com (or use it inside Google apps), type your request in plain language, and refine the answer.</strong> Gemini is Google's AI assistant. Its standout feature is that it works right inside Docs, Gmail, and Sheets, so you can draft, summarize, and analyze without leaving your work. It's free to start, and like any AI tool, clear prompts get far better results.</p>"
+    },
+    {
+      "id": "start",
+      "heading": "Getting started with Gemini",
+      "html": "<ol><li><strong>Go to gemini.google.com</strong> or open the app and sign in with your Google account — the free tier is plenty.</li><li><strong>Type a real request</strong>, e.g. <em>\"Summarize this email thread into 3 action items.\"</em></li><li><strong>Refine it</strong> with follow-ups until it's right.</li></ol><p>No technical skills needed — see <a href=\"/blog/how-to-learn-ai-without-coding\">learning AI without coding</a>.</p>"
+    },
+    {
+      "id": "google",
+      "heading": "Using Gemini inside Google apps",
+      "html": "<p>Gemini's biggest advantage is being where you already work. In <strong>Docs</strong> it drafts and rewrites; in <strong>Gmail</strong> it summarizes threads and drafts replies; in <strong>Sheets</strong> it helps organize and analyze. If your day runs on Google Workspace, this removes the copy-paste shuffle other tools require. Learn more at <a href=\"/learn-gemini\">learn Gemini</a>.</p>"
+    },
+    {
+      "id": "best",
+      "heading": "What is Gemini best at?",
+      "html": "<ul><li><strong>Working in Google</strong> — native Docs, Gmail, and Sheets integration.</li><li><strong>Generous free access</strong>, especially for Google users.</li><li><strong>Multimodal tasks</strong> — it handles images and media well.</li><li><strong>Everyday drafting and summarizing</strong> tied to your existing files.</li></ul>"
+    },
+    {
+      "id": "vs",
+      "heading": "Gemini vs ChatGPT: which should you use?",
+      "html": "<p>Use Gemini if your work lives in Google; use ChatGPT as the more versatile all-rounder. Many people use both. The full comparison is in <a href=\"/blog/chatgpt-vs-gemini\">ChatGPT vs Gemini</a>. Whichever you choose, the skill of prompting and judging output — <a href=\"/blog/what-is-ai-fluency\">AI fluency</a> — matters more than the tool. See where you stand with the free <a href=\"/quiz\">AI IQ test</a>, and remember to <a href=\"/blog/spot-ai-hallucinations\">verify important claims</a>.</p>"
+    }
+  ],
+  "readNext": [
+    {
+      "href": "/blog/chatgpt-vs-gemini",
+      "label": "ChatGPT vs Gemini"
+    },
+    {
+      "href": "/blog/claude-vs-gemini",
+      "label": "Claude vs Gemini"
+    },
+    {
+      "href": "/blog/how-to-write-a-prompt",
+      "label": "How to write a good AI prompt"
+    },
+    {
+      "href": "/quiz",
+      "label": "Take the free AI IQ test"
+    }
+  ],
+  "faq": [
+    {
+      "q": "How do I start using Gemini?",
+      "a": "Go to gemini.google.com or open the Gemini app, sign in with your Google account (the free tier is enough), and type a request in plain language. You can also use it directly inside Google Docs, Gmail, and Sheets."
+    },
+    {
+      "q": "Is Gemini free to use?",
+      "a": "Yes, Gemini has a generous free tier, especially handy if you already use Google apps. Paid plans add more advanced models and higher limits."
+    },
+    {
+      "q": "What is Gemini best for?",
+      "a": "Gemini is best when your work lives in Google — it's built into Docs, Gmail, and Sheets — and for multimodal tasks involving images and media."
+    },
+    {
+      "q": "Is Gemini better than ChatGPT?",
+      "a": "Gemini is better if your work is in Google apps; ChatGPT is the more versatile all-rounder. It depends on your main task, and many people use both."
+    }
+  ],
+  "related": [
+    "/blog/chatgpt-vs-gemini",
+    "/blog/claude-vs-gemini",
+    "/blog/how-to-write-a-prompt",
+    "/blog/best-ai-apps",
+    "/learn-gemini",
+    "/how-to-learn-ai",
+    "/quiz"
+  ]
+}

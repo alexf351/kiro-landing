@@ -5,7 +5,7 @@
   <link rel="self" href="https://tryiro.com/blog/atom.xml" type="application/atom+xml"/>
   <link rel="alternate" href="https://tryiro.com/blog" type="text/html"/>
   <id>https://tryiro.com/blog/atom.xml</id>
-  <updated>2026-06-10T00:00:00Z</updated>
+  <updated>2026-06-11T00:00:00Z</updated>
   <rights>© 2026 Iro AI</rights>
   <author><name>Iro AI</name><uri>https://tryiro.com</uri></author>
   <icon>https://tryiro.com/assets/favicon-64.png</icon>
@@ -399,5 +399,65 @@
     <author><name>Iro AI</name></author>
     <category term="AI tools"/>
     <summary>The best AI tools for students help you learn faster — explaining concepts, quizzing you, and checking your work — not do the work for you. Here's the shortlist and how to use them without cheating.</summary>
+  </entry>
+  <entry>
+    <title>The best ChatGPT alternatives in 2026 (and when to use each)</title>
+    <id>https://tryiro.com/blog/chatgpt-alternatives</id>
+    <link href="https://tryiro.com/blog/chatgpt-alternatives"/>
+    <updated>2026-06-11T00:00:00Z</updated>
+    <published>2026-06-11T00:00:00Z</published>
+    <author><name>Iro AI</name></author>
+    <category term="AI tools"/>
+    <summary>The best ChatGPT alternatives are Claude for writing and code, Gemini inside Google, Perplexity for cited research, and Copilot in Microsoft 365. Here's when each one beats ChatGPT — and when to just stick with ChatGPT.</summary>
+  </entry>
+  <entry>
+    <title>How to use Claude: a beginner's guide for 2026</title>
+    <id>https://tryiro.com/blog/how-to-use-claude</id>
+    <link href="https://tryiro.com/blog/how-to-use-claude"/>
+    <updated>2026-06-11T00:00:00Z</updated>
+    <published>2026-06-11T00:00:00Z</published>
+    <author><name>Iro AI</name></author>
+    <category term="AI tools"/>
+    <summary>Claude is an AI assistant that's especially good at writing, long documents, and code. To use it well, give it context, a role, and clear instructions — then iterate. Here's how to start and what it's best for.</summary>
+  </entry>
+  <entry>
+    <title>How to use Gemini: a beginner's guide for 2026</title>
+    <id>https://tryiro.com/blog/how-to-use-gemini</id>
+    <link href="https://tryiro.com/blog/how-to-use-gemini"/>
+    <updated>2026-06-11T00:00:00Z</updated>
+    <published>2026-06-11T00:00:00Z</published>
+    <author><name>Iro AI</name></author>
+    <category term="AI tools"/>
+    <summary>Gemini is Google's AI assistant, built into Docs, Gmail, and Sheets. To use it well, prompt it clearly and lean on its Google integration. Here's how to start and what it's best for.</summary>
+  </entry>
+  <entry>
+    <title>What is RAG (retrieval-augmented generation)? Explained simply</title>
+    <id>https://tryiro.com/blog/what-is-rag</id>
+    <link href="https://tryiro.com/blog/what-is-rag"/>
+    <updated>2026-06-11T00:00:00Z</updated>
+    <published>2026-06-11T00:00:00Z</published>
+    <author><name>Iro AI</name></author>
+    <category term="AI fluency"/>
+    <summary>RAG, or retrieval-augmented generation, is a technique that lets an AI look up real information before answering — so it's more accurate and can cite sources. Here's how it works and why it matters.</summary>
+  </entry>
+  <entry>
+    <title>AI for teachers: practical, responsible ways to use it in 2026</title>
+    <id>https://tryiro.com/blog/ai-for-teachers</id>
+    <link href="https://tryiro.com/blog/ai-for-teachers"/>
+    <updated>2026-06-11T00:00:00Z</updated>
+    <published>2026-06-11T00:00:00Z</published>
+    <author><name>Iro AI</name></author>
+    <category term="AI fluency"/>
+    <summary>Teachers can use AI to cut prep time on lesson plans, feedback, and differentiation — freeing hours for actual teaching. Here are the highest-value uses and how to use it responsibly with students.</summary>
+  </entry>
+  <entry>
+    <title>ChatGPT vs Microsoft Copilot: which should you use in 2026?</title>
+    <id>https://tryiro.com/blog/chatgpt-vs-copilot</id>
+    <link href="https://tryiro.com/blog/chatgpt-vs-copilot"/>
+    <updated>2026-06-11T00:00:00Z</updated>
+    <published>2026-06-11T00:00:00Z</published>
+    <author><name>Iro AI</name></author>
+    <category term="AI tools"/>
+    <summary>ChatGPT is the versatile all-rounder; Microsoft Copilot is AI built into Word, Excel, Outlook, and Teams. If your work lives in Microsoft 365, Copilot wins on integration. Here's the honest comparison.</summary>
   </entry>
 </feed>
