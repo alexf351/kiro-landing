@@ -19,7 +19,7 @@
     "AI course app 2026"
   ],
   "datePublished": "2026-05-31",
-  "dateModified": "2026-06-01",
+  "dateModified": "2026-06-13",
   "readingTime": 7,
   "articleSection": "AI fluency",
   "feedCategory": "AI learning apps",
@@ -80,6 +80,10 @@
   ],
   "readNext": [
     {
+      "href": "/blog/coursiv-alternatives",
+      "label": "More Coursiv alternatives"
+    },
+    {
       "href": "/blog/iro-ai-vs-learnova",
       "label": "Iro AI vs Learnova: which AI learning app wins?"
     },
@@ -90,10 +94,6 @@
     {
       "href": "/blog/chatgpt-vs-claude-vs-gemini",
       "label": "ChatGPT vs Claude vs Gemini in 2026"
-    },
-    {
-      "href": "/quiz",
-      "label": "Take the free AI IQ test"
     }
   ],
   "faq": [
@@ -115,6 +115,7 @@
     }
   ],
   "related": [
+    "/blog/coursiv-alternatives",
     "/blog/iro-ai-vs-learnova",
     "/blog/ai-for-beginners-30-day-plan",
     "/blog/best-free-ai-tools-2026",

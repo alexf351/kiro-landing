@@ -1,0 +1,117 @@
+{
+  "slug": "ai-trends-2026",
+  "order": 51,
+  "pillar": "ai-fluency",
+  "title": "AI trends in 2026: what's actually changing (and what to do about it)",
+  "lede": "In 2026, AI is getting more agentic, more multimodal, and woven into everyday tools — while AI fluency becomes a baseline skill. Here's what's really shifting and how to stay ahead.",
+  "keyTakeaways": [
+    "The big 2026 shifts: AI agents that take action, multimodal AI across text/image/voice, AI built into everyday apps, and stronger reasoning models.",
+    "AI fluency is becoming a baseline workplace skill — the gap is now between people who use AI well and those who don't.",
+    "The durable response isn't chasing every tool; it's building the habit of learning and directing whatever comes next.",
+    "Verification matters more than ever as AI shows up in more decisions."
+  ],
+  "description": "AI trends in 2026: agentic AI, multimodal models, AI in everyday apps, and AI fluency as a baseline skill. What's really changing — and the practical way to stay ahead.",
+  "keywords": [
+    "AI trends 2026",
+    "AI trends",
+    "future of AI 2026",
+    "what's next in AI",
+    "AI predictions 2026"
+  ],
+  "datePublished": "2026-06-13",
+  "dateModified": "2026-06-13",
+  "readingTime": 7,
+  "articleSection": "AI fluency",
+  "feedCategory": "AI fluency",
+  "feedTags": [
+    "AI fluency",
+    "AI trends",
+    "future of work"
+  ],
+  "inlineCtaAfter": 3,
+  "toc": [
+    {
+      "href": "#answer",
+      "label": "The big picture"
+    },
+    {
+      "href": "#trends",
+      "label": "5 trends"
+    },
+    {
+      "href": "#work",
+      "label": "What it means for work"
+    },
+    {
+      "href": "#do",
+      "label": "What to do"
+    }
+  ],
+  "sections": [
+    {
+      "id": "answer",
+      "heading": "What are the big AI trends in 2026?",
+      "html": "<p><strong>In 2026, AI is becoming more agentic, more multimodal, and more woven into the everyday tools you already use — while AI fluency turns into a baseline skill rather than a nice-to-have.</strong> The headline isn't a single breakthrough; it's that AI is quietly moving from a separate chatbot you visit into a capability embedded across your work and apps. That shifts the question from \"will I use AI?\" to \"how well do I use it?\"</p>"
+    },
+    {
+      "id": "trends",
+      "heading": "Five AI trends shaping 2026",
+      "html": "<ol><li><strong>Agentic AI.</strong> Tools that don't just answer but take multi-step action toward a goal. See <a href=\"/blog/what-is-agentic-ai\">what agentic AI is</a>.</li><li><strong>Multimodal everything.</strong> One model handling text, images, voice, and data, blurring the line between tools.</li><li><strong>AI inside everyday apps.</strong> AI built into your email, docs, and software instead of a separate site you open.</li><li><strong>Better reasoning.</strong> Models that work through harder, multi-step problems more reliably — though they still need checking.</li><li><strong>AI literacy goes mainstream.</strong> Schools and employers increasingly expect people to understand and use AI responsibly. See <a href=\"/blog/what-is-ai-literacy\">what AI literacy is</a>.</li></ol>"
+    },
+    {
+      "id": "work",
+      "heading": "What these trends mean for your work",
+      "html": "<p>As AI gets embedded everywhere, the advantage stops being <em>access</em> — almost everyone has access — and becomes <em>skill</em>. The people who pull ahead are the ones who can direct these tools, judge their output, and fold them into real workflows. As we covered in <a href=\"/blog/will-ai-take-your-job\">will AI take your job</a>, the risk isn't a robot replacing you; it's a colleague who uses AI well doing your work faster. More capable tools raise the payoff for knowing how to aim them.</p>"
+    },
+    {
+      "id": "do",
+      "heading": "What to do about it (the practical part)",
+      "html": "<p>You can't chase every model release — and you don't need to. The durable move is to build the meta-skill of learning and directing whatever comes next:</p><ul><li><strong>Get fluent, not just aware.</strong> Practice using AI on real tasks — see <a href=\"/blog/the-ai-fluency-pyramid\">the AI Fluency Pyramid</a>.</li><li><strong>Sharpen your judgment.</strong> As AI touches more decisions, verifying its output matters more, not less.</li><li><strong>Build a habit.</strong> A few minutes a day compounds faster than occasional deep dives.</li></ul><p>Iro AI is built for exactly this — short daily practice plus weekly AI news so you keep up without doom-scrolling. See where you stand with the free <a href=\"/quiz\">AI IQ test</a>.</p>"
+    }
+  ],
+  "readNext": [
+    {
+      "href": "/blog/what-is-agentic-ai",
+      "label": "What is agentic AI?"
+    },
+    {
+      "href": "/blog/will-ai-take-your-job",
+      "label": "Will AI take your job?"
+    },
+    {
+      "href": "/blog/ai-skills-for-2026",
+      "label": "The 7 AI skills worth learning in 2026"
+    },
+    {
+      "href": "/quiz",
+      "label": "Take the free AI IQ test"
+    }
+  ],
+  "faq": [
+    {
+      "q": "What are the biggest AI trends in 2026?",
+      "a": "The biggest shifts are agentic AI (tools that take action), multimodal AI across text, image and voice, AI built into everyday apps, stronger reasoning models, and AI literacy becoming a baseline skill at school and work."
+    },
+    {
+      "q": "How is AI changing work in 2026?",
+      "a": "AI is moving from a separate chatbot into a capability embedded across everyday tools. The advantage is shifting from having access to AI to using it well — people who can direct and judge AI tools are pulling ahead."
+    },
+    {
+      "q": "How do I keep up with AI in 2026?",
+      "a": "Don't chase every release. Build the meta-skill of learning and directing new tools: practice on real tasks, sharpen your judgment about when to trust AI, and keep a small daily habit. Weekly AI news (like Iro's) helps you stay current without doom-scrolling."
+    },
+    {
+      "q": "Is it too late to learn AI in 2026?",
+      "a": "No. Because AI is becoming a baseline skill, learning to use it well is more valuable than ever — and getting genuinely useful takes only a few weeks of short daily practice. The best time to start is now."
+    }
+  ],
+  "related": [
+    "/blog/what-is-agentic-ai",
+    "/blog/will-ai-take-your-job",
+    "/blog/ai-skills-for-2026",
+    "/blog/the-ai-fluency-pyramid",
+    "/how-to-learn-ai",
+    "/quiz",
+    "/best-ai-learning-app"
+  ]
+}

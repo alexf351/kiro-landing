@@ -1,0 +1,126 @@
+{
+  "slug": "gemini-vs-perplexity",
+  "order": 49,
+  "pillar": "ai-tools",
+  "title": "Gemini vs Perplexity: which should you use in 2026?",
+  "lede": "Gemini is Google's versatile AI assistant; Perplexity is an answer engine for research with citations. They're built for different jobs — here's when to use each.",
+  "keyTakeaways": [
+    "Gemini is a versatile AI assistant that's strongest inside Google apps; Perplexity is an answer engine best for research with citations.",
+    "Use Gemini to create, draft, and work in Google Docs/Gmail/Sheets; use Perplexity to research and verify facts.",
+    "Perplexity shows sources by default; Gemini cites some sources when it searches but is built for broader tasks.",
+    "Many people use both — Perplexity to gather sourced facts, Gemini to do the work."
+  ],
+  "description": "Gemini vs Perplexity in 2026: assistant vs answer engine. Compare strengths, citations, Google integration, and the best pick for research vs creating — plus why many use both.",
+  "keywords": [
+    "Gemini vs Perplexity",
+    "Perplexity vs Gemini",
+    "Gemini or Perplexity",
+    "is Perplexity better than Gemini",
+    "Google Gemini vs Perplexity"
+  ],
+  "datePublished": "2026-06-13",
+  "dateModified": "2026-06-13",
+  "readingTime": 6,
+  "articleSection": "AI tools",
+  "feedCategory": "AI tools",
+  "feedTags": [
+    "AI tools",
+    "Gemini",
+    "Perplexity"
+  ],
+  "inlineCtaAfter": 3,
+  "toc": [
+    {
+      "href": "#answer",
+      "label": "Short answer"
+    },
+    {
+      "href": "#table",
+      "label": "Side by side"
+    },
+    {
+      "href": "#gemini",
+      "label": "Where Gemini wins"
+    },
+    {
+      "href": "#perplexity",
+      "label": "Where Perplexity wins"
+    },
+    {
+      "href": "#choose",
+      "label": "How to choose"
+    }
+  ],
+  "sections": [
+    {
+      "id": "answer",
+      "heading": "Gemini vs Perplexity: the short answer",
+      "html": "<p><strong>Use Gemini to create and work inside Google; use Perplexity to research and verify.</strong> Gemini is Google's versatile AI assistant, built into Docs, Gmail, and Sheets — great for drafting, summarizing, and general tasks. Perplexity is an answer engine that searches the live web and answers with citations — built for research and fact-finding. They're complementary, and plenty of people use both.</p>"
+    },
+    {
+      "id": "table",
+      "heading": "Gemini vs Perplexity, side by side",
+      "html": "<div class=\"cmp-wrap\"><table class=\"cmp-table\"><thead><tr><th></th><th>Gemini</th><th>Perplexity</th></tr></thead><tbody><tr><th>Type</th><td>Versatile AI assistant</td><td>Answer engine (search + AI)</td></tr><tr><th>Best for</th><td>Creating, drafting, Google apps</td><td>Research with sources</td></tr><tr><th>Citations</th><td>Some, when it searches</td><td>Yes — inline by default</td></tr><tr><th>Lives in</th><td>Its own app + Google Docs/Gmail/Sheets</td><td>Its own app and web</td></tr><tr><th>Free tier</th><td>Generous</td><td>Capable</td></tr></tbody></table></div><p class=\"note\">Features and plans change often — check each tool. Last reviewed June 2026.</p>"
+    },
+    {
+      "id": "gemini",
+      "heading": "Where Gemini wins",
+      "html": "<ul><li><strong>Creating and doing</strong> — drafting, summarizing, brainstorming, and open-ended tasks.</li><li><strong>Google integration</strong> — it works inside Docs, Gmail, and Sheets.</li><li><strong>Multimodal</strong> — it handles images and media well, with a generous free tier.</li></ul><p>Learn it at <a href=\"/learn-gemini\">learn Gemini</a> or see <a href=\"/blog/how-to-use-gemini\">how to use Gemini</a>.</p>"
+    },
+    {
+      "id": "perplexity",
+      "heading": "Where Perplexity wins",
+      "html": "<ul><li><strong>Research</strong> — it searches the live web and cites sources you can verify.</li><li><strong>Fact-checking</strong> — inline citations make confirming claims easy.</li><li><strong>Trustworthy answers</strong> on current topics.</li></ul><p>Learn it at <a href=\"/learn-perplexity\">learn Perplexity</a> or see <a href=\"/blog/how-to-use-perplexity\">how to use Perplexity</a>.</p>"
+    },
+    {
+      "id": "choose",
+      "heading": "How to choose",
+      "html": "<ul><li><strong>Creating, drafting, working in Google →</strong> Gemini.</li><li><strong>Researching and citing sources →</strong> Perplexity.</li><li><strong>Both →</strong> research in Perplexity, then create in Gemini.</li></ul><p>See how all the major tools compare in the <a href=\"/ai-tools-comparison\">AI tools comparison</a>. And remember: directing any tool well — <a href=\"/blog/what-is-ai-fluency\">AI fluency</a> — matters more than the pick. Check yours with the free <a href=\"/quiz\">AI IQ test</a>.</p>"
+    }
+  ],
+  "readNext": [
+    {
+      "href": "/blog/chatgpt-vs-perplexity",
+      "label": "ChatGPT vs Perplexity"
+    },
+    {
+      "href": "/blog/chatgpt-vs-gemini",
+      "label": "ChatGPT vs Gemini"
+    },
+    {
+      "href": "/blog/how-to-use-perplexity",
+      "label": "How to use Perplexity"
+    },
+    {
+      "href": "/quiz",
+      "label": "Take the free AI IQ test"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Is Perplexity better than Gemini?",
+      "a": "They're built for different jobs. Perplexity is better for research and fact-finding because it cites sources; Gemini is a more versatile assistant that's strong for creating and working inside Google apps. Many people use both."
+    },
+    {
+      "q": "What is the difference between Gemini and Perplexity?",
+      "a": "Gemini is a general-purpose AI assistant, especially strong inside Google Docs, Gmail, and Sheets. Perplexity is an answer engine that searches the live web and answers with citations, built for research and verification."
+    },
+    {
+      "q": "Should I use Gemini or Perplexity for research?",
+      "a": "Perplexity is purpose-built for research because it shows sources you can check. Use it to gather sourced facts, then use Gemini to draft or organize the results. Always verify key claims."
+    },
+    {
+      "q": "Can I use Gemini and Perplexity together?",
+      "a": "Yes. A common workflow is researching with Perplexity for sourced facts, then creating in Gemini — especially if your work lives in Google apps."
+    }
+  ],
+  "related": [
+    "/blog/chatgpt-vs-perplexity",
+    "/blog/chatgpt-vs-gemini",
+    "/blog/how-to-use-perplexity",
+    "/blog/best-ai-apps",
+    "/learn-gemini",
+    "/learn-perplexity",
+    "/quiz"
+  ]
+}
