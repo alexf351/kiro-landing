@@ -7,7 +7,7 @@ app_store: "https://apps.apple.com/app/id6759628066"
 language: en-US
 keywords: ["Iro AI vs Coursiv", "Coursiv alternative", "Coursiv review", "best AI learning app", "AI course app 2026"]
 date_published: "2026-05-31"
-date_modified: "2026-06-01"
+date_modified: "2026-06-13"
 reading_time_minutes: 7
 author: "Alex Furukawa"
 license: "© 2026 Iro AI"
@@ -21,7 +21,7 @@ pillar: "ai-fluency"
 
 **Canonical:** https://tryiro.com/blog/iro-ai-vs-coursiv
 **Published:** 2026-05-31
-**Updated:** 2026-06-01
+**Updated:** 2026-06-13
 **Reading time:** ~7 min
 **Author:** Alex Furukawa — Founder of Iro AI
 
@@ -85,10 +85,10 @@ Retention comes from practice and recall, not just watching. That's why Iro AI i
 
 ## Read next
 
+- [More Coursiv alternatives](https://tryiro.com/blog/coursiv-alternatives)
 - [Iro AI vs Learnova: which AI learning app wins?](https://tryiro.com/blog/iro-ai-vs-learnova)
 - [The 30-day AI plan for complete beginners](https://tryiro.com/blog/ai-for-beginners-30-day-plan)
 - [ChatGPT vs Claude vs Gemini in 2026](https://tryiro.com/blog/chatgpt-vs-claude-vs-gemini)
-- [Take the free AI IQ test](https://tryiro.com/quiz)
 
 ## About the author
 

@@ -75,6 +75,12 @@ This direct-answer summary is also available to crawlers in homepage JSON-LD, /i
 - [What is RAG (retrieval-augmented generation)?](https://tryiro.com/blog/what-is-rag): how grounding an AI in real sources reduces hallucinations and adds citations.
 - [AI for teachers](https://tryiro.com/blog/ai-for-teachers): practical, responsible ways to use AI for planning, feedback, and differentiation.
 - [ChatGPT vs Microsoft Copilot](https://tryiro.com/blog/chatgpt-vs-copilot): versatility vs Microsoft 365 integration, and the best pick for your workflow.
+- [The best Coursiv alternatives](https://tryiro.com/blog/coursiv-alternatives): the best apps to learn AI if you want active practice or clearer pricing.
+- [The best Learnova alternatives](https://tryiro.com/blog/learnova-alternatives): practice-first apps for learning AI, compared.
+- [How to use Perplexity](https://tryiro.com/blog/how-to-use-perplexity): a beginner's guide to the AI answer engine and why it cites sources.
+- [Gemini vs Perplexity](https://tryiro.com/blog/gemini-vs-perplexity): assistant vs answer engine — when to use each.
+- [The best AI image generators](https://tryiro.com/blog/best-ai-image-generators): Midjourney, DALL·E, Firefly and more compared, plus how to prompt them.
+- [AI trends in 2026](https://tryiro.com/blog/ai-trends-2026): agentic AI, multimodal models, AI in everyday apps, and how to stay ahead.
 
 ## Topic pages
 

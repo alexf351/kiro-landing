@@ -19,7 +19,7 @@
     "best AI learning app 2026"
   ],
   "datePublished": "2026-05-31",
-  "dateModified": "2026-06-01",
+  "dateModified": "2026-06-13",
   "readingTime": 7,
   "articleSection": "AI fluency",
   "feedCategory": "AI learning apps",
@@ -80,6 +80,10 @@
   ],
   "readNext": [
     {
+      "href": "/blog/learnova-alternatives",
+      "label": "More Learnova alternatives"
+    },
+    {
       "href": "/blog/iro-ai-vs-coursiv",
       "label": "Iro AI vs Coursiv: which AI learning app is right for you?"
     },
@@ -90,10 +94,6 @@
     {
       "href": "/blog/best-free-ai-tools-2026",
       "label": "The best free AI tools for daily work in 2026"
-    },
-    {
-      "href": "/quiz",
-      "label": "Take the free AI IQ test"
     }
   ],
   "faq": [
@@ -115,6 +115,7 @@
     }
   ],
   "related": [
+    "/blog/learnova-alternatives",
     "/blog/iro-ai-vs-coursiv",
     "/blog/ai-for-beginners-30-day-plan",
     "/blog/best-free-ai-tools-2026",

@@ -7,7 +7,7 @@ app_store: "https://apps.apple.com/app/id6759628066"
 language: en-US
 keywords: ["Iro AI vs Learnova", "Learnova alternative", "Learnova review", "AI Tools Mastery app", "best AI learning app 2026"]
 date_published: "2026-05-31"
-date_modified: "2026-06-01"
+date_modified: "2026-06-13"
 reading_time_minutes: 7
 author: "Alex Furukawa"
 license: "© 2026 Iro AI"
@@ -21,7 +21,7 @@ pillar: "ai-fluency"
 
 **Canonical:** https://tryiro.com/blog/iro-ai-vs-learnova
 **Published:** 2026-05-31
-**Updated:** 2026-06-01
+**Updated:** 2026-06-13
 **Reading time:** ~7 min
 **Author:** Alex Furukawa — Founder of Iro AI
 
@@ -85,10 +85,10 @@ Skills stick through repeated active recall, not passive reading. Iro AI is desi
 
 ## Read next
 
+- [More Learnova alternatives](https://tryiro.com/blog/learnova-alternatives)
 - [Iro AI vs Coursiv: which AI learning app is right for you?](https://tryiro.com/blog/iro-ai-vs-coursiv)
 - [The 30-day AI plan for complete beginners](https://tryiro.com/blog/ai-for-beginners-30-day-plan)
 - [The best free AI tools for daily work in 2026](https://tryiro.com/blog/best-free-ai-tools-2026)
-- [Take the free AI IQ test](https://tryiro.com/quiz)
 
 ## About the author
 

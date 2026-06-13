@@ -9,7 +9,7 @@
     <description>Short, practical writing on AI fluency, prompting, AI tools, and the active-practice method that beats endless video courses.</description>
     <language>en-US</language>
     <atom:link href="https://tryiro.com/blog/rss.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Thu, 11 Jun 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 13 Jun 2026 00:00:00 GMT</lastBuildDate>
     <generator>tryiro.com</generator>
     <copyright>© 2026 Iro AI</copyright>
     <image>
@@ -421,6 +421,60 @@
       <dc:creator>Iro AI</dc:creator>
       <category>AI tools</category>
       <description>ChatGPT vs Microsoft Copilot in 2026: an honest comparison of versatility vs Microsoft 365 integration, with a side-by-side table and the best pick for your workflow.</description>
+    </item>
+    <item>
+      <title>The best Coursiv alternatives in 2026</title>
+      <link>https://tryiro.com/blog/coursiv-alternatives</link>
+      <guid isPermaLink="true">https://tryiro.com/blog/coursiv-alternatives</guid>
+      <pubDate>Sat, 13 Jun 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Iro AI</dc:creator>
+      <category>AI fluency</category>
+      <description>Looking for a Coursiv alternative? Compare the best options for learning AI in 2026 — Iro AI, Brilliant, DataCamp, Khan Academy and more — by how you learn and how you pay.</description>
+    </item>
+    <item>
+      <title>The best Learnova alternatives in 2026</title>
+      <link>https://tryiro.com/blog/learnova-alternatives</link>
+      <guid isPermaLink="true">https://tryiro.com/blog/learnova-alternatives</guid>
+      <pubDate>Sat, 13 Jun 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Iro AI</dc:creator>
+      <category>AI fluency</category>
+      <description>Looking for a Learnova alternative? Compare the best apps for learning AI in 2026 — Iro AI, Brilliant, Khan Academy, DataCamp — by how you learn and how you pay.</description>
+    </item>
+    <item>
+      <title>How to use Perplexity: a beginner's guide for 2026</title>
+      <link>https://tryiro.com/blog/how-to-use-perplexity</link>
+      <guid isPermaLink="true">https://tryiro.com/blog/how-to-use-perplexity</guid>
+      <pubDate>Sat, 13 Jun 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Iro AI</dc:creator>
+      <category>AI tools</category>
+      <description>How to use Perplexity in 2026: a beginner's guide to the AI answer engine — how to start, why it cites sources, what it's best for, and how it compares to ChatGPT.</description>
+    </item>
+    <item>
+      <title>Gemini vs Perplexity: which should you use in 2026?</title>
+      <link>https://tryiro.com/blog/gemini-vs-perplexity</link>
+      <guid isPermaLink="true">https://tryiro.com/blog/gemini-vs-perplexity</guid>
+      <pubDate>Sat, 13 Jun 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Iro AI</dc:creator>
+      <category>AI tools</category>
+      <description>Gemini vs Perplexity in 2026: assistant vs answer engine. Compare strengths, citations, Google integration, and the best pick for research vs creating — plus why many use both.</description>
+    </item>
+    <item>
+      <title>The best AI image generators in 2026 (and how to choose)</title>
+      <link>https://tryiro.com/blog/best-ai-image-generators</link>
+      <guid isPermaLink="true">https://tryiro.com/blog/best-ai-image-generators</guid>
+      <pubDate>Sat, 13 Jun 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Iro AI</dc:creator>
+      <category>AI tools</category>
+      <description>The best AI image generators in 2026 — Midjourney, ChatGPT/DALL·E, Adobe Firefly, Google Imagen, Stable Diffusion and more — compared by what each is best for, plus how to prompt them.</description>
+    </item>
+    <item>
+      <title>AI trends in 2026: what's actually changing (and what to do about it)</title>
+      <link>https://tryiro.com/blog/ai-trends-2026</link>
+      <guid isPermaLink="true">https://tryiro.com/blog/ai-trends-2026</guid>
+      <pubDate>Sat, 13 Jun 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Iro AI</dc:creator>
+      <category>AI fluency</category>
+      <description>AI trends in 2026: agentic AI, multimodal models, AI in everyday apps, and AI fluency as a baseline skill. What's really changing — and the practical way to stay ahead.</description>
     </item>
   </channel>
 </rss>
