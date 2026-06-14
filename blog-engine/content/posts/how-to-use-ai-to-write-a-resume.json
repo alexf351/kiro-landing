@@ -1,0 +1,125 @@
+{
+  "slug": "how-to-use-ai-to-write-a-resume",
+  "order": 56,
+  "pillar": "ai-fluency",
+  "title": "How to use AI to write a resume (without sounding like a robot)",
+  "lede": "AI can help you write a sharper resume in minutes — tailoring it to a job, strengthening bullet points, and beating keyword filters. The key is to guide it with real details and never let it invent anything.",
+  "keyTakeaways": [
+    "AI is great for tailoring your resume to a job, rewriting weak bullet points into strong ones, and matching keywords from the job description.",
+    "Feed it your real experience — never let AI invent jobs, titles, dates, or achievements.",
+    "Keep your own voice and verify every line; recruiters can spot generic AI filler.",
+    "Use AI to improve a resume you've drafted, not to fabricate one from nothing."
+  ],
+  "description": "How to use AI to write a resume in 2026: a step-by-step guide to tailoring it to a job, strengthening bullet points, and passing keyword filters — honestly, without fabricating anything.",
+  "keywords": [
+    "how to use AI to write a resume",
+    "AI resume",
+    "ChatGPT resume",
+    "AI resume writer",
+    "use AI for resume"
+  ],
+  "datePublished": "2026-06-14",
+  "dateModified": "2026-06-14",
+  "readingTime": 6,
+  "articleSection": "AI fluency",
+  "feedCategory": "AI fluency",
+  "feedTags": [
+    "AI fluency",
+    "careers",
+    "job hunting"
+  ],
+  "inlineCtaAfter": 2,
+  "toc": [
+    {
+      "href": "#answer",
+      "label": "Short answer"
+    },
+    {
+      "href": "#steps",
+      "label": "Step by step"
+    },
+    {
+      "href": "#prompts",
+      "label": "Prompts to use"
+    },
+    {
+      "href": "#avoid",
+      "label": "Mistakes to avoid"
+    },
+    {
+      "href": "#beyond",
+      "label": "Beyond the resume"
+    }
+  ],
+  "sections": [
+    {
+      "id": "answer",
+      "heading": "Can AI write your resume?",
+      "html": "<p><strong>AI can help you write a much sharper resume in minutes — but it works best as an editor, not an author.</strong> Give it your real experience and the job description, and it will tailor your resume, turn weak bullet points into strong ones, and match the keywords that applicant tracking systems look for. What it should never do is invent jobs, titles, dates, or achievements. Used honestly, it's like having a careful resume coach on call.</p>"
+    },
+    {
+      "id": "steps",
+      "heading": "How to use AI to write your resume, step by step",
+      "html": "<ol><li><strong>Start with your real material.</strong> Paste your current resume or a list of your actual roles, achievements, and skills.</li><li><strong>Add the job description.</strong> Give the AI the posting you're targeting so it can tailor and pull keywords.</li><li><strong>Ask it to tailor and strengthen,</strong> not invent — see the prompts below.</li><li><strong>Edit in your own voice.</strong> Cut generic phrasing and make sure every line is true.</li><li><strong>Check the keywords.</strong> Confirm the resume reflects the skills the posting asks for, naturally.</li></ol>"
+    },
+    {
+      "id": "prompts",
+      "heading": "Resume prompts that work",
+      "html": "<ul><li><code>You are a resume coach. Rewrite these bullet points to be stronger and results-focused, using my real details: [paste]</code></li><li><code>Tailor this resume to the following job description, emphasizing the most relevant experience. Do not invent anything: [resume] [job description]</code></li><li><code>List the key skills and keywords from this job description I should make sure my resume reflects: [paste]</code></li><li><code>Make this summary sharper and more specific, in a confident but plain tone: [paste]</code></li></ul><p>For the prompting fundamentals, see <a href=\"/blog/how-to-write-a-prompt\">how to write a good AI prompt</a>.</p>"
+    },
+    {
+      "id": "avoid",
+      "heading": "Mistakes to avoid",
+      "html": "<p><strong>Letting AI fabricate.</strong> Never accept invented jobs, titles, dates, or numbers — it's dishonest and easy to get caught in an interview. <strong>Keeping generic filler.</strong> Recruiters can smell \"results-driven team player synergy\" from a mile away; make it specific. <strong>Skipping the edit.</strong> Always rewrite in your own voice and verify every line. <strong>Pasting sensitive personal data</strong> you wouldn't want stored — use judgment.</p>"
+    },
+    {
+      "id": "beyond",
+      "heading": "Beyond the resume",
+      "html": "<p>The same approach works for cover letters, LinkedIn profiles, and interview prep — and learning to do it well is itself a job-market advantage. Employers increasingly value people who use AI effectively. Build that broader skill with <a href=\"/blog/how-to-use-ai-at-work\">how to use AI at work</a> and the <a href=\"/ai-job-hunting\">AI job hunting path</a>. See where your AI skills stand with the free <a href=\"/quiz\">AI IQ test</a>.</p>"
+    }
+  ],
+  "readNext": [
+    {
+      "href": "/blog/how-to-write-a-prompt",
+      "label": "How to write a good AI prompt"
+    },
+    {
+      "href": "/blog/how-to-use-ai-at-work",
+      "label": "How to use AI at work"
+    },
+    {
+      "href": "/blog/chatgpt-prompts-for-beginners",
+      "label": "15 ChatGPT prompts for beginners"
+    },
+    {
+      "href": "/quiz",
+      "label": "Take the free AI IQ test"
+    }
+  ],
+  "faq": [
+    {
+      "q": "How do I use AI to write my resume?",
+      "a": "Paste your real resume and the job description, then ask the AI to tailor it, strengthen your bullet points, and match the posting's keywords — without inventing anything. Then edit in your own voice and verify every line is true."
+    },
+    {
+      "q": "Is it okay to use AI to write a resume?",
+      "a": "Yes, as long as you use it honestly. Use AI to improve and tailor a resume based on your real experience, not to fabricate jobs, titles, or achievements. Recruiters can spot generic AI filler, so keep your own voice."
+    },
+    {
+      "q": "Can ChatGPT write my resume?",
+      "a": "ChatGPT can rewrite and tailor your resume in minutes if you give it your real experience and the job description. Treat it as an editor, not an author — review and personalize every line, and never let it invent details."
+    },
+    {
+      "q": "Will recruiters know my resume was written with AI?",
+      "a": "They may notice generic, robotic phrasing if you don't edit it. The fix is to feed AI your real details, keep your own voice, and make every bullet specific — so the resume reads like you, just sharper."
+    }
+  ],
+  "related": [
+    "/blog/how-to-write-a-prompt",
+    "/blog/how-to-use-ai-at-work",
+    "/blog/chatgpt-prompts-for-beginners",
+    "/ai-job-hunting",
+    "/how-to-learn-ai",
+    "/quiz"
+  ]
+}

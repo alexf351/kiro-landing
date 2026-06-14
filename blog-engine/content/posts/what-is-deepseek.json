@@ -1,0 +1,125 @@
+{
+  "slug": "what-is-deepseek",
+  "order": 52,
+  "pillar": "ai-tools",
+  "title": "What is DeepSeek? The low-cost AI model, explained",
+  "lede": "DeepSeek is an AI company known for powerful, low-cost, openly available models — including strong reasoning models that rival pricier rivals. Here's what it is, what it's good at, and what to weigh before using it.",
+  "keyTakeaways": [
+    "DeepSeek is an AI company (based in China) known for capable, cost-efficient models, including strong reasoning and coding models.",
+    "Many of its models are openly available, and it's free to try via the DeepSeek app and website.",
+    "It's best for budget-conscious users who want strong reasoning and coding without premium pricing.",
+    "Consider data and privacy: some organizations restrict tools from certain providers, so check your workplace's policy before using it for sensitive work."
+  ],
+  "description": "What is DeepSeek? A plain-English explainer on the low-cost AI model — what it is, what it's good at, how it compares to ChatGPT, and what to consider before using it.",
+  "keywords": [
+    "what is DeepSeek",
+    "DeepSeek AI",
+    "DeepSeek explained",
+    "is DeepSeek free",
+    "DeepSeek vs ChatGPT"
+  ],
+  "datePublished": "2026-06-14",
+  "dateModified": "2026-06-14",
+  "readingTime": 6,
+  "articleSection": "AI tools",
+  "feedCategory": "AI tools",
+  "feedTags": [
+    "AI tools",
+    "DeepSeek",
+    "AI basics"
+  ],
+  "inlineCtaAfter": 3,
+  "toc": [
+    {
+      "href": "#answer",
+      "label": "What it is"
+    },
+    {
+      "href": "#good",
+      "label": "What it's good at"
+    },
+    {
+      "href": "#use",
+      "label": "How to use it"
+    },
+    {
+      "href": "#consider",
+      "label": "What to weigh"
+    },
+    {
+      "href": "#vs",
+      "label": "DeepSeek vs ChatGPT"
+    }
+  ],
+  "sections": [
+    {
+      "id": "answer",
+      "heading": "What is DeepSeek?",
+      "html": "<p><strong>DeepSeek is an AI company, based in China, known for building powerful AI models that cost far less than many rivals — and for releasing several of them openly.</strong> Its models, including well-regarded reasoning and coding models, made headlines for matching pricier competitors at a fraction of the cost. You can use DeepSeek free through its app and website, much like ChatGPT, and developers can run several of its open models themselves.</p>"
+    },
+    {
+      "id": "good",
+      "heading": "What is DeepSeek good at?",
+      "html": "<ul><li><strong>Reasoning</strong> — its reasoning models work through multi-step problems well.</li><li><strong>Coding</strong> — a frequent strength in its model line.</li><li><strong>Cost efficiency</strong> — strong performance at low or no cost, which is its headline appeal.</li><li><strong>Openness</strong> — several models are openly available for developers to run and build on.</li></ul>"
+    },
+    {
+      "id": "use",
+      "heading": "How to use DeepSeek",
+      "html": "<p>For most people, using DeepSeek looks just like any other AI assistant: open the app or site, type a request in plain language, and refine the answer. The same prompting skills apply — give context, a role, a clear task, and the format you want. See <a href=\"/blog/how-to-write-a-prompt\">how to write a good AI prompt</a>. And as with any model, it can be confidently wrong, so <a href=\"/blog/spot-ai-hallucinations\">verify important claims</a>.</p>"
+    },
+    {
+      "id": "consider",
+      "heading": "What to consider before using DeepSeek",
+      "html": "<p>One practical note: DeepSeek is built by a China-based company, and some employers, schools, and governments restrict tools based on where data is processed. <strong>Before using it for sensitive or work data, check your organization's policy</strong> — the same caution applies to any AI tool. For general learning and personal use, it's a capable, low-cost option. Weighing trade-offs like this is part of <a href=\"/blog/what-is-ai-literacy\">AI literacy</a>.</p>"
+    },
+    {
+      "id": "vs",
+      "heading": "DeepSeek vs ChatGPT: which should you use?",
+      "html": "<p>ChatGPT is the more polished all-rounder with the biggest ecosystem; DeepSeek's draw is strong reasoning and coding at low cost. For most everyday users, ChatGPT is the easier default; DeepSeek appeals to the budget-conscious and to developers who want open models. The full breakdown is in <a href=\"/blog/chatgpt-vs-deepseek\">ChatGPT vs DeepSeek</a>, and the wider field is in <a href=\"/blog/best-ai-apps\">the best AI apps</a>. Whatever you use, the skill of directing it — <a href=\"/blog/what-is-ai-fluency\">AI fluency</a> — matters most; check yours with the free <a href=\"/quiz\">AI IQ test</a>.</p>"
+    }
+  ],
+  "readNext": [
+    {
+      "href": "/blog/chatgpt-vs-deepseek",
+      "label": "ChatGPT vs DeepSeek"
+    },
+    {
+      "href": "/blog/best-ai-apps",
+      "label": "The best AI apps in 2026"
+    },
+    {
+      "href": "/blog/chatgpt-alternatives",
+      "label": "The best ChatGPT alternatives"
+    },
+    {
+      "href": "/quiz",
+      "label": "Take the free AI IQ test"
+    }
+  ],
+  "faq": [
+    {
+      "q": "What is DeepSeek in simple terms?",
+      "a": "DeepSeek is an AI company, based in China, known for powerful, low-cost AI models — including strong reasoning and coding models — several of which are openly available. You can use it free via its app and website, similar to ChatGPT."
+    },
+    {
+      "q": "Is DeepSeek free?",
+      "a": "Yes, you can use DeepSeek for free through its app and website, and several of its models are openly available for developers. Some advanced or high-volume usage may have paid options."
+    },
+    {
+      "q": "Is DeepSeek better than ChatGPT?",
+      "a": "It depends on your priorities. DeepSeek is known for strong reasoning and coding at low cost; ChatGPT is the more polished all-rounder with a larger ecosystem. For everyday use, ChatGPT is the easier default; DeepSeek appeals to budget-conscious users and developers."
+    },
+    {
+      "q": "Is DeepSeek safe to use?",
+      "a": "For general learning and personal use it's a capable tool, but because it's built by a China-based company, some organizations restrict it over data-processing concerns. Check your workplace or school policy before using it for sensitive data — advice that applies to any AI tool."
+    }
+  ],
+  "related": [
+    "/blog/chatgpt-vs-deepseek",
+    "/blog/best-ai-apps",
+    "/blog/chatgpt-alternatives",
+    "/blog/what-is-an-llm",
+    "/ai-tools-comparison",
+    "/quiz"
+  ]
+}

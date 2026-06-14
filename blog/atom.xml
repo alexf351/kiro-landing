@@ -5,7 +5,7 @@
   <link rel="self" href="https://tryiro.com/blog/atom.xml" type="application/atom+xml"/>
   <link rel="alternate" href="https://tryiro.com/blog" type="text/html"/>
   <id>https://tryiro.com/blog/atom.xml</id>
-  <updated>2026-06-13T00:00:00Z</updated>
+  <updated>2026-06-14T00:00:00Z</updated>
   <rights>© 2026 Iro AI</rights>
   <author><name>Iro AI</name><uri>https://tryiro.com</uri></author>
   <icon>https://tryiro.com/assets/favicon-64.png</icon>
@@ -519,5 +519,55 @@
     <author><name>Iro AI</name></author>
     <category term="AI fluency"/>
     <summary>In 2026, AI is getting more agentic, more multimodal, and woven into everyday tools — while AI fluency becomes a baseline skill. Here's what's really shifting and how to stay ahead.</summary>
+  </entry>
+  <entry>
+    <title>What is DeepSeek? The low-cost AI model, explained</title>
+    <id>https://tryiro.com/blog/what-is-deepseek</id>
+    <link href="https://tryiro.com/blog/what-is-deepseek"/>
+    <updated>2026-06-14T00:00:00Z</updated>
+    <published>2026-06-14T00:00:00Z</published>
+    <author><name>Iro AI</name></author>
+    <category term="AI tools"/>
+    <summary>DeepSeek is an AI company known for powerful, low-cost, openly available models — including strong reasoning models that rival pricier rivals. Here's what it is, what it's good at, and what to weigh before using it.</summary>
+  </entry>
+  <entry>
+    <title>ChatGPT vs DeepSeek: which should you use in 2026?</title>
+    <id>https://tryiro.com/blog/chatgpt-vs-deepseek</id>
+    <link href="https://tryiro.com/blog/chatgpt-vs-deepseek"/>
+    <updated>2026-06-14T00:00:00Z</updated>
+    <published>2026-06-14T00:00:00Z</published>
+    <author><name>Iro AI</name></author>
+    <category term="AI tools"/>
+    <summary>ChatGPT is the polished all-rounder with the biggest ecosystem; DeepSeek offers strong reasoning and coding at much lower cost, with open models. Here's the honest comparison and how to choose.</summary>
+  </entry>
+  <entry>
+    <title>What is Grok? xAI's chatbot, explained</title>
+    <id>https://tryiro.com/blog/what-is-grok</id>
+    <link href="https://tryiro.com/blog/what-is-grok"/>
+    <updated>2026-06-14T00:00:00Z</updated>
+    <published>2026-06-14T00:00:00Z</published>
+    <author><name>Iro AI</name></author>
+    <category term="AI tools"/>
+    <summary>Grok is the AI assistant from xAI, built into X (formerly Twitter), known for real-time access to posts and a more conversational, irreverent style. Here's what it is and what it's good at.</summary>
+  </entry>
+  <entry>
+    <title>AI for real estate: practical ways agents can use it in 2026</title>
+    <id>https://tryiro.com/blog/ai-for-real-estate</id>
+    <link href="https://tryiro.com/blog/ai-for-real-estate"/>
+    <updated>2026-06-14T00:00:00Z</updated>
+    <published>2026-06-14T00:00:00Z</published>
+    <author><name>Iro AI</name></author>
+    <category term="AI fluency"/>
+    <summary>Real estate agents can use AI to write listings, follow up with leads, summarize market data, and handle admin — saving hours a week. Here are the highest-value uses and how to stay compliant.</summary>
+  </entry>
+  <entry>
+    <title>How to use AI to write a resume (without sounding like a robot)</title>
+    <id>https://tryiro.com/blog/how-to-use-ai-to-write-a-resume</id>
+    <link href="https://tryiro.com/blog/how-to-use-ai-to-write-a-resume"/>
+    <updated>2026-06-14T00:00:00Z</updated>
+    <published>2026-06-14T00:00:00Z</published>
+    <author><name>Iro AI</name></author>
+    <category term="AI fluency"/>
+    <summary>AI can help you write a sharper resume in minutes — tailoring it to a job, strengthening bullet points, and beating keyword filters. The key is to guide it with real details and never let it invent anything.</summary>
   </entry>
 </feed>

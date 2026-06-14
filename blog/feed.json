@@ -615,6 +615,66 @@
         "AI trends",
         "future of work"
       ]
+    },
+    {
+      "id": "https://tryiro.com/blog/what-is-deepseek",
+      "url": "https://tryiro.com/blog/what-is-deepseek",
+      "title": "What is DeepSeek? The low-cost AI model, explained",
+      "summary": "DeepSeek is an AI company known for powerful, low-cost, openly available models — including strong reasoning models that rival pricier rivals. Here's what it is, what it's good at, and what to weigh before using it.",
+      "date_published": "2026-06-14T00:00:00Z",
+      "tags": [
+        "AI tools",
+        "DeepSeek",
+        "AI basics"
+      ]
+    },
+    {
+      "id": "https://tryiro.com/blog/chatgpt-vs-deepseek",
+      "url": "https://tryiro.com/blog/chatgpt-vs-deepseek",
+      "title": "ChatGPT vs DeepSeek: which should you use in 2026?",
+      "summary": "ChatGPT is the polished all-rounder with the biggest ecosystem; DeepSeek offers strong reasoning and coding at much lower cost, with open models. Here's the honest comparison and how to choose.",
+      "date_published": "2026-06-14T00:00:00Z",
+      "tags": [
+        "AI tools",
+        "ChatGPT",
+        "DeepSeek"
+      ]
+    },
+    {
+      "id": "https://tryiro.com/blog/what-is-grok",
+      "url": "https://tryiro.com/blog/what-is-grok",
+      "title": "What is Grok? xAI's chatbot, explained",
+      "summary": "Grok is the AI assistant from xAI, built into X (formerly Twitter), known for real-time access to posts and a more conversational, irreverent style. Here's what it is and what it's good at.",
+      "date_published": "2026-06-14T00:00:00Z",
+      "tags": [
+        "AI tools",
+        "Grok",
+        "AI basics"
+      ]
+    },
+    {
+      "id": "https://tryiro.com/blog/ai-for-real-estate",
+      "url": "https://tryiro.com/blog/ai-for-real-estate",
+      "title": "AI for real estate: practical ways agents can use it in 2026",
+      "summary": "Real estate agents can use AI to write listings, follow up with leads, summarize market data, and handle admin — saving hours a week. Here are the highest-value uses and how to stay compliant.",
+      "date_published": "2026-06-14T00:00:00Z",
+      "tags": [
+        "AI fluency",
+        "real estate",
+        "AI for work"
+      ]
+    },
+    {
+      "id": "https://tryiro.com/blog/how-to-use-ai-to-write-a-resume",
+      "url": "https://tryiro.com/blog/how-to-use-ai-to-write-a-resume",
+      "title": "How to use AI to write a resume (without sounding like a robot)",
+      "summary": "AI can help you write a sharper resume in minutes — tailoring it to a job, strengthening bullet points, and beating keyword filters. The key is to guide it with real details and never let it invent anything.",
+      "date_published": "2026-06-14T00:00:00Z",
+      "tags": [
+        "AI fluency",
+        "careers",
+        "job hunting"
+      ]
     }
   ]
 }

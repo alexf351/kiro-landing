@@ -9,7 +9,7 @@
     <description>Short, practical writing on AI fluency, prompting, AI tools, and the active-practice method that beats endless video courses.</description>
     <language>en-US</language>
     <atom:link href="https://tryiro.com/blog/rss.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Sat, 13 Jun 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 14 Jun 2026 00:00:00 GMT</lastBuildDate>
     <generator>tryiro.com</generator>
     <copyright>© 2026 Iro AI</copyright>
     <image>
@@ -475,6 +475,51 @@
       <dc:creator>Iro AI</dc:creator>
       <category>AI fluency</category>
       <description>AI trends in 2026: agentic AI, multimodal models, AI in everyday apps, and AI fluency as a baseline skill. What's really changing — and the practical way to stay ahead.</description>
+    </item>
+    <item>
+      <title>What is DeepSeek? The low-cost AI model, explained</title>
+      <link>https://tryiro.com/blog/what-is-deepseek</link>
+      <guid isPermaLink="true">https://tryiro.com/blog/what-is-deepseek</guid>
+      <pubDate>Sun, 14 Jun 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Iro AI</dc:creator>
+      <category>AI tools</category>
+      <description>What is DeepSeek? A plain-English explainer on the low-cost AI model — what it is, what it's good at, how it compares to ChatGPT, and what to consider before using it.</description>
+    </item>
+    <item>
+      <title>ChatGPT vs DeepSeek: which should you use in 2026?</title>
+      <link>https://tryiro.com/blog/chatgpt-vs-deepseek</link>
+      <guid isPermaLink="true">https://tryiro.com/blog/chatgpt-vs-deepseek</guid>
+      <pubDate>Sun, 14 Jun 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Iro AI</dc:creator>
+      <category>AI tools</category>
+      <description>ChatGPT vs DeepSeek in 2026: an honest comparison of capability, cost, ecosystem, openness, and data considerations — with a side-by-side table and how to choose.</description>
+    </item>
+    <item>
+      <title>What is Grok? xAI's chatbot, explained</title>
+      <link>https://tryiro.com/blog/what-is-grok</link>
+      <guid isPermaLink="true">https://tryiro.com/blog/what-is-grok</guid>
+      <pubDate>Sun, 14 Jun 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Iro AI</dc:creator>
+      <category>AI tools</category>
+      <description>What is Grok? A plain-English explainer on xAI's chatbot — what it is, its real-time X integration, its personality, what it's good at, and how it compares to ChatGPT.</description>
+    </item>
+    <item>
+      <title>AI for real estate: practical ways agents can use it in 2026</title>
+      <link>https://tryiro.com/blog/ai-for-real-estate</link>
+      <guid isPermaLink="true">https://tryiro.com/blog/ai-for-real-estate</guid>
+      <pubDate>Sun, 14 Jun 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Iro AI</dc:creator>
+      <category>AI fluency</category>
+      <description>AI for real estate in 2026: practical ways agents can use AI for listings, lead follow-up, market summaries, and admin — plus fair-housing compliance and data cautions.</description>
+    </item>
+    <item>
+      <title>How to use AI to write a resume (without sounding like a robot)</title>
+      <link>https://tryiro.com/blog/how-to-use-ai-to-write-a-resume</link>
+      <guid isPermaLink="true">https://tryiro.com/blog/how-to-use-ai-to-write-a-resume</guid>
+      <pubDate>Sun, 14 Jun 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Iro AI</dc:creator>
+      <category>AI fluency</category>
+      <description>How to use AI to write a resume in 2026: a step-by-step guide to tailoring it to a job, strengthening bullet points, and passing keyword filters — honestly, without fabricating anything.</description>
     </item>
   </channel>
 </rss>

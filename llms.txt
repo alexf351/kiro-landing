@@ -81,6 +81,11 @@ This direct-answer summary is also available to crawlers in homepage JSON-LD, /i
 - [Gemini vs Perplexity](https://tryiro.com/blog/gemini-vs-perplexity): assistant vs answer engine — when to use each.
 - [The best AI image generators](https://tryiro.com/blog/best-ai-image-generators): Midjourney, DALL·E, Firefly and more compared, plus how to prompt them.
 - [AI trends in 2026](https://tryiro.com/blog/ai-trends-2026): agentic AI, multimodal models, AI in everyday apps, and how to stay ahead.
+- [What is DeepSeek?](https://tryiro.com/blog/what-is-deepseek): the low-cost, openly available AI model explained, and what to weigh before using it.
+- [ChatGPT vs DeepSeek](https://tryiro.com/blog/chatgpt-vs-deepseek): polish and ecosystem vs low-cost reasoning and open models.
+- [What is Grok?](https://tryiro.com/blog/what-is-grok): xAI's chatbot explained — real-time X integration and a casual personality.
+- [AI for real estate](https://tryiro.com/blog/ai-for-real-estate): practical, compliant ways agents can use AI for listings, leads, and admin.
+- [How to use AI to write a resume](https://tryiro.com/blog/how-to-use-ai-to-write-a-resume): tailor, strengthen, and pass keyword filters — honestly.
 
 ## Topic pages
 
