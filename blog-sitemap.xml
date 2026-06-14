@@ -561,4 +561,54 @@
       <image:title>AI trends in 2026: what's actually changing (and what to do about it)</image:title>
     </image:image>
   </url>
+  <url>
+    <loc>https://tryiro.com/blog/what-is-deepseek</loc>
+    <lastmod>2026-06-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://tryiro.com/assets/og/what-is-deepseek.png</image:loc>
+      <image:title>What is DeepSeek? The low-cost AI model, explained</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://tryiro.com/blog/chatgpt-vs-deepseek</loc>
+    <lastmod>2026-06-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://tryiro.com/assets/og/chatgpt-vs-deepseek.png</image:loc>
+      <image:title>ChatGPT vs DeepSeek: which should you use in 2026?</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://tryiro.com/blog/what-is-grok</loc>
+    <lastmod>2026-06-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://tryiro.com/assets/og/what-is-grok.png</image:loc>
+      <image:title>What is Grok? xAI's chatbot, explained</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://tryiro.com/blog/ai-for-real-estate</loc>
+    <lastmod>2026-06-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://tryiro.com/assets/og/ai-for-real-estate.png</image:loc>
+      <image:title>AI for real estate: practical ways agents can use it in 2026</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://tryiro.com/blog/how-to-use-ai-to-write-a-resume</loc>
+    <lastmod>2026-06-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://tryiro.com/assets/og/how-to-use-ai-to-write-a-resume.png</image:loc>
+      <image:title>How to use AI to write a resume (without sounding like a robot)</image:title>
+    </image:image>
+  </url>
 </urlset>

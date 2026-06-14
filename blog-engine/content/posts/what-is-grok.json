@@ -1,0 +1,126 @@
+{
+  "slug": "what-is-grok",
+  "order": 54,
+  "pillar": "ai-tools",
+  "title": "What is Grok? xAI's chatbot, explained",
+  "lede": "Grok is the AI assistant from xAI, built into X (formerly Twitter), known for real-time access to posts and a more conversational, irreverent style. Here's what it is and what it's good at.",
+  "keyTakeaways": [
+    "Grok is an AI assistant made by xAI (Elon Musk's company), integrated into X and available on its own app and site.",
+    "Its standout features are real-time access to X/web information and a more casual, irreverent personality.",
+    "It's best for keeping up with current conversations and trending topics; for careful work, the mainstream assistants are often steadier.",
+    "Like any AI, it can be wrong or biased, so verify anything that matters."
+  ],
+  "description": "What is Grok? A plain-English explainer on xAI's chatbot — what it is, its real-time X integration, its personality, what it's good at, and how it compares to ChatGPT.",
+  "keywords": [
+    "what is Grok",
+    "Grok AI",
+    "Grok xAI",
+    "Grok explained",
+    "Grok vs ChatGPT",
+    "is Grok free"
+  ],
+  "datePublished": "2026-06-14",
+  "dateModified": "2026-06-14",
+  "readingTime": 6,
+  "articleSection": "AI tools",
+  "feedCategory": "AI tools",
+  "feedTags": [
+    "AI tools",
+    "Grok",
+    "AI basics"
+  ],
+  "inlineCtaAfter": 3,
+  "toc": [
+    {
+      "href": "#answer",
+      "label": "What it is"
+    },
+    {
+      "href": "#features",
+      "label": "Standout features"
+    },
+    {
+      "href": "#good",
+      "label": "What it's good at"
+    },
+    {
+      "href": "#use",
+      "label": "How to use it"
+    },
+    {
+      "href": "#vs",
+      "label": "Grok vs ChatGPT"
+    }
+  ],
+  "sections": [
+    {
+      "id": "answer",
+      "heading": "What is Grok?",
+      "html": "<p><strong>Grok is an AI assistant built by xAI, Elon Musk's AI company, and integrated directly into X (formerly Twitter).</strong> It works like other chatbots — you ask, it answers — but its signature traits are real-time access to what's happening on X and the web, and a more casual, sometimes irreverent personality. You can use Grok inside X and through its own app and website.</p>"
+    },
+    {
+      "id": "features",
+      "heading": "Grok's standout features",
+      "html": "<ul><li><strong>Real-time information</strong> — it can pull in current posts and web results, so it's oriented toward what's happening now.</li><li><strong>Personality</strong> — a more conversational, less buttoned-up tone than most assistants.</li><li><strong>X integration</strong> — it lives where a lot of real-time discussion already happens.</li></ul>"
+    },
+    {
+      "id": "good",
+      "heading": "What is Grok good at?",
+      "html": "<p>Grok is handy for <strong>keeping up with current conversations</strong> — trending topics, breaking discussion, and what people are saying on X right now. Its casual tone appeals to people who find other assistants stiff. For careful, high-stakes work — long documents, precise reasoning, sensitive tasks — the mainstream assistants like <a href=\"/learn-chatgpt\">ChatGPT</a> and <a href=\"/learn-claude\">Claude</a> are often steadier choices. As always, <a href=\"/blog/spot-ai-hallucinations\">verify anything important</a>.</p>"
+    },
+    {
+      "id": "use",
+      "heading": "How to use Grok",
+      "html": "<p>Using Grok is like any assistant: ask a clear question and refine. The same prompting fundamentals apply — context, role, task, format. The one thing to lean on is its real-time strength: it's well suited to \"what's happening with X right now\" questions. For the prompting basics that work everywhere, see <a href=\"/blog/how-to-write-a-prompt\">how to write a good AI prompt</a>.</p>"
+    },
+    {
+      "id": "vs",
+      "heading": "Grok vs ChatGPT: which should you use?",
+      "html": "<p>Use Grok for real-time, X-flavored questions and a casual vibe; use ChatGPT as the more polished, versatile all-rounder for general work. Many people keep ChatGPT as a default and reach for Grok when they want a live read on a trending topic. See the wider field in <a href=\"/blog/best-ai-apps\">the best AI apps</a> and <a href=\"/blog/chatgpt-alternatives\">ChatGPT alternatives</a>. Whatever you use, directing it well — <a href=\"/blog/what-is-ai-fluency\">AI fluency</a> — is the real skill. Check yours with the free <a href=\"/quiz\">AI IQ test</a>.</p>"
+    }
+  ],
+  "readNext": [
+    {
+      "href": "/blog/best-ai-apps",
+      "label": "The best AI apps in 2026"
+    },
+    {
+      "href": "/blog/chatgpt-alternatives",
+      "label": "The best ChatGPT alternatives"
+    },
+    {
+      "href": "/blog/what-is-an-llm",
+      "label": "What is an LLM?"
+    },
+    {
+      "href": "/quiz",
+      "label": "Take the free AI IQ test"
+    }
+  ],
+  "faq": [
+    {
+      "q": "What is Grok in simple terms?",
+      "a": "Grok is an AI assistant made by xAI (Elon Musk's company) and built into X (formerly Twitter). It works like other chatbots but is known for real-time access to X and the web and a more casual, irreverent personality."
+    },
+    {
+      "q": "Is Grok free?",
+      "a": "Grok is available inside X and via its own app and site; access and limits depend on your plan and whether you have an X subscription. Check the current options, as they change."
+    },
+    {
+      "q": "What is Grok good for?",
+      "a": "Grok is good for keeping up with current conversations and trending topics on X, thanks to its real-time access, and for people who prefer a casual tone. For careful, high-stakes work, mainstream assistants like ChatGPT and Claude are often steadier."
+    },
+    {
+      "q": "Is Grok better than ChatGPT?",
+      "a": "They have different strengths. Grok leans into real-time X information and personality; ChatGPT is the more polished, versatile all-rounder. Many people use ChatGPT as a default and Grok for live, trending questions."
+    }
+  ],
+  "related": [
+    "/blog/best-ai-apps",
+    "/blog/chatgpt-alternatives",
+    "/blog/what-is-an-llm",
+    "/blog/chatgpt-vs-deepseek",
+    "/ai-tools-comparison",
+    "/quiz"
+  ]
+}

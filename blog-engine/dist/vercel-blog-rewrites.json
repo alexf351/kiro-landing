@@ -223,6 +223,26 @@
     {
       "source": "/blog/ai-trends-2026",
       "destination": "/blog/ai-trends-2026.html"
+    },
+    {
+      "source": "/blog/what-is-deepseek",
+      "destination": "/blog/what-is-deepseek.html"
+    },
+    {
+      "source": "/blog/chatgpt-vs-deepseek",
+      "destination": "/blog/chatgpt-vs-deepseek.html"
+    },
+    {
+      "source": "/blog/what-is-grok",
+      "destination": "/blog/what-is-grok.html"
+    },
+    {
+      "source": "/blog/ai-for-real-estate",
+      "destination": "/blog/ai-for-real-estate.html"
+    },
+    {
+      "source": "/blog/how-to-use-ai-to-write-a-resume",
+      "destination": "/blog/how-to-use-ai-to-write-a-resume.html"
     }
   ]
 }
