@@ -620,7 +620,7 @@ nav .wrap{display:flex;align-items:center;justify-content:space-between}
 .quiz-banner-meta{font-family:'JetBrains Mono',monospace;font-size:10.5px;letter-spacing:.18em;color:var(--accent);text-transform:uppercase;display:block;margin-bottom:10px}
 @media(max-width:680px){.quiz-banner{flex-direction:column;align-items:flex-start}}
 /* ===== Ask Iro — AI coach module (design_handoff_ai_coach) ===== */
-.coach{position:relative;padding:clamp(80px,11vh,140px) 0}
+section.coach{position:relative;padding:clamp(80px,11vh,140px) 0}
 .coach-grid{display:grid;grid-template-columns:1fr 1.04fr;gap:clamp(40px,5vw,76px);align-items:center;max-width:1080px;margin:0 auto}
 .coach-copy{max-width:480px}
 .coach-pill{margin-bottom:24px;text-transform:none;letter-spacing:.04em}
@@ -724,6 +724,8 @@ nav .wrap{display:flex;align-items:center;justify-content:space-between}
 .uni-bubble-box::after{content:'';position:absolute;left:50%;top:100%;transform:translateX(-50%);border:7px solid transparent;border-top-color:rgba(12,16,26,.97)}
 .uni-bubble.swapping .uni-bubble-box{opacity:0;transform:translateY(5px)}
 @media(max-width:560px){.uni-bubble{max-width:min(220px,68vw)}.uni-bubble-box{font-size:12px;padding:9px 12px}}
+/* On mobile the skill-tree node ring is compressed, so the mascot speech bubble collides with the surrounding nodes — hide it there and keep it as a desktop delight. */
+@media(max-width:768px){.uni-bubble{display:none}}
 @media(prefers-reduced-motion:reduce){.uni-bubble-box{transition:none}.uni-bubble.swapping .uni-bubble-box{opacity:1;transform:none}}
 .review-big{position:relative;display:flex;flex-direction:column;padding:40px 38px;border-radius:20px;
   background:var(--surface);border:1px solid var(--line);overflow:hidden}
