@@ -54,7 +54,7 @@ This is where the two apps differ most, and it's worth being clear-eyed about.
 
 **Coursiv** typically uses an introductory offer that then renews automatically as a recurring multi-week subscription. That model works fine if you track renewal dates — but auto-renewal terms are the most common thing reviewers say caught them off guard, so read the fine print before you subscribe.
 
-**Iro AI** keeps it simple: Pro is one annual price of **$49.99/year** (about **$0.96/week**) with a **7-day free trial**, and there's a genuinely free way to start with the AI IQ test. One price, one renewal date, no math.
+**Iro AI** keeps it simple: Pro is one annual price of **$59.99/year** (about **$5/month**) with a **7-day free trial**, and there's a genuinely free way to start with the AI IQ test. One price, one renewal date, no math.
 
 ## Which one should you choose?
 
@@ -73,7 +73,7 @@ Yes, especially if you learn by doing. Coursiv is built around guided lessons in
 
 **How much does Coursiv cost vs Iro AI?**
 
-Coursiv typically uses an introductory offer that renews as a recurring multi-week subscription, so check the current terms. Iro AI Pro is $49.99/year (about $0.96/week) with a 7-day free trial, and you can start free with the AI IQ test.
+Coursiv typically uses an introductory offer that renews as a recurring multi-week subscription, so check the current terms. Iro AI Pro is $59.99/year (about $5/month) with a 7-day free trial, and you can start free with the AI IQ test.
 
 **Does Coursiv have a free trial?**
 

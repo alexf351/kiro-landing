@@ -117,8 +117,8 @@ Two columns. Left: gold "GET CERTIFIED" eyebrow, headline "Finish a path. Earn a
 ### 6. Pricing (`#pricing`)
 3 cards (`.price-grid`, `repeat(3,1fr)`, max 1040px):
 - **Free** — $0 forever; 54 free lessons · 5 duels · 3 hearts · Beginner prompt library; ghost "Download free".
-- **Pro Weekly** — $9.99/week; "Billed weekly, no commitment"; full Pro feature list; ghost "Get Pro Weekly".
-- **Pro Yearly** (highlighted `.pro` — cyan ring + glow + "Best value · save 90%" badge) — **$0.96/week**; "Billed $49.99/year. Starts with a 7-day free trial."; full Pro feature list; primary "Start 7-day free trial".
+- **Pro Monthly** — $9.99/month; "Billed monthly, no commitment"; full Pro feature list; ghost "Get Pro Monthly".
+- **Pro Yearly** (highlighted `.pro` — cyan ring + glow + "Best value · Save 50%" badge) — **$5/month**; "Billed $59.99/year. Starts with a 7-day free trial."; full Pro feature list; primary "Start 7-day free trial".
 - Pro features (both): Everything in Free + All 345 lessons across 18 paths · Prompt Lab with AI grading · Full prompt library · Unlimited duels & hearts.
 - Stacks to 1 column ≤860px.
 

@@ -114,7 +114,7 @@ NOT SURE WHERE YOU STAND?
 Take the free AI IQ Test — 10 questions, about two minutes — and get a personalized learning path.
 
 FREE TO START
-Learn free, forever. Iro Pro unlocks every lesson, the Prompt Lab, unlimited duels, and weekly news: $49.99/year (about $0.96/week) with a 7-day free trial, or $9.99/week. Cancel anytime.
+Learn free, forever. Iro Pro unlocks every lesson, the Prompt Lab, unlimited duels, and weekly news: $59.99/year (about $5/month) with a 7-day free trial, or $9.99/month. Cancel anytime.
 
 Download Iro and turn AI from a novelty into your edge.
 ```
