@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" data-motion="full">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Iro AI — Ask Iro coach module (design reference)</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@400..900&family=Outfit:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="coach.css"/>
+</head>
+<body>
+
+<!-- ============ AI COACH ============ -->
+<section class="coach" id="coach" data-screen-label="AI coach">
+  <div class="wrap">
+    <div class="coach-grid">
+      <div class="coach-copy">
+        <span class="pill coach-pill"><span class="dot"></span>Pro · New</span>
+        <h2 class="coach-h">Learn faster with your <span class="accent">personal AI coach</span></h2>
+        <p class="coach-sub">Ask Iro to explain mistakes, break down confusing concepts, and turn every lesson into guided practice.</p>
+        <ul class="coach-pts">
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="m8.5 12 2.5 2.5 4.5-5"/></svg><span>Get the <b>why</b> behind every graded answer</span></li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="m8.5 12 2.5 2.5 4.5-5"/></svg><span>Pop quizzes that adapt to where you're weak</span></li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="m8.5 12 2.5 2.5 4.5-5"/></svg><span>Available the second a lesson trips you up</span></li>
+        </ul>
+        <a class="btn btn-primary btn-lg" href="https://apps.apple.com/app/id6759628066">Try Iro as your AI coach</a>
+      </div>
+
+      <div class="coach-stage">
+        <div class="coach-chat" id="coachChat">
+          <div class="cc-head">
+            <span class="cc-ava"><img src="assets/kiro-app-icon-256.png" alt="Iro coach"/><span class="cc-pulse"></span></span>
+            <span class="cc-id">
+              <b>Iro</b>
+              <span class="cc-status"><i></i> AI Coach · online</span>
+            </span>
+            <span class="cc-tag">Pro</span>
+          </div>
+
+          <!-- Static fallback thread (mirrors sequence 1). The script clears this
+               and renders the live, sequenced conversation on scroll into view.
+               Under prefers-reduced-motion the script bails and this is shown as-is. -->
+          <div class="cc-body" id="ccBody">
+            <div class="cc-row coach"><img class="cc-mava" src="assets/kiro-app-icon-256.png" alt=""/><div class="cc-bub">Quick check &mdash; what would improve this prompt most?</div></div>
+            <div class="cc-row coach"><span class="cc-mava-sp"></span><div class="cc-card"><div class="cc-prompt"><span class="cc-prompt-lab">The prompt</span><span class="cc-prompt-txt">&ldquo;Make this landing page better.&rdquo;</span></div></div></div>
+            <div class="cc-row coach"><span class="cc-mava-sp"></span><div class="cc-card"><div class="cc-quiz"><button class="cc-opt locked correct" type="button"><span class="k">A</span><span class="t">Add audience, goal, and constraints</span><span class="res">&#10003;</span></button><button class="cc-opt locked dim" type="button"><span class="k">B</span><span class="t">Make it longer</span></button><button class="cc-opt locked dim" type="button"><span class="k">C</span><span class="t">Use more emojis</span></button></div></div></div>
+            <div class="cc-row coach"><img class="cc-mava" src="assets/kiro-app-icon-256.png" alt=""/><div class="cc-bub">Exactly. <b>&ldquo;Better&rdquo;</b> is too vague. Strong prompts tell the AI who it&rsquo;s helping, what outcome matters, and what constraints to follow.</div></div>
+            <div class="cc-row coach"><span class="cc-mava-sp"></span><div class="cc-card"><div class="cc-ba"><div class="cc-ba-row before"><span class="cc-ba-lab">Before</span><span class="cc-ba-txt">Make this landing page better.</span></div><div class="cc-ba-row after"><span class="cc-ba-lab">After</span><span class="cc-ba-txt">Act as a conversion strategist. Rewrite this hero for busy founders. Keep it under 12 words and make the outcome specific.</span></div></div></div></div>
+          </div>
+
+          <div class="cc-input">
+            <div class="cc-chips" id="ccChips"></div>
+            <div class="cc-field">
+              <span class="cc-ph">Ask Iro anything<span class="cc-cur"></span></span>
+              <button class="cc-send" type="button" aria-label="Send"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script src="coach.js"></script>
+</body>
+</html>
