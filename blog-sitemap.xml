@@ -611,4 +611,14 @@
       <image:title>How to use AI to write a resume (without sounding like a robot)</image:title>
     </image:image>
   </url>
+  <url>
+    <loc>https://tryiro.com/blog/average-ai-literacy-score</loc>
+    <lastmod>2026-06-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://tryiro.com/assets/og/average-ai-literacy-score.png</image:loc>
+      <image:title>We tested AI literacy on 50 people. The average score was 5/10.</image:title>
+    </image:image>
+  </url>
 </urlset>

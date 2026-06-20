@@ -1,0 +1,88 @@
+{
+  "slug": "average-ai-literacy-score",
+  "order": 57,
+  "pillar": "ai-fluency",
+  "title": "We tested AI literacy on 50 people. The average score was 5/10.",
+  "lede": "We pulled the results from the first 50 completions of our free AI IQ test. The average score was 5.2 out of 10, the median was 5, and 56% of people scored 5 or below. Here's the full breakdown of how AI-literate people actually are — and why most overestimate it.",
+  "keyTakeaways": [
+    "Across the first 50 AI IQ tests, the average score was 5.2/10 and the median was 5/10 — most people land right in the middle.",
+    "56% of people scored 5 or below; only 22% scored 8 or higher. Strong AI literacy is still the exception, not the norm.",
+    "Scores spanned the full range (0 to 10), which suggests AI literacy is highly uneven — some people are fluent, many are still guessing.",
+    "This is early data (50 completions from 27 people, self-selected), not a representative study — but the direction is clear: there's a big gap between using AI casually and actually being fluent."
+  ],
+  "description": "What's the average score on an AI literacy test? Across our first 50 AI IQ tests the average was 5.2/10 and 56% scored 5 or below. See the full score distribution and what it means.",
+  "keywords": [
+    "average AI literacy score",
+    "how AI literate is the average person",
+    "AI literacy test results",
+    "average AI IQ test score",
+    "how good are people at AI",
+    "AI literacy statistics"
+  ],
+  "datePublished": "2026-06-20",
+  "dateModified": "2026-06-20",
+  "readingTime": 5,
+  "articleSection": "AI fluency",
+  "feedCategory": "AI fluency",
+  "feedTags": [
+    "AI fluency",
+    "AI literacy",
+    "data"
+  ],
+  "inlineCtaAfter": 2,
+  "toc": [
+    { "href": "#finding", "label": "The headline finding" },
+    { "href": "#distribution", "label": "Full score distribution" },
+    { "href": "#meaning", "label": "What it means" },
+    { "href": "#method", "label": "About this data" },
+    { "href": "#yourscore", "label": "Find your score" }
+  ],
+  "sections": [
+    {
+      "id": "finding",
+      "heading": "The headline finding: the average score is 5.2/10",
+      "html": "<p><strong>Across the first 50 completions of our free <a href=\"/quiz\">AI IQ test</a>, the average score was 5.2 out of 10 and the median was 5.</strong> In other words, the typical person gets about half of a basic AI-literacy quiz right.</p><p>That number is lower than most people would guess about themselves. Nearly everyone has used ChatGPT or a similar tool by now, so it's easy to assume that familiarity equals fluency. The scores say otherwise: using AI occasionally and understanding how to use it well are two different things.</p><blockquote>56% of people scored 5 or below. Only 22% scored 8 or higher.</blockquote>"
+    },
+    {
+      "id": "distribution",
+      "heading": "The full score distribution",
+      "html": "<p>Here's how all 50 completions broke down by score. The spread is wide — people landed everywhere from 0 to a perfect 10 — but the bulk clustered in the 3–7 range (the middle 50% of all scores).</p><table class=\"cmp-table\"><thead><tr><th>Score band</th><th>Completions</th><th>Share</th></tr></thead><tbody><tr><th>0–3 (struggling)</th><td>15</td><td>30%</td></tr><tr><th>4–5 (middle)</th><td>13</td><td>26%</td></tr><tr><th>6–7 (solid)</th><td>11</td><td>22%</td></tr><tr><th>8–9 (strong)</th><td>7</td><td>14%</td></tr><tr><th>10 (perfect)</th><td>4</td><td>8%</td></tr></tbody></table><p>A few things stand out. The single most common score was a tie between 3 and 4 (seven completions each), the distribution has a long tail of low scores (0–1 alone accounted for seven completions), and a small but real group aced it — four people scored a perfect 10.</p>"
+    },
+    {
+      "id": "meaning",
+      "heading": "What it means: most people overestimate their AI literacy",
+      "html": "<p>The takeaway isn't that people are bad at AI — it's that <strong>AI literacy is uneven and most people are closer to the beginning than they think.</strong> A score of 5/10 means you've picked up the basics by osmosis but have real gaps: things like knowing when a model is likely to hallucinate, choosing the right tool for a task, or writing a prompt that actually constrains the output.</p><p>This matches what we see in the lessons themselves. The jump from \"I've used ChatGPT\" to \"I can reliably get useful, trustworthy results\" is exactly the gap that separates the 5/10 crowd from the 8+ crowd. It's also a learnable gap — these are skills, not talent.</p><p>The wide spread (0 to 10) is its own signal: AI fluency is becoming a real dividing line. Some people have genuinely leveled up, while many are still guessing — and the distance between those two groups is growing.</p>"
+    },
+    {
+      "id": "method",
+      "heading": "About this data (the honest version)",
+      "html": "<p>We believe in being upfront about what this is and isn't:</p><ul><li><strong>Sample:</strong> the first 50 completed quizzes, from 27 unique people, since we began tracking in March 2026.</li><li><strong>The test:</strong> the Iro <a href=\"/quiz\">AI IQ test</a> — 10 questions spanning prompting, AI tools, and judgment, scored 0–10.</li><li><strong>Stats:</strong> average 5.2/10, median 5/10, full range 0–10, middle 50% of scores between 3 and 7.</li><li><strong>What it is not:</strong> a representative study. Quiz-takers are self-selected (people curious enough to test themselves), the sample is small, and it will shift as more people take it.</li></ul><p>We'll refresh these numbers as the sample grows. Treat this as an early, honest snapshot — not a peer-reviewed result.</p>"
+    },
+    {
+      "id": "yourscore",
+      "heading": "Find out where you land",
+      "html": "<p>The fastest way to see your own AI literacy is to take the test — it's free, about two minutes, no signup, and you get a personalized result with the topics you're weakest on.</p><p>If you score below the 5.2 average, that's not a problem — it's a starting point. <strong>Iro</strong> is built to close exactly these gaps: short, gamified daily lessons that take you from \"I've used ChatGPT\" to genuinely fluent across ChatGPT, Claude, Gemini, Perplexity, prompting, and more. Most people only need about five minutes a day.</p>"
+    }
+  ],
+  "readNext": [
+    { "href": "/quiz", "label": "Take the free AI IQ test" },
+    { "href": "/blog/what-is-ai-fluency", "label": "What is AI fluency?" },
+    { "href": "/become-ai-fluent", "label": "How to become AI fluent" },
+    { "href": "/blog/the-ai-fluency-pyramid", "label": "The AI fluency pyramid" }
+  ],
+  "faq": [
+    { "q": "What is the average score on an AI literacy test?", "a": "Across the first 50 completions of the Iro AI IQ test, the average score was 5.2 out of 10 and the median was 5. About 56% of people scored 5 or below, and only 22% scored 8 or higher." },
+    { "q": "How AI literate is the average person?", "a": "Based on this early data, the average person scores around the middle — about 5/10 on a basic AI literacy test. Most people have used AI tools casually but have real gaps in prompting, tool choice, and judging when AI output is trustworthy." },
+    { "q": "Is a 5 out of 10 on an AI literacy test good?", "a": "It's exactly average in this dataset. A 5/10 means you've picked up the basics but have clear room to grow — typically around knowing when models hallucinate, choosing the right tool, and writing prompts that constrain the output. Those are all learnable skills." },
+    { "q": "How was this AI literacy data collected?", "a": "From the first 50 completed Iro AI IQ tests (27 unique people) since March 2026. The test is 10 questions scored 0–10. It is early, self-selected data — an honest snapshot, not a representative study — and we'll update it as the sample grows." },
+    { "q": "How can I test and improve my AI literacy?", "a": "Take the free Iro AI IQ test to see your score and weakest topics, then build the gaps with short daily lessons in the Iro app. It's designed to move you from casual AI use to genuine fluency in about five minutes a day." }
+  ],
+  "related": [
+    "/quiz",
+    "/blog/what-is-ai-fluency",
+    "/become-ai-fluent",
+    "/blog/the-ai-fluency-pyramid",
+    "/best-ai-learning-app",
+    "/how-to-learn-ai"
+  ]
+}

@@ -5,7 +5,7 @@
   <link rel="self" href="https://tryiro.com/blog/atom.xml" type="application/atom+xml"/>
   <link rel="alternate" href="https://tryiro.com/blog" type="text/html"/>
   <id>https://tryiro.com/blog/atom.xml</id>
-  <updated>2026-06-14T00:00:00Z</updated>
+  <updated>2026-06-20T00:00:00Z</updated>
   <rights>© 2026 Iro AI</rights>
   <author><name>Iro AI</name><uri>https://tryiro.com</uri></author>
   <icon>https://tryiro.com/assets/favicon-64.png</icon>
@@ -569,5 +569,15 @@
     <author><name>Iro AI</name></author>
     <category term="AI fluency"/>
     <summary>AI can help you write a sharper resume in minutes — tailoring it to a job, strengthening bullet points, and beating keyword filters. The key is to guide it with real details and never let it invent anything.</summary>
+  </entry>
+  <entry>
+    <title>We tested AI literacy on 50 people. The average score was 5/10.</title>
+    <id>https://tryiro.com/blog/average-ai-literacy-score</id>
+    <link href="https://tryiro.com/blog/average-ai-literacy-score"/>
+    <updated>2026-06-20T00:00:00Z</updated>
+    <published>2026-06-20T00:00:00Z</published>
+    <author><name>Iro AI</name></author>
+    <category term="AI fluency"/>
+    <summary>We pulled the results from the first 50 completions of our free AI IQ test. The average score was 5.2 out of 10, the median was 5, and 56% of people scored 5 or below. Here's the full breakdown of how AI-literate people actually are — and why most overestimate it.</summary>
   </entry>
 </feed>

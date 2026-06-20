@@ -243,6 +243,10 @@
     {
       "source": "/blog/how-to-use-ai-to-write-a-resume",
       "destination": "/blog/how-to-use-ai-to-write-a-resume.html"
+    },
+    {
+      "source": "/blog/average-ai-literacy-score",
+      "destination": "/blog/average-ai-literacy-score.html"
     }
   ]
 }

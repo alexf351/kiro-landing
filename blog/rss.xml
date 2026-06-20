@@ -9,7 +9,7 @@
     <description>Short, practical writing on AI fluency, prompting, AI tools, and the active-practice method that beats endless video courses.</description>
     <language>en-US</language>
     <atom:link href="https://tryiro.com/blog/rss.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Sun, 14 Jun 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 20 Jun 2026 00:00:00 GMT</lastBuildDate>
     <generator>tryiro.com</generator>
     <copyright>© 2026 Iro AI</copyright>
     <image>
@@ -520,6 +520,15 @@
       <dc:creator>Iro AI</dc:creator>
       <category>AI fluency</category>
       <description>How to use AI to write a resume in 2026: a step-by-step guide to tailoring it to a job, strengthening bullet points, and passing keyword filters — honestly, without fabricating anything.</description>
+    </item>
+    <item>
+      <title>We tested AI literacy on 50 people. The average score was 5/10.</title>
+      <link>https://tryiro.com/blog/average-ai-literacy-score</link>
+      <guid isPermaLink="true">https://tryiro.com/blog/average-ai-literacy-score</guid>
+      <pubDate>Sat, 20 Jun 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Iro AI</dc:creator>
+      <category>AI fluency</category>
+      <description>What's the average score on an AI literacy test? Across our first 50 AI IQ tests the average was 5.2/10 and 56% scored 5 or below. See the full score distribution and what it means.</description>
     </item>
   </channel>
 </rss>
