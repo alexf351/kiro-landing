@@ -19,7 +19,7 @@
     "learn AI without programming"
   ],
   "datePublished": "2026-06-04",
-  "dateModified": "2026-06-04",
+  "dateModified": "2026-06-20",
   "readingTime": 7,
   "articleSection": "AI fluency",
   "feedCategory": "AI fluency",
@@ -121,6 +121,10 @@
     {
       "q": "What is the best way to learn AI as a non-technical person?",
       "a": "Pick one tool, learn to prompt, and practice on real tasks a few minutes a day. A gamified app like Iro AI structures this into short lessons so you always know what to learn next."
+    },
+    {
+      "q": "How does my AI skill compare to the average person?",
+      "a": "Probably closer than you fear. In our early data the <a href=\"/blog/average-ai-literacy-score\">average score on a basic AI literacy test was about 5/10</a> — most people are still learning, no coding required. Here is the path to <a href=\"/become-ai-fluent\">becoming AI fluent</a> from a non-technical start."
     }
   ],
   "related": [
@@ -131,6 +135,8 @@
     "/blog/ai-for-beginners-30-day-plan",
     "/learn-chatgpt",
     "/best-ai-learning-app",
-    "/quiz"
+    "/quiz",
+    "/blog/average-ai-literacy-score",
+    "/become-ai-fluent"
   ]
 }

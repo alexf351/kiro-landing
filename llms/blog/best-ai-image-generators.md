@@ -7,7 +7,7 @@ app_store: "https://apps.apple.com/app/id6759628066"
 language: en-US
 keywords: ["best AI image generators", "best AI image generator", "AI image generators 2026", "AI art generators", "text to image AI"]
 date_published: "2026-06-13"
-date_modified: "2026-06-13"
+date_modified: "2026-06-20"
 reading_time_minutes: 7
 author: "Alex Furukawa"
 license: "© 2026 Iro AI"
@@ -21,6 +21,7 @@ pillar: "ai-tools"
 
 **Canonical:** https://tryiro.com/blog/best-ai-image-generators
 **Published:** 2026-06-13
+**Updated:** 2026-06-20
 **Reading time:** ~7 min
 **Author:** Alex Furukawa — Founder of Iro AI
 
@@ -73,6 +74,10 @@ Describe the subject, style, composition, lighting, and key details — for exam
 **Can I use AI-generated images commercially?**
 
 It varies by tool. Some, like Adobe Firefly, are designed for commercial use; others have restrictions. Always check the current licensing terms before using AI images in paid or published work.
+
+**How do I get better at writing AI image prompts?**
+
+Practice deliberately — vary one element at a time (subject, style, lighting, composition) and learn what each does. Prompting is a learnable skill across text and image tools; you can build it in about 5 minutes a day on the way to broader AI fluency.
 
 ## Read next
 

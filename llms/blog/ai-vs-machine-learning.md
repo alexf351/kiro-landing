@@ -7,7 +7,7 @@ app_store: "https://apps.apple.com/app/id6759628066"
 language: en-US
 keywords: ["AI vs machine learning", "machine learning vs deep learning", "difference between AI and machine learning", "AI vs ML vs deep learning", "what is machine learning"]
 date_published: "2026-06-10"
-date_modified: "2026-06-10"
+date_modified: "2026-06-20"
 reading_time_minutes: 6
 author: "Alex Furukawa"
 license: "© 2026 Iro AI"
@@ -21,6 +21,7 @@ pillar: "ai-fluency"
 
 **Canonical:** https://tryiro.com/blog/ai-vs-machine-learning
 **Published:** 2026-06-10
+**Updated:** 2026-06-20
 **Reading time:** ~6 min
 **Author:** Alex Furukawa — Founder of Iro AI
 
@@ -72,6 +73,10 @@ Both. ChatGPT is an AI application built using deep learning (a kind of machine 
 **Do I need to understand machine learning to use AI?**
 
 No. Using AI tools well is about clear prompting and good judgment, not the underlying math. A basic grasp helps you understand why AI can be biased or wrong, but you don't need to study machine learning to be effective.
+
+**Do I need to learn machine learning to get good at using AI?**
+
+No. Knowing the difference is useful context, but using AI well is a separate, more practical skill — AI fluency — that anyone can build in about 5 minutes a day, no math or ML background required.
 
 ## Read next
 

@@ -7,7 +7,7 @@ app_store: "https://apps.apple.com/app/id6759628066"
 language: en-US
 keywords: ["AI agents vs automation", "difference between AI agents and automation", "what is an AI agent", "AI agent vs workflow automation", "when to use AI agents"]
 date_published: "2026-06-04"
-date_modified: "2026-06-04"
+date_modified: "2026-06-20"
 reading_time_minutes: 7
 author: "Alex Furukawa"
 license: "© 2026 Iro AI"
@@ -21,6 +21,7 @@ pillar: "ai-agents"
 
 **Canonical:** https://tryiro.com/blog/ai-agents-vs-automation
 **Published:** 2026-06-04
+**Updated:** 2026-06-20
 **Reading time:** ~7 min
 **Author:** Alex Furukawa — Founder of Iro AI
 
@@ -81,6 +82,10 @@ Use an agent for fuzzy, multi-step tasks that need judgment or research and can'
 **Are AI agents reliable?**
 
 They're flexible but less predictable than rule-based automation, because they decide their own steps and can act on mistakes. Give agents a clear scope and keep a human reviewing anything costly or irreversible.
+
+**How do I learn to use AI agents well?**
+
+Start with strong fundamentals — clear instructions, good context, and verifying results — then layer agents on top. Those fundamentals are AI fluency, and you can build them in about 5 minutes a day.
 
 ## Read next
 

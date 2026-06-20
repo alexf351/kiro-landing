@@ -19,7 +19,7 @@
     "Perplexity AI vs ChatGPT"
   ],
   "datePublished": "2026-06-09",
-  "dateModified": "2026-06-09",
+  "dateModified": "2026-06-20",
   "readingTime": 6,
   "articleSection": "AI tools",
   "feedCategory": "AI tools",
@@ -121,6 +121,10 @@
     {
       "q": "Should I use ChatGPT or Perplexity for school or work research?",
       "a": "Use Perplexity to gather sourced facts you can cite, then ChatGPT to organize, write, or analyze. Always verify key claims yourself regardless of the tool."
+    },
+    {
+      "q": "How do I learn when to use ChatGPT versus Perplexity?",
+      "a": "Use each for the jobs it is built for — ChatGPT for generation, Perplexity for sourced research — and the right instinct comes with reps. Knowing which tool to reach for is core to <a href=\"/become-ai-fluent\">AI fluency</a>, and you can <a href=\"/learn-ai-in-5-minutes-a-day\">build it in about 5 minutes a day</a>."
     }
   ],
   "related": [
@@ -131,6 +135,8 @@
     "/learn-chatgpt",
     "/learn-perplexity",
     "/ai-tools-comparison",
-    "/quiz"
+    "/quiz",
+    "/become-ai-fluent",
+    "/learn-ai-in-5-minutes-a-day"
   ]
 }

@@ -7,7 +7,7 @@ app_store: "https://apps.apple.com/app/id6759628066"
 language: en-US
 keywords: ["ChatGPT prompts for beginners", "best ChatGPT prompts", "ChatGPT prompt examples", "easy ChatGPT prompts", "how to write ChatGPT prompts"]
 date_published: "2026-06-04"
-date_modified: "2026-06-04"
+date_modified: "2026-06-20"
 reading_time_minutes: 7
 author: "Alex Furukawa"
 license: "© 2026 Iro AI"
@@ -21,6 +21,7 @@ pillar: "prompt-engineering"
 
 **Canonical:** https://tryiro.com/blog/chatgpt-prompts-for-beginners
 **Published:** 2026-06-04
+**Updated:** 2026-06-20
 **Reading time:** ~7 min
 **Author:** Alex Furukawa — Founder of Iro AI
 
@@ -100,6 +101,10 @@ No. Start by copying a template and replacing the bracketed parts. The more you 
 **Do these prompts work on other AI tools?**
 
 Yes. The same structure works on Claude, Gemini, and Perplexity. Prompting is a skill that transfers across every AI tool, which is why it's worth practicing.
+
+**How do I turn these prompts into a real, lasting skill?**
+
+Copying prompts gets you started; adapting them daily is what makes prompting stick. Build the habit in about 5 minutes a day and work toward full AI fluency so you can write your own prompts from scratch.
 
 ## Read next
 

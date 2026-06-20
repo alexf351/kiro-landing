@@ -19,7 +19,7 @@
     "AI tools for college students"
   ],
   "datePublished": "2026-06-10",
-  "dateModified": "2026-06-10",
+  "dateModified": "2026-06-20",
   "readingTime": 7,
   "articleSection": "AI tools",
   "feedCategory": "AI tools",
@@ -112,6 +112,10 @@
     {
       "q": "Can AI tools help me study without doing the work for me?",
       "a": "Yes — ask AI to explain concepts, quiz you one question at a time, outline (but not write) essays, and give feedback on work you've written. Verify facts and citations, since AI can get them wrong."
+    },
+    {
+      "q": "How can a student get genuinely good at AI, not just use it for homework?",
+      "a": "Treat it as a skill to build, not a shortcut. A few minutes of focused practice a day compounds — here is how to <a href=\"/learn-ai-in-5-minutes-a-day\">learn AI in 5 minutes a day</a> and develop the <a href=\"/become-ai-fluent\">AI fluency</a> that pays off well beyond school."
     }
   ],
   "related": [
@@ -121,6 +125,8 @@
     "/blog/what-is-ai-fluency",
     "/ai-for-students",
     "/ai-tools-comparison",
-    "/quiz"
+    "/quiz",
+    "/learn-ai-in-5-minutes-a-day",
+    "/become-ai-fluent"
   ]
 }

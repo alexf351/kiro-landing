@@ -19,7 +19,7 @@
     "how to write ChatGPT prompts"
   ],
   "datePublished": "2026-06-04",
-  "dateModified": "2026-06-04",
+  "dateModified": "2026-06-20",
   "readingTime": 7,
   "articleSection": "Prompt engineering",
   "feedCategory": "Prompt engineering",
@@ -121,6 +121,10 @@
     {
       "q": "Do these prompts work on other AI tools?",
       "a": "Yes. The same structure works on Claude, Gemini, and Perplexity. Prompting is a skill that transfers across every AI tool, which is why it's worth practicing."
+    },
+    {
+      "q": "How do I turn these prompts into a real, lasting skill?",
+      "a": "Copying prompts gets you started; adapting them daily is what makes prompting stick. Build the habit in <a href=\"/learn-ai-in-5-minutes-a-day\">about 5 minutes a day</a> and work toward full <a href=\"/become-ai-fluent\">AI fluency</a> so you can write your own prompts from scratch."
     }
   ],
   "related": [
@@ -130,6 +134,8 @@
     "/prompt-engineering-app",
     "/learn-chatgpt",
     "/ai-prompts",
-    "/quiz"
+    "/quiz",
+    "/learn-ai-in-5-minutes-a-day",
+    "/become-ai-fluent"
   ]
 }

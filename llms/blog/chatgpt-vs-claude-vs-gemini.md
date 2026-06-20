@@ -7,7 +7,7 @@ app_store: "https://apps.apple.com/app/id6759628066"
 language: en-US
 keywords: ["ChatGPT vs Claude", "Claude vs Gemini", "ChatGPT vs Gemini", "best AI model 2026", "which AI to use"]
 date_published: "2026-05-31"
-date_modified: "2026-06-01"
+date_modified: "2026-06-20"
 reading_time_minutes: 8
 author: "Alex Furukawa"
 license: "© 2026 Iro AI"
@@ -21,7 +21,7 @@ pillar: "ai-tools"
 
 **Canonical:** https://tryiro.com/blog/chatgpt-vs-claude-vs-gemini
 **Published:** 2026-05-31
-**Updated:** 2026-06-01
+**Updated:** 2026-06-20
 **Reading time:** ~8 min
 **Author:** Alex Furukawa — Founder of Iro AI
 
@@ -94,6 +94,10 @@ It is the best default for most people, but not the best at everything. Claude l
 **Can I use the same prompt across all three?**
 
 Mostly yes. Good prompts are about clear specification, which transfers across models. The 7 prompt patterns work everywhere — see that post.
+
+**How do I learn to use all three tools well?**
+
+Rotate real tasks through each and build a mental map of what each does best. That cross-tool judgment is exactly what AI fluency means — and the best AI learning apps train it through active practice rather than passive reading.
 
 ## Read next
 

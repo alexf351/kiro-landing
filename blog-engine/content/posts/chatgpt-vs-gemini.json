@@ -19,7 +19,7 @@
     "ChatGPT vs Google Gemini"
   ],
   "datePublished": "2026-06-05",
-  "dateModified": "2026-06-05",
+  "dateModified": "2026-06-20",
   "readingTime": 7,
   "articleSection": "AI tools",
   "feedCategory": "AI tools",
@@ -121,6 +121,10 @@
     {
       "q": "Which is better for work, ChatGPT or Gemini?",
       "a": "If your company runs on Google Workspace, Gemini integrates most smoothly. Otherwise ChatGPT's versatility makes it the easier all-purpose work assistant. Either way, prompting skill matters more than the choice."
+    },
+    {
+      "q": "How do I get good at choosing between ChatGPT and Gemini?",
+      "a": "Practice with both and learn their strengths firsthand — tool choice is a core part of <a href=\"/become-ai-fluent\">AI fluency</a>. Short daily reps build that instinct fast; here is how to <a href=\"/learn-ai-in-5-minutes-a-day\">learn AI in 5 minutes a day</a>."
     }
   ],
   "related": [
@@ -131,6 +135,8 @@
     "/learn-chatgpt",
     "/learn-gemini",
     "/ai-tools-comparison",
-    "/quiz"
+    "/quiz",
+    "/become-ai-fluent",
+    "/learn-ai-in-5-minutes-a-day"
   ]
 }

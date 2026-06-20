@@ -7,7 +7,7 @@ app_store: "https://apps.apple.com/app/id6759628066"
 language: en-US
 keywords: ["ChatGPT vs Claude", "Claude vs ChatGPT", "ChatGPT or Claude", "Claude vs ChatGPT 2026", "is Claude better than ChatGPT", "best AI assistant"]
 date_published: "2026-06-01"
-date_modified: "2026-06-01"
+date_modified: "2026-06-20"
 reading_time_minutes: 7
 author: "Alex Furukawa"
 license: "© 2026 Iro AI"
@@ -21,6 +21,7 @@ pillar: "ai-tools"
 
 **Canonical:** https://tryiro.com/blog/chatgpt-vs-claude
 **Published:** 2026-06-01
+**Updated:** 2026-06-20
 **Reading time:** ~7 min
 **Author:** Alex Furukawa — Founder of Iro AI
 
@@ -86,6 +87,10 @@ Both have capable free tiers that are enough for most people to learn on and use
 **Can I use ChatGPT and Claude together?**
 
 Yes, and many power users do — ChatGPT for general tasks, images, and voice; Claude for serious writing and code. Keeping both and switching by task gets you the best of each.
+
+**What is the fastest way to get good at both ChatGPT and Claude?**
+
+Use each on real tasks daily and learn which one fits which job — that judgment is the real skill. You can build it in about 5 minutes a day and work toward genuine AI fluency across every tool, not just one.
 
 ## Read next
 

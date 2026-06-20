@@ -19,7 +19,7 @@
     "beginner AI guide"
   ],
   "datePublished": "2026-05-28",
-  "dateModified": "2026-06-01",
+  "dateModified": "2026-06-20",
   "readingTime": 7,
   "articleSection": "AI fluency",
   "feedCategory": "AI fluency",
@@ -128,6 +128,10 @@
     {
       "q": "What should I do after the 30 days?",
       "a": "Pick a specialisation. Iro AI has structured paths for <a href=\"/learn-chatgpt\">ChatGPT</a>, <a href=\"/prompt-engineering-app\">prompt engineering</a>, <a href=\"/ai-agents-course\">AI agents</a>, and more — keep practising in the area most useful to your work."
+    },
+    {
+      "q": "Is learning AI actually worth the 30 days?",
+      "a": "For almost everyone, yes — using AI well is now a baseline work skill with a fast payoff. Here is an honest look at <a href=\"/is-learning-ai-worth-it\">whether learning AI is worth it</a>, and what genuine <a href=\"/become-ai-fluent\">AI fluency</a> looks like at the end."
     }
   ],
   "related": [
@@ -141,6 +145,8 @@
     "/duolingo-for-ai",
     "/quiz",
     "/glossary",
-    "/blog/what-is-ai-fluency"
+    "/blog/what-is-ai-fluency",
+    "/is-learning-ai-worth-it",
+    "/become-ai-fluent"
   ]
 }

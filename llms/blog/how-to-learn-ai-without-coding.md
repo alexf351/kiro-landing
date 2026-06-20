@@ -7,7 +7,7 @@ app_store: "https://apps.apple.com/app/id6759628066"
 language: en-US
 keywords: ["how to learn AI without coding", "learn AI no coding", "AI for non-technical people", "can you learn AI without coding", "learn AI without programming"]
 date_published: "2026-06-04"
-date_modified: "2026-06-04"
+date_modified: "2026-06-20"
 reading_time_minutes: 7
 author: "Alex Furukawa"
 license: "© 2026 Iro AI"
@@ -21,6 +21,7 @@ pillar: "ai-fluency"
 
 **Canonical:** https://tryiro.com/blog/how-to-learn-ai-without-coding
 **Published:** 2026-06-04
+**Updated:** 2026-06-20
 **Reading time:** ~7 min
 **Author:** Alex Furukawa — Founder of Iro AI
 
@@ -106,6 +107,10 @@ With about five minutes of active daily practice, most non-technical people beco
 **What is the best way to learn AI as a non-technical person?**
 
 Pick one tool, learn to prompt, and practice on real tasks a few minutes a day. A gamified app like Iro AI structures this into short lessons so you always know what to learn next.
+
+**How does my AI skill compare to the average person?**
+
+Probably closer than you fear. In our early data the average score on a basic AI literacy test was about 5/10 — most people are still learning, no coding required. Here is the path to becoming AI fluent from a non-technical start.
 
 ## Read next
 

@@ -19,7 +19,7 @@
     "what is retrieval augmented generation"
   ],
   "datePublished": "2026-06-11",
-  "dateModified": "2026-06-11",
+  "dateModified": "2026-06-20",
   "readingTime": 6,
   "articleSection": "AI fluency",
   "feedCategory": "AI fluency",
@@ -112,6 +112,10 @@
     {
       "q": "What is the difference between RAG and a normal AI model?",
       "a": "A normal language model answers only from what it learned during training. A RAG system first retrieves relevant, current information and adds it to the prompt, so the answer is grounded in real sources rather than memory alone."
+    },
+    {
+      "q": "Do I need to understand RAG to use AI well?",
+      "a": "No — knowing what RAG is helps you trust grounded tools, but you do not need to build it. What pays off is practical <a href=\"/become-ai-fluent\">AI fluency</a>: prompting well, verifying output, and choosing the right tool for the job."
     }
   ],
   "related": [
@@ -121,6 +125,8 @@
     "/blog/what-is-ai-literacy",
     "/learn-perplexity",
     "/glossary",
-    "/quiz"
+    "/quiz",
+    "/become-ai-fluent",
+    "/best-ai-learning-app"
   ]
 }

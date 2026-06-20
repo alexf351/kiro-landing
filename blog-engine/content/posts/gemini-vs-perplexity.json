@@ -19,7 +19,7 @@
     "Google Gemini vs Perplexity"
   ],
   "datePublished": "2026-06-13",
-  "dateModified": "2026-06-13",
+  "dateModified": "2026-06-20",
   "readingTime": 6,
   "articleSection": "AI tools",
   "feedCategory": "AI tools",
@@ -112,6 +112,10 @@
     {
       "q": "Can I use Gemini and Perplexity together?",
       "a": "Yes. A common workflow is researching with Perplexity for sourced facts, then creating in Gemini — especially if your work lives in Google apps."
+    },
+    {
+      "q": "How do I get good at picking the right tool for a task?",
+      "a": "Practice with each on real questions — Gemini for general help, Perplexity for sourced research — and the instinct follows. Tool choice is a pillar of <a href=\"/become-ai-fluent\">AI fluency</a>, buildable in <a href=\"/learn-ai-in-5-minutes-a-day\">about 5 minutes a day</a>."
     }
   ],
   "related": [
@@ -121,6 +125,8 @@
     "/blog/best-ai-apps",
     "/learn-gemini",
     "/learn-perplexity",
-    "/quiz"
+    "/quiz",
+    "/become-ai-fluent",
+    "/learn-ai-in-5-minutes-a-day"
   ]
 }

@@ -19,7 +19,7 @@
     "text to image AI"
   ],
   "datePublished": "2026-06-13",
-  "dateModified": "2026-06-13",
+  "dateModified": "2026-06-20",
   "readingTime": 7,
   "articleSection": "AI tools",
   "feedCategory": "AI tools",
@@ -112,6 +112,10 @@
     {
       "q": "Can I use AI-generated images commercially?",
       "a": "It varies by tool. Some, like Adobe Firefly, are designed for commercial use; others have restrictions. Always check the current licensing terms before using AI images in paid or published work."
+    },
+    {
+      "q": "How do I get better at writing AI image prompts?",
+      "a": "Practice deliberately — vary one element at a time (subject, style, lighting, composition) and learn what each does. Prompting is a learnable skill across text and image tools; you can <a href=\"/learn-ai-in-5-minutes-a-day\">build it in about 5 minutes a day</a> on the way to broader <a href=\"/become-ai-fluent\">AI fluency</a>."
     }
   ],
   "related": [
@@ -120,6 +124,8 @@
     "/blog/how-to-write-a-prompt",
     "/ai-image-generation-course",
     "/ai-tools-comparison",
-    "/quiz"
+    "/quiz",
+    "/learn-ai-in-5-minutes-a-day",
+    "/become-ai-fluent"
   ]
 }
