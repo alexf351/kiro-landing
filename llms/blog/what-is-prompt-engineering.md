@@ -7,7 +7,7 @@ app_store: "https://apps.apple.com/app/id6759628066"
 language: en-US
 keywords: ["what is prompt engineering", "prompt engineering definition", "prompt engineering meaning", "prompt engineering examples", "is prompt engineering still relevant", "how to learn prompt engineering"]
 date_published: "2026-06-01"
-date_modified: "2026-06-01"
+date_modified: "2026-06-20"
 reading_time_minutes: 8
 author: "Alex Furukawa"
 license: "© 2026 Iro AI"
@@ -21,6 +21,7 @@ pillar: "prompt-engineering"
 
 **Canonical:** https://tryiro.com/blog/what-is-prompt-engineering
 **Published:** 2026-06-01
+**Updated:** 2026-06-20
 **Reading time:** ~8 min
 **Author:** Alex Furukawa — Founder of Iro AI
 
@@ -102,6 +103,10 @@ Yes. More capable models follow clear direction better, which raises the value o
 **How long does it take to learn prompt engineering?**
 
 You can learn the core moves in a day and get genuinely good with a few weeks of short daily practice on real tasks. It's a skill built through reps and feedback, not by memorizing templates.
+
+**What is the fastest way to get good at prompt engineering?**
+
+Practice on real tasks, daily, with feedback — not by reading prompt lists. A few focused reps a day compound fast; you can build the skill in about 5 minutes a day as part of broader AI fluency.
 
 ## Read next
 

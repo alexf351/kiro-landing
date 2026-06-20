@@ -7,7 +7,7 @@ app_store: "https://apps.apple.com/app/id6759628066"
 language: en-US
 keywords: ["how to use ChatGPT", "how to use ChatGPT for beginners", "ChatGPT beginner guide", "how does ChatGPT work", "getting started with ChatGPT"]
 date_published: "2026-06-10"
-date_modified: "2026-06-10"
+date_modified: "2026-06-20"
 reading_time_minutes: 7
 author: "Alex Furukawa"
 license: "© 2026 Iro AI"
@@ -21,6 +21,7 @@ pillar: "ai-tools"
 
 **Canonical:** https://tryiro.com/blog/how-to-use-chatgpt
 **Published:** 2026-06-10
+**Updated:** 2026-06-20
 **Reading time:** ~7 min
 **Author:** Alex Furukawa — Founder of Iro AI
 
@@ -93,6 +94,10 @@ Drafting emails and documents, summarizing long content, explaining concepts, br
 **How do I get better results from ChatGPT?**
 
 Give it context, a role, a clear task, and the format you want, then refine the first answer. The habit of iterating beats hunting for a perfect one-shot prompt, and the skill transfers to other AI tools.
+
+**What is the fastest way to get good at ChatGPT?**
+
+Short daily practice on real prompts beats reading tips. You can build real skill in about 5 minutes a day — and ChatGPT is just one tool, so it is worth working toward broader AI fluency across Claude, Gemini, and Perplexity too.
 
 ## Read next
 

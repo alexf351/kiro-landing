@@ -7,7 +7,7 @@ app_store: "https://apps.apple.com/app/id6759628066"
 language: en-US
 keywords: ["what is AI fluency", "AI fluency definition", "AI fluency meaning", "how to build AI fluency", "AI literacy vs AI fluency", "become AI fluent"]
 date_published: "2026-06-01"
-date_modified: "2026-06-01"
+date_modified: "2026-06-20"
 reading_time_minutes: 8
 author: "Alex Furukawa"
 license: "© 2026 Iro AI"
@@ -21,6 +21,7 @@ pillar: "ai-fluency"
 
 **Canonical:** https://tryiro.com/blog/what-is-ai-fluency
 **Published:** 2026-06-01
+**Updated:** 2026-06-20
 **Reading time:** ~8 min
 **Author:** Alex Furukawa — Founder of Iro AI
 
@@ -109,6 +110,10 @@ With about five minutes of focused, active practice a day, most people reach gen
 **Do I need to be technical to become AI fluent?**
 
 No. AI fluency is about directing and evaluating tools, not building them. Many of the most fluent users are writers, marketers, students, and operators with no technical background.
+
+**How do I actually become AI fluent?**
+
+Through active daily practice on four pillars: prompting, judgment, tool choice, and real workflows. See the step-by-step guide to becoming AI fluent. For context, in our early data the average person scores about 5/10 on a basic AI literacy test — most people have more room to grow than they think.
 
 ## Read next
 

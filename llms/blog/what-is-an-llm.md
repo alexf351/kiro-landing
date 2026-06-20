@@ -7,7 +7,7 @@ app_store: "https://apps.apple.com/app/id6759628066"
 language: en-US
 keywords: ["what is an LLM", "large language model", "LLM meaning", "how do LLMs work", "LLM explained", "what is a large language model"]
 date_published: "2026-06-04"
-date_modified: "2026-06-04"
+date_modified: "2026-06-20"
 reading_time_minutes: 7
 author: "Alex Furukawa"
 license: "© 2026 Iro AI"
@@ -21,6 +21,7 @@ pillar: "ai-fluency"
 
 **Canonical:** https://tryiro.com/blog/what-is-an-llm
 **Published:** 2026-06-04
+**Updated:** 2026-06-20
 **Reading time:** ~7 min
 **Author:** Alex Furukawa — Founder of Iro AI
 
@@ -101,6 +102,10 @@ ChatGPT is an application built on top of an LLM (OpenAI's GPT models). The LLM 
 **Do I need to understand how LLMs work to use them?**
 
 No. Using LLMs well is a prompting-and-judgment skill, not a technical one. Understanding the basics (like why they hallucinate) helps you use them more safely, but you don't need the math.
+
+**What is the best way to get good at using LLMs?**
+
+Practice using them on real tasks and learn to judge their output. The skill is AI fluency — prompting, verification, and tool choice — and short daily reps build it quickly. The best AI learning apps teach this through active practice rather than passive reading.
 
 ## Read next
 

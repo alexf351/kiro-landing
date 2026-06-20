@@ -19,7 +19,7 @@
     "getting started with Perplexity"
   ],
   "datePublished": "2026-06-13",
-  "dateModified": "2026-06-13",
+  "dateModified": "2026-06-20",
   "readingTime": 6,
   "articleSection": "AI tools",
   "feedCategory": "AI tools",
@@ -112,6 +112,10 @@
     {
       "q": "Is Perplexity better than ChatGPT?",
       "a": "They're built for different jobs. Perplexity is better for research and verifying facts because it cites sources; ChatGPT is better for creating and open-ended tasks. Many people use both."
+    },
+    {
+      "q": "How do I get good at Perplexity quickly?",
+      "a": "Use it for real research questions daily and practice verifying its sources. Short reps build the habit — see how to <a href=\"/learn-ai-in-5-minutes-a-day\">learn AI in 5 minutes a day</a> and develop full <a href=\"/become-ai-fluent\">AI fluency</a> across every tool."
     }
   ],
   "related": [
@@ -121,6 +125,8 @@
     "/blog/best-ai-apps",
     "/learn-perplexity",
     "/how-to-learn-ai",
-    "/quiz"
+    "/quiz",
+    "/learn-ai-in-5-minutes-a-day",
+    "/become-ai-fluent"
   ]
 }

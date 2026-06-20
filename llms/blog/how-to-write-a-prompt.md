@@ -7,7 +7,7 @@ app_store: "https://apps.apple.com/app/id6759628066"
 language: en-US
 keywords: ["how to write a prompt", "how to write a good AI prompt", "how to write ChatGPT prompts", "prompt writing guide", "how to prompt AI"]
 date_published: "2026-06-05"
-date_modified: "2026-06-05"
+date_modified: "2026-06-20"
 reading_time_minutes: 7
 author: "Alex Furukawa"
 license: "© 2026 Iro AI"
@@ -21,6 +21,7 @@ pillar: "prompt-engineering"
 
 **Canonical:** https://tryiro.com/blog/how-to-write-a-prompt
 **Published:** 2026-06-05
+**Updated:** 2026-06-20
 **Reading time:** ~7 min
 **Author:** Alex Furukawa — Founder of Iro AI
 
@@ -86,6 +87,10 @@ Usually the prompt is too vague or missing context and a clear format. Add who i
 **Does the same prompt work on ChatGPT, Claude, and Gemini?**
 
 Mostly yes. The context-role-task-format structure works across all major AI tools. You tune small details per model, but the core recipe transfers.
+
+**How do I practice writing prompts every day?**
+
+Take one real task each day and rewrite your prompt with a role, goal, context, and constraints. Daily reps are the whole game — you can build the skill in about 5 minutes a day on the way to broader AI fluency.
 
 ## Read next
 

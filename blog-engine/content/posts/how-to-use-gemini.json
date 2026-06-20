@@ -19,7 +19,7 @@
     "getting started with Gemini"
   ],
   "datePublished": "2026-06-11",
-  "dateModified": "2026-06-11",
+  "dateModified": "2026-06-20",
   "readingTime": 6,
   "articleSection": "AI tools",
   "feedCategory": "AI tools",
@@ -112,6 +112,10 @@
     {
       "q": "Is Gemini better than ChatGPT?",
       "a": "Gemini is better if your work is in Google apps; ChatGPT is the more versatile all-rounder. It depends on your main task, and many people use both."
+    },
+    {
+      "q": "What is the fastest way to get good at Gemini?",
+      "a": "Practice daily on real tasks and learn when to lean on Gemini versus other tools. You can <a href=\"/learn-ai-in-5-minutes-a-day\">learn AI in about 5 minutes a day</a> and build the broader judgment that makes up real <a href=\"/become-ai-fluent\">AI fluency</a>."
     }
   ],
   "related": [
@@ -121,6 +125,8 @@
     "/blog/best-ai-apps",
     "/learn-gemini",
     "/how-to-learn-ai",
-    "/quiz"
+    "/quiz",
+    "/learn-ai-in-5-minutes-a-day",
+    "/become-ai-fluent"
   ]
 }

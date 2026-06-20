@@ -20,7 +20,7 @@
     "become AI fluent"
   ],
   "datePublished": "2026-06-01",
-  "dateModified": "2026-06-01",
+  "dateModified": "2026-06-20",
   "readingTime": 8,
   "articleSection": "AI fluency",
   "feedCategory": "AI fluency",
@@ -131,6 +131,10 @@
     {
       "q": "Do I need to be technical to become AI fluent?",
       "a": "No. AI fluency is about directing and evaluating tools, not building them. Many of the most fluent users are writers, marketers, students, and operators with no technical background."
+    },
+    {
+      "q": "How do I actually become AI fluent?",
+      "a": "Through active daily practice on four pillars: prompting, judgment, tool choice, and real workflows. See the step-by-step guide to <a href=\"/become-ai-fluent\">becoming AI fluent</a>. For context, in our early data the <a href=\"/blog/average-ai-literacy-score\">average person scores about 5/10</a> on a basic AI literacy test — most people have more room to grow than they think."
     }
   ],
   "related": [
@@ -141,6 +145,8 @@
     "/learn-chatgpt",
     "/glossary",
     "/quiz",
-    "/blog/what-is-prompt-engineering"
+    "/blog/what-is-prompt-engineering",
+    "/become-ai-fluent",
+    "/blog/average-ai-literacy-score"
   ]
 }

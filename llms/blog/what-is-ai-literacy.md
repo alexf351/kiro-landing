@@ -7,7 +7,7 @@ app_store: "https://apps.apple.com/app/id6759628066"
 language: en-US
 keywords: ["what is AI literacy", "AI literacy definition", "AI literacy meaning", "why is AI literacy important", "AI literacy vs AI fluency", "how to improve AI literacy"]
 date_published: "2026-06-09"
-date_modified: "2026-06-09"
+date_modified: "2026-06-20"
 reading_time_minutes: 7
 author: "Alex Furukawa"
 license: "© 2026 Iro AI"
@@ -21,6 +21,7 @@ pillar: "ai-fluency"
 
 **Canonical:** https://tryiro.com/blog/what-is-ai-literacy
 **Published:** 2026-06-09
+**Updated:** 2026-06-20
 **Reading time:** ~7 min
 **Author:** Alex Furukawa — Founder of Iro AI
 
@@ -80,6 +81,10 @@ It's becoming a baseline skill for school and work. AI-literate people use AI sa
 **How can I improve my AI literacy?**
 
 Use AI on real tasks and notice where it helps and fails, learn the basics of how it works and its limits, and make verifying its claims a habit. Short daily practice, like Iro AI's lessons, builds it quickly.
+
+**What is the average person’s AI literacy level?**
+
+Lower than most people assume. In our early data, the average score on a basic AI literacy test was about 5/10, and 56% scored 5 or below. The good news is that AI literacy is a learnable skill — see how to become AI fluent.
 
 ## Read next
 

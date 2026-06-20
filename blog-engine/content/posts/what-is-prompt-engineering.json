@@ -21,7 +21,7 @@
     "how to learn prompt engineering"
   ],
   "datePublished": "2026-06-01",
-  "dateModified": "2026-06-01",
+  "dateModified": "2026-06-20",
   "readingTime": 8,
   "articleSection": "Prompt engineering",
   "feedCategory": "Prompt engineering",
@@ -123,6 +123,10 @@
     {
       "q": "How long does it take to learn prompt engineering?",
       "a": "You can learn the core moves in a day and get genuinely good with a few weeks of short daily practice on real tasks. It's a skill built through reps and feedback, not by memorizing templates."
+    },
+    {
+      "q": "What is the fastest way to get good at prompt engineering?",
+      "a": "Practice on real tasks, daily, with feedback — not by reading prompt lists. A few focused reps a day compound fast; you can <a href=\"/learn-ai-in-5-minutes-a-day\">build the skill in about 5 minutes a day</a> as part of broader <a href=\"/become-ai-fluent\">AI fluency</a>."
     }
   ],
   "related": [
@@ -133,6 +137,8 @@
     "/prompt-engineering-app",
     "/glossary",
     "/quiz",
-    "/ai-prompts"
+    "/ai-prompts",
+    "/learn-ai-in-5-minutes-a-day",
+    "/become-ai-fluent"
   ]
 }

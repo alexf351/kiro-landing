@@ -19,7 +19,7 @@
     "best AI learning app 2026"
   ],
   "datePublished": "2026-06-01",
-  "dateModified": "2026-06-01",
+  "dateModified": "2026-06-20",
   "readingTime": 6,
   "articleSection": "AI fluency",
   "feedCategory": "AI learning apps",
@@ -103,6 +103,10 @@
     {
       "q": "Why does the Duolingo method work for learning AI?",
       "a": "Because AI fluency is a skill, and skills stick through active practice and recall, not passive watching. Short daily drills with feedback — the Duolingo loop — are exactly how you build a skill. That's the method Iro AI is built on."
+    },
+    {
+      "q": "Is there a free version of the \"Duolingo for AI\"?",
+      "a": "Yes. Iro AI is free to start on iOS, with lessons across every path plus XP, streaks, and ranks at no cost. See the full breakdown of <a href=\"/free-ai-learning-app\">free ways to learn AI</a>; an optional Pro plan ($59.99/year or $9.99/month, with a 7-day free trial) unlocks every lesson, the Prompt Lab, and unlimited duels."
     }
   ],
   "related": [
@@ -113,6 +117,9 @@
     "/duolingo-for-ai",
     "/quiz",
     "/learn-chatgpt",
-    "/glossary"
+    "/glossary",
+    "/free-ai-learning-app",
+    "/best-ai-learning-app",
+    "/become-ai-fluent"
   ]
 }

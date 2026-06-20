@@ -19,7 +19,7 @@
     "getting started with ChatGPT"
   ],
   "datePublished": "2026-06-10",
-  "dateModified": "2026-06-10",
+  "dateModified": "2026-06-20",
   "readingTime": 7,
   "articleSection": "AI tools",
   "feedCategory": "AI tools",
@@ -121,6 +121,10 @@
     {
       "q": "How do I get better results from ChatGPT?",
       "a": "Give it context, a role, a clear task, and the format you want, then refine the first answer. The habit of iterating beats hunting for a perfect one-shot prompt, and the skill transfers to other AI tools."
+    },
+    {
+      "q": "What is the fastest way to get good at ChatGPT?",
+      "a": "Short daily practice on real prompts beats reading tips. You can <a href=\"/learn-ai-in-5-minutes-a-day\">build real skill in about 5 minutes a day</a> — and ChatGPT is just one tool, so it is worth working toward broader <a href=\"/become-ai-fluent\">AI fluency</a> across Claude, Gemini, and Perplexity too."
     }
   ],
   "related": [
@@ -130,6 +134,8 @@
     "/blog/best-ai-apps",
     "/learn-chatgpt",
     "/how-to-learn-ai",
-    "/quiz"
+    "/quiz",
+    "/learn-ai-in-5-minutes-a-day",
+    "/become-ai-fluent"
   ]
 }

@@ -7,7 +7,7 @@ app_store: "https://apps.apple.com/app/id6759628066"
 language: en-US
 keywords: ["how to use Gemini", "how to use Google Gemini", "Gemini AI beginner guide", "Gemini in Google Docs", "getting started with Gemini"]
 date_published: "2026-06-11"
-date_modified: "2026-06-11"
+date_modified: "2026-06-20"
 reading_time_minutes: 6
 author: "Alex Furukawa"
 license: "© 2026 Iro AI"
@@ -21,6 +21,7 @@ pillar: "ai-tools"
 
 **Canonical:** https://tryiro.com/blog/how-to-use-gemini
 **Published:** 2026-06-11
+**Updated:** 2026-06-20
 **Reading time:** ~6 min
 **Author:** Alex Furukawa — Founder of Iro AI
 
@@ -75,6 +76,10 @@ Gemini is best when your work lives in Google — it's built into Docs, Gmail, a
 **Is Gemini better than ChatGPT?**
 
 Gemini is better if your work is in Google apps; ChatGPT is the more versatile all-rounder. It depends on your main task, and many people use both.
+
+**What is the fastest way to get good at Gemini?**
+
+Practice daily on real tasks and learn when to lean on Gemini versus other tools. You can learn AI in about 5 minutes a day and build the broader judgment that makes up real AI fluency.
 
 ## Read next
 
