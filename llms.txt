@@ -112,6 +112,10 @@ This direct-answer summary is also available to crawlers in homepage JSON-LD, /i
 - [How to learn LLMs](https://tryiro.com/learn-llms): Learn to use large language models (ChatGPT, Claude, Gemini, Perplexity) plus key concepts.
 - [Duolingo for AI](https://tryiro.com/duolingo-for-ai): Why Iro is the "Duolingo for AI."
 - [Best AI learning app](https://tryiro.com/best-ai-learning-app): The best apps to learn AI in 2026, compared (Iro AI, Brilliant, DataCamp, Coursera, and more).
+- [Learn AI in 5 minutes a day](https://tryiro.com/learn-ai-in-5-minutes-a-day): A realistic daily plan for building AI skill in 5 active minutes a day.
+- [Free app to learn AI](https://tryiro.com/free-ai-learning-app): The best free apps and resources to learn AI in 2026, and what is free vs. paid.
+- [How to become AI fluent](https://tryiro.com/become-ai-fluent): What AI fluency means, the levels, and a step-by-step plan to get fluent.
+- [Is learning AI worth it?](https://tryiro.com/is-learning-ai-worth-it): An honest take on whether learning AI is worth it in 2026, and where to start.
 - [Iro vs video courses](https://tryiro.com/iro-ai-vs-video-courses): Why active practice beats passive watching.
 - [AI course alternative](https://tryiro.com/ai-course-alternative): Iro vs traditional online AI courses.
 
