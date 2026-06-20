@@ -908,6 +908,22 @@
     {
       "source": "/learn-llms",
       "destination": "/learn-llms.html"
+    },
+    {
+      "source": "/learn-ai-in-5-minutes-a-day",
+      "destination": "/learn-ai-in-5-minutes-a-day.html"
+    },
+    {
+      "source": "/free-ai-learning-app",
+      "destination": "/free-ai-learning-app.html"
+    },
+    {
+      "source": "/become-ai-fluent",
+      "destination": "/become-ai-fluent.html"
+    },
+    {
+      "source": "/is-learning-ai-worth-it",
+      "destination": "/is-learning-ai-worth-it.html"
     }
   ]
 }
