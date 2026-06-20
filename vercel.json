@@ -924,6 +924,10 @@
     {
       "source": "/is-learning-ai-worth-it",
       "destination": "/is-learning-ai-worth-it.html"
+    },
+    {
+      "source": "/blog/average-ai-literacy-score",
+      "destination": "/blog/average-ai-literacy-score.html"
     }
   ]
 }
