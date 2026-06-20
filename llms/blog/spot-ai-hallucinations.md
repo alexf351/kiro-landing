@@ -7,7 +7,7 @@ app_store: "https://apps.apple.com/app/id6759628066"
 language: en-US
 keywords: ["AI hallucination", "hallucination detection", "ChatGPT mistakes", "AI accuracy", "fact-checking AI"]
 date_published: "2026-05-24"
-date_modified: "2026-06-01"
+date_modified: "2026-06-20"
 reading_time_minutes: 6
 author: "Alex Furukawa"
 license: "© 2026 Iro AI"
@@ -21,7 +21,7 @@ pillar: "ai-fluency"
 
 **Canonical:** https://tryiro.com/blog/spot-ai-hallucinations
 **Published:** 2026-05-24
-**Updated:** 2026-06-01
+**Updated:** 2026-06-20
 **Reading time:** ~6 min
 **Author:** Alex Furukawa — Founder of Iro AI
 
@@ -97,6 +97,10 @@ Grounded tools cite specific sources you can click. Perplexity is grounded. The 
 **Can I trust AI for medical, legal, or financial advice?**
 
 Not without expert verification. AI can be useful for drafting and research support in those fields, but it should not be the final answer. See AI for healthcare and AI for finance for limits-first guidance.
+
+**Is spotting AI mistakes a skill I can actually build?**
+
+Yes — judging output is one of the most learnable parts of AI fluency, and one most people skip. It matters: in our data the average AI literacy score was about 5/10, with verification among the weakest areas.
 
 ## Read next
 

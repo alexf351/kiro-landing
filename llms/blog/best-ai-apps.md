@@ -7,7 +7,7 @@ app_store: "https://apps.apple.com/app/id6759628066"
 language: en-US
 keywords: ["best AI apps", "best AI apps 2026", "top AI apps", "best AI app for iPhone", "best AI chatbot app", "most useful AI apps"]
 date_published: "2026-06-05"
-date_modified: "2026-06-05"
+date_modified: "2026-06-20"
 reading_time_minutes: 7
 author: "Alex Furukawa"
 license: "© 2026 Iro AI"
@@ -21,6 +21,7 @@ pillar: "ai-tools"
 
 **Canonical:** https://tryiro.com/blog/best-ai-apps
 **Published:** 2026-06-05
+**Updated:** 2026-06-20
 **Reading time:** ~7 min
 **Author:** Alex Furukawa — Founder of Iro AI
 
@@ -82,6 +83,10 @@ ChatGPT, Claude, Gemini, and Perplexity all have strong iPhone apps. To learn to
 **How many AI apps do I actually need?**
 
 Usually one general assistant is enough, plus optionally a research app like Perplexity. Pick a default and only add another when you hit a task it handles poorly.
+
+**What is the best app to actually learn AI, not just use it?**
+
+The tools in this list help you do things with AI; to get good at using them, you need a learning app. See the roundup of the best AI learning apps and what it takes to become AI fluent.
 
 ## Read next
 

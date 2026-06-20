@@ -19,7 +19,7 @@
     "fact-checking AI"
   ],
   "datePublished": "2026-05-24",
-  "dateModified": "2026-06-01",
+  "dateModified": "2026-06-20",
   "readingTime": 6,
   "articleSection": "AI fluency",
   "feedCategory": "AI fluency",
@@ -111,6 +111,10 @@
     {
       "q": "Can I trust AI for medical, legal, or financial advice?",
       "a": "Not without expert verification. AI can be useful for drafting and research support in those fields, but it should not be the final answer. See <a href=\"/ai-for-healthcare\">AI for healthcare</a> and <a href=\"/ai-for-finance\">AI for finance</a> for limits-first guidance."
+    },
+    {
+      "q": "Is spotting AI mistakes a skill I can actually build?",
+      "a": "Yes — judging output is one of the most learnable parts of <a href=\"/become-ai-fluent\">AI fluency</a>, and one most people skip. It matters: in our data the <a href=\"/blog/average-ai-literacy-score\">average AI literacy score was about 5/10</a>, with verification among the weakest areas."
     }
   ],
   "related": [
@@ -124,6 +128,8 @@
     "/blog/how-to-learn-chatgpt-in-2026",
     "/blog/prompt-engineering-patterns",
     "/blog/ai-agents-explained",
-    "/blog/what-is-ai-fluency"
+    "/blog/what-is-ai-fluency",
+    "/become-ai-fluent",
+    "/blog/average-ai-literacy-score"
   ]
 }

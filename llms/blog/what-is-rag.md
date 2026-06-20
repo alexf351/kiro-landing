@@ -7,7 +7,7 @@ app_store: "https://apps.apple.com/app/id6759628066"
 language: en-US
 keywords: ["what is RAG", "retrieval augmented generation", "RAG explained", "RAG AI meaning", "what is retrieval augmented generation"]
 date_published: "2026-06-11"
-date_modified: "2026-06-11"
+date_modified: "2026-06-20"
 reading_time_minutes: 6
 author: "Alex Furukawa"
 license: "© 2026 Iro AI"
@@ -21,6 +21,7 @@ pillar: "ai-fluency"
 
 **Canonical:** https://tryiro.com/blog/what-is-rag
 **Published:** 2026-06-11
+**Updated:** 2026-06-20
 **Reading time:** ~6 min
 **Author:** Alex Furukawa — Founder of Iro AI
 
@@ -83,6 +84,10 @@ Perplexity and other AI search tools use RAG to answer with live web citations. 
 **What is the difference between RAG and a normal AI model?**
 
 A normal language model answers only from what it learned during training. A RAG system first retrieves relevant, current information and adds it to the prompt, so the answer is grounded in real sources rather than memory alone.
+
+**Do I need to understand RAG to use AI well?**
+
+No — knowing what RAG is helps you trust grounded tools, but you do not need to build it. What pays off is practical AI fluency: prompting well, verifying output, and choosing the right tool for the job.
 
 ## Read next
 

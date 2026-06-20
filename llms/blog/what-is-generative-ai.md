@@ -7,7 +7,7 @@ app_store: "https://apps.apple.com/app/id6759628066"
 language: en-US
 keywords: ["what is generative AI", "generative AI explained", "generative AI examples", "generative AI meaning", "gen AI", "how does generative AI work"]
 date_published: "2026-06-05"
-date_modified: "2026-06-05"
+date_modified: "2026-06-20"
 reading_time_minutes: 7
 author: "Alex Furukawa"
 license: "© 2026 Iro AI"
@@ -21,6 +21,7 @@ pillar: "ai-fluency"
 
 **Canonical:** https://tryiro.com/blog/what-is-generative-ai
 **Published:** 2026-06-05
+**Updated:** 2026-06-20
 **Reading time:** ~7 min
 **Author:** Alex Furukawa — Founder of Iro AI
 
@@ -89,6 +90,10 @@ Generative AI is a type of AI focused on creating new content. Traditional AI of
 **Is ChatGPT generative AI?**
 
 Yes. ChatGPT is a generative AI application built on a large language model — it generates new text in response to your prompts.
+
+**How do I get good at actually using generative AI?**
+
+Use it on real tasks and learn to prompt, verify, and pick the right tool — that practical skill is AI fluency. The best AI learning apps teach it through active daily practice rather than passive reading.
 
 ## Read next
 

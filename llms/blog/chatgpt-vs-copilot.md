@@ -7,7 +7,7 @@ app_store: "https://apps.apple.com/app/id6759628066"
 language: en-US
 keywords: ["ChatGPT vs Copilot", "Microsoft Copilot vs ChatGPT", "ChatGPT or Copilot", "is Copilot better than ChatGPT", "Copilot vs ChatGPT for work"]
 date_published: "2026-06-11"
-date_modified: "2026-06-11"
+date_modified: "2026-06-20"
 reading_time_minutes: 6
 author: "Alex Furukawa"
 license: "© 2026 Iro AI"
@@ -21,6 +21,7 @@ pillar: "ai-tools"
 
 **Canonical:** https://tryiro.com/blog/chatgpt-vs-copilot
 **Published:** 2026-06-11
+**Updated:** 2026-06-20
 **Reading time:** ~6 min
 **Author:** Alex Furukawa — Founder of Iro AI
 
@@ -80,6 +81,10 @@ If your organization runs on Microsoft 365, Copilot integrates most smoothly. If
 **Is Microsoft Copilot free?**
 
 Copilot has a free tier, but full integration across Word, Excel, Outlook, and Teams typically requires a paid Microsoft 365 plan. ChatGPT has a generous free tier for general use.
+
+**What is the fastest way to get good with these AI tools?**
+
+Daily practice on real work beats reading comparisons. A few focused minutes a day compounds quickly — here is how to learn AI in 5 minutes a day and build the broader AI fluency that carries across ChatGPT, Copilot, and the rest.
 
 ## Read next
 

@@ -7,7 +7,7 @@ app_store: "https://apps.apple.com/app/id6759628066"
 language: en-US
 keywords: ["ChatGPT vs Perplexity", "Perplexity vs ChatGPT", "ChatGPT or Perplexity", "is Perplexity better than ChatGPT", "Perplexity AI vs ChatGPT"]
 date_published: "2026-06-09"
-date_modified: "2026-06-09"
+date_modified: "2026-06-20"
 reading_time_minutes: 6
 author: "Alex Furukawa"
 license: "© 2026 Iro AI"
@@ -21,6 +21,7 @@ pillar: "ai-tools"
 
 **Canonical:** https://tryiro.com/blog/chatgpt-vs-perplexity
 **Published:** 2026-06-09
+**Updated:** 2026-06-20
 **Reading time:** ~6 min
 **Author:** Alex Furukawa — Founder of Iro AI
 
@@ -90,6 +91,10 @@ Yes — research is its core strength. It searches current web sources and shows
 **Should I use ChatGPT or Perplexity for school or work research?**
 
 Use Perplexity to gather sourced facts you can cite, then ChatGPT to organize, write, or analyze. Always verify key claims yourself regardless of the tool.
+
+**How do I learn when to use ChatGPT versus Perplexity?**
+
+Use each for the jobs it is built for — ChatGPT for generation, Perplexity for sourced research — and the right instinct comes with reps. Knowing which tool to reach for is core to AI fluency, and you can build it in about 5 minutes a day.
 
 ## Read next
 

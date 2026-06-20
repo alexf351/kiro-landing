@@ -19,7 +19,7 @@
     "AI fluency"
   ],
   "datePublished": "2026-05-24",
-  "dateModified": "2026-06-01",
+  "dateModified": "2026-06-20",
   "readingTime": 7,
   "articleSection": "AI fluency",
   "feedCategory": "AI fluency",
@@ -111,6 +111,10 @@
     {
       "q": "How is Iro AI's ChatGPT path different from a course?",
       "a": "Iro is active practice in 5-minute sessions, not video lectures. You write prompts, evaluate outputs, and get feedback. Streaks and ranks keep you coming back. See the <a href=\"/learn-chatgpt\">ChatGPT path</a>."
+    },
+    {
+      "q": "Can I really learn ChatGPT in just a few minutes a day?",
+      "a": "Yes — short, consistent practice beats occasional long sessions for building a skill. See exactly how to <a href=\"/learn-ai-in-5-minutes-a-day\">learn AI in 5 minutes a day</a> and turn it into lasting <a href=\"/become-ai-fluent\">AI fluency</a>."
     }
   ],
   "related": [
@@ -126,6 +130,8 @@
     "/blog/what-is-ai-fluency",
     "/blog/what-is-prompt-engineering",
     "/ai-prompts",
-    "/ai-tools-comparison"
+    "/ai-tools-comparison",
+    "/learn-ai-in-5-minutes-a-day",
+    "/become-ai-fluent"
   ]
 }

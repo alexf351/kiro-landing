@@ -19,7 +19,7 @@
     "which AI to use"
   ],
   "datePublished": "2026-05-31",
-  "dateModified": "2026-06-01",
+  "dateModified": "2026-06-20",
   "readingTime": 8,
   "articleSection": "AI tools",
   "feedCategory": "AI tools",
@@ -122,6 +122,10 @@
     {
       "q": "Can I use the same prompt across all three?",
       "a": "Mostly yes. Good prompts are about clear specification, which transfers across models. The 7 prompt patterns work everywhere — see <a href=\"/blog/prompt-engineering-patterns\">that post</a>."
+    },
+    {
+      "q": "How do I learn to use all three tools well?",
+      "a": "Rotate real tasks through each and build a mental map of what each does best. That cross-tool judgment is exactly what <a href=\"/become-ai-fluent\">AI fluency</a> means — and the <a href=\"/best-ai-learning-app\">best AI learning apps</a> train it through active practice rather than passive reading."
     }
   ],
   "related": [
@@ -135,6 +139,8 @@
     "/learn-perplexity",
     "/glossary",
     "/blog/what-is-ai-fluency",
-    "/ai-tools-comparison"
+    "/ai-tools-comparison",
+    "/become-ai-fluent",
+    "/best-ai-learning-app"
   ]
 }

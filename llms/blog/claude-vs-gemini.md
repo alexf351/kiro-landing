@@ -7,7 +7,7 @@ app_store: "https://apps.apple.com/app/id6759628066"
 language: en-US
 keywords: ["Claude vs Gemini", "Gemini vs Claude", "Claude or Gemini", "is Claude better than Gemini", "Anthropic Claude vs Google Gemini"]
 date_published: "2026-06-09"
-date_modified: "2026-06-09"
+date_modified: "2026-06-20"
 reading_time_minutes: 7
 author: "Alex Furukawa"
 license: "© 2026 Iro AI"
@@ -21,6 +21,7 @@ pillar: "ai-tools"
 
 **Canonical:** https://tryiro.com/blog/claude-vs-gemini
 **Published:** 2026-06-09
+**Updated:** 2026-06-20
 **Reading time:** ~7 min
 **Author:** Alex Furukawa — Founder of Iro AI
 
@@ -91,6 +92,10 @@ Claude is a favourite for reasoning over a codebase and reviewing code. Gemini a
 **Should I use Claude and Gemini together?**
 
 You can. A common setup is Claude for writing and code plus Gemini when you're working inside Google Docs, Gmail, or Sheets. Prompting skill matters more than which you pick.
+
+**What is the fastest way to get good at both Claude and Gemini?**
+
+Use both on real tasks and learn where each shines. That cross-tool judgment is the heart of AI fluency, and short daily reps build it — see how to learn AI in 5 minutes a day.
 
 ## Read next
 

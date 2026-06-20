@@ -7,7 +7,7 @@ app_store: "https://apps.apple.com/app/id6759628066"
 language: en-US
 keywords: ["learn ChatGPT", "ChatGPT 2026", "prompt practice", "active learning", "AI fluency"]
 date_published: "2026-05-24"
-date_modified: "2026-06-01"
+date_modified: "2026-06-20"
 reading_time_minutes: 7
 author: "Alex Furukawa"
 license: "© 2026 Iro AI"
@@ -21,7 +21,7 @@ pillar: "ai-fluency"
 
 **Canonical:** https://tryiro.com/blog/how-to-learn-chatgpt-in-2026
 **Published:** 2026-05-24
-**Updated:** 2026-06-01
+**Updated:** 2026-06-20
 **Reading time:** ~7 min
 **Author:** Alex Furukawa — Founder of Iro AI
 
@@ -109,6 +109,10 @@ Yes. Prompt engineering is less about magic phrases and more about specifying th
 **How is Iro AI's ChatGPT path different from a course?**
 
 Iro is active practice in 5-minute sessions, not video lectures. You write prompts, evaluate outputs, and get feedback. Streaks and ranks keep you coming back. See the ChatGPT path.
+
+**Can I really learn ChatGPT in just a few minutes a day?**
+
+Yes — short, consistent practice beats occasional long sessions for building a skill. See exactly how to learn AI in 5 minutes a day and turn it into lasting AI fluency.
 
 ## Read next
 

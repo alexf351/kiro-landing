@@ -20,7 +20,7 @@
     "best AI assistant"
   ],
   "datePublished": "2026-06-01",
-  "dateModified": "2026-06-01",
+  "dateModified": "2026-06-20",
   "readingTime": 7,
   "articleSection": "AI tools",
   "feedCategory": "AI tools",
@@ -122,6 +122,10 @@
     {
       "q": "Can I use ChatGPT and Claude together?",
       "a": "Yes, and many power users do — ChatGPT for general tasks, images, and voice; Claude for serious writing and code. Keeping both and switching by task gets you the best of each."
+    },
+    {
+      "q": "What is the fastest way to get good at both ChatGPT and Claude?",
+      "a": "Use each on real tasks daily and learn which one fits which job — that judgment is the real skill. You can <a href=\"/learn-ai-in-5-minutes-a-day\">build it in about 5 minutes a day</a> and work toward genuine <a href=\"/become-ai-fluent\">AI fluency</a> across every tool, not just one."
     }
   ],
   "related": [
@@ -133,6 +137,8 @@
     "/learn-claude",
     "/ai-prompts",
     "/quiz",
-    "/ai-tools-comparison"
+    "/ai-tools-comparison",
+    "/learn-ai-in-5-minutes-a-day",
+    "/become-ai-fluent"
   ]
 }

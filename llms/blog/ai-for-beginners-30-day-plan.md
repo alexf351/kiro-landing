@@ -7,7 +7,7 @@ app_store: "https://apps.apple.com/app/id6759628066"
 language: en-US
 keywords: ["AI for beginners", "learn AI in 30 days", "AI learning plan", "how to start learning AI", "beginner AI guide"]
 date_published: "2026-05-28"
-date_modified: "2026-06-01"
+date_modified: "2026-06-20"
 reading_time_minutes: 7
 author: "Alex Furukawa"
 license: "© 2026 Iro AI"
@@ -21,7 +21,7 @@ pillar: "ai-fluency"
 
 **Canonical:** https://tryiro.com/blog/ai-for-beginners-30-day-plan
 **Published:** 2026-05-28
-**Updated:** 2026-06-01
+**Updated:** 2026-06-20
 **Reading time:** ~7 min
 **Author:** Alex Furukawa — Founder of Iro AI
 
@@ -91,6 +91,10 @@ About 5 minutes. The plan is deliberately small so the habit survives busy days.
 **What should I do after the 30 days?**
 
 Pick a specialisation. Iro AI has structured paths for ChatGPT, prompt engineering, AI agents, and more — keep practising in the area most useful to your work.
+
+**Is learning AI actually worth the 30 days?**
+
+For almost everyone, yes — using AI well is now a baseline work skill with a fast payoff. Here is an honest look at whether learning AI is worth it, and what genuine AI fluency looks like at the end.
 
 ## Read next
 

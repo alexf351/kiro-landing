@@ -7,7 +7,7 @@ app_store: "https://apps.apple.com/app/id6759628066"
 language: en-US
 keywords: ["Gemini vs Perplexity", "Perplexity vs Gemini", "Gemini or Perplexity", "is Perplexity better than Gemini", "Google Gemini vs Perplexity"]
 date_published: "2026-06-13"
-date_modified: "2026-06-13"
+date_modified: "2026-06-20"
 reading_time_minutes: 6
 author: "Alex Furukawa"
 license: "© 2026 Iro AI"
@@ -21,6 +21,7 @@ pillar: "ai-tools"
 
 **Canonical:** https://tryiro.com/blog/gemini-vs-perplexity
 **Published:** 2026-06-13
+**Updated:** 2026-06-20
 **Reading time:** ~6 min
 **Author:** Alex Furukawa — Founder of Iro AI
 
@@ -80,6 +81,10 @@ Perplexity is purpose-built for research because it shows sources you can check.
 **Can I use Gemini and Perplexity together?**
 
 Yes. A common workflow is researching with Perplexity for sourced facts, then creating in Gemini — especially if your work lives in Google apps.
+
+**How do I get good at picking the right tool for a task?**
+
+Practice with each on real questions — Gemini for general help, Perplexity for sourced research — and the instinct follows. Tool choice is a pillar of AI fluency, buildable in about 5 minutes a day.
 
 ## Read next
 

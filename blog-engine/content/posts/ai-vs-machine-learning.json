@@ -19,7 +19,7 @@
     "what is machine learning"
   ],
   "datePublished": "2026-06-10",
-  "dateModified": "2026-06-10",
+  "dateModified": "2026-06-20",
   "readingTime": 6,
   "articleSection": "AI fluency",
   "feedCategory": "AI fluency",
@@ -121,6 +121,10 @@
     {
       "q": "Do I need to understand machine learning to use AI?",
       "a": "No. Using AI tools well is about clear prompting and good judgment, not the underlying math. A basic grasp helps you understand why AI can be biased or wrong, but you don't need to study machine learning to be effective."
+    },
+    {
+      "q": "Do I need to learn machine learning to get good at using AI?",
+      "a": "No. Knowing the difference is useful context, but using AI well is a separate, more practical skill — <a href=\"/become-ai-fluent\">AI fluency</a> — that anyone can build in <a href=\"/learn-ai-in-5-minutes-a-day\">about 5 minutes a day</a>, no math or ML background required."
     }
   ],
   "related": [
@@ -129,6 +133,8 @@
     "/blog/what-is-ai-literacy",
     "/blog/what-is-ai-fluency",
     "/glossary",
-    "/quiz"
+    "/quiz",
+    "/become-ai-fluent",
+    "/learn-ai-in-5-minutes-a-day"
   ]
 }

@@ -7,7 +7,7 @@ app_store: "https://apps.apple.com/app/id6759628066"
 language: en-US
 keywords: ["ChatGPT vs Gemini", "Gemini vs ChatGPT", "ChatGPT or Gemini", "is Gemini better than ChatGPT", "ChatGPT vs Google Gemini"]
 date_published: "2026-06-05"
-date_modified: "2026-06-05"
+date_modified: "2026-06-20"
 reading_time_minutes: 7
 author: "Alex Furukawa"
 license: "© 2026 Iro AI"
@@ -21,6 +21,7 @@ pillar: "ai-tools"
 
 **Canonical:** https://tryiro.com/blog/chatgpt-vs-gemini
 **Published:** 2026-06-05
+**Updated:** 2026-06-20
 **Reading time:** ~7 min
 **Author:** Alex Furukawa — Founder of Iro AI
 
@@ -93,6 +94,10 @@ You can. A common setup is ChatGPT as your default assistant plus Gemini when yo
 **Which is better for work, ChatGPT or Gemini?**
 
 If your company runs on Google Workspace, Gemini integrates most smoothly. Otherwise ChatGPT's versatility makes it the easier all-purpose work assistant. Either way, prompting skill matters more than the choice.
+
+**How do I get good at choosing between ChatGPT and Gemini?**
+
+Practice with both and learn their strengths firsthand — tool choice is a core part of AI fluency. Short daily reps build that instinct fast; here is how to learn AI in 5 minutes a day.
 
 ## Read next
 

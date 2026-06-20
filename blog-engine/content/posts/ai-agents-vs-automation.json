@@ -19,7 +19,7 @@
     "when to use AI agents"
   ],
   "datePublished": "2026-06-04",
-  "dateModified": "2026-06-04",
+  "dateModified": "2026-06-20",
   "readingTime": 7,
   "articleSection": "AI agents",
   "feedCategory": "AI agents",
@@ -112,6 +112,10 @@
     {
       "q": "Are AI agents reliable?",
       "a": "They're flexible but less predictable than rule-based automation, because they decide their own steps and can act on mistakes. Give agents a clear scope and keep a human reviewing anything costly or irreversible."
+    },
+    {
+      "q": "How do I learn to use AI agents well?",
+      "a": "Start with strong fundamentals — clear instructions, good context, and verifying results — then layer agents on top. Those fundamentals are <a href=\"/become-ai-fluent\">AI fluency</a>, and you can build them in <a href=\"/learn-ai-in-5-minutes-a-day\">about 5 minutes a day</a>."
     }
   ],
   "related": [
@@ -121,6 +125,8 @@
     "/blog/ai-skills-for-2026",
     "/ai-agents-course",
     "/ai-automation-course",
-    "/quiz"
+    "/quiz",
+    "/become-ai-fluent",
+    "/learn-ai-in-5-minutes-a-day"
   ]
 }
