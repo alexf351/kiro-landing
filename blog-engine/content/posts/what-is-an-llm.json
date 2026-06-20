@@ -20,7 +20,7 @@
     "what is a large language model"
   ],
   "datePublished": "2026-06-04",
-  "dateModified": "2026-06-04",
+  "dateModified": "2026-06-20",
   "readingTime": 7,
   "articleSection": "AI fluency",
   "feedCategory": "AI fluency",
@@ -122,6 +122,10 @@
     {
       "q": "Do I need to understand how LLMs work to use them?",
       "a": "No. Using LLMs well is a prompting-and-judgment skill, not a technical one. Understanding the basics (like why they hallucinate) helps you use them more safely, but you don't need the math."
+    },
+    {
+      "q": "What is the best way to get good at using LLMs?",
+      "a": "Practice using them on real tasks and learn to judge their output. The skill is <a href=\"/become-ai-fluent\">AI fluency</a> — prompting, verification, and tool choice — and short daily reps build it quickly. The <a href=\"/best-ai-learning-app\">best AI learning apps</a> teach this through active practice rather than passive reading."
     }
   ],
   "related": [
@@ -132,6 +136,8 @@
     "/learn-chatgpt",
     "/glossary",
     "/ai-tools-comparison",
-    "/quiz"
+    "/quiz",
+    "/become-ai-fluent",
+    "/best-ai-learning-app"
   ]
 }

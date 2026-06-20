@@ -7,7 +7,7 @@ app_store: "https://apps.apple.com/app/id6759628066"
 language: en-US
 keywords: ["how to use Perplexity", "how to use Perplexity AI", "Perplexity beginner guide", "Perplexity AI search", "getting started with Perplexity"]
 date_published: "2026-06-13"
-date_modified: "2026-06-13"
+date_modified: "2026-06-20"
 reading_time_minutes: 6
 author: "Alex Furukawa"
 license: "© 2026 Iro AI"
@@ -21,6 +21,7 @@ pillar: "ai-tools"
 
 **Canonical:** https://tryiro.com/blog/how-to-use-perplexity
 **Published:** 2026-06-13
+**Updated:** 2026-06-20
 **Reading time:** ~6 min
 **Author:** Alex Furukawa — Founder of Iro AI
 
@@ -77,6 +78,10 @@ Research and fact-finding. Because it searches the live web and cites its source
 **Is Perplexity better than ChatGPT?**
 
 They're built for different jobs. Perplexity is better for research and verifying facts because it cites sources; ChatGPT is better for creating and open-ended tasks. Many people use both.
+
+**How do I get good at Perplexity quickly?**
+
+Use it for real research questions daily and practice verifying its sources. Short reps build the habit — see how to learn AI in 5 minutes a day and develop full AI fluency across every tool.
 
 ## Read next
 

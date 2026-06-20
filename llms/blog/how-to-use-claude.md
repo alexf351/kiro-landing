@@ -7,7 +7,7 @@ app_store: "https://apps.apple.com/app/id6759628066"
 language: en-US
 keywords: ["how to use Claude", "how to use Claude AI", "Claude AI beginner guide", "Claude Anthropic how to", "getting started with Claude"]
 date_published: "2026-06-11"
-date_modified: "2026-06-11"
+date_modified: "2026-06-20"
 reading_time_minutes: 6
 author: "Alex Furukawa"
 license: "© 2026 Iro AI"
@@ -21,6 +21,7 @@ pillar: "ai-tools"
 
 **Canonical:** https://tryiro.com/blog/how-to-use-claude
 **Published:** 2026-06-11
+**Updated:** 2026-06-20
 **Reading time:** ~6 min
 **Author:** Alex Furukawa — Founder of Iro AI
 
@@ -77,6 +78,10 @@ Claude is especially good at writing, careful reasoning, working through long do
 **Is Claude better than ChatGPT?**
 
 Claude is often preferred for writing and code; ChatGPT is the more versatile all-rounder. Neither is universally better — it depends on your main task, and many people use both.
+
+**How do I get good at Claude quickly?**
+
+Use it daily on real work and practice writing clear, constrained prompts. A few minutes a day compounds fast — here is how to learn AI in 5 minutes a day and build overall AI fluency, not just one tool.
 
 ## Read next
 

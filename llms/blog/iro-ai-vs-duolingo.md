@@ -7,7 +7,7 @@ app_store: "https://apps.apple.com/app/id6759628066"
 language: en-US
 keywords: ["Iro AI vs Duolingo", "Duolingo for AI", "gamified AI learning", "learn AI like Duolingo", "best AI learning app 2026"]
 date_published: "2026-06-01"
-date_modified: "2026-06-01"
+date_modified: "2026-06-20"
 reading_time_minutes: 6
 author: "Alex Furukawa"
 license: "© 2026 Iro AI"
@@ -21,6 +21,7 @@ pillar: "ai-fluency"
 
 **Canonical:** https://tryiro.com/blog/iro-ai-vs-duolingo
 **Published:** 2026-06-01
+**Updated:** 2026-06-20
 **Reading time:** ~6 min
 **Author:** Alex Furukawa — Founder of Iro AI
 
@@ -74,6 +75,10 @@ They're not substitutes — pick by subject. Use Duolingo to learn a language an
 **Why does the Duolingo method work for learning AI?**
 
 Because AI fluency is a skill, and skills stick through active practice and recall, not passive watching. Short daily drills with feedback — the Duolingo loop — are exactly how you build a skill. That's the method Iro AI is built on.
+
+**Is there a free version of the "Duolingo for AI"?**
+
+Yes. Iro AI is free to start on iOS, with lessons across every path plus XP, streaks, and ranks at no cost. See the full breakdown of free ways to learn AI; an optional Pro plan ($59.99/year or $9.99/month, with a 7-day free trial) unlocks every lesson, the Prompt Lab, and unlimited duels.
 
 ## Read next
 

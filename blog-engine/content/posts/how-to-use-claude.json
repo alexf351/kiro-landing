@@ -19,7 +19,7 @@
     "getting started with Claude"
   ],
   "datePublished": "2026-06-11",
-  "dateModified": "2026-06-11",
+  "dateModified": "2026-06-20",
   "readingTime": 6,
   "articleSection": "AI tools",
   "feedCategory": "AI tools",
@@ -112,6 +112,10 @@
     {
       "q": "Is Claude better than ChatGPT?",
       "a": "Claude is often preferred for writing and code; ChatGPT is the more versatile all-rounder. Neither is universally better — it depends on your main task, and many people use both."
+    },
+    {
+      "q": "How do I get good at Claude quickly?",
+      "a": "Use it daily on real work and practice writing clear, constrained prompts. A few minutes a day compounds fast — here is how to <a href=\"/learn-ai-in-5-minutes-a-day\">learn AI in 5 minutes a day</a> and build overall <a href=\"/become-ai-fluent\">AI fluency</a>, not just one tool."
     }
   ],
   "related": [
@@ -121,6 +125,8 @@
     "/blog/claude-vs-gemini",
     "/learn-claude",
     "/how-to-learn-ai",
-    "/quiz"
+    "/quiz",
+    "/learn-ai-in-5-minutes-a-day",
+    "/become-ai-fluent"
   ]
 }

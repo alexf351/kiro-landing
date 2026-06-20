@@ -19,7 +19,7 @@
     "best AI learning app 2026"
   ],
   "datePublished": "2026-05-31",
-  "dateModified": "2026-06-13",
+  "dateModified": "2026-06-20",
   "readingTime": 7,
   "articleSection": "AI fluency",
   "feedCategory": "AI learning apps",
@@ -112,6 +112,10 @@
     {
       "q": "Which app helps AI skills stick better?",
       "a": "Skills stick through repeated active recall, not passive reading. Iro AI is designed around that — short drills, instant feedback, streaks, and rank tiers — whereas course-style apps lean more on lessons. Try both free tiers and see which keeps you coming back."
+    },
+    {
+      "q": "Is there a free alternative to Learnova for learning AI?",
+      "a": "Yes. Iro AI is free to start, so you can build a daily habit before deciding to pay. See the <a href=\"/free-ai-learning-app\">best free ways to learn AI</a> and how the <a href=\"/best-ai-learning-app\">leading AI learning apps compare</a>."
     }
   ],
   "related": [
@@ -123,6 +127,8 @@
     "/learn-chatgpt",
     "/learn-gemini",
     "/quiz",
-    "/glossary"
+    "/glossary",
+    "/free-ai-learning-app",
+    "/become-ai-fluent"
   ]
 }

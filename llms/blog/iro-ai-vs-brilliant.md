@@ -7,7 +7,7 @@ app_store: "https://apps.apple.com/app/id6759628066"
 language: en-US
 keywords: ["Iro AI vs Brilliant", "Brilliant alternative", "Brilliant AI course", "learn AI app", "best app to learn AI 2026"]
 date_published: "2026-06-01"
-date_modified: "2026-06-01"
+date_modified: "2026-06-20"
 reading_time_minutes: 7
 author: "Alex Furukawa"
 license: "© 2026 Iro AI"
@@ -21,6 +21,7 @@ pillar: "ai-fluency"
 
 **Canonical:** https://tryiro.com/blog/iro-ai-vs-brilliant
 **Published:** 2026-06-01
+**Updated:** 2026-06-20
 **Reading time:** ~7 min
 **Author:** Alex Furukawa — Founder of Iro AI
 
@@ -80,6 +81,10 @@ Yes, and they pair well. Brilliant builds the understanding of how AI works; Iro
 **Which is better for a complete beginner to AI tools?**
 
 For someone who just wants to use AI tools confidently, Iro AI is the more direct path — it drills prompting and tool use from zero. Start with the free AI IQ test, then the 30-day beginner plan.
+
+**Which app gets me actually using AI tools the fastest?**
+
+Iro AI. Brilliant builds math and CS foundations, but if your goal is to use ChatGPT, Claude, Gemini, and Perplexity well, Iro trains that directly — you can learn AI in about 5 minutes a day and work toward genuine AI fluency.
 
 ## Read next
 

@@ -20,7 +20,7 @@
     "how to improve AI literacy"
   ],
   "datePublished": "2026-06-09",
-  "dateModified": "2026-06-09",
+  "dateModified": "2026-06-20",
   "readingTime": 7,
   "articleSection": "AI fluency",
   "feedCategory": "AI fluency",
@@ -113,6 +113,10 @@
     {
       "q": "How can I improve my AI literacy?",
       "a": "Use AI on real tasks and notice where it helps and fails, learn the basics of how it works and its limits, and make verifying its claims a habit. Short daily practice, like Iro AI's lessons, builds it quickly."
+    },
+    {
+      "q": "What is the average person’s AI literacy level?",
+      "a": "Lower than most people assume. In our early data, the <a href=\"/blog/average-ai-literacy-score\">average score on a basic AI literacy test was about 5/10</a>, and 56% scored 5 or below. The good news is that AI literacy is a learnable skill — see how to <a href=\"/become-ai-fluent\">become AI fluent</a>."
     }
   ],
   "related": [
@@ -122,6 +126,8 @@
     "/blog/spot-ai-hallucinations",
     "/how-to-learn-ai",
     "/glossary",
-    "/quiz"
+    "/quiz",
+    "/blog/average-ai-literacy-score",
+    "/become-ai-fluent"
   ]
 }

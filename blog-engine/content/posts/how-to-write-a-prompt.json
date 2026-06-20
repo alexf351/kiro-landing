@@ -19,7 +19,7 @@
     "how to prompt AI"
   ],
   "datePublished": "2026-06-05",
-  "dateModified": "2026-06-05",
+  "dateModified": "2026-06-20",
   "readingTime": 7,
   "articleSection": "Prompt engineering",
   "feedCategory": "Prompt engineering",
@@ -112,6 +112,10 @@
     {
       "q": "Does the same prompt work on ChatGPT, Claude, and Gemini?",
       "a": "Mostly yes. The context-role-task-format structure works across all major AI tools. You tune small details per model, but the core recipe transfers."
+    },
+    {
+      "q": "How do I practice writing prompts every day?",
+      "a": "Take one real task each day and rewrite your prompt with a role, goal, context, and constraints. Daily reps are the whole game — you can <a href=\"/learn-ai-in-5-minutes-a-day\">build the skill in about 5 minutes a day</a> on the way to broader <a href=\"/become-ai-fluent\">AI fluency</a>."
     }
   ],
   "related": [
@@ -121,6 +125,8 @@
     "/blog/what-is-prompt-engineering",
     "/prompt-engineering-app",
     "/learn-chatgpt",
-    "/quiz"
+    "/quiz",
+    "/learn-ai-in-5-minutes-a-day",
+    "/become-ai-fluent"
   ]
 }
