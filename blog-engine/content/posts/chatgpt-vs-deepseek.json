@@ -94,6 +94,10 @@
     {
       "href": "/quiz",
       "label": "Take the free AI IQ test"
+    },
+    {
+      "href": "/blog/how-to-use-deepseek",
+      "label": "How to use DeepSeek"
     }
   ],
   "faq": [
@@ -126,6 +130,7 @@
     "/ai-tools-comparison",
     "/quiz",
     "/become-ai-fluent",
-    "/best-ai-learning-app"
+    "/best-ai-learning-app",
+    "/blog/how-to-use-deepseek"
   ]
 }

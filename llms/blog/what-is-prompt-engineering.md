@@ -114,6 +114,7 @@ Practice on real tasks, daily, with feedback — not by reading prompt lists. A 
 - [Why your AI prompts aren't working](https://tryiro.com/blog/why-your-ai-prompts-arent-working)
 - [What is AI fluency?](https://tryiro.com/blog/what-is-ai-fluency)
 - [Take the free AI IQ test](https://tryiro.com/quiz)
+- [Is prompt engineering dead?](https://tryiro.com/blog/is-prompt-engineering-dead)
 
 ## About the author
 

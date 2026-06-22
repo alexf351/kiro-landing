@@ -77,6 +77,7 @@ They have different strengths. Grok leans into real-time X information and perso
 - [The best ChatGPT alternatives](https://tryiro.com/blog/chatgpt-alternatives)
 - [What is an LLM?](https://tryiro.com/blog/what-is-an-llm)
 - [Take the free AI IQ test](https://tryiro.com/quiz)
+- [How to use Grok](https://tryiro.com/blog/how-to-use-grok)
 
 ## About the author
 

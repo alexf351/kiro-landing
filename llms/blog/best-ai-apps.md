@@ -94,6 +94,7 @@ The tools in this list help you do things with AI; to get good at using them, yo
 - [The best free AI tools in 2026](https://tryiro.com/blog/best-free-ai-tools-2026)
 - [The best app to learn AI](https://tryiro.com/best-ai-learning-app)
 - [Take the free AI IQ test](https://tryiro.com/quiz)
+- [The best AI coding tools](https://tryiro.com/blog/best-ai-coding-tools)
 
 ## About the author
 

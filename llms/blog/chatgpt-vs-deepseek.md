@@ -92,6 +92,7 @@ Less than you would think. Once you have AI fluency — good prompting, verifica
 - [The best ChatGPT alternatives](https://tryiro.com/blog/chatgpt-alternatives)
 - [The best AI apps in 2026](https://tryiro.com/blog/best-ai-apps)
 - [Take the free AI IQ test](https://tryiro.com/quiz)
+- [How to use DeepSeek](https://tryiro.com/blog/how-to-use-deepseek)
 
 ## About the author
 

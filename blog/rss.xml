@@ -9,7 +9,7 @@
     <description>Short, practical writing on AI fluency, prompting, AI tools, and the active-practice method that beats endless video courses.</description>
     <language>en-US</language>
     <atom:link href="https://tryiro.com/blog/rss.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Sat, 20 Jun 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 22 Jun 2026 00:00:00 GMT</lastBuildDate>
     <generator>tryiro.com</generator>
     <copyright>© 2026 Iro AI</copyright>
     <image>
@@ -529,6 +529,60 @@
       <dc:creator>Iro AI</dc:creator>
       <category>AI fluency</category>
       <description>What's the average score on an AI literacy test? Across our first 50 AI IQ tests the average was 5.2/10 and 56% scored 5 or below. See the full score distribution and what it means.</description>
+    </item>
+    <item>
+      <title>Is prompt engineering dead in 2026?</title>
+      <link>https://tryiro.com/blog/is-prompt-engineering-dead</link>
+      <guid isPermaLink="true">https://tryiro.com/blog/is-prompt-engineering-dead</guid>
+      <pubDate>Mon, 22 Jun 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Iro AI</dc:creator>
+      <category>Prompt engineering</category>
+      <description>Is prompt engineering dead in 2026? Short answer: no, it evolved. Here's what changed, what still matters, and why clear prompting is now a core part of AI fluency.</description>
+    </item>
+    <item>
+      <title>How to use Grok: a beginner’s guide</title>
+      <link>https://tryiro.com/blog/how-to-use-grok</link>
+      <guid isPermaLink="true">https://tryiro.com/blog/how-to-use-grok</guid>
+      <pubDate>Mon, 22 Jun 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Iro AI</dc:creator>
+      <category>AI tools</category>
+      <description>How to use Grok, xAI's chatbot: where to access it, its real-time strengths, prompting tips, and when to reach for it versus ChatGPT or Claude.</description>
+    </item>
+    <item>
+      <title>How to use DeepSeek: a beginner’s guide</title>
+      <link>https://tryiro.com/blog/how-to-use-deepseek</link>
+      <guid isPermaLink="true">https://tryiro.com/blog/how-to-use-deepseek</guid>
+      <pubDate>Mon, 22 Jun 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Iro AI</dc:creator>
+      <category>AI tools</category>
+      <description>How to use DeepSeek: where to access it, what it's good at, prompting tips, privacy considerations, and how it compares to ChatGPT.</description>
+    </item>
+    <item>
+      <title>The best AI coding tools in 2026</title>
+      <link>https://tryiro.com/blog/best-ai-coding-tools</link>
+      <guid isPermaLink="true">https://tryiro.com/blog/best-ai-coding-tools</guid>
+      <pubDate>Mon, 22 Jun 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Iro AI</dc:creator>
+      <category>AI tools</category>
+      <description>The best AI coding tools in 2026 compared — GitHub Copilot, Cursor, Claude Code, ChatGPT, and Gemini — what each is best at and how to use them well.</description>
+    </item>
+    <item>
+      <title>What is a context window in AI?</title>
+      <link>https://tryiro.com/blog/what-is-a-context-window</link>
+      <guid isPermaLink="true">https://tryiro.com/blog/what-is-a-context-window</guid>
+      <pubDate>Mon, 22 Jun 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Iro AI</dc:creator>
+      <category>AI fundamentals</category>
+      <description>What is a context window in AI? A plain-English explainer: what it is, how it relates to tokens, why models 'forget', and practical tips for working within it.</description>
+    </item>
+    <item>
+      <title>What are tokens in AI?</title>
+      <link>https://tryiro.com/blog/what-are-tokens-in-ai</link>
+      <guid isPermaLink="true">https://tryiro.com/blog/what-are-tokens-in-ai</guid>
+      <pubDate>Mon, 22 Jun 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Iro AI</dc:creator>
+      <category>AI fundamentals</category>
+      <description>What are tokens in AI? A plain-English explainer: what a token is, how tokenization works, the words-per-token rule of thumb, and why tokens drive cost and limits.</description>
     </item>
   </channel>
 </rss>

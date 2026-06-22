@@ -78,6 +78,7 @@ For general learning and personal use it's a capable tool, but because it's buil
 - [The best AI apps in 2026](https://tryiro.com/blog/best-ai-apps)
 - [The best ChatGPT alternatives](https://tryiro.com/blog/chatgpt-alternatives)
 - [Take the free AI IQ test](https://tryiro.com/quiz)
+- [How to use DeepSeek](https://tryiro.com/blog/how-to-use-deepseek)
 
 ## About the author
 

@@ -5,7 +5,7 @@
   <link rel="self" href="https://tryiro.com/blog/atom.xml" type="application/atom+xml"/>
   <link rel="alternate" href="https://tryiro.com/blog" type="text/html"/>
   <id>https://tryiro.com/blog/atom.xml</id>
-  <updated>2026-06-20T00:00:00Z</updated>
+  <updated>2026-06-22T00:00:00Z</updated>
   <rights>© 2026 Iro AI</rights>
   <author><name>Iro AI</name><uri>https://tryiro.com</uri></author>
   <icon>https://tryiro.com/assets/favicon-64.png</icon>
@@ -579,5 +579,65 @@
     <author><name>Iro AI</name></author>
     <category term="AI fluency"/>
     <summary>We pulled the results from the first 50 completions of our free AI IQ test. The average score was 5.2 out of 10, the median was 5, and 56% of people scored 5 or below. Here's the full breakdown of how AI-literate people actually are — and why most overestimate it.</summary>
+  </entry>
+  <entry>
+    <title>Is prompt engineering dead in 2026?</title>
+    <id>https://tryiro.com/blog/is-prompt-engineering-dead</id>
+    <link href="https://tryiro.com/blog/is-prompt-engineering-dead"/>
+    <updated>2026-06-22T00:00:00Z</updated>
+    <published>2026-06-22T00:00:00Z</published>
+    <author><name>Iro AI</name></author>
+    <category term="Prompt engineering"/>
+    <summary>No — prompt engineering isn't dead, it changed. Models now forgive sloppy wording, but clear instructions, good context, and verifying output matter more than ever, especially once AI agents enter the picture.</summary>
+  </entry>
+  <entry>
+    <title>How to use Grok: a beginner’s guide</title>
+    <id>https://tryiro.com/blog/how-to-use-grok</id>
+    <link href="https://tryiro.com/blog/how-to-use-grok"/>
+    <updated>2026-06-22T00:00:00Z</updated>
+    <published>2026-06-22T00:00:00Z</published>
+    <author><name>Iro AI</name></author>
+    <category term="AI tools"/>
+    <summary>Grok is xAI's assistant built into X, known for real-time information and a casual tone. Here's how to start using it, what it's best at, and how to get better answers.</summary>
+  </entry>
+  <entry>
+    <title>How to use DeepSeek: a beginner’s guide</title>
+    <id>https://tryiro.com/blog/how-to-use-deepseek</id>
+    <link href="https://tryiro.com/blog/how-to-use-deepseek"/>
+    <updated>2026-06-22T00:00:00Z</updated>
+    <published>2026-06-22T00:00:00Z</published>
+    <author><name>Iro AI</name></author>
+    <category term="AI tools"/>
+    <summary>DeepSeek is a capable, low-cost AI assistant from a Chinese lab, known for strong reasoning and open models. Here's how to start using it, what it's good at, and what to keep in mind.</summary>
+  </entry>
+  <entry>
+    <title>The best AI coding tools in 2026</title>
+    <id>https://tryiro.com/blog/best-ai-coding-tools</id>
+    <link href="https://tryiro.com/blog/best-ai-coding-tools"/>
+    <updated>2026-06-22T00:00:00Z</updated>
+    <published>2026-06-22T00:00:00Z</published>
+    <author><name>Iro AI</name></author>
+    <category term="AI tools"/>
+    <summary>AI now writes, explains, and debugs code alongside you. Here are the best AI coding tools in 2026 — what each is best at, and how to actually get good with them.</summary>
+  </entry>
+  <entry>
+    <title>What is a context window in AI?</title>
+    <id>https://tryiro.com/blog/what-is-a-context-window</id>
+    <link href="https://tryiro.com/blog/what-is-a-context-window"/>
+    <updated>2026-06-22T00:00:00Z</updated>
+    <published>2026-06-22T00:00:00Z</published>
+    <author><name>Iro AI</name></author>
+    <category term="AI fundamentals"/>
+    <summary>A context window is how much text an AI can “see” at once — your prompt plus everything earlier in the conversation. Here's what it means in plain English and why it matters.</summary>
+  </entry>
+  <entry>
+    <title>What are tokens in AI?</title>
+    <id>https://tryiro.com/blog/what-are-tokens-in-ai</id>
+    <link href="https://tryiro.com/blog/what-are-tokens-in-ai"/>
+    <updated>2026-06-22T00:00:00Z</updated>
+    <published>2026-06-22T00:00:00Z</published>
+    <author><name>Iro AI</name></author>
+    <category term="AI fundamentals"/>
+    <summary>Tokens are the small chunks of text an AI breaks language into — usually pieces of words. They're how models read, generate, get priced, and hit their limits. Here's the plain-English version.</summary>
   </entry>
 </feed>

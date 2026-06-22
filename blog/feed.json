@@ -687,6 +687,78 @@
         "AI literacy",
         "data"
       ]
+    },
+    {
+      "id": "https://tryiro.com/blog/is-prompt-engineering-dead",
+      "url": "https://tryiro.com/blog/is-prompt-engineering-dead",
+      "title": "Is prompt engineering dead in 2026?",
+      "summary": "No — prompt engineering isn't dead, it changed. Models now forgive sloppy wording, but clear instructions, good context, and verifying output matter more than ever, especially once AI agents enter the picture.",
+      "date_published": "2026-06-22T00:00:00Z",
+      "tags": [
+        "Prompt engineering",
+        "AI skills",
+        "AI fluency"
+      ]
+    },
+    {
+      "id": "https://tryiro.com/blog/how-to-use-grok",
+      "url": "https://tryiro.com/blog/how-to-use-grok",
+      "title": "How to use Grok: a beginner’s guide",
+      "summary": "Grok is xAI's assistant built into X, known for real-time information and a casual tone. Here's how to start using it, what it's best at, and how to get better answers.",
+      "date_published": "2026-06-22T00:00:00Z",
+      "tags": [
+        "AI tools",
+        "Grok",
+        "How-to"
+      ]
+    },
+    {
+      "id": "https://tryiro.com/blog/how-to-use-deepseek",
+      "url": "https://tryiro.com/blog/how-to-use-deepseek",
+      "title": "How to use DeepSeek: a beginner’s guide",
+      "summary": "DeepSeek is a capable, low-cost AI assistant from a Chinese lab, known for strong reasoning and open models. Here's how to start using it, what it's good at, and what to keep in mind.",
+      "date_published": "2026-06-22T00:00:00Z",
+      "tags": [
+        "AI tools",
+        "DeepSeek",
+        "How-to"
+      ]
+    },
+    {
+      "id": "https://tryiro.com/blog/best-ai-coding-tools",
+      "url": "https://tryiro.com/blog/best-ai-coding-tools",
+      "title": "The best AI coding tools in 2026",
+      "summary": "AI now writes, explains, and debugs code alongside you. Here are the best AI coding tools in 2026 — what each is best at, and how to actually get good with them.",
+      "date_published": "2026-06-22T00:00:00Z",
+      "tags": [
+        "AI tools",
+        "Coding",
+        "Comparison"
+      ]
+    },
+    {
+      "id": "https://tryiro.com/blog/what-is-a-context-window",
+      "url": "https://tryiro.com/blog/what-is-a-context-window",
+      "title": "What is a context window in AI?",
+      "summary": "A context window is how much text an AI can “see” at once — your prompt plus everything earlier in the conversation. Here's what it means in plain English and why it matters.",
+      "date_published": "2026-06-22T00:00:00Z",
+      "tags": [
+        "AI basics",
+        "LLMs",
+        "AI fluency"
+      ]
+    },
+    {
+      "id": "https://tryiro.com/blog/what-are-tokens-in-ai",
+      "url": "https://tryiro.com/blog/what-are-tokens-in-ai",
+      "title": "What are tokens in AI?",
+      "summary": "Tokens are the small chunks of text an AI breaks language into — usually pieces of words. They're how models read, generate, get priced, and hit their limits. Here's the plain-English version.",
+      "date_published": "2026-06-22T00:00:00Z",
+      "tags": [
+        "AI basics",
+        "LLMs",
+        "AI fluency"
+      ]
     }
   ]
 }

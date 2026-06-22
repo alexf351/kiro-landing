@@ -95,6 +95,10 @@
     {
       "href": "/quiz",
       "label": "Take the free AI IQ test"
+    },
+    {
+      "href": "/blog/how-to-use-grok",
+      "label": "How to use Grok"
     }
   ],
   "faq": [
@@ -121,6 +125,7 @@
     "/blog/what-is-an-llm",
     "/blog/chatgpt-vs-deepseek",
     "/ai-tools-comparison",
-    "/quiz"
+    "/quiz",
+    "/blog/how-to-use-grok"
   ]
 }
