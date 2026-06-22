@@ -621,4 +621,64 @@
       <image:title>We tested AI literacy on 50 people. The average score was 5/10.</image:title>
     </image:image>
   </url>
+  <url>
+    <loc>https://tryiro.com/blog/is-prompt-engineering-dead</loc>
+    <lastmod>2026-06-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://tryiro.com/assets/og/is-prompt-engineering-dead.png</image:loc>
+      <image:title>Is prompt engineering dead in 2026?</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://tryiro.com/blog/how-to-use-grok</loc>
+    <lastmod>2026-06-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://tryiro.com/assets/og/how-to-use-grok.png</image:loc>
+      <image:title>How to use Grok: a beginner’s guide</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://tryiro.com/blog/how-to-use-deepseek</loc>
+    <lastmod>2026-06-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://tryiro.com/assets/og/how-to-use-deepseek.png</image:loc>
+      <image:title>How to use DeepSeek: a beginner’s guide</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://tryiro.com/blog/best-ai-coding-tools</loc>
+    <lastmod>2026-06-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://tryiro.com/assets/og/best-ai-coding-tools.png</image:loc>
+      <image:title>The best AI coding tools in 2026</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://tryiro.com/blog/what-is-a-context-window</loc>
+    <lastmod>2026-06-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://tryiro.com/assets/og/what-is-a-context-window.png</image:loc>
+      <image:title>What is a context window in AI?</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://tryiro.com/blog/what-are-tokens-in-ai</loc>
+    <lastmod>2026-06-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://tryiro.com/assets/og/what-are-tokens-in-ai.png</image:loc>
+      <image:title>What are tokens in AI?</image:title>
+    </image:image>
+  </url>
 </urlset>

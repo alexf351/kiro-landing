@@ -113,6 +113,7 @@ Practice using them on real tasks and learn to judge their output. The skill is 
 - [What is AI fluency?](https://tryiro.com/blog/what-is-ai-fluency)
 - [How to spot AI hallucinations in 5 seconds](https://tryiro.com/blog/spot-ai-hallucinations)
 - [Take the free AI IQ test](https://tryiro.com/quiz)
+- [What are tokens in AI?](https://tryiro.com/blog/what-are-tokens-in-ai)
 
 ## About the author
 

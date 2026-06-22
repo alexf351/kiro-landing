@@ -247,6 +247,30 @@
     {
       "source": "/blog/average-ai-literacy-score",
       "destination": "/blog/average-ai-literacy-score.html"
+    },
+    {
+      "source": "/blog/is-prompt-engineering-dead",
+      "destination": "/blog/is-prompt-engineering-dead.html"
+    },
+    {
+      "source": "/blog/how-to-use-grok",
+      "destination": "/blog/how-to-use-grok.html"
+    },
+    {
+      "source": "/blog/how-to-use-deepseek",
+      "destination": "/blog/how-to-use-deepseek.html"
+    },
+    {
+      "source": "/blog/best-ai-coding-tools",
+      "destination": "/blog/best-ai-coding-tools.html"
+    },
+    {
+      "source": "/blog/what-is-a-context-window",
+      "destination": "/blog/what-is-a-context-window.html"
+    },
+    {
+      "source": "/blog/what-are-tokens-in-ai",
+      "destination": "/blog/what-are-tokens-in-ai.html"
     }
   ]
 }

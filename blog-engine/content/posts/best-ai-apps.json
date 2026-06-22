@@ -95,6 +95,10 @@
     {
       "href": "/quiz",
       "label": "Take the free AI IQ test"
+    },
+    {
+      "href": "/blog/best-ai-coding-tools",
+      "label": "The best AI coding tools"
     }
   ],
   "faq": [
@@ -127,6 +131,7 @@
     "/duolingo-for-ai",
     "/ai-tools-comparison",
     "/quiz",
-    "/become-ai-fluent"
+    "/become-ai-fluent",
+    "/blog/best-ai-coding-tools"
   ]
 }

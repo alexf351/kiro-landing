@@ -105,6 +105,10 @@
     {
       "href": "/quiz",
       "label": "Take the free AI IQ test"
+    },
+    {
+      "href": "/blog/is-prompt-engineering-dead",
+      "label": "Is prompt engineering dead?"
     }
   ],
   "faq": [
@@ -139,6 +143,7 @@
     "/quiz",
     "/ai-prompts",
     "/learn-ai-in-5-minutes-a-day",
-    "/become-ai-fluent"
+    "/become-ai-fluent",
+    "/blog/is-prompt-engineering-dead"
   ]
 }

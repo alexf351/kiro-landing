@@ -1,0 +1,117 @@
+{
+  "slug": "what-is-a-context-window",
+  "order": 62,
+  "pillar": "ai-fluency",
+  "title": "What is a context window in AI?",
+  "lede": "A context window is how much text an AI can “see” at once — your prompt plus everything earlier in the conversation. Here's what it means in plain English and why it matters.",
+  "keyTakeaways": [
+    "A context window is the maximum amount of text (measured in tokens) a model can consider at one time — input plus its own response.",
+    "Everything competes for that space: your instructions, pasted documents, and the running conversation history.",
+    "When you exceed it, the model “forgets” the oldest parts — a common reason long chats start drifting or losing details.",
+    "Bigger windows help, but clear, well-organized prompts matter more than raw size."
+  ],
+  "description": "What is a context window in AI? A plain-English explainer: what it is, how it relates to tokens, why models 'forget', and practical tips for working within it.",
+  "keywords": [
+    "what is a context window",
+    "context window AI",
+    "context window meaning",
+    "AI context window explained",
+    "context window tokens",
+    "context length"
+  ],
+  "datePublished": "2026-06-22",
+  "dateModified": "2026-06-22",
+  "readingTime": 5,
+  "articleSection": "AI fundamentals",
+  "feedCategory": "AI fundamentals",
+  "feedTags": [
+    "AI basics",
+    "LLMs",
+    "AI fluency"
+  ],
+  "inlineCtaAfter": 2,
+  "toc": [
+    {
+      "href": "#answer",
+      "label": "Definition"
+    },
+    {
+      "href": "#how",
+      "label": "How it works"
+    },
+    {
+      "href": "#forget",
+      "label": "Why AI 'forgets'"
+    },
+    {
+      "href": "#tips",
+      "label": "Practical tips"
+    }
+  ],
+  "sections": [
+    {
+      "id": "answer",
+      "heading": "What is a context window?",
+      "html": "<p><strong>A context window is the maximum amount of text an AI model can consider at once — your current prompt, any documents you've pasted, the earlier conversation, and the model's own reply, all together.</strong> Think of it as the model's short-term memory or its \"field of view.\" It's measured in <a href=\"/blog/what-are-tokens-in-ai\">tokens</a> (roughly, chunks of words), and every model has a limit.</p>"
+    },
+    {
+      "id": "how",
+      "heading": "How the context window works",
+      "html": "<p>Everything you send shares one budget. Your instructions, a long PDF you pasted, and the whole back-and-forth so far all count against the window. The model reads all of it to generate a response, and its answer counts too. A larger window means the model can take in more — a long report, a big codebase, hours of conversation — without losing track. Smaller windows fill up faster.</p>"
+    },
+    {
+      "id": "forget",
+      "heading": "Why AI seems to “forget” things",
+      "html": "<p>When a conversation grows past the window, the oldest content falls out of view. That's why a long chat can start contradicting itself, dropping details you mentioned early on, or \"forgetting\" instructions from the top. It isn't being careless — that text is simply no longer in its field of view. This is also why pasting a giant document and then asking many follow-ups can degrade: the document is crowding the window. Related: how to <a href=\"/blog/spot-ai-hallucinations\">spot when AI is making things up</a>.</p>"
+    },
+    {
+      "id": "tips",
+      "heading": "Practical tips for working within the window",
+      "html": "<ul><li><strong>Put the important stuff up front and restate it</strong> if a chat gets long.</li><li><strong>Start a fresh chat</strong> for a new task instead of letting one thread sprawl.</li><li><strong>Paste only the relevant excerpt</strong>, not an entire document, when you can.</li><li><strong>Summarize</strong> a long conversation and carry the summary into a new one.</li></ul><p>Managing context well is a quiet superpower — part of broader <a href=\"/become-ai-fluent\">AI fluency</a>. You can <a href=\"/learn-ai-in-5-minutes-a-day\">build these habits in 5 minutes a day</a>.</p>"
+    }
+  ],
+  "readNext": [
+    {
+      "href": "/blog/what-are-tokens-in-ai",
+      "label": "What are tokens in AI?"
+    },
+    {
+      "href": "/blog/what-is-an-llm",
+      "label": "What is an LLM?"
+    },
+    {
+      "href": "/become-ai-fluent",
+      "label": "How to become AI fluent"
+    },
+    {
+      "href": "/quiz",
+      "label": "Take the free AI IQ test"
+    }
+  ],
+  "faq": [
+    {
+      "q": "What is a context window in simple terms?",
+      "a": "It's how much text an AI can pay attention to at once — your prompt, any pasted documents, the earlier conversation, and the model's reply, all together. Think of it as the model's short-term memory, measured in tokens."
+    },
+    {
+      "q": "Why does AI forget what I said earlier?",
+      "a": "Because long conversations eventually exceed the context window, and the oldest content drops out of the model's view. It isn't being careless; that text is simply no longer something it can see, so details and early instructions get lost."
+    },
+    {
+      "q": "Is a bigger context window always better?",
+      "a": "It helps for long documents and long chats, but it isn't everything. A clear, well-organized prompt that puts the important information up front often matters more than raw window size — and huge inputs can still dilute the model's focus."
+    },
+    {
+      "q": "How is a context window related to tokens?",
+      "a": "Context windows are measured in tokens, the small chunks of text models process. The window is the maximum number of tokens — input plus output — the model can handle at once, so longer text uses more of it."
+    }
+  ],
+  "related": [
+    "/blog/what-are-tokens-in-ai",
+    "/blog/what-is-an-llm",
+    "/blog/spot-ai-hallucinations",
+    "/learn-llms",
+    "/become-ai-fluent",
+    "/quiz"
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "slug": "how-to-use-grok",
+  "order": 59,
+  "pillar": "ai-tools",
+  "title": "How to use Grok: a beginner’s guide",
+  "lede": "Grok is xAI's assistant built into X, known for real-time information and a casual tone. Here's how to start using it, what it's best at, and how to get better answers.",
+  "keyTakeaways": [
+    "Grok is available inside X and through its own app and website; access depends on your plan.",
+    "Its edge is real-time information from X and the web, plus a more casual, conversational style.",
+    "Ask clear questions and lean on its live strengths — \"what's happening with X right now\" type queries.",
+    "For careful, high-stakes work, mainstream assistants are often steadier, and you should verify anything important."
+  ],
+  "description": "How to use Grok, xAI's chatbot: where to access it, its real-time strengths, prompting tips, and when to reach for it versus ChatGPT or Claude.",
+  "keywords": [
+    "how to use Grok",
+    "Grok AI guide",
+    "how to use Grok AI",
+    "Grok tutorial",
+    "Grok tips",
+    "Grok xAI"
+  ],
+  "datePublished": "2026-06-22",
+  "dateModified": "2026-06-22",
+  "readingTime": 5,
+  "articleSection": "AI tools",
+  "feedCategory": "AI tools",
+  "feedTags": [
+    "AI tools",
+    "Grok",
+    "How-to"
+  ],
+  "inlineCtaAfter": 2,
+  "toc": [
+    {
+      "href": "#start",
+      "label": "Getting started"
+    },
+    {
+      "href": "#best",
+      "label": "What it's best at"
+    },
+    {
+      "href": "#prompt",
+      "label": "Getting better answers"
+    },
+    {
+      "href": "#vs",
+      "label": "When to use it"
+    }
+  ],
+  "sections": [
+    {
+      "id": "start",
+      "heading": "How to start using Grok",
+      "html": "<p><strong>Grok is xAI's AI assistant, and the quickest way in is through X (formerly Twitter), where it's built in; it also has its own app and website.</strong> Open it, type a question in plain language, and refine from there — it works like any chat assistant. Access and limits depend on your plan, so check the current options. New to what it is? Start with <a href=\"/blog/what-is-grok\">what is Grok</a>.</p>"
+    },
+    {
+      "id": "best",
+      "heading": "What Grok is best at",
+      "html": "<ul><li><strong>Real-time questions</strong> — trending topics and live discussion on X, where most assistants lag.</li><li><strong>Casual conversation</strong> — a looser, more irreverent tone if other assistants feel stiff.</li><li><strong>Quick takes</strong> — fast, conversational answers on what's happening now.</li></ul><p>For long documents, precise reasoning, or sensitive work, steadier all-rounders like <a href=\"/learn-chatgpt\">ChatGPT</a> and <a href=\"/learn-claude\">Claude</a> are often the better call.</p>"
+    },
+    {
+      "id": "prompt",
+      "heading": "How to get better answers from Grok",
+      "html": "<p>The same fundamentals that work everywhere work here: give it a role, the context, the task, and the format you want. Lean into its real-time strength by being specific about timeframe and source (\"summarize what people on X are saying about X today\"). And because any model can be wrong or biased, <a href=\"/blog/spot-ai-hallucinations\">verify anything that matters</a>. For the full method, see <a href=\"/blog/how-to-write-a-prompt\">how to write a good prompt</a>.</p>"
+    },
+    {
+      "id": "vs",
+      "heading": "When to use Grok vs other tools",
+      "html": "<p>Reach for Grok when you want a live read on a trending topic or a casual back-and-forth; keep a polished all-rounder as your default for general work. The real skill isn't picking one tool — it's directing whichever you use well. That's <a href=\"/become-ai-fluent\">AI fluency</a>, and you can <a href=\"/learn-ai-in-5-minutes-a-day\">build it in about 5 minutes a day</a>. See the wider field in <a href=\"/blog/best-ai-apps\">the best AI apps</a>.</p>"
+    }
+  ],
+  "readNext": [
+    {
+      "href": "/blog/what-is-grok",
+      "label": "What is Grok?"
+    },
+    {
+      "href": "/blog/best-ai-apps",
+      "label": "The best AI apps in 2026"
+    },
+    {
+      "href": "/blog/how-to-write-a-prompt",
+      "label": "How to write a good AI prompt"
+    },
+    {
+      "href": "/quiz",
+      "label": "Take the free AI IQ test"
+    }
+  ],
+  "faq": [
+    {
+      "q": "How do I start using Grok?",
+      "a": "The fastest way is inside X (formerly Twitter), where Grok is built in; it also has its own app and website. Open it, ask a question in plain language, and refine. Access and limits depend on your plan."
+    },
+    {
+      "q": "Is Grok free to use?",
+      "a": "Grok is available inside X and via its own app and site, with access and limits that depend on your plan and any X subscription. Check the current options, as they change."
+    },
+    {
+      "q": "What is Grok best for?",
+      "a": "Real-time questions about trending topics and live discussion on X, plus a casual conversational style. For careful, high-stakes work, mainstream assistants like ChatGPT and Claude are often steadier."
+    },
+    {
+      "q": "How do I get better answers from Grok?",
+      "a": "Use the same prompting fundamentals that work everywhere: give a role, context, the task, and the format you want. Lean on its real-time strength by being specific about timeframe and source, and verify anything important."
+    }
+  ],
+  "related": [
+    "/blog/what-is-grok",
+    "/blog/best-ai-apps",
+    "/blog/chatgpt-alternatives",
+    "/blog/how-to-write-a-prompt",
+    "/become-ai-fluent",
+    "/quiz"
+  ]
+}
