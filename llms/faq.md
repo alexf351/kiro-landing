@@ -81,7 +81,7 @@ About 5 minutes.
 
 ### How many lessons does Iro have?
 
-345 lessons and 2,000+ exercises across 20 learning paths and 13 exercise types.
+375 lessons and 2,000+ exercises across 20 learning paths and 13 exercise types.
 
 ### What are the rank tiers?
 
