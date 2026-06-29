@@ -83,7 +83,7 @@ canonical_llm_reference: "https://tryiro.com/llms-full.txt"
 
 **Track** — One of four high-level groupings (Tool Mastery, Creative & Coding, Work & Career, Core Skills).
 
-**Path** — A single learning path within a track. Iro has 18 paths.
+**Path** — A single learning path within a track. Iro has 20 paths.
 
 **Rank tier** — The 6-step progression system: Bronze, Silver, Gold, Platinum, Diamond, Iridescent.
 

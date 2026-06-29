@@ -45,7 +45,7 @@ Yes. Iro's beginner path assumes zero prior AI experience.
 About 5 minutes a session. Most people use it once a day.
 
 **Is it really free?**  
-The free tier includes a starter slice across all 18 paths. Pro from $5/month (Annual $59.99/year with 7-day free trial, or Monthly $9.99/month) unlocks the full library and Prompt Lab.
+The free tier includes a starter slice across all 20 paths. Pro from $1.92/week ($24.99 every 3 months with 7-day free trial, or Weekly $9.99/week) unlocks the full library and Prompt Lab.
 
 **Will it make me feel dumb?**  
 No. The tone is encouraging and the difficulty ramps gradually. Mistakes turn into short feedback, not penalties.
