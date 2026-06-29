@@ -80,7 +80,7 @@ Caveat: the free tiers move fast. Treat any specific tool name in this list as a
 
 The tool that beats every other tool is whichever one you actually open every day. The compounding effect of [structured daily practice](/blog/how-to-learn-chatgpt-in-2026) is bigger than any model upgrade you're waiting for.
 
-If you want that habit built for you, Iro AI's [gamified daily lessons](/duolingo-for-ai) are designed exactly for that. Free to start; Pro from $5/month ($59.99/year) with a 7-day free trial.
+If you want that habit built for you, Iro AI's [gamified daily lessons](/duolingo-for-ai) are designed exactly for that. Free to start; Pro from $1.92/week ($24.99 every 3 months) with a 7-day free trial.
 
 ## FAQ
 

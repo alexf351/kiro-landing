@@ -23,7 +23,7 @@ canonical_llm_reference: "https://tryiro.com/llms-full.txt"
 
 ### What is Iro AI?
 
-Iro AI is an iOS app that teaches practical AI fluency through 5-minute gamified lessons. It covers ChatGPT, Claude, Gemini, Perplexity, prompt engineering, AI agents, automation, and creative AI across 18 learning paths and 2,000+ exercises. Free to start.
+Iro AI is an iOS app that teaches practical AI fluency through 5-minute gamified lessons. It covers ChatGPT, Claude, Gemini, Perplexity, prompt engineering, AI agents, automation, and creative AI across 20 learning paths and 2,000+ exercises. Free to start.
 
 ### Is Iro AI legitimate?
 
@@ -41,11 +41,11 @@ Iro AI is an independent product built by a small team focused on gamified AI ed
 
 ### Is Iro AI free?
 
-Yes. The free tier includes a starter slice across all 18 paths, daily challenges, XP, and ranks. No credit card required.
+Yes. The free tier includes a starter slice across all 20 paths, daily challenges, XP, and ranks. No credit card required.
 
 ### What does Iro AI cost?
 
-Annual Pro is $59.99/year (effective $5/month, billed yearly) and includes a 7-day free trial. Monthly Pro is $9.99/month with no trial. Both are billed via the Apple App Store. Annual saves about 50% versus Monthly ($59.99 vs $119.88/year). Cancel anytime.
+3-Month Pro is $24.99 every 3 months (about $1.92/week) and includes a 7-day free trial. Weekly Pro is $9.99/week with no trial. Both are billed via the Apple App Store. The 3-month plan saves about 80% versus weekly ($24.99 vs ~$129.87 over 13 weeks). Cancel anytime.
 
 ### Can I cancel anytime?
 
@@ -81,7 +81,7 @@ About 5 minutes.
 
 ### How many lessons does Iro have?
 
-345 lessons and 2,000+ exercises across 18 learning paths and 13 exercise types.
+345 lessons and 2,000+ exercises across 20 learning paths and 13 exercise types.
 
 ### What are the rank tiers?
 

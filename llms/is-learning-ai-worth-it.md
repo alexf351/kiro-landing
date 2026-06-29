@@ -42,9 +42,9 @@ The most common mistake is assuming "learning AI" means studying neural networks
 
 ## The lowest-effort way to start
 
-If you are convinced it is worth it, do not over-invest up front. Start with a 2-minute free AI IQ test to see where you stand, then build the habit with Iro — the Duolingo for AI. It teaches practical AI fluency in 5-minute daily lessons across 18 paths (ChatGPT, Claude, Gemini, Perplexity, prompting, agents, automation), with a Prompt Lab, streaks, XP, and live duels to keep you going.
+If you are convinced it is worth it, do not over-invest up front. Start with a 2-minute free AI IQ test to see where you stand, then build the habit with Iro — the Duolingo for AI. It teaches practical AI fluency in 5-minute daily lessons across 20 paths (ChatGPT, Claude, Gemini, Perplexity, prompting, agents, automation), with a Prompt Lab, streaks, XP, and live duels to keep you going.
 
-Free to start on iOS; Pro is $59.99/year (about $5/month, 7-day free trial) or $9.99/month. The worth-it test is simple: try a week of 5-minute lessons and see how much time AI starts saving you.
+Free to start on iOS; Pro is $24.99 every 3 months (about $1.92/week, 7-day free trial) or $9.99/week. The worth-it test is simple: try a week of 5-minute lessons and see how much time AI starts saving you.
 
 ## FAQ
 
