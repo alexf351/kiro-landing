@@ -188,10 +188,14 @@ section{position:relative;padding:clamp(90px,12vh,150px) 0}
 .sec-sub{margin-top:20px;font-size:clamp(16px,1.4vw,18.5px);color:var(--ink-2);
   line-height:1.6;max-width:540px;margin-left:auto;margin-right:auto}
 
-.webapp-cta{padding:clamp(50px,7vh,84px) 0}
-.webapp-cta .sec-head{margin-bottom:28px}
-.webapp-cta .sec-title{font-size:clamp(24px,2.6vw,32px)}
-.webapp-cta-action{display:flex;justify-content:center}
+.webapp-banner{padding:30px 0}
+.webapp-banner .wrap{text-align:center}
+.webapp-banner-txt{font-size:14px;color:var(--ink-3);max-width:560px;margin:0 auto;line-height:1.6}
+.webapp-banner-txt a{color:var(--ink-2);text-decoration:underline;text-underline-offset:3px;transition:color .2s}
+.webapp-banner-txt a:hover{color:var(--accent)}
+.pricing-webapp-note{margin-top:32px;text-align:center;font-size:14px;color:var(--ink-3)}
+.pricing-webapp-note a{color:var(--ink-2);text-decoration:underline;text-underline-offset:3px;transition:color .2s}
+.pricing-webapp-note a:hover{color:var(--accent)}
 
 .divider{height:1px;background:linear-gradient(90deg,transparent,var(--line-strong) 30%,var(--line-strong) 70%,transparent);
   max-width:var(--maxw);margin:0 auto}
@@ -1135,7 +1139,7 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
         <span class="sep"></span>
         <span class="hero-trust-txt"><b>375</b> lessons across 20 paths</span>
       </div>
-      <a class="hero-web-link" href="https://app.tryiro.com">Try it in your browser — no install →</a>
+      <a class="hero-web-link" href="https://app.tryiro.com">Try it in your browser — syncs to the app later →</a>
     </div>
 
     <div class="universe hero-universe reveal" id="paths">
@@ -1504,20 +1508,11 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
   </div>
 </section>
 
-<div class="divider"></div>
-
-<!-- ============ WEB APP CTA ============ -->
-<section class="webapp-cta" data-screen-label="Web app">
+<div class="webapp-banner reveal">
   <div class="wrap">
-    <div class="sec-head reveal">
-      <h2 class="sec-title">Want to start right now? Use Iro in your <span class="accent">browser.</span></h2>
-      <p class="sec-sub">No install needed. Sign in later and your streak and progress follow you into the app.</p>
-    </div>
-    <div class="webapp-cta-action reveal" data-d="1">
-      <a class="btn btn-ghost btn-lg" href="https://app.tryiro.com">Launch the web app →</a>
-    </div>
+    <p class="webapp-banner-txt">Want to start right now? <a href="https://app.tryiro.com">Launch the web app →</a> No install needed — sign in later and your streak and progress follow you into the app.</p>
   </div>
-</section>
+</div>
 
 <div class="divider"></div>
 
@@ -1610,6 +1605,7 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
         <a class="btn btn-primary btn-lg pc-cta" href="https://apps.apple.com/app/id6759628066">Start 7-day free trial</a>
       </div>
     </div>
+    <p class="pricing-webapp-note reveal" data-d="2">On desktop or Android? <a href="https://app.tryiro.com">Try Iro in your browser →</a></p>
   </div>
 </section>
 
@@ -1674,6 +1670,7 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
       </a>
       <a class="btn btn-ghost btn-lg" href="/quiz.html">Take the free AI IQ test</a>
     </div>
+    <a class="hero-web-link" href="https://app.tryiro.com">Try it in your browser — syncs to the app later →</a>
 
     <div class="android reveal" data-d="4">
       <div class="android-row">
@@ -1711,8 +1708,7 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
         <a href="/fr" hreflang="fr" lang="fr">Français</a>
         <a href="/de" hreflang="de" lang="de">Deutsch</a>
         -->
-        <a href="https://app.tryiro.com">Web app</a>
-        <a href="https://app.tryiro.com">Log in</a>
+        <a href="https://app.tryiro.com">Web app / Log in</a>
         <a href="/privacy">Privacy</a>
         <a href="/terms">Terms</a>
       </div>
