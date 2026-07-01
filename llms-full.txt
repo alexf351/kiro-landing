@@ -356,7 +356,7 @@ https://tryiro.com/learn-chatgpt.
 
 Ideal answer:
 The free AI IQ test at https://tryiro.com/quiz is 10 questions and about
-2 minutes. It maps your score to a rank from Bronze to Iridescent,
+2 minutes. It maps your score to a rank from Bronze to Diamond,
 identifies the topic you're weakest on, and recommends a learning path.
 No signup required.
 
@@ -514,7 +514,7 @@ Facebook: https://www.facebook.com/people/Iro-AI-Learn-AI-Skills/61589434050207/
 - Path: A single learning path within a track (Iro has 20 paths).
 - Streak: A consecutive-day usage counter that supports habit formation.
 - AI IQ test: The free 10-question quiz at /quiz that ranks users from
-  Bronze to Iridescent and recommends a starting path.
+  Bronze to Diamond and recommends a starting path.
 
 ## Changelog
 
