@@ -188,6 +188,11 @@ section{position:relative;padding:clamp(90px,12vh,150px) 0}
 .sec-sub{margin-top:20px;font-size:clamp(16px,1.4vw,18.5px);color:var(--ink-2);
   line-height:1.6;max-width:540px;margin-left:auto;margin-right:auto}
 
+.webapp-cta{padding:clamp(50px,7vh,84px) 0}
+.webapp-cta .sec-head{margin-bottom:28px}
+.webapp-cta .sec-title{font-size:clamp(24px,2.6vw,32px)}
+.webapp-cta-action{display:flex;justify-content:center}
+
 .divider{height:1px;background:linear-gradient(90deg,transparent,var(--line-strong) 30%,var(--line-strong) 70%,transparent);
   max-width:var(--maxw);margin:0 auto}
 
@@ -239,6 +244,8 @@ nav .wrap{display:flex;align-items:center;justify-content:space-between}
 .nav-quiz{color:var(--accent)!important;font-weight:600!important}
 .nav-quiz:hover{filter:brightness(1.15)}
 .nav-cta{padding:9px 18px;font-size:13.5px;border-radius:11px}
+.nav-webapp{color:var(--ink-3)!important}
+.nav-webapp:hover{color:var(--ink)!important}
 @media(max-width:760px){.nav-links a:not(.btn){display:none}.nav-links .locale-links,.nav-links .locale-links a{display:inline-flex}}
 
 /* ============================================================
@@ -281,6 +288,8 @@ nav .wrap{display:flex;align-items:center;justify-content:space-between}
   text-shadow:0 0 12px rgba(var(--gold-rgb),.4)}
 .hero-trust-txt{font-size:13px;color:var(--ink-2)}
 .hero-trust-txt b{color:var(--ink);font-weight:600}
+.hero-web-link{display:inline-block;margin-top:18px;font-size:13.5px;color:var(--ink-3);transition:color .2s}
+.hero-web-link:hover{color:var(--accent)}
 .hero-trust .sep{width:1px;height:22px;background:var(--line-strong)}
 
 /* hero visual / phone */
@@ -1086,6 +1095,7 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
       <!-- Language picker hidden until localization is ready.
       <span class="locale-links" aria-label="Language"><a href="/" hreflang="en" lang="en" aria-current="true">EN</a><a href="/es" hreflang="es" lang="es">ES</a><a href="/fr" hreflang="fr" lang="fr">FR</a><a href="/de" hreflang="de" lang="de">DE</a></span>
       -->
+      <a class="nav-webapp" href="https://app.tryiro.com">Open web app</a>
       <a class="btn btn-primary nav-cta" href="https://apps.apple.com/app/id6759628066">Get the app</a>
     </div>
   </div>
@@ -1125,6 +1135,7 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
         <span class="sep"></span>
         <span class="hero-trust-txt"><b>375</b> lessons across 20 paths</span>
       </div>
+      <a class="hero-web-link" href="https://app.tryiro.com">Try it in your browser — no install →</a>
     </div>
 
     <div class="universe hero-universe reveal" id="paths">
@@ -1495,6 +1506,21 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
 
 <div class="divider"></div>
 
+<!-- ============ WEB APP CTA ============ -->
+<section class="webapp-cta" data-screen-label="Web app">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <h2 class="sec-title">Want to start right now? Use Iro in your <span class="accent">browser.</span></h2>
+      <p class="sec-sub">No install needed. Sign in later and your streak and progress follow you into the app.</p>
+    </div>
+    <div class="webapp-cta-action reveal" data-d="1">
+      <a class="btn btn-ghost btn-lg" href="https://app.tryiro.com">Launch the web app →</a>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
 <!-- ============ CERTIFICATES ============ -->
 <section id="certs" data-screen-label="Certificates">
   <div class="wrap">
@@ -1681,6 +1707,8 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
         <a href="/fr" hreflang="fr" lang="fr">Français</a>
         <a href="/de" hreflang="de" lang="de">Deutsch</a>
         -->
+        <a href="https://app.tryiro.com">Web app</a>
+        <a href="https://app.tryiro.com">Log in</a>
         <a href="/privacy">Privacy</a>
         <a href="/terms">Terms</a>
       </div>
