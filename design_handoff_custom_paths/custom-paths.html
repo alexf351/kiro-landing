@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Iro AI — Custom Paths (Assembly line) — design reference</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@400..900&family=Outfit:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="custom-paths.css"/>
+<style>
+  html,body{margin:0;background:#070A12}
+  /* spacer just to demonstrate the scroll-into-view start on this standalone page */
+  .demo-scroll-spacer{height:12vh}
+</style>
+</head>
+<body>
+
+<div class="demo-scroll-spacer"></div>
+
+<!-- ============ CUSTOM PATHS — "Learn anything" (Assembly line) ============ -->
+<section class="cp cp--b" id="custom-paths" aria-labelledby="cp-title">
+  <div class="cp-grid">
+    <div class="cp-copy">
+      <img class="cp-mascot" src="assets/typing-kiro.png" alt="Iro"/>
+      <span class="eyebrow"><span class="dot"></span>Custom paths<span class="sep">·</span><span class="pro">Pro</span></span>
+      <h2 class="cp-h" id="cp-title">Not just AI.<br/><span class="accent">Learn anything.</span></h2>
+      <p class="cp-lead">Type any topic and watch Iro assemble a full learning path — lessons, a quiz, and a recap — wired together in seconds.</p>
+      <div class="cp-steps">
+        <span><span class="n">1</span><b>Name your topic</b></span>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M9 6l6 6-6 6"/></svg>
+        <span><span class="n">2</span><b>Iro builds your path</b></span>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M9 6l6 6-6 6"/></svg>
+        <span><span class="n">3</span><b>Learn 5 min a day</b></span>
+      </div>
+      <div class="cp-chips">
+        <button class="cp-chip" data-topic="public speaking">Public speaking</button>
+        <button class="cp-chip" data-topic="personal finance">Personal finance</button>
+        <button class="cp-chip" data-topic="negotiation">Negotiation</button>
+        <button class="cp-chip" data-topic="learning guitar">Learning guitar</button>
+        <button class="cp-chip" data-topic="cooking basics">Cooking basics</button>
+        <button class="cp-chip" data-topic="getting in shape">Getting in shape</button>
+        <button class="cp-chip" data-topic="interview prep">Interview prep</button>
+        <button class="cp-chip" data-topic="studying smarter">Studying smarter</button>
+      </div>
+      <a class="cp-cta" href="https://apps.apple.com/app/id6759628066">Start learning anything
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+    </div>
+
+    <div class="cp-demo">
+      <div class="cp-input">
+        <svg class="wand" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l1.9 5.1L19 10l-5.1 1.9L12 17l-1.9-5.1L5 10l5.1-1.9L12 3z"/><path d="M19 15l.7 1.8 1.8.7-1.8.7L19 20l-.7-1.8-1.8-.7 1.8-.7z"/></svg>
+        <div class="cp-typewrap"><span class="cp-type ph">grow my business</span><span class="cp-cur"></span></div>
+        <input class="cp-edit" type="text" autocomplete="off" spellcheck="false" aria-label="Type a topic to learn"/>
+        <button class="cp-send" type="button" aria-label="Build path"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>
+      </div>
+      <div class="cp-hint"></div>
+      <div class="cp-path"></div>
+    </div>
+  </div>
+</section>
+
+<div class="demo-scroll-spacer"></div>
+
+<script src="paths-data.js"></script>
+<script src="custom-paths.js"></script>
+</body>
+</html>
