@@ -2,6 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://tryiro.com/changelog#2026-07-07</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Iro AI</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-07</news:publication_date>
+      <news:title>Custom Paths, Ask Iro voice, and the Iro web app</news:title>
+      <news:keywords>Iro AI, custom paths, learn anything, AI coach, voice, web app, AI education</news:keywords>
+    </news:news>
+  </url>
+  <url>
     <loc>https://tryiro.com/changelog#2026-05-24</loc>
     <news:news>
       <news:publication>

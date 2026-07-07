@@ -77,15 +77,19 @@
       "publisher": {
         "@id": "https://tryiro.com/#organization"
       },
-      "description": "Iro AI is an iOS app that teaches practical AI fluency through 5-minute gamified lessons, hands-on prompt practice, live AI duels, weekly AI news, XP, streaks, and 6 competitive ranks.",
+      "description": "Iro AI is an iOS app (with a web app at app.tryiro.com) that teaches practical AI fluency through 5-minute gamified lessons, hands-on prompt practice, live AI duels, weekly AI news, XP, streaks, and 6 competitive ranks. Custom Paths generate a complete learning path on any topic the user names, and Ask Iro — the built-in AI coach — works by chat or voice.",
       "featureList": [
         "20 learning paths across ChatGPT, Claude, Gemini, Perplexity, prompt engineering, AI agents, automation, image/video generation, vibe coding, work, marketing, finance, and more",
         "375 lessons and 2,000+ exercises across 13 exercise types",
+        "Custom Paths: type any topic and Iro generates a complete learning path (5 lessons, a quiz, and a recap) in seconds — not just AI topics",
+        "Ask Iro: built-in AI coach with chat and voice modes",
         "Prompt Lab with AI-generated feedback",
         "Live ELO-ranked AI duels with 60+ unique opponents",
         "Weekly AI news briefings",
         "Daily challenges with streak tracking",
-        "XP and 6-tier rank progression (Bronze → Iridescent)"
+        "XP and 6-tier rank progression (Bronze → Iridescent)",
+        "Shareable Certificates of Completion with unique credential IDs",
+        "Web app at app.tryiro.com with account sync to iOS"
       ],
       "offers": [
         {
@@ -468,7 +472,7 @@
       },
       {
         "q": "What devices does Iro AI run on?",
-        "a": "iPhone and iPad (iOS). Android is in development."
+        "a": "iPhone and iPad (iOS), plus any desktop or mobile browser via the web app at app.tryiro.com (progress syncs with the iOS app). Android is in development."
       },
       {
         "q": "How long is a lesson?",
@@ -491,12 +495,20 @@
         "a": "Yes. Iro applies Duolingo-style gamified microlearning to AI fluency."
       },
       {
+        "q": "Can Iro build a learning path on any topic?",
+        "a": "Yes. Custom Paths generate a complete path — 5 lessons, a quiz, and a recap — on any topic you type, in seconds. Generation is a Pro feature; community-published paths are free to browse."
+      },
+      {
+        "q": "Does Iro have an AI coach with voice?",
+        "a": "Yes. Ask Iro explains graded answers, breaks down concepts, and runs adaptive pop quizzes — by chat or voice. Free taste included; unlimited with Pro."
+      },
+      {
         "q": "How is Iro different from a video course?",
         "a": "Iro focuses on active practice in short sessions — writing prompts, evaluating outputs, spotting hallucinations, dueling opponents."
       },
       {
         "q": "What is the AI IQ test?",
-        "a": "A free 10-question quiz at /quiz that takes about 2 minutes, ranks Bronze-to-Iridescent, and recommends a learning path."
+        "a": "A free 10-question quiz at /quiz that takes about 2 minutes, ranks Bronze-to-Diamond, and recommends a learning path."
       },
       {
         "q": "How do I delete my account?",
@@ -504,6 +516,14 @@
       }
     ],
     "glossary": [
+      {
+        "term": "Custom Paths",
+        "definition": "Iro's learn-anything feature: type any topic and get a generated path of 5 lessons, a quiz, and a recap in seconds."
+      },
+      {
+        "term": "Ask Iro",
+        "definition": "The built-in AI coach. Explains answers, breaks down concepts, and quizzes weak spots — by chat or voice."
+      },
       {
         "term": "AI fluency",
         "definition": "The practical ability to use, evaluate, and direct AI tools effectively for real tasks."
