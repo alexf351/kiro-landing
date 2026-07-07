@@ -796,24 +796,18 @@ section.coach{position:relative;padding:clamp(80px,11vh,140px) 0}
 
 /* ---- demo column ---- */
 .cp-demo{position:relative;min-width:0}
+/* display-only prompt bar (auto-demo; typing your own topic is disabled) */
 .cp-input{position:relative;display:flex;align-items:center;gap:12px;padding:12px 12px 12px 17px;
-  border-radius:15px;background:var(--surface-2);border:1px solid var(--line-strong);cursor:text;
-  transition:border-color .25s,box-shadow .25s}
-.cp-input.live{border-color:rgba(var(--accent-rgb),.55);box-shadow:0 0 0 3px rgba(var(--accent-rgb),.12)}
+  border-radius:15px;background:var(--surface-2);border:1px solid var(--line-strong)}
 .cp-input .wand{width:19px;height:19px;color:var(--accent);flex-shrink:0}
 .cp-typewrap{flex:1;min-width:0;font-family:'Outfit',sans-serif;font-size:15.5px;color:var(--ink);display:flex;align-items:center;white-space:nowrap;overflow:hidden}
 .cp-type{white-space:pre}
 .cp-type.ph{color:var(--ink-3)}
 .cp-cur{display:inline-block;width:2px;height:18px;margin-left:1px;background:var(--accent);vertical-align:middle;animation:cpCaret 1.05s steps(1) infinite}
-.cp-edit{position:absolute;inset:0;width:100%;height:100%;background:transparent;border:0;outline:0;
-  padding:12px 60px 12px 48px;font-family:'Outfit',sans-serif;font-size:15.5px;color:var(--ink);opacity:0;pointer-events:none}
-.cp-input.editing .cp-typewrap,.cp-input.editing .cp-cur{opacity:0}
-.cp-input.editing .cp-edit{opacity:1;pointer-events:auto}
-.cp-send{width:38px;height:38px;border-radius:11px;border:0;cursor:pointer;flex-shrink:0;
+.cp-send{width:38px;height:38px;border-radius:11px;flex-shrink:0;
   display:flex;align-items:center;justify-content:center;color:var(--accent-ink);
   background:linear-gradient(180deg,color-mix(in oklab,var(--accent),#fff 18%),var(--accent));
-  box-shadow:0 0 18px rgba(var(--accent-rgb),.4);transition:transform .2s var(--ease)}
-.cp-send:hover{transform:scale(1.06)}
+  box-shadow:0 0 18px rgba(var(--accent-rgb),.4)}
 .cp-send svg{width:18px;height:18px}
 .cp-hint{margin-top:11px;font-family:'JetBrains Mono',monospace;font-size:10.5px;letter-spacing:.1em;
   text-transform:uppercase;color:var(--ink-3);display:flex;align-items:center;gap:8px}
@@ -858,6 +852,8 @@ section.coach{position:relative;padding:clamp(80px,11vh,140px) 0}
 .cp-genlabel{position:absolute;top:20px;right:22px;z-index:5;opacity:0;transition:opacity .3s;
   font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--accent)}
 .cp-path.gen .cp-genlabel{opacity:1}
+.cp-path-head .meta{transition:opacity .2s}
+.cp-path.gen .cp-path-head .meta{opacity:0}
 .cp-genlabel::before{content:'';display:inline-block;width:6px;height:6px;border-radius:50%;background:var(--accent);
   margin-right:7px;vertical-align:middle;box-shadow:0 0 8px var(--accent);animation:cpPulse 1s ease-in-out infinite}
 
@@ -1349,12 +1345,11 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
     </div>
 
-    <div class="cp-demo">
+    <div class="cp-demo" aria-hidden="true">
       <div class="cp-input">
         <svg class="wand" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l1.9 5.1L19 10l-5.1 1.9L12 17l-1.9-5.1L5 10l5.1-1.9L12 3z"/><path d="M19 15l.7 1.8 1.8.7-1.8.7L19 20l-.7-1.8-1.8-.7 1.8-.7z"/></svg>
         <div class="cp-typewrap"><span class="cp-type ph">grow my business</span><span class="cp-cur"></span></div>
-        <input class="cp-edit" type="text" autocomplete="off" spellcheck="false" aria-label="Type a topic to learn"/>
-        <button class="cp-send" type="button" aria-label="Build path"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>
+        <span class="cp-send"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
       </div>
       <div class="cp-hint"></div>
       <div class="cp-path"></div>
@@ -2850,13 +2845,11 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
     this.sec = sec;
     this.input = sec.querySelector('.cp-input');
     this.typeEl = sec.querySelector('.cp-type');
-    this.editEl = sec.querySelector('.cp-edit');
     this.pathEl = sec.querySelector('.cp-path');
     this.hint = sec.querySelector('.cp-hint');
     this.chips = sec.querySelectorAll('.cp-chip');
     this.idx = 0;
     this.paused = false;
-    this.editing = false;
     this.started = false;
     this.timers = [];
     this.current = null;
@@ -2868,26 +2861,13 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
     this.typeEl.textContent = CP.TOPICS[0].topic;
     if (this.hint) this.hint.innerHTML = defaultHint();
 
-    // click the input to type your own topic
-    this.input.addEventListener('click', function (e) {
-      if (e.target.closest('.cp-send')) { self.editing ? self.submit() : self.startEdit(); return; }
-      self.startEdit();
-    });
-    this.editEl.addEventListener('keydown', function (e) {
-      if (e.key === 'Enter') { e.preventDefault(); self.submit(); }
-      else if (e.key === 'Escape') { self.endEdit(); self.resumeSoon(0); }
-    });
-    this.editEl.addEventListener('blur', function () {
-      if (self.editing && !self.editEl.value.trim()) { self.endEdit(); self.resumeSoon(400); }
-    });
-
-    // topic chips jump straight to a topic
+    // The prompt bar is a display-only auto-demo (typing your own topic is
+    // intentionally disabled). Topic chips jump the demo straight to a topic.
     Array.prototype.forEach.call(this.chips, function (chip) {
       chip.addEventListener('click', function () {
         var t = chip.getAttribute('data-topic');
         var i = CP.TOPICS.findIndex(function (d) { return d.topic === t; });
         if (i < 0) return;
-        self.editing && self.endEdit();
         self.idx = i; self.paused = false; self.clearTimers(); self.run();
       });
     });
@@ -2975,41 +2955,6 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
       });
   };
 
-  /* type-your-own */
-  Controller.prototype.startEdit = function () {
-    if (this.editing) { this.editEl.focus(); return; }
-    this.editing = true; this.paused = true; this.clearTimers();
-    this.input.classList.add('editing', 'live');
-    this.editEl.value = ''; this.editEl.focus();
-    if (this.hint) this.hint.innerHTML = '<span class="k">↵</span> Press enter to build your path';
-  };
-  Controller.prototype.endEdit = function () {
-    this.editing = false;
-    this.input.classList.remove('editing', 'live');
-    if (this.hint) this.hint.innerHTML = defaultHint();
-  };
-  Controller.prototype.submit = function () {
-    var text = (this.editEl.value || '').trim();
-    if (!text) { this.endEdit(); this.resumeSoon(400); return; }
-    var data = CP.resolve(text);
-    this.endEdit();
-    this.typeEl.classList.remove('ph');
-    this.typeEl.textContent = text;
-    this.pathEl.style.opacity = '1';
-    this.markChip(data.topic);
-    this.render(data, false);
-    if (this.hint) this.hint.innerHTML = '<span class="k">✓</span> Built for you · demo resumes shortly';
-    this.resumeSoon(6500);
-  };
-  Controller.prototype.resumeSoon = function (ms) {
-    var self = this; this.clearTimers();
-    var t = setTimeout(function () {
-      if (self.editing) return;
-      self.paused = false;
-      if (self.hint) self.hint.innerHTML = defaultHint();
-      self.idx = (self.idx + 1) % CP.TOPICS.length; self.run();
-    }, ms); this.timers.push(t);
-  };
   Controller.prototype.start = function () {
     if (this.started) return; this.started = true;
     // topic 0 is already on screen — hold it, then loop from topic 1
@@ -3018,7 +2963,7 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
     this.timers.push(t);
   };
 
-  function defaultHint() { return '<span class="k">Auto-demo</span> · click to try your own topic'; }
+  function defaultHint() { return '<span class="k">Auto-demo</span> · or pick a topic below'; }
 
   /* boot — start when the section scrolls into view (with a fallback timer) */
   document.querySelectorAll('.cp').forEach(function (sec) {
