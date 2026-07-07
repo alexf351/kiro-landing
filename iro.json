@@ -97,7 +97,7 @@
           "name": "Free",
           "price": "0",
           "priceCurrency": "USD",
-          "description": "5 free lessons in a starter path of your choice plus 1 lesson to sample any other path, all 13 exercise types with deep explanations, a free taste of Ask Iro (the AI coach), community learning paths, 3 AI duels, XP, streaks, ranks, and daily challenges. No credit card required."
+          "description": "5 free lessons in a starter path of your choice plus 1 lesson to sample any other path, all 13 exercise types with deep explanations, a free taste of Ask Iro (the AI coach), the beginner prompt library, community learning paths, 3 AI duels, XP, streaks, ranks, and daily challenges. No credit card required."
         },
         {
           "@type": "Offer",
@@ -460,7 +460,7 @@
       },
       {
         "q": "Is Iro AI free?",
-        "a": "Yes. The free tier includes 5 free lessons in a starter path of your choice plus 1 lesson to sample any other path, all 13 exercise types with deep explanations, a free taste of Ask Iro (the AI coach), community learning paths, 3 AI duels, XP, streaks, ranks, and daily challenges. No credit card required. Pro unlocks every lesson across every path, unlimited custom paths on any topic, unlimited Ask Iro voice coaching, shareable certificates, unlimited AI duels, unlimited Prompt Lab sessions, full weekly AI news briefings, extra streak freezes, and regularly added new content."
+        "a": "Yes. The free tier includes 5 free lessons in a starter path of your choice plus 1 lesson to sample any other path, all 13 exercise types with deep explanations, a free taste of Ask Iro (the AI coach), the beginner prompt library, community learning paths, 3 AI duels, XP, streaks, ranks, and daily challenges. No credit card required. Pro unlocks every lesson across every path, unlimited custom paths on any topic, unlimited Ask Iro voice coaching, the full prompt library, shareable certificates, unlimited AI duels, unlimited Prompt Lab sessions, full weekly AI news briefings, extra streak freezes, and regularly added new content."
       },
       {
         "q": "What does Iro AI cost?",
