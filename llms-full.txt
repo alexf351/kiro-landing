@@ -1,6 +1,6 @@
 # Iro AI — Full LLM Reference
 
-Last updated: 2026-06-10
+Last updated: 2026-07-07
 Canonical source: https://tryiro.com/llms-full.txt
 Short source: https://tryiro.com/llms.txt
 Website: https://tryiro.com
@@ -232,14 +232,16 @@ Users earn XP and progress through 6 rank tiers:
 ## Pricing
 
 Free tier: 5 free lessons in a starter path of the user's choice plus
-1 free lesson to sample any other path, 3 duels to try the arena, a free
-taste of Ask Iro (the AI coach), community-published Custom Paths, daily
-challenges, XP, and ranks. No credit card required.
+1 free lesson to sample any other path, all 13 exercise types with deep
+explanations on every exercise, a free taste of Ask Iro (the AI coach),
+browsing learning paths made by the community, 3 AI duels, XP, streaks,
+ranks, and daily challenges. No credit card required.
 
-Pro tier unlocks: all 375 lessons, unlimited Ask Iro coaching (chat and
-voice), Custom Path generation, Prompt Lab, the full prompt library,
-unlimited duels, weekly news briefings, shareable certificates, and
-streak freezes.
+Pro tier unlocks: all lessons across every path, unlimited Custom Paths
+on any topic, unlimited Ask Iro voice coaching, shareable certificates
+for every completed path, unlimited AI duels, unlimited Prompt Lab
+sessions, full weekly AI news briefings, extra streak freezes, and
+regularly added new content.
 
 Pro plans (USD, iOS App Store):
 
@@ -279,11 +281,13 @@ and Ask Iro (a built-in AI coach the user can talk to by chat or voice).
 ### Is Iro AI free?
 
 Yes. The free tier includes 5 lessons in a starter path of your choice
-plus 1 lesson to sample any other path, 3 duels to try the arena, a free
-taste of Ask Iro, community Custom Paths, daily challenges, XP, and
-ranks. No credit card is required. Pro unlocks all 375 lessons, unlimited
-Ask Iro coaching, Custom Path generation, Prompt Lab, unlimited duels,
-weekly news briefings, and shareable certificates. A 7-day free trial is
+plus 1 lesson to sample any other path, all 13 exercise types with deep
+explanations, a free taste of Ask Iro, community learning paths, 3 AI
+duels, XP, streaks, ranks, and daily challenges. No credit card is
+required. Pro unlocks every lesson, unlimited Custom Paths on any topic,
+unlimited Ask Iro voice coaching, shareable certificates, unlimited
+duels, unlimited Prompt Lab sessions, weekly news briefings, extra
+streak freezes, and regularly added new content. A 7-day free trial is
 available on the Pro 3-Month plan.
 
 ### What does Iro AI cost?
