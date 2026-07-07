@@ -736,76 +736,146 @@ section.coach{position:relative;padding:clamp(80px,11vh,140px) 0}
   .coach-stage{text-align:left}
 }
 
-/* ===== Custom Paths — "learn anything" (split copy + generated-path mock) ===== */
-.cp-grid{display:grid;grid-template-columns:1fr 1.04fr;gap:clamp(40px,5vw,76px);align-items:center;max-width:1080px;margin:0 auto}
-.cp-copy{max-width:480px}
-.cp-copy .pill{margin-bottom:24px}
-.cp-h{font-family:'Geist',sans-serif;font-size:clamp(30px,3.7vw,48px);font-weight:800;letter-spacing:-.035em;line-height:1.03;color:var(--ink)}
+/* ===== Custom Paths — "Not just AI. Learn anything." (Assembly line) =====
+   Inherits the global :root tokens; self-contained layout. The section is
+   full-width with its own centered inner grid (max-width 1160). */
+.cp{position:relative;overflow:hidden;padding:clamp(72px,10vh,120px) 28px;background:var(--bg)}
+/* per-section accent glow (matches the coach-stage glow treatment; the page
+   already carries a faint grid, so no local grid layer here) */
+.cp::before{content:'';position:absolute;inset:0;pointer-events:none;z-index:0;
+  background:radial-gradient(ellipse 55% 60% at 88% -8%,rgba(var(--accent-rgb),.12),transparent 60%),
+    radial-gradient(ellipse 50% 50% at 4% 108%,rgba(var(--accent-rgb),.06),transparent 60%)}
+.cp-grid{position:relative;z-index:1;display:grid;grid-template-columns:1fr 1.05fr;
+  gap:56px;align-items:center;max-width:1160px;margin:0 auto}
+
+/* ---- copy column ---- */
+.cp-copy{position:relative;max-width:520px}
+.cp-eyebrow{font-family:'JetBrains Mono',monospace;font-size:11px;font-weight:500;
+  letter-spacing:.26em;text-transform:uppercase;color:var(--accent);display:inline-flex;align-items:center;gap:11px}
+.cp-eyebrow .dot{width:6px;height:6px;border-radius:50%;background:var(--accent);
+  box-shadow:0 0 10px var(--accent);animation:cpPulse 2.2s ease-in-out infinite}
+.cp-eyebrow .sep{opacity:.4}
+.cp-eyebrow .pro{color:var(--gold);opacity:.95}
+.cp-h{font-family:'Geist','Outfit',sans-serif;font-weight:800;letter-spacing:-.035em;line-height:1.02;
+  font-size:clamp(40px,3.5vw,56px);margin-top:22px;color:var(--ink)}
 .cp-h .accent{color:var(--accent)}
-.cp-sub{margin-top:18px;font-size:16.5px;color:var(--ink-2);line-height:1.6;max-width:440px}
-.cp-chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:26px}
-.cp-chip{font-family:'Outfit',sans-serif;font-size:13px;font-weight:500;color:var(--ink-2);
-  background:var(--surface);border:1px solid var(--line);border-radius:100px;padding:7px 13px;line-height:1;white-space:nowrap}
-.cp-steps{list-style:none;margin:28px 0 0;display:flex;flex-direction:column;gap:16px;counter-reset:cp}
-.cp-steps li{display:flex;align-items:flex-start;gap:13px;counter-increment:cp}
-.cp-steps li::before{content:counter(cp);flex-shrink:0;width:26px;height:26px;border-radius:50%;
-  display:flex;align-items:center;justify-content:center;font-family:'JetBrains Mono',monospace;font-size:12px;font-weight:700;
-  color:var(--accent);background:rgba(var(--accent-rgb),.1);border:1px solid rgba(var(--accent-rgb),.32);margin-top:1px}
-.cp-steps b{display:block;font-size:15px;font-weight:700;color:var(--ink);letter-spacing:-.01em}
-.cp-steps span{display:block;margin-top:2px;font-size:13.5px;color:var(--ink-2);line-height:1.5}
-.cp-copy .btn{margin-top:32px}
+.cp-lead{margin-top:20px;font-size:16.5px;line-height:1.6;color:var(--ink-2);max-width:440px}
 
-/* the generated-path mock (right column) */
-.cp-stage{position:relative}
-.cp-stage::before{content:'';position:absolute;inset:-16% -10% -12%;z-index:0;pointer-events:none;border-radius:40px;
-  background:radial-gradient(60% 55% at 60% 40%,rgba(var(--accent-rgb),.14),transparent 72%)}
-.cp-mock{position:relative;z-index:1;max-width:420px;margin:0 auto;display:flex;flex-direction:column;gap:16px}
-.cp-field{display:flex;align-items:center;gap:12px;background:var(--elev);border:1px solid var(--line-strong);
-  border-radius:15px;padding:14px 14px 14px 16px;box-shadow:0 10px 30px rgba(0,0,0,.4)}
-.cp-field-ic{width:20px;height:20px;flex-shrink:0;color:var(--accent)}
-.cp-field-txt{flex:1;min-width:0;font-family:'Outfit',sans-serif;font-size:15.5px;font-weight:500;color:var(--ink);
-  overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
-.cp-field-go{width:34px;height:34px;flex-shrink:0;border-radius:50%;display:flex;align-items:center;justify-content:center;
-  color:var(--accent-ink);background:linear-gradient(180deg,color-mix(in oklab,var(--accent),#fff 18%),var(--accent));
-  box-shadow:0 0 18px rgba(var(--accent-rgb),.4)}
-.cp-field-go svg{width:17px;height:17px}
-.cp-card{background:var(--surface);border:1px solid var(--line);border-radius:18px;padding:20px;box-shadow:0 20px 50px rgba(0,0,0,.4)}
-.cp-card-head{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:16px}
-.cp-card-eyebrow{font-family:'JetBrains Mono',monospace;font-size:10px;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:var(--ink-3)}
-.cp-card-meta{font-family:'JetBrains Mono',monospace;font-size:9.5px;font-weight:500;letter-spacing:.1em;text-transform:uppercase;color:var(--accent);white-space:nowrap}
-.cp-lessons{list-style:none;margin:0;display:flex;flex-direction:column}
-.cp-lesson{display:flex;align-items:center;gap:13px;padding:9px 0}
-.cp-lesson-n{position:relative;flex-shrink:0;width:26px;height:26px;border-radius:50%;display:flex;align-items:center;justify-content:center;
-  font-family:'JetBrains Mono',monospace;font-size:11px;font-weight:700;color:var(--accent);
-  background:rgba(var(--accent-rgb),.08);border:1px solid rgba(var(--accent-rgb),.3)}
-/* vertical connector between the numbered lessons, like the in-app screen */
-.cp-lesson + .cp-lesson .cp-lesson-n::before{content:'';position:absolute;left:50%;bottom:100%;width:1px;height:9px;
-  background:rgba(var(--accent-rgb),.3);transform:translateX(-50%)}
-.cp-lesson-t{font-size:14.5px;font-weight:600;color:var(--ink);letter-spacing:-.01em}
-.cp-more{font-family:'JetBrains Mono',monospace;font-size:10px;font-weight:600;letter-spacing:.16em;text-transform:uppercase;
-  color:var(--ink-3);padding:8px 0 4px 39px}
-.cp-card-div{height:1px;background:var(--line);margin:8px 0}
-.cp-recap{display:flex;align-items:center;gap:13px;padding-top:6px}
-.cp-recap-ic{flex-shrink:0;width:26px;height:26px;border-radius:8px;display:flex;align-items:center;justify-content:center;
-  color:var(--gold);background:rgba(var(--gold-rgb),.1);border:1px solid rgba(var(--gold-rgb),.28)}
-.cp-recap-ic svg{width:15px;height:15px}
-.cp-recap-t{font-size:14px;color:var(--ink)}
-.cp-recap-t b{font-weight:700}
-.cp-recap-t span{color:var(--ink-3)}
+/* the "typing" mascot sits beside the headline */
+.cp-mascot{position:absolute;top:16px;right:-2px;width:96px;height:auto;z-index:3;
+  filter:drop-shadow(0 10px 22px rgba(0,0,0,.55)) drop-shadow(0 4px 16px rgba(var(--accent-rgb),.28));
+  animation:cpFloat 5.5s ease-in-out infinite;pointer-events:none}
 
-/* three value cards below the split — reuse the loop-node tile look */
-.cp-cards{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;max-width:1080px;margin:clamp(52px,7vh,84px) auto 0}
+/* how-it-works stepper (single line, wraps) */
+.cp-steps{display:flex;align-items:center;gap:13px;flex-wrap:wrap;margin-top:30px}
+.cp-steps>span{display:inline-flex;align-items:center;gap:9px;white-space:nowrap}
+.cp-steps .n{font-family:'JetBrains Mono',monospace;font-size:11px;font-weight:700;line-height:1;color:var(--accent);
+  background:rgba(var(--accent-rgb),.08);border:1px solid rgba(var(--accent-rgb),.3);border-radius:7px;padding:4px 7px}
+.cp-steps b{font-family:'Outfit',sans-serif;font-size:13.5px;font-weight:600;letter-spacing:-.005em;color:var(--ink-2)}
+.cp-steps>svg{width:14px;height:14px;color:var(--accent);opacity:.5;flex-shrink:0}
 
-@media(max-width:900px){
-  .cp-grid{grid-template-columns:1fr;gap:44px;max-width:520px;text-align:center}
+/* topic chips */
+.cp-chips{display:flex;flex-wrap:wrap;gap:9px;margin-top:26px}
+.cp-chip{font-family:'Outfit',sans-serif;font-size:13.5px;font-weight:500;color:var(--ink-2);padding:8px 15px;border-radius:100px;
+  background:var(--surface);border:1px solid var(--line);cursor:pointer;
+  transition:transform .2s var(--ease),border-color .2s,color .2s,background .2s}
+.cp-chip:hover{transform:translateY(-1px);color:var(--ink);border-color:rgba(var(--accent-rgb),.4);background:rgba(var(--accent-rgb),.06)}
+.cp-chip.on{color:var(--accent-ink);background:var(--accent);border-color:transparent;font-weight:600}
+
+.cp-cta{display:inline-flex;align-items:center;gap:10px;margin-top:30px;
+  font-family:'Outfit',sans-serif;font-weight:700;font-size:16px;letter-spacing:-.01em;
+  padding:16px 28px;border-radius:14px;cursor:pointer;border:1px solid transparent;color:var(--accent-ink);
+  background:linear-gradient(180deg,color-mix(in oklab,var(--accent),#fff 22%),var(--accent));
+  box-shadow:0 1px 0 rgba(255,255,255,.35) inset,0 10px 30px rgba(0,0,0,.45),
+    0 0 0 1px rgba(var(--accent-rgb),.5),0 0 40px rgba(var(--accent-rgb),.26);
+  transition:transform .35s var(--ease),box-shadow .3s ease}
+.cp-cta:hover{transform:translateY(-2px);
+  box-shadow:0 1px 0 rgba(255,255,255,.4) inset,0 16px 40px rgba(0,0,0,.5),
+    0 0 0 1px rgba(var(--accent-rgb),.7),0 0 64px rgba(var(--accent-rgb),.42)}
+.cp-cta svg{width:19px;height:19px}
+
+/* ---- demo column ---- */
+.cp-demo{position:relative;min-width:0}
+.cp-input{position:relative;display:flex;align-items:center;gap:12px;padding:12px 12px 12px 17px;
+  border-radius:15px;background:var(--surface-2);border:1px solid var(--line-strong);cursor:text;
+  transition:border-color .25s,box-shadow .25s}
+.cp-input.live{border-color:rgba(var(--accent-rgb),.55);box-shadow:0 0 0 3px rgba(var(--accent-rgb),.12)}
+.cp-input .wand{width:19px;height:19px;color:var(--accent);flex-shrink:0}
+.cp-typewrap{flex:1;min-width:0;font-family:'Outfit',sans-serif;font-size:15.5px;color:var(--ink);display:flex;align-items:center;white-space:nowrap;overflow:hidden}
+.cp-type{white-space:pre}
+.cp-type.ph{color:var(--ink-3)}
+.cp-cur{display:inline-block;width:2px;height:18px;margin-left:1px;background:var(--accent);vertical-align:middle;animation:cpCaret 1.05s steps(1) infinite}
+.cp-edit{position:absolute;inset:0;width:100%;height:100%;background:transparent;border:0;outline:0;
+  padding:12px 60px 12px 48px;font-family:'Outfit',sans-serif;font-size:15.5px;color:var(--ink);opacity:0;pointer-events:none}
+.cp-input.editing .cp-typewrap,.cp-input.editing .cp-cur{opacity:0}
+.cp-input.editing .cp-edit{opacity:1;pointer-events:auto}
+.cp-send{width:38px;height:38px;border-radius:11px;border:0;cursor:pointer;flex-shrink:0;
+  display:flex;align-items:center;justify-content:center;color:var(--accent-ink);
+  background:linear-gradient(180deg,color-mix(in oklab,var(--accent),#fff 18%),var(--accent));
+  box-shadow:0 0 18px rgba(var(--accent-rgb),.4);transition:transform .2s var(--ease)}
+.cp-send:hover{transform:scale(1.06)}
+.cp-send svg{width:18px;height:18px}
+.cp-hint{margin-top:11px;font-family:'JetBrains Mono',monospace;font-size:10.5px;letter-spacing:.1em;
+  text-transform:uppercase;color:var(--ink-3);display:flex;align-items:center;gap:8px}
+.cp-hint .k{color:var(--accent);opacity:.9}
+
+/* ---- path card ---- */
+.cp-path{margin-top:16px;border-radius:18px;background:var(--elev);border:1px solid var(--line);
+  padding:20px 22px;position:relative;overflow:hidden;box-shadow:0 20px 50px rgba(0,0,0,.35);transition:opacity .34s ease}
+.cp-path-head{display:flex;align-items:center;justify-content:space-between;margin-bottom:16px}
+.cp-path-head .lbl{font-family:'JetBrains Mono',monospace;font-size:11px;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:var(--ink-2)}
+.cp-path-head .meta{font-family:'JetBrains Mono',monospace;font-size:10px;font-weight:500;letter-spacing:.14em;text-transform:uppercase;color:var(--accent)}
+.cp-lessons{display:flex;flex-direction:column;padding-left:4px}
+.cp-lesson{position:relative;display:flex;align-items:flex-start;gap:14px;padding:12px 0;
+  opacity:0;transform:translateY(8px);transition:opacity .5s var(--ease-out),transform .5s var(--ease-out)}
+.cp-lesson.in{opacity:1;transform:none}
+.cp-n{position:relative;flex-shrink:0;width:28px;height:28px;border-radius:9px;display:flex;align-items:center;justify-content:center;
+  font-family:'JetBrains Mono',monospace;font-size:12px;font-weight:700;color:var(--accent);
+  border:1.5px solid rgba(var(--accent-rgb),.45);background:rgba(var(--accent-rgb),.07);margin-top:1px}
+.cp-lesson:not(:last-child) .cp-n::after{content:'';position:absolute;left:50%;top:28px;transform:translateX(-50%);
+  width:2px;height:calc(100% - 24px);background:linear-gradient(180deg,rgba(var(--accent-rgb),.5),rgba(var(--accent-rgb),.15))}
+.cp-lt{flex:1;min-width:0}
+.cp-lt .t{font-size:15px;font-weight:600;color:var(--ink);letter-spacing:-.01em}
+.cp-preview{margin-top:9px;padding:11px 13px;border-radius:11px;background:rgba(var(--accent-rgb),.05);border:1px solid rgba(var(--accent-rgb),.16)}
+.cp-preview .pl{font-family:'JetBrains Mono',monospace;font-size:9px;letter-spacing:.16em;text-transform:uppercase;color:var(--accent);opacity:.85}
+.cp-preview .pc{margin-top:4px;font-size:13.5px;color:var(--ink);line-height:1.45}
+.cp-preview .pe{margin-top:7px;font-size:12.5px;color:var(--ink-2);line-height:1.45}
+.cp-preview .pe b{color:var(--ink);font-weight:600}
+.cp-recap{display:flex;align-items:center;gap:13px;margin-top:14px;padding:13px 15px;border-radius:13px;
+  background:linear-gradient(180deg,rgba(var(--gold-rgb),.07),rgba(var(--gold-rgb),.02));border:1px solid rgba(var(--gold-rgb),.2);
+  opacity:0;transform:translateY(8px);transition:opacity .5s var(--ease-out),transform .5s var(--ease-out)}
+.cp-recap.in{opacity:1;transform:none}
+.cp-recap .ic{flex-shrink:0;width:28px;height:28px;border-radius:9px;display:flex;align-items:center;justify-content:center;
+  color:var(--gold);background:rgba(var(--gold-rgb),.12);border:1px solid rgba(var(--gold-rgb),.28)}
+.cp-recap .ic svg{width:15px;height:15px}
+.cp-recap .rt{font-size:14px;font-weight:700;color:var(--ink)}
+.cp-recap .rd{font-size:13.5px;color:var(--ink-2)}
+.cp-recap .rd b{color:var(--gold);font-weight:600}
+.cp-scan{position:absolute;inset:0;z-index:4;border-radius:18px;pointer-events:none;opacity:0;
+  background:linear-gradient(180deg,transparent,rgba(var(--accent-rgb),.14),transparent);
+  background-size:100% 44%;background-repeat:no-repeat;background-position:0 -50%}
+.cp-path.gen .cp-scan{opacity:1;animation:cpScan 1s var(--ease) 1}
+.cp-genlabel{position:absolute;top:20px;right:22px;z-index:5;opacity:0;transition:opacity .3s;
+  font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--accent)}
+.cp-path.gen .cp-genlabel{opacity:1}
+.cp-genlabel::before{content:'';display:inline-block;width:6px;height:6px;border-radius:50%;background:var(--accent);
+  margin-right:7px;vertical-align:middle;box-shadow:0 0 8px var(--accent);animation:cpPulse 1s ease-in-out infinite}
+
+@keyframes cpPulse{0%,100%{opacity:.5;transform:scale(.85)}50%{opacity:1;transform:scale(1.2)}}
+@keyframes cpCaret{0%,50%{opacity:1}51%,100%{opacity:0}}
+@keyframes cpFloat{0%,100%{transform:translateY(0) rotate(-2deg)}50%{transform:translateY(-7px) rotate(1deg)}}
+@keyframes cpScan{0%{background-position:0 -50%}100%{background-position:0 150%}}
+
+@media(max-width:880px){
+  .cp-grid{grid-template-columns:1fr;gap:40px;max-width:560px}
   .cp-copy{max-width:none}
-  .cp-sub{margin-left:auto;margin-right:auto}
-  .cp-copy .pill,.cp-chips{justify-content:center}
-  .cp-h{margin-left:auto;margin-right:auto}
-  .cp-steps{display:inline-flex;text-align:left;align-self:center}
-  .cp-mock{margin-left:auto;margin-right:auto}
+  .cp-mascot{top:-58px;right:0;width:86px}
 }
-@media(max-width:760px){.cp-cards{grid-template-columns:1fr;max-width:520px}}
+@media(prefers-reduced-motion:reduce){
+  .cp-mascot,.cp-eyebrow .dot,.cp-genlabel::before{animation:none}
+  .cp-cur{animation:none;opacity:1}
+  .cp-lesson,.cp-recap{transition:none}
+}
 
 /* ===== Hero Iro speech bubble (auto-rotate + tap) ===== */
 .uni-bubble{position:absolute;left:50%;bottom:106%;transform:translateX(-50%);z-index:7;width:max-content;max-width:min(240px,60vw);pointer-events:auto}
@@ -1250,81 +1320,47 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
 
 <div class="divider"></div>
 
-<!-- ============ CUSTOM PATHS (learn anything) ============ -->
-<section id="custom-paths" data-screen-label="Custom paths">
-  <div class="wrap">
-    <div class="cp-grid">
-      <div class="cp-copy reveal">
-        <span class="pill"><span class="dot"></span>Custom Paths · Pro</span>
-        <h2 class="cp-h">Not just AI. <span class="accent">Learn anything.</span></h2>
-        <p class="cp-sub">Type any topic and Iro builds a complete, structured learning path in seconds — real lessons, hands-on exercises, a quiz, and a recap. Career, fitness, business, cooking, public speaking, anything.</p>
-        <div class="cp-chips" aria-label="Example topics">
-          <span class="cp-chip">Public speaking</span>
-          <span class="cp-chip">Personal finance</span>
-          <span class="cp-chip">Negotiation</span>
-          <span class="cp-chip">Learning guitar</span>
-          <span class="cp-chip">Cooking basics</span>
-          <span class="cp-chip">Getting in shape</span>
-          <span class="cp-chip">Interview prep</span>
-          <span class="cp-chip">Productivity</span>
-        </div>
-        <ol class="cp-steps">
-          <li><span><b>Name your topic</b><span>Type anything you want to learn.</span></span></li>
-          <li><span><b>Iro builds your path</b><span>Lessons, exercises, a quiz, and a recap, generated in seconds.</span></span></li>
-          <li><span><b>Learn 5 minutes a day</b><span>Drill it like a language app and earn a shareable certificate.</span></span></li>
-        </ol>
-        <a class="btn btn-primary btn-lg" href="https://apps.apple.com/app/id6759628066">Start learning anything</a>
+<!-- ============ CUSTOM PATHS — "Not just AI. Learn anything." (Assembly line) ============ -->
+<section class="cp" id="custom-paths" data-screen-label="Custom paths" aria-labelledby="cp-title">
+  <div class="cp-grid">
+    <div class="cp-copy">
+      <img class="cp-mascot" src="assets/typing-kiro.webp" alt="" aria-hidden="true" width="96" loading="lazy" decoding="async" onerror="if(/\.webp$/.test(this.src))this.src=this.src.replace('.webp','.png')"/>
+      <span class="cp-eyebrow"><span class="dot"></span>Custom paths<span class="sep">·</span><span class="pro">Pro</span></span>
+      <h2 class="cp-h" id="cp-title">Not just AI.<br/><span class="accent">Learn anything.</span></h2>
+      <p class="cp-lead">Type any topic and watch Iro assemble a full learning path — lessons, a quiz, and a recap — wired together in seconds.</p>
+      <div class="cp-steps" aria-hidden="true">
+        <span><span class="n">1</span><b>Name your topic</b></span>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M9 6l6 6-6 6"/></svg>
+        <span><span class="n">2</span><b>Iro builds your path</b></span>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M9 6l6 6-6 6"/></svg>
+        <span><span class="n">3</span><b>Learn 5 min a day</b></span>
       </div>
-
-      <div class="cp-stage" aria-hidden="true">
-        <div class="cp-mock">
-          <div class="cp-field reveal" data-d="1">
-            <svg class="cp-field-ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 4V2M15 16v-2M8 9h2M20 9h2M17.8 11.8 19 13M17.8 6.2 19 5M3 21l9-9M12.2 6.2 11 5"/></svg>
-            <span class="cp-field-txt">Getting more customers</span>
-            <span class="cp-field-go"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
-          </div>
-          <div class="cp-card reveal" data-d="2">
-            <div class="cp-card-head">
-              <span class="cp-card-eyebrow">Your path</span>
-              <span class="cp-card-meta">5 lessons · quiz · recap</span>
-            </div>
-            <ul class="cp-lessons">
-              <li class="cp-lesson reveal" data-d="2"><span class="cp-lesson-n">1</span><span class="cp-lesson-t">Find your ideal customer</span></li>
-              <li class="cp-lesson reveal" data-d="3"><span class="cp-lesson-n">2</span><span class="cp-lesson-t">Write posts that convert</span></li>
-              <li class="cp-lesson reveal" data-d="4"><span class="cp-lesson-n">3</span><span class="cp-lesson-t">Turn leads into sales</span></li>
-            </ul>
-            <div class="cp-more">+ 2 more lessons</div>
-            <div class="cp-card-div"></div>
-            <div class="cp-recap reveal" data-d="5">
-              <span class="cp-recap-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3 13.9 8.6 20 9 15 12.7 16.5 19 12 15.3 7.5 19 9 12.7 4 9 10.1 8.6z"/></svg></span>
-              <span class="cp-recap-t"><b>Recap card</b> <span>· your growth roadmap</span></span>
-            </div>
-          </div>
-        </div>
+      <div class="cp-chips">
+        <button class="cp-chip" type="button" data-topic="public speaking">Public speaking</button>
+        <button class="cp-chip" type="button" data-topic="personal finance">Personal finance</button>
+        <button class="cp-chip" type="button" data-topic="negotiation">Negotiation</button>
+        <button class="cp-chip" type="button" data-topic="learning guitar">Learning guitar</button>
+        <button class="cp-chip" type="button" data-topic="cooking basics">Cooking basics</button>
+        <button class="cp-chip" type="button" data-topic="getting in shape">Getting in shape</button>
+        <button class="cp-chip" type="button" data-topic="interview prep">Interview prep</button>
+        <button class="cp-chip" type="button" data-topic="studying smarter">Studying smarter</button>
       </div>
+      <a class="cp-cta" href="https://apps.apple.com/app/id6759628066">Start learning anything
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
     </div>
 
-    <div class="cp-cards">
-      <div class="loop-node reveal" data-d="1">
-        <div class="loop-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 4V2M15 16v-2M8 9h2M20 9h2M17.8 11.8 19 13M17.8 6.2 19 5M3 21l9-9M12.2 6.2 11 5"/></svg></div>
-        <h4>Any topic, instantly</h4>
-        <p>Name it and go. From "negotiation" to "learning guitar," Iro builds the whole path in seconds.</p>
+    <div class="cp-demo">
+      <div class="cp-input">
+        <svg class="wand" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l1.9 5.1L19 10l-5.1 1.9L12 17l-1.9-5.1L5 10l5.1-1.9L12 3z"/><path d="M19 15l.7 1.8 1.8.7-1.8.7L19 20l-.7-1.8-1.8-.7 1.8-.7z"/></svg>
+        <div class="cp-typewrap"><span class="cp-type ph">grow my business</span><span class="cp-cur"></span></div>
+        <input class="cp-edit" type="text" autocomplete="off" spellcheck="false" aria-label="Type a topic to learn"/>
+        <button class="cp-send" type="button" aria-label="Build path"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>
       </div>
-      <div class="loop-node reveal" data-d="2">
-        <div class="loop-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="6" cy="19" r="3"/><circle cx="6" cy="5" r="3"/><path d="M6 8v8M18 9v6"/><circle cx="18" cy="6" r="3"/><path d="M9 5h4a2 2 0 0 1 2 2v0"/></svg></div>
-        <h4>A real path, not a wall of text</h4>
-        <p>Structured lessons, hands-on exercises, a quiz, and a recap — not a chatbot dump.</p>
-      </div>
-      <div class="loop-node reveal" data-d="3">
-        <div class="loop-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg></div>
-        <h4>Share and discover</h4>
-        <p>Publish your paths and explore ones built by the community.</p>
-      </div>
+      <div class="cp-hint"></div>
+      <div class="cp-path"></div>
     </div>
   </div>
 </section>
-
-<div class="divider"></div>
 
 <!-- ============ ASK IRO (AI coach) ============ -->
 <section class="coach" id="ask-iro" data-screen-label="AI coach">
@@ -2594,6 +2630,408 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
   });
   document.querySelectorAll('a[hreflang]').forEach(function(a){
     a.addEventListener('click',function(){var lang=a.getAttribute('hreflang');if(lang&&lang!=='x-default'){try{localStorage.setItem(CHOICE,lang);}catch(_){}}});
+  });
+})();
+</script>
+<script>
+/* ============ Iro AI — Custom Paths: topic data + resolve() (design_handoff_custom_paths) ============ */
+/* ============ Iro AI — Custom Paths: topic → generated path data ============ */
+(function () {
+  'use strict';
+
+  /* Each topic: 5 lessons (title + duration) + a recap label + a lesson-1 preview
+     (concept + exercise) used only at the "Expanded" path-detail level. */
+  var TOPICS = [
+    {
+      topic: 'grow my business',
+      recap: 'your 90-day growth plan',
+      lessons: [
+        { t: 'Find your ideal customer', dur: '5 min' },
+        { t: 'Craft an offer they want', dur: '6 min' },
+        { t: 'Land your first 10 sales', dur: '5 min' },
+        { t: 'Build a referral loop', dur: '4 min' },
+        { t: 'Track the numbers that matter', dur: '5 min' }
+      ],
+      preview: { concept: 'Who you sell to shapes everything else.', exercise: 'Write a one-line profile of the customer you help most.' }
+    },
+    {
+      topic: 'public speaking',
+      recap: "your speaker's playbook",
+      lessons: [
+        { t: 'Turn nerves into energy', dur: '4 min' },
+        { t: 'Structure a talk that lands', dur: '6 min' },
+        { t: 'Open with a strong hook', dur: '4 min' },
+        { t: 'Master pace and pauses', dur: '5 min' },
+        { t: 'Handle Q&A with confidence', dur: '5 min' }
+      ],
+      preview: { concept: 'Nerves are energy you can redirect, not erase.', exercise: 'Name the one point your talk must land.' }
+    },
+    {
+      topic: 'getting in shape',
+      recap: 'your 8-week starter plan',
+      lessons: [
+        { t: 'Set an honest baseline', dur: '4 min' },
+        { t: 'Build a simple 3-day split', dur: '6 min' },
+        { t: 'Master five core lifts', dur: '6 min' },
+        { t: 'Dial in protein and sleep', dur: '5 min' },
+        { t: 'Track progress that sticks', dur: '4 min' }
+      ],
+      preview: { concept: 'Consistency beats intensity, every single week.', exercise: "Pick the three days you'll train this week." }
+    },
+    {
+      topic: 'personal finance',
+      recap: 'your money roadmap',
+      lessons: [
+        { t: 'Map where your money goes', dur: '5 min' },
+        { t: 'Build a starter safety net', dur: '5 min' },
+        { t: 'Kill high-interest debt', dur: '6 min' },
+        { t: 'Automate your savings', dur: '4 min' },
+        { t: 'Start investing simply', dur: '6 min' }
+      ],
+      preview: { concept: "You can't fix what you haven't measured.", exercise: 'List every subscription you paid for last month.' }
+    },
+    {
+      topic: 'cooking basics',
+      recap: 'your weeknight cookbook',
+      lessons: [
+        { t: 'Stock a starter kitchen', dur: '4 min' },
+        { t: 'Master basic knife skills', dur: '6 min' },
+        { t: 'Cook five go-to meals', dur: '6 min' },
+        { t: 'Season and taste as you go', dur: '4 min' },
+        { t: 'Plan a week of dinners', dur: '5 min' }
+      ],
+      preview: { concept: 'Great cooking is mostly prep and heat control.', exercise: 'Choose one meal to cook without a recipe tonight.' }
+    },
+    {
+      topic: 'learning guitar',
+      recap: 'your daily practice routine',
+      lessons: [
+        { t: 'Tune up and hold it right', dur: '4 min' },
+        { t: 'Play your first three chords', dur: '6 min' },
+        { t: 'Switch chords cleanly', dur: '6 min' },
+        { t: 'Strum in time', dur: '5 min' },
+        { t: 'Play your first full song', dur: '6 min' }
+      ],
+      preview: { concept: 'Clean changes matter more than speed.', exercise: 'Hold a G chord and pluck each string clean.' }
+    },
+    {
+      topic: 'interview prep',
+      recap: 'your interview game plan',
+      lessons: [
+        { t: 'Research the company fast', dur: '5 min' },
+        { t: 'Tell your story with STAR', dur: '6 min' },
+        { t: 'Answer the tough questions', dur: '6 min' },
+        { t: 'Ask questions that impress', dur: '4 min' },
+        { t: 'Negotiate the offer', dur: '5 min' }
+      ],
+      preview: { concept: 'Interviews reward stories, not summaries.', exercise: 'Draft one win as Situation, Task, Action, Result.' }
+    },
+    {
+      topic: 'negotiation',
+      recap: 'your negotiation toolkit',
+      lessons: [
+        { t: 'Know your walk-away number', dur: '4 min' },
+        { t: 'Anchor the first offer', dur: '5 min' },
+        { t: 'Listen for what they want', dur: '5 min' },
+        { t: "Trade, don't cave", dur: '6 min' },
+        { t: 'Close without regret', dur: '4 min' }
+      ],
+      preview: { concept: 'Whoever names the number first sets the frame.', exercise: 'Write the highest number you can say with a straight face.' }
+    },
+    {
+      topic: 'studying smarter',
+      recap: 'your study system',
+      lessons: [
+        { t: 'Ditch passive re-reading', dur: '4 min' },
+        { t: 'Use active recall', dur: '6 min' },
+        { t: 'Space your repetition', dur: '5 min' },
+        { t: 'Beat procrastination', dur: '5 min' },
+        { t: 'Prep for test day', dur: '4 min' }
+      ],
+      preview: { concept: 'Recalling beats reviewing, every time.', exercise: 'Close the book and write what you remember.' }
+    },
+    {
+      topic: 'training a puppy',
+      recap: 'your first-90-days plan',
+      lessons: [
+        { t: 'Set up a daily routine', dur: '4 min' },
+        { t: 'Master crate training', dur: '6 min' },
+        { t: 'Teach sit, stay, and come', dur: '6 min' },
+        { t: 'Stop the play biting', dur: '5 min' },
+        { t: 'Nail potty training', dur: '5 min' }
+      ],
+      preview: { concept: 'Reward the behavior you want to see again.', exercise: "Pick the one word you'll use to mark a win." }
+    }
+  ];
+
+  /* keyword → topic index, for when a visitor types their own idea */
+  var KEYS = [
+    [/(business|startup|company|customers?|sales|revenue|marketing)/, 0],
+    [/(speak|presentation|present|stage|talk|pitch)/, 1],
+    [/(shape|fit|gym|workout|exercise|muscle|lose weight|strength)/, 2],
+    [/(money|finance|budget|invest|saving|debt|wealth)/, 3],
+    [/(cook|kitchen|recipe|meal|food|bak)/, 4],
+    [/(guitar|instrument|music|piano|chord)/, 5],
+    [/(interview|job|resume|hiring|career)/, 6],
+    [/(negotiat|deal|salary|bargain)/, 7],
+    [/(study|studying|exam|learn faster|memor|revis|school|college)/, 8],
+    [/(puppy|dog|pet|obedience|train.*(dog|pup))/, 9]
+  ];
+
+  function titleCase(s) {
+    return s.replace(/\b\w/g, function (c) { return c.toUpperCase(); });
+  }
+
+  /* Build a plausible path for a free-typed topic that matches nothing. */
+  function genericPath(raw) {
+    var t = raw.trim().replace(/^(how to |learn |learning |get better at |master )/i, '') || 'anything';
+    return {
+      topic: raw.trim() || 'anything',
+      recap: 'your personal roadmap',
+      lessons: [
+        { t: 'Get the fundamentals down', dur: '5 min' },
+        { t: 'Learn the core moves', dur: '6 min' },
+        { t: 'Practice on a real task', dur: '5 min' },
+        { t: 'Fix the common mistakes', dur: '4 min' },
+        { t: 'Build a daily habit', dur: '5 min' }
+      ],
+      preview: { concept: 'Every skill breaks down into a few key moves.', exercise: 'Write one sentence on why ' + t + ' matters to you.' }
+    };
+  }
+
+  /* Resolve any text to a path object (known topic or generic). */
+  function resolve(raw) {
+    var s = (raw || '').toLowerCase();
+    for (var i = 0; i < KEYS.length; i++) {
+      if (KEYS[i][0].test(s)) return TOPICS[KEYS[i][1]];
+    }
+    // exact-ish match on topic string
+    for (var j = 0; j < TOPICS.length; j++) {
+      if (s.indexOf(TOPICS[j].topic) !== -1) return TOPICS[j];
+    }
+    return genericPath(raw);
+  }
+
+  window.CP = { TOPICS: TOPICS, resolve: resolve, titleCase: titleCase };
+})();
+</script>
+<script>
+/* ============ Iro AI — Custom Paths: Assembly-line demo engine ============ */
+/* ============================================================
+   Iro AI — Custom Paths ("Learn anything") — Assembly line engine
+   Design reference. Vanilla JS; no dependencies. Requires paths-data.js
+   (window.CP) to be loaded first.
+
+   Behaviour:
+   - Auto-types a topic into the prompt, "generates", then threads the
+     lessons onto a connector spine (+ lesson-1 preview + recap card).
+   - Loops through CP.TOPICS. Clicking the input pauses the loop and lets
+     the visitor type their own topic (CP.resolve() maps it to a path).
+   - Starts when the section scrolls into view (IntersectionObserver),
+     with a timer fallback.
+   ============================================================ */
+(function () {
+  'use strict';
+
+  var CP = window.CP;
+  if (!CP) { console.warn('[custom-paths] paths-data.js (window.CP) not found'); return; }
+  var REDUCE = window.matchMedia('(prefers-reduced-motion:reduce)').matches;
+
+  var STAR = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15 8.5 22 9.3 17 14 18.3 21 12 17.6 5.7 21 7 14 2 9.3 9 8.5 12 2"/></svg>';
+
+  /* timing (ms) */
+  var TYPE = 46, AFTER_TYPE = 320, STAGGER = 185, GEN = 950, HOLD = 3800, FADE = 340;
+
+  function esc(s) { return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;'); }
+  function el(tag, cls, html) { var e = document.createElement(tag); if (cls) e.className = cls; if (html != null) e.innerHTML = html; return e; }
+
+  function Controller(sec) {
+    var self = this;
+    this.sec = sec;
+    this.input = sec.querySelector('.cp-input');
+    this.typeEl = sec.querySelector('.cp-type');
+    this.editEl = sec.querySelector('.cp-edit');
+    this.pathEl = sec.querySelector('.cp-path');
+    this.hint = sec.querySelector('.cp-hint');
+    this.chips = sec.querySelectorAll('.cp-chip');
+    this.idx = 0;
+    this.paused = false;
+    this.editing = false;
+    this.started = false;
+    this.timers = [];
+    this.current = null;
+
+    // first topic rendered + visible immediately so there is always content
+    this.render(CP.TOPICS[0], true);
+    this.pathEl.style.opacity = '1';
+    this.typeEl.classList.remove('ph');
+    this.typeEl.textContent = CP.TOPICS[0].topic;
+    if (this.hint) this.hint.innerHTML = defaultHint();
+
+    // click the input to type your own topic
+    this.input.addEventListener('click', function (e) {
+      if (e.target.closest('.cp-send')) { self.editing ? self.submit() : self.startEdit(); return; }
+      self.startEdit();
+    });
+    this.editEl.addEventListener('keydown', function (e) {
+      if (e.key === 'Enter') { e.preventDefault(); self.submit(); }
+      else if (e.key === 'Escape') { self.endEdit(); self.resumeSoon(0); }
+    });
+    this.editEl.addEventListener('blur', function () {
+      if (self.editing && !self.editEl.value.trim()) { self.endEdit(); self.resumeSoon(400); }
+    });
+
+    // topic chips jump straight to a topic
+    Array.prototype.forEach.call(this.chips, function (chip) {
+      chip.addEventListener('click', function () {
+        var t = chip.getAttribute('data-topic');
+        var i = CP.TOPICS.findIndex(function (d) { return d.topic === t; });
+        if (i < 0) return;
+        self.editing && self.endEdit();
+        self.idx = i; self.paused = false; self.clearTimers(); self.run();
+      });
+    });
+  }
+
+  Controller.prototype.wait = function (ms) {
+    var self = this;
+    return new Promise(function (res) { var t = setTimeout(res, ms); self.timers.push(t); });
+  };
+  Controller.prototype.clearTimers = function () { this.timers.forEach(clearTimeout); this.timers = []; };
+  Controller.prototype.markChip = function (topic) {
+    Array.prototype.forEach.call(this.chips, function (c) { c.classList.toggle('on', c.getAttribute('data-topic') === topic); });
+  };
+
+  Controller.prototype.type = function (text) {
+    var self = this;
+    this.typeEl.classList.remove('ph');
+    return new Promise(function (res) {
+      if (REDUCE) { self.typeEl.textContent = text; return res(); }
+      var i = 0;
+      (function step() {
+        self.typeEl.textContent = text.slice(0, i);
+        if (i++ <= text.length) {
+          var jitter = text[i - 2] === ' ' ? 90 : TYPE + Math.random() * 40;
+          var t = setTimeout(step, jitter); self.timers.push(t);
+        } else { res(); }
+      })();
+    });
+  };
+
+  /* build the path card: header, lessons on a spine (+ lesson-1 preview), recap */
+  Controller.prototype.render = function (data, instant) {
+    var p = this.pathEl, self = this;
+    this.current = data;
+    p.classList.remove('gen');
+    p.innerHTML = '';
+    p.appendChild(el('div', 'cp-scan'));
+    p.appendChild(el('div', 'cp-genlabel', 'Generating'));
+    p.appendChild(el('div', 'cp-path-head',
+      '<span class="lbl">Your path</span><span class="meta">5 lessons · quiz · recap</span>'));
+
+    var list = el('div', 'cp-lessons');
+    data.lessons.forEach(function (ls, i) {
+      var row = el('div', 'cp-lesson' + (i === 0 ? ' first' : ''));
+      var pv = (i === 0 && data.preview)
+        ? '<div class="cp-preview"><div class="pl">Lesson preview</div><div class="pc">' + esc(data.preview.concept) +
+          '</div><div class="pe"><b>Try it:</b> ' + esc(data.preview.exercise) + '</div></div>' : '';
+      row.innerHTML = '<span class="cp-n">' + (i + 1) + '</span><div class="cp-lt"><div class="t">' + esc(ls.t) + '</div>' + pv + '</div>';
+      list.appendChild(row);
+    });
+    p.appendChild(list);
+
+    var recap = el('div', 'cp-recap',
+      '<span class="ic">' + STAR + '</span><div><span class="rt">Recap card</span>' +
+      '<span class="rd"> · <b>' + esc(data.recap) + '</b></span></div>');
+    p.appendChild(recap);
+
+    var rows = list.querySelectorAll('.cp-lesson');
+    function reveal() {
+      rows.forEach(function (r, i) { var t = setTimeout(function () { r.classList.add('in'); }, i * STAGGER); self.timers.push(t); });
+      var t2 = setTimeout(function () { recap.classList.add('in'); }, rows.length * STAGGER); self.timers.push(t2);
+    }
+    if (instant || REDUCE) {
+      rows.forEach(function (r) { r.classList.add('in'); }); recap.classList.add('in');
+    } else {
+      p.classList.add('gen');
+      var t = setTimeout(function () { p.classList.remove('gen'); reveal(); }, GEN); this.timers.push(t);
+    }
+  };
+
+  /* loop */
+  Controller.prototype.run = function () {
+    var self = this;
+    var data = CP.TOPICS[this.idx];
+    this.markChip(data.topic);
+    this.pathEl.style.opacity = '1';
+    this.type('').then(function () { return self.wait(260); })
+      .then(function () { return self.type(data.topic); })
+      .then(function () { return self.wait(AFTER_TYPE); })
+      .then(function () { self.render(data, false); return self.wait(HOLD); })
+      .then(function () {
+        if (self.paused) return;
+        self.idx = (self.idx + 1) % CP.TOPICS.length;
+        self.run();
+      });
+  };
+
+  /* type-your-own */
+  Controller.prototype.startEdit = function () {
+    if (this.editing) { this.editEl.focus(); return; }
+    this.editing = true; this.paused = true; this.clearTimers();
+    this.input.classList.add('editing', 'live');
+    this.editEl.value = ''; this.editEl.focus();
+    if (this.hint) this.hint.innerHTML = '<span class="k">↵</span> Press enter to build your path';
+  };
+  Controller.prototype.endEdit = function () {
+    this.editing = false;
+    this.input.classList.remove('editing', 'live');
+    if (this.hint) this.hint.innerHTML = defaultHint();
+  };
+  Controller.prototype.submit = function () {
+    var text = (this.editEl.value || '').trim();
+    if (!text) { this.endEdit(); this.resumeSoon(400); return; }
+    var data = CP.resolve(text);
+    this.endEdit();
+    this.typeEl.classList.remove('ph');
+    this.typeEl.textContent = text;
+    this.pathEl.style.opacity = '1';
+    this.markChip(data.topic);
+    this.render(data, false);
+    if (this.hint) this.hint.innerHTML = '<span class="k">✓</span> Built for you · demo resumes shortly';
+    this.resumeSoon(6500);
+  };
+  Controller.prototype.resumeSoon = function (ms) {
+    var self = this; this.clearTimers();
+    var t = setTimeout(function () {
+      if (self.editing) return;
+      self.paused = false;
+      if (self.hint) self.hint.innerHTML = defaultHint();
+      self.idx = (self.idx + 1) % CP.TOPICS.length; self.run();
+    }, ms); this.timers.push(t);
+  };
+  Controller.prototype.start = function () {
+    if (this.started) return; this.started = true;
+    // topic 0 is already on screen — hold it, then loop from topic 1
+    var self = this;
+    var t = setTimeout(function () { self.idx = 1 % CP.TOPICS.length; self.run(); }, HOLD);
+    this.timers.push(t);
+  };
+
+  function defaultHint() { return '<span class="k">Auto-demo</span> · click to try your own topic'; }
+
+  /* boot — start when the section scrolls into view (with a fallback timer) */
+  document.querySelectorAll('.cp').forEach(function (sec) {
+    var c = new Controller(sec);
+    var kicked = false;
+    function kick() { if (kicked) return; kicked = true; c.start(); }
+    if ('IntersectionObserver' in window) {
+      var io = new IntersectionObserver(function (ents) {
+        ents.forEach(function (e) { if (e.isIntersecting) { kick(); io.disconnect(); } });
+      }, { threshold: 0.25 });
+      io.observe(sec);
+    }
+    setTimeout(kick, 1600); // fallback if IO never fires
   });
 })();
 </script>
