@@ -143,7 +143,7 @@
   </url>
   <url>
     <loc>https://tryiro.com/blog/iro-ai-vs-coursiv</loc>
-    <lastmod>2026-06-20</lastmod>
+    <lastmod>2026-07-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -153,7 +153,7 @@
   </url>
   <url>
     <loc>https://tryiro.com/blog/iro-ai-vs-learnova</loc>
-    <lastmod>2026-06-20</lastmod>
+    <lastmod>2026-07-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -503,7 +503,7 @@
   </url>
   <url>
     <loc>https://tryiro.com/blog/coursiv-alternatives</loc>
-    <lastmod>2026-06-20</lastmod>
+    <lastmod>2026-07-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -513,7 +513,7 @@
   </url>
   <url>
     <loc>https://tryiro.com/blog/learnova-alternatives</loc>
-    <lastmod>2026-06-20</lastmod>
+    <lastmod>2026-07-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -679,6 +679,16 @@
     <image:image>
       <image:loc>https://tryiro.com/assets/og/what-are-tokens-in-ai.png</image:loc>
       <image:title>What are tokens in AI?</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://tryiro.com/blog/coursiv-vs-learnova</loc>
+    <lastmod>2026-07-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://tryiro.com/assets/og/coursiv-vs-learnova.png</image:loc>
+      <image:title>Coursiv vs Learnova: which AI learning app is worth it in 2026?</image:title>
     </image:image>
   </url>
 </urlset>

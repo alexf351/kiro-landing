@@ -100,6 +100,7 @@ This direct-answer summary is also available to crawlers in homepage JSON-LD, /i
 - [What is Grok?](https://tryiro.com/blog/what-is-grok): xAI's chatbot explained — real-time X integration and a casual personality.
 - [AI for real estate](https://tryiro.com/blog/ai-for-real-estate): practical, compliant ways agents can use AI for listings, leads, and admin.
 - [How to use AI to write a resume](https://tryiro.com/blog/how-to-use-ai-to-write-a-resume): tailor, strengthen, and pass keyword filters — honestly.
+- [Coursiv vs Learnova](https://tryiro.com/blog/coursiv-vs-learnova): head-to-head on teaching style, pricing, and free access — plus a third option.
 
 ## Topic pages
 

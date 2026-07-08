@@ -9,7 +9,7 @@
     <description>Short, practical writing on AI fluency, prompting, AI tools, and the active-practice method that beats endless video courses.</description>
     <language>en-US</language>
     <atom:link href="https://tryiro.com/blog/rss.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Mon, 22 Jun 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 08 Jul 2026 00:00:00 GMT</lastBuildDate>
     <generator>tryiro.com</generator>
     <copyright>© 2026 Iro AI</copyright>
     <image>
@@ -583,6 +583,15 @@
       <dc:creator>Iro AI</dc:creator>
       <category>AI fundamentals</category>
       <description>What are tokens in AI? A plain-English explainer: what a token is, how tokenization works, the words-per-token rule of thumb, and why tokens drive cost and limits.</description>
+    </item>
+    <item>
+      <title>Coursiv vs Learnova: which AI learning app is worth it in 2026?</title>
+      <link>https://tryiro.com/blog/coursiv-vs-learnova</link>
+      <guid isPermaLink="true">https://tryiro.com/blog/coursiv-vs-learnova</guid>
+      <pubDate>Wed, 08 Jul 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Iro AI</dc:creator>
+      <category>AI fluency</category>
+      <description>An honest Coursiv vs Learnova comparison for 2026: how the two AI learning apps differ on teaching style, pricing, and free access — plus a third option if neither fits how you learn.</description>
     </item>
   </channel>
 </rss>
