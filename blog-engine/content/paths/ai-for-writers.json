@@ -1,0 +1,171 @@
+{
+  "slug": "ai-for-writers",
+  "order": 19,
+  "category": "jobs",
+  "eyebrow": "AI for writers",
+  "hubTitle": "AI for writers",
+  "hubBlurb": "Beat the blank page, get a tougher editor, keep your own voice.",
+  "title": "AI for Writers: Beat the Blank Page | Iro AI",
+  "h1": "AI for writers who want to keep their voice.",
+  "metaDescription": "How real writers use AI for outlines, a tough editor, faster research, and headline variations — without letting it flatten their own voice.",
+  "keywords": [
+    "AI for writers",
+    "AI writing tools",
+    "using AI to write",
+    "AI editor",
+    "how writers use ChatGPT"
+  ],
+  "lede": "The best writers don't ask AI to write for them — they ask it to unblock them. Iro teaches you to use AI where it genuinely helps: cracking outlines and angles, stress-testing a draft like a tough editor, and spinning up headline options — while the sentences stay yours. Five minutes at a time.",
+  "pills": [
+    "Outlines & angles",
+    "AI as editor",
+    "Research",
+    "Headlines",
+    "Revision",
+    "Voice"
+  ],
+  "about": "AI for writers",
+  "level": "Beginner to advanced",
+  "audience": "Writers, copywriters, content marketers, journalists, bloggers, and authors",
+  "teaches": [
+    "Using AI to outline and find angles",
+    "Prompting AI to critique a draft",
+    "AI-assisted research for writers",
+    "Generating headline and hook variations",
+    "Keeping your voice while using AI"
+  ],
+  "tldr": {
+    "answer": "Writers get the most from AI by using it for the scaffolding around the writing — outlines, angles, research, critique, and headline variations — not to generate the prose itself. The blank page dies fastest when you ask AI for ten possible angles or a working outline, then write the draft in your own words and hand it back for a tough, criteria-based edit.",
+    "bullets": [
+      "Best uses: outlines, angles, research, critique, and headline options — not first-person prose.",
+      "AI is a better editor than ghostwriter: ask it to critique against criteria, not to rewrite.",
+      "Great writing stays human; AI just clears the runway so you can write faster."
+    ]
+  },
+  "outcomesHeading": "What you'll be able to do",
+  "outcomes": [
+    "Break a blank page with ten angles and a working outline in minutes",
+    "Turn AI into a demanding editor that critiques instead of rewriting",
+    "Research a topic and pull quotes or facts you can then verify",
+    "Generate 20 headline or subject-line variations and pick the sharpest",
+    "Use AI on the draft without letting it flatten your voice"
+  ],
+  "lessons": [
+    {
+      "t": "Kill the blank page",
+      "dur": "5 min",
+      "blurb": "Prompt AI for angles, hooks, and a working outline so you start writing from something, not nothing."
+    },
+    {
+      "t": "AI as your toughest editor",
+      "dur": "6 min",
+      "blurb": "Ask for a criteria-based critique — clarity, structure, weak verbs — that tells you what to fix without touching your words."
+    },
+    {
+      "t": "Research without hallucinations",
+      "dur": "5 min",
+      "blurb": "Gather background and quotes fast, then verify every claim before it lands in your piece."
+    },
+    {
+      "t": "Headlines and hooks that land",
+      "dur": "5 min",
+      "blurb": "Generate and rank dozens of title and opening-line variations, then sharpen the winner yourself."
+    },
+    {
+      "t": "Keep your voice",
+      "dur": "5 min",
+      "blurb": "Feed the model your style so its suggestions sound like edits, not a personality transplant."
+    }
+  ],
+  "practice": {
+    "type": "Prompt practice",
+    "scenario": "You've written a 900-word blog post you're proud of, but something feels flat. You want AI to help — without it rewriting the piece in generic AI prose and erasing your voice.",
+    "task": "Pick the prompt that gets you a genuinely useful edit while keeping the words yours.",
+    "options": [
+      {
+        "text": "\"Rewrite this blog post so it's better.\"",
+        "correct": false
+      },
+      {
+        "text": "\"Act as a demanding developmental editor. Critique this draft against four criteria: clarity of the core argument, structure and flow, weak or filler sentences, and whether the opening earns attention. For each, quote the exact line and suggest a fix in one sentence — but do not rewrite the piece for me.\"",
+        "correct": true
+      },
+      {
+        "text": "\"Write a version of this article in your own words.\"",
+        "correct": false
+      },
+      {
+        "text": "\"Make this sound more professional and engaging.\"",
+        "correct": false
+      }
+    ],
+    "revealLabel": "See why the critique prompt wins",
+    "feedback": "The winning prompt sets a clear <strong>role</strong> (demanding developmental editor), gives <strong>specific criteria</strong> to judge against (argument, structure, weak sentences, the opening), demands <strong>evidence</strong> by quoting the exact line, and adds a hard <strong>constraint</strong> — <em>suggest, don't rewrite</em> — so you keep control of the prose. The other three all hand the pen to the AI, which is exactly how you end up with a competent, voiceless draft that no longer sounds like you. In Iro you'd write your own critique prompt and get feedback on what criteria you left out."
+  },
+  "body": [
+    {
+      "h2": "Why \"write my article\" is the wrong ask",
+      "html": "<p>Ask AI to write the whole piece and you get something grammatically fine and completely forgettable — the average of everything ever written on the topic. Readers feel it even when they can't name it. The writers who actually get faster with AI use it on everything <em>around</em> the prose: the angle you hadn't considered, the outline that unsticks you, the research you'd have spent an hour gathering, the headline you'd never have tried.</p><p>The prose itself is where your voice, judgment, and specific detail live — and it's the one part AI does worst. Keep it. Hand AI the scaffolding, not the sentences.</p>"
+    },
+    {
+      "h2": "The highest-leverage uses for writers",
+      "html": "<ul><li><strong>Angles &amp; outlines:</strong> \"Give me 10 angles on this topic for a skeptical reader,\" then a structured outline you fill in yourself.</li><li><strong>Editor, not ghostwriter:</strong> critique a draft against named criteria — clarity, structure, weak verbs, a lazy opening — and get line-level notes.</li><li><strong>Research:</strong> background, opposing views, and quotes to chase down — with every fact verified before it ships.</li><li><strong>Variations:</strong> 20 headlines, subject lines, or opening hooks so you're choosing from many, not settling for one.</li></ul><p>What's missing on purpose: writing the piece. It drafts scaffolding and pressure-tests; you write.</p>"
+    }
+  ],
+  "faqHeading": "Writer questions about AI",
+  "faq": [
+    {
+      "q": "Will AI replace writers?",
+      "a": "Not the good ones. AI produces average prose fast, which raises the bar on the human parts — original angles, real reporting, a distinct voice, judgment about what matters. The writers who thrive use AI to move faster on outlines, research, and editing, and spend the saved time on the writing only they can do."
+    },
+    {
+      "q": "What's the best way to use AI without losing my voice?",
+      "a": "Use it on the scaffolding, not the sentences. Let it generate angles, outlines, research, and headline options, and let it critique your draft against criteria — but write the prose yourself. If you do want stylistic notes, feed it samples of your writing first so its suggestions match your voice instead of flattening it."
+    },
+    {
+      "q": "Can AI edit my writing?",
+      "a": "Yes, and it's often more useful as an editor than a writer. Ask it to critique against specific criteria — is the argument clear, does the structure flow, which sentences are filler, does the opening earn attention — and to quote the lines it flags rather than rewriting them. You stay in control of every change."
+    },
+    {
+      "q": "How do I stop AI from inventing facts and quotes in research?",
+      "a": "Treat every AI research output as a lead, not a source. Ask it to flag uncertainty and cite where a claim comes from, then verify any fact, statistic, or quote before it goes in your piece. Iro has a full path on spotting hallucinations, because a fabricated quote in your byline is your problem, not the model's."
+    },
+    {
+      "q": "Which AI is best for writing?",
+      "a": "Many writers prefer Claude for longer-form drafting and nuanced critique, while ChatGPT is a strong all-rounder for angles, outlines, and headlines. The tool matters less than the skill: knowing what to ask for and what to keep for yourself. That prompting judgment is exactly what Iro trains, tool-agnostically."
+    }
+  ],
+  "related": [
+    {
+      "href": "/ai-for-work",
+      "label": "AI for work"
+    },
+    {
+      "href": "/prompt-engineering-app",
+      "label": "Prompt engineering"
+    },
+    {
+      "href": "/ai-for-designers",
+      "label": "AI for designers"
+    }
+  ],
+  "readNext": [
+    {
+      "href": "/blog/how-to-write-a-prompt",
+      "label": "How to write a prompt"
+    },
+    {
+      "href": "/blog/how-to-use-claude",
+      "label": "How to use Claude"
+    },
+    {
+      "href": "/blog/spot-ai-hallucinations",
+      "label": "How to spot AI hallucinations"
+    }
+  ],
+  "llmsBlurb": "How writers use AI for outlines, angles, research, critique, and headlines — while keeping the prose and the voice human.",
+  "ctaHeading": "Practice the writer's AI playbook.",
+  "ctaBody": "Iro turns these moves into five-minute exercises with feedback — so beating the blank page and running a tough edit becomes a rep you've already done.",
+  "datePublished": "2026-07-09",
+  "dateModified": "2026-07-09"
+}

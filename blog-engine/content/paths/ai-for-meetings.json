@@ -1,0 +1,172 @@
+{
+  "slug": "ai-for-meetings",
+  "order": 62,
+  "category": "skills",
+  "eyebrow": "AI for meetings",
+  "hubTitle": "AI for meetings",
+  "hubBlurb": "Prep tight agendas, turn transcripts into owned action items, and draft follow-ups fast.",
+  "title": "AI for Meetings: Agendas, Notes, Action Items | Iro AI",
+  "h1": "Make every meeting shorter, clearer, and actually followed up.",
+  "metaDescription": "Use AI to prep agendas, turn raw notes into clear summaries with owned action items, draft follow-ups, and decide when a meeting isn't needed.",
+  "keywords": [
+    "AI for meetings",
+    "AI meeting notes",
+    "AI meeting summary",
+    "notes to action items AI",
+    "AI meeting agenda",
+    "AI follow-up email"
+  ],
+  "lede": "Most meeting pain comes from two places: no clear agenda going in, and no clear owners coming out. AI can fix both — sharpening the agenda beforehand and turning the messy transcript afterward into a summary with decisions and owned action items. Iro teaches the prompts that make meetings shorter and follow-through automatic.",
+  "pills": [
+    "Agendas",
+    "Note summaries",
+    "Action items",
+    "Follow-ups",
+    "Decisions",
+    "Do we even need this?"
+  ],
+  "about": "AI for meetings",
+  "level": "Beginner to advanced",
+  "audience": "Managers, team leads, project owners, and anyone who runs or attends too many meetings",
+  "teaches": [
+    "Prepping a tight, outcome-focused agenda",
+    "Turning raw notes and transcripts into clear summaries",
+    "Extracting decisions and owned action items",
+    "Drafting follow-up messages fast",
+    "Deciding when a meeting is even needed"
+  ],
+  "tldr": {
+    "answer": "AI helps at both ends of a meeting: before, it turns a fuzzy topic into a tight agenda with a stated outcome and time boxes; after, it turns a messy transcript into a summary with decisions and action items assigned to real owners. The one rule that matters is grounding — the model should extract only what's actually in the notes and flag anything unclear as unassigned, never invent an owner or a deadline. Used this way it also helps you spot when a meeting could have been an async message instead.",
+    "bullets": [
+      "Prep an agenda with a clear outcome and time boxes before you invite anyone.",
+      "Turn notes into decisions plus owner-task-due action items, grounded in what was said.",
+      "Never let AI invent owners or deadlines — make it flag anything unclear."
+    ]
+  },
+  "outcomesHeading": "What you'll be able to do",
+  "outcomes": [
+    "Write a tight agenda with a stated outcome and realistic time boxes",
+    "Turn a raw transcript or messy notes into a clean, skimmable summary",
+    "Extract decisions and action items with a clear owner and due date for each",
+    "Draft a follow-up message in seconds that people actually read",
+    "Decide when a meeting could have been an async note instead"
+  ],
+  "lessons": [
+    {
+      "t": "Do we even need this meeting?",
+      "dur": "4 min",
+      "blurb": "Use AI to test whether a topic needs a live meeting or a two-line async message."
+    },
+    {
+      "t": "Agendas with an outcome",
+      "dur": "5 min",
+      "blurb": "Prompt for a tight agenda that names the decision to make and time-boxes each item."
+    },
+    {
+      "t": "Notes to a clear summary",
+      "dur": "5 min",
+      "blurb": "Turn a rambling transcript into a short, skimmable summary anyone can catch up on."
+    },
+    {
+      "t": "Decisions and owned actions",
+      "dur": "6 min",
+      "blurb": "Extract decisions and action items with owners and due dates — and flag what's unclear."
+    },
+    {
+      "t": "The follow-up in 60 seconds",
+      "dur": "5 min",
+      "blurb": "Draft a follow-up message from the summary that people actually open and act on."
+    }
+  ],
+  "practice": {
+    "type": "Prompt practice",
+    "scenario": "You just finished a 45-minute project sync and captured a page of messy, half-typed notes. You want AI to turn them into action items — but the notes don't clearly say who owns everything, and inventing an owner would send the wrong person chasing the wrong task.",
+    "task": "Choose the prompt that turns notes into trustworthy action items without making things up.",
+    "options": [
+      {
+        "text": "\"Summarize these meeting notes.\"",
+        "correct": false
+      },
+      {
+        "text": "\"Here are raw notes from a project sync. Turn them into: (1) key decisions made, (2) action items as owner → task → due date, and (3) open questions. Only assign an owner if the notes clearly name one — if it's unclear who owns something, list it as 'unassigned' and flag it rather than guessing. Use only what's actually in the notes.\"",
+        "correct": true
+      },
+      {
+        "text": "\"Read these notes and tell everyone what they need to do next.\"",
+        "correct": false
+      },
+      {
+        "text": "\"Write a polished follow-up email based on these notes.\"",
+        "correct": false
+      }
+    ],
+    "revealLabel": "See why the second prompt wins",
+    "feedback": "The winning prompt gives the model a <strong>structured extraction format</strong> — decisions, action items, and open questions — and demands the one thing action items live or die on: an <strong>owner, task, and due date</strong> for each. Crucially, it tells the model to <strong>only assign an owner the notes actually name</strong> and to <strong>flag anything unclear as unassigned</strong> rather than inventing one, and it <strong>grounds the output in the source</strong> (\"use only what's in the notes\"). That's what stops AI from confidently sending the wrong person after the wrong task. The others fail: \"summarize these notes\" gives you prose with no owners, \"tell everyone what to do\" invites the model to invent tasks and assignees, and jumping straight to a \"polished email\" skips the extraction and buries any guesses in a confident tone. In Iro you practice these notes-to-actions prompts and get feedback on whether they'd survive contact with a real, messy transcript."
+  },
+  "body": [
+    {
+      "h2": "The two places meetings break — and where AI fits",
+      "html": "<p>Meetings fail at the edges. Going in, there's no agenda, or an agenda that's a list of topics with no decision attached, so the conversation wanders. Coming out, someone says \"we'll follow up,\" nobody owns anything specific, and the same discussion happens again next week.</p><p>AI slots into both gaps. Before the meeting, hand it your rough topic and have it draft an agenda that names the outcome you want, orders the items, and time-boxes each one — then you cut it down. After the meeting, hand it the transcript or your notes and have it produce a summary plus decisions and action items. The before-and-after are where the leverage is; the meeting itself is still a human conversation.</p>"
+    },
+    {
+      "h2": "Turning notes into action items you can trust",
+      "html": "<p>The highest-value AI move for meetings is notes-to-actions — but only if the output is grounded in what was actually said. A summary that invents an owner or a deadline is worse than no summary, because people act on it.</p><ul><li><strong>Hand off:</strong> summarizing the transcript, pulling out decisions, structuring action items as owner-task-due, and drafting the follow-up message.</li><li><strong>Keep:</strong> confirming the owners and dates are right, resolving anything the model flagged as unclear, and the decisions themselves.</li></ul><p>The safeguard is a single instruction: tell the model to use only what's in the notes and to mark anything ambiguous as unassigned instead of guessing. That one line is the difference between a follow-up people trust and one they have to re-check. And when you do this consistently, you start noticing which meetings produced no real decisions at all — a strong signal they could have been an async message next time.</p>"
+    }
+  ],
+  "faqHeading": "AI meeting questions",
+  "faq": [
+    {
+      "q": "Can AI take notes and summarize a meeting?",
+      "a": "Yes. Given a transcript or your raw notes, AI can produce a short summary, pull out the decisions, and structure action items with owners and due dates. The one caution is grounding — it should only summarize what was actually said and flag anything unclear rather than fill gaps with guesses."
+    },
+    {
+      "q": "How do I turn meeting notes into action items?",
+      "a": "Ask for a specific structure: decisions made, action items as owner-task-due-date, and open questions. Tell the model to assign an owner only when the notes clearly name one and to flag anything ambiguous as unassigned. That produces items people can actually act on instead of vague prose."
+    },
+    {
+      "q": "Will AI invent owners or deadlines that weren't discussed?",
+      "a": "It can, if you let it — this is the main risk with meeting summaries. The fix is an explicit instruction to use only what's in the notes and to mark unclear items as unassigned. Always confirm the owners and dates before you send the summary out."
+    },
+    {
+      "q": "How do I know if a meeting is even needed?",
+      "a": "Ask AI to test it: describe the topic and the decision you need, and have it judge whether that requires a live discussion or could be resolved with a short async message and a clear question. If there's no real decision to make together, it's usually a message, not a meeting."
+    },
+    {
+      "q": "Can AI draft the follow-up email after a meeting?",
+      "a": "Yes, and it's fast — feed it the summary and action items and ask for a short follow-up that leads with the decisions and lists who owns what by when. Keep it grounded in the summary so nothing new sneaks in, then send it while the meeting is still fresh."
+    }
+  ],
+  "related": [
+    {
+      "href": "/ai-for-presentations",
+      "label": "AI for presentations"
+    },
+    {
+      "href": "/ai-productivity",
+      "label": "AI for productivity"
+    },
+    {
+      "href": "/ai-for-work",
+      "label": "AI for work"
+    }
+  ],
+  "readNext": [
+    {
+      "href": "/blog/how-to-use-ai-at-work",
+      "label": "How to use AI at work"
+    },
+    {
+      "href": "/blog/prompt-engineering-patterns",
+      "label": "The 7 prompt patterns that work everywhere"
+    },
+    {
+      "href": "/blog/spot-ai-hallucinations",
+      "label": "How to spot AI hallucinations"
+    }
+  ],
+  "llmsBlurb": "AI for meetings — prep tight agendas, turn transcripts into owned action items, and draft follow-ups without inventing owners.",
+  "ctaHeading": "Practice running meetings that end with owners.",
+  "ctaBody": "Iro turns agenda prep and notes-to-action-items into five-minute exercises with feedback, so your meetings get shorter and your follow-through gets automatic.",
+  "datePublished": "2026-07-09",
+  "dateModified": "2026-07-09"
+}

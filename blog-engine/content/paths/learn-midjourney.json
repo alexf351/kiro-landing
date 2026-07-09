@@ -1,0 +1,172 @@
+{
+  "slug": "learn-midjourney",
+  "order": 30,
+  "category": "tools",
+  "eyebrow": "Learn Midjourney",
+  "hubTitle": "Learn Midjourney",
+  "hubBlurb": "Write prompts that give you the image you pictured, not a muddy guess.",
+  "title": "Learn Midjourney: Prompts, Parameters & Style | Iro AI",
+  "h1": "Get the image in your head out of Midjourney.",
+  "metaDescription": "How to use Midjourney well: structure prompts with subject, style, and lighting, control parameters and aspect ratio, and keep a look consistent.",
+  "keywords": [
+    "learn Midjourney",
+    "how to use Midjourney",
+    "Midjourney prompts",
+    "Midjourney parameters",
+    "Midjourney prompt guide",
+    "Midjourney aspect ratio"
+  ],
+  "lede": "Midjourney turns a sentence into an image, so the sentence is the whole job. The people who get gorgeous, consistent results aren't luckier — they write in layers and steer with parameters. Iro teaches you that structure so you stop rolling the dice and start directing.",
+  "pills": [
+    "Prompt structure",
+    "Style & lighting",
+    "Aspect ratio",
+    "Parameters",
+    "Consistency",
+    "Variations"
+  ],
+  "about": "Midjourney and AI image generation",
+  "level": "Beginner to advanced",
+  "audience": "Designers, marketers, creators, and anyone making images with AI",
+  "teaches": [
+    "Structuring Midjourney prompts",
+    "Using parameters and aspect ratios",
+    "Controlling style and lighting",
+    "Keeping characters and style consistent",
+    "Iterating with variations and upscales"
+  ],
+  "tldr": {
+    "answer": "Midjourney is a text-to-image AI, and the quality you get depends almost entirely on how you write the prompt. A strong prompt names the subject, the style or medium, the composition, and the lighting, then uses parameters like --ar for aspect ratio and --sref to lock a look. The rest is iteration: generate, pick the closest result, and use variations to steer it toward what you pictured.",
+    "bullets": [
+      "Write prompts in layers: subject, style, composition, lighting.",
+      "Control the output with parameters like --ar (aspect ratio) and --stylize.",
+      "Hold a consistent look with style and character references, then iterate with variations."
+    ]
+  },
+  "outcomesHeading": "What you'll be able to do",
+  "outcomes": [
+    "Turn a vague idea into a structured Midjourney prompt that renders what you pictured",
+    "Set aspect ratio, stylize, and version with the right parameters",
+    "Dial in style, mood, and lighting on purpose instead of hoping for the best",
+    "Keep a consistent character or art style across a whole set of images",
+    "Iterate with variations, upscales, and remix instead of starting over"
+  ],
+  "lessons": [
+    {
+      "t": "The four-layer prompt",
+      "dur": "5 min",
+      "blurb": "Subject, style, composition, lighting — the order that turns a sentence into a shot."
+    },
+    {
+      "t": "Parameters that actually matter",
+      "dur": "5 min",
+      "blurb": "--ar, --stylize, --v, and --no, and when each one changes your result."
+    },
+    {
+      "t": "Style and lighting on purpose",
+      "dur": "6 min",
+      "blurb": "Name a medium, a mood, and a light source so the model stops guessing for you."
+    },
+    {
+      "t": "Keep it consistent",
+      "dur": "5 min",
+      "blurb": "Use style references (--sref) and character references (--cref) to hold one look across images."
+    },
+    {
+      "t": "Iterate, don't restart",
+      "dur": "5 min",
+      "blurb": "Variations, upscales, and remix to steer an almost-right image all the way home."
+    }
+  ],
+  "practice": {
+    "type": "Prompt practice",
+    "scenario": "You type \"a cool logo dragon\" into Midjourney and get four random, muddy results that look nothing alike and nothing like a logo.",
+    "task": "Choose the prompt most likely to give you a usable, controllable image.",
+    "options": [
+      {
+        "text": "\"a cool dragon, make it awesome and high quality 4k\"",
+        "correct": false
+      },
+      {
+        "text": "\"minimalist flat vector logo of a coiled dragon, bold single-color silhouette, centered on a white background, clean geometric lines, mascot style --ar 1:1 --style raw --no gradient, shading\"",
+        "correct": true
+      },
+      {
+        "text": "\"dragon logo please, something professional\"",
+        "correct": false
+      },
+      {
+        "text": "\"the best possible dragon logo you can make\"",
+        "correct": false
+      }
+    ],
+    "revealLabel": "See why the second prompt wins",
+    "feedback": "The winning prompt works in layers: a clear <strong>subject</strong> (a coiled dragon), a specific <strong>style and medium</strong> (minimalist flat vector logo, mascot style), <strong>composition</strong> (centered, clean geometric lines, white background), and <strong>parameters</strong> that control the output — <strong>--ar 1:1</strong> for a square logo, <strong>--style raw</strong> to cut Midjourney's default flourish, and <strong>--no gradient, shading</strong> as a negative prompt to keep it flat. Phrases like \"high quality 4k\" and \"make it awesome\" do nothing — they're not things the model can act on. In Iro you'd rewrite a weak prompt like this and get feedback on the exact layer you left out."
+  },
+  "body": [
+    {
+      "h2": "Why the same tool gives one person art and another person mush",
+      "html": "<p>Midjourney has no canvas and no sliders you drag — the prompt is the entire interface. That is why two people using the identical model get wildly different results: one types \"a cool dragon\" and one describes a subject, a medium, a composition, and a light source. The model fills every gap you leave, so vague prompts hand the decisions to a dice roll.</p><p>The fix is to write in layers and then steer with parameters. <strong>--ar</strong> sets your aspect ratio, <strong>--stylize</strong> controls how much artistic liberty the model takes, <strong>--v</strong> picks the model version, and <strong>--no</strong> removes things you don't want. Whether you run Midjourney through its Discord bot or the web app, the skill is the same: describe on purpose, then adjust one lever at a time.</p>"
+    },
+    {
+      "h2": "The skill transfers to any image model",
+      "html": "<p>Layered prompting — subject, style, composition, lighting — is how you get good results from any text-to-image tool, whether it's Midjourney, DALL-E, Stable Diffusion, Adobe Firefly, or the generator built into Canva. What is unique to Midjourney is the parameter syntax (<strong>--ar</strong>, <strong>--sref</strong>, <strong>--cref</strong>, <strong>--stylize</strong>) and its house style. Learn the structure once and you carry it everywhere; learn the parameters and you get precise control on top.</p>"
+    }
+  ],
+  "faqHeading": "Midjourney questions",
+  "faq": [
+    {
+      "q": "How do I write a good Midjourney prompt?",
+      "a": "Write in layers: name the subject, then the style or medium, then the composition (shot type, framing), then the lighting and mood. Add parameters like --ar for aspect ratio and --stylize for artistic liberty. Then generate and iterate — the first result is a draft, not the final image."
+    },
+    {
+      "q": "What do Midjourney parameters like --ar and --stylize do?",
+      "a": "Parameters are settings you add to the end of a prompt. --ar sets the aspect ratio (--ar 16:9 for widescreen), --stylize (or --s) controls how strongly Midjourney applies its own aesthetic, --v selects the model version, and --no is a negative prompt that removes elements you don't want."
+    },
+    {
+      "q": "How do I keep the same character across images?",
+      "a": "Use references. --cref (character reference) points Midjourney at an image to keep a character's features consistent, and --sref (style reference) locks a visual style across a set. Reusing a --seed value and keeping your prompt wording steady also helps hold a look."
+    },
+    {
+      "q": "Is Midjourney free?",
+      "a": "No. Midjourney is a paid subscription service and no longer offers an ongoing free trial, so you need a plan to generate images. You can use it through its Discord bot or the web app at midjourney.com. This page teaches the prompting skill, which transfers to free image tools too."
+    },
+    {
+      "q": "Do I need to know art terms to use it?",
+      "a": "It helps but it isn't required. Words like \"golden hour lighting,\" \"wide-angle shot,\" or \"isometric\" give the model useful direction, and you pick them up fast. Iro teaches the handful of style, composition, and lighting terms that change your results the most."
+    }
+  ],
+  "related": [
+    {
+      "href": "/ai-image-generation-course",
+      "label": "AI image generation"
+    },
+    {
+      "href": "/ai-for-designers",
+      "label": "AI for designers"
+    },
+    {
+      "href": "/learn-canva-ai",
+      "label": "Learn Canva AI"
+    }
+  ],
+  "readNext": [
+    {
+      "href": "/blog/best-ai-apps",
+      "label": "The best AI apps"
+    },
+    {
+      "href": "/blog/how-to-write-a-prompt",
+      "label": "How to write a prompt"
+    },
+    {
+      "href": "/blog/what-is-prompt-engineering",
+      "label": "What is prompt engineering?"
+    }
+  ],
+  "llmsBlurb": "How to use Midjourney well — structuring prompts, using parameters, controlling style and lighting, and iterating with variations.",
+  "ctaHeading": "Practice Midjourney prompting.",
+  "ctaBody": "Iro turns prompt structure, parameters, and iteration into five-minute exercises with feedback, so your next render lands a lot closer to what you pictured.",
+  "datePublished": "2026-07-09",
+  "dateModified": "2026-07-09"
+}

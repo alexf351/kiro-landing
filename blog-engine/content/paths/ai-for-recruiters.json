@@ -1,0 +1,172 @@
+{
+  "slug": "ai-for-recruiters",
+  "order": 12,
+  "category": "jobs",
+  "eyebrow": "AI for recruiters",
+  "hubTitle": "AI for recruiters",
+  "hubBlurb": "Write sharper JDs, source faster, summarize candidates fairly, and reach out in a human voice.",
+  "title": "AI for Recruiters: Source and Screen Faster | Iro AI",
+  "h1": "AI for recruiters who still want the human in hiring.",
+  "metaDescription": "How recruiters actually use AI: writing sharp job descriptions, boolean and sourcing help, fair candidate summaries, human-voiced outreach, and reducing bias.",
+  "keywords": [
+    "AI for recruiters",
+    "AI recruiting tools",
+    "AI for sourcing candidates",
+    "AI job description writer",
+    "ChatGPT for recruiters",
+    "AI recruiting prompts"
+  ],
+  "lede": "Recruiting is a volume game with a human core. Iro teaches the AI moves that clear the busywork without losing the judgment: write a job description that actually attracts the right people, build boolean strings faster, summarize resumes and screens fairly, and write outreach that sounds like you — not a bot. Five minutes a day, real practice with feedback.",
+  "pills": [
+    "Job descriptions",
+    "Boolean & sourcing",
+    "Resume summaries",
+    "Candidate outreach",
+    "Screen notes",
+    "Reducing bias"
+  ],
+  "about": "AI for recruiters and talent teams",
+  "level": "Beginner to advanced",
+  "audience": "Recruiters, sourcers, talent acquisition teams, hiring managers, HR generalists",
+  "teaches": [
+    "Writing job descriptions with AI",
+    "Building boolean and sourcing queries",
+    "Summarizing resumes and screens fairly",
+    "Writing human-voiced candidate outreach",
+    "Reducing bias in AI-assisted hiring"
+  ],
+  "tldr": {
+    "answer": "Recruiters get the most from AI by using it to speed up the writing and summarizing, not to make hiring decisions. The strongest uses are drafting clear, inclusive job descriptions, building boolean and sourcing queries, summarizing resumes and screen notes against consistent criteria, and writing candidate outreach in a genuinely human voice. Give the model role context and explicit fairness instructions, and always keep a human in the decision.",
+    "bullets": [
+      "Use AI to draft and summarize; never let it score or reject candidates on its own.",
+      "Give it the real role context and tell it to avoid biased or coded language.",
+      "Summaries should map to the same criteria for every candidate, so comparisons stay fair."
+    ]
+  },
+  "outcomesHeading": "What you'll be able to do",
+  "outcomes": [
+    "Write a job description that's specific, inclusive, and free of coded language",
+    "Build boolean and sourcing strings faster, then refine them by hand",
+    "Summarize a resume or screen against the same criteria every time",
+    "Draft candidate outreach that sounds human, not like a mass template",
+    "Spot and remove biased language from JDs, notes, and outreach"
+  ],
+  "lessons": [
+    {
+      "t": "Job descriptions that attract the right people",
+      "dur": "6 min",
+      "blurb": "Turn a hiring manager's rough intake into a clear, inclusive JD with real must-haves."
+    },
+    {
+      "t": "Boolean and sourcing, faster",
+      "dur": "5 min",
+      "blurb": "Use AI to draft and expand search strings, then tighten them with your own judgment."
+    },
+    {
+      "t": "Fair candidate summaries",
+      "dur": "5 min",
+      "blurb": "Summarize resumes and screens against consistent criteria so comparisons stay honest."
+    },
+    {
+      "t": "Outreach in a human voice",
+      "dur": "5 min",
+      "blurb": "Write personalized candidate messages that reference their real work — not a mail merge."
+    },
+    {
+      "t": "Reducing bias with AI",
+      "dur": "5 min",
+      "blurb": "Prompt the model to flag coded or exclusionary language and keep a human in every decision."
+    }
+  ],
+  "practice": {
+    "type": "Prompt practice",
+    "scenario": "You've just finished a phone screen and need to summarize the candidate for the hiring team. You want AI to write the summary, but you're worried about slipping in bias or making the model 'decide' whether the person is a fit.",
+    "task": "Pick the prompt that gives you a fair, useful candidate summary.",
+    "options": [
+      {
+        "text": "\"Summarize this candidate and tell me if we should hire them.\"",
+        "correct": false
+      },
+      {
+        "text": "\"Here are my screen notes: [paste]. Summarize this candidate against these five criteria only: [list the role's must-haves]. For each criterion, quote or paraphrase the evidence from my notes and mark it Met / Partial / Not covered. Do not infer anything I didn't write, do not comment on age, gender, school prestige, or 'culture fit,' and flag where I have too little information to judge.\"",
+        "correct": true
+      },
+      {
+        "text": "\"Write a summary of this candidate and score them out of 10 on overall quality.\"",
+        "correct": false
+      },
+      {
+        "text": "\"Read this resume and tell me if this person seems like a good culture fit.\"",
+        "correct": false
+      }
+    ],
+    "revealLabel": "See why the second prompt wins",
+    "feedback": "The winning prompt keeps the human in charge and hiring fair. It sets clear <strong>role context and criteria</strong> (the five must-haves), demands <strong>evidence tied to your actual notes</strong> rather than invented inference, uses a <strong>consistent structured output</strong> (Met / Partial / Not covered) so every candidate is judged the same way, and explicitly <strong>bans biased signals</strong> like age, school prestige, and vague \"culture fit.\" The losing options ask the model to decide, score, or judge fit — which bakes in bias and outsources a decision that must stay with a person. In Iro you'd write your own version and get feedback on whether it's genuinely fair or quietly biased."
+  },
+  "body": [
+    {
+      "h2": "Where AI helps recruiters — and where it must not",
+      "html": "<p>AI is genuinely good at the writing-and-summarizing half of recruiting: drafting job descriptions, expanding boolean strings, condensing resumes, and turning screen notes into a readable summary. Used well, it can hand a recruiter back the hours that used to disappear into a blank page and a copy-paste search.</p><p>What it must not do is <strong>make the hiring decision</strong>. The moment you ask a model to score a candidate, judge \"culture fit,\" or rank people, you've handed a high-stakes, legally sensitive call to a system that pattern-matches on its training data — which is exactly where bias creeps in. The rule that keeps you safe: AI drafts and summarizes against criteria <em>you</em> set; a human decides.</p>"
+    },
+    {
+      "h2": "The recruiter's AI toolkit, without the bias",
+      "html": "<ul><li><strong>Job descriptions:</strong> turn a messy intake into a clear, inclusive JD — then ask the model to flag coded or exclusionary language like \"rockstar\" or \"digital native.\"</li><li><strong>Sourcing:</strong> draft and expand boolean strings and search variations, then tighten them with your own knowledge of the market.</li><li><strong>Candidate summaries:</strong> summarize resumes and screens against the same fixed criteria every time, with evidence, so comparisons stay honest.</li><li><strong>Outreach:</strong> personalized messages that reference a candidate's real work, written in a human voice instead of a mail-merge template.</li></ul><p>Give the model context and explicit fairness instructions, keep every summary tied to evidence, and verify before anything reaches a candidate or a hiring manager.</p>"
+    }
+  ],
+  "faqHeading": "Recruiting AI questions",
+  "faq": [
+    {
+      "q": "What's the best AI tool for recruiters?",
+      "a": "It depends on the task, and the durable skill is prompting well rather than the specific tool. A general model like ChatGPT or Claude covers JDs, boolean help, summaries, and outreach drafts. Iro trains the prompting and verification skills tool-agnostically, so they transfer to whatever your ATS or team already uses."
+    },
+    {
+      "q": "Can AI write job descriptions?",
+      "a": "Yes, and it's one of the best uses. Give it the real must-haves, the team context, and your company voice, then ask it to keep the language clear and inclusive. Follow up by asking it to flag coded or exclusionary phrasing, and always review before you post."
+    },
+    {
+      "q": "Is it safe to use AI to screen or rank candidates?",
+      "a": "Use AI to summarize candidates against consistent criteria, not to score, rank, or reject them. Automated decision-making in hiring carries real bias and legal risk. Keep the model's job to organizing evidence, and keep the decision with a human who reviews it."
+    },
+    {
+      "q": "How do I reduce bias when using AI in hiring?",
+      "a": "Give the model explicit instructions to ignore age, gender, school prestige, and vague 'culture fit,' tie every summary to evidence from your notes, and judge every candidate against the same fixed criteria. Then have a person review the output — AI can reduce some bias but can also introduce it, so verification matters."
+    },
+    {
+      "q": "Will AI make candidate outreach feel robotic?",
+      "a": "Only if you let it mass-generate. Feed it a specific detail about the candidate's real work and ask for a short, personal message in your voice. The human feeling comes from real personalization, which AI can help you scale without turning into a template."
+    }
+  ],
+  "related": [
+    {
+      "href": "/ai-for-hr",
+      "label": "AI for HR"
+    },
+    {
+      "href": "/ai-for-managers",
+      "label": "AI for managers"
+    },
+    {
+      "href": "/ai-for-work",
+      "label": "AI for work"
+    }
+  ],
+  "readNext": [
+    {
+      "href": "/blog/how-to-use-ai-to-write-a-resume",
+      "label": "How to use AI to write a resume"
+    },
+    {
+      "href": "/blog/how-to-use-ai-at-work",
+      "label": "How to use AI at work"
+    },
+    {
+      "href": "/blog/prompt-engineering-patterns",
+      "label": "Prompt engineering patterns"
+    }
+  ],
+  "llmsBlurb": "How recruiters use AI to write JDs, source candidates, summarize screens fairly, and reach out in a human voice.",
+  "ctaHeading": "Practice the recruiting AI playbook.",
+  "ctaBody": "Iro turns JD writing, sourcing, fair summaries, and human-voiced outreach into five-minute reps with feedback — so the AI speeds up your work without taking over the judgment.",
+  "datePublished": "2026-07-09",
+  "dateModified": "2026-07-09"
+}

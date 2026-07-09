@@ -1,0 +1,171 @@
+{
+  "slug": "ai-for-developers",
+  "order": 21,
+  "category": "jobs",
+  "eyebrow": "AI for developers",
+  "hubTitle": "AI for developers",
+  "hubBlurb": "Explain code, debug with context, generate tests — then verify everything.",
+  "title": "AI for Developers: Debug and Ship Faster | Iro AI",
+  "h1": "AI for developers who still read the diff.",
+  "metaDescription": "How developers use AI to explain code, debug with the right context, generate tests and boilerplate, and review code — with a verify-it discipline.",
+  "keywords": [
+    "AI for developers",
+    "AI coding assistant",
+    "debugging with AI",
+    "AI for programmers",
+    "how developers use ChatGPT"
+  ],
+  "lede": "AI is the fastest pair programmer you'll ever have and a confident liar when you're not looking. Iro teaches developers to get the speed without the bugs: explain unfamiliar code, debug with the right context, generate tests and boilerplate, and learn new APIs — then verify before it merges. Five minutes at a time.",
+  "pills": [
+    "Explain code",
+    "Debugging",
+    "Tests & boilerplate",
+    "Code review",
+    "New APIs",
+    "Verify it"
+  ],
+  "about": "AI for developers",
+  "level": "Beginner to advanced",
+  "audience": "Software developers, engineers, students learning to code, and technical founders",
+  "teaches": [
+    "Prompting AI to explain unfamiliar code",
+    "Debugging with well-structured context",
+    "Generating tests and boilerplate",
+    "Using AI for code review",
+    "Learning new APIs and verifying AI output"
+  ],
+  "tldr": {
+    "answer": "Developers get the most from AI by using it as a fast pair programmer for well-scoped tasks — explaining unfamiliar code, debugging when you supply the error and the relevant code, generating tests and boilerplate, and learning new APIs — while treating every output as a draft to run, read, and verify. The biggest speedups come from giving the model real context; the biggest failures come from trusting confident code you never executed.",
+    "bullets": [
+      "Best uses: explaining code, debugging with context, tests, boilerplate, and learning APIs.",
+      "Good debugging prompts include the error, the relevant code, and expected vs actual behavior.",
+      "Always run it, read it, and verify — AI writes confident code that's sometimes wrong."
+    ]
+  },
+  "outcomesHeading": "What you'll be able to do",
+  "outcomes": [
+    "Get a clear, accurate explanation of code you didn't write",
+    "Write debugging prompts that include the error, the code, and expected vs actual",
+    "Generate unit tests and boilerplate you can trust after review",
+    "Use AI as a first-pass code reviewer that catches obvious issues",
+    "Learn an unfamiliar API or library fast — and verify the snippets it gives you"
+  ],
+  "lessons": [
+    {
+      "t": "Explain code you didn't write",
+      "dur": "5 min",
+      "blurb": "Prompt AI to walk through unfamiliar functions, flag side effects, and surface the parts that will bite you."
+    },
+    {
+      "t": "Debug with real context",
+      "dur": "6 min",
+      "blurb": "The anatomy of a debugging prompt: the exact error, the relevant code, and what you expected vs what happened."
+    },
+    {
+      "t": "Tests and boilerplate on tap",
+      "dur": "5 min",
+      "blurb": "Generate unit tests, fixtures, and scaffolding fast — then review them like any other pull request."
+    },
+    {
+      "t": "AI as a first-pass reviewer",
+      "dur": "5 min",
+      "blurb": "Catch obvious bugs, edge cases, and smells before a human reviewer ever sees the diff."
+    },
+    {
+      "t": "Learn a new API without the guesswork",
+      "dur": "5 min",
+      "blurb": "Get from docs to working code faster — and verify every snippet by actually running it."
+    }
+  ],
+  "practice": {
+    "type": "Prompt practice",
+    "scenario": "Your Node function throws \"TypeError: Cannot read properties of undefined (reading 'map')\" and you want AI to help you fix it fast — not guess at code it can't see.",
+    "task": "Pick the debugging prompt that will actually get you an accurate fix.",
+    "options": [
+      {
+        "text": "\"Fix my code.\"",
+        "correct": false
+      },
+      {
+        "text": "\"Why is my JavaScript broken? It's throwing an error.\"",
+        "correct": false
+      },
+      {
+        "text": "\"I'm getting `TypeError: Cannot read properties of undefined (reading 'map')` on line 12 of this function. Here's the function and the shape of the `data` argument I'm passing. I expected it to return an array of user names; instead it crashes when the API returns no users. What's the cause and the fix?\"",
+        "correct": true
+      },
+      {
+        "text": "\"Guess what's wrong with my app and rewrite the whole thing to be safe.\"",
+        "correct": false
+      }
+    ],
+    "revealLabel": "See why the detailed prompt wins",
+    "feedback": "The winning prompt gives the model everything it needs to reason instead of guess: the <strong>exact error message</strong>, the <strong>relevant code</strong> and the <strong>shape of the input</strong>, and a clear statement of <strong>expected vs actual behavior</strong> (should return names; instead crashes on an empty API response). That last detail even points at the likely root cause — an unguarded `.map` on an undefined value. \"Fix my code\" and \"why is it broken\" force the model to invent context, so you get confident, generic answers that may not match your bug at all. And you never ask it to blindly rewrite everything — you get the cause, then verify the fix by running it. In Iro you'd build a debugging prompt like this and get feedback on the context you left out."
+  },
+  "body": [
+    {
+      "h2": "Why \"fix my code\" wastes your time",
+      "html": "<p>AI can't see your repo, your stack trace, or what you expected to happen. When you paste \"fix my code,\" the model fills all of that in with assumptions — and returns a confident answer to a problem you may not have. The developers who move fast with AI give it what a good teammate would need: the exact error, the relevant code, the inputs, and a clear expected-versus-actual.</p><p>Context is the whole game. A debugging prompt with the error message, the failing function, the input shape, and what should have happened often gets the root cause on the first try. The same bug described as \"it's broken\" gets you a guessing game.</p>"
+    },
+    {
+      "h2": "The highest-leverage uses for developers",
+      "html": "<ul><li><strong>Explaining code:</strong> walk through an unfamiliar function or library, flag side effects, and surface the risky parts before you touch them.</li><li><strong>Debugging:</strong> supply the error, the code, and expected vs actual — and let the model reason instead of guess.</li><li><strong>Tests &amp; boilerplate:</strong> unit tests, fixtures, config, and scaffolding you review like any pull request.</li><li><strong>Code review:</strong> a fast first pass for obvious bugs, edge cases, and smells before a human looks.</li><li><strong>Learning APIs:</strong> get from docs to a working snippet quickly — then run it to confirm it's real.</li></ul><p>The one rule under all of it: run it, read it, verify it. AI writes confident code that's sometimes wrong.</p>"
+    }
+  ],
+  "faqHeading": "Developer questions about AI",
+  "faq": [
+    {
+      "q": "Will AI replace developers?",
+      "a": "No, but it changes the job. AI handles boilerplate, tests, and first-pass debugging fast, which shifts the value toward system design, judgment, reading code critically, and verifying output. Developers who use AI as a fast pair programmer — and still own the diff — ship more, not less."
+    },
+    {
+      "q": "How do I write a good debugging prompt?",
+      "a": "Include four things: the exact error message, the relevant code, the shape of the input or data, and what you expected to happen versus what actually happened. That context lets the model reason about the real bug instead of guessing. 'Fix my code' forces it to invent the situation, which is how you get confident answers to the wrong problem."
+    },
+    {
+      "q": "Is it safe to use AI-generated code in production?",
+      "a": "Only after you review and run it. AI writes plausible code that can contain subtle bugs, security holes, or calls to APIs that don't exist. Treat every generated snippet like a pull request from a fast but junior teammate: read it, test it, and verify anything you'd otherwise take on trust."
+    },
+    {
+      "q": "Can AI help me learn to code or vibe code?",
+      "a": "Yes. AI is excellent for explaining unfamiliar code, learning new APIs, and building small projects by describing what you want — the core of vibe coding. The key skill is prompting with context and verifying what comes back, so you're learning rather than pasting blindly. Iro's vibe coding path is built for exactly this."
+    },
+    {
+      "q": "Which AI is best for coding?",
+      "a": "Many developers reach for Claude for larger refactors and reasoning over code, while ChatGPT is a strong general coding assistant, and IDE tools like Copilot and Cursor add inline speed. The transferable skill is prompting with real context and verifying output, which outlasts any single tool — and it's exactly what Iro trains."
+    }
+  ],
+  "related": [
+    {
+      "href": "/vibe-coding-course",
+      "label": "Vibe coding course"
+    },
+    {
+      "href": "/prompt-engineering-app",
+      "label": "Prompt engineering"
+    },
+    {
+      "href": "/ai-for-founders",
+      "label": "AI for founders"
+    }
+  ],
+  "readNext": [
+    {
+      "href": "/blog/how-to-use-claude",
+      "label": "How to use Claude"
+    },
+    {
+      "href": "/blog/spot-ai-hallucinations",
+      "label": "How to spot AI hallucinations"
+    },
+    {
+      "href": "/blog/prompt-engineering-patterns",
+      "label": "Prompt engineering patterns"
+    }
+  ],
+  "llmsBlurb": "How developers use AI to explain code, debug with context, generate tests, review diffs, and learn APIs — verifying every line.",
+  "ctaHeading": "Practice the developer's AI playbook.",
+  "ctaBody": "Iro turns these moves into five-minute exercises with feedback — so writing a debugging prompt with real context becomes a rep you've already done.",
+  "datePublished": "2026-07-09",
+  "dateModified": "2026-07-09"
+}

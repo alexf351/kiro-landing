@@ -1,0 +1,172 @@
+{
+  "slug": "ai-for-consultants",
+  "order": 15,
+  "category": "jobs",
+  "eyebrow": "AI for consultants",
+  "hubTitle": "AI for consultants",
+  "hubBlurb": "Research fast, structure with frameworks, and build slide narratives — AI as your associate.",
+  "title": "AI for Consultants: Research, Analysis & Decks | Iro AI",
+  "h1": "Use AI to research, structure, and draft faster.",
+  "metaDescription": "How consultants use AI for fast research, structured analysis, slide narratives, and first-draft deliverables — with verification.",
+  "keywords": [
+    "AI for consultants",
+    "AI for consulting",
+    "AI consulting tools",
+    "ChatGPT for consultants",
+    "how consultants use AI",
+    "AI for slide decks"
+  ],
+  "lede": "Consulting runs on fast research, tight structure, and a clear story — under deadline. Iro teaches you to use AI as an associate: scope a market in an hour, structure the analysis with a framework, and draft the deck narrative, while you own the logic and verify every number before it reaches the client.",
+  "pills": [
+    "Market research",
+    "Structured analysis",
+    "Slide narratives",
+    "Interview synthesis",
+    "Client deliverables",
+    "Frameworks"
+  ],
+  "about": "AI for consulting",
+  "level": "Beginner to advanced",
+  "audience": "Management consultants, strategy analysts, independent consultants, advisory and in-house strategy teams",
+  "teaches": [
+    "Fast market and industry research with AI",
+    "Structuring analysis with frameworks",
+    "Building slide narratives",
+    "Synthesizing interviews with AI",
+    "Verifying AI output for client work"
+  ],
+  "tldr": {
+    "answer": "Consultants get the most from AI by using it for speed on research, structure, and first drafts — never for the final judgment a client is paying for. The reliable wins are scoping a market or industry fast, structuring a messy problem with a framework, turning findings into a slide narrative, and synthesizing interview notes into themes. Because deliverables carry your firm's name, you verify every figure and claim before it ships.",
+    "bullets": [
+      "Best uses: research, framework-driven structure, slide narratives, synthesis.",
+      "Give AI a role, a framework, and the audience; you own the logic and the numbers.",
+      "Verify every stat before it reaches a client — your name is on the deck."
+    ]
+  },
+  "outcomesHeading": "What you'll be able to do",
+  "outcomes": [
+    "Scope a market or industry in an hour with a source-flagged first brief",
+    "Structure a messy problem with the right framework (MECE, pyramid, 2x2)",
+    "Turn analysis into a slide narrative a partner would present",
+    "Synthesize a stack of interview notes into themes and evidence",
+    "Catch a confident, wrong figure before it reaches the client"
+  ],
+  "lessons": [
+    {
+      "t": "Scope a market fast",
+      "dur": "6 min",
+      "blurb": "Prompt patterns for sizing a market, mapping players, and getting a source-flagged first brief."
+    },
+    {
+      "t": "Structure with a framework",
+      "dur": "5 min",
+      "blurb": "Get AI to organize a messy problem MECE, or into a 2x2 or issue tree you can defend."
+    },
+    {
+      "t": "Build the slide narrative",
+      "dur": "6 min",
+      "blurb": "Turn analysis into a pyramid-principle story: one recommendation, the arguments, the evidence."
+    },
+    {
+      "t": "Synthesize interviews",
+      "dur": "5 min",
+      "blurb": "Cluster interview notes into themes with quotes and a flag on where the signal is thin."
+    },
+    {
+      "t": "Verify before it ships",
+      "dur": "5 min",
+      "blurb": "The checks that catch an invented number or source before it lands in a client deck."
+    }
+  ],
+  "practice": {
+    "type": "Prompt practice",
+    "scenario": "You're building the executive-summary slide for a client's cost-reduction project. You already have the analysis; you need AI to structure the story for a CFO. \"Make me a slide\" gives you a generic bullet dump that buries the recommendation.",
+    "task": "Pick the prompt that produces a slide narrative a partner would actually present.",
+    "options": [
+      {
+        "text": "\"Make a slide summarizing our cost-reduction findings.\"",
+        "correct": false
+      },
+      {
+        "text": "\"Act as a management consultant preparing an executive-summary slide for a CFO. Using the pyramid principle, structure the findings below into one governing recommendation, three supporting arguments, and the key evidence under each. Keep it to what a CFO cares about — impact, cost, and risk — and flag any claim that isn't backed by the data I've given you. Findings: [paste].\"",
+        "correct": true
+      },
+      {
+        "text": "\"Write a 10-slide deck about cutting costs for this client.\"",
+        "correct": false
+      },
+      {
+        "text": "\"What cost savings should I recommend to the client?\"",
+        "correct": false
+      }
+    ],
+    "revealLabel": "See why the second prompt wins",
+    "feedback": "The winning prompt sets a <strong>role</strong> (management consultant), names a <strong>framework</strong> (pyramid principle — one governing recommendation, supporting arguments, evidence), targets the <strong>audience</strong> (a CFO who weighs impact, cost, and risk), and asks the model to <strong>flag any claim not backed by your data</strong>. It structures analysis you already did rather than inventing it. The losing options either ask the model to make the recommendation (\"what should I recommend?\") or produce unstructured volume (\"a 10-slide deck\") with no story and nothing verified. In Iro you'd write your own and get feedback on role, framework, audience, and where you left the model room to guess."
+  },
+  "body": [
+    {
+      "h2": "Why AI fits consulting — and its one big risk",
+      "html": "<p>Consulting is research, structure, and communication under a deadline, and AI is fast at all three. It can pull together a first market brief, organize a tangle of findings into a framework, and shape a slide narrative in minutes instead of an afternoon. For a job that runs on billable time, that speed is real leverage.</p><p>The risk is that a deliverable carries your firm's name. AI will state a market size, a growth rate, or a competitor fact with total confidence and no source — and if that slides into a deck, it's your credibility, not the model's. So the rule is simple: AI drafts and structures; you verify every number and claim before the client sees it.</p>"
+    },
+    {
+      "h2": "Where AI earns its keep on an engagement",
+      "html": "<ul><li><strong>Research:</strong> first-pass market and industry briefs, company backgrounds, sharper questions for expert calls.</li><li><strong>Structure:</strong> MECE issue trees, 2x2s, hypothesis lists, framework-driven analysis.</li><li><strong>Communication:</strong> slide narratives, executive summaries, first-draft client emails and memos.</li><li><strong>Synthesis:</strong> clustering interview notes and survey data into themes with evidence.</li></ul><p>What stays with you: the recommendation, the judgment behind it, and responsibility for every figure on the page. AI accelerates the work; it doesn't sign off on it.</p>"
+    }
+  ],
+  "faqHeading": "Consulting AI questions",
+  "faq": [
+    {
+      "q": "Can AI do consulting-grade research?",
+      "a": "It can do a fast first pass — a market brief, a company background, a list of questions for an expert call. What it can't do is guarantee the facts, so you treat its output as a starting point and verify every figure before it informs a recommendation. A cited tool like Perplexity helps, but you still check."
+    },
+    {
+      "q": "How do I get AI to structure analysis, not just write?",
+      "a": "Name the framework. Ask it to organize your findings MECE, into an issue tree, a 2x2, or a pyramid-principle narrative, and give it the raw material to work from. Telling it the structure and the audience is the difference between a usable skeleton and a generic essay."
+    },
+    {
+      "q": "Can AI build my slides?",
+      "a": "It can build the narrative — the governing recommendation, the supporting arguments, and the evidence under each — which is the hard part. You still design the slides and, critically, verify every number. Iro's practice focuses on prompting for the story, not the formatting."
+    },
+    {
+      "q": "Is it safe to put client data into AI?",
+      "a": "Be careful. Client data is usually confidential and may be contractually protected — check your firm's policy and the tool's data settings, and prefer anonymized or synthetic samples. You can get most of the structuring help without pasting sensitive specifics."
+    },
+    {
+      "q": "Will AI replace junior consultants?",
+      "a": "It changes the job more than it replaces it. The research and first-draft work AI accelerates is exactly what juniors did, so the skill that matters now is directing and verifying AI well. That judgment is what Iro trains."
+    }
+  ],
+  "related": [
+    {
+      "href": "/ai-for-founders",
+      "label": "AI for founders"
+    },
+    {
+      "href": "/ai-for-finance",
+      "label": "AI for finance"
+    },
+    {
+      "href": "/prompt-engineering-app",
+      "label": "Prompt engineering"
+    }
+  ],
+  "readNext": [
+    {
+      "href": "/blog/how-to-use-ai-at-work",
+      "label": "How to use AI at work"
+    },
+    {
+      "href": "/blog/spot-ai-hallucinations",
+      "label": "How to spot AI hallucinations"
+    },
+    {
+      "href": "/blog/prompt-engineering-patterns",
+      "label": "The 7 prompt patterns that work everywhere"
+    }
+  ],
+  "llmsBlurb": "How consultants use AI for fast research, framework-driven analysis, and slide narratives — with the verification client work demands.",
+  "ctaHeading": "Practice the consultant AI playbook.",
+  "ctaBody": "Iro turns research, structuring, and slide narratives into five-minute exercises with feedback — so your next engagement starts with reps you've already done.",
+  "datePublished": "2026-07-09",
+  "dateModified": "2026-07-09"
+}

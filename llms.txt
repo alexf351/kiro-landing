@@ -170,6 +170,25 @@ Last updated: 2026-07-07.
 ## Iro path library (learn by doing)
 Browse every Iro learning path at https://tryiro.com/paths. Each path is a set of five-minute, hands-on lessons with feedback.
 - [AI for founders](https://tryiro.com/ai-for-founders): How startup founders use AI for research, drafts, ops, and fundraising — and the prompting judgment that makes it reliable.
+- [AI for sales](https://tryiro.com/ai-for-sales): How sales reps use AI to research prospects, personalize outreach, prep calls, and update the CRM — without spamming.
+- [AI for recruiters](https://tryiro.com/ai-for-recruiters): How recruiters use AI to write JDs, source candidates, summarize screens fairly, and reach out in a human voice.
+- [AI for customer support](https://tryiro.com/ai-for-customer-support): How support teams use AI to draft on-brand replies, summarize tickets, build macros, and triage — without inventing policy.
+- [AI for product managers](https://tryiro.com/ai-for-product-managers): How product managers use AI to synthesize feedback, draft PRDs, run teardowns, and write updates — with the judgment to verify it.
+- [AI for consultants](https://tryiro.com/ai-for-consultants): How consultants use AI for fast research, framework-driven analysis, and slide narratives — with the verification client work demands.
+- [AI for lawyers](https://tryiro.com/ai-for-lawyers): How lawyers use AI to summarize documents, draft clauses, and explain the law — with a hard rule on verifying every citation.
+- [AI for accountants](https://tryiro.com/ai-for-accountants): How accountants use AI for formulas, guidance summaries, client emails, and data cleanup — while verifying every number themselves.
+- [AI for HR](https://tryiro.com/ai-for-hr): How HR teams use AI to draft JDs, policies, and onboarding docs while guarding against bias and protecting confidential employee data.
+- [AI for writers](https://tryiro.com/ai-for-writers): How writers use AI for outlines, angles, research, critique, and headlines — while keeping the prose and the voice human.
+- [AI for designers](https://tryiro.com/ai-for-designers): How designers use AI for concept ideation, controllable image prompts, UX copy, feedback synthesis, and briefs — while taste stays human.
+- [AI for developers](https://tryiro.com/ai-for-developers): How developers use AI to explain code, debug with context, generate tests, review diffs, and learn APIs — verifying every line.
+- [AI for data analysts](https://tryiro.com/ai-for-data-analysts): How data analysts use AI to write and fix SQL, clean data, explain results, and pick charts — with schema context and sanity checks.
+- [Learn Midjourney](https://tryiro.com/learn-midjourney): How to use Midjourney well — structuring prompts, using parameters, controlling style and lighting, and iterating with variations.
+- [Learn Microsoft Copilot](https://tryiro.com/learn-copilot): How to use Microsoft 365 Copilot across Word, Excel, PowerPoint, Outlook, and Teams with prompts grounded in your own files.
+- [Learn Notion AI](https://tryiro.com/learn-notion-ai): How to use Notion AI — drafting and summarizing docs, extracting action items, autofilling databases, and workspace Q&A.
+- [Learn Canva AI](https://tryiro.com/learn-canva-ai): Using Canva AI (Magic Studio) well — briefing Magic Write and text-to-image for on-brand copy and visuals.
 - [AI for Excel & Sheets](https://tryiro.com/ai-for-excel): Using AI as a spreadsheet copilot for Excel and Google Sheets — writing formulas, cleaning data, and verifying results.
+- [AI for research](https://tryiro.com/ai-for-research): AI for research done right — get sourced, synthesized answers and catch hallucinated citations before you cite them.
+- [AI for presentations](https://tryiro.com/ai-for-presentations): AI for presentations — structure a talk with a narrative arc, draft slides and speaker notes, and tighten the message.
+- [AI for meetings](https://tryiro.com/ai-for-meetings): AI for meetings — prep tight agendas, turn transcripts into owned action items, and draft follow-ups without inventing owners.
 - [AI for productivity](https://tryiro.com/ai-productivity): Practical AI productivity — the handful of reusable email, notes, and planning workflows that actually save time.
-<!-- PATHLIB:END -->
+  <!-- PATHLIB:END -->

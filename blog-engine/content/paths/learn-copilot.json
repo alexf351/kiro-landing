@@ -1,0 +1,172 @@
+{
+  "slug": "learn-copilot",
+  "order": 31,
+  "category": "tools",
+  "eyebrow": "Learn Microsoft Copilot",
+  "hubTitle": "Learn Microsoft Copilot",
+  "hubBlurb": "Get real work out of Copilot in Word, Excel, Outlook, and Teams.",
+  "title": "Microsoft Copilot: Word, Excel, Outlook & Teams | Iro AI",
+  "h1": "Make Microsoft Copilot actually do the work.",
+  "metaDescription": "How to use Microsoft 365 Copilot in Word, Excel, PowerPoint, Outlook, and Teams: draft docs, analyze data, summarize meetings, and build slides with prompts.",
+  "keywords": [
+    "learn Microsoft Copilot",
+    "how to use Microsoft Copilot",
+    "Microsoft 365 Copilot",
+    "Copilot in Word",
+    "Copilot in Excel",
+    "Copilot prompts"
+  ],
+  "lede": "Microsoft Copilot lives inside the apps you already use, but most people ask it generic questions and get generic filler back. The trick is grounding: point Copilot at a specific file, thread, or table and tell it exactly what you want. Iro teaches you that habit across Word, Excel, Outlook, and Teams.",
+  "pills": [
+    "Word drafting",
+    "Excel analysis",
+    "PowerPoint slides",
+    "Outlook triage",
+    "Teams recaps",
+    "Grounded prompts"
+  ],
+  "about": "Microsoft 365 Copilot",
+  "level": "Beginner to advanced",
+  "audience": "Knowledge workers, managers, and teams using Microsoft 365",
+  "teaches": [
+    "Prompting Copilot in Word, Excel, and PowerPoint",
+    "Summarizing Teams meetings and Outlook threads",
+    "Grounding prompts in your own documents and data",
+    "Analyzing spreadsheets with Copilot",
+    "Turning documents into slide decks"
+  ],
+  "tldr": {
+    "answer": "Microsoft Copilot is the AI built into Microsoft 365 — Word, Excel, PowerPoint, Outlook, and Teams — and it's most useful when your prompt points it at a specific file, thread, or dataset. Ask it to \"summarize the attached Q3 report and list the risks\" and it grounds the answer in your document; ask it to \"write about sales\" and you get generic text. The skill is telling Copilot exactly what to work from and what you want back.",
+    "bullets": [
+      "Copilot works inside Word, Excel, PowerPoint, Outlook, and Teams, plus a standalone chat.",
+      "Ground every prompt in a real file, email, or table — that's where the value is.",
+      "Ask for a specific output: a summary, action items, a formula, or a first-draft slide."
+    ]
+  },
+  "outcomesHeading": "What you'll be able to do",
+  "outcomes": [
+    "Draft and rewrite documents in Word instead of starting from a blank page",
+    "Analyze a table in Excel and get trends and outliers, not just a formula",
+    "Turn a Word doc or a prompt into a first-draft PowerPoint deck",
+    "Summarize a Teams meeting into decisions, owners, and next steps",
+    "Triage a long Outlook thread and draft a reply in your own voice"
+  ],
+  "lessons": [
+    {
+      "t": "Ground it in a file",
+      "dur": "5 min",
+      "blurb": "The habit that separates useful Copilot answers from generic ones: point it at a real document."
+    },
+    {
+      "t": "Draft and rewrite in Word",
+      "dur": "5 min",
+      "blurb": "Prompt for a first draft, then tighten tone, length, and structure without leaving the page."
+    },
+    {
+      "t": "Analyze data in Excel",
+      "dur": "6 min",
+      "blurb": "Format your data as a table, then ask Copilot for trends, outliers, and the formula behind them."
+    },
+    {
+      "t": "Recaps in Teams and Outlook",
+      "dur": "5 min",
+      "blurb": "Turn a meeting or a 30-message thread into decisions, owners, and next steps."
+    },
+    {
+      "t": "Build a deck from a doc",
+      "dur": "5 min",
+      "blurb": "Generate a PowerPoint from an existing document, then refine it slide by slide."
+    }
+  ],
+  "practice": {
+    "type": "Prompt practice",
+    "scenario": "You're in Word with a 12-page project proposal open, and your manager wants a one-paragraph summary and the three biggest risks so they can forward it in an email.",
+    "task": "Choose the Copilot prompt that will give you something you can send.",
+    "options": [
+      {
+        "text": "\"Summarize this and list the risks.\"",
+        "correct": false
+      },
+      {
+        "text": "\"Based on this proposal, write a one-paragraph executive summary for a busy manager, then list the three biggest risks it raises. Quote the section each risk comes from, and keep the whole thing under 150 words.\"",
+        "correct": true
+      },
+      {
+        "text": "\"Write a summary about project proposals and the risks they usually have.\"",
+        "correct": false
+      },
+      {
+        "text": "\"Make this proposal better.\"",
+        "correct": false
+      }
+    ],
+    "revealLabel": "See why the second prompt wins",
+    "feedback": "The winning prompt is <strong>grounded in the open document</strong> (\"based on this proposal\") instead of asking Copilot to invent content about proposals in general. It sets the <strong>audience</strong> (a busy manager), the <strong>output format</strong> (one paragraph plus three risks), a <strong>length constraint</strong> (under 150 words), and a <strong>verification hook</strong> — quoting the section each risk comes from so you can check it against the file. \"Summarize this and list the risks\" sometimes works, but it leaves format and length to chance; the generic option isn't grounded in your document at all. Iro drills this grounding habit across Word, Excel, Outlook, and Teams."
+  },
+  "body": [
+    {
+      "h2": "Copilot is only as good as what you point it at",
+      "html": "<p>The difference between Copilot saving you an hour and wasting five minutes is grounding. Inside the Microsoft 365 apps, Copilot can read the document you have open, the email thread you're in, or the meeting you just left, and on a licensed plan its chat can pull from your files, calendar, and messages through Microsoft Graph. When you reference a specific file (in Copilot chat you can use the \"/\" menu to point at one), the answer is grounded in your reality instead of a plausible-sounding average.</p><p>So write prompts that name the source and the output: <em>this</em> proposal, <em>that</em> thread, <em>these</em> numbers, and exactly what you want back — a summary, action items, a formula, a slide. Generic questions get generic answers; grounded questions get work you can actually use.</p>"
+    },
+    {
+      "h2": "One skill, five apps",
+      "html": "<p>The same grounding habit carries across the suite. In <strong>Word</strong> you draft and rewrite; in <strong>Excel</strong> you analyze data (Copilot works best when your data is formatted as a table, so it can surface trends and suggest formulas); in <strong>PowerPoint</strong> you can generate a deck from a Word doc and refine it; in <strong>Outlook</strong> you summarize threads and draft replies; in <strong>Teams</strong> you get a meeting recap with decisions and action items. Learn to ground a prompt once and you can drive every app in the family.</p>"
+    }
+  ],
+  "faqHeading": "Microsoft Copilot questions",
+  "faq": [
+    {
+      "q": "What is Microsoft Copilot?",
+      "a": "Microsoft Copilot is the AI assistant built into Microsoft 365. It works inside Word, Excel, PowerPoint, Outlook, and Teams, plus a standalone chat, and on a licensed plan it can ground answers in your own files, emails, and calendar through Microsoft Graph."
+    },
+    {
+      "q": "Which Microsoft apps have Copilot?",
+      "a": "Word, Excel, PowerPoint, Outlook, and Teams are the core apps, with Copilot also in OneNote, Loop, and a dedicated chat. Copilot in Excel works best when your data is formatted as an Excel table."
+    },
+    {
+      "q": "How do I write good Copilot prompts?",
+      "a": "Point it at a specific file, thread, or table; say who the output is for; and name the exact format you want (a summary, three risks, a formula, a slide). Grounding the prompt in real content is the single biggest factor in whether the answer is useful."
+    },
+    {
+      "q": "Is Microsoft Copilot free?",
+      "a": "There is a free Copilot chat aimed at consumers, but Copilot built into the Microsoft 365 apps (Word, Excel, PowerPoint, and so on) is a paid add-on for most individuals and organizations. The prompting skill you learn here applies to both."
+    },
+    {
+      "q": "Can Copilot analyze my Excel data?",
+      "a": "Yes. It works best when your data is formatted as a table, and it can then surface trends and outliers, add or suggest columns, propose formulas, and answer plain-English questions about the numbers. As with any AI, sanity-check the result before you rely on it."
+    }
+  ],
+  "related": [
+    {
+      "href": "/ai-productivity",
+      "label": "AI for productivity"
+    },
+    {
+      "href": "/ai-for-excel",
+      "label": "AI for Excel"
+    },
+    {
+      "href": "/learn-notion-ai",
+      "label": "Learn Notion AI"
+    }
+  ],
+  "readNext": [
+    {
+      "href": "/blog/how-to-use-ai-at-work",
+      "label": "How to use AI at work"
+    },
+    {
+      "href": "/blog/best-ai-apps",
+      "label": "The best AI apps"
+    },
+    {
+      "href": "/blog/prompt-engineering-patterns",
+      "label": "Prompt engineering patterns"
+    }
+  ],
+  "llmsBlurb": "How to use Microsoft 365 Copilot across Word, Excel, PowerPoint, Outlook, and Teams with prompts grounded in your own files.",
+  "ctaHeading": "Practice Microsoft Copilot prompts.",
+  "ctaBody": "Iro turns grounded prompting across Word, Excel, Outlook, and Teams into five-minute reps with feedback, so Copilot saves you time instead of generating filler.",
+  "datePublished": "2026-07-09",
+  "dateModified": "2026-07-09"
+}
