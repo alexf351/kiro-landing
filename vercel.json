@@ -952,6 +952,98 @@
     {
       "source": "/blog/what-are-tokens-in-ai",
       "destination": "/blog/what-are-tokens-in-ai.html"
+    },
+    {
+      "source": "/paths",
+      "destination": "/paths.html"
+    },
+    {
+      "source": "/ai-for-founders",
+      "destination": "/ai-for-founders.html"
+    },
+    {
+      "source": "/ai-for-sales",
+      "destination": "/ai-for-sales.html"
+    },
+    {
+      "source": "/ai-for-recruiters",
+      "destination": "/ai-for-recruiters.html"
+    },
+    {
+      "source": "/ai-for-customer-support",
+      "destination": "/ai-for-customer-support.html"
+    },
+    {
+      "source": "/ai-for-product-managers",
+      "destination": "/ai-for-product-managers.html"
+    },
+    {
+      "source": "/ai-for-consultants",
+      "destination": "/ai-for-consultants.html"
+    },
+    {
+      "source": "/ai-for-lawyers",
+      "destination": "/ai-for-lawyers.html"
+    },
+    {
+      "source": "/ai-for-accountants",
+      "destination": "/ai-for-accountants.html"
+    },
+    {
+      "source": "/ai-for-hr",
+      "destination": "/ai-for-hr.html"
+    },
+    {
+      "source": "/ai-for-writers",
+      "destination": "/ai-for-writers.html"
+    },
+    {
+      "source": "/ai-for-designers",
+      "destination": "/ai-for-designers.html"
+    },
+    {
+      "source": "/ai-for-developers",
+      "destination": "/ai-for-developers.html"
+    },
+    {
+      "source": "/ai-for-data-analysts",
+      "destination": "/ai-for-data-analysts.html"
+    },
+    {
+      "source": "/learn-midjourney",
+      "destination": "/learn-midjourney.html"
+    },
+    {
+      "source": "/learn-copilot",
+      "destination": "/learn-copilot.html"
+    },
+    {
+      "source": "/learn-notion-ai",
+      "destination": "/learn-notion-ai.html"
+    },
+    {
+      "source": "/learn-canva-ai",
+      "destination": "/learn-canva-ai.html"
+    },
+    {
+      "source": "/ai-for-excel",
+      "destination": "/ai-for-excel.html"
+    },
+    {
+      "source": "/ai-for-research",
+      "destination": "/ai-for-research.html"
+    },
+    {
+      "source": "/ai-for-presentations",
+      "destination": "/ai-for-presentations.html"
+    },
+    {
+      "source": "/ai-for-meetings",
+      "destination": "/ai-for-meetings.html"
+    },
+    {
+      "source": "/ai-productivity",
+      "destination": "/ai-productivity.html"
     }
   ]
 }

@@ -322,4 +322,18 @@ if (!replaceBlock(llmsFile, '<!-- PATHLIB:START -->', '<!-- PATHLIB:END -->', ll
   fs.writeFileSync(llmsFile, s);
 }
 
-console.log(`paths-engine: wrote ${wrote} path page(s) + hub (paths.html, ${built.count} entries listed); refreshed sitemap.xml + llms.txt`);
+// vercel.json rewrites — extensionless clean URLs. Additive + idempotent:
+// only appends a rewrite for a slug that doesn't already have one.
+const vfile = path.join(ROOT, 'vercel.json');
+let vtext = fs.readFileSync(vfile, 'utf8');
+const needed = ['paths'].concat(pages.map((p) => p.slug));
+const toAdd = needed.filter((slug) => !new RegExp('"source":\\s*"/' + slug.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + '"').test(vtext));
+if (toAdd.length) {
+  const entries = toAdd.map((slug) => `    {\n      "source": "/${slug}",\n      "destination": "/${slug}.html"\n    }`).join(',\n');
+  const marker = '\n  ]\n}';
+  const idx = vtext.lastIndexOf(marker);
+  vtext = vtext.slice(0, idx) + ',\n' + entries + vtext.slice(idx);
+  fs.writeFileSync(vfile, vtext);
+}
+
+console.log(`paths-engine: wrote ${wrote} path page(s) + hub (paths.html, ${built.count} entries listed); refreshed sitemap.xml + llms.txt; added ${toAdd.length} vercel.json rewrite(s)`);
