@@ -5,7 +5,7 @@
   <link rel="self" href="https://tryiro.com/blog/atom.xml" type="application/atom+xml"/>
   <link rel="alternate" href="https://tryiro.com/blog" type="text/html"/>
   <id>https://tryiro.com/blog/atom.xml</id>
-  <updated>2026-07-08T00:00:00Z</updated>
+  <updated>2026-07-09T00:00:00Z</updated>
   <rights>© 2026 Iro AI</rights>
   <author><name>Iro AI</name><uri>https://tryiro.com</uri></author>
   <icon>https://tryiro.com/assets/favicon-64.png</icon>
@@ -649,5 +649,25 @@
     <author><name>Iro AI</name></author>
     <category term="AI fluency"/>
     <summary>An honest Coursiv vs Learnova comparison for 2026: how the two AI learning apps differ on teaching style, pricing, and free access — plus a third option if neither fits how you learn.</summary>
+  </entry>
+  <entry>
+    <title>How to choose an AI learning app (2026 buyer's guide)</title>
+    <id>https://tryiro.com/blog/how-to-choose-an-ai-learning-app</id>
+    <link href="https://tryiro.com/blog/how-to-choose-an-ai-learning-app"/>
+    <updated>2026-07-09T00:00:00Z</updated>
+    <published>2026-07-09T00:00:00Z</published>
+    <author><name>Iro AI</name></author>
+    <category term="AI fluency"/>
+    <summary>A buyer's guide to choosing an AI learning app in 2026 — the six things that actually matter: active practice, coverage, price, level, habit design, and proof.</summary>
+  </entry>
+  <entry>
+    <title>Apps like Duolingo, but for AI</title>
+    <id>https://tryiro.com/blog/apps-like-duolingo-for-ai</id>
+    <link href="https://tryiro.com/blog/apps-like-duolingo-for-ai"/>
+    <updated>2026-07-09T00:00:00Z</updated>
+    <published>2026-07-09T00:00:00Z</published>
+    <author><name>Iro AI</name></author>
+    <category term="AI fluency"/>
+    <summary>Looking for a Duolingo-style app to learn AI? Here are the best gamified, practice-first ways to build AI skills 5 minutes a day — and why the model works.</summary>
   </entry>
 </feed>

@@ -9,7 +9,7 @@
     <description>Short, practical writing on AI fluency, prompting, AI tools, and the active-practice method that beats endless video courses.</description>
     <language>en-US</language>
     <atom:link href="https://tryiro.com/blog/rss.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Wed, 08 Jul 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 09 Jul 2026 00:00:00 GMT</lastBuildDate>
     <generator>tryiro.com</generator>
     <copyright>© 2026 Iro AI</copyright>
     <image>
@@ -592,6 +592,24 @@
       <dc:creator>Iro AI</dc:creator>
       <category>AI fluency</category>
       <description>An honest Coursiv vs Learnova comparison for 2026: how the two AI learning apps differ on teaching style, pricing, and free access — plus a third option if neither fits how you learn.</description>
+    </item>
+    <item>
+      <title>How to choose an AI learning app (2026 buyer's guide)</title>
+      <link>https://tryiro.com/blog/how-to-choose-an-ai-learning-app</link>
+      <guid isPermaLink="true">https://tryiro.com/blog/how-to-choose-an-ai-learning-app</guid>
+      <pubDate>Thu, 09 Jul 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Iro AI</dc:creator>
+      <category>AI fluency</category>
+      <description>A buyer's guide to choosing an AI learning app in 2026 — the six things that actually matter: active practice, coverage, price, level, habit design, and proof.</description>
+    </item>
+    <item>
+      <title>Apps like Duolingo, but for AI</title>
+      <link>https://tryiro.com/blog/apps-like-duolingo-for-ai</link>
+      <guid isPermaLink="true">https://tryiro.com/blog/apps-like-duolingo-for-ai</guid>
+      <pubDate>Thu, 09 Jul 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Iro AI</dc:creator>
+      <category>AI fluency</category>
+      <description>Looking for a Duolingo-style app to learn AI? Here are the best gamified, practice-first ways to build AI skills 5 minutes a day — and why the model works.</description>
     </item>
   </channel>
 </rss>
