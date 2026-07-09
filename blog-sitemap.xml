@@ -711,4 +711,24 @@
       <image:title>Apps like Duolingo, but for AI</image:title>
     </image:image>
   </url>
+  <url>
+    <loc>https://tryiro.com/blog/ai-learning-app-for-professionals</loc>
+    <lastmod>2026-07-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://tryiro.com/assets/og/ai-learning-app-for-professionals.png</image:loc>
+      <image:title>The best AI learning app for working professionals</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://tryiro.com/blog/ai-app-vs-ai-bootcamp</loc>
+    <lastmod>2026-07-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://tryiro.com/assets/og/ai-app-vs-ai-bootcamp.png</image:loc>
+      <image:title>AI learning app vs AI bootcamp: which is worth it?</image:title>
+    </image:image>
+  </url>
 </urlset>
