@@ -1,0 +1,57 @@
+{
+  "title": "The Iro AI Path Library — learn any AI skill by doing | Iro AI",
+  "metaDescription": "Browse every Iro AI learning path: hands-on, five-minute lessons for ChatGPT, Claude, prompting, AI agents, and AI for your job. Practice real skills, not just theory.",
+  "keywords": ["AI learning paths", "learn AI by doing", "AI courses app", "AI for your job", "practice AI skills"],
+  "eyebrow": "Path library",
+  "h1": "Every way to get good at AI — one library.",
+  "lede": "Pick a tool, a skill, or your exact job. Each path is a short set of five-minute lessons that make you practice — write real prompts, judge AI output, and build habits — instead of just watching. Free to start.",
+  "note": "iOS now. Android is in development — join the waitlist on the home page. Prefer desktop? Iro also runs at app.tryiro.com.",
+  "answer": "The Iro Path Library is a directory of every learning path in the Iro AI app. Each path teaches one AI tool, skill, or job use-case through short, hands-on lessons with instant feedback — the active-practice method that beats passive video courses. You can start any path free, and Iro can also generate a custom path on almost any topic you type in.",
+  "answerBullets": [
+    "Learn a tool — ChatGPT, Claude, Gemini, Perplexity and more.",
+    "Build a skill — prompting, AI agents, automation, productivity, creative AI.",
+    "Apply it to your job — founders, sales, marketers, PMs, recruiters, and more.",
+    "Every path is five-minute lessons with real exercises and feedback, not lectures."
+  ],
+  "categories": [
+    { "id": "tools", "title": "Learn an AI tool", "sub": "Get genuinely good at the tools you already use." },
+    { "id": "skills", "title": "AI skills & workflows", "sub": "The transferable skills that survive every model upgrade." },
+    { "id": "jobs", "title": "AI for your job", "sub": "Exactly what to automate and how, for your specific role." },
+    { "id": "start", "title": "Getting started", "sub": "New to AI? Start here and build the daily habit." }
+  ],
+  "faq": [
+    { "q": "What is the Iro Path Library?", "a": "It's a directory of every learning path inside the Iro AI app. Each path teaches one AI tool, skill, or job use-case through short, hands-on lessons with feedback. You can start any path free and upgrade to Pro for full access." },
+    { "q": "Do I have to pay to start a path?", "a": "No. Iro is free to start — you get starter lessons in a path of your choice, a sample of every exercise type, and a taste of Ask Iro, your AI coach. Pro unlocks every lesson and every path, plus unlimited custom paths, for $24.99 every 3 months (about $1.92 a week) with a 7-day free trial, or $9.99 a week." },
+    { "q": "Can Iro teach a topic that isn't listed here?", "a": "Yes. Beyond these built-in paths, Iro's Custom Paths feature can generate a path on almost any topic you type in — from a specific AI workflow to a broader skill — and turn it into hands-on lessons." },
+    { "q": "How is this different from a video course?", "a": "Video is passive — you watch, then forget. Iro makes you write real prompts, compare model outputs, and spot mistakes, then gives feedback. Active practice is what actually builds skill, and each lesson takes about five minutes." },
+    { "q": "Is there an Android app?", "a": "Android is in active development. Iro is iOS-only for now, but you can join the Android waitlist on the home page, and in the meantime Iro runs in any browser at app.tryiro.com — your progress carries into the app when it lands." }
+  ],
+  "ctaHeading": "Stop reading about AI. Start practicing.",
+  "ctaBody": "Pick any path and do your first five-minute lesson today. It's free to start, and the daily streak keeps you going.",
+  "extra": [
+    { "slug": "learn-chatgpt", "cat": "tools", "t": "Learn ChatGPT", "d": "Write better prompts, judge outputs, and build real workflows." },
+    { "slug": "learn-claude", "cat": "tools", "t": "Learn Claude", "d": "Get more from Anthropic's Claude for writing, analysis, and long documents." },
+    { "slug": "learn-gemini", "cat": "tools", "t": "Learn Gemini", "d": "Use Google's Gemini across search, Workspace, and everyday tasks." },
+    { "slug": "learn-perplexity", "cat": "tools", "t": "Learn Perplexity", "d": "Research with an AI answer engine that cites its sources." },
+    { "slug": "learn-llms", "cat": "tools", "t": "Learn LLMs", "d": "Understand how large language models actually work — in plain language." },
+    { "slug": "prompt-engineering-app", "cat": "skills", "t": "Prompt engineering", "d": "Practice the prompt patterns that transfer across every model." },
+    { "slug": "ai-agents-course", "cat": "skills", "t": "AI agents", "d": "Learn what agents are, when they help, and where they break." },
+    { "slug": "ai-automation-course", "cat": "skills", "t": "AI automation", "d": "Automate repetitive work without writing code." },
+    { "slug": "ai-image-generation-course", "cat": "skills", "t": "AI image generation", "d": "Prompt image models like a pro — composition, style, and control." },
+    { "slug": "ai-video-generation-course", "cat": "skills", "t": "AI video generation", "d": "Create and direct AI video, from idea to finished clip." },
+    { "slug": "vibe-coding-course", "cat": "skills", "t": "Vibe coding", "d": "Build software by describing it — the AI-first way to code." },
+    { "slug": "ai-prompts", "cat": "skills", "t": "AI prompts library", "d": "A practical library of prompts you can adapt and reuse." },
+    { "slug": "ai-for-work", "cat": "jobs", "t": "AI for work", "d": "Everyday AI wins for email, docs, meetings, and planning." },
+    { "slug": "ai-for-marketing", "cat": "jobs", "t": "AI for marketing", "d": "Campaigns, copy, and content workflows that actually ship." },
+    { "slug": "ai-for-finance", "cat": "jobs", "t": "AI for finance", "d": "Analysis, modeling, and reporting — with the right guardrails." },
+    { "slug": "ai-for-managers", "cat": "jobs", "t": "AI for managers", "d": "Lead a team that uses AI well, without the hype." },
+    { "slug": "ai-for-students", "cat": "jobs", "t": "AI for students", "d": "Study smarter and research honestly with AI." },
+    { "slug": "ai-for-healthcare", "cat": "jobs", "t": "AI for healthcare", "d": "Practical, compliant ways clinicians can use AI for admin." },
+    { "slug": "ai-job-hunting", "cat": "jobs", "t": "AI for job hunting", "d": "Resumes, applications, and interview prep with AI." },
+    { "slug": "ai-learning-app-for-beginners", "cat": "start", "t": "AI for beginners", "d": "Start from zero — no jargon, no coding required." },
+    { "slug": "learn-ai-in-5-minutes-a-day", "cat": "start", "t": "Learn AI in 5 minutes a day", "d": "The tiny daily habit that compounds into real fluency." },
+    { "slug": "learn-ai-on-iphone", "cat": "start", "t": "Learn AI on your iPhone", "d": "A pocket-sized way to build AI skills anywhere." },
+    { "slug": "how-to-learn-ai", "cat": "start", "t": "How to learn AI", "d": "A clear, practical roadmap from beginner to fluent." },
+    { "slug": "become-ai-fluent", "cat": "start", "t": "Become AI fluent", "d": "The four levels of AI fluency and how to climb them." }
+  ]
+}

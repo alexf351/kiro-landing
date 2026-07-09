@@ -1,0 +1,87 @@
+{
+  "slug": "ai-for-excel",
+  "order": 40,
+  "category": "tools",
+  "eyebrow": "AI for Excel & Sheets",
+  "hubTitle": "AI for Excel & Sheets",
+  "hubBlurb": "Write formulas, clean data, and build models with AI as your spreadsheet copilot.",
+  "title": "AI for Excel: Formulas, Cleanup & Analysis | Iro AI",
+  "h1": "Use AI to actually get good at Excel.",
+  "metaDescription": "How to use AI for Excel and Google Sheets: write and fix formulas, clean messy data, build models, and explain what a sheet does. Practice the real skills in 5-minute Iro lessons.",
+  "keywords": ["AI for Excel", "ChatGPT for Excel", "AI Excel formulas", "AI for Google Sheets", "how to use AI in spreadsheets"],
+  "lede": "Stop fighting VLOOKUP. AI can write the formula, explain the error, and turn a wall of messy data into an answer — if you know how to ask. Iro teaches you the prompts and the checks so the numbers you hand up are actually right.",
+  "pills": ["Formulas", "Data cleanup", "Pivot & analysis", "Explaining sheets", "Charts", "Modeling"],
+  "about": "Spreadsheets and AI",
+  "level": "Beginner to advanced",
+  "audience": "Analysts, operators, students, small-business owners, anyone who lives in spreadsheets",
+  "teaches": ["Writing Excel and Sheets formulas with AI", "Cleaning and reshaping data", "Building and checking models", "Prompting for spreadsheet tasks", "Verifying AI-generated formulas"],
+  "tldr": {
+    "answer": "AI is a genuinely great spreadsheet copilot: describe what you want in plain English and it will write the formula, explain a #REF! error, or suggest how to structure an analysis. The catch is verification — AI sometimes invents functions or off-by-one ranges, so you check the result on a small sample before trusting it on 10,000 rows.",
+    "bullets": [
+      "Describe the goal and your columns; let AI write the formula.",
+      "Paste an error and the formula; AI explains and fixes it.",
+      "Always test an AI formula on a few rows before trusting the whole sheet."
+    ]
+  },
+  "outcomesHeading": "What you'll be able to do",
+  "outcomes": [
+    "Turn a plain-English request into a working Excel or Sheets formula",
+    "Debug #REF!, #VALUE!, and #N/A errors by asking the right way",
+    "Clean and reshape messy data without doing it by hand",
+    "Get AI to explain what an inherited spreadsheet actually does",
+    "Sanity-check AI formulas so you never hand up wrong numbers"
+  ],
+  "lessons": [
+    { "t": "Describe it, don't derive it", "dur": "5 min", "blurb": "The prompt pattern that turns \"I want the total for each region\" into the exact formula." },
+    { "t": "Fix any formula error", "dur": "5 min", "blurb": "Paste the error and the formula; learn how to get a fix and an explanation you'll remember." },
+    { "t": "Clean messy data fast", "dur": "6 min", "blurb": "Split names, standardize dates, dedupe, and reshape without manual find-and-replace." },
+    { "t": "Understand a sheet you inherited", "dur": "5 min", "blurb": "Get AI to explain nested formulas and logic so you can trust and change them." },
+    { "t": "Check before you trust", "dur": "5 min", "blurb": "The quick tests that catch an AI formula that's confidently wrong on the edge cases." }
+  ],
+  "practice": {
+    "type": "Prompt practice",
+    "scenario": "You have a sheet with a Full Name column (\"Ada Lovelace\") and you need two new columns: First Name and Last Name. You ask AI for help.",
+    "task": "Choose the prompt that will get you a formula you can actually paste in and trust.",
+    "options": [
+      { "text": "\"How do I split names in Excel?\"", "correct": false },
+      { "text": "\"In Excel, column A has full names like 'Ada Lovelace' in A2 down. Write a formula for B2 that returns the first name and one for C2 that returns the last name, assuming a single space. Explain what each part does and how it handles a missing space.\"", "correct": true },
+      { "text": "\"Split my names please.\"", "correct": false },
+      { "text": "\"Give me the best Excel formula.\"", "correct": false }
+    ],
+    "revealLabel": "See why the second prompt wins",
+    "feedback": "The winning prompt names the <strong>tool</strong> (Excel), gives the <strong>exact cell references and a data example</strong> (A2, \"Ada Lovelace\"), states the <strong>assumption</strong> (single space), asks for an <strong>explanation</strong>, and asks how it handles an <strong>edge case</strong> (missing space). That's the difference between a formula you paste in blind and one you understand and trust. In Iro you'd write your own and get feedback on the details that matter — cell refs, assumptions, and edge cases."
+  },
+  "body": [
+    {
+      "h2": "Why AI is so good at spreadsheets — and where it slips",
+      "html": "<p>Spreadsheet tasks are a sweet spot for AI: the goal is usually easy to describe in words, and the answer is a small, testable piece of code (a formula). Describe what you want and your columns, and a model like ChatGPT or Claude will hand you the formula, explain an error, or suggest a cleaner structure.</p><p>Where it slips is the details humans skip: it can invent a function that doesn't exist in your version, get a range off by one, or assume your data is cleaner than it is. None of that is a reason to avoid AI — it's a reason to test the formula on a few rows and read what it actually does before you trust it on the whole sheet.</p>"
+    },
+    {
+      "h2": "Excel or Google Sheets — the skill is the same",
+      "html": "<p>Almost everything here works in both Excel and Google Sheets; you just tell the model which one you're using so it picks the right function names. The transferable skill is the same: describe the goal, give real context (cell references, a sample row, your version), ask for an explanation, and verify. Learn it once and it works wherever your data lives.</p>"
+    }
+  ],
+  "faqHeading": "AI + spreadsheet questions",
+  "faq": [
+    { "q": "Can ChatGPT write Excel formulas?", "a": "Yes, and it's one of its most reliable uses. Describe the result you want, give it your cell references and a sample of the data, and it will write the formula and explain it. Test it on a few rows before trusting the whole sheet." },
+    { "q": "Does this work for Google Sheets too?", "a": "Yes. The approach is identical — just tell the model you're in Google Sheets so it uses the right function names (like ARRAYFORMULA or QUERY). Iro's lessons cover both." },
+    { "q": "Is it safe to paste my company data into AI?", "a": "Be careful with sensitive or personal data — check your company's policy and the tool's data settings. You can often get the same help by pasting a small, anonymized sample instead of the full dataset. Iro covers this in its AI-at-work lessons." },
+    { "q": "Why did the AI formula give the wrong answer?", "a": "Usually a wrong range, a bad assumption about your data, or a function that behaves differently in your version. That's why the last lesson is about checking: test on a few known rows and read what the formula does. AI is a fast draft, not a final answer." },
+    { "q": "Do I need to be good at Excel already?", "a": "No. Beginners can get working formulas immediately, and you'll learn what they mean as you go. Iro starts simple and builds up to cleanup, analysis, and modeling." }
+  ],
+  "related": [
+    { "href": "/ai-for-work", "label": "AI for work" },
+    { "href": "/ai-for-finance", "label": "AI for finance" },
+    { "href": "/learn-chatgpt", "label": "Learn ChatGPT" }
+  ],
+  "readNext": [
+    { "href": "/blog/how-to-use-ai-at-work", "label": "How to use AI at work" },
+    { "href": "/blog/spot-ai-hallucinations", "label": "How to spot AI hallucinations" },
+    { "href": "/prompt-engineering-app", "label": "Practice prompt engineering" }
+  ],
+  "llmsBlurb": "Using AI as a spreadsheet copilot for Excel and Google Sheets — writing formulas, cleaning data, and verifying results.",
+  "ctaHeading": "Practice AI for spreadsheets.",
+  "ctaBody": "Iro turns formula-writing, cleanup, and error-fixing into five-minute exercises with feedback — so the next messy sheet is a rep you've already done.",
+  "datePublished": "2026-07-09",
+  "dateModified": "2026-07-09"
+}

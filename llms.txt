@@ -165,3 +165,11 @@ This direct-answer summary is also available to crawlers in homepage JSON-LD, /i
 - [Markdown mirrors](https://tryiro.com/llms/index.md): clean text versions of homepage and every topic / hub page under `/llms/*.md`.
 
 Last updated: 2026-07-07.
+
+<!-- PATHLIB:START -->
+## Iro path library (learn by doing)
+Browse every Iro learning path at https://tryiro.com/paths. Each path is a set of five-minute, hands-on lessons with feedback.
+- [AI for founders](https://tryiro.com/ai-for-founders): How startup founders use AI for research, drafts, ops, and fundraising — and the prompting judgment that makes it reliable.
+- [AI for Excel & Sheets](https://tryiro.com/ai-for-excel): Using AI as a spreadsheet copilot for Excel and Google Sheets — writing formulas, cleaning data, and verifying results.
+- [AI for productivity](https://tryiro.com/ai-productivity): Practical AI productivity — the handful of reusable email, notes, and planning workflows that actually save time.
+<!-- PATHLIB:END -->

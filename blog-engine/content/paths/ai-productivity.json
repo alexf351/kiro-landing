@@ -1,0 +1,87 @@
+{
+  "slug": "ai-productivity",
+  "order": 70,
+  "category": "skills",
+  "eyebrow": "AI for productivity",
+  "hubTitle": "AI for productivity",
+  "hubBlurb": "Use AI to save real hours every week — email, notes, planning, and busywork.",
+  "title": "AI for Productivity: Save Real Hours Every Week | Iro AI",
+  "h1": "Use AI to get hours back every week.",
+  "metaDescription": "A practical guide to AI for productivity: cut time on email, notes, meetings, and planning with prompts that work. Practice the real workflows in 5-minute Iro lessons.",
+  "keywords": ["AI for productivity", "AI productivity tools", "how to use AI to be more productive", "AI for time management", "AI workflows"],
+  "lede": "Productivity with AI isn't about a hundred apps — it's about a handful of workflows you run every day. Iro teaches the prompts that turn inbox, notes, and planning from time sinks into five-minute tasks, and the habits that make them stick.",
+  "pills": ["Email", "Meeting notes", "Planning", "Summarizing", "Drafting", "Prioritizing"],
+  "about": "AI productivity",
+  "level": "Beginner to advanced",
+  "audience": "Knowledge workers, managers, students, founders — anyone with too much to do",
+  "teaches": ["AI workflows for email and writing", "Summarizing and note-taking with AI", "Planning and prioritization with AI", "Prompting for repeatable tasks", "Building durable AI habits"],
+  "tldr": {
+    "answer": "The productivity gains from AI come from a few repeatable workflows, not from chasing new tools. The reliable wins are drafting and triaging email, turning messy notes into clear summaries and action items, planning and prioritizing your day, and pressure-testing decisions. Save your best prompts and reuse them — that's what turns a one-off trick into hours saved every week.",
+    "bullets": [
+      "Pick 3–4 recurring tasks and build a reusable prompt for each.",
+      "AI is best at drafts, summaries, and triage — you keep judgment and final calls.",
+      "The compounding win is a saved-prompt habit, not a new app every week."
+    ]
+  },
+  "outcomesHeading": "What you'll be able to do",
+  "outcomes": [
+    "Clear your inbox faster with reusable email prompts",
+    "Turn an hour of messy notes into clean summaries and action items",
+    "Plan and prioritize your day with an AI thinking partner",
+    "Build a personal library of prompts you actually reuse",
+    "Know which tasks to hand to AI and which to keep"
+  ],
+  "lessons": [
+    { "t": "Find your repeat tasks", "dur": "4 min", "blurb": "Spot the handful of things you do every week that AI can take a first pass at." },
+    { "t": "Inbox in half the time", "dur": "6 min", "blurb": "Prompts for triaging, drafting, and replying — in your own tone, not robot-speak." },
+    { "t": "Notes to action items", "dur": "5 min", "blurb": "Turn call notes, docs, and threads into a clear summary and a to-do list." },
+    { "t": "Plan your day with AI", "dur": "5 min", "blurb": "Use AI to prioritize, time-block, and unstick decisions without overthinking." },
+    { "t": "Save it so it compounds", "dur": "5 min", "blurb": "Build a reusable prompt library so today's win becomes next week's default." }
+  ],
+  "practice": {
+    "type": "Prompt practice",
+    "scenario": "It's Monday and you have 40 unread emails. You want AI to help you triage, but \"summarize my emails\" isn't something you can paste an inbox into — you need a prompt you can reuse on any single thread.",
+    "task": "Choose the reusable prompt that will actually save you time on every email.",
+    "options": [
+      { "text": "\"Summarize my inbox.\"", "correct": false },
+      { "text": "\"Here's an email thread. In 2 lines: what do they want, and what's the decision or reply needed? Then draft a short, friendly response in my voice that I can edit. If anything's unclear, list the questions instead of guessing.\"", "correct": true },
+      { "text": "\"Reply to this.\"", "correct": false },
+      { "text": "\"Make me more productive.\"", "correct": false }
+    ],
+    "revealLabel": "See why the second prompt wins",
+    "feedback": "The winning prompt is <strong>reusable</strong> — you paste any thread into it — and it does the two things email triage needs: it <strong>extracts the ask and the decision</strong>, then <strong>drafts a reply you can edit</strong>, and it <strong>refuses to guess</strong> when something's unclear (which is where AI usually creates work instead of saving it). \"Summarize my inbox\" isn't actionable; this is a workflow you run 40 times. In Iro you'd build and refine prompts like this and get feedback on what makes them reusable."
+  },
+  "body": [
+    {
+      "h2": "Why most \"AI productivity\" advice doesn't stick",
+      "html": "<p>The internet is full of AI-tool listicles, and they mostly don't move the needle. The reason is that productivity isn't a tool problem — it's a workflow problem. Ten new apps you open once don't save time; three prompts you run every single day do.</p><p>The people who actually get hours back pick a few recurring tasks — email, notes, planning — and build a reliable prompt for each. Then they save those prompts and reuse them. That's the whole game: turn a good one-off result into a default you reach for without thinking.</p>"
+    },
+    {
+      "h2": "What to hand to AI — and what to keep",
+      "html": "<ul><li><strong>Hand off:</strong> first drafts, summaries, reformatting, brainstorming options, triaging what needs your attention.</li><li><strong>Keep:</strong> the final decision, anything with real stakes, your actual voice, and the judgment call on whether the output is right.</li></ul><p>AI is a fast assistant, not a replacement for your thinking. The productivity comes from letting it do the 80% that's mechanical so you spend your energy on the 20% that isn't.</p>"
+    }
+  ],
+  "faqHeading": "AI productivity questions",
+  "faq": [
+    { "q": "What's the best AI tool for productivity?", "a": "The best results come from a workflow, not a specific app. A general assistant like ChatGPT or Claude handles email, notes, planning, and drafting; the leverage is in reusing good prompts. Iro teaches the workflows so they work in whatever tool you use." },
+    { "q": "How much time can AI actually save me?", "a": "It varies, but the durable wins are the small daily tasks — email, summaries, planning — where a few minutes saved each time adds up across a week. The key is building repeatable prompts rather than one-off experiments." },
+    { "q": "Won't AI-written emails sound generic?", "a": "They will if you let them. The fix is giving the model your tone and letting it draft, not send — you edit before it goes out. Iro's lessons focus on getting AI to write in your voice." },
+    { "q": "How do I actually build the habit?", "a": "Start with one task, save the prompt that works, and reuse it until it's automatic — then add the next. Iro is built around exactly this: five-minute reps and a streak that keeps you consistent." },
+    { "q": "Do I need to be technical?", "a": "Not at all. Everything here is plain-English prompting. Iro's beginner paths assume no coding and no prior AI experience." }
+  ],
+  "related": [
+    { "href": "/ai-for-work", "label": "AI for work" },
+    { "href": "/prompt-engineering-app", "label": "Prompt engineering" },
+    { "href": "/ai-automation-course", "label": "AI automation" }
+  ],
+  "readNext": [
+    { "href": "/blog/how-to-use-ai-at-work", "label": "How to use AI at work" },
+    { "href": "/blog/ai-automation-for-beginners", "label": "AI automation for beginners" },
+    { "href": "/blog/prompt-engineering-patterns", "label": "The 7 prompt patterns that work everywhere" }
+  ],
+  "llmsBlurb": "Practical AI productivity — the handful of reusable email, notes, and planning workflows that actually save time.",
+  "ctaHeading": "Turn AI productivity into a habit.",
+  "ctaBody": "Iro makes these workflows into five-minute exercises with feedback, so saving time with AI becomes something you do — not just something you read about.",
+  "datePublished": "2026-07-09",
+  "dateModified": "2026-07-09"
+}
