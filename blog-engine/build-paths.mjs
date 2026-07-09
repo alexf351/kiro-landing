@@ -300,10 +300,15 @@ const hub = JSON.parse(fs.readFileSync(path.join(CONTENT, 'paths-hub.json'), 'ut
 const built = buildHub(hub, pages);
 fs.writeFileSync(path.join(ROOT, 'paths.html'), built.html);
 
-// sitemap block (all new path pages + hub)
-const today = cfg.buildDate;
+// sitemap block (all new path pages + hub) — lastmod from each page's own date
+const lastmodOf = {};
+for (const p of pages) lastmodOf[p.slug] = p.dateModified || p.datePublished || cfg.buildDate;
+lastmodOf['paths'] = pages.reduce((m, p) => {
+  const d = p.dateModified || p.datePublished || cfg.buildDate;
+  return d > m ? d : m;
+}, cfg.buildDate);
 const sitemapEntries = ['paths'].concat(pages.map((p) => p.slug))
-  .map((slug) => `  <url><loc>${url(slug)}</loc><lastmod>${today}</lastmod><changefreq>monthly</changefreq><priority>${slug === 'paths' ? '0.9' : '0.8'}</priority></url>`)
+  .map((slug) => `  <url><loc>${url(slug)}</loc><lastmod>${lastmodOf[slug]}</lastmod><changefreq>monthly</changefreq><priority>${slug === 'paths' ? '0.9' : '0.8'}</priority></url>`)
   .join('\n');
 const smFile = path.join(ROOT, 'sitemap.xml');
 if (!replaceBlock(smFile, '<!-- PATHS:START -->', '<!-- PATHS:END -->', sitemapEntries)) {
