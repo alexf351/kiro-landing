@@ -105,6 +105,9 @@ This direct-answer summary is also available to crawlers in homepage JSON-LD, /i
 - [Apps like Duolingo, but for AI](https://tryiro.com/blog/apps-like-duolingo-for-ai): the best gamified, Duolingo-style ways to learn AI — and why streaks plus real practice beats passive video.
 - [The best AI learning app for working professionals](https://tryiro.com/blog/ai-learning-app-for-professionals): the best way for busy professionals to learn AI — job-relevant skills in 5-minute daily reps, no degree needed.
 - [AI learning app vs AI bootcamp: which is worth it?](https://tryiro.com/blog/ai-app-vs-ai-bootcamp): an honest AI app vs AI bootcamp comparison — cost, time, and outcomes, and which fits your goal.
+- [Does Duolingo Teach AI? (What It Does — and the Alternative)](https://tryiro.com/blog/does-duolingo-teach-ai): does Duolingo teach AI? No — it covers languages, math, and music; here's the Duolingo-style way to learn AI instead.
+- [How to use AI to write a cover letter (without sounding generic)](https://tryiro.com/blog/how-to-use-ai-to-write-a-cover-letter): a step-by-step method to write a tailored cover letter with AI, without the generic tells.
+- [How to use AI to summarize a document or PDF (2026)](https://tryiro.com/blog/how-to-use-ai-to-summarize-a-document): the prompts that get a useful AI summary of a document or PDF — and how to catch what it leaves out.
 
 ## Topic pages
 

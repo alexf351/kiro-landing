@@ -974,6 +974,18 @@
       "destination": "/blog/ai-app-vs-ai-bootcamp.html"
     },
     {
+      "source": "/blog/does-duolingo-teach-ai",
+      "destination": "/blog/does-duolingo-teach-ai.html"
+    },
+    {
+      "source": "/blog/how-to-use-ai-to-write-a-cover-letter",
+      "destination": "/blog/how-to-use-ai-to-write-a-cover-letter.html"
+    },
+    {
+      "source": "/blog/how-to-use-ai-to-summarize-a-document",
+      "destination": "/blog/how-to-use-ai-to-summarize-a-document.html"
+    },
+    {
       "source": "/paths",
       "destination": "/paths.html"
     },

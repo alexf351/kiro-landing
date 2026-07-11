@@ -731,4 +731,34 @@
       <image:title>AI learning app vs AI bootcamp: which is worth it?</image:title>
     </image:image>
   </url>
+  <url>
+    <loc>https://tryiro.com/blog/does-duolingo-teach-ai</loc>
+    <lastmod>2026-07-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://tryiro.com/assets/og/does-duolingo-teach-ai.png</image:loc>
+      <image:title>Does Duolingo Teach AI? (What It Does — and the Alternative)</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://tryiro.com/blog/how-to-use-ai-to-write-a-cover-letter</loc>
+    <lastmod>2026-07-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://tryiro.com/assets/og/how-to-use-ai-to-write-a-cover-letter.png</image:loc>
+      <image:title>How to use AI to write a cover letter (without sounding generic)</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://tryiro.com/blog/how-to-use-ai-to-summarize-a-document</loc>
+    <lastmod>2026-07-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://tryiro.com/assets/og/how-to-use-ai-to-summarize-a-document.png</image:loc>
+      <image:title>How to use AI to summarize a document or PDF (2026)</image:title>
+    </image:image>
+  </url>
 </urlset>
