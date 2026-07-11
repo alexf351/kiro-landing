@@ -1,0 +1,21 @@
+# Internal / dev files that must NOT be deployed or crawled.
+# These are design references, build tooling, and working docs — not public
+# pages. Serving them created stale, duplicate content (e.g. an old copy of the
+# homepage with outdated path/lesson counts and pricing) that leaked to search
+# engines and AI assistants. Excluding them here makes those URLs 404 so they
+# deindex.
+
+# Design handoff snapshots (frozen prototypes, intentionally stale)
+design_handoff_ai_coach/
+design_handoff_custom_paths/
+design_handoff_iro_landing/
+design_handoff_reviews_section/
+
+# Build tooling + source content (generators, not served output)
+blog-engine/
+
+# Internal working docs
+aso/
+research/
+.impeccable.md
+CLAUDE.md
