@@ -4,7 +4,7 @@
   "category": "jobs",
   "eyebrow": "AI for HR",
   "hubTitle": "AI for HR",
-  "hubBlurb": "Draft job descriptions, policies, and onboarding docs — with care around bias and confidentiality.",
+  "hubBlurb": "Draft job descriptions, policies, and onboarding docs, with care around bias and confidentiality.",
   "title": "AI for HR: Draft JDs, Policies, and Onboarding | Iro AI",
   "h1": "AI for HR, without the bias or the leaks.",
   "metaDescription": "How HR teams use AI to draft job descriptions and policies, build interview questions, and summarize feedback fairly — with bias and privacy in mind.",
@@ -15,7 +15,7 @@
     "AI job description writing",
     "AI for recruiting"
   ],
-  "lede": "HR work is writing-heavy and sensitive at the same time — the job descriptions, policies, and messages you draft affect real people and carry real risk. AI can take the blank page off your plate: it drafts the JD, the policy, the onboarding doc, and helps you find a fair, human tone for hard conversations. Iro teaches you to use it while guarding against two things AI won't guard for you: bias and confidentiality.",
+  "lede": "HR work is writing-heavy and sensitive at the same time: the job descriptions, policies, and messages you draft affect real people and carry real risk. AI can take the blank page off your plate: it drafts the JD, the policy, the onboarding doc, and helps you find a fair, human tone for hard conversations. Iro teaches you to use it while guarding against two things AI won't guard for you: bias and confidentiality.",
   "pills": [
     "Job descriptions",
     "Policies",
@@ -35,10 +35,10 @@
     "Protecting confidentiality and spotting biased language"
   ],
   "tldr": {
-    "answer": "HR teams get the most from AI by using it to draft and structure the written work — job descriptions, policies, interview questions, onboarding docs, and sensitive messages — while a human owns every decision about people. The two risks it won't manage on its own are bias (AI can quietly reproduce exclusionary language and unfair patterns) and confidentiality (never paste employee names, PII, or private data into a general tool). AI drafts; a person reviews for fairness, follows policy, and stays accountable.",
+    "answer": "HR teams get the most from AI by using it to draft and structure the written work (job descriptions, policies, interview questions, onboarding docs, and sensitive messages) while a human owns every decision about people. The two risks it won't manage on its own are bias (AI can quietly reproduce exclusionary language and unfair patterns) and confidentiality (never paste employee names, PII, or private data into a general tool). AI drafts; a person reviews for fairness, follows policy, and stays accountable.",
     "bullets": [
       "Best uses: JDs, policies, interview banks, onboarding docs, and tone for hard messages.",
-      "Ask AI to flag biased or exclusionary wording — and never let it screen candidates.",
+      "Ask AI to flag biased or exclusionary wording, and never let it screen candidates.",
       "Keep employee names, PII, and confidential data out of general AI tools."
     ]
   },
@@ -74,12 +74,12 @@
     {
       "t": "Tone for sensitive comms",
       "dur": "5 min",
-      "blurb": "Get the wording right for hard conversations — while keeping names and private details out of the tool."
+      "blurb": "Get the wording right for hard conversations while keeping names and private details out of the tool."
     }
   ],
   "practice": {
     "type": "Prompt practice",
-    "scenario": "You need to post a senior backend engineer role at a 30-person fintech and want AI to draft the job description — without introducing wording that quietly narrows your candidate pool.",
+    "scenario": "You need to post a senior backend engineer role at a 30-person fintech and want AI to draft the job description without introducing wording that quietly narrows your candidate pool.",
     "task": "Pick the prompt that gets a strong, fair draft you can stand behind.",
     "options": [
       {
@@ -100,16 +100,16 @@
       }
     ],
     "revealLabel": "See why the second prompt wins",
-    "feedback": "The winning prompt sets a clear <strong>audience and context</strong> (senior backend, 30-person fintech), specifies <strong>tone</strong> (warm but professional), pins down the real <strong>must-haves</strong> so the draft is accurate, and — most importantly — builds in a <strong>bias check</strong>: it asks the model to flag wording that could deter specific groups and to suggest neutral alternatives. The generic \"software engineer\" prompt gives you filler you'll rewrite anyway. The spreadsheet option makes two serious mistakes at once: it leaks confidential employee PII into a general tool and hands candidate screening to AI, which a human must own for fairness and compliance. And \"most demanding possible\" bakes in exclusionary bias by design. In Iro you'd write your own version and get feedback on audience, tone, and where bias and confidentiality need a human check."
+    "feedback": "The winning prompt sets a clear <strong>audience and context</strong> (senior backend, 30-person fintech), specifies <strong>tone</strong> (warm but professional), pins down the real <strong>must-haves</strong> so the draft is accurate and, most importantly, builds in a <strong>bias check</strong>: it asks the model to flag wording that could deter specific groups and to suggest neutral alternatives. The generic \"software engineer\" prompt gives you filler you'll rewrite anyway. The spreadsheet option makes two serious mistakes at once: it leaks confidential employee PII into a general tool and hands candidate screening to AI, which a human must own for fairness and compliance. And \"most demanding possible\" bakes in exclusionary bias by design. In Iro you'd write your own version and get feedback on audience, tone, and where bias and confidentiality need a human check."
   },
   "body": [
     {
       "h2": "AI drafts the words; a person owns the decisions",
-      "html": "<p>Most HR work is language: job descriptions, policies, offer letters, onboarding guides, feedback summaries, and the careful messages that go with hard moments. That's exactly what AI is good at — taking a blank page and giving you a solid first draft in your audience's language. Used this way it clears hours of writing so you can spend your judgment where it matters.</p><p>What AI must never do is make the call about a person. It shouldn't rank candidates, decide who's underperforming, or determine an outcome, because those decisions carry fairness, legal, and human weight that a text-prediction tool can't hold. The line is clean: AI drafts and structures; a person reviews, applies policy, and stays accountable for anything that affects someone's job.</p>"
+      "html": "<p>Most HR work is language: job descriptions, policies, offer letters, onboarding guides, feedback summaries, and the careful messages that go with hard moments. That's exactly what AI is good at: taking a blank page and giving you a solid first draft in your audience's language. Used this way it clears hours of writing so you can spend your judgment where it matters.</p><p>What AI must never do is make the call about a person. It shouldn't rank candidates, decide who's underperforming, or determine an outcome, because those decisions carry fairness, legal, and human weight that a text-prediction tool can't hold. The line is clean: AI drafts and structures; a person reviews, applies policy, and stays accountable for anything that affects someone's job.</p>"
     },
     {
       "h2": "The two risks AI won't manage for you",
-      "html": "<p>Two problems are specific to HR, and AI won't catch them unless you make it — or unless you simply don't create them:</p><ul><li><strong>Bias:</strong> models learn from human text, so they can quietly reproduce gendered or age-coded language and unfair patterns. Turn that around by asking AI to flag biased or exclusionary wording and suggest neutral alternatives — and never let it screen or rank people.</li><li><strong>Confidentiality:</strong> employee names, PII, health details, compensation, and investigation notes should not go into a general AI tool. Draft with placeholders and roles instead of real identities, and follow your organization's data policy.</li></ul><p>Handle those two and AI becomes a genuine time-saver across hiring, policy, and onboarding — without putting a person's privacy or a fair process at risk. This is a productivity tool; the responsibility for fair, compliant people decisions stays with you.</p>"
+      "html": "<p>Two problems are specific to HR, and AI won't catch them unless you make it, or unless you simply don't create them:</p><ul><li><strong>Bias:</strong> models learn from human text, so they can quietly reproduce gendered or age-coded language and unfair patterns. Turn that around by asking AI to flag biased or exclusionary wording and suggest neutral alternatives, and never let it screen or rank people.</li><li><strong>Confidentiality:</strong> employee names, PII, health details, compensation, and investigation notes should not go into a general AI tool. Draft with placeholders and roles instead of real identities, and follow your organization's data policy.</li></ul><p>Handle those two and AI becomes a genuine time-saver across hiring, policy, and onboarding, without putting a person's privacy or a fair process at risk. This is a productivity tool; the responsibility for fair, compliant people decisions stays with you.</p>"
     }
   ],
   "faqHeading": "HR AI questions",
@@ -124,7 +124,7 @@
     },
     {
       "q": "How do I keep AI from introducing bias?",
-      "a": "Ask for it directly. In your prompt, tell the model to flag any wording that could deter specific groups and to suggest neutral alternatives, then review the result yourself. Bias also creeps in through the task — never ask AI to rank people or write intentionally exclusionary requirements."
+      "a": "Ask for it directly. In your prompt, tell the model to flag any wording that could deter specific groups and to suggest neutral alternatives, then review the result yourself. Bias also creeps in through the task, so never ask AI to rank people or write intentionally exclusionary requirements."
     },
     {
       "q": "Is it safe to paste employee data into AI?",

@@ -16,7 +16,7 @@
     "Midjourney prompt guide",
     "Midjourney aspect ratio"
   ],
-  "lede": "Midjourney turns a sentence into an image, so the sentence is the whole job. The people who get gorgeous, consistent results aren't luckier — they write in layers and steer with parameters. Iro teaches you that structure so you stop rolling the dice and start directing.",
+  "lede": "Midjourney turns a sentence into an image, so the sentence is the whole job. The people who get gorgeous, consistent results aren't luckier. They write in layers and steer with parameters. Iro teaches you that structure so you stop rolling the dice and start directing.",
   "pills": [
     "Prompt structure",
     "Style & lighting",
@@ -55,7 +55,7 @@
     {
       "t": "The four-layer prompt",
       "dur": "5 min",
-      "blurb": "Subject, style, composition, lighting — the order that turns a sentence into a shot."
+      "blurb": "Subject, style, composition, lighting: the order that turns a sentence into a shot."
     },
     {
       "t": "Parameters that actually matter",
@@ -101,23 +101,23 @@
       }
     ],
     "revealLabel": "See why the second prompt wins",
-    "feedback": "The winning prompt works in layers: a clear <strong>subject</strong> (a coiled dragon), a specific <strong>style and medium</strong> (minimalist flat vector logo, mascot style), <strong>composition</strong> (centered, clean geometric lines, white background), and <strong>parameters</strong> that control the output — <strong>--ar 1:1</strong> for a square logo, <strong>--style raw</strong> to cut Midjourney's default flourish, and <strong>--no gradient, shading</strong> as a negative prompt to keep it flat. Phrases like \"high quality 4k\" and \"make it awesome\" do nothing — they're not things the model can act on. In Iro you'd rewrite a weak prompt like this and get feedback on the exact layer you left out."
+    "feedback": "The winning prompt works in layers: a clear <strong>subject</strong> (a coiled dragon), a specific <strong>style and medium</strong> (minimalist flat vector logo, mascot style), <strong>composition</strong> (centered, clean geometric lines, white background), and <strong>parameters</strong> that control the output: <strong>--ar 1:1</strong> for a square logo, <strong>--style raw</strong> to cut Midjourney's default flourish, and <strong>--no gradient, shading</strong> as a negative prompt to keep it flat. Phrases like \"high quality 4k\" and \"make it awesome\" do nothing, since they're not things the model can act on. In Iro you'd rewrite a weak prompt like this and get feedback on the exact layer you left out."
   },
   "body": [
     {
       "h2": "Why the same tool gives one person art and another person mush",
-      "html": "<p>Midjourney has no canvas and no sliders you drag — the prompt is the entire interface. That is why two people using the identical model get wildly different results: one types \"a cool dragon\" and one describes a subject, a medium, a composition, and a light source. The model fills every gap you leave, so vague prompts hand the decisions to a dice roll.</p><p>The fix is to write in layers and then steer with parameters. <strong>--ar</strong> sets your aspect ratio, <strong>--stylize</strong> controls how much artistic liberty the model takes, <strong>--v</strong> picks the model version, and <strong>--no</strong> removes things you don't want. Whether you run Midjourney through its Discord bot or the web app, the skill is the same: describe on purpose, then adjust one lever at a time.</p>"
+      "html": "<p>Midjourney has no canvas and no sliders you drag; the prompt is the entire interface. That is why two people using the identical model get wildly different results: one types \"a cool dragon\" and one describes a subject, a medium, a composition, and a light source. The model fills every gap you leave, so vague prompts hand the decisions to a dice roll.</p><p>The fix is to write in layers and then steer with parameters. <strong>--ar</strong> sets your aspect ratio, <strong>--stylize</strong> controls how much artistic liberty the model takes, <strong>--v</strong> picks the model version, and <strong>--no</strong> removes things you don't want. Whether you run Midjourney through its Discord bot or the web app, the skill is the same: describe on purpose, then adjust one lever at a time.</p>"
     },
     {
       "h2": "The skill transfers to any image model",
-      "html": "<p>Layered prompting — subject, style, composition, lighting — is how you get good results from any text-to-image tool, whether it's Midjourney, DALL-E, Stable Diffusion, Adobe Firefly, or the generator built into Canva. What is unique to Midjourney is the parameter syntax (<strong>--ar</strong>, <strong>--sref</strong>, <strong>--cref</strong>, <strong>--stylize</strong>) and its house style. Learn the structure once and you carry it everywhere; learn the parameters and you get precise control on top.</p>"
+      "html": "<p>Layered prompting (subject, style, composition, lighting) is how you get good results from any text-to-image tool, whether it's Midjourney, DALL-E, Stable Diffusion, Adobe Firefly, or the generator built into Canva. What is unique to Midjourney is the parameter syntax (<strong>--ar</strong>, <strong>--sref</strong>, <strong>--cref</strong>, <strong>--stylize</strong>) and its house style. Learn the structure once and you carry it everywhere; learn the parameters and you get precise control on top.</p>"
     }
   ],
   "faqHeading": "Midjourney questions",
   "faq": [
     {
       "q": "How do I write a good Midjourney prompt?",
-      "a": "Write in layers: name the subject, then the style or medium, then the composition (shot type, framing), then the lighting and mood. Add parameters like --ar for aspect ratio and --stylize for artistic liberty. Then generate and iterate — the first result is a draft, not the final image."
+      "a": "Write in layers: name the subject, then the style or medium, then the composition (shot type, framing), then the lighting and mood. Add parameters like --ar for aspect ratio and --stylize for artistic liberty. Then generate and iterate; the first result is a draft, not the final image."
     },
     {
       "q": "What do Midjourney parameters like --ar and --stylize do?",

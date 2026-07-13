@@ -40,7 +40,7 @@
     "bullets": [
       "Personalization beats volume: research one prospect well, don't mass-generate 100 generic emails.",
       "Give the model the prospect's real context (their post, their role, their problem), then a single clear ask.",
-      "AI is a great prep and note-cleanup teammate — never let it invent facts about an account."
+      "AI is a great prep and note-cleanup teammate, but never let it invent facts about an account."
     ]
   },
   "outcomesHeading": "What you'll be able to do",
@@ -80,7 +80,7 @@
   ],
   "practice": {
     "type": "Prompt practice",
-    "scenario": "You found a strong prospect — a VP of Operations at a mid-size logistics company who just posted about struggling to staff their warehouse night shift. You sell warehouse-scheduling software and want AI to help write a first-touch email that doesn't read like every other pitch in their inbox.",
+    "scenario": "You found a strong prospect: a VP of Operations at a mid-size logistics company who just posted about struggling to staff their warehouse night shift. You sell warehouse-scheduling software and want AI to help write a first-touch email that doesn't read like every other pitch in their inbox.",
     "task": "Pick the prompt that produces outreach a busy VP might actually reply to.",
     "options": [
       {
@@ -101,23 +101,23 @@
       }
     ],
     "revealLabel": "See why the second prompt wins",
-    "feedback": "The winning prompt personalizes with <strong>real context</strong> (you paste the prospect's actual role and post), sets a <strong>role</strong> (AE), and gives tight <strong>constraints and structure</strong> — 90 words, one observation, one outcome, one clear ask. It even bans the spam clichés that get emails deleted. The others generate generic, mass-market copy: template dumps and \"write the best email\" hand the judgment to the model and ignore the one thing that earns a reply — that you noticed something specific about <em>this</em> buyer. In Iro you'd write your own version and get feedback on whether it's genuinely personalized or just polished spam."
+    "feedback": "The winning prompt personalizes with <strong>real context</strong> (you paste the prospect's actual role and post), sets a <strong>role</strong> (AE), and gives tight <strong>constraints and structure</strong>: 90 words, one observation, one outcome, one clear ask. It even bans the spam clichés that get emails deleted. The others generate generic, mass-market copy: template dumps and \"write the best email\" hand the judgment to the model and ignore the one thing that earns a reply: that you noticed something specific about <em>this</em> buyer. In Iro you'd write your own version and get feedback on whether it's genuinely personalized or just polished spam."
   },
   "body": [
     {
       "h2": "Why most AI sales outreach gets ignored",
-      "html": "<p>The fastest way to make AI hurt your numbers is to use it for volume. A model will happily generate a hundred near-identical emails, and buyers can spot them instantly — the generic opener, the three-paragraph value dump, the \"circling back\" follow-up. More send, more ignore.</p><p>The reps who win with AI flip it: they use the model to <strong>prepare better</strong>, not send more. Feed it a prospect's real role, their recent post, or their company's news, and ask for one specific hook and one clear ask. The output is a message that reads like a human who did their homework, because you did — the AI just helped you do it in minutes instead of an afternoon.</p>"
+      "html": "<p>The fastest way to make AI hurt your numbers is to use it for volume. A model will happily generate a hundred near-identical emails, and buyers can spot them instantly: the generic opener, the three-paragraph value dump, the \"circling back\" follow-up. More send, more ignore.</p><p>The reps who win with AI flip it: they use the model to <strong>prepare better</strong>, not send more. Feed it a prospect's real role, their recent post, or their company's news, and ask for one specific hook and one clear ask. The output is a message that reads like a human who did their homework, because you did. The AI just helped you do it in minutes instead of an afternoon.</p>"
     },
     {
       "h2": "Where AI actually earns its keep in a sales workflow",
-      "html": "<ul><li><strong>Prospect research:</strong> summarize an account, surface likely pain, and find a specific, non-generic reason to reach out.</li><li><strong>Personalized outreach:</strong> first-touch emails and follow-ups built around one real observation, not a template.</li><li><strong>Discovery prep:</strong> draft sharp questions and a hypothesis about what this buyer needs before you dial.</li><li><strong>Objection rehearsal:</strong> role-play a skeptical prospect so you're not hearing \"it's too expensive\" for the first time live.</li><li><strong>Call notes to CRM:</strong> turn a rambling recording into a clean summary, next steps, and fields your CRM actually wants.</li></ul><p>What's not on the list: letting AI invent facts about an account or decide your strategy. It researches, drafts, and rehearses — you own the deal.</p>"
+      "html": "<ul><li><strong>Prospect research:</strong> summarize an account, surface likely pain, and find a specific, non-generic reason to reach out.</li><li><strong>Personalized outreach:</strong> first-touch emails and follow-ups built around one real observation, not a template.</li><li><strong>Discovery prep:</strong> draft sharp questions and a hypothesis about what this buyer needs before you dial.</li><li><strong>Objection rehearsal:</strong> role-play a skeptical prospect so you're not hearing \"it's too expensive\" for the first time live.</li><li><strong>Call notes to CRM:</strong> turn a rambling recording into a clean summary, next steps, and fields your CRM actually wants.</li></ul><p>What's not on the list: letting AI invent facts about an account or decide your strategy. It researches, drafts, and rehearses; you own the deal.</p>"
     }
   ],
   "faqHeading": "Sales AI questions",
   "faq": [
     {
       "q": "What's the best AI tool for sales prospecting?",
-      "a": "There's no single tool — it's the workflow. A general model like ChatGPT or Claude handles research, outreach drafts, and objection role-play; Perplexity is strong for cited company research. The durable skill is prompting and verifying well, which Iro trains tool-agnostically so it works with whatever your team uses."
+      "a": "There's no single tool; it's the workflow. A general model like ChatGPT or Claude handles research, outreach drafts, and objection role-play; Perplexity is strong for cited company research. The durable skill is prompting and verifying well, which Iro trains tool-agnostically so it works with whatever your team uses."
     },
     {
       "q": "Can AI write cold emails that don't feel like spam?",
@@ -125,11 +125,11 @@
     },
     {
       "q": "How do I use AI to prep for a discovery call?",
-      "a": "Give it the account context and ask for a short list of open-ended discovery questions plus a hypothesis about the buyer's likely pain and priorities. Use it to rehearse objections too — tell it to act as a skeptical prospect and push back on price and timing."
+      "a": "Give it the account context and ask for a short list of open-ended discovery questions plus a hypothesis about the buyer's likely pain and priorities. Use it to rehearse objections too: tell it to act as a skeptical prospect and push back on price and timing."
     },
     {
       "q": "Can AI turn my call notes into a CRM update?",
-      "a": "That's one of its best sales uses. Paste your raw notes or transcript and ask for a structured summary: key points, decision criteria, objections raised, next steps, and the specific fields your CRM tracks. Always skim it before saving — never let it guess at facts you didn't actually hear."
+      "a": "That's one of its best sales uses. Paste your raw notes or transcript and ask for a structured summary: key points, decision criteria, objections raised, next steps, and the specific fields your CRM tracks. Always skim it before saving, and never let it guess at facts you didn't actually hear."
     },
     {
       "q": "Will AI replace salespeople?",

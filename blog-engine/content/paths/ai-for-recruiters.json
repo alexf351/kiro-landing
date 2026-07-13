@@ -16,7 +16,7 @@
     "ChatGPT for recruiters",
     "AI recruiting prompts"
   ],
-  "lede": "Recruiting is a volume game with a human core. Iro teaches the AI moves that clear the busywork without losing the judgment: write a job description that actually attracts the right people, build boolean strings faster, summarize resumes and screens fairly, and write outreach that sounds like you — not a bot. Five minutes a day, real practice with feedback.",
+  "lede": "Recruiting is a volume game with a human core. Iro teaches the AI moves that clear the busywork without losing the judgment: write a job description that actually attracts the right people, build boolean strings faster, summarize resumes and screens fairly, and write outreach that sounds like you, not a bot. Five minutes a day, real practice with feedback.",
   "pills": [
     "Job descriptions",
     "Boolean & sourcing",
@@ -70,7 +70,7 @@
     {
       "t": "Outreach in a human voice",
       "dur": "5 min",
-      "blurb": "Write personalized candidate messages that reference their real work — not a mail merge."
+      "blurb": "Write personalized candidate messages that reference their real work, not a mail merge."
     },
     {
       "t": "Reducing bias with AI",
@@ -101,16 +101,16 @@
       }
     ],
     "revealLabel": "See why the second prompt wins",
-    "feedback": "The winning prompt keeps the human in charge and hiring fair. It sets clear <strong>role context and criteria</strong> (the five must-haves), demands <strong>evidence tied to your actual notes</strong> rather than invented inference, uses a <strong>consistent structured output</strong> (Met / Partial / Not covered) so every candidate is judged the same way, and explicitly <strong>bans biased signals</strong> like age, school prestige, and vague \"culture fit.\" The losing options ask the model to decide, score, or judge fit — which bakes in bias and outsources a decision that must stay with a person. In Iro you'd write your own version and get feedback on whether it's genuinely fair or quietly biased."
+    "feedback": "The winning prompt keeps the human in charge and hiring fair. It sets clear <strong>role context and criteria</strong> (the five must-haves), demands <strong>evidence tied to your actual notes</strong> rather than invented inference, uses a <strong>consistent structured output</strong> (Met / Partial / Not covered) so every candidate is judged the same way, and explicitly <strong>bans biased signals</strong> like age, school prestige, and vague \"culture fit.\" The losing options ask the model to decide, score, or judge fit, which bakes in bias and outsources a decision that must stay with a person. In Iro you'd write your own version and get feedback on whether it's genuinely fair or quietly biased."
   },
   "body": [
     {
       "h2": "Where AI helps recruiters — and where it must not",
-      "html": "<p>AI is genuinely good at the writing-and-summarizing half of recruiting: drafting job descriptions, expanding boolean strings, condensing resumes, and turning screen notes into a readable summary. Used well, it can hand a recruiter back the hours that used to disappear into a blank page and a copy-paste search.</p><p>What it must not do is <strong>make the hiring decision</strong>. The moment you ask a model to score a candidate, judge \"culture fit,\" or rank people, you've handed a high-stakes, legally sensitive call to a system that pattern-matches on its training data — which is exactly where bias creeps in. The rule that keeps you safe: AI drafts and summarizes against criteria <em>you</em> set; a human decides.</p>"
+      "html": "<p>AI is genuinely good at the writing-and-summarizing half of recruiting: drafting job descriptions, expanding boolean strings, condensing resumes, and turning screen notes into a readable summary. Used well, it can hand a recruiter back the hours that used to disappear into a blank page and a copy-paste search.</p><p>What it must not do is <strong>make the hiring decision</strong>. The moment you ask a model to score a candidate, judge \"culture fit,\" or rank people, you've handed a high-stakes, legally sensitive call to a system that pattern-matches on its training data, which is exactly where bias creeps in. The rule that keeps you safe: AI drafts and summarizes against criteria <em>you</em> set; a human decides.</p>"
     },
     {
       "h2": "The recruiter's AI toolkit, without the bias",
-      "html": "<ul><li><strong>Job descriptions:</strong> turn a messy intake into a clear, inclusive JD — then ask the model to flag coded or exclusionary language like \"rockstar\" or \"digital native.\"</li><li><strong>Sourcing:</strong> draft and expand boolean strings and search variations, then tighten them with your own knowledge of the market.</li><li><strong>Candidate summaries:</strong> summarize resumes and screens against the same fixed criteria every time, with evidence, so comparisons stay honest.</li><li><strong>Outreach:</strong> personalized messages that reference a candidate's real work, written in a human voice instead of a mail-merge template.</li></ul><p>Give the model context and explicit fairness instructions, keep every summary tied to evidence, and verify before anything reaches a candidate or a hiring manager.</p>"
+      "html": "<ul><li><strong>Job descriptions:</strong> turn a messy intake into a clear, inclusive JD, then ask the model to flag coded or exclusionary language like \"rockstar\" or \"digital native.\"</li><li><strong>Sourcing:</strong> draft and expand boolean strings and search variations, then tighten them with your own knowledge of the market.</li><li><strong>Candidate summaries:</strong> summarize resumes and screens against the same fixed criteria every time, with evidence, so comparisons stay honest.</li><li><strong>Outreach:</strong> personalized messages that reference a candidate's real work, written in a human voice instead of a mail-merge template.</li></ul><p>Give the model context and explicit fairness instructions, keep every summary tied to evidence, and verify before anything reaches a candidate or a hiring manager.</p>"
     }
   ],
   "faqHeading": "Recruiting AI questions",
@@ -129,7 +129,7 @@
     },
     {
       "q": "How do I reduce bias when using AI in hiring?",
-      "a": "Give the model explicit instructions to ignore age, gender, school prestige, and vague 'culture fit,' tie every summary to evidence from your notes, and judge every candidate against the same fixed criteria. Then have a person review the output — AI can reduce some bias but can also introduce it, so verification matters."
+      "a": "Give the model explicit instructions to ignore age, gender, school prestige, and vague 'culture fit,' tie every summary to evidence from your notes, and judge every candidate against the same fixed criteria. Then have a person review the output: AI can reduce some bias but can also introduce it, so verification matters."
     },
     {
       "q": "Will AI make candidate outreach feel robotic?",

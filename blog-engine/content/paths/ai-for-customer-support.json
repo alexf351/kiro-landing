@@ -4,7 +4,7 @@
   "category": "jobs",
   "eyebrow": "AI for customer support",
   "hubTitle": "AI for customer support",
-  "hubBlurb": "Draft on-brand replies, summarize tickets, build macros, and triage — without inventing policy.",
+  "hubBlurb": "Draft on-brand replies, summarize tickets, build macros, and triage, all without inventing policy.",
   "title": "AI for Customer Support: Faster, On-Brand | Iro AI",
   "h1": "AI for support teams that still sound human.",
   "metaDescription": "How support teams use AI to draft replies in brand voice, summarize long tickets, build macros, and triage tickets — without inventing policy.",
@@ -36,11 +36,11 @@
     "Keeping AI from inventing policy"
   ],
   "tldr": {
-    "answer": "Support teams get the most from AI by using it to draft and summarize, while keeping every factual claim grounded in real policy. The strongest uses are writing replies in your brand voice, summarizing long tickets, generating macros and help-doc drafts, and triaging what to escalate. The non-negotiable rule: when the model doesn't know the policy or the account detail, it must say so and flag for a human — never guess.",
+    "answer": "Support teams get the most from AI by using it to draft and summarize, while keeping every factual claim grounded in real policy. The strongest uses are writing replies in your brand voice, summarizing long tickets, generating macros and help-doc drafts, and triaging what to escalate. The non-negotiable rule: when the model doesn't know the policy or the account detail, it must say so and flag for a human, never guess.",
     "bullets": [
       "AI drafts and summarizes; a human owns anything that commits the company to a promise.",
       "Feed it your real help-center text and brand-voice examples so it grounds answers, not guesses.",
-      "The most important skill is teaching AI to say 'I don't have that policy — flag it' instead of inventing one."
+      "The most important skill is teaching AI to say 'I don't have that policy, flag it' instead of inventing one."
     ]
   },
   "outcomesHeading": "What you'll be able to do",
@@ -48,7 +48,7 @@
     "Draft a support reply that matches your brand voice and the customer's tone",
     "Summarize a long, multi-message ticket into the facts and the ask",
     "Turn a good reply into a reusable macro or a help-doc draft",
-    "Triage a ticket and decide what to escalate — and to whom",
+    "Triage a ticket and decide what to escalate, and to whom",
     "Get AI to flag missing policy instead of confidently making it up"
   ],
   "lessons": [
@@ -70,7 +70,7 @@
     {
       "t": "Triage and escalation",
       "dur": "5 min",
-      "blurb": "Use AI to classify urgency and route tickets — while you keep the judgment call."
+      "blurb": "Use AI to classify urgency and route tickets while you keep the judgment call."
     },
     {
       "t": "Never invent policy",
@@ -101,27 +101,27 @@
       }
     ],
     "revealLabel": "See why the second prompt wins",
-    "feedback": "The winning prompt grounds the model in <strong>real policy text</strong> and forbids it from going beyond it, sets the <strong>brand voice and empathy</strong>, and — most important for support — tells it to <strong>flag uncertainty instead of inventing an answer</strong> with a clear [CHECK] marker for the human. The losing options all let AI commit the company to a promise it can't verify: deciding refund eligibility, being maximally \"helpful,\" or assuming a full refund. In support, a confident wrong answer becomes a promise you have to honor. In Iro you'd write your own version and get feedback on whether it stays grounded or quietly guesses at policy."
+    "feedback": "The winning prompt grounds the model in <strong>real policy text</strong> and forbids it from going beyond it, sets the <strong>brand voice and empathy</strong>, and (most important for support) tells it to <strong>flag uncertainty instead of inventing an answer</strong> with a clear [CHECK] marker for the human. The losing options all let AI commit the company to a promise it can't verify: deciding refund eligibility, being maximally \"helpful,\" or assuming a full refund. In support, a confident wrong answer becomes a promise you have to honor. In Iro you'd write your own version and get feedback on whether it stays grounded or quietly guesses at policy."
   },
   "body": [
     {
       "h2": "The one rule that makes AI safe in support",
-      "html": "<p>AI can draft a warm, on-brand reply in seconds — which is exactly why it's dangerous in support if you skip one rule: <strong>it must never invent policy</strong>. A model asked whether a refund is allowed will happily produce a confident, specific, and completely made-up answer. Send that, and you've made a promise your company now has to keep.</p><p>The fix is to ground it. Paste the actual policy or help-center text, tell the model to use only what's there, and instruct it to flag anything it can't confirm with a marker like <code>[CHECK: …]</code> instead of guessing. That single habit turns AI from a liability into a genuinely fast, safe drafting partner.</p>"
+      "html": "<p>AI can draft a warm, on-brand reply in seconds, which is exactly why it's dangerous in support if you skip one rule: <strong>it must never invent policy</strong>. A model asked whether a refund is allowed will happily produce a confident, specific, and completely made-up answer. Send that, and you've made a promise your company now has to keep.</p><p>The fix is to ground it. Paste the actual policy or help-center text, tell the model to use only what's there, and instruct it to flag anything it can't confirm with a marker like <code>[CHECK: …]</code> instead of guessing. That single habit turns AI from a liability into a genuinely fast, safe drafting partner.</p>"
     },
     {
       "h2": "Where AI speeds up a support queue",
-      "html": "<ul><li><strong>Brand-voice replies:</strong> feed it tone rules and a few example replies so drafts sound like your team and match the customer's mood.</li><li><strong>Ticket summaries:</strong> condense a long thread into the problem, what's already been tried, and the actual ask — great for handoffs and escalations.</li><li><strong>Macros and help docs:</strong> turn your best answers into reusable macros and first-draft help-center articles.</li><li><strong>Triage:</strong> classify urgency and suggest routing, while a human keeps the final judgment call.</li></ul><p>Everything AI touches here is a draft or a summary. The reply that goes out, the policy that's quoted, and the escalation that's made still belong to a person who checks the work.</p>"
+      "html": "<ul><li><strong>Brand-voice replies:</strong> feed it tone rules and a few example replies so drafts sound like your team and match the customer's mood.</li><li><strong>Ticket summaries:</strong> condense a long thread into the problem, what's already been tried, and the actual ask (great for handoffs and escalations).</li><li><strong>Macros and help docs:</strong> turn your best answers into reusable macros and first-draft help-center articles.</li><li><strong>Triage:</strong> classify urgency and suggest routing, while a human keeps the final judgment call.</li></ul><p>Everything AI touches here is a draft or a summary. The reply that goes out, the policy that's quoted, and the escalation that's made still belong to a person who checks the work.</p>"
     }
   ],
   "faqHeading": "Support AI questions",
   "faq": [
     {
       "q": "What's the best AI tool for customer support?",
-      "a": "The tool matters less than the workflow and the grounding. A general model like ChatGPT or Claude can draft replies, summarize tickets, and write macros, and many help desks now build AI in directly. The durable skill is prompting it to stay grounded in real policy and to flag what it doesn't know — which is exactly what Iro trains, tool-agnostically."
+      "a": "The tool matters less than the workflow and the grounding. A general model like ChatGPT or Claude can draft replies, summarize tickets, and write macros, and many help desks now build AI in directly. The durable skill is prompting it to stay grounded in real policy and to flag what it doesn't know, which is exactly what Iro trains, tool-agnostically."
     },
     {
       "q": "Can AI write customer support replies?",
-      "a": "Yes, and it's one of the strongest uses — as long as you ground it. Give it your brand-voice examples, the customer's message, and the relevant policy text, then have it draft. Always review before sending, and make sure it flags anything it couldn't confirm rather than guessing."
+      "a": "Yes, and it's one of the strongest uses, as long as you ground it. Give it your brand-voice examples, the customer's message, and the relevant policy text, then have it draft. Always review before sending, and make sure it flags anything it couldn't confirm rather than guessing."
     },
     {
       "q": "How do I stop AI from making up policy or account details?",

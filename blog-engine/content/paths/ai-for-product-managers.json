@@ -4,23 +4,23 @@
   "category": "jobs",
   "eyebrow": "AI for product managers",
   "hubTitle": "AI for product managers",
-  "hubBlurb": "Synthesize feedback, draft PRDs, and run teardowns — AI as your product research partner.",
+  "hubBlurb": "Synthesize feedback, draft PRDs, and run teardowns with AI as your product research partner.",
   "title": "AI for Product Managers: Feedback to PRD | Iro AI",
   "h1": "AI for product managers who ship.",
   "metaDescription": "How product managers use AI to turn feedback into themes, draft PRDs, run teardowns, and write crisp updates. Practice the skills in 5-minute Iro lessons.",
   "keywords": ["AI for product managers", "AI for PMs", "AI product management", "ChatGPT for product managers", "how PMs use AI", "AI for writing PRDs"],
-  "lede": "The PM job is synthesis: turning a pile of feedback, data, and stakeholder opinions into one clear decision. Iro teaches you to use AI as a research and drafting partner — cluster feedback into themes, draft the PRD, tear down a competitor — while you keep the judgment and the roadmap.",
+  "lede": "The PM job is synthesis: turning a pile of feedback, data, and stakeholder opinions into one clear decision. Iro teaches you to use AI as a research and drafting partner (cluster feedback into themes, draft the PRD, tear down a competitor) while you keep the judgment and the roadmap.",
   "pills": ["User research", "PRDs & specs", "Competitive teardowns", "Prioritization", "Stakeholder updates", "Roadmapping"],
   "about": "AI for product management",
   "level": "Beginner to advanced",
   "audience": "Product managers, associate PMs, product owners, founders wearing the product hat",
   "teaches": ["Synthesizing user research with AI", "Drafting PRDs and specs", "Running competitive teardowns", "Prompting for product work", "Verifying AI output before it hits the roadmap"],
   "tldr": {
-    "answer": "Product managers get the most from AI by using it for synthesis and first drafts, not decisions: cluster raw user feedback into themes, draft PRDs and specs from your notes, run competitive teardowns, and turn a messy analysis into a crisp stakeholder update. The judgment — what to build, what to cut, what a theme really means — stays yours, and you verify anything the model infers before it reaches the roadmap.",
+    "answer": "Product managers get the most from AI by using it for synthesis and first drafts, not decisions: cluster raw user feedback into themes, draft PRDs and specs from your notes, run competitive teardowns, and turn a messy analysis into a crisp stakeholder update. The judgment (what to build, what to cut, what a theme really means) stays yours, and you verify anything the model infers before it reaches the roadmap.",
     "bullets": [
       "Best uses: synthesizing feedback, drafting PRDs, teardowns, and updates.",
       "Give AI the raw material and a structure; you keep the prioritization calls.",
-      "Make the model flag what it's inferring — thin signal shouldn't drive a roadmap."
+      "Make the model flag what it's inferring, since thin signal shouldn't drive a roadmap."
     ]
   },
   "outcomesHeading": "What you'll be able to do",
@@ -33,14 +33,14 @@
   ],
   "lessons": [
     { "t": "Feedback to themes", "dur": "6 min", "blurb": "The prompt pattern that clusters raw reviews, tickets, and interviews into counted, named themes." },
-    { "t": "Draft the PRD", "dur": "6 min", "blurb": "Turn your notes and constraints into a first-draft PRD you edit — problem, goals, scope, risks." },
+    { "t": "Draft the PRD", "dur": "6 min", "blurb": "Turn your notes and constraints into a first-draft PRD you edit: problem, goals, scope, risks." },
     { "t": "Tear down a competitor", "dur": "5 min", "blurb": "Get past marketing copy to real feature gaps, positioning, and where you can win." },
-    { "t": "Prioritize with a framework", "dur": "5 min", "blurb": "Use AI to score options against RICE or your own criteria — then make the call yourself." },
+    { "t": "Prioritize with a framework", "dur": "5 min", "blurb": "Use AI to score options against RICE or your own criteria, then make the call yourself." },
     { "t": "The stakeholder update", "dur": "5 min", "blurb": "Turn a week of noise into a crisp update: decisions, progress, risks, and asks." }
   ],
   "practice": {
     "type": "Prompt practice",
-    "scenario": "You've just closed a round of 30 user interviews plus a stack of support tickets and app-store reviews. You want AI to help you find the themes so you know what to build next — but \"summarize this feedback\" gives you one vague paragraph you can't prioritize from.",
+    "scenario": "You've just closed a round of 30 user interviews plus a stack of support tickets and app-store reviews. You want AI to help you find the themes so you know what to build next, but \"summarize this feedback\" gives you one vague paragraph you can't prioritize from.",
     "task": "Pick the prompt that turns a pile of raw feedback into something a PM can act on.",
     "options": [
       { "text": "\"Summarize this user feedback.\"", "correct": false },
@@ -54,7 +54,7 @@
   "body": [
     {
       "h2": "Why AI fits the PM job so well",
-      "html": "<p>Most of a PM's day is synthesis: reading feedback, weighing data, reconciling stakeholder opinions, and turning all of it into a decision and a document. That's exactly the work AI accelerates — it can read a hundred reviews faster than you, cluster them, and draft the doc. What it can't do is decide what matters, and it will happily invent a theme or a competitor feature if you let it.</p><p>So the model does the reading and the first draft; you do the prioritization and the verification. A good PM prompt gives the model the raw material (the actual feedback, your notes, the constraints), asks for a specific structure, and tells it to flag anything it's inferring — so a thin signal never quietly becomes a roadmap item.</p>"
+      "html": "<p>Most of a PM's day is synthesis: reading feedback, weighing data, reconciling stakeholder opinions, and turning all of it into a decision and a document. That's exactly the work AI accelerates: it can read a hundred reviews faster than you, cluster them, and draft the doc. What it can't do is decide what matters, and it will happily invent a theme or a competitor feature if you let it.</p><p>So the model does the reading and the first draft; you do the prioritization and the verification. A good PM prompt gives the model the raw material (the actual feedback, your notes, the constraints), asks for a specific structure, and tells it to flag anything it's inferring, so a thin signal never quietly becomes a roadmap item.</p>"
     },
     {
       "h2": "Where AI helps a PM — and where it shouldn't",
@@ -66,8 +66,8 @@
     { "q": "Can AI write a PRD?", "a": "It can write a strong first draft. Give it your problem statement, goals, constraints, and any research, and it will structure a PRD you then edit — the thinking and trade-offs stay yours. A PRD written entirely by AI without your context reads generic and misses the real constraints." },
     { "q": "What's the best way to synthesize user feedback with AI?", "a": "Paste the raw feedback and ask the model to group it into distinct themes with a count and an example quote for each, plus a flag for anything it's inferring. That gives you frequency and evidence instead of a vague summary, and it keeps prioritization in your hands." },
     { "q": "Will AI decide what to build next?", "a": "No, and it shouldn't. AI can score options against a framework like RICE and surface trade-offs, but the roadmap call depends on strategy and context it doesn't have. Use it to structure the decision, not to make it." },
-    { "q": "How do I stop AI from inventing competitor features?", "a": "Ask it to flag uncertainty and say where a claim comes from, then verify anything you'd act on against the actual product or docs. For teardowns especially, a confident wrong detail can send your roadmap the wrong way — Iro has a full path on spotting hallucinations." },
-    { "q": "Do I need to be technical to use AI as a PM?", "a": "No. The highest-leverage PM uses — synthesis, drafting, research, prioritization — are all plain-English prompting. Iro's paths assume no coding and build up the judgment that makes the output reliable." }
+    { "q": "How do I stop AI from inventing competitor features?", "a": "Ask it to flag uncertainty and say where a claim comes from, then verify anything you'd act on against the actual product or docs. For teardowns especially, a confident wrong detail can send your roadmap the wrong way. Iro has a full path on spotting hallucinations." },
+    { "q": "Do I need to be technical to use AI as a PM?", "a": "No. The most valuable PM uses (synthesis, drafting, research, prioritization) are all plain-English prompting. Iro's paths assume no coding and build up the judgment that makes the output reliable." }
   ],
   "related": [
     { "href": "/ai-for-founders", "label": "AI for founders" },

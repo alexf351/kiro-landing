@@ -15,7 +15,7 @@
     "AI for Google Sheets",
     "how to use AI in spreadsheets"
   ],
-  "lede": "Stop fighting VLOOKUP. AI can write the formula, explain the error, and turn a wall of messy data into an answer — if you know how to ask. Iro teaches you the prompts and the checks so the numbers you hand up are actually right.",
+  "lede": "Stop fighting VLOOKUP. AI can write the formula, explain the error, and turn a wall of messy data into an answer, if you know how to ask. Iro teaches you the prompts and the checks so the numbers you hand up are actually right.",
   "pills": [
     "Formulas",
     "Data cleanup",
@@ -35,7 +35,7 @@
     "Verifying AI-generated formulas"
   ],
   "tldr": {
-    "answer": "AI is a genuinely great spreadsheet copilot: describe what you want in plain English and it will write the formula, explain a #REF! error, or suggest how to structure an analysis. The catch is verification — AI sometimes invents functions or off-by-one ranges, so you check the result on a small sample before trusting it on 10,000 rows.",
+    "answer": "AI is a genuinely great spreadsheet copilot: describe what you want in plain English and it will write the formula, explain a #REF! error, or suggest how to structure an analysis. The catch is verification. AI sometimes invents functions or off-by-one ranges, so you check the result on a small sample before trusting it on 10,000 rows.",
     "bullets": [
       "Describe the goal and your columns; let AI write the formula.",
       "Paste an error and the formula; AI explains and fixes it.",
@@ -100,12 +100,12 @@
       }
     ],
     "revealLabel": "See why the second prompt wins",
-    "feedback": "The winning prompt names the <strong>tool</strong> (Excel), gives the <strong>exact cell references and a data example</strong> (A2, \"Ada Lovelace\"), states the <strong>assumption</strong> (single space), asks for an <strong>explanation</strong>, and asks how it handles an <strong>edge case</strong> (missing space). That's the difference between a formula you paste in blind and one you understand and trust. In Iro you'd write your own and get feedback on the details that matter — cell refs, assumptions, and edge cases."
+    "feedback": "The winning prompt names the <strong>tool</strong> (Excel), gives the <strong>exact cell references and a data example</strong> (A2, \"Ada Lovelace\"), states the <strong>assumption</strong> (single space), asks for an <strong>explanation</strong>, and asks how it handles an <strong>edge case</strong> (missing space). That's the difference between a formula you paste in blind and one you understand and trust. In Iro you'd write your own and get feedback on the details that matter: cell refs, assumptions, and edge cases."
   },
   "body": [
     {
       "h2": "Why AI is so good at spreadsheets — and where it slips",
-      "html": "<p>Spreadsheet tasks are a sweet spot for AI: the goal is usually easy to describe in words, and the answer is a small, testable piece of code (a formula). Describe what you want and your columns, and a model like ChatGPT or Claude will hand you the formula, explain an error, or suggest a cleaner structure.</p><p>Where it slips is the details humans skip: it can invent a function that doesn't exist in your version, get a range off by one, or assume your data is cleaner than it is. None of that is a reason to avoid AI — it's a reason to test the formula on a few rows and read what it actually does before you trust it on the whole sheet.</p>"
+      "html": "<p>Spreadsheet tasks are a sweet spot for AI: the goal is usually easy to describe in words, and the answer is a small, testable piece of code (a formula). Describe what you want and your columns, and a model like ChatGPT or Claude will hand you the formula, explain an error, or suggest a cleaner structure.</p><p>Where it slips is the details humans skip: it can invent a function that doesn't exist in your version, get a range off by one, or assume your data is cleaner than it is. None of that is a reason to avoid AI; it's a reason to test the formula on a few rows and read what it actually does before you trust it on the whole sheet.</p>"
     },
     {
       "h2": "Excel or Google Sheets — the skill is the same",
@@ -120,11 +120,11 @@
     },
     {
       "q": "Does this work for Google Sheets too?",
-      "a": "Yes. The approach is identical — just tell the model you're in Google Sheets so it uses the right function names (like ARRAYFORMULA or QUERY). Iro's lessons cover both."
+      "a": "Yes, the approach is identical. Just tell the model you're in Google Sheets so it uses the right function names (like ARRAYFORMULA or QUERY). Iro's lessons cover both."
     },
     {
       "q": "Is it safe to paste my company data into AI?",
-      "a": "Be careful with sensitive or personal data — check your company's policy and the tool's data settings. You can often get the same help by pasting a small, anonymized sample instead of the full dataset. Iro covers this in its AI-at-work lessons."
+      "a": "Be careful with sensitive or personal data. Check your company's policy and the tool's data settings. You can often get the same help by pasting a small, anonymized sample instead of the full dataset. Iro covers this in its AI-at-work lessons."
     },
     {
       "q": "Why did the AI formula give the wrong answer?",

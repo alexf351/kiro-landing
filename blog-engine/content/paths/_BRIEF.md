@@ -119,6 +119,40 @@ Iro card. Two formats:
 
 If unsure a link exists, pick a safer one from these lists. Never invent URLs.
 
+## Step 5 — Anti-slop pass (REQUIRED before you finish)
+
+Reread everything you wrote and strip the tells that make text read like an
+unedited AI draft. This is a hard gate, not a nicety.
+
+- **Em dashes: cap at ~2-3 per page.** Our drafts badly overuse them. Rewrite
+  the rest with commas, colons, periods, or parentheses — whichever reads most
+  naturally. Never create comma splices or run-ons.
+- **Vary openings.** Do not start consecutive sentences, list items, or sections
+  the same way. Don't open every bullet or paragraph with the same word.
+- **Cut hype and corporate verbs:** leverage (as a verb), unlock, supercharge,
+  seamless, elevate, robust, game-changer, cutting-edge, revolutionize,
+  effortless, unleash, "harness the power," "in today's fast-paced world,"
+  "take it to the next level." Say the plain thing instead.
+- **No fake hook questions** ("Ever wondered…?", "What if you could…?") and no
+  empty marketing filler or throat-clearing intros.
+- **Keep contractions** (it's, you'll, don't) — dropping them reads robotic.
+- **No unsupported claims or invented stats.** Every product claim traces to
+  HARD FACTS above.
+- **Vary sentence length; keep paragraphs short** (≤4 sentences). Avoid weak
+  transitions ("Additionally," "Moreover," "Furthermore").
+
+## Step 6 — Self-score before returning (REQUIRED)
+
+Rate your draft 1-5 on the two things that matter most:
+1. **Human voice** — would a skeptical reader believe a person wrote AND edited
+   this, not an AI that shipped its first draft?
+2. **Product truth** — is every statement about Iro accurate per HARD FACTS
+   (nothing invented, the web app is never called "free," no Android app)?
+
+If either is below 4, revise (Step 4 → Step 5) and re-score. Do not return a
+draft that still reads like an AI first draft or contains a single unverified
+product claim.
+
 ## Output
 Write each assigned spec to `blog-engine/content/paths/<slug>.json` as valid
 JSON (no comments, no trailing commas). Validate with `node -e` or `python -m

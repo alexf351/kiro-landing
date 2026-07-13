@@ -4,7 +4,7 @@
   "category": "skills",
   "eyebrow": "AI for productivity",
   "hubTitle": "AI for productivity",
-  "hubBlurb": "Use AI to save real hours every week — email, notes, planning, and busywork.",
+  "hubBlurb": "Use AI to save real hours every week: email, notes, planning, and busywork.",
   "title": "AI for Productivity: Save Real Hours Every Week | Iro AI",
   "h1": "Use AI to get hours back every week.",
   "metaDescription": "A practical guide to AI for productivity: cut time on email, notes, meetings, and planning with prompts that work.",
@@ -15,7 +15,7 @@
     "AI for time management",
     "AI workflows"
   ],
-  "lede": "Productivity with AI isn't about a hundred apps — it's about a handful of workflows you run every day. Iro teaches the prompts that turn inbox, notes, and planning from time sinks into five-minute tasks, and the habits that make them stick.",
+  "lede": "Productivity with AI isn't about a hundred apps; it's about a handful of workflows you run every day. Iro teaches the prompts that turn inbox, notes, and planning from time sinks into five-minute tasks, and the habits that make them stick.",
   "pills": [
     "Email",
     "Meeting notes",
@@ -35,10 +35,10 @@
     "Building durable AI habits"
   ],
   "tldr": {
-    "answer": "The productivity gains from AI come from a few repeatable workflows, not from chasing new tools. The reliable wins are drafting and triaging email, turning messy notes into clear summaries and action items, planning and prioritizing your day, and pressure-testing decisions. Save your best prompts and reuse them — that's what turns a one-off trick into hours saved every week.",
+    "answer": "The productivity gains from AI come from a few repeatable workflows, not from chasing new tools. The reliable wins are drafting and triaging email, turning messy notes into clear summaries and action items, planning and prioritizing your day, and pressure-testing decisions. Save your best prompts and reuse them: that's what turns a one-off trick into hours saved every week.",
     "bullets": [
       "Pick 3–4 recurring tasks and build a reusable prompt for each.",
-      "AI is best at drafts, summaries, and triage — you keep judgment and final calls.",
+      "AI is best at drafts, summaries, and triage; you keep judgment and final calls.",
       "The compounding win is a saved-prompt habit, not a new app every week."
     ]
   },
@@ -59,7 +59,7 @@
     {
       "t": "Inbox in half the time",
       "dur": "6 min",
-      "blurb": "Prompts for triaging, drafting, and replying — in your own tone, not robot-speak."
+      "blurb": "Prompts for triaging, drafting, and replying in your own tone, not robot-speak."
     },
     {
       "t": "Notes to action items",
@@ -79,7 +79,7 @@
   ],
   "practice": {
     "type": "Prompt practice",
-    "scenario": "It's Monday and you have 40 unread emails. You want AI to help you triage, but \"summarize my emails\" isn't something you can paste an inbox into — you need a prompt you can reuse on any single thread.",
+    "scenario": "It's Monday and you have 40 unread emails. You want AI to help you triage, but \"summarize my emails\" isn't something you can paste an inbox into. You need a prompt you can reuse on any single thread.",
     "task": "Choose the reusable prompt that will actually save you time on every email.",
     "options": [
       {
@@ -100,12 +100,12 @@
       }
     ],
     "revealLabel": "See why the second prompt wins",
-    "feedback": "The winning prompt is <strong>reusable</strong> — you paste any thread into it — and it does the two things email triage needs: it <strong>extracts the ask and the decision</strong>, then <strong>drafts a reply you can edit</strong>, and it <strong>refuses to guess</strong> when something's unclear (which is where AI usually creates work instead of saving it). \"Summarize my inbox\" isn't actionable; this is a workflow you run 40 times. In Iro you'd build and refine prompts like this and get feedback on what makes them reusable."
+    "feedback": "The winning prompt is <strong>reusable</strong> (you paste any thread into it) and it does the two things email triage needs: it <strong>extracts the ask and the decision</strong>, then <strong>drafts a reply you can edit</strong>, and it <strong>refuses to guess</strong> when something's unclear (which is where AI usually creates work instead of saving it). \"Summarize my inbox\" isn't actionable; this is a workflow you run 40 times. In Iro you'd build and refine prompts like this and get feedback on what makes them reusable."
   },
   "body": [
     {
       "h2": "Why most \"AI productivity\" advice doesn't stick",
-      "html": "<p>The internet is full of AI-tool listicles, and they mostly don't move the needle. The reason is that productivity isn't a tool problem — it's a workflow problem. Ten new apps you open once don't save time; three prompts you run every single day do.</p><p>The people who actually get hours back pick a few recurring tasks — email, notes, planning — and build a reliable prompt for each. Then they save those prompts and reuse them. That's the whole game: turn a good one-off result into a default you reach for without thinking.</p>"
+      "html": "<p>The internet is full of AI-tool listicles, and they mostly don't move the needle. The reason is that productivity isn't a tool problem; it's a workflow problem. Ten new apps you open once don't save time; three prompts you run every single day do.</p><p>The people who actually get hours back pick a few recurring tasks (email, notes, planning) and build a reliable prompt for each. Then they save those prompts and reuse them. That's the whole game: turn a good one-off result into a default you reach for without thinking.</p>"
     },
     {
       "h2": "What to hand to AI — and what to keep",
@@ -120,15 +120,15 @@
     },
     {
       "q": "How much time can AI actually save me?",
-      "a": "It varies, but the durable wins are the small daily tasks — email, summaries, planning — where a few minutes saved each time adds up across a week. The key is building repeatable prompts rather than one-off experiments."
+      "a": "It varies, but the durable wins are the small daily tasks (email, summaries, planning) where a few minutes saved each time adds up across a week. The key is building repeatable prompts rather than one-off experiments."
     },
     {
       "q": "Won't AI-written emails sound generic?",
-      "a": "They will if you let them. The fix is giving the model your tone and letting it draft, not send — you edit before it goes out. Iro's lessons focus on getting AI to write in your voice."
+      "a": "They will if you let them. The fix is giving the model your tone and letting it draft, not send; you edit before it goes out. Iro's lessons focus on getting AI to write in your voice."
     },
     {
       "q": "How do I actually build the habit?",
-      "a": "Start with one task, save the prompt that works, and reuse it until it's automatic — then add the next. Iro is built around exactly this: five-minute reps and a streak that keeps you consistent."
+      "a": "Start with one task, save the prompt that works, and reuse it until it's automatic, then add the next. Iro is built around exactly this: five-minute reps and a streak that keeps you consistent."
     },
     {
       "q": "Do I need to be technical?",

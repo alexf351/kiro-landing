@@ -4,7 +4,7 @@
   "category": "jobs",
   "eyebrow": "AI for lawyers",
   "hubTitle": "AI for lawyers",
-  "hubBlurb": "Summarize documents, draft first clauses, and explain the law in plain English — then verify everything.",
+  "hubBlurb": "Summarize documents, draft first clauses, and explain the law in plain English, then verify everything.",
   "title": "AI for Lawyers: Draft and Summarize Faster | Iro AI",
   "h1": "AI for lawyers who can't afford to be wrong.",
   "metaDescription": "How lawyers use AI to summarize documents, draft first-pass clauses, and explain concepts in plain English — with a hard rule to verify every citation.",
@@ -15,7 +15,7 @@
     "AI legal document summary",
     "AI for attorneys"
   ],
-  "lede": "AI won't practice law for you, and it will happily invent a case that doesn't exist. Used well, though, it's the fastest paralegal you've ever had: it reads a 60-page agreement in seconds, drafts a first-pass clause, and turns dense statute into plain English. Iro teaches you to get that leverage safely — where AI drafts and summarizes, and you stay responsible for the law.",
+  "lede": "AI won't practice law for you, and it will happily invent a case that doesn't exist. Used well, though, it's the fastest paralegal you've ever had: it reads a 60-page agreement in seconds, drafts a first-pass clause, and turns dense statute into plain English. Iro teaches you to get that advantage safely: AI drafts and summarizes, and you stay responsible for the law.",
   "pills": [
     "Document summaries",
     "First-draft clauses",
@@ -35,10 +35,10 @@
     "Prompting for scope and uncertainty flags"
   ],
   "tldr": {
-    "answer": "Lawyers get the most from AI by using it to summarize, draft, and explain — never to be the final authority on the law. It reads long documents and returns plain-English summaries, produces first-pass clauses and client emails, and gives you a research starting point, but every citation, case name, and legal conclusion has to be verified against a real source before it leaves your desk. This is a productivity tool, not legal advice.",
+    "answer": "Lawyers get the most from AI by using it to summarize, draft, and explain, never to be the final authority on the law. It reads long documents and returns plain-English summaries, produces first-pass clauses and client emails, and gives you a research starting point, but every citation, case name, and legal conclusion has to be verified against a real source before it leaves your desk. This is a productivity tool, not legal advice.",
     "bullets": [
       "Best uses: summarizing documents, first drafts, and plain-language explainers.",
-      "Never trust AI-generated case law or citations — models invent them confidently.",
+      "Never trust AI-generated case law or citations: models invent them confidently.",
       "AI drafts; the lawyer verifies and stays responsible for the advice."
     ]
   },
@@ -74,13 +74,13 @@
     {
       "t": "Research starting points, not answers",
       "dur": "5 min",
-      "blurb": "Use AI to map issues and generate leads to check — then confirm every one against a real source."
+      "blurb": "Use AI to map issues and generate leads to check, then confirm every one against a real source."
     }
   ],
   "practice": {
     "type": "Prompt practice",
     "scenario": "A client sends a 40-page vendor agreement and asks what the indemnification clause actually means. You want AI to speed this up without inviting made-up law into your review.",
-    "task": "Pick the prompt that saves time safely — and doesn't tempt the model to hallucinate.",
+    "task": "Pick the prompt that saves time safely without tempting the model to hallucinate.",
     "options": [
       {
         "text": "\"Find all the cases that support challenging this indemnification clause and cite them.\"",
@@ -100,16 +100,16 @@
       }
     ],
     "revealLabel": "See why the second prompt wins",
-    "feedback": "The winning prompt uses four techniques that keep AI in its lane: it <strong>constrains the scope</strong> to one clause and a plain-English summary, sets a clear <strong>output format</strong> (5 bullets plus a list of ambiguous or one-sided terms), demands <strong>uncertainty flags</strong> so you know exactly what to double-check, and explicitly <strong>forbids invented citations</strong> — the single biggest AI risk in legal work. The \"find cases and cite them\" option is how lawyers end up filing fake case law; models generate realistic-looking citations that don't exist. Asking \"is it enforceable\" pushes the model to give a legal conclusion it isn't qualified to make, and \"rewrite the whole agreement\" is too broad to verify line by line. In Iro you'd write your own version and get feedback on scope, format, and where verification has to happen."
+    "feedback": "The winning prompt uses four techniques that keep AI in its lane: it <strong>constrains the scope</strong> to one clause and a plain-English summary, sets a clear <strong>output format</strong> (5 bullets plus a list of ambiguous or one-sided terms), demands <strong>uncertainty flags</strong> so you know exactly what to double-check, and explicitly <strong>forbids invented citations</strong>, the single biggest AI risk in legal work. The \"find cases and cite them\" option is how lawyers end up filing fake case law; models generate realistic-looking citations that don't exist. Asking \"is it enforceable\" pushes the model to give a legal conclusion it isn't qualified to make, and \"rewrite the whole agreement\" is too broad to verify line by line. In Iro you'd write your own version and get feedback on scope, format, and where verification has to happen."
   },
   "body": [
     {
       "h2": "Where AI helps a lawyer — and where it's dangerous",
-      "html": "<p>The safe, high-value uses of AI in legal work all share one trait: you can verify the output against the source in front of you. Summarizing a document you have, drafting a clause you'll edit, or explaining a concept in plainer words are all things you can check line by line. That's where AI earns its keep — reading fast, drafting fast, and freeing you to do the judgment work.</p><p>The dangerous uses are the ones where the model fills a gap you can't see. Ask it for supporting case law and it will produce citations that look perfect and don't exist. Ask it whether something is enforceable and it will give a confident legal conclusion with no accountability behind it. The rule that keeps you safe is simple: AI drafts and summarizes; you verify and advise. Nothing with an invented fact in it should ever reach a client, a court, or opposing counsel.</p>"
+      "html": "<p>The safe, high-value uses of AI in legal work all share one trait: you can verify the output against the source in front of you. Summarizing a document you have, drafting a clause you'll edit, or explaining a concept in plainer words are all things you can check line by line. That's where AI earns its keep: reading fast, drafting fast, and freeing you to do the judgment work.</p><p>The dangerous uses are the ones where the model fills a gap you can't see. Ask it for supporting case law and it will produce citations that look perfect and don't exist. Ask it whether something is enforceable and it will give a confident legal conclusion with no accountability behind it. The rule that keeps you safe is simple: AI drafts and summarizes; you verify and advise. Nothing with an invented fact in it should ever reach a client, a court, or opposing counsel.</p>"
     },
     {
       "h2": "Verification is the skill, not the prompt",
-      "html": "<p>A good legal AI habit isn't a magic prompt — it's a workflow with a verification step baked in:</p><ul><li><strong>Constrain the task:</strong> ask for a summary, a first draft, or an explanation of a document you already have, not for new facts or law.</li><li><strong>Force uncertainty flags:</strong> tell the model to mark anything ambiguous or anything it isn't sure of, so your review time goes where the risk is.</li><li><strong>Ban invented citations:</strong> tell it not to cite cases or statutes, or treat any citation it gives as an unverified lead to confirm in a real database.</li><li><strong>Keep PII and privilege in mind:</strong> be careful what confidential client material you paste into a general tool, and follow your firm's policy.</li></ul><p>Do this and AI becomes a genuine force multiplier without ever putting your name behind something that isn't true. This page is about productivity, not legal advice — the responsibility for the law always stays with you.</p>"
+      "html": "<p>A good legal AI habit isn't a magic prompt; it's a workflow with a verification step baked in:</p><ul><li><strong>Constrain the task:</strong> ask for a summary, a first draft, or an explanation of a document you already have, not for new facts or law.</li><li><strong>Force uncertainty flags:</strong> tell the model to mark anything ambiguous or anything it isn't sure of, so your review time goes where the risk is.</li><li><strong>Ban invented citations:</strong> tell it not to cite cases or statutes, or treat any citation it gives as an unverified lead to confirm in a real database.</li><li><strong>Keep PII and privilege in mind:</strong> be careful what confidential client material you paste into a general tool, and follow your firm's policy.</li></ul><p>Do this and AI becomes a genuine force multiplier without ever putting your name behind something that isn't true. This page is about productivity, not legal advice: the responsibility for the law always stays with you.</p>"
     }
   ],
   "faqHeading": "Legal AI questions",
@@ -124,11 +124,11 @@
     },
     {
       "q": "Why does AI make up case law?",
-      "a": "Language models predict plausible-sounding text, not verified facts. When you ask for supporting authority, they generate citations that fit the pattern of real ones — right format, realistic names — without checking that the case exists. That's why several lawyers have been sanctioned for filing AI-invented cases. Iro has a full path on spotting these hallucinations."
+      "a": "Language models predict plausible-sounding text, not verified facts. When you ask for supporting authority, they generate citations that fit the pattern of real ones (right format, realistic names) without checking that the case exists. That's why several lawyers have been sanctioned for filing AI-invented cases. Iro has a full path on spotting these hallucinations."
     },
     {
       "q": "Does using AI count as giving legal advice?",
-      "a": "No. Iro teaches AI as a productivity skill — summarizing, drafting, and explaining — not as a source of legal counsel. The lawyer remains responsible for every judgment, and nothing the model produces should reach a client or court without professional review and verification."
+      "a": "No. Iro teaches AI as a productivity skill (summarizing, drafting, and explaining), not as a source of legal counsel. The lawyer remains responsible for every judgment, and nothing the model produces should reach a client or court without professional review and verification."
     },
     {
       "q": "How long does it take to learn?",

@@ -4,7 +4,7 @@
   "category": "jobs",
   "eyebrow": "AI for founders",
   "hubTitle": "AI for founders",
-  "hubBlurb": "Ship faster with a lean team — AI for research, content, ops, and fundraising.",
+  "hubBlurb": "Ship faster with a lean team: AI for research, content, ops, and fundraising.",
   "title": "AI for Founders: Do More With a Lean Team | Iro AI",
   "h1": "AI for founders who need to move fast.",
   "metaDescription": "How founders actually use AI to do more with a small team: customer research, content, ops, hiring, and fundraising.",
@@ -15,7 +15,7 @@
     "how founders use ChatGPT",
     "AI for solo founders"
   ],
-  "lede": "You don't have a team of ten — you have you. Iro turns AI into your force multiplier: research a market in an hour, draft the deck, unblock the code, and answer support without hiring for it. Learn the moves that actually save time, five minutes at a time.",
+  "lede": "You don't have a team of ten. You have you. Iro turns AI into your force multiplier: research a market in an hour, draft the deck, unblock the code, and answer support without hiring for it. Learn the moves that actually save time, five minutes at a time.",
   "pills": [
     "Customer research",
     "Content & copy",
@@ -37,7 +37,7 @@
   "tldr": {
     "answer": "Founders get the most from AI by treating it as a tireless junior teammate: give it context, a clear task, and a format, then verify before you ship. The highest-leverage uses are customer and market research, first drafts of content and decks, operational glue (summaries, SOPs, support replies), and pressure-testing your own thinking.",
     "bullets": [
-      "Biggest wins: research, first drafts, and ops — not \"write my whole business.\"",
+      "Biggest wins: research, first drafts, and ops, not \"write my whole business.\"",
       "Always give the model context a new hire would need, then check its work.",
       "The skill that compounds is prompting judgment, not collecting magic prompts."
     ]
@@ -47,14 +47,14 @@
     "Research a market, competitor, or customer segment in under an hour",
     "Turn a rough idea into a first-draft landing page, email, or deck",
     "Write prompts that give the model the context it actually needs",
-    "Spot when AI output is confident but wrong — before it costs you",
+    "Spot when AI output is confident but wrong, before it costs you",
     "Build a repeatable AI workflow for the tasks you do every week"
   ],
   "lessons": [
     {
       "t": "AI as your first hire",
       "dur": "5 min",
-      "blurb": "Where AI genuinely saves a founder time — and the jobs you should never fully hand off."
+      "blurb": "Where AI genuinely saves a founder time, plus the jobs you should never fully hand off."
     },
     {
       "t": "Research a market in an hour",
@@ -79,7 +79,7 @@
   ],
   "practice": {
     "type": "Prompt practice",
-    "scenario": "You're validating a new product idea and want AI to help you research the market — but a vague prompt like \"tell me about the project management software market\" gives you a generic, unusable essay.",
+    "scenario": "You're validating a new product idea and want AI to help you research the market. But a vague prompt like \"tell me about the project management software market\" gives you a generic, unusable essay.",
     "task": "Pick the prompt that will actually give a founder something useful to act on.",
     "options": [
       {
@@ -100,12 +100,12 @@
       }
     ],
     "revealLabel": "See why the second prompt wins",
-    "feedback": "The winning prompt does four things a founder needs: it sets a <strong>role</strong> (market analyst), narrows the <strong>context</strong> (solo founders, freelancers), asks for a <strong>specific, structured output</strong> (5 incumbents, weaknesses, underserved needs, as a table), and asks the model to <strong>flag its own uncertainty</strong> so you know what to verify. The others are too broad — you'd get a confident, generic essay you can't make a decision from. Inside Iro you'd write your own version of this and get feedback on what's missing."
+    "feedback": "The winning prompt does four things a founder needs: it sets a <strong>role</strong> (market analyst), narrows the <strong>context</strong> (solo founders, freelancers), asks for a <strong>specific, structured output</strong> (5 incumbents, weaknesses, underserved needs, as a table), and asks the model to <strong>flag its own uncertainty</strong> so you know what to verify. The others are too broad. You'd get a confident, generic essay you can't make a decision from. Inside Iro you'd write your own version of this and get feedback on what's missing."
   },
   "body": [
     {
       "h2": "Why founders get uneven results from AI",
-      "html": "<p>Most founders try AI, get a few great answers and a few useless ones, and can't tell why. The difference is almost never the model — it's the prompt and the verification. A good founder prompt gives the model the same context you'd give a sharp new hire: who it's for, what \"good\" looks like, what constraints matter, and what to do when it's unsure.</p><p>The other half is judgment. AI will confidently invent a market size, a competitor feature, or a legal detail. The founders who win with AI treat every output as a draft from a fast but junior teammate — useful, but checked before it ships to a customer, an investor, or the codebase.</p>"
+      "html": "<p>Most founders try AI, get a few great answers and a few useless ones, and can't tell why. The difference is almost never the model; it's the prompt and the verification. A good founder prompt gives the model the same context you'd give a sharp new hire: who it's for, what \"good\" looks like, what constraints matter, and what to do when it's unsure.</p><p>The other half is judgment. AI will confidently invent a market size, a competitor feature, or a legal detail. The founders who win with AI treat every output as a draft from a fast but junior teammate: useful, but checked before it ships to a customer, an investor, or the codebase.</p>"
     },
     {
       "h2": "The highest-leverage uses for a lean team",
@@ -116,11 +116,11 @@
   "faq": [
     {
       "q": "What's the best AI tool for founders?",
-      "a": "There isn't one — it's about the workflow. A general model like ChatGPT or Claude covers research, drafting, and thinking-partner work; Perplexity is strong for cited research. The skill that matters is prompting and verifying well, which is exactly what Iro trains, tool-agnostically."
+      "a": "There isn't one; it's about the workflow. A general model like ChatGPT or Claude covers research, drafting, and thinking-partner work; Perplexity is strong for cited research. The skill that matters is prompting and verifying well, which is exactly what Iro trains, tool-agnostically."
     },
     {
       "q": "Can AI actually help a non-technical founder?",
-      "a": "Yes — arguably more. Non-technical founders use AI to research, write, plan, and even prototype with vibe coding. Iro's beginner paths start from zero and don't assume any coding background."
+      "a": "Yes, arguably more. Non-technical founders use AI to research, write, plan, and even prototype with vibe coding. Iro's beginner paths start from zero and don't assume any coding background."
     },
     {
       "q": "Will AI write my whole business plan or pitch?",
@@ -132,7 +132,7 @@
     },
     {
       "q": "How much time does this take to learn?",
-      "a": "About five minutes a day. Iro is built for busy people — short lessons, real practice, and a streak that keeps the habit alive between everything else you're doing."
+      "a": "About five minutes a day. Iro is built for busy people: short lessons, real practice, and a streak that keeps the habit alive between everything else you're doing."
     }
   ],
   "related": [

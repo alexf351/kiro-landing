@@ -15,7 +15,7 @@
     "AI for UX designers",
     "how designers use AI"
   ],
-  "lede": "AI won't design for you, but it will get you to the good idea faster — if you can direct it. Iro teaches designers the skills that matter: ideating concepts, writing image-generation prompts that actually produce what you pictured, drafting UX copy and briefs, and turning messy feedback into clear direction. Five minutes at a time.",
+  "lede": "AI won't design for you, but it will get you to the good idea faster, if you can direct it. Iro teaches designers the skills that matter: ideating concepts, writing image-generation prompts that actually produce what you pictured, drafting UX copy and briefs, and turning messy feedback into clear direction. Five minutes at a time.",
   "pills": [
     "Concept ideation",
     "Image prompts",
@@ -35,10 +35,10 @@
     "Writing design briefs and specs faster"
   ],
   "tldr": {
-    "answer": "Designers get the most from AI by treating it as a fast, tireless collaborator for the parts around the pixels: generating concept directions, turning vague image ideas into controllable prompts, drafting UX and placeholder copy, synthesizing scattered feedback, and writing briefs. The single highest-leverage skill is prompt control — describing subject, style, composition, lighting, and constraints precisely enough that the model produces what you actually pictured.",
+    "answer": "Designers get the most from AI by treating it as a fast, tireless collaborator for the parts around the pixels: generating concept directions, turning vague image ideas into controllable prompts, drafting UX and placeholder copy, synthesizing scattered feedback, and writing briefs. The single highest-leverage skill is prompt control: describing subject, style, composition, lighting, and constraints precisely enough that the model produces what you actually pictured.",
     "bullets": [
       "Best uses: ideation, image-prompt writing, UX copy, feedback synthesis, and briefs.",
-      "Image quality lives or dies on prompt control — subject, style, composition, lighting, constraints.",
+      "Image quality lives or dies on prompt control: subject, style, composition, lighting, constraints.",
       "AI drafts and explores directions; taste, craft, and the final call stay yours."
     ]
   },
@@ -54,7 +54,7 @@
     {
       "t": "Ideate directions, not final art",
       "dur": "5 min",
-      "blurb": "Use AI to widen the concept space fast — moods, metaphors, and directions you can then design for real."
+      "blurb": "Use AI to widen the concept space fast: moods, metaphors, and directions you can then design for real."
     },
     {
       "t": "Image prompts that behave",
@@ -100,23 +100,23 @@
       }
     ],
     "revealLabel": "See why the detailed prompt wins",
-    "feedback": "The winning prompt controls every lever that decides the output: a clear <strong>subject</strong> (a hand holding a phone with a rising chart), a defined <strong>style</strong> (minimalist 3D render), explicit <strong>composition</strong> (isometric, phone off-center left, negative space on the right for a headline), specific <strong>lighting</strong> (soft studio light from top-right), and hard <strong>constraints</strong> (navy background, one cyan accent, no logos or text). The others leave all of that to chance — \"nice,\" \"good,\" and quality-word soup like \"4k, trending, beautiful\" tell the model nothing about what you pictured. In Iro you'd rewrite a vague prompt into a controllable one and get feedback on which levers you left unspecified."
+    "feedback": "The winning prompt controls every lever that decides the output: a clear <strong>subject</strong> (a hand holding a phone with a rising chart), a defined <strong>style</strong> (minimalist 3D render), explicit <strong>composition</strong> (isometric, phone off-center left, negative space on the right for a headline), specific <strong>lighting</strong> (soft studio light from top-right), and hard <strong>constraints</strong> (navy background, one cyan accent, no logos or text). The others leave all of that to chance: \"nice,\" \"good,\" and quality-word soup like \"4k, trending, beautiful\" tell the model nothing about what you pictured. In Iro you'd rewrite a vague prompt into a controllable one and get feedback on which levers you left unspecified."
   },
   "body": [
     {
       "h2": "Why designers get random results from image AI",
-      "html": "<p>Image models aren't mind readers — they fill every gap you leave with an average guess. \"A nice image of finance\" leaves almost everything unspecified, so you get a different random result each run and no way to steer it. The designers who get usable output write prompts like a direction to an illustrator: what's in frame, in what style, arranged how, lit how, and what must <em>not</em> appear.</p><p>Control comes from five levers — subject, style, composition, lighting, and constraints. Name all five and the model has a job to do instead of a vibe to guess. Change one at a time and you can actually iterate toward what you pictured.</p>"
+      "html": "<p>Image models aren't mind readers. They fill every gap you leave with an average guess. \"A nice image of finance\" leaves almost everything unspecified, so you get a different random result each run and no way to steer it. The designers who get usable output write prompts like a direction to an illustrator: what's in frame, in what style, arranged how, lit how, and what must <em>not</em> appear.</p><p>Control comes from five levers: subject, style, composition, lighting, and constraints. Name all five and the model has a job to do instead of a vibe to guess. Change one at a time and you can actually iterate toward what you pictured.</p>"
     },
     {
       "h2": "The highest-leverage uses for designers",
-      "html": "<ul><li><strong>Concept ideation:</strong> a dozen directions, metaphors, and moods for a brief — raw material for real design, not final art.</li><li><strong>Image prompts:</strong> controllable prompts for hero art, icons, and textures, specified down to composition and lighting.</li><li><strong>UX &amp; placeholder copy:</strong> realistic microcopy, empty states, and error messages so mockups test like the real thing.</li><li><strong>Feedback synthesis:</strong> collapse scattered, conflicting comments into a prioritized, de-duplicated change list.</li><li><strong>Briefs &amp; specs:</strong> first-draft briefs with goals, audience, constraints, and success criteria.</li></ul><p>What AI doesn't do: have taste. It explores and drafts; you judge, refine, and ship.</p>"
+      "html": "<ul><li><strong>Concept ideation:</strong> a dozen directions, metaphors, and moods for a brief (raw material for real design, not final art).</li><li><strong>Image prompts:</strong> controllable prompts for hero art, icons, and textures, specified down to composition and lighting.</li><li><strong>UX &amp; placeholder copy:</strong> realistic microcopy, empty states, and error messages so mockups test like the real thing.</li><li><strong>Feedback synthesis:</strong> collapse scattered, conflicting comments into a prioritized, de-duplicated change list.</li><li><strong>Briefs &amp; specs:</strong> first-draft briefs with goals, audience, constraints, and success criteria.</li></ul><p>What AI doesn't do: have taste. It explores and drafts; you judge, refine, and ship.</p>"
     }
   ],
   "faqHeading": "Designer questions about AI",
   "faq": [
     {
       "q": "Will AI replace designers?",
-      "a": "No — it changes the job. AI can generate options and drafts fast, which makes taste, problem framing, systems thinking, and knowing which option is right more valuable, not less. Designers who use AI to widen exploration and speed up the boring parts get more time for the craft that matters."
+      "a": "No. It changes the job. AI can generate options and drafts fast, which makes taste, problem framing, systems thinking, and knowing which option is right more valuable, not less. Designers who use AI to widen exploration and speed up the boring parts get more time for the craft that matters."
     },
     {
       "q": "How do I write a good image-generation prompt?",
@@ -128,11 +128,11 @@
     },
     {
       "q": "What AI tools should designers learn?",
-      "a": "Image models like Midjourney, DALL-E, and Firefly for visuals, plus a general model like ChatGPT or Claude for ideation, copy, briefs, and feedback synthesis. The transferable skill is prompt control, which outlasts any single tool — and it's exactly what Iro trains. Iro's image-generation path goes deeper on visual prompting specifically."
+      "a": "Image models like Midjourney, DALL-E, and Firefly for visuals, plus a general model like ChatGPT or Claude for ideation, copy, briefs, and feedback synthesis. The transferable skill is prompt control, which outlasts any single tool. It's exactly what Iro trains. Iro's image-generation path goes deeper on visual prompting specifically."
     },
     {
       "q": "How do I keep AI images on-brand?",
-      "a": "Bake the brand into the prompt as explicit constraints: exact colors, mood, do's and don'ts, and a consistent style descriptor you reuse across generations. Then curate hard — generate many, keep few. AI gives you volume; staying on-brand is your call, enforced through precise constraints and ruthless selection."
+      "a": "Bake the brand into the prompt as explicit constraints: exact colors, mood, do's and don'ts, and a consistent style descriptor you reuse across generations. Then curate hard: generate many, keep few. AI gives you volume; staying on-brand is your call, enforced through precise constraints and ruthless selection."
     }
   ],
   "related": [

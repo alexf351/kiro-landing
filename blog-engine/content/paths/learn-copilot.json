@@ -36,10 +36,10 @@
     "Turning documents into slide decks"
   ],
   "tldr": {
-    "answer": "Microsoft Copilot is the AI built into Microsoft 365 — Word, Excel, PowerPoint, Outlook, and Teams — and it's most useful when your prompt points it at a specific file, thread, or dataset. Ask it to \"summarize the attached Q3 report and list the risks\" and it grounds the answer in your document; ask it to \"write about sales\" and you get generic text. The skill is telling Copilot exactly what to work from and what you want back.",
+    "answer": "Microsoft Copilot is the AI built into Microsoft 365 (Word, Excel, PowerPoint, Outlook, and Teams), and it's most useful when your prompt points it at a specific file, thread, or dataset. Ask it to \"summarize the attached Q3 report and list the risks\" and it grounds the answer in your document; ask it to \"write about sales\" and you get generic text. The skill is telling Copilot exactly what to work from and what you want back.",
     "bullets": [
       "Copilot works inside Word, Excel, PowerPoint, Outlook, and Teams, plus a standalone chat.",
-      "Ground every prompt in a real file, email, or table — that's where the value is.",
+      "Ground every prompt in a real file, email, or table; that's where the value is.",
       "Ask for a specific output: a summary, action items, a formula, or a first-draft slide."
     ]
   },
@@ -106,7 +106,7 @@
   "body": [
     {
       "h2": "Copilot is only as good as what you point it at",
-      "html": "<p>The difference between Copilot saving you an hour and wasting five minutes is grounding. Inside the Microsoft 365 apps, Copilot can read the document you have open, the email thread you're in, or the meeting you just left, and on a licensed plan its chat can pull from your files, calendar, and messages through Microsoft Graph. When you reference a specific file (in Copilot chat you can use the \"/\" menu to point at one), the answer is grounded in your reality instead of a plausible-sounding average.</p><p>So write prompts that name the source and the output: <em>this</em> proposal, <em>that</em> thread, <em>these</em> numbers, and exactly what you want back — a summary, action items, a formula, a slide. Generic questions get generic answers; grounded questions get work you can actually use.</p>"
+      "html": "<p>The difference between Copilot saving you an hour and wasting five minutes is grounding. Inside the Microsoft 365 apps, Copilot can read the document you have open, the email thread you're in, or the meeting you just left, and on a licensed plan its chat can pull from your files, calendar, and messages through Microsoft Graph. When you reference a specific file (in Copilot chat you can use the \"/\" menu to point at one), the answer is grounded in your reality instead of a plausible-sounding average.</p><p>So write prompts that name the source and the output: <em>this</em> proposal, <em>that</em> thread, <em>these</em> numbers, and exactly what you want back: a summary, action items, a formula, a slide. Generic questions get generic answers; grounded questions get work you can actually use.</p>"
     },
     {
       "h2": "One skill, five apps",

@@ -15,7 +15,7 @@
     "Canva Magic Write",
     "Canva AI image generator"
   ],
-  "lede": "Canva's AI tools — Magic Write, text-to-image, Magic Resize, Magic Edit — can make a non-designer look sharp, or make everything look like generic filler. The difference is the brief you give them: audience, format, and brand, not just \"make it nice.\" Iro teaches you to prompt Canva AI so the output is on-brand and usable.",
+  "lede": "Canva's AI tools (Magic Write, text-to-image, Magic Resize, Magic Edit) can make a non-designer look sharp, or make everything look like generic filler. The difference is the brief you give them: audience, format, and brand, not just \"make it nice.\" Iro teaches you to prompt Canva AI so the output is on-brand and usable.",
   "pills": [
     "Magic Write",
     "Text to Image",
@@ -35,9 +35,9 @@
     "Judging and editing AI design output"
   ],
   "tldr": {
-    "answer": "Canva AI (Magic Studio) is best when you treat each tool like a creative brief: tell Magic Write the audience, tone, and format; tell text-to-image the subject, style, composition, and mood; and use Magic Resize to adapt one strong design across channels. Vague prompts get generic output — specific, brand-aware prompts get something you can actually publish.",
+    "answer": "Canva AI (Magic Studio) is best when you treat each tool like a creative brief: tell Magic Write the audience, tone, and format; tell text-to-image the subject, style, composition, and mood; and use Magic Resize to adapt one strong design across channels. Vague prompts get generic output; specific, brand-aware prompts get something you can actually publish.",
     "bullets": [
-      "Brief it like a designer: audience, format, tone, brand — not 'make it good.'",
+      "Brief it like a designer: audience, format, tone, brand, not 'make it good.'",
       "For images, specify subject, style, composition, and mood.",
       "AI gives you a fast first draft; you still art-direct and edit."
     ]
@@ -100,7 +100,7 @@
       }
     ],
     "revealLabel": "See why the second prompt wins",
-    "feedback": "The winning prompt reads like a <strong>creative brief</strong>: it names the <strong>subject</strong> (skincare bottle on sand), the <strong>style and lighting</strong> (minimalist, soft morning light), the <strong>brand palette</strong> (beige and sage), the <strong>mood</strong> (calm, premium), and the <strong>composition</strong> (square, room for text). That's why it lands on-brand while \"summer sale image\" produces generic stock. In Iro you'd turn a vague image idea into a controlled prompt like this and get feedback on what's missing — subject, style, composition, and space for your copy."
+    "feedback": "The winning prompt reads like a <strong>creative brief</strong>: it names the <strong>subject</strong> (skincare bottle on sand), the <strong>style and lighting</strong> (minimalist, soft morning light), the <strong>brand palette</strong> (beige and sage), the <strong>mood</strong> (calm, premium), and the <strong>composition</strong> (square, room for text). That's why it lands on-brand while \"summer sale image\" produces generic stock. In Iro you'd turn a vague image idea into a controlled prompt like this and get feedback on what's missing: subject, style, composition, and space for your copy."
   },
   "body": [
     {
@@ -109,14 +109,14 @@
     },
     {
       "h2": "The Magic Studio tools, and when to reach for each",
-      "html": "<ul><li><strong>Magic Write:</strong> first-draft copy — captions, headlines, descriptions — in your brand voice when you give it one.</li><li><strong>Text to Image:</strong> custom visuals when stock won't do; control it with subject, style, composition, and mood.</li><li><strong>Magic Resize:</strong> adapt one strong design across Instagram, story, print, and more without rebuilding.</li><li><strong>Magic Edit / background tools:</strong> quick fixes — swap a background, remove an object, clean up an asset.</li></ul><p>All of them reward a clear brief and an editor's eye. AI drafts; you art-direct.</p>"
+      "html": "<ul><li><strong>Magic Write:</strong> first-draft copy (captions, headlines, descriptions) in your brand voice when you give it one.</li><li><strong>Text to Image:</strong> custom visuals when stock won't do; control it with subject, style, composition, and mood.</li><li><strong>Magic Resize:</strong> adapt one strong design across Instagram, story, print, and more without rebuilding.</li><li><strong>Magic Edit / background tools:</strong> quick fixes: swap a background, remove an object, clean up an asset.</li></ul><p>All of them reward a clear brief and an editor's eye. AI drafts; you art-direct.</p>"
     }
   ],
   "faqHeading": "Canva AI questions",
   "faq": [
     {
       "q": "What is Canva AI?",
-      "a": "Canva AI is the set of AI features in Canva's Magic Studio — Magic Write for copy, text-to-image for custom visuals, Magic Resize for adapting designs across formats, and edit tools like background removal. They help non-designers produce on-brand graphics quickly."
+      "a": "Canva AI is the set of AI features in Canva's Magic Studio: Magic Write for copy, text-to-image for custom visuals, Magic Resize for adapting designs across formats, and edit tools like background removal. They help non-designers produce on-brand graphics quickly."
     },
     {
       "q": "How do I get better results from Canva Magic Write?",
@@ -124,7 +124,7 @@
     },
     {
       "q": "How do I write good text-to-image prompts in Canva?",
-      "a": "Describe the subject, the style, the composition, the lighting, and the mood — and leave space for text if it's going in a post. \"Summer sale image\" is too vague; a detailed, brand-aware prompt gets usable output. Iro drills exactly this."
+      "a": "Describe the subject, the style, the composition, the lighting, and the mood, then leave space for text if it's going in a post. \"Summer sale image\" is too vague; a detailed, brand-aware prompt gets usable output. Iro drills exactly this."
     },
     {
       "q": "Will AI designs look generic?",
@@ -132,7 +132,7 @@
     },
     {
       "q": "Do I need design experience?",
-      "a": "No. Canva AI is built for non-designers, and the skill you need is writing a clear brief — which Iro teaches from zero, five minutes at a time."
+      "a": "No. Canva AI is built for non-designers, and the skill you need is writing a clear brief, which Iro teaches from zero, five minutes at a time."
     }
   ],
   "related": [

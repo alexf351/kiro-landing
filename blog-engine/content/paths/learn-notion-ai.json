@@ -16,7 +16,7 @@
     "Notion AI database autofill",
     "Notion Q&A"
   ],
-  "lede": "Notion AI is sitting right inside the notes, docs, and databases you already keep — but most people only use it to write a paragraph. It can pull action items out of a meeting, fill a database column across every row, and answer questions from your own pages. Iro teaches you the prompts that make it earn its place.",
+  "lede": "Notion AI is sitting right inside the notes, docs, and databases you already keep, but most people only use it to write a paragraph. It can pull action items out of a meeting, fill a database column across every row, and answer questions from your own pages. Iro teaches you the prompts that make it earn its place.",
   "pills": [
     "Drafting docs",
     "Summarizing",
@@ -36,7 +36,7 @@
     "Building and maintaining wikis"
   ],
   "tldr": {
-    "answer": "Notion AI is the assistant built into Notion: it drafts and summarizes docs, pulls action items out of messy notes, autofills database properties, and answers questions across your whole workspace with Q&A. It's most useful when you give it real context to work from — a page of notes, a filled-in database, or a specific question about your own content. Type your goal and be explicit about the format you want back.",
+    "answer": "Notion AI is the assistant built into Notion: it drafts and summarizes docs, pulls action items out of messy notes, autofills database properties, and answers questions across your whole workspace with Q&A. It's most useful when you give it real context to work from: a page of notes, a filled-in database, or a specific question about your own content. Type your goal and be explicit about the format you want back.",
     "bullets": [
       "Trigger AI in any doc to draft, rewrite, summarize, or translate.",
       "Turn raw meeting notes into an action-item list with owners and due dates.",
@@ -47,7 +47,7 @@
   "outcomes": [
     "Draft a doc, then tighten its tone, length, and structure with AI in place",
     "Summarize a wall of notes into decisions and clear action items",
-    "Autofill a database property — summaries, categories, next steps — across every row",
+    "Autofill a database property (summaries, categories, next steps) across every row",
     "Ask a question and get an answer sourced from your own pages",
     "Build a wiki that stays useful instead of going stale"
   ],
@@ -106,7 +106,7 @@
   "body": [
     {
       "h2": "Notion AI is context-hungry — feed it your pages",
-      "html": "<p>Unlike a blank chatbot in another tab, Notion AI lives inside your content. It can read the doc you're in, pull from a database, and with Q&A search across your entire workspace (and connected tools like Slack or Google Drive on supported plans) to answer with links to the source pages. That means the quality of what you get out is tied to what you put in: a well-kept workspace makes Notion AI genuinely smart about your own work.</p><p>To trigger it, press space on an empty line or highlight text and choose Ask AI, then either pick an action (draft, summarize, improve, translate) or type your own instruction. As with any AI, the more precise you are about the format — a checklist, a three-bullet summary, a specific database field — the less editing you do afterward.</p>"
+      "html": "<p>Unlike a blank chatbot in another tab, Notion AI lives inside your content. It can read the doc you're in, pull from a database, and with Q&A search across your entire workspace (and connected tools like Slack or Google Drive on supported plans) to answer with links to the source pages. That means the quality of what you get out is tied to what you put in: a well-kept workspace makes Notion AI genuinely smart about your own work.</p><p>To trigger it, press space on an empty line or highlight text and choose Ask AI, then either pick an action (draft, summarize, improve, translate) or type your own instruction. As with any AI, the more precise you are about the format (a checklist, a three-bullet summary, a specific database field), the less editing you do afterward.</p>"
     },
     {
       "h2": "The prompting skill isn't Notion-specific",
@@ -117,7 +117,7 @@
   "faq": [
     {
       "q": "What is Notion AI?",
-      "a": "Notion AI is the AI assistant built into Notion. It drafts, summarizes, translates, and improves text, extracts action items, autofills database properties, and answers questions across your workspace with Q&A — pointing you to the source pages it used."
+      "a": "Notion AI is the AI assistant built into Notion. It drafts, summarizes, translates, and improves text, extracts action items, autofills database properties, and answers questions across your workspace with Q&A, pointing you to the source pages it used."
     },
     {
       "q": "How do I use Notion AI in a doc?",
@@ -125,7 +125,7 @@
     },
     {
       "q": "What is Notion AI database autofill?",
-      "a": "AI autofill is a database property that generates a value for every row from a prompt — a summary of the page, a category, a sentiment, or key info pulled from the content — and can update as the row changes, so you don't fill fields by hand."
+      "a": "AI autofill is a database property that generates a value for every row from a prompt (a summary of the page, a category, a sentiment, or key info pulled from the content) and can update as the row changes, so you don't fill fields by hand."
     },
     {
       "q": "Can Notion AI answer questions about my workspace?",

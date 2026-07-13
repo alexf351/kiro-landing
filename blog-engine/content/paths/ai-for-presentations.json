@@ -4,7 +4,7 @@
   "category": "skills",
   "eyebrow": "AI for presentations",
   "hubTitle": "AI for presentations",
-  "hubBlurb": "Build a talk with a real narrative arc — slides, speaker notes, and a tighter message.",
+  "hubBlurb": "Build a talk with a real narrative arc: slides, speaker notes, and a tighter message.",
   "title": "AI for Presentations: Structure Talks That Land | Iro AI",
   "h1": "Turn a blank deck into a talk that lands.",
   "metaDescription": "Use AI to structure a talk with a real narrative arc, turn content into slide bullets and speaker notes, and tighten your message before you present.",
@@ -36,9 +36,9 @@
     "Generating visual and slide-layout ideas"
   ],
   "tldr": {
-    "answer": "AI is most useful for presentations before you touch a single slide: use it to find the narrative arc, decide the one thing your audience must remember, and pressure-test your structure. Then have it turn your content into headline-plus-bullet slides with matching speaker notes, and help you cut anything that doesn't serve the point. The trick is to always give it the audience, the goal, and the time limit — \"make me slides about X\" produces filler, but \"outline a 10-minute talk to convince execs to fund a pilot\" produces a talk.",
+    "answer": "AI is most useful for presentations before you touch a single slide: use it to find the narrative arc, decide the one thing your audience must remember, and pressure-test your structure. Then have it turn your content into headline-plus-bullet slides with matching speaker notes, and help you cut anything that doesn't serve the point. The trick is to always give it the audience, the goal, and the time limit: \"make me slides about X\" produces filler, but \"outline a 10-minute talk to convince execs to fund a pilot\" produces a talk.",
     "bullets": [
-      "Start with structure and message, not slides — that's where AI helps most.",
+      "Start with structure and message, not slides: that's where AI helps most.",
       "Always give audience + goal + time limit, or you'll get generic filler.",
       "Ask for a narrative arc and speaker notes, then keep design judgment yourself."
     ]
@@ -81,7 +81,7 @@
   "practice": {
     "type": "Prompt practice",
     "scenario": "You have to present your team's new analytics feature to a room of non-technical executives. You get 10 minutes, and your real goal is to walk out with budget approval for a pilot.",
-    "task": "Choose the prompt that will produce a talk that actually lands — not a generic deck.",
+    "task": "Choose the prompt that will produce a talk that actually lands, not a generic deck.",
     "options": [
       {
         "text": "\"Make me slides about our new analytics feature.\"",
@@ -101,7 +101,7 @@
       }
     ],
     "revealLabel": "See why the second prompt wins",
-    "feedback": "The winning prompt gives the model everything it needs to make real choices: the <strong>audience</strong> (non-technical execs), the <strong>goal</strong> (budget approval), and a hard <strong>time limit</strong> (10 minutes) that forces prioritization. It asks for a <strong>narrative arc</strong> rather than a topic dump, and specifies the <strong>output format</strong> — headline, bullets, and a speaker note per slide — so you get something you can deliver, not just read. The other three fail differently: \"make me slides about X\" and \"create a professional presentation\" have no audience or goal, so you get filler dressed in adjectives, and \"20 slides covering everything\" ignores your time limit and buries the one message. In Iro you practice framing prompts with audience, goal, and constraints, and get feedback on whether they'd produce a talk that persuades."
+    "feedback": "The winning prompt gives the model everything it needs to make real choices: the <strong>audience</strong> (non-technical execs), the <strong>goal</strong> (budget approval), and a hard <strong>time limit</strong> (10 minutes) that forces prioritization. It asks for a <strong>narrative arc</strong> rather than a topic dump, and specifies the <strong>output format</strong> (headline, bullets, and a speaker note per slide) so you get something you can deliver, not just read. The other three fail differently: \"make me slides about X\" and \"create a professional presentation\" have no audience or goal, so you get filler dressed in adjectives, and \"20 slides covering everything\" ignores your time limit and buries the one message. In Iro you practice framing prompts with audience, goal, and constraints, and get feedback on whether they'd produce a talk that persuades."
   },
   "body": [
     {
@@ -110,18 +110,18 @@
     },
     {
       "h2": "From content to slides, notes, and visuals",
-      "html": "<p>Once the structure holds, AI is a fast drafting partner for the rest — as long as you keep the judgment.</p><ul><li><strong>Hand off:</strong> turning your notes into headline-plus-bullet slides, drafting speaker notes, tightening wordy slides, and brainstorming chart or diagram ideas for each point.</li><li><strong>Keep:</strong> the final call on what stays, the actual design and brand, your delivery, and whether any claim on a slide is true.</li></ul><p>A good move is to ask for one headline and no more than three bullets per slide — it forces the deck to stay skimmable and stops you from reading paragraphs at your audience. Then ask the model for a couple of visual options per key slide so you can brief a designer or build them yourself. The presentation is still yours; AI just gets you to a strong draft faster.</p>"
+      "html": "<p>Once the structure holds, AI is a fast drafting partner for the rest, as long as you keep the judgment.</p><ul><li><strong>Hand off:</strong> turning your notes into headline-plus-bullet slides, drafting speaker notes, tightening wordy slides, and brainstorming chart or diagram ideas for each point.</li><li><strong>Keep:</strong> the final call on what stays, the actual design and brand, your delivery, and whether any claim on a slide is true.</li></ul><p>A good move is to ask for one headline and no more than three bullets per slide: it forces the deck to stay skimmable and stops you from reading paragraphs at your audience. Then ask the model for a couple of visual options per key slide so you can brief a designer or build them yourself. The presentation is still yours; AI just gets you to a strong draft faster.</p>"
     }
   ],
   "faqHeading": "AI presentation questions",
   "faq": [
     {
       "q": "Can AI actually make a presentation for me?",
-      "a": "AI can outline the structure, write slide bullets and speaker notes, and suggest visuals, but it won't design a finished, on-brand deck on its own. The best results come from using it for the thinking — narrative arc, message, phrasing — and doing the visual assembly yourself or with a designer."
+      "a": "AI can outline the structure, write slide bullets and speaker notes, and suggest visuals, but it won't design a finished, on-brand deck on its own. The best results come from using it for the thinking (narrative arc, message, phrasing) and doing the visual assembly yourself or with a designer."
     },
     {
       "q": "How do I get AI to write a good slide outline?",
-      "a": "Give it three things it can't guess: your audience, your goal, and your time limit. Then ask for a narrative arc rather than a topic list, and specify the format — a headline, a few bullets, and a speaker note per slide. That turns \"slides about X\" into a talk that goes somewhere."
+      "a": "Give it three things it can't guess: your audience, your goal, and your time limit. Then ask for a narrative arc rather than a topic list, and specify the format: a headline, a few bullets, and a speaker note per slide. That turns \"slides about X\" into a talk that goes somewhere."
     },
     {
       "q": "What's a good narrative structure for a talk?",
@@ -129,11 +129,11 @@
     },
     {
       "q": "Will AI-written slides sound generic?",
-      "a": "They will if you only give it a topic. Generic in, generic out. When you provide the audience, the goal, real specifics from your work, and a request to cut anything vague, the output gets far sharper — and you always tighten the final wording yourself."
+      "a": "They will if you only give it a topic. Generic in, generic out. When you provide the audience, the goal, real specifics from your work, and a request to cut anything vague, the output gets far sharper, and you always tighten the final wording yourself."
     },
     {
       "q": "Can AI help me cut a deck that's too long?",
-      "a": "Yes — that's one of its best uses. Paste your outline, tell it the message and the time limit, and ask which slides don't serve the point and which bullets can be cut or merged. Then make the final call on what stays."
+      "a": "Yes. That's one of its best uses. Paste your outline, tell it the message and the time limit, and ask which slides don't serve the point and which bullets can be cut or merged. Then make the final call on what stays."
     }
   ],
   "related": [

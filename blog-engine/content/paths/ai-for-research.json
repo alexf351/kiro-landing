@@ -4,7 +4,7 @@
   "category": "skills",
   "eyebrow": "AI for research",
   "hubTitle": "AI for research",
-  "hubBlurb": "Research a topic fast with sources — and catch made-up citations before you cite them.",
+  "hubBlurb": "Research a topic fast with sources, and catch made-up citations before you cite them.",
   "title": "AI for Research: Fast, Sourced, Verified Answers | Iro AI",
   "h1": "Research anything fast — with sources you can trust.",
   "metaDescription": "Use AI to research a topic or market in minutes: get cited answers, synthesize multiple sources, and verify claims so made-up facts never slip through.",
@@ -16,7 +16,7 @@
     "verify AI answers",
     "AI literature review"
   ],
-  "lede": "AI can compress a day of research into ten minutes — or fill your work with confident, invented facts. The difference is entirely in how you prompt and how you check. Iro teaches the workflows that get you sourced, synthesized answers and the verification habits that keep hallucinated citations out of your report.",
+  "lede": "AI can compress a day of research into ten minutes, or fill your work with confident, invented facts. The difference is entirely in how you prompt and how you check. Iro teaches the workflows that get you sourced, synthesized answers and the verification habits that keep hallucinated citations out of your report.",
   "pills": [
     "Sourced answers",
     "Market scans",
@@ -38,9 +38,9 @@
   "tldr": {
     "answer": "AI is a research accelerator, not a source of truth: it's fastest at scanning a topic, synthesizing many inputs, and drafting a first summary, but it will invent citations and confident-sounding facts if you let it. The reliable workflow is to ask for sources, dates, and a confidence level on every claim, require the model to flag what it couldn't verify, and then check the load-bearing facts yourself before you use them. Tools like Perplexity that return live links make verification faster, but the checking step is always yours.",
     "bullets": [
-      "Always demand sources, dates, and a confidence rating — never just an answer.",
+      "Always demand sources, dates, and a confidence rating, never just an answer.",
       "AI is great at synthesis and first drafts; it fabricates citations under pressure.",
-      "Verify every load-bearing fact before it goes in your work — the check is non-negotiable."
+      "Verify every load-bearing fact before it goes in your work: the check is non-negotiable."
     ]
   },
   "outcomesHeading": "What you'll be able to do",
@@ -65,7 +65,7 @@
     {
       "t": "Synthesize multiple inputs",
       "dur": "5 min",
-      "blurb": "Combine several articles, docs, or search results into one coherent view — and surface where they disagree."
+      "blurb": "Combine several articles, docs, or search results into one coherent view, and surface where they disagree."
     },
     {
       "t": "Catch the hallucinated citation",
@@ -80,7 +80,7 @@
   ],
   "practice": {
     "type": "Prompt practice",
-    "scenario": "You're researching the European e-bike market for a go-to-market memo due tomorrow. You want AI to get you up to speed fast, but the memo will be read by your leadership team — a made-up statistic in it would be a disaster.",
+    "scenario": "You're researching the European e-bike market for a go-to-market memo due tomorrow. You want AI to get you up to speed fast, but the memo will be read by your leadership team. A made-up statistic in it would be a disaster.",
     "task": "Choose the research prompt that gets you useful facts without inviting invented ones.",
     "options": [
       {
@@ -101,16 +101,16 @@
       }
     ],
     "revealLabel": "See why the second prompt wins",
-    "feedback": "The winning prompt builds verification into the request itself. It asks for a <strong>source and date on every claim</strong>, a <strong>confidence rating</strong> so you know which facts to double-check, and an explicit <strong>flag for anything unverified</strong> — and it gives the model <strong>permission to say \"I don't know\"</strong> instead of estimating. It's also <strong>scoped</strong> to a real deliverable, so the output stays focused. The other three do the opposite: \"tell me everything\" and \"confidently summarize\" reward fluent guessing, and demanding \"exact\" numbers pressures the model to fabricate precise-looking figures. In Iro you practice writing prompts like this and get feedback on whether they'd actually protect you from a hallucinated fact."
+    "feedback": "The winning prompt builds verification into the request itself. It asks for a <strong>source and date on every claim</strong>, a <strong>confidence rating</strong> so you know which facts to double-check, and an explicit <strong>flag for anything unverified</strong>. It also gives the model <strong>permission to say \"I don't know\"</strong> instead of estimating. It's also <strong>scoped</strong> to a real deliverable, so the output stays focused. The other three do the opposite: \"tell me everything\" and \"confidently summarize\" reward fluent guessing, and demanding \"exact\" numbers pressures the model to fabricate precise-looking figures. In Iro you practice writing prompts like this and get feedback on whether they'd actually protect you from a hallucinated fact."
   },
   "body": [
     {
       "h2": "Why AI research goes wrong (and how to stop it)",
-      "html": "<p>AI models are trained to sound helpful and fluent, which means their failure mode isn't saying \"I don't know\" — it's confidently inventing a plausible answer, complete with an author, a year, and a link that doesn't exist. That's fine when you're brainstorming and fatal when you're citing.</p><p>The fix is to change what you ask for. Instead of requesting an answer, request an answer <em>plus its evidence</em>: the source, the date, a confidence level, and an honest flag on anything the model couldn't stand behind. When you make the evidence part of the deliverable, you can see at a glance which claims are solid and which need a human check — and you give the model an easy, honest exit instead of forcing it to guess.</p>"
+      "html": "<p>AI models are trained to sound helpful and fluent, which means their failure mode isn't saying \"I don't know\": it's confidently inventing a plausible answer, complete with an author, a year, and a link that doesn't exist. That's fine when you're brainstorming and fatal when you're citing.</p><p>The fix is to change what you ask for. Instead of requesting an answer, request an answer <em>plus its evidence</em>: the source, the date, a confidence level, and an honest flag on anything the model couldn't stand behind. When you make the evidence part of the deliverable, you can see at a glance which claims are solid and which need a human check, and you give the model an easy, honest exit instead of forcing it to guess.</p>"
     },
     {
       "h2": "Synthesis is the real superpower — verification is the price",
-      "html": "<p>The single biggest research win from AI isn't finding one fact — it's <strong>synthesis</strong>: pointing it at five sources and getting back one coherent summary that names where they agree and where they conflict. That collapses hours of reading into minutes.</p><ul><li><strong>Hand off:</strong> the first-pass scan of a topic, combining multiple inputs, drafting a neutral summary, and surfacing disagreements between sources.</li><li><strong>Keep:</strong> the final judgment on which source to trust, and the verification of every fact that your conclusion actually rests on.</li></ul><p>Live-search tools like Perplexity make this faster because they return real links you can open, but they don't remove the check — they just make it quicker. The rule holds either way: synthesize with AI, verify the load-bearing facts yourself.</p>"
+      "html": "<p>The single biggest research win from AI isn't finding one fact. It's <strong>synthesis</strong>: pointing it at five sources and getting back one coherent summary that names where they agree and where they conflict. That collapses hours of reading into minutes.</p><ul><li><strong>Hand off:</strong> the first-pass scan of a topic, combining multiple inputs, drafting a neutral summary, and surfacing disagreements between sources.</li><li><strong>Keep:</strong> the final judgment on which source to trust, and the verification of every fact that your conclusion actually rests on.</li></ul><p>Live-search tools like Perplexity make this faster because they return real links you can open, but they don't remove the check; they just make it quicker. The rule holds either way: synthesize with AI, verify the load-bearing facts yourself.</p>"
     }
   ],
   "faqHeading": "AI research questions",
@@ -121,7 +121,7 @@
     },
     {
       "q": "Does AI make up sources and citations?",
-      "a": "Yes — this is one of the most common AI failures. A model under pressure to answer will invent a plausible author, date, and title that don't correspond to a real document. Always ask for links you can open, and confirm any load-bearing citation actually exists before you use it."
+      "a": "Yes. This is one of the most common AI failures. A model under pressure to answer will invent a plausible author, date, and title that don't correspond to a real document. Always ask for links you can open, and confirm any load-bearing citation actually exists before you use it."
     },
     {
       "q": "How do I get AI to give me real sources?",

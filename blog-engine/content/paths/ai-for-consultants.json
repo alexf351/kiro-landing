@@ -4,7 +4,7 @@
   "category": "jobs",
   "eyebrow": "AI for consultants",
   "hubTitle": "AI for consultants",
-  "hubBlurb": "Research fast, structure with frameworks, and build slide narratives — AI as your associate.",
+  "hubBlurb": "Research fast, structure with frameworks, and build slide narratives with AI as your associate.",
   "title": "AI for Consultants: Research, Analysis & Decks | Iro AI",
   "h1": "Use AI to research, structure, and draft faster.",
   "metaDescription": "How consultants use AI for fast research, structured analysis, slide narratives, and first-draft deliverables — with verification.",
@@ -16,7 +16,7 @@
     "how consultants use AI",
     "AI for slide decks"
   ],
-  "lede": "Consulting runs on fast research, tight structure, and a clear story — under deadline. Iro teaches you to use AI as an associate: scope a market in an hour, structure the analysis with a framework, and draft the deck narrative, while you own the logic and verify every number before it reaches the client.",
+  "lede": "Consulting runs on fast research, tight structure, and a clear story, all under deadline. Iro teaches you to use AI as an associate: scope a market in an hour, structure the analysis with a framework, and draft the deck narrative, while you own the logic and verify every number before it reaches the client.",
   "pills": [
     "Market research",
     "Structured analysis",
@@ -36,11 +36,11 @@
     "Verifying AI output for client work"
   ],
   "tldr": {
-    "answer": "Consultants get the most from AI by using it for speed on research, structure, and first drafts — never for the final judgment a client is paying for. The reliable wins are scoping a market or industry fast, structuring a messy problem with a framework, turning findings into a slide narrative, and synthesizing interview notes into themes. Because deliverables carry your firm's name, you verify every figure and claim before it ships.",
+    "answer": "Consultants get the most from AI by using it for speed on research, structure, and first drafts, never for the final judgment a client is paying for. The reliable wins are scoping a market or industry fast, structuring a messy problem with a framework, turning findings into a slide narrative, and synthesizing interview notes into themes. Because deliverables carry your firm's name, you verify every figure and claim before it ships.",
     "bullets": [
       "Best uses: research, framework-driven structure, slide narratives, synthesis.",
       "Give AI a role, a framework, and the audience; you own the logic and the numbers.",
-      "Verify every stat before it reaches a client — your name is on the deck."
+      "Verify every stat before it reaches a client: your name is on the deck."
     ]
   },
   "outcomesHeading": "What you'll be able to do",
@@ -101,12 +101,12 @@
       }
     ],
     "revealLabel": "See why the second prompt wins",
-    "feedback": "The winning prompt sets a <strong>role</strong> (management consultant), names a <strong>framework</strong> (pyramid principle — one governing recommendation, supporting arguments, evidence), targets the <strong>audience</strong> (a CFO who weighs impact, cost, and risk), and asks the model to <strong>flag any claim not backed by your data</strong>. It structures analysis you already did rather than inventing it. The losing options either ask the model to make the recommendation (\"what should I recommend?\") or produce unstructured volume (\"a 10-slide deck\") with no story and nothing verified. In Iro you'd write your own and get feedback on role, framework, audience, and where you left the model room to guess."
+    "feedback": "The winning prompt sets a <strong>role</strong> (management consultant), names a <strong>framework</strong> (pyramid principle: one governing recommendation, supporting arguments, evidence), targets the <strong>audience</strong> (a CFO who weighs impact, cost, and risk), and asks the model to <strong>flag any claim not backed by your data</strong>. It structures analysis you already did rather than inventing it. The losing options either ask the model to make the recommendation (\"what should I recommend?\") or produce unstructured volume (\"a 10-slide deck\") with no story and nothing verified. In Iro you'd write your own and get feedback on role, framework, audience, and where you left the model room to guess."
   },
   "body": [
     {
       "h2": "Why AI fits consulting — and its one big risk",
-      "html": "<p>Consulting is research, structure, and communication under a deadline, and AI is fast at all three. It can pull together a first market brief, organize a tangle of findings into a framework, and shape a slide narrative in minutes instead of an afternoon. For a job that runs on billable time, that speed is real leverage.</p><p>The risk is that a deliverable carries your firm's name. AI will state a market size, a growth rate, or a competitor fact with total confidence and no source — and if that slides into a deck, it's your credibility, not the model's. So the rule is simple: AI drafts and structures; you verify every number and claim before the client sees it.</p>"
+      "html": "<p>Consulting is research, structure, and communication under a deadline, and AI is fast at all three. It can pull together a first market brief, organize a tangle of findings into a framework, and shape a slide narrative in minutes instead of an afternoon. For a job that runs on billable time, that speed is a real advantage.</p><p>The risk is that a deliverable carries your firm's name. AI will state a market size, a growth rate, or a competitor fact with total confidence and no source, and if that slides into a deck, it's your credibility, not the model's. So the rule is simple: AI drafts and structures; you verify every number and claim before the client sees it.</p>"
     },
     {
       "h2": "Where AI earns its keep on an engagement",
@@ -117,7 +117,7 @@
   "faq": [
     {
       "q": "Can AI do consulting-grade research?",
-      "a": "It can do a fast first pass — a market brief, a company background, a list of questions for an expert call. What it can't do is guarantee the facts, so you treat its output as a starting point and verify every figure before it informs a recommendation. A cited tool like Perplexity helps, but you still check."
+      "a": "It can do a fast first pass: a market brief, a company background, a list of questions for an expert call. What it can't do is guarantee the facts, so you treat its output as a starting point and verify every figure before it informs a recommendation. A cited tool like Perplexity helps, but you still check."
     },
     {
       "q": "How do I get AI to structure analysis, not just write?",
@@ -125,11 +125,11 @@
     },
     {
       "q": "Can AI build my slides?",
-      "a": "It can build the narrative — the governing recommendation, the supporting arguments, and the evidence under each — which is the hard part. You still design the slides and, critically, verify every number. Iro's practice focuses on prompting for the story, not the formatting."
+      "a": "It can build the narrative (the governing recommendation, the supporting arguments, and the evidence under each), which is the hard part. You still design the slides and, critically, verify every number. Iro's practice focuses on prompting for the story, not the formatting."
     },
     {
       "q": "Is it safe to put client data into AI?",
-      "a": "Be careful. Client data is usually confidential and may be contractually protected — check your firm's policy and the tool's data settings, and prefer anonymized or synthetic samples. You can get most of the structuring help without pasting sensitive specifics."
+      "a": "Be careful. Client data is usually confidential and may be contractually protected. Check your firm's policy and the tool's data settings, and prefer anonymized or synthetic samples. You can get most of the structuring help without pasting sensitive specifics."
     },
     {
       "q": "Will AI replace junior consultants?",
