@@ -101,10 +101,10 @@
         },
         {
           "@type": "Offer",
-          "name": "Pro 3-Month",
-          "price": "24.99",
+          "name": "Pro Annual",
+          "price": "59.99",
           "priceCurrency": "USD",
-          "description": "$24.99 every 3 months (about $1.92/week). Includes 7-day free trial. Saves ~80% vs paying weekly ($24.99 vs ~$129.87 over 13 weeks). Billed via Apple App Store."
+          "description": "$59.99 a year (about $1.15/week). Includes 7-day free trial. Saves ~88% vs paying weekly ($59.99 vs ~$519.48 over a year). Billed via Apple App Store."
         },
         {
           "@type": "Offer",
@@ -464,7 +464,7 @@
       },
       {
         "q": "What does Iro AI cost?",
-        "a": "Pro 3-Month is $24.99 every 3 months (about $1.92/week) and includes a 7-day free trial. Pro Weekly is $9.99/week with no trial. Both are billed via the Apple App Store. The 3-month plan saves about 80% vs paying weekly ($24.99 vs ~$129.87 over the same 13 weeks). Cancel anytime."
+        "a": "Pro Annual is $59.99 a year (about $1.15/week) and includes a 7-day free trial. Pro Weekly is $9.99/week with no trial. Both are billed via the Apple App Store. The annual plan saves about 88% vs paying weekly ($59.99 vs ~$519.48 over a full year). Cancel anytime."
       },
       {
         "q": "Can I cancel anytime?",

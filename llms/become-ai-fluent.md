@@ -64,7 +64,7 @@ The meta-skill is consistency. Short daily practice moves you up the levels far 
 
 Iro is built to take you from Aware to Fluent through active, gamified practice. Its 20 learning paths (375 lessons, 2,000+ exercises) map directly onto the four pillars — a Prompt Lab gives feedback on your real prompts, lessons train verification and tool choice, and dedicated paths cover agents and automation for the agentic level. Streaks, XP, six ranks, and live duels keep the daily habit alive.
 
-Free to start on iOS; Pro unlocks everything for $24.99 every 3 months (about $1.92/week, 7-day free trial) or $9.99/week. See your current fluency level in 2 minutes with the free AI IQ test.
+Free to start on iOS; Pro unlocks everything for $59.99 a year (about $1.15/week, 7-day free trial) or $9.99/week. See your current fluency level in 2 minutes with the free AI IQ test.
 
 ## FAQ
 

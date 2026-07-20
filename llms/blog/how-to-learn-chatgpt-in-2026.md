@@ -88,7 +88,7 @@ Iro AI's [ChatGPT path](/learn-chatgpt) is built around exactly this loop, just 
 
 Pick one real task. Run it through the five-step loop above. Compare against one other model. Edit before you ship.
 
-If you want a structured version of this, Iro AI's [ChatGPT path](/learn-chatgpt) has the curriculum, the feedback, and the streaks built in. Free to start; Pro from $1.92/week ($24.99 every 3 months) with a 7-day free trial.
+If you want a structured version of this, Iro AI's [ChatGPT path](/learn-chatgpt) has the curriculum, the feedback, and the streaks built in. Free to start; Pro from $1.15/week ($59.99 a year) with a 7-day free trial.
 
 Or warm up with the [free AI IQ test](/quiz) — 10 questions, 2 minutes, tells you exactly where your weakest topic is.
 
