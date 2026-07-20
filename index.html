@@ -1011,31 +1011,44 @@ section.coach{position:relative;padding:clamp(80px,11vh,140px) 0}
 /* ============================================================
    PRICING
    ============================================================ */
-.price-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;max-width:1040px;margin:0 auto}
-.price-card{position:relative;display:flex;flex-direction:column;padding:30px 26px;border-radius:22px;
-  background:var(--card);border:1px solid var(--card-line);
-  box-shadow:0 6px 0 rgba(0,0,0,.28),0 16px 38px rgba(0,0,0,.34)}
-.price-card.pro{border:2px solid rgba(var(--accent-rgb),.55);
-  background:linear-gradient(180deg,rgba(var(--accent-rgb),.10),var(--card) 55%);
-  box-shadow:0 6px 0 var(--accent-edge),0 18px 46px rgba(var(--accent-rgb),.22)}
-.pc-badge{position:absolute;top:-14px;left:24px;background:var(--accent);color:var(--accent-ink);
-  font-family:'JetBrains Mono',monospace;font-size:10.5px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;
-  padding:7px 14px;border-radius:100px;box-shadow:0 4px 0 var(--accent-edge),0 6px 16px rgba(var(--accent-rgb),.4)}
-.pc-name{font-family:'Geist',sans-serif;font-size:14px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-2)}
-.pc-price{display:flex;align-items:baseline;gap:9px;margin:12px 0 8px}
-.pc-amt{font-family:'Geist',sans-serif;font-size:clamp(32px,4vw,42px);font-weight:800;letter-spacing:-.03em;line-height:1;color:var(--ink)}
-.pc-per{font-size:14px;color:var(--ink-3);font-weight:500}
-.pc-tag{font-size:13px;color:var(--ink-2);line-height:1.5;min-height:38px}
-.pc-list{list-style:none;margin:22px 0 26px;display:flex;flex-direction:column;gap:12px;flex:1}
-.pc-list li{display:flex;align-items:flex-start;gap:11px;font-size:14.5px;color:var(--ink);line-height:1.45}
-.pc-list li svg{width:19px;height:19px;flex-shrink:0;margin-top:1px;color:var(--accent)}
-.pc-list .pc-everything{font-weight:700}
-.pc-cta{width:100%}
-
-@media(max-width:860px){
-  .price-grid{grid-template-columns:1fr;max-width:420px}
-  .price-card.pro{order:-1}
+/* ---------- Iro Pro upgrade banner (a game power-up, not a pricing table) ---------- */
+.pro-band{position:relative;max-width:1000px;margin:0 auto;display:grid;grid-template-columns:.82fr 1.18fr;gap:clamp(14px,3.4vw,42px);align-items:center;
+  padding:clamp(28px,4vw,46px) clamp(24px,4vw,52px);border-radius:32px;overflow:hidden;
+  background:linear-gradient(135deg,rgba(var(--accent-rgb),.12),var(--card) 46%);border:1px solid rgba(var(--accent-rgb),.30);
+  box-shadow:0 8px 0 var(--accent-edge),0 30px 70px rgba(0,0,0,.5),0 0 90px rgba(var(--accent-rgb),.14)}
+.pro-glow{position:absolute;inset:0;pointer-events:none;z-index:0;
+  background:radial-gradient(60% 80% at 18% 24%,rgba(var(--accent-rgb),.20),transparent 60%),radial-gradient(55% 75% at 92% 96%,rgba(var(--gold-rgb),.12),transparent 60%)}
+.pro-mascot-wrap{position:relative;z-index:1;display:flex;align-items:center;justify-content:center}
+.pro-mascot{width:clamp(168px,22vw,252px);height:auto;filter:drop-shadow(0 22px 44px rgba(0,0,0,.55))}
+.pro-gem{position:absolute;z-index:2;display:inline-flex;align-items:center;gap:5px;font-family:'Outfit',sans-serif;font-weight:800;font-size:12.5px;
+  padding:7px 13px;border-radius:100px;white-space:nowrap}
+.pro-gem-xp{top:5%;right:-2%;color:var(--gold);background:rgba(var(--gold-rgb),.16);border:1px solid rgba(var(--gold-rgb),.4);
+  box-shadow:0 4px 0 #b98a19,0 8px 18px rgba(0,0,0,.4);animation:proFloatA 3.4s var(--ease) infinite}
+.pro-gem-streak{bottom:9%;left:-4%;color:#FF9E6B;background:rgba(255,120,60,.16);border:1px solid rgba(255,140,80,.4);
+  box-shadow:0 4px 0 #7a3316,0 8px 18px rgba(0,0,0,.4);animation:proFloatB 3.8s var(--ease) infinite}
+@keyframes proFloatA{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}
+@keyframes proFloatB{0%,100%{transform:translateY(0)}50%{transform:translateY(7px)}}
+.pro-copy{position:relative;z-index:1}
+.pro-badge-lg{display:inline-flex;align-items:center;gap:7px;font-family:'Outfit',sans-serif;font-weight:800;font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:#3A2A05;
+  background:linear-gradient(180deg,color-mix(in oklab,var(--gold),#fff 26%),var(--gold));padding:7px 14px;border-radius:100px;box-shadow:0 3px 0 #b98a19,0 0 22px rgba(var(--gold-rgb),.4)}
+.pro-badge-lg svg{width:14px;height:14px}
+.pro-h{font-family:'Geist',sans-serif;font-size:clamp(28px,4.2vw,46px);font-weight:800;letter-spacing:-.03em;line-height:1.04;color:var(--ink);margin-top:16px}
+.pro-h .accent{background:linear-gradient(90deg,var(--accent),#8FEBFF 45%,var(--gold));-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;color:transparent}
+.pro-sub{margin-top:14px;font-size:clamp(15px,1.5vw,17px);color:var(--ink-2);line-height:1.55;max-width:460px}
+.pro-perks{list-style:none;display:grid;grid-template-columns:1fr 1fr;gap:11px 22px;margin:22px 0 28px;max-width:480px}
+.pro-perks li{display:flex;align-items:center;gap:9px;font-size:14.5px;font-weight:600;color:var(--ink);line-height:1.3}
+.pro-perks svg{width:20px;height:20px;flex-shrink:0;color:var(--accent)}
+.pro-cta{font-size:18px}
+.pro-note{margin-top:15px;font-size:12.5px;color:var(--ink-3)}
+@media(max-width:760px){
+  .pro-band{grid-template-columns:1fr;text-align:center;gap:6px;padding:34px 24px;border-radius:26px}
+  .pro-mascot{width:clamp(150px,44vw,196px)}
+  .pro-gem-xp{right:7%}.pro-gem-streak{left:7%}
+  .pro-h,.pro-sub{margin-left:auto;margin-right:auto}
+  .pro-perks{grid-template-columns:1fr;width:max-content;max-width:100%;margin:20px auto 24px;text-align:left}
+  .pro-cta{width:100%}
 }
+@media(prefers-reduced-motion:reduce){.pro-gem-xp,.pro-gem-streak{animation:none}}
 
 /* ============================================================
    FAQ
@@ -1279,7 +1292,7 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
       <a href="/quiz.html" class="nav-quiz">AI IQ Test</a>
       <a href="#showcase">How it works</a>
       <a href="/paths">Paths</a>
-      <a href="#pricing">Pricing</a>
+      <a href="#pricing">Iro Pro</a>
       <a href="#faq">FAQ</a>
       <!-- Language picker hidden until localization is ready.
       <span class="locale-links" aria-label="Language"><a href="/" hreflang="en" lang="en" aria-current="true">EN</a><a href="/es" hreflang="es" lang="es">ES</a><a href="/fr" hreflang="fr" lang="fr">FR</a><a href="/de" hreflang="de" lang="de">DE</a></span>
@@ -1763,64 +1776,27 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
 <div class="divider"></div>
 
 <!-- ============ PRICING ============ -->
-<section id="pricing" data-screen-label="Pricing">
+<section id="pricing" data-screen-label="Iro Pro">
   <div class="wrap">
-    <div class="sec-head reveal">
-      <span class="eyebrow center">Pricing</span>
-      <h2 class="sec-title">Start free. <span class="accent">Go Pro when you're hooked.</span></h2>
-      <p class="sec-sub">No card to start. Cancel anytime.</p>
-    </div>
-
-    <div class="price-grid reveal" data-d="1">
-      <!-- FREE -->
-      <div class="price-card">
-        <div class="pc-head">
-          <div class="pc-name">Free</div>
-          <div class="pc-price"><span class="pc-amt">$0</span><span class="pc-per">forever</span></div>
-          <p class="pc-tag">Everything you need to build the habit.</p>
-        </div>
-        <ul class="pc-list">
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="m8.5 12 2.5 2.5 4.5-5"/></svg><span>5 starter lessons + 1 to sample any path</span></li>
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="m8.5 12 2.5 2.5 4.5-5"/></svg><span>A taste of Ask Iro, your AI coach</span></li>
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="m8.5 12 2.5 2.5 4.5-5"/></svg><span>Browse community-made paths</span></li>
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="m8.5 12 2.5 2.5 4.5-5"/></svg><span>XP, streaks &amp; daily challenges</span></li>
-        </ul>
-        <a class="btn btn-ghost btn-lg pc-cta" href="https://apps.apple.com/app/id6759628066">Start free</a>
+    <div class="pro-band reveal">
+      <div class="pro-glow" aria-hidden="true"></div>
+      <div class="pro-mascot-wrap">
+        <img class="pro-mascot" src="assets/iridescent-kiro.webp" alt="Iro at its top Iridescent rank" width="252" loading="lazy" decoding="async" onerror="if(/\.webp$/.test(this.src))this.src=this.src.replace('.webp','.png')"/>
+        <span class="pro-gem pro-gem-xp">&#9889; +50 XP</span>
+        <span class="pro-gem pro-gem-streak">&#128293; 7-day streak</span>
       </div>
-
-      <!-- WEEKLY -->
-      <div class="price-card">
-        <div class="pc-head">
-          <div class="pc-name">Weekly</div>
-          <div class="pc-price"><span class="pc-amt">$9.99</span><span class="pc-per">/week</span></div>
-          <p class="pc-tag">For a short sprint. No trial, cancel anytime.</p>
-        </div>
-        <ul class="pc-list">
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="m8.5 12 2.5 2.5 4.5-5"/></svg><span>Every path and lesson</span></li>
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="m8.5 12 2.5 2.5 4.5-5"/></svg><span>Custom paths on any topic</span></li>
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="m8.5 12 2.5 2.5 4.5-5"/></svg><span>Personal AI coaching</span></li>
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="m8.5 12 2.5 2.5 4.5-5"/></svg><span>Hands-on training tools</span></li>
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="m8.5 12 2.5 2.5 4.5-5"/></svg><span>Skill certificates</span></li>
+      <div class="pro-copy">
+        <span class="pro-badge-lg"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>Iro Pro</span>
+        <h2 class="pro-h">Power up with <span class="accent">Iro Pro</span></h2>
+        <p class="pro-sub">Unlock every path, build custom lessons on anything, and get unlimited feedback from Iro.</p>
+        <ul class="pro-perks">
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="m8.5 12 2.5 2.5 4.5-5"/></svg><span>All paths unlocked</span></li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="m8.5 12 2.5 2.5 4.5-5"/></svg><span>Unlimited custom paths</span></li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="m8.5 12 2.5 2.5 4.5-5"/></svg><span>Ask Iro anytime</span></li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="m8.5 12 2.5 2.5 4.5-5"/></svg><span>Certificates &amp; advanced practice</span></li>
         </ul>
-        <a class="btn btn-ghost btn-lg pc-cta" href="https://apps.apple.com/app/id6759628066">Get Weekly</a>
-      </div>
-
-      <!-- 3 MONTHS (best value) -->
-      <div class="price-card pro">
-        <div class="pc-badge">Best value · Save 88%</div>
-        <div class="pc-head">
-          <div class="pc-name">Annual</div>
-          <div class="pc-price"><span class="pc-amt">$59.99</span><span class="pc-per">/year</span></div>
-          <p class="pc-tag">7-day free trial, then $59.99 a year (about $1.15 a week). Cancel during the trial and pay nothing.</p>
-        </div>
-        <ul class="pc-list">
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="m8.5 12 2.5 2.5 4.5-5"/></svg><span>Every path and lesson</span></li>
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="m8.5 12 2.5 2.5 4.5-5"/></svg><span>Custom paths on any topic</span></li>
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="m8.5 12 2.5 2.5 4.5-5"/></svg><span>Personal AI coaching</span></li>
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="m8.5 12 2.5 2.5 4.5-5"/></svg><span>Hands-on training tools</span></li>
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="m8.5 12 2.5 2.5 4.5-5"/></svg><span>Skill certificates</span></li>
-        </ul>
-        <a class="btn btn-primary btn-lg pc-cta" href="https://apps.apple.com/app/id6759628066">Start 7-day free trial</a>
+        <a class="btn btn-primary btn-lg pro-cta" href="https://apps.apple.com/app/id6759628066">Try 7 days free</a>
+        <p class="pro-note">7-day free trial, then $59.99/year. Cancel anytime.</p>
       </div>
     </div>
     <p class="pricing-webapp-note reveal" data-d="2">On desktop or Android? <a href="https://app.tryiro.com" data-cta="pricing">Try Iro in your browser →</a></p>
@@ -1915,7 +1891,7 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
       <div class="foot-links">
         <a href="#showcase">How it works</a>
         <a href="#ask-iro">Iro coach</a>
-        <a href="#pricing">Pricing</a>
+        <a href="#pricing">Iro Pro</a>
         <a href="#faq">FAQ</a>
         <a href="https://apps.apple.com/app/id6759628066">App Store</a>
         <a href="/blog">Blog</a>
