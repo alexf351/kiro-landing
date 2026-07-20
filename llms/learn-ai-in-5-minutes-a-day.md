@@ -56,7 +56,7 @@ Keep the rule simple: one tiny rep, every day, even on busy days. Momentum matte
 
 Iro is the Duolingo for AI — built around exactly this five-minute loop. Each lesson is short and hands-on: you write prompts in a Prompt Lab that gives feedback, evaluate AI answers, and learn one concept at a time across 20 learning paths (375 lessons, 2,000+ exercises) covering ChatGPT, Claude, Gemini, Perplexity, prompt engineering, AI agents, automation, and more.
 
-Streaks, XP, six ranks, and live duels do the hard part — getting you to come back tomorrow. It is free to start on iOS; Pro unlocks everything for $24.99 every 3 months (about $1.92/week, with a 7-day free trial) or $9.99/week. Want a 2-minute baseline first? Take the free AI IQ test.
+Streaks, XP, six ranks, and live duels do the hard part — getting you to come back tomorrow. It is free to start on iOS; Pro unlocks everything for $59.99 a year (about $1.15/week, with a 7-day free trial) or $9.99/week. Want a 2-minute baseline first? Take the free AI IQ test.
 
 ## FAQ
 

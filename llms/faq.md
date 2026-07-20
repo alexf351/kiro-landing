@@ -45,7 +45,7 @@ Yes. The free tier includes a starter slice across all 20 paths, daily challenge
 
 ### What does Iro AI cost?
 
-3-Month Pro is $24.99 every 3 months (about $1.92/week) and includes a 7-day free trial. Weekly Pro is $9.99/week with no trial. Both are billed via the Apple App Store. The 3-month plan saves about 80% versus weekly ($24.99 vs ~$129.87 over 13 weeks). Cancel anytime.
+3-Month Pro is $59.99 a year (about $1.15/week) and includes a 7-day free trial. Weekly Pro is $9.99/week with no trial. Both are billed via the Apple App Store. The annual plan saves about 88% versus weekly ($59.99 vs ~$519.48 over a year). Cancel anytime.
 
 ### Can I cancel anytime?
 

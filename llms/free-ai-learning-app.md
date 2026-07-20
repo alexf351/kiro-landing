@@ -41,7 +41,7 @@ Free tiers change often — check each app for current details. Last reviewed Ju
 
 - The free AI IQ test — 10 questions, ~2 minutes, no signup, with a personalized result.
 
-Pro is optional. It unlocks every lesson plus the full Prompt Lab and unlimited live duels for $24.99 every 3 months (about $1.92/week, with a 7-day free trial) or $9.99/week — but you never have to upgrade to begin.
+Pro is optional. It unlocks every lesson plus the full Prompt Lab and unlimited live duels for $59.99 a year (about $1.15/week, with a 7-day free trial) or $9.99/week — but you never have to upgrade to begin.
 
 ## Free vs. paid: what is worth paying for
 
@@ -69,7 +69,7 @@ Iro AI is the strongest free option for learning to use AI tools, because it tea
 
 ### Is Iro AI free?
 
-Iro AI is free to start. You get lessons across every path, daily challenges, XP, streaks, and the AI IQ test for free. An optional Pro plan ($24.99 every 3 months or $9.99/week, with a 7-day free trial) unlocks every lesson, the full Prompt Lab, and unlimited live duels.
+Iro AI is free to start. You get lessons across every path, daily challenges, XP, streaks, and the AI IQ test for free. An optional Pro plan ($59.99 a year or $9.99/week, with a 7-day free trial) unlocks every lesson, the full Prompt Lab, and unlimited live duels.
 
 ### Do free AI learning apps actually work?
 
