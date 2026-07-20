@@ -100,7 +100,43 @@ posts to edtech/AI blogs. The solo-founder angle is a hook.
 - **Monthly:** one original-data piece; pitch it to newsletters.
 - **Track:** new referring domains in GSC (Links report) + Ahrefs/Ubersuggest free tier.
 
-## 5. Reality check
+## 5. Search-engine submission (beyond Google Search Console)
+
+Google is only one index. Submitting to the others is a one-time nudge that
+gets you discovered faster (ranking still rides on content + links).
+
+**Brave Search** — https://search.brave.com/submit-url
+No console; just paste one URL at a time. Submit the homepage + top pages
+(see priority list below). Brave has its own independent index.
+
+**Bing Webmaster Tools** — https://www.bing.com/webmasters
+The bigger win: Bing's index also powers **ChatGPT Search, DuckDuckGo, Yahoo,
+and Ecosia**, so it's a GEO play too. Fastest setup: "Import from Google
+Search Console" (skips re-verification, auto-imports sitemaps). Otherwise add
+the site, verify, then Sitemaps → submit `https://tryiro.com/sitemap-index.xml`.
+Use URL Submission for the top pages; up to 10k/day on verified sites.
+
+**IndexNow** (automated Bing/Yandex/Seznam/Naver ping) — set up in this repo:
+- Key file served at `https://tryiro.com/b5b04a1f5ff05c02d330e53b5362b5db.txt`
+- After each deploy is live, run:
+  - `node growth/indexnow-ping.mjs` — pings every URL in the sitemaps
+  - `node growth/indexnow-ping.mjs https://tryiro.com/new-page` — just new pages
+  - `node growth/indexnow-ping.mjs --dry-run` — preview, sends nothing
+- Google and Brave do NOT use IndexNow — those stay manual.
+
+**Priority pages to submit manually** (Brave one-at-a-time / Bing URL Submission):
+1. https://tryiro.com/ (homepage)
+2. https://tryiro.com/best-ai-learning-app (top performer)
+3. https://tryiro.com/blog/coursiv-alternatives (top performer)
+4. https://tryiro.com/blog/learnova-alternatives (top performer)
+5. https://tryiro.com/quiz (AI IQ test — high engagement)
+6. https://tryiro.com/paths (path library hub)
+7. https://tryiro.com/blog (blog hub)
+8. https://tryiro.com/duolingo-for-ai
+9. https://tryiro.com/learn-chatgpt
+10. https://tryiro.com/how-to-learn-ai
+
+## 6. Reality check
 SEO + links compound over **months**, not weeks. The pages you shipped will
 start ranking in 2–8 weeks; backlinks accelerate it. Keep other channels
 (TikTok, App Store, paid) alive in parallel — don't bet the company on SEO
