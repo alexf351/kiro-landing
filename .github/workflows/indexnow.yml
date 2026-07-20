@@ -11,6 +11,7 @@ on:
       - '**.html'
       - 'sitemap.xml'
       - 'blog-sitemap.xml'
+      - '.github/workflows/indexnow.yml'  # also re-ping when this workflow changes
   workflow_dispatch: {}
 
 # Avoid overlapping pings if several pushes land close together.
