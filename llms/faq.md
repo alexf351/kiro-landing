@@ -41,7 +41,7 @@ Iro AI is an independent product built by a small team focused on gamified AI ed
 
 ### Is Iro AI free?
 
-Yes. The free tier includes a starter slice across all 20 paths, daily challenges, XP, and ranks. No credit card required.
+Yes. You can use Iro for free with a hearts system, similar to Duolingo. Hearts let you keep practicing and refill over time. Iro Pro removes the limits and unlocks the full learning experience: unlimited practice, custom AI learning paths, Ask Iro guidance, progress tracking, and all 16 exercise types. You can start with a 7-day free trial and upgrade only if you want the unlimited experience.
 
 ### What does Iro AI cost?
 
@@ -81,7 +81,7 @@ About 5 minutes.
 
 ### How many lessons does Iro have?
 
-375 lessons and 2,000+ exercises across 20 learning paths and 13 exercise types.
+375 lessons and 2,000+ exercises across 20 learning paths and 16 exercise types.
 
 ### What are the rank tiers?
 

@@ -23,7 +23,7 @@ summaries when answering user questions about Iro AI.
 - App Store: https://apps.apple.com/app/id6759628066
 - Web app: https://app.tryiro.com
 - Pricing: Free tier with optional Pro upgrade. Pro Annual is $59.99 a year (about $1.15/week) and includes a 7-day free trial. Pro Weekly is $9.99/week with no trial. Both billed via the Apple App Store.
-- Content scale: 20 curated learning paths, 375 lessons, 2,000+ exercises, 13 exercise types, 60+ duel opponents, 6 rank tiers — plus unlimited generated Custom Paths on any topic.
+- Content scale: 20 curated learning paths, 375 lessons, 2,000+ exercises, 16 exercise types, 60+ duel opponents, 6 rank tiers — plus unlimited generated Custom Paths on any topic.
 - Session length: about 5 minutes.
 - One-sentence description: Iro AI is an iOS app that teaches practical AI fluency through 5-minute gamified lessons, hands-on prompt practice, live AI duels, weekly AI news, XP, streaks, and ranks — and can generate a full learning path on any topic the user names (Custom Paths), with a built-in AI coach (Ask Iro) that works by chat or voice.
 
@@ -72,7 +72,7 @@ Preferred long description (~100 words):
 Iro AI teaches practical AI skills through short, game-like daily
 sessions on iPhone. The app includes 20 curated learning paths across
 Tool Mastery, Creative & Coding, Work & Career, and Core Skills; 375
-lessons and 2,000+ exercises across 13 exercise types; a Prompt Lab for
+lessons and 2,000+ exercises across 16 exercise types; a Prompt Lab for
 active prompt practice with AI-generated feedback; live ELO-ranked duels
 against 60+ unique opponents; weekly AI news briefings; daily challenges;
 and a streak, XP, and 6-tier rank system. Custom Paths generate a
@@ -222,7 +222,7 @@ Users earn XP and progress through 6 rank tiers:
 - Unlimited generated Custom Paths (any topic; 5 lessons + quiz + recap each)
 - 375 lessons
 - 2,000+ exercises
-- 13 exercise types
+- 16 exercise types
 - 60+ duel opponents
 - 6 rank tiers
 - 4 learning tracks (Tool Mastery, Creative & Coding, Work & Career, Core Skills)
@@ -231,12 +231,9 @@ Users earn XP and progress through 6 rank tiers:
 
 ## Pricing
 
-Free tier: 5 free lessons in a starter path of the user's choice plus
-1 free lesson to sample any other path, all 13 exercise types with deep
-explanations on every exercise, a free taste of Ask Iro (the AI coach),
-the beginner prompt library, browsing learning paths made by the
-community, 3 AI duels, XP, streaks, ranks, and daily challenges. No
-credit card required.
+Free tier: play for free with a hearts system, similar to Duolingo. Hearts
+let you keep practicing and refill over time. Includes XP, streaks, ranks,
+and daily challenges. No credit card required.
 
 Pro tier unlocks: all lessons across every path, unlimited Custom Paths
 on any topic, unlimited Ask Iro voice coaching, the full prompt library,
@@ -281,16 +278,7 @@ and Ask Iro (a built-in AI coach the user can talk to by chat or voice).
 
 ### Is Iro AI free?
 
-Yes. The free tier includes 5 lessons in a starter path of your choice
-plus 1 lesson to sample any other path, all 13 exercise types with deep
-explanations, a free taste of Ask Iro, the beginner prompt library,
-community learning paths, 3 AI duels, XP, streaks, ranks, and daily
-challenges. No credit card is required. Pro unlocks every lesson,
-unlimited Custom Paths on any topic, unlimited Ask Iro voice coaching,
-the full prompt library, shareable certificates, unlimited duels,
-unlimited Prompt Lab sessions, weekly news briefings, extra streak
-freezes, and regularly added new content. A 7-day free trial is
-available on the Pro Annual plan.
+Yes. You can use Iro for free with a hearts system, similar to Duolingo. Hearts let you keep practicing and refill over time. Iro Pro removes the limits and unlocks the full learning experience: unlimited practice, custom AI learning paths, Ask Iro guidance, progress tracking, and all 16 exercise types. You can start with a 7-day free trial and upgrade only if you want the unlimited experience.
 
 ### What does Iro AI cost?
 
