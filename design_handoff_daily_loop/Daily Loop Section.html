@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Iro — Daily Loop section (design reference)</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin=""/>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@700&display=swap" rel="stylesheet"/>
+<style>
+:root{--bg:#0A0E1A;--bg-soft:#0C1120;--card:#141A2B;--card-2:#1A2136;--card-3:#20283F;--line:rgba(255,255,255,.08);--line-2:rgba(255,255,255,.14);--ink:#F5F8FF;--ink-2:#AAB4D4;--ink-3:#7A85A3;--accent:#00E5FF;--accent-rgb:0,229,255;--accent-2:#00B7D4;--accent-ink:#052733;--gold:#FFCE4A;--gold-2:#E0A81F;--gold-rgb:255,206,74;--maxw:1180px;--r:22px;--r-lg:30px;--ease:cubic-bezier(.2,.8,.2,1)}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Outfit',system-ui,sans-serif;background:var(--bg);color:var(--ink);line-height:1.55;overflow-x:hidden;-webkit-font-smoothing:antialiased}
+a{color:var(--accent);text-decoration:none}a:hover{color:#66f0ff}
+h1,h2,h3,h4{font-weight:800;letter-spacing:-.025em;line-height:1.04;color:var(--ink)}
+.field{position:fixed;inset:0;z-index:-1;pointer-events:none;background:radial-gradient(60% 45% at 82% -8%,rgba(var(--accent-rgb),.12),transparent 62%),radial-gradient(55% 42% at 6% 4%,rgba(var(--gold-rgb),.05),transparent 60%),radial-gradient(70% 55% at 50% 118%,rgba(var(--accent-rgb),.06),transparent 58%)}
+.wrap{max-width:var(--maxw);margin:0 auto;padding:0 24px;width:100%}
+section{position:relative;padding:clamp(72px,10vh,132px) 0}
+.kicker.plain{display:inline-flex;font-family:'JetBrains Mono',monospace;font-size:11.5px;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:var(--ink-3)}
+.sec-head{max-width:720px;margin:0 auto clamp(40px,5vh,64px);text-align:center}
+.sec-head .kicker{margin-bottom:20px}
+.sec-title{font-size:clamp(32px,4.6vw,56px)}
+.sec-title .accent,.accent{color:var(--accent)}
+.sec-sub{margin-top:18px;font-size:clamp(16px,1.5vw,19px);color:var(--ink-2);max-width:540px;margin-left:auto;margin-right:auto;text-wrap:pretty}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:11px;font-family:inherit;font-weight:800;font-size:16px;letter-spacing:-.01em;padding:16px 26px;border-radius:16px;cursor:pointer;border:0;line-height:1;white-space:nowrap;transition:transform .08s ease,box-shadow .08s ease,filter .2s ease}
+.btn-primary{background:var(--accent);color:var(--accent-ink);box-shadow:0 5px 0 var(--accent-2),0 10px 26px rgba(var(--accent-rgb),.24)}
+.btn-primary:hover{filter:brightness(1.06);color:var(--accent-ink)}
+.btn-primary:active{transform:translateY(4px);box-shadow:0 1px 0 var(--accent-2),0 4px 12px rgba(var(--accent-rgb),.2)}
+.btn-lg{padding:19px 32px;font-size:18px;border-radius:18px}
+/* ---------- reveal ---------- */
+.reveal{opacity:0;transform:translateY(22px);transition:opacity .7s var(--ease),transform .7s var(--ease)}
+.reveal.in{opacity:1;transform:none}
+.reveal[data-d="1"]{transition-delay:.08s}.reveal[data-d="2"]{transition-delay:.16s}.reveal[data-d="3"]{transition-delay:.24s}
+
+/* ==========================================================================
+   SKILL UNIVER
+/* ==========================================================================
+   THE DAILY LOOP — training circuit
+   ========================================================================== */
+.loop2{position:relative;max-width:1060px;margin:0 auto}
+.loop2-rail{position:absolute;top:0;left:0;width:100%;height:170px;z-index:1;overflow:visible}
+.l2-main{fill:none;stroke:url(#l2grad);stroke-width:2.5px;opacity:.9;stroke-dasharray:1;stroke-dashoffset:1}
+.loop2.in .l2-main{stroke-dashoffset:0;transition:stroke-dashoffset 1.6s var(--ease) .4s}
+.l2-return,.l2-arrow{fill:none;stroke:rgba(255,255,255,.24);stroke-width:1.5px;stroke-linecap:round;stroke-linejoin:round}
+.l2-return{stroke-dasharray:5 8;animation:l2dash 2.8s linear infinite}
+@keyframes l2dash{to{stroke-dashoffset:-13}}
+.loop2-again{position:absolute;top:0;left:50%;transform:translateX(-50%);z-index:2;display:inline-flex;align-items:center;gap:8px;
+  font-family:'JetBrains Mono',monospace;font-size:10.5px;font-weight:700;letter-spacing:.15em;text-transform:uppercase;
+  color:var(--ink-3);white-space:nowrap}
+.loop2-again svg{width:14px;height:14px;color:var(--gold);animation:l2spin 7s linear infinite}
+@keyframes l2spin{to{transform:rotate(360deg)}}
+.loop2-steps{position:relative;z-index:2;display:grid;grid-template-columns:repeat(5,1fr);list-style:none;padding-top:64px;margin:0}
+.l2-step{display:flex;flex-direction:column;align-items:center;padding:0 8px;transform:translateY(var(--dy,0));cursor:default}
+.l2-node{position:relative;width:64px;height:64px;border-radius:20px;display:flex;align-items:center;justify-content:center;
+  color:var(--accent-ink);background:linear-gradient(180deg,#54EEFF,#00C8E4);
+  box-shadow:0 5px 0 #0090A9,0 0 0 6px rgba(var(--accent-rgb),.08),0 14px 32px rgba(var(--accent-rgb),.16);
+  transition:transform .25s var(--ease),box-shadow .25s}
+.l2-node svg{width:28px;height:28px}
+.l2-step:hover .l2-node{transform:translateY(-4px);box-shadow:0 9px 0 #0090A9,0 0 0 6px rgba(var(--accent-rgb),.13),0 18px 38px rgba(var(--accent-rgb),.24)}
+.l2-step.gold .l2-node{color:#2b1e00;background:linear-gradient(180deg,#FFDD70,#F5C33B);
+  box-shadow:0 5px 0 #BE8E1C,0 0 0 6px rgba(var(--gold-rgb),.09),0 14px 32px rgba(var(--gold-rgb),.15)}
+.l2-step.gold:hover .l2-node{box-shadow:0 9px 0 #BE8E1C,0 0 0 6px rgba(var(--gold-rgb),.13),0 18px 38px rgba(var(--gold-rgb),.22)}
+.l2-n{position:absolute;top:-9px;right:-9px;width:22px;height:22px;border-radius:8px;display:flex;align-items:center;justify-content:center;
+  font-style:normal;font-size:11px;font-weight:800;color:var(--ink-2);background:var(--bg);border:1px solid var(--line-2)}
+.l2-txt{display:flex;flex-direction:column;align-items:center;text-align:center}
+.l2-step h3{font-size:17px;letter-spacing:-.015em;line-height:1.22;margin:16px 0 6px;max-width:185px}
+.l2-step p{font-size:13.5px;color:var(--ink-2);line-height:1.45;max-width:190px;text-wrap:pretty}
+/* motion: traveling glow along the rail */
+.l2-glow{fill:none;stroke:url(#l2grad);stroke-width:5px;stroke-linecap:round;filter:blur(3px);opacity:0;stroke-dasharray:.1 1.2;stroke-dashoffset:.1}
+.loop2.in .l2-glow{animation:l2travel 12s linear infinite 2s}
+@keyframes l2travel{0%{stroke-dashoffset:.1;opacity:0}4%{opacity:.85}72%{opacity:.85}80%,100%{stroke-dashoffset:-1;opacity:0}}
+/* motion: one node pulses at a time, in loop order */
+.l2-node::before{content:'';position:absolute;inset:0;border-radius:inherit;opacity:0;box-shadow:0 0 0 0 var(--pc,rgba(var(--accent-rgb),.45))}
+.l2-step.gold .l2-node::before{--pc:rgba(var(--gold-rgb),.4)}
+.loop2.in .l2-node::before{animation:l2pulse 12s var(--ease) infinite 2s;animation-delay:calc(2s + var(--pd,0s))}
+.l2-step:nth-child(2){--pd:2.4s}.l2-step:nth-child(3){--pd:4.8s}.l2-step:nth-child(4){--pd:7.2s}.l2-step:nth-child(5){--pd:9.6s}
+@keyframes l2pulse{0%{opacity:.9;box-shadow:0 0 0 0 var(--pc,rgba(var(--accent-rgb),.45))}11%{opacity:0;box-shadow:0 0 0 16px transparent}100%{opacity:0;box-shadow:0 0 0 16px transparent}}
+/* motion: soft XP sparkles on the streak step */
+.l2-sp{position:absolute;left:50%;top:50%;width:8px;height:8px;margin:-4px 0 0 -4px;background:var(--gold);opacity:0;pointer-events:none;
+  clip-path:polygon(50% 0,62% 38%,100% 50%,62% 62%,50% 100%,38% 62%,0 50%,38% 38%);
+  transform:translate(var(--sx),var(--sy)) scale(.3)}
+.loop2.in .l2-sp{animation:l2spark 4.8s ease-in-out infinite var(--sd,0s)}
+@keyframes l2spark{0%,100%{opacity:0;transform:translate(var(--sx),var(--sy)) scale(.3) rotate(0deg)}50%{opacity:.85;transform:translate(var(--sx),calc(var(--sy) - 4px)) scale(var(--ss,1)) rotate(95deg)}}
+@media(max-width:860px){.l2-node::before{display:none}}
+.loop2-cta{display:flex;flex-direction:column;align-items:center;gap:14px;margin-top:clamp(46px,6vh,68px)}
+.loop2-note{font-size:13.5px;color:var(--ink-3)}
+@media(max-width:860px){
+  .loop2-rail{display:none}
+  .loop2-again{position:static;transform:none;display:flex;justify-content:center;margin:26px auto 0}
+  .loop2-steps{display:flex;flex-direction:column;gap:26px;padding-top:0;max-width:420px;margin:0 auto}
+  .l2-step{position:relative;flex-direction:row;align-items:flex-start;gap:16px;padding:0;transform:none}
+  .l2-node{width:54px;height:54px;border-radius:17px;flex-shrink:0}
+  .l2-node svg{width:24px;height:24px}
+  .l2-step:not(:last-child)::after{content:'';position:absolute;left:26px;top:62px;bottom:-20px;width:2px;border-radius:2px;
+    background:linear-gradient(180deg,rgba(var(--accent-rgb),.4),rgba(var(--accent-rgb),.1))}
+  .l2-step:nth-child(3)::after{background:linear-gradient(180deg,rgba(var(--accent-rgb),.4),rgba(var(--gold-rgb),.35))}
+  .l2-step.gold::after{background:linear-gradient(180deg,rgba(var(--gold-rgb),.4),rgba(var(--gold-rgb),.1))}
+  .l2-txt{align-items:flex-start;text-align:left}
+  .l2-step h3{margin-top:4px;max-width:none}
+  .l2-step p{max-width:none}
+}
+
+@media(prefers-reduced-motion:reduce){*{animation:none!important}.reveal{opacity:1;transform:none;transition:none}}
+</style>
+</head>
+<body>
+<div class="field"></div>
+<!-- ============ THE DAILY LOOP ============ -->
+<section id="how">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="kicker plain">The daily loop</span>
+      <h2 class="sec-title">Build AI skill in <span class="accent">one daily rep</span></h2>
+      <p class="sec-sub">Iro turns learning AI into a simple loop: choose your path, practice for a few minutes, and level up as your skills improve.</p>
+    </div>
+    <div class="loop2 reveal" data-d="1">
+      <span class="loop2-again"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12a9 9 0 1 0 2.6-6.4L3 8"/><path d="M3 3v5h5"/></svg>Run it again tomorrow</span>
+      <svg class="loop2-rail" viewBox="0 0 1000 170" preserveAspectRatio="none" aria-hidden="true">
+        <defs><linearGradient id="l2grad" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#00E5FF"/><stop offset=".58" stop-color="#00E5FF"/><stop offset="1" stop-color="#FFCE4A"/></linearGradient></defs>
+        <path class="l2-return" d="M900 60 C 880 16, 700 12, 610 12" vector-effect="non-scaling-stroke"></path>
+        <path class="l2-return" d="M390 12 C 300 12, 120 16, 100 60" vector-effect="non-scaling-stroke"></path>
+        <path class="l2-arrow" d="M111 52 L100 60 L98 46" vector-effect="non-scaling-stroke"></path>
+        <path class="l2-main" d="M100 96 Q 500 142 900 96" pathLength="1" vector-effect="non-scaling-stroke"></path>
+        <path class="l2-glow" d="M100 96 Q 500 142 900 96" pathLength="1" vector-effect="non-scaling-stroke"></path>
+      </svg>
+      <ol class="loop2-steps">
+        <li class="l2-step" style="--dy:0px">
+          <span class="l2-node"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1z"/><line x1="4" y1="22" x2="4" y2="15"/></svg><i class="l2-n">1</i></span>
+          <div class="l2-txt"><h3>Pick your path</h3><p>Choose the AI skill you want to build.</p></div>
+        </li>
+        <li class="l2-step" style="--dy:17px">
+          <span class="l2-node"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg><i class="l2-n">2</i></span>
+          <div class="l2-txt"><h3>Take a 5-minute lesson</h3><p>Learn one concept without getting overwhelmed.</p></div>
+        </li>
+        <li class="l2-step" style="--dy:23px">
+          <span class="l2-node"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 3a2.85 2.83 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5Z"/><path d="m15 5 4 4"/></svg><i class="l2-n">3</i></span>
+          <div class="l2-txt"><h3>Practice with prompts</h3><p>Apply it through real workplace-style exercises.</p></div>
+        </li>
+        <li class="l2-step gold" style="--dy:17px">
+          <span class="l2-node"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z"/></svg><i class="l2-n">4</i><span class="l2-sp" style="--sx:-25px;--sy:-12px;--sd:0s"></span><span class="l2-sp" style="--sx:30px;--sy:-20px;--sd:1.6s;--ss:.7"></span><span class="l2-sp" style="--sx:24px;--sy:18px;--sd:3.1s;--ss:.55"></span></span>
+          <div class="l2-txt"><h3>Earn XP &amp; keep your streak</h3><p>Build momentum every time you show up.</p></div>
+        </li>
+        <li class="l2-step gold" style="--dy:0px">
+          <span class="l2-node"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9V2h12v7a6 6 0 0 1-12 0z"/><path d="M6 5H3v2a3 3 0 0 0 3 3M18 5h3v2a3 3 0 0 1-3 3M9 22h6M12 16v6"/></svg><i class="l2-n">5</i></span>
+          <div class="l2-txt"><h3>Rank up your skills</h3><p>Watch your AI fluency grow over time.</p></div>
+        </li>
+      </ol>
+    </div>
+    <div class="loop2-cta reveal" data-d="2">
+      <a class="btn btn-primary btn-lg" href="https://apps.apple.com/app/id6759628066">Start your first 5-minute rep</a>
+      <span class="loop2-note">Then come back tomorrow and run it again.</span>
+    </div>
+  </div>
+</section>
+<script>
+(function(){
+  var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var reveals = document.querySelectorAll('.reveal');
+  if(reduce || !('IntersectionObserver' in window)){ reveals.forEach(function(el){ el.classList.add('in'); }); return; }
+  var io = new IntersectionObserver(function(entries){
+    entries.forEach(function(e){ if(e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target); } });
+  }, { threshold:0.12, rootMargin:'0px 0px -8% 0px' });
+  reveals.forEach(function(el){ io.observe(el); });
+})();
+</script>
+</body>
+</html>
