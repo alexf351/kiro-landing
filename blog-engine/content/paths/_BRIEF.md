@@ -18,7 +18,7 @@ its exact topic.
   lessons, active practice with instant feedback, streaks, XP, 6 ranks, daily
   challenges, head-to-head duels (ELO matchmaking), weekly AI news.
 - **Real features you may reference:** Prompt Lab / real prompt practice with
-  feedback; 13 exercise types; **Ask Iro** (a personal AI coach — chat and
+  feedback; 16 exercise types; **Ask Iro** (a personal AI coach — chat and
   voice); **Custom Paths** (generate a learning path on almost any topic you
   type in); shareable certificates; 20 built-in learning paths; 375 lessons;
   2,000+ exercises. **Do NOT invent features that aren't in this list.**

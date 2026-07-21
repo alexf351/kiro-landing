@@ -80,7 +80,7 @@
       "description": "Iro AI is an iOS app (with a web app at app.tryiro.com) that teaches practical AI fluency through 5-minute gamified lessons, hands-on prompt practice, live AI duels, weekly AI news, XP, streaks, and 6 competitive ranks. Custom Paths generate a complete learning path on any topic the user names, and Ask Iro — the built-in AI coach — works by chat or voice.",
       "featureList": [
         "20 learning paths across ChatGPT, Claude, Gemini, Perplexity, prompt engineering, AI agents, automation, image/video generation, vibe coding, work, marketing, finance, and more",
-        "375 lessons and 2,000+ exercises across 13 exercise types",
+        "375 lessons and 2,000+ exercises across 16 exercise types",
         "Custom Paths: type any topic and Iro generates a complete learning path (5 lessons, a quiz, and a recap) in seconds — not just AI topics",
         "Ask Iro: built-in AI coach with chat and voice modes",
         "Prompt Lab with AI-generated feedback",
@@ -97,7 +97,7 @@
           "name": "Free",
           "price": "0",
           "priceCurrency": "USD",
-          "description": "5 free lessons in a starter path of your choice plus 1 lesson to sample any other path, all 13 exercise types with deep explanations, a free taste of Ask Iro (the AI coach), the beginner prompt library, community learning paths, 3 AI duels, XP, streaks, ranks, and daily challenges. No credit card required."
+          "description": "Free with a hearts system, similar to Duolingo — hearts let you keep practicing and refill over time. Includes XP, streaks, ranks, and daily challenges. No credit card required."
         },
         {
           "@type": "Offer",
@@ -460,7 +460,7 @@
       },
       {
         "q": "Is Iro AI free?",
-        "a": "Yes. The free tier includes 5 free lessons in a starter path of your choice plus 1 lesson to sample any other path, all 13 exercise types with deep explanations, a free taste of Ask Iro (the AI coach), the beginner prompt library, community learning paths, 3 AI duels, XP, streaks, ranks, and daily challenges. No credit card required. Pro unlocks every lesson across every path, unlimited custom paths on any topic, unlimited Ask Iro voice coaching, the full prompt library, shareable certificates, unlimited AI duels, unlimited Prompt Lab sessions, full weekly AI news briefings, extra streak freezes, and regularly added new content."
+        "a": "Yes. You can use Iro for free with a hearts system, similar to Duolingo. Hearts let you keep practicing and refill over time. Iro Pro removes the limits and unlocks the full learning experience: unlimited practice, custom AI learning paths, Ask Iro guidance, progress tracking, and all 16 exercise types. You can start with a 7-day free trial and upgrade only if you want the unlimited experience."
       },
       {
         "q": "What does Iro AI cost?",
@@ -480,7 +480,7 @@
       },
       {
         "q": "How many lessons does Iro have?",
-        "a": "375 lessons and 2,000+ exercises across 20 learning paths and 13 exercise types."
+        "a": "375 lessons and 2,000+ exercises across 20 learning paths and 16 exercise types."
       },
       {
         "q": "What are the rank tiers?",
