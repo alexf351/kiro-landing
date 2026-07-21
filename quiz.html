@@ -300,11 +300,11 @@ body{
 
 /* BUTTONS */
 .btn-primary{
-  background:linear-gradient(180deg,color-mix(in oklab,var(--accent),#fff 22%),var(--accent));color:var(--accent-ink);
-  border:1px solid transparent;padding:16px 36px;border-radius:13px;
-  font-family:'Outfit',sans-serif;font-weight:700;font-size:16px;letter-spacing:-.01em;cursor:pointer;text-decoration:none;
-  transition:transform .35s var(--ease),box-shadow .3s ease;display:inline-flex;align-items:center;gap:8px;
-  box-shadow:0 1px 0 rgba(255,255,255,.35) inset,0 10px 30px rgba(0,0,0,.45),0 0 0 1px rgba(var(--accent-rgb),.5),0 0 40px rgba(var(--accent-rgb),.28);
+  background:linear-gradient(180deg,color-mix(in oklab,var(--accent),#fff 20%),var(--accent));color:var(--accent-ink);
+  border:0;padding:18px 36px;border-radius:16px;
+  font-family:'Outfit',sans-serif;font-weight:800;font-size:16.5px;letter-spacing:-.01em;cursor:pointer;text-decoration:none;
+  transition:transform .12s var(--ease),box-shadow .22s ease,filter .2s ease;display:inline-flex;align-items:center;gap:8px;
+  box-shadow:0 5px 0 #0093A8,0 12px 26px rgba(var(--accent-rgb),.32),0 1px 0 rgba(255,255,255,.45) inset;
   position:relative;overflow:hidden
 }
 .btn-primary::before{
@@ -313,32 +313,25 @@ body{
   transition:left .5s ease
 }
 .btn-primary:hover::before{left:100%}
-.btn-primary:hover{transform:translateY(-2px);box-shadow:0 1px 0 rgba(255,255,255,.35) inset,0 14px 38px rgba(0,0,0,.5),0 0 0 1px rgba(var(--accent-rgb),.6),0 0 60px rgba(var(--accent-rgb),.42)}
+.btn-primary:hover{filter:brightness(1.05);box-shadow:0 5px 0 #0093A8,0 16px 36px rgba(var(--accent-rgb),.5),0 1px 0 rgba(255,255,255,.5) inset}
+.btn-primary:active{transform:translateY(4px);box-shadow:0 1px 0 #0093A8,0 6px 16px rgba(var(--accent-rgb),.3),0 1px 0 rgba(255,255,255,.4) inset}
 .btn-primary:focus-visible,.btn-secondary:focus-visible,.results-link:focus-visible,.quiz-option:focus-visible{
   outline:2px solid var(--cyan);outline-offset:2px
 }
 .btn-secondary{
-  background:transparent;color:var(--ink-2);border:1px solid var(--line-strong);
-  padding:12px 24px;border-radius:13px;font-family:'Outfit',sans-serif;font-weight:600;
-  font-size:14px;cursor:pointer;text-decoration:none;transition:all .2s;display:inline-flex;align-items:center;gap:8px
+  background:#1B2336;color:var(--ink);border:0;
+  padding:13px 24px;border-radius:14px;font-family:'Outfit',sans-serif;font-weight:700;
+  font-size:14px;cursor:pointer;text-decoration:none;display:inline-flex;align-items:center;gap:8px;
+  box-shadow:0 4px 0 #080B14,0 8px 18px rgba(0,0,0,.3);transition:transform .12s var(--ease),box-shadow .2s,filter .2s
 }
-.btn-secondary:hover{border-color:rgba(var(--accent-rgb),.5);color:var(--ink)}
+.btn-secondary:hover{filter:brightness(1.12)}
+.btn-secondary:active{transform:translateY(3px);box-shadow:0 1px 0 #080B14,0 4px 10px rgba(0,0,0,.26)}
 
 /* ══════════════════ QUIZ — TELEMETRY PANEL ══════════════════ */
 .quiz-progress{
-  margin-bottom:36px;padding:18px 22px 16px;
-  background:linear-gradient(180deg,rgba(20,27,45,.45) 0%,rgba(20,27,45,.25) 100%);
-  border:1px solid rgba(0,229,255,.14);
-  backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);
-  position:relative;border-radius:2px
+  margin-bottom:36px;padding:0 0 4px;
+  position:relative
 }
-.quiz-progress::before,
-.quiz-progress::after{
-  content:'';position:absolute;width:12px;height:12px;
-  border:1.5px solid var(--cyan);pointer-events:none
-}
-.quiz-progress::before{top:-1px;left:-1px;border-right:0;border-bottom:0}
-.quiz-progress::after{bottom:-1px;right:-1px;border-left:0;border-top:0}
 .quiz-progress-corners{position:absolute;inset:0;pointer-events:none}
 .quiz-progress-corners::before,
 .quiz-progress-corners::after{
@@ -374,7 +367,7 @@ body{
 }
 .quiz-progress-hint.visible{opacity:.8}
 .quiz-progress-bar{
-  height:6px;background:rgba(255,255,255,.04);border-radius:1px;
+  height:10px;background:rgba(255,255,255,.06);border-radius:100px;
   overflow:hidden;position:relative
 }
 .quiz-progress-bar::before{
@@ -419,7 +412,7 @@ body{
 }
 .quiz-q-difficulty{
   display:inline-flex;align-items:center;gap:5px;
-  padding:5px 12px;border-radius:2px;
+  padding:5px 12px;border-radius:100px;
   font-family:'JetBrains Mono',monospace;
   font-size:10px;font-weight:500;letter-spacing:2px;text-transform:uppercase
 }
@@ -439,37 +432,26 @@ body{
 }
 .quiz-options{display:flex;flex-direction:column;gap:10px}
 .quiz-option{
-  width:100%;padding:16px 20px;border-radius:2px;
-  background:var(--surface-60);border:1px solid rgba(255,255,255,.06);
-  color:var(--text);font-family:'Outfit',sans-serif;font-size:15px;font-weight:500;
-  cursor:pointer;transition:all .25s;text-align:left;display:flex;align-items:center;gap:14px;
+  width:100%;padding:16px 20px;border-radius:16px;
+  background:var(--surface);border:1px solid var(--line);
+  color:var(--text);font-family:'Outfit',sans-serif;font-size:15px;font-weight:600;
+  cursor:pointer;transition:transform .15s var(--ease),border-color .2s,box-shadow .2s,background .2s;text-align:left;display:flex;align-items:center;gap:14px;
   position:relative;overflow:visible;
-  backdrop-filter:blur(4px);-webkit-backdrop-filter:blur(4px)
+  box-shadow:0 4px 0 rgba(0,0,0,.28),0 8px 18px rgba(0,0,0,.22)
 }
 .quiz-option::before{
-  content:'';position:absolute;inset:0;opacity:0;transition:opacity .25s;
+  content:'';position:absolute;inset:0;border-radius:inherit;opacity:0;transition:opacity .25s;
   background:linear-gradient(135deg,rgba(0,229,255,.06),transparent 55%);pointer-events:none
 }
-/* Corner brackets on hover */
-.quiz-option::after{
-  content:'';position:absolute;top:-1px;left:-1px;width:8px;height:8px;
-  border-top:1.5px solid transparent;border-left:1.5px solid transparent;
-  transition:all .3s ease;pointer-events:none
-}
-.quiz-option-corners{
-  position:absolute;bottom:-1px;right:-1px;width:8px;height:8px;
-  border-bottom:1.5px solid transparent;border-right:1.5px solid transparent;
-  transition:all .3s ease;pointer-events:none
-}
+.quiz-option::after{content:none}
+.quiz-option-corners{display:none}
 .quiz-option:hover:not(.disabled){
-  border-color:rgba(0,229,255,.25);transform:translateX(4px);
-  box-shadow:0 0 20px rgba(0,229,255,.08)
+  border-color:rgba(0,229,255,.35);transform:translateY(-2px);
+  box-shadow:0 6px 0 rgba(0,0,0,.28),0 12px 26px rgba(0,0,0,.3)
 }
 .quiz-option:hover:not(.disabled)::before{opacity:1}
-.quiz-option:hover:not(.disabled)::after,
-.quiz-option:hover:not(.disabled) .quiz-option-corners{
-  border-color:var(--cyan);width:14px;height:14px
-}
+.quiz-option:active:not(.disabled){transform:translateY(2px);
+  box-shadow:0 1px 0 rgba(0,0,0,.28),0 4px 10px rgba(0,0,0,.22)}
 .quiz-option.correct{
   border-color:var(--success);background:rgba(46,204,113,.1);color:var(--success);
   animation:correctPop .5s cubic-bezier(.34,1.56,.64,1);
@@ -499,7 +481,7 @@ body{
 .quiz-option.reveal-correct{border-color:var(--success);background:rgba(46,204,113,.05)}
 .quiz-option.disabled{cursor:default;opacity:.6}
 .quiz-option-letter{
-  width:30px;height:30px;border-radius:2px;
+  width:32px;height:32px;border-radius:10px;
   background:rgba(0,229,255,.06);border:1px solid rgba(0,229,255,.12);
   display:flex;align-items:center;justify-content:center;
   font-family:'JetBrains Mono',monospace;
@@ -519,17 +501,10 @@ body{
 .results-telemetry{
   display:flex;align-items:center;justify-content:center;gap:16px;flex-wrap:wrap;
   padding:12px 20px;margin-bottom:28px;position:relative;
-  border-top:1px solid rgba(0,229,255,.12);
-  border-bottom:1px solid rgba(0,229,255,.12);
+  border-top:1px solid var(--line);
+  border-bottom:1px solid var(--line);
   animation:fadeIn .4s ease .1s both
 }
-.results-telemetry::before,
-.results-telemetry::after{
-  content:'';position:absolute;width:10px;height:10px;
-  border:1.5px solid var(--cyan)
-}
-.results-telemetry::before{top:-1px;left:-1px;border-right:0;border-bottom:0}
-.results-telemetry::after{bottom:-1px;right:-1px;border-left:0;border-top:0}
 .results-tele-group{
   display:flex;align-items:center;gap:8px;
   font-family:'JetBrains Mono',monospace;
@@ -607,7 +582,7 @@ body{
 }
 .quiz-results .rank-badge{
   display:inline-flex;align-items:center;gap:8px;
-  padding:6px 14px;border-radius:2px;
+  padding:7px 16px;border-radius:100px;
   font-family:'JetBrains Mono',monospace;
   font-size:11px;font-weight:700;letter-spacing:2.5px;text-transform:uppercase;
   flex-shrink:0
@@ -642,7 +617,7 @@ body{
   text-decoration:none;transition:opacity .2s;
   padding:10px 14px;display:inline-flex;align-items:center;gap:8px
 }
-.results-link::before{content:'◆';font-size:10px;opacity:.7}
+
 .results-link:hover{opacity:.7}
 .quiz-results .retake{
   margin-top:4px;font-family:'JetBrains Mono',monospace;
@@ -674,7 +649,7 @@ body{
   display:flex;align-items:center;gap:10px
 }
 .quiz-nudge::before{
-  content:'◆ COACH';font-family:'JetBrains Mono',monospace;
+  content:'IRO';font-family:'JetBrains Mono',monospace;
   font-size:10px;font-weight:500;letter-spacing:2px;
   color:var(--cyan);opacity:.7;flex-shrink:0;
   padding-right:10px;border-right:1px solid rgba(0,229,255,.2)
@@ -690,7 +665,7 @@ body{
   display:flex;align-items:center;gap:12px;justify-content:center;flex-wrap:wrap
 }
 .challenge-bar::before{
-  content:'◆ INCOMING';font-family:'JetBrains Mono',monospace;
+  content:'CHALLENGE';font-family:'JetBrains Mono',monospace;
   font-size:10px;font-weight:500;letter-spacing:2px;color:var(--cyan);
   padding-right:12px;border-right:1px solid rgba(0,229,255,.2)
 }
@@ -743,11 +718,11 @@ body{
   letter-spacing:2px;text-transform:uppercase;
   animation:fadeIn .4s ease .55s both;
   display:inline-flex;align-items:center;gap:10px;
-  padding:8px 14px;border-radius:2px;
+  padding:8px 16px;border-radius:100px;
   background:rgba(0,229,255,.04);border:1px solid rgba(0,229,255,.18)
 }
 .results-next::before{
-  content:'▸ NEXT';color:var(--text3);opacity:.7;
+  content:'NEXT';color:var(--text3);opacity:.7;
   padding-right:10px;border-right:1px solid rgba(0,229,255,.2)
 }
 .results-next strong{color:var(--cyan);font-weight:700;letter-spacing:1.5px}
@@ -848,40 +823,25 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
 <a href="index.html">&larr; Back to site</a>
 </nav>
 
-<p class="page-hud-coord page-hud-coord--tl" aria-hidden="true">SYS.02 — DIAGNOSTIC</p>
-<p class="page-hud-coord page-hud-coord--br" aria-hidden="true">v2026.4 // IQ.TIER</p>
 
 <div class="quiz-wrap">
 
 <!-- INTRO -->
 <div class="quiz-intro" id="quizIntro">
-<div class="intro-backdrop" aria-hidden="true">TEST</div>
 <div class="intro-stage">
 <div class="intro-stage-glow" aria-hidden="true"></div>
-<div class="intro-stage-frame" aria-hidden="true"></div>
-<div class="intro-stage-ticks" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>
 <div class="intro-stage-ring" aria-hidden="true"></div>
-<div class="intro-stage-brackets" aria-hidden="true"></div>
-<div class="intro-stage-brackets-b2" aria-hidden="true"></div>
-<div class="intro-stage-readout" aria-hidden="true">◆ ANALYZER READY</div>
-<div class="intro-stage-tag" aria-hidden="true">PROTOCOL: AI_IQ_v2</div>
 <picture><source srcset="assets/diamond-kiro.webp" type="image/webp"/><img alt="Iro" class="intro-mascot" decoding="async" src="assets/diamond-kiro.png"/></picture>
-</div>
-<div class="intro-badge-row">
-<span class="hud-pill"><span>LIVE</span><span class="hud-pill-sep">//</span><span class="hud-pill-val">DIAGNOSTIC</span></span>
-<span class="intro-badge-meta">10 QUESTIONS · 2 MINUTES</span>
 </div>
 <h1>The AI question <span>90%</span> of <br/>professionals get wrong</h1>
 <p>10 questions. 2 minutes. Find out where you stand &mdash; and how far you could go.</p>
-<button class="btn-primary" id="startBtn">Run Diagnostic &rarr;</button>
-<div class="quiz-meta">◆ NO SIGNUP &middot; FREE &middot; 2-MIN SCAN</div>
+<button class="btn-primary" id="startBtn">Start the quiz</button>
+<div class="quiz-meta">Free &middot; No signup &middot; ~2 minutes</div>
 </div>
 
 <!-- QUIZ -->
 <div id="quizGame" style="display:none">
 <div class="quiz-progress">
-<div class="quiz-progress-corners" aria-hidden="true"></div>
-<span class="quiz-progress-head">◆ DIAGNOSTIC IN PROGRESS</span>
 <div class="quiz-progress-top">
 <div class="quiz-progress-label" id="progressLabel"></div>
 <div class="quiz-progress-hint" id="progressHint"></div>
@@ -976,7 +936,7 @@ function showQuestion(){
 
   const hint=document.getElementById('progressHint');
   if(current>=6){
-    hint.textContent=current>=8?'◆ FINAL':'▸ CLOSING';
+    hint.textContent=current>=8?'Final stretch!':'Almost there\u2026';
     hint.classList.add('visible');
   } else {
     hint.classList.remove('visible');
@@ -1044,7 +1004,7 @@ function showResults(){
     const counts={};
     missed.forEach(t=>{counts[t]=(counts[t]||0)+1});
     const weakest=Object.entries(counts).sort((a,b)=>b[1]-a[1])[0][0];
-    weaknessHtml=`<div class="results-weakness"><span class="results-weakness-label">WEAK VECTOR</span><strong>${weakest}</strong></div>`;
+    weaknessHtml=`<div class="results-weakness"><span class="results-weakness-label">TRAIN THIS FIRST</span><strong>${weakest}</strong></div>`;
     nextStepHtml=`<div class="results-next">Path: <strong>${weakest} Basics</strong></div>`;
   }
 
@@ -1052,9 +1012,8 @@ function showResults(){
   const accuracy=score*10;
   r.innerHTML=`<div class="quiz-results">
     <div class="results-telemetry" aria-hidden="true">
-      <span class="results-tele-group"><span class="results-tele-label">\u25c6 SCAN</span><span class="results-tele-sep">//</span><span class="results-tele-val">COMPLETE</span></span>
-      <span class="results-tele-group"><span class="results-tele-label">TIER</span><span class="results-tele-sep">//</span><span class="results-tele-val">${rank.toUpperCase()}</span></span>
-      <span class="results-tele-group"><span class="results-tele-label">ACCURACY</span><span class="results-tele-sep">//</span><span class="results-tele-val">${accuracy}%</span></span>
+      <span class="results-tele-group"><span class="results-tele-label">RANK</span><span class="results-tele-sep">\u00b7</span><span class="results-tele-val">${rank.toUpperCase()}</span></span>
+      <span class="results-tele-group"><span class="results-tele-label">ACCURACY</span><span class="results-tele-sep">\u00b7</span><span class="results-tele-val">${accuracy}%</span></span>
     </div>
     <div class="results-stage">
       <picture><source srcset="assets/${mascot.replace('.png','.webp')}" type="image/webp"/><img alt="${rank} Iro" class="results-mascot results-mascot--${rankLc}" decoding="async" src="assets/${mascot}"/></picture>
