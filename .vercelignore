@@ -9,6 +9,7 @@
 design_handoff_ai_coach/
 design_handoff_custom_paths/
 design_handoff_iro_landing/
+design_handoff_iro_pro_paywall/
 design_handoff_reviews_section/
 
 # Build tooling + source content (generators, not served output)
