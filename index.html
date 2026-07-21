@@ -410,15 +410,12 @@ nav .wrap{display:flex;align-items:center;justify-content:space-between}
 .ia-tag{display:inline-block;margin-top:24px;font-family:'JetBrains Mono',monospace;font-size:10.5px;font-weight:700;
   letter-spacing:.16em;color:var(--accent);background:rgba(var(--accent-rgb),.08);border:1px solid rgba(var(--accent-rgb),.25);
   padding:6px 13px;border-radius:100px}
-.ia-cta{display:flex;justify-content:center;margin-top:clamp(36px,5vh,52px)}
 
 @media(max-width:860px){
   .ia{grid-template-columns:1fr;gap:38px;max-width:480px;justify-items:center}
   .ia-right{align-items:center}
   .ia-copy{max-width:none;text-align:center;min-height:0}
   .ia-list{display:inline-flex;text-align:left}
-  .loop-wrap{width:100%}
-  .loop-eyebrow{text-align:center}
 }
 @media(max-width:480px){
   .ia-phone{--dev-w:min(56vw,240px)}
@@ -427,42 +424,86 @@ nav .wrap{display:flex;align-items:center;justify-content:space-between}
   .ia-stage{gap:6px}
 }
 
-/* the daily loop — a chunky checkpoint trail (game loop, not a feature grid) */
-.loop-band{margin-top:clamp(40px,6vh,66px)}
-.loop-band-head{text-align:center;margin-bottom:clamp(26px,4vh,40px)}
-.loop-band-sub{margin-top:12px;font-size:15px;color:var(--ink-2)}
-.loop-trail{list-style:none;display:flex;align-items:flex-start;gap:clamp(8px,1.4vw,18px);position:relative;max-width:1080px;margin:0 auto;padding:0}
-/* the connecting path line behind the medallions */
-.loop-trail::before{content:'';position:absolute;top:34px;left:10%;right:10%;height:5px;border-radius:100px;z-index:0;
-  background:repeating-linear-gradient(90deg,var(--line-strong) 0 9px,transparent 9px 18px)}
-.loop-cp{flex:1;display:flex;flex-direction:column;align-items:center;text-align:center;position:relative;z-index:1}
-.loop-med{position:relative;width:68px;height:68px;border-radius:50%;display:flex;align-items:center;justify-content:center;
-  color:var(--accent-ink);margin-bottom:16px;
-  background:radial-gradient(120% 120% at 50% 22%,color-mix(in oklab,var(--accent),#fff 24%),var(--accent));
-  box-shadow:0 5px 0 var(--accent-edge),0 12px 26px rgba(var(--accent-rgb),.32),0 1px 0 rgba(255,255,255,.5) inset}
-.loop-med svg{width:30px;height:30px}
-.loop-med.gold{color:#3A2A05;
-  background:radial-gradient(120% 120% at 50% 22%,color-mix(in oklab,var(--gold),#fff 26%),var(--gold));
-  box-shadow:0 5px 0 #B98A19,0 12px 26px rgba(var(--gold-rgb),.34),0 1px 0 rgba(255,255,255,.6) inset}
-.loop-num{position:absolute;top:-6px;right:-6px;width:24px;height:24px;border-radius:50%;background:var(--bg-2);color:var(--ink);
-  border:2px solid var(--card);display:flex;align-items:center;justify-content:center;
-  font-family:'Geist',sans-serif;font-weight:800;font-size:12px;box-shadow:0 3px 8px rgba(0,0,0,.5)}
-.loop-cp-card{width:100%;background:var(--card);border:1px solid var(--card-line);border-radius:18px;padding:18px 15px;
-  box-shadow:0 5px 0 rgba(0,0,0,.26),0 12px 28px rgba(0,0,0,.3);transition:transform .2s var(--ease)}
-.loop-cp:hover .loop-cp-card{transform:translateY(-4px)}
-.loop-cp-card h4{font-family:'Geist',sans-serif;font-size:15px;font-weight:800;letter-spacing:-.02em;color:var(--ink);line-height:1.15;margin-bottom:7px}
-.loop-cp-card p{font-size:12.5px;color:var(--ink-2);line-height:1.45;margin-bottom:13px}
-.loop-reward{display:inline-block;font-family:'Outfit',sans-serif;font-weight:800;font-size:11px;letter-spacing:.02em;
-  color:var(--accent);background:rgba(var(--accent-rgb),.12);border:1px solid rgba(var(--accent-rgb),.3);padding:5px 12px;border-radius:100px}
-.loop-reward.gold{color:var(--gold);background:rgba(var(--gold-rgb),.13);border-color:rgba(var(--gold-rgb),.34)}
-@media(max-width:760px){
-  .loop-trail{flex-direction:column;gap:14px;max-width:430px}
-  .loop-trail::before{top:8%;bottom:8%;left:34px;right:auto;width:5px;height:auto;
-    background:repeating-linear-gradient(180deg,var(--line-strong) 0 9px,transparent 9px 18px)}
-  .loop-cp{flex-direction:row;align-items:center;text-align:left;gap:16px;width:100%}
-  .loop-med{margin-bottom:0;flex-shrink:0;width:60px;height:60px}
-  .loop-med svg{width:26px;height:26px}
-  .loop-cp-card{flex:1}
+/* ---------- THE DAILY LOOP — training circuit (design_handoff_daily_loop) ---------- */
+/* handoff tokens scoped to the block so it's pixel-faithful without shifting site-wide values */
+.daily-loop{--ink:#F5F8FF;--ink-2:#AAB4D4;--ink-3:#7A85A3;--gold:#FFCE4A;--gold-rgb:255,206,74;--accent-ink:#052733;
+  margin-top:clamp(56px,8vh,92px)}
+.dl-head{max-width:720px;margin:0 auto clamp(40px,5vh,64px);text-align:center}
+.dl-kicker{display:inline-flex;font-family:'JetBrains Mono',monospace;font-size:11.5px;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:var(--ink-3);margin-bottom:20px}
+.dl-title{font-family:'Outfit',sans-serif;font-size:clamp(32px,4.6vw,56px);font-weight:800;letter-spacing:-.025em;line-height:1.04;color:var(--ink)}
+.dl-title .accent{color:var(--accent)}
+.dl-sub{margin-top:18px;font-size:clamp(16px,1.5vw,19px);color:var(--ink-2);max-width:540px;margin-left:auto;margin-right:auto;text-wrap:pretty}
+.loop2{position:relative;max-width:1060px;margin:0 auto}
+.loop2-rail{position:absolute;top:0;left:0;width:100%;height:170px;z-index:1;overflow:visible}
+.l2-main{fill:none;stroke:url(#l2grad);stroke-width:2.5px;opacity:.9;stroke-dasharray:1;stroke-dashoffset:1}
+.loop2.in .l2-main{stroke-dashoffset:0;transition:stroke-dashoffset 1.6s var(--ease) .4s}
+.l2-return,.l2-arrow{fill:none;stroke:rgba(255,255,255,.24);stroke-width:1.5px;stroke-linecap:round;stroke-linejoin:round}
+.l2-return{stroke-dasharray:5 8;animation:l2dash 2.8s linear infinite}
+@keyframes l2dash{to{stroke-dashoffset:-13}}
+.loop2-again{position:absolute;top:0;left:50%;transform:translateX(-50%);z-index:2;display:inline-flex;align-items:center;gap:8px;
+  font-family:'JetBrains Mono',monospace;font-size:10.5px;font-weight:700;letter-spacing:.15em;text-transform:uppercase;
+  color:var(--ink-3);white-space:nowrap}
+.loop2-again svg{width:14px;height:14px;color:var(--gold);animation:l2spin 7s linear infinite}
+@keyframes l2spin{to{transform:rotate(360deg)}}
+.loop2-steps{position:relative;z-index:2;display:grid;grid-template-columns:repeat(5,1fr);list-style:none;padding-top:64px;margin:0}
+.l2-step{display:flex;flex-direction:column;align-items:center;padding:0 8px;transform:translateY(var(--dy,0));cursor:default}
+.l2-node{position:relative;width:64px;height:64px;border-radius:20px;display:flex;align-items:center;justify-content:center;
+  color:var(--accent-ink);background:linear-gradient(180deg,#54EEFF,#00C8E4);
+  box-shadow:0 5px 0 #0090A9,0 0 0 6px rgba(var(--accent-rgb),.08),0 14px 32px rgba(var(--accent-rgb),.16);
+  transition:transform .25s var(--ease),box-shadow .25s}
+.l2-node svg{width:28px;height:28px}
+.l2-step:hover .l2-node{transform:translateY(-4px);box-shadow:0 9px 0 #0090A9,0 0 0 6px rgba(var(--accent-rgb),.13),0 18px 38px rgba(var(--accent-rgb),.24)}
+.l2-step.gold .l2-node{color:#2b1e00;background:linear-gradient(180deg,#FFDD70,#F5C33B);
+  box-shadow:0 5px 0 #BE8E1C,0 0 0 6px rgba(var(--gold-rgb),.09),0 14px 32px rgba(var(--gold-rgb),.15)}
+.l2-step.gold:hover .l2-node{box-shadow:0 9px 0 #BE8E1C,0 0 0 6px rgba(var(--gold-rgb),.13),0 18px 38px rgba(var(--gold-rgb),.22)}
+.l2-n{position:absolute;top:-9px;right:-9px;width:22px;height:22px;border-radius:8px;display:flex;align-items:center;justify-content:center;
+  font-style:normal;font-size:11px;font-weight:800;color:var(--ink-2);background:var(--bg);border:1px solid var(--line-strong)}
+.l2-txt{display:flex;flex-direction:column;align-items:center;text-align:center}
+.l2-step h3{font-family:'Outfit',sans-serif;font-size:17px;font-weight:800;letter-spacing:-.015em;line-height:1.22;margin:16px 0 6px;max-width:185px;color:var(--ink)}
+.l2-step p{font-size:13.5px;color:var(--ink-2);line-height:1.45;max-width:190px;text-wrap:pretty}
+/* motion: traveling glow along the rail */
+.l2-glow{fill:none;stroke:url(#l2grad);stroke-width:5px;stroke-linecap:round;filter:blur(3px);opacity:0;stroke-dasharray:.1 1.2;stroke-dashoffset:.1}
+.loop2.in .l2-glow{animation:l2travel 12s linear infinite 2s}
+@keyframes l2travel{0%{stroke-dashoffset:.1;opacity:0}4%{opacity:.85}72%{opacity:.85}80%,100%{stroke-dashoffset:-1;opacity:0}}
+/* motion: one node pulses at a time, in loop order */
+.l2-node::before{content:'';position:absolute;inset:0;border-radius:inherit;opacity:0;box-shadow:0 0 0 0 var(--pc,rgba(var(--accent-rgb),.45))}
+.l2-step.gold .l2-node::before{--pc:rgba(var(--gold-rgb),.4)}
+.loop2.in .l2-node::before{animation:l2pulse 12s var(--ease) infinite 2s;animation-delay:calc(2s + var(--pd,0s))}
+.l2-step:nth-child(2){--pd:2.4s}.l2-step:nth-child(3){--pd:4.8s}.l2-step:nth-child(4){--pd:7.2s}.l2-step:nth-child(5){--pd:9.6s}
+@keyframes l2pulse{0%{opacity:.9;box-shadow:0 0 0 0 var(--pc,rgba(var(--accent-rgb),.45))}11%{opacity:0;box-shadow:0 0 0 16px transparent}100%{opacity:0;box-shadow:0 0 0 16px transparent}}
+/* motion: soft XP sparkles on the streak step */
+.l2-sp{position:absolute;left:50%;top:50%;width:8px;height:8px;margin:-4px 0 0 -4px;background:var(--gold);opacity:0;pointer-events:none;
+  clip-path:polygon(50% 0,62% 38%,100% 50%,62% 62%,50% 100%,38% 62%,0 50%,38% 38%);
+  transform:translate(var(--sx),var(--sy)) scale(.3)}
+.loop2.in .l2-sp{animation:l2spark 4.8s ease-in-out infinite var(--sd,0s)}
+@keyframes l2spark{0%,100%{opacity:0;transform:translate(var(--sx),var(--sy)) scale(.3) rotate(0deg)}50%{opacity:.85;transform:translate(var(--sx),calc(var(--sy) - 4px)) scale(var(--ss,1)) rotate(95deg)}}
+.loop2-cta{display:flex;flex-direction:column;align-items:center;gap:14px;margin-top:clamp(46px,6vh,68px)}
+.dl-btn{display:inline-flex;align-items:center;justify-content:center;font-family:'Outfit',sans-serif;font-weight:800;font-size:18px;letter-spacing:-.01em;line-height:1;white-space:nowrap;
+  padding:19px 32px;border-radius:18px;border:0;cursor:pointer;color:var(--accent-ink);background:var(--accent);
+  box-shadow:0 5px 0 #00B7D4,0 10px 26px rgba(var(--accent-rgb),.24);transition:transform .08s ease,box-shadow .08s ease,filter .2s ease}
+.dl-btn:hover{filter:brightness(1.06);color:var(--accent-ink)}
+.dl-btn:active{transform:translateY(4px);box-shadow:0 1px 0 #00B7D4,0 4px 12px rgba(var(--accent-rgb),.2)}
+.loop2-note{font-size:13.5px;color:var(--ink-3)}
+@media(max-width:860px){
+  .l2-node::before{display:none}
+  .loop2-rail{display:none}
+  .loop2-again{position:static;transform:none;display:flex;justify-content:center;margin:0 auto 26px}
+  .loop2-steps{display:flex;flex-direction:column;gap:26px;padding-top:0;max-width:420px;margin:0 auto}
+  .l2-step{position:relative;flex-direction:row;align-items:flex-start;gap:16px;padding:0;transform:none}
+  .l2-node{width:54px;height:54px;border-radius:17px;flex-shrink:0}
+  .l2-node svg{width:24px;height:24px}
+  .l2-step:not(:last-child)::after{content:'';position:absolute;left:26px;top:62px;bottom:-20px;width:2px;border-radius:2px;
+    background:linear-gradient(180deg,rgba(var(--accent-rgb),.4),rgba(var(--accent-rgb),.1))}
+  .l2-step:nth-child(3)::after{background:linear-gradient(180deg,rgba(var(--accent-rgb),.4),rgba(var(--gold-rgb),.35))}
+  .l2-step.gold::after{background:linear-gradient(180deg,rgba(var(--gold-rgb),.4),rgba(var(--gold-rgb),.1))}
+  .l2-txt{align-items:flex-start;text-align:left}
+  .l2-step h3{margin-top:4px;max-width:none}
+  .l2-step p{max-width:none}
+}
+@media(prefers-reduced-motion:reduce){
+  .l2-return,.loop2-again svg,.loop2.in .l2-glow,.loop2.in .l2-node::before,.loop2.in .l2-sp{animation:none}
+  .l2-main{stroke-dashoffset:0;transition:none}
+  .l2-glow,.l2-sp{opacity:0}
 }
 
 /* ============================================================
@@ -1155,13 +1196,11 @@ footer .wrap{display:flex;flex-direction:column;gap:24px}
   .paths-grid{grid-template-columns:1fr;max-width:520px}
   .ranks-rail{grid-template-columns:repeat(2,1fr);gap:14px}
   .ranks-rail::before{display:none}
-  .loop-node + .loop-node::before{display:none}
 }
 @media(max-width:560px){
   .wrap{padding:0 20px}
   .hero h1{font-size:clamp(38px,11vw,54px)}
   .ranks-rail{grid-template-columns:1fr;max-width:300px}
-  .loop-row{flex-direction:column}
   .hero-chip{display:none}
   /* lift the hero copy + skill universe into the first viewport */
   .hero-uni{padding-top:84px;padding-bottom:44px}
@@ -1390,56 +1429,49 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
       </div>
     </div>
 
-    <div class="loop-band reveal">
-      <div class="loop-band-head">
-        <span class="eyebrow center">The daily loop</span>
-        <p class="loop-band-sub">Five quick steps &mdash; then come back tomorrow and run it again.</p>
+    <div class="daily-loop">
+      <div class="dl-head reveal">
+        <span class="dl-kicker">The daily loop</span>
+        <h2 class="dl-title">Build AI skill in <span class="accent">one daily rep</span></h2>
+        <p class="dl-sub">Iro turns learning AI into a simple loop: choose your path, practice for a few minutes, and level up as your skills improve.</p>
       </div>
-      <ol class="loop-trail">
-        <li class="loop-cp">
-          <span class="loop-med"><span class="loop-num">1</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 21V4"/><path d="M5 4h13l-2.6 4 2.6 4H5"/></svg></span>
-          <div class="loop-cp-card">
-            <h4>Pick a path</h4>
-            <p>Choose a track &mdash; ChatGPT, prompting, agents, and more.</p>
-            <span class="loop-reward">Start</span>
-          </div>
-        </li>
-        <li class="loop-cp">
-          <span class="loop-med"><span class="loop-num">2</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2zM22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg></span>
-          <div class="loop-cp-card">
-            <h4>Do a 5-min lesson</h4>
-            <p>Bite-size lessons on real AI skills.</p>
-            <span class="loop-reward">5 min</span>
-          </div>
-        </li>
-        <li class="loop-cp">
-          <span class="loop-med"><span class="loop-num">3</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"/><path d="M16.5 3.5a2.12 2.12 0 0 1 3 3L7 19l-4 1 1-4z"/></svg></span>
-          <div class="loop-cp-card">
-            <h4>Practice prompts</h4>
-            <p>Write real prompts and get them scored.</p>
-            <span class="loop-reward">13 types</span>
-          </div>
-        </li>
-        <li class="loop-cp">
-          <span class="loop-med gold"><span class="loop-num">4</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg></span>
-          <div class="loop-cp-card">
-            <h4>Earn XP &amp; keep your streak</h4>
-            <p>Every win builds your streak.</p>
-            <span class="loop-reward gold">&#128293; Streak</span>
-          </div>
-        </li>
-        <li class="loop-cp">
-          <span class="loop-med gold"><span class="loop-num">5</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9V2h12v7a6 6 0 0 1-12 0z"/><path d="M6 5H3v2a3 3 0 0 0 3 3M18 5h3v2a3 3 0 0 1-3 3M9 22h6M12 16v6"/></svg></span>
-          <div class="loop-cp-card">
-            <h4>Rank up</h4>
-            <p>Climb six ranks. Then do it all again.</p>
-            <span class="loop-reward gold">6 ranks</span>
-          </div>
-        </li>
-      </ol>
-    </div>
-    <div class="ia-cta reveal">
-      <a class="btn btn-ghost btn-lg" href="https://apps.apple.com/app/id6759628066">Start your first 5-minute rep</a>
+      <div class="loop2 reveal" data-d="1">
+        <span class="loop2-again"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12a9 9 0 1 0 2.6-6.4L3 8"/><path d="M3 3v5h5"/></svg>Run it again tomorrow</span>
+        <svg class="loop2-rail" viewBox="0 0 1000 170" preserveAspectRatio="none" aria-hidden="true">
+          <defs><linearGradient id="l2grad" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#00E5FF"/><stop offset=".58" stop-color="#00E5FF"/><stop offset="1" stop-color="#FFCE4A"/></linearGradient></defs>
+          <path class="l2-return" d="M900 60 C 880 16, 700 12, 610 12" vector-effect="non-scaling-stroke"></path>
+          <path class="l2-return" d="M390 12 C 300 12, 120 16, 100 60" vector-effect="non-scaling-stroke"></path>
+          <path class="l2-arrow" d="M111 52 L100 60 L98 46" vector-effect="non-scaling-stroke"></path>
+          <path class="l2-main" d="M100 96 Q 500 142 900 96" pathLength="1" vector-effect="non-scaling-stroke"></path>
+          <path class="l2-glow" d="M100 96 Q 500 142 900 96" pathLength="1" vector-effect="non-scaling-stroke"></path>
+        </svg>
+        <ol class="loop2-steps">
+          <li class="l2-step" style="--dy:0px">
+            <span class="l2-node"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1z"/><line x1="4" y1="22" x2="4" y2="15"/></svg><i class="l2-n">1</i></span>
+            <div class="l2-txt"><h3>Pick your path</h3><p>Choose the AI skill you want to build.</p></div>
+          </li>
+          <li class="l2-step" style="--dy:17px">
+            <span class="l2-node"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg><i class="l2-n">2</i></span>
+            <div class="l2-txt"><h3>Take a 5-minute lesson</h3><p>Learn one concept without getting overwhelmed.</p></div>
+          </li>
+          <li class="l2-step" style="--dy:23px">
+            <span class="l2-node"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 3a2.85 2.83 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5Z"/><path d="m15 5 4 4"/></svg><i class="l2-n">3</i></span>
+            <div class="l2-txt"><h3>Practice with prompts</h3><p>Apply it through real workplace-style exercises.</p></div>
+          </li>
+          <li class="l2-step gold" style="--dy:17px">
+            <span class="l2-node"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z"/></svg><i class="l2-n">4</i><span class="l2-sp" style="--sx:-25px;--sy:-12px;--sd:0s"></span><span class="l2-sp" style="--sx:30px;--sy:-20px;--sd:1.6s;--ss:.7"></span><span class="l2-sp" style="--sx:24px;--sy:18px;--sd:3.1s;--ss:.55"></span></span>
+            <div class="l2-txt"><h3>Earn XP &amp; keep your streak</h3><p>Build momentum every time you show up.</p></div>
+          </li>
+          <li class="l2-step gold" style="--dy:0px">
+            <span class="l2-node"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9V2h12v7a6 6 0 0 1-12 0z"/><path d="M6 5H3v2a3 3 0 0 0 3 3M18 5h3v2a3 3 0 0 1-3 3M9 22h6M12 16v6"/></svg><i class="l2-n">5</i></span>
+            <div class="l2-txt"><h3>Rank up your skills</h3><p>Watch your AI fluency grow over time.</p></div>
+          </li>
+        </ol>
+      </div>
+      <div class="loop2-cta reveal" data-d="2">
+        <a class="dl-btn" href="https://apps.apple.com/app/id6759628066">Start your first 5-minute rep</a>
+        <span class="loop2-note">Then come back tomorrow and run it again.</span>
+      </div>
     </div>
   </div>
 </section>
