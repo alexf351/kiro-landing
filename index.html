@@ -683,59 +683,95 @@ nav .wrap{display:flex;align-items:center;justify-content:space-between}
 /* ============================================================
    PROOF
    ============================================================ */
-#proof{padding:clamp(48px,6.5vh,76px) 0;position:relative}
+#proof{padding:clamp(48px,6.5vh,76px) 0;position:relative;--ink-3:#616E8C}
 .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
 .proof-grid{display:grid;grid-template-columns:1fr 1.15fr;gap:clamp(28px,4.5vw,60px);align-items:center;
-  max-width:1080px;margin:0 auto clamp(10px,1.6vh,14px)}
+  max-width:1080px;margin:0 auto clamp(14px,2vh,20px)}
 .proof-title{font-family:'Geist',sans-serif;font-size:clamp(24px,2.6vw,34px);font-weight:800;line-height:1.05;letter-spacing:-.03em;color:var(--ink);margin-top:12px}
 .proof-title .accent{color:var(--accent)}
 .proof-sub{margin-top:8px;font-size:14px;color:var(--ink-2);line-height:1.5;max-width:480px}
 /* rating hero — deliberately not a card: hairline divider, no chrome */
 .rating-hero{display:flex;align-items:center;gap:20px;margin-top:26px;padding-top:24px;border-top:1px solid var(--line)}
 .rh-score{font-family:'Geist',sans-serif;font-size:clamp(54px,5vw,70px);font-weight:800;letter-spacing:-.04em;line-height:.95;color:var(--ink);
-  text-shadow:0 0 60px rgba(var(--accent-rgb),.22)}
+  text-shadow:0 0 60px rgba(var(--accent-rgb),.15)}
 .rh-meta{display:flex;flex-direction:column;align-items:flex-start;gap:7px}
-.rh-stars{color:var(--gold);font-size:15px;letter-spacing:3px;text-shadow:0 0 14px rgba(var(--gold-rgb),.45)}
+.rh-stars{color:var(--gold);font-size:13.5px;letter-spacing:3px;text-shadow:0 0 12px rgba(var(--gold-rgb),.35)}
 .rh-label{font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-3)}
 .review-feat{position:relative;display:flex;flex-direction:column;gap:14px;
-  padding:28px 30px;border-radius:20px;background:var(--card);border:1px solid rgba(var(--accent-rgb),.22);overflow:hidden;
-  box-shadow:0 6px 0 rgba(0,0,0,.24),0 16px 38px rgba(0,0,0,.32);transition:border-color .3s}
+  padding:26px 28px;border-radius:8px;background:var(--surface);border:1px solid var(--line);overflow:hidden;transition:border-color .3s}
 .review-feat::before{content:'';position:absolute;inset:0;pointer-events:none;
-  background:radial-gradient(120% 100% at 0% 0%,rgba(var(--accent-rgb),.05),transparent 55%)}
+  background:radial-gradient(120% 100% at 0% 0%,rgba(var(--accent-rgb),.04),transparent 55%)}
 .rf-quote{position:relative;font-family:'Geist',sans-serif;font-size:clamp(17px,1.6vw,21px);font-weight:700;
   letter-spacing:-.015em;line-height:1.42;color:var(--ink);text-wrap:pretty}
 .rf-foot{position:relative;display:flex;align-items:center;gap:10px;margin-top:auto;padding-top:6px}
 .rev-av{width:26px;height:26px;border-radius:7px;flex-shrink:0;display:flex;align-items:center;justify-content:center;
-  background:linear-gradient(135deg,rgba(var(--accent-rgb),.5),rgba(var(--accent-rgb),.14));border:1px solid rgba(var(--accent-rgb),.3);
+  background:linear-gradient(135deg,rgba(var(--accent-rgb),.4),rgba(var(--accent-rgb),.1));border:1px solid rgba(var(--accent-rgb),.24);
   font-family:'Geist',sans-serif;font-weight:800;font-size:12px;color:var(--ink)}
 .rev-nm{font-size:13px;font-weight:700;color:var(--ink);letter-spacing:-.01em}
 .rev-src{font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:.06em;color:var(--ink-3)}
-.review-minis{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;max-width:1080px;margin:0 auto}
-.review-mini{flex:1;display:flex;flex-direction:column;justify-content:center;gap:6px;padding:16px 18px;border-radius:16px;
-  background:var(--card);border:1px solid var(--card-line);box-shadow:0 4px 0 rgba(0,0,0,.22),0 10px 24px rgba(0,0,0,.26);transition:border-color .3s,transform .2s}
-.review-mini:hover{transform:translateY(-3px)}
-.review-mini:hover,.review-feat:hover{border-color:rgba(var(--accent-rgb),.34)}
-.review-mini.hl{border-color:rgba(var(--accent-rgb),.18)}
+.review-minis{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;max-width:1080px;margin:0 auto}
+.review-mini{flex:1;display:flex;flex-direction:column;justify-content:flex-start;gap:8px;padding:18px 20px;border-radius:8px;
+  background:var(--surface);border:1px solid var(--line);transition:border-color .3s}
+.rm-stars{color:var(--gold);font-size:10px;letter-spacing:2.5px;text-shadow:0 0 8px rgba(var(--gold-rgb),.3)}
+.review-mini:hover,.review-feat:hover{border-color:rgba(var(--accent-rgb),.25)}
+.review-mini.hl{border-color:var(--line)}
 .review-mini.hl p{color:var(--ink)}
-.review-mini p{font-size:13px;font-weight:500;line-height:1.45;color:var(--ink-2);text-wrap:pretty}
-.rm-src{font-family:'JetBrains Mono',monospace;font-size:9.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-3)}
+.review-mini p{font-size:13px;font-weight:500;line-height:1.5;color:var(--ink-2);text-wrap:pretty}
+.rm-src{font-family:'JetBrains Mono',monospace;font-size:9.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-3);margin-top:auto;padding-top:4px}
 @media(max-width:880px){
   .proof-grid{grid-template-columns:1fr;gap:22px}
   .rating-hero{margin-top:22px;padding-top:20px}
   .rh-score{font-size:50px}
-  .review-minis{display:flex;flex-direction:row;overflow-x:auto;margin:0 -28px;padding:2px 28px 8px;scroll-snap-type:x mandatory;scrollbar-width:none}
+  .review-minis{display:flex;flex-direction:row;overflow-x:auto;margin:0 -28px;padding:2px 28px 8px;scroll-snap-type:x mandatory;scrollbar-width:none;gap:12px}
   .review-minis::-webkit-scrollbar{display:none}
   .review-mini{min-width:240px;flex-shrink:0;scroll-snap-align:start}
 }
 .skip-nav{position:absolute;left:-9999px;top:0;z-index:9999;padding:12px 18px;background:var(--accent);color:var(--accent-ink);font-weight:800;border-radius:0 0 12px 0}
 .skip-nav:focus{left:0}
 .notify-privacy{margin:8px 0 0;font-size:12px;color:var(--ink-3)}
-.quiz-banner{max-width:1080px;margin:64px auto 0;padding:34px clamp(22px,4vw,44px);display:flex;align-items:center;justify-content:space-between;gap:24px;flex-wrap:wrap;
-  background:linear-gradient(120deg,rgba(var(--accent-rgb),.10),rgba(var(--accent-rgb),.03) 55%,transparent);border:1px solid rgba(var(--accent-rgb),.25);border-radius:22px}
-.quiz-banner-copy h3{font-family:'Geist',sans-serif;font-weight:800;font-size:clamp(20px,2.6vw,27px);letter-spacing:-.025em;margin:0 0 6px;color:var(--ink)}
-.quiz-banner-copy p{margin:0;color:var(--ink-2);font-size:15.5px}
-.quiz-banner-meta{font-family:'JetBrains Mono',monospace;font-size:10.5px;letter-spacing:.18em;color:var(--accent);text-transform:uppercase;display:block;margin-bottom:10px}
-@media(max-width:680px){.quiz-banner{flex-direction:column;align-items:flex-start}}
+/* ===== Rank assessment CTA (design_handoff_reviews_rank_quiz) ===== */
+.rankcta{max-width:1080px;margin:64px auto 0;display:grid;grid-template-columns:1.12fr 1fr;align-items:center;gap:clamp(32px,5vw,72px);padding:56px 0 0;border-top:1px solid var(--line);position:relative}
+.rankcta-copy{position:relative}
+.rankcta-kicker{display:inline-flex;align-items:center;gap:10px;font-family:'JetBrains Mono',monospace;font-size:10.5px;font-weight:500;letter-spacing:.2em;text-transform:uppercase;color:var(--accent)}
+.rankcta-kicker i{width:6px;height:6px;border-radius:50%;background:var(--accent);box-shadow:0 0 10px var(--glow)}
+.rankcta-copy h3{font-family:'Geist',sans-serif;font-weight:800;font-size:clamp(24px,2.9vw,33px);letter-spacing:-.03em;line-height:1.08;margin:14px 0 10px;color:var(--ink)}
+.rankcta-copy>p{margin:0;color:var(--ink-2);font-size:15.5px;line-height:1.55;max-width:430px;text-wrap:pretty}
+.rankcta-actions{display:flex;align-items:center;gap:18px;flex-wrap:wrap;margin-top:26px}
+.rankcta-note{font-size:13px;color:var(--ink-3)}
+/* the CTA keeps the handoff's lift-on-hover button treatment inside this row */
+.rankcta .btn-primary{background:linear-gradient(180deg,color-mix(in oklab,var(--accent),#fff 22%),var(--accent));color:var(--accent-ink);
+  box-shadow:0 10px 30px rgba(var(--accent-rgb),.25);transition:transform .25s var(--ease-out),box-shadow .25s}
+.rankcta .btn-primary:hover{transform:translateY(-2px);filter:none;box-shadow:0 14px 38px rgba(var(--accent-rgb),.35)}
+.rankcta .btn-primary:active{transform:translateY(0);box-shadow:0 10px 30px rgba(var(--accent-rgb),.25)}
+.rank-preview{position:relative;display:flex;flex-direction:column;gap:18px;padding:22px 24px 24px;background:var(--bg-2);border:1px solid var(--line);border-radius:10px;box-shadow:0 24px 60px rgba(0,0,0,.4),0 0 40px rgba(var(--accent-rgb),.04)}
+.rp-head{display:flex;align-items:center;justify-content:space-between;padding-bottom:14px;border-bottom:1px solid var(--line)}
+.rp-lab{font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:var(--ink-3)}
+.rp-tag{font-family:'JetBrains Mono',monospace;font-size:9.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--accent);opacity:.85}
+.rp-rank{display:flex;align-items:center;gap:14px}
+.rp-gem{width:38px;height:38px;flex-shrink:0;display:grid;place-items:center;border-radius:8px;background:rgba(var(--gold-rgb),.07);border:1px solid rgba(var(--gold-rgb),.22)}
+.rp-gem i{width:14px;height:14px;background:linear-gradient(135deg,#FFE9A8,var(--gold) 55%,#C9962B);transform:rotate(45deg);border-radius:3px;box-shadow:0 0 14px rgba(var(--gold-rgb),.5)}
+.rp-rank-txt{display:flex;flex-direction:column;gap:2px;line-height:1.15}
+.rp-rank-txt b{font-family:'Geist',sans-serif;font-size:20px;font-weight:800;letter-spacing:-.02em;color:var(--gold)}
+.rp-rank-txt span{font-size:13px;font-weight:600;color:var(--ink-2)}
+.rp-track{position:relative;height:5px;border-radius:3px;background:var(--surface-2)}
+.rp-track i{position:absolute;inset:0 auto 0 0;width:56%;border-radius:3px;background:linear-gradient(90deg,rgba(var(--accent-rgb),.35),var(--accent))}
+.rp-track b{position:absolute;top:50%;left:56%;width:11px;height:11px;transform:translate(-50%,-50%);border-radius:50%;background:var(--gold);box-shadow:0 0 12px rgba(var(--gold-rgb),.6),0 0 0 3px rgba(var(--gold-rgb),.18)}
+.rp-ticks{display:flex;justify-content:space-between;margin-top:8px;font-family:'JetBrains Mono',monospace;font-size:8.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-3)}
+.rp-ticks .on{color:var(--gold)}
+.rp-skills{display:flex;flex-direction:column;gap:11px}
+.rp-skill{display:grid;grid-template-columns:86px 1fr 26px;align-items:center;gap:12px}
+.rp-skill span{font-size:12.5px;font-weight:600;color:var(--ink-2)}
+.rp-bar{position:relative;height:5px;border-radius:3px;background:var(--surface-2);overflow:hidden}
+.rp-bar i{position:absolute;inset:0 auto 0 0;width:var(--w);border-radius:3px;background:linear-gradient(90deg,rgba(var(--accent-rgb),.4),var(--accent));transition:width .9s var(--ease-out) .3s}
+.rankcta.reveal:not(.in) .rp-bar i{width:0}
+.rp-skill b{font-family:'JetBrains Mono',monospace;font-size:11px;font-weight:700;color:var(--ink);text-align:right}
+.rp-flag{grid-column:1/-1;justify-self:start;margin:-3px 0 0 98px;font-family:'JetBrains Mono',monospace;font-size:9px;letter-spacing:.12em;text-transform:uppercase;color:var(--accent);font-style:normal}
+@media(max-width:880px){
+  .rankcta{grid-template-columns:1fr;gap:28px;margin-top:52px;padding-top:44px}
+  .rankcta-actions .btn{width:100%}
+  .rp-ticks span{display:none}.rp-ticks span:first-child,.rp-ticks span:last-child,.rp-ticks .on{display:inline}
+  .rp-flag{margin-left:0}
+}
 /* ===== Ask Iro — AI coach module (design_handoff_ai_coach) ===== */
 section.coach{position:relative;padding:clamp(80px,11vh,140px) 0}
 .coach-grid{display:grid;grid-template-columns:1fr 1.04fr;gap:clamp(40px,5vw,76px);align-items:center;max-width:1080px;margin:0 auto}
@@ -1675,13 +1711,13 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
 <div class="divider"></div>
 
 <!-- ============ PROOF ============ -->
-<section id="proof" data-screen-label="Social proof">
+<section id="proof" data-screen-label="Social proof + rank assessment">
   <div class="wrap">
     <div class="proof-grid reveal">
       <div class="proof-intro">
         <span class="eyebrow">App Store reviews</span>
-        <h2 class="proof-title">AI learning people <span class="accent">actually finish.</span></h2>
-        <p class="proof-sub">Real practice people stick with — not another course they start and abandon.</p>
+        <h2 class="proof-title">Loved by people <span class="accent">building real AI skills.</span></h2>
+        <p class="proof-sub">Short daily lessons, practical prompts, and progress that makes AI feel less overwhelming.</p>
         <div class="rating-hero">
           <div class="rh-score" aria-hidden="true">4.7</div>
           <div class="rh-meta">
@@ -1702,25 +1738,47 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
     </div>
     <div class="review-minis reveal" data-d="1">
       <article class="review-mini hl">
+        <div class="rm-stars" aria-hidden="true">★★★★★</div>
         <p>&ldquo;This is really a great app like Duolingo. If you are in for AI and prompting then look no further.&rdquo;</p>
         <span class="rm-src">Pradyot · App Store</span>
       </article>
       <article class="review-mini">
+        <div class="rm-stars" aria-hidden="true">★★★★★</div>
         <p>&ldquo;Easy to use and includes a lot of new information even I, a frequent AI user, found helpful.&rdquo;</p>
         <span class="rm-src">michael · App Store</span>
       </article>
       <article class="review-mini">
+        <div class="rm-stars" aria-hidden="true">★★★★★</div>
         <p>&ldquo;Great app! Very helpful with engaging learning exercises geared to specific goals.&rdquo;</p>
         <span class="rm-src">Jmf275 · App Store</span>
       </article>
     </div>
-    <div class="quiz-banner reveal" data-d="1">
-      <div class="quiz-banner-copy">
-        <span class="quiz-banner-meta">Free · 10 questions · ~2 min · No signup</span>
-        <h3>Find your AI rank in 2 minutes.</h3>
-        <p>10 quick questions, ranked Bronze to Diamond, with the one skill to train first. <strong>The average score is 5/10 — can you beat it?</strong></p>
+    <div class="rankcta reveal" id="rank-quiz" data-d="1">
+      <div class="rankcta-copy">
+        <span class="rankcta-kicker"><i></i>Rank assessment · Free · ~2 min</span>
+        <h3>Find your AI rank in 2 minutes</h3>
+        <p>Answer a few quick questions and get a starting skill profile built around how you actually use AI.</p>
+        <div class="rankcta-actions">
+          <a class="btn btn-primary btn-lg" href="/quiz.html">Get my AI rank</a>
+          <span class="rankcta-note">No signup required to see your result.</span>
+        </div>
       </div>
-      <a class="btn btn-primary btn-lg" href="/quiz.html">Get my AI IQ score</a>
+      <div class="rank-preview" aria-hidden="true">
+        <div class="rp-head"><span class="rp-lab">Skill profile</span><span class="rp-tag">Sample result</span></div>
+        <div class="rp-rank">
+          <span class="rp-gem"><i></i></span>
+          <span class="rp-rank-txt"><b>Gold</b><span>The Research Sniper</span></span>
+        </div>
+        <div class="rp-meter">
+          <div class="rp-track"><i></i><b></b></div>
+          <div class="rp-ticks"><span>Bronze</span><span>Silver</span><span class="on">Gold</span><span>Platinum</span><span>Diamond</span></div>
+        </div>
+        <div class="rp-skills">
+          <div class="rp-skill"><span>Prompting</span><div class="rp-bar"><i style="--w:78%"></i></div><b>78</b></div>
+          <div class="rp-skill"><span>Research</span><div class="rp-bar"><i style="--w:92%"></i></div><b>92</b></div>
+          <div class="rp-skill"><span>Automation</span><div class="rp-bar"><i style="--w:22%"></i></div><b>22</b><em class="rp-flag">Train this first</em></div>
+        </div>
+      </div>
     </div>
   </div>
 </section>
