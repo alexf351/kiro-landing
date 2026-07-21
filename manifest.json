@@ -43,9 +43,9 @@
   "prefer_related_applications": false,
   "shortcuts": [
     {
-      "name": "AI IQ Test",
-      "short_name": "AI IQ Test",
-      "description": "Free, 2-minute AI IQ test",
+      "name": "AI Rank Quiz",
+      "short_name": "AI Rank Quiz",
+      "description": "Free, 2-minute AI rank quiz",
       "url": "/quiz",
       "icons": [{ "src": "/assets/favicon-64.png", "sizes": "64x64" }]
     },
