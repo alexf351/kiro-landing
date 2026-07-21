@@ -7,6 +7,12 @@ young site, this is the #1 lever left — on-page SEO/GEO is already done.
 **The rule:** paste, don't rewrite. Everything below is ready to submit. Do a
 handful a day; don't burn out doing all of them at once.
 
+**Ready-to-paste kits:** see `growth/launch-kits.md` for the finished
+Product Hunt launch kit, AlternativeTo positioning lines, directory
+short-forms, researched listicle targets, and HARO answer templates.
+(Status research 2026-07-21: no existing Iro listing found on any Tier-1
+directory — the whole list is still available.)
+
 ---
 
 ## 0. Copy-paste asset block (use everywhere)
