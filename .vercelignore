@@ -5,6 +5,9 @@
 # engines and AI assistants. Excluding them here makes those URLs 404 so they
 # deindex.
 
+# Raw app-screenshot uploads (converted copies live in assets/screens/)
+assets/new app pics 7.21/
+
 # Design handoff snapshots (frozen prototypes, intentionally stale)
 design_handoff_ai_coach/
 design_handoff_custom_paths/
