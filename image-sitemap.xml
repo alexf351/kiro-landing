@@ -59,6 +59,11 @@
       <image:title>Iro AI prompt library screenshot</image:title>
     </image:image>
     <image:image>
+      <image:loc>https://tryiro.com/assets/screens/certificate.webp</image:loc>
+      <image:caption>Iro AI shareable certificate with a unique credential ID, earned by finishing a path</image:caption>
+      <image:title>Iro AI certificate screenshot</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://tryiro.com/assets/kiro-app-icon-512.png</image:loc>
       <image:caption>Iro AI iOS app icon</image:caption>
       <image:title>Iro AI app icon</image:title>
