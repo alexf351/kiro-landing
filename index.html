@@ -1451,7 +1451,7 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
           <button class="ia-arrow ia-side" id="iaPrev" aria-label="Previous screen"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg></button>
           <div class="device ia-phone">
             <div class="island"></div>
-            <div class="screen"><img id="iaImg" src="assets/screens/learning-path-list.webp" alt="Iro app — choose your learning track" loading="lazy" decoding="async" onerror="if(/\.webp$/.test(this.src))this.src=this.src.replace('.webp','.jpg')"/></div>
+            <div class="screen"><img id="iaImg" src="assets/screens/learning-path.webp" alt="Iro app — your daily lesson path" loading="lazy" decoding="async" onerror="if(/\.webp$/.test(this.src))this.src=this.src.replace('.webp','.jpg')"/></div>
             <div class="glare"></div>
           </div>
           <button class="ia-arrow ia-side" id="iaNext" aria-label="Next screen"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18l6-6-6-6"/></svg></button>
@@ -2306,36 +2306,36 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
   'use strict';
 
   var SCREENS = [
-    { img:'assets/screens/learning-path-list.webp', t:'Paths',        h:'Choose your track',     tag:'20 PATHS',
-      d:'Twenty guided paths, from total beginner on ChatGPT to AI agents and automation.',
-      b:['Tools, work, creative and core skills','Start from zero or jump ahead','375 lessons, about 5 minutes each'] },
-    { img:'assets/screens/prompt-lab.webp',    t:'Prompt Lab',   h:'Write real prompts',   tag:'INSTANT FEEDBACK',
-      d:'Type a prompt and Iro grades it out of 10 in seconds, then shows you exactly how to make it sharper.',
-      b:['Scored on clarity, context and intent','Specific fixes, not vague praise','Practice on your own real scenarios'] },
-    { img:'assets/screens/skill-tree.webp',  t:'Skill scan',   h:'See your Operator Build', tag:'SKILL SCAN',
-      d:'Iro scans your fluency across six skill zones and ranks you from Bronze to Iridescent, flagging your strongest skill and your weak spot.',
-      b:['Six skill zones, each scored out of 100','Strongest skill and weak spot called out','Your rank climbs as you train'] },
-    { img:'assets/screens/node-map.webp',       t:'Skill map',    h:'Watch it connect',      tag:'PROGRESS',
-      d:'Every lesson links into one growing map so your fluency visibly compounds.',
-      b:['See how skills build on each other','Spot gaps before they cost you','Unlock new branches as you level'] },
-    { img:'assets/screens/prompt-library.webp', t:'Prompt Library', h:'Steal 250 ready prompts', tag:'250 PROMPTS',
-      d:'A searchable library of 250 battle-tested prompts across productivity, writing, analysis, coding, and creativity. Copy one and go.',
-      b:['250 prompts, sorted by category','One tap to copy and paste','Tagged by difficulty and run time'] },
-    { img:'assets/screens/delegate-or-diy.webp', t:'Delegate or DIY', h:'Build real AI judgment', tag:'JUDGMENT DRILLS',
-      d:'Scenario drills train the skill nobody teaches: when to hand a task to AI, do it yourself, or collaborate.',
-      b:['Decide: delegate, DIY, or collaborate','Judgment, not just prompt tricks','Combos and streaks keep every round tense'] },
-    { img:'assets/screens/duel-victory.webp',   t:'Duels',        h:'Battle live opponents', tag:'LIVE PvP',
-      d:'Go head-to-head with rivals, win to earn XP and climb the ranked ladder.',
-      b:['ELO matchmaking against 60+ rivals','Chain combos for bonus XP','Cyberpunk arenas and podium reveals'] },
-    { img:'assets/screens/news.webp',           t:'Weekly news',  h:'Stay current',          tag:'WEEKLY',
-      d:'Short weekly briefings on what actually shipped in AI, with a quiz to make it stick.',
-      b:['What launched, minus the hype','Two-minute reads','A quick quiz to lock it in'] },
-    { img:'assets/screens/ranks.webp',          t:'Ranks',        h:'Evolve Iro',            tag:'6 RANKS',
-      d:'Climb six ranks and watch your penguin evolve from Bronze all the way to Iridescent.',
-      b:['Six tiers of visible progress','Iro levels up as you do','Proof you are actually getting good'] },
-    { img:'assets/screens/perfect-xp.webp',     t:'XP & streaks', h:'Earn every answer',     tag:'DAILY HABIT',
-      d:'Correct reps build XP and daily streaks, the momentum that keeps the habit alive.',
-      b:['XP on every correct rep','Daily streaks that pull you back','Perfect-round bonuses'] }
+    { img:'assets/screens/learning-path.webp', t:'Your path',    h:'Follow the trail',      tag:'DAILY MAP',
+      d:'Lessons snake along a Duolingo-style trail &mdash; one clear next step, with chests and challenges along the way.',
+      b:['One clear next lesson every day','Chests, daily quests and news on the route','Units build from core skills to applied AI'] },
+    { img:'assets/screens/path-list.webp',     t:'Paths',        h:'Choose your track',     tag:'20 PATHS',
+      d:'Twenty guided paths across core AI skills and tool mastery &mdash; pick one and watch the bar fill.',
+      b:['Core skills: foundations, prompting, agents','Master ChatGPT, Claude, Gemini, Perplexity','A progress bar on every path'] },
+    { img:'assets/screens/prompt-builder.webp', t:'Prompt builder', h:'Build the prompt',   tag:'HANDS-ON',
+      d:'Assemble a strong prompt piece by piece &mdash; and learn to leave the fluff out.',
+      b:['Drag the pieces into a working prompt','Decoy chips teach what weakens a prompt','Instant check, with hearts on the line'] },
+    { img:'assets/screens/create-path.webp',   t:'Create',       h:'Type it, learn it',     tag:'CUSTOM PATHS',
+      d:'Type any goal and Iro builds a custom path in seconds &mdash; lessons, quiz and recap included.',
+      b:['&ldquo;Learn AI for work&rdquo; &rarr; a full path','Interviews, agents, finance &mdash; anything','Community paths from other learners'] },
+    { img:'assets/screens/operator-build.webp', t:'Operator Build', h:'See your build',     tag:'SKILL PROFILE',
+      d:'Six skill zones scored out of 100 roll up into your Operator Build and its power level.',
+      b:['Strategy, research, prompting, execution&hellip;','Strongest skill and weak spot called out','It tells you exactly what to train next'] },
+    { img:'assets/screens/duels-tab.webp',     t:'Duels',        h:'Enter the arena',       tag:'LIVE PvP',
+      d:'Five questions, fifteen seconds each, against an opponent matched to your rating.',
+      b:['ELO-style matchmaking','+25 XP a win, weekly arena challenges','A rating trend that tracks your climb'] },
+    { img:'assets/screens/ask-iro.webp',       t:'Ask Iro',      h:'Coach on call',         tag:'AI COACH',
+      d:'Iro quizzes you on today&rsquo;s lesson, explains the why, and points you at the next rep.',
+      b:['&ldquo;Quiz me on today&rsquo;s lesson&rdquo;','Explanations, not just answers','One tap into Prompt Lab practice'] },
+    { img:'assets/screens/rank-up.webp',       t:'Rank up',      h:'Evolve Iro',            tag:'EVOLUTION',
+      d:'Hit a new rank and Iro evolves &mdash; all the way to Diamond and Iro the Archmage.',
+      b:['A new form at every rank','Evolution reveals worth chasing','Share your evolution card'] },
+    { img:'assets/screens/news-refresh.webp',  t:'AI news',      h:'Stay current',          tag:'WEEKLY',
+      d:'Weekly AI briefings with read-and-quiz exercises &mdash; earn XP for keeping up.',
+      b:['The week&rsquo;s AI stories, minus the hype','A 3-question quiz on every story','+30 XP early-bird bonus'] },
+    { img:'assets/screens/prompt-library-refresh.webp', t:'Prompt Library', h:'Steal 250 prompts', tag:'250 PROMPTS',
+      d:'A searchable vault of 250 battle-tested prompts &mdash; copy one and go.',
+      b:['Filter by productivity, writing, analysis','Difficulty and time labels on each','Bookmark, share, one-tap copy'] }
   ];
 
   var CHECK = '<svg class="ia-ck" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="m8.5 12 2.5 2.5 4.5-5"/></svg>';
