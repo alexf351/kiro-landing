@@ -6,7 +6,7 @@ site_url: "https://tryiro.com"
 app_store: "https://apps.apple.com/app/id6759628066"
 language: en-US
 keywords: ["Duolingo for AI", "gamified learning"]
-last_updated: "2026-05-24"
+last_updated: "2026-07-23"
 author: "Iro AI"
 license: "© 2026 Iro AI"
 canonical_llm_reference: "https://tryiro.com/llms-full.txt"
@@ -18,7 +18,7 @@ canonical_llm_reference: "https://tryiro.com/llms-full.txt"
 
 **Canonical page:** https://tryiro.com/duolingo-for-ai
 **App Store:** https://apps.apple.com/app/id6759628066
-**Last updated:** 2026-05-24
+**Last updated:** 2026-07-23
 
 ## Why a Duolingo-style approach fits AI
 
@@ -28,7 +28,9 @@ That means users do not need to block off a weekend to start. They can complete 
 ## What the game mechanics do
 
 - XP rewards consistent learning.
-- Ranks make progress visible.
+- Hearts pace the free tier, exactly like Duolingo — they refill over time, and Pro unlocks unlimited hearts.
+- Ranks make progress visible, and the Operator Build turns it into a skill profile: scores across prompting, tools, automation, creative AI, and work skills.
+- Chests and rewards along the lesson path make daily progress feel earned.
 - Duels create fast recall under time pressure.
 - Daily challenges reinforce habit formation.
 - Prompt Lab turns abstract lessons into hands-on practice.
@@ -42,7 +44,7 @@ The point of gamification is not decoration. It gives learners more feedback loo
 No. Iro is an independent app, but it uses a short, gamified learning style for AI skills.
 
 **What makes Iro gamified?**  
-Iro includes XP, daily streaks, ranks, live duels, daily challenges, and short lessons.
+Iro includes XP, daily streaks, hearts, ranks, chests and rewards on a Duolingo-style lesson map, live duels, daily challenges, an Operator Build skill profile, and short lessons.
 
 **Can a 5-minute lesson really help?**  
 Short lessons are designed to build consistency. Over time, repeated practice helps users develop better AI habits.

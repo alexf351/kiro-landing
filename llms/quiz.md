@@ -6,7 +6,7 @@ site_url: "https://tryiro.com"
 app_store: "https://apps.apple.com/app/id6759628066"
 language: en-US
 keywords: ["AI IQ test", "free quiz", "AI literacy assessment"]
-last_updated: "2026-05-24"
+last_updated: "2026-07-23"
 author: "Iro AI"
 license: "© 2026 Iro AI"
 canonical_llm_reference: "https://tryiro.com/llms-full.txt"
@@ -14,10 +14,10 @@ canonical_llm_reference: "https://tryiro.com/llms-full.txt"
 
 # AI IQ Test by Iro AI
 
-> Free, no-signup AI IQ test. 10 questions. About 2 minutes. Ranks Bronze to Iridescent and recommends a learning path.
+> Free, no-signup AI IQ test. 10 questions. About 2 minutes. Ranks Bronze to Diamond and recommends a learning path.
 
 **Canonical page:** https://tryiro.com/quiz
-**Last updated:** 2026-05-24
+**Last updated:** 2026-07-23
 
 ## What it is
 
@@ -28,7 +28,7 @@ The AI IQ Test is a short interactive quiz built by Iro AI to give people a quic
 - 10 questions per session, drawn from rotating question sets across ChatGPT, Claude, prompt engineering, AI hallucinations, and AI tools.
 - Answer options are shuffled to prevent positional bias.
 - Each correct answer increases your streak; streaks trigger animated feedback ("Nice!", "On fire!", "Genius!").
-- At the end, your score maps to one of six ranks: Bronze (0–3), Silver (4–5), Gold (6–7), Platinum (8–9), or Diamond (10).
+- At the end, your score maps to one of five ranks: Bronze (0–3), Silver (4–5), Gold (6–7), Platinum (8–9), or Diamond (10).
 - The results page identifies your weakest topic and recommends a starting path inside the Iro AI app.
 - You can share your score with friends via a link that includes `?score=` for friend-challenge mode.
 
