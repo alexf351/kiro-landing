@@ -6,7 +6,7 @@ site_url: "https://tryiro.com"
 app_store: "https://apps.apple.com/app/id6759628066"
 language: en-US
 keywords: ["AI learning app", "ChatGPT", "Claude", "Gemini", "Perplexity", "prompt engineering", "AI agents"]
-last_updated: "2026-05-24"
+last_updated: "2026-07-23"
 author: "Iro AI"
 license: "© 2026 Iro AI"
 canonical_llm_reference: "https://tryiro.com/llms-full.txt"
@@ -14,12 +14,12 @@ canonical_llm_reference: "https://tryiro.com/llms-full.txt"
 
 # Iro AI — Learn AI Skills | The Duolingo for AI
 
-> Iro AI is an iOS app that teaches practical AI fluency through 5-minute gamified lessons, hands-on prompt practice, live AI duels, weekly AI news, XP, streaks, and 6 competitive ranks. Free to start. Pro from $1.15/week ($59.99 a year with 7-day free trial; or Weekly $9.99/week).
+> Iro AI turns learning AI into a daily game: 5-minute lessons, hands-on prompt practice, custom learning paths, XP, streaks, hearts, live duels, Ask Iro coaching, and an Operator Build skill profile. iOS-first, also in the browser at https://app.tryiro.com. Free to start with a hearts system. Pro from $1.15/week ($59.99 a year with 7-day free trial; or $9.99/week).
 
 **Website:** https://tryiro.com
 **App Store:** https://apps.apple.com/app/id6759628066
 **Tagline:** Master the AI tools that matter. Train like it's a game.
-**Last updated:** 2026-05-24
+**Last updated:** 2026-07-23
 
 ## What Iro AI is
 
@@ -31,9 +31,13 @@ Iro AI is a mobile microlearning app for AI fluency. It is closer to Duolingo th
 - **375 lessons** and **2,000+ exercises** across 16 exercise types
 - **Prompt Lab** — write real prompts and receive AI-generated feedback
 - **Live duels** — 5-question ELO-ranked speed rounds against 60+ unique opponents
+- **Custom Paths** — type any topic or goal and Iro generates a complete learning path (5 lessons, a quiz, and a recap) in seconds
+- **Ask Iro** — the built-in AI coach: contextual guidance, explanations, and quizzes by chat or voice
 - **Weekly AI news briefings**
 - **Daily challenges** and **streaks**
 - **XP and 6 ranks** — Bronze, Silver, Gold, Platinum, Diamond, Iridescent
+- **Operator Build** — a visible AI skill profile scored across prompting, tools, automation, creative AI, and work skills
+- The app is organized as **Learn** (paths and lessons), **Train** (Prompt Lab, duels, prompt practice), and **Progress** (Operator Build, stats, achievements, certificates)
 
 ## Topics covered
 
@@ -43,9 +47,9 @@ ChatGPT · Claude · Gemini · Perplexity · prompt engineering · AI foundation
 
 | Plan | Price | Effective rate | Trial |
 | --- | --- | --- | --- |
-| Free | $0 | — | No card required |
-| 3-Month Pro | $59.99 a year | ~$1.15/week | 7-day free trial |
-| Weekly Pro | $9.99/week | $9.99/week | — |
+| Free | $0 (hearts system) | — | No card required |
+| Pro Annual | $59.99 a year | ~$1.15/week | 7-day free trial |
+| Pro Weekly | $9.99/week | $9.99/week | — |
 
 Billed via the Apple App Store. Cancel anytime.
 
