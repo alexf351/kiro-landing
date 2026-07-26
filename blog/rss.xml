@@ -9,7 +9,7 @@
     <description>Short, practical writing on AI fluency, prompting, AI tools, and the active-practice method that beats endless video courses.</description>
     <language>en-US</language>
     <atom:link href="https://tryiro.com/blog/rss.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Thu, 09 Jul 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 26 Jul 2026 00:00:00 GMT</lastBuildDate>
     <generator>tryiro.com</generator>
     <copyright>© 2026 Iro AI</copyright>
     <image>
@@ -585,76 +585,49 @@
       <description>What are tokens in AI? A plain-English explainer: what a token is, how tokenization works, the words-per-token rule of thumb, and why tokens drive cost and limits.</description>
     </item>
     <item>
-      <title>Coursiv vs Learnova: which AI learning app is worth it in 2026?</title>
-      <link>https://tryiro.com/blog/coursiv-vs-learnova</link>
-      <guid isPermaLink="true">https://tryiro.com/blog/coursiv-vs-learnova</guid>
-      <pubDate>Wed, 08 Jul 2026 00:00:00 GMT</pubDate>
+      <title>New AI models in 2026: every major release, tracked</title>
+      <link>https://tryiro.com/blog/new-ai-models-2026</link>
+      <guid isPermaLink="true">https://tryiro.com/blog/new-ai-models-2026</guid>
+      <pubDate>Sun, 26 Jul 2026 00:00:00 GMT</pubDate>
       <dc:creator>Iro AI</dc:creator>
-      <category>AI fluency</category>
-      <description>An honest Coursiv vs Learnova comparison for 2026: how the two AI learning apps differ on teaching style, pricing, and free access — plus a third option if neither fits how you learn.</description>
+      <category>AI tools</category>
+      <description>Every major AI model release in 2026: Claude Opus 5, Claude Fable 5, GPT-5.6 (Luna, Terra, Sol), Grok 4.5, and Meta Muse Spark. Release dates, pricing, benchmarks, and which model to actually use.</description>
     </item>
     <item>
-      <title>How to choose an AI learning app (2026 buyer's guide)</title>
-      <link>https://tryiro.com/blog/how-to-choose-an-ai-learning-app</link>
-      <guid isPermaLink="true">https://tryiro.com/blog/how-to-choose-an-ai-learning-app</guid>
-      <pubDate>Thu, 09 Jul 2026 00:00:00 GMT</pubDate>
+      <title>Claude Opus 5: what actually changed, and who it's for</title>
+      <link>https://tryiro.com/blog/claude-opus-5</link>
+      <guid isPermaLink="true">https://tryiro.com/blog/claude-opus-5</guid>
+      <pubDate>Sun, 26 Jul 2026 00:00:00 GMT</pubDate>
       <dc:creator>Iro AI</dc:creator>
-      <category>AI fluency</category>
-      <description>A buyer's guide to choosing an AI learning app in 2026 — the six things that actually matter: active practice, coverage, price, level, habit design, and proof.</description>
+      <category>AI tools</category>
+      <description>Claude Opus 5 explained: release date, pricing, the 1M-token context window, fast mode, effort settings, benchmark results, and how it compares to Fable 5 and GPT-5.6.</description>
     </item>
     <item>
-      <title>Apps like Duolingo, but for AI</title>
-      <link>https://tryiro.com/blog/apps-like-duolingo-for-ai</link>
-      <guid isPermaLink="true">https://tryiro.com/blog/apps-like-duolingo-for-ai</guid>
-      <pubDate>Thu, 09 Jul 2026 00:00:00 GMT</pubDate>
+      <title>GPT-5.6 Luna vs Terra vs Sol: which tier should you actually use?</title>
+      <link>https://tryiro.com/blog/gpt-5-6</link>
+      <guid isPermaLink="true">https://tryiro.com/blog/gpt-5-6</guid>
+      <pubDate>Sun, 26 Jul 2026 00:00:00 GMT</pubDate>
       <dc:creator>Iro AI</dc:creator>
-      <category>AI fluency</category>
-      <description>Looking for a Duolingo-style app to learn AI? Here are the best gamified, practice-first ways to build AI skills 5 minutes a day — and why the model works.</description>
+      <category>AI tools</category>
+      <description>GPT-5.6 explained: Luna, Terra, and Sol pricing, benchmarks, and which tier to use for coding, agents, writing, and high-volume work. Released 9 July 2026 by OpenAI.</description>
     </item>
     <item>
-      <title>The best AI learning app for working professionals</title>
-      <link>https://tryiro.com/blog/ai-learning-app-for-professionals</link>
-      <guid isPermaLink="true">https://tryiro.com/blog/ai-learning-app-for-professionals</guid>
-      <pubDate>Thu, 09 Jul 2026 00:00:00 GMT</pubDate>
+      <title>Grok 4.5: xAI's coding model, reviewed honestly</title>
+      <link>https://tryiro.com/blog/grok-4-5</link>
+      <guid isPermaLink="true">https://tryiro.com/blog/grok-4-5</guid>
+      <pubDate>Sun, 26 Jul 2026 00:00:00 GMT</pubDate>
       <dc:creator>Iro AI</dc:creator>
-      <category>AI fluency</category>
-      <description>The best way for busy working professionals to learn AI in 2026: job-relevant skills in 5-minute daily reps — no coding, no degree, and no 12-week course required.</description>
+      <category>AI tools</category>
+      <description>Grok 4.5 explained: xAI's coding-focused model, released 8 July 2026. Pricing, Terminal-Bench and SWE-Bench Pro results, token efficiency, and when it beats more expensive models.</description>
     </item>
     <item>
-      <title>AI learning app vs AI bootcamp: which is worth it?</title>
-      <link>https://tryiro.com/blog/ai-app-vs-ai-bootcamp</link>
-      <guid isPermaLink="true">https://tryiro.com/blog/ai-app-vs-ai-bootcamp</guid>
-      <pubDate>Thu, 09 Jul 2026 00:00:00 GMT</pubDate>
+      <title>Meta Muse Spark: the free model most people haven't tried</title>
+      <link>https://tryiro.com/blog/meta-muse-spark</link>
+      <guid isPermaLink="true">https://tryiro.com/blog/meta-muse-spark</guid>
+      <pubDate>Sun, 26 Jul 2026 00:00:00 GMT</pubDate>
       <dc:creator>Iro AI</dc:creator>
-      <category>AI fluency</category>
-      <description>AI learning app vs AI bootcamp in 2026 — an honest comparison of cost, time, and outcomes, and how to tell which one actually fits your goal.</description>
-    </item>
-    <item>
-      <title>Does Duolingo Teach AI? (What It Does — and the Alternative)</title>
-      <link>https://tryiro.com/blog/does-duolingo-teach-ai</link>
-      <guid isPermaLink="true">https://tryiro.com/blog/does-duolingo-teach-ai</guid>
-      <pubDate>Thu, 09 Jul 2026 00:00:00 GMT</pubDate>
-      <dc:creator>Iro AI</dc:creator>
-      <category>AI fluency</category>
-      <description>Does Duolingo teach AI? No — it covers languages, math, and music. Here's what Duolingo actually teaches, and the best Duolingo-style way to learn AI instead.</description>
-    </item>
-    <item>
-      <title>How to use AI to write a cover letter (without sounding generic)</title>
-      <link>https://tryiro.com/blog/how-to-use-ai-to-write-a-cover-letter</link>
-      <guid isPermaLink="true">https://tryiro.com/blog/how-to-use-ai-to-write-a-cover-letter</guid>
-      <pubDate>Thu, 09 Jul 2026 00:00:00 GMT</pubDate>
-      <dc:creator>Iro AI</dc:creator>
-      <category>AI fluency</category>
-      <description>How to use AI to write a cover letter in 2026 — a step-by-step method to tailor it to the job, keep your voice, and avoid the generic AI tells that get it binned.</description>
-    </item>
-    <item>
-      <title>How to use AI to summarize a document or PDF (2026)</title>
-      <link>https://tryiro.com/blog/how-to-use-ai-to-summarize-a-document</link>
-      <guid isPermaLink="true">https://tryiro.com/blog/how-to-use-ai-to-summarize-a-document</guid>
-      <pubDate>Thu, 09 Jul 2026 00:00:00 GMT</pubDate>
-      <dc:creator>Iro AI</dc:creator>
-      <category>AI fluency</category>
-      <description>How to use AI to summarize a document or PDF in 2026 — the prompts that get a useful summary, which tools handle long files, and how to catch what AI leaves out.</description>
+      <category>AI tools</category>
+      <description>Meta Muse Spark explained: the first Meta Superintelligence Labs model, its 1.1 update, Contemplating mode, benchmark results, and why a free frontier-adjacent model matters.</description>
     </item>
   </channel>
 </rss>

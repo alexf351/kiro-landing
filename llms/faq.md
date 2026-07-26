@@ -6,7 +6,7 @@ site_url: "https://tryiro.com"
 app_store: "https://apps.apple.com/app/id6759628066"
 language: en-US
 keywords: ["pricing", "platform", "content", "comparisons", "privacy", "support"]
-last_updated: "2026-05-24"
+last_updated: "2026-07-23"
 author: "Iro AI"
 license: "© 2026 Iro AI"
 canonical_llm_reference: "https://tryiro.com/llms-full.txt"
@@ -17,13 +17,13 @@ canonical_llm_reference: "https://tryiro.com/llms-full.txt"
 > Comprehensive FAQ about Iro AI: pricing, platform, content, comparisons, privacy, support, and more.
 
 **Canonical FAQ page:** https://tryiro.com/faq
-**Last updated:** 2026-05-24
+**Last updated:** 2026-07-23
 
 ## About Iro AI
 
 ### What is Iro AI?
 
-Iro AI is an iOS app that teaches practical AI fluency through 5-minute gamified lessons. It covers ChatGPT, Claude, Gemini, Perplexity, prompt engineering, AI agents, automation, and creative AI across 20 learning paths and 2,000+ exercises. Free to start.
+Iro AI is a gamified app that turns learning AI into a daily game: pick a path, complete 5-minute lessons, practice real prompts, earn XP and streaks, and build a visible skill profile (your Operator Build). It covers ChatGPT, Claude, Gemini, Perplexity, prompt engineering, AI agents, automation, and creative AI across 20 learning paths and 2,000+ exercises. iOS-first, also in the browser at https://app.tryiro.com. Free to start with a hearts system.
 
 ### Is Iro AI legitimate?
 
@@ -45,7 +45,7 @@ Yes. You can use Iro for free with a hearts system, similar to Duolingo. Hearts 
 
 ### What does Iro AI cost?
 
-3-Month Pro is $59.99 a year (about $1.15/week) and includes a 7-day free trial. Weekly Pro is $9.99/week with no trial. Both are billed via the Apple App Store. The annual plan saves about 88% versus weekly ($59.99 vs ~$519.48 over a year). Cancel anytime.
+Pro Annual is $59.99 a year (about $1.15/week) and includes a 7-day free trial. Pro Weekly is $9.99/week with no trial. Both are billed via the Apple App Store. The annual plan saves about 88% versus weekly ($59.99 vs ~$519.48 over a year). Cancel anytime.
 
 ### Can I cancel anytime?
 
@@ -59,15 +59,15 @@ Not currently. Available plans are listed above.
 
 ### What devices does Iro AI run on?
 
-Iro AI runs on iPhone and iPad (iOS).
+Iro AI runs on iPhone and iPad (iOS), and in any modern browser at https://app.tryiro.com with account sync between the two.
 
 ### When will Iro be on Android?
 
-Android is in development. Follow https://tryiro.com or the official social profiles for updates.
+Android is in development. In the meantime, Android users can learn in the browser at https://app.tryiro.com — progress carries into the app when it launches.
 
 ### Is there a web app?
 
-The tryiro.com website hosts marketing, the free AI IQ test, and policy pages. The full learning experience runs in the iOS app.
+Yes. The full learning experience also runs in the browser at https://app.tryiro.com — same account, lessons, and progress as the iOS app. The tryiro.com site itself hosts the free AI rank quiz, guides, and policy pages.
 
 ## Content
 
@@ -86,6 +86,14 @@ About 5 minutes.
 ### What are the rank tiers?
 
 Bronze, Silver, Gold, Platinum, Diamond, and Iridescent.
+
+### What is the Operator Build?
+
+Your visible AI skill profile. Iro scores your ability across areas like prompting, tools, automation, creative AI, and work skills, rolls them into an Operator Build with a power level, and tells you exactly what to train next. It lives in the Progress tab alongside stats, achievements, and certificates.
+
+### How is the app organized?
+
+Three tabs: Learn (your paths and 5-minute lessons on a Duolingo-style map), Train (Prompt Lab, prompt practice, and live AI duels), and Progress (your Operator Build, stats, achievements, and certificates).
 
 ### Do I need prior AI experience?
 
@@ -113,7 +121,7 @@ No. Iro builds practical day-to-day AI fluency. It is not an accredited certific
 
 ### What is the AI IQ test?
 
-A free 10-question quiz at https://tryiro.com/quiz that takes about 2 minutes, ranks your score on a Bronze-to-Iridescent scale, identifies your weakest topic, and recommends a learning path.
+A free 10-question quiz at https://tryiro.com/quiz that takes about 2 minutes, ranks your score on a Bronze-to-Diamond scale (Iridescent is unlocked in the app), identifies your weakest topic, and recommends a learning path.
 
 ### Do I need an account to take it?
 

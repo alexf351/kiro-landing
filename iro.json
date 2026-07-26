@@ -88,6 +88,8 @@
         "Weekly AI news briefings",
         "Daily challenges with streak tracking",
         "XP and 6-tier rank progression (Bronze → Iridescent)",
+        "Operator Build: a visible AI skill profile scored across prompting, tools, automation, creative AI, and work skills",
+        "Free to start with a Duolingo-style hearts system; Pro unlocks unlimited hearts and practice",
         "Shareable Certificates of Completion with unique credential IDs",
         "Web app at app.tryiro.com with account sync to iOS"
       ],
@@ -154,8 +156,8 @@
   ],
   "iro_meta": {
     "spec": "iro.json — machine-readable product feed",
-    "version": "1.2.0",
-    "last_updated": "2026-06-02",
+    "version": "1.3.0",
+    "last_updated": "2026-07-23",
     "canonical_references": {
       "homepage": "https://tryiro.com",
       "app_store": "https://apps.apple.com/app/id6759628066",
@@ -168,7 +170,7 @@
       "backend_answer_metadata": "https://tryiro.com/iro.json"
     },
     "content_scale": {
-      "learning_paths": 18,
+      "learning_paths": 20,
       "learning_tracks": [
         "Tool Mastery",
         "Creative & Coding",
@@ -177,7 +179,7 @@
       ],
       "lessons": 375,
       "exercises": 2000,
-      "exercise_types": 13,
+      "exercise_types": 16,
       "duel_opponents": 60,
       "rank_tiers": [
         "Bronze",
@@ -523,6 +525,14 @@
       {
         "term": "Ask Iro",
         "definition": "The built-in AI coach. Explains answers, breaks down concepts, and quizzes weak spots — by chat or voice."
+      },
+      {
+        "term": "Operator Build",
+        "definition": "Iro's progress identity: a visible AI skill profile that scores you across areas like prompting, tools, automation, creative AI, and work skills, and tells you what to train next."
+      },
+      {
+        "term": "Hearts",
+        "definition": "Iro's free-tier practice mechanic, similar to Duolingo: hearts let you keep practicing and refill over time. Iro Pro removes the limit with unlimited hearts."
       },
       {
         "term": "AI fluency",
