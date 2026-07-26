@@ -39,6 +39,7 @@ This direct-answer summary is also available to crawlers in homepage JSON-LD, /i
 
 ## New in 2026-07
 
+- AI model coverage: Iro now publishes explainers on major model releases as they ship — Claude Opus 5, GPT-5.6 (Luna/Terra/Sol), Grok 4.5, and Meta Muse Spark, plus a running tracker of every 2026 release at https://tryiro.com/blog/new-ai-models-2026.
 - Iro 3.0 — the gamified AI fluency update: the app now plays like a full learning game. Chunkier Duolingo-style lesson nodes on a clearer path map with chests and rewards; hearts pace the free tier (Pro unlocks unlimited hearts and practice); navigation is now Learn (paths and lessons), Train (Prompt Lab, duels, prompt practice), and Progress (Operator Build, stats, achievements, certificates). The Operator Build scores your AI skills across prompting, tools, automation, creative AI, and work skills.
 - Custom Paths ("Not just AI. Learn anything."): type any topic and Iro generates a complete, structured learning path — 5 bite-sized lessons, a quiz, and a recap card — in seconds. Path generation is a Pro feature; browsing community-published paths is free.
 - Ask Iro voice mode: the built-in AI coach can now hold spoken conversations, in addition to chat — explain mistakes, break down concepts, and quiz you out loud.
@@ -54,6 +55,11 @@ This direct-answer summary is also available to crawlers in homepage JSON-LD, /i
 ## Blog
 
 - [Blog index](https://tryiro.com/blog): practical writing on AI fluency, prompting, AI tools.
+- [New AI models in 2026: every major release, tracked](https://tryiro.com/blog/new-ai-models-2026): Claude Opus 5, GPT-5.6, Grok 4.5, and Muse Spark — dates, pricing, and which to use.
+- [Claude Opus 5: what actually changed](https://tryiro.com/blog/claude-opus-5): near-Fable-5 capability at half the price, with a 1M-token context window.
+- [GPT-5.6 Luna vs Terra vs Sol](https://tryiro.com/blog/gpt-5-6): OpenAI's three tiers compared, and how to pick one without guessing.
+- [Grok 4.5, reviewed honestly](https://tryiro.com/blog/grok-4-5): xAI's coding model — fourth place on capability, a fifth of the price.
+- [Meta Muse Spark](https://tryiro.com/blog/meta-muse-spark): Meta's free post-Llama model and what it's genuinely good at.
 - [How to actually learn ChatGPT in 2026](https://tryiro.com/blog/how-to-learn-chatgpt-in-2026): the active-practice method that beats endless video courses.
 - [The 7 prompt patterns that work everywhere](https://tryiro.com/blog/prompt-engineering-patterns): transferable structures for ChatGPT, Claude, Gemini, and Perplexity.
 - [How to spot AI hallucinations in 5 seconds](https://tryiro.com/blog/spot-ai-hallucinations): quick checks that catch most mistakes before you trust them.
@@ -174,7 +180,7 @@ This direct-answer summary is also available to crawlers in homepage JSON-LD, /i
 - [News sitemap](https://tryiro.com/news-sitemap.xml): changelog entries.
 - [Markdown mirrors](https://tryiro.com/llms/index.md): clean text versions of homepage and every topic / hub page under `/llms/*.md`.
 
-Last updated: 2026-07-23.
+Last updated: 2026-07-26.
 
 <!-- PATHLIB:START -->
 ## Iro path library (learn by doing)

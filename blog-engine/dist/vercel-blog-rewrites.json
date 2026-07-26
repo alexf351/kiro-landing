@@ -273,8 +273,24 @@
       "destination": "/blog/what-are-tokens-in-ai.html"
     },
     {
-      "source": "/blog/coursiv-vs-learnova",
-      "destination": "/blog/coursiv-vs-learnova.html"
+      "source": "/blog/new-ai-models-2026",
+      "destination": "/blog/new-ai-models-2026.html"
+    },
+    {
+      "source": "/blog/claude-opus-5",
+      "destination": "/blog/claude-opus-5.html"
+    },
+    {
+      "source": "/blog/gpt-5-6",
+      "destination": "/blog/gpt-5-6.html"
+    },
+    {
+      "source": "/blog/grok-4-5",
+      "destination": "/blog/grok-4-5.html"
+    },
+    {
+      "source": "/blog/meta-muse-spark",
+      "destination": "/blog/meta-muse-spark.html"
     }
   ]
 }
