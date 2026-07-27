@@ -291,6 +291,14 @@
     {
       "source": "/blog/meta-muse-spark",
       "destination": "/blog/meta-muse-spark.html"
+    },
+    {
+      "source": "/blog/kimi-k3",
+      "destination": "/blog/kimi-k3.html"
+    },
+    {
+      "source": "/blog/best-ai-video-generators",
+      "destination": "/blog/best-ai-video-generators.html"
     }
   ]
 }

@@ -819,6 +819,30 @@
         "AI models",
         "Meta"
       ]
+    },
+    {
+      "id": "https://tryiro.com/blog/kimi-k3",
+      "url": "https://tryiro.com/blog/kimi-k3",
+      "title": "Kimi K3: the biggest open-weight model ever, and who can actually run it",
+      "summary": "Moonshot AI released the weights to a 2.8-trillion-parameter model today. Here's what that means, what it costs to run, and why 'open weights' isn't the same as 'you can use it'.",
+      "date_published": "2026-07-27T00:00:00Z",
+      "tags": [
+        "AI tools",
+        "AI models",
+        "open source AI"
+      ]
+    },
+    {
+      "id": "https://tryiro.com/blog/best-ai-video-generators",
+      "url": "https://tryiro.com/blog/best-ai-video-generators",
+      "title": "The best AI video generators in 2026 (and the one to avoid building on)",
+      "summary": "Veo 3.1 wins on quality, Kling 3.0 wins on price, and Sora 2 is being shut down. Here's how to pick — and what the tools still can't do.",
+      "date_published": "2026-07-27T00:00:00Z",
+      "tags": [
+        "AI tools",
+        "AI video",
+        "creative AI"
+      ]
     }
   ]
 }
