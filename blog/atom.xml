@@ -5,7 +5,7 @@
   <link rel="self" href="https://tryiro.com/blog/atom.xml" type="application/atom+xml"/>
   <link rel="alternate" href="https://tryiro.com/blog" type="text/html"/>
   <id>https://tryiro.com/blog/atom.xml</id>
-  <updated>2026-07-26T00:00:00Z</updated>
+  <updated>2026-07-27T00:00:00Z</updated>
   <rights>© 2026 Iro AI</rights>
   <author><name>Iro AI</name><uri>https://tryiro.com</uri></author>
   <icon>https://tryiro.com/assets/favicon-64.png</icon>
@@ -644,7 +644,7 @@
     <title>New AI models in 2026: every major release, tracked</title>
     <id>https://tryiro.com/blog/new-ai-models-2026</id>
     <link href="https://tryiro.com/blog/new-ai-models-2026"/>
-    <updated>2026-07-26T00:00:00Z</updated>
+    <updated>2026-07-27T00:00:00Z</updated>
     <published>2026-07-26T00:00:00Z</published>
     <author><name>Iro AI</name></author>
     <category term="AI tools"/>
@@ -689,5 +689,45 @@
     <author><name>Iro AI</name></author>
     <category term="AI tools"/>
     <summary>Meta walked away from Llama and rebuilt from scratch. Muse Spark is the result — a free, multimodal reasoning model that quietly leads on medical benchmarks.</summary>
+  </entry>
+  <entry>
+    <title>Kimi K3: the biggest open-weight model ever, and who can actually run it</title>
+    <id>https://tryiro.com/blog/kimi-k3</id>
+    <link href="https://tryiro.com/blog/kimi-k3"/>
+    <updated>2026-07-27T00:00:00Z</updated>
+    <published>2026-07-27T00:00:00Z</published>
+    <author><name>Iro AI</name></author>
+    <category term="AI tools"/>
+    <summary>Moonshot AI released the weights to a 2.8-trillion-parameter model today. Here's what that means, what it costs to run, and why 'open weights' isn't the same as 'you can use it'.</summary>
+  </entry>
+  <entry>
+    <title>The best AI video generators in 2026 (and the one to avoid building on)</title>
+    <id>https://tryiro.com/blog/best-ai-video-generators</id>
+    <link href="https://tryiro.com/blog/best-ai-video-generators"/>
+    <updated>2026-07-27T00:00:00Z</updated>
+    <published>2026-07-27T00:00:00Z</published>
+    <author><name>Iro AI</name></author>
+    <category term="AI tools"/>
+    <summary>Veo 3.1 wins on quality, Kling 3.0 wins on price, and Sora 2 is being shut down. Here's how to pick — and what the tools still can't do.</summary>
+  </entry>
+  <entry>
+    <title>Which AI model should you use for coding in 2026?</title>
+    <id>https://tryiro.com/blog/best-ai-model-for-coding</id>
+    <link href="https://tryiro.com/blog/best-ai-model-for-coding"/>
+    <updated>2026-07-27T00:00:00Z</updated>
+    <published>2026-07-27T00:00:00Z</published>
+    <author><name>Iro AI</name></author>
+    <category term="AI tools"/>
+    <summary>Your editor lets you pick the model now — and the picks have real trade-offs. Opus 5, GPT-5.6 Sol, Fable 5, Grok 4.5, and Kimi K3, ranked by what you're actually doing.</summary>
+  </entry>
+  <entry>
+    <title>The best AI model for writing in 2026 (by what you're writing)</title>
+    <id>https://tryiro.com/blog/best-ai-model-for-writing</id>
+    <link href="https://tryiro.com/blog/best-ai-model-for-writing"/>
+    <updated>2026-07-27T00:00:00Z</updated>
+    <published>2026-07-27T00:00:00Z</published>
+    <author><name>Iro AI</name></author>
+    <category term="AI tools"/>
+    <summary>Claude Fable 5 leads on prose, GPT-5.6 leads on ideas, and the model matters less than most people think. An honest guide by genre.</summary>
   </entry>
 </feed>

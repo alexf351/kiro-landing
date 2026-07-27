@@ -1006,6 +1006,22 @@
       "destination": "/blog/meta-muse-spark.html"
     },
     {
+      "source": "/blog/kimi-k3",
+      "destination": "/blog/kimi-k3.html"
+    },
+    {
+      "source": "/blog/best-ai-video-generators",
+      "destination": "/blog/best-ai-video-generators.html"
+    },
+    {
+      "source": "/blog/best-ai-model-for-coding",
+      "destination": "/blog/best-ai-model-for-coding.html"
+    },
+    {
+      "source": "/blog/best-ai-model-for-writing",
+      "destination": "/blog/best-ai-model-for-writing.html"
+    },
+    {
       "source": "/paths",
       "destination": "/paths.html"
     },

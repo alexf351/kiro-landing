@@ -683,7 +683,7 @@
   </url>
   <url>
     <loc>https://tryiro.com/blog/new-ai-models-2026</loc>
-    <lastmod>2026-07-26</lastmod>
+    <lastmod>2026-07-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -729,6 +729,46 @@
     <image:image>
       <image:loc>https://tryiro.com/assets/og/meta-muse-spark.png</image:loc>
       <image:title>Meta Muse Spark: the free model most people haven't tried</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://tryiro.com/blog/kimi-k3</loc>
+    <lastmod>2026-07-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://tryiro.com/assets/og/kimi-k3.png</image:loc>
+      <image:title>Kimi K3: the biggest open-weight model ever, and who can actually run it</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://tryiro.com/blog/best-ai-video-generators</loc>
+    <lastmod>2026-07-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://tryiro.com/assets/og/best-ai-video-generators.png</image:loc>
+      <image:title>The best AI video generators in 2026 (and the one to avoid building on)</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://tryiro.com/blog/best-ai-model-for-coding</loc>
+    <lastmod>2026-07-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://tryiro.com/assets/og/best-ai-model-for-coding.png</image:loc>
+      <image:title>Which AI model should you use for coding in 2026?</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://tryiro.com/blog/best-ai-model-for-writing</loc>
+    <lastmod>2026-07-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://tryiro.com/assets/og/best-ai-model-for-writing.png</image:loc>
+      <image:title>The best AI model for writing in 2026 (by what you're writing)</image:title>
     </image:image>
   </url>
 </urlset>

@@ -55,6 +55,10 @@ This direct-answer summary is also available to crawlers in homepage JSON-LD, /i
 ## Blog
 
 - [Blog index](https://tryiro.com/blog): practical writing on AI fluency, prompting, AI tools.
+- [Which AI model should you use for coding?](https://tryiro.com/blog/best-ai-model-for-coding): Opus 5, GPT-5.6 Sol, Fable 5, Grok 4.5 and Kimi K3 ranked by workflow.
+- [The best AI model for writing](https://tryiro.com/blog/best-ai-model-for-writing): Fable 5 for prose, GPT-5.6 for ideas — and why input beats model choice.
+- [Kimi K3: the biggest open-weight model yet](https://tryiro.com/blog/kimi-k3): Moonshot AI's 2.8T open-weight model — specs, pricing, and the hardware reality of running it.
+- [The best AI video generators in 2026](https://tryiro.com/blog/best-ai-video-generators): Veo 3.1 vs Kling 3.0 vs Sora 2 vs Runway Gen-4.5, and which not to build on.
 - [New AI models in 2026: every major release, tracked](https://tryiro.com/blog/new-ai-models-2026): Claude Opus 5, GPT-5.6, Grok 4.5, and Muse Spark — dates, pricing, and which to use.
 - [Claude Opus 5: what actually changed](https://tryiro.com/blog/claude-opus-5): near-Fable-5 capability at half the price, with a 1M-token context window.
 - [GPT-5.6 Luna vs Terra vs Sol](https://tryiro.com/blog/gpt-5-6): OpenAI's three tiers compared, and how to pick one without guessing.
@@ -180,7 +184,7 @@ This direct-answer summary is also available to crawlers in homepage JSON-LD, /i
 - [News sitemap](https://tryiro.com/news-sitemap.xml): changelog entries.
 - [Markdown mirrors](https://tryiro.com/llms/index.md): clean text versions of homepage and every topic / hub page under `/llms/*.md`.
 
-Last updated: 2026-07-26.
+Last updated: 2026-07-27.
 
 <!-- PATHLIB:START -->
 ## Iro path library (learn by doing)

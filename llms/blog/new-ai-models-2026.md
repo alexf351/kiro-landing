@@ -5,9 +5,9 @@ site: "Iro AI"
 site_url: "https://tryiro.com"
 app_store: "https://apps.apple.com/app/id6759628066"
 language: en-US
-keywords: ["new AI models 2026", "AI model releases", "latest AI models", "Claude Opus 5", "GPT-5.6", "Grok 4.5", "Muse Spark", "best AI model 2026"]
+keywords: ["new AI models 2026", "AI model releases", "latest AI models", "Claude Opus 5", "GPT-5.6", "Grok 4.5", "Muse Spark", "best AI model 2026", "Kimi K3"]
 date_published: "2026-07-26"
-date_modified: "2026-07-26"
+date_modified: "2026-07-27"
 reading_time_minutes: 9
 author: "Alex Furukawa"
 license: "© 2026 Iro AI"
@@ -21,12 +21,13 @@ pillar: "ai-tools"
 
 **Canonical:** https://tryiro.com/blog/new-ai-models-2026
 **Published:** 2026-07-26
+**Updated:** 2026-07-27
 **Reading time:** ~9 min
 **Author:** Alex Furukawa — Founder of Iro AI
 
 ## Key takeaways
 
-- Four labs shipped frontier models in 2026: Anthropic (Claude Fable 5 in June, Claude Opus 5 in July), OpenAI (the GPT-5.6 family on July 9), xAI (Grok 4.5 on July 8), and Meta (Muse Spark, updated to 1.1 on July 9).
+- Five labs shipped frontier models in July 2026 alone: Anthropic (Claude Opus 5 on 24 July), OpenAI (the GPT-5.6 family on 9 July), xAI (Grok 4.5 on 8 July), Moonshot AI (Kimi K3, weights 27 July), and Meta (Muse Spark 1.1 on 9 July).
 - The real 2026 story is price, not raw capability: Opus 5 delivers near-Fable-5 performance at half the price, and GPT-5.6 Terra matches GPT-5.5 for roughly half the cost.
 - Every lab now ships tiers instead of one model — Luna/Terra/Sol at OpenAI, effort settings at Anthropic — so choosing the right tier now matters more than choosing the right lab.
 - Benchmark leaderboards reshuffle within weeks. The skill that transfers between models — prompting, judgment, knowing when to verify — is worth more than tracking any single release.
@@ -39,7 +40,7 @@ The more useful takeaway is what the cluster of releases has in common. In 2026 
 
 ## Every major 2026 release, in order
 
-Two things stand out from that list. First, the release cadence: four frontier launches inside July alone. Second, the direction — with the exception of Fable 5, every release in the second half of 2026 has been about doing more for less, not setting a new capability ceiling.
+Two things stand out from that list. First, the release cadence: five frontier launches inside July alone — and that excludes the wider wave of smaller releases (Google's Gemini 3.6 Flash trio, several Qwen models, poolside's Laguna S 2.1) that landed in the same fortnight. Second, the direction — with the exception of Fable 5, every release in the second half of 2026 has been about doing more for less, not setting a new capability ceiling.
 
 ## What actually changed in 2026
 
@@ -52,6 +53,8 @@ The single flagship model is gone. OpenAI splits GPT-5.6 into Luna (fast, cheap,
 The practical consequence: _picking the wrong tier now costs more than picking the wrong lab._ Running a flagship model to reformat a spreadsheet is the 2026 version of burning money, and running a cheap tier on work that needs careful reasoning is the 2026 version of getting quietly wrong answers.
 
 Grok 4.5 was xAI's first model built specifically for coding and agentic work, trained using real developer session data, and it reports 83.3% on Terminal-Bench 2.1 and 64.7% on SWE-Bench Pro. OpenAI reported Sol Ultra at 91.9% on the same Terminal-Bench 2.1 benchmark. The benchmarks the labs choose to lead with have shifted from trivia-style knowledge tests toward whether a model can work inside a real codebase over a long session.
+
+Moonshot AI published the weights for Kimi K3 on 27 July — roughly 2.8 trillion parameters under a Modified MIT license, the largest open-weight release so far. The practical catch is that running it takes around 594GB of VRAM at full precision, so "open" here means auditable and self-hostable by organisations rather than runnable on your laptop. The pressure it puts on closed-model pricing is real regardless of who can host it.
 
 Grok 4.5 landed at 54 on the Artificial Analysis Intelligence Index — fourth place at the time, behind Fable 5, GPT-5.5, and Opus 4.8 — at roughly a fifth of the cost of the models above it. Meta's Muse Spark landed fourth on the same index in April. Fourth place at a fifth of the price is a better deal than first place for most real work, which is exactly why the leaderboard alone stopped being a useful buying signal in 2026.
 
@@ -76,7 +79,7 @@ That is the case for treating AI as a skill you practice rather than a product y
 
 **What is the newest AI model in 2026?**
 
-As of 26 July 2026, Claude Opus 5 is the most recent frontier release, released on 24 July 2026. It arrived within roughly two weeks of OpenAI's GPT-5.6 family (9 July), xAI's Grok 4.5 (8 July), and Meta's Muse Spark 1.1 update (9 July).
+The most recent major releases are Kimi K3's open weights (27 July 2026, the largest open-weight model to date at ~2.8T parameters) and Claude Opus 5 (24 July 2026). Both landed within three weeks of OpenAI's GPT-5.6 family (9 July), xAI's Grok 4.5 (8 July), and Meta's Muse Spark 1.1 update (9 July).
 
 **Which AI model is the best in 2026?**
 
@@ -94,11 +97,15 @@ No. For most everyday tasks — writing, summarizing, brainstorming, learning �
 
 They are capability tiers of the same model family, released by OpenAI on 9 July 2026. Luna is the fastest and cheapest ($1/$6 per million tokens) for high-volume simple work; Terra is the balanced middle ($2.50/$15); Sol is the flagship ($5/$30) for frontier reasoning and long-horizon agentic tasks, and the only tier with Max reasoning effort and Ultra mode.
 
+**What is the largest open-weight AI model?**
+
+Kimi K3 from Moonshot AI, whose weights were published on 27 July 2026 under a Modified MIT license at roughly 2.8 trillion parameters. Running it locally requires about 594GB of VRAM at full precision — an 8x H100 class machine — so most users access it through the API instead.
+
 ## Read next
 
+- [Kimi K3: the biggest open-weight model yet](https://tryiro.com/blog/kimi-k3)
 - [Claude Opus 5: what actually changed](https://tryiro.com/blog/claude-opus-5)
 - [GPT-5.6: Luna vs Terra vs Sol](https://tryiro.com/blog/gpt-5-6)
-- [Grok 4.5, reviewed honestly](https://tryiro.com/blog/grok-4-5)
 
 ## About the author
 

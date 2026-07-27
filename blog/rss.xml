@@ -9,7 +9,7 @@
     <description>Short, practical writing on AI fluency, prompting, AI tools, and the active-practice method that beats endless video courses.</description>
     <language>en-US</language>
     <atom:link href="https://tryiro.com/blog/rss.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Sun, 26 Jul 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 27 Jul 2026 00:00:00 GMT</lastBuildDate>
     <generator>tryiro.com</generator>
     <copyright>© 2026 Iro AI</copyright>
     <image>
@@ -628,6 +628,42 @@
       <dc:creator>Iro AI</dc:creator>
       <category>AI tools</category>
       <description>Meta Muse Spark explained: the first Meta Superintelligence Labs model, its 1.1 update, Contemplating mode, benchmark results, and why a free frontier-adjacent model matters.</description>
+    </item>
+    <item>
+      <title>Kimi K3: the biggest open-weight model ever, and who can actually run it</title>
+      <link>https://tryiro.com/blog/kimi-k3</link>
+      <guid isPermaLink="true">https://tryiro.com/blog/kimi-k3</guid>
+      <pubDate>Mon, 27 Jul 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Iro AI</dc:creator>
+      <category>AI tools</category>
+      <description>Kimi K3 explained: Moonshot AI's 2.8-trillion-parameter open-weight model, released 27 July 2026. Architecture, benchmarks, API pricing, and the hardware reality of running it locally.</description>
+    </item>
+    <item>
+      <title>The best AI video generators in 2026 (and the one to avoid building on)</title>
+      <link>https://tryiro.com/blog/best-ai-video-generators</link>
+      <guid isPermaLink="true">https://tryiro.com/blog/best-ai-video-generators</guid>
+      <pubDate>Mon, 27 Jul 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Iro AI</dc:creator>
+      <category>AI tools</category>
+      <description>The best AI video generators in 2026 compared: Google Veo 3.1, Kling 3.0, Sora 2, and Runway Gen-4.5. Quality, pricing, clip length, and which to choose for your use case.</description>
+    </item>
+    <item>
+      <title>Which AI model should you use for coding in 2026?</title>
+      <link>https://tryiro.com/blog/best-ai-model-for-coding</link>
+      <guid isPermaLink="true">https://tryiro.com/blog/best-ai-model-for-coding</guid>
+      <pubDate>Mon, 27 Jul 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Iro AI</dc:creator>
+      <category>AI tools</category>
+      <description>The best AI model for coding in 2026, compared: Claude Opus 5, GPT-5.6 Sol, Claude Fable 5, Grok 4.5, and Kimi K3. Benchmarks, pricing, and which to pick for your workflow.</description>
+    </item>
+    <item>
+      <title>The best AI model for writing in 2026 (by what you're writing)</title>
+      <link>https://tryiro.com/blog/best-ai-model-for-writing</link>
+      <guid isPermaLink="true">https://tryiro.com/blog/best-ai-model-for-writing</guid>
+      <pubDate>Mon, 27 Jul 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Iro AI</dc:creator>
+      <category>AI tools</category>
+      <description>The best AI model for writing in 2026: Claude Fable 5 for prose, GPT-5.6 for ideation, and how to pick by genre — fiction, business writing, blogging, and editing.</description>
     </item>
   </channel>
 </rss>

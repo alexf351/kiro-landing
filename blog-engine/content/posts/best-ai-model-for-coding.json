@@ -1,0 +1,128 @@
+{
+  "slug": "best-ai-model-for-coding",
+  "order": 71,
+  "pillar": "ai-tools",
+  "title": "Which AI model should you use for coding in 2026?",
+  "lede": "Your editor lets you pick the model now — and the picks have real trade-offs. Opus 5, GPT-5.6 Sol, Fable 5, Grok 4.5, and Kimi K3, ranked by what you're actually doing.",
+  "keyTakeaways": [
+    "There is no universal winner. Claude Opus 5 leads Artificial Analysis's Agentic Index (55.3), GPT-5.6 Sol leads the Coding Agent Index (80) and SWE-bench Verified (96.2%), and Grok 4.5 wins on cost and speed.",
+    "Claude Fable 5 remains the frontier flagship for hard problems; Claude Opus 5 is the value pick at $5/$25 per million tokens, roughly half Fable 5's input price.",
+    "This is a different question from which coding tool to use — Cursor, Copilot, and similar editors now let you choose the model behind them, so the two decisions are independent.",
+    "Benchmark positions move within weeks: Grok 4.5 sat fourth on the intelligence index at its 8 July launch and had slipped to sixth by late July as new models landed."
+  ],
+  "description": "The best AI model for coding in 2026, compared: Claude Opus 5, GPT-5.6 Sol, Claude Fable 5, Grok 4.5, and Kimi K3. Benchmarks, pricing, and which to pick for your workflow.",
+  "keywords": [
+    "best AI model for coding",
+    "best LLM for coding",
+    "Claude Opus 5 coding",
+    "GPT-5.6 Sol coding",
+    "Grok 4.5 coding",
+    "which AI model for programming",
+    "SWE-bench 2026"
+  ],
+  "datePublished": "2026-07-27",
+  "dateModified": "2026-07-27",
+  "readingTime": 8,
+  "articleSection": "AI tools",
+  "feedCategory": "AI tools",
+  "feedTags": [
+    "AI tools",
+    "coding",
+    "AI models"
+  ],
+  "inlineCtaAfter": 2,
+  "toc": [
+    {
+      "href": "#answer",
+      "label": "The short answer"
+    },
+    {
+      "href": "#models",
+      "label": "The models, compared"
+    },
+    {
+      "href": "#workflow",
+      "label": "Pick by workflow"
+    },
+    {
+      "href": "#benchmarks",
+      "label": "Reading coding benchmarks"
+    },
+    {
+      "href": "#skill",
+      "label": "The part the model doesn't do"
+    }
+  ],
+  "sections": [
+    {
+      "id": "answer",
+      "heading": "The short answer",
+      "html": "<p><strong>For most developers in 2026: Claude Opus 5 is the best default, GPT-5.6 Sol is the pick for long-horizon agent work, Claude Fable 5 for the hardest problems, and Grok 4.5 when cost per task is the constraint.</strong> Opus 5 took the top spot on Artificial Analysis's Agentic Index at 55.3, just ahead of GPT-5.6 Sol at 54.0, while costing $5/$25 per million tokens.</p><p>Note that this is a separate decision from <a href=\"/blog/best-ai-coding-tools\">which coding tool you use</a>. Cursor, Copilot, and most modern editors now let you choose the model behind the interface, so you pick a tool for its workflow and a model for its strengths — and you can change either independently.</p><p class=\"note\">Benchmark figures reflect published results as of 27 July 2026. Positions in this category change faster than in any other.</p>"
+    },
+    {
+      "id": "models",
+      "heading": "The models, compared",
+      "html": "<div class=\"cmp-wrap\"><table class=\"cmp-table\"><thead><tr><th>Model</th><th>Price (in/out per M)</th><th>Notable coding results</th><th>Best for</th></tr></thead><tbody><tr><td><strong>Claude Opus 5</strong></td><td>$5 / $25</td><td>#1 on AA Agentic Index (55.3); reported within 0.5% of Fable 5 on CursorBench 3.2 at half the cost</td><td>The best all-round default — strong agentic work without flagship pricing</td></tr><tr><td><strong>GPT-5.6 Sol</strong></td><td>$5 / $30</td><td>96.2% SWE-bench Verified; tops AA Coding Agent Index (80); 88.8% Terminal-Bench 2.1</td><td>Long-horizon, tool-using agent runs</td></tr><tr><td><strong>Claude Fable 5</strong></td><td>Premium tier</td><td>95.0% SWE-bench Verified; strongest reported deep repository comprehension</td><td>Genuinely hard problems where cost is secondary</td></tr><tr><td><strong>Grok 4.5</strong></td><td>$2 / $6</td><td>83.3% Terminal-Bench 2.1; 64.7% SWE-Bench Pro; ~3–4x fewer tokens per task</td><td>High volume, cost-constrained work</td></tr><tr><td><strong>Kimi K3</strong></td><td>$3 / $15</td><td>93.4% SWE-bench Verified; #1 on LMArena's blind Frontend Code Arena</td><td>Front-end work; self-hosting where open weights matter</td></tr></tbody></table></div><p>The spread on SWE-bench Verified — 96.2%, 95.0%, 93.4% across the top three — is worth pausing on. Those gaps are small enough that they will not be the thing that determines whether your afternoon goes well. Which is the honest headline: <em>at the top of this table, the models are close, and your prompt and your review process matter more than your pick.</em></p>"
+    },
+    {
+      "id": "workflow",
+      "heading": "Pick by what you're actually doing",
+      "html": "<p><strong>Autocomplete and small edits.</strong> Use whatever is fastest and cheapest — this is where Grok 4.5's speed and token efficiency shine, and where paying flagship rates is pure waste. The task is too small for a capability gap to show.</p><p><strong>\"Implement this feature\" across a few files.</strong> Claude Opus 5 or GPT-5.6 Terra. You want solid reasoning and enough context handling to hold the relevant files, without paying for frontier reasoning on a routine task.</p><p><strong>Long agent runs — refactors, migrations, multi-hour sessions.</strong> GPT-5.6 Sol or Claude Opus 5. This is where the Agentic and Coding Agent indices actually mean something, because errors compound across steps and a model that recovers gracefully is worth real money.</p><p><strong>Debugging something genuinely hard.</strong> Claude Fable 5, or Sol with Max reasoning effort. When you have been stuck for an hour, the price difference is irrelevant against your own time.</p><p><strong>Front-end and UI work.</strong> Kimi K3 is worth trying — it ranked first on LMArena's blind Frontend Code Arena, which is a human-preference test rather than a pass/fail benchmark, and human preference is most of what \"good UI code\" means.</p><p><strong>Regulated environments or air-gapped work.</strong> Kimi K3 is the only open-weight option on this list, though self-hosting it needs roughly 594GB of VRAM — see <a href=\"/blog/kimi-k3\">the full breakdown</a> before planning around it.</p>"
+    },
+    {
+      "id": "benchmarks",
+      "heading": "How to read coding benchmarks without being misled",
+      "html": "<p>Coding benchmarks are the most-cited and least-understood numbers in AI. Four things worth knowing:</p><ul><li><strong>SWE-bench Verified measures issue resolution, not code quality.</strong> A model can pass by producing an ugly patch that satisfies the test. It tells you something real, but not whether you would merge the diff.</li><li><strong>Agentic indices measure recovery, not brilliance.</strong> Long-horizon scores mostly reflect whether a model notices it has gone wrong and backs out. That is a different skill from writing a good function, and it is the one that matters in unattended runs.</li><li><strong>Harness matters enormously.</strong> The same model scores differently depending on the scaffolding around it. Cross-lab comparisons using different harnesses are close to meaningless.</li><li><strong>Positions decay fast.</strong> Grok 4.5 launched on 8 July in fourth place on the Artificial Analysis Intelligence Index; by late July, with Kimi K3 and GPT-5.6 Sol landing, the same model sat sixth without getting any worse.</li></ul><p>The practical version: use benchmarks to rule out models that are clearly behind, then test the remaining two or three on your own codebase for a week. Your repository is the only benchmark that matches your workload.</p>"
+    },
+    {
+      "id": "skill",
+      "heading": "The part the model doesn't do",
+      "html": "<p>Every model on this list writes code faster than you can read it. That inverts where the bottleneck sits, and most developers have not adjusted: the constraint is no longer typing, it is <em>reviewing</em>.</p><p>The skills that actually separate people getting value from AI coding tools from people generating expensive technical debt:</p><ul><li><strong>Specifying well.</strong> Naming the constraints, the edge cases, and the interfaces up front. Vague prompts produce plausible code that solves a slightly different problem — the most expensive failure mode there is.</li><li><strong>Reviewing adversarially.</strong> Reading generated code looking for what is wrong rather than checking that it looks reasonable. Agreeable-looking code is exactly what these models are best at producing.</li><li><strong>Knowing when not to.</strong> Some problems are faster to solve directly than to specify precisely enough for a model to get right.</li><li><strong>Verifying behaviour, not appearance.</strong> Running it, testing edge cases, checking the failure paths — the parts a confident-sounding explanation can paper over.</li></ul><p>None of that changes when the leaderboard reshuffles next month. That is the argument for treating AI as a skill you practise deliberately rather than a tool you simply adopt.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "What is the best AI model for coding in 2026?",
+      "a": "There is no single winner. Claude Opus 5 leads Artificial Analysis's Agentic Index at 55.3 and is the best all-round default at $5/$25 per million tokens. GPT-5.6 Sol leads raw coding capability with 96.2% on SWE-bench Verified and tops the Coding Agent Index at 80. Grok 4.5 wins on cost and speed at $2/$6."
+    },
+    {
+      "q": "Is Claude or GPT better for coding?",
+      "a": "They lead on different measures as of late July 2026. Claude Opus 5 tops the Agentic Index (55.3 vs GPT-5.6 Sol's 54.0), while GPT-5.6 Sol leads SWE-bench Verified (96.2% vs Claude Fable 5's 95.0%) and the Coding Agent Index. The gaps are small enough that prompt quality and code review matter more than the choice."
+    },
+    {
+      "q": "What is the cheapest good AI model for coding?",
+      "a": "Grok 4.5 at $2 per million input tokens and $6 per million output, which also reportedly uses 3–4x fewer tokens per task than pricier rivals — compounding the saving on long runs. It scores 83.3% on Terminal-Bench 2.1, behind the leaders but well within useful range for routine work."
+    },
+    {
+      "q": "Is choosing an AI model different from choosing an AI coding tool?",
+      "a": "Yes, and they are independent decisions. Tools like Cursor and Copilot provide the editor workflow, and most now let you select which underlying model runs. Pick the tool for how it fits your workflow and the model for its strengths; you can change either without changing the other."
+    },
+    {
+      "q": "Do AI coding benchmarks reflect real-world performance?",
+      "a": "Only partially. SWE-bench Verified measures whether an issue gets resolved, not whether the resulting code is well-written. Agentic indices largely measure error recovery over long runs. Scores also shift with the harness used. The practical approach is to use benchmarks to shortlist two or three models, then test them on your own repository."
+    }
+  ],
+  "readNext": [
+    {
+      "href": "/blog/best-ai-coding-tools",
+      "label": "The best AI coding tools"
+    },
+    {
+      "href": "/blog/new-ai-models-2026",
+      "label": "Every 2026 AI model release, tracked"
+    },
+    {
+      "href": "/blog/kimi-k3",
+      "label": "Kimi K3: the biggest open-weight model"
+    }
+  ],
+  "related": [
+    "/blog/best-ai-coding-tools",
+    "/blog/new-ai-models-2026",
+    "/blog/kimi-k3",
+    "/blog/claude-opus-5",
+    "/blog/gpt-5-6",
+    "/blog/grok-4-5",
+    "/quiz"
+  ]
+}
