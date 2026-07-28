@@ -9,7 +9,7 @@
     <description>Short, practical writing on AI fluency, prompting, AI tools, and the active-practice method that beats endless video courses.</description>
     <language>en-US</language>
     <atom:link href="https://tryiro.com/blog/rss.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Mon, 27 Jul 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 28 Jul 2026 00:00:00 GMT</lastBuildDate>
     <generator>tryiro.com</generator>
     <copyright>© 2026 Iro AI</copyright>
     <image>
@@ -664,6 +664,24 @@
       <dc:creator>Iro AI</dc:creator>
       <category>AI tools</category>
       <description>The best AI model for writing in 2026: Claude Fable 5 for prose, GPT-5.6 for ideation, and how to pick by genre — fiction, business writing, blogging, and editing.</description>
+    </item>
+    <item>
+      <title>What is MCP? The protocol quietly wiring AI into everything</title>
+      <link>https://tryiro.com/blog/what-is-mcp</link>
+      <guid isPermaLink="true">https://tryiro.com/blog/what-is-mcp</guid>
+      <pubDate>Tue, 28 Jul 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Iro AI</dc:creator>
+      <category>AI agents</category>
+      <description>MCP (Model Context Protocol) explained in plain terms: what it does, why 400M monthly SDK downloads matter, and what the 2026-07-28 stateless-core spec release changes.</description>
+    </item>
+    <item>
+      <title>AI student discounts in 2026: what's actually free (and what isn't)</title>
+      <link>https://tryiro.com/blog/ai-student-discounts</link>
+      <guid isPermaLink="true">https://tryiro.com/blog/ai-student-discounts</guid>
+      <pubDate>Tue, 28 Jul 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Iro AI</dc:creator>
+      <category>AI tools</category>
+      <description>Every AI student discount that actually exists in 2026: Gemini's 12 months free, GitHub Copilot for students, and why ChatGPT and Claude offer students nothing.</description>
     </item>
   </channel>
 </rss>

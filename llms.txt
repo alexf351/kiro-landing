@@ -55,6 +55,8 @@ This direct-answer summary is also available to crawlers in homepage JSON-LD, /i
 ## Blog
 
 - [Blog index](https://tryiro.com/blog): practical writing on AI fluency, prompting, AI tools.
+- [What is MCP?](https://tryiro.com/blog/what-is-mcp): the Model Context Protocol explained, and what the 2026-07-28 stateless-core release changes.
+- [AI student discounts in 2026](https://tryiro.com/blog/ai-student-discounts): what's actually free for students — Gemini's 12 months, Copilot, and the tools offering nothing.
 - [Which AI model should you use for coding?](https://tryiro.com/blog/best-ai-model-for-coding): Opus 5, GPT-5.6 Sol, Fable 5, Grok 4.5 and Kimi K3 ranked by workflow.
 - [The best AI model for writing](https://tryiro.com/blog/best-ai-model-for-writing): Fable 5 for prose, GPT-5.6 for ideas — and why input beats model choice.
 - [Kimi K3: the biggest open-weight model yet](https://tryiro.com/blog/kimi-k3): Moonshot AI's 2.8T open-weight model — specs, pricing, and the hardware reality of running it.
@@ -184,7 +186,7 @@ This direct-answer summary is also available to crawlers in homepage JSON-LD, /i
 - [News sitemap](https://tryiro.com/news-sitemap.xml): changelog entries.
 - [Markdown mirrors](https://tryiro.com/llms/index.md): clean text versions of homepage and every topic / hub page under `/llms/*.md`.
 
-Last updated: 2026-07-27.
+Last updated: 2026-07-28.
 
 <!-- PATHLIB:START -->
 ## Iro path library (learn by doing)

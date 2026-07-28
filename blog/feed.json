@@ -867,6 +867,30 @@
         "writing",
         "AI models"
       ]
+    },
+    {
+      "id": "https://tryiro.com/blog/what-is-mcp",
+      "url": "https://tryiro.com/blog/what-is-mcp",
+      "title": "What is MCP? The protocol quietly wiring AI into everything",
+      "summary": "Model Context Protocol passed 400 million monthly SDK downloads and shipped its biggest spec update yet today. Here's what it actually is, in plain terms.",
+      "date_published": "2026-07-28T00:00:00Z",
+      "tags": [
+        "AI agents",
+        "MCP",
+        "AI tools"
+      ]
+    },
+    {
+      "id": "https://tryiro.com/blog/ai-student-discounts",
+      "url": "https://tryiro.com/blog/ai-student-discounts",
+      "title": "AI student discounts in 2026: what's actually free (and what isn't)",
+      "summary": "Gemini gives verified students a year of Pro free. ChatGPT and Claude give students nothing. Here's the honest list — and why that matters less than it sounds.",
+      "date_published": "2026-07-28T00:00:00Z",
+      "tags": [
+        "AI tools",
+        "students",
+        "free AI"
+      ]
     }
   ]
 }

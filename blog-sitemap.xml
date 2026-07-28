@@ -771,4 +771,24 @@
       <image:title>The best AI model for writing in 2026 (by what you're writing)</image:title>
     </image:image>
   </url>
+  <url>
+    <loc>https://tryiro.com/blog/what-is-mcp</loc>
+    <lastmod>2026-07-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://tryiro.com/assets/og/what-is-mcp.png</image:loc>
+      <image:title>What is MCP? The protocol quietly wiring AI into everything</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://tryiro.com/blog/ai-student-discounts</loc>
+    <lastmod>2026-07-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://tryiro.com/assets/og/ai-student-discounts.png</image:loc>
+      <image:title>AI student discounts in 2026: what's actually free (and what isn't)</image:title>
+    </image:image>
+  </url>
 </urlset>

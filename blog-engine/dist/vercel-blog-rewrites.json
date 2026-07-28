@@ -307,6 +307,14 @@
     {
       "source": "/blog/best-ai-model-for-writing",
       "destination": "/blog/best-ai-model-for-writing.html"
+    },
+    {
+      "source": "/blog/what-is-mcp",
+      "destination": "/blog/what-is-mcp.html"
+    },
+    {
+      "source": "/blog/ai-student-discounts",
+      "destination": "/blog/ai-student-discounts.html"
     }
   ]
 }
