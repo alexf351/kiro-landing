@@ -23,7 +23,7 @@ directory — the whole list is still available.)
 - **App Store:** https://apps.apple.com/app/id6759628066
 - **Category:** AI / Education / Productivity / EdTech / Learning app
 - **Founder:** Alex Furukawa — https://www.linkedin.com/in/alex-furukawa · https://x.com/tryiroapp
-- **Pricing:** Free to start. Pro $9.99/week or $59.99 a year (7-day free trial).
+- **Pricing:** Free to start. Pro $9.99/week or $49.99 a year (7-day free trial).
 - **Platforms:** iOS now; runs in any browser at app.tryiro.com; Android in development.
 
 **Tagline (≤10 words):**

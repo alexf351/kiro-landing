@@ -27,7 +27,7 @@ its exact topic.
   **app.tryiro.com**. NEVER claim there is an Android app. NEVER touch/expand
   Android messaging beyond "in development + waitlist."
 - **Pricing:** Free to start (starter lessons + a taste of everything). Pro is
-  **$59.99 a year** (~$1.15/week) with a **7-day free trial**, or
+  **$49.99 a year** (~$0.96/week) with a **7-day free trial**, or
   **$9.99/week**. Cancel anytime. Pro unlocks every lesson/path, unlimited
   Custom Paths, unlimited Ask Iro, full prompt library, certificates.
 - **"Free" rule:** You MAY call the iOS app "free to start" / "Download Iro

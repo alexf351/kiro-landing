@@ -45,7 +45,7 @@ Yes. Iro's beginner path assumes zero prior AI experience.
 About 5 minutes a session. Most people use it once a day.
 
 **Is it really free?**  
-Yes — you can learn for free with a hearts system, similar to Duolingo: hearts let you keep practicing and refill over time. Pro from $1.15/week ($59.99 a year with 7-day free trial, or Weekly $9.99/week) removes the limits and unlocks the full library and Prompt Lab.
+Yes — you can learn for free with a hearts system, similar to Duolingo: hearts let you keep practicing and refill over time. Pro from $0.96/week ($49.99 a year with 7-day free trial, or Weekly $9.99/week) removes the limits and unlocks the full library and Prompt Lab.
 
 **Will it make me feel dumb?**  
 No. The tone is encouraging and the difficulty ramps gradually. Mistakes turn into short feedback, not penalties.
