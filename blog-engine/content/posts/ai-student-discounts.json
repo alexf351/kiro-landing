@@ -1,0 +1,116 @@
+{
+  "slug": "ai-student-discounts",
+  "order": 74,
+  "pillar": "ai-tools",
+  "title": "AI student discounts in 2026: what's actually free (and what isn't)",
+  "lede": "Gemini gives verified students a year of Pro free. ChatGPT and Claude give students nothing. Here's the honest list — and why that matters less than it sounds.",
+  "keyTakeaways": [
+    "The biggest real offer: verified US college students get up to 12 months of Google AI Pro free — Gemini 3.1 Pro-level access, premium NotebookLM, and 2TB of storage — verified through SheerID.",
+    "ChatGPT has no student discount in 2026. The 2025 promotion ended and OpenAI has not replaced it.",
+    "Claude has no individual student discount either. Claude for Education is sold to universities, so most students have no institutional access.",
+    "GitHub Copilot is free for verified students, with unlimited completions and premium model access — the strongest offer if you write code."
+  ],
+  "description": "Every AI student discount that actually exists in 2026: Gemini's 12 months free, GitHub Copilot for students, and why ChatGPT and Claude offer students nothing.",
+  "keywords": [
+    "AI student discounts",
+    "ChatGPT student discount",
+    "Gemini student free",
+    "Claude student discount",
+    "free AI for students",
+    "GitHub Copilot student"
+  ],
+  "datePublished": "2026-07-28",
+  "dateModified": "2026-07-28",
+  "readingTime": 6,
+  "articleSection": "AI tools",
+  "feedCategory": "AI tools",
+  "feedTags": [
+    "AI tools",
+    "students",
+    "free AI"
+  ],
+  "inlineCtaAfter": 2,
+  "toc": [
+    {
+      "href": "#answer",
+      "label": "The short answer"
+    },
+    {
+      "href": "#list",
+      "label": "The verified list"
+    },
+    {
+      "href": "#free",
+      "label": "Why free tiers matter more"
+    },
+    {
+      "href": "#stack",
+      "label": "A student stack that costs $0"
+    }
+  ],
+  "sections": [
+    {
+      "id": "answer",
+      "heading": "The short answer",
+      "html": "<p><strong>Only two major AI student offers are genuinely worth claiming in 2026: Google gives verified US college students up to 12 months of AI Pro free, and GitHub Copilot is free for verified students.</strong> ChatGPT and Claude offer students nothing — no individual discount from either.</p><p>Before you feel short-changed by that: the free tiers of both improved substantially in 2026, and for the overwhelming majority of study work they are enough. The student-discount question turns out to matter much less than it looks.</p><p class=\"note\">Offers verified as of 28 July 2026. Student programmes change and lapse frequently — confirm on the provider's own page before planning around one.</p>"
+    },
+    {
+      "id": "list",
+      "heading": "The verified list",
+      "html": "<div class=\"cmp-wrap\"><table class=\"cmp-table\"><thead><tr><th>Tool</th><th>Student offer</th><th>What you get</th><th>Catch</th></tr></thead><tbody><tr><td><strong>Google Gemini</strong></td><td>Up to 12 months of AI Pro free</td><td>Gemini 3.1 Pro-level access, premium NotebookLM features, 2TB Google One storage</td><td>Verified US college students; verification runs through SheerID</td></tr><tr><td><strong>GitHub Copilot</strong></td><td>Free for verified students</td><td>Unlimited completions and premium model access via the Copilot Student plan</td><td>Requires student verification; most useful if you actually code</td></tr><tr><td><strong>ChatGPT</strong></td><td>None</td><td>—</td><td>The 2025 student promotion ended and has not been replaced</td></tr><tr><td><strong>Claude</strong></td><td>None for individuals</td><td>Claude for Education exists but is sold to universities</td><td>Only helps if your institution has bought it — most have not</td></tr></tbody></table></div><p>Gemini's offer is the outlier in value. Twelve months of a frontier-tier assistant plus 2TB of storage is a real amount of money, and NotebookLM in particular is genuinely well-suited to coursework — it grounds its answers in documents you upload, which is exactly the behaviour you want when working from lecture notes and set readings.</p>"
+    },
+    {
+      "id": "free",
+      "heading": "Why the free tiers matter more than the discounts",
+      "html": "<p>The interesting development of 2026 is not the discounts. It is that the free tiers got good enough that paying became optional for most student work.</p><ul><li><strong>ChatGPT's free tier</strong> now runs on GPT-5.5, which covers essay drafting, homework help, and explanation comfortably.</li><li><strong>Claude's free tier</strong> gained Projects, Artifacts, web search, file uploads, and memory in early 2026, running on Claude Sonnet 4.6. File uploads alone cover a lot of study workflow.</li><li><strong>Meta's Muse Spark</strong> is free outright, with no tier at all to upgrade to.</li></ul><p>Put bluntly: a student in 2026 who pays for nothing still has access to capabilities that were frontier-tier eighteen months ago. The honest advice is to exhaust the free tiers first and only pay when you hit a specific wall — usage limits during finals, or a feature you actually need — rather than subscribing because a discount made it feel cheap.</p>"
+    },
+    {
+      "id": "stack",
+      "heading": "A student stack that costs nothing",
+      "html": "<p>If you want a practical setup with no spend:</p><ul><li><strong>Claim the Gemini offer</strong> if you are a verified US college student. Twelve free months of a Pro tier is the single best-value thing on this list, and NotebookLM handles reading-heavy courses well.</li><li><strong>Claim Copilot</strong> if you write code. Free, unlimited completions, premium models.</li><li><strong>Use ChatGPT or Claude free</strong> for everything else, and get in the habit of running the same question through two of them. Where they disagree is where you should look closely — that habit teaches you more about AI reliability than any tutorial.</li><li><strong>Keep a document of prompts that worked.</strong> The reusable asset from all of this is not a subscription; it is knowing how to ask.</li></ul><p>One caution worth stating, because student AI use is where it bites hardest: none of these tools are reliable on facts, and the confident tone is not evidence. Anything going into graded work needs verification against a real source. The skill that separates students who benefit from AI from students who get burned by it is not tool access — it is knowing which outputs to trust and which to check.</p><p>That skill is also the one that transfers after graduation, when nobody is offering you a discount at all.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Is there a ChatGPT student discount in 2026?",
+      "a": "No. OpenAI ran a student promotion in 2025 but it ended and has not been replaced. Students can still use the free ChatGPT tier, which runs on GPT-5.5 and handles most studying, essay drafting, and homework help."
+    },
+    {
+      "q": "Do students get Gemini free?",
+      "a": "Yes — verified US college students get up to 12 months of Google AI Pro free, which includes Gemini 3.1 Pro-level access, premium NotebookLM features, and 2TB of Google One storage. Verification is handled through SheerID."
+    },
+    {
+      "q": "Is there a Claude student discount?",
+      "a": "Not for individuals. Anthropic offers Claude for Education, but it is sold to universities rather than to students directly, so it only helps if your institution has purchased it. Claude's free tier improved in early 2026 and now includes Projects, Artifacts, web search, file uploads, and memory."
+    },
+    {
+      "q": "What is the best free AI tool for students?",
+      "a": "For most coursework, the free tiers of ChatGPT and Claude are sufficient. If you qualify for Google's student offer, twelve months of AI Pro with NotebookLM is the strongest value available. For programming students, GitHub Copilot is free with student verification."
+    },
+    {
+      "q": "Should students pay for an AI subscription?",
+      "a": "Usually not straight away. The 2026 free tiers cover the majority of study work, so the sensible approach is to exhaust them first and pay only when you hit a specific limit — usage caps during exam periods, or a feature you genuinely need — rather than subscribing because a discount made it seem cheap."
+    }
+  ],
+  "readNext": [
+    {
+      "href": "/blog/best-ai-tools-for-students",
+      "label": "The best AI tools for students"
+    },
+    {
+      "href": "/blog/best-free-ai-tools-2026",
+      "label": "The best free AI tools"
+    },
+    {
+      "href": "/ai-for-students",
+      "label": "AI for students"
+    }
+  ],
+  "related": [
+    "/blog/best-ai-tools-for-students",
+    "/blog/best-free-ai-tools-2026",
+    "/ai-for-students",
+    "/blog/new-ai-models-2026",
+    "/quiz"
+  ]
+}
