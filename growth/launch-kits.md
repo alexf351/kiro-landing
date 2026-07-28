@@ -84,7 +84,7 @@ Freemium. Platforms: iOS, Web.
 - **Category:** AI learning / education
 - **One-liner:** `Learn AI the fun way — 5-minute gamified lessons.`
 - **Description:** Short description from the asset block (≤160 chars).
-- **Pricing:** Freemium — free with hearts; Pro $59.99/yr, 7-day trial.
+- **Pricing:** Freemium — free with hearts; Pro $49.99/yr, 7-day trial.
 - **Tags:** learn AI, prompt engineering, ChatGPT, gamified learning, education
 
 ## 4. Listicle outreach targets (researched 2026-07-21)

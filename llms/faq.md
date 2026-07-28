@@ -45,7 +45,7 @@ Yes. You can use Iro for free with a hearts system, similar to Duolingo. Hearts 
 
 ### What does Iro AI cost?
 
-Pro Annual is $59.99 a year (about $1.15/week) and includes a 7-day free trial. Pro Weekly is $9.99/week with no trial. Both are billed via the Apple App Store. The annual plan saves about 88% versus weekly ($59.99 vs ~$519.48 over a year). Cancel anytime.
+Pro Annual is $49.99 a year (about $0.96/week) and includes a 7-day free trial. Pro Weekly is $9.99/week with no trial. Both are billed via the Apple App Store. The annual plan saves about 90% versus weekly ($49.99 vs ~$519.48 over a year). Cancel anytime.
 
 ### Can I cancel anytime?
 
