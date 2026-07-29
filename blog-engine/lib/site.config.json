@@ -7,9 +7,24 @@
     "name": "Alex Furukawa",
     "jobTitle": "Founder of Iro AI",
     "url": "https://tryiro.com/about",
-    "sameAs": ["https://www.linkedin.com/in/alex-furukawa", "https://x.com/tryiroapp"],
-    "knowsAbout": ["Artificial intelligence", "Prompt engineering", "ChatGPT", "Claude", "Google Gemini", "Perplexity AI", "AI agents", "AI automation", "Generative AI", "AI literacy", "AI education"],
-    "bio": "Alex Furukawa is the founder of Iro AI, the gamified app for learning to use AI well. He writes about practical AI fluency — prompting, AI tools, and the daily habits that turn AI from a novelty into real leverage."
+    "sameAs": [
+      "https://www.linkedin.com/in/alex-furukawa",
+      "https://x.com/tryiroapp"
+    ],
+    "knowsAbout": [
+      "Artificial intelligence",
+      "Prompt engineering",
+      "ChatGPT",
+      "Claude",
+      "Google Gemini",
+      "Perplexity AI",
+      "AI agents",
+      "AI automation",
+      "Generative AI",
+      "AI literacy",
+      "AI education"
+    ],
+    "bio": "Alex Furukawa is the founder of Iro AI, the gamified app for learning to use AI well. He writes about practical AI fluency: prompting, AI tools, and the daily habits that turn AI from a novelty into real leverage."
   },
   "copyright": "© 2026 Iro AI",
   "twitterSite": "@tryiroapp",
@@ -27,22 +42,73 @@
     "brand": "/assets/kiro-app-icon-256.png"
   },
   "nav": [
-    { "href": "/learn-chatgpt", "label": "Learn ChatGPT" },
-    { "href": "/prompt-engineering-app", "label": "Prompt Engineering" },
-    { "href": "/ai-agents-course", "label": "AI Agents" },
-    { "href": "/quiz", "label": "AI IQ Test" },
-    { "href": "/about", "label": "About" }
+    {
+      "href": "/learn-chatgpt",
+      "label": "Learn ChatGPT"
+    },
+    {
+      "href": "/prompt-engineering-app",
+      "label": "Prompt Engineering"
+    },
+    {
+      "href": "/ai-agents-course",
+      "label": "AI Agents"
+    },
+    {
+      "href": "/quiz",
+      "label": "AI IQ Test"
+    },
+    {
+      "href": "/about",
+      "label": "About"
+    }
   ],
   "footer": [
-    { "href": "/privacy", "label": "Privacy", "external": false },
-    { "href": "/terms", "label": "Terms", "external": false },
-    { "href": "/blog", "label": "Blog", "external": false },
-    { "href": "https://instagram.com/tryiro", "label": "Instagram", "external": true },
-    { "href": "https://www.tiktok.com/@tryiro", "label": "TikTok", "external": true },
-    { "href": "https://www.youtube.com/@tryiroai", "label": "YouTube", "external": true },
-    { "href": "https://x.com/tryiroapp", "label": "X", "external": true },
-    { "href": "https://www.linkedin.com/company/iro-ai-app/", "label": "LinkedIn", "external": true },
-    { "href": "https://www.facebook.com/people/Iro-AI-Learn-AI-Skills/61589434050207/", "label": "Facebook", "external": true }
+    {
+      "href": "/privacy",
+      "label": "Privacy",
+      "external": false
+    },
+    {
+      "href": "/terms",
+      "label": "Terms",
+      "external": false
+    },
+    {
+      "href": "/blog",
+      "label": "Blog",
+      "external": false
+    },
+    {
+      "href": "https://instagram.com/tryiro",
+      "label": "Instagram",
+      "external": true
+    },
+    {
+      "href": "https://www.tiktok.com/@tryiro",
+      "label": "TikTok",
+      "external": true
+    },
+    {
+      "href": "https://www.youtube.com/@tryiroai",
+      "label": "YouTube",
+      "external": true
+    },
+    {
+      "href": "https://x.com/tryiroapp",
+      "label": "X",
+      "external": true
+    },
+    {
+      "href": "https://www.linkedin.com/company/iro-ai-app/",
+      "label": "LinkedIn",
+      "external": true
+    },
+    {
+      "href": "https://www.facebook.com/people/Iro-AI-Learn-AI-Skills/61589434050207/",
+      "label": "Facebook",
+      "external": true
+    }
   ],
   "cta": {
     "heading": "Practice this, don't just read it.",

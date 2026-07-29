@@ -95,4 +95,4 @@ No. AI is reshaping work by automating tasks within jobs, but most roles also re
 
 ## About the author
 
-Alex Furukawa — Founder of Iro AI. Alex Furukawa is the founder of Iro AI, the gamified app for learning to use AI well. He writes about practical AI fluency — prompting, AI tools, and the daily habits that turn AI from a novelty into real leverage.
+Alex Furukawa — Founder of Iro AI. Alex Furukawa is the founder of Iro AI, the gamified app for learning to use AI well. He writes about practical AI fluency: prompting, AI tools, and the daily habits that turn AI from a novelty into real leverage.

@@ -7,7 +7,7 @@ app_store: "https://apps.apple.com/app/id6759628066"
 language: en-US
 keywords: ["Iro AI vs Learnova", "Learnova alternative", "Learnova review", "AI Tools Mastery app", "best AI learning app 2026"]
 date_published: "2026-05-31"
-date_modified: "2026-06-20"
+date_modified: "2026-07-29"
 reading_time_minutes: 7
 author: "Alex Furukawa"
 license: "© 2026 Iro AI"
@@ -17,11 +17,11 @@ pillar: "ai-fluency"
 
 # Iro AI vs Learnova: which AI learning app should you pick in 2026?
 
-> Two mobile apps that teach you AI tools — but one has you reading lessons and one has you practicing. Here's how to choose.
+> Two mobile apps that teach you AI tools, but one has you reading lessons and one has you practicing. Here's how to choose.
 
 **Canonical:** https://tryiro.com/blog/iro-ai-vs-learnova
 **Published:** 2026-05-31
-**Updated:** 2026-06-20
+**Updated:** 2026-07-29
 **Reading time:** ~7 min
 **Author:** Alex Furukawa — Founder of Iro AI
 
@@ -40,19 +40,19 @@ The quick version, before the detail:
 
 Learnova breaks AI tools down into clear, step-by-step lessons and pairs them with interactive quizzes and a hands-on playground where you can try what you just learned. It also offers a categorized prompt library, which is a nice touch for beginners who want examples to copy and adapt.
 
-If you like the structure of a proper course — modules, a logical order, a free tier to sample before paying — Learnova delivers that cleanly, and the in-app playground means you're not only reading.
+If you like the structure of a proper course (modules, a logical order, a free tier to sample before paying) Learnova delivers that cleanly, and the in-app playground means you're not only reading.
 
 ## Where Iro AI is different
 
-Learnova and Iro AI agree that practice matters — the difference is emphasis. Learnova is a course with practice attached; Iro AI is practice with just enough teaching attached. Iro is built like a game: short drills, instant feedback, streaks, and rank tiers that pull you back day after day until the skill is automatic.
+Learnova and Iro AI agree that practice matters. The difference is emphasis. Learnova is a course with practice attached; Iro AI is practice with just enough teaching attached. Iro is built like a game: short drills, instant feedback, streaks, and rank tiers that pull you back day after day until the skill is automatic.
 
-Everything is organized into focused paths — [ChatGPT](/learn-chatgpt), [Claude](/learn-claude), [Gemini](/learn-gemini), and more — and you can start with the [free AI IQ test](/quiz) to find your weak spots first. If you're brand new, the [30-day AI plan](/blog/ai-for-beginners-30-day-plan) is the place to begin.
+Everything is organized into focused paths, [ChatGPT](/learn-chatgpt), [Claude](/learn-claude), [Gemini](/learn-gemini), and more, and you can start with the [free AI IQ test](/quiz) to find your weak spots first. If you're brand new, the [30-day AI plan](/blog/ai-for-beginners-30-day-plan) is the place to begin.
 
 ## Pricing, honestly
 
 Both apps let you start without paying, which is the right way to do it.
 
-**Learnova** uses a tiered model: a free basic plan with limited access, plus premium subscriptions that unlock the full content and tools. That's a fair structure — just check exactly what the free tier includes and what the premium plan renews at.
+**Learnova** uses a tiered model: a free basic plan with limited access, plus premium subscriptions that unlock the full content and tools. That's a fair structure. Just check exactly what the free tier includes and what the premium plan renews at.
 
 **Iro AI** keeps it to one number: Pro is **$49.99 a year** (about **$0.96/week**) with a **7-day free trial**, on top of the always-free AI IQ test. One plan, one renewal, easy to reason about.
 
@@ -73,7 +73,7 @@ Yes. Learnova is a course-style app with quizzes and a playground, while Iro AI 
 
 **How much does Learnova cost vs Iro AI?**
 
-Learnova uses a tiered model — a free basic plan plus premium subscriptions; check current terms for exact prices. Iro AI Pro is $49.99 a year (about $0.96/week) with a 7-day free trial, plus a free AI IQ test.
+Learnova uses a tiered model, a free basic plan plus premium subscriptions; check current terms for exact prices. Iro AI Pro is $49.99 a year (about $0.96/week) with a 7-day free trial, plus a free AI IQ test.
 
 **Do both apps have a free version?**
 
@@ -81,7 +81,7 @@ Yes. Learnova offers a limited free basic tier, and Iro AI offers a free AI IQ t
 
 **Which app helps AI skills stick better?**
 
-Skills stick through repeated active recall, not passive reading. Iro AI is designed around that — short drills, instant feedback, streaks, and rank tiers — whereas course-style apps lean more on lessons. Try both free tiers and see which keeps you coming back.
+Skills stick through repeated active recall, not passive reading. Iro AI is designed around that (short drills, instant feedback, streaks, and rank tiers) whereas course-style apps lean more on lessons. Try both free tiers and see which keeps you coming back.
 
 **Is there a free alternative to Learnova for learning AI?**
 
@@ -96,4 +96,4 @@ Yes. Iro AI is free to start, so you can build a daily habit before deciding to 
 
 ## About the author
 
-Alex Furukawa — Founder of Iro AI. Alex Furukawa is the founder of Iro AI, the gamified app for learning to use AI well. He writes about practical AI fluency — prompting, AI tools, and the daily habits that turn AI from a novelty into real leverage.
+Alex Furukawa — Founder of Iro AI. Alex Furukawa is the founder of Iro AI, the gamified app for learning to use AI well. He writes about practical AI fluency: prompting, AI tools, and the daily habits that turn AI from a novelty into real leverage.
