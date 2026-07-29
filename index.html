@@ -337,8 +337,13 @@ nav .wrap{display:flex;align-items:center;justify-content:space-between}
 
 /* ---------- premium device frame ---------- */
 .device{
-  position:relative;width:var(--dev-w,300px);aspect-ratio:9/19.6;flex-shrink:0;
-  border-radius:13.5% / 6.2%;padding:2.6%;overflow:hidden;
+  /* The .screen sets the ratio (see below) and the frame sizes to it, so the
+     bezel is even and screenshots are never cropped. Don't put an
+     aspect-ratio back on .device: percentage padding resolves against the
+     PARENT's width, so a fixed frame ratio produced a different inner ratio
+     in every context and object-fit:cover sliced the sides off. */
+  position:relative;width:var(--dev-w,300px);flex-shrink:0;
+  border-radius:13.5% / 6.4%;padding:2.6%;overflow:hidden;
   background:linear-gradient(150deg,#23293a,#0c0f18 40%,#070910 70%,#1a1f2c);
   box-shadow:
     0 0 0 1px rgba(255,255,255,.06),
@@ -346,9 +351,9 @@ nav .wrap{display:flex;align-items:center;justify-content:space-between}
     0 40px 80px rgba(0,0,0,.6),
     0 0 70px rgba(var(--accent-rgb),.14);
 }
-.device .screen{position:relative;width:100%;height:100%;border-radius:11% / 5.3%;overflow:hidden;transform:translateZ(0);isolation:isolate;
+.device .screen{position:relative;width:100%;height:auto;aspect-ratio:1290/2796;border-radius:11% / 5.3%;overflow:hidden;transform:translateZ(0);isolation:isolate;
   background:#05070d;box-shadow:0 0 0 1px rgba(0,0,0,.8) inset}
-.device .screen img{width:100%;height:100%;object-fit:cover;object-position:top center}
+.device .screen img{display:block;width:100%;height:100%;object-fit:cover;object-position:top center}
 .device .island{position:absolute;top:2.6%;left:50%;transform:translateX(-50%);
   width:30%;height:3.1%;min-height:14px;background:#000;border-radius:100px;z-index:3}
 .device .glare{position:absolute;inset:0;z-index:2;pointer-events:none;
@@ -371,28 +376,40 @@ nav .wrap{display:flex;align-items:center;justify-content:space-between}
 .ia{max-width:1060px;margin:0 auto;display:grid;grid-template-columns:auto 1fr;gap:clamp(36px,5vw,72px);align-items:center}
 .ia-left{display:flex;flex-direction:column;align-items:center;gap:20px}
 .ia-right{display:flex;flex-direction:column}
-/* Stacked-phone slides: one dominant center phone, two angled phones tucked
-   behind — the whole composition slides as one unit between screens. */
+/* Phone conveyor: a dominant centre phone with the previous and next screens
+   angled behind it. Advancing shifts each screenshot one phone toward the
+   centre rather than swapping the whole composition. */
 .ia-stackvp{position:relative;width:clamp(310px,38vw,480px);max-width:100%;aspect-ratio:var(--vp-ar,100/121);
   isolation:isolate;touch-action:pan-y}
 .ia-stackvp::before{content:'';position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);
   width:92%;aspect-ratio:1;border-radius:50%;z-index:0;pointer-events:none;
   background:radial-gradient(circle,rgba(var(--accent-rgb),.13),transparent 64%)}
-.ia-slide{position:absolute;inset:0;opacity:0;pointer-events:none;
-  transform:translateX(7%) scale(.98); /* % of the slide, so parked slides never poke past the viewport on small screens */
-  transition:transform .5s var(--ease),opacity .4s var(--ease)}
-.ia-slide.pos-l{transform:translateX(-7%) scale(.98)}
-.ia-slide.on{opacity:1;transform:none;pointer-events:auto}
-.ia-slide img{-webkit-user-drag:none;user-select:none}
-.ia-ph{position:absolute}
-.ia-ph-c{width:54%;left:50%;top:0;margin-left:-27%;z-index:2;
+/* Conveyor, not a deck of stacks: five phones sit in slots -2..2 and each
+   screenshot travels through them. Advancing shifts every phone one slot
+   toward the centre, so the phone on the right becomes the centre phone —
+   the side phones are genuinely the previous and next screens. */
+.ia-stackvp{--ph-w:54%;--ph-off:51%;--ph-scale:.78;--ph-rot:8deg}
+.ia-ph{position:absolute;top:0;left:50%;width:var(--ph-w);transform-origin:50% 50%;
+  pointer-events:none; /* gestures are handled on #iaStack; the staging phones sit
+                          outside its box and would otherwise eat the arrow clicks */
+  box-shadow:0 0 0 1px rgba(255,255,255,.05),0 26px 50px rgba(0,0,0,.55);
+  transition:transform .55s var(--ease),opacity .45s var(--ease),filter .45s var(--ease);
+  will-change:transform}
+.ia-ph img{-webkit-user-drag:none;user-select:none}
+.ia-ph[data-slot="0"]{z-index:4;opacity:1;filter:none;
+  transform:translateX(-50%) scale(1);
   box-shadow:0 0 0 1px rgba(255,255,255,.07),0 2px 2px rgba(255,255,255,.12) inset,0 34px 70px rgba(0,0,0,.62),0 0 70px rgba(var(--accent-rgb),.18)}
-.ia-ph-l,.ia-ph-r{width:42%;top:8.5%;z-index:1;filter:brightness(.66) saturate(.92);
-  box-shadow:0 0 0 1px rgba(255,255,255,.05),0 26px 50px rgba(0,0,0,.55)}
-.ia-ph-l{left:1.5%;transform:rotate(-8deg)}
-.ia-ph-r{right:1.5%;transform:rotate(8deg)}
+.ia-ph[data-slot="-1"],.ia-ph[data-slot="1"]{z-index:3;opacity:1;filter:brightness(.66) saturate(.92)}
+.ia-ph[data-slot="-1"]{transform:translateX(-50%) translateX(calc(-1*var(--ph-off))) scale(var(--ph-scale)) rotate(calc(-1*var(--ph-rot)))}
+.ia-ph[data-slot="1"]{transform:translateX(-50%) translateX(var(--ph-off)) scale(var(--ph-scale)) rotate(var(--ph-rot))}
+/* slots +/-2 are the staging area: invisible, so a phone can be re-imaged there
+   without a flash before it rotates into view */
+.ia-ph[data-slot="-2"],.ia-ph[data-slot="2"]{z-index:2;opacity:0;filter:brightness(.5)}
+.ia-ph[data-slot="-2"]{transform:translateX(-50%) translateX(calc(-2*var(--ph-off))) scale(.62) rotate(calc(-1.4*var(--ph-rot)))}
+.ia-ph[data-slot="2"]{transform:translateX(-50%) translateX(calc(2*var(--ph-off))) scale(.62) rotate(calc(1.4*var(--ph-rot)))}
+.ia-ph.no-anim{transition:none}
 @media(prefers-reduced-motion:reduce){
-  .ia-slide,.ia-slide.pos-l{transform:none;transition:opacity .3s ease}
+  .ia-ph{transition:opacity .3s ease}
 }
 
 .ia-nav{display:flex;align-items:center;gap:16px}
@@ -448,12 +465,8 @@ nav .wrap{display:flex;align-items:center;justify-content:space-between}
 }
 @media(max-width:480px){
   /* keep the center phone large; side phones tuck in behind so nothing overflows */
-  .ia-stackvp{width:min(86vw,390px);--vp-ar:100/128}
-  .ia-ph-c{width:58%;margin-left:-29%}
-  .ia-ph-l,.ia-ph-r{width:38%;top:10%}
-  /* 4%: the rotated bounding box overhangs ~3.3% past the box edge */
-  .ia-ph-l{left:4%}
-  .ia-ph-r{right:4%}
+  .ia-stackvp{width:min(86vw,390px);--vp-ar:100/128;
+    --ph-w:58%;--ph-off:45%;--ph-scale:.72} /* tighter offset so the rotated side phones stay inside */
   .ia-arrow{width:44px;height:44px}
   .ia-arrow svg{width:20px;height:20px}
   .ia-stage{gap:6px}
@@ -1431,7 +1444,7 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
           <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M16.36 1.43c.04 1.06-.36 2.08-1.04 2.84-.72.81-1.9 1.44-3.03 1.35-.05-1.04.4-2.09 1.06-2.79.74-.81 1.99-1.4 3.01-1.4zM20.6 17.2c-.55 1.27-.82 1.84-1.53 2.96-.99 1.57-2.39 3.52-4.12 3.53-1.54.02-1.94-1-4.03-.99-2.09.01-2.53 1.01-4.07.99-1.73-.02-3.05-1.78-4.04-3.34C-.06 16.1-.35 10.97 1.36 8.24c1.2-1.94 3.1-3.08 4.89-3.08 1.82 0 2.97 1 4.48 1 1.46 0 2.35-1 4.46-1 1.59 0 3.28.87 4.48 2.37-3.94 2.16-3.3 7.79.93 9.67z"/></svg>
           <span class="btn-stack"><small>Download on the</small><b>App Store</b></span>
         </a>
-        <a class="btn btn-ghost btn-lg" href="/quiz.html">Take the free AI rank quiz</a>
+        <a class="btn btn-ghost btn-lg" href="/quiz.html">Take the AI rank quiz</a>
       </div>
       <div class="hero-trust">
         <span class="stars">★★★★★</span>
@@ -1480,56 +1493,11 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
         <div class="ia-stage">
           <button class="ia-arrow ia-side" id="iaPrev" aria-label="Previous screen"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg></button>
           <div class="ia-stackvp" id="iaStack">
-            <div class="ia-slide on">
-              <div class="device ia-ph ia-ph-l"><div class="screen"><img src="assets/screens/ask-iro.webp" alt="" loading="lazy" decoding="async" onerror="if(/\.webp$/.test(this.src))this.src=this.src.replace('.webp','.jpg')"/></div><div class="glare"></div></div>
-              <div class="device ia-ph ia-ph-r"><div class="screen"><img src="assets/screens/operator-build.webp" alt="" loading="lazy" decoding="async" onerror="if(/\.webp$/.test(this.src))this.src=this.src.replace('.webp','.jpg')"/></div><div class="glare"></div></div>
-              <div class="device ia-ph ia-ph-c"><div class="island"></div><div class="screen"><img src="assets/screens/learning-path.webp" alt="Iro app — daily lesson path with chests and quests" loading="lazy" decoding="async" onerror="if(/\.webp$/.test(this.src))this.src=this.src.replace('.webp','.jpg')"/></div><div class="glare"></div></div>
-            </div>
-            <div class="ia-slide">
-              <div class="device ia-ph ia-ph-l"><div class="screen"><img src="assets/screens/learning-path.webp" alt="" loading="lazy" decoding="async" onerror="if(/\.webp$/.test(this.src))this.src=this.src.replace('.webp','.jpg')"/></div><div class="glare"></div></div>
-              <div class="device ia-ph ia-ph-r"><div class="screen"><img src="assets/screens/create-path.webp" alt="" loading="lazy" decoding="async" onerror="if(/\.webp$/.test(this.src))this.src=this.src.replace('.webp','.jpg')"/></div><div class="glare"></div></div>
-              <div class="device ia-ph ia-ph-c"><div class="island"></div><div class="screen"><img src="assets/screens/path-list.webp" alt="Iro app — 20 learning paths including ChatGPT and Claude Mastery" loading="lazy" decoding="async" onerror="if(/\.webp$/.test(this.src))this.src=this.src.replace('.webp','.jpg')"/></div><div class="glare"></div></div>
-            </div>
-            <div class="ia-slide">
-              <div class="device ia-ph ia-ph-l"><div class="screen"><img src="assets/screens/prompt-library-refresh.webp" alt="" loading="lazy" decoding="async" onerror="if(/\.webp$/.test(this.src))this.src=this.src.replace('.webp','.jpg')"/></div><div class="glare"></div></div>
-              <div class="device ia-ph ia-ph-r"><div class="screen"><img src="assets/screens/news-refresh.webp" alt="" loading="lazy" decoding="async" onerror="if(/\.webp$/.test(this.src))this.src=this.src.replace('.webp','.jpg')"/></div><div class="glare"></div></div>
-              <div class="device ia-ph ia-ph-c"><div class="island"></div><div class="screen"><img src="assets/screens/prompt-builder.webp" alt="Iro app — hands-on prompt builder exercise" loading="lazy" decoding="async" onerror="if(/\.webp$/.test(this.src))this.src=this.src.replace('.webp','.jpg')"/></div><div class="glare"></div></div>
-            </div>
-            <div class="ia-slide">
-              <div class="device ia-ph ia-ph-l"><div class="screen"><img src="assets/screens/path-list.webp" alt="" loading="lazy" decoding="async" onerror="if(/\.webp$/.test(this.src))this.src=this.src.replace('.webp','.jpg')"/></div><div class="glare"></div></div>
-              <div class="device ia-ph ia-ph-r"><div class="screen"><img src="assets/screens/learning-path.webp" alt="" loading="lazy" decoding="async" onerror="if(/\.webp$/.test(this.src))this.src=this.src.replace('.webp','.jpg')"/></div><div class="glare"></div></div>
-              <div class="device ia-ph ia-ph-c"><div class="island"></div><div class="screen"><img src="assets/screens/create-path.webp" alt="Iro app — create a custom AI learning path on any topic" loading="lazy" decoding="async" onerror="if(/\.webp$/.test(this.src))this.src=this.src.replace('.webp','.jpg')"/></div><div class="glare"></div></div>
-            </div>
-            <div class="ia-slide">
-              <div class="device ia-ph ia-ph-l"><div class="screen"><img src="assets/screens/duels-tab.webp" alt="" loading="lazy" decoding="async" onerror="if(/\.webp$/.test(this.src))this.src=this.src.replace('.webp','.jpg')"/></div><div class="glare"></div></div>
-              <div class="device ia-ph ia-ph-r"><div class="screen"><img src="assets/screens/rank-up.webp" alt="" loading="lazy" decoding="async" onerror="if(/\.webp$/.test(this.src))this.src=this.src.replace('.webp','.jpg')"/></div><div class="glare"></div></div>
-              <div class="device ia-ph ia-ph-c"><div class="island"></div><div class="screen"><img src="assets/screens/operator-build.webp" alt="Iro app — Operator Build skill profile with power level" loading="lazy" decoding="async" onerror="if(/\.webp$/.test(this.src))this.src=this.src.replace('.webp','.jpg')"/></div><div class="glare"></div></div>
-            </div>
-            <div class="ia-slide">
-              <div class="device ia-ph ia-ph-l"><div class="screen"><img src="assets/screens/rank-up.webp" alt="" loading="lazy" decoding="async" onerror="if(/\.webp$/.test(this.src))this.src=this.src.replace('.webp','.jpg')"/></div><div class="glare"></div></div>
-              <div class="device ia-ph ia-ph-r"><div class="screen"><img src="assets/screens/operator-build.webp" alt="" loading="lazy" decoding="async" onerror="if(/\.webp$/.test(this.src))this.src=this.src.replace('.webp','.jpg')"/></div><div class="glare"></div></div>
-              <div class="device ia-ph ia-ph-c"><div class="island"></div><div class="screen"><img src="assets/screens/duels-tab.webp" alt="Iro app — live AI duels arena" loading="lazy" decoding="async" onerror="if(/\.webp$/.test(this.src))this.src=this.src.replace('.webp','.jpg')"/></div><div class="glare"></div></div>
-            </div>
-            <div class="ia-slide">
-              <div class="device ia-ph ia-ph-l"><div class="screen"><img src="assets/screens/news-refresh.webp" alt="" loading="lazy" decoding="async" onerror="if(/\.webp$/.test(this.src))this.src=this.src.replace('.webp','.jpg')"/></div><div class="glare"></div></div>
-              <div class="device ia-ph ia-ph-r"><div class="screen"><img src="assets/screens/prompt-library-refresh.webp" alt="" loading="lazy" decoding="async" onerror="if(/\.webp$/.test(this.src))this.src=this.src.replace('.webp','.jpg')"/></div><div class="glare"></div></div>
-              <div class="device ia-ph ia-ph-c"><div class="island"></div><div class="screen"><img src="assets/screens/ask-iro.webp" alt="Iro app — Ask Iro AI coach chat" loading="lazy" decoding="async" onerror="if(/\.webp$/.test(this.src))this.src=this.src.replace('.webp','.jpg')"/></div><div class="glare"></div></div>
-            </div>
-            <div class="ia-slide">
-              <div class="device ia-ph ia-ph-l"><div class="screen"><img src="assets/screens/prompt-library-refresh.webp" alt="" loading="lazy" decoding="async" onerror="if(/\.webp$/.test(this.src))this.src=this.src.replace('.webp','.jpg')"/></div><div class="glare"></div></div>
-              <div class="device ia-ph ia-ph-r"><div class="screen"><img src="assets/screens/learning-path.webp" alt="" loading="lazy" decoding="async" onerror="if(/\.webp$/.test(this.src))this.src=this.src.replace('.webp','.jpg')"/></div><div class="glare"></div></div>
-              <div class="device ia-ph ia-ph-c"><div class="island"></div><div class="screen"><img src="assets/screens/news-refresh.webp" alt="Iro app — weekly AI news briefings with read-and-quiz exercises" loading="lazy" decoding="async" onerror="if(/\.webp$/.test(this.src))this.src=this.src.replace('.webp','.jpg')"/></div><div class="glare"></div></div>
-            </div>
-            <div class="ia-slide">
-              <div class="device ia-ph ia-ph-l"><div class="screen"><img src="assets/screens/operator-build.webp" alt="" loading="lazy" decoding="async" onerror="if(/\.webp$/.test(this.src))this.src=this.src.replace('.webp','.jpg')"/></div><div class="glare"></div></div>
-              <div class="device ia-ph ia-ph-r"><div class="screen"><img src="assets/screens/duels-tab.webp" alt="" loading="lazy" decoding="async" onerror="if(/\.webp$/.test(this.src))this.src=this.src.replace('.webp','.jpg')"/></div><div class="glare"></div></div>
-              <div class="device ia-ph ia-ph-c"><div class="island"></div><div class="screen"><img src="assets/screens/rank-up.webp" alt="Iro app — rank up screen where Iro evolves at a new rank" loading="lazy" decoding="async" onerror="if(/\.webp$/.test(this.src))this.src=this.src.replace('.webp','.jpg')"/></div><div class="glare"></div></div>
-            </div>
-            <div class="ia-slide">
-              <div class="device ia-ph ia-ph-l"><div class="screen"><img src="assets/screens/rank-up.webp" alt="" loading="lazy" decoding="async" onerror="if(/\.webp$/.test(this.src))this.src=this.src.replace('.webp','.jpg')"/></div><div class="glare"></div></div>
-              <div class="device ia-ph ia-ph-r"><div class="screen"><img src="assets/screens/path-list.webp" alt="" loading="lazy" decoding="async" onerror="if(/\.webp$/.test(this.src))this.src=this.src.replace('.webp','.jpg')"/></div><div class="glare"></div></div>
-              <div class="device ia-ph ia-ph-c"><div class="island"></div><div class="screen"><img src="assets/screens/certificate.webp" alt="Iro app — shareable AI certificate with credential ID" loading="lazy" decoding="async" onerror="if(/\.webp$/.test(this.src))this.src=this.src.replace('.webp','.jpg')"/></div><div class="glare"></div></div>
-            </div>
+            <div class="device ia-ph" data-slot="-2"><div class="island"></div><div class="screen"><img src="assets/screens/news-refresh.webp" alt="Iro app — weekly AI news briefings" loading="lazy" decoding="async" onerror="if(/\.webp$/.test(this.src))this.src=this.src.replace('.webp','.jpg')"/></div><div class="glare"></div></div>
+            <div class="device ia-ph" data-slot="-1"><div class="island"></div><div class="screen"><img src="assets/screens/certificate.webp" alt="Iro app — shareable AI certificate with credential ID" loading="lazy" decoding="async" onerror="if(/\.webp$/.test(this.src))this.src=this.src.replace('.webp','.jpg')"/></div><div class="glare"></div></div>
+            <div class="device ia-ph" data-slot="0"><div class="island"></div><div class="screen"><img src="assets/screens/learning-path.webp" alt="Iro app — daily lesson path with chests and quests" loading="lazy" decoding="async" onerror="if(/\.webp$/.test(this.src))this.src=this.src.replace('.webp','.jpg')"/></div><div class="glare"></div></div>
+            <div class="device ia-ph" data-slot="1"><div class="island"></div><div class="screen"><img src="assets/screens/path-list.webp" alt="Iro app — 20 learning paths including ChatGPT and Claude Mastery" loading="lazy" decoding="async" onerror="if(/\.webp$/.test(this.src))this.src=this.src.replace('.webp','.jpg')"/></div><div class="glare"></div></div>
+            <div class="device ia-ph" data-slot="2"><div class="island"></div><div class="screen"><img src="assets/screens/prompt-builder.webp" alt="Iro app — hands-on prompt builder exercise" loading="lazy" decoding="async" onerror="if(/\.webp$/.test(this.src))this.src=this.src.replace('.webp','.jpg')"/></div><div class="glare"></div></div>
           </div>
           <button class="ia-arrow ia-side" id="iaNext" aria-label="Next screen"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18l6-6-6-6"/></svg></button>
         </div>
@@ -2026,7 +1994,7 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
         <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M16.36 1.43c.04 1.06-.36 2.08-1.04 2.84-.72.81-1.9 1.44-3.03 1.35-.05-1.04.4-2.09 1.06-2.79.74-.81 1.99-1.4 3.01-1.4zM20.6 17.2c-.55 1.27-.82 1.84-1.53 2.96-.99 1.57-2.39 3.52-4.12 3.53-1.54.02-1.94-1-4.03-.99-2.09.01-2.53 1.01-4.07.99-1.73-.02-3.05-1.78-4.04-3.34C-.06 16.1-.35 10.97 1.36 8.24c1.2-1.94 3.1-3.08 4.89-3.08 1.82 0 2.97 1 4.48 1 1.46 0 2.35-1 4.46-1 1.59 0 3.28.87 4.48 2.37-3.94 2.16-3.3 7.79.93 9.67z"/></svg>
         <span class="btn-stack"><small>Download on the</small><b>App Store</b></span>
       </a>
-      <a class="btn btn-ghost btn-lg" href="/quiz.html">Take the free AI rank quiz</a>
+      <a class="btn btn-ghost btn-lg" href="/quiz.html">Take the AI rank quiz</a>
     </div>
     <a class="hero-web-link" href="https://app.tryiro.com" data-cta="final">Try Iro in your browser — your streak and progress sync to the app →</a>
 
@@ -2382,37 +2350,39 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
 (function () {
   'use strict';
 
-  /* Copy for each stacked slide — the phone compositions live in the static
-     markup (#iaStack), one .ia-slide per entry, same order. */
+  /* Copy + image for each screen. Five phone elements in #iaStack sit in slots
+     -2..2 and travel: on each advance every phone shifts one slot toward the
+     centre, and whichever phone lands in the hidden staging slot picks up the
+     next screenshot. */
   var SCREENS = [
-    { t:'Learn',        h:'Learn AI like a game',       tag:'DAILY MAP',
+    { img:'assets/screens/learning-path.webp', t:'Learn',        h:'Learn AI like a game',       tag:'DAILY MAP',
       d:'Lessons snake along a Duolingo-style trail &mdash; one clear next step, with chests and challenges along the way.',
       b:['One clear next lesson every day','Chests, daily quests and news on the route','Units build from core skills to applied AI'] },
-    { t:'Tool mastery', h:'Master ChatGPT and Claude',  tag:'20 PATHS',
+    { img:'assets/screens/path-list.webp', t:'Tool mastery', h:'Master ChatGPT and Claude',  tag:'20 PATHS',
       d:'Twenty guided paths across core AI skills and tool mastery &mdash; pick one and watch the bar fill.',
       b:['Master ChatGPT, Claude, Gemini, Perplexity','Core skills: foundations, prompting, agents','A progress bar on every path'] },
-    { t:'Practice',     h:'Practice in 5 minutes',      tag:'HANDS-ON',
+    { img:'assets/screens/prompt-builder.webp', t:'Practice',     h:'Practice in 5 minutes',      tag:'HANDS-ON',
       d:'Assemble a strong prompt piece by piece &mdash; and learn to leave the fluff out.',
       b:['Drag the pieces into a working prompt','Decoy chips teach what weakens a prompt','Instant check, with hearts on the line'] },
-    { t:'Create',       h:'Create any AI path',         tag:'CUSTOM PATHS',
+    { img:'assets/screens/create-path.webp', t:'Create',       h:'Create any AI path',         tag:'CUSTOM PATHS',
       d:'Type any goal and Iro builds a custom path in seconds &mdash; lessons, quiz and recap included.',
       b:['&ldquo;Learn AI for work&rdquo; &rarr; a full path','Interviews, agents, finance &mdash; anything','Community paths from other learners'] },
-    { t:'Operator',     h:'Build your AI Operator',     tag:'SKILL PROFILE',
+    { img:'assets/screens/operator-build.webp', t:'Operator',     h:'Build your AI Operator',     tag:'SKILL PROFILE',
       d:'Six skill zones scored out of 100 roll up into your Operator Build and its power level.',
       b:['Strategy, research, prompting, execution&hellip;','Strongest skill and weak spot called out','It tells you exactly what to train next'] },
-    { t:'Duels',        h:'Battle friends in AI duels', tag:'LIVE PvP',
+    { img:'assets/screens/duels-tab.webp', t:'Duels',        h:'Battle friends in AI duels', tag:'LIVE PvP',
       d:'Five questions, fifteen seconds each, against an opponent matched to your rating.',
       b:['ELO-style matchmaking','+25 XP a win, weekly arena challenges','A rating trend that tracks your climb'] },
-    { t:'Coach',        h:'Ask Iro what to do next',    tag:'AI COACH',
+    { img:'assets/screens/ask-iro.webp', t:'Coach',        h:'Ask Iro what to do next',    tag:'AI COACH',
       d:'Iro quizzes you on today&rsquo;s lesson, explains the why, and points you at the next rep.',
       b:['&ldquo;Quiz me on today&rsquo;s lesson&rdquo;','Explanations, not just answers','One tap into Prompt Lab practice'] },
-    { t:'AI news',      h:'Stay current with AI news',  tag:'WEEKLY',
+    { img:'assets/screens/news-refresh.webp', t:'AI news',      h:'Stay current with AI news',  tag:'WEEKLY',
       d:'Weekly AI briefings with read-and-quiz exercises &mdash; earn XP for keeping up.',
       b:['The week&rsquo;s AI stories, minus the hype','A 3-question quiz on every story','+30 XP early-bird bonus'] },
-    { t:'Rank up',      h:'Rank up and evolve Iro',     tag:'EVOLUTION',
+    { img:'assets/screens/rank-up.webp', t:'Rank up',      h:'Rank up and evolve Iro',     tag:'EVOLUTION',
       d:'Hit a new rank and Iro evolves &mdash; all the way to Diamond and Iro the Archmage.',
       b:['A new form at every rank','Evolution reveals worth chasing','Share your evolution card'] },
-    { t:'Certificates', h:'Earn AI certificates',       tag:'CREDENTIALS',
+    { img:'assets/screens/certificate.webp', t:'Certificates', h:'Earn AI certificates',       tag:'CREDENTIALS',
       d:'Finish a path and walk away with a shareable certificate &mdash; real proof you put in the reps.',
       b:['A certificate for every path you finish','A unique credential ID on every certificate','One tap to add it to your LinkedIn profile'] }
   ];
@@ -2427,8 +2397,15 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
     var next = document.getElementById('iaNext');
     if (!stack || !copy || !dots) return;
 
-    var slides = [].slice.call(stack.querySelectorAll('.ia-slide'));
-    var cur = 0, timer = null, N = Math.min(SCREENS.length, slides.length), inView = false, hovering = false;
+    var phones = [].slice.call(stack.querySelectorAll('.ia-ph'));
+    var SPAN = 2;                       // slots run -SPAN..SPAN
+    var RING = phones.length;           // 5
+    var cur = 0, timer = null, N = SCREENS.length, inView = false, hovering = false;
+
+    function imgFor(el, idx){
+      var im = el.querySelector('img'), want = SCREENS[idx];
+      if (im.getAttribute('src') !== want.img){ im.src = want.img; im.alt = want.h; }
+    }
 
     dots.innerHTML = SCREENS.map(function(s,i){
       return '<button class="ia-dot" role="tab" data-i="'+i+'" aria-label="'+s.h+'"></button>';
@@ -2445,23 +2422,48 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
         '<span class="ia-tag">'+s.tag+'</span>';
       copy.classList.add('in');
       dotEls.forEach(function(el,idx){ el.classList.toggle('on', idx===cur); el.setAttribute('aria-selected', idx===cur); });
-      slides.forEach(function(el,idx){ el.setAttribute('aria-hidden', idx!==cur); });
     }
 
-    /* Directional slide swap: the outgoing stack exits toward the direction of
-       travel, the incoming one enters from the opposite side, as one unit. */
+    /* Shift every phone one slot per step, so a screenshot visibly moves from
+       the right phone into the centre. A phone pushed past the end wraps to the
+       far side without animating (it is invisible there) and takes the next
+       image, which is what makes the ring feel endless. */
+    function step(d){
+      phones.forEach(function(el){
+        var s = +el.dataset.slot - d, wrapped = false;
+        if (s < -SPAN){ s += RING; wrapped = true; }
+        else if (s > SPAN){ s -= RING; wrapped = true; }
+        if (wrapped){
+          el.classList.add('no-anim');
+          el.dataset.slot = s;
+          void el.offsetWidth;                       // commit the jump un-animated
+          el.classList.remove('no-anim');
+        } else {
+          el.dataset.slot = s;
+        }
+      });
+      // re-image after the slots settle, so the staging phones hold the right screens
+      phones.forEach(function(el){
+        imgFor(el, ((cur + (+el.dataset.slot)) % N + N) % N);
+      });
+      // only five <img> tags exist now, so warm the ones about to rotate in
+      [SPAN + 1, -(SPAN + 1)].forEach(function(o){
+        var im = new Image(); im.src = SCREENS[((cur + o) % N + N) % N].img;
+      });
+    }
+
     function render(i, dir){
-      var nxt = (i + N) % N;
+      var nxt = ((i % N) + N) % N;
       if (nxt === cur) return;
-      dir = dir || (nxt > cur ? 1 : -1);
-      var out = slides[cur], inn = slides[nxt];
-      inn.classList.toggle('pos-l', dir < 0);   // park incoming on the entry side…
-      void inn.offsetWidth;                     // …and commit it before animating
-      out.classList.remove('on');
-      out.classList.toggle('pos-l', dir > 0);
-      inn.classList.add('on');
-      inn.classList.remove('pos-l');
+      var d = dir;
+      if (!d){                                        // shortest way round the ring
+        var fwd = (nxt - cur + N) % N;
+        d = fwd <= N / 2 ? fwd : fwd - N;
+      }
+      var stepsLeft = Math.abs(d), sign = d > 0 ? 1 : -1;
       cur = nxt;
+      // dots/copy update once; the phones travel one slot at a time
+      while (stepsLeft--) step(sign);
       renderCopy(SCREENS[cur]);
     }
 
@@ -2508,7 +2510,7 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
       section.addEventListener('mouseleave', function(){ hovering = false; });
     }
 
-    renderCopy(SCREENS[0]); // slide 0 is already .on in the markup
+    renderCopy(SCREENS[0]); // slot 0 already holds screen 0 in the markup
 
     if ('IntersectionObserver' in window){
       var io = new IntersectionObserver(function(es){
