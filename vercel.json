@@ -1030,6 +1030,10 @@
       "destination": "/blog/ai-student-discounts.html"
     },
     {
+      "source": "/blog/finestro-alternatives",
+      "destination": "/blog/finestro-alternatives.html"
+    },
+    {
       "source": "/paths",
       "destination": "/paths.html"
     },
