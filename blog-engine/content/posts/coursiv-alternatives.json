@@ -6,7 +6,7 @@
   "lede": "If you're looking for a Coursiv alternative (usually because you want active practice over guided lessons, or clearer pricing) here are the best options, and how to pick.",
   "keyTakeaways": [
     "The best Coursiv alternative depends on how you want to learn: Iro AI for active, gamified practice; Brilliant or Khan Academy for foundations; DataCamp for data skills.",
-    "Iro AI is the closest active-practice alternative, you write real prompts and get feedback instead of watching guided lessons, with simple annual pricing.",
+    "Iro AI is the closest active-practice alternative: you write real prompts and get feedback instead of watching guided lessons, with simple annual pricing.",
     "Check any app's renewal terms before subscribing; some AI-learning apps use auto-renewing introductory offers.",
     "Most have a free tier, so you can try before you pay."
   ],
@@ -72,7 +72,7 @@
     {
       "id": "iro",
       "heading": "Why Iro AI is the closest alternative",
-      "html": "<p>If what drew you to Coursiv was learning to <em>use</em> AI in a few minutes a day, Iro AI does the same job with a different method: <strong>active practice instead of passive lessons.</strong> You write real prompts in a Prompt Lab and get instant feedback, spot AI mistakes, and duel other learners: across ChatGPT, Claude, Gemini, Perplexity, prompting, and more. It's free to start, with straightforward annual pricing (no surprise renewal). It's often called <a href=\"/duolingo-for-ai\">the Duolingo for AI</a>.</p>"
+      "html": "<p>If what drew you to Coursiv was learning to <em>use</em> AI in a few minutes a day, Iro AI does the same job with a different method: <strong>active practice instead of passive lessons.</strong> You write real prompts in a Prompt Lab and get instant feedback, spot AI mistakes, and duel other learners, across ChatGPT, Claude, Gemini, Perplexity, prompting, and more. It's free to start, with straightforward annual pricing (no surprise renewal). It's often called <a href=\"/duolingo-for-ai\">the Duolingo for AI</a>.</p>"
     },
     {
       "id": "choose",
@@ -101,7 +101,7 @@
   "faq": [
     {
       "q": "What is the best Coursiv alternative?",
-      "a": "It depends how you like to learn. Iro AI is the closest active-practice alternative, you write real prompts and get feedback instead of watching guided lessons, with simple annual pricing. Brilliant and Khan Academy are good for foundations, and DataCamp for data skills."
+      "a": "It depends how you like to learn. Iro AI is the closest active-practice alternative: you write real prompts and get feedback instead of watching guided lessons, with simple annual pricing. Brilliant and Khan Academy are good for foundations, and DataCamp for data skills."
     },
     {
       "q": "Is there a free alternative to Coursiv?",
