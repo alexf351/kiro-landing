@@ -127,13 +127,36 @@
         });
       }
 
+      function fireEscape(){
+        var esc = escapeUrl();
+        if (!esc) return false;
+        // Facebook's webview drops a location assignment to x-safari- but honours
+        // the same URL through window.open.
+        if (hit.name === 'facebook') window.open(esc, '_blank');
+        else window.location.href = esc;
+        return true;
+      }
+
       var esc = escapeUrl();
       track('download_link_opened', { escape_scheme: esc ? esc.split(':')[0] : 'none' });
+
+      // A tap is a user gesture, and iOS honours those in cases where it drops a
+      // navigation the page started by itself. The button pointed straight at the
+      // App Store, which cannot work from inside a webview at all, so in an in-app
+      // browser it now runs the escape instead.
+      if (hit && esc) {
+        link.addEventListener('click', function(e){
+          e.preventDefault();
+          track('download_escape_attempt', { trigger: 'tap' });
+          fireEscape();
+          setTimeout(function(){ if (!handedOff && !document.hidden) showManual(); }, 1500);
+        });
+      }
 
       if (!hit) { window.location.href = target; return; }  // a real browser
       if (!esc) { showManual(); return; }                   // in-app, nothing worth trying
 
-      window.location.href = esc;
+      fireEscape();
       setTimeout(function(){ if (!handedOff && !document.hidden) showManual(); }, 1500);
     })();
   </script>
