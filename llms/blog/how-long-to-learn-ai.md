@@ -98,4 +98,4 @@ Practice actively on real tasks a few minutes every day, get fast feedback, and 
 
 ## About the author
 
-Alex Furukawa — Founder of Iro AI. Alex Furukawa is the founder of Iro AI, the gamified app for learning to use AI well. He writes about practical AI fluency: prompting, AI tools, and the daily habits that turn AI from a novelty into real leverage.
+Alex Furukawa — Founder of Iro AI. Alex Furukawa is the founder of Iro AI, the gamified app for learning to use AI well. He works in private equity real estate, where he leads his firm's AI initiative and builds the automation his team runs on live deals. He writes about practical AI fluency: prompting, AI tools, and the daily habits that turn AI from a novelty into hours you get back.
