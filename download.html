@@ -17,6 +17,7 @@
     .hint{font-size:13px;margin-top:14px;margin-bottom:0}
     .steps{text-align:left;margin:18px 0 0;padding-left:20px;color:var(--muted);font-size:14px;line-height:1.6}
     .steps b{color:var(--text)}
+    .linkbtn{margin-top:16px;background:none;border:0;color:var(--cyan);font-size:13px;text-decoration:underline;cursor:pointer;font-family:inherit}
   </style>
   <meta name="apple-itunes-app" content="app-id=6759628066"/>
   <script>
@@ -38,6 +39,7 @@
       <li>Choose <b>Open in browser</b></li>
       <li>Tap <b>Download on the App Store</b> again</li>
     </ol>
+    <button class="linkbtn" id="dlCopy" hidden>or copy the link</button>
   </main>
 
   <script>
@@ -54,14 +56,14 @@
       if (!isIOS) { link.href = WEBAPP; link.textContent = 'Open the web app'; }
 
       var APPS = [
-        { name:'instagram', re:/Instagram/i },
-        { name:'facebook',  re:/FBAN|FBAV|FBIOS|FB_IAB|FB4A/i },
-        { name:'tiktok',    re:/BytedanceWebview|ByteLocale|musical_ly|aweme|trill|TikTok/i },
-        { name:'snapchat',  re:/Snapchat/i },
-        { name:'linkedin',  re:/LinkedInApp/i },
-        { name:'pinterest', re:/Pinterest/i },
-        { name:'twitter',   re:/Twitter/i },
-        { name:'line',      re:/\bLine\//i }
+        { name:'instagram', label:'Instagram', re:/Instagram/i },
+        { name:'facebook',  label:'Facebook',  re:/FBAN|FBAV|FBIOS|FB_IAB|FB4A/i },
+        { name:'tiktok',    label:'TikTok',    re:/BytedanceWebview|ByteLocale|musical_ly|aweme|trill|TikTok/i },
+        { name:'snapchat',  label:'Snapchat',  re:/Snapchat/i },
+        { name:'linkedin',  label:'LinkedIn',  re:/LinkedInApp/i },
+        { name:'pinterest', label:'Pinterest', re:/Pinterest/i },
+        { name:'twitter',   label:'X',         re:/Twitter/i },
+        { name:'line',      label:'LINE',      re:/\bLine\//i }
       ];
       var hit = null;
       for (var i = 0; i < APPS.length; i++) { if (APPS[i].re.test(ua)) { hit = APPS[i]; break; } }
@@ -71,8 +73,12 @@
       // never work from inside one: the page has to get itself out to the real
       // browser first, and each app has its own way out.
       function escapeUrl(){
-        if (hit && hit.name === 'instagram') return 'instagram://extbrowser/?url=' + encodeURIComponent(target);
         if (!hit) return null;
+        if (hit.name === 'instagram') return 'instagram://extbrowser/?url=' + encodeURIComponent(target);
+        // TikTok refuses x-safari- and answers with an "Action can't be completed"
+        // toast, which reads as our page being broken. Better to go straight to
+        // instructions than to show a failure first.
+        if (hit.name === 'tiktok') return null;
         if (isIOS)     return 'x-safari-' + target;
         if (isAndroid) return 'intent://' + target.replace(/^https?:\/\//, '') + '#Intent;scheme=https;end';
         return null;
@@ -98,16 +104,34 @@
         track('download_escape_failed');
         document.getElementById('dlTitle').textContent = 'Open in your browser to install';
         document.getElementById('dlSub').textContent =
-          (hit ? hit.name.charAt(0).toUpperCase() + hit.name.slice(1) : 'This app') +
+          (hit ? hit.label : 'This app') +
           "'s built-in browser can't open the App Store. It takes a second to switch.";
         document.getElementById('dlHint').hidden = true;
         document.getElementById('dlSteps').hidden = false;
+
+        var copy = document.getElementById('dlCopy');
+        copy.hidden = false;
+        copy.addEventListener('click', function(){
+          var done = function(){ copy.textContent = 'Link copied, paste it in your browser'; };
+          var url = window.location.origin + '/download';
+          if (navigator.clipboard && navigator.clipboard.writeText) {
+            navigator.clipboard.writeText(url).then(done).catch(done);
+          } else {
+            var ta = document.createElement('textarea');
+            ta.value = url; ta.style.position = 'fixed'; ta.style.opacity = '0';
+            document.body.appendChild(ta); ta.select();
+            try { document.execCommand('copy'); done(); } catch (e) {}
+            document.body.removeChild(ta);
+          }
+          track('download_link_copied');
+        });
       }
 
       var esc = escapeUrl();
       track('download_link_opened', { escape_scheme: esc ? esc.split(':')[0] : 'none' });
 
-      if (!esc) { window.location.href = target; return; }
+      if (!hit) { window.location.href = target; return; }  // a real browser
+      if (!esc) { showManual(); return; }                   // in-app, nothing worth trying
 
       window.location.href = esc;
       setTimeout(function(){ if (!handedOff && !document.hidden) showManual(); }, 1500);
