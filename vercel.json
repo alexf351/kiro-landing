@@ -26,7 +26,22 @@
     },
     {
       "source": "/download",
-      "destination": "https://apps.apple.com/app/id6759628066?ct=bio_link&mt=8",
+      "destination": "https://apps.apple.com/app/id6759628066",
+      "statusCode": 302
+    },
+    {
+      "source": "/d1",
+      "destination": "itms-apps://apps.apple.com/app/id6759628066",
+      "statusCode": 302
+    },
+    {
+      "source": "/d2",
+      "destination": "https://apps.apple.com/app/id6759628066",
+      "statusCode": 302
+    },
+    {
+      "source": "/d3",
+      "destination": "itms-apps://itunes.apple.com/app/id6759628066",
       "statusCode": 302
     },
     {
