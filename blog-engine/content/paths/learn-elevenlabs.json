@@ -1,0 +1,168 @@
+{
+  "slug": "learn-elevenlabs",
+  "order": 33,
+  "category": "tools",
+  "eyebrow": "Learn ElevenLabs",
+  "hubTitle": "Learn ElevenLabs",
+  "hubBlurb": "Get AI speech that sounds like a person, not an announcer reading a script.",
+  "title": "Learn ElevenLabs: Voice Settings, Stability & Natural Speech | Iro AI",
+  "h1": "The sliders are the difference between a voice and a robot.",
+  "metaDescription": "How to use ElevenLabs well: what stability, similarity, and style actually do, settings that suit narration versus conversation, and the ethics of voice cloning.",
+  "keywords": [
+    "ElevenLabs",
+    "how to use ElevenLabs",
+    "ElevenLabs settings",
+    "ElevenLabs stability",
+    "AI voice generator",
+    "text to speech AI"
+  ],
+  "lede": "Most people who think ElevenLabs sounds robotic have left stability at the default. The sliders are not cosmetic, and understanding what two of them do is most of the skill.",
+  "pills": [
+    "ElevenLabs",
+    "AI voice",
+    "Text to speech",
+    "Audio"
+  ],
+  "about": "ElevenLabs and AI voice generation",
+  "level": "Beginner to intermediate",
+  "audience": "Creators, marketers, course builders, and anyone producing narration or voiceover",
+  "teaches": [
+    "What stability, similarity, and style actually control",
+    "Settings that suit narration versus conversation",
+    "Writing text that reads well aloud",
+    "Where voice cloning crosses an ethical line"
+  ],
+  "tldr": {
+    "answer": "ElevenLabs turns text into speech, and the quality you get depends almost entirely on three settings. Stability controls how much natural variation the voice keeps, similarity controls how closely it matches the target speaker, and style exaggerates delivery. A common starting point is stability around 50% and similarity around 75% with style at 0, then adjusting stability down for conversational work and up for technical narration.",
+    "bullets": [
+      "Stability at 100% strips the micro-variation listeners read as human.",
+      "Storytelling and dialogue tend to sit around 40 to 55% stability.",
+      "Technical narration tends to sit around 65 to 75%, clear without being flat.",
+      "Similarity above roughly 75 to 80% starts introducing audible artifacts."
+    ]
+  },
+  "outcomesHeading": "What you'll be able to do",
+  "outcomes": [
+    "Pick settings that match the kind of audio you are making",
+    "Diagnose why a voice sounds robotic or unstable",
+    "Write scripts that survive being read by a machine",
+    "Make a defensible call on voice cloning consent"
+  ],
+  "lessons": [
+    {
+      "t": "What the sliders do",
+      "dur": "5 min",
+      "blurb": "Stability, similarity, and style, in plain terms."
+    },
+    {
+      "t": "Settings by use case",
+      "dur": "5 min",
+      "blurb": "Narration, conversation, character work: different targets."
+    },
+    {
+      "t": "Writing for the ear",
+      "dur": "5 min",
+      "blurb": "Punctuation, sentence length, and the words that trip TTS up."
+    },
+    {
+      "t": "Cloning and consent",
+      "dur": "5 min",
+      "blurb": "Where the technology outruns what you should do with it."
+    }
+  ],
+  "practice": {
+    "type": "Tool judgment",
+    "scenario": "You are narrating a 20-minute technical tutorial. Your first render sounds flat and slightly robotic, and listeners said it was hard to stay with.",
+    "task": "Choose the change most likely to fix it.",
+    "options": [
+      {
+        "text": "Raise stability to 100% so the delivery is perfectly consistent.",
+        "correct": false
+      },
+      {
+        "text": "Lower stability to roughly 65 to 75% and leave similarity around 75%, then re-render a short section to compare.",
+        "correct": true
+      },
+      {
+        "text": "Raise similarity to 95% to make the voice sound more like the original speaker.",
+        "correct": false
+      },
+      {
+        "text": "Raise style exaggeration to add emotion across the whole tutorial.",
+        "correct": false
+      }
+    ],
+    "revealLabel": "See why the second setting wins",
+    "feedback": "Flatness is usually <strong>too much stability</strong>, not too little. At 100% the model removes the small pitch and timing variations listeners subconsciously read as a human speaking, which is exactly the robotic quality being described. Dropping into the 65 to 75% band keeps a technical read clear while restoring some natural cadence. Pushing similarity to 95% tends to introduce artifacts rather than realism, since the setting governs how hard the model matches the target voice, not how good it sounds. Cranking style adds theatrical delivery that fights a technical tutorial. And re-rendering a short section first is the habit worth keeping: settings interact with the specific voice, so compare rather than assume."
+  },
+  "body": [
+    {
+      "h2": "Stability is the setting that matters",
+      "html": "<p>Of the three sliders, stability does the most work. It governs how much the voice varies between sentences.</p><p>High stability produces consistent, predictable delivery. Push it to 100% and you strip the micro-variations in pitch and timing that listeners subconsciously associate with a real person, which is why maximum consistency sounds least human. Low stability lets cadence shift and small imperfections through, which reads as spontaneous but can wander on long passages.</p><p>Rough targets: <strong>40 to 55%</strong> for storytelling, podcasts, and character dialogue, where emotional range is the point. <strong>65 to 75%</strong> for technical tutorials and corporate narration, where clarity matters more but you still want it alive.</p>"
+    },
+    {
+      "h2": "Similarity and style",
+      "html": "<p><strong>Similarity</strong> controls how closely the output tracks the target speaker and sharpens clarity. It is tempting to max it, and that is usually a mistake: above roughly 75 to 80% it starts producing artifacts. If a clone sounds slightly metallic or crunchy, similarity is the first thing to bring down.</p><p><strong>Style</strong> exaggerates delivery. Leave it at 0 unless you have a specific reason. It is a strong effect and it fights most straight narration.</p><p>A reliable starting point for a new voice is stability 50, similarity 75, style 0. Change one at a time and re-render the same 20 seconds so you can actually hear what each change did.</p>"
+    },
+    {
+      "h2": "Write for the ear",
+      "html": "<p>Settings only carry you so far if the script fights the reader. Text that works on a page often does not work aloud.</p><ul><li><strong>Shorten sentences.</strong> A clause that works visually can leave a synthetic voice running out of breath.</li><li><strong>Punctuate for pacing.</strong> Commas and full stops are the main lever you have over rhythm.</li><li><strong>Spell out anything ambiguous.</strong> Numbers, acronyms, and units get read in ways you did not intend. Write \"twenty twenty six\" if that is what you want to hear.</li><li><strong>Read it out loud yourself first.</strong> If you stumble, the model will too.</li></ul>"
+    },
+    {
+      "h2": "Cloning, consent, and where the line is",
+      "html": "<p>Voice cloning works well enough that the technical question stopped being interesting and the ethical one took over. The line is straightforward and worth stating plainly: clone your own voice freely, clone someone else's only with their explicit permission, and never use a cloned voice to make someone appear to say something they did not say.</p><p>That is not only an ethical position. Impersonation is increasingly a legal exposure, and platforms are getting faster at removing it. The reputational cost of getting this wrong is far larger than the time saved.</p>"
+    }
+  ],
+  "faqHeading": "ElevenLabs questions",
+  "faq": [
+    {
+      "q": "Why does my ElevenLabs voice sound robotic?",
+      "a": "Usually stability is set too high. At 100% the model removes the small variations in pitch and timing that make speech sound human. Try 65 to 75% for narration, or 40 to 55% for conversational and storytelling work."
+    },
+    {
+      "q": "What are good ElevenLabs settings to start with?",
+      "a": "Stability around 50%, similarity around 75%, and style at 0 is a common starting point. Adjust one setting at a time and re-render the same short section so you can hear exactly what changed."
+    },
+    {
+      "q": "What does similarity boost do in ElevenLabs?",
+      "a": "It controls how closely the output matches the target speaker and enhances clarity. Keep it at or below roughly 75 to 80%, since pushing higher tends to introduce audible artifacts rather than more realism."
+    },
+    {
+      "q": "Is it legal to clone someone's voice with ElevenLabs?",
+      "a": "Cloning your own voice is fine. Cloning someone else's requires their explicit permission, and using a cloned voice to make someone appear to say something they did not say is both an ethical and a legal problem regardless of permission."
+    },
+    {
+      "q": "How do I stop AI narration mispronouncing things?",
+      "a": "Spell ambiguous items out phonetically in the script. Numbers, acronyms, and units are the usual culprits. Writing what you want to hear rather than what looks correct on the page fixes most cases."
+    }
+  ],
+  "related": [
+    {
+      "href": "/ai-video-generation-course",
+      "label": "AI video generation"
+    },
+    {
+      "href": "/ai-for-writers",
+      "label": "AI for writers"
+    },
+    {
+      "href": "/ai-for-presentations",
+      "label": "AI for presentations"
+    }
+  ],
+  "readNext": [
+    {
+      "href": "/blog/best-ai-video-generators",
+      "label": "The best AI video generators"
+    },
+    {
+      "href": "/blog/best-ai-apps",
+      "label": "The best AI apps"
+    }
+  ],
+  "llmsBlurb": "How to use ElevenLabs well: what stability, similarity, and style control, settings by use case, writing for the ear, and voice-cloning ethics.",
+  "ctaHeading": "Practise directing AI voice.",
+  "ctaBody": "Iro turns settings judgment, script writing, and knowing when AI audio is the wrong choice into five-minute exercises with feedback.",
+  "datePublished": "2026-07-29",
+  "dateModified": "2026-07-29"
+}

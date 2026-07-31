@@ -267,9 +267,16 @@ function renderPost(post) {
         .join('')}</ul></aside>`
     : '';
 
+  // Editorial disclosure for posts that rank Iro against competitors. This used
+  // to be hand-injected into the built HTML, which meant every rebuild silently
+  // dropped it — set `"disclosure": true` on the post instead.
+  const disclosure = post.disclosure
+    ? `<p class="disclosure"><strong>Editorial note:</strong> Iro AI is our app. Where it appears below we say so, and it has to earn its spot by the same criteria as everything else.</p>`
+    : '';
+
   // Content body: sections, with an inline CTA after the Nth section + a closing CTA.
   const after = (post.inlineCtaAfter || 2) - 1;
-  const lines = [takeaways, `<div class="toc"><strong>In this post</strong>${toc}</div>`].filter(Boolean);
+  const lines = [takeaways, disclosure, `<div class="toc"><strong>In this post</strong>${toc}</div>`].filter(Boolean);
   post.sections.forEach((s, i) => {
     lines.push(`<h2 id="${s.id}">${s.heading}</h2>`);
     lines.push(s.html);

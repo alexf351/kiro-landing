@@ -177,25 +177,25 @@ function buildPage(p, allBySlug) {
   // ---- body ----
   const pills = (p.pills || []).map((x) => `<span class="pill">${esc(x)}</span>`).join('');
   const crumb = `<nav class="crumb" aria-label="Breadcrumb"><a href="/">Home</a><span>›</span><a href="/paths">Path library</a><span>›</span>${esc(p.eyebrow)}</nav>`;
-  const hero = `<section class="hero"><p class="eyebrow">${esc(p.eyebrow)}</p><h1>${esc(p.h1)}</h1><p>${esc(p.lede)}</p>${pills ? `<div class="pill-list">${pills}</div>` : ''}<div class="cta-row"><a class="btn" href="${CTA_UTM(p.slug, 'hero')}" data-cta="app_store">Download Iro free</a><a class="btn secondary" href="/quiz">Take the AI IQ test</a></div><p class="note">iOS now. Android is in development — join the waitlist on the home page. Free to start; optional Pro upgrade is managed through Apple. Prefer your desktop? Iro also runs in your browser at <a href="https://app.tryiro.com">app.tryiro.com</a>.</p></section>`;
+  const hero = `<section class="hero"><p class="eyebrow">${esc(p.eyebrow)}</p><h1>${esc(p.h1)}</h1><p>${esc(p.lede)}</p>${pills ? `<div class="pill-list">${pills}</div>` : ''}<div class="cta-row"><a class="btn" href="${CTA_UTM(p.slug, 'hero')}" data-cta="app_store">Download Iro free</a><a class="btn secondary" href="/quiz">Take the AI IQ test</a></div><p class="note">iOS now. Android is in development. Join the waitlist on the home page. Free to start; optional Pro upgrade is managed through Apple. Prefer your desktop? Iro also runs in your browser at <a href="https://app.tryiro.com">app.tryiro.com</a>.</p></section>`;
 
   const answer = `<div class="answer"><div class="box"><p class="lbl">The short version</p><p>${esc(p.tldr.answer)}</p><ul>${p.tldr.bullets.map((b) => `<li>${esc(b)}</li>`).join('')}</ul></div></div>`;
 
   const outcomes = `<section><h2>${esc(p.outcomesHeading || 'What you\'ll be able to do')}</h2><ul class="outcomes">${p.outcomes.map((o) => `<li>${esc(o)}</li>`).join('')}</ul></section>`;
 
-  const lessons = `<section><h2>Inside the path</h2><p>A focused set of five-minute lessons — each one ends with a hands-on exercise, not a quiz you can guess.</p><ol class="lessons">${p.lessons.map((l) => `<li class="lesson"><span class="n"></span><div><h3>${esc(l.t)} <span class="dur">${esc(l.dur)}</span></h3><p>${esc(l.blurb)}</p></div></li>`).join('')}</ol></section>`;
+  const lessons = `<section><h2>Inside the path</h2><p>A focused set of five-minute lessons. Each one ends with a hands-on exercise, not a quiz you can guess.</p><ol class="lessons">${p.lessons.map((l) => `<li class="lesson"><span class="n"></span><div><h3>${esc(l.t)} <span class="dur">${esc(l.dur)}</span></h3><p>${esc(l.blurb)}</p></div></li>`).join('')}</ol></section>`;
 
   const pr = p.practice;
   const opts = pr.options
     ? `<ul class="opts">${pr.options.map((o) => `<li class="${o.correct ? 'correct' : ''}">${esc(o.text)}</li>`).join('')}</ul>`
     : '';
-  const practice = `<section><h2>Try a sample exercise</h2><p>This is the kind of card you'd practice inside Iro — you do the thinking, then get feedback.</p><div class="practice"><p class="tag">◆ Sample exercise · ${esc(pr.type || 'Prompt practice')}</p><p class="scenario">${esc(pr.scenario)}</p><p class="task"><strong>Your task:</strong> ${esc(pr.task)}</p>${opts}<details><summary>${esc(pr.revealLabel || 'See a strong answer + why it works')}</summary><p class="fb">${pr.feedback}</p></details></div></section>`;
+  const practice = `<section><h2>Try a sample exercise</h2><p>This is the kind of card you'd practice inside Iro: you do the thinking, then get feedback.</p><div class="practice"><p class="tag">◆ Sample exercise · ${esc(pr.type || 'Prompt practice')}</p><p class="scenario">${esc(pr.scenario)}</p><p class="task"><strong>Your task:</strong> ${esc(pr.task)}</p>${opts}<details><summary>${esc(pr.revealLabel || 'See a strong answer + why it works')}</summary><p class="fb">${pr.feedback}</p></details></div></section>`;
 
   const bodySections = (p.body || []).map((s) => `<section><h2>${esc(s.h2)}</h2>${s.html}</section>`).join('');
 
   const faq = `<section class="faq"><h2>${esc(p.faqHeading || 'Questions people ask')}</h2>${p.faq.map((f, i) => `<details${i === 0 ? ' open' : ''}><summary>${esc(f.q)}</summary><p>${f.aHtml || esc(f.a)}</p></details>`).join('')}</section>`;
 
-  const ctaband = `<div class="ctaband"><div class="box"><h2>${esc(p.ctaHeading || 'Practice this in Iro.')}</h2><p>${esc(p.ctaBody || 'Reading about AI builds awareness. Iro builds skill — five minutes a day of real practice with instant feedback, streaks, and progress you can feel.')}</p><div class="cta-row"><a class="btn" href="${CTA_UTM(p.slug, 'footer')}" data-cta="app_store">Download Iro free</a><a class="btn secondary" href="/paths">Browse all paths</a></div></div></div>`;
+  const ctaband = `<div class="ctaband"><div class="box"><h2>${esc(p.ctaHeading || 'Practice this in Iro.')}</h2><p>${esc(p.ctaBody || 'Reading about AI builds awareness. Iro builds skill: five minutes a day of real practice with instant feedback, streaks, and progress you can feel.')}</p><div class="cta-row"><a class="btn" href="${CTA_UTM(p.slug, 'footer')}" data-cta="app_store">Download Iro free</a><a class="btn secondary" href="/paths">Browse all paths</a></div></div></div>`;
 
   const rel = (p.related || []).map((r) => `<a class="btn secondary" href="${r.href}">${esc(r.label)}</a>`).join('');
   const readNext = (p.readNext || []).map((r) => `<a href="${r.href}">${esc(r.label)}</a>`).join(' · ');

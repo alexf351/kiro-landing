@@ -9,7 +9,7 @@
     <description>Short, practical writing on AI fluency, prompting, AI tools, and the active-practice method that beats endless video courses.</description>
     <language>en-US</language>
     <atom:link href="https://tryiro.com/blog/rss.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Tue, 28 Jul 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 29 Jul 2026 00:00:00 GMT</lastBuildDate>
     <generator>tryiro.com</generator>
     <copyright>© 2026 Iro AI</copyright>
     <image>
@@ -682,6 +682,15 @@
       <dc:creator>Iro AI</dc:creator>
       <category>AI tools</category>
       <description>Every AI student discount that actually exists in 2026: Gemini's 12 months free, GitHub Copilot for students, and why ChatGPT and Claude offer students nothing.</description>
+    </item>
+    <item>
+      <title>The best Finestro alternatives in 2026</title>
+      <link>https://tryiro.com/blog/finestro-alternatives</link>
+      <guid isPermaLink="true">https://tryiro.com/blog/finestro-alternatives</guid>
+      <pubDate>Wed, 29 Jul 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Iro AI</dc:creator>
+      <category>AI fluency</category>
+      <description>The best Finestro alternatives in 2026: Iro AI for active practice, Brilliant and Khan Academy for foundations, DataCamp for data skills. Plus what Finestro's refund policy actually says.</description>
     </item>
   </channel>
 </rss>

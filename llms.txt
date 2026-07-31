@@ -55,6 +55,7 @@ This direct-answer summary is also available to crawlers in homepage JSON-LD, /i
 ## Blog
 
 - [Blog index](https://tryiro.com/blog): practical writing on AI fluency, prompting, AI tools.
+- [The best Finestro alternatives](https://tryiro.com/blog/finestro-alternatives): apps to use instead of Finestro AI Tools Mastery, and what its refund policy actually says.
 - [What is MCP?](https://tryiro.com/blog/what-is-mcp): the Model Context Protocol explained, and what the 2026-07-28 stateless-core release changes.
 - [AI student discounts in 2026](https://tryiro.com/blog/ai-student-discounts): what's actually free for students — Gemini's 12 months, Copilot, and the tools offering nothing.
 - [Which AI model should you use for coding?](https://tryiro.com/blog/best-ai-model-for-coding): Opus 5, GPT-5.6 Sol, Fable 5, Grok 4.5 and Kimi K3 ranked by workflow.
@@ -206,8 +207,12 @@ Browse every Iro learning path at https://tryiro.com/paths. Each path is a set o
 - [AI for data analysts](https://tryiro.com/ai-for-data-analysts): How data analysts use AI to write and fix SQL, clean data, explain results, and pick charts — with schema context and sanity checks.
 - [Learn Midjourney](https://tryiro.com/learn-midjourney): How to use Midjourney well — structuring prompts, using parameters, controlling style and lighting, and iterating with variations.
 - [Learn Microsoft Copilot](https://tryiro.com/learn-copilot): How to use Microsoft 365 Copilot across Word, Excel, PowerPoint, Outlook, and Teams with prompts grounded in your own files.
+- [Learn NotebookLM](https://tryiro.com/learn-notebooklm): How to use NotebookLM well: choosing sources, checking citations, Audio Overviews, and the source and quota limits.
+- [Learn Cursor](https://tryiro.com/learn-cursor): How to use Cursor well: choosing between Composer and Agent mode, writing rules that stick, managing context, and reviewing generated code.
 - [Learn Notion AI](https://tryiro.com/learn-notion-ai): How to use Notion AI — drafting and summarizing docs, extracting action items, autofilling databases, and workspace Q&A.
 - [Learn Canva AI](https://tryiro.com/learn-canva-ai): Using Canva AI (Magic Studio) well — briefing Magic Write and text-to-image for on-brand copy and visuals.
+- [Learn ElevenLabs](https://tryiro.com/learn-elevenlabs): How to use ElevenLabs well: what stability, similarity, and style control, settings by use case, writing for the ear, and voice-cloning ethics.
+- [Learn Gamma](https://tryiro.com/learn-gamma): How to use Gamma well: prompting structure rather than topics, cards versus slides, credit budgeting, and which export format survives.
 - [AI for Excel & Sheets](https://tryiro.com/ai-for-excel): Using AI as a spreadsheet copilot for Excel and Google Sheets — writing formulas, cleaning data, and verifying results.
 - [AI for research](https://tryiro.com/ai-for-research): AI for research done right — get sourced, synthesized answers and catch hallucinated citations before you cite them.
 - [AI for presentations](https://tryiro.com/ai-for-presentations): AI for presentations — structure a talk with a narrative arc, draft slides and speaker notes, and tighten the message.

@@ -1,0 +1,168 @@
+{
+  "slug": "learn-notebooklm",
+  "order": 31,
+  "category": "tools",
+  "eyebrow": "Learn NotebookLM",
+  "hubTitle": "Learn NotebookLM",
+  "hubBlurb": "Turn your own documents into a research assistant that cites its sources.",
+  "title": "Learn NotebookLM: Sources, Audio Overviews & Research | Iro AI",
+  "h1": "Make NotebookLM answer from your sources, not the internet.",
+  "metaDescription": "How to use NotebookLM well: what to upload, why grounding in your own sources beats a general chatbot, Audio Overviews, and the limits worth knowing.",
+  "keywords": [
+    "NotebookLM",
+    "how to use NotebookLM",
+    "NotebookLM audio overview",
+    "NotebookLM limits",
+    "Google NotebookLM",
+    "AI research tool"
+  ],
+  "lede": "NotebookLM is the rare AI tool that only answers from material you give it. That single constraint is what makes it trustworthy for study and research, and it changes how you should use it.",
+  "pills": [
+    "NotebookLM",
+    "Research",
+    "Study",
+    "Google AI"
+  ],
+  "about": "NotebookLM and source-grounded research",
+  "level": "Beginner to intermediate",
+  "audience": "Students, researchers, analysts, and anyone working from a stack of documents",
+  "teaches": [
+    "Choosing sources that produce good answers",
+    "Reading and checking citations",
+    "Using Audio Overviews without treating them as fact",
+    "Working inside the source and quota limits"
+  ],
+  "tldr": {
+    "answer": "NotebookLM is a Google research tool that answers questions only from sources you upload, and cites the passage it used. Because it is grounded in your material rather than the open web, it hallucinates far less than a general chatbot, which makes it well suited to coursework, reports, and any research where you have to be able to point at where an answer came from.",
+    "bullets": [
+      "Up to 50 sources per notebook: PDFs, docs, web links, YouTube videos and audio.",
+      "Every answer links back to the passage it came from, so claims are checkable.",
+      "Audio Overviews turn your sources into a podcast-style conversation between two AI hosts.",
+      "The free tier allows 3 Audio Overviews a day; paid tiers raise the daily caps."
+    ]
+  },
+  "outcomesHeading": "What you'll be able to do",
+  "outcomes": [
+    "Assemble a source set that answers the question you actually have",
+    "Check an answer against its citation in seconds",
+    "Use Audio Overviews for revision without mistaking them for a source",
+    "Know when NotebookLM is the wrong tool and a general model is better"
+  ],
+  "lessons": [
+    {
+      "t": "Sources are the whole product",
+      "dur": "5 min",
+      "blurb": "Why what you upload matters more than how you prompt."
+    },
+    {
+      "t": "Reading the citations",
+      "dur": "5 min",
+      "blurb": "Clicking through to the passage, and what it means when a claim has no citation."
+    },
+    {
+      "t": "Audio Overviews, used honestly",
+      "dur": "5 min",
+      "blurb": "Good for revision and commuting. Not a source you can cite."
+    },
+    {
+      "t": "Limits and workarounds",
+      "dur": "5 min",
+      "blurb": "50 sources, daily audio caps, and how to split a big project across notebooks."
+    }
+  ],
+  "practice": {
+    "type": "Tool judgment",
+    "scenario": "You have a 40-page research paper, six lecture PDFs, and a question your professor asked in class. You want an answer you can defend in a seminar.",
+    "task": "Choose the approach most likely to give you an answer you can actually defend.",
+    "options": [
+      {
+        "text": "Ask ChatGPT the professor's question directly and use what it returns.",
+        "correct": false
+      },
+      {
+        "text": "Upload the paper and the six PDFs to a NotebookLM notebook, ask the question there, then click each citation to check the passage says what the answer claims.",
+        "correct": true
+      },
+      {
+        "text": "Generate an Audio Overview of all seven documents and quote what the hosts say.",
+        "correct": false
+      },
+      {
+        "text": "Paste all seven documents into a general chatbot in one long message and ask it to summarise.",
+        "correct": false
+      }
+    ],
+    "revealLabel": "See why the second approach wins",
+    "feedback": "The second option wins because it produces a <strong>checkable</strong> answer. NotebookLM restricts itself to the sources you supply and links each claim to the passage it used, so you can verify before you say it out loud. A general chatbot answering from memory may be right, but you cannot trace where it came from, which is the part that fails in a seminar. The Audio Overview is a revision aid: the AI hosts paraphrase and add framing, so quoting them is quoting a summary of a summary. Pasting everything into one message loses the citation link and usually blows past the context the model can hold well."
+  },
+  "body": [
+    {
+      "h2": "Why grounding changes the tool",
+      "html": "<p>Most AI tools answer from everything they absorbed in training, which is why they can be confidently wrong about your specific document. NotebookLM inverts that. It reads the 50 or fewer sources in your notebook and answers from those, with a citation on each claim.</p><p>The practical effect is that the skill shifts. With a general chatbot, most of your effort goes into the prompt. With NotebookLM, most of it goes into <strong>choosing sources</strong>. A notebook holding the three papers that actually matter gives sharper answers than one holding thirty loosely related PDFs, because you have not made the tool guess which material is authoritative.</p>"
+    },
+    {
+      "h2": "How to check an answer in ten seconds",
+      "html": "<p>Every claim carries a citation chip. Click it and the source panel jumps to the passage used. Three things to look for:</p><ul><li><strong>Does the passage actually say it?</strong> Summaries drift, especially when compressing a long argument into one line.</li><li><strong>Is it the whole picture?</strong> A cited sentence can be accurate and still leave out the caveat in the next paragraph.</li><li><strong>Is anything uncited?</strong> Connective phrasing without a citation is the model's own framing, not your source's claim.</li></ul><p>That habit takes seconds and it is the entire reason to use this tool over a chatbot.</p>"
+    },
+    {
+      "h2": "Audio Overviews and where they fit",
+      "html": "<p>Audio Overviews turn a notebook into a podcast-style conversation between two AI hosts. They are genuinely good for revision on a walk or a commute, and they surface connections between sources you might not have spotted.</p><p>They are not a citable source. The hosts paraphrase, simplify, and add conversational framing that is not in your material. Use them to understand the shape of a topic, then go back to the documents for anything you plan to write down. The free tier allows 3 a day, so treat generation as deliberate rather than something you fire off per notebook.</p>"
+    },
+    {
+      "h2": "The limits worth planning around",
+      "html": "<p>A notebook holds up to 50 sources, each capped around 500,000 words, with local uploads capped at roughly 200MB. For most coursework that is far more headroom than you need. For a large project, split by theme rather than dumping everything into one notebook: a notebook per chapter or per research question keeps answers focused and citations easy to trace.</p><p>Paid tiers raise the daily chat and audio caps. If you are hitting the free limits regularly, that is usually a sign your notebooks are too broad rather than that you need to upgrade.</p>"
+    }
+  ],
+  "faqHeading": "NotebookLM questions",
+  "faq": [
+    {
+      "q": "What is NotebookLM?",
+      "a": "NotebookLM is a Google research tool that answers questions using only the sources you upload, and cites the passage behind each claim. You can add up to 50 sources per notebook, including PDFs, documents, web links, YouTube videos, and audio."
+    },
+    {
+      "q": "Is NotebookLM better than ChatGPT for research?",
+      "a": "For working with documents you already have, yes, because it answers only from your sources and links each claim to the passage it used, so you can verify it. For open-ended questions where you have no source material, a general model like ChatGPT is the better tool."
+    },
+    {
+      "q": "How many Audio Overviews can I make per day?",
+      "a": "The free tier allows 3 per day, on a rolling 24-hour reset. Paid tiers raise the daily caps substantially."
+    },
+    {
+      "q": "Can I cite an Audio Overview in an essay?",
+      "a": "No. The AI hosts paraphrase and add framing that is not in your sources. Use Audio Overviews to understand a topic, then cite the underlying document."
+    },
+    {
+      "q": "Does NotebookLM hallucinate?",
+      "a": "Much less than a general chatbot, because it is restricted to your sources and cites them. It can still summarise a passage inaccurately, which is why clicking through to check the citation matters."
+    }
+  ],
+  "related": [
+    {
+      "href": "/ai-for-research",
+      "label": "AI for research"
+    },
+    {
+      "href": "/ai-for-students",
+      "label": "AI for students"
+    },
+    {
+      "href": "/learn-gemini",
+      "label": "Learn Gemini"
+    }
+  ],
+  "readNext": [
+    {
+      "href": "/blog/ai-student-discounts",
+      "label": "AI student discounts in 2026"
+    },
+    {
+      "href": "/blog/best-ai-tools-for-students",
+      "label": "The best AI tools for students"
+    }
+  ],
+  "llmsBlurb": "How to use NotebookLM well: choosing sources, checking citations, Audio Overviews, and the source and quota limits.",
+  "ctaHeading": "Practise source-grounded research.",
+  "ctaBody": "Iro turns citation checking, source selection, and knowing when to trust an AI answer into five-minute exercises with feedback.",
+  "datePublished": "2026-07-29",
+  "dateModified": "2026-07-29"
+}
