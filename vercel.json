@@ -45,6 +45,16 @@
       "statusCode": 302
     },
     {
+      "source": "/d4",
+      "destination": "https://apps.apple.com/us/app/iro-ai-learn-ai-skills/id6759628066",
+      "statusCode": 302
+    },
+    {
+      "source": "/d5",
+      "destination": "itms-apps://apps.apple.com/us/app/iro-ai-learn-ai-skills/id6759628066",
+      "statusCode": 302
+    },
+    {
       "source": "/app",
       "has": [
         {
@@ -557,6 +567,10 @@
     {
       "source": "/get",
       "destination": "/download.html"
+    },
+    {
+      "source": "/t",
+      "destination": "/t.html"
     },
     {
       "source": "/es",
