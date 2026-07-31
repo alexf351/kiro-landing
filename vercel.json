@@ -6,6 +6,18 @@
         {
           "type": "header",
           "key": "user-agent",
+          "value": "(.*)(Instagram|FBAN|FBAV|FBIOS|FB_IAB|FB4A|BytedanceWebview|ByteLocale|musical_ly|aweme|trill|TikTok|Snapchat|LinkedInApp|Pinterest|Twitter)(.*)"
+        }
+      ],
+      "destination": "/get",
+      "statusCode": 302
+    },
+    {
+      "source": "/download",
+      "has": [
+        {
+          "type": "header",
+          "key": "user-agent",
           "value": "(.*)Android(.*)"
         }
       ],
@@ -30,28 +42,15 @@
       "statusCode": 302
     },
     {
-      "source": "/d1",
-      "destination": "itms-apps://apps.apple.com/app/id6759628066",
-      "statusCode": 302
-    },
-    {
-      "source": "/d2",
-      "destination": "https://apps.apple.com/app/id6759628066",
-      "statusCode": 302
-    },
-    {
-      "source": "/d3",
-      "destination": "itms-apps://itunes.apple.com/app/id6759628066",
-      "statusCode": 302
-    },
-    {
-      "source": "/d4",
-      "destination": "https://apps.apple.com/us/app/iro-ai-learn-ai-skills/id6759628066",
-      "statusCode": 302
-    },
-    {
-      "source": "/d5",
-      "destination": "itms-apps://apps.apple.com/us/app/iro-ai-learn-ai-skills/id6759628066",
+      "source": "/app",
+      "has": [
+        {
+          "type": "header",
+          "key": "user-agent",
+          "value": "(.*)(Instagram|FBAN|FBAV|FBIOS|FB_IAB|FB4A|BytedanceWebview|ByteLocale|musical_ly|aweme|trill|TikTok|Snapchat|LinkedInApp|Pinterest|Twitter)(.*)"
+        }
+      ],
+      "destination": "/get",
       "statusCode": 302
     },
     {
@@ -567,10 +566,6 @@
     {
       "source": "/get",
       "destination": "/download.html"
-    },
-    {
-      "source": "/t",
-      "destination": "/t.html"
     },
     {
       "source": "/es",
