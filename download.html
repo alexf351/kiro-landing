@@ -17,147 +17,100 @@
     .hint{font-size:13px;margin-top:14px;margin-bottom:0}
     .steps{text-align:left;margin:18px 0 0;padding-left:20px;color:var(--muted);font-size:14px;line-height:1.6}
     .steps b{color:var(--text)}
-    .linkbtn{margin-top:14px;background:none;border:0;color:var(--cyan);font-size:13px;text-decoration:underline;cursor:pointer;font-family:inherit}
   </style>
+  <meta name="apple-itunes-app" content="app-id=6759628066"/>
   <script>
   !function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.crossOrigin="anonymous",p.async=!0,p.src=s.api_host.replace(".i.posthog.com","-assets.i.posthog.com")+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="init capture register register_once register_for_session unregister unregister_for_session getFeatureFlag getFeatureFlagPayload isFeatureEnabled reloadFeatureFlags updateEarlyAccessFeatureEnrollment getEarlyAccessFeatures on onFeatureFlags onSessionId getSurveys getActiveMatchingSurveys renderSurvey canRenderSurvey identify setPersonProperties group resetGroups setPersonPropertiesForFlags resetPersonPropertiesForFlags setGroupPropertiesForFlags reset get_distinct_id getGroups get_session_id get_session_replay_url alias set_config startSessionRecording stopSessionRecording sessionRecordingStarted captureException loadToolbar get_property getSessionProperty createPersonProfile opt_in_capturing opt_out_capturing has_opted_in_capturing has_opted_out_capturing clear_opt_in_out_capturing debug getPageViewId".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
   posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https://us.i.posthog.com',person_profiles:'identified_only',capture_pageview:false});
   </script>
-<script src="/llm-referrals.js"></script>
-<link rel="preconnect" href="https://fonts.googleapis.com"/>
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-<link href="https://fonts.googleapis.com/css2?family=Geist:wght@400..900&family=Outfit:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet"/>
-<link rel="stylesheet" href="/iro.css"/>
-<meta name="apple-itunes-app" content="app-id=6759628066"/>
 </head>
 <body>
   <main>
     <img src="/assets/kiro-app-icon-256.png" alt="Iro AI"/>
     <h1 id="dlTitle">Opening Iro</h1>
     <p id="dlSub">Sending you to the App Store.</p>
-    <a class="btn" id="downloadLink" href="https://apps.apple.com/app/id6759628066?utm_source=tiktok&utm_medium=bio&utm_campaign=profile">Download on the App Store</a>
+    <a class="btn" id="downloadLink" href="https://apps.apple.com/us/app/iro-ai-learn-ai-skills/id6759628066">Download on the App Store</a>
     <p class="hint" id="dlHint">If nothing happens, tap the button.</p>
 
-    <!-- Shown only if every automatic escape from an in-app browser fails. -->
+    <!-- Shown only if the automatic escape fails. -->
     <ol class="steps" id="dlSteps" hidden>
       <li>Tap <b>&hellip;</b> or <b>&#8942;</b> in the top-right of this screen</li>
       <li>Choose <b>Open in browser</b></li>
       <li>Tap <b>Download on the App Store</b> again</li>
     </ol>
-    <button class="linkbtn" id="dlCopy" hidden>or copy the link</button>
   </main>
+
   <script>
     (function(){
-      var params = new URLSearchParams(window.location.search);
-      var source   = params.get('source')   || params.get('utm_source')   || 'tiktok';
-      var medium   = params.get('medium')   || params.get('utm_medium')   || 'bio';
-      var campaign = params.get('campaign') || params.get('utm_campaign') || 'profile';
-      var q = 'utm_source=' + encodeURIComponent(source) + '&utm_medium=' + encodeURIComponent(medium) + '&utm_campaign=' + encodeURIComponent(campaign);
-      var appStoreUrl = 'https://apps.apple.com/app/id6759628066?' + q;
-      var itmsUrl     = 'itms-apps://apps.apple.com/app/id6759628066?' + q;
-      var selfUrl     = window.location.origin + '/get?' + q + '&esc=1';
+      var APPSTORE = 'https://apps.apple.com/us/app/iro-ai-learn-ai-skills/id6759628066';
+      var WEBAPP   = 'https://app.tryiro.com/';
+
+      var ua    = navigator.userAgent || '';
+      var isIOS = /iPad|iPhone|iPod/.test(ua) || (/Macintosh/.test(ua) && navigator.maxTouchPoints > 1);
+      var isAndroid = /Android/i.test(ua);
+      var target = isIOS ? APPSTORE : WEBAPP;
 
       var link = document.getElementById('downloadLink');
-      if (link) link.href = appStoreUrl;
+      if (!isIOS) { link.href = WEBAPP; link.textContent = 'Open the web app'; }
 
-      var ua = navigator.userAgent || '';
-      var IAB = [
+      var APPS = [
         { name:'instagram', re:/Instagram/i },
-        { name:'tiktok',    re:/BytedanceWebview|musical_ly|TikTok|Bytedance/i },
-        { name:'facebook',  re:/FBAN|FBAV|FB_IAB|FB4A/i },
+        { name:'facebook',  re:/FBAN|FBAV|FBIOS|FB_IAB|FB4A/i },
+        { name:'tiktok',    re:/BytedanceWebview|ByteLocale|musical_ly|aweme|trill|TikTok/i },
         { name:'snapchat',  re:/Snapchat/i },
         { name:'linkedin',  re:/LinkedInApp/i },
         { name:'pinterest', re:/Pinterest/i },
         { name:'twitter',   re:/Twitter/i },
         { name:'line',      re:/\bLine\//i }
       ];
-      var hitObj = null;
-      for (var i = 0; i < IAB.length; i++) { if (IAB[i].re.test(ua)) { hitObj = IAB[i]; break; } }
-      var inApp = !!hitObj;
-      var isIOS = /iPad|iPhone|iPod/.test(ua) || (/Macintosh/.test(ua) && navigator.maxTouchPoints > 1);
-      var escaped = params.get('esc') === '1';   // we already bounced to a real browser
+      var hit = null;
+      for (var i = 0; i < APPS.length; i++) { if (APPS[i].re.test(ua)) { hit = APPS[i]; break; } }
 
-      var props = {
-        source:source, medium:medium, campaign:campaign,
-        utm_source:source, utm_medium:medium, utm_campaign:campaign,
-        '$utm_source':source, '$utm_medium':medium, '$utm_campaign':campaign,
-        landing_path:window.location.pathname,
-        visible_url:window.location.origin + window.location.pathname,
-        destination:'app_store',
-        referrer:document.referrer || null,
-        user_agent:ua || null,
-        in_app_browser: inApp ? hitObj.name : null,
-        platform: isIOS ? 'ios' : (/Android/i.test(ua) ? 'android' : 'other'),
-        arrived_via_escape: escaped
-      };
+      // Apple answers every apps.apple.com URL with a 301 to itms-appss://, and
+      // in-app browsers refuse to follow a custom scheme. So the store link can
+      // never work from inside one: the page has to get itself out to the real
+      // browser first, and each app has its own way out.
+      function escapeUrl(){
+        if (hit && hit.name === 'instagram') return 'instagram://extbrowser/?url=' + encodeURIComponent(target);
+        if (!hit) return null;
+        if (isIOS)     return 'x-safari-' + target;
+        if (isAndroid) return 'intent://' + target.replace(/^https?:\/\//, '') + '#Intent;scheme=https;end';
+        return null;
+      }
+
       function track(ev, extra){
-        if (!window.posthog) return;
-        var o = {}; for (var k in props) o[k] = props[k];
-        if (extra) for (var j in extra) o[j] = extra[j];
+        if (!window.posthog || !window.posthog.capture) return;
+        var o = { in_app_browser: hit ? hit.name : null,
+                  platform: isIOS ? 'ios' : (isAndroid ? 'android' : 'other'),
+                  destination: isIOS ? 'app_store' : 'web_app',
+                  referrer: document.referrer || null };
+        if (extra) for (var k in extra) o[k] = extra[k];
         posthog.capture(ev, o);
       }
-      if (window.posthog) {
-        posthog.register({ utm_source:source, utm_medium:medium, utm_campaign:campaign });
-        track('$pageview');
-        track('download_link_opened');
-        track('tiktok_bio_link_clicked');
-      }
 
-      // If the page goes hidden, a handoff worked. Record which step did it and stop escalating.
-      var handedOff = false, lastStep = 'none';
-      function onHide(){
-        if (handedOff || !document.hidden) return;
-        handedOff = true;
-        track('download_handoff_succeeded', { escape_step: lastStep });
-      }
+      var handedOff = false;
+      function onHide(){ if (!handedOff && document.hidden) { handedOff = true; track('download_handoff_succeeded'); } }
       document.addEventListener('visibilitychange', onHide);
       window.addEventListener('pagehide', onHide);
 
-      function nav(url, step){ lastStep = step; track('download_escape_attempt', { escape_step: step }); window.location.href = url; }
-
       function showManual(){
         if (handedOff) return;
-        track('download_escape_failed', { escape_step: lastStep });
+        track('download_escape_failed');
         document.getElementById('dlTitle').textContent = 'Open in your browser to install';
-        document.getElementById('dlSub').textContent = (hitObj && hitObj.name === 'instagram' ? 'Instagram' : 'This app') + "'s built-in browser can't open the App Store. It takes a second to switch.";
+        document.getElementById('dlSub').textContent =
+          (hit ? hit.name.charAt(0).toUpperCase() + hit.name.slice(1) : 'This app') +
+          "'s built-in browser can't open the App Store. It takes a second to switch.";
         document.getElementById('dlHint').hidden = true;
         document.getElementById('dlSteps').hidden = false;
-        var copy = document.getElementById('dlCopy');
-        copy.hidden = false;
-        copy.addEventListener('click', function(){
-          var done = function(){ copy.textContent = 'link copied, paste it in your browser'; };
-          if (navigator.clipboard && navigator.clipboard.writeText) navigator.clipboard.writeText(selfUrl).then(done).catch(done);
-          else { var ta=document.createElement('textarea'); ta.value=selfUrl; ta.style.position='fixed'; ta.style.opacity='0'; document.body.appendChild(ta); ta.select(); try{document.execCommand('copy');done();}catch(e){} document.body.removeChild(ta); }
-          track('download_link_copied');
-        });
       }
 
-      // --- routing ---------------------------------------------------------
-      if (!inApp || escaped) {
-        // A real browser: the plain App Store URL works.
-        setTimeout(function(){ nav(appStoreUrl, 'direct'); }, 650);
-        return;
-      }
-      if (!isIOS) {
-        // Android in-app: the iOS app is not the destination anyway, so send
-        // them somewhere that works in any webview.
-        document.getElementById('dlTitle').textContent = 'Iro runs in your browser';
-        document.getElementById('dlSub').textContent = 'The iOS app is coming to Android. Start learning right now at app.tryiro.com, and your progress carries over.';
-        link.href = 'https://app.tryiro.com/?' + q;
-        link.textContent = 'Open the web app';
-        document.getElementById('dlHint').hidden = true;
-        track('download_android_webapp_offered');
-        return;
-      }
+      var esc = escapeUrl();
+      track('download_link_opened', { escape_scheme: esc ? esc.split(':')[0] : 'none' });
 
-      // iOS in-app browser: try to hand off before falling back to instructions.
-      // Step 1 asks iOS to reopen this URL in Safari, which is the escape most
-      // likely to survive; step 2 tries the App Store's own scheme; step 3 is
-      // the manual card. Each step is tracked so the data tells us what still
-      // works rather than us guessing.
-      nav('x-safari-' + selfUrl, 'x-safari');
-      setTimeout(function(){ if (!handedOff && !document.hidden) nav(itmsUrl, 'itms-apps'); }, 900);
-      setTimeout(function(){ if (!handedOff && !document.hidden) showManual(); }, 2000);
+      if (!esc) { window.location.href = target; return; }
+
+      window.location.href = esc;
+      setTimeout(function(){ if (!handedOff && !document.hidden) showManual(); }, 1500);
     })();
   </script>
 </body>
