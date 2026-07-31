@@ -568,10 +568,6 @@
       "destination": "/download.html"
     },
     {
-      "source": "/t",
-      "destination": "/t.html"
-    },
-    {
       "source": "/es",
       "destination": "/es.html"
     },
