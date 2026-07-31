@@ -55,7 +55,7 @@
       var q = 'utm_source=' + encodeURIComponent(source) + '&utm_medium=' + encodeURIComponent(medium) + '&utm_campaign=' + encodeURIComponent(campaign);
       var appStoreUrl = 'https://apps.apple.com/app/id6759628066?' + q;
       var itmsUrl     = 'itms-apps://apps.apple.com/app/id6759628066?' + q;
-      var selfUrl     = window.location.origin + '/download?' + q + '&esc=1';
+      var selfUrl     = window.location.origin + '/get?' + q + '&esc=1';
 
       var link = document.getElementById('downloadLink');
       if (link) link.href = appStoreUrl;
