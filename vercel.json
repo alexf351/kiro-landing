@@ -1124,6 +1124,22 @@
     {
       "source": "/ai-productivity",
       "destination": "/ai-productivity.html"
+    },
+    {
+      "source": "/learn-notebooklm",
+      "destination": "/learn-notebooklm.html"
+    },
+    {
+      "source": "/learn-cursor",
+      "destination": "/learn-cursor.html"
+    },
+    {
+      "source": "/learn-elevenlabs",
+      "destination": "/learn-elevenlabs.html"
+    },
+    {
+      "source": "/learn-gamma",
+      "destination": "/learn-gamma.html"
     }
   ]
 }

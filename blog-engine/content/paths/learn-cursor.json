@@ -1,0 +1,168 @@
+{
+  "slug": "learn-cursor",
+  "order": 32,
+  "category": "tools",
+  "eyebrow": "Learn Cursor",
+  "hubTitle": "Learn Cursor",
+  "hubBlurb": "Get an AI editor to work on your codebase without wrecking it.",
+  "title": "Learn Cursor: Agent Mode, Rules & Reviewing AI Code | Iro AI",
+  "h1": "Cursor writes code faster than you can read it. That's the problem to solve.",
+  "metaDescription": "How to use Cursor well: when to use Composer versus Agent mode, writing rules that stick, managing context, and reviewing generated code properly.",
+  "keywords": [
+    "Cursor AI",
+    "how to use Cursor",
+    "Cursor agent mode",
+    "cursorrules",
+    "Cursor tutorial",
+    "AI code editor"
+  ],
+  "lede": "Cursor is an AI-first code editor that can edit across files, run terminal commands, and iterate on its own mistakes. The people who get value from it are not the ones who prompt best. They are the ones who review best.",
+  "pills": [
+    "Cursor",
+    "AI coding",
+    "Agent mode",
+    "Code review"
+  ],
+  "about": "Cursor and AI-assisted coding",
+  "level": "Intermediate",
+  "audience": "Developers, technical founders, and anyone shipping code with AI assistance",
+  "teaches": [
+    "Choosing between inline edits, Composer, and Agent mode",
+    "Writing rules files that survive long sessions",
+    "Managing context so the model sees what matters",
+    "Reviewing generated code adversarially"
+  ],
+  "tldr": {
+    "answer": "Cursor is an AI code editor built around three levels of assistance: inline edits for single changes, Composer for multi-file edits you review as diffs, and Agent mode, which reads the codebase, edits files, runs terminal commands, and loops until the task is done. The skill that separates people who ship with it from people who accumulate debt is reviewing its output with the same scrutiny you would apply to a pull request from a stranger.",
+    "bullets": [
+      "Composer edits multiple files and shows you a diff per file before you accept.",
+      "Agent mode runs a longer autonomous loop, including terminal commands.",
+      "Rules files in .cursor/rules keep the model on your conventions and stop it inventing packages.",
+      "Context can be silently dropped in long sessions, so re-mention key files explicitly."
+    ]
+  },
+  "outcomesHeading": "What you'll be able to do",
+  "outcomes": [
+    "Pick the right mode for the size of the change",
+    "Write a rules file that actually changes the output",
+    "Keep the model pointed at the files that matter",
+    "Catch the failure mode that costs most: plausible code solving the wrong problem"
+  ],
+  "lessons": [
+    {
+      "t": "Three modes, three jobs",
+      "dur": "5 min",
+      "blurb": "Inline, Composer, Agent: when each one is the right amount of autonomy."
+    },
+    {
+      "t": "Rules that survive",
+      "dur": "5 min",
+      "blurb": "What to put in .cursor/rules, and why long sessions quietly forget it."
+    },
+    {
+      "t": "Context is a budget",
+      "dur": "5 min",
+      "blurb": "Pointing at the right files instead of hoping the model finds them."
+    },
+    {
+      "t": "Reviewing like a skeptic",
+      "dur": "5 min",
+      "blurb": "Reading generated diffs for what is wrong, not for whether they look reasonable."
+    }
+  ],
+  "practice": {
+    "type": "Tool judgment",
+    "scenario": "You need to rename a database column and update every usage across about fifteen files, including two migrations and a handful of tests.",
+    "task": "Choose the approach most likely to land this cleanly.",
+    "options": [
+      {
+        "text": "Use Agent mode with the prompt \"rename the column and fix everything\", then accept the result once the tests pass.",
+        "correct": false
+      },
+      {
+        "text": "Use Composer, name the old and new column, list the migration and test files explicitly, then review each file's diff before accepting.",
+        "correct": true
+      },
+      {
+        "text": "Use inline edit in each of the fifteen files one at a time.",
+        "correct": false
+      },
+      {
+        "text": "Ask Cursor in chat how to do it, then make all the edits by hand.",
+        "correct": false
+      }
+    ],
+    "revealLabel": "See why the second approach wins",
+    "feedback": "The second option wins on two counts. First, <strong>Composer shows a diff per file</strong>, so you approve fifteen small reviewable changes rather than one opaque result. Second, naming the migration and test files explicitly stops the model guessing at scope, which is where renames usually go wrong. Agent mode with a vague prompt is the expensive failure: passing tests prove the tests still pass, not that the rename was complete or that a migration was not silently rewritten. Inline editing fifteen files is slow and invites you to miss one. Doing it entirely by hand throws away the leverage."
+  },
+  "body": [
+    {
+      "h2": "Three modes, and how much rope to give",
+      "html": "<p>Cursor offers escalating levels of autonomy, and matching the level to the task is most of the skill.</p><ul><li><strong>Inline edit</strong> for a single function or block. You see exactly what changed.</li><li><strong>Composer</strong> for changes across several files. It proposes a diff per file and you accept or reject each one. This is the workhorse.</li><li><strong>Agent mode</strong> for longer tasks where you want it to read the codebase, run commands, watch output, and iterate. Powerful and the easiest to misuse.</li></ul><p>A useful rule: the more files a change touches, the more you want to see diffs rather than outcomes. Agent mode is best on work you could describe precisely to a competent contractor, and worst on work you have not fully thought through yourself.</p>"
+    },
+    {
+      "h2": "Rules files, and why they stop working",
+      "html": "<p>Rules live in <code>.cursor/rules</code> and tell the model your conventions: the packages you use, the patterns you want, the APIs that are off limits. Good rules prevent the two most annoying agent failures, importing packages that do not exist and using APIs from an older version of your framework.</p><p>The catch is that in long sessions, context gets compacted and rules can be silently dropped. If output starts drifting from your conventions halfway through a session, that is usually what happened. Re-mention the rule or the file explicitly rather than assuming it is still in play.</p><p>Keep rules short and specific. A rules file that explains standard patterns wastes context on things the model already knows. Spend it on what is unique to your codebase.</p>"
+    },
+    {
+      "h2": "Reviewing generated code",
+      "html": "<p>Cursor writes faster than you read. That inverts where your time goes, and most people have not adjusted: the bottleneck stopped being typing and became reviewing.</p><p>Read a generated diff looking for what is <em>wrong</em>, not checking whether it looks reasonable. Agreeable-looking code is exactly what these models are best at producing. Specifically:</p><ul><li>Does it solve the problem you described, or a slightly different one? This is the most expensive failure and the hardest to spot.</li><li>Did it touch files you did not expect?</li><li>Did it handle the edge case, or add a comment claiming it did?</li><li>Do the tests actually exercise the change, or did the model write tests that pass by construction?</li></ul>"
+    },
+    {
+      "h2": "What Cursor does not fix",
+      "html": "<p>An AI editor makes a good engineer faster. It does not make an unclear specification clear. If you cannot describe what you want precisely, the model will produce something plausible in the wrong direction, and you will spend longer unpicking it than you would have spent writing it.</p><p>The skills that compound here are the same ones that transfer to every model release: specifying constraints up front, reading adversarially, and knowing which tasks are faster done by hand.</p>"
+    }
+  ],
+  "faqHeading": "Cursor questions",
+  "faq": [
+    {
+      "q": "What is Cursor?",
+      "a": "Cursor is an AI-first code editor. It offers inline edits for single changes, Composer for multi-file edits reviewed as diffs, and Agent mode, which reads your codebase, edits files, runs terminal commands, and iterates until a task is finished."
+    },
+    {
+      "q": "What is the difference between Composer and Agent mode in Cursor?",
+      "a": "Composer proposes multi-file edits and shows a diff per file for you to accept or reject. Agent mode runs a longer autonomous loop, executing terminal commands and iterating on its own output with less intervention. Use Composer when you want to review each change, and Agent mode for well-specified longer tasks."
+    },
+    {
+      "q": "What should go in a .cursor/rules file?",
+      "a": "Your conventions, the packages and framework versions you actually use, and patterns specific to your codebase. Keep it short. Rules prevent the model importing non-existent packages or using outdated APIs. Avoid explaining standard patterns, which wastes context."
+    },
+    {
+      "q": "Why does Cursor stop following my rules mid-session?",
+      "a": "Long sessions compact context, which can silently drop rules. If output starts drifting from your conventions, re-mention the rule or the relevant file explicitly rather than assuming it is still in context."
+    },
+    {
+      "q": "Which AI model should I use inside Cursor?",
+      "a": "Cursor lets you choose, and the picks have real trade-offs. See our guide to choosing an AI model for coding for how the current options compare on agentic work, raw capability, and cost."
+    }
+  ],
+  "related": [
+    {
+      "href": "/ai-for-developers",
+      "label": "AI for developers"
+    },
+    {
+      "href": "/vibe-coding-course",
+      "label": "Vibe coding course"
+    },
+    {
+      "href": "/blog/best-ai-model-for-coding",
+      "label": "Which AI model for coding?"
+    }
+  ],
+  "readNext": [
+    {
+      "href": "/blog/best-ai-coding-tools",
+      "label": "The best AI coding tools"
+    },
+    {
+      "href": "/blog/best-ai-model-for-coding",
+      "label": "Which AI model should you use for coding?"
+    }
+  ],
+  "llmsBlurb": "How to use Cursor well: choosing between Composer and Agent mode, writing rules that stick, managing context, and reviewing generated code.",
+  "ctaHeading": "Practise reviewing AI code.",
+  "ctaBody": "Iro turns specification, adversarial review, and knowing when not to delegate into five-minute exercises with feedback.",
+  "datePublished": "2026-07-29",
+  "dateModified": "2026-07-29"
+}
