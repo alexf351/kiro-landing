@@ -77,7 +77,7 @@
     {
       "id": "terms",
       "heading": "What the terms actually say",
-      "html": "<p>Everything below comes from each company's own published policy or its store listing. Where something is a user account rather than a documented fact, it says so.</p><h3>Coursiv</h3><p>Coursiv advertises a money-back guarantee, and it is real, but it is <strong>conditional on how much of the app you used</strong>. From its published refund policy, to qualify you must have:</p><ul><li><strong>1-week plan:</strong> used the app at least 3 days, and completed 2 guides or 70% of modules</li><li><strong>4-week plan:</strong> used the app at least 7 days, and completed 4 guides or 80% of modules</li><li><strong>12-week plan:</strong> used the app at least 10 days, and completed 4 guides or 80% of modules</li></ul><p>Requests go to support within 30 days of purchase, with screenshots showing your progress. The policy states that dissatisfaction on its own, or a billing complaint without meeting the usage criteria, is not covered.</p><p>Read that again in practical terms. If you subscribe, dislike it on day two and stop opening it, you have disqualified yourself from the guarantee by not using it enough. The people most likely to want a refund are the people least likely to qualify for one. That is not hidden and it is not illegal. It is just the opposite of what most people hear in the phrase 'money-back guarantee'.</p><h3>Finestro</h3><p>Finestro runs about <strong>$10 for a one-week trial, then roughly $49.99 a month</strong>. Its published refund policy lists forgetting to cancel before the trial converts, and being unaware of auto-renewal, as reasons that do <em>not</em> qualify for a refund. The trial deadline is entirely your responsibility.</p><p>Separately, and at a lower level of certainty: App Store reviewers and people filing complaints with the Better Business Bureau describe charges continuing after cancellation requests and refunds being refused. Those are user accounts, not findings. Set against them, the app holds roughly <strong>4.76 out of 5 across about 320 App Store ratings</strong>, so plenty of customers have no complaint at all.</p><h3>Learnova</h3><p>Learnova is the hardest of the three to pin down, which is itself the finding. Its pricing and refund terms are not published anywhere we could verify, and its App Store listing carries too few ratings to show a rating overview at all.</p><p>We are not going to invent numbers to fill the row. If you are considering Learnova, open the App Store listing, tap through to the subscription details before you subscribe, and screenshot the renewal price and date. If a price is hard to find before you pay, treat that as information.</p>"
+      "html": "<p>Everything below comes from each company's own published policy or its store listing. Where something is a user account rather than a documented fact, it says so.</p><h3>Coursiv</h3><p>Coursiv advertises a money-back guarantee, and it is real, but it is <strong>conditional on how much of the app you used</strong>. From its published refund policy, to qualify you must have:</p><ul><li><strong>1-week plan:</strong> used the app at least 3 days, and completed 2 guides or 70% of modules</li><li><strong>4-week plan:</strong> used the app at least 7 days, and completed 4 guides or 80% of modules</li><li><strong>12-week plan:</strong> used the app at least 10 days, and completed 4 guides or 80% of modules</li></ul><p>Requests go to support within 30 days of purchase, with screenshots showing your progress. The policy states that dissatisfaction on its own, or a billing complaint without meeting the usage criteria, is not covered.</p><p>Read that again in practical terms. If you subscribe, dislike it on day two and stop opening it, you have disqualified yourself from the guarantee by not using it enough. The people most likely to want a refund are the people least likely to qualify for one. That is not hidden and it is not illegal. It is just the opposite of what most people hear in the phrase 'money-back guarantee'. If you are already subscribed, see <a href=\"/blog/cancel-coursiv\">how to cancel Coursiv and get your money back</a>.</p><h3>Finestro</h3><p>Finestro runs about <strong>$10 for a one-week trial, then roughly $49.99 a month</strong>. Its published refund policy lists forgetting to cancel before the trial converts, and being unaware of auto-renewal, as reasons that do <em>not</em> qualify for a refund. The trial deadline is entirely your responsibility.</p><p>Separately, and at a lower level of certainty: App Store reviewers and people filing complaints with the Better Business Bureau describe charges continuing after cancellation requests and refunds being refused. Those are user accounts, not findings. Set against them, the app holds roughly <strong>4.76 out of 5 across about 320 App Store ratings</strong>, so plenty of customers have no complaint at all.</p><h3>Learnova</h3><p>Learnova is the hardest of the three to pin down, which is itself the finding. Its pricing and refund terms are not published anywhere we could verify, and its App Store listing carries too few ratings to show a rating overview at all.</p><p>We are not going to invent numbers to fill the row. If you are considering Learnova, open the App Store listing, tap through to the subscription details before you subscribe, and screenshot the renewal price and date. If a price is hard to find before you pay, treat that as information.</p>"
     },
     {
       "id": "compare",
@@ -128,19 +128,20 @@
   ],
   "readNext": [
     {
+      "href": "/blog/cancel-coursiv",
+      "label": "How to cancel Coursiv and get your money back"
+    },
+    {
       "href": "/blog/cancel-finestro",
       "label": "How to cancel Finestro and request a refund"
     },
     {
       "href": "/blog/finestro-alternatives",
       "label": "The best Finestro alternatives"
-    },
-    {
-      "href": "/blog/how-to-choose-an-ai-learning-app",
-      "label": "How to choose an AI learning app"
     }
   ],
   "related": [
+    "/blog/cancel-coursiv",
     "/blog/finestro-alternatives",
     "/blog/coursiv-alternatives",
     "/blog/learnova-alternatives",

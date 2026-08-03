@@ -135,9 +135,9 @@ No. It is a real app with real content and a high average App Store rating, arou
 
 ## Read next
 
+- [How to cancel Coursiv and get your money back](https://tryiro.com/blog/cancel-coursiv)
 - [The best Finestro alternatives](https://tryiro.com/blog/finestro-alternatives)
 - [Coursiv vs Finestro vs Learnova](https://tryiro.com/blog/coursiv-vs-finestro-vs-learnova)
-- [How to choose an AI learning app](https://tryiro.com/blog/how-to-choose-an-ai-learning-app)
 
 ## About the author
 

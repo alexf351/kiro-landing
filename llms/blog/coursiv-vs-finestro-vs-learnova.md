@@ -63,7 +63,7 @@ Coursiv advertises a money-back guarantee, and it is real, but it is **condition
 
 Requests go to support within 30 days of purchase, with screenshots showing your progress. The policy states that dissatisfaction on its own, or a billing complaint without meeting the usage criteria, is not covered.
 
-Read that again in practical terms. If you subscribe, dislike it on day two and stop opening it, you have disqualified yourself from the guarantee by not using it enough. The people most likely to want a refund are the people least likely to qualify for one. That is not hidden and it is not illegal. It is just the opposite of what most people hear in the phrase 'money-back guarantee'.
+Read that again in practical terms. If you subscribe, dislike it on day two and stop opening it, you have disqualified yourself from the guarantee by not using it enough. The people most likely to want a refund are the people least likely to qualify for one. That is not hidden and it is not illegal. It is just the opposite of what most people hear in the phrase 'money-back guarantee'. If you are already subscribed, see [how to cancel Coursiv and get your money back](/blog/cancel-coursiv).
 
 Finestro runs about **$10 for a one-week trial, then roughly $49.99 a month**. Its published refund policy lists forgetting to cancel before the trial converts, and being unaware of auto-renewal, as reasons that do _not_ qualify for a refund. The trial deadline is entirely your responsibility.
 
@@ -136,9 +136,9 @@ If you subscribed inside the app on an iPhone, cancel in Settings, tap your name
 
 ## Read next
 
+- [How to cancel Coursiv and get your money back](https://tryiro.com/blog/cancel-coursiv)
 - [How to cancel Finestro and request a refund](https://tryiro.com/blog/cancel-finestro)
 - [The best Finestro alternatives](https://tryiro.com/blog/finestro-alternatives)
-- [How to choose an AI learning app](https://tryiro.com/blog/how-to-choose-an-ai-learning-app)
 
 ## About the author
 

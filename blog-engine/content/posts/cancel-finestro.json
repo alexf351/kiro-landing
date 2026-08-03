@@ -126,19 +126,20 @@
   ],
   "readNext": [
     {
+      "href": "/blog/cancel-coursiv",
+      "label": "How to cancel Coursiv and get your money back"
+    },
+    {
       "href": "/blog/finestro-alternatives",
       "label": "The best Finestro alternatives"
     },
     {
       "href": "/blog/coursiv-vs-finestro-vs-learnova",
       "label": "Coursiv vs Finestro vs Learnova"
-    },
-    {
-      "href": "/blog/how-to-choose-an-ai-learning-app",
-      "label": "How to choose an AI learning app"
     }
   ],
   "related": [
+    "/blog/cancel-coursiv",
     "/blog/finestro-alternatives",
     "/blog/coursiv-vs-finestro-vs-learnova",
     "/blog/coursiv-alternatives",

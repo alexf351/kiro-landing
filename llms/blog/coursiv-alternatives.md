@@ -87,9 +87,9 @@ Fluent enough to use AI confidently at work. The goal is practical AI fluency: p
 
 ## Read next
 
+- [How to cancel Coursiv and get your money back](https://tryiro.com/blog/cancel-coursiv)
 - [Coursiv vs Finestro vs Learnova](https://tryiro.com/blog/coursiv-vs-finestro-vs-learnova)
 - [Iro AI vs Coursiv: full comparison](https://tryiro.com/blog/iro-ai-vs-coursiv)
-- [The best Learnova alternatives](https://tryiro.com/blog/learnova-alternatives)
 
 ## About the author
 
