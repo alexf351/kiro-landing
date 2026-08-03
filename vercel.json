@@ -1206,6 +1206,14 @@
     {
       "source": "/learn-gamma",
       "destination": "/learn-gamma.html"
+    },
+    {
+      "source": "/blog/coursiv-vs-finestro-vs-learnova",
+      "destination": "/blog/coursiv-vs-finestro-vs-learnova.html"
+    },
+    {
+      "source": "/blog/cancel-finestro",
+      "destination": "/blog/cancel-finestro.html"
     }
   ]
 }

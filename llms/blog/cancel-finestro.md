@@ -1,0 +1,144 @@
+---
+title: "How to cancel Finestro and request a refund"
+canonical_url: "https://tryiro.com/blog/cancel-finestro"
+site: "Iro AI"
+site_url: "https://tryiro.com"
+app_store: "https://apps.apple.com/app/id6759628066"
+language: en-US
+keywords: ["cancel Finestro", "Finestro cancel subscription", "Finestro refund", "how to cancel Finestro AI Tools Mastery", "Finestro charged me", "Finestro unsubscribe"]
+date_published: "2026-08-03"
+date_modified: "2026-08-03"
+reading_time_minutes: 6
+author: "Alex Furukawa"
+license: "© 2026 Iro AI"
+canonical_llm_reference: "https://tryiro.com/llms-full.txt"
+pillar: "ai-fluency"
+---
+
+# How to cancel Finestro and request a refund
+
+> Cancelling stops the next charge. Getting the last one back is a separate job with a separate process. Here is how to do both, in order, with the wording that works.
+
+**Canonical:** https://tryiro.com/blog/cancel-finestro
+**Published:** 2026-08-03
+**Reading time:** ~6 min
+**Author:** Alex Furukawa — Founder of Iro AI
+
+## Key takeaways
+
+- Cancelling and refunding are two different processes. Cancel first, because it is instant and cannot be refused, then pursue the refund.
+- If you subscribed inside the app, Finestro cannot cancel it for you and neither can emailing them. Apple or Google holds the subscription.
+- Finestro's published refund policy excludes forgetting to cancel and being unaware of auto-renewal, so a refund request to Finestro on those grounds is likely to be declined.
+- Apple runs its own refund process at reportaproblem.apple.com that is independent of Finestro's policy. That is usually the better route for an App Store charge.
+- You keep access until the end of the period you already paid for, so cancelling early costs you nothing.
+
+## Do this first
+
+**Cancel before you argue.** Cancelling is instant, free, and nobody can refuse it. A refund is a request that somebody else decides on, and it can take days. People often do these in the wrong order, spend a week on emails, and get charged again while they wait.
+
+Cancelling does not cut off your access. You keep it until the end of the period you already paid for. There is no reason to wait until the last day.
+
+The one thing you need to know before you start: **where you subscribed determines who can cancel it.** If you subscribed inside the iPhone app, Apple holds that subscription, and emailing Finestro will not stop it. If you subscribed on their website with a card, Finestro holds it, and your phone settings will show nothing.
+
+Not sure which? Open Settings on your iPhone, tap your name, tap Subscriptions. If Finestro is listed there, it is an Apple subscription. If it is not, it is a web subscription.
+
+## Cancel on iPhone or iPad
+
+- Open **Settings**.
+- Tap **your name** at the top.
+- Tap **Subscriptions**.
+- Tap **Finestro: AI Tools Mastery**.
+- Tap **Cancel Subscription**, then confirm.
+
+If there is no Cancel button and it says the subscription expires on a date, it is already cancelled and you are done.
+
+Take a screenshot of the confirmation screen. If you end up disputing a later charge, that screenshot with its date is the single most useful thing you can hold.
+
+## Cancel on Android
+
+- Open the **Google Play Store** app.
+- Tap your **profile icon**, top right.
+- Tap **Payments and subscriptions**, then **Subscriptions**.
+- Choose **Finestro**.
+- Tap **Cancel subscription** and follow the prompts.
+
+Screenshot the confirmation here too. Google's subscription list is also where you check whether you have other trials converting this month, which is worth two minutes while you are in there.
+
+## Cancel a web subscription
+
+If you subscribed through Finestro's website rather than an app store, the app stores have no record of it and no power to stop it. Cancel in your account settings on their site, and if you cannot find the option, email **support@finestro.io** with your account email and a clear instruction to cancel.
+
+Two things to include, because they matter later:
+
+- **Ask for written confirmation** of the cancellation and its effective date.
+- **Keep the email.** A dated cancellation request is what turns a later charge into a disputable one.
+
+Send it from the address on the account, and do not cancel by phone or chat alone unless you get something in writing afterwards.
+
+## Getting the charge back
+
+Where the charge came from decides who you ask, and the routes are not equally good.
+
+Go to **reportaproblem.apple.com**, sign in with your Apple ID, find the charge and choose **Request a refund**. Pick the reason that is actually true, usually that you did not intend to buy the subscription or did not realise it would renew.
+
+This is Apple's process, not Finestro's, and it is decided by Apple. That is the important part: **Apple is not bound by Finestro's refund policy.** For an App Store charge this is almost always the better route, and it costs you nothing to try.
+
+Open **play.google.com/store/account/subscriptions**, find the order and request a refund. Google's own window is short, and after it passes you are directed to the developer, so do this quickly.
+
+Email **support@finestro.io**. Include the charge date, the amount, the last four digits of the card, and the account email. Ask for a specific outcome, a refund of a specific amount, rather than an explanation.
+
+Be aware of what their policy says before you write. Finestro's published refund policy lists **forgetting to cancel before the trial converts, and being unaware of auto-renewal, as reasons that do not qualify for a refund**. If those are your grounds, expect a decline and go to your card issuer instead. That is not a reason to skip asking, but it is a reason not to spend three weeks on it.
+
+## If the refund is refused
+
+You still have two options, in this order.
+
+**Ask your bank for a chargeback.** Call the number on your card or use your banking app's dispute flow. The relevant facts are the date you cancelled, the date you were charged, and the amount. This is what your cancellation screenshot is for. Chargebacks are a real consumer protection, not a trick, and they work best when you can show you tried the merchant first.
+
+**File a complaint.** In the US, that is the [FTC](https://reportfraud.ftc.gov) and the Better Business Bureau. In the UK, Citizens Advice. In the EU, your national consumer protection authority. These rarely get your specific charge back quickly, but complaint volume is the thing that changes how a company bills, and it creates a public record the next person can find.
+
+One thing not to do: leave the subscription active while you argue. Cancel first. You can dispute a past charge from a cancelled account, but you cannot undo the next one.
+
+## What to use instead
+
+Iro AI is our app, so weigh this accordingly. If what you wanted from Finestro was to actually get good at using AI, Iro does it by practice rather than reading: you write real prompts and get them graded, spot AI mistakes, and build a daily habit with streaks and ranks.
+
+The billing, since that is what brought you here: free to start with a hearts system, Pro is **$49.99 a year or $9.99 a week**, the annual plan has a 7-day free trial, and it is billed by Apple, so cancelling is the same two taps described above. There is no cheap intro week that converts to a higher monthly rate.
+
+If you would rather spend nothing at all right now, the [AI rank quiz](/quiz) is ten questions and about two minutes, with no signup and no card. For the full field including the free options, see [the best Finestro alternatives](/blog/finestro-alternatives) and [how Coursiv, Finestro and Learnova compare](/blog/coursiv-vs-finestro-vs-learnova).
+
+## FAQ
+
+**How do I cancel my Finestro subscription?**
+
+If you subscribed in the iPhone app, open Settings, tap your name, tap Subscriptions, tap Finestro: AI Tools Mastery, then Cancel Subscription. On Android, open the Play Store, tap your profile icon, then Payments and subscriptions, then Subscriptions, choose Finestro and cancel. If you subscribed on Finestro's website, cancel in your account settings there or email support@finestro.io.
+
+**Will I lose access straight away if I cancel?**
+
+No. You keep access until the end of the billing period you already paid for, then it stops renewing. There is no benefit to waiting until the last day to cancel, and waiting is how most people get charged again by accident.
+
+**Can I get a refund from Finestro?**
+
+It depends on the grounds. Finestro's published refund policy states that forgetting to cancel before the trial converts, and being unaware of auto-renewal, do not qualify. If you were charged through the App Store, request the refund from Apple at reportaproblem.apple.com instead, because Apple decides those independently of Finestro's policy.
+
+**Finestro charged me after I cancelled. What now?**
+
+Find your cancellation confirmation and note its date. Request a refund from whoever took the payment first, meaning Apple, Google or Finestro. If that is refused, contact your card issuer for a chargeback with the cancellation date, the charge date and the amount. Reviewers and BBB complainants have reported charges continuing after cancellation requests, so keep everything in writing.
+
+**How much does Finestro cost?**
+
+Roughly $10 for a one-week trial, converting to about $49.99 a month afterwards. The intro price is not the ongoing price, which is the source of most of the billing complaints about it.
+
+**Is Finestro a scam?**
+
+No. It is a real app with real content and a high average App Store rating, around 4.76 out of 5 from about 320 ratings. The complaints are about subscription mechanics rather than the product: a cheap trial that converts to a much larger monthly charge, and a refund policy that excludes forgetting to cancel.
+
+## Read next
+
+- [The best Finestro alternatives](https://tryiro.com/blog/finestro-alternatives)
+- [Coursiv vs Finestro vs Learnova](https://tryiro.com/blog/coursiv-vs-finestro-vs-learnova)
+- [How to choose an AI learning app](https://tryiro.com/blog/how-to-choose-an-ai-learning-app)
+
+## About the author
+
+Alex Furukawa — Founder of Iro AI. Alex Furukawa is the founder of Iro AI, the gamified app for learning to use AI well. He works in private equity real estate, where he leads his firm's AI initiative and builds the automation his team runs on live deals. He writes about practical AI fluency: prompting, AI tools, and the daily habits that turn AI from a novelty into hours you get back.

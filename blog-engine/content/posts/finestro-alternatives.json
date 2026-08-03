@@ -21,7 +21,7 @@
     "best AI learning app"
   ],
   "datePublished": "2026-07-29",
-  "dateModified": "2026-07-29",
+  "dateModified": "2026-08-03",
   "readingTime": 6,
   "articleSection": "AI fluency",
   "feedCategory": "AI fluency",
@@ -71,7 +71,7 @@
     {
       "id": "billing",
       "heading": "The billing question, stated fairly",
-      "html": "<p>Finestro's pricing runs about <strong>$10 for a one-week paid trial, then roughly $49.99 a month</strong>. That structure is legal, common, and easy to misread: the price you agree to is not the price you pay in week two.</p><p>Two things are worth knowing before you subscribe, and they sit at different levels of certainty.</p><p><strong>From Finestro's own published refund policy:</strong> forgetting to cancel before the trial converts, and being unaware of auto-renewal, are both listed as reasons that do <em>not</em> qualify for a refund. That is not an allegation. It is their stated policy, and it means the trial deadline is entirely your responsibility.</p><p><strong>From user reports:</strong> App Store reviews and complaints filed with the Better Business Bureau describe charges continuing after cancellation requests, refunds being refused, and difficulty reaching support. One documented account describes a $10.43 trial, a cancellation email sent two days in, and two subsequent $49.99 charges that were not refunded. These are user accounts rather than findings, and Finestro's high average rating shows plenty of customers have no complaint at all.</p><p>The practical takeaway applies to every subscription app, including ours: before you enter a card, find the renewal date, find the renewal price, and know where the cancel button lives. If an app makes those three things hard to find, that is the answer.</p>"
+      "html": "<p>Finestro's pricing runs about <strong>$10 for a one-week paid trial, then roughly $49.99 a month</strong>. That structure is legal, common, and easy to misread: the price you agree to is not the price you pay in week two.</p><p>Two things are worth knowing before you subscribe, and they sit at different levels of certainty.</p><p><strong>From Finestro's own published refund policy:</strong> forgetting to cancel before the trial converts, and being unaware of auto-renewal, are both listed as reasons that do <em>not</em> qualify for a refund. That is not an allegation. It is their stated policy, and it means the trial deadline is entirely your responsibility.</p><p><strong>From user reports:</strong> App Store reviews and complaints filed with the Better Business Bureau describe charges continuing after cancellation requests, refunds being refused, and difficulty reaching support. One documented account describes a $10.43 trial, a cancellation email sent two days in, and two subsequent $49.99 charges that were not refunded. These are user accounts rather than findings, and Finestro's high average rating shows plenty of customers have no complaint at all.</p><p>The practical takeaway applies to every subscription app, including ours: before you enter a card, find the renewal date, find the renewal price, and know where the cancel button lives. If an app makes those three things hard to find, that is the answer.</p><p>If you are already subscribed and want out, that is a separate job with a separate process: see <a href=\"/blog/cancel-finestro\">how to cancel Finestro and request a refund</a>. For how its terms compare against the two apps it is most often confused with, see <a href=\"/blog/coursiv-vs-finestro-vs-learnova\">Coursiv vs Finestro vs Learnova</a>.</p>"
     },
     {
       "id": "alts",
@@ -113,12 +113,12 @@
   ],
   "readNext": [
     {
-      "href": "/blog/coursiv-alternatives",
-      "label": "The best Coursiv alternatives"
+      "href": "/blog/cancel-finestro",
+      "label": "How to cancel Finestro and request a refund"
     },
     {
-      "href": "/blog/learnova-alternatives",
-      "label": "The best Learnova alternatives"
+      "href": "/blog/coursiv-vs-finestro-vs-learnova",
+      "label": "Coursiv vs Finestro vs Learnova"
     },
     {
       "href": "/blog/how-to-choose-an-ai-learning-app",
@@ -126,6 +126,8 @@
     }
   ],
   "related": [
+    "/blog/coursiv-vs-finestro-vs-learnova",
+    "/blog/cancel-finestro",
     "/blog/coursiv-alternatives",
     "/blog/learnova-alternatives",
     "/blog/coursiv-vs-learnova",
