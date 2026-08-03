@@ -20,7 +20,7 @@
     "AI tool comparison"
   ],
   "datePublished": "2026-05-24",
-  "dateModified": "2026-06-20",
+  "dateModified": "2026-08-03",
   "readingTime": 7,
   "articleSection": "AI tools",
   "feedCategory": "AI tools",
@@ -88,20 +88,16 @@
   ],
   "readNext": [
     {
+      "href": "/blog/is-chatgpt-plus-worth-it",
+      "label": "Is ChatGPT Plus worth it?"
+    },
+    {
       "href": "/blog/how-to-learn-chatgpt-in-2026",
       "label": "How to actually learn ChatGPT in 2026"
     },
     {
       "href": "/blog/prompt-engineering-patterns",
       "label": "The 7 prompt patterns that work everywhere"
-    },
-    {
-      "href": "/best-ai-learning-app",
-      "label": "Best AI learning app"
-    },
-    {
-      "href": "/duolingo-for-ai",
-      "label": "The Duolingo for AI"
     }
   ],
   "faq": [
@@ -127,6 +123,7 @@
     }
   ],
   "related": [
+    "/blog/is-chatgpt-plus-worth-it",
     "/learn-chatgpt",
     "/learn-claude",
     "/learn-gemini",

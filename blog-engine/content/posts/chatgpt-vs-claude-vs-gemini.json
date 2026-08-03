@@ -19,7 +19,7 @@
     "which AI to use"
   ],
   "datePublished": "2026-05-31",
-  "dateModified": "2026-06-20",
+  "dateModified": "2026-08-03",
   "readingTime": 8,
   "articleSection": "AI tools",
   "feedCategory": "AI tools",
@@ -90,20 +90,16 @@
   ],
   "readNext": [
     {
+      "href": "/blog/is-chatgpt-plus-worth-it",
+      "label": "Is ChatGPT Plus worth it?"
+    },
+    {
       "href": "/blog/best-free-ai-tools-2026",
       "label": "The best free AI tools for daily work in 2026"
     },
     {
       "href": "/blog/how-to-learn-chatgpt-in-2026",
       "label": "How to actually learn ChatGPT in 2026"
-    },
-    {
-      "href": "/learn-claude",
-      "label": "Learn Claude in Iro AI"
-    },
-    {
-      "href": "/learn-gemini",
-      "label": "Learn Gemini in Iro AI"
     }
   ],
   "faq": [
@@ -129,6 +125,7 @@
     }
   ],
   "related": [
+    "/blog/is-chatgpt-plus-worth-it",
     "/blog/best-free-ai-tools-2026",
     "/blog/how-to-learn-chatgpt-in-2026",
     "/blog/prompt-engineering-patterns",

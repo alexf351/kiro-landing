@@ -7,7 +7,7 @@ app_store: "https://apps.apple.com/app/id6759628066"
 language: en-US
 keywords: ["how to use ChatGPT", "how to use ChatGPT for beginners", "ChatGPT beginner guide", "how does ChatGPT work", "getting started with ChatGPT"]
 date_published: "2026-06-10"
-date_modified: "2026-06-20"
+date_modified: "2026-08-03"
 reading_time_minutes: 7
 author: "Alex Furukawa"
 license: "© 2026 Iro AI"
@@ -21,7 +21,7 @@ pillar: "ai-tools"
 
 **Canonical:** https://tryiro.com/blog/how-to-use-chatgpt
 **Published:** 2026-06-10
-**Updated:** 2026-06-20
+**Updated:** 2026-08-03
 **Reading time:** ~7 min
 **Author:** Alex Furukawa — Founder of Iro AI
 
@@ -101,10 +101,9 @@ Short daily practice on real prompts beats reading tips. You can build real skil
 
 ## Read next
 
+- [Is ChatGPT Plus worth it?](https://tryiro.com/blog/is-chatgpt-plus-worth-it)
 - [How to write a good AI prompt](https://tryiro.com/blog/how-to-write-a-prompt)
 - [15 ChatGPT prompts for beginners](https://tryiro.com/blog/chatgpt-prompts-for-beginners)
-- [The best AI apps in 2026](https://tryiro.com/blog/best-ai-apps)
-- [Take the free AI IQ test](https://tryiro.com/quiz)
 
 ## About the author
 

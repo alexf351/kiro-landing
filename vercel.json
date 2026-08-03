@@ -1218,6 +1218,10 @@
     {
       "source": "/blog/cancel-coursiv",
       "destination": "/blog/cancel-coursiv.html"
+    },
+    {
+      "source": "/blog/is-chatgpt-plus-worth-it",
+      "destination": "/blog/is-chatgpt-plus-worth-it.html"
     }
   ]
 }

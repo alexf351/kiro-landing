@@ -7,7 +7,7 @@ app_store: "https://apps.apple.com/app/id6759628066"
 language: en-US
 keywords: ["ChatGPT vs Claude", "Claude vs Gemini", "ChatGPT vs Gemini", "best AI model 2026", "which AI to use"]
 date_published: "2026-05-31"
-date_modified: "2026-06-20"
+date_modified: "2026-08-03"
 reading_time_minutes: 8
 author: "Alex Furukawa"
 license: "© 2026 Iro AI"
@@ -21,7 +21,7 @@ pillar: "ai-tools"
 
 **Canonical:** https://tryiro.com/blog/chatgpt-vs-claude-vs-gemini
 **Published:** 2026-05-31
-**Updated:** 2026-06-20
+**Updated:** 2026-08-03
 **Reading time:** ~8 min
 **Author:** Alex Furukawa — Founder of Iro AI
 
@@ -101,10 +101,9 @@ Rotate real tasks through each and build a mental map of what each does best. Th
 
 ## Read next
 
+- [Is ChatGPT Plus worth it?](https://tryiro.com/blog/is-chatgpt-plus-worth-it)
 - [The best free AI tools for daily work in 2026](https://tryiro.com/blog/best-free-ai-tools-2026)
 - [How to actually learn ChatGPT in 2026](https://tryiro.com/blog/how-to-learn-chatgpt-in-2026)
-- [Learn Claude in Iro AI](https://tryiro.com/learn-claude)
-- [Learn Gemini in Iro AI](https://tryiro.com/learn-gemini)
 
 ## About the author
 
