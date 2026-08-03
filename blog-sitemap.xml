@@ -821,4 +821,14 @@
       <image:title>How to cancel Finestro and request a refund</image:title>
     </image:image>
   </url>
+  <url>
+    <loc>https://tryiro.com/blog/cancel-coursiv</loc>
+    <lastmod>2026-08-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://tryiro.com/assets/og/cancel-coursiv.png</image:loc>
+      <image:title>How to cancel Coursiv and get your money back</image:title>
+    </image:image>
+  </url>
 </urlset>

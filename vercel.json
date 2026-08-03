@@ -1214,6 +1214,10 @@
     {
       "source": "/blog/cancel-finestro",
       "destination": "/blog/cancel-finestro.html"
+    },
+    {
+      "source": "/blog/cancel-coursiv",
+      "destination": "/blog/cancel-coursiv.html"
     }
   ]
 }
