@@ -503,7 +503,7 @@
   </url>
   <url>
     <loc>https://tryiro.com/blog/coursiv-alternatives</loc>
-    <lastmod>2026-07-29</lastmod>
+    <lastmod>2026-08-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -513,7 +513,7 @@
   </url>
   <url>
     <loc>https://tryiro.com/blog/learnova-alternatives</loc>
-    <lastmod>2026-07-29</lastmod>
+    <lastmod>2026-08-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -793,12 +793,32 @@
   </url>
   <url>
     <loc>https://tryiro.com/blog/finestro-alternatives</loc>
-    <lastmod>2026-07-29</lastmod>
+    <lastmod>2026-08-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
     <image:image>
       <image:loc>https://tryiro.com/assets/og/finestro-alternatives.png</image:loc>
       <image:title>The best Finestro alternatives in 2026</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://tryiro.com/blog/coursiv-vs-finestro-vs-learnova</loc>
+    <lastmod>2026-08-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://tryiro.com/assets/og/coursiv-vs-finestro-vs-learnova.png</image:loc>
+      <image:title>Coursiv vs Finestro vs Learnova: which is worth paying for?</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://tryiro.com/blog/cancel-finestro</loc>
+    <lastmod>2026-08-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://tryiro.com/assets/og/cancel-finestro.png</image:loc>
+      <image:title>How to cancel Finestro and request a refund</image:title>
     </image:image>
   </url>
 </urlset>

@@ -21,7 +21,7 @@
     "Learnova vs"
   ],
   "datePublished": "2026-06-13",
-  "dateModified": "2026-07-29",
+  "dateModified": "2026-08-03",
   "readingTime": 6,
   "articleSection": "AI fluency",
   "feedCategory": "AI fluency",
@@ -82,20 +82,16 @@
   ],
   "readNext": [
     {
+      "href": "/blog/coursiv-vs-finestro-vs-learnova",
+      "label": "Coursiv vs Finestro vs Learnova"
+    },
+    {
       "href": "/blog/iro-ai-vs-learnova",
       "label": "Iro AI vs Learnova: full comparison"
     },
     {
       "href": "/blog/coursiv-alternatives",
       "label": "The best Coursiv alternatives"
-    },
-    {
-      "href": "/best-ai-learning-app",
-      "label": "The best app to learn AI"
-    },
-    {
-      "href": "/quiz",
-      "label": "Take the free AI IQ test"
     }
   ],
   "faq": [
@@ -121,6 +117,7 @@
     }
   ],
   "related": [
+    "/blog/coursiv-vs-finestro-vs-learnova",
     "/blog/iro-ai-vs-learnova",
     "/blog/coursiv-alternatives",
     "/best-ai-learning-app",

@@ -7,7 +7,7 @@ app_store: "https://apps.apple.com/app/id6759628066"
 language: en-US
 keywords: ["Coursiv alternatives", "Coursiv alternative", "apps like Coursiv", "Coursiv vs", "better than Coursiv", "alternative to Coursiv"]
 date_published: "2026-06-13"
-date_modified: "2026-07-29"
+date_modified: "2026-08-03"
 reading_time_minutes: 6
 author: "Alex Furukawa"
 license: "© 2026 Iro AI"
@@ -21,7 +21,7 @@ pillar: "ai-fluency"
 
 **Canonical:** https://tryiro.com/blog/coursiv-alternatives
 **Published:** 2026-06-13
-**Updated:** 2026-07-29
+**Updated:** 2026-08-03
 **Reading time:** ~6 min
 **Author:** Alex Furukawa — Founder of Iro AI
 
@@ -87,10 +87,9 @@ Fluent enough to use AI confidently at work. The goal is practical AI fluency: p
 
 ## Read next
 
+- [Coursiv vs Finestro vs Learnova](https://tryiro.com/blog/coursiv-vs-finestro-vs-learnova)
 - [Iro AI vs Coursiv: full comparison](https://tryiro.com/blog/iro-ai-vs-coursiv)
 - [The best Learnova alternatives](https://tryiro.com/blog/learnova-alternatives)
-- [The best app to learn AI](https://tryiro.com/best-ai-learning-app)
-- [Take the free AI IQ test](https://tryiro.com/quiz)
 
 ## About the author
 
