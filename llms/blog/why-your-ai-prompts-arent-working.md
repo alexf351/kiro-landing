@@ -7,7 +7,7 @@ app_store: "https://apps.apple.com/app/id6759628066"
 language: en-US
 keywords: ["why ChatGPT gives bad answers", "fix AI prompts", "better ChatGPT prompts", "prompt mistakes", "prompt engineering tips"]
 date_published: "2026-05-31"
-date_modified: "2026-06-01"
+date_modified: "2026-08-03"
 reading_time_minutes: 7
 author: "Alex Furukawa"
 license: "© 2026 Iro AI"
@@ -21,7 +21,7 @@ pillar: "prompt-engineering"
 
 **Canonical:** https://tryiro.com/blog/why-your-ai-prompts-arent-working
 **Published:** 2026-05-31
-**Updated:** 2026-06-01
+**Updated:** 2026-08-03
 **Reading time:** ~7 min
 **Author:** Alex Furukawa — Founder of Iro AI
 
@@ -82,10 +82,9 @@ Practice with feedback. Iro AI's Prompt Lab scores your prompts and points out w
 
 ## Read next
 
+- [Is ChatGPT Plus worth it?](https://tryiro.com/blog/is-chatgpt-plus-worth-it)
 - [The 7 prompt patterns that work everywhere](https://tryiro.com/blog/prompt-engineering-patterns)
 - [How to actually learn ChatGPT in 2026](https://tryiro.com/blog/how-to-learn-chatgpt-in-2026)
-- [How to spot AI hallucinations in 5 seconds](https://tryiro.com/blog/spot-ai-hallucinations)
-- [Prompt Lab in Iro AI](https://tryiro.com/prompt-engineering-app)
 
 ## About the author
 

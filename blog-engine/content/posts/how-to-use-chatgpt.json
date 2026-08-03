@@ -19,7 +19,7 @@
     "getting started with ChatGPT"
   ],
   "datePublished": "2026-06-10",
-  "dateModified": "2026-06-20",
+  "dateModified": "2026-08-03",
   "readingTime": 7,
   "articleSection": "AI tools",
   "feedCategory": "AI tools",
@@ -89,20 +89,16 @@
   ],
   "readNext": [
     {
+      "href": "/blog/is-chatgpt-plus-worth-it",
+      "label": "Is ChatGPT Plus worth it?"
+    },
+    {
       "href": "/blog/how-to-write-a-prompt",
       "label": "How to write a good AI prompt"
     },
     {
       "href": "/blog/chatgpt-prompts-for-beginners",
       "label": "15 ChatGPT prompts for beginners"
-    },
-    {
-      "href": "/blog/best-ai-apps",
-      "label": "The best AI apps in 2026"
-    },
-    {
-      "href": "/quiz",
-      "label": "Take the free AI IQ test"
     }
   ],
   "faq": [
@@ -128,6 +124,7 @@
     }
   ],
   "related": [
+    "/blog/is-chatgpt-plus-worth-it",
     "/blog/how-to-write-a-prompt",
     "/blog/chatgpt-prompts-for-beginners",
     "/blog/spot-ai-hallucinations",
