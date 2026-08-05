@@ -788,6 +788,15 @@ body{
   .page-hud-coord{display:none}
 }
 @media(max-width:480px){
+.quiz-results .results-stage{margin-bottom:10px}
+.quiz-results .results-mascot{width:96px;height:96px}
+.quiz-results .results-plinth{width:132px;height:24px}
+.quiz-results .score-big{font-size:56px}
+.quiz-results .score-label{margin-bottom:12px}
+.quiz-results .results-benchmark{margin-top:10px}
+.quiz-results .message{margin:12px auto 14px}
+.quiz-results .results-profile{margin-top:26px}
+
   body{padding:76px 16px 32px}
   .quiz-intro h1 br{display:none}
   .quiz-intro h1{letter-spacing:-1.5px}
@@ -1056,14 +1065,14 @@ function showResults(){
     <div class="score-label">AI Fluency Score</div>
     <div class="rank-badge ${rankClass}">${rank}</div>
     ${benchmarkHtml}
-    ${profileHtml}
-    ${nextStepHtml}
     <p class="message">${msg}</p>
     <div class="btn-row">
       <a class="btn-primary" href="https://apps.apple.com/app/id6759628066?utm_source=website&utm_medium=cta&utm_campaign=quiz_results">Download Iro &mdash; It's Free</a>
       <button class="results-link" id="shareBtn">Challenge a Friend</button>
       <button class="retake" id="retakeBtn">Retake Quiz</button>
     </div>
+    ${profileHtml}
+    ${nextStepHtml}
     <div class="results-android">
       <p><b>On Android?</b> Iro is iOS-only for now. Leave your email and we'll send one message the day it drops.</p>
       <form id="quizNotifyForm" action="https://formspree.io/f/mbdzpzzp" method="POST" novalidate>
