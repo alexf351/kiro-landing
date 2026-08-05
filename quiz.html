@@ -676,21 +676,30 @@ body{
 }
 .challenge-bar span{color:var(--cyan);font-weight:800;font-family:'JetBrains Mono',monospace}
 /* WEAKNESS TAG — weak vector telemetry */
-.results-weakness{
-  font-family:'JetBrains Mono',monospace;
-  font-size:11px;color:var(--text2);margin-bottom:24px;
-  padding:8px 14px;border-radius:2px;
-  background:rgba(255,107,107,.04);border:1px solid rgba(255,107,107,.18);
-  display:inline-flex;align-items:center;gap:10px;
-  letter-spacing:1.5px;text-transform:uppercase;
+.results-profile{
+  width:min(340px,100%);margin:0 auto 22px;text-align:left;
+  padding:16px 18px 12px;border-radius:14px;
+  background:rgba(20,27,45,.5);border:1px solid var(--line);
   animation:fadeIn .4s ease .45s both
 }
-.results-weakness::before{
-  content:'';width:5px;height:5px;border-radius:50%;background:#FF6B6B;
-  box-shadow:0 0 6px rgba(255,107,107,.6)
+.results-profile-head{
+  display:flex;justify-content:space-between;margin-bottom:13px;
+  font-family:'JetBrains Mono',monospace;font-size:9.5px;
+  letter-spacing:.16em;text-transform:uppercase;color:var(--text3)
 }
-.results-weakness-label{color:var(--text3);opacity:.8}
-.results-weakness strong{color:#FFB0B0;font-weight:700;letter-spacing:1px}
+.rprof-row{display:grid;grid-template-columns:1fr 88px 36px;gap:10px;align-items:center;margin-bottom:10px}
+.rprof-lab{font-size:12.5px;color:var(--text2);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.rprof-bar{position:relative;height:5px;border-radius:3px;background:rgba(255,255,255,.07);overflow:hidden}
+.rprof-bar i{position:absolute;inset:0 auto 0 0;width:var(--w);border-radius:3px;background:linear-gradient(90deg,rgba(0,229,255,.4),var(--cyan))}
+.rprof-row.is-weak .rprof-bar i{background:linear-gradient(90deg,rgba(255,107,107,.4),#FF6B6B)}
+.rprof-row.is-weak .rprof-lab{color:#FFB0B0}
+.rprof-val{font-family:'JetBrains Mono',monospace;font-size:11px;color:var(--text3);text-align:right}
+.rprof-weak-tag{
+  font-family:'JetBrains Mono',monospace;font-size:9px;letter-spacing:.14em;
+  text-transform:uppercase;color:#FF8F8F;margin:-4px 0 10px;
+  display:flex;align-items:center;gap:6px
+}
+.rprof-weak-tag::before{content:'';width:4px;height:4px;border-radius:50%;background:#FF6B6B;box-shadow:0 0 5px rgba(255,107,107,.6)}
 
 /* EMAIL CAPTURE */
 .email-capture{margin-top:16px;animation:fadeIn .4s ease .7s both}
@@ -1012,15 +1021,23 @@ function showResults(){
   else{benchmark='The average is 5 out of 10, and 56% of people land at 5 or below.'}
   const benchmarkHtml='<p class="results-benchmark">'+benchmark+' <a href="/blog/average-ai-literacy-score">See the data</a></p>';
 
-  // Find weakest topic
-  let weaknessHtml='',nextStepHtml='';
-  if(missed.length>0){
-    const counts={};
-    missed.forEach(t=>{counts[t]=(counts[t]||0)+1});
-    const weakest=Object.entries(counts).sort((a,b)=>b[1]-a[1])[0][0];
-    weaknessHtml=`<div class="results-weakness"><span class="results-weakness-label">TRAIN THIS FIRST</span><strong>${weakest}</strong></div>`;
-    nextStepHtml=`<div class="results-next">Path: <strong>${weakest} Basics</strong></div>`;
-  }
+  // Real per-topic profile from this run's questions. Weakest topic is the
+  // lowest accuracy (most misses on a tie) and also drives the path rec, so
+  // the bar tag and the recommendation always agree.
+  let profileHtml='',nextStepHtml='';
+  const topicTotals={},topicMisses={};
+  questions.forEach(q=>{topicTotals[q.topic]=(topicTotals[q.topic]||0)+1});
+  missed.forEach(t=>{topicMisses[t]=(topicMisses[t]||0)+1});
+  const profile=Object.keys(topicTotals).map(t=>{
+    const total=topicTotals[t],miss=topicMisses[t]||0;
+    return {t,total,miss,right:total-miss,pct:(total-miss)/total};
+  }).sort((a,b)=>b.pct-a.pct||a.miss-b.miss);
+  const weakest=missed.length?profile[profile.length-1].t:null;
+  profileHtml=`<div class="results-profile">
+    <div class="results-profile-head"><span>Skill profile</span><span>This quiz</span></div>
+    ${profile.map(p=>`<div class="rprof-row${p.t===weakest?' is-weak':''}"><span class="rprof-lab">${p.t}</span><span class="rprof-bar"><i style="--w:${Math.round(p.pct*100)}%"></i></span><span class="rprof-val">${p.right}/${p.total}</span></div>${p.t===weakest?'<div class="rprof-weak-tag">Train this first</div>':''}`).join('')}
+  </div>`;
+  if(weakest){nextStepHtml=`<div class="results-next">Path: <strong>${weakest} Basics</strong></div>`;}
 
   const rankLc=rank.toLowerCase();
   const accuracy=score*10;
@@ -1039,7 +1056,7 @@ function showResults(){
     <div class="score-label">AI Fluency Score</div>
     <div class="rank-badge ${rankClass}">${rank}</div>
     ${benchmarkHtml}
-    ${weaknessHtml}
+    ${profileHtml}
     ${nextStepHtml}
     <p class="message">${msg}</p>
     <div class="btn-row">
@@ -1061,7 +1078,7 @@ function showResults(){
   </div>`;
 
   // #1 — PostHog quiz completed event
-  if(window.posthog)posthog.capture('quiz_completed',{score,rank,missed_topics:missed});
+  if(window.posthog)posthog.capture('quiz_completed',{score,rank,missed_topics:missed,weakest_topic:weakest});
 
   const retakeLabel=quizIndex<allQuizzes.length-1?'Try Quiz '+(quizIndex+2)+' \u2192':'Retake Quiz';
   document.getElementById('retakeBtn').textContent=retakeLabel;
