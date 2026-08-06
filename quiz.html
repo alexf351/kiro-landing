@@ -858,7 +858,7 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
 <picture><source srcset="assets/diamond-kiro.webp" type="image/webp"/><img alt="Iro" class="intro-mascot" decoding="async" src="assets/diamond-kiro.png"/></picture>
 </div>
 <h1>The AI question <span>90%</span> of <br/>professionals get wrong</h1>
-<p>10 questions. 2 minutes. The average score is 5 out of 10. Find out where you stand.</p>
+<p>10 questions. 2 minutes. Only 1 in 4 people score 9 or higher. Find out where you stand.</p>
 <button class="btn-primary" id="startBtn">Start the quiz</button>
 <div class="quiz-meta">Free &middot; No signup &middot; ~2 minutes</div>
 </div>
@@ -1023,12 +1023,13 @@ function showResults(){
   else{rank='Diamond';rankClass='rank-diamond';msg='Perfect score. You might already be an AI expert, but Iro\u2019s Prompt Lab and duels will still challenge you.';mascot='diamond-kiro.png'}
 
   // Benchmark from our own quiz data, published at /blog/average-ai-literacy-score:
-  // mean 5.2, median 5, 56% score 5 or below, 22% score 8 or higher.
+  // 97 completions as of Aug 2026, mean 7.4, median 8, P25 6, P75 9, P90 10.
   let benchmark;
-  if(score>=8){benchmark='Only 22% of people score 8 or higher.'}
-  else if(score>=6){benchmark='The average score is 5 out of 10, so you are above the curve.'}
-  else if(score===5){benchmark='That is exactly the average score.'}
-  else{benchmark='The average is 5 out of 10, and 56% of people land at 5 or below.'}
+  if(score>=10){benchmark='About 1 in 10 people score a perfect 10.'}
+  else if(score>=9){benchmark='Only about a quarter of people score 9 or higher.'}
+  else if(score===8){benchmark='That is the median score, right in the middle of the pack.'}
+  else if(score>=6){benchmark='The median score is 8, so there is room to climb.'}
+  else{benchmark='The median score is 8, and about 1 in 4 people land at 6 or below.'}
   const benchmarkHtml='<p class="results-benchmark">'+benchmark+' <a href="/blog/average-ai-literacy-score">See the data</a></p>';
 
   // Real per-topic profile from this run's questions. Weakest topic is the

@@ -679,8 +679,8 @@
     {
       "id": "https://tryiro.com/blog/average-ai-literacy-score",
       "url": "https://tryiro.com/blog/average-ai-literacy-score",
-      "title": "We tested AI literacy on 50 people. The average score was 5/10.",
-      "summary": "We pulled the results from the first 50 completions of our free AI IQ test. The average score was 5.2 out of 10, the median was 5, and 56% of people scored 5 or below. Here's the full breakdown of how AI-literate people actually are, and why most overestimate it.",
+      "title": "The average AI literacy score just jumped from 5.2 to 7.4. Here's what actually happened.",
+      "summary": "When we published the first 50 results of our free AI IQ test, the average score was 5.2 out of 10. Ninety-seven completions in, it's 7.4. People didn't get smarter in ten weeks. Who takes the test changed, and that turns out to be the more interesting finding.",
       "date_published": "2026-06-20T00:00:00Z",
       "tags": [
         "AI fluency",
