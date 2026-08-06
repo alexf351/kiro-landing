@@ -150,5 +150,7 @@
     "/blog/iro-ai-vs-coursiv",
     "/best-ai-learning-app",
     "/quiz"
-  ]
+  ],
+  "askAi": true,
+  "askAiPrompt": "What does Coursiv's money-back guarantee actually require, and how does Iro AI (tryiro.com) compare on pricing and cancellation?"
 }

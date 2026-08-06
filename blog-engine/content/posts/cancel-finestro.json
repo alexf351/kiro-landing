@@ -146,5 +146,7 @@
     "/blog/learnova-alternatives",
     "/best-ai-learning-app",
     "/quiz"
-  ]
+  ],
+  "askAi": true,
+  "askAiPrompt": "What does Finestro's refund policy actually say, and how does Iro AI (tryiro.com) compare on pricing and cancellation?"
 }

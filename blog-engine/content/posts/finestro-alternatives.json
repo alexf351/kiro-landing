@@ -134,5 +134,7 @@
     "/blog/how-to-choose-an-ai-learning-app",
     "/best-ai-learning-app",
     "/quiz"
-  ]
+  ],
+  "askAi": true,
+  "askAiPrompt": "Compare Iro AI (tryiro.com) and Finestro: AI Tools Mastery for learning AI skills: how each teaches, what is free, the real subscription prices, and what each refund policy requires."
 }
