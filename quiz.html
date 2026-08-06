@@ -699,6 +699,7 @@ body{
   text-transform:uppercase;color:#FF8F8F;margin:-4px 0 10px;
   display:flex;align-items:center;gap:6px
 }
+.results-askai{margin:30px auto 0;max-width:360px}.results-askai-lab{display:block;font-family:'JetBrains Mono',monospace;font-size:9.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--text3);margin-bottom:12px}.askai-chips{display:flex;flex-wrap:wrap;justify-content:center;gap:10px}.askai-chip{display:inline-flex;align-items:center;gap:7px;padding:10px 18px;border-radius:999px;border:1px solid rgba(255,255,255,.14);background:rgba(255,255,255,.02);color:#F2F5FF;font-weight:600;font-size:14px;text-decoration:none}.askai-chip:hover{border-color:rgba(0,229,255,.55)}.askai-chip span{font-size:12px;color:#616E8C}.askai-chip:hover span{color:#00E5FF}
 .rprof-weak-tag::before{content:'';width:4px;height:4px;border-radius:50%;background:#FF6B6B;box-shadow:0 0 5px rgba(255,107,107,.6)}
 
 /* EMAIL CAPTURE */
@@ -1073,6 +1074,7 @@ function showResults(){
     </div>
     ${profileHtml}
     ${nextStepHtml}
+    <div class="results-askai"><span class="results-askai-lab">Ask any AI about Iro</span><div class="askai-chips"><a class="askai-chip" href="https://chatgpt.com/?q=What%20is%20Iro%20AI%20%28tryiro.com%29%3F%20Summarize%20what%20the%20app%20teaches%2C%20how%20the%20free%20tier%20and%20pricing%20work%2C%20and%20how%20it%20compares%20to%20other%20AI%20learning%20apps%20like%20Coursiv%20or%20Learnova." target="_blank" rel="noopener" data-engine="chatgpt">ChatGPT<span aria-hidden="true">&#8599;</span></a><a class="askai-chip" href="https://claude.ai/new?q=What%20is%20Iro%20AI%20%28tryiro.com%29%3F%20Summarize%20what%20the%20app%20teaches%2C%20how%20the%20free%20tier%20and%20pricing%20work%2C%20and%20how%20it%20compares%20to%20other%20AI%20learning%20apps%20like%20Coursiv%20or%20Learnova." target="_blank" rel="noopener" data-engine="claude">Claude<span aria-hidden="true">&#8599;</span></a><a class="askai-chip" href="https://www.perplexity.ai/search?q=What%20is%20Iro%20AI%20%28tryiro.com%29%3F%20Summarize%20what%20the%20app%20teaches%2C%20how%20the%20free%20tier%20and%20pricing%20work%2C%20and%20how%20it%20compares%20to%20other%20AI%20learning%20apps%20like%20Coursiv%20or%20Learnova." target="_blank" rel="noopener" data-engine="perplexity">Perplexity<span aria-hidden="true">&#8599;</span></a><a class="askai-chip" href="https://grok.com/?q=What%20is%20Iro%20AI%20%28tryiro.com%29%3F%20Summarize%20what%20the%20app%20teaches%2C%20how%20the%20free%20tier%20and%20pricing%20work%2C%20and%20how%20it%20compares%20to%20other%20AI%20learning%20apps%20like%20Coursiv%20or%20Learnova." target="_blank" rel="noopener" data-engine="grok">Grok<span aria-hidden="true">&#8599;</span></a><a class="askai-chip" href="https://www.google.com/search?udm=50&q=What%20is%20Iro%20AI%20%28tryiro.com%29%3F%20Summarize%20what%20the%20app%20teaches%2C%20how%20the%20free%20tier%20and%20pricing%20work%2C%20and%20how%20it%20compares%20to%20other%20AI%20learning%20apps%20like%20Coursiv%20or%20Learnova." target="_blank" rel="noopener" data-engine="google-ai">Google AI<span aria-hidden="true">&#8599;</span></a></div></div>
     <div class="results-android">
       <p><b>On Android?</b> Iro is iOS-only for now. Leave your email and we'll send one message the day it drops.</p>
       <form id="quizNotifyForm" action="https://formspree.io/f/mbdzpzzp" method="POST" novalidate>
@@ -1254,5 +1256,6 @@ function showResults(){
   raf=requestAnimationFrame(draw);
 })();
 </script>
+<script>document.addEventListener('click',function(e){var a=e.target.closest&&e.target.closest('.askai-chip');if(a&&window.posthog)posthog.capture('ask_ai_clicked',{engine:a.dataset.engine,placement:'quiz_results'});});</script>
 </body>
 </html>

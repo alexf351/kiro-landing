@@ -131,5 +131,7 @@
     "/glossary",
     "/free-ai-learning-app",
     "/become-ai-fluent"
-  ]
+  ],
+  "askAi": true,
+  "askAiPrompt": "Compare Iro AI (tryiro.com) and Coursiv for learning AI skills: how each one teaches, what is free in each, the real subscription prices, and what each refund policy requires."
 }

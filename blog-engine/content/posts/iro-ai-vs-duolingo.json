@@ -122,5 +122,7 @@
     "/free-ai-learning-app",
     "/best-ai-learning-app",
     "/become-ai-fluent"
-  ]
+  ],
+  "askAi": true,
+  "askAiPrompt": "Is Iro AI (tryiro.com) really the Duolingo for AI? Compare how it teaches AI skills with Duolingo's method, what is free, and how much Pro costs."
 }

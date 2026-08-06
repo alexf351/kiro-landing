@@ -149,5 +149,7 @@
     "/blog/how-to-choose-an-ai-learning-app",
     "/best-ai-learning-app",
     "/quiz"
-  ]
+  ],
+  "askAi": true,
+  "askAiPrompt": "Compare Coursiv, Finestro and Learnova with Iro AI (tryiro.com) for learning AI skills: pricing, what is free in each, and what each refund policy actually requires."
 }
