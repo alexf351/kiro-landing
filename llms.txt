@@ -187,7 +187,7 @@ This direct-answer summary is also available to crawlers in homepage JSON-LD, /i
 - [News sitemap](https://tryiro.com/news-sitemap.xml): changelog entries.
 - [Markdown mirrors](https://tryiro.com/llms/index.md): clean text versions of homepage and every topic / hub page under `/llms/*.md`.
 
-Last updated: 2026-07-28.
+Last updated: 2026-08-06.
 
 <!-- PATHLIB:START -->
 ## Iro path library (learn by doing)

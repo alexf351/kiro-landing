@@ -78,7 +78,7 @@ Because AI fluency is a skill, and skills stick through active practice and reca
 
 **Is there a free version of the "Duolingo for AI"?**
 
-Yes. Iro AI is free to start on iOS, with lessons across every path plus XP, streaks, and ranks at no cost. See the full breakdown of free ways to learn AI; an optional Pro plan ($49.99 a year or $9.99/week, with a 7-day free trial) unlocks every lesson, the Prompt Lab, and unlimited duels.
+Yes. Iro AI is free to start on iOS, with every lesson across every path free plus XP, streaks, and ranks at no cost. See the full breakdown of free ways to learn AI; an optional Pro plan ($49.99 a year or $9.99/week, with a 7-day free trial) unlocks unlimited hearts, unlimited Prompt Lab sessions, and unlimited duels.
 
 ## Read next
 
