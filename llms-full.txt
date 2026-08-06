@@ -244,11 +244,12 @@ Progress (Operator Build, stats, achievements, and certificates).
 
 ## Pricing
 
-Free tier: play for free with a hearts system, similar to Duolingo. Hearts
-let you keep practicing and refill over time. Includes XP, streaks, ranks,
-and daily challenges. No credit card required.
+Free tier: every lesson in all 20 paths is free. A hearts system paces
+practice, similar to Duolingo: miss an answer and you lose a heart, and
+hearts refill over time. Includes all 16 exercise types, XP, streaks,
+ranks, and daily challenges. No credit card required.
 
-Pro tier unlocks: all lessons across every path, unlimited Custom Paths
+Pro tier unlocks: unlimited hearts, unlimited Custom Paths
 on any topic, unlimited Ask Iro voice coaching, the full prompt library,
 shareable certificates for every completed path, unlimited AI duels,
 unlimited Prompt Lab sessions, full weekly AI news briefings, extra
@@ -291,7 +292,7 @@ and Ask Iro (a built-in AI coach the user can talk to by chat or voice).
 
 ### Is Iro AI free?
 
-Yes. You can use Iro for free with a hearts system, similar to Duolingo. Hearts let you keep practicing and refill over time. Iro Pro removes the limits and unlocks the full learning experience: unlimited practice, custom AI learning paths, Ask Iro guidance, progress tracking, and all 16 exercise types. You can start with a 7-day free trial and upgrade only if you want the unlimited experience.
+Yes. You can use Iro for free with a hearts system, similar to Duolingo. Hearts let you keep practicing and refill over time. Every lesson in all 20 paths and all 16 exercise types are already free. Iro Pro removes the limits: unlimited hearts and practice, unlimited custom AI learning paths, unlimited Ask Iro guidance, and unlimited duels and Prompt Lab sessions. You can start with a 7-day free trial and upgrade only if you want the unlimited experience.
 
 ### What does Iro AI cost?
 
