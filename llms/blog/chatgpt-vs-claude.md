@@ -7,7 +7,7 @@ app_store: "https://apps.apple.com/app/id6759628066"
 language: en-US
 keywords: ["ChatGPT vs Claude", "Claude vs ChatGPT", "ChatGPT or Claude", "Claude vs ChatGPT 2026", "is Claude better than ChatGPT", "best AI assistant"]
 date_published: "2026-06-01"
-date_modified: "2026-06-20"
+date_modified: "2026-08-06"
 reading_time_minutes: 7
 author: "Alex Furukawa"
 license: "© 2026 Iro AI"
@@ -21,7 +21,7 @@ pillar: "ai-tools"
 
 **Canonical:** https://tryiro.com/blog/chatgpt-vs-claude
 **Published:** 2026-06-01
-**Updated:** 2026-06-20
+**Updated:** 2026-08-06
 **Reading time:** ~7 min
 **Author:** Alex Furukawa — Founder of Iro AI
 
@@ -94,10 +94,9 @@ Use each on real tasks daily and learn which one fits which job — that judgmen
 
 ## Read next
 
+- [Is Claude Pro worth it?](https://tryiro.com/blog/is-claude-pro-worth-it)
 - [ChatGPT vs Claude vs Gemini: the 3-way breakdown](https://tryiro.com/blog/chatgpt-vs-claude-vs-gemini)
 - [What is prompt engineering?](https://tryiro.com/blog/what-is-prompt-engineering)
-- [The free AI prompt library](https://tryiro.com/ai-prompts)
-- [Take the free AI IQ test](https://tryiro.com/quiz)
 
 ## About the author
 

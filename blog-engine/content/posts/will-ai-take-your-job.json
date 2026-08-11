@@ -20,7 +20,7 @@
     "AI and jobs"
   ],
   "datePublished": "2026-06-09",
-  "dateModified": "2026-06-09",
+  "dateModified": "2026-08-06",
   "readingTime": 7,
   "articleSection": "AI fluency",
   "feedCategory": "AI fluency",
@@ -81,20 +81,16 @@
   ],
   "readNext": [
     {
+      "href": "/blog/are-ai-certifications-worth-it",
+      "label": "Are AI certifications worth it?"
+    },
+    {
       "href": "/blog/ai-skills-for-2026",
       "label": "The 7 AI skills worth learning in 2026"
     },
     {
       "href": "/blog/the-ai-fluency-pyramid",
       "label": "The AI Fluency Pyramid"
-    },
-    {
-      "href": "/blog/how-to-use-ai-at-work",
-      "label": "How to use AI at work"
-    },
-    {
-      "href": "/quiz",
-      "label": "Take the free AI IQ test"
     }
   ],
   "faq": [
@@ -116,6 +112,7 @@
     }
   ],
   "related": [
+    "/blog/are-ai-certifications-worth-it",
     "/blog/ai-skills-for-2026",
     "/blog/the-ai-fluency-pyramid",
     "/blog/how-to-use-ai-at-work",

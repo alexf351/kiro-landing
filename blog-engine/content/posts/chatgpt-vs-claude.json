@@ -20,7 +20,7 @@
     "best AI assistant"
   ],
   "datePublished": "2026-06-01",
-  "dateModified": "2026-06-20",
+  "dateModified": "2026-08-06",
   "readingTime": 7,
   "articleSection": "AI tools",
   "feedCategory": "AI tools",
@@ -90,20 +90,16 @@
   ],
   "readNext": [
     {
+      "href": "/blog/is-claude-pro-worth-it",
+      "label": "Is Claude Pro worth it?"
+    },
+    {
       "href": "/blog/chatgpt-vs-claude-vs-gemini",
       "label": "ChatGPT vs Claude vs Gemini: the 3-way breakdown"
     },
     {
       "href": "/blog/what-is-prompt-engineering",
       "label": "What is prompt engineering?"
-    },
-    {
-      "href": "/ai-prompts",
-      "label": "The free AI prompt library"
-    },
-    {
-      "href": "/quiz",
-      "label": "Take the free AI IQ test"
     }
   ],
   "faq": [
@@ -129,6 +125,7 @@
     }
   ],
   "related": [
+    "/blog/is-claude-pro-worth-it",
     "/blog/chatgpt-vs-claude-vs-gemini",
     "/blog/what-is-prompt-engineering",
     "/blog/how-to-learn-chatgpt-in-2026",

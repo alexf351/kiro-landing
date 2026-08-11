@@ -9,7 +9,7 @@
     <description>Short, practical writing on AI fluency, prompting, AI tools, and the active-practice method that beats endless video courses.</description>
     <language>en-US</language>
     <atom:link href="https://tryiro.com/blog/rss.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Mon, 03 Aug 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 06 Aug 2026 00:00:00 GMT</lastBuildDate>
     <generator>tryiro.com</generator>
     <copyright>© 2026 Iro AI</copyright>
     <image>
@@ -727,6 +727,33 @@
       <dc:creator>Iro AI</dc:creator>
       <category>AI fluency</category>
       <description>Is ChatGPT Plus worth $20 in 2026? A straight comparison of Free, Go, Plus and Pro, what each tier actually changes, and how to tell whether you need to upgrade or just need to prompt better.</description>
+    </item>
+    <item>
+      <title>Are AI certifications worth it in 2026?</title>
+      <link>https://tryiro.com/blog/are-ai-certifications-worth-it</link>
+      <guid isPermaLink="true">https://tryiro.com/blog/are-ai-certifications-worth-it</guid>
+      <pubDate>Thu, 06 Aug 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Iro AI</dc:creator>
+      <category>AI fluency</category>
+      <description>Are AI certifications worth it in 2026? An honest look at what they cost, when they help, why the statistics you see are unreliable, and what employers actually check instead.</description>
+    </item>
+    <item>
+      <title>Is Claude Pro worth it in 2026?</title>
+      <link>https://tryiro.com/blog/is-claude-pro-worth-it</link>
+      <guid isPermaLink="true">https://tryiro.com/blog/is-claude-pro-worth-it</guid>
+      <pubDate>Thu, 06 Aug 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Iro AI</dc:creator>
+      <category>AI fluency</category>
+      <description>Is Claude Pro worth $20 in 2026? What the free tier actually allows, what Pro and Max change, how it compares to ChatGPT Plus, and how to tell which tier you need.</description>
+    </item>
+    <item>
+      <title>How to spot an AI app subscription trap before you pay</title>
+      <link>https://tryiro.com/blog/ai-subscription-traps</link>
+      <guid isPermaLink="true">https://tryiro.com/blog/ai-subscription-traps</guid>
+      <pubDate>Thu, 06 Aug 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Iro AI</dc:creator>
+      <category>AI fluency</category>
+      <description>How to spot an AI learning app subscription trap: the quiz funnel pattern, what refund policies actually require, where the cancel button lives, and a 60-second check before you enter a card.</description>
     </item>
   </channel>
 </rss>

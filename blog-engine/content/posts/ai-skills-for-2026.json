@@ -20,7 +20,7 @@
     "what AI skills to learn"
   ],
   "datePublished": "2026-06-04",
-  "dateModified": "2026-06-04",
+  "dateModified": "2026-08-06",
   "readingTime": 8,
   "articleSection": "AI fluency",
   "feedCategory": "AI fluency",
@@ -72,20 +72,16 @@
   ],
   "readNext": [
     {
+      "href": "/blog/are-ai-certifications-worth-it",
+      "label": "Are AI certifications worth it?"
+    },
+    {
       "href": "/blog/what-is-ai-fluency",
       "label": "What is AI fluency?"
     },
     {
       "href": "/how-to-learn-ai",
       "label": "How to learn AI in 2026"
-    },
-    {
-      "href": "/blog/prompt-engineering-patterns",
-      "label": "The 7 prompt patterns that work everywhere"
-    },
-    {
-      "href": "/quiz",
-      "label": "Take the free AI IQ test"
     }
   ],
   "faq": [
@@ -107,6 +103,7 @@
     }
   ],
   "related": [
+    "/blog/are-ai-certifications-worth-it",
     "/blog/what-is-ai-fluency",
     "/how-to-learn-ai",
     "/blog/prompt-engineering-patterns",

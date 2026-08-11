@@ -7,7 +7,7 @@ app_store: "https://apps.apple.com/app/id6759628066"
 language: en-US
 keywords: ["cancel Coursiv", "Coursiv cancel subscription", "Coursiv refund", "how to cancel Coursiv", "Coursiv charged me", "Coursiv money back guarantee", "Coursiv unsubscribe"]
 date_published: "2026-08-03"
-date_modified: "2026-08-03"
+date_modified: "2026-08-06"
 reading_time_minutes: 7
 author: "Alex Furukawa"
 license: "© 2026 Iro AI"
@@ -21,6 +21,7 @@ pillar: "ai-fluency"
 
 **Canonical:** https://tryiro.com/blog/cancel-coursiv
 **Published:** 2026-08-03
+**Updated:** 2026-08-06
 **Reading time:** ~7 min
 **Author:** Alex Furukawa — Founder of Iro AI
 
@@ -150,9 +151,9 @@ The Edulagoon support portal publishes the same refund policy article, word for 
 
 ## Read next
 
+- [How to spot an AI subscription trap](https://tryiro.com/blog/ai-subscription-traps)
 - [Coursiv vs Finestro vs Learnova](https://tryiro.com/blog/coursiv-vs-finestro-vs-learnova)
 - [The best Coursiv alternatives](https://tryiro.com/blog/coursiv-alternatives)
-- [How to cancel Finestro and request a refund](https://tryiro.com/blog/cancel-finestro)
 
 ## About the author
 

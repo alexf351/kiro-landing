@@ -7,7 +7,7 @@ app_store: "https://apps.apple.com/app/id6759628066"
 language: en-US
 keywords: ["AI student discounts", "ChatGPT student discount", "Gemini student free", "Claude student discount", "free AI for students", "GitHub Copilot student"]
 date_published: "2026-07-28"
-date_modified: "2026-07-28"
+date_modified: "2026-08-06"
 reading_time_minutes: 6
 author: "Alex Furukawa"
 license: "© 2026 Iro AI"
@@ -21,6 +21,7 @@ pillar: "ai-tools"
 
 **Canonical:** https://tryiro.com/blog/ai-student-discounts
 **Published:** 2026-07-28
+**Updated:** 2026-08-06
 **Reading time:** ~6 min
 **Author:** Alex Furukawa — Founder of Iro AI
 
@@ -88,9 +89,9 @@ Usually not straight away. The 2026 free tiers cover the majority of study work,
 
 ## Read next
 
+- [Are AI certifications worth it?](https://tryiro.com/blog/are-ai-certifications-worth-it)
 - [The best AI tools for students](https://tryiro.com/blog/best-ai-tools-for-students)
 - [The best free AI tools](https://tryiro.com/blog/best-free-ai-tools-2026)
-- [AI for students](https://tryiro.com/ai-for-students)
 
 ## About the author
 
