@@ -86,7 +86,7 @@ Before you enter a card into any AI app, ours included, find these four things. 
 - **Where cancelling happens.** Phone settings, or an email to support?
 - **What the refund policy requires of you.** Not whether one exists. What you must have done to qualify.
 
-Since we are asking you to apply this to us: **Iro AI is our app.** It is free to start, every lesson in all 20 paths is free with a hearts system pacing practice, and Pro is $49.99 a year with a 7-day trial or $9.99 a week. It is billed through the App Store, so cancelling is the two-tap route. There is no discounted intro week that converts to a higher rate. Check those claims against our App Store listing before you believe them.
+Since we are asking you to apply this to us: **Iro AI is our app.** It is free to start, every lesson in all 25 paths is free with a a battery pacing practice, and Pro is $49.99 a year with a 7-day trial or $9.99 a month. It is billed through the App Store, so cancelling is the two-tap route. There is no discounted intro week that converts to a higher rate. Check those claims against our App Store listing before you believe them.
 
 ## If you already paid
 

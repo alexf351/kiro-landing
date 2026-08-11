@@ -104,7 +104,7 @@ One thing not to do: leave the subscription active while you argue. Cancel first
 
 Iro AI is our app, so weigh this accordingly. If what you wanted from Finestro was to actually get good at using AI, Iro does it by practice rather than reading: you write real prompts and get them graded, spot AI mistakes, and build a daily habit with streaks and ranks.
 
-The billing, since that is what brought you here: free to start with a hearts system, Pro is **$49.99 a year or $9.99 a week**, the annual plan has a 7-day free trial, and it is billed by Apple, so cancelling is the same two taps described above. There is no cheap intro week that converts to a higher monthly rate.
+The billing, since that is what brought you here: free to start with a battery that gives you a full lesson every day and recharges overnight, Pro is **$49.99 a year or $9.99 a month**, the annual plan has a 7-day free trial, and it is billed by Apple, so cancelling is the same two taps described above. There is no cheap intro week that converts to a higher monthly rate.
 
 If you would rather spend nothing at all right now, the [AI rank quiz](/quiz) is ten questions and about two minutes, with no signup and no card. For the full field including the free options, see [the best Finestro alternatives](/blog/finestro-alternatives) and [how Coursiv, Finestro and Learnova compare](/blog/coursiv-vs-finestro-vs-learnova).
 

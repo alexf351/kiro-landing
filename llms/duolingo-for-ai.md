@@ -28,7 +28,7 @@ That means users do not need to block off a weekend to start. They can complete 
 ## What the game mechanics do
 
 - XP rewards consistent learning.
-- Hearts pace the free tier, exactly like Duolingo — they refill over time, and Pro unlocks unlimited hearts.
+- The battery paces the free tier.
 - Ranks make progress visible, and the Operator Build turns it into a skill profile: scores across prompting, tools, automation, creative AI, and work skills.
 - Chests and rewards along the lesson path make daily progress feel earned.
 - Duels create fast recall under time pressure.
@@ -44,7 +44,7 @@ The point of gamification is not decoration. It gives learners more feedback loo
 No. Iro is an independent app, but it uses a short, gamified learning style for AI skills.
 
 **What makes Iro gamified?**  
-Iro includes XP, daily streaks, hearts, ranks, chests and rewards on a Duolingo-style lesson map, live duels, daily challenges, an Operator Build skill profile, and short lessons.
+Iro includes XP, daily streaks, ranks, chests and rewards on a Duolingo-style lesson map, live duels, daily challenges, an Operator Build skill profile, and short lessons.
 
 **Can a 5-minute lesson really help?**  
 Short lessons are designed to build consistency. Over time, repeated practice helps users develop better AI habits.

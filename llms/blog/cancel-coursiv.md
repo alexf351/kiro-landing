@@ -115,7 +115,7 @@ One quirk worth knowing if you are searching for answers: the support site for *
 
 Iro AI is our app, so read this as an interested party talking. If what you wanted from Coursiv was to genuinely get better at using AI, Iro does it by practice rather than reading: you write real prompts in a Prompt Lab and get them graded, learn to spot AI mistakes, and build the habit with streaks, ranks and duels.
 
-On billing, since that is what brought you here: free to start with a hearts system, Pro is **$49.99 a year or $9.99 a week**, the annual plan includes a 7-day free trial, and it is billed by Apple, so cancelling is the same two taps described above rather than an email thread. There is no quiz that sets your price and no intro rate that converts to a higher one.
+On billing, since that is what brought you here: free to start with a battery that gives you a full lesson every day and recharges overnight, Pro is **$49.99 a year or $9.99 a month**, the annual plan includes a 7-day free trial, and it is billed by Apple, so cancelling is the same two taps described above rather than an email thread. There is no quiz that sets your price and no intro rate that converts to a higher one.
 
 If you would rather spend nothing right now, the [AI rank quiz](/quiz) is ten questions and about two minutes, no signup and no card. For the wider field including the free options, see [the best Coursiv alternatives](/blog/coursiv-alternatives), or [how Coursiv, Finestro and Learnova compare](/blog/coursiv-vs-finestro-vs-learnova) if you are weighing several of these at once.
 

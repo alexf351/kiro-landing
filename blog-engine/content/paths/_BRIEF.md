@@ -18,17 +18,17 @@ its exact topic.
   lessons, active practice with instant feedback, streaks, XP, 6 ranks, daily
   challenges, head-to-head duels (ELO matchmaking), weekly AI news.
 - **Real features you may reference:** Prompt Lab / real prompt practice with
-  feedback; 16 exercise types; **Ask Iro** (a personal AI coach — chat and
+  feedback; 24 exercise types; **Ask Iro** (a personal AI coach — chat and
   voice); **Custom Paths** (generate a learning path on almost any topic you
-  type in); shareable certificates; 20 built-in learning paths; 375 lessons;
-  2,000+ exercises. **Do NOT invent features that aren't in this list.**
+  type in); shareable certificates; 20 built-in learning paths; 433 lessons;
+  2,050+ exercises. **Do NOT invent features that aren't in this list.**
 - **Platform:** iOS now. Android is **in development** — users can join the
   Android waitlist on the home page. Iro also runs in any browser at
   **app.tryiro.com**. NEVER claim there is an Android app. NEVER touch/expand
   Android messaging beyond "in development + waitlist."
 - **Pricing:** Free to start (starter lessons + a taste of everything). Pro is
-  **$49.99 a year** (~$0.96/week) with a **7-day free trial**, or
-  **$9.99/week**. Cancel anytime. Pro unlocks every lesson/path, unlimited
+  **$49.99 a year** (about $4.17 a month) with a **7-day free trial**, or
+  **$9.99 a month**. Cancel anytime. Pro unlocks every lesson/path, unlimited
   Custom Paths, unlimited Ask Iro, full prompt library, certificates.
 - **"Free" rule:** You MAY call the iOS app "free to start" / "Download Iro
   free." You may NOT call the **web app** free (it has a paywall). Refer to the
