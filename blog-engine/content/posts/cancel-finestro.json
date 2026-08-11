@@ -22,7 +22,7 @@
     "Finestro unsubscribe"
   ],
   "datePublished": "2026-08-03",
-  "dateModified": "2026-08-03",
+  "dateModified": "2026-08-06",
   "readingTime": 6,
   "articleSection": "AI fluency",
   "feedCategory": "AI fluency",
@@ -126,19 +126,20 @@
   ],
   "readNext": [
     {
+      "href": "/blog/ai-subscription-traps",
+      "label": "How to spot an AI subscription trap"
+    },
+    {
       "href": "/blog/cancel-coursiv",
       "label": "How to cancel Coursiv and get your money back"
     },
     {
       "href": "/blog/finestro-alternatives",
       "label": "The best Finestro alternatives"
-    },
-    {
-      "href": "/blog/coursiv-vs-finestro-vs-learnova",
-      "label": "Coursiv vs Finestro vs Learnova"
     }
   ],
   "related": [
+    "/blog/ai-subscription-traps",
     "/blog/cancel-coursiv",
     "/blog/finestro-alternatives",
     "/blog/coursiv-vs-finestro-vs-learnova",

@@ -7,7 +7,7 @@ app_store: "https://apps.apple.com/app/id6759628066"
 language: en-US
 keywords: ["is ChatGPT Plus worth it", "ChatGPT Plus price", "ChatGPT Go vs Plus", "ChatGPT free vs paid", "ChatGPT pricing 2026", "is ChatGPT Pro worth it", "ChatGPT subscription"]
 date_published: "2026-08-03"
-date_modified: "2026-08-03"
+date_modified: "2026-08-06"
 reading_time_minutes: 8
 author: "Alex Furukawa"
 license: "© 2026 Iro AI"
@@ -21,6 +21,7 @@ pillar: "ai-fluency"
 
 **Canonical:** https://tryiro.com/blog/is-chatgpt-plus-worth-it
 **Published:** 2026-08-03
+**Updated:** 2026-08-06
 **Reading time:** ~8 min
 **Author:** Alex Furukawa — Founder of Iro AI
 
@@ -126,9 +127,9 @@ Free, in most cases. Improving how you prompt costs nothing and transfers to eve
 
 ## Read next
 
+- [Is Claude Pro worth it?](https://tryiro.com/blog/is-claude-pro-worth-it)
 - [Why your AI prompts are not working](https://tryiro.com/blog/why-your-ai-prompts-arent-working)
 - [ChatGPT vs Claude vs Gemini](https://tryiro.com/blog/chatgpt-vs-claude-vs-gemini)
-- [How to write a prompt](https://tryiro.com/blog/how-to-write-a-prompt)
 
 ## About the author
 

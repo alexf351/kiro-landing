@@ -203,7 +203,7 @@
   </url>
   <url>
     <loc>https://tryiro.com/blog/chatgpt-vs-claude</loc>
-    <lastmod>2026-06-20</lastmod>
+    <lastmod>2026-08-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -253,7 +253,7 @@
   </url>
   <url>
     <loc>https://tryiro.com/blog/ai-skills-for-2026</loc>
-    <lastmod>2026-06-04</lastmod>
+    <lastmod>2026-08-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -373,7 +373,7 @@
   </url>
   <url>
     <loc>https://tryiro.com/blog/will-ai-take-your-job</loc>
-    <lastmod>2026-06-09</lastmod>
+    <lastmod>2026-08-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -453,7 +453,7 @@
   </url>
   <url>
     <loc>https://tryiro.com/blog/how-to-use-claude</loc>
-    <lastmod>2026-06-20</lastmod>
+    <lastmod>2026-08-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -503,7 +503,7 @@
   </url>
   <url>
     <loc>https://tryiro.com/blog/coursiv-alternatives</loc>
-    <lastmod>2026-08-03</lastmod>
+    <lastmod>2026-08-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -783,7 +783,7 @@
   </url>
   <url>
     <loc>https://tryiro.com/blog/ai-student-discounts</loc>
-    <lastmod>2026-07-28</lastmod>
+    <lastmod>2026-08-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -803,7 +803,7 @@
   </url>
   <url>
     <loc>https://tryiro.com/blog/coursiv-vs-finestro-vs-learnova</loc>
-    <lastmod>2026-08-03</lastmod>
+    <lastmod>2026-08-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -813,7 +813,7 @@
   </url>
   <url>
     <loc>https://tryiro.com/blog/cancel-finestro</loc>
-    <lastmod>2026-08-03</lastmod>
+    <lastmod>2026-08-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -823,7 +823,7 @@
   </url>
   <url>
     <loc>https://tryiro.com/blog/cancel-coursiv</loc>
-    <lastmod>2026-08-03</lastmod>
+    <lastmod>2026-08-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -833,12 +833,42 @@
   </url>
   <url>
     <loc>https://tryiro.com/blog/is-chatgpt-plus-worth-it</loc>
-    <lastmod>2026-08-03</lastmod>
+    <lastmod>2026-08-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
     <image:image>
       <image:loc>https://tryiro.com/assets/og/is-chatgpt-plus-worth-it.png</image:loc>
       <image:title>Is ChatGPT Plus worth it in 2026?</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://tryiro.com/blog/are-ai-certifications-worth-it</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://tryiro.com/assets/og/are-ai-certifications-worth-it.png</image:loc>
+      <image:title>Are AI certifications worth it in 2026?</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://tryiro.com/blog/is-claude-pro-worth-it</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://tryiro.com/assets/og/is-claude-pro-worth-it.png</image:loc>
+      <image:title>Is Claude Pro worth it in 2026?</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://tryiro.com/blog/ai-subscription-traps</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://tryiro.com/assets/og/ai-subscription-traps.png</image:loc>
+      <image:title>How to spot an AI app subscription trap before you pay</image:title>
     </image:image>
   </url>
 </urlset>

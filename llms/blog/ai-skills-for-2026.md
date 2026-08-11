@@ -7,7 +7,7 @@ app_store: "https://apps.apple.com/app/id6759628066"
 language: en-US
 keywords: ["AI skills", "best AI skills to learn", "AI skills 2026", "most important AI skills", "AI skills for the future", "what AI skills to learn"]
 date_published: "2026-06-04"
-date_modified: "2026-06-04"
+date_modified: "2026-08-06"
 reading_time_minutes: 8
 author: "Alex Furukawa"
 license: "© 2026 Iro AI"
@@ -21,6 +21,7 @@ pillar: "ai-fluency"
 
 **Canonical:** https://tryiro.com/blog/ai-skills-for-2026
 **Published:** 2026-06-04
+**Updated:** 2026-08-06
 **Reading time:** ~8 min
 **Author:** Alex Furukawa — Founder of Iro AI
 
@@ -84,10 +85,9 @@ Yes — more than ever. Better models still need a clear goal, good context, and
 
 ## Read next
 
+- [Are AI certifications worth it?](https://tryiro.com/blog/are-ai-certifications-worth-it)
 - [What is AI fluency?](https://tryiro.com/blog/what-is-ai-fluency)
 - [How to learn AI in 2026](https://tryiro.com/how-to-learn-ai)
-- [The 7 prompt patterns that work everywhere](https://tryiro.com/blog/prompt-engineering-patterns)
-- [Take the free AI IQ test](https://tryiro.com/quiz)
 
 ## About the author
 

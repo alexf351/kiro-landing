@@ -1222,6 +1222,18 @@
     {
       "source": "/blog/is-chatgpt-plus-worth-it",
       "destination": "/blog/is-chatgpt-plus-worth-it.html"
+    },
+    {
+      "source": "/blog/are-ai-certifications-worth-it",
+      "destination": "/blog/are-ai-certifications-worth-it.html"
+    },
+    {
+      "source": "/blog/is-claude-pro-worth-it",
+      "destination": "/blog/is-claude-pro-worth-it.html"
+    },
+    {
+      "source": "/blog/ai-subscription-traps",
+      "destination": "/blog/ai-subscription-traps.html"
     }
   ]
 }

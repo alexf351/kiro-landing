@@ -949,6 +949,42 @@
         "ChatGPT",
         "comparison"
       ]
+    },
+    {
+      "id": "https://tryiro.com/blog/are-ai-certifications-worth-it",
+      "url": "https://tryiro.com/blog/are-ai-certifications-worth-it",
+      "title": "Are AI certifications worth it in 2026?",
+      "summary": "Almost every article answering this question is published by someone who sells AI certifications. Here is the version written by people who do not, including what the good ones cost and the one thing that outperforms all of them.",
+      "date_published": "2026-08-06T00:00:00Z",
+      "tags": [
+        "AI fluency",
+        "careers",
+        "AI literacy"
+      ]
+    },
+    {
+      "id": "https://tryiro.com/blog/is-claude-pro-worth-it",
+      "url": "https://tryiro.com/blog/is-claude-pro-worth-it",
+      "title": "Is Claude Pro worth it in 2026?",
+      "summary": "Claude's free tier is more generous than most people realise, and its paid tiers are priced for a workload most people do not have. Here is what each one changes and the test that tells you which you need.",
+      "date_published": "2026-08-06T00:00:00Z",
+      "tags": [
+        "AI fluency",
+        "Claude",
+        "comparison"
+      ]
+    },
+    {
+      "id": "https://tryiro.com/blog/ai-subscription-traps",
+      "url": "https://tryiro.com/blog/ai-subscription-traps",
+      "title": "How to spot an AI app subscription trap before you pay",
+      "summary": "A wave of AI learning apps run the same funnel: a personality quiz, a cheap first week, then a charge several times larger. None of it is illegal. All of it is visible before you enter a card, if you know the four things to look for.",
+      "date_published": "2026-08-06T00:00:00Z",
+      "tags": [
+        "AI fluency",
+        "AI learning apps",
+        "consumer"
+      ]
     }
   ]
 }

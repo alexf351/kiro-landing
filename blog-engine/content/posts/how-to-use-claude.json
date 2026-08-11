@@ -19,7 +19,7 @@
     "getting started with Claude"
   ],
   "datePublished": "2026-06-11",
-  "dateModified": "2026-06-20",
+  "dateModified": "2026-08-06",
   "readingTime": 6,
   "articleSection": "AI tools",
   "feedCategory": "AI tools",
@@ -80,20 +80,16 @@
   ],
   "readNext": [
     {
+      "href": "/blog/is-claude-pro-worth-it",
+      "label": "Is Claude Pro worth it?"
+    },
+    {
       "href": "/blog/chatgpt-vs-claude",
       "label": "ChatGPT vs Claude"
     },
     {
       "href": "/blog/how-to-write-a-prompt",
       "label": "How to write a good AI prompt"
-    },
-    {
-      "href": "/blog/best-ai-apps",
-      "label": "The best AI apps in 2026"
-    },
-    {
-      "href": "/quiz",
-      "label": "Take the free AI IQ test"
     }
   ],
   "faq": [
@@ -119,6 +115,7 @@
     }
   ],
   "related": [
+    "/blog/is-claude-pro-worth-it",
     "/blog/chatgpt-vs-claude",
     "/blog/how-to-write-a-prompt",
     "/blog/best-ai-apps",

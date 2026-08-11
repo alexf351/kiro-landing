@@ -7,7 +7,7 @@ app_store: "https://apps.apple.com/app/id6759628066"
 language: en-US
 keywords: ["will AI take my job", "will AI replace my job", "is my job safe from AI", "jobs AI will replace", "how to future-proof your job from AI", "AI and jobs"]
 date_published: "2026-06-09"
-date_modified: "2026-06-09"
+date_modified: "2026-08-06"
 reading_time_minutes: 7
 author: "Alex Furukawa"
 license: "© 2026 Iro AI"
@@ -21,6 +21,7 @@ pillar: "ai-fluency"
 
 **Canonical:** https://tryiro.com/blog/will-ai-take-your-job
 **Published:** 2026-06-09
+**Updated:** 2026-08-06
 **Reading time:** ~7 min
 **Author:** Alex Furukawa — Founder of Iro AI
 
@@ -88,10 +89,9 @@ No. AI is reshaping work by automating tasks within jobs, but most roles also re
 
 ## Read next
 
+- [Are AI certifications worth it?](https://tryiro.com/blog/are-ai-certifications-worth-it)
 - [The 7 AI skills worth learning in 2026](https://tryiro.com/blog/ai-skills-for-2026)
 - [The AI Fluency Pyramid](https://tryiro.com/blog/the-ai-fluency-pyramid)
-- [How to use AI at work](https://tryiro.com/blog/how-to-use-ai-at-work)
-- [Take the free AI IQ test](https://tryiro.com/quiz)
 
 ## About the author
 

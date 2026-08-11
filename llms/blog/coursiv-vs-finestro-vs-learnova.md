@@ -7,7 +7,7 @@ app_store: "https://apps.apple.com/app/id6759628066"
 language: en-US
 keywords: ["Coursiv vs Finestro", "Finestro vs Learnova", "Coursiv vs Learnova vs Finestro", "is Coursiv legit", "is Finestro legit", "best AI learning app 2026", "AI learning app refund policy"]
 date_published: "2026-08-03"
-date_modified: "2026-08-03"
+date_modified: "2026-08-06"
 reading_time_minutes: 8
 author: "Alex Furukawa"
 license: "© 2026 Iro AI"
@@ -21,6 +21,7 @@ pillar: "ai-fluency"
 
 **Canonical:** https://tryiro.com/blog/coursiv-vs-finestro-vs-learnova
 **Published:** 2026-08-03
+**Updated:** 2026-08-06
 **Reading time:** ~8 min
 **Author:** Alex Furukawa — Founder of Iro AI
 
@@ -136,9 +137,9 @@ If you subscribed inside the app on an iPhone, cancel in Settings, tap your name
 
 ## Read next
 
+- [How to spot an AI subscription trap](https://tryiro.com/blog/ai-subscription-traps)
 - [How to cancel Coursiv and get your money back](https://tryiro.com/blog/cancel-coursiv)
 - [How to cancel Finestro and request a refund](https://tryiro.com/blog/cancel-finestro)
-- [The best Finestro alternatives](https://tryiro.com/blog/finestro-alternatives)
 
 ## About the author
 

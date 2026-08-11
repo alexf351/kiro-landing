@@ -20,7 +20,7 @@
     "GitHub Copilot student"
   ],
   "datePublished": "2026-07-28",
-  "dateModified": "2026-07-28",
+  "dateModified": "2026-08-06",
   "readingTime": 6,
   "articleSection": "AI tools",
   "feedCategory": "AI tools",
@@ -94,19 +94,20 @@
   ],
   "readNext": [
     {
+      "href": "/blog/are-ai-certifications-worth-it",
+      "label": "Are AI certifications worth it?"
+    },
+    {
       "href": "/blog/best-ai-tools-for-students",
       "label": "The best AI tools for students"
     },
     {
       "href": "/blog/best-free-ai-tools-2026",
       "label": "The best free AI tools"
-    },
-    {
-      "href": "/ai-for-students",
-      "label": "AI for students"
     }
   ],
   "related": [
+    "/blog/are-ai-certifications-worth-it",
     "/blog/best-ai-tools-for-students",
     "/blog/best-free-ai-tools-2026",
     "/ai-for-students",

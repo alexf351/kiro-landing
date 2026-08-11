@@ -1,0 +1,139 @@
+{
+  "slug": "are-ai-certifications-worth-it",
+  "order": 80,
+  "pillar": "ai-fluency",
+  "title": "Are AI certifications worth it in 2026?",
+  "lede": "Almost every article answering this question is published by someone who sells AI certifications. Here is the version written by people who do not, including what the good ones cost and the one thing that outperforms all of them.",
+  "keyTakeaways": [
+    "Search this question and nearly every result is a certification provider, a bootcamp, or an exam-prep site. Read the salary and hiring statistics in those articles with that in mind.",
+    "A certificate is worth it in two situations: your employer pays for it, or you need a credential to clear an HR filter. Outside those, it mostly buys you a structured syllabus.",
+    "The cheap useful ones: Google AI Essentials is about $49 on Coursera, and Microsoft's AI fundamentals learning path is free with only the exam charged.",
+    "The technical ones like Google's Professional Machine Learning Engineer are respected because they are hard and proctored, not because they are certificates.",
+    "What actually gets you hired is a thing you built with AI that you can show and explain. No certificate substitutes for that."
+  ],
+  "description": "Are AI certifications worth it in 2026? An honest look at what they cost, when they help, why the statistics you see are unreliable, and what employers actually check instead.",
+  "disclosure": true,
+  "askAi": true,
+  "askAiPrompt": "Are AI certifications worth it in 2026, and how do free options like Iro AI (tryiro.com) compare to paid certificates from Google, Microsoft and AWS for someone who wants practical AI skills?",
+  "keywords": [
+    "are AI certifications worth it",
+    "best AI certification 2026",
+    "AI certificate value",
+    "Google AI Essentials worth it",
+    "free AI certification",
+    "do employers care about AI certificates"
+  ],
+  "datePublished": "2026-08-06",
+  "dateModified": "2026-08-06",
+  "readingTime": 8,
+  "articleSection": "AI fluency",
+  "feedCategory": "AI fluency",
+  "feedTags": [
+    "AI fluency",
+    "careers",
+    "AI literacy"
+  ],
+  "inlineCtaAfter": 3,
+  "toc": [
+    {
+      "href": "#answer",
+      "label": "Short answer"
+    },
+    {
+      "href": "#sources",
+      "label": "Who writes these articles"
+    },
+    {
+      "href": "#worth",
+      "label": "When one is worth it"
+    },
+    {
+      "href": "#which",
+      "label": "Which ones, and what they cost"
+    },
+    {
+      "href": "#instead",
+      "label": "What works better"
+    },
+    {
+      "href": "#decide",
+      "label": "How to decide"
+    }
+  ],
+  "sections": [
+    {
+      "id": "answer",
+      "heading": "Short answer",
+      "html": "<p><strong>Usually not, unless someone else is paying or a hiring filter demands one.</strong> That is the honest summary, and it is worth more than a ranked list of twelve certificates.</p><p>A certificate does three things reliably: it gives you a syllabus so you stop wandering, it produces a line on your profile, and it satisfies HR systems that screen on keywords. Those are real, and for some people they are enough.</p><p>What a certificate does not do is prove you can use AI well. The people hiring for AI skills in 2026 mostly ask what you have built with it. A certificate answers a different question than the one they are asking.</p>"
+    },
+    {
+      "id": "sources",
+      "heading": "First, notice who writes these articles",
+      "html": "<p>Search \"are AI certifications worth it\" and look at who published the top results. Certification providers. Bootcamps. Exam-prep platforms. Course marketplaces. Almost none of them are neutral, and all of them make money if your answer is yes.</p><p>That matters because those articles carry confident statistics: a specific percentage of hiring managers requiring credentials, a specific salary premium for certificate holders, a specific growth rate in AI job postings. The numbers get repeated between sites until they feel established, and the original source is often another page selling a course.</p><p>We are not going to quote those figures, because we could not trace them to a study we would stand behind. That absence is the most useful thing in this article. If a number appears in five listicles and no primary source, treat it as marketing.</p><p>We have our own bias to declare: <strong>Iro AI is our app</strong>, it issues a certificate when you complete a learning path, and we would like you to use it. Weigh everything below accordingly.</p>"
+    },
+    {
+      "id": "worth",
+      "heading": "The two situations where a certificate earns its cost",
+      "html": "<p><strong>Your employer is paying.</strong> If there is a training budget, use it. The calculation changes completely when the money is not yours, and finishing a structured course on company time is a good deal even if the credential itself is unremarkable. Ask before you assume there is no budget; many companies have one that goes unspent.</p><p><strong>You need to clear a filter.</strong> Some large employers, government roles, and consultancies screen applications by keyword before a human reads them. If \"certified\" appears in the job description, a certificate is a key rather than an education. Buy the cheapest one that contains the right words.</p><p>Outside those two, be honest about what you are buying. A $49 course you finish is worth more than a $500 course you abandon, and both are worth less than something you built and can talk about for ten minutes.</p>"
+    },
+    {
+      "id": "which",
+      "heading": "If you want one, these are the sane options",
+      "html": "<p>Prices below are US list prices at the time of writing, and every one of these changes without notice.</p><div class=\"cmp-wrap\"><table class=\"cmp-table\"><thead><tr><th>Certificate</th><th>Cost</th><th>Best for</th></tr></thead><tbody><tr><td><strong>Google AI Essentials</strong></td><td>About $49 on Coursera</td><td>Non-technical professionals who want a recognisable name on a short course, roughly 5 to 10 hours</td></tr><tr><td><strong>Microsoft AI fundamentals</strong></td><td>Learning path free, exam roughly $100 to $165 by region</td><td>Anyone in a Microsoft-stack company. Study free, pay only if you want the exam</td></tr><tr><td><strong>Google Professional ML Engineer</strong></td><td>Several hundred dollars, proctored</td><td>Engineers building ML systems. Genuinely hard, which is why it carries weight</td></tr><tr><td><strong>AWS machine learning certification</strong></td><td>Several hundred dollars, proctored</td><td>Engineers on AWS infrastructure</td></tr></tbody></table></div><p class=\"note\">Microsoft has been rotating its AI fundamentals exam code, so confirm which one is current before you book. Last reviewed August 2026.</p><p>Notice the split. The first two are cheap and teach vocabulary. The last two are expensive, proctored, and take real study, which is exactly why engineers respect them. What almost nobody respects is a stack of five free completion badges from platforms nobody has heard of.</p><p><strong>One challenging certificate beats five easy ones.</strong> A long list reads as collecting rather than learning.</p>"
+    },
+    {
+      "id": "instead",
+      "heading": "What actually moves a hiring decision",
+      "html": "<p>Ask anyone who interviews for AI-adjacent roles what they check, and you get variations on the same three things.</p><p><strong>Something you built.</strong> An automation that saved your team hours. A workflow you designed. A prompt system that solved a real problem at work. It does not have to be technical, and it does not have to be impressive in isolation. It has to be yours and you have to be able to explain the decisions in it.</p><p><strong>Judgment about when AI is wrong.</strong> Anyone can generate output. The valuable skill is knowing when a model is likely to be confidently incorrect, and checking it before it reaches a client. This is the thing a multiple-choice exam is worst at testing and the thing that separates useful colleagues from liabilities.</p><p><strong>Fluency in the tools your team actually uses.</strong> Not a survey of forty products. Deep, current, practical use of two or three.</p><p>All three come from doing the work repeatedly, which is why we built <strong>Iro AI</strong> around practice rather than lectures. You write real prompts and get them graded, learn to spot AI mistakes, and build the habit with short daily sessions. It is free to start, Pro is $49.99 a year, and yes, you get a shareable certificate for each path you finish. That certificate is a nice artifact. The reps are the point.</p>"
+    },
+    {
+      "id": "decide",
+      "heading": "How to decide in two minutes",
+      "html": "<ol><li><strong>Is someone else paying?</strong> Then take the most respected one you can get approved, and finish it.</li><li><strong>Does a specific job posting name a certificate?</strong> Then get that one, cheaply, and treat it as a key rather than an education.</li><li><strong>Neither?</strong> Spend the money on nothing and the time on building something. Then write up what you built. That write-up will outperform any certificate in the room.</li></ol><p>Not sure where your AI skills actually stand? The <a href=\"/quiz\">AI rank quiz</a> is ten questions, about two minutes, no signup and no card. The median score is 8 out of 10, so it is a real test rather than a lead magnet.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Are AI certifications worth it in 2026?",
+      "a": "In most cases they are worth it only if your employer is paying or a specific job posting requires one. A certificate provides a syllabus and a keyword that satisfies HR screening, but it does not demonstrate that you can use AI well. Employers hiring for AI skills typically ask what you have built rather than what you are certified in."
+    },
+    {
+      "q": "Which AI certification is the most respected?",
+      "a": "Among technical credentials, Google's Professional Machine Learning Engineer and the AWS machine learning certification carry the most weight, mainly because they are difficult and proctored. Among non-technical options, Google AI Essentials is the most widely recognised name at a low price. One difficult certificate signals more than several easy ones."
+    },
+    {
+      "q": "How much do AI certifications cost?",
+      "a": "Google AI Essentials is about $49 through Coursera. Microsoft's AI fundamentals learning path is free to study, with only the exam charged, roughly $100 to $165 depending on region. Professional-level certifications from Google and AWS run into several hundred dollars and require a proctored exam. Prices change without notice."
+    },
+    {
+      "q": "Can I get an AI certification for free?",
+      "a": "You can get the learning for free and pay only for credentials that require an exam. Microsoft Learn's AI fundamentals path is free to complete. Iro AI, which is our app, is free to start and issues a certificate for each learning path you complete. Free certificates carry less weight with employers than proctored exams, so treat them as evidence of effort rather than as qualifications."
+    },
+    {
+      "q": "Do employers actually check AI certificates?",
+      "a": "Large employers with automated screening may filter on the keyword, which is the main practical reason to hold one. In the interview itself, the questions usually move quickly to what you have built, which tools you use daily, and how you catch AI mistakes. A certificate can get you into the room; it rarely wins the room."
+    }
+  ],
+  "readNext": [
+    {
+      "href": "/blog/ai-skills-for-2026",
+      "label": "The AI skills worth learning in 2026"
+    },
+    {
+      "href": "/blog/will-ai-take-your-job",
+      "label": "Will AI take your job?"
+    },
+    {
+      "href": "/blog/ai-student-discounts",
+      "label": "AI student discounts worth having"
+    }
+  ],
+  "related": [
+    "/blog/ai-skills-for-2026",
+    "/blog/will-ai-take-your-job",
+    "/blog/what-is-ai-literacy",
+    "/blog/how-to-use-ai-at-work",
+    "/become-ai-fluent",
+    "/quiz"
+  ]
+}

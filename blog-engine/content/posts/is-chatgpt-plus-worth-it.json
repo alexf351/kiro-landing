@@ -23,7 +23,7 @@
     "ChatGPT subscription"
   ],
   "datePublished": "2026-08-03",
-  "dateModified": "2026-08-03",
+  "dateModified": "2026-08-06",
   "readingTime": 8,
   "articleSection": "AI fluency",
   "feedCategory": "AI fluency",
@@ -128,19 +128,20 @@
   ],
   "readNext": [
     {
+      "href": "/blog/is-claude-pro-worth-it",
+      "label": "Is Claude Pro worth it?"
+    },
+    {
       "href": "/blog/why-your-ai-prompts-arent-working",
       "label": "Why your AI prompts are not working"
     },
     {
       "href": "/blog/chatgpt-vs-claude-vs-gemini",
       "label": "ChatGPT vs Claude vs Gemini"
-    },
-    {
-      "href": "/blog/how-to-write-a-prompt",
-      "label": "How to write a prompt"
     }
   ],
   "related": [
+    "/blog/is-claude-pro-worth-it",
     "/blog/why-your-ai-prompts-arent-working",
     "/blog/chatgpt-vs-claude-vs-gemini",
     "/blog/how-to-use-chatgpt",

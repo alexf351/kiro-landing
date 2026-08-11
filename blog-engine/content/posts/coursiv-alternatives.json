@@ -21,7 +21,7 @@
     "alternative to Coursiv"
   ],
   "datePublished": "2026-06-13",
-  "dateModified": "2026-08-03",
+  "dateModified": "2026-08-06",
   "readingTime": 6,
   "articleSection": "AI fluency",
   "feedCategory": "AI fluency",
@@ -82,16 +82,16 @@
   ],
   "readNext": [
     {
+      "href": "/blog/ai-subscription-traps",
+      "label": "How to spot an AI subscription trap"
+    },
+    {
       "href": "/blog/cancel-coursiv",
       "label": "How to cancel Coursiv and get your money back"
     },
     {
       "href": "/blog/coursiv-vs-finestro-vs-learnova",
       "label": "Coursiv vs Finestro vs Learnova"
-    },
-    {
-      "href": "/blog/iro-ai-vs-coursiv",
-      "label": "Iro AI vs Coursiv: full comparison"
     }
   ],
   "faq": [
@@ -117,6 +117,7 @@
     }
   ],
   "related": [
+    "/blog/ai-subscription-traps",
     "/blog/cancel-coursiv",
     "/blog/coursiv-vs-finestro-vs-learnova",
     "/blog/iro-ai-vs-coursiv",

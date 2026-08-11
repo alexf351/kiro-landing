@@ -7,7 +7,7 @@ app_store: "https://apps.apple.com/app/id6759628066"
 language: en-US
 keywords: ["how to use Claude", "how to use Claude AI", "Claude AI beginner guide", "Claude Anthropic how to", "getting started with Claude"]
 date_published: "2026-06-11"
-date_modified: "2026-06-20"
+date_modified: "2026-08-06"
 reading_time_minutes: 6
 author: "Alex Furukawa"
 license: "© 2026 Iro AI"
@@ -21,7 +21,7 @@ pillar: "ai-tools"
 
 **Canonical:** https://tryiro.com/blog/how-to-use-claude
 **Published:** 2026-06-11
-**Updated:** 2026-06-20
+**Updated:** 2026-08-06
 **Reading time:** ~6 min
 **Author:** Alex Furukawa — Founder of Iro AI
 
@@ -85,10 +85,9 @@ Use it daily on real work and practice writing clear, constrained prompts. A few
 
 ## Read next
 
+- [Is Claude Pro worth it?](https://tryiro.com/blog/is-claude-pro-worth-it)
 - [ChatGPT vs Claude](https://tryiro.com/blog/chatgpt-vs-claude)
 - [How to write a good AI prompt](https://tryiro.com/blog/how-to-write-a-prompt)
-- [The best AI apps in 2026](https://tryiro.com/blog/best-ai-apps)
-- [Take the free AI IQ test](https://tryiro.com/quiz)
 
 ## About the author
 
