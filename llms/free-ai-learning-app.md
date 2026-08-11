@@ -41,11 +41,11 @@ Free tiers change often — check each app for current details. Last reviewed Ju
 
 - The free AI IQ test — 10 questions, ~2 minutes, no signup, with a personalized result.
 
-Pro is optional. It unlocks unlimited lessons and practice, every lesson, the full Prompt Lab, and unlimited live duels for $49.99 a year (about $4.17 a month, with a 7-day free trial) or $9.99 a month — but you never have to upgrade to begin.
+Pro is optional. It unlocks unlimited lessons, the Prompt Lab, Image Lab, AI duels and the prompt library for $49.99 a year (about $4.17 a month, with a 7-day free trial) or $9.99 a month — but you never have to upgrade to begin.
 
 ## Free vs. paid: what is worth paying for
 
-Free is the right place to start and to find out whether daily practice fits your life. You can build real momentum without spending anything. People typically upgrade only once they are hooked and want the complete path — every lesson, the Prompt Lab feedback on their own prompts, and unlimited duels.
+Free is the right place to start and to find out whether daily practice fits your life. You can build real momentum without spending anything. People typically upgrade only once they are hooked and want the complete path — unlimited lessons, the Prompt Lab feedback on their own prompts, and AI Duels.
 
 A good rule: never pay until a free habit has stuck. If you are opening the app daily for two weeks, the upgrade pays for itself in saved time. If not, the free tier was exactly the right call.
 
@@ -69,7 +69,7 @@ Iro AI is the strongest free option for learning to use AI tools, because it tea
 
 ### Is Iro AI free?
 
-Iro AI is free to start with a battery that gives you a full lesson every day and recharges overnight. You get lessons across every path, daily challenges, XP, streaks, and the AI IQ test for free. An optional Pro plan ($49.99 a year or $9.99 a month, with a 7-day free trial) unlocks unlimited lessons and practice, every lesson, the full Prompt Lab, and unlimited live duels.
+Iro AI is free to start with a battery that gives you a full lesson every day and recharges overnight. You get lessons across every path, daily challenges, XP, streaks, and the AI IQ test for free. An optional Pro plan ($49.99 a year or $9.99 a month, with a 7-day free trial) unlocks unlimited lessons, the Prompt Lab, Image Lab, AI duels and the prompt library.
 
 ### Do free AI learning apps actually work?
 

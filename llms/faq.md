@@ -41,7 +41,7 @@ Iro AI is an independent product built by a small team focused on gamified AI ed
 
 ### Is Iro AI free?
 
-Yes. You can use Iro for free with a battery that gives you a full lesson every day and recharges overnight. Iro Pro removes the limits and unlocks the full learning experience: unlimited practice, custom AI learning paths, Ask Iro guidance, progress tracking, and all 24 exercise types. You can start with a 7-day free trial and upgrade only if you want the unlimited experience.
+Yes. You can use Iro for free with a battery that gives you a full lesson every day and recharges overnight. All 24 exercise types, progress tracking, streaks, XP and ranks are free too. Iro Pro adds unlimited lessons and practice, the Prompt Lab, the Image Lab, AI Duels, the prompt library, unlimited Ask Iro, unlimited custom and community paths, and certificate claiming. You can start with a 7-day free trial and upgrade only if you want the unlimited experience.
 
 ### What does Iro AI cost?
 
@@ -101,7 +101,7 @@ No. Beginner paths start from zero on ChatGPT, Claude, Gemini, and Perplexity. A
 
 ### Does Iro have a prompt library?
 
-Iro focuses on active prompt practice and AI-generated feedback in Prompt Lab. It teaches the underlying skills rather than only providing static templates.
+Yes. The in-app prompt library is part of Iro Pro, alongside the Prompt Lab. Iro leads with active prompt practice and AI-generated feedback rather than only handing you static templates. There is also a [free prompt library on this site](/ai-prompts), open to everyone.
 
 ## Comparisons
 

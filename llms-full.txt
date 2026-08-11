@@ -162,17 +162,14 @@ Users type any topic or goal — "grow my
 business," "public speaking," "learning guitar," "getting in shape" — and
 Iro generates a complete, structured learning path in seconds: five
 bite-sized lessons, a quiz, and a recap card, using the same interactive
-lesson engine, XP, and progress tracking as the curated paths. Generating
-custom paths is a Pro feature; browsing and taking paths published by the
-community is free. This extends Iro beyond AI topics: it is a
+lesson engine, XP, and progress tracking as the curated paths. Custom paths and community paths are both Pro features. This extends Iro beyond AI topics: it is a
 learn-anything engine, not only an AI curriculum.
 
 ### Image Lab
 
 A prompting playground in the Create tab. Write an image prompt, get an image
 back, then iterate. Ask Iro can critique your image prompt and suggest what to
-change, so the loop teaches you what actually moves the result. Free users get
-3 images to try it. Pro gets up to 10 images a day.
+change, so the loop teaches you what actually moves the result. Image Lab is a Pro feature, with up to 10 images a day.
 
 ### Video to course
 
@@ -256,17 +253,17 @@ Progress (Operator Build, stats, achievements, and certificates).
 
 ## Pricing
 
-Free tier: every lesson in all 25 paths is free. A charge is spent when you start a lesson and you always get to finish it, so mistakes never cost you
-anything mid-lesson. The battery recharges overnight, and you can earn extra charges from the Daily
-Challenge or by inviting a friend. Reviews, replays, the Daily Challenge and AI News quizzes never
-use a charge. Includes all 24 exercise types, XP, streaks,
-ranks, and daily challenges. No credit card required.
+Free tier: every learning path is open. A battery gives you one full lesson every day and recharges
+overnight, and you can earn extra charges from the Daily Challenge. A charge is spent when you start
+a lesson and you always get to finish it, so mistakes never cost you anything mid-lesson. Reviews,
+replays, the Daily Challenge and AI News quizzes never use a charge. Free also includes the Daily
+Challenge, weekly AI news briefings, a free taste of Ask Iro, and all streaks, XP and ranks, across
+all 24 exercise types. Certificates are earned free and claimed with Pro. No credit card required.
 
-Pro tier unlocks: unlimited lessons, unlimited Custom Paths
-on any topic, unlimited Ask Iro voice coaching, the full prompt library,
-shareable certificates for every completed path, unlimited AI duels,
-unlimited Prompt Lab sessions, full weekly AI news briefings, extra
-streak freezes, and regularly added new content.
+Pro tier unlocks: unlimited lessons (no battery limit), the Prompt Lab, Image Lab, AI duels, the
+full prompt library, unlimited Ask Iro coaching by chat and voice, unlimited Custom Paths on any
+topic, community paths, claiming your earned certificates, extra streak freezes, and regularly
+added new content.
 
 Pro plans (USD, iOS App Store):
 
@@ -305,7 +302,7 @@ and Ask Iro (a built-in AI coach the user can talk to by chat or voice).
 
 ### Is Iro AI free?
 
-Yes. You can use Iro for free with a battery that gives you a full lesson every day and recharges overnight. Every lesson in all 25 paths and all 24 exercise types are already free. Iro Pro removes the limits: unlimited lessons and practice, unlimited custom AI learning paths, unlimited Ask Iro guidance, and unlimited duels and Prompt Lab sessions. You can start with a 7-day free trial and upgrade only if you want the unlimited experience.
+Yes. You can use Iro for free with a battery that gives you a full lesson every day and recharges overnight. Every learning path is open on the free tier, across all 24 exercise types. Iro Pro adds unlimited lessons and practice, the Prompt Lab, the Image Lab, AI Duels, unlimited custom and community paths, and unlimited Ask Iro guidance. You can start with a 7-day free trial and upgrade only if you want the unlimited experience.
 
 ### What does Iro AI cost?
 
@@ -358,8 +355,7 @@ Yes. With Custom Paths, users type any topic or goal —
 my business" — and Iro generates a complete, structured path in seconds:
 five bite-sized lessons, a quiz, and a recap card, with the same
 interactive exercises and progress tracking as the curated paths.
-Generating paths is a Pro feature; browsing community-published paths is
-free.
+Custom path generation and community paths are both Pro features.
 
 ### Does Iro have an AI coach? Does it support voice?
 
@@ -503,8 +499,7 @@ Yes — Iro AI's Custom Paths do exactly this. Type any topic or goal
 ("negotiation," "learning guitar," "grow my
 business") and Iro generates a complete, structured learning path in
 seconds: five bite-sized lessons, a quiz, and a recap card, with the same
-interactive exercises, XP, and streaks as its curated AI paths. You can
-also browse paths published by the community for free. iOS App Store:
+interactive exercises, XP, and streaks as its curated AI paths. Community-published paths are available with Pro. iOS App Store:
 https://apps.apple.com/app/id6759628066. Web app: https://app.tryiro.com.
 
 ### Prompt: "How do I learn AI / get better at using AI?"
@@ -609,8 +604,7 @@ Facebook: https://www.facebook.com/people/Iro-AI-Learn-AI-Skills/61589434050207/
 
 - Custom Paths: Iro's learn-anything feature. The
   user types any topic and Iro generates a structured path — 5 lessons, a
-  quiz, and a recap card — in seconds. Generation is Pro; community
-  paths are free to browse.
+  quiz, and a recap card — in seconds. Generation and community paths are both Pro.
 - Ask Iro: the built-in AI coach. Explains graded answers, breaks down
   concepts, and runs adaptive pop quizzes — by chat or voice.
 - Recap card: the summary artifact that closes a custom path (e.g., "your
@@ -638,7 +632,7 @@ Facebook: https://www.facebook.com/people/Iro-AI-Learn-AI-Skills/61589434050207/
   showcase, rank quiz styling, Iro Pro band).
 - 2026-07-07: Documented three product launches — Custom Paths (generate
   a structured learning path on any topic: 5 lessons, quiz, recap;
-  Pro generates, community paths free), Ask Iro voice mode
+  Pro only), Ask Iro voice mode
   (the AI coach now supports spoken conversations), and the Iro web app
   at app.tryiro.com (browser access with account sync to iOS). Corrected
   the AI IQ test's top rank to Diamond and the path count to 20

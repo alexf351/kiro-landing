@@ -30,7 +30,7 @@ canonical_llm_reference: "https://tryiro.com/llms-full.txt"
 
 ## 2026-07-07 — Custom Paths, Ask Iro voice, and the Iro web app
 
-- Custom Paths: type any topic and Iro generates a complete, structured learning path — 5 bite-sized lessons, a quiz, and a recap card — in seconds. Generation is a Pro feature; browsing community-published paths is free.
+- Custom Paths: type any topic and Iro generates a complete, structured learning path — 5 bite-sized lessons, a quiz, and a recap card — in seconds. Path generation is a Pro feature.
 - Ask Iro voice mode: the built-in AI coach now supports spoken conversations in addition to chat.
 - Iro web app: the learning experience runs in any browser at https://app.tryiro.com; streak, XP, and progress sync with the iOS app.
 

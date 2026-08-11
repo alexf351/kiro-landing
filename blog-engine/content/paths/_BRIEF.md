@@ -26,10 +26,19 @@ its exact topic.
   Android waitlist on the home page. Iro also runs in any browser at
   **app.tryiro.com**. NEVER claim there is an Android app. NEVER touch/expand
   Android messaging beyond "in development + waitlist."
-- **Pricing:** Free to start (starter lessons + a taste of everything). Pro is
-  **$49.99 a year** (about $4.17 a month) with a **7-day free trial**, or
-  **$9.99 a month**. Cancel anytime. Pro unlocks every lesson/path, unlimited
-  Custom Paths, unlimited Ask Iro, full prompt library, certificates.
+- **Pricing:** Free to start. **Every learning path is open on the free tier**,
+  paced by a battery that gives you one full lesson every day and recharges
+  overnight, with extra charges earnable from the Daily Challenge. Free also
+  includes the Daily Challenge, weekly AI news briefings, a free taste of Ask
+  Iro, and all streaks, XP and ranks. Pro is **$49.99 a year** (about $4.17 a
+  month) with a **7-day free trial**, or **$9.99 a month**. Cancel anytime.
+  Pro unlocks unlimited lessons, the **Prompt Lab**, the **Image Lab**, **AI
+  Duels**, the full prompt library, unlimited Ask Iro, unlimited Custom Paths
+  and community paths, and certificate claiming.
+- **Free/Pro rule:** NEVER give free users an allowance on Prompt Lab, Image
+  Lab or Duels. Those are Pro only. NEVER say "Pro unlocks every lesson" (every
+  path is already free). Certificates are **earned free, claimed with Pro**.
+  "Free taste" applies to **Ask Iro only**.
 - **"Free" rule:** You MAY call the iOS app "free to start" / "Download Iro
   free." You may NOT call the **web app** free (it has a paywall). Refer to the
   web app neutrally: "Iro also runs in your browser at app.tryiro.com."
