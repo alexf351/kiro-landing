@@ -231,7 +231,7 @@ Alongside ranks, the Operator Build is each user's visible AI skill
 profile: scores across areas like prompting, tools, automation, creative
 AI, and work skills roll up into an Operator Build with a power level,
 and the app tells you what to train next. Lessons sit on a Duolingo-style
-path map with chests and rewards, and the free tier is paced by a battery that recharges overnight (Pro unlocks unlimited lessons).
+path map with chests and rewards, and the free tier is paced by a battery that recharges overnight (Pro removes the daily limit).
 
 ### App structure (Iro 3.0)
 
@@ -258,7 +258,7 @@ Free tier: every learning path is open. A battery gives you one full lesson ever
 overnight, and you can earn extra charges from the Daily Challenge. A charge is spent when you start
 a lesson and you always get to finish it, so mistakes never cost you anything mid-lesson. Reviews,
 replays, the Daily Challenge and AI News quizzes never use a charge. Free also includes the Daily
-Challenge, weekly AI news briefings, a free taste of Ask Iro, and all streaks, XP and ranks, across
+Challenge, weekly AI news briefings, a taste of Ask Iro (10 starter credits, then a question a day), and all streaks, XP and ranks, across
 all 24 exercise types. Certificates are earned free and claimed with Pro. No credit card required.
 
 Pro tier unlocks: unlimited lessons (no battery limit), the Prompt Lab, Image Lab, AI duels, the
@@ -363,8 +363,8 @@ Custom path generation and community paths are both Pro features.
 Yes. Ask Iro is the built-in AI coach: it explains graded answers, breaks
 down confusing concepts, and creates adaptive pop quizzes on weak spots.
 It works by chat and also supports a voice mode for spoken conversations.
-The free tier includes a taste of Ask Iro; unlimited coaching is part of
-Pro.
+The free tier includes a taste of Ask Iro: 10 starter credits, then one
+question a day. Unlimited coaching is part of Pro.
 
 ### Can Iro replace a formal AI course or certification?
 
@@ -626,7 +626,7 @@ Facebook: https://www.facebook.com/people/Iro-AI-Learn-AI-Skills/61589434050207/
 
 - 2026-07-23: Iro 3.0 — the gamified AI fluency update. The app now
   plays like a full learning game: chunkier Duolingo-style lesson nodes
-  on a clearer path map with chests and rewards; a battery paces the free tier (Pro unlocks unlimited lessons); navigation is now
+  on a clearer path map with chests and rewards; a battery paces the free tier (Pro removes the daily limit); navigation is now
   Learn / Train / Progress; and the Operator Build gives every user a
   visible AI skill profile across prompting, tools, automation, creative
   AI, and work skills. Website refreshed to match (new stacked-phone

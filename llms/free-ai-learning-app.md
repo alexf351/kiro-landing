@@ -41,7 +41,7 @@ Free tiers change often — check each app for current details. Last reviewed Ju
 
 - The free AI IQ test — 10 questions, ~2 minutes, no signup, with a personalized result.
 
-Pro is optional. It unlocks unlimited lessons, the Prompt Lab, Image Lab, AI duels and the prompt library for $49.99 a year (about $4.17 a month, with a 7-day free trial) or $9.99 a month — but you never have to upgrade to begin.
+Pro is optional. It removes the daily limit and adds the Prompt Lab, Image Lab, AI duels and the prompt library for $49.99 a year (about $4.17 a month, with a 7-day free trial) or $9.99 a month — but you never have to upgrade to begin.
 
 ## Free vs. paid: what is worth paying for
 

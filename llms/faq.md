@@ -41,7 +41,7 @@ Iro AI is an independent product built by a small team focused on gamified AI ed
 
 ### Is Iro AI free?
 
-Yes. You can use Iro for free with a battery that gives you a full lesson every day and recharges overnight. All 24 exercise types, progress tracking, streaks, XP and ranks are free too. Iro Pro adds unlimited lessons and practice, the Prompt Lab, the Image Lab, AI Duels, the prompt library, unlimited Ask Iro, unlimited custom and community paths, and certificate claiming. You can start with a 7-day free trial and upgrade only if you want the unlimited experience.
+Yes. You can use Iro for free. Every learning path is open, and a battery gives you one full charge a day, spent when you start a new lesson and recharging overnight. You can bank up to two extra charges: one from the Daily Challenge each day, one for inviting a friend each week, or one for 300 gems. Replays, review sessions, the Daily Challenge, AI News quizzes and onboarding never use a charge. All 24 exercise types, progress tracking, streaks, XP and ranks are free too. Iro Pro adds unlimited lessons and practice, the Prompt Lab, the Image Lab, AI Duels, the prompt library, unlimited Ask Iro, unlimited custom and community paths, and certificate claiming. You can start with a 7-day free trial and upgrade only if you want the unlimited experience.
 
 ### What does Iro AI cost?
 
