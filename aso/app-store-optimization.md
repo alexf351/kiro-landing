@@ -114,7 +114,7 @@ NOT SURE WHERE YOU STAND?
 Take the free AI IQ Test — 10 questions, about two minutes — and get a personalized learning path.
 
 FREE TO START
-Every path is open free, with a battery that gives you a full lesson every day. Iro Pro removes the daily limit and adds the Prompt Lab, the Image Lab, AI Duels, custom paths, and unlimited Ask Iro: $49.99/year (about $4.17/month) with a 7-day free trial, or $9.99/month. Cancel anytime.
+Every path is open free, with a battery that gives you a full lesson every day. Iro Pro is unlimited lessons, the Prompt Lab, the Image Lab, AI Duels, custom paths, and unlimited Ask Iro: $49.99/year (about $4.17/month) with a 7-day free trial, or $9.99/month. Cancel anytime.
 
 Download Iro and turn AI from a novelty into your edge.
 ```

@@ -231,7 +231,7 @@ Alongside ranks, the Operator Build is each user's visible AI skill
 profile: scores across areas like prompting, tools, automation, creative
 AI, and work skills roll up into an Operator Build with a power level,
 and the app tells you what to train next. Lessons sit on a Duolingo-style
-path map with chests and rewards, and the free tier is paced by a battery that recharges overnight (Pro removes the daily limit).
+path map with chests and rewards, and the free tier is paced by a battery that recharges overnight (Pro is unlimited).
 
 ### App structure (Iro 3.0)
 
@@ -626,7 +626,7 @@ Facebook: https://www.facebook.com/people/Iro-AI-Learn-AI-Skills/61589434050207/
 
 - 2026-07-23: Iro 3.0 — the gamified AI fluency update. The app now
   plays like a full learning game: chunkier Duolingo-style lesson nodes
-  on a clearer path map with chests and rewards; a battery paces the free tier (Pro removes the daily limit); navigation is now
+  on a clearer path map with chests and rewards; a battery paces the free tier (Pro is unlimited); navigation is now
   Learn / Train / Progress; and the Operator Build gives every user a
   visible AI skill profile across prompting, tools, automation, creative
   AI, and work skills. Website refreshed to match (new stacked-phone

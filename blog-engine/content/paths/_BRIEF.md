@@ -36,13 +36,13 @@ its exact topic.
   Daily Challenge, weekly AI news briefings, a taste of Ask Iro (10 lifetime
   starter credits, then 1 question a day), and all streaks, XP and ranks. Pro is **$49.99 a year** (about $4.17 a
   month) with a **7-day free trial**, or **$9.99 a month**. Cancel anytime.
-  Pro removes the daily limit and adds the **Prompt Lab**, the **Image Lab**, **AI
+  Pro is unlimited lessons, the **Prompt Lab**, the **Image Lab**, **AI
   Duels**, the full prompt library, unlimited Ask Iro, unlimited Custom Paths
   and community paths, and certificate claiming.
 - **Free/Pro rule:** NEVER give free users an allowance on Prompt Lab, Image
   Lab or Duels. Those are Pro only. NEVER say Pro "unlocks lessons" (every
   lesson in every path is already open to free users; the Battery limits how
-  many NEW lessons a day, not which ones). Say Pro "removes the daily limit."
+  many NEW lessons a day, not which ones). Say Pro "is unlimited lessons" or "learn as fast as you want."
   Certificates are **earned free, claimed with Pro**. "Free taste" applies to
   **Ask Iro only**.
 - **Battery copy rule:** always "Battery" or "Battery Charge", never hearts,

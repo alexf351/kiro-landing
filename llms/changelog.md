@@ -23,7 +23,7 @@ canonical_llm_reference: "https://tryiro.com/llms-full.txt"
 ## 2026-07-23 — Iro 3.0: the gamified AI fluency update
 
 - The app now plays like a full learning game: chunkier Duolingo-style lesson nodes on a clearer path map, with chests and rewards along the route.
-- The battery paces the free tier. Iro Pro removes the daily limit, so you can do as many lessons as you want.
+- The battery paces the free tier. Iro Pro is unlimited lessons, so you can learn as fast as you want.
 - Navigation is now three tabs: Learn (paths and 5-minute lessons), Train (Prompt Lab, prompt practice, live duels), and Progress (Operator Build, stats, achievements, certificates).
 - Operator Build: every user gets a visible AI skill profile scored across prompting, tools, automation, creative AI, and work skills.
 - Website refreshed to match: stacked-phone app showcase, rank-quiz styling, and the gold Iro Pro band.
