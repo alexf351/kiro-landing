@@ -637,8 +637,9 @@ nav .wrap{display:flex;align-items:center;justify-content:space-between}
 .uni-rank .rg{display:flex}
 .uni-rank-txt{display:flex;flex-direction:column;line-height:1.18}
 .uni-ey{font-family:'JetBrains Mono',monospace;font-size:9px;letter-spacing:.2em;text-transform:uppercase;color:var(--ink-3)}
-.uni-rk{font-family:'Geist',sans-serif;font-weight:900;font-size:21px;letter-spacing:-.01em;color:var(--gold);
-  text-shadow:0 0 16px rgba(255,201,64,.4);margin:1px 0}
+.uni-rk{font-family:'Geist',sans-serif;font-weight:900;font-size:21px;letter-spacing:-.01em;
+  color:var(--rk,var(--gold));
+  text-shadow:0 0 16px color-mix(in srgb,var(--rk,var(--gold)) 42%,transparent);margin:1px 0}
 .uni-arch{font-size:12.5px;font-weight:600;color:var(--ink-2);letter-spacing:-.01em}
 
 /* rank ladder: vertical gem strip docked under the Operator Build badge */
@@ -2182,12 +2183,11 @@ document.querySelectorAll('.askai-chip').forEach(function(a){
     gold:       { name: 'Gold',       color: '#FFC940', deep:'#7A5A0A', glow: 'rgba(255,201,64,0.65)' },
     platinum:   { name: 'Platinum',   color: '#A3F5E5', deep:'#0F5A4E', glow: 'rgba(163,245,229,0.60)' },
     diamond:    { name: 'Diamond',    color: '#9FD8FF', deep:'#1F4A7A', glow: 'rgba(159,216,255,0.65)' },
-    iridescent: { name: 'Iridescent', color: '#C8B8FF', deep:'#4A2F7A', glow: 'rgba(200,184,255,0.70)' },
-    titan:      { name: 'Titan',      color: '#C8B8FF', deep:'#4A2F7A', glow: 'rgba(200,184,255,0.70)' }
+    titan:      { name: 'Titan',      color: '#FF6BE0', deep:'#7A1B5C', glow: 'rgba(255,107,224,0.66)' }
   };
   function tierForScore(v){ return v>93?'titan':v>82?'diamond':v>69?'platinum':v>54?'gold':v>39?'silver':v>24?'bronze':'wood'; }
 
-  var RANKS = ['bronze','silver','gold','platinum','diamond','iridescent'];
+  var RANKS = ['bronze','silver','gold','platinum','diamond','titan'];
 
   // Each rank is a sample "Operator Build": mascot + archetype + a skill profile.
   // Each sample build averages into its own band on the tier ladder and peaks
@@ -2203,7 +2203,7 @@ document.querySelectorAll('.askai-chip').forEach(function(a){
       scores:{ strategy:88, research:84, prompting:82, execution:70, automation:58, writing:74 } },
     diamond:    { mascot:'assets/diamond-kiro.webp',
       scores:{ strategy:88, research:87, prompting:96, execution:86, automation:84, writing:89 } },
-    iridescent: { mascot:'assets/iridescent-kiro.webp',
+    titan:      { mascot:'assets/iridescent-kiro.webp',
       scores:{ strategy:96, research:95, prompting:97, execution:94, automation:99, writing:96 } }
   };
   var DEFAULT_RANK = 'gold';
@@ -2319,11 +2319,16 @@ document.querySelectorAll('.askai-chip').forEach(function(a){
     var rankId = DEFAULT_RANK;
     var scores = {}, strongest, weakest, activeId, svgEl;
 
+    var overall, opTierId;
     function recompute(){
       scores = BUILDS[rankId].scores;
       var ids = NODES.map(function(n){return n.id;});
       strongest = ids.reduce(function(a,b){ return scores[b]>scores[a]?b:a; });
       weakest   = ids.reduce(function(a,b){ return scores[b]<scores[a]?b:a; });
+      // Operator rank is the overall score read off the ladder, never the
+      // build key, so the rank label and the tier chips cannot disagree.
+      overall  = ids.reduce(function(t,id){ return t+scores[id]; }, 0) / ids.length;
+      opTierId = tierForScore(overall);
     }
 
     function flux(arr, x1,y1,x2,y2,color,skill,rad,begin0){
@@ -2367,7 +2372,7 @@ document.querySelectorAll('.askai-chip').forEach(function(a){
     function renderUniverse(animate){
       recompute();
       var build = BUILDS[rankId];
-      var tier = RANK_TIERS[rankId];
+      var tier = RANK_TIERS[opTierId];
       var begin0 = animate ? 2.4 : 0.25;
       canvas.innerHTML = '';
 
@@ -2437,8 +2442,8 @@ document.querySelectorAll('.askai-chip').forEach(function(a){
       if (animate) canvas.classList.remove('revealed');
 
       // gem + rank labels
-      if (gemHost){ gemHost.innerHTML=''; gemHost.appendChild(buildGem(rankId, 40, RANKS.indexOf(rankId)+1)); }
-      if (rankLabel) rankLabel.textContent = tier.name;
+      if (gemHost){ gemHost.innerHTML=''; gemHost.appendChild(buildGem(opTierId, 40, Math.max(1, RANKS.indexOf(opTierId)+1))); }
+      if (rankLabel){ rankLabel.textContent = tier.name; rankLabel.style.setProperty('--rk', tier.color); }
       if (archLabel) archLabel.textContent = ARCHETYPES[strongest];
 
       // keep active skill valid; default to weak spot
