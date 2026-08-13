@@ -29,6 +29,11 @@
       <image:title>Iro AI custom path creator screenshot</image:title>
     </image:image>
     <image:image>
+      <image:loc>https://tryiro.com/assets/screens/image-lab.webp</image:loc>
+      <image:caption>Iro AI Image Lab: write an image prompt, generate it, then iterate with Ask Iro</image:caption>
+      <image:title>Iro AI Image Lab screenshot</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://tryiro.com/assets/screens/operator-build.webp</image:loc>
       <image:caption>Iro AI Operator Build — six AI skill zones scored out of 100 with strongest skill and weak spot</image:caption>
       <image:title>Iro AI skill profile screenshot</image:title>
