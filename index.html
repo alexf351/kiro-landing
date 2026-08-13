@@ -204,26 +204,42 @@ section{position:relative;padding:clamp(90px,12vh,150px) 0}
   max-width:var(--maxw);margin:0 auto}
 
 /* ---------- why iro (the enemy beat) ---------- */
-section.enemy{padding:clamp(66px,9vh,112px) 0}
-.enemy .sec-head{margin-bottom:clamp(34px,4vh,52px)}
-.enemy-grid{display:grid;grid-template-columns:1fr 1.1fr;gap:clamp(18px,2.2vw,28px);
+section.enemy{position:relative;padding:clamp(58px,7.5vh,94px) 0}
+/* the page grid is a fixed layer at z-index -1; a feathered wash of the page
+   background sits over it here so the headline reads on near-clean ground */
+section.enemy::before{content:'';position:absolute;inset:0;pointer-events:none;z-index:0;
+  background:radial-gradient(ellipse 74% 62% at 50% 46%,var(--bg) 42%,rgba(7,10,18,0) 100%)}
+section.enemy > .wrap{position:relative;z-index:1}
+.enemy .sec-head{margin-bottom:clamp(28px,3.2vh,40px);max-width:760px}
+.enemy .sec-title{font-size:clamp(42px,6.4vw,78px);line-height:.96;letter-spacing:-.038em}
+.enemy .sec-sub{margin-top:14px;font-size:clamp(15px,1.25vw,17px);color:var(--ink-3)}
+.enemy-grid{display:grid;grid-template-columns:1fr 1.12fr;gap:clamp(16px,2vw,24px);
   align-items:stretch;max-width:940px;margin:0 auto}
 .enemy-col{border-radius:var(--radius);padding:clamp(22px,2.4vw,30px);border:1px solid var(--line)}
-.enemy-old{background:var(--surface)}
-.enemy-new{background:linear-gradient(180deg,rgba(var(--accent-rgb),.075),rgba(var(--accent-rgb),.02));
-  border-color:rgba(var(--accent-rgb),.26)}
+/* left: passive and stale. right: active and useful. that contrast is the section. */
+.enemy-old{background:rgba(255,255,255,.016);border-color:rgba(255,255,255,.055)}
+.enemy-new{background:linear-gradient(180deg,rgba(var(--accent-rgb),.095),rgba(var(--accent-rgb),.025));
+  border-color:rgba(var(--accent-rgb),.44);
+  box-shadow:0 18px 48px -20px rgba(var(--accent-rgb),.38),inset 0 1px 0 rgba(255,255,255,.055)}
+.enemy-head{display:flex;align-items:center;justify-content:space-between;gap:12px;margin:0 0 18px}
 .enemy-h{font-size:13px;font-weight:800;letter-spacing:.09em;text-transform:uppercase;
-  color:var(--ink-3);margin:0 0 18px}
-.enemy-new .enemy-h{color:var(--accent)}
-.enemy-list,.enemy-reps{list-style:none;margin:0;padding:0;display:grid;gap:13px}
+  color:var(--ink-3);margin:0}
+.enemy-old .enemy-h{opacity:.72}
+.enemy-new .enemy-h{color:var(--accent);opacity:1}
+.enemy-pill{font-family:'JetBrains Mono',monospace;font-size:10px;font-weight:700;letter-spacing:.12em;
+  text-transform:uppercase;color:var(--accent);white-space:nowrap;padding:5px 10px;border-radius:999px;
+  border:1px solid rgba(var(--accent-rgb),.34);background:rgba(var(--accent-rgb),.11)}
+.enemy-list,.enemy-reps{list-style:none;margin:0;padding:0;display:grid;gap:14px}
 .enemy-list li,.enemy-reps li{display:flex;gap:13px;align-items:flex-start;
   font-size:clamp(15px,1.25vw,17px);line-height:1.45}
-.enemy-list li{color:var(--ink-3)}
+.enemy-list li{color:#6B7590}
 .enemy-list li::before{content:'';flex:0 0 auto;width:14px;height:2px;margin-top:10px;
-  border-radius:2px;background:var(--ink-3);opacity:.65}
+  border-radius:2px;background:#6B7590;opacity:.6}
 .enemy-reps li{color:var(--ink);font-weight:600}
 .enemy-reps li::before{content:'';flex:0 0 auto;width:9px;height:9px;margin-top:8px;
-  border-radius:50%;background:var(--accent);box-shadow:0 0 0 4px rgba(var(--accent-rgb),.13)}
+  border-radius:50%;background:var(--accent);box-shadow:0 0 0 4px rgba(var(--accent-rgb),.14)}
+.enemy-proof{margin:20px 0 0;padding-top:17px;font-size:14px;line-height:1.5;color:var(--ink-2);
+  border-top:1px solid rgba(var(--accent-rgb),.16)}
 @media(max-width:768px){
   .enemy-grid{grid-template-columns:1fr;max-width:520px}
   .enemy-col{padding:20px 22px}
@@ -1529,21 +1545,21 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
     </div>
     <div class="enemy-grid reveal">
       <div class="enemy-col enemy-old">
-        <h3 class="enemy-h">Most AI learning</h3>
+        <div class="enemy-head"><h3 class="enemy-h">Most AI learning</h3></div>
         <ul class="enemy-list">
           <li>A 20-minute YouTube video</li>
-          <li>A prompt pack you saved and never opened</li>
+          <li>A prompt pack you never opened</li>
           <li>A course you quit halfway through</li>
         </ul>
       </div>
       <div class="enemy-col enemy-new">
-        <h3 class="enemy-h">Iro turns AI into short daily reps</h3>
+        <div class="enemy-head"><h3 class="enemy-h">With Iro</h3><span class="enemy-pill">Daily reps</span></div>
         <ul class="enemy-reps">
           <li>Writing tighter prompts</li>
-          <li>Improving weak outputs</li>
           <li>Spotting hallucinations</li>
-          <li>Building workflows you'll actually reuse</li>
+          <li>Building workflows you'll reuse</li>
         </ul>
+        <p class="enemy-proof">Practice the skills you'll actually use at work.</p>
       </div>
     </div>
   </div>
