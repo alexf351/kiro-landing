@@ -69,7 +69,7 @@ If you are already subscribed and want out, that is a separate job with a separa
 
 If what drew you to Finestro was learning to use AI in a few minutes a day, Iro AI does the same job by a different method: active practice instead of guided reading. You write real prompts in a Prompt Lab and get instant feedback, spot AI mistakes, and duel other learners across ChatGPT, Claude, Gemini, Perplexity, prompting, and agents. It is often called [the Duolingo for AI](/duolingo-for-ai).
 
-On the billing question specifically, since that is why you are here: Iro is free to start with a hearts system, Pro is $49.99 a year or $9.99 a week, the annual plan includes a 7-day free trial, and everything is billed through the Apple App Store, so cancelling takes two taps in your iPhone subscription settings. There is no discounted intro week that converts to a higher monthly rate.
+On the billing question specifically, since that is why you are here: Iro is free to start with a battery that gives you a full lesson every day and recharges overnight, Pro is $49.99 a year or $9.99 a month, the annual plan includes a 7-day free trial, and everything is billed through the Apple App Store, so cancelling takes two taps in your iPhone subscription settings. There is no discounted intro week that converts to a higher monthly rate.
 
 Two 2026 additions widen the gap on the learning side. **Custom Paths** turn any topic you type into a structured path in seconds, five short lessons, a quiz, and a recap card. **Ask Iro**, the built-in AI coach, explains graded answers by chat or voice. There is also a web app, so you can start on any device and your progress syncs to iOS.
 
@@ -103,7 +103,7 @@ No, it is a real app with real content and a high average App Store rating. The 
 
 **Is there a free app to learn AI instead?**
 
-Yes. Iro AI is free to start on iOS with a hearts system, similar to Duolingo, and the AI rank quiz needs no signup at all. Khan Academy is fully free. Brilliant, DataCamp, and Coursera offer limited free access.
+Yes. Iro AI is free to start on iOS with a battery that gives you a full lesson every day and recharges overnight, and the AI rank quiz needs no signup at all. Khan Academy is fully free. Brilliant, DataCamp, and Coursera offer limited free access.
 
 ## Read next
 

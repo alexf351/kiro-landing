@@ -26,10 +26,10 @@ to every comment within minutes — reply speed drives ranking.
 - **Description (first text on the page):**
   > Most people learn AI by watching tutorials — and forget everything. Iro
   > makes you practice instead: write real prompts and get instant feedback,
-  > spot AI mistakes, duel other learners, and keep a streak alive. 20 paths
+  > spot AI mistakes, duel other learners, and keep a streak alive. 25 paths
   > across ChatGPT, Claude, Gemini, prompting, and agents, plus an AI coach
   > (Ask Iro) and Custom Paths that build a course on any topic you type.
-  > Free to start with a hearts system, like Duolingo. iOS + web.
+  > Free to start: every path open, one full lesson a day on a battery that recharges overnight. iOS + web.
 
 - **Gallery shot list (1270×760, in order):**
   1. Hero skill universe ("Learn AI like a game.")
@@ -50,12 +50,12 @@ to every comment within minutes — reply speed drives ranking.
   >
   > So Iro makes you *do* the thing: you write real prompts and get scored,
   > you spot hallucinations, you pick the right tool for a scenario, you duel
-  > other learners. Five minutes a day, 16 exercise types, 375 lessons across
+  > other learners. Five minutes a day, 24 exercise types, 433 lessons across
   > ChatGPT, Claude, Gemini, prompting, and agents — plus Ask Iro, the coach
   > that explains *why* you got something wrong, and Custom Paths that
   > generate a course on any topic you type.
   >
-  > Free to start (hearts system, like Duolingo). Would love your honest
+  > Free to start (a battery gives you a lesson a day). Would love your honest
   > feedback — and if you want to know where you stand first, the free AI
   > rank quiz takes 2 minutes, no signup: https://tryiro.com/quiz
 - **Launch-day extras:** put the quiz link in every reply where relevant (it's
@@ -84,7 +84,7 @@ Freemium. Platforms: iOS, Web.
 - **Category:** AI learning / education
 - **One-liner:** `Learn AI the fun way — 5-minute gamified lessons.`
 - **Description:** Short description from the asset block (≤160 chars).
-- **Pricing:** Freemium — free with hearts; Pro $49.99/yr, 7-day trial.
+- **Pricing:** Freemium. Free with a daily-lesson battery; Pro $49.99/yr (7-day trial) or $9.99/mo.
 - **Tags:** learn AI, prompt engineering, ChatGPT, gamified learning, education
 
 ## 4. Listicle outreach targets (researched 2026-07-21)

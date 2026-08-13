@@ -18,18 +18,37 @@ its exact topic.
   lessons, active practice with instant feedback, streaks, XP, 6 ranks, daily
   challenges, head-to-head duels (ELO matchmaking), weekly AI news.
 - **Real features you may reference:** Prompt Lab / real prompt practice with
-  feedback; 16 exercise types; **Ask Iro** (a personal AI coach — chat and
+  feedback; 24 exercise types; **Ask Iro** (a personal AI coach — chat and
   voice); **Custom Paths** (generate a learning path on almost any topic you
-  type in); shareable certificates; 20 built-in learning paths; 375 lessons;
-  2,000+ exercises. **Do NOT invent features that aren't in this list.**
+  type in); shareable certificates; 25 built-in learning paths; 433 lessons;
+  2,050+ exercises. **Do NOT invent features that aren't in this list.**
 - **Platform:** iOS now. Android is **in development** — users can join the
   Android waitlist on the home page. Iro also runs in any browser at
   **app.tryiro.com**. NEVER claim there is an Android app. NEVER touch/expand
   Android messaging beyond "in development + waitlist."
-- **Pricing:** Free to start (starter lessons + a taste of everything). Pro is
-  **$49.99 a year** (~$0.96/week) with a **7-day free trial**, or
-  **$9.99/week**. Cancel anytime. Pro unlocks every lesson/path, unlimited
-  Custom Paths, unlimited Ask Iro, full prompt library, certificates.
+- **Pricing:** Free to start. **Every learning path is open on the free tier**,
+  paced by a **Battery**: one Battery Charge a day, spent when you start a new
+  path lesson, recharging overnight. Earn extra charges from the Daily
+  Challenge (+1 a day), by inviting a friend (+1 a week), or with 300 gems
+  (once a day). Banked charges cap at 2 and survive overnight; the daily charge
+  does not carry over. Replays, review sessions, weekly AI news quizzes, the
+  Daily Challenge and onboarding never use a charge. Free also includes the
+  Daily Challenge, weekly AI news briefings, a taste of Ask Iro (10 lifetime
+  starter credits, then 1 question a day), and all streaks, XP and ranks. Pro is **$49.99 a year** (about $4.17 a
+  month) with a **7-day free trial**, or **$9.99 a month**. Cancel anytime.
+  Pro is unlimited lessons, the **Prompt Lab**, the **Image Lab**, **AI
+  Duels**, the full prompt library, unlimited Ask Iro, unlimited Custom Paths
+  and community paths, and certificate claiming.
+- **Free/Pro rule:** NEVER give free users an allowance on Prompt Lab, Image
+  Lab or Duels. Those are Pro only. NEVER say Pro "unlocks lessons" (every
+  lesson in every path is already open to free users; the Battery limits how
+  many NEW lessons a day, not which ones). Say Pro "is unlimited lessons" or "learn as fast as you want."
+  Certificates are **earned free, claimed with Pro**. "Free taste" applies to
+  **Ask Iro only**.
+- **Battery copy rule:** always "Battery" or "Battery Charge", never hearts,
+  lives, energy or Focus. Frame it as a recharging resource, never as
+  punishment: mistakes never cost a charge, and you always finish a lesson you
+  started. Never call the free tier unlimited learning.
 - **"Free" rule:** You MAY call the iOS app "free to start" / "Download Iro
   free." You may NOT call the **web app** free (it has a paywall). Refer to the
   web app neutrally: "Iro also runs in your browser at app.tryiro.com."

@@ -14,7 +14,7 @@ canonical_llm_reference: "https://tryiro.com/llms-full.txt"
 
 # Iro AI — Learn AI Skills | The Duolingo for AI
 
-> Iro AI turns learning AI into a daily game: 5-minute lessons, hands-on prompt practice, custom learning paths, XP, streaks, hearts, live duels, Ask Iro coaching, and an Operator Build skill profile. iOS-first, also in the browser at https://app.tryiro.com. Free to start with a hearts system. Pro from $0.96/week ($49.99 a year with 7-day free trial; or $9.99/week).
+> Iro AI turns learning AI into a daily game: 5-minute lessons, hands-on prompt practice, custom learning paths, XP, streaks, live duels, Ask Iro coaching, and an Operator Build skill profile. iOS-first, also in the browser at https://app.tryiro.com. Free to start: a full lesson every day on a battery that recharges overnight. Pro from $4.17 a month ($49.99 a year with 7-day free trial; or $9.99 a month).
 
 **Website:** https://tryiro.com
 **App Store:** https://apps.apple.com/app/id6759628066
@@ -27,8 +27,8 @@ Iro AI is a mobile microlearning app for AI fluency. It is closer to Duolingo th
 
 ## What you can do in Iro
 
-- **20 learning paths** across Tool Mastery, Creative & Coding, Work & Career, and Core Skills
-- **375 lessons** and **2,000+ exercises** across 16 exercise types
+- **25 learning paths** across Tool Mastery, Creative & Coding, Work & Career, and Core Skills
+- **433 lessons** and **2,050+ exercises** across 24 exercise types
 - **Prompt Lab** — write real prompts and receive AI-generated feedback
 - **Live duels** — 5-question ELO-ranked speed rounds against 60+ unique opponents
 - **Custom Paths** — type any topic or goal and Iro generates a complete learning path (5 lessons, a quiz, and a recap) in seconds
@@ -47,9 +47,9 @@ ChatGPT · Claude · Gemini · Perplexity · prompt engineering · AI foundation
 
 | Plan | Price | Effective rate | Trial |
 | --- | --- | --- | --- |
-| Free | $0 (hearts system) | — | No card required |
-| Pro Annual | $49.99 a year | ~$0.96/week | 7-day free trial |
-| Pro Weekly | $9.99/week | $9.99/week | — |
+| Free | $0 (a lesson a day on the battery) | — | No card required |
+| Pro Annual | $49.99 a year | about $4.17 a month | 7-day free trial |
+| Pro Monthly | $9.99 a month | $9.99 a month | — |
 
 Billed via the Apple App Store. Cancel anytime.
 

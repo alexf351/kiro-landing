@@ -39,13 +39,13 @@ A prompt library can give you starting points, but it cannot build judgment by i
 ## FAQ
 
 **Does Iro include a prompt library?**  
-Iro focuses on active prompt practice and guided lessons rather than only providing static templates.
+The in-app prompt library is part of Iro Pro. Iro leads with active prompt practice and guided lessons rather than only providing static templates, and there is a [free prompt library on this site](/ai-prompts) as well.
 
 **Can prompt engineering help with Claude and Gemini too?**  
-Yes. The same core skills—context, constraints, examples, and evaluation—apply across many AI tools.
+Yes. The same core skills, context, constraints, examples and evaluation, apply across many AI tools.
 
-**Is Prompt Lab included for free?**  
-The free tier includes starter access; Pro unlocks Prompt Lab and the full lesson library.
+**Is Prompt Lab free or Pro?**  
+Prompt Lab is part of Iro Pro. The free tier gives you every learning path with one full lesson a day, plus the Daily Challenge, weekly AI news and a free taste of Ask Iro.
 
 ## Related
 

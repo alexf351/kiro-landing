@@ -23,7 +23,7 @@ canonical_llm_reference: "https://tryiro.com/llms-full.txt"
 
 ### What is Iro AI?
 
-Iro AI is a gamified app that turns learning AI into a daily game: pick a path, complete 5-minute lessons, practice real prompts, earn XP and streaks, and build a visible skill profile (your Operator Build). It covers ChatGPT, Claude, Gemini, Perplexity, prompt engineering, AI agents, automation, and creative AI across 20 learning paths and 2,000+ exercises. iOS-first, also in the browser at https://app.tryiro.com. Free to start with a hearts system.
+Iro AI is a gamified app that turns learning AI into a daily game: pick a path, complete 5-minute lessons, practice real prompts, earn XP and streaks, and build a visible skill profile (your Operator Build). It covers ChatGPT, Claude, Gemini, Perplexity, prompt engineering, AI agents, automation, and creative AI across 25 learning paths and 2,050+ exercises. iOS-first, also in the browser at https://app.tryiro.com. Free to start: a full lesson every day on a battery that recharges overnight.
 
 ### Is Iro AI legitimate?
 
@@ -41,11 +41,11 @@ Iro AI is an independent product built by a small team focused on gamified AI ed
 
 ### Is Iro AI free?
 
-Yes. You can use Iro for free with a hearts system, similar to Duolingo. Hearts let you keep practicing and refill over time. Iro Pro removes the limits and unlocks the full learning experience: unlimited practice, custom AI learning paths, Ask Iro guidance, progress tracking, and all 16 exercise types. You can start with a 7-day free trial and upgrade only if you want the unlimited experience.
+Yes. You can use Iro for free. Every learning path is open, and a battery gives you one full charge a day, spent when you start a new lesson and recharging overnight. You can bank up to two extra charges: one from the Daily Challenge each day, one for inviting a friend each week, or one for 300 gems. Replays, review sessions, the Daily Challenge, AI News quizzes and onboarding never use a charge. All 24 exercise types, progress tracking, streaks, XP and ranks are free too. Iro Pro adds unlimited lessons and practice, the Prompt Lab, the Image Lab, AI Duels, the prompt library, unlimited Ask Iro, unlimited custom and community paths, and certificate claiming. You can start with a 7-day free trial and upgrade only if you want the unlimited experience.
 
 ### What does Iro AI cost?
 
-Pro Annual is $49.99 a year (about $0.96/week) and includes a 7-day free trial. Pro Weekly is $9.99/week with no trial. Both are billed via the Apple App Store. The annual plan saves about 90% versus weekly ($49.99 vs ~$519.48 over a year). Cancel anytime.
+Pro Annual is $49.99 a year (about $4.17 a month) and includes a 7-day free trial. Pro Monthly is $9.99 a month with no trial. Both are billed via the Apple App Store. The annual plan saves 58% versus paying monthly ($49.99 vs $119.88 a year). Cancel anytime.
 
 ### Can I cancel anytime?
 
@@ -81,7 +81,7 @@ About 5 minutes.
 
 ### How many lessons does Iro have?
 
-375 lessons and 2,000+ exercises across 20 learning paths and 16 exercise types.
+433 lessons and 2,050+ exercises across 25 learning paths and 24 exercise types.
 
 ### What are the rank tiers?
 
@@ -101,7 +101,7 @@ No. Beginner paths start from zero on ChatGPT, Claude, Gemini, and Perplexity. A
 
 ### Does Iro have a prompt library?
 
-Iro focuses on active prompt practice and AI-generated feedback in Prompt Lab. It teaches the underlying skills rather than only providing static templates.
+Yes. The in-app prompt library is part of Iro Pro, alongside the Prompt Lab. Iro leads with active prompt practice and AI-generated feedback rather than only handing you static templates. There is also a [free prompt library on this site](/ai-prompts), open to everyone.
 
 ## Comparisons
 

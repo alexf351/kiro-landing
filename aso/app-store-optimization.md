@@ -108,13 +108,13 @@ WHY IRO WORKS
 • XP, daily streaks, and 6 ranks to keep you coming back
 • Weekly AI news so you never fall behind
 
-18 learning paths · 345 lessons · 2,000+ hands-on exercises · for total beginners and power users alike.
+25 learning paths · 433 lessons · 2,050+ hands-on exercises · for total beginners and power users alike.
 
 NOT SURE WHERE YOU STAND?
 Take the free AI IQ Test — 10 questions, about two minutes — and get a personalized learning path.
 
 FREE TO START
-Learn free, forever. Iro Pro unlocks every lesson, the Prompt Lab, unlimited duels, and weekly news: $49.99/year (about $5/month) with a 7-day free trial, or $9.99/month. Cancel anytime.
+Every path is open free, with a battery that gives you a full lesson every day. Iro Pro is unlimited lessons, the Prompt Lab, the Image Lab, AI Duels, custom paths, and unlimited Ask Iro: $49.99/year (about $4.17/month) with a 7-day free trial, or $9.99/month. Cancel anytime.
 
 Download Iro and turn AI from a novelty into your edge.
 ```
@@ -127,7 +127,7 @@ Download Iro and turn AI from a novelty into your edge.
 4. Duel other learners — live
 5. Keep your streak. Climb the ranks.
 6. Spot AI mistakes like a pro
-7. 18 paths for every job
+7. 25 paths for every job
 8. Take the free AI IQ Test
 
 ## 7. "What's New" template (per release)
