@@ -2209,7 +2209,8 @@ document.querySelectorAll('.askai-chip').forEach(function(a){
 
   // Mirrors SKILL_PATH_MAP in the app (lib/operatorSkillTree.ts), rebalanced
   // Aug 12 2026. Every one of the 29 paths feeds exactly one skill.
-  // deg: 0 = top, clockwise. Counts run 4/5/5/4/4/7 around the ring.
+  // deg: 0 = top, clockwise. Counts run 4/5/5/5/5/5 around the ring. 29 does not divide by six,
+  // so one zone at four and five at five is the flattest split available.
   var NODES = [
     { id:'strategy',  emoji:'🧠', label:'STRATEGY',  deg:0,   color:'#9B8CFF',
       desc:'Plan, scope, and decide with AI in the loop.',
@@ -2240,22 +2241,22 @@ document.querySelectorAll('.askai-chip').forEach(function(a){
         {n:'AI Tools',s:'AI Tools',emoji:'🛠️',c:'#FF6B35'},
         {n:'AI for Job Hunting',s:'Job Hunting',emoji:'💼',c:'#4C9AFF'},
         {n:'AI for Productivity',s:'Productivity',emoji:'🎯',c:'#14B8A6'},
-        {n:'Microsoft Copilot',s:'Copilot',emoji:'📎',c:'#2DD4BF'}] },
+        {n:'Microsoft Copilot',s:'Copilot',emoji:'📎',c:'#2DD4BF'},
+        {n:'AI Slides & Decks',s:'Slides',emoji:'📊',c:'#38BDF8'}] },
     { id:'automation',emoji:'⚙️', label:'AUTOMATION',deg:240, color:'#5B9DFF',
       desc:'Build workflows and agents that run without you.',
       paths:[
         {n:'AI Automation',s:'Automation',emoji:'⚡',c:'#A855F7'},
         {n:'AI Agents',s:'Agents',emoji:'🧠',c:'#3A86FF'},
         {n:'Vibecoding with AI',s:'Vibecoding',emoji:'🧑‍💻',c:'#5B8CFF'},
-        {n:'Excel + AI',s:'Excel',emoji:'📈',c:'#22C55E'}] },
+        {n:'Excel + AI',s:'Excel',emoji:'📈',c:'#22C55E'},
+        {n:'AI for Email',s:'Email',emoji:'📧',c:'#F59E0B'}] },
     { id:'writing',   emoji:'✍️', label:'WRITING',   deg:300, color:'#C78BF0',
-      desc:'Generate and polish content, images, and video.',
+      desc:'Generate and polish copy, images, video, and audio.',
       paths:[
         {n:'AI for Marketing',s:'Marketing',emoji:'📣',c:'#FF2D55'},
         {n:'AI Image Generation',s:'Image Gen',emoji:'🎨',c:'#FF5FA2'},
         {n:'AI Video Generation',s:'Video Gen',emoji:'🎬',c:'#7C5CFF'},
-        {n:'AI for Email',s:'Email',emoji:'📧',c:'#F59E0B'},
-        {n:'AI Slides & Decks',s:'Slides',emoji:'📊',c:'#38BDF8'},
         {n:'Suno',s:'Suno',emoji:'🎵',c:'#FF6B4A'},
         {n:'ElevenLabs',s:'ElevenLabs',emoji:'🎙️',c:'#38BDF8'}] }
   ];
