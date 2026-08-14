@@ -985,6 +985,54 @@
         "AI learning apps",
         "consumer"
       ]
+    },
+    {
+      "id": "https://tryiro.com/blog/grok-bot",
+      "url": "https://tryiro.com/blog/grok-bot",
+      "title": "Grok Bot: what SpaceXAI's always-on AI agents actually do",
+      "summary": "Grok Bot went into beta on 11 August 2026. Each Bot gets its own cloud computer, signs in to the tools you already use, and comes back with finished work. Here is what that means in practice, what it costs, and the part nobody markets: what you have to hand over to make it work.",
+      "date_published": "2026-08-13T00:00:00Z",
+      "tags": [
+        "AI agents",
+        "Grok",
+        "AI tools"
+      ]
+    },
+    {
+      "id": "https://tryiro.com/blog/what-is-microsoft-copilot",
+      "url": "https://tryiro.com/blog/what-is-microsoft-copilot",
+      "title": "What is Microsoft Copilot? The 2026 guide",
+      "summary": "Copilot is the AI Microsoft put inside the software you already open every day. That is its whole advantage and most of its confusion, because there are several products wearing the name and they are not priced or capable alike.",
+      "date_published": "2026-08-13T00:00:00Z",
+      "tags": [
+        "AI tools",
+        "Microsoft Copilot",
+        "productivity"
+      ]
+    },
+    {
+      "id": "https://tryiro.com/blog/what-is-elevenlabs",
+      "url": "https://tryiro.com/blog/what-is-elevenlabs",
+      "title": "What is ElevenLabs? AI voice, explained",
+      "summary": "ElevenLabs turns text into speech convincing enough that most listeners will not clock it. That is genuinely useful and genuinely uncomfortable, and both facts belong in the same article.",
+      "date_published": "2026-08-13T00:00:00Z",
+      "tags": [
+        "AI tools",
+        "audio",
+        "voice AI"
+      ]
+    },
+    {
+      "id": "https://tryiro.com/blog/what-is-suno",
+      "url": "https://tryiro.com/blog/what-is-suno",
+      "title": "What is Suno? AI music generation, explained",
+      "summary": "Suno writes a full song, vocals included, from a text description. The technology is remarkable and the legal picture is unresolved, and if you plan to publish anything you make, you need both halves of that sentence.",
+      "date_published": "2026-08-13T00:00:00Z",
+      "tags": [
+        "AI tools",
+        "music",
+        "creative AI"
+      ]
     }
   ]
 }

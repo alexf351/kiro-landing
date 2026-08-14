@@ -5,7 +5,7 @@
   <link rel="self" href="https://tryiro.com/blog/atom.xml" type="application/atom+xml"/>
   <link rel="alternate" href="https://tryiro.com/blog" type="text/html"/>
   <id>https://tryiro.com/blog/atom.xml</id>
-  <updated>2026-08-06T00:00:00Z</updated>
+  <updated>2026-08-13T00:00:00Z</updated>
   <rights>© 2026 Iro AI</rights>
   <author><name>Iro AI</name><uri>https://tryiro.com</uri></author>
   <icon>https://tryiro.com/assets/favicon-64.png</icon>
@@ -829,5 +829,45 @@
     <author><name>Iro AI</name></author>
     <category term="AI fluency"/>
     <summary>A wave of AI learning apps run the same funnel: a personality quiz, a cheap first week, then a charge several times larger. None of it is illegal. All of it is visible before you enter a card, if you know the four things to look for.</summary>
+  </entry>
+  <entry>
+    <title>Grok Bot: what SpaceXAI's always-on AI agents actually do</title>
+    <id>https://tryiro.com/blog/grok-bot</id>
+    <link href="https://tryiro.com/blog/grok-bot"/>
+    <updated>2026-08-13T00:00:00Z</updated>
+    <published>2026-08-13T00:00:00Z</published>
+    <author><name>Iro AI</name></author>
+    <category term="AI agents"/>
+    <summary>Grok Bot went into beta on 11 August 2026. Each Bot gets its own cloud computer, signs in to the tools you already use, and comes back with finished work. Here is what that means in practice, what it costs, and the part nobody markets: what you have to hand over to make it work.</summary>
+  </entry>
+  <entry>
+    <title>What is Microsoft Copilot? The 2026 guide</title>
+    <id>https://tryiro.com/blog/what-is-microsoft-copilot</id>
+    <link href="https://tryiro.com/blog/what-is-microsoft-copilot"/>
+    <updated>2026-08-13T00:00:00Z</updated>
+    <published>2026-08-13T00:00:00Z</published>
+    <author><name>Iro AI</name></author>
+    <category term="AI tools"/>
+    <summary>Copilot is the AI Microsoft put inside the software you already open every day. That is its whole advantage and most of its confusion, because there are several products wearing the name and they are not priced or capable alike.</summary>
+  </entry>
+  <entry>
+    <title>What is ElevenLabs? AI voice, explained</title>
+    <id>https://tryiro.com/blog/what-is-elevenlabs</id>
+    <link href="https://tryiro.com/blog/what-is-elevenlabs"/>
+    <updated>2026-08-13T00:00:00Z</updated>
+    <published>2026-08-13T00:00:00Z</published>
+    <author><name>Iro AI</name></author>
+    <category term="AI tools"/>
+    <summary>ElevenLabs turns text into speech convincing enough that most listeners will not clock it. That is genuinely useful and genuinely uncomfortable, and both facts belong in the same article.</summary>
+  </entry>
+  <entry>
+    <title>What is Suno? AI music generation, explained</title>
+    <id>https://tryiro.com/blog/what-is-suno</id>
+    <link href="https://tryiro.com/blog/what-is-suno"/>
+    <updated>2026-08-13T00:00:00Z</updated>
+    <published>2026-08-13T00:00:00Z</published>
+    <author><name>Iro AI</name></author>
+    <category term="AI tools"/>
+    <summary>Suno writes a full song, vocals included, from a text description. The technology is remarkable and the legal picture is unresolved, and if you plan to publish anything you make, you need both halves of that sentence.</summary>
   </entry>
 </feed>

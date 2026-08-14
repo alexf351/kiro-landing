@@ -1,0 +1,152 @@
+{
+  "slug": "what-is-elevenlabs",
+  "order": 85,
+  "pillar": "ai-tools",
+  "title": "What is ElevenLabs? AI voice, explained",
+  "lede": "ElevenLabs turns text into speech convincing enough that most listeners will not clock it. That is genuinely useful and genuinely uncomfortable, and both facts belong in the same article.",
+  "keyTakeaways": [
+    "ElevenLabs is a voice AI platform: text to speech, voice cloning, dubbing into other languages, and sound effects.",
+    "Billing runs on credits rather than minutes, at roughly one credit per two characters, and unused credits do not roll over.",
+    "Paid plans start around $5 a month, with the commonly used creator tier near $22 and a professional tier near $99.",
+    "Model choice is a real decision: fast, low-latency models suit live and interactive use, while the higher-quality models suit anything people will actually sit and listen to.",
+    "Cloning someone else's voice without documented permission is the line. Treat consent as a hard requirement rather than a formality."
+  ],
+  "description": "What ElevenLabs is and how it works: text to speech, voice cloning, dubbing and sound effects, how the credit pricing actually adds up, which model to pick, and the consent rules that matter.",
+  "askAi": true,
+  "askAiPrompt": "What is ElevenLabs used for, how does its credit-based pricing work, and what are the rules and risks around AI voice cloning?",
+  "keywords": [
+    "what is ElevenLabs",
+    "ElevenLabs pricing",
+    "AI voice generator",
+    "voice cloning AI",
+    "ElevenLabs credits",
+    "AI text to speech"
+  ],
+  "datePublished": "2026-08-13",
+  "dateModified": "2026-08-13",
+  "readingTime": 7,
+  "articleSection": "AI tools",
+  "feedCategory": "AI tools",
+  "feedTags": [
+    "AI tools",
+    "audio",
+    "voice AI"
+  ],
+  "inlineCtaAfter": 3,
+  "toc": [
+    {
+      "href": "#what",
+      "label": "What it is"
+    },
+    {
+      "href": "#does",
+      "label": "What it does"
+    },
+    {
+      "href": "#models",
+      "label": "Picking a model"
+    },
+    {
+      "href": "#credits",
+      "label": "How credits work"
+    },
+    {
+      "href": "#cost",
+      "label": "What it costs"
+    },
+    {
+      "href": "#ethics",
+      "label": "The consent question"
+    },
+    {
+      "href": "#worth",
+      "label": "Who it is for"
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "heading": "What ElevenLabs is",
+      "html": "<p>ElevenLabs is a <strong>voice AI platform</strong>. You give it text, it gives you speech, and the speech is good enough that the old tells of synthetic audio, the flat affect and the odd pacing, mostly are not there.</p><p>The reason it became the default name in this category is not a single feature. It is that the output crossed the threshold where a listener stops noticing. Once synthetic narration is merely fine, it is a novelty. Once it is indistinguishable at normal listening speed, it becomes infrastructure, and people start shipping it in products.</p>"
+    },
+    {
+      "id": "does",
+      "heading": "What you can actually do with it",
+      "html": "<p>Four capabilities cover most real usage:</p><ul><li><strong>Text to speech.</strong> Narration from a library of voices, across a wide range of languages.</li><li><strong>Voice cloning.</strong> Two flavours: instant cloning from a short sample, and a higher-fidelity version trained on longer recordings.</li><li><strong>Dubbing.</strong> Taking existing audio or video and producing it in another language, keeping the voice recognisable.</li><li><strong>Sound effects.</strong> Generated audio for the gaps a music or dialogue track does not fill.</li></ul><p>The dubbing feature is the one people underestimate. Translating a script is the easy half; keeping a recognisable voice across languages is what makes localisation feel like the same creator rather than a different one.</p>"
+    },
+    {
+      "id": "models",
+      "heading": "Picking a model is an actual decision",
+      "html": "<p>ElevenLabs offers models tuned for different jobs, and choosing wrong is the most common way people conclude the product is worse than it is.</p><p><strong>Low-latency models</strong> exist for live and interactive use: voice agents, phone systems, anything where a pause reads as a malfunction. They trade some expressiveness for speed.</p><p><strong>Higher-quality multilingual models</strong> are the ones to use for anything a person will sit and listen to. Audiobooks, video narration, course material. Slower to generate, noticeably better to hear.</p><p>The rule of thumb: <strong>if a human is waiting mid-conversation, optimise for latency. If a human is listening to a finished thing, optimise for quality.</strong> Testing one paragraph through both takes a minute and settles the question for your use case better than any review.</p>"
+    },
+    {
+      "id": "credits",
+      "heading": "How the credit system works",
+      "html": "<p>ElevenLabs bills in <strong>credits</strong>, not minutes, and the conversion is roughly <strong>one credit per two characters</strong> of text.</p><p>That abstraction trips people up, so convert it into something concrete before you subscribe. A dense page of text is somewhere near 3,000 characters, so call it 1,500 credits. Work out how many pages a month you actually plan to generate, and the right tier stops being a guess.</p><p>Two details worth knowing before you commit. <strong>Credits reset each month rather than accumulating</strong>, so a quiet month is spent whether you use it or not. And <strong>regeneration costs credits</strong>: if you are the kind of person who will re-render a line eight times to get the emphasis right, budget for the eight, not the one.</p>"
+    },
+    {
+      "id": "cost",
+      "heading": "What it costs",
+      "html": "<p>Plans ladder up by credit allowance and feature access. Broadly: an entry paid tier around <strong>$5 a month</strong>, the widely used creator tier around <strong>$22</strong>, and a professional tier around <strong>$99</strong> that adds a much larger character allowance, longer generations and access to the full model range. Business and enterprise plans sit well above that.</p><p>There is a free tier for evaluating output quality, but commercial usage rights and the higher-quality options generally sit behind the paid plans, so check the current terms for your specific use before you build anything on it.</p><p>The honest guidance: pick a tier from your measured character volume rather than from the feature list. Almost everyone overestimates how much audio they will actually produce in month two.</p>"
+    },
+    {
+      "id": "ethics",
+      "heading": "The consent question, which is not optional",
+      "html": "<p>Voice cloning is the capability that makes this product powerful and the one that gets people into genuine trouble.</p><p>The line is simple to state. <strong>Cloning your own voice is fine. Cloning a voice you have documented permission to use is fine. Cloning anyone else is not</strong>, regardless of whether the platform's automated checks happen to catch it.</p><p>This is not only an ethics point, it is a practical one. Voice is increasingly treated as personal data and as a likeness right, jurisdictions are actively legislating on synthetic voice, and the reputational cost of getting it wrong lands on you rather than on the tool. If you are cloning a colleague, a client or talent, get written permission that says what the voice may be used for and for how long. If that feels like overkill, it is the cheapest insurance in the workflow.</p>"
+    },
+    {
+      "id": "worth",
+      "heading": "Who it is actually for",
+      "html": "<p>ElevenLabs earns its place if you are producing audio regularly: video narration at volume, course and training material, localisation into languages you do not speak, prototyping a voice interface, or making written content listenable.</p><p>It is overkill if you need one voiceover for one video. For that, the free tiers of several tools will do, and so will recording yourself.</p><p>The broader point is the one worth internalising: <strong>the tool is not the skill</strong>. Getting good synthetic audio is mostly about writing for the ear, marking up emphasis and pacing, and knowing which model fits the job. Those transfer to whatever replaces ElevenLabs later.</p><p>If you want to build that hands-on, our <a href=\"/learn-elevenlabs\">ElevenLabs path</a> covers it, and the <a href=\"/quiz\">AI rank quiz</a> is a two-minute check on where you stand.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "What is ElevenLabs used for?",
+      "a": "ElevenLabs is a voice AI platform used for text to speech, voice cloning, dubbing audio and video into other languages, and generating sound effects. Common uses include video narration, audiobooks, course and training material, localisation, and the voice layer of AI assistants and phone systems."
+    },
+    {
+      "q": "How much does ElevenLabs cost?",
+      "a": "Plans ladder up by credit allowance: an entry paid tier around $5 a month, a widely used creator tier around $22, and a professional tier around $99 with a much larger allowance and full model access, plus business and enterprise plans above that. There is a free tier for testing, but check current terms for commercial rights."
+    },
+    {
+      "q": "How do ElevenLabs credits work?",
+      "a": "Billing is by credits rather than minutes, at roughly one credit per two characters of text. Credits reset monthly rather than rolling over, and regenerating a line spends credits again, so budget for the re-takes you will actually do rather than for a single clean pass."
+    },
+    {
+      "q": "Is it legal to clone someone's voice with ElevenLabs?",
+      "a": "Cloning your own voice, or a voice you have documented permission to use, is fine. Cloning someone else's without consent is not, and voice is increasingly treated as personal data and a likeness right with active legislation on synthetic voice. If you are cloning a colleague, client or talent, get written permission specifying the use and the duration."
+    },
+    {
+      "q": "Which ElevenLabs model should I use?",
+      "a": "Match the model to the situation. Use a low-latency model when a person is waiting mid-conversation, such as voice agents or phone systems, where a pause reads as a fault. Use a higher-quality multilingual model for anything someone will sit and listen to, like narration, audiobooks or course material."
+    },
+    {
+      "q": "Is ElevenLabs free?",
+      "a": "There is a free tier, which is enough to judge whether the output quality suits your project. The larger character allowances, the full model range and the clearest commercial usage rights sit on the paid plans, so verify the current terms before building anything commercial on the free tier."
+    }
+  ],
+  "readNext": [
+    {
+      "href": "/blog/best-ai-apps",
+      "label": "The best AI apps"
+    },
+    {
+      "href": "/blog/best-ai-video-generators",
+      "label": "The best AI video generators"
+    },
+    {
+      "href": "/blog/what-is-generative-ai",
+      "label": "What is generative AI?"
+    }
+  ],
+  "related": [
+    "/blog/best-ai-apps",
+    "/blog/best-ai-video-generators",
+    "/blog/what-is-generative-ai",
+    "/learn-elevenlabs",
+    "/ai-video-generation-course",
+    "/ai-tools-comparison",
+    "/quiz"
+  ]
+}

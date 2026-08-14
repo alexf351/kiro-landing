@@ -1234,6 +1234,22 @@
     {
       "source": "/blog/ai-subscription-traps",
       "destination": "/blog/ai-subscription-traps.html"
+    },
+    {
+      "source": "/blog/grok-bot",
+      "destination": "/blog/grok-bot.html"
+    },
+    {
+      "source": "/blog/what-is-microsoft-copilot",
+      "destination": "/blog/what-is-microsoft-copilot.html"
+    },
+    {
+      "source": "/blog/what-is-elevenlabs",
+      "destination": "/blog/what-is-elevenlabs.html"
+    },
+    {
+      "source": "/blog/what-is-suno",
+      "destination": "/blog/what-is-suno.html"
     }
   ]
 }

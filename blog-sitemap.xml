@@ -871,4 +871,44 @@
       <image:title>How to spot an AI app subscription trap before you pay</image:title>
     </image:image>
   </url>
+  <url>
+    <loc>https://tryiro.com/blog/grok-bot</loc>
+    <lastmod>2026-08-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://tryiro.com/assets/og/grok-bot.png</image:loc>
+      <image:title>Grok Bot: what SpaceXAI's always-on AI agents actually do</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://tryiro.com/blog/what-is-microsoft-copilot</loc>
+    <lastmod>2026-08-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://tryiro.com/assets/og/what-is-microsoft-copilot.png</image:loc>
+      <image:title>What is Microsoft Copilot? The 2026 guide</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://tryiro.com/blog/what-is-elevenlabs</loc>
+    <lastmod>2026-08-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://tryiro.com/assets/og/what-is-elevenlabs.png</image:loc>
+      <image:title>What is ElevenLabs? AI voice, explained</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://tryiro.com/blog/what-is-suno</loc>
+    <lastmod>2026-08-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://tryiro.com/assets/og/what-is-suno.png</image:loc>
+      <image:title>What is Suno? AI music generation, explained</image:title>
+    </image:image>
+  </url>
 </urlset>

@@ -1,0 +1,152 @@
+{
+  "slug": "what-is-microsoft-copilot",
+  "order": 84,
+  "pillar": "ai-tools",
+  "title": "What is Microsoft Copilot? The 2026 guide",
+  "lede": "Copilot is the AI Microsoft put inside the software you already open every day. That is its whole advantage and most of its confusion, because there are several products wearing the name and they are not priced or capable alike.",
+  "keyTakeaways": [
+    "Copilot is not one product. The free assistant, the consumer version bundled into Microsoft 365, and the work version grounded in your company's data are different things with the same name.",
+    "For individuals, Copilot now arrives through Microsoft 365 Premium at $19.99 a month. The standalone Copilot Pro plan was retired and folded into it.",
+    "For organisations, Microsoft 365 Copilot is $30 per user per month on top of an eligible base licence, with a cheaper Business tier for smaller companies.",
+    "The work version's real advantage is grounding: it can read your email, files, meetings and chats, which is exactly why access controls matter.",
+    "Copilot is strongest at work you already have context for and weakest as a blank-page thinker. Knowing which is which is the whole skill."
+  ],
+  "description": "What Microsoft Copilot is in 2026: the free, consumer and work versions explained, current pricing, what it is genuinely good at inside Word, Excel, Outlook and Teams, and where it still disappoints.",
+  "askAi": true,
+  "askAiPrompt": "What is Microsoft Copilot, how do the free, Microsoft 365 Premium and work versions differ, and what is it actually good at compared with ChatGPT?",
+  "keywords": [
+    "what is Microsoft Copilot",
+    "Microsoft Copilot 2026",
+    "Copilot pricing",
+    "Microsoft 365 Copilot",
+    "Copilot vs ChatGPT",
+    "Microsoft 365 Premium"
+  ],
+  "datePublished": "2026-08-13",
+  "dateModified": "2026-08-13",
+  "readingTime": 7,
+  "articleSection": "AI tools",
+  "feedCategory": "AI tools",
+  "feedTags": [
+    "AI tools",
+    "Microsoft Copilot",
+    "productivity"
+  ],
+  "inlineCtaAfter": 3,
+  "toc": [
+    {
+      "href": "#what",
+      "label": "What Copilot is"
+    },
+    {
+      "href": "#versions",
+      "label": "The versions"
+    },
+    {
+      "href": "#cost",
+      "label": "What it costs"
+    },
+    {
+      "href": "#good",
+      "label": "What it is good at"
+    },
+    {
+      "href": "#bad",
+      "label": "Where it disappoints"
+    },
+    {
+      "href": "#vs",
+      "label": "Copilot vs ChatGPT"
+    },
+    {
+      "href": "#start",
+      "label": "Getting value from it"
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "heading": "What Copilot actually is",
+      "html": "<p>Copilot is Microsoft's AI assistant, and its defining trait is <strong>location</strong>. Instead of living in a separate tab you have to remember to visit, it sits inside Word, Excel, Outlook, Teams, PowerPoint and Windows itself.</p><p>That changes the usage pattern more than the model does. Most people abandon AI tools not because the answers are bad but because opening another app is one step too many on a busy day. Copilot's bet is that the assistant which is already on screen wins, even if a rival model is marginally sharper.</p><p>The catch is that Microsoft has attached the name to several genuinely different products, which is why people compare notes and conclude they are using different software. They are.</p>"
+    },
+    {
+      "id": "versions",
+      "heading": "The versions, untangled",
+      "html": "<p>Three things matter, and they differ by what the assistant can see.</p><p><strong>Free Copilot.</strong> A general chat assistant on the web and in Windows. No access to your company's files or mail. Useful, and roughly comparable to other free chatbots.</p><p><strong>Copilot in Microsoft 365 (consumer).</strong> The assistant working inside your own Office apps and documents on a personal subscription. This is the one bundled into Microsoft 365 Premium.</p><p><strong>Microsoft 365 Copilot (work).</strong> The version that is <em>grounded</em> in your organisation's data through Microsoft Graph, meaning it can draw on your email, documents, meetings and Teams chats. This is the one people mean when they say Copilot did something genuinely useful, and the one with the real price tag.</p><p>There is also <strong>Copilot Studio</strong>, for building custom agents, which is billed separately and by consumption rather than per seat.</p>"
+    },
+    {
+      "id": "cost",
+      "heading": "What it costs in 2026",
+      "html": "<p><strong>For individuals</strong>, Microsoft's consumer plans run <strong>Microsoft 365 Personal at $9.99 a month</strong>, <strong>Family at $12.99</strong>, and <strong>Microsoft 365 Premium at $19.99</strong>, which is the tier that bundles the Copilot assistant with the Office apps, storage and security in one subscription.</p><p>The standalone <strong>Copilot Pro</strong> plan at $20 a month was retired and its features folded into Microsoft 365 Premium. If you are still on it, you are on a legacy plan rather than the current product.</p><p><strong>For organisations</strong>, Microsoft 365 Copilot is <strong>$30 per user per month</strong> on an annual commitment, and it is an add-on: it requires an eligible base licence such as Business Premium, E3 or E5, so the true cost is the base plan plus the add-on. Smaller organisations up to 300 users have a cheaper Business tier, promotionally around $18 per user per month against a standard price near $21.</p><p>The arithmetic worth doing: at $30 per seat, a hundred-person company is spending $36,000 a year before the base licences. That is a real budget line, and it is why Copilot rollouts tend to succeed or fail on training rather than on the software.</p>"
+    },
+    {
+      "id": "good",
+      "heading": "What Copilot is genuinely good at",
+      "html": "<p>Its strengths cluster tightly around one idea: <strong>work where the context already exists and you are the bottleneck for reading it</strong>.</p><ul><li><strong>Catching up.</strong> Summarising a meeting you missed, a thread that ran to forty replies, or a document you were added to this morning.</li><li><strong>Finding the thing.</strong> Answering questions across your own files and mail without you remembering which folder or which colleague.</li><li><strong>First drafts with real inputs.</strong> A reply that reflects the actual thread, a deck outline built from an existing document.</li><li><strong>Spreadsheet work you can describe but not write.</strong> Explaining a formula, restructuring data, spotting what changed.</li></ul><p>The pattern is consistent. Copilot is at its best when the answer is somewhere in your organisation already and the job is retrieval, compression and reformatting.</p>"
+    },
+    {
+      "id": "bad",
+      "heading": "Where it disappoints",
+      "html": "<p>Set expectations honestly and you will be happier with it.</p><p><strong>It is not the sharpest model in the room.</strong> For hard reasoning, long-form writing quality or subtle judgement, people routinely get better output from a frontier chatbot and paste it back in.</p><p><strong>It is only as good as your organisation's mess.</strong> Grounding cuts both ways: if your files are chaotic, duplicated and half-abandoned, a grounded assistant confidently retrieves the wrong version. Copilot inherits your information hygiene.</p><p><strong>Permissions surprise people.</strong> It respects existing access controls, which sounds reassuring until you learn that a permissions setup nobody has audited since 2019 was already broader than intended. Copilot does not create that problem, it makes it visible.</p><p><strong>Blank pages remain hard.</strong> Asked to invent from nothing, it produces the same competent, forgettable prose everything else does.</p>"
+    },
+    {
+      "id": "vs",
+      "heading": "Copilot or ChatGPT?",
+      "html": "<p>The comparison people expect is about model quality. The one that actually decides it is <strong>access to your context</strong>.</p><p>ChatGPT knows what you paste. Copilot at work knows your mail, files and meetings. For \"what did we agree in that review, and draft the follow-up\", that gap is decisive and no amount of raw model quality closes it. For \"help me think through this argument from scratch\", the frontier chatbots still tend to feel stronger.</p><p>Plenty of people end up using both, and that is a reasonable answer rather than a failure to choose. If you want the detailed head-to-head, we have <a href=\"/blog/chatgpt-vs-copilot\">ChatGPT vs Copilot</a>.</p>"
+    },
+    {
+      "id": "start",
+      "heading": "Getting actual value out of it",
+      "html": "<p>The organisations that get value from Copilot are not the ones with the best licences. They are the ones where people learned the small set of prompts that fit their week and then used them daily.</p><p>Three habits do most of the work. <strong>Ask it about things it can see</strong>, since it is far stronger on your documents than on general knowledge. <strong>Say what the output is for</strong>, because \"summarise this\" and \"summarise this for someone who missed the meeting and owns the budget decision\" produce different answers. <strong>Verify anything load-bearing</strong>, because a grounded assistant retrieving a stale document sounds exactly as confident as one retrieving the right one.</p><p>Practising that is the difference between a licence and a habit. Our <a href=\"/learn-copilot\">Copilot path</a> walks through it hands-on, and the <a href=\"/quiz\">AI rank quiz</a> takes two minutes if you want to see where you stand first.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "What is Microsoft Copilot in simple terms?",
+      "a": "Copilot is Microsoft's AI assistant built into the software people already use: Word, Excel, Outlook, Teams, PowerPoint and Windows. Its main advantage over a separate chatbot is that at work it can be grounded in your organisation's own email, files, meetings and chats, so it answers from your context rather than only from general knowledge."
+    },
+    {
+      "q": "How much does Microsoft Copilot cost in 2026?",
+      "a": "For individuals, Copilot comes with Microsoft 365 Premium at $19.99 a month; the other consumer plans are Microsoft 365 Personal at $9.99 and Family at $12.99. For organisations, Microsoft 365 Copilot is $30 per user per month on an annual commitment, and it is an add-on that requires an eligible base licence. Smaller organisations have a cheaper Business tier."
+    },
+    {
+      "q": "Is Microsoft Copilot free?",
+      "a": "There is a free Copilot assistant on the web and in Windows, which works as a general chatbot. It does not have access to your organisation's files, email or meetings. The versions that work inside your documents and are grounded in your work data are the paid ones."
+    },
+    {
+      "q": "What happened to Copilot Pro?",
+      "a": "Microsoft retired the standalone Copilot Pro subscription and folded its features into Microsoft 365 Premium at $19.99 a month. Existing Copilot Pro subscribers were given a window to keep using it, but it is a legacy plan rather than the product Microsoft currently sells."
+    },
+    {
+      "q": "Is Copilot better than ChatGPT?",
+      "a": "They win on different things. Copilot at work can see your email, documents and meetings, which is decisive for questions about your own context. ChatGPT and other frontier chatbots generally feel stronger on hard reasoning and long-form writing from scratch. Many people use both rather than picking one."
+    },
+    {
+      "q": "Can Copilot see files I am not supposed to access?",
+      "a": "No. It respects the permissions already set in your organisation. The complication is that it makes existing over-permissioning obvious, because content someone technically had access to but never would have found is now easy to surface. That is an access-control issue to audit rather than a Copilot behaviour."
+    }
+  ],
+  "readNext": [
+    {
+      "href": "/blog/chatgpt-vs-copilot",
+      "label": "ChatGPT vs Copilot"
+    },
+    {
+      "href": "/blog/how-to-use-ai-at-work",
+      "label": "How to use AI at work"
+    },
+    {
+      "href": "/blog/best-ai-apps",
+      "label": "The best AI apps"
+    }
+  ],
+  "related": [
+    "/blog/chatgpt-vs-copilot",
+    "/blog/how-to-use-ai-at-work",
+    "/blog/best-ai-apps",
+    "/learn-copilot",
+    "/ai-for-work",
+    "/ai-tools-comparison",
+    "/quiz"
+  ]
+}

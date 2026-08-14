@@ -9,7 +9,7 @@
     <description>Short, practical writing on AI fluency, prompting, AI tools, and the active-practice method that beats endless video courses.</description>
     <language>en-US</language>
     <atom:link href="https://tryiro.com/blog/rss.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Thu, 06 Aug 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 13 Aug 2026 00:00:00 GMT</lastBuildDate>
     <generator>tryiro.com</generator>
     <copyright>© 2026 Iro AI</copyright>
     <image>
@@ -754,6 +754,42 @@
       <dc:creator>Iro AI</dc:creator>
       <category>AI fluency</category>
       <description>How to spot an AI learning app subscription trap: the quiz funnel pattern, what refund policies actually require, where the cancel button lives, and a 60-second check before you enter a card.</description>
+    </item>
+    <item>
+      <title>Grok Bot: what SpaceXAI's always-on AI agents actually do</title>
+      <link>https://tryiro.com/blog/grok-bot</link>
+      <guid isPermaLink="true">https://tryiro.com/blog/grok-bot</guid>
+      <pubDate>Thu, 13 Aug 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Iro AI</dc:creator>
+      <category>AI agents</category>
+      <description>Grok Bot, SpaceXAI's always-on AI agents, explained: what each Bot does, how it differs from a chatbot, which subscriptions include the beta, what it costs, and what to weigh before giving one your logins.</description>
+    </item>
+    <item>
+      <title>What is Microsoft Copilot? The 2026 guide</title>
+      <link>https://tryiro.com/blog/what-is-microsoft-copilot</link>
+      <guid isPermaLink="true">https://tryiro.com/blog/what-is-microsoft-copilot</guid>
+      <pubDate>Thu, 13 Aug 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Iro AI</dc:creator>
+      <category>AI tools</category>
+      <description>What Microsoft Copilot is in 2026: the free, consumer and work versions explained, current pricing, what it is genuinely good at inside Word, Excel, Outlook and Teams, and where it still disappoints.</description>
+    </item>
+    <item>
+      <title>What is ElevenLabs? AI voice, explained</title>
+      <link>https://tryiro.com/blog/what-is-elevenlabs</link>
+      <guid isPermaLink="true">https://tryiro.com/blog/what-is-elevenlabs</guid>
+      <pubDate>Thu, 13 Aug 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Iro AI</dc:creator>
+      <category>AI tools</category>
+      <description>What ElevenLabs is and how it works: text to speech, voice cloning, dubbing and sound effects, how the credit pricing actually adds up, which model to pick, and the consent rules that matter.</description>
+    </item>
+    <item>
+      <title>What is Suno? AI music generation, explained</title>
+      <link>https://tryiro.com/blog/what-is-suno</link>
+      <guid isPermaLink="true">https://tryiro.com/blog/what-is-suno</guid>
+      <pubDate>Thu, 13 Aug 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Iro AI</dc:creator>
+      <category>AI tools</category>
+      <description>What Suno is and how it works in 2026: song generation with vocals, stems and Suno Studio, how credits and pricing actually work, who owns what you make, and where the label lawsuits currently stand.</description>
     </item>
   </channel>
 </rss>

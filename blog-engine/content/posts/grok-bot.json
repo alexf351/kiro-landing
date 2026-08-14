@@ -1,0 +1,152 @@
+{
+  "slug": "grok-bot",
+  "order": 83,
+  "pillar": "ai-agents",
+  "title": "Grok Bot: what SpaceXAI's always-on AI agents actually do",
+  "lede": "Grok Bot went into beta on 11 August 2026. Each Bot gets its own cloud computer, signs in to the tools you already use, and comes back with finished work. Here is what that means in practice, what it costs, and the part nobody markets: what you have to hand over to make it work.",
+  "keyTakeaways": [
+    "Grok Bot is not a chatbot. Each Bot runs on its own cloud computer, logs in to your existing tools, and completes multi-step jobs without being watched.",
+    "It works by driving software the way you do rather than through API integrations, which is why it can reach tools that never built an AI connector.",
+    "Beta access is bundled into SuperGrok Heavy, Cursor Ultra and Cursor Teams Premium. SuperGrok Heavy is $300 a month, so this is not a casual purchase.",
+    "Cursor tiers grant access because SpaceX now owns both. It acquired xAI, rebranded to SpaceXAI, then agreed to buy Cursor's parent Anysphere.",
+    "The real cost is trust: a Bot that signs in to your accounts holds your session, so the scoping decisions are yours to make before you delegate."
+  ],
+  "description": "Grok Bot, SpaceXAI's always-on AI agents, explained: what each Bot does, how it differs from a chatbot, which subscriptions include the beta, what it costs, and what to weigh before giving one your logins.",
+  "askAi": true,
+  "askAiPrompt": "What is SpaceXAI's Grok Bot, how does it differ from a normal AI chatbot, and what should I know before letting an AI agent sign in to my work tools?",
+  "keywords": [
+    "Grok Bot",
+    "SpaceXAI Grok Bot",
+    "xAI AI agents",
+    "Grok Bot pricing",
+    "always-on AI agents",
+    "AI agent that uses your tools"
+  ],
+  "datePublished": "2026-08-13",
+  "dateModified": "2026-08-13",
+  "readingTime": 7,
+  "articleSection": "AI agents",
+  "feedCategory": "AI agents",
+  "feedTags": [
+    "AI agents",
+    "Grok",
+    "AI tools"
+  ],
+  "inlineCtaAfter": 3,
+  "toc": [
+    {
+      "href": "#what",
+      "label": "What it is"
+    },
+    {
+      "href": "#different",
+      "label": "Why it is not a chatbot"
+    },
+    {
+      "href": "#does",
+      "label": "What a Bot can do"
+    },
+    {
+      "href": "#cost",
+      "label": "Access and cost"
+    },
+    {
+      "href": "#cursor",
+      "label": "Why Cursor tiers"
+    },
+    {
+      "href": "#trust",
+      "label": "What you hand over"
+    },
+    {
+      "href": "#skill",
+      "label": "The skill it demands"
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "heading": "What Grok Bot is",
+      "html": "<p>SpaceXAI put <strong>Grok Bot</strong> into public beta on <strong>11 August 2026</strong>. The pitch is short: Bots are AI teammates you can give real work to.</p><p>Each Bot gets three things a chatbot does not have. <strong>Its own cloud computer</strong>, so it has somewhere to actually do the work. <strong>Its own login sessions</strong>, so it can reach the tools your job lives in. And <strong>its own memory</strong> of how you like things done, so the second time you ask costs you less explaining than the first.</p><p>The company says the product started as an internal prototype that spread across its own teams, who built Bots for sales outbound, marketing campaigns, office operations and bug fixes before it shipped to anyone else. That origin shows in the framing: this is aimed at recurring work, not one-off questions.</p>"
+    },
+    {
+      "id": "different",
+      "heading": "Why this is not just a better chatbot",
+      "html": "<p>A chatbot produces text and hands it back to you. You are still the one who opens the tool, pastes the thing, clicks the button, and checks the result. The model does the thinking and you do the operating.</p><p>Grok Bot inverts that. It <strong>drives the software itself</strong>, working through interfaces the way a person does rather than through prebuilt API integrations. That distinction matters more than it sounds. An agent that needs an API connector can only reach tools whose makers built one. An agent that can use a screen and a login can reach the internal admin panel, the crusty vendor portal, and the tool your finance team refuses to migrate off.</p><p>Bots can also message each other and share context in threads, and they learn routines by demonstration, then run them on a schedule. Watch it once, repeat it forever, is the shape of the promise. Whether it holds at your particular messy edge cases is the thing to test rather than assume.</p>"
+    },
+    {
+      "id": "does",
+      "heading": "What a Bot can actually do",
+      "html": "<p>The published examples cluster around multi-step work that spans several apps and has a definite finish line:</p><ul><li><strong>Work that crosses tools.</strong> Pull from one system, decide something, write the result into another.</li><li><strong>Work that lives in an inbox.</strong> Triage, draft, follow up, escalate what needs a human.</li><li><strong>Work that repeats.</strong> Demonstrate the routine once, then let it run on a schedule.</li><li><strong>Work that is delegated, not answered.</strong> The output is a finished job rather than a suggestion you still have to execute.</li></ul><p>The client apps are on desktop, including a Linux build, and iOS. Android is listed as coming. Enterprise customers are routed to a waitlist rather than getting immediate access.</p>"
+    },
+    {
+      "id": "cost",
+      "heading": "What it costs and who can get it",
+      "html": "<p>Grok Bot is not sold on its own. Beta access is bundled into three existing subscriptions: <strong>SuperGrok Heavy</strong>, <strong>Cursor Ultra</strong> and <strong>Cursor Teams Premium</strong>.</p><p>SuperGrok Heavy sits at the top of the Grok consumer ladder at <strong>$300 a month</strong>. For context, the tiers below it run roughly: a free tier, SuperGrok Lite around $10, SuperGrok around $30, and a $100 tier between that and Heavy. So Grok Bot is gated behind the most expensive consumer plan on offer, several times the price of a normal AI subscription.</p><p>That pricing tells you the intended buyer. This is aimed at people whose time is expensive enough that unattended work pays for itself, not at someone curious what agents feel like. If you want the cheap version of the lesson, the honest answer is to wait: agentic features reliably drift down the pricing ladder once they stop breaking.</p>"
+    },
+    {
+      "id": "cursor",
+      "heading": "Why a Grok feature is gated behind Cursor plans",
+      "html": "<p>This looks like a mistake on the pricing page until you follow the corporate trail. It is not.</p><p>SpaceX acquired xAI in an all-stock deal, finalised in the first half of 2026, and the AI business was folded in rather than run alongside. On <strong>6 July 2026</strong> the company rebranded as <strong>SpaceXAI</strong>. Grok itself kept its name, which is why the chatbot, the apps and the API all still say Grok.</p><p>Then in June 2026 SpaceX announced it would acquire <strong>Anysphere</strong>, the company behind the AI coding tool <strong>Cursor</strong>, in a deal reported at around $60 billion and set to close later in the year.</p><p>So Grok and Cursor now sit under one owner, and their top subscription tiers have started sharing entitlements. If you already pay for Cursor at the Ultra or Teams Premium level, you may have access to Grok Bot without knowing it.</p>"
+    },
+    {
+      "id": "trust",
+      "heading": "The part that is not in the marketing",
+      "html": "<p>An agent that signs in to your tools is holding your session. Whatever it does, it does as you.</p><p>That is not a reason to avoid it. It is the reason to scope it deliberately, and the scoping is your job, not the vendor's:</p><ul><li><strong>Give it its own accounts where you can.</strong> A separate login with only the permissions the task needs beats handing over yours.</li><li><strong>Start with reversible work.</strong> Drafting, sorting and preparing are recoverable. Sending, paying and deleting are not.</li><li><strong>Decide what needs a human before you delegate, not after.</strong> Anything that touches money, contracts, customers or public posts deserves an explicit gate.</li><li><strong>Check the first few runs properly.</strong> The failure mode of an unattended agent is not a dramatic error, it is a small wrong assumption repeated a hundred times on a schedule.</li></ul><p>None of this is unique to Grok Bot. It applies to every agent that can act on your behalf, and it will apply to the cheaper ones that follow.</p>"
+    },
+    {
+      "id": "skill",
+      "heading": "The skill this actually demands from you",
+      "html": "<p>Agentic tools quietly move the work rather than removing it. You stop writing the output and start doing three other things: <strong>specifying</strong> the job precisely enough that an unsupervised system cannot drift, <strong>bounding</strong> what it is allowed to touch, and <strong>verifying</strong> results you did not watch being produced.</p><p>Those are learnable, and they are the same skills whether the agent is Grok Bot, a Copilot agent or something that ships next quarter. Delegation was always a skill. It just used to only apply to people.</p><p>If you want to build it deliberately rather than by accident, our <a href=\"/ai-agents-course\">AI agents path</a> covers what agents are and when to trust them, and <a href=\"/blog/what-is-agentic-ai\">what agentic AI actually means</a> is the shorter read. To see where you stand first, the <a href=\"/quiz\">AI rank quiz</a> is ten questions and about two minutes.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "What is Grok Bot?",
+      "a": "Grok Bot is SpaceXAI's always-on AI agent product, launched in public beta on 11 August 2026. Each Bot runs on its own cloud computer, signs in to the tools you already use, keeps its own memory of your preferences, and completes multi-step jobs without supervision. Bots can also message each other and run learned routines on a schedule."
+    },
+    {
+      "q": "How much does Grok Bot cost?",
+      "a": "It is not sold separately. Beta access is bundled into SuperGrok Heavy, Cursor Ultra and Cursor Teams Premium subscriptions. SuperGrok Heavy is $300 a month, the top of Grok's consumer ladder, so Grok Bot is currently gated behind a premium plan rather than available at normal subscription prices."
+    },
+    {
+      "q": "How is Grok Bot different from ChatGPT or normal Grok?",
+      "a": "A chatbot gives you output and you operate the tools yourself. Grok Bot operates the tools. It works through software interfaces the way a person does rather than through prebuilt API integrations, which means it can reach systems that never shipped an AI connector, and it finishes the job instead of handing you a draft to execute."
+    },
+    {
+      "q": "Why does a Cursor subscription unlock a Grok feature?",
+      "a": "Because they share an owner. SpaceX acquired xAI and rebranded as SpaceXAI in July 2026, then announced the acquisition of Anysphere, the company behind Cursor, in a deal reported at around $60 billion. Grok and Cursor now sit under the same parent, and their top tiers share entitlements."
+    },
+    {
+      "q": "Is it safe to let an AI agent log in to my accounts?",
+      "a": "It carries real risk, because an agent using your session acts as you. Reduce it by giving the agent its own account with only the permissions the task needs, starting with reversible work like drafting and sorting rather than sending or paying, requiring a human gate on anything touching money or customers, and checking early runs closely, since the common failure is a small wrong assumption repeated on a schedule."
+    },
+    {
+      "q": "Is xAI still called xAI?",
+      "a": "No. SpaceX acquired xAI and the company rebranded as SpaceXAI on 6 July 2026. Grok itself kept its name, so the chatbot, the mobile apps, the SuperGrok subscriptions and the developer API are all still branded Grok."
+    }
+  ],
+  "readNext": [
+    {
+      "href": "/blog/what-is-agentic-ai",
+      "label": "What agentic AI actually means"
+    },
+    {
+      "href": "/blog/what-is-grok",
+      "label": "What is Grok?"
+    },
+    {
+      "href": "/blog/ai-automation-for-beginners",
+      "label": "AI automation for beginners"
+    }
+  ],
+  "related": [
+    "/blog/what-is-grok",
+    "/blog/how-to-use-grok",
+    "/blog/grok-4-5",
+    "/blog/what-is-agentic-ai",
+    "/blog/ai-automation-for-beginners",
+    "/ai-agents-course",
+    "/quiz"
+  ]
+}
