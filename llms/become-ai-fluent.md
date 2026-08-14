@@ -62,7 +62,7 @@ The meta-skill is consistency. Short daily practice moves you up the levels far 
 
 ## How Iro builds AI fluency
 
-Iro is built to take you from Aware to Fluent through active, gamified practice. Its 25 learning paths (433 lessons, 2,050+ exercises) map directly onto the four pillars — a Prompt Lab gives feedback on your real prompts, lessons train verification and tool choice, and dedicated paths cover agents and automation for the agentic level. Streaks, XP, six ranks, and live duels keep the daily habit alive.
+Iro is built to take you from Aware to Fluent through active, gamified practice. Its 29 learning paths (477 lessons, 2,700+ exercises) map directly onto the four pillars — a Prompt Lab gives feedback on your real prompts, lessons train verification and tool choice, and dedicated paths cover agents and automation for the agentic level. Streaks, XP, six ranks, and live duels keep the daily habit alive.
 
 Free to start on iOS; Pro unlocks everything for $49.99 a year (about $4.17 a month, 7-day free trial) or $9.99 a month. See your current fluency level in 2 minutes with the free AI IQ test.
 

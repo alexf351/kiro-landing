@@ -36,10 +36,10 @@ directory — the whole list is still available.)
 > Iro is the Duolingo for AI: master ChatGPT, Claude, prompting, and AI agents through 5-minute gamified lessons, real practice, streaks, and duels. Free to start.
 
 **Medium description (~300 chars):**
-> Iro AI turns learning AI into a game. Instead of watching videos you'll forget, you practice: write real prompts, spot AI mistakes, and duel other learners — 5 minutes a day. 25 learning paths across ChatGPT, Claude, Gemini, prompting, and agents, plus Custom Paths that build a course on any topic. Free to start on iOS or the web.
+> Iro AI turns learning AI into a game. Instead of watching videos you'll forget, you practice: write real prompts, spot AI mistakes, and duel other learners — 5 minutes a day. 29 learning paths across ChatGPT, Claude, Gemini, prompting, and agents, plus Custom Paths that build a course on any topic. Free to start on iOS or the web.
 
 **Long description (~500 chars):**
-> Iro AI is a gamified app for building real AI skills — "the Duolingo for AI." Most people learn AI by watching tutorials and hit a ceiling. Iro makes you practice instead: write real prompts and get instant feedback, compare model outputs, spot hallucinations, and go head-to-head in live duels. It covers ChatGPT, Claude, Gemini, Perplexity, prompt engineering, and AI agents across 25 paths (433 lessons, 2,050+ exercises), plus Ask Iro (an AI coach) and Custom Paths that generate a course on any topic you type. Five minutes a day, streaks and ranks to keep you going. Free to start on iOS or in the browser.
+> Iro AI is a gamified app for building real AI skills — "the Duolingo for AI." Most people learn AI by watching tutorials and hit a ceiling. Iro makes you practice instead: write real prompts and get instant feedback, compare model outputs, spot hallucinations, and go head-to-head in live duels. It covers ChatGPT, Claude, Gemini, Perplexity, prompt engineering, and AI agents across 29 paths (477 lessons, 2,700+ exercises), plus Ask Iro (an AI coach) and Custom Paths that generate a course on any topic you type. Five minutes a day, streaks and ranks to keep you going. Free to start on iOS or in the browser.
 
 **Founder blurb (for "maker" fields):**
 > I'm Alex, solo founder of Iro. I built it because every "learn AI" resource was passive video that doesn't stick — Iro makes you actually practice, like Duolingo does for languages.

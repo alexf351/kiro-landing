@@ -20,8 +20,8 @@ its exact topic.
 - **Real features you may reference:** Prompt Lab / real prompt practice with
   feedback; 24 exercise types; **Ask Iro** (a personal AI coach — chat and
   voice); **Custom Paths** (generate a learning path on almost any topic you
-  type in); shareable certificates; 25 built-in learning paths; 433 lessons;
-  2,050+ exercises. **Do NOT invent features that aren't in this list.**
+  type in); shareable certificates; 29 built-in learning paths; 477 lessons;
+  2,700+ exercises. **Do NOT invent features that aren't in this list.**
 - **Platform:** iOS now. Android is **in development** — users can join the
   Android waitlist on the home page. Iro also runs in any browser at
   **app.tryiro.com**. NEVER claim there is an Android app. NEVER touch/expand

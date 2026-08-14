@@ -35,7 +35,7 @@ Free tiers change often — check each app for current details. Last reviewed Ju
 
 ## What you get free with Iro
 
-- Lessons across all 25 learning paths to start each topic — ChatGPT, Claude, Gemini, Perplexity, prompting, agents, automation, and more.
+- Lessons across all 29 learning paths to start each topic — ChatGPT, Claude, Gemini, Perplexity, prompting, agents, automation, and more.
 
 - Daily challenges, XP, streaks, and the first ranks — with a battery that gives you a full lesson every day and recharges overnight. Earn extra charges from the Daily Challenge or by inviting a friend.
 
@@ -57,7 +57,7 @@ Two-minute start: take the free AI IQ test to see where you stand, then download
 
 ### Is there a free app to learn AI?
 
-Yes. Iro AI is free to start on iOS (and in the browser at https://app.tryiro.com), with a battery that gives you a full lesson every day and recharges overnight: lessons across all 25 learning paths plus daily challenges, XP, streaks, ranks, and a free AI IQ test at no cost. Khan Academy and YouTube are also free; Brilliant, DataCamp, and Coursera offer limited free access.
+Yes. Iro AI is free to start on iOS (and in the browser at https://app.tryiro.com), with a battery that gives you a full lesson every day and recharges overnight: lessons across all 29 learning paths plus daily challenges, XP, streaks, ranks, and a free AI IQ test at no cost. Khan Academy and YouTube are also free; Brilliant, DataCamp, and Coursera offer limited free access.
 
 ### Can I learn AI for free?
 

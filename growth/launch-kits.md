@@ -26,7 +26,7 @@ to every comment within minutes — reply speed drives ranking.
 - **Description (first text on the page):**
   > Most people learn AI by watching tutorials — and forget everything. Iro
   > makes you practice instead: write real prompts and get instant feedback,
-  > spot AI mistakes, duel other learners, and keep a streak alive. 25 paths
+  > spot AI mistakes, duel other learners, and keep a streak alive. 29 paths
   > across ChatGPT, Claude, Gemini, prompting, and agents, plus an AI coach
   > (Ask Iro) and Custom Paths that build a course on any topic you type.
   > Free to start: every path open, one full lesson a day on a battery that recharges overnight. iOS + web.
@@ -50,7 +50,7 @@ to every comment within minutes — reply speed drives ranking.
   >
   > So Iro makes you *do* the thing: you write real prompts and get scored,
   > you spot hallucinations, you pick the right tool for a scenario, you duel
-  > other learners. Five minutes a day, 24 exercise types, 433 lessons across
+  > other learners. Five minutes a day, 24 exercise types, 477 lessons across
   > ChatGPT, Claude, Gemini, prompting, and agents — plus Ask Iro, the coach
   > that explains *why* you got something wrong, and Custom Paths that
   > generate a course on any topic you type.
