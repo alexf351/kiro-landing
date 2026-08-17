@@ -172,11 +172,11 @@ A prompting playground in the Create tab. Write an image prompt, get an image
 back, then iterate. Ask Iro can critique your image prompt and suggest what to
 change, so the loop teaches you what actually moves the result. Image Lab is a Pro feature, with up to 10 images a day.
 
-### Video to course
+### Source to course
 
-On Create-a-Path you can paste a link to a TikTok or YouTube video and Iro
-builds a full interactive learning path on that topic, lessons and exercises
-included. Instagram links are not supported.
+On Create-a-Path you can paste a link to a TikTok, Instagram or YouTube post, or upload a
+screenshot or a PDF, and Iro builds a full interactive learning path on that
+topic, lessons and exercises included.
 
 ### Ask Iro — built-in AI coach (chat and voice)
 

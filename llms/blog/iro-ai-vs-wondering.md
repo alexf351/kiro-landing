@@ -27,7 +27,7 @@ pillar: "ai-fluency"
 ## Key takeaways
 
 - Wondering is Duolingo for anything. Iro AI is Duolingo for AI. That single sentence decides most of it.
-- Wondering personalises a path on any subject and can build it from your own link or PDF. Nothing in Iro does that from your own source material.
+- Both build a course from your own material. Iro takes a topic, a TikTok, Instagram or YouTube link, a screenshot or a PDF, so that feature is not the differentiator it looks like.
 - Iro grades the work. You write real prompts and get feedback on them, which is a different activity from reading a well-made lesson.
 - Annual against annual, Wondering Pro is about 80% more than Iro Pro, $90 a year against $49.99, and the $7.50 monthly figure is a founding rate rather than the standing price.
 - Iro also generates a path on any topic, so if that feature is what attracts you, compare the two directly rather than assuming only one has it.
@@ -47,7 +47,7 @@ Wondering came out of Y Combinator's Summer 2026 batch, built by a two-person te
 
 The pitch is Duolingo for anything. You give it a topic, a link, a PDF or just a description of what you want to know, and it builds a path of roughly three-minute lessons with visuals, generated podcasts and exercises. The path adapts to your background, how you prefer to learn, and how deep you want to go.
 
-The part worth taking seriously is **building a course from your own material**. Paste the paper you have been avoiding, get a path through it. That is a genuinely good idea and Iro does not do it.
+Building a course from your own material is the headline idea, and it works well. It is worth knowing that Iro does the same thing, which the next section covers, so this is not the clean differentiator it looks like from the outside.
 
 It is in early access on iOS and web. There is no Android app.
 
@@ -61,13 +61,13 @@ It runs on iOS and in any browser, with Android in development.
 
 ## The overlap people miss
 
-The obvious framing is breadth versus depth, and that is mostly right. But there is a real overlap worth knowing before you decide.
+The obvious framing is breadth versus depth, and that part is right. But the overlap is larger than either landing page suggests, and it is the thing most comparisons get wrong.
 
-**Iro also generates a path on any topic.** Custom Paths takes a subject you type, negotiation or guitar or personal finance, and builds a full path with lessons, a quiz and a recap. You can also hand it a TikTok or YouTube link and get a course out of it.
+**Iro also builds a course from what you give it.** Custom Paths takes a topic you type, negotiation or guitar or personal finance, and builds a full path with lessons, a quiz and a recap. It also takes **a TikTok, Instagram or YouTube link, a screenshot, or a PDF** and turns that into an interactive path.
 
-So if what attracted you to Wondering was the learn-anything promise rather than the specific subject, both apps do it. The differences are in the inputs and the output: Wondering takes PDFs and links from anywhere and leans on visuals and generated podcasts; Iro takes topics and video links and turns them into interactive exercises.
+So the source-material feature is not a reason to pick one over the other. Both do it, from a comparable range of inputs. What differs is what comes out the other end: Wondering leans on illustrated lessons and generated podcasts, Iro turns it into graded exercises.
 
-Pick on which of those you would actually finish.
+Pick on which of those two you would actually finish.
 
 ## Reading a good lesson is not the same as practising
 
@@ -127,7 +127,7 @@ Wondering is free to start, with Wondering Pro at $7.50 a month on annual billin
 
 **Does Iro AI let you learn any topic like Wondering?**
 
-Yes. Custom Paths builds a full path on any topic you type, with lessons, a quiz and a recap, and it can turn a TikTok or YouTube link into a course. The difference is the output: Iro turns it into interactive exercises, while Wondering leans on visuals and generated podcasts and can also start from a PDF.
+Yes, and from the same kinds of input. Custom Paths builds a full path on any topic you type, with lessons, a quiz and a recap, and it also accepts a TikTok, Instagram or YouTube link, a screenshot or a PDF. The difference from Wondering is the output: Iro turns the source into graded interactive exercises, while Wondering leans on illustrated lessons and generated podcasts.
 
 **Is Wondering available on Android?**
 

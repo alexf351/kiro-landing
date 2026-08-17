@@ -93,7 +93,7 @@
         "Shareable Certificates of Completion with unique credential IDs",
         "Web app at app.tryiro.com with account sync to iOS",
         "Image Lab: generate and refine images from your own prompts",
-        "Turn a TikTok or YouTube link into a full interactive learning path"
+        "Turn a TikTok, Instagram or YouTube link, a screenshot or a PDF into a full interactive learning path"
       ],
       "offers": [
         {
@@ -590,7 +590,7 @@
       },
       {
         "term": "Video to course",
-        "definition": "On Create-a-Path, paste a TikTok or YouTube link and Iro builds a full interactive learning path on that topic, lessons and exercises included. Instagram links are not supported."
+        "definition": "On Create-a-Path, paste a TikTok, Instagram or YouTube link, or upload a screenshot or PDF, and Iro builds a full interactive learning path on that topic, lessons and exercises included."
       }
     ],
     "direct_answer": "Iro AI is a gamified iPhone app for learning practical AI skills in about five minutes a day. It teaches ChatGPT, Claude, Gemini, Perplexity, prompt engineering, AI agents, automation, creative AI, and AI skills for work through active practice instead of passive video watching.",

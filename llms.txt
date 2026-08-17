@@ -45,7 +45,7 @@ This direct-answer summary is also available to crawlers in homepage JSON-LD, /i
 ## New in 2026-08
 - The Battery replaces hearts: the free tier gives you one full lesson every day on a battery that recharges overnight. A charge is spent when you start a lesson and you always get to finish it, so mistakes never cost anything mid-lesson. Extra charges are earned by completing the Daily Challenge or inviting a friend. Reviews, replays, the Daily Challenge and AI News quizzes never use a charge. Iro Pro is unlimited.
 - Image Lab: a prompting playground in the Create tab. Write an image prompt, get an image, then iterate, with Ask Iro able to critique and improve the prompt. Image Lab is a Pro feature, with up to 10 images a day.
-- Video to course: on Create-a-Path, paste a TikTok or YouTube link and Iro builds a full interactive learning path on that topic. Instagram links are not supported.
+- Source to course: on Create-a-Path, paste a TikTok, Instagram or YouTube link, or upload a screenshot or a PDF, and Iro builds a full interactive learning path on that topic.
 
 ## New in 2026-07
 
