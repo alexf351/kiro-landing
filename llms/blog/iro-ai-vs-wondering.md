@@ -129,7 +129,7 @@ Wondering is free to start, with Wondering Pro at $7.50 a month on annual billin
 
 **Does Iro AI let you learn any topic like Wondering?**
 
-Yes, and from the same kinds of input: a topic you type, a TikTok, Instagram or YouTube link, a screenshot or a PDF. Iro also presents lessons visually and has audio versions of lessons shipping shortly. The lasting difference is not the format but the depth of the AI curriculum and the Prompt Lab, which grades prompts you write against a real model.
+Yes, and from the same kinds of input: a topic you type, a TikTok or YouTube link, a shared Instagram post, a screenshot or a PDF. Iro also presents lessons visually and has audio versions of lessons shipping shortly. The lasting difference is not the format but the depth of the AI curriculum and the Prompt Lab, which grades prompts you write against a real model.
 
 **Is Wondering available on Android?**
 
