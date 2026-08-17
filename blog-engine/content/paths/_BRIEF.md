@@ -22,6 +22,11 @@ its exact topic.
   voice); **Custom Paths** (generate a learning path on almost any topic you
   type in); shareable certificates; 29 built-in learning paths; 477 lessons;
   2,700+ exercises. **Do NOT invent features that aren't in this list.**
+  *Where 2,700+ comes from (verified against the app repo, Aug 2026): 2,271
+  lesson exercises + 165 duel pool + 187 weekly briefings + 140 daily
+  challenges + 38 onboarding = 2,801, floored to 2,700+. Counting lesson
+  exercises alone gives 2,271, so do not "correct" the figure downward
+  without counting all five pools.*
 - **Platform:** iOS now. Android is **in development** — users can join the
   Android waitlist on the home page. Iro also runs in any browser at
   **app.tryiro.com**. NEVER claim there is an Android app. NEVER touch/expand
