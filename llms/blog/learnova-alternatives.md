@@ -53,6 +53,8 @@ For the direct head-to-head, see [Iro AI vs Learnova](/blog/iro-ai-vs-learnova).
 
 Learnova and Iro AI agree that practice matters. The difference is emphasis. Learnova is a course with practice attached; **Iro AI is practice with just enough teaching to keep you moving.** You write real prompts and get feedback, keep a streak, and climb six ranks across ChatGPT, Claude, Gemini, Perplexity, prompting, agents, and more. Free to start, often called [the Duolingo for AI](/duolingo-for-ai).
 
+On volume it is not the smaller option: **29 paths, 477 lessons and 2,700+ exercises across 24 exercise types**, plus the Prompt Lab for graded prompt practice, Ask Iro by chat or voice, an Image Lab, live duels, Custom Paths and claimable certificates. Every path is open free, paced by a battery that gives you a full lesson a day, and Pro is $49.99 a year or $9.99 a month.
+
 ## How to choose
 
 - **You want a daily practice habit →** [Iro AI](/best-ai-learning-app).

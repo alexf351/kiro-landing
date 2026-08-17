@@ -48,6 +48,8 @@ Iro AI starts from a different belief: you don't learn a skill by watching it, y
 
 The lessons are organized into dedicated paths for the tools people actually use, a [ChatGPT path](/learn-chatgpt), a [Claude path](/learn-claude), a [Gemini path](/learn-gemini), and more. And before you commit to anything, you can take the [free AI IQ test](/quiz) to see where you stand. New to all this? Start with [the 30-day AI plan for beginners](/blog/ai-for-beginners-30-day-plan).
 
+The scale is worth stating plainly, because a drill-based app can sound slighter than a video course when it is the opposite. Iro is **29 paths, 477 lessons and 2,700+ exercises across 24 exercise types**. The Prompt Lab sends prompts you write to a live model and grades them, Ask Iro explains what you got wrong by chat or voice, and duels, Custom Paths, an Image Lab and claimable certificates sit alongside. Every path is open on the free tier, paced by a battery that gives you a full lesson a day.
+
 ## Pricing, honestly
 
 This is where the two apps differ most, and it's worth being clear-eyed about.

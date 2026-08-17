@@ -17,7 +17,7 @@ pillar: "ai-fluency"
 
 # Iro AI vs Brilliant: which should you use to actually get good at AI?
 
-> Both are gamified, both are excellent at what they do — but they teach two very different things. Here's how to pick.
+> Both are gamified, both are excellent at what they do, but they teach two very different things. Here's how to pick.
 
 **Canonical:** https://tryiro.com/blog/iro-ai-vs-brilliant
 **Published:** 2026-06-01
@@ -38,19 +38,21 @@ The quick version, before the detail:
 
 ## What Brilliant is great at
 
-Brilliant is one of the best learning apps ever made for _understanding things_. Instead of lectures, it teaches math, logic, probability, computer science, and the ideas behind neural networks through interactive puzzles you solve step by step. If you have ever wanted to genuinely understand what a model is doing — not just use it — Brilliant is hard to beat.
+Brilliant is one of the best learning apps ever made for _understanding things_. Instead of lectures, it teaches math, logic, probability, computer science, and the ideas behind neural networks through interactive puzzles you solve step by step. If you have ever wanted to genuinely understand what a model is doing rather than just use it, Brilliant is hard to beat.
 
 For students, engineers, and the endlessly curious, that conceptual depth is the whole point. It builds the kind of first-principles intuition that lasts.
 
 ## What Iro AI is for
 
-Iro AI answers a different question: _how do I actually use these tools to get something done?_ Not the math behind a transformer — the practical skill of writing a prompt that works, choosing the right model, catching a hallucination, and chaining steps into a result. It is built like a game: short drills, instant feedback, streaks, and rank tiers, organized into paths for the tools people really use — [ChatGPT](/learn-chatgpt), [Claude](/learn-claude), [Gemini](/learn-gemini), and more.
+Iro AI answers a different question: _how do I actually use these tools to get something done?_ Not the math behind a transformer, but the practical skill of writing a prompt that works, choosing the right model, catching a hallucination, and chaining steps into a result. It is built like a game: short drills, instant feedback, streaks, and rank tiers, organized into paths for the tools people really use: [ChatGPT](/learn-chatgpt), [Claude](/learn-claude), [Gemini](/learn-gemini), and more.
 
 You can see where you stand in a few minutes with the [free AI IQ test](/quiz), then close the gaps. New to all this? Start with [the 30-day AI plan for beginners](/blog/ai-for-beginners-30-day-plan).
 
+It is also not a thin app, which matters if you are used to Brilliant's catalogue. Iro ships **29 learning paths, 477 lessons and 2,700+ hands-on exercises across 24 exercise types**, covering ChatGPT, Claude, Gemini, Perplexity, Grok, Copilot, prompt engineering, agents, automation, vibecoding and AI for specific jobs. Around that sit the Prompt Lab, which grades prompts you write against a live model, Ask Iro for chat and voice coaching, an Image Lab, live duels, Custom Paths on any topic, and certificates you can post to LinkedIn.
+
 ## Why they actually pair well
 
-Here is the honest truth most comparison posts miss: these two are complements, not competitors. Brilliant builds the _understanding_; Iro AI builds the _fluency_. Knowing how a neural network learns won't write you a great prompt — and writing great prompts doesn't require knowing the calculus. The strongest learners do both: understand the machine, then practice using it until it's second nature.
+Here is the honest truth most comparison posts miss: these two are complements, not competitors. Brilliant builds the _understanding_; Iro AI builds the _fluency_. Knowing how a neural network learns won't write you a great prompt, and writing great prompts doesn't require knowing the calculus. The strongest learners do both: understand the machine, then practice using it until it's second nature.
 
 If you only have time for one, pick based on your goal. If you want both, they reinforce each other beautifully.
 
@@ -60,7 +62,7 @@ A simple way to decide:
 
 - **Want to use AI well at work, school, or daily life?** **Iro AI.** It drills the applied skill directly.
 - **Want to understand the math and science underneath AI?** **Brilliant.** Nothing teaches concepts better.
-- **Want both?** Use Brilliant for the theory and Iro AI for the practice — they don't overlap.
+- **Want both?** Use Brilliant for the theory and Iro AI for the practice, since they don't overlap.
 
 Either way, start free: the [AI IQ test](/quiz) takes a few minutes and shows you exactly which applied skills to build next. Comparing other apps too? See [Iro AI vs Coursiv](/blog/iro-ai-vs-coursiv) and [Iro AI vs Duolingo](/blog/iro-ai-vs-duolingo).
 
@@ -72,7 +74,7 @@ It depends on your goal. They teach different things: Brilliant teaches the math
 
 **Does Brilliant teach you to use ChatGPT?**
 
-Brilliant focuses on foundations — math, logic, CS, and how AI/ML works conceptually — rather than hands-on skills with specific tools like ChatGPT or Claude. For drilling those applied skills, Iro AI's tool-specific paths are purpose-built for it.
+Brilliant focuses on foundations: math, logic, CS, and how AI/ML works conceptually, rather than hands-on skills with specific tools like ChatGPT or Claude. For drilling those applied skills, Iro AI's tool-specific paths are purpose-built for it.
 
 **Can I use both Brilliant and Iro AI?**
 
@@ -80,11 +82,11 @@ Yes, and they pair well. Brilliant builds the understanding of how AI works; Iro
 
 **Which is better for a complete beginner to AI tools?**
 
-For someone who just wants to use AI tools confidently, Iro AI is the more direct path — it drills prompting and tool use from zero. Start with the free AI IQ test, then the 30-day beginner plan.
+For someone who just wants to use AI tools confidently, Iro AI is the more direct path, since it drills prompting and tool use from zero. Start with the free AI IQ test, then the 30-day beginner plan.
 
 **Which app gets me actually using AI tools the fastest?**
 
-Iro AI. Brilliant builds math and CS foundations, but if your goal is to use ChatGPT, Claude, Gemini, and Perplexity well, Iro trains that directly — you can learn AI in about 5 minutes a day and work toward genuine AI fluency.
+Iro AI. Brilliant builds math and CS foundations, but if your goal is to use ChatGPT, Claude, Gemini, and Perplexity well, Iro trains that directly, and you can learn AI in about 5 minutes a day and work toward genuine AI fluency.
 
 ## Read next
 
