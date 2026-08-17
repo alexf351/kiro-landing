@@ -9,7 +9,7 @@
     <description>Short, practical writing on AI fluency, prompting, AI tools, and the active-practice method that beats endless video courses.</description>
     <language>en-US</language>
     <atom:link href="https://tryiro.com/blog/rss.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Thu, 13 Aug 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 14 Aug 2026 00:00:00 GMT</lastBuildDate>
     <generator>tryiro.com</generator>
     <copyright>© 2026 Iro AI</copyright>
     <image>
@@ -790,6 +790,24 @@
       <dc:creator>Iro AI</dc:creator>
       <category>AI tools</category>
       <description>What Suno is and how it works in 2026: song generation with vocals, stems and Suno Studio, how credits and pricing actually work, who owns what you make, and where the label lawsuits currently stand.</description>
+    </item>
+    <item>
+      <title>Iro AI vs Wondering: depth on AI, or breadth on everything</title>
+      <link>https://tryiro.com/blog/iro-ai-vs-wondering</link>
+      <guid isPermaLink="true">https://tryiro.com/blog/iro-ai-vs-wondering</guid>
+      <pubDate>Fri, 14 Aug 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Iro AI</dc:creator>
+      <category>AI fluency</category>
+      <description>An honest comparison of Iro AI and Wondering: what each one is built for, where Wondering's any-topic personalisation wins, where graded practice matters more, and how the pricing compares.</description>
+    </item>
+    <item>
+      <title>The best Wondering alternatives in 2026</title>
+      <link>https://tryiro.com/blog/wondering-alternatives</link>
+      <guid isPermaLink="true">https://tryiro.com/blog/wondering-alternatives</guid>
+      <pubDate>Fri, 14 Aug 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Iro AI</dc:creator>
+      <category>AI fluency</category>
+      <description>The best Wondering alternatives in 2026: what to use for AI skills, for maths and science, for your own documents, and for free. An honest comparison including where Wondering still wins.</description>
     </item>
   </channel>
 </rss>

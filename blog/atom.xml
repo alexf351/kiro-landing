@@ -5,7 +5,7 @@
   <link rel="self" href="https://tryiro.com/blog/atom.xml" type="application/atom+xml"/>
   <link rel="alternate" href="https://tryiro.com/blog" type="text/html"/>
   <id>https://tryiro.com/blog/atom.xml</id>
-  <updated>2026-08-13T00:00:00Z</updated>
+  <updated>2026-08-14T00:00:00Z</updated>
   <rights>© 2026 Iro AI</rights>
   <author><name>Iro AI</name><uri>https://tryiro.com</uri></author>
   <icon>https://tryiro.com/assets/favicon-64.png</icon>
@@ -869,5 +869,25 @@
     <author><name>Iro AI</name></author>
     <category term="AI tools"/>
     <summary>Suno writes a full song, vocals included, from a text description. The technology is remarkable and the legal picture is unresolved, and if you plan to publish anything you make, you need both halves of that sentence.</summary>
+  </entry>
+  <entry>
+    <title>Iro AI vs Wondering: depth on AI, or breadth on everything</title>
+    <id>https://tryiro.com/blog/iro-ai-vs-wondering</id>
+    <link href="https://tryiro.com/blog/iro-ai-vs-wondering"/>
+    <updated>2026-08-14T00:00:00Z</updated>
+    <published>2026-08-14T00:00:00Z</published>
+    <author><name>Iro AI</name></author>
+    <category term="AI fluency"/>
+    <summary>Wondering is a YC-backed app that turns any topic into a path of three-minute lessons. Iro AI is built to make you good at using AI specifically. They overlap enough to be confused and differ enough that the choice is usually obvious once you name what you actually want.</summary>
+  </entry>
+  <entry>
+    <title>The best Wondering alternatives in 2026</title>
+    <id>https://tryiro.com/blog/wondering-alternatives</id>
+    <link href="https://tryiro.com/blog/wondering-alternatives"/>
+    <updated>2026-08-14T00:00:00Z</updated>
+    <published>2026-08-14T00:00:00Z</published>
+    <author><name>Iro AI</name></author>
+    <category term="AI fluency"/>
+    <summary>Wondering turns any topic into a path of short, personalised lessons. If you want something more finished, more specialised, or free, here is the honest field, including when Wondering itself is still the right answer.</summary>
   </entry>
 </feed>

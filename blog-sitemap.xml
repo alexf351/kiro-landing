@@ -911,4 +911,24 @@
       <image:title>What is Suno? AI music generation, explained</image:title>
     </image:image>
   </url>
+  <url>
+    <loc>https://tryiro.com/blog/iro-ai-vs-wondering</loc>
+    <lastmod>2026-08-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://tryiro.com/assets/og/iro-ai-vs-wondering.png</image:loc>
+      <image:title>Iro AI vs Wondering: depth on AI, or breadth on everything</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://tryiro.com/blog/wondering-alternatives</loc>
+    <lastmod>2026-08-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://tryiro.com/assets/og/wondering-alternatives.png</image:loc>
+      <image:title>The best Wondering alternatives in 2026</image:title>
+    </image:image>
+  </url>
 </urlset>

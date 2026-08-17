@@ -1250,6 +1250,14 @@
     {
       "source": "/blog/what-is-suno",
       "destination": "/blog/what-is-suno.html"
+    },
+    {
+      "source": "/blog/iro-ai-vs-wondering",
+      "destination": "/blog/iro-ai-vs-wondering.html"
+    },
+    {
+      "source": "/blog/wondering-alternatives",
+      "destination": "/blog/wondering-alternatives.html"
     }
   ]
 }

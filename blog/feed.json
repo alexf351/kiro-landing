@@ -1033,6 +1033,30 @@
         "music",
         "creative AI"
       ]
+    },
+    {
+      "id": "https://tryiro.com/blog/iro-ai-vs-wondering",
+      "url": "https://tryiro.com/blog/iro-ai-vs-wondering",
+      "title": "Iro AI vs Wondering: depth on AI, or breadth on everything",
+      "summary": "Wondering is a YC-backed app that turns any topic into a path of three-minute lessons. Iro AI is built to make you good at using AI specifically. They overlap enough to be confused and differ enough that the choice is usually obvious once you name what you actually want.",
+      "date_published": "2026-08-14T00:00:00Z",
+      "tags": [
+        "AI fluency",
+        "AI learning apps",
+        "comparison"
+      ]
+    },
+    {
+      "id": "https://tryiro.com/blog/wondering-alternatives",
+      "url": "https://tryiro.com/blog/wondering-alternatives",
+      "title": "The best Wondering alternatives in 2026",
+      "summary": "Wondering turns any topic into a path of short, personalised lessons. If you want something more finished, more specialised, or free, here is the honest field, including when Wondering itself is still the right answer.",
+      "date_published": "2026-08-14T00:00:00Z",
+      "tags": [
+        "AI fluency",
+        "AI learning apps",
+        "comparison"
+      ]
     }
   ]
 }

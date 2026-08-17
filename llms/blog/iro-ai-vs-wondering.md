@@ -1,0 +1,135 @@
+---
+title: "Iro AI vs Wondering: depth on AI, or breadth on everything"
+canonical_url: "https://tryiro.com/blog/iro-ai-vs-wondering"
+site: "Iro AI"
+site_url: "https://tryiro.com"
+app_store: "https://apps.apple.com/app/id6759628066"
+language: en-US
+keywords: ["Iro AI vs Wondering", "Wondering app review", "Wondering vs Duolingo", "Duolingo for anything", "learn anything app", "AI learning app comparison"]
+date_published: "2026-08-14"
+date_modified: "2026-08-14"
+reading_time_minutes: 7
+author: "Alex Furukawa"
+license: "© 2026 Iro AI"
+canonical_llm_reference: "https://tryiro.com/llms-full.txt"
+pillar: "ai-fluency"
+---
+
+# Iro AI vs Wondering: depth on AI, or breadth on everything
+
+> Wondering is a YC-backed app that turns any topic into a path of three-minute lessons. Iro AI is built to make you good at using AI specifically. They overlap enough to be confused and differ enough that the choice is usually obvious once you name what you actually want.
+
+**Canonical:** https://tryiro.com/blog/iro-ai-vs-wondering
+**Published:** 2026-08-14
+**Reading time:** ~7 min
+**Author:** Alex Furukawa — Founder of Iro AI
+
+## Key takeaways
+
+- Wondering is Duolingo for anything. Iro AI is Duolingo for AI. That single sentence decides most of it.
+- Wondering personalises a path on any subject and can build it from your own link or PDF. Nothing in Iro does that from your own source material.
+- Iro grades the work. You write real prompts and get feedback on them, which is a different activity from reading a well-made lesson.
+- Wondering is in early access from a two-person team, on iOS and web. Expect it to change under you, in both the good and the annoying sense.
+- Iro also generates a path on any topic, so if that feature is what attracts you, compare the two directly rather than assuming only one has it.
+
+## The short answer
+
+**Want to learn a bit of everything? Wondering. Want to get genuinely good at using AI? Iro.**
+
+Wondering is a general learning app: name a topic, get a personalised path of short lessons. Iro AI is a single-subject app: it teaches you to use AI tools well, and it makes you practise rather than read.
+
+We make Iro, so weigh this accordingly. What follows is what each one is actually built for, including the cases where Wondering is the better buy.
+
+## What Wondering does
+
+Wondering came out of Y Combinator's Summer 2026 batch, built by a two-person team in San Francisco. One of the founders previously worked on [NotebookLM](/learn-notebooklm) at Google, which shows in the product: it is good at turning source material into something structured.
+
+The pitch is Duolingo for anything. You give it a topic, a link, a PDF or just a description of what you want to know, and it builds a path of roughly three-minute lessons with visuals, generated podcasts and exercises. The path adapts to your background, how you prefer to learn, and how deep you want to go.
+
+The part worth taking seriously is **building a course from your own material**. Paste the paper you have been avoiding, get a path through it. That is a genuinely good idea and Iro does not do it.
+
+It is in early access on iOS and web. There is no Android app.
+
+## What Iro does
+
+Iro AI is narrow on purpose. It teaches one subject, using AI, and goes deep on it: 29 learning paths, 477 lessons and 2,700+ hands-on exercises across ChatGPT, Claude, Gemini, Perplexity, prompt engineering, agents, automation, vibecoding and AI for specific jobs.
+
+The mechanic is different too. Iro is built around **doing the thing and being marked on it**. You write real prompts in the Prompt Lab and get them graded, judge whether a model's output is good, spot hallucinations, and duel other learners on timed questions. Streaks, XP and ranks hold the daily habit together, and a visible skill profile shows which of six areas you are weakest in.
+
+It runs on iOS and in any browser, with Android in development.
+
+## The overlap people miss
+
+The obvious framing is breadth versus depth, and that is mostly right. But there is a real overlap worth knowing before you decide.
+
+**Iro also generates a path on any topic.** Custom Paths takes a subject you type, negotiation or guitar or personal finance, and builds a full path with lessons, a quiz and a recap. You can also hand it a TikTok or YouTube link and get a course out of it.
+
+So if what attracted you to Wondering was the learn-anything promise rather than the specific subject, both apps do it. The differences are in the inputs and the output: Wondering takes PDFs and links from anywhere and leans on visuals and generated podcasts; Iro takes topics and video links and turns them into interactive exercises.
+
+Pick on which of those you would actually finish.
+
+## Reading a good lesson is not the same as practising
+
+This is the difference that matters most and the one that is hardest to see from a landing page.
+
+A well-made three-minute lesson with clean visuals feels like learning, and some of it is. You will retain more than from a video you half-watched. But **the activity is still mostly consumption**, and consumption produces recognition rather than ability. You will know what a system prompt is. Writing a good one under time pressure is a separate skill.
+
+Iro's bet is that the thing you get marked on is the thing you get good at. That is why the exercises are prompt writing, output critique and hallucination spotting rather than multiple choice about definitions.
+
+The fair counterpoint: **for a lot of subjects, understanding is the whole goal.** If you want to grasp quantum mechanics well enough to follow a conversation, a beautifully explained lesson is exactly right and graded drills would be overkill. Practice earns its keep when you intend to perform the skill, and using AI at work is a performance.
+
+## Pricing
+
+Both are free to start with an optional upgrade.
+
+**Wondering** has a free tier and Wondering Pro, which adds unlimited daily lessons and unlimited chats. The company has been running an early-supporter offer at $7.50 a month on annual billing, described as locked in for the people who take it. Treat that as a founding rate rather than the standing price, and check what it renews at when you subscribe.
+
+**Iro Pro** is $49.99 a year, about $4.17 a month, with a 7-day free trial, or $9.99 a month. Every learning path is open on the free tier, paced by a battery that gives you a full lesson each day.
+
+They are close enough in price that cost should not decide this. Pick on what you want to be able to do afterwards.
+
+## Which one to pick
+
+**Choose Wondering if** your curiosity is broad, you want one app for whatever you are into this month, you learn well from visuals and audio, or you have specific source material you want turned into a course. Also choose it if you are on iOS or web and do not mind an early-access product changing under you.
+
+**Choose Iro if** the goal is to actually get good at using AI, you want to be marked rather than told, you want a curriculum that goes deeper than an overview on prompting and agents, or you want the daily-habit machinery of streaks, ranks and duels to keep you coming back.
+
+**Choose both if** you can justify two subscriptions. They are not really competing for the same hour.
+
+If you want a read on where you stand before spending anything, the [AI rank quiz](/quiz) is ten questions and about two minutes, with no signup and no card.
+
+## FAQ
+
+**What is Wondering?**
+
+Wondering is a learning app from Y Combinator's Summer 2026 batch that turns any topic into a personalised path of roughly three-minute lessons with visuals, generated podcasts and exercises. You can start from a topic, a link, a PDF or a description of your goal. It is in early access on iOS and web, built by a two-person team in San Francisco.
+
+**Is Wondering better than Iro AI?**
+
+They are built for different jobs. Wondering is broad: any subject, personalised, strong at turning source material into a structured path. Iro AI is narrow and deep on using AI, and it grades your work rather than only explaining. If you want general curiosity satisfied, Wondering fits. If you want to be measurably better at prompting and AI tools, Iro fits.
+
+**How much does Wondering cost?**
+
+It is free to start, with an optional Wondering Pro subscription that adds unlimited daily lessons and unlimited chats. The company has run an early-supporter rate of $7.50 a month on annual billing for founding subscribers. Check the current renewal price before subscribing, since a founding rate is not necessarily the standing one.
+
+**Does Iro AI let you learn any topic like Wondering?**
+
+Yes. Custom Paths builds a full path on any topic you type, with lessons, a quiz and a recap, and it can turn a TikTok or YouTube link into a course. The difference is the output: Iro turns it into interactive exercises, while Wondering leans on visuals and generated podcasts and can also start from a PDF.
+
+**Is Wondering available on Android?**
+
+No. At the time of writing it is in early access on iOS and the web only. Iro AI is on iOS and runs in any browser, with Android in development.
+
+**Which is better for learning AI specifically?**
+
+Iro AI, by design. It is a single-subject app with 29 paths, 477 lessons and 2,700+ exercises on AI tools, prompting, agents and automation, plus a Prompt Lab that grades prompts you write. A general learning app can explain AI concepts well, but it will not put you through graded reps on the skill.
+
+## Read next
+
+- [Iro AI vs Duolingo](https://tryiro.com/blog/iro-ai-vs-duolingo)
+- [How to choose an AI learning app](https://tryiro.com/blog/how-to-choose-an-ai-learning-app)
+- [Apps like Duolingo, for AI](https://tryiro.com/blog/apps-like-duolingo-for-ai)
+
+## About the author
+
+Alex Furukawa — Founder of Iro AI. Alex Furukawa is the founder of Iro AI, the gamified app for learning to use AI well. He works in private equity real estate, where he leads his firm's AI initiative and builds the automation his team runs on live deals. He writes about practical AI fluency: prompting, AI tools, and the daily habits that turn AI from a novelty into hours you get back.
