@@ -31,6 +31,7 @@ pillar: "ai-fluency"
 - NotebookLM is free and does the source-material job, without the course structure or the habit loop.
 - Brilliant is the closest premium alternative for maths, science and computing, with real interactivity and a much larger catalogue.
 - If you only wanted the any-topic generator, several apps now include one, so that feature alone should not decide your subscription.
+- On price, Wondering Pro is $90 a year on annual billing against Iro Pro at $49.99, and the quoted monthly figure is an early-supporter rate rather than the standing one.
 
 ## Why people look for an alternative
 
@@ -42,12 +43,13 @@ The reasons people go looking are usually one of four:
 - **No Android.** It is iOS and web only right now.
 - **They want depth in one subject** rather than a good introduction to many.
 - **They want to be tested, not taught.** Short lessons explain well; that is a different thing from being marked on your own work.
+- **Price.** Wondering Pro runs $7.50 a month on annual billing, $90 a year, and that is a founding rate rather than the standing price.
 
 We make one of the apps below, so read this with that in mind. It is flagged where it appears.
 
 ## The alternatives, honestly
 
-**Iro AI (ours).** A single-subject app for getting good at using AI: 29 paths, 477 lessons and 2,700+ hands-on exercises across ChatGPT, Claude, Gemini, Perplexity, prompting, agents, automation and AI for specific jobs. You write real prompts and get them graded, spot hallucinations, and duel other learners. It also generates a path on any topic, so it covers some of Wondering's ground. Free tier with every path open; Pro is $49.99 a year or $9.99 a month. iOS and web, Android in development.
+**Iro AI (ours).** A single-subject app for getting good at using AI: 29 paths, 477 lessons and 2,700+ hands-on exercises across ChatGPT, Claude, Gemini, Perplexity, prompting, agents, automation and AI for specific jobs. You write real prompts and get them graded, spot hallucinations, and duel other learners. It also generates a path on any topic, so it covers some of Wondering's ground. Free tier with every path open; Pro is $49.99 a year, about $4.17 a month, or $9.99 monthly. That undercuts Wondering Pro, which is $7.50 a month on annual billing, or $90 a year, by roughly 45%. iOS and web, Android in development.
 
 **Brilliant.** The strongest premium alternative for breadth with real interactivity, particularly maths, science, computer science and logic. Much larger catalogue than any new app, genuinely well-made problems rather than explanations with a quiz attached. Weaker if your interests are outside its subject range, and it does not build a course from your own material.
 
@@ -110,6 +112,10 @@ Not at the time of writing. It is in early access on iOS and the web. If you are
 **What makes an app like this actually work?**
 
 Three things: a structure that decides what comes next so you are not choosing, feedback on work you produced rather than only explanation, and a reason to return tomorrow. Apps that supply explanation alone tend to be enjoyed once and abandoned, which is the same failure mode as a saved video playlist.
+
+**Is there a cheaper alternative to Wondering Pro?**
+
+Yes. Wondering Pro is $7.50 a month on annual billing, which is $90 a year, and that figure is an early-supporter founding rate. Iro AI, which is ours, is $49.99 a year or $9.99 a month, roughly 45% less annually, with every learning path open on the free tier. NotebookLM is free if you only need your own documents turned into something usable.
 
 ## Read next
 

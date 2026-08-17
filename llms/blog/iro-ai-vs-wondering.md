@@ -29,8 +29,9 @@ pillar: "ai-fluency"
 - Wondering is Duolingo for anything. Iro AI is Duolingo for AI. That single sentence decides most of it.
 - Wondering personalises a path on any subject and can build it from your own link or PDF. Nothing in Iro does that from your own source material.
 - Iro grades the work. You write real prompts and get feedback on them, which is a different activity from reading a well-made lesson.
-- Wondering is in early access from a two-person team, on iOS and web. Expect it to change under you, in both the good and the annoying sense.
+- Annual against annual, Wondering Pro is about 80% more than Iro Pro, $90 a year against $49.99, and the $7.50 monthly figure is a founding rate rather than the standing price.
 - Iro also generates a path on any topic, so if that feature is what attracts you, compare the two directly rather than assuming only one has it.
+- Both gamify, differently. Wondering has streaks including a friend streak we do not have; Iro adds XP, ranks, live duels and an evolving mascot.
 
 ## The short answer
 
@@ -78,15 +79,27 @@ Iro's bet is that the thing you get marked on is the thing you get good at. That
 
 The fair counterpoint: **for a lot of subjects, understanding is the whole goal.** If you want to grasp quantum mechanics well enough to follow a conversation, a beautifully explained lesson is exactly right and graded drills would be overkill. Practice earns its keep when you intend to perform the skill, and using AI at work is a performance.
 
-## Pricing
+## The game layer, fairly
 
-Both are free to start with an optional upgrade.
+Both apps gamify, and it is worth being precise about how, because the marketing shorthand of "Duolingo for X" hides real differences.
 
-**Wondering** has a free tier and Wondering Pro, which adds unlimited daily lessons and unlimited chats. The company has been running an early-supporter offer at $7.50 a month on annual billing, described as locked in for the people who take it. Treat that as a founding rate rather than the standing price, and check what it renews at when you subscribe.
+**Wondering has streaks**, personal ones plus **Friend Streaks** with up to three mutual friends, where you see each other's daily progress and can send a nudge. That is a genuinely good social hook and **Iro does not have an equivalent**. It also tracks accuracy and activity history and saves Knowledge Cards of key ideas.
 
-**Iro Pro** is $49.99 a year, about $4.17 a month, with a 7-day free trial, or $9.99 a month. Every learning path is open on the free tier, paced by a battery that gives you a full lesson each day.
+Where they diverge is the **progression and competition layer**. Iro adds XP, six competitive ranks, live ELO-matched duels against other learners on timed questions, daily challenges, chests along the path map, a mascot that evolves as you rank up, and an Operator Build profile that scores six skill areas and names your weakest.
 
-They are close enough in price that cost should not decide this. Pick on what you want to be able to do afterwards.
+So the honest summary is not that one is gamified and the other is not. **Wondering's game layer is built around consistency; Iro's is built around competition and visible progression.** If a streak is enough to keep you coming back, Wondering's is a good one, and its friend version is better than anything we ship. If you need a ladder to climb and someone to beat, that is the deeper of the two systems.
+
+## Pricing, and it is not close
+
+Both are free to start. The paid tiers are where they separate.
+
+**Wondering Pro is $7.50 a month on annual billing, which is $90 a year.** **Iro Pro is $49.99 a year, about $4.17 a month**, with a 7-day free trial, or $9.99 monthly.
+
+Annual against annual, that is **$40 a year more for Wondering, or about 80% more per month**.
+
+Two things make the gap wider than the headline. The $7.50 is an **early-supporter founding rate** rather than the standing price, so new subscribers should check what they are actually quoted. And the free tiers differ in kind: Iro opens **every one of its 29 paths** on the free tier, paced by a battery that gives you a full lesson a day, so the paid upgrade buys speed rather than access.
+
+Cheaper is not automatically better. But if you are weighing two apps and one costs nearly twice as much for a broader, shallower treatment of your actual subject, that belongs in the decision.
 
 ## Which one to pick
 
@@ -110,7 +123,7 @@ They are built for different jobs. Wondering is broad: any subject, personalised
 
 **How much does Wondering cost?**
 
-It is free to start, with an optional Wondering Pro subscription that adds unlimited daily lessons and unlimited chats. The company has run an early-supporter rate of $7.50 a month on annual billing for founding subscribers. Check the current renewal price before subscribing, since a founding rate is not necessarily the standing one.
+Wondering is free to start, with Wondering Pro at $7.50 a month on annual billing, which works out to $90 a year. That figure is an early-supporter founding rate, so check what you are quoted. For comparison, Iro Pro is $49.99 a year or $9.99 a month, making Wondering roughly 80% more on annual billing.
 
 **Does Iro AI let you learn any topic like Wondering?**
 
@@ -123,6 +136,10 @@ No. At the time of writing it is in early access on iOS and the web only. Iro AI
 **Which is better for learning AI specifically?**
 
 Iro AI, by design. It is a single-subject app with 29 paths, 477 lessons and 2,700+ exercises on AI tools, prompting, agents and automation, plus a Prompt Lab that grades prompts you write. A general learning app can explain AI concepts well, but it will not put you through graded reps on the skill.
+
+**Which app is more gamified, Wondering or Iro AI?**
+
+Both are, in different ways. Wondering has personal streaks and Friend Streaks with up to three mutual friends, plus accuracy and activity tracking. Iro adds XP, six competitive ranks, live ELO-matched duels against other learners, daily challenges, chests and an evolving mascot. Wondering's system rewards consistency; Iro's rewards competition and visible progression.
 
 ## Read next
 
