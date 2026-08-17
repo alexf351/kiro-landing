@@ -26,8 +26,8 @@ pillar: "ai-fluency"
 
 ## Key takeaways
 
-- Wondering is Duolingo for anything. Iro AI is Duolingo for AI. That single sentence decides most of it.
-- Both build a course from your own material. Iro takes a topic, a TikTok, Instagram or YouTube link, a screenshot or a PDF, so that feature is not the differentiator it looks like.
+- Wondering is Duolingo for anything. Iro AI is Duolingo for AI. What separates them is curated depth on one subject and whether your own work gets graded, not the lesson format.
+- The formats are closer than they look. Both build courses from your own links, screenshots and PDFs, both use lesson visuals, and both have audio versions of lessons.
 - Iro grades the work. You write real prompts and get feedback on them, which is a different activity from reading a well-made lesson.
 - Annual against annual, Wondering Pro is about 80% more than Iro Pro, $90 a year against $49.99, and the $7.50 monthly figure is a founding rate rather than the standing price.
 - Iro also generates a path on any topic, so if that feature is what attracts you, compare the two directly rather than assuming only one has it.
@@ -47,7 +47,7 @@ Wondering came out of Y Combinator's Summer 2026 batch, built by a two-person te
 
 The pitch is Duolingo for anything. You give it a topic, a link, a PDF or just a description of what you want to know, and it builds a path of roughly three-minute lessons with visuals, generated podcasts and exercises. The path adapts to your background, how you prefer to learn, and how deep you want to go.
 
-Building a course from your own material is the headline idea, and it works well. It is worth knowing that Iro does the same thing, which the next section covers, so this is not the clean differentiator it looks like from the outside.
+Building a course from your own material is the headline idea and it works well. Much of the rest of the format, illustrated lessons and audio versions of them, is closer to industry standard than to a moat. The next section covers where the two actually part company.
 
 It is in early access on iOS and web. There is no Android app.
 
@@ -61,13 +61,15 @@ It runs on iOS and in any browser, with Android in development.
 
 ## The overlap people miss
 
-The obvious framing is breadth versus depth, and that part is right. But the overlap is larger than either landing page suggests, and it is the thing most comparisons get wrong.
+The obvious framing is breadth versus depth, and that part is right. The overlap underneath it is larger than either landing page suggests, which is what most comparisons get wrong.
 
-**Iro also builds a course from what you give it.** Custom Paths takes a topic you type, negotiation or guitar or personal finance, and builds a full path with lessons, a quiz and a recap. It also takes **a TikTok, Instagram or YouTube link, a screenshot, or a PDF** and turns that into an interactive path.
+**Both build a course from what you give them.** Iro's Custom Paths takes a topic you type, or a TikTok, Instagram or YouTube link, or a screenshot, or a PDF, and returns a full path with lessons, a quiz and a recap.
 
-So the source-material feature is not a reason to pick one over the other. Both do it, from a comparable range of inputs. What differs is what comes out the other end: Wondering leans on illustrated lessons and generated podcasts, Iro turns it into graded exercises.
+**Both present lessons visually**, and both have audio versions of lessons, with Iro's shipping shortly rather than being live today.
 
-Pick on which of those two you would actually finish.
+**Both gamify**, which the next section breaks down.
+
+So the format is close to a wash. What is left is the part that is hard to copy: **what the app knows, and whether it marks your work.**
 
 ## Reading a good lesson is not the same as practising
 
@@ -75,7 +77,7 @@ This is the difference that matters most and the one that is hardest to see from
 
 A well-made three-minute lesson with clean visuals feels like learning, and some of it is. You will retain more than from a video you half-watched. But **the activity is still mostly consumption**, and consumption produces recognition rather than ability. You will know what a system prompt is. Writing a good one under time pressure is a separate skill.
 
-Iro's bet is that the thing you get marked on is the thing you get good at. That is why the exercises are prompt writing, output critique and hallucination spotting rather than multiple choice about definitions.
+Iro's bet is that the thing you get marked on is the thing you get good at. That is why the exercises are prompt writing scored by a real model, output critique and hallucination spotting, rather than multiple choice about definitions. Generated exercises can test whether you followed a lesson; they are a different thing from a Prompt Lab that reads the prompt you wrote and tells you what is weak about it.
 
 The fair counterpoint: **for a lot of subjects, understanding is the whole goal.** If you want to grasp quantum mechanics well enough to follow a conversation, a beautifully explained lesson is exactly right and graded drills would be overkill. Practice earns its keep when you intend to perform the skill, and using AI at work is a performance.
 
@@ -127,7 +129,7 @@ Wondering is free to start, with Wondering Pro at $7.50 a month on annual billin
 
 **Does Iro AI let you learn any topic like Wondering?**
 
-Yes, and from the same kinds of input. Custom Paths builds a full path on any topic you type, with lessons, a quiz and a recap, and it also accepts a TikTok, Instagram or YouTube link, a screenshot or a PDF. The difference from Wondering is the output: Iro turns the source into graded interactive exercises, while Wondering leans on illustrated lessons and generated podcasts.
+Yes, and from the same kinds of input: a topic you type, a TikTok, Instagram or YouTube link, a screenshot or a PDF. Iro also presents lessons visually and has audio versions of lessons shipping shortly. The lasting difference is not the format but the depth of the AI curriculum and the Prompt Lab, which grades prompts you write against a real model.
 
 **Is Wondering available on Android?**
 

@@ -26,7 +26,7 @@ pillar: "ai-fluency"
 
 ## Key takeaways
 
-- Wondering's strength is breadth plus personalisation. Its source-material feature is good but not unique, since Iro accepts a link, screenshot or PDF too, so judge on output rather than input.
+- Wondering's strength is breadth on any subject. Its format is not the differentiator it looks like, since Iro also builds from links, screenshots and PDFs and uses lesson visuals.
 - For getting good at AI specifically, a single-subject app that grades your work beats a general one that explains well.
 - NotebookLM is free and does the source-material job, without the course structure or the habit loop.
 - Brilliant is the closest premium alternative for maths, science and computing, with real interactivity and a much larger catalogue.
@@ -49,7 +49,7 @@ We make one of the apps below, so read this with that in mind. It is flagged whe
 
 ## The alternatives, honestly
 
-**Iro AI (ours).** A single-subject app for getting good at using AI: 29 paths, 477 lessons and 2,700+ hands-on exercises across ChatGPT, Claude, Gemini, Perplexity, prompting, agents, automation and AI for specific jobs. You write real prompts and get them graded, spot hallucinations, and duel other learners. It also builds a course from a topic you type, a TikTok, Instagram or YouTube link, a screenshot or a PDF, so it covers Wondering's source-material ground too. Free tier with every path open; Pro is $49.99 a year, about $4.17 a month, or $9.99 monthly. That undercuts Wondering Pro, which is $7.50 a month on annual billing, or $90 a year, by roughly 45%. iOS and web, Android in development.
+**Iro AI (ours).** A single-subject app for getting good at using AI: 29 paths, 477 lessons and 2,700+ hands-on exercises across ChatGPT, Claude, Gemini, Perplexity, prompting, agents, automation and AI for specific jobs. You write real prompts and get them graded against a live model, spot hallucinations, and duel other learners. It also builds a course from a topic you type, a TikTok, Instagram or YouTube link, a screenshot or a PDF, so it covers Wondering's source-material ground too. Free tier with every path open; Pro is $49.99 a year, about $4.17 a month, or $9.99 monthly. That undercuts Wondering Pro, which is $7.50 a month on annual billing, or $90 a year, by roughly 45%. iOS and web, Android in development.
 
 **Brilliant.** The strongest premium alternative for breadth with real interactivity, particularly maths, science, computer science and logic. Much larger catalogue than any new app, genuinely well-made problems rather than explanations with a quiz attached. Weaker if your interests are outside its subject range, and it will not build a course from a document you supply.
 
@@ -75,7 +75,7 @@ Three cases, and they are not consolation prizes.
 
 **Your curiosity is genuinely broad.** If this month is Roman history and next month is protein folding, an app that does one subject well is the wrong shape no matter how good it is.
 
-**You want it explained rather than drilled.** Wondering's output is illustrated lessons and generated podcasts, which is the right shape when the goal is understanding a subject rather than performing a skill.
+**You want it explained rather than drilled.** If the goal is understanding a subject rather than performing a skill, an app built around explanation is the right shape, and graded reps would be overkill.
 
 **You learn best from visuals and audio.** Generated podcasts and illustrated explanations are a legitimate way in, and the drill-heavy approach will feel like homework if that is not how your attention works.
 
