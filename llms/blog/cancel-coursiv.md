@@ -119,6 +119,8 @@ On billing, since that is what brought you here: free to start with a battery th
 
 If you would rather spend nothing right now, the [AI rank quiz](/quiz) is ten questions and about two minutes, no signup and no card. For the wider field including the free options, see [the best Coursiv alternatives](/blog/coursiv-alternatives), or [how Coursiv, Finestro and Learnova compare](/blog/coursiv-vs-finestro-vs-learnova) if you are weighing several of these at once.
 
+For scale, since "try this instead" is worth nothing without it: **29 learning paths, 477 lessons and 2,700+ hands-on exercises across 24 exercise types**, covering ChatGPT, Claude, Gemini, Perplexity, Grok, Copilot, prompting, agents and automation. The Prompt Lab grades prompts you write against a live model, Ask Iro explains misses by chat or voice, and there are duels, an Image Lab, Custom Paths and certificates. Every path is open on the free tier, so you can judge it before paying anything.
+
 ## FAQ
 
 **How do I cancel my Coursiv subscription?**

@@ -73,6 +73,8 @@ On the billing question specifically, since that is why you are here: Iro is fre
 
 Two 2026 additions widen the gap on the learning side. **Custom Paths** turn any topic you type into a structured path in seconds, five short lessons, a quiz, and a recap card. **Ask Iro**, the built-in AI coach, explains graded answers by chat or voice. There is also a web app, so you can start on any device and your progress syncs to iOS.
 
+The numbers, since a drill app can sound slighter than a video course when it is the reverse: **29 paths, 477 lessons and 2,700+ exercises across 24 exercise types**, with a Prompt Lab that grades real prompts, Ask Iro for chat and voice coaching, an Image Lab, live duels, Custom Paths and claimable certificates.
+
 ## How to choose
 
 - You learn by doing and want a daily habit: **Iro AI**.
