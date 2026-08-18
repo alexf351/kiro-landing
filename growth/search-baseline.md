@@ -186,11 +186,26 @@ An adversarial fact-check refused the pricing outright:
   genuinely free, Morso has a real free tier, Nibble has none beyond a 7-day
   trial), no confidence on numbers.
 
-**So no competitor comparison page was written.** Publishing a wrong price
-about a named competitor is a legal and reputational problem, and it is not
-worth a ranking. The pages are worth writing the moment the prices can be
-checked from an unblocked network, or from your own phone in five minutes:
-open each app's App Store listing and screenshot the subscription sheet.
+**Correction, same day: the pages were written, without prices.** The original
+conclusion here — that no comparison page could be written — conflated two
+things. Publishing a wrong price about a named competitor is a legal and
+reputational problem and remains banned. But a price is not what an
+alternatives page is for. Eight now ship (NerdSip, Blinkist, Headway, Kinnu,
+Morso, Nibble, Imprint, Chunks), each arguing a category difference rather
+than a feature-by-feature contest, with every unverifiable cell marked *"not
+verified by us"* and a legend explaining why the gap is there.
+
+That marker is doing real work on this SERP. Every ranking roundup on
+"best microlearning apps" is published by one of the apps in it, and most
+quote prices traceable to affiliate pages. A table that says plainly what it
+could not check is the only genuinely differentiated artifact available to us
+here, and it costs nothing to be true.
+
+**What is still missing, and it is a five-minute job on your phone:** open
+each app's App Store listing, scroll to the in-app purchase section, and
+screenshot the subscription sheet. Each one fills exactly one table cell —
+the *Free tier* column on that app's page. Nothing else about the pages
+changes.
 
 ## The queries to track from here
 

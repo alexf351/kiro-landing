@@ -121,7 +121,31 @@ Ranked by winnability × commercial intent:
 
 ### Cut
 
-- **Any vs/alternatives page against Blinkist, Headway, Imprint, or Chunks.** The fact-checks returned zero confirmed facts for Blinkist and Headway, one store ID for Imprint, and nothing for Chunks. A comparison page with no verified facts is thin, and any attempt to fill it is dishonest.
+- ~~**Any vs/alternatives page against Blinkist, Headway, Imprint, or Chunks.**~~
+  **Revised 2026-08-18 — these shipped.** The original reasoning was that a
+  comparison page with no verified facts is thin and filling it is dishonest.
+  Both halves of that are true; the conclusion was not. What verification
+  failed to produce was *prices, ratings and free-tier structures*, and none of
+  those are what the pages argue. Each one argues a **category difference** —
+  a summary is a knowledge product, not a practice product; a diagram closes
+  understanding, not capability — which needs no claim about a competitor
+  beyond what its own store listing says.
+
+  The unverifiable cells ship as `<span class="unv">Not verified by us</span>`
+  with a legend saying we could not confirm the cell from the company's own
+  listing and would rather leave a gap than copy an affiliate page. On a SERP
+  where every ranking roundup is written by one of the apps in it, that is the
+  differentiator §6.2 already identified, and it is the only way these tables
+  can be published at all.
+
+  Live: `/blog/blinkist-alternatives`, `/headway-alternatives`,
+  `/kinnu-alternatives`, `/morso-alternatives`, `/nibble-alternatives`,
+  `/imprint-alternatives`, `/chunks-alternatives`, plus the earlier
+  `/nerdsip-alternatives`.
+
+  **Still cut:** any *price, rating, download count or billing-conduct* claim
+  about any of them. That part of the original recommendation stands unchanged
+  and is what the blank cells exist to enforce.
 - **Any page built on "Duolingo for AI" versus Spaiky.** Every Spaiky claim is unverified. Contesting a positioning phrase with no evidence hands the citation to whoever has more third-party text.
 - **A "best free microlearning apps" page.** The only free tier we could honestly describe besides our own is NerdSip's, vendor-stated. Duplicates /free-ai-learning-app for no incremental confirmed content.
 - **The Tier A B2B microlearning pages** (what is microlearning, microlearning platforms/software/statistics, microlearning vs traditional training). Observed SERPs skew to L&D vendors and universities, we have no enterprise entity to rank with, and the format requires republishing efficacy statistics that verification explicitly bans.
