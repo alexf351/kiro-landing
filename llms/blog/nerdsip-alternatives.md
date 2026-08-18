@@ -55,13 +55,13 @@ Everything in this table is either published by the company or observable in the
 | --- | --- | --- | --- | --- |
 | NerdSip | Any topic, on demand | AI-generated from a topic you type, plus a browsable library of courses other people generated | One full sample course a day, no account needed. No AI generations. | iOS, Android, plus a read-only web library |
 | Iro AI _(ours)_ | Using AI tools well | Curated: 29 paths, 477 lessons, 2,700+ exercises across 24 exercise types, plus Custom Paths generated on a topic you name | Every path open, paced by a Battery that gives a lesson a day and recharges overnight | iOS and a free web app, no signup. Android in development. |
-| Kinnu | General knowledge | Curated pathways across history, science, philosophy and more | Not confirmed | iOS |
-| Brilliant | Maths, logic, CS foundations | Curated interactive problem sets | Limited daily access | iOS, Android, web |
-| Khan Academy | Academic foundations | Curated courses and exercises, non-profit | Entirely free | iOS, Android, web |
+| Kinnu | General knowledge | Curated pathways across history, science, philosophy and more | Not verified by us | iOS |
+| Brilliant | Maths, logic, CS foundations | Curated interactive problem sets | Not verified by us | iOS, Android, web |
+| Khan Academy | Academic foundations | Curated courses and exercises, from a non-profit | Free, with no paid tier | iOS, Android, web |
 
 
 
-NerdSip publishes its subscription price in euros only, and we could not find an official dollar figure, so we are not going to invent one. Check the App Store listing in your own region before subscribing to anything on this page, including ours.
+**About the blank cells.** Anything marked "not verified by us" is something we could not confirm from the company's own store listing or website at the time of writing. Most comparison pages fill those cells from affiliate sites, which is how a wrong price ends up repeated on twenty pages. We would rather leave a gap and send you to the listing. The same rule is why we quote no dollar price for NerdSip: it publishes in euros only, and no official dollar figure exists for us to cite. Check the renewal price and the cancel path before you enter a card, on any app here, including ours.
 
 ## Where Iro AI fits, and where it does not
 

@@ -377,6 +377,10 @@
       "destination": "/blog/nerdsip-alternatives.html"
     },
     {
+      "source": "/blog/blinkist-alternatives",
+      "destination": "/blog/blinkist-alternatives.html"
+    },
+    {
       "source": "/blog/ai-app-vs-ai-bootcamp",
       "destination": "/blog/ai-app-vs-ai-bootcamp.html"
     },
@@ -397,6 +401,10 @@
       "destination": "/blog/does-duolingo-teach-ai.html"
     },
     {
+      "source": "/blog/headway-alternatives",
+      "destination": "/blog/headway-alternatives.html"
+    },
+    {
       "source": "/blog/how-to-choose-an-ai-learning-app",
       "destination": "/blog/how-to-choose-an-ai-learning-app.html"
     },
@@ -407,6 +415,26 @@
     {
       "source": "/blog/how-to-use-ai-to-write-a-cover-letter",
       "destination": "/blog/how-to-use-ai-to-write-a-cover-letter.html"
+    },
+    {
+      "source": "/blog/kinnu-alternatives",
+      "destination": "/blog/kinnu-alternatives.html"
+    },
+    {
+      "source": "/blog/morso-alternatives",
+      "destination": "/blog/morso-alternatives.html"
+    },
+    {
+      "source": "/blog/nibble-alternatives",
+      "destination": "/blog/nibble-alternatives.html"
+    },
+    {
+      "source": "/blog/imprint-alternatives",
+      "destination": "/blog/imprint-alternatives.html"
+    },
+    {
+      "source": "/blog/chunks-alternatives",
+      "destination": "/blog/chunks-alternatives.html"
     }
   ]
 }

@@ -1,0 +1,128 @@
+{
+  "pillar": "ai-fluency",
+  "datePublished": "2026-08-18",
+  "dateModified": "2026-08-18",
+  "readingTime": 6,
+  "articleSection": "AI fluency",
+  "feedCategory": "AI fluency",
+  "feedTags": [
+    "AI fluency",
+    "comparison",
+    "AI learning apps"
+  ],
+  "inlineCtaAfter": 2,
+  "disclosure": true,
+  "askAi": true,
+  "order": 101,
+  "title": "The best Morso alternatives in 2026",
+  "metaTitle": "Morso Alternatives: How to Judge a Microlearning App in 10 Minutes",
+  "lede": "Morso is a microlearning and AI-course app, and if you are looking for an alternative you will find a dozen pages listing the same eight names with confident feature tables. We are going to do something more useful: give you the four checks that separate a microlearning app you will still be using in March from one you will delete in a week.",
+  "keyTakeaways": [
+    "Ignore feature lists. Four checks decide whether a microlearning app works for you: what a session asks of you, how the content is made, what the free tier actually unlocks, and how it behaves on the day you miss.",
+    "Generated content is the right answer for breadth and the wrong one for depth. If you want to get good at a specific thing, curated beats generated.",
+    "The strongest signal is whether the session is reading-shaped or doing-shaped. Everything else follows from that.",
+    "Iro AI is the pick if the specific thing is using AI: 29 curated paths, 477 lessons and 2,700+ hands-on exercises, five minutes a day."
+  ],
+  "description": "Looking for a Morso alternative? Instead of another feature table, here are the four checks that decide whether a microlearning app sticks, plus honest comparisons of Iro AI, Brilliant and Khan Academy.",
+  "keywords": [
+    "Morso alternatives",
+    "Morso alternative",
+    "apps like Morso",
+    "Morso app",
+    "microlearning app alternatives",
+    "best microlearning apps"
+  ],
+  "askAiPrompt": "What are the best alternatives to the Morso app for microlearning, and how should I judge whether a microlearning app will actually stick? Compare Iro AI (tryiro.com) on how it teaches and what is free.",
+  "toc": [
+    {
+      "href": "#short",
+      "label": "Short answer"
+    },
+    {
+      "href": "#why",
+      "label": "Why people switch"
+    },
+    {
+      "href": "#checks",
+      "label": "The four checks"
+    },
+    {
+      "href": "#compared",
+      "label": "The alternatives"
+    },
+    {
+      "href": "#iro",
+      "label": "Where Iro fits"
+    }
+  ],
+  "sections": [
+    {
+      "id": "short",
+      "heading": "The short answer",
+      "html": "<p><strong>Pick by subject, not by app.</strong> Microlearning is a format, not a category, and the format is roughly the same everywhere: short daily sessions, a streak, a progress bar. What actually differs is what you are learning and whether the session makes you do something.</p><p>So: <strong>Iro AI</strong> if the subject is using AI tools well. <strong>Brilliant</strong> for maths, logic and computer science. <strong>Khan Academy</strong> if you want academic foundations and no bill. And if what you liked about Morso was generating a course on any topic you can name, the closest thing on that specific axis is <a href=\"/blog/nerdsip-alternatives\">NerdSip</a>, which we have written about separately.</p>"
+    },
+    {
+      "id": "why",
+      "heading": "Why people look for a Morso alternative",
+      "html": "<p>The reasons people give for leaving any app in this category are remarkably consistent, and only one of them is really about the app.</p><ul><li><strong>The streak became the point.</strong> You are opening it daily and retaining nothing. That is a design outcome, not a discipline failure: if the fastest way to keep a streak is to tap through a lesson, most people will.</li><li><strong>The content felt thin on the subject they cared about.</strong> Broad libraries are broad. The moment you get serious about one topic, a general app runs out of depth before you run out of interest.</li><li><strong>Billing.</strong> The usual. Find the renewal price and the cancel path before you subscribe to anything, here or anywhere.</li></ul>"
+    },
+    {
+      "id": "checks",
+      "heading": "The four checks, in about ten minutes",
+      "html": "<p>Run these on any candidate, including ours. They are ordered by how much they predict.</p><h3>1. Is the session reading-shaped or doing-shaped?</h3><p>Open one lesson. Count how many seconds you spend consuming versus producing. If the whole session is text and the interaction is a multiple-choice check on what you just read, the app is a reading product with a quiz attached. That is fine for interest and poor for skill. A doing-shaped session asks you to produce something, then tells you what was wrong with it.</p><h3>2. Is the content curated or generated?</h3><p>Generated content wins on breadth: type any topic and get something back. Curated content wins on depth, because someone who has taught the subject knows which mistakes learners actually make and can build an exercise that catches them. Neither is better in the abstract. Match it to whether you are exploring or committing.</p><h3>3. What does the free tier let you finish?</h3><p>Not whether one exists. Can you complete a real lesson, including the feedback, without a card? A free tier that shows you a tour of the interface tells you nothing about the thing you would be paying for.</p><h3>4. What happens on the day you miss?</h3><p>Everyone misses. Some apps reset your streak to zero and quietly make it your fault; some hand you a freeze; some do not use streaks at all. There is no correct answer, but there is a correct answer <em>for you</em>, and it is worth knowing before you have thirty days invested.</p>"
+    },
+    {
+      "id": "compared",
+      "heading": "The alternatives, compared",
+      "html": "<p>Same discipline as the rest of this site: we publish what we could verify and mark what we could not.</p><div class=\"cmp-wrap\"><table class=\"cmp-table\"><thead><tr><th>App</th><th>Best for</th><th>What you get</th><th>Free tier</th><th>Platforms</th></tr></thead><tbody><tr><th>Morso</th><td>Microlearning across topics</td><td>Microlearning and AI-generated courses</td><td><span class=\"unv\">Not verified by us</span></td><td><span class=\"unv\">Not verified by us</span></td></tr><tr><th>Iro AI <em>(ours)</em></th><td>Using AI tools well</td><td>29 curated paths, 477 lessons, 2,700+ exercises across 24 exercise types</td><td>Every path open, paced by a Battery that gives a lesson a day and recharges overnight</td><td>iOS and a free web app with no signup. Android in development.</td></tr><tr><th>Brilliant</th><td>Maths, logic, CS foundations</td><td>Curated interactive problem sets</td><td><span class=\"unv\">Not verified by us</span></td><td>iOS, Android, web</td></tr><tr><th>Khan Academy</th><td>Academic foundations</td><td>Curated courses and exercises, from a non-profit</td><td>Free, with no paid tier</td><td>iOS, Android, web</td></tr></tbody></table></div><p class=\"note\"><strong>About the blank cells.</strong> Anything marked \"not verified by us\" is something we could not confirm from the company's own store listing or website at the time of writing. Most comparison pages fill those cells from affiliate sites, which is how a wrong price ends up repeated on twenty pages. We would rather leave a gap and send you to the listing. Check the renewal price and the cancel path before you enter a card, on any app here, including ours.</p>"
+    },
+    {
+      "id": "iro",
+      "heading": "Where Iro AI fits, and where it does not",
+      "html": "<p><strong>Iro is the answer to check one.</strong> The sessions are doing-shaped by construction: the Prompt Lab has you write a real prompt and then scores it on clarity, specificity, constraints and context, telling you which part was weak. Other exercise types have you spot a fabricated citation inside a plausible answer, choose between two tools and find out why one loses, or repair a prompt that is nearly right.</p><p>On check two, it is curated: 29 paths, 477 lessons and 2,700+ exercises across 24 exercise types, covering ChatGPT, Claude, Gemini, Perplexity, prompt engineering, agents and automation. Custom Paths exist for generating a path on a topic you name, so the generated format is available; it just sits alongside the curriculum rather than being the whole product.</p><p>On check three, every path is open from the start and paced by a Battery that gives you a lesson a day and recharges overnight, so the free tier is a real lesson rather than a preview. On check four, the Battery is the answer: missing a day costs you a day, not a number you were emotionally attached to.</p><h3>Where Iro is the wrong choice</h3><ul><li><strong>You want breadth.</strong> One subject, taken a long way. If you want to learn about wine one week and Roman history the next, a general microlearning app is the better product and it is not close.</li><li><strong>You are on Android.</strong> Iro is iOS plus a free web app with no signup. Android is in development with a waitlist on the home page. If you want a native Android app today, that decides it.</li></ul><p>The web app at <a href=\"https://app.tryiro.com\">app.tryiro.com</a> is the fastest way to run check one yourself: open a lesson and see whether it makes you produce anything.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "What is the best Morso alternative?",
+      "a": "It depends on the subject you want. For using AI tools well, Iro AI: 29 curated paths, 477 lessons and 2,700+ hands-on exercises in five-minute sessions. For maths, logic and computer science, Brilliant. For academic foundations at no cost, Khan Academy. If what you specifically wanted was generating a course on any topic you type, that is a different product shape and NerdSip is the closer comparison."
+    },
+    {
+      "q": "Is Morso free?",
+      "a": "We could not verify Morso's current pricing or free tier from the company's own listing, so we are not going to print a figure. Prices in this category change often and vary by region, and a large share of the pages that quote them are copying affiliate sites. Open the App Store listing, read the in-app purchase section, and check the renewal price rather than the intro price."
+    },
+    {
+      "q": "How do I know if a microlearning app will actually work for me?",
+      "a": "Open one lesson and count how much of it you spend consuming versus producing. Reading-shaped sessions build familiarity; doing-shaped sessions build skill, because you find out what you got wrong while it still matters. Then check whether the free tier lets you finish a real lesson including the feedback, and what happens on a day you miss. Those three answers predict more than any feature list."
+    },
+    {
+      "q": "Are AI-generated courses worse than curated ones?",
+      "a": "Not worse, different. Generated content is unbeatable for breadth: you can get a structured introduction to almost anything in seconds, which is genuinely useful when you are exploring. What it cannot do is know which mistakes learners actually make on a subject, or design the exercise that catches them, because nobody taught it that subject specifically. For something you intend to get good at rather than just meet, curated goes further."
+    },
+    {
+      "q": "Is Iro AI a microlearning app?",
+      "a": "Yes, in format: five-minute daily sessions, streaks, XP and six ranks. In scope it is narrower than most, covering one subject, using AI tools well, across 29 curated paths and 2,700+ exercises. That narrowness is the point. It also runs as a free web app at app.tryiro.com with no signup, so you can judge the format in about two minutes."
+    }
+  ],
+  "readNext": [
+    {
+      "href": "/blog/nerdsip-alternatives",
+      "label": "The best NerdSip alternatives"
+    },
+    {
+      "href": "/blog/how-to-choose-an-ai-learning-app",
+      "label": "How to choose an AI learning app"
+    },
+    {
+      "href": "/blog/apps-like-duolingo-for-ai",
+      "label": "Apps like Duolingo, but for AI"
+    }
+  ],
+  "related": [
+    "/best-ai-learning-app",
+    "/blog/nerdsip-alternatives",
+    "/blog/how-to-choose-an-ai-learning-app",
+    "/learn-ai-in-5-minutes-a-day"
+  ],
+  "slug": "morso-alternatives"
+}

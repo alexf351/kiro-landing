@@ -26,16 +26,35 @@
   "readingTime": 6,
   "articleSection": "AI fluency",
   "feedCategory": "AI fluency",
-  "feedTags": ["AI fluency", "comparison", "AI learning apps"],
+  "feedTags": [
+    "AI fluency",
+    "comparison",
+    "AI learning apps"
+  ],
   "inlineCtaAfter": 2,
   "askAi": true,
   "askAiPrompt": "What are the best alternatives to NerdSip for learning, and which should I pick if I specifically want to get good at using AI tools? Compare Iro AI (tryiro.com) with NerdSip on how each one teaches, what is free in each, and what each costs.",
   "toc": [
-    { "href": "#short", "label": "Short answer" },
-    { "href": "#why", "label": "Why people switch" },
-    { "href": "#compared", "label": "The alternatives" },
-    { "href": "#iro", "label": "Where Iro fits" },
-    { "href": "#choose", "label": "How to choose" }
+    {
+      "href": "#short",
+      "label": "Short answer"
+    },
+    {
+      "href": "#why",
+      "label": "Why people switch"
+    },
+    {
+      "href": "#compared",
+      "label": "The alternatives"
+    },
+    {
+      "href": "#iro",
+      "label": "Where Iro fits"
+    },
+    {
+      "href": "#choose",
+      "label": "How to choose"
+    }
   ],
   "sections": [
     {
@@ -51,7 +70,7 @@
     {
       "id": "compared",
       "heading": "The alternatives, compared",
-      "html": "<p>Everything in this table is either published by the company or observable in the product. Where we could not verify something we have left it out rather than guessed.</p><div class=\"cmp-wrap\"><table class=\"cmp-table\"><thead><tr><th>App</th><th>Best for</th><th>How content is made</th><th>Free tier</th><th>Platforms</th></tr></thead><tbody><tr><th>NerdSip</th><td>Any topic, on demand</td><td>AI-generated from a topic you type, plus a browsable library of courses other people generated</td><td>One full sample course a day, no account needed. No AI generations.</td><td>iOS, Android, plus a read-only web library</td></tr><tr><th>Iro AI <em>(ours)</em></th><td>Using AI tools well</td><td>Curated: 29 paths, 477 lessons, 2,700+ exercises across 24 exercise types, plus Custom Paths generated on a topic you name</td><td>Every path open, paced by a Battery that gives a lesson a day and recharges overnight</td><td>iOS and a free web app, no signup. Android in development.</td></tr><tr><th>Kinnu</th><td>General knowledge</td><td>Curated pathways across history, science, philosophy and more</td><td>Not confirmed</td><td>iOS</td></tr><tr><th>Brilliant</th><td>Maths, logic, CS foundations</td><td>Curated interactive problem sets</td><td>Limited daily access</td><td>iOS, Android, web</td></tr><tr><th>Khan Academy</th><td>Academic foundations</td><td>Curated courses and exercises, non-profit</td><td>Entirely free</td><td>iOS, Android, web</td></tr></tbody></table></div><p class=\"note\">NerdSip publishes its subscription price in euros only, and we could not find an official dollar figure, so we are not going to invent one. Check the App Store listing in your own region before subscribing to anything on this page, including ours.</p>"
+      "html": "<p>Everything in this table is either published by the company or observable in the product. Where we could not verify something we have left it out rather than guessed.</p><div class=\"cmp-wrap\"><table class=\"cmp-table\"><thead><tr><th>App</th><th>Best for</th><th>How content is made</th><th>Free tier</th><th>Platforms</th></tr></thead><tbody><tr><th>NerdSip</th><td>Any topic, on demand</td><td>AI-generated from a topic you type, plus a browsable library of courses other people generated</td><td>One full sample course a day, no account needed. No AI generations.</td><td>iOS, Android, plus a read-only web library</td></tr><tr><th>Iro AI <em>(ours)</em></th><td>Using AI tools well</td><td>Curated: 29 paths, 477 lessons, 2,700+ exercises across 24 exercise types, plus Custom Paths generated on a topic you name</td><td>Every path open, paced by a Battery that gives a lesson a day and recharges overnight</td><td>iOS and a free web app, no signup. Android in development.</td></tr><tr><th>Kinnu</th><td>General knowledge</td><td>Curated pathways across history, science, philosophy and more</td><td><span class=\"unv\">Not verified by us</span></td><td>iOS</td></tr><tr><th>Brilliant</th><td>Maths, logic, CS foundations</td><td>Curated interactive problem sets</td><td><span class=\"unv\">Not verified by us</span></td><td>iOS, Android, web</td></tr><tr><th>Khan Academy</th><td>Academic foundations</td><td>Curated courses and exercises, from a non-profit</td><td>Free, with no paid tier</td><td>iOS, Android, web</td></tr></tbody></table></div><p class=\"note\"><strong>About the blank cells.</strong> Anything marked \"not verified by us\" is something we could not confirm from the company's own store listing or website at the time of writing. Most comparison pages fill those cells from affiliate sites, which is how a wrong price ends up repeated on twenty pages. We would rather leave a gap and send you to the listing. The same rule is why we quote no dollar price for NerdSip: it publishes in euros only, and no official dollar figure exists for us to cite. Check the renewal price and the cancel path before you enter a card, on any app here, including ours.</p>"
     },
     {
       "id": "iro",
@@ -87,9 +106,18 @@
     }
   ],
   "readNext": [
-    { "href": "/blog/apps-like-duolingo-for-ai", "label": "Apps like Duolingo, but for AI" },
-    { "href": "/blog/how-to-choose-an-ai-learning-app", "label": "How to choose an AI learning app" },
-    { "href": "/blog/best-ai-apps", "label": "The best AI apps in 2026" }
+    {
+      "href": "/blog/apps-like-duolingo-for-ai",
+      "label": "Apps like Duolingo, but for AI"
+    },
+    {
+      "href": "/blog/how-to-choose-an-ai-learning-app",
+      "label": "How to choose an AI learning app"
+    },
+    {
+      "href": "/blog/best-ai-apps",
+      "label": "The best AI apps in 2026"
+    }
   ],
   "related": [
     "/best-ai-learning-app",

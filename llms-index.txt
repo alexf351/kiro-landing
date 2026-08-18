@@ -99,7 +99,7 @@ ai iq test by iro ai          https://tryiro.com/llms/quiz.md
 vibe coding course            https://tryiro.com/llms/vibe-coding-course.md
 
 ## Blog (markdown mirrors)
-# 102 post and pillar mirrors, generated
+# 109 post and pillar mirrors, generated
 ai agents explained           https://tryiro.com/llms/blog/ai-agents-explained.md
 ai agents vs. automation      https://tryiro.com/llms/blog/ai-agents-vs-automation.md
 ai agents & automation        https://tryiro.com/llms/blog/ai-agents.md
@@ -128,6 +128,7 @@ best ai model for writing     https://tryiro.com/llms/blog/best-ai-model-for-wri
 best ai tools for students    https://tryiro.com/llms/blog/best-ai-tools-for-students.md
 best ai video generators      https://tryiro.com/llms/blog/best-ai-video-generators.md
 best free ai tools 2026       https://tryiro.com/llms/blog/best-free-ai-tools-2026.md
+blinkist alternatives         https://tryiro.com/llms/blog/blinkist-alternatives.md
 cancel coursiv                https://tryiro.com/llms/blog/cancel-coursiv.md
 cancel finestro               https://tryiro.com/llms/blog/cancel-finestro.md
 chatgpt alternatives          https://tryiro.com/llms/blog/chatgpt-alternatives.md
@@ -138,6 +139,7 @@ chatgpt vs microsoft copilot  https://tryiro.com/llms/blog/chatgpt-vs-copilot.md
 chatgpt vs deepseek           https://tryiro.com/llms/blog/chatgpt-vs-deepseek.md
 chatgpt vs gemini             https://tryiro.com/llms/blog/chatgpt-vs-gemini.md
 chatgpt vs perplexity         https://tryiro.com/llms/blog/chatgpt-vs-perplexity.md
+chunks alternatives           https://tryiro.com/llms/blog/chunks-alternatives.md
 claude opus 5                 https://tryiro.com/llms/blog/claude-opus-5.md
 claude vs gemini              https://tryiro.com/llms/blog/claude-vs-gemini.md
 coursiv alternatives          https://tryiro.com/llms/blog/coursiv-alternatives.md
@@ -149,6 +151,7 @@ gemini vs perplexity          https://tryiro.com/llms/blog/gemini-vs-perplexity.
 gpt-5.6 luna vs terra vs sol  https://tryiro.com/llms/blog/gpt-5-6.md
 grok 4.5                      https://tryiro.com/llms/blog/grok-4-5.md
 grok bot                      https://tryiro.com/llms/blog/grok-bot.md
+headway alternatives          https://tryiro.com/llms/blog/headway-alternatives.md
 how long to learn ai          https://tryiro.com/llms/blog/how-long-to-learn-ai.md
 how to choose an ai learning  https://tryiro.com/llms/blog/how-to-choose-an-ai-learning-app.md
 how to learn ai without codi  https://tryiro.com/llms/blog/how-to-learn-ai-without-coding.md
@@ -166,6 +169,7 @@ how to use gemini             https://tryiro.com/llms/blog/how-to-use-gemini.md
 how to use grok               https://tryiro.com/llms/blog/how-to-use-grok.md
 how to use perplexity         https://tryiro.com/llms/blog/how-to-use-perplexity.md
 how to write a prompt         https://tryiro.com/llms/blog/how-to-write-a-prompt.md
+imprint alternatives          https://tryiro.com/llms/blog/imprint-alternatives.md
 iro ai blog                   https://tryiro.com/llms/blog/index.md
 iro ai vs brilliant           https://tryiro.com/llms/blog/iro-ai-vs-brilliant.md
 iro ai vs coursiv             https://tryiro.com/llms/blog/iro-ai-vs-coursiv.md
@@ -176,10 +180,13 @@ is chatgpt plus worth it      https://tryiro.com/llms/blog/is-chatgpt-plus-worth
 is claude pro worth it        https://tryiro.com/llms/blog/is-claude-pro-worth-it.md
 is prompt engineering dead    https://tryiro.com/llms/blog/is-prompt-engineering-dead.md
 kimi k3                       https://tryiro.com/llms/blog/kimi-k3.md
+kinnu alternatives            https://tryiro.com/llms/blog/kinnu-alternatives.md
 learnova alternatives         https://tryiro.com/llms/blog/learnova-alternatives.md
 meta muse spark               https://tryiro.com/llms/blog/meta-muse-spark.md
+morso alternatives            https://tryiro.com/llms/blog/morso-alternatives.md
 nerdsip alternatives          https://tryiro.com/llms/blog/nerdsip-alternatives.md
 new ai models in 2026         https://tryiro.com/llms/blog/new-ai-models-2026.md
+nibble alternatives           https://tryiro.com/llms/blog/nibble-alternatives.md
 prompt engineering patterns   https://tryiro.com/llms/blog/prompt-engineering-patterns.md
 prompt engineering            https://tryiro.com/llms/blog/prompt-engineering.md
 spot ai hallucinations        https://tryiro.com/llms/blog/spot-ai-hallucinations.md
