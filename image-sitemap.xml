@@ -103,4 +103,22 @@
       <image:caption>Iro AI Iridescent rank mascot — the top rank tier</image:caption>
     </image:image>
   </url>
+  <url>
+    <loc>https://tryiro.com/best-ai-learning-app</loc>
+    <image:image>
+      <image:loc>https://tryiro.com/assets/screens/node-map.webp</image:loc>
+      <image:caption>An Iro AI learning path shown as a map of five-minute lessons, unlocked in order</image:caption>
+      <image:title>Iro AI learning path map</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://tryiro.com/assets/screens/prompt-lab.webp</image:loc>
+      <image:caption>Iro AI Prompt Lab grading a written prompt and naming what was missing</image:caption>
+      <image:title>Iro AI Prompt Lab feedback</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://tryiro.com/assets/screens/duel-victory.webp</image:loc>
+      <image:caption>A head-to-head Iro AI duel result, matched by ELO rating</image:caption>
+      <image:title>Iro AI live duel result</image:title>
+    </image:image>
+  </url>
 </urlset>
