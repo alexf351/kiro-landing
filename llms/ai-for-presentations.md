@@ -68,7 +68,7 @@ Work in passes, and don't ask for the deck first. Each pass hands the model some
 
 - **Brief it.** Paste the raw material: your notes, the doc it came from, the numbers. Then state the audience, the goal, and the time limit, and tell it explicitly not to write slides yet.
 - **Ask for three arcs, not one.** "Give me three different ways to structure this talk. For each, name the opening move and what it asks the audience to believe." Choosing between three is a much better use of your judgment than accepting the first.
-- **Expand the arc you picked.** One headline, three bullets maximum, one speaker note per slide. A slide a minute is a sane ceiling, so a 10-minute talk is roughly six to ten slides, not twenty.
+- **Expand the arc you picked.** Now you can ask for slides: a headline, bullets, and a speaker note each. A slide a minute is a sane ceiling, so a 10-minute talk runs roughly six to ten slides, not twenty.
 - **Stress-test it.** "You're the CFO in this room. Ask the five hardest questions and name my weakest claim." Write your answers down. Most talks come apart in the questions afterwards, not in the deck.
 - **Cut with a timer running.** Read the whole thing out loud against the clock. Anything you stumble over was written to be read, not said, so rewrite it the way you'd actually say it.
 
@@ -76,21 +76,21 @@ One pass belongs to you alone. Check every number and every named fact against i
 
 ## Pitch deck, internal update, conference talk: what changes in the prompt
 
-The three inputs stay constant (audience, goal, time limit), but the arc, the evidence, and the ask shift with the room. Naming which kind of talk you're giving is one of the highest-value words in the prompt.
+The three inputs stay constant (audience, goal, time limit), but the arc, the evidence, and the ask shift with the room. Naming the format in your prompt is the cheapest way to get a draft that fits.
 
 ### Investor pitch
 
-The room is deciding two things: whether this is worth doing, and whether you're the one to do it. Ask for the arc problem, why now, what you've built, evidence it's working, the raise. Tell the model to keep one claim per slide and push the detail into an appendix. Then ask it to attack your "why now," because that's the question you'll get.
+The room is deciding two things: whether this is worth doing, and whether you're the one to do it. Name the arc you want: problem, why now, what you've built, evidence it's working, the raise. Tell the model to keep one claim per slide and push the detail into an appendix. Then ask it to attack your "why now," because that's the question you'll get.
 
 ### Internal update or decision meeting
 
-Your audience already has the context, so cut the setup. Lead with the recommendation and the ask, then the evidence behind it. A prompt that works: "Rewrite this so the decision I need appears in the first 30 seconds and the supporting detail comes after." Ask for a one-paragraph spoken version too, since exec meetings run late and you'll sometimes get four minutes instead of twelve.
+Your audience already has the context, so cut the setup. Lead with the recommendation and the ask, then the evidence behind it. A prompt that works: "Rewrite this so the decision I need appears in the first 30 seconds and the supporting detail comes after." Have it draft a one-paragraph spoken version too, because exec meetings run late and you'll sometimes get four minutes instead of twelve.
 
 ### Conference talk or teaching session
 
-Nobody is approving anything here, so the goal is one idea people can repeat later. Ask for a single takeaway sentence, then three concrete moments (a story, a live demo, a before and after) that make it land. Slides carry fewer words in this format, and the speaker notes carry more.
+Nobody is approving anything here, so the goal is one idea people can repeat later. Push for a single takeaway sentence, then three concrete moments (a story, a live demo, a before and after) that make it land. Slides carry fewer words in this format, and the speaker notes carry more.
 
-The habit doesn't change: name the room, name what you want from it, name your time slot. What changes is what the audience holds, whether that's money, a decision, or just their attention, and how hard your evidence has to work to earn it.
+One deck rarely survives a format change. If you're reusing a pitch as an internal update, tell the model which parts are now assumed knowledge and have it rebuild the opening, rather than trimming slides off the front.
 
 ## Sample practice exercise
 
@@ -129,13 +129,13 @@ They will if you only give it a topic. Generic in, generic out. When you provide
 
 Yes. That's one of its best uses. Paste your outline, tell it the message and the time limit, and ask which slides don't serve the point and which bullets can be cut or merged. Then make the final call on what stays.
 
-**Can AI make an actual PowerPoint or Google Slides file?**
+**Which AI tools can build a real PowerPoint or Google Slides file?**
 
-Some tools can. Copilot in PowerPoint and Gemini in Google Slides draft a deck from a prompt or an existing document, and standalone tools like Gamma build a themed deck you then edit. Chat models such as ChatGPT or Claude give you the outline, bullets, and speaker notes as text that you paste in yourself. Layout, brand, and fact-checking are still your job either way.
+Copilot in PowerPoint and Gemini in Google Slides draft a deck from a prompt or an existing document, and standalone tools like Gamma build a themed deck you then edit. Chat models such as ChatGPT or Claude hand you the outline, bullets, and speaker notes as text that you paste in yourself. Either way you're still checking the facts and fixing the layout.
 
-**How do I get AI to write speaker notes I can actually deliver?**
+**How do I make speaker notes sound like something I'd say?**
 
-Ask for spoken language, not written prose: three short prompts per slide instead of a paragraph, plus one transition line into the next slide. Give it the slide headline, the bullets, and how long you have on that slide. Then read the notes out loud. Anything you stumble over was written to be read, so cut it or say it your own way.
+Ask for spoken language, not written prose: three short prompts per slide instead of a paragraph, plus one transition line into the next slide. Give it the slide headline, the bullets, and how long you have on that slide. Then read the notes out loud. If a line only works on the page, cut it or say it your own way.
 
 ## Related paths
 

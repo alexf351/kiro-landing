@@ -3,14 +3,14 @@
   "order": 18,
   "pillar": "ai-fluency",
   "title": "How to learn AI without coding (a no-code path for 2026)",
-  "lede": "You do not need to code to learn AI. Using AI tools well is a language-and-judgment skill, not a programming one. Here is the no-code path — what to learn, in what order, and how to practice it in a few minutes a day.",
+  "lede": "You do not need to code to learn AI. Using AI tools well is a language-and-judgment skill, not a programming one. Here is the no-code path: what to learn, in what order, and how to practice it in a few minutes a day.",
   "keyTakeaways": [
     "You don't need to code to learn AI. Using tools like ChatGPT, Claude, and Gemini is a language-and-judgment skill, not a programming one.",
-    "Coding only matters if you want to build or fine-tune AI models — a separate, far more technical path most people never need.",
+    "Coding only matters if you want to build or fine-tune AI models: a separate, far more technical path most people never need.",
     "The no-code path is: pick one tool, learn to prompt, practice daily, add tools, and build judgment about when to trust the output.",
     "With about five minutes of active practice a day, most non-technical people become genuinely useful with AI in two to three weeks."
   ],
-  "description": "You don't need to code to learn AI. Here's the no-code path to AI fluency in 2026 — the tools, the skills, and a five-minute-a-day routine that works for non-technical people.",
+  "description": "You don't need to code to learn AI. Here's the no-code path to AI fluency in 2026: the tools, the skills, and a five-minute-a-day routine that works for non-technical people.",
   "keywords": [
     "how to learn AI without coding",
     "learn AI no coding",
@@ -59,7 +59,7 @@
     {
       "id": "answer",
       "heading": "Can you learn AI without coding?",
-      "html": "<p><strong>Yes — you can learn AI without writing a single line of code, and for most people that is exactly the right goal.</strong> The thing nearly everyone means by \"learning AI\" is learning to <em>use</em> AI tools like ChatGPT, Claude, Gemini, and Perplexity to get real work done. That is a language-and-judgment skill: you describe what you want clearly, evaluate what comes back, and refine. None of it requires programming.</p><p>Coding enters the picture only if you want to <em>build</em> AI — train models, fine-tune them, or wire them into software. That is a separate, far more technical path that the vast majority of people never need to take to get enormous value from AI.</p>"
+      "html": "<p><strong>Yes, you can learn AI without writing a single line of code, and for most people that is exactly the right goal.</strong> The thing nearly everyone means by \"learning AI\" is learning to <em>use</em> AI tools like ChatGPT, Claude, Gemini, and Perplexity to get real work done. That is a language-and-judgment skill: you describe what you want clearly, evaluate what comes back, and refine. None of it requires programming.</p><p>Coding enters the picture only if you want to <em>build</em> AI: train models, fine-tune them, or wire them into software. That is a separate, far more technical path that the vast majority of people never need to take to get enormous value from AI.</p>"
     },
     {
       "id": "two-paths",
@@ -74,12 +74,12 @@
     {
       "id": "tools",
       "heading": "Which no-code AI tools should you start with?",
-      "html": "<p>All of these work in a browser or app with zero setup:</p><ul><li><strong>ChatGPT</strong> — the most versatile all-rounder and the best first tool.</li><li><strong>Claude</strong> — excellent for long-form writing, careful reasoning, and working through documents.</li><li><strong>Gemini</strong> — handy if your work lives in Google Docs, Gmail, and Sheets.</li><li><strong>Perplexity</strong> — an answer engine that returns sources, which makes fact-checking easy.</li></ul><p>You do not need all four on day one. Get comfortable with one, then add the others as specific needs come up. A side-by-side is in our <a href=\"/ai-tools-comparison\">AI tools comparison</a>.</p>"
+      "html": "<p>All of these work in a browser or app with zero setup:</p><ul><li><strong>ChatGPT</strong>: the most versatile all-rounder and the best first tool.</li><li><strong>Claude</strong>: excellent for long-form writing, careful reasoning, and working through documents.</li><li><strong>Gemini</strong>: handy if your work lives in Google Docs, Gmail, and Sheets.</li><li><strong>Perplexity</strong>: an answer engine that returns sources, which makes fact-checking easy.</li></ul><p>You do not need all four on day one. Get comfortable with one, then add the others as specific needs come up. A side-by-side is in our <a href=\"/ai-tools-comparison\">AI tools comparison</a>.</p>"
     },
     {
       "id": "skills",
       "heading": "The skills that matter (and none need code)",
-      "html": "<p>Learning AI without coding still means learning real skills — just human ones:</p><ul><li><strong>Prompting</strong> — turning a vague need into clear instructions the model can follow.</li><li><strong>Judgment</strong> — telling a good answer from a confident wrong one.</li><li><strong>Tool choice</strong> — knowing which tool fits which task.</li><li><strong>Verification</strong> — checking facts, numbers, and sources before you rely on them.</li><li><strong>Workflow</strong> — folding AI into how you already work so it saves real time.</li></ul><p>This bundle is what we call <a href=\"/blog/what-is-ai-fluency\">AI fluency</a>, and it is entirely learnable by non-technical people.</p>"
+      "html": "<p>Learning AI without coding still means learning real skills, just human ones:</p><ul><li><strong>Prompting</strong>: turning a vague need into clear instructions the model can follow.</li><li><strong>Judgment</strong>: telling a good answer from a confident wrong one.</li><li><strong>Tool choice</strong>: knowing which tool fits which task.</li><li><strong>Verification</strong>: checking facts, numbers, and sources before you rely on them.</li><li><strong>Workflow</strong>: folding AI into how you already work so it saves real time.</li></ul><p>This bundle is what we call <a href=\"/blog/what-is-ai-fluency\">AI fluency</a>, and it is entirely learnable by non-technical people.</p>"
     },
     {
       "id": "mistakes",
@@ -108,7 +108,7 @@
   "faq": [
     {
       "q": "Can I learn AI without knowing how to code?",
-      "a": "Yes. Learning to use AI tools like ChatGPT, Claude, Gemini, and Perplexity requires no coding at all — it is a language-and-judgment skill. Coding is only needed if you want to build or fine-tune AI models yourself, which most people never need to do."
+      "a": "Yes. Learning to use AI tools like ChatGPT, Claude, Gemini, and Perplexity requires no coding at all. It is a language-and-judgment skill. Coding is only needed if you want to build or fine-tune AI models yourself, which most people never need to do."
     },
     {
       "q": "Do I need to know math to learn AI?",
@@ -124,7 +124,7 @@
     },
     {
       "q": "How does my AI skill compare to the average person?",
-      "a": "Probably closer than you fear. In our early data the <a href=\"/blog/average-ai-literacy-score\">average score on a basic AI literacy test was about 5/10</a> — most people are still learning, no coding required. Here is the path to <a href=\"/become-ai-fluent\">becoming AI fluent</a> from a non-technical start."
+      "a": "Probably closer than you fear. In our early data the <a href=\"/blog/average-ai-literacy-score\">average score on a basic AI literacy test was about 5/10</a>. Most people are still learning, no coding required. Here is the path to <a href=\"/become-ai-fluent\">becoming AI fluent</a> from a non-technical start."
     }
   ],
   "related": [

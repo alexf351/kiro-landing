@@ -86,17 +86,15 @@ Add it up and the model got maybe ten minutes of the whole job. The writing stay
 
 ## The mistakes that cost writers the most time
 
-The most expensive mistake isn't a hallucinated fact. It's asking for prose before you've decided what you think, which turns the rest of the session into editing a stranger's mediocre argument.
+The habits that cost real hours aren't the dramatic ones. Nobody loses an afternoon to a hallucinated statistic. They lose it to a session that produced 900 competent words nobody asked for.
 
 - **Drafting before you have an angle.** If you can't state your point in one sentence, the model picks one for you, and it picks the safe one every time.
-- **Taking the first outline.** A first response is the median version of the topic. Press once and the second version is usually where the piece actually starts.
+- **Taking the first outline.** It comes back organized and completely predictable, because it's built from whatever already ranks. The tell: every section heading would sit just as comfortably on any other article about the topic.
 - **"Make it better."** Vague input, vague edit. Name the failure instead: the opening is slow, section three repeats section one, half the verbs are some form of "is."
 - **Expecting a style sample to clone your voice.** Samples nudge rhythm and word choice. They don't reproduce your opinions or your specific detail, and that's most of what people recognize as you.
-- **Letting it choose the headline.** Ask for 20 options to widen your thinking, then pick and rewrite. Models drift toward familiar phrasing, which is the exact quality that makes a headline skippable.
+- **Letting it make the final call on a headline.** Models read familiarity as clarity, so the safest-sounding line in the list wins, and safe is what readers scroll past. That call is a judgment about your reader, and you're the one who has met them.
 
 One habit prevents most of this: never ask AI for something you haven't tried to decide yourself first. Then it's reacting to your judgment instead of substituting its own, and you can tell instantly when a suggestion is wrong.
-
-Same rule applies to the parts nobody sees. Verify the numbers, spell the names yourself, and click every link before it ships under your byline.
 
 ## Sample practice exercise
 
@@ -137,11 +135,11 @@ Many writers prefer Claude for longer-form drafting and nuanced critique, while 
 
 **Do AI detectors actually work?**
 
-Not reliably. Detection tools flag plenty of human writing as machine-made, especially from non-native English speakers, and they routinely miss AI text that a person has edited. Treat a detector score as a weak signal, never proof. What matters more is the policy you're writing under: many publications and clients now ask you to disclose AI-generated text while treating AI research and editing as ordinary, so check before you assume.
+Not reliably. Detection tools flag plenty of human writing as machine-made, especially from non-native English speakers, and they routinely miss AI text that a person has edited. A score is a weak signal, not evidence. What matters more is the policy you're writing under: many publications and clients now ask you to disclose AI-generated text while treating AI research and editing as ordinary, so check before you assume.
 
 **Does using AI to write hurt your SEO?**
 
-Not by itself. Google's published guidance judges content on whether it's helpful and original rather than on how it was produced, and its spam policies target pages mass-produced to game rankings, not AI assistance in general. The real risk is practical: generic AI prose repeats what a hundred other pages already say, so it gives no reader, and no search engine, a reason to pick it.
+Google doesn't rank a page down for being AI-assisted. Its published guidance judges content on whether it's helpful and original rather than on how it was produced, and its spam policies target pages mass-produced to game rankings. The practical risk is different: generic AI prose repeats what a hundred other pages already say, so it gives no reader, and no search engine, a reason to pick it.
 
 ## Related paths
 
