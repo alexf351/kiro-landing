@@ -105,6 +105,16 @@ No. Canva AI is built for non-designers, and the skill you need is writing a cle
 - [AI for designers](https://tryiro.com/ai-for-designers)
 - [AI for marketing](https://tryiro.com/ai-for-marketing)
 
+## More AI tools to learn
+
+- [Learn ElevenLabs](https://tryiro.com/learn-elevenlabs): Get AI speech that sounds like a person, not an announcer reading a script.
+- [Learn Gamma](https://tryiro.com/learn-gamma): Generate a deck in a minute, then do the ten minutes that make it good.
+- [AI for Excel & Sheets](https://tryiro.com/ai-for-excel): Write formulas, clean data, and build models with AI as your spreadsheet copilot.
+- [Learn Midjourney](https://tryiro.com/learn-midjourney): Write prompts that give you the image you pictured, not a muddy guess.
+- [Learn Microsoft Copilot](https://tryiro.com/learn-copilot): Get real work out of Copilot in Word, Excel, Outlook, and Teams.
+- [Learn NotebookLM](https://tryiro.com/learn-notebooklm): Turn your own documents into a research assistant that cites its sources.
+
+
 ## Read next
 
 - [The best AI apps](https://tryiro.com/blog/best-ai-apps)

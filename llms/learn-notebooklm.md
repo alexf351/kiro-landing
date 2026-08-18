@@ -117,6 +117,16 @@ Much less than a general chatbot, because it is restricted to your sources and c
 - [AI for students](https://tryiro.com/ai-for-students)
 - [Learn Gemini](https://tryiro.com/learn-gemini)
 
+## More AI tools to learn
+
+- [Learn Cursor](https://tryiro.com/learn-cursor): Get an AI editor to work on your codebase without wrecking it.
+- [Learn Notion AI](https://tryiro.com/learn-notion-ai): Draft, summarize, extract action items, and ask questions across your workspace.
+- [Learn Canva AI](https://tryiro.com/learn-canva-ai): Design on-brand graphics fast with Canva's Magic Studio AI tools.
+- [Learn ElevenLabs](https://tryiro.com/learn-elevenlabs): Get AI speech that sounds like a person, not an announcer reading a script.
+- [Learn Gamma](https://tryiro.com/learn-gamma): Generate a deck in a minute, then do the ten minutes that make it good.
+- [AI for Excel & Sheets](https://tryiro.com/ai-for-excel): Write formulas, clean data, and build models with AI as your spreadsheet copilot.
+
+
 ## Read next
 
 - [AI student discounts in 2026](https://tryiro.com/blog/ai-student-discounts)

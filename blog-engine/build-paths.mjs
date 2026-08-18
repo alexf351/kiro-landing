@@ -44,6 +44,26 @@ function jsonld(v) {
   return '{' + Object.entries(v).map(([k, val]) => JSON.stringify(k) + ': ' + jsonld(val)).join(', ') + '}';
 }
 
+const byCategory = {};
+const CATEGORY_HEADING = {
+  jobs: 'More AI paths by job',
+  tools: 'More AI tools to learn',
+  skills: 'More AI skills to build',
+};
+// Up to SIBLING_LINKS same-category pages, picked by a rotating window so every
+// page gives and receives the same number of links instead of everyone linking
+// to whichever page happens to sort first.
+const SIBLING_LINKS = 6;
+function siblingsFor(p) {
+  const group = (byCategory[p.category] || []).filter((x) => x.slug !== p.slug);
+  if (!group.length) return [];
+  const all = byCategory[p.category];
+  const i = all.findIndex((x) => x.slug === p.slug);
+  const out = [];
+  for (let k = 1; k <= Math.min(SIBLING_LINKS, all.length - 1); k++) out.push(all[(i + k) % all.length]);
+  return out;
+}
+
 const CTA_UTM = (slug, placement) =>
   `${APP}?utm_source=seo_page&utm_medium=website&utm_campaign=${slug}${placement ? '&utm_content=' + placement : ''}`;
 
@@ -60,6 +80,7 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
 
 // Base CSS lifted verbatim from the existing path pages, plus path-library components.
 const CSS = `*{box-sizing:border-box}body{margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:#0A0E1A;color:#fff;line-height:1.7}a{color:#00E5FF;text-decoration:none}a:hover{text-decoration:underline}.page{min-height:100vh;background:radial-gradient(circle at 20% 0%,rgba(0,229,255,.16),transparent 34rem),radial-gradient(circle at 80% 10%,rgba(255,215,0,.08),transparent 30rem),#0A0E1A}.nav{position:sticky;top:0;z-index:10;display:flex;align-items:center;justify-content:space-between;gap:24px;padding:18px clamp(20px,5vw,64px);background:rgba(10,14,26,.82);backdrop-filter:blur(18px);border-bottom:1px solid rgba(255,255,255,.06)}.brand{display:flex;align-items:center;gap:10px;color:#fff;font-weight:900}.brand img{width:32px;height:32px;border-radius:9px}.nav-links{display:flex;gap:16px;flex-wrap:wrap;font-size:.95rem}.nav-links a{color:#C9D2EA}.hero,.content,.faq,.related{max-width:1120px;margin:0 auto;padding:clamp(44px,7vw,88px) clamp(20px,5vw,36px)}.eyebrow{color:#00E5FF;text-transform:uppercase;letter-spacing:.14em;font-size:.8rem;font-weight:900;margin:0 0 14px}.hero h1{font-size:clamp(2.5rem,7vw,5.6rem);line-height:.95;letter-spacing:-.06em;margin:0 0 22px}.hero p{max-width:760px;color:#C9D2EA;font-size:clamp(1.08rem,2.2vw,1.32rem);margin:0 0 28px}.cta-row{display:flex;gap:14px;flex-wrap:wrap}.btn{display:inline-flex;align-items:center;justify-content:center;border-radius:999px;padding:14px 22px;font-weight:900;border:1px solid rgba(0,229,255,.35);background:linear-gradient(135deg,#00E5FF,#00B4D8);color:#06111c;box-shadow:0 10px 32px rgba(0,229,255,.18)}.btn.secondary{background:rgba(255,255,255,.06);color:#fff;border-color:rgba(255,255,255,.16);box-shadow:none}.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;margin:34px 0}.card{background:rgba(20,27,45,.82);border:1px solid rgba(255,255,255,.08);border-radius:24px;padding:24px}.card h3{margin:0 0 10px;font-size:1.22rem}.card p,.card li{color:#B6C0DA}.content{padding-top:24px}.content h2,.faq h2,.related h2{font-size:clamp(1.8rem,4vw,3rem);line-height:1.05;letter-spacing:-.035em;margin:0 0 18px}.content p,.content li,.faq p{color:#CFD6EA}.content section{margin:0 0 42px}.two-col{display:grid;grid-template-columns:1.1fr .9fr;gap:24px}.faq details{background:rgba(20,27,45,.82);border:1px solid rgba(255,255,255,.08);border-radius:18px;padding:18px 20px;margin:12px 0}.faq summary{font-weight:900;cursor:pointer}.footer{padding:34px clamp(20px,5vw,64px);border-top:1px solid rgba(255,255,255,.08);color:#8B95B0}.footer nav{display:flex;gap:16px;flex-wrap:wrap;margin-bottom:10px}.footer a{color:#C9D2EA}.note{font-size:.95rem;color:#8B95B0}.pill-list{display:flex;gap:10px;flex-wrap:wrap;margin:24px 0}.pill{border:1px solid rgba(0,229,255,.25);background:rgba(0,229,255,.06);border-radius:999px;padding:8px 12px;color:#CFF8FF;font-weight:800;font-size:.92rem}
+.sib-list{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:12px}.sib-list li{background:rgba(20,27,45,.7);border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:14px 18px}.sib-list a{font-weight:800;color:#fff;display:block}.sib-list span{display:block;color:#8B95B0;font-size:.9rem;margin-top:4px}
 /* ---- path-library additions ---- */
 .crumb{max-width:1120px;margin:0 auto;padding:16px clamp(20px,5vw,36px) 0;font-size:.82rem;color:#8B95B0}.crumb a{color:#A9B4D0}.crumb span{color:#6b7590;margin:0 8px}
 .answer{max-width:1120px;margin:0 auto;padding:8px clamp(20px,5vw,36px)}.answer .box{background:linear-gradient(135deg,rgba(0,229,255,.08),rgba(0,229,255,.02));border:1px solid rgba(0,229,255,.22);border-radius:22px;padding:24px 26px}.answer .lbl{color:#00E5FF;text-transform:uppercase;letter-spacing:.14em;font-size:.72rem;font-weight:900;margin:0 0 10px}.answer p{margin:0 0 14px;color:#E6ECFA;font-size:1.08rem}.answer ul{margin:0;padding-left:20px;color:#CFD6EA}.answer li{margin:6px 0}
@@ -142,7 +163,7 @@ const FOOTER =
   '<footer class="footer"><nav><a href="/paths">Path library</a><a href="/privacy">Privacy</a><a href="/terms">Terms</a><a href="/blog">Blog</a><a href="/blog/ai-fluency">AI fluency</a><a href="/blog/prompt-engineering">Prompt engineering</a><a href="/blog/ai-agents">AI agents</a><a href="/blog/ai-tools">AI tools</a><a href="https://instagram.com/tryiro" target="_blank" rel="noopener">Instagram</a><a href="https://www.tiktok.com/@tryiro" target="_blank" rel="noopener">TikTok</a><a href="https://www.youtube.com/@tryiroai" target="_blank" rel="noopener">YouTube</a><a href="https://x.com/tryiroapp" target="_blank" rel="noopener">X</a><a href="https://www.linkedin.com/company/iro-ai-app/" target="_blank" rel="noopener">LinkedIn</a><a href="https://app.tryiro.com">Web app / Log in</a></nav><p>© 2026 Iro AI. Master AI. Stay ahead.</p></footer>';
 
 // ---------- page builder ----------
-function buildPage(p, allBySlug) {
+function buildPage(p, allBySlug, siblings = []) {
   const canonical = url(p.slug);
   const og = `${D}/assets/og/${p.slug}.png`;
   const ogExists = fs.existsSync(path.join(ROOT, 'assets/og', `${p.slug}.png`));
@@ -201,7 +222,17 @@ function buildPage(p, allBySlug) {
 
   const rel = (p.related || []).map((r) => `<a class="btn secondary" href="${r.href}">${esc(r.label)}</a>`).join('');
   const readNext = (p.readNext || []).map((r) => `<a href="${r.href}">${esc(r.label)}</a>`).join(' · ');
-  const related = `<section class="related"><h2>Related paths</h2><div class="cta-row">${rel}<a class="btn secondary" href="/paths">All paths</a></div>${readNext ? `<p style="margin-top:18px;color:#CFD6EA">More reading: ${readNext}.</p>` : ''}</section>`;
+  // Curated `related` links point outward to the big pages, so the long-tail
+  // path pages ended up with one inbound link each (the hub) and no authority
+  // flowing between them. A rotating window over category siblings gives every
+  // page the same number of inbound links from its own category.
+  const sibLinks = siblings
+    .map((sp) => `<li><a href="/${sp.slug}">${esc(sp.hubTitle || sp.eyebrow)}</a><span>${esc(sp.hubBlurb || '')}</span></li>`)
+    .join('');
+  const sibBlock = siblings.length
+    ? `<section class="related"><h2>${esc(CATEGORY_HEADING[p.category] || 'More paths like this')}</h2><ul class="sib-list">${sibLinks}</ul></section>`
+    : '';
+  const related = `<section class="related"><h2>Related paths</h2><div class="cta-row">${rel}<a class="btn secondary" href="/paths">All paths</a></div>${readNext ? `<p style="margin-top:18px;color:#CFD6EA">More reading: ${readNext}.</p>` : ''}</section>` + sibBlock;
 
   const body =
     '<body><div class="page">\n' +
@@ -315,7 +346,7 @@ function blocksToMd(html) {
   return out.join('\n\n');
 }
 
-function renderPathMd(p) {
+function renderPathMd(p, siblings = []) {
   const canonical = url(p.slug);
   const kw = '[' + (p.keywords || []).map((k) => JSON.stringify(k)).join(', ') + ']';
   const dateP = p.datePublished || cfg.buildDate;
@@ -338,6 +369,7 @@ function renderPathMd(p) {
   const body = (p.body || []).map((b) => `## ${inlineMd(b.h2)}\n\n${blocksToMd(b.html)}`).join('\n\n');
   const faq = (p.faq || []).map((f) => `**${inlineMd(f.q)}**\n\n${inlineMd(f.aHtml || f.a)}`).join('\n\n');
   const related = (p.related || []).map((r) => `- [${r.label}](${abs(r.href)})`).join('\n');
+  const sibs = siblings.map((sp) => `- [${sp.hubTitle || sp.eyebrow}](${url(sp.slug)}): ${sp.hubBlurb || ''}`).join('\n');
   const readNext = (p.readNext || []).map((r) => `- [${r.label}](${abs(r.href)})`).join('\n');
 
   return `---
@@ -378,6 +410,11 @@ ${faq}
 ## Related paths
 
 ${related}
+${sibs ? `
+## ${CATEGORY_HEADING[p.category] || 'More paths like this'}
+
+${sibs}
+` : ''}
 
 ## Read next
 
@@ -406,14 +443,18 @@ function replaceBlock(file, startMark, endMark, inner) {
 const dir = path.join(CONTENT, 'paths');
 const files = fs.existsSync(dir) ? fs.readdirSync(dir).filter((f) => f.endsWith('.json')) : [];
 const pages = files.map((f) => JSON.parse(fs.readFileSync(path.join(dir, f), 'utf8'))).filter((p) => !p.draft);
+// Category buckets in a stable order, for the sibling cross-links.
+for (const p of pages.slice().sort((a, b) => (a.order || 0) - (b.order || 0))) {
+  (byCategory[p.category] || (byCategory[p.category] = [])).push(p);
+}
 pages.sort((a, b) => (a.order || 999) - (b.order || 999));
 const bySlug = Object.fromEntries(pages.map((p) => [p.slug, p]));
 
 let wrote = 0;
 for (const p of pages) {
-  fs.writeFileSync(path.join(ROOT, `${p.slug}.html`), buildPage(p, bySlug));
+  fs.writeFileSync(path.join(ROOT, `${p.slug}.html`), buildPage(p, bySlug, siblingsFor(p)));
   fs.mkdirSync(path.join(ROOT, 'llms'), { recursive: true });
-  fs.writeFileSync(path.join(ROOT, `llms/${p.slug}.md`), renderPathMd(p));
+  fs.writeFileSync(path.join(ROOT, `llms/${p.slug}.md`), renderPathMd(p, siblingsFor(p)));
   wrote++;
 }
 

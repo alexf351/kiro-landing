@@ -105,6 +105,16 @@ Be careful with sensitive or personal data. Check your company's policy and the 
 - [AI for finance](https://tryiro.com/ai-for-finance)
 - [Prompt engineering](https://tryiro.com/prompt-engineering-app)
 
+## More AI paths by job
+
+- [AI for founders](https://tryiro.com/ai-for-founders): Ship faster with a lean team: AI for research, content, ops, and fundraising.
+- [AI for sales](https://tryiro.com/ai-for-sales): Research prospects, personalize outreach, prep calls, and update your CRM faster.
+- [AI for recruiters](https://tryiro.com/ai-for-recruiters): Write sharper JDs, source faster, summarize candidates fairly, and reach out in a human voice.
+- [AI for customer support](https://tryiro.com/ai-for-customer-support): Draft on-brand replies, summarize tickets, build macros, and triage, all without inventing policy.
+- [AI for product managers](https://tryiro.com/ai-for-product-managers): Synthesize feedback, draft PRDs, and run teardowns with AI as your product research partner.
+- [AI for consultants](https://tryiro.com/ai-for-consultants): Research fast, structure with frameworks, and build slide narratives with AI as your associate.
+
+
 ## Read next
 
 - [How to use AI at work](https://tryiro.com/blog/how-to-use-ai-at-work)

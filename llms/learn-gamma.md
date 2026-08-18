@@ -115,6 +115,16 @@ Yes. Document mode produces long-form scrollable content rather than cards, whic
 - [AI for founders](https://tryiro.com/ai-for-founders)
 - [AI for work](https://tryiro.com/ai-for-work)
 
+## More AI tools to learn
+
+- [AI for Excel & Sheets](https://tryiro.com/ai-for-excel): Write formulas, clean data, and build models with AI as your spreadsheet copilot.
+- [Learn Midjourney](https://tryiro.com/learn-midjourney): Write prompts that give you the image you pictured, not a muddy guess.
+- [Learn Microsoft Copilot](https://tryiro.com/learn-copilot): Get real work out of Copilot in Word, Excel, Outlook, and Teams.
+- [Learn NotebookLM](https://tryiro.com/learn-notebooklm): Turn your own documents into a research assistant that cites its sources.
+- [Learn Cursor](https://tryiro.com/learn-cursor): Get an AI editor to work on your codebase without wrecking it.
+- [Learn Notion AI](https://tryiro.com/learn-notion-ai): Draft, summarize, extract action items, and ask questions across your workspace.
+
+
 ## Read next
 
 - [The best AI apps](https://tryiro.com/blog/best-ai-apps)

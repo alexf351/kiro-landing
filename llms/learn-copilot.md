@@ -100,6 +100,16 @@ Yes. It works best when your data is formatted as a table, and it can then surfa
 - [AI for Excel](https://tryiro.com/ai-for-excel)
 - [Learn Notion AI](https://tryiro.com/learn-notion-ai)
 
+## More AI tools to learn
+
+- [Learn NotebookLM](https://tryiro.com/learn-notebooklm): Turn your own documents into a research assistant that cites its sources.
+- [Learn Cursor](https://tryiro.com/learn-cursor): Get an AI editor to work on your codebase without wrecking it.
+- [Learn Notion AI](https://tryiro.com/learn-notion-ai): Draft, summarize, extract action items, and ask questions across your workspace.
+- [Learn Canva AI](https://tryiro.com/learn-canva-ai): Design on-brand graphics fast with Canva's Magic Studio AI tools.
+- [Learn ElevenLabs](https://tryiro.com/learn-elevenlabs): Get AI speech that sounds like a person, not an announcer reading a script.
+- [Learn Gamma](https://tryiro.com/learn-gamma): Generate a deck in a minute, then do the ten minutes that make it good.
+
+
 ## Read next
 
 - [How to use AI at work](https://tryiro.com/blog/how-to-use-ai-at-work)

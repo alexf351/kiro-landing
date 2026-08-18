@@ -106,6 +106,16 @@ Many developers reach for Claude for larger refactors and reasoning over code, w
 - [Prompt engineering](https://tryiro.com/prompt-engineering-app)
 - [AI for founders](https://tryiro.com/ai-for-founders)
 
+## More AI paths by job
+
+- [AI for data analysts](https://tryiro.com/ai-for-data-analysts): Write SQL, fix formulas, clean data, and explain results with AI as your analytics pair.
+- [AI for founders](https://tryiro.com/ai-for-founders): Ship faster with a lean team: AI for research, content, ops, and fundraising.
+- [AI for sales](https://tryiro.com/ai-for-sales): Research prospects, personalize outreach, prep calls, and update your CRM faster.
+- [AI for recruiters](https://tryiro.com/ai-for-recruiters): Write sharper JDs, source faster, summarize candidates fairly, and reach out in a human voice.
+- [AI for customer support](https://tryiro.com/ai-for-customer-support): Draft on-brand replies, summarize tickets, build macros, and triage, all without inventing policy.
+- [AI for product managers](https://tryiro.com/ai-for-product-managers): Synthesize feedback, draft PRDs, and run teardowns with AI as your product research partner.
+
+
 ## Read next
 
 - [How to use Claude](https://tryiro.com/blog/how-to-use-claude)

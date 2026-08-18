@@ -106,6 +106,16 @@ No. Buyers still buy from people they trust, and AI can't build that relationshi
 - [AI for customer support](https://tryiro.com/ai-for-customer-support)
 - [Prompt engineering](https://tryiro.com/prompt-engineering-app)
 
+## More AI paths by job
+
+- [AI for recruiters](https://tryiro.com/ai-for-recruiters): Write sharper JDs, source faster, summarize candidates fairly, and reach out in a human voice.
+- [AI for customer support](https://tryiro.com/ai-for-customer-support): Draft on-brand replies, summarize tickets, build macros, and triage, all without inventing policy.
+- [AI for product managers](https://tryiro.com/ai-for-product-managers): Synthesize feedback, draft PRDs, and run teardowns with AI as your product research partner.
+- [AI for consultants](https://tryiro.com/ai-for-consultants): Research fast, structure with frameworks, and build slide narratives with AI as your associate.
+- [AI for lawyers](https://tryiro.com/ai-for-lawyers): Summarize documents, draft first clauses, and explain the law in plain English, then verify everything.
+- [AI for accountants](https://tryiro.com/ai-for-accountants): Explain formulas, summarize guidance, draft client emails, and clean data, then check every number.
+
+
 ## Read next
 
 - [How to use AI at work](https://tryiro.com/blog/how-to-use-ai-at-work)

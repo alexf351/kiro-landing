@@ -105,6 +105,13 @@ Yes. That's one of its best uses. Paste your outline, tell it the message and th
 - [AI for productivity](https://tryiro.com/ai-productivity)
 - [AI for work](https://tryiro.com/ai-for-work)
 
+## More AI skills to build
+
+- [AI for meetings](https://tryiro.com/ai-for-meetings): Prep tight agendas, turn transcripts into owned action items, and draft follow-ups fast.
+- [AI for productivity](https://tryiro.com/ai-productivity): Use AI to save real hours every week: email, notes, planning, and busywork.
+- [AI for research](https://tryiro.com/ai-for-research): Research a topic fast with sources, and catch made-up citations before you cite them.
+
+
 ## Read next
 
 - [How to write a prompt](https://tryiro.com/blog/how-to-write-a-prompt)

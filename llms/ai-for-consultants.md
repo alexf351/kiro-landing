@@ -105,6 +105,16 @@ It changes the job more than it replaces it. The research and first-draft work A
 - [AI for finance](https://tryiro.com/ai-for-finance)
 - [Prompt engineering](https://tryiro.com/prompt-engineering-app)
 
+## More AI paths by job
+
+- [AI for lawyers](https://tryiro.com/ai-for-lawyers): Summarize documents, draft first clauses, and explain the law in plain English, then verify everything.
+- [AI for accountants](https://tryiro.com/ai-for-accountants): Explain formulas, summarize guidance, draft client emails, and clean data, then check every number.
+- [AI for HR](https://tryiro.com/ai-for-hr): Draft job descriptions, policies, and onboarding docs, with care around bias and confidentiality.
+- [AI for writers](https://tryiro.com/ai-for-writers): Beat the blank page, get a tougher editor, keep your own voice.
+- [AI for designers](https://tryiro.com/ai-for-designers): Ideate concepts, write image prompts that behave, and draft briefs faster.
+- [AI for developers](https://tryiro.com/ai-for-developers): Explain code, debug with context, generate tests, then verify everything.
+
+
 ## Read next
 
 - [How to use AI at work](https://tryiro.com/blog/how-to-use-ai-at-work)

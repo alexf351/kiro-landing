@@ -105,6 +105,13 @@ Yes, and it's fast: feed it the summary and action items and ask for a short fol
 - [AI for productivity](https://tryiro.com/ai-productivity)
 - [AI for work](https://tryiro.com/ai-for-work)
 
+## More AI skills to build
+
+- [AI for productivity](https://tryiro.com/ai-productivity): Use AI to save real hours every week: email, notes, planning, and busywork.
+- [AI for research](https://tryiro.com/ai-for-research): Research a topic fast with sources, and catch made-up citations before you cite them.
+- [AI for presentations](https://tryiro.com/ai-for-presentations): Build a talk with a real narrative arc: slides, speaker notes, and a tighter message.
+
+
 ## Read next
 
 - [How to use AI at work](https://tryiro.com/blog/how-to-use-ai-at-work)

@@ -105,6 +105,16 @@ Only if you let it mass-generate. Feed it a specific detail about the candidate'
 - [AI for managers](https://tryiro.com/ai-for-managers)
 - [AI for work](https://tryiro.com/ai-for-work)
 
+## More AI paths by job
+
+- [AI for customer support](https://tryiro.com/ai-for-customer-support): Draft on-brand replies, summarize tickets, build macros, and triage, all without inventing policy.
+- [AI for product managers](https://tryiro.com/ai-for-product-managers): Synthesize feedback, draft PRDs, and run teardowns with AI as your product research partner.
+- [AI for consultants](https://tryiro.com/ai-for-consultants): Research fast, structure with frameworks, and build slide narratives with AI as your associate.
+- [AI for lawyers](https://tryiro.com/ai-for-lawyers): Summarize documents, draft first clauses, and explain the law in plain English, then verify everything.
+- [AI for accountants](https://tryiro.com/ai-for-accountants): Explain formulas, summarize guidance, draft client emails, and clean data, then check every number.
+- [AI for HR](https://tryiro.com/ai-for-hr): Draft job descriptions, policies, and onboarding docs, with care around bias and confidentiality.
+
+
 ## Read next
 
 - [How to use AI to write a resume](https://tryiro.com/blog/how-to-use-ai-to-write-a-resume)

@@ -100,6 +100,16 @@ Notion AI is a paid feature. It is bundled into Notion's paid plans and offered 
 - [Learn Microsoft Copilot](https://tryiro.com/learn-copilot)
 - [Learn Claude](https://tryiro.com/learn-claude)
 
+## More AI tools to learn
+
+- [Learn Canva AI](https://tryiro.com/learn-canva-ai): Design on-brand graphics fast with Canva's Magic Studio AI tools.
+- [Learn ElevenLabs](https://tryiro.com/learn-elevenlabs): Get AI speech that sounds like a person, not an announcer reading a script.
+- [Learn Gamma](https://tryiro.com/learn-gamma): Generate a deck in a minute, then do the ten minutes that make it good.
+- [AI for Excel & Sheets](https://tryiro.com/ai-for-excel): Write formulas, clean data, and build models with AI as your spreadsheet copilot.
+- [Learn Midjourney](https://tryiro.com/learn-midjourney): Write prompts that give you the image you pictured, not a muddy guess.
+- [Learn Microsoft Copilot](https://tryiro.com/learn-copilot): Get real work out of Copilot in Word, Excel, Outlook, and Teams.
+
+
 ## Read next
 
 - [How to use AI at work](https://tryiro.com/blog/how-to-use-ai-at-work)

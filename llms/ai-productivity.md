@@ -103,6 +103,13 @@ Not at all. Everything here is plain-English prompting. Iro's beginner paths ass
 - [Prompt engineering](https://tryiro.com/prompt-engineering-app)
 - [AI automation](https://tryiro.com/ai-automation-course)
 
+## More AI skills to build
+
+- [AI for research](https://tryiro.com/ai-for-research): Research a topic fast with sources, and catch made-up citations before you cite them.
+- [AI for presentations](https://tryiro.com/ai-for-presentations): Build a talk with a real narrative arc: slides, speaker notes, and a tighter message.
+- [AI for meetings](https://tryiro.com/ai-for-meetings): Prep tight agendas, turn transcripts into owned action items, and draft follow-ups fast.
+
+
 ## Read next
 
 - [How to use AI at work](https://tryiro.com/blog/how-to-use-ai-at-work)

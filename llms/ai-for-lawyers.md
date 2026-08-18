@@ -107,6 +107,16 @@ About five minutes a day. Iro's lessons are short, hands-on reps with instant fe
 - [Learn Claude](https://tryiro.com/learn-claude)
 - [Prompt engineering](https://tryiro.com/prompt-engineering-app)
 
+## More AI paths by job
+
+- [AI for accountants](https://tryiro.com/ai-for-accountants): Explain formulas, summarize guidance, draft client emails, and clean data, then check every number.
+- [AI for HR](https://tryiro.com/ai-for-hr): Draft job descriptions, policies, and onboarding docs, with care around bias and confidentiality.
+- [AI for writers](https://tryiro.com/ai-for-writers): Beat the blank page, get a tougher editor, keep your own voice.
+- [AI for designers](https://tryiro.com/ai-for-designers): Ideate concepts, write image prompts that behave, and draft briefs faster.
+- [AI for developers](https://tryiro.com/ai-for-developers): Explain code, debug with context, generate tests, then verify everything.
+- [AI for data analysts](https://tryiro.com/ai-for-data-analysts): Write SQL, fix formulas, clean data, and explain results with AI as your analytics pair.
+
+
 ## Read next
 
 - [How to spot AI hallucinations](https://tryiro.com/blog/spot-ai-hallucinations)

@@ -124,6 +124,16 @@ Cursor lets you choose, and the picks have real trade-offs. See our guide to cho
 - [Vibe coding course](https://tryiro.com/vibe-coding-course)
 - [Which AI model for coding?](https://tryiro.com/blog/best-ai-model-for-coding)
 
+## More AI tools to learn
+
+- [Learn Notion AI](https://tryiro.com/learn-notion-ai): Draft, summarize, extract action items, and ask questions across your workspace.
+- [Learn Canva AI](https://tryiro.com/learn-canva-ai): Design on-brand graphics fast with Canva's Magic Studio AI tools.
+- [Learn ElevenLabs](https://tryiro.com/learn-elevenlabs): Get AI speech that sounds like a person, not an announcer reading a script.
+- [Learn Gamma](https://tryiro.com/learn-gamma): Generate a deck in a minute, then do the ten minutes that make it good.
+- [AI for Excel & Sheets](https://tryiro.com/ai-for-excel): Write formulas, clean data, and build models with AI as your spreadsheet copilot.
+- [Learn Midjourney](https://tryiro.com/learn-midjourney): Write prompts that give you the image you pictured, not a muddy guess.
+
+
 ## Read next
 
 - [The best AI coding tools](https://tryiro.com/blog/best-ai-coding-tools)

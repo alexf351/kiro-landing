@@ -105,6 +105,16 @@ About five minutes a day. Iro is built for busy people: short lessons, real prac
 - [AI for marketing](https://tryiro.com/ai-for-marketing)
 - [Prompt engineering](https://tryiro.com/prompt-engineering-app)
 
+## More AI paths by job
+
+- [AI for sales](https://tryiro.com/ai-for-sales): Research prospects, personalize outreach, prep calls, and update your CRM faster.
+- [AI for recruiters](https://tryiro.com/ai-for-recruiters): Write sharper JDs, source faster, summarize candidates fairly, and reach out in a human voice.
+- [AI for customer support](https://tryiro.com/ai-for-customer-support): Draft on-brand replies, summarize tickets, build macros, and triage, all without inventing policy.
+- [AI for product managers](https://tryiro.com/ai-for-product-managers): Synthesize feedback, draft PRDs, and run teardowns with AI as your product research partner.
+- [AI for consultants](https://tryiro.com/ai-for-consultants): Research fast, structure with frameworks, and build slide narratives with AI as your associate.
+- [AI for lawyers](https://tryiro.com/ai-for-lawyers): Summarize documents, draft first clauses, and explain the law in plain English, then verify everything.
+
+
 ## Read next
 
 - [AI for small business](https://tryiro.com/blog/ai-for-small-business)

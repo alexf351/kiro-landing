@@ -105,6 +105,13 @@ It's an excellent accelerator for the first pass — mapping a field, clustering
 - [AI for presentations](https://tryiro.com/ai-for-presentations)
 - [AI for productivity](https://tryiro.com/ai-productivity)
 
+## More AI skills to build
+
+- [AI for presentations](https://tryiro.com/ai-for-presentations): Build a talk with a real narrative arc: slides, speaker notes, and a tighter message.
+- [AI for meetings](https://tryiro.com/ai-for-meetings): Prep tight agendas, turn transcripts into owned action items, and draft follow-ups fast.
+- [AI for productivity](https://tryiro.com/ai-productivity): Use AI to save real hours every week: email, notes, planning, and busywork.
+
+
 ## Read next
 
 - [How to spot AI hallucinations](https://tryiro.com/blog/spot-ai-hallucinations)

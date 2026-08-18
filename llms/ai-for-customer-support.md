@@ -105,6 +105,16 @@ No. AI handles drafting, summarizing, and routing, but customers escalate precis
 - [AI for work](https://tryiro.com/ai-for-work)
 - [Prompt engineering](https://tryiro.com/prompt-engineering-app)
 
+## More AI paths by job
+
+- [AI for product managers](https://tryiro.com/ai-for-product-managers): Synthesize feedback, draft PRDs, and run teardowns with AI as your product research partner.
+- [AI for consultants](https://tryiro.com/ai-for-consultants): Research fast, structure with frameworks, and build slide narratives with AI as your associate.
+- [AI for lawyers](https://tryiro.com/ai-for-lawyers): Summarize documents, draft first clauses, and explain the law in plain English, then verify everything.
+- [AI for accountants](https://tryiro.com/ai-for-accountants): Explain formulas, summarize guidance, draft client emails, and clean data, then check every number.
+- [AI for HR](https://tryiro.com/ai-for-hr): Draft job descriptions, policies, and onboarding docs, with care around bias and confidentiality.
+- [AI for writers](https://tryiro.com/ai-for-writers): Beat the blank page, get a tougher editor, keep your own voice.
+
+
 ## Read next
 
 - [How to spot AI hallucinations](https://tryiro.com/blog/spot-ai-hallucinations)

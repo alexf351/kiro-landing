@@ -106,6 +106,16 @@ Bake the brand into the prompt as explicit constraints: exact colors, mood, do's
 - [Prompt engineering](https://tryiro.com/prompt-engineering-app)
 - [AI for writers](https://tryiro.com/ai-for-writers)
 
+## More AI paths by job
+
+- [AI for developers](https://tryiro.com/ai-for-developers): Explain code, debug with context, generate tests, then verify everything.
+- [AI for data analysts](https://tryiro.com/ai-for-data-analysts): Write SQL, fix formulas, clean data, and explain results with AI as your analytics pair.
+- [AI for founders](https://tryiro.com/ai-for-founders): Ship faster with a lean team: AI for research, content, ops, and fundraising.
+- [AI for sales](https://tryiro.com/ai-for-sales): Research prospects, personalize outreach, prep calls, and update your CRM faster.
+- [AI for recruiters](https://tryiro.com/ai-for-recruiters): Write sharper JDs, source faster, summarize candidates fairly, and reach out in a human voice.
+- [AI for customer support](https://tryiro.com/ai-for-customer-support): Draft on-brand replies, summarize tickets, build macros, and triage, all without inventing policy.
+
+
 ## Read next
 
 - [How to write a prompt](https://tryiro.com/blog/how-to-write-a-prompt)
