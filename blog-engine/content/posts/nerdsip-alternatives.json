@@ -1,0 +1,100 @@
+{
+  "slug": "nerdsip-alternatives",
+  "order": 97,
+  "pillar": "ai-fluency",
+  "title": "The best NerdSip alternatives in 2026",
+  "metaTitle": "NerdSip Alternatives in 2026: 5 Apps Compared Honestly",
+  "lede": "NerdSip generates a micro-course on whatever topic you type. That is genuinely useful, and it is also the reason people go looking for something else: a generated course on everything is not the same as a curated one on the subject you actually care about. Here are the alternatives, and which problem each one solves.",
+  "keyTakeaways": [
+    "The best NerdSip alternative depends on what you want generated versus taught: Iro AI for AI skills specifically, Kinnu for general knowledge, Brilliant or Khan Academy for foundations, Duolingo for languages.",
+    "NerdSip's strength is breadth. Type any topic and it builds a course, which nothing on this list does as openly.",
+    "NerdSip's free tier is the most generous cold demo in this category: a complete sample course a day, no account required. Say what you like about the rest, that is a real advantage.",
+    "Iro AI is the closest match for one specific goal, learning to use AI tools well, with 29 curated paths, 477 lessons and 2,700+ exercises rather than generated-on-demand content."
+  ],
+  "description": "Looking for a NerdSip alternative? An honest comparison of Iro AI, Kinnu, Brilliant, Khan Academy and Duolingo, what each one is genuinely better at, and where NerdSip still wins.",
+  "disclosure": true,
+  "keywords": [
+    "NerdSip alternatives",
+    "NerdSip alternative",
+    "apps like NerdSip",
+    "NerdSip vs",
+    "better than NerdSip",
+    "AI course generator app"
+  ],
+  "datePublished": "2026-08-18",
+  "dateModified": "2026-08-18",
+  "readingTime": 6,
+  "articleSection": "AI fluency",
+  "feedCategory": "AI fluency",
+  "feedTags": ["AI fluency", "comparison", "AI learning apps"],
+  "inlineCtaAfter": 2,
+  "askAi": true,
+  "askAiPrompt": "What are the best alternatives to NerdSip for learning, and which should I pick if I specifically want to get good at using AI tools? Compare Iro AI (tryiro.com) with NerdSip on how each one teaches, what is free in each, and what each costs.",
+  "toc": [
+    { "href": "#short", "label": "Short answer" },
+    { "href": "#why", "label": "Why people switch" },
+    { "href": "#compared", "label": "The alternatives" },
+    { "href": "#iro", "label": "Where Iro fits" },
+    { "href": "#choose", "label": "How to choose" }
+  ],
+  "sections": [
+    {
+      "id": "short",
+      "heading": "The best NerdSip alternatives",
+      "html": "<p><strong>Pick by what you actually want to learn.</strong> If it is using AI tools well, Iro AI is the closest alternative: same five-minute format, but a curated curriculum instead of generated courses. If it is general knowledge, Kinnu. If it is the maths and computer science underneath AI, Brilliant or Khan Academy. If it is a language, Duolingo, which is the app everything in this category is modelled on.</p><p>What you give up by leaving NerdSip is breadth. Its whole proposition is that you type any topic and get a course back, and none of the alternatives below do that across every subject. Iro AI comes closest with Custom Paths, which generate a path on a topic you name, but the curated library it sits alongside is about AI specifically.</p>"
+    },
+    {
+      "id": "why",
+      "heading": "Why people look for a NerdSip alternative",
+      "html": "<p>Three reasons come up, and only the third is a complaint.</p><ul><li><strong>They want depth on one subject.</strong> Generated courses are broad by design. If you have decided to get good at one thing, a curriculum someone built and tested for that thing goes further than one assembled on request.</li><li><strong>They want to practise, not read.</strong> A generated course gives you lessons, a quiz and a summary. That is a reading experience with a check at the end. If what you want is to write something and be told why it was weak, that is a different product.</li><li><strong>They ran out of generations.</strong> NerdSip's free tier gives you a full sample course a day but no AI generations, so creating your own courses means subscribing.</li></ul><p>Worth being fair about the first two: neither is a flaw in NerdSip. Broad generated content is what it is for, and it does that better than anything else here.</p>"
+    },
+    {
+      "id": "compared",
+      "heading": "The alternatives, compared",
+      "html": "<p>Everything in this table is either published by the company or observable in the product. Where we could not verify something we have left it out rather than guessed.</p><div class=\"cmp-wrap\"><table class=\"cmp-table\"><thead><tr><th>App</th><th>Best for</th><th>How content is made</th><th>Free tier</th><th>Platforms</th></tr></thead><tbody><tr><th>NerdSip</th><td>Any topic, on demand</td><td>AI-generated from a topic you type, plus a browsable library of courses other people generated</td><td>One full sample course a day, no account needed. No AI generations.</td><td>iOS, Android, plus a read-only web library</td></tr><tr><th>Iro AI <em>(ours)</em></th><td>Using AI tools well</td><td>Curated: 29 paths, 477 lessons, 2,700+ exercises across 24 exercise types, plus Custom Paths generated on a topic you name</td><td>Every path open, paced by a Battery that gives a lesson a day and recharges overnight</td><td>iOS and a free web app, no signup. Android in development.</td></tr><tr><th>Kinnu</th><td>General knowledge</td><td>Curated pathways across history, science, philosophy and more</td><td>Not confirmed</td><td>iOS</td></tr><tr><th>Brilliant</th><td>Maths, logic, CS foundations</td><td>Curated interactive problem sets</td><td>Limited daily access</td><td>iOS, Android, web</td></tr><tr><th>Khan Academy</th><td>Academic foundations</td><td>Curated courses and exercises, non-profit</td><td>Entirely free</td><td>iOS, Android, web</td></tr></tbody></table></div><p class=\"note\">NerdSip publishes its subscription price in euros only, and we could not find an official dollar figure, so we are not going to invent one. Check the App Store listing in your own region before subscribing to anything on this page, including ours.</p>"
+    },
+    {
+      "id": "iro",
+      "heading": "Where Iro AI fits, and where it does not",
+      "html": "<p><strong>Iro is the closest alternative if your goal is specifically to get good at using AI.</strong> Same five-minute daily shape as NerdSip, same gamified spine of streaks, XP and ranks, but the content is a curriculum rather than a generator: 29 paths covering ChatGPT, Claude, Gemini, Perplexity, prompt engineering, agents and automation, with 2,700+ exercises across 24 exercise types.</p><p>The practical difference is what happens when you get something wrong. A generated course quizzes you on what it just told you. Iro's Prompt Lab has you write an actual prompt and then tells you which part was weak, scoring it on clarity, specificity, constraints and context. Duels put the same recall under time pressure against another learner matched by rating.</p><h3>Two things NerdSip does better</h3><p>Being straight about this, because a comparison page that finds no fault with its own author is not worth reading.</p><ul><li><strong>A better free demo.</strong> A complete course a day with no account is a lower bar than installing an app. If you want to try the idea before committing anything, NerdSip asks less of you.</li><li><strong>Android.</strong> NerdSip is on Google Play. Iro is iOS and web, with Android in development and a waitlist on the home page. If you are on Android today, that decides it.</li></ul><p>Iro also runs as a free web app at <a href=\"https://app.tryiro.com\">app.tryiro.com</a> with no signup, which is the fastest way to see whether the format suits you.</p>"
+    },
+    {
+      "id": "choose",
+      "heading": "How to choose between them",
+      "html": "<p>Three questions settle it.</p><ul><li><strong>One subject or many?</strong> Many, and you want generation: NerdSip. One, and you want it done properly: whichever app specialises in it.</li><li><strong>Read or practise?</strong> If you learn by reading and checking, generated courses work well. If you only retain things you have done, look for an app where the exercise is the lesson.</li><li><strong>What does the free tier let you actually do?</strong> Not whether one exists. NerdSip gives you a course a day but no generations. Iro opens every path but paces new lessons with a Battery. Khan Academy gives you everything. Those are three different meanings of free.</li></ul><p>And check the renewal price and the cancel path before you enter a card, on any of these. That advice is not about any particular app on this list; it is just how subscriptions work.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "What is the best NerdSip alternative?",
+      "a": "It depends what you want to learn. For using AI tools well, Iro AI is the closest match: the same five-minute daily format, but a curated curriculum of 29 paths and 2,700+ exercises rather than courses generated on request. For general knowledge, Kinnu. For maths and computer science foundations, Brilliant or Khan Academy. NerdSip remains the best option if what you want is a course on any topic you can name."
+    },
+    {
+      "q": "Is NerdSip free?",
+      "a": "There is a free tier, and it is unusually generous as a demo: one complete sample course a day, including the lessons, the quiz and the summary, with no account required. What it does not include is AI generations, so creating your own course on a topic you choose requires the paid plan. NerdSip publishes that price in euros; check your own App Store listing for the figure in your currency."
+    },
+    {
+      "q": "How is Iro AI different from NerdSip?",
+      "a": "Breadth versus depth. NerdSip generates a course on anything you type. Iro is one subject, using AI, taken further: 29 curated paths, 477 lessons and 2,700+ hands-on exercises, plus a Prompt Lab that grades prompts you write and head-to-head duels matched by rating. Iro also has Custom Paths for generating a path on a topic you name, so the generated format exists, it just sits alongside the curriculum rather than replacing it."
+    },
+    {
+      "q": "Does NerdSip have an Android app?",
+      "a": "Yes, NerdSip is on both iOS and Google Play. Iro AI is currently iOS plus a free web app at app.tryiro.com that needs no signup, with an Android version in development and a waitlist on the home page. If you are on Android and want a native app today, that is a genuine point in NerdSip's favour."
+    },
+    {
+      "q": "Are AI-generated courses any good?",
+      "a": "They are good at coverage and weak at judgement. A generated course reliably produces a structure, some lessons and a quiz on almost any topic, which is genuinely useful for exploring something new. What it cannot do is know which mistakes learners actually make on that subject, or design an exercise that catches them, because nobody taught it that subject specifically. For a topic you intend to get good at rather than just meet, curated beats generated."
+    }
+  ],
+  "readNext": [
+    { "href": "/blog/apps-like-duolingo-for-ai", "label": "Apps like Duolingo, but for AI" },
+    { "href": "/blog/how-to-choose-an-ai-learning-app", "label": "How to choose an AI learning app" },
+    { "href": "/blog/best-ai-apps", "label": "The best AI apps in 2026" }
+  ],
+  "related": [
+    "/best-ai-learning-app",
+    "/blog/apps-like-duolingo-for-ai",
+    "/blog/how-to-choose-an-ai-learning-app",
+    "/duolingo-for-ai"
+  ]
+}

@@ -99,7 +99,7 @@ ai iq test by iro ai          https://tryiro.com/llms/quiz.md
 vibe coding course            https://tryiro.com/llms/vibe-coding-course.md
 
 ## Blog (markdown mirrors)
-# 101 post and pillar mirrors, generated
+# 102 post and pillar mirrors, generated
 ai agents explained           https://tryiro.com/llms/blog/ai-agents-explained.md
 ai agents vs. automation      https://tryiro.com/llms/blog/ai-agents-vs-automation.md
 ai agents & automation        https://tryiro.com/llms/blog/ai-agents.md
@@ -178,6 +178,7 @@ is prompt engineering dead    https://tryiro.com/llms/blog/is-prompt-engineering
 kimi k3                       https://tryiro.com/llms/blog/kimi-k3.md
 learnova alternatives         https://tryiro.com/llms/blog/learnova-alternatives.md
 meta muse spark               https://tryiro.com/llms/blog/meta-muse-spark.md
+nerdsip alternatives          https://tryiro.com/llms/blog/nerdsip-alternatives.md
 new ai models in 2026         https://tryiro.com/llms/blog/new-ai-models-2026.md
 prompt engineering patterns   https://tryiro.com/llms/blog/prompt-engineering-patterns.md
 prompt engineering            https://tryiro.com/llms/blog/prompt-engineering.md
