@@ -95,7 +95,7 @@ block renders or not. Counting the rendered markup instead:
 | | Before | After |
 | --- | --- | --- |
 | Root pages | 5 of 72 | **62 of 72** |
-| Blog posts | 18 of 101 | 18 of 101 |
+| Blog posts | 18 of 101 | **46 of 101** |
 
 So the block was on five root pages, not almost everywhere. It is now on 62,
 each with its own question rather than 62 copies of one: `/learn-chatgpt` asks
@@ -108,9 +108,10 @@ download, changelog, the three localized homepages, the Google verification
 file, and `/quiz` (which injects its own block into the results screen, so a
 static grep misses it).
 
-**Still open:** 83 blog posts do not opt in. `askAi: true` plus a one-line
-prompt turns it on per post, and the commercially relevant ones are worth
-doing.
+On the blog I added it to the 28 comparison, ranking and verdict posts, each
+with a question phrased the way a reader would ask it rather than a template.
+The remaining 50 are explainers and how-tos, where "don't take our word for
+it" means nothing because there is no contested claim.
 
 ### 5. The sitemaps were understating how fresh the site is
 
