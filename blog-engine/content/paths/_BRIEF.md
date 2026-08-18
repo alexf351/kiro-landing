@@ -54,9 +54,14 @@ its exact topic.
   lives, energy or Focus. Frame it as a recharging resource, never as
   punishment: mistakes never cost a charge, and you always finish a lesson you
   started. Never call the free tier unlimited learning.
-- **"Free" rule:** You MAY call the iOS app "free to start" / "Download Iro
-  free." You may NOT call the **web app** free (it has a paywall). Refer to the
-  web app neutrally: "Iro also runs in your browser at app.tryiro.com."
+- **"Free" rule — RETRACTED 2026-08-18, DO NOT FOLLOW THE OLD VERSION.** This
+  rule used to say the web app had a paywall and must be referred to neutrally.
+  That is wrong: **app.tryiro.com is free and needs no signup.** The old rule
+  produced 26 instances of "Prefer your desktop? Iro also runs in your browser",
+  which sells a free no-signup product as a convenience for desktop users.
+  Awaiting confirmation of the exact free/Pro shape on web before rewriting;
+  until then, do not write new copy that implies the web app is limited or
+  paid, and do not repeat the "neutral mention" pattern.
 - **Tone:** confident, plain-spoken, a little bold. No hype, no em-dash-free
   robotic voice, no fake statistics, no invented user quotes or ratings.
 
