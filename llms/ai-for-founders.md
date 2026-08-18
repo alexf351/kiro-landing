@@ -76,17 +76,19 @@ Paste the extracts together and ask it to group them by underlying problem rathe
 
 ### Pass three: decide
 
-Now bring in a role. "Act as a skeptical seed investor. Here are the clusters and their counts. Which one would you bet a company on, and what would have to be true for that bet to work?" Then argue back. Ask for the strongest case against whichever cluster you already favor, and notice how much of your answer is evidence versus preference.
+Now bring in a role. "Act as a skeptical seed investor. Here are the clusters and their counts. Which one would you bet a company on, and what would have to be true for that bet to work?"
 
-The call is still yours. What you got back is the six hours of re-reading transcripts, plus a check on the quiet bias where the interview that agreed with you is the one you remember.
+Argue back before you accept the verdict. Ask for the strongest case against whichever cluster you already favor, and notice how much of your answer is evidence versus preference.
+
+The call is still yours. What you got back is the afternoon you'd have spent re-reading transcripts, plus a check on the quiet bias where the interview that agreed with you is the one you remember.
 
 ## The AI habits that cost founders the most time
 
-The expensive mistakes aren't bad prompts. They're outputs that looked finished, got shipped, and came back.
+Bad prompts aren't the expensive part. It's the output that looked finished, got shipped, and came back.
 
 - **The one-shot mega-prompt.** Asking for an entire pitch deck or business plan in one request gets you something structurally correct and specifically empty. Chain it: positioning first, then the narrative arc, then slide copy, feeding each result into the next step.
 - **Regenerating instead of correcting.** Hitting retry five times is slower than one message that says what's wrong: "too long, cut the second paragraph, and the tone is pitchy where it should be matter-of-fact."
-- **Numbers you never checked.** A model will hand you "a $4.2B market growing 18% a year" with total confidence and no source. In a deck, that's one investor question away from a bad meeting. Anything numeric that leaves your building gets verified against a real source.
+- **Numbers you never checked.** Ask about your category and a model will produce a competitor's headcount, funding total and churn rate in one confident paragraph, none of it sourced. In a deck, that's one investor question away from a bad meeting. Anything numeric that leaves your building gets verified against a real source.
 - **Automating a process you've run twice.** If you can't write the steps down, you can't automate them. Do it by hand until it's boring, then build.
 - **Outsourcing the things only you can say.** The investor update after a bad month, an apology to a customer you let down, a rejection to a candidate you liked. Speed was never the constraint on those.
 
@@ -131,7 +133,7 @@ About five minutes a day. Iro is built for busy people: short lessons, real prac
 
 **Can AI help me build an MVP without hiring an engineer?**
 
-Up to a point. Vibe coding tools can get a non-technical founder to a working prototype fast enough to demo it, put it in front of ten users, and find out whether anyone cares. Where it breaks down is auth, payments, and handling real customer data. Treat the AI build as a validation step, then bring in someone technical before you charge for it.
+Up to a point. Vibe coding tools can get you to a working prototype fast enough to demo it, put it in front of ten users, and find out whether anyone cares. Where they break down is auth, payments, and handling real customer data. Treat the AI build as a validation step, then bring in someone technical before you charge for it.
 
 **Is it safe to put my startup's data into ChatGPT?**
 

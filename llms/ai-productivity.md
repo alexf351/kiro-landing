@@ -80,14 +80,14 @@ Then check it. Skim the quotes, and if a line has no quote behind it, the model 
 
 ## Which AI productivity habits quietly cost you time?
 
-Four habits eat most of the time AI was supposed to save, and none of them feel like mistakes while you're in them.
+Four habits eat into the time AI was supposed to save, and none of them feel like mistakes while you're in them.
 
 - **The rewrite spiral.** You ask for a draft, don't like it, ask again, and twenty minutes disappear. Give it two rounds. If the third is still wrong, you're missing context, not prompts: name the fix ("shorter, no adjectives, end on a question") or write the opening line yourself and tell it to match your voice.
 - **Generating what a template already solved.** A weekly status update doesn't need fresh generation. It needs a saved format with three blanks in it. Starting from scratch every Friday is slower than filling in a form.
-- **Trusting a summary you can't spot-check.** Summaries fail quietly. They drop the one caveat or number you needed and still read perfectly well without it. Ask for quotes or references on anything you plan to act on.
+- **The summary nobody checked.** Summaries fail quietly. A dropped caveat leaves no hole behind it, so the text reads fine and you never notice what's missing. Length is the tell: when the output is a tenth of the source, something got decided for you.
 - **Typing context you could have pasted.** Describing a document in your own words takes longer than pasting the document, and it loses detail on the way.
 
-Before you trust an output, verify the expensive parts: names, numbers, dates, anything going out with your name on it, and any claim about a source you didn't actually paste in. Skim the rest. Checking everything at the same depth costs more time than the draft saved you.
+What ties these together is effort that isn't matched to stakes. A throwaway internal note and a client email don't deserve the same scrutiny, and treating them alike is what makes people give up on the habit. Verify hard where a mistake would be expensive, and skim everywhere else.
 
 ## Sample practice exercise
 

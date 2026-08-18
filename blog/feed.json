@@ -164,7 +164,7 @@
       "id": "https://tryiro.com/blog/what-is-ai-fluency",
       "url": "https://tryiro.com/blog/what-is-ai-fluency",
       "title": "What is AI fluency? A practical definition (and how to build it)",
-      "summary": "AI fluency is the practical ability to use, direct, and judge AI tools well enough to get reliably better results than you would without them. Here's what it actually means — and how to build it in a few minutes a day.",
+      "summary": "AI fluency is the practical ability to use, direct, and judge AI tools well enough to get reliably better results than you would without them. Here's what it actually means, and how to build it in a few minutes a day.",
       "date_published": "2026-06-01T00:00:00Z",
       "tags": [
         "AI fluency",
@@ -176,7 +176,7 @@
       "id": "https://tryiro.com/blog/what-is-prompt-engineering",
       "url": "https://tryiro.com/blog/what-is-prompt-engineering",
       "title": "What is prompt engineering? A clear definition with examples",
-      "summary": "Prompt engineering is the skill of writing and structuring instructions so an AI model reliably gives you the output you actually want. Here's what it means, why it works, and how to get good at it — with before-and-after examples.",
+      "summary": "Prompt engineering is the skill of writing and structuring instructions so an AI model reliably gives you the output you actually want. Here's what it means, why it works, and how to get good at it, with before-and-after examples.",
       "date_published": "2026-06-01T00:00:00Z",
       "tags": [
         "prompt engineering",
@@ -224,7 +224,7 @@
       "id": "https://tryiro.com/blog/what-is-an-llm",
       "url": "https://tryiro.com/blog/what-is-an-llm",
       "title": "What is an LLM? Large language models explained simply",
-      "summary": "A large language model (LLM) is an AI trained on huge amounts of text to predict the next word — which lets it answer, write, summarize, and reason in plain language. Here's how LLMs work, what they're good and bad at, and how to use them well.",
+      "summary": "A large language model (LLM) is an AI trained on huge amounts of text to predict the next word, which lets it answer, write, summarize, and reason in plain language. Here's how LLMs work, what they're good and bad at, and how to use them well.",
       "date_published": "2026-06-04T00:00:00Z",
       "tags": [
         "AI fluency",
@@ -284,7 +284,7 @@
       "id": "https://tryiro.com/blog/how-to-use-ai-at-work",
       "url": "https://tryiro.com/blog/how-to-use-ai-at-work",
       "title": "How to use AI at work (a practical guide for 2026)",
-      "summary": "The best way to use AI at work is to start with a few high-value, low-risk tasks — drafting, summarizing, and research — verify everything that matters, and follow your company's rules. Here's where to start and how to do it responsibly.",
+      "summary": "The best way to use AI at work is to start with a few high-value, low-risk tasks (drafting, summarizing, and research), verify everything that matters, and follow your company's rules. Here's where to start and how to do it responsibly.",
       "date_published": "2026-06-04T00:00:00Z",
       "tags": [
         "AI fluency",
@@ -320,7 +320,7 @@
       "id": "https://tryiro.com/blog/what-is-generative-ai",
       "url": "https://tryiro.com/blog/what-is-generative-ai",
       "title": "What is generative AI? A simple explanation with examples",
-      "summary": "Generative AI is artificial intelligence that creates new content — text, images, audio, video, or code — in response to a prompt. Here's how it works, what it can and can't do, and how to use it well.",
+      "summary": "Generative AI is artificial intelligence that creates new content (text, images, audio, video, or code) in response to a prompt. Here's how it works, what it can and can't do, and how to use it well.",
       "date_published": "2026-06-05T00:00:00Z",
       "tags": [
         "AI fluency",
@@ -416,7 +416,7 @@
       "id": "https://tryiro.com/blog/how-to-use-chatgpt",
       "url": "https://tryiro.com/blog/how-to-use-chatgpt",
       "title": "How to use ChatGPT: a beginner's guide for 2026",
-      "summary": "To use ChatGPT well, give it context, a role, a clear task, and the format you want — then refine the first answer. Here's how to start, what to use it for, and the habits that get great results.",
+      "summary": "To use ChatGPT well, give it context, a role, a clear task, and the format you want. Then refine the first answer. Here's how to start, what to use it for, and the habits that get great results.",
       "date_published": "2026-06-10T00:00:00Z",
       "tags": [
         "AI tools",
@@ -440,7 +440,7 @@
       "id": "https://tryiro.com/blog/how-to-tell-if-something-is-ai-generated",
       "url": "https://tryiro.com/blog/how-to-tell-if-something-is-ai-generated",
       "title": "How to tell if something is AI-generated (text, images & more)",
-      "summary": "There's no 100% reliable way to detect AI content, but a handful of tells — generic phrasing, factual slips, too-perfect structure, and visual glitches — catch most of it. Here's what to look for.",
+      "summary": "There's no 100% reliable way to detect AI content, but a handful of tells (generic phrasing, factual slips, too-perfect structure, and visual glitches) catch most of it. Here's what to look for.",
       "date_published": "2026-06-10T00:00:00Z",
       "tags": [
         "AI fluency",
@@ -812,7 +812,7 @@
       "id": "https://tryiro.com/blog/meta-muse-spark",
       "url": "https://tryiro.com/blog/meta-muse-spark",
       "title": "Meta Muse Spark: the free model most people haven't tried",
-      "summary": "Meta walked away from Llama and rebuilt from scratch. Muse Spark is the result — a free, multimodal reasoning model that quietly leads on medical benchmarks.",
+      "summary": "Meta walked away from Llama and rebuilt from scratch. Muse Spark is the result: a free, multimodal reasoning model that quietly leads on medical benchmarks.",
       "date_published": "2026-07-26T00:00:00Z",
       "tags": [
         "AI tools",

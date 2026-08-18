@@ -17,7 +17,7 @@ pillar: "ai-fluency"
 
 # How to tell if something is AI-generated (text, images & more)
 
-> There's no 100% reliable way to detect AI content, but a handful of tells — generic phrasing, factual slips, too-perfect structure, and visual glitches — catch most of it. Here's what to look for.
+> There's no 100% reliable way to detect AI content, but a handful of tells (generic phrasing, factual slips, too-perfect structure, and visual glitches) catch most of it. Here's what to look for.
 
 **Canonical:** https://tryiro.com/blog/how-to-tell-if-something-is-ai-generated
 **Published:** 2026-06-10
@@ -26,23 +26,23 @@ pillar: "ai-fluency"
 
 ## Key takeaways
 
-- No detector is 100% reliable — AI-detection tools produce false positives and are easily fooled, so use judgment, not just a tool.
+- No detector is 100% reliable: AI-detection tools produce false positives and are easily fooled, so use judgment, not just a tool.
 - Text tells: generic, hedge-heavy phrasing, confident factual errors, repetition, and unusually smooth but empty structure.
 - Image tells: odd hands and teeth, garbled text, inconsistent lighting, and too-perfect symmetry.
 - The reliable move is to verify claims against sources rather than trying to 'spot the robot.'
 
 ## Can you tell if something is AI-generated?
 
-**Sometimes — but there's no 100% reliable way to detect AI content.** AI-detection tools are easily fooled and regularly flag human writing by mistake, so they shouldn't be trusted on their own. What works better is knowing the common tells and, above all, verifying the claims. The goal isn't to 'catch the robot' — it's to decide whether the content is accurate and trustworthy, which matters whether a human or an AI wrote it.
+**Sometimes, but there's no 100% reliable way to detect AI content.** AI-detection tools are easily fooled and regularly flag human writing by mistake, so they shouldn't be trusted on their own. What works better is knowing the common tells and, above all, verifying the claims. The goal isn't to 'catch the robot': it's to decide whether the content is accurate and trustworthy, which matters whether a human or an AI wrote it.
 
 ## Tells that text is AI-generated
 
 No single sign is proof, but these patterns are common in AI writing:
 
-- **Generic, hedge-heavy phrasing** — lots of "it's important to note" and "in today's world," little specificity.
-- **Confident factual slips** — plausible-sounding claims, names, or numbers that turn out wrong ([hallucinations](/blog/spot-ai-hallucinations)).
-- **Too-smooth structure** — perfectly balanced paragraphs and lists that say very little.
-- **Repetition** — the same idea restated in slightly different words.
+- **Generic, hedge-heavy phrasing:** lots of "it's important to note" and "in today's world," little specificity.
+- **Confident factual slips:** plausible-sounding claims, names, or numbers that turn out wrong ([hallucinations](/blog/spot-ai-hallucinations)).
+- **Too-smooth structure:** perfectly balanced paragraphs and lists that say very little.
+- **Repetition:** the same idea restated in slightly different words.
 - **No real voice or lived detail** — no anecdotes, opinions, or specifics only a person would know.
 
 ## Tells that an image is AI-generated

@@ -135,7 +135,7 @@ Because image models paint text as pixels, not typography. They predict what let
 
 **Can I use AI-generated images in client work?**
 
-Often yes, but check two things first. Commercial rights depend on the tool and the plan you're on, and some free tiers don't include them, so read the current terms instead of assuming. Second, your client's contract may require disclosure or rule generated assets out entirely. In the US, an image with no meaningful human authorship generally can't be registered for copyright, which matters when the asset needs protecting.
+Often yes, but check two things first. Commercial rights depend on the tool and the plan you're on, and some free plans don't include them, so read the current terms instead of assuming. Second, your client's contract may require disclosure or rule generated assets out entirely. In the US, an image with no meaningful human authorship generally can't be registered for copyright, which matters when the asset needs protecting.
 
 ## Related paths
 

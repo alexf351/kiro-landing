@@ -148,7 +148,7 @@
     <published>2026-06-01T00:00:00Z</published>
     <author><name>Iro AI</name></author>
     <category term="AI fluency"/>
-    <summary>AI fluency is the practical ability to use, direct, and judge AI tools well enough to get reliably better results than you would without them. Here's what it actually means — and how to build it in a few minutes a day.</summary>
+    <summary>AI fluency is the practical ability to use, direct, and judge AI tools well enough to get reliably better results than you would without them. Here's what it actually means, and how to build it in a few minutes a day.</summary>
   </entry>
   <entry>
     <title>What is prompt engineering? A clear definition with examples</title>
@@ -158,7 +158,7 @@
     <published>2026-06-01T00:00:00Z</published>
     <author><name>Iro AI</name></author>
     <category term="Prompt engineering"/>
-    <summary>Prompt engineering is the skill of writing and structuring instructions so an AI model reliably gives you the output you actually want. Here's what it means, why it works, and how to get good at it — with before-and-after examples.</summary>
+    <summary>Prompt engineering is the skill of writing and structuring instructions so an AI model reliably gives you the output you actually want. Here's what it means, why it works, and how to get good at it, with before-and-after examples.</summary>
   </entry>
   <entry>
     <title>ChatGPT vs Claude: which should you use in 2026?</title>
@@ -198,7 +198,7 @@
     <published>2026-06-04T00:00:00Z</published>
     <author><name>Iro AI</name></author>
     <category term="AI fluency"/>
-    <summary>A large language model (LLM) is an AI trained on huge amounts of text to predict the next word — which lets it answer, write, summarize, and reason in plain language. Here's how LLMs work, what they're good and bad at, and how to use them well.</summary>
+    <summary>A large language model (LLM) is an AI trained on huge amounts of text to predict the next word, which lets it answer, write, summarize, and reason in plain language. Here's how LLMs work, what they're good and bad at, and how to use them well.</summary>
   </entry>
   <entry>
     <title>How long does it take to learn AI? A realistic timeline</title>
@@ -248,7 +248,7 @@
     <published>2026-06-04T00:00:00Z</published>
     <author><name>Iro AI</name></author>
     <category term="AI fluency"/>
-    <summary>The best way to use AI at work is to start with a few high-value, low-risk tasks — drafting, summarizing, and research — verify everything that matters, and follow your company's rules. Here's where to start and how to do it responsibly.</summary>
+    <summary>The best way to use AI at work is to start with a few high-value, low-risk tasks (drafting, summarizing, and research), verify everything that matters, and follow your company's rules. Here's where to start and how to do it responsibly.</summary>
   </entry>
   <entry>
     <title>ChatGPT vs Gemini: which should you use in 2026?</title>
@@ -278,7 +278,7 @@
     <published>2026-06-05T00:00:00Z</published>
     <author><name>Iro AI</name></author>
     <category term="AI fluency"/>
-    <summary>Generative AI is artificial intelligence that creates new content — text, images, audio, video, or code — in response to a prompt. Here's how it works, what it can and can't do, and how to use it well.</summary>
+    <summary>Generative AI is artificial intelligence that creates new content (text, images, audio, video, or code) in response to a prompt. Here's how it works, what it can and can't do, and how to use it well.</summary>
   </entry>
   <entry>
     <title>What is agentic AI? Agents explained simply (2026)</title>
@@ -358,7 +358,7 @@
     <published>2026-06-10T00:00:00Z</published>
     <author><name>Iro AI</name></author>
     <category term="AI tools"/>
-    <summary>To use ChatGPT well, give it context, a role, a clear task, and the format you want — then refine the first answer. Here's how to start, what to use it for, and the habits that get great results.</summary>
+    <summary>To use ChatGPT well, give it context, a role, a clear task, and the format you want. Then refine the first answer. Here's how to start, what to use it for, and the habits that get great results.</summary>
   </entry>
   <entry>
     <title>AI for small business: practical ways to use it in 2026</title>
@@ -378,7 +378,7 @@
     <published>2026-06-10T00:00:00Z</published>
     <author><name>Iro AI</name></author>
     <category term="AI fluency"/>
-    <summary>There's no 100% reliable way to detect AI content, but a handful of tells — generic phrasing, factual slips, too-perfect structure, and visual glitches — catch most of it. Here's what to look for.</summary>
+    <summary>There's no 100% reliable way to detect AI content, but a handful of tells (generic phrasing, factual slips, too-perfect structure, and visual glitches) catch most of it. Here's what to look for.</summary>
   </entry>
   <entry>
     <title>AI vs machine learning vs deep learning: the difference, explained</title>
@@ -688,7 +688,7 @@
     <published>2026-07-26T00:00:00Z</published>
     <author><name>Iro AI</name></author>
     <category term="AI tools"/>
-    <summary>Meta walked away from Llama and rebuilt from scratch. Muse Spark is the result — a free, multimodal reasoning model that quietly leads on medical benchmarks.</summary>
+    <summary>Meta walked away from Llama and rebuilt from scratch. Muse Spark is the result: a free, multimodal reasoning model that quietly leads on medical benchmarks.</summary>
   </entry>
   <entry>
     <title>Kimi K3: the biggest open-weight model ever, and who can actually run it</title>

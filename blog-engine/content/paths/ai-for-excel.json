@@ -110,6 +110,14 @@
     {
       "h2": "Excel or Google Sheets — the skill is the same",
       "html": "<p>Almost everything here works in both Excel and Google Sheets; you just tell the model which one you're using so it picks the right function names. The transferable skill is the same: describe the goal, give real context (cell references, a sample row, your version), ask for an explanation, and verify. Learn it once and it works wherever your data lives.</p>"
+    },
+    {
+      "h2": "A worked example: messy CRM export to revenue by rep",
+      "html": "<p>Start by describing the sheet, not the problem. Say you've pulled 8,000 rows out of a CRM: column A is a Date that arrived as text, B is Rep, C is Amount with currency symbols stuck in it, D is Stage. You want revenue per rep per month for closed-won deals. Here's the loop that gets you there in about ten minutes.</p><h3>1. Give the model the shape of your data</h3><p>\"Excel 365. Headers in row 1, data in A2:D8001. A = Date stored as text like '03/14/2026', B = Rep name, C = Amount stored as text like '$1,240.00', D = Stage.\" Those two lines remove most of the guessing, and they're the step almost everyone skips.</p><h3>2. Fix the types before you do any math</h3><p>Get helper-column formulas that turn C into a real number and A into a real date, plus a way to spot the rows where that conversion fails. Numbers stored as text are the most common reason a perfectly correct SUMIFS comes back as zero.</p><h3>3. Ask for the formula and the reasoning</h3><p>\"Write a SUMIFS for G2 that totals the Amount helper column for the rep in $F2 where Stage is 'Closed Won' and the date falls in the month in G$1. Use mixed references so I can drag it across and down, and explain each argument.\" Now you have something you can extend, not just paste.</p><h3>4. Check it against rows you already know</h3><p>Filter to one rep for one month and add the amounts up yourself. Matching numbers mean you can drag the formula out across the grid. If they don't match, paste both back and ask what the formula is excluding; blank stages and trailing spaces turn up here almost every time.</p>"
+    },
+    {
+      "h2": "What wastes the most time when people use AI on a spreadsheet?",
+      "html": "<p>The biggest time sink isn't the model being wrong, it's asking it a question it was never going to answer well. Five habits account for most of the lost hours.</p><ul><li><strong>Asking it to do the arithmetic.</strong> Pasting 400 rows and asking for the total invites drift. Ask for the formula instead and let the spreadsheet compute; the tool that's genuinely good at math should do the math.</li><li><strong>Naming the tool but not the version.</strong> XLOOKUP, LET, TEXTSPLIT and LAMBDA arrived with Microsoft 365 and aren't in Excel 2019 or 2016. \"Excel 2019, no dynamic arrays\" in your first line saves a round trip through a #NAME? error.</li><li><strong>Accepting a formula you can't read.</strong> If you can't explain the nesting to a colleague, you won't be able to fix it in three months. Get a LET version with named steps, or split it into two helper columns.</li><li><strong>Describing the data as you wish it were.</strong> Merged cells, trailing spaces, blank rows in the middle of a range, dates in two formats. Say what's actually there, or paste ten real rows and let the model see it.</li><li><strong>Forcing a formula where a tool fits better.</strong> Some jobs belong to a pivot table, to Power Query, or to QUERY in Sheets. Have the model pick the approach before it writes a single formula.</li></ul><p>One more worth naming: don't ask for a whole model in a single prompt. Build it one column at a time and check each one as you go. You'll spend your debugging time on a formula you understand instead of a wall of nesting you inherited from a chatbot.</p>"
     }
   ],
   "faqHeading": "AI + spreadsheet questions",
@@ -133,6 +141,14 @@
     {
       "q": "Do I need to be good at Excel already?",
       "a": "No. Beginners can get working formulas immediately, and you'll learn what they mean as you go. Iro starts simple and builds up to cleanup, analysis, and modeling."
+    },
+    {
+      "q": "Can I upload an Excel file to ChatGPT?",
+      "a": "Yes, ChatGPT and Claude both accept .xlsx and .csv uploads, and both can run code on the file to summarize columns, find duplicates, chart a trend, or hand back a cleaned copy. What comes back is a new file rather than edits to your workbook, so formulas, macros and conditional formatting usually don't survive the trip. The upload is also a snapshot: it won't refresh when your source data changes. Check your company's policy before uploading anything confidential."
+    },
+    {
+      "q": "Is Copilot in Excel better than ChatGPT for spreadsheets?",
+      "a": "They're good at different things. Copilot sits inside Excel and can see your open workbook, so it acts on your real data without you describing it, but it only comes with a paid Microsoft 365 plan that includes Copilot. ChatGPT or Claude in a browser needs context from you (version, cell references, a sample row) and tends to explain a formula in more depth. The prompting skill carries across both."
     }
   ],
   "related": [
@@ -167,5 +183,5 @@
   "ctaHeading": "Practice AI for spreadsheets.",
   "ctaBody": "Iro turns formula-writing, cleanup, and error-fixing into five-minute exercises with feedback — so the next messy sheet is a rep you've already done.",
   "datePublished": "2026-07-09",
-  "dateModified": "2026-07-09"
+  "dateModified": "2026-08-18"
 }

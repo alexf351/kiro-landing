@@ -3,11 +3,11 @@
   "order": 14,
   "pillar": "ai-fluency",
   "title": "What is AI fluency? A practical definition (and how to build it)",
-  "lede": "AI fluency is the practical ability to use, direct, and judge AI tools well enough to get reliably better results than you would without them. Here's what it actually means — and how to build it in a few minutes a day.",
+  "lede": "AI fluency is the practical ability to use, direct, and judge AI tools well enough to get reliably better results than you would without them. Here's what it actually means, and how to build it in a few minutes a day.",
   "keyTakeaways": [
-    "AI fluency is the practical ability to use, direct, and evaluate AI tools to get reliably better results — not knowing how the models work under the hood.",
+    "AI fluency is the practical ability to use, direct, and evaluate AI tools to get reliably better results, not knowing how the models work under the hood.",
     "It has four layers: using the tools, prompting them well, judging their output, and applying them to real work.",
-    "It is a skill, so it is built through short, active, daily practice with feedback — not by watching tutorials.",
+    "It is a skill, so it is built through short, active, daily practice with feedback, not by watching tutorials.",
     "You can reach useful fluency in about five minutes a day over a few weeks; the goal is a habit, not memorized tricks."
   ],
   "description": "AI fluency is the practical ability to use, direct, and evaluate AI tools to get better results. Here is a clear definition, a 4-layer framework, and how to build it in 5 minutes a day.",
@@ -69,7 +69,7 @@
     {
       "id": "layers",
       "heading": "The four layers of AI fluency",
-      "html": "<p>AI fluency is not one skill — it is four, stacked. Each layer makes the next one more valuable.</p><ol><li><strong>Tool use</strong> — knowing what each AI tool is for and how to operate it: ChatGPT for general work, <a href=\"/learn-claude\">Claude</a> for long documents and code, <a href=\"/learn-perplexity\">Perplexity</a> for sourced research, image and video models for visuals.</li><li><strong>Prompting</strong> — giving the model context, a role, a goal, and an example so it produces what you actually want. This is the layer most people skip, and it is where the biggest gains hide. See <a href=\"/blog/prompt-engineering-patterns\">the prompt patterns that work everywhere</a>.</li><li><strong>Judgment</strong> — evaluating the output: catching <a href=\"/blog/spot-ai-hallucinations\">hallucinations</a>, checking facts and sources, and deciding whether to trust, edit, or throw the answer away. This is the layer that separates fluent users from people who get burned by confident-sounding mistakes.</li><li><strong>Application</strong> — wiring AI into your real work and habits so it compounds: drafting, summarizing, analyzing, automating the boring parts, and knowing which tasks to delegate to AI versus do yourself.</li></ol><p>Most beginners over-invest in layer one and ignore three and four. Fluency comes from balancing all four.</p>"
+      "html": "<p>AI fluency is not one skill: it is four, stacked. Each layer makes the next one more valuable.</p><ol><li><strong>Tool use.</strong> Knowing what each AI tool is for and how to operate it: ChatGPT for general work, <a href=\"/learn-claude\">Claude</a> for long documents and code, <a href=\"/learn-perplexity\">Perplexity</a> for sourced research, image and video models for visuals.</li><li><strong>Prompting.</strong> Giving the model context, a role, a goal, and an example so it produces what you actually want. This is the layer most people skip, and it is where the biggest gains hide. See <a href=\"/blog/prompt-engineering-patterns\">the prompt patterns that work everywhere</a>.</li><li><strong>Judgment.</strong> Evaluating the output: catching <a href=\"/blog/spot-ai-hallucinations\">hallucinations</a>, checking facts and sources, and deciding whether to trust, edit, or throw the answer away. This is the layer that separates fluent users from people who get burned by confident-sounding mistakes.</li><li><strong>Application.</strong> Wiring AI into your real work and habits so it compounds: drafting, summarizing, analyzing, automating the boring parts, and knowing which tasks to delegate to AI versus do yourself.</li></ol><p>Most beginners over-invest in layer one and ignore three and four. Fluency comes from balancing all four.</p>"
     },
     {
       "id": "vs-literacy",
@@ -79,12 +79,12 @@
     {
       "id": "why",
       "heading": "Why AI fluency matters now",
-      "html": "<p>AI fluency is quickly becoming a baseline workplace skill rather than a nice-to-have. The gap is no longer between people who have access to AI and people who don't — almost everyone has access. The gap is between people who can <em>direct</em> these tools and people who type a vague question and accept whatever comes back.</p><p>That second group gets mediocre results and concludes AI is overhyped. The fluent group quietly gets more done. As the tools get more capable, the value of knowing how to aim them goes up, not down — a better model still needs a clear goal, good context, and someone who can tell when it's wrong.</p>"
+      "html": "<p>AI fluency is quickly becoming a baseline workplace skill rather than a nice-to-have. The gap is no longer between people who have access to AI and people who don't: almost everyone has access. The gap is between people who can <em>direct</em> these tools and people who type a vague question and accept whatever comes back.</p><p>That second group gets mediocre results and concludes AI is overhyped. The fluent group quietly gets more done. As the tools get more capable, the value of knowing how to aim them goes up, not down. A better model still needs a clear goal, good context, and someone who can tell when it's wrong.</p>"
     },
     {
       "id": "build",
       "heading": "How to build AI fluency (in about five minutes a day)",
-      "html": "<p>AI fluency is a skill, and skills are built the same way: short, active, repeated practice with feedback — not passive video. Watching a two-hour course on prompting feels productive and teaches you almost nothing you'll remember. Writing ten real prompts and seeing what works teaches you a lot.</p><p>A simple routine that works:</p><ul><li><strong>Practice on real tasks.</strong> Use AI for something you actually need today — an email, a summary, a plan. Real stakes make the lesson stick.</li><li><strong>Do short daily reps.</strong> Five focused minutes a day beats a weekend binge you forget by Monday. Consistency is the whole game.</li><li><strong>Get feedback.</strong> Notice what worked and why. Active recall — trying, checking, adjusting — is how skills transfer.</li><li><strong>Stretch across all four layers,</strong> not just tool use. Practice judging outputs and applying AI to your work, not only operating the apps.</li></ul><p>This is exactly the loop Iro AI is built around — short daily drills, instant feedback, and practice across all four layers. If you're starting from zero, the <a href=\"/blog/ai-for-beginners-30-day-plan\">30-day AI plan for beginners</a> lays out a day-by-day version.</p>"
+      "html": "<p>AI fluency is a skill, and skills are built the same way: short, active, repeated practice with feedback, not passive video. Watching a two-hour course on prompting feels productive and teaches you almost nothing you'll remember. Writing ten real prompts and seeing what works teaches you a lot.</p><p>A simple routine that works:</p><ul><li><strong>Practice on real tasks.</strong> Use AI for something you actually need today: an email, a summary, a plan. Real stakes make the lesson stick.</li><li><strong>Do short daily reps.</strong> Five focused minutes a day beats a weekend binge you forget by Monday. Consistency is the whole game.</li><li><strong>Get feedback.</strong> Notice what worked and why. Active recall (trying, checking, adjusting) is how skills transfer.</li><li><strong>Stretch across all four layers,</strong> not just tool use. Practice judging outputs and applying AI to your work, not only operating the apps.</li></ul><p>This is exactly the loop Iro AI is built around: short daily drills, instant feedback, and practice across all four layers. If you're starting from zero, the <a href=\"/blog/ai-for-beginners-30-day-plan\">30-day AI plan for beginners</a> lays out a day-by-day version.</p>"
     },
     {
       "id": "measure",
@@ -94,7 +94,7 @@
     {
       "id": "myths",
       "heading": "Three myths about AI fluency",
-      "html": "<p><strong>Myth 1: You need a technical background.</strong> You don't. Fluency is about directing and judging tools, not building them. Some of the most fluent users are writers, marketers, and operators, not engineers.</p><p><strong>Myth 2: It's just about knowing clever prompts.</strong> Prompts matter, but judgment and application matter more. A perfect prompt that produces a confident, wrong answer you don't catch is worse than useless.</p><p><strong>Myth 3: The models will get so good that fluency won't matter.</strong> The opposite is happening. More capable tools reward people who can aim them — and as AI gets woven into more work, the cost of <em>not</em> being fluent rises. The skill that ages well isn't any single tool; it's the habit of learning and directing whatever comes next.</p>"
+      "html": "<p><strong>Myth 1: You need a technical background.</strong> You don't. Fluency is about directing and judging tools, not building them. Some of the most fluent users are writers, marketers, and operators, not engineers.</p><p><strong>Myth 2: It's just about knowing clever prompts.</strong> Prompts matter, but judgment and application matter more. A perfect prompt that produces a confident, wrong answer you don't catch is worse than useless.</p><p><strong>Myth 3: The models will get so good that fluency won't matter.</strong> The opposite is happening. More capable tools reward people who can aim them, and as AI gets woven into more work, the cost of <em>not</em> being fluent rises. The skill that ages well isn't any single tool; it's the habit of learning and directing whatever comes next.</p>"
     }
   ],
   "readNext": [
@@ -118,7 +118,7 @@
   "faq": [
     {
       "q": "What is AI fluency in simple terms?",
-      "a": "AI fluency is being able to use AI tools well enough to get reliably better results than you would without them — choosing the right tool, asking clearly, and knowing when the answer is wrong. It's a practical skill measured by outcomes, not by how much you know about how AI works."
+      "a": "AI fluency is being able to use AI tools well enough to get reliably better results than you would without them: choosing the right tool, asking clearly, and knowing when the answer is wrong. It's a practical skill measured by outcomes, not by how much you know about how AI works."
     },
     {
       "q": "What is the difference between AI literacy and AI fluency?",
@@ -134,7 +134,7 @@
     },
     {
       "q": "How do I actually become AI fluent?",
-      "a": "Through active daily practice on four pillars: prompting, judgment, tool choice, and real workflows. See the step-by-step guide to <a href=\"/become-ai-fluent\">becoming AI fluent</a>. For context, in our early data the <a href=\"/blog/average-ai-literacy-score\">average person scores about 5/10</a> on a basic AI literacy test — most people have more room to grow than they think."
+      "a": "Through active daily practice on four pillars: prompting, judgment, tool choice, and real workflows. See the step-by-step guide to <a href=\"/become-ai-fluent\">becoming AI fluent</a>. For context, in our early data the <a href=\"/blog/average-ai-literacy-score\">average person scores about 5/10</a> on a basic AI literacy test. Most people have more room to grow than they think."
     }
   ],
   "related": [

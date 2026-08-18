@@ -68,11 +68,15 @@ Work in a fixed order: brand kit, copy, image, layout, formats. Load your colors
 
 ### 1. Copy before pictures
 
-Magic Write does better work when the message already exists. Brief it properly: _"Write three Instagram caption options for a summer sale on a minimalist skincare brand. Audience: people who already buy clean beauty. Tone: calm and direct, no exclamation marks. Under 40 words each. Include the offer, 20% off through Sunday, and one line on why the formula is gentle."_ Pick one, edit it by hand, and note how long your headline ended up.
+Magic Write does better work when the message already exists. Brief it properly:
+
+_"Write three Instagram caption options for a summer sale on a minimalist skincare brand. Audience: people who already buy clean beauty. Tone: calm and direct, no exclamation marks. Under 40 words each. Include the offer, 20% off through Sunday, and one line on why the formula is gentle."_
+
+Pick one, edit it by hand, and note how long your headline ended up.
 
 ### 2. Image around the copy
 
-You now know where the text has to sit, so ask for that space. Give text-to-image the subject, style, palette, lighting, mood, and the negative space the headline needs. Generate a batch of four and reject three of them. First results are rarely the best ones.
+The caption has just handed you something the image brief needs: how long the headline is and where it has to sit. Ask for that space explicitly, say a clear top third, instead of hoping the composition leaves you room. Generate a batch of four and reject three. First results are rarely the best ones.
 
 ### 3. Layout, then formats
 
@@ -82,13 +86,13 @@ Set the headline in your brand font with real margins, and if the type fights th
 
 Check the words inside the image first, the claims in the copy second, and how the whole thing looks on a phone third. Those three catch most of what ships broken. The rest is polish.
 
-Letters rendered by an image model are shapes, not spelling, so a generated poster will hand you a sign reading "SUMER SALE" or a bottle labelled in invented characters. Generate images with no words in them at all, then add your own text layers on top. Your copy stays editable, correctly spelled, and sharp at every size.
+Letters rendered by an image model are shapes, not spelling, so a generated poster will hand you a sign reading "SUMER SALE" or a bottle labeled in invented characters. Generate images with no words in them at all, then add your own text layers on top. Your copy stays editable, correctly spelled, and sharp at every size.
 
 - **Claims:** Magic Write will write "clinically proven" or "the #1 choice" without blinking. If you can't point to a source, cut the line. You're the one publishing it.
 - **Palette drift:** generated images come back near your brand colors rather than on them. Eyedrop the image, compare it to your Brand Kit swatches, and pull the design's accents toward the photo instead of leaving both slightly off.
 - **Contrast:** pale type over a pale AI background reads fine on a laptop and vanishes on a phone outdoors. Preview at actual size before you post.
 - **People and products:** zoom in on hands, teeth, jewelry and packaging seams. If it's your real product, don't ship a generated impression of it.
-- **Sameness:** three posts in a row in the same generated style and the feed starts to look synthetic. Mix in real photography.
+- **Sameness:** run three posts in a row in the same generated style and the feed starts to look synthetic. Mix in real photography.
 
 One more step before a paid campaign: read the terms for the AI feature you used and the plan you're on, because usage rights differ by tool and change over time. Save the source files too. The same prompt won't hand you the same image twice.
 
@@ -131,11 +135,11 @@ No. Canva AI is built for non-designers, and the skill you need is writing a cle
 
 **Is Canva AI free to use?**
 
-Partly. Canva meters its AI features with credits: the free plan includes a limited monthly allowance across Magic Write and image generation, and paid plans include a larger one. When the allowance runs out, those tools pause until the counter resets. Check the usage indicator in your Canva account, since the exact limits get adjusted over time.
+Canva AI is free up to a point. The AI features are metered with credits: the free plan includes a limited monthly allowance across Magic Write and image generation, and paid plans include a larger one. When the allowance runs out, those tools pause until the counter resets. Check the usage indicator in your Canva account, since the exact limits get adjusted over time.
 
 **Why does text in Canva AI images come out garbled?**
 
-Because image models draw letterforms as shapes rather than spelling words, so headlines and labels inside a generated image often come back misspelled or half-formed. Don't try to fix it with better prompts. Generate the image with no words in it, then add your headline, price and logo as real text layers in your brand font. They stay editable and readable at any size.
+Image models draw letterforms as shapes rather than spelling words, so headlines and labels inside a generated image often come back misspelled or half-formed. Prompting harder won't fix it. Ask for a visual with no lettering in it, then set your headline, price and logo as real text layers in your brand font. Type you placed yourself stays editable and reads sharp at any size.
 
 ## Related paths
 
