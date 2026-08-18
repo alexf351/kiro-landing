@@ -2,15 +2,15 @@
   "slug": "grok-4-5",
   "order": 67,
   "pillar": "ai-tools",
-  "title": "Grok 4.5: xAI's coding model, reviewed honestly",
+  "title": "Grok 4.5: SpaceXAI's coding model, reviewed honestly",
   "lede": "Fourth place on the intelligence leaderboard, a fifth of the price, and trained on real developer sessions. Here's what Grok 4.5 is genuinely good at.",
   "keyTakeaways": [
     "Grok 4.5 launched on 8 July 2026 at $2 per million input tokens and $6 per million output — roughly a fifth of what the top-ranked models cost.",
-    "It is xAI's first model built specifically for coding and agentic work, trained using real developer session data rather than general web text.",
+    "It is SpaceXAI's first model built specifically for coding and agentic work, trained using real developer session data rather than general web text.",
     "Reported results: 83.3% on Terminal-Bench 2.1, 64.7% on SWE-Bench Pro, and 54 on the Artificial Analysis Intelligence Index — fourth place at launch, behind Claude Fable 5, GPT-5.5, and Claude Opus 4.8.",
     "Its real advantage is token efficiency: it reportedly uses 3–4x fewer tokens per task than the priciest rivals, which compounds the price gap in long agent runs."
   ],
-  "description": "Grok 4.5 explained: xAI's coding-focused model, released 8 July 2026. Pricing, Terminal-Bench and SWE-Bench Pro results, token efficiency, and when it beats more expensive models.",
+  "description": "Grok 4.5 explained: SpaceXAI's coding-focused model, released 8 July 2026. Pricing, Terminal-Bench and SWE-Bench Pro results, token efficiency, and when it beats more expensive models.",
   "keywords": [
     "Grok 4.5",
     "Grok 4.5 benchmarks",
@@ -20,7 +20,7 @@
     "Grok 4.5 vs GPT-5.6"
   ],
   "datePublished": "2026-07-26",
-  "dateModified": "2026-07-26",
+  "dateModified": "2026-08-18",
   "readingTime": 6,
   "articleSection": "AI tools",
   "feedCategory": "AI tools",
@@ -52,12 +52,12 @@
     {
       "id": "answer",
       "heading": "The short answer",
-      "html": "<p><strong>Grok 4.5 is xAI's first model built specifically for coding and agentic work, released on 8 July 2026 at $2 per million input tokens and $6 per million output.</strong> It is not the most capable model available — it landed fourth on the Artificial Analysis Intelligence Index at launch with a score of 54 — but it costs roughly a fifth of what the models above it charge.</p><p>That trade is the entire pitch, and for a specific kind of work it is a good one: long agent runs where token consumption compounds, and high-volume coding tasks where a small capability gap costs less than a large price gap.</p><p class=\"note\">Figures reflect xAI's published pricing and reported benchmark results at the time of writing (26 July 2026). Leaderboard positions in this field change within weeks.</p>"
+      "html": "<p><strong>Grok 4.5 is SpaceXAI's first model built specifically for coding and agentic work, released on 8 July 2026 at $2 per million input tokens and $6 per million output.</strong> It is not the most capable model available — it landed fourth on the Artificial Analysis Intelligence Index at launch with a score of 54 — but it costs roughly a fifth of what the models above it charge.</p><p>That trade is the entire pitch, and for a specific kind of work it is a good one: long agent runs where token consumption compounds, and high-volume coding tasks where a small capability gap costs less than a large price gap.</p><p class=\"note\">Figures reflect SpaceXAI's published pricing and reported benchmark results at the time of writing (26 July 2026). Leaderboard positions in this field change within weeks.</p>"
     },
     {
       "id": "different",
       "heading": "What makes it different",
-      "html": "<h3>Trained on real developer sessions</h3><p>Grok 4.5 is a mixture-of-experts model trained on trillions of tokens of real Cursor developer session data — actual people working in actual codebases, rather than general web text and public repositories. The bet is that watching how developers iterate teaches a model something that reading finished code does not: what a half-broken change looks like, and what people do next.</p><h3>Benchmarked on long sessions, not trivia</h3><p>xAI leaned on evaluations built to measure what a model can do inside a real repository over an extended session, rather than one-shot puzzle solving. That mirrors the wider 2026 shift — every lab has moved from knowledge quizzes toward agentic benchmarks, because agentic work is where the money is and where models still visibly fail.</p><h3>Token efficiency as a feature</h3><p>The most under-discussed number: Grok 4.5 reportedly uses 3–4x fewer tokens per task than the most expensive rivals while matching GPT-5.5 in the Codex harness on the Coding Agent Index (76). Combine that with a per-token price a fifth of theirs and the effective cost difference on a long agent run is large — this is a bigger deal than the headline price alone suggests.</p>"
+      "html": "<h3>Trained on real developer sessions</h3><p>Grok 4.5 is a mixture-of-experts model trained on trillions of tokens of real Cursor developer session data — actual people working in actual codebases, rather than general web text and public repositories. The bet is that watching how developers iterate teaches a model something that reading finished code does not: what a half-broken change looks like, and what people do next.</p><h3>Benchmarked on long sessions, not trivia</h3><p>SpaceXAI leaned on evaluations built to measure what a model can do inside a real repository over an extended session, rather than one-shot puzzle solving. That mirrors the wider 2026 shift — every lab has moved from knowledge quizzes toward agentic benchmarks, because agentic work is where the money is and where models still visibly fail.</p><h3>Token efficiency as a feature</h3><p>The most under-discussed number: Grok 4.5 reportedly uses 3–4x fewer tokens per task than the most expensive rivals while matching GPT-5.5 in the Codex harness on the Coding Agent Index (76). Combine that with a per-token price a fifth of theirs and the effective cost difference on a long agent run is large — this is a bigger deal than the headline price alone suggests.</p>"
     },
     {
       "id": "numbers",
@@ -73,7 +73,7 @@
   "faq": [
     {
       "q": "What is Grok 4.5?",
-      "a": "Grok 4.5 is xAI's coding and agentic model, released on 8 July 2026. It is a mixture-of-experts model trained on real developer session data, priced at $2 per million input tokens and $6 per million output."
+      "a": "Grok 4.5 is SpaceXAI's coding and agentic model, released on 8 July 2026. It is a mixture-of-experts model trained on real developer session data, priced at $2 per million input tokens and $6 per million output."
     },
     {
       "q": "Is Grok 4.5 good for coding?",
@@ -108,5 +108,6 @@
     "/blog/claude-opus-5",
     "/blog/best-ai-coding-tools",
     "/quiz"
-  ]
+  ],
+  "metaTitle": "Grok 4.5 Review: SpaceXAI (xAI) Coding Model, Benchmarks and Pricing"
 }

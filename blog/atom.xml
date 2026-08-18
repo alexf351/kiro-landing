@@ -5,7 +5,7 @@
   <link rel="self" href="https://tryiro.com/blog/atom.xml" type="application/atom+xml"/>
   <link rel="alternate" href="https://tryiro.com/blog" type="text/html"/>
   <id>https://tryiro.com/blog/atom.xml</id>
-  <updated>2026-08-14T00:00:00Z</updated>
+  <updated>2026-08-18T00:00:00Z</updated>
   <rights>© 2026 Iro AI</rights>
   <author><name>Iro AI</name><uri>https://tryiro.com</uri></author>
   <icon>https://tryiro.com/assets/favicon-64.png</icon>
@@ -541,14 +541,14 @@
     <summary>ChatGPT is the polished all-rounder with the biggest ecosystem; DeepSeek offers strong reasoning and coding at much lower cost, with open models. Here's the honest comparison and how to choose.</summary>
   </entry>
   <entry>
-    <title>What is Grok? xAI's chatbot, explained</title>
+    <title>What is Grok? SpaceXAI's chatbot, explained</title>
     <id>https://tryiro.com/blog/what-is-grok</id>
     <link href="https://tryiro.com/blog/what-is-grok"/>
-    <updated>2026-06-14T00:00:00Z</updated>
+    <updated>2026-08-18T00:00:00Z</updated>
     <published>2026-06-14T00:00:00Z</published>
     <author><name>Iro AI</name></author>
     <category term="AI tools"/>
-    <summary>Grok is the AI assistant from xAI, built into X (formerly Twitter), known for real-time access to posts and a more conversational, irreverent style. Here's what it is and what it's good at.</summary>
+    <summary>Grok is the AI assistant from SpaceXAI, the company formerly called xAI, built into X (formerly Twitter), known for real-time access to posts and a more conversational, irreverent style. Here's what it is and what it's good at.</summary>
   </entry>
   <entry>
     <title>AI for real estate: practical ways agents can use it in 2026</title>
@@ -594,11 +594,11 @@
     <title>How to use Grok: a beginner’s guide</title>
     <id>https://tryiro.com/blog/how-to-use-grok</id>
     <link href="https://tryiro.com/blog/how-to-use-grok"/>
-    <updated>2026-06-22T00:00:00Z</updated>
+    <updated>2026-08-18T00:00:00Z</updated>
     <published>2026-06-22T00:00:00Z</published>
     <author><name>Iro AI</name></author>
     <category term="AI tools"/>
-    <summary>Grok is xAI's assistant built into X, known for real-time information and a casual tone. Here's how to start using it, what it's best at, and how to get better answers.</summary>
+    <summary>Grok is SpaceXAI's assistant built into X, known for real-time information and a casual tone. Here's how to start using it, what it's best at, and how to get better answers.</summary>
   </entry>
   <entry>
     <title>How to use DeepSeek: a beginner’s guide</title>
@@ -644,7 +644,7 @@
     <title>New AI models in 2026: every major release, tracked</title>
     <id>https://tryiro.com/blog/new-ai-models-2026</id>
     <link href="https://tryiro.com/blog/new-ai-models-2026"/>
-    <updated>2026-07-29T00:00:00Z</updated>
+    <updated>2026-08-18T00:00:00Z</updated>
     <published>2026-07-26T00:00:00Z</published>
     <author><name>Iro AI</name></author>
     <category term="AI tools"/>
@@ -671,10 +671,10 @@
     <summary>OpenAI shipped three models instead of one. Sol costs five times what Luna does — here's how to tell which tier your work actually needs.</summary>
   </entry>
   <entry>
-    <title>Grok 4.5: xAI's coding model, reviewed honestly</title>
+    <title>Grok 4.5: SpaceXAI's coding model, reviewed honestly</title>
     <id>https://tryiro.com/blog/grok-4-5</id>
     <link href="https://tryiro.com/blog/grok-4-5"/>
-    <updated>2026-07-26T00:00:00Z</updated>
+    <updated>2026-08-18T00:00:00Z</updated>
     <published>2026-07-26T00:00:00Z</published>
     <author><name>Iro AI</name></author>
     <category term="AI tools"/>

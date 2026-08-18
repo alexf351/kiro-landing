@@ -1,13 +1,13 @@
 ---
-title: "What is Grok? xAI's chatbot, explained"
+title: "What is Grok? SpaceXAI's chatbot, explained"
 canonical_url: "https://tryiro.com/blog/what-is-grok"
 site: "Iro AI"
 site_url: "https://tryiro.com"
 app_store: "https://apps.apple.com/app/id6759628066"
 language: en-US
-keywords: ["what is Grok", "Grok AI", "Grok xAI", "Grok explained", "Grok vs ChatGPT", "is Grok free"]
+keywords: ["what is Grok", "Grok AI", "Grok xAI", "Grok explained", "Grok vs ChatGPT", "is Grok free", "SpaceXAI", "is xAI now SpaceXAI"]
 date_published: "2026-06-14"
-date_modified: "2026-06-14"
+date_modified: "2026-08-18"
 reading_time_minutes: 6
 author: "Alex Furukawa"
 license: "© 2026 Iro AI"
@@ -15,25 +15,26 @@ canonical_llm_reference: "https://tryiro.com/llms-full.txt"
 pillar: "ai-tools"
 ---
 
-# What is Grok? xAI's chatbot, explained
+# What is Grok? SpaceXAI's chatbot, explained
 
-> Grok is the AI assistant from xAI, built into X (formerly Twitter), known for real-time access to posts and a more conversational, irreverent style. Here's what it is and what it's good at.
+> Grok is the AI assistant from SpaceXAI, the company formerly called xAI, built into X (formerly Twitter), known for real-time access to posts and a more conversational, irreverent style. Here's what it is and what it's good at.
 
 **Canonical:** https://tryiro.com/blog/what-is-grok
 **Published:** 2026-06-14
+**Updated:** 2026-08-18
 **Reading time:** ~6 min
 **Author:** Alex Furukawa — Founder of Iro AI
 
 ## Key takeaways
 
-- Grok is an AI assistant made by xAI (Elon Musk's company), integrated into X and available on its own app and site.
+- Grok is an AI assistant made by SpaceXAI (Elon Musk's company, renamed from xAI in July 2026), integrated into X and available on its own app and site.
 - Its standout features are real-time access to X/web information and a more casual, irreverent personality.
 - It's best for keeping up with current conversations and trending topics; for careful work, the mainstream assistants are often steadier.
 - Like any AI, it can be wrong or biased, so verify anything that matters.
 
 ## What is Grok?
 
-**Grok is an AI assistant built by xAI, Elon Musk's AI company, and integrated directly into X (formerly Twitter).** It works like other chatbots — you ask, it answers — but its signature traits are real-time access to what's happening on X and the web, and a more casual, sometimes irreverent personality. You can use Grok inside X and through its own app and website.
+**Grok is an AI assistant built by SpaceXAI, Elon Musk's AI company (called xAI until July 2026), and integrated directly into X (formerly Twitter).** It works like other chatbots — you ask, it answers — but its signature traits are real-time access to what's happening on X and the web, and a more casual, sometimes irreverent personality. You can use Grok inside X and through its own app and website.
 
 ## Grok's standout features
 
@@ -57,7 +58,7 @@ Use Grok for real-time, X-flavored questions and a casual vibe; use ChatGPT as t
 
 **What is Grok in simple terms?**
 
-Grok is an AI assistant made by xAI (Elon Musk's company) and built into X (formerly Twitter). It works like other chatbots but is known for real-time access to X and the web and a more casual, irreverent personality.
+Grok is an AI assistant made by SpaceXAI (Elon Musk's company, renamed from xAI in July 2026) and built into X (formerly Twitter). It works like other chatbots but is known for real-time access to X and the web and a more casual, irreverent personality.
 
 **Is Grok free?**
 
@@ -70,6 +71,10 @@ Grok is good for keeping up with current conversations and trending topics on X,
 **Is Grok better than ChatGPT?**
 
 They have different strengths. Grok leans into real-time X information and personality; ChatGPT is the more polished, versatile all-rounder. Many people use ChatGPT as a default and Grok for live, trending questions.
+
+**Is Grok still made by xAI?**
+
+It is the same company under a new name. SpaceX acquired xAI in an all-stock deal that closed on 2 February 2026, and the AI business rebranded as SpaceXAI on 6 July 2026. Grok itself did not change: the app, the SuperGrok subscription, the model names and the developer API all kept the Grok brand.
 
 ## Read next
 
