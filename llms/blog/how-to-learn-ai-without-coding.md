@@ -17,7 +17,7 @@ pillar: "ai-fluency"
 
 # How to learn AI without coding (a no-code path for 2026)
 
-> You do not need to code to learn AI. Using AI tools well is a language-and-judgment skill, not a programming one. Here is the no-code path — what to learn, in what order, and how to practice it in a few minutes a day.
+> You do not need to code to learn AI. Using AI tools well is a language-and-judgment skill, not a programming one. Here is the no-code path: what to learn, in what order, and how to practice it in a few minutes a day.
 
 **Canonical:** https://tryiro.com/blog/how-to-learn-ai-without-coding
 **Published:** 2026-06-04
@@ -28,15 +28,15 @@ pillar: "ai-fluency"
 ## Key takeaways
 
 - You don't need to code to learn AI. Using tools like ChatGPT, Claude, and Gemini is a language-and-judgment skill, not a programming one.
-- Coding only matters if you want to build or fine-tune AI models — a separate, far more technical path most people never need.
+- Coding only matters if you want to build or fine-tune AI models: a separate, far more technical path most people never need.
 - The no-code path is: pick one tool, learn to prompt, practice daily, add tools, and build judgment about when to trust the output.
 - With about five minutes of active practice a day, most non-technical people become genuinely useful with AI in two to three weeks.
 
 ## Can you learn AI without coding?
 
-**Yes — you can learn AI without writing a single line of code, and for most people that is exactly the right goal.** The thing nearly everyone means by "learning AI" is learning to _use_ AI tools like ChatGPT, Claude, Gemini, and Perplexity to get real work done. That is a language-and-judgment skill: you describe what you want clearly, evaluate what comes back, and refine. None of it requires programming.
+**Yes, you can learn AI without writing a single line of code, and for most people that is exactly the right goal.** The thing nearly everyone means by "learning AI" is learning to _use_ AI tools like ChatGPT, Claude, Gemini, and Perplexity to get real work done. That is a language-and-judgment skill: you describe what you want clearly, evaluate what comes back, and refine. None of it requires programming.
 
-Coding enters the picture only if you want to _build_ AI — train models, fine-tune them, or wire them into software. That is a separate, far more technical path that the vast majority of people never need to take to get enormous value from AI.
+Coding enters the picture only if you want to _build_ AI: train models, fine-tune them, or wire them into software. That is a separate, far more technical path that the vast majority of people never need to take to get enormous value from AI.
 
 ## Using AI vs. building AI: pick the right path
 
@@ -61,22 +61,22 @@ Five steps, no terminal required:
 
 All of these work in a browser or app with zero setup:
 
-- **ChatGPT** — the most versatile all-rounder and the best first tool.
-- **Claude** — excellent for long-form writing, careful reasoning, and working through documents.
-- **Gemini** — handy if your work lives in Google Docs, Gmail, and Sheets.
-- **Perplexity** — an answer engine that returns sources, which makes fact-checking easy.
+- **ChatGPT**: the most versatile all-rounder and the best first tool.
+- **Claude**: excellent for long-form writing, careful reasoning, and working through documents.
+- **Gemini**: handy if your work lives in Google Docs, Gmail, and Sheets.
+- **Perplexity**: an answer engine that returns sources, which makes fact-checking easy.
 
 You do not need all four on day one. Get comfortable with one, then add the others as specific needs come up. A side-by-side is in our [AI tools comparison](/ai-tools-comparison).
 
 ## The skills that matter (and none need code)
 
-Learning AI without coding still means learning real skills — just human ones:
+Learning AI without coding still means learning real skills, just human ones:
 
-- **Prompting** — turning a vague need into clear instructions the model can follow.
-- **Judgment** — telling a good answer from a confident wrong one.
-- **Tool choice** — knowing which tool fits which task.
-- **Verification** — checking facts, numbers, and sources before you rely on them.
-- **Workflow** — folding AI into how you already work so it saves real time.
+- **Prompting**: turning a vague need into clear instructions the model can follow.
+- **Judgment**: telling a good answer from a confident wrong one.
+- **Tool choice**: knowing which tool fits which task.
+- **Verification**: checking facts, numbers, and sources before you rely on them.
+- **Workflow**: folding AI into how you already work so it saves real time.
 
 This bundle is what we call [AI fluency](/blog/what-is-ai-fluency), and it is entirely learnable by non-technical people.
 
@@ -94,7 +94,7 @@ This bundle is what we call [AI fluency](/blog/what-is-ai-fluency), and it is en
 
 **Can I learn AI without knowing how to code?**
 
-Yes. Learning to use AI tools like ChatGPT, Claude, Gemini, and Perplexity requires no coding at all — it is a language-and-judgment skill. Coding is only needed if you want to build or fine-tune AI models yourself, which most people never need to do.
+Yes. Learning to use AI tools like ChatGPT, Claude, Gemini, and Perplexity requires no coding at all. It is a language-and-judgment skill. Coding is only needed if you want to build or fine-tune AI models yourself, which most people never need to do.
 
 **Do I need to know math to learn AI?**
 
@@ -110,7 +110,7 @@ Pick one tool, learn to prompt, and practice on real tasks a few minutes a day. 
 
 **How does my AI skill compare to the average person?**
 
-Probably closer than you fear. In our early data the average score on a basic AI literacy test was about 5/10 — most people are still learning, no coding required. Here is the path to becoming AI fluent from a non-technical start.
+Probably closer than you fear. In our early data the average score on a basic AI literacy test was about 5/10. Most people are still learning, no coding required. Here is the path to becoming AI fluent from a non-technical start.
 
 ## Read next
 

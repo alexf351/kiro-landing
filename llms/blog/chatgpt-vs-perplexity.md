@@ -17,7 +17,7 @@ pillar: "ai-tools"
 
 # ChatGPT vs Perplexity: which should you use in 2026?
 
-> ChatGPT is a versatile assistant for creating and doing; Perplexity is an answer engine for research with citations. They're built for different jobs — and many people use both. Here's how to choose.
+> ChatGPT is a versatile assistant for creating and doing; Perplexity is an answer engine for research with citations. They're built for different jobs, and many people use both. Here's how to choose.
 
 **Canonical:** https://tryiro.com/blog/chatgpt-vs-perplexity
 **Published:** 2026-06-09
@@ -29,12 +29,12 @@ pillar: "ai-tools"
 
 - ChatGPT is a versatile assistant best for creating, drafting, and general tasks; Perplexity is an answer engine best for research with verifiable citations.
 - Perplexity searches the live web and shows sources by default; ChatGPT is stronger for open-ended creation and reasoning.
-- They're complementary — many people use Perplexity to research and ChatGPT to write or build.
+- They're complementary: many people use Perplexity to research and ChatGPT to write or build.
 - Whatever you use, verifying important claims and prompting well matter more than the tool.
 
 ## ChatGPT vs Perplexity: the short answer
 
-**Use ChatGPT to create and do; use Perplexity to research and verify.** ChatGPT is a versatile assistant — great for writing, brainstorming, coding, and open-ended tasks. Perplexity is an answer engine — it searches the live web and returns answers with inline citations, which makes it the easiest to fact-check. They're built for different jobs, and plenty of people use both: Perplexity to gather sourced facts, ChatGPT to turn them into something.
+**Use ChatGPT to create and do; use Perplexity to research and verify.** ChatGPT is a versatile assistant: great for writing, brainstorming, coding, and open-ended tasks. Perplexity is an answer engine. It searches the live web and returns answers with inline citations, which makes it the easiest to fact-check. They're built for different jobs, and plenty of people use both: Perplexity to gather sourced facts, ChatGPT to turn them into something.
 
 ## ChatGPT vs Perplexity, side by side
 
@@ -44,9 +44,9 @@ pillar: "ai-tools"
 
 ChatGPT is the better tool when you're _making_ something:
 
-- **Creating** — drafts, outlines, ideas, code.
-- **Open-ended reasoning** — thinking through a problem with you.
-- **Breadth** — voice, image generation, and custom GPTs in one place.
+- **Creating**: drafts, outlines, ideas, code.
+- **Open-ended reasoning**: thinking through a problem with you.
+- **Breadth**: voice, image generation, and custom GPTs in one place.
 
 It's the safest default if you want one assistant for everything. Learn it at [learn ChatGPT](/learn-chatgpt).
 
@@ -54,9 +54,9 @@ It's the safest default if you want one assistant for everything. Learn it at [l
 
 Perplexity is the better tool when you need _trustworthy answers_:
 
-- **Research** — it searches the live web and cites its sources so you can verify.
-- **Fact-checking** — inline citations make it easy to confirm claims.
-- **Recency** — it's built around up-to-date web results.
+- **Research**: it searches the live web and cites its sources so you can verify.
+- **Fact-checking**: inline citations make it easy to confirm claims.
+- **Recency**: it's built around up-to-date web results.
 
 For grounded, source-first answers, Perplexity is hard to beat. Learn it at [learn Perplexity](/learn-perplexity).
 
@@ -86,7 +86,7 @@ ChatGPT is a versatile AI assistant for creating and doing. Perplexity is an ans
 
 **Is Perplexity good for research?**
 
-Yes — research is its core strength. It searches current web sources and shows citations by default, so you can verify answers, which makes it especially useful for fact-finding.
+Yes, research is its core strength. It searches current web sources and shows citations by default, so you can verify answers, which makes it especially useful for fact-finding.
 
 **Should I use ChatGPT or Perplexity for school or work research?**
 
@@ -94,7 +94,7 @@ Use Perplexity to gather sourced facts you can cite, then ChatGPT to organize, w
 
 **How do I learn when to use ChatGPT versus Perplexity?**
 
-Use each for the jobs it is built for — ChatGPT for generation, Perplexity for sourced research — and the right instinct comes with reps. Knowing which tool to reach for is core to AI fluency, and you can build it in about 5 minutes a day.
+Use each for the jobs it is built for (ChatGPT for generation, Perplexity for sourced research), and the right instinct comes with reps. Knowing which tool to reach for is core to AI fluency, and you can build it in about 5 minutes a day.
 
 ## Read next
 

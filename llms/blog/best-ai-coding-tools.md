@@ -17,7 +17,7 @@ pillar: "ai-tools"
 
 # The best AI coding tools in 2026
 
-> AI now writes, explains, and debugs code alongside you. Here are the best AI coding tools in 2026 — what each is best at, and how to actually get good with them.
+> AI now writes, explains, and debugs code alongside you. Here are the best AI coding tools in 2026: what each is best at, and how to actually get good with them.
 
 **Canonical:** https://tryiro.com/blog/best-ai-coding-tools
 **Published:** 2026-06-22
@@ -37,11 +37,11 @@ pillar: "ai-tools"
 
 ## The best AI coding tools, compared
 
-- **GitHub Copilot** — inline autocomplete and chat right in your editor; the default for many developers.
-- **Cursor** — an AI-first editor that's excellent at multi-file, in-context edits and agentic changes.
-- **Claude (and Claude Code)** — strong at reasoning, large refactors, and clear explanations; great for thinking through architecture. See [learning Claude](/learn-claude).
-- **ChatGPT** — a versatile all-rounder for generating, debugging, and explaining code. See [learning ChatGPT](/learn-chatgpt).
-- **Gemini** — capable and tightly integrated with Google's ecosystem. See [learning Gemini](/learn-gemini).
+- **GitHub Copilot**: inline autocomplete and chat right in your editor; the default for many developers.
+- **Cursor**: an AI-first editor that's excellent at multi-file, in-context edits and agentic changes.
+- **Claude (and Claude Code)**: strong at reasoning, large refactors, and clear explanations; great for thinking through architecture. See [learning Claude](/learn-claude).
+- **ChatGPT**: a versatile all-rounder for generating, debugging, and explaining code. See [learning ChatGPT](/learn-chatgpt).
+- **Gemini**: capable and tightly integrated with Google's ecosystem. See [learning Gemini](/learn-gemini).
 
 ## How to pick the right one
 

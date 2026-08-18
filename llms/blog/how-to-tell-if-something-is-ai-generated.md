@@ -43,17 +43,17 @@ No single sign is proof, but these patterns are common in AI writing:
 - **Confident factual slips:** plausible-sounding claims, names, or numbers that turn out wrong ([hallucinations](/blog/spot-ai-hallucinations)).
 - **Too-smooth structure:** perfectly balanced paragraphs and lists that say very little.
 - **Repetition:** the same idea restated in slightly different words.
-- **No real voice or lived detail** — no anecdotes, opinions, or specifics only a person would know.
+- **No real voice or lived detail:** no anecdotes, opinions, or specifics only a person would know.
 
 ## Tells that an image is AI-generated
 
-- **Hands, teeth, and ears** — extra fingers, melted details, odd symmetry.
-- **Garbled text** — signs and labels that look like letters but aren't words.
-- **Inconsistent lighting and reflections** — shadows that don't match the scene.
-- **Too-perfect or uncanny** — skin and backgrounds that look airbrushed and seamless.
-- **Background nonsense** — objects that blur into each other on close inspection.
+- **Hands, teeth, and ears:** extra fingers, melted details, odd symmetry.
+- **Garbled text:** signs and labels that look like letters but aren't words.
+- **Inconsistent lighting and reflections:** shadows that don't match the scene.
+- **Too-perfect or uncanny:** skin and backgrounds that look airbrushed and seamless.
+- **Background nonsense:** objects that blur into each other on close inspection.
 
-As models improve, these tells fade — which is exactly why verification beats visual inspection.
+As models improve, these tells fade, which is exactly why verification beats visual inspection.
 
 ## Why AI-detection tools aren't reliable
 
@@ -61,7 +61,7 @@ It's tempting to paste text into an "AI detector," but they have two big problem
 
 ## What actually works: verify, don't just detect
 
-The reliable habit is to stop asking "did an AI write this?" and start asking "is this true and trustworthy?" Check specific claims against reputable sources, look for citations, and be skeptical of confident statements with no support. A tool like [Perplexity](/learn-perplexity) makes source-checking fast. This is core [AI literacy](/blog/what-is-ai-literacy) — and it protects you whether the content is human or machine made. Test your instincts with the free [AI IQ test](/quiz).
+The reliable habit is to stop asking "did an AI write this?" and start asking "is this true and trustworthy?" Check specific claims against reputable sources, look for citations, and be skeptical of confident statements with no support. A tool like [Perplexity](/learn-perplexity) makes source-checking fast. This is core [AI literacy](/blog/what-is-ai-literacy), and it protects you whether the content is human or machine made. Test your instincts with the free [AI IQ test](/quiz).
 
 ## FAQ
 
@@ -79,7 +79,7 @@ Check hands, teeth, and ears for glitches, look for garbled text on signs, incon
 
 **What is the most reliable way to check AI content?**
 
-Verify the claims, not the authorship. Check specific facts against reputable sources, look for citations, and be skeptical of confident statements with no support — this works whether the content is human or AI made.
+Verify the claims, not the authorship. Check specific facts against reputable sources, look for citations, and be skeptical of confident statements with no support. This works whether the content is human or AI made.
 
 ## Read next
 

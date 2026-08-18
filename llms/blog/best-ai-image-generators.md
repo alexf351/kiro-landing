@@ -27,14 +27,14 @@ pillar: "ai-tools"
 
 ## Key takeaways
 
-- There's no single best AI image generator — match the tool to the job: Midjourney for quality, ChatGPT/DALL·E for ease, Adobe Firefly for commercial-safe use.
+- There's no single best AI image generator. Match the tool to the job: Midjourney for quality, ChatGPT/DALL·E for ease, Adobe Firefly for commercial-safe use.
 - Most can turn a text prompt into an image; the differences are style, control, ease, and licensing.
-- The biggest lever on your results is the prompt — describe subject, style, lighting, and composition clearly.
+- The biggest lever on your results is the prompt: describe subject, style, lighting, and composition clearly.
 - Check usage rights before using AI images commercially; they vary by tool.
 
 ## The best AI image generators
 
-**The best AI image generator depends on what you're making.** For the highest artistic quality, **Midjourney**. For the easiest start, **ChatGPT** (DALL·E) or **Gemini**. For commercial-safe images, **Adobe Firefly**. For maximum control and free local use, **Stable Diffusion**. They all turn a text prompt into an image — the differences are style, control, ease, and licensing.
+**The best AI image generator depends on what you're making.** For the highest artistic quality, **Midjourney**. For the easiest start, **ChatGPT** (DALL·E) or **Gemini**. For commercial-safe images, **Adobe Firefly**. For maximum control and free local use, **Stable Diffusion**. They all turn a text prompt into an image; the differences are style, control, ease, and licensing.
 
 ## AI image generators at a glance
 
@@ -42,16 +42,16 @@ pillar: "ai-tools"
 
 ## The tools, one by one
 
-- **Midjourney** — the go-to for striking, artistic images and fine style control.
-- **ChatGPT (DALL·E)** — the easiest entry point: describe an image in chat and get it, then refine conversationally.
-- **Gemini** — quick image generation with Google's multimodal models and a generous free tier.
-- **Adobe Firefly** — designed for commercial-safe output and built into Adobe's creative apps.
-- **Stable Diffusion** — open and highly controllable; can run free on your own hardware.
-- **Ideogram** — notably good at rendering readable text inside images.
+- **Midjourney**: the go-to for striking, artistic images and fine style control.
+- **ChatGPT (DALL·E)**: the easiest entry point. Describe an image in chat and get it, then refine conversationally.
+- **Gemini**: quick image generation with Google's multimodal models and a generous free tier.
+- **Adobe Firefly**: designed for commercial-safe output and built into Adobe's creative apps.
+- **Stable Diffusion**: open and highly controllable; can run free on your own hardware.
+- **Ideogram**: notably good at rendering readable text inside images.
 
 ## How to prompt an AI image generator
 
-The prompt is the biggest lever on your result. A useful structure: **subject + style + composition + lighting + details.** For example: `a cozy bookstore cafe, warm morning light, watercolor style, wide shot, soft shadows`. Then iterate — adjust one element at a time. This is the same prompting skill that powers every AI tool; see [how to write a good AI prompt](/blog/how-to-write-a-prompt).
+The prompt is the biggest lever on your result. A useful structure: **subject + style + composition + lighting + details.** For example: `a cozy bookstore cafe, warm morning light, watercolor style, wide shot, soft shadows`. Then iterate: adjust one element at a time. This is the same prompting skill that powers every AI tool; see [how to write a good AI prompt](/blog/how-to-write-a-prompt).
 
 ## Can you use AI images commercially?
 
@@ -69,7 +69,7 @@ Gemini and the free tiers of several tools let you generate images at no cost, a
 
 **How do I write a good AI image prompt?**
 
-Describe the subject, style, composition, lighting, and key details — for example 'a cozy bookstore cafe, warm morning light, watercolor style, wide shot.' Then iterate, adjusting one element at a time.
+Describe the subject, style, composition, lighting, and key details: for example 'a cozy bookstore cafe, warm morning light, watercolor style, wide shot.' Then iterate, adjusting one element at a time.
 
 **Can I use AI-generated images commercially?**
 
@@ -77,7 +77,7 @@ It varies by tool. Some, like Adobe Firefly, are designed for commercial use; ot
 
 **How do I get better at writing AI image prompts?**
 
-Practice deliberately — vary one element at a time (subject, style, lighting, composition) and learn what each does. Prompting is a learnable skill across text and image tools; you can build it in about 5 minutes a day on the way to broader AI fluency.
+Practice deliberately: vary one element at a time (subject, style, lighting, composition) and learn what each does. Prompting is a learnable skill across text and image tools; you can build it in about 5 minutes a day on the way to broader AI fluency.
 
 ## Read next
 

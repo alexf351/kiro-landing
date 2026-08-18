@@ -17,7 +17,7 @@ pillar: "ai-fluency"
 
 # The 7 AI skills worth learning in 2026
 
-> The most valuable AI skill in 2026 isn't any single tool — it's the ability to direct, judge, and apply AI to real work. Here are the seven skills that matter most, why they're durable, and how to build each one.
+> The most valuable AI skill in 2026 isn't any single tool; it's the ability to direct, judge, and apply AI to real work. Here are the seven skills that matter most, why they're durable, and how to build each one.
 
 **Canonical:** https://tryiro.com/blog/ai-skills-for-2026
 **Published:** 2026-06-04
@@ -29,12 +29,12 @@ pillar: "ai-fluency"
 
 - The most valuable AI skill in 2026 is directing and judging AI tools, not knowing how the models work or memorizing any single app.
 - The seven skills that matter: prompting, tool choice, output judgment, verification, workflow design, working with AI agents, and continuous learning.
-- None of these require coding — they're communication-and-judgment skills any professional can build.
+- None of these require coding. They're communication-and-judgment skills any professional can build.
 - They're durable because better models reward people who can aim them; the skill of learning new tools outlasts any one tool.
 
 ## What are the most important AI skills in 2026?
 
-**The most important AI skill in 2026 isn't mastering one app — it's the ability to direct, judge, and apply AI tools to get reliably better results.** The gap is no longer between people who have AI and people who don't; nearly everyone has access. The gap is between people who can aim these tools and people who type a vague question and accept whatever comes back.
+**The most important AI skill in 2026 isn't mastering one app; it's the ability to direct, judge, and apply AI tools to get reliably better results.** The gap is no longer between people who have AI and people who don't; nearly everyone has access. The gap is between people who can aim these tools and people who type a vague question and accept whatever comes back.
 
 Below are the seven skills that make the difference. None of them require coding, and together they add up to [AI fluency](/blog/what-is-ai-fluency).
 
