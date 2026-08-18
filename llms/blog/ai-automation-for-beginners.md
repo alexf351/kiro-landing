@@ -17,7 +17,7 @@ pillar: "ai-agents"
 
 # AI automation for beginners: 5 things to automate this week
 
-> No code, no agents — just five repetitive tasks you can hand to AI starting today.
+> No code, no agents: just five repetitive tasks you can hand to AI starting today.
 
 **Canonical:** https://tryiro.com/blog/ai-automation-for-beginners
 **Published:** 2026-05-31
@@ -29,12 +29,12 @@ pillar: "ai-agents"
 
 - AI automation chains AI steps into a workflow that runs with little or no human input, turning a 30-minute task into a one-click one.
 - Start by automating boring, repeatable work: email drafting, summarizing, data cleanup, and report generation.
-- You do not need to code — tools like ChatGPT, Zapier, and Make let beginners build useful automations in an afternoon.
+- You do not need to code: tools like ChatGPT, Zapier, and Make let beginners build useful automations in an afternoon.
 - The highest-ROI first automation is usually the task you do most often and dislike most.
 
 ## What "AI automation" actually means
 
-Automation does not have to mean building software. For most people it means handing a repetitive, rule-ish task to AI so you stop doing it by hand. No agents, no scripts to start — just a clear prompt you reuse, or a built-in AI feature in a tool you already have.
+Automation does not have to mean building software. For most people it means handing a repetitive, rule-ish task to AI so you stop doing it by hand. No agents, no scripts to start: just a clear prompt you reuse, or a built-in AI feature in a tool you already have.
 
 The skill is noticing which tasks repeat. Here are five worth automating this week.
 
@@ -44,7 +44,7 @@ Paste a long email or thread and ask AI to summarise it, flag what needs a decis
 
 ## 2. Research summaries
 
-Instead of reading five articles, drop the links or text into a grounded tool and ask for a one-paragraph summary with the key claims and any disagreements. Use [Perplexity](/learn-perplexity) when you need sources you can click — and always [verify the facts](/blog/spot-ai-hallucinations) before you rely on them.
+Instead of reading five articles, drop the links or text into a grounded tool and ask for a one-paragraph summary with the key claims and any disagreements. Use [Perplexity](/learn-perplexity) when you need sources you can click, and always [verify the facts](/blog/spot-ai-hallucinations) before you rely on them.
 
 ## 3. Data cleanup and formatting
 
@@ -60,7 +60,7 @@ Paste a transcript and ask for a summary, the decisions made, and a list of acti
 
 ## Agent or workflow? (don't overcomplicate)
 
-You will be tempted to reach for an "AI agent" for all of this. Usually you should not. If a task follows a fixed recipe — and all five above do — a simple, reusable prompt or workflow is more reliable than an agent that decides its own steps. Agents earn their complexity only when the path cannot be predicted in advance. We unpack exactly when in [AI agents, explained without the jargon](/blog/ai-agents-explained).
+You will be tempted to reach for an "AI agent" for all of this. Usually you should not. If a task follows a fixed recipe (and all five above do), a simple, reusable prompt or workflow is more reliable than an agent that decides its own steps. Agents earn their complexity only when the path cannot be predicted in advance. We unpack exactly when in [AI agents, explained without the jargon](/blog/ai-agents-explained).
 
 Want to build the judgment for this hands-on? Iro AI's [automation](/ai-automation-course) and [AI agents](/ai-agents-course) paths turn these decisions into 5-minute exercises.
 

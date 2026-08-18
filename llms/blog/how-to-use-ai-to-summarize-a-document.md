@@ -47,7 +47,7 @@ Tell the AI why you want the summary, because an executive summary, an action li
 
 Formatting isn't decoration; it forces the model to organize its thinking. Ask for bullets, a table, or a "TL;DR plus the detail underneath." A table of "clause / what it means for me" beats a wall of prose every time, and a TL;DR-first layout lets you decide in one line whether you need to read the rest.
 
-Ask the AI to quote or cite where each point comes from: "For each bullet, quote the sentence or name the section it's based on." This does two things — it keeps the model anchored to what the document actually says instead of drifting into generic filler, and it gives you a fast way to verify any claim by jumping straight to the source line.
+Ask the AI to quote or cite where each point comes from: "For each bullet, quote the sentence or name the section it's based on." This does two things: it keeps the model anchored to what the document actually says instead of drifting into generic filler, and it gives you a fast way to verify any claim by jumping straight to the source line.
 
 Finish with a prompt most people skip: _"What did you leave out of this summary, and is there anything in the document you're unsure about or that seems to contradict itself?"_ A summary is lossy by design, so make the model tell you what it dropped. This surfaces the buried caveat or the exception you would otherwise never see.
 
@@ -69,7 +69,7 @@ That skill is exactly what [Iro AI](/) drills. Instead of reading about promptin
 
 **Can AI summarize a PDF?**
 
-Yes. Most current AI tools can read a PDF you upload and summarize it — ChatGPT, Claude, and Perplexity all accept PDF uploads, and tools like Perplexity can also pull from a linked file or source. The trick is to ask for a specific summary shape, such as five bullets plus the key decisions, rather than just "summarize this." Then spot-check the result against the pages that matter.
+Yes. Most current AI tools can read a PDF you upload and summarize it: ChatGPT, Claude, and Perplexity all accept PDF uploads, and tools like Perplexity can also pull from a linked file or source. The trick is to ask for a specific summary shape, such as five bullets plus the key decisions, rather than just "summarize this." Then spot-check the result against the pages that matter.
 
 **What's the best AI to summarize documents?**
 
@@ -77,15 +77,15 @@ There is no single best, but models with large context windows handle long files
 
 **How do I summarize a very long document with AI?**
 
-Split it up. If a document is too long to fit or the summary feels shallow, summarize it section by section — chapter by chapter, or every 10 to 15 pages — then paste those partial summaries back in and ask the AI to combine them into one. This keeps the model focused and makes it far less likely to skip a section or lose detail in the middle of a long file.
+Split it up. If a document is too long to fit or the summary feels shallow, summarize it section by section (chapter by chapter, or every 10 to 15 pages), then paste those partial summaries back in and ask the AI to combine them into one. This keeps the model focused and makes it far less likely to skip a section or lose detail in the middle of a long file.
 
 **Is it safe to upload confidential documents to AI?**
 
-Be careful. Check the tool's data policy and settings before uploading anything sensitive — some plans may use your inputs to train models unless you opt out, while enterprise tiers usually do not. When in doubt, remove names and identifying details, or paste only the anonymized excerpt you actually need summarized rather than the whole file.
+Be careful. Check the tool's data policy and settings before uploading anything sensitive: some plans may use your inputs to train models unless you opt out, while enterprise tiers usually do not. When in doubt, remove names and identifying details, or paste only the anonymized excerpt you actually need summarized rather than the whole file.
 
 **Can I trust an AI summary?**
 
-Trust it, then verify. AI summaries are usually accurate on the big picture but can miss a key clause, drop a caveat, or invent a specific number. Always spot-check the summary against the parts of the document that carry real consequences — figures, dates, and obligations — before you act on it or forward it to anyone.
+Trust it, then verify. AI summaries are usually accurate on the big picture but can miss a key clause, drop a caveat, or invent a specific number. Always spot-check the summary against the parts of the document that carry real consequences (figures, dates, and obligations) before you act on it or forward it to anyone.
 
 ## Read next
 

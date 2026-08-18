@@ -45,7 +45,7 @@ The confusion comes from the word "learn." Both promise to teach you AI, but the
 
 A bootcamp is not a scam, and it's a real fit for a specific person. If you're making a genuine career pivot (moving into a machine-learning, data-engineering, or AI-developer role), you need to build things a hiring manager can see: real projects, a portfolio, and enough depth to pass a technical interview. A structured, full-time program with instructors and deadlines is a legitimate way to get there fast.
 
-Three conditions make a bootcamp the right call. First, **your goal is a technical job**, not just using AI better in your current one. Second, **you need external structure** — a cohort, live accountability, and a schedule someone else sets, because self-paced learning quietly stalls for you. Third, **you can afford both the money and the time**: several thousand dollars and weeks of near-full-time focus is a serious commitment, and doing it half-heartedly wastes the biggest advantage a bootcamp has. If all three are true, the price can absolutely pay for itself. Just go in knowing that no bootcamp guarantees a job, so the ROI depends on you finishing and shipping work.
+Three conditions make a bootcamp the right call. First, **your goal is a technical job**, not just using AI better in your current one. Second, **you need external structure**: a cohort, live accountability, and a schedule someone else sets, because self-paced learning quietly stalls for you. Third, **you can afford both the money and the time**: several thousand dollars and weeks of near-full-time focus is a serious commitment, and doing it half-heartedly wastes the biggest advantage a bootcamp has. If all three are true, the price can absolutely pay for itself. Just go in knowing that no bootcamp guarantees a job, so the ROI depends on you finishing and shipping work.
 
 ## When an app wins
 
@@ -63,7 +63,7 @@ The honest test is simple: will you sit through weeks of full-time coursework to
 
 **Are AI bootcamps worth it?**
 
-It depends on your goal. An AI bootcamp is worth it if you're making a genuine career pivot into a technical role like machine learning or data engineering, you need structure and a cohort to stay accountable, and you can afford both the money — often several thousand dollars — and the weeks or months of near-full-time study. If you mainly want to use AI tools well in the job you already have, a bootcamp is usually overkill: a self-paced app builds that fluency for a tiny fraction of the cost.
+It depends on your goal. An AI bootcamp is worth it if you're making a genuine career pivot into a technical role like machine learning or data engineering, you need structure and a cohort to stay accountable, and you can afford both the money (often several thousand dollars) and the weeks or months of near-full-time study. If you mainly want to use AI tools well in the job you already have, a bootcamp is usually overkill: a self-paced app builds that fluency for a tiny fraction of the cost.
 
 **How much does an AI bootcamp cost?**
 
@@ -71,7 +71,7 @@ Most AI and machine-learning bootcamps cost several thousand dollars, and many r
 
 **Can I learn AI without a bootcamp?**
 
-Yes. Most people who want to use AI well — writing good prompts, picking the right tool, building everyday workflows — can learn it without a bootcamp at all. A daily-practice app teaches those skills in about five minutes a day, and free tools plus real projects fill in the rest. A bootcamp only becomes necessary when you're targeting a technical career that expects a portfolio and a credential. See how to learn AI for a step-by-step path.
+Yes. Most people who want to use AI well (writing good prompts, picking the right tool, building everyday workflows) can learn it without a bootcamp at all. A daily-practice app teaches those skills in about five minutes a day, and free tools plus real projects fill in the rest. A bootcamp only becomes necessary when you're targeting a technical career that expects a portfolio and a credential. See how to learn AI for a step-by-step path.
 
 **Is an app or a bootcamp better for beginners?**
 

@@ -69,7 +69,7 @@
     {
       "id": "ai",
       "heading": "What is artificial intelligence?",
-      "html": "<p><strong>AI</strong> is the umbrella term for any technique that lets machines do things we'd call intelligent — understanding language, recognizing images, making decisions. It's a goal, not a single method. Early AI used hand-written rules; modern AI mostly learns from data, which is where machine learning comes in.</p>"
+      "html": "<p><strong>AI</strong> is the umbrella term for any technique that lets machines do things we'd call intelligent: understanding language, recognizing images, making decisions. It's a goal, not a single method. Early AI used hand-written rules; modern AI mostly learns from data, which is where machine learning comes in.</p>"
     },
     {
       "id": "ml",
@@ -79,12 +79,12 @@
     {
       "id": "dl",
       "heading": "What is deep learning?",
-      "html": "<p><strong>Deep learning</strong> is a powerful type of machine learning that uses neural networks with many layers, loosely inspired by the brain. It excels at messy, high-dimensional data like images, audio, and language. It's what made the recent leap in AI possible — <a href=\"/blog/what-is-an-llm\">large language models</a> like the one behind ChatGPT are deep-learning systems trained on enormous amounts of text.</p>"
+      "html": "<p><strong>Deep learning</strong> is a powerful type of machine learning that uses neural networks with many layers, loosely inspired by the brain. It excels at messy, high-dimensional data like images, audio, and language. It's what made the recent leap in AI possible: <a href=\"/blog/what-is-an-llm\">large language models</a> like the one behind ChatGPT are deep-learning systems trained on enormous amounts of text.</p>"
     },
     {
       "id": "matters",
       "heading": "Why the distinction matters (a little)",
-      "html": "<p>You don't need these definitions to <em>use</em> AI well — but knowing that today's tools learn from data (and therefore reflect that data's gaps and biases, and can be confidently wrong) makes you a smarter user. That's the heart of <a href=\"/blog/what-is-ai-literacy\">AI literacy</a>. If your goal is to use AI day to day rather than build it, focus on <a href=\"/blog/what-is-ai-fluency\">AI fluency</a> — and check where you stand with the free <a href=\"/quiz\">AI IQ test</a>.</p>"
+      "html": "<p>You don't need these definitions to <em>use</em> AI well, but knowing that today's tools learn from data (and therefore reflect that data's gaps and biases, and can be confidently wrong) makes you a smarter user. That's the heart of <a href=\"/blog/what-is-ai-literacy\">AI literacy</a>. If your goal is to use AI day to day rather than build it, focus on <a href=\"/blog/what-is-ai-fluency\">AI fluency</a>, and check where you stand with the free <a href=\"/quiz\">AI IQ test</a>.</p>"
     }
   ],
   "readNext": [
@@ -108,7 +108,7 @@
   "faq": [
     {
       "q": "What is the difference between AI and machine learning?",
-      "a": "AI is the broad field of making machines do intelligent things. Machine learning is the main method for building AI — systems that learn patterns from data instead of being programmed with explicit rules. All machine learning is AI, but not all AI is machine learning."
+      "a": "AI is the broad field of making machines do intelligent things. Machine learning is the main method for building AI: systems that learn patterns from data instead of being programmed with explicit rules. All machine learning is AI, but not all AI is machine learning."
     },
     {
       "q": "Is deep learning the same as machine learning?",
@@ -124,7 +124,7 @@
     },
     {
       "q": "Do I need to learn machine learning to get good at using AI?",
-      "a": "No. Knowing the difference is useful context, but using AI well is a separate, more practical skill — <a href=\"/become-ai-fluent\">AI fluency</a> — that anyone can build in <a href=\"/learn-ai-in-5-minutes-a-day\">about 5 minutes a day</a>, no math or ML background required."
+      "a": "No. Knowing the difference is useful context, but using AI well is a separate, more practical skill (<a href=\"/become-ai-fluent\">AI fluency</a>) that anyone can build in <a href=\"/learn-ai-in-5-minutes-a-day\">about 5 minutes a day</a>, no math or ML background required."
     }
   ],
   "related": [

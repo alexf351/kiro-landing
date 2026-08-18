@@ -11,7 +11,7 @@
     "A bootcamp is genuinely worth it for some people: a real pivot into machine learning or data engineering, where you need structure, a cohort, and can afford the time and money.",
     "For most people who just want to use AI well, an app plus real practice gets you there for a fraction of the cost, and it actually fits a real schedule."
   ],
-  "description": "AI learning app vs AI bootcamp in 2026 — an honest comparison of cost, time, and outcomes, and how to tell which one actually fits your goal.",
+  "description": "AI learning app vs AI bootcamp in 2026: an honest comparison of cost, time, and outcomes, and how to tell which one actually fits your goal.",
   "keywords": [
     "AI app vs AI bootcamp",
     "are AI bootcamps worth it",
@@ -55,12 +55,12 @@
     {
       "id": "at-a-glance",
       "heading": "At a glance",
-      "html": "<div class=\"cmp-wrap\"><table class=\"cmp-table\"><thead><tr><th></th><th>AI bootcamp</th><th>AI learning app</th></tr></thead><tbody><tr><th>Cost</th><td>Often thousands of dollars; many run roughly $5,000–$20,000+</td><td>A few dollars a week; Iro is free to start, Pro is $49.99 a year (about $4.17 a month)</td></tr><tr><th>Time commitment</th><td>Weeks to months, frequently full-time or heavy part-time</td><td>About 5 minutes a day, on your own schedule</td></tr><tr><th>Best for</th><td>Career changers targeting a technical AI/ML or data role</td><td>Anyone who wants to use AI tools well in their current work or life</td></tr><tr><th>Teaching style</th><td>Live cohort, instructors, projects, deadlines</td><td>Short, gamified practice with instant feedback</td></tr><tr><th>Outcome</th><td>Portfolio, a credential, sometimes career-services support</td><td>Durable fluency and a habit with tools like ChatGPT</td></tr><tr><th>Risk</th><td>High cost and time; no guaranteed job at the end</td><td>Low cost, low risk — the main risk is not showing up daily</td></tr></tbody></table></div>\n<p class=\"note\">Bootcamp figures are general ranges from publicly available programs and vary widely by provider, length, and format. Always check current terms before enrolling in anything, including our own Pro plan.</p>"
+      "html": "<div class=\"cmp-wrap\"><table class=\"cmp-table\"><thead><tr><th></th><th>AI bootcamp</th><th>AI learning app</th></tr></thead><tbody><tr><th>Cost</th><td>Often thousands of dollars; many run roughly $5,000–$20,000+</td><td>A few dollars a week; Iro is free to start, Pro is $49.99 a year (about $4.17 a month)</td></tr><tr><th>Time commitment</th><td>Weeks to months, frequently full-time or heavy part-time</td><td>About 5 minutes a day, on your own schedule</td></tr><tr><th>Best for</th><td>Career changers targeting a technical AI/ML or data role</td><td>Anyone who wants to use AI tools well in their current work or life</td></tr><tr><th>Teaching style</th><td>Live cohort, instructors, projects, deadlines</td><td>Short, gamified practice with instant feedback</td></tr><tr><th>Outcome</th><td>Portfolio, a credential, sometimes career-services support</td><td>Durable fluency and a habit with tools like ChatGPT</td></tr><tr><th>Risk</th><td>High cost and time; no guaranteed job at the end</td><td>Low cost, low risk: the main risk is not showing up daily</td></tr></tbody></table></div>\n<p class=\"note\">Bootcamp figures are general ranges from publicly available programs and vary widely by provider, length, and format. Always check current terms before enrolling in anything, including our own Pro plan.</p>"
     },
     {
       "id": "bootcamp",
       "heading": "When a bootcamp is worth it",
-      "html": "<p>A bootcamp is not a scam, and it's a real fit for a specific person. If you're making a genuine career pivot (moving into a machine-learning, data-engineering, or AI-developer role), you need to build things a hiring manager can see: real projects, a portfolio, and enough depth to pass a technical interview. A structured, full-time program with instructors and deadlines is a legitimate way to get there fast.</p>\n<p>Three conditions make a bootcamp the right call. First, <strong>your goal is a technical job</strong>, not just using AI better in your current one. Second, <strong>you need external structure</strong> — a cohort, live accountability, and a schedule someone else sets, because self-paced learning quietly stalls for you. Third, <strong>you can afford both the money and the time</strong>: several thousand dollars and weeks of near-full-time focus is a serious commitment, and doing it half-heartedly wastes the biggest advantage a bootcamp has. If all three are true, the price can absolutely pay for itself. Just go in knowing that no bootcamp guarantees a job, so the ROI depends on you finishing and shipping work.</p>"
+      "html": "<p>A bootcamp is not a scam, and it's a real fit for a specific person. If you're making a genuine career pivot (moving into a machine-learning, data-engineering, or AI-developer role), you need to build things a hiring manager can see: real projects, a portfolio, and enough depth to pass a technical interview. A structured, full-time program with instructors and deadlines is a legitimate way to get there fast.</p>\n<p>Three conditions make a bootcamp the right call. First, <strong>your goal is a technical job</strong>, not just using AI better in your current one. Second, <strong>you need external structure</strong>: a cohort, live accountability, and a schedule someone else sets, because self-paced learning quietly stalls for you. Third, <strong>you can afford both the money and the time</strong>: several thousand dollars and weeks of near-full-time focus is a serious commitment, and doing it half-heartedly wastes the biggest advantage a bootcamp has. If all three are true, the price can absolutely pay for itself. Just go in knowing that no bootcamp guarantees a job, so the ROI depends on you finishing and shipping work.</p>"
     },
     {
       "id": "app",
@@ -98,7 +98,7 @@
   "faq": [
     {
       "q": "Are AI bootcamps worth it?",
-      "a": "It depends on your goal. An AI bootcamp is worth it if you're making a genuine career pivot into a technical role like machine learning or data engineering, you need structure and a cohort to stay accountable, and you can afford both the money — often several thousand dollars — and the weeks or months of near-full-time study. If you mainly want to use AI tools well in the job you already have, a bootcamp is usually overkill: a <a href=\"/best-ai-learning-app\">self-paced app</a> builds that fluency for a tiny fraction of the cost."
+      "a": "It depends on your goal. An AI bootcamp is worth it if you're making a genuine career pivot into a technical role like machine learning or data engineering, you need structure and a cohort to stay accountable, and you can afford both the money (often several thousand dollars) and the weeks or months of near-full-time study. If you mainly want to use AI tools well in the job you already have, a bootcamp is usually overkill: a <a href=\"/best-ai-learning-app\">self-paced app</a> builds that fluency for a tiny fraction of the cost."
     },
     {
       "q": "How much does an AI bootcamp cost?",
@@ -106,7 +106,7 @@
     },
     {
       "q": "Can I learn AI without a bootcamp?",
-      "a": "Yes. Most people who want to use AI well — writing good prompts, picking the right tool, building everyday workflows — can learn it without a bootcamp at all. A daily-practice app teaches those skills in about five minutes a day, and free tools plus real projects fill in the rest. A bootcamp only becomes necessary when you're targeting a technical career that expects a portfolio and a credential. See <a href=\"/how-to-learn-ai\">how to learn AI</a> for a step-by-step path."
+      "a": "Yes. Most people who want to use AI well (writing good prompts, picking the right tool, building everyday workflows) can learn it without a bootcamp at all. A daily-practice app teaches those skills in about five minutes a day, and free tools plus real projects fill in the rest. A bootcamp only becomes necessary when you're targeting a technical career that expects a portfolio and a credential. See <a href=\"/how-to-learn-ai\">how to learn AI</a> for a step-by-step path."
     },
     {
       "q": "Is an app or a bootcamp better for beginners?",

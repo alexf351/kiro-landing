@@ -42,7 +42,7 @@ pillar: "ai-fluency"
 
 ## What is artificial intelligence?
 
-**AI** is the umbrella term for any technique that lets machines do things we'd call intelligent — understanding language, recognizing images, making decisions. It's a goal, not a single method. Early AI used hand-written rules; modern AI mostly learns from data, which is where machine learning comes in.
+**AI** is the umbrella term for any technique that lets machines do things we'd call intelligent: understanding language, recognizing images, making decisions. It's a goal, not a single method. Early AI used hand-written rules; modern AI mostly learns from data, which is where machine learning comes in.
 
 ## What is machine learning?
 
@@ -50,17 +50,17 @@ pillar: "ai-fluency"
 
 ## What is deep learning?
 
-**Deep learning** is a powerful type of machine learning that uses neural networks with many layers, loosely inspired by the brain. It excels at messy, high-dimensional data like images, audio, and language. It's what made the recent leap in AI possible — [large language models](/blog/what-is-an-llm) like the one behind ChatGPT are deep-learning systems trained on enormous amounts of text.
+**Deep learning** is a powerful type of machine learning that uses neural networks with many layers, loosely inspired by the brain. It excels at messy, high-dimensional data like images, audio, and language. It's what made the recent leap in AI possible: [large language models](/blog/what-is-an-llm) like the one behind ChatGPT are deep-learning systems trained on enormous amounts of text.
 
 ## Why the distinction matters (a little)
 
-You don't need these definitions to _use_ AI well — but knowing that today's tools learn from data (and therefore reflect that data's gaps and biases, and can be confidently wrong) makes you a smarter user. That's the heart of [AI literacy](/blog/what-is-ai-literacy). If your goal is to use AI day to day rather than build it, focus on [AI fluency](/blog/what-is-ai-fluency) — and check where you stand with the free [AI IQ test](/quiz).
+You don't need these definitions to _use_ AI well, but knowing that today's tools learn from data (and therefore reflect that data's gaps and biases, and can be confidently wrong) makes you a smarter user. That's the heart of [AI literacy](/blog/what-is-ai-literacy). If your goal is to use AI day to day rather than build it, focus on [AI fluency](/blog/what-is-ai-fluency), and check where you stand with the free [AI IQ test](/quiz).
 
 ## FAQ
 
 **What is the difference between AI and machine learning?**
 
-AI is the broad field of making machines do intelligent things. Machine learning is the main method for building AI — systems that learn patterns from data instead of being programmed with explicit rules. All machine learning is AI, but not all AI is machine learning.
+AI is the broad field of making machines do intelligent things. Machine learning is the main method for building AI: systems that learn patterns from data instead of being programmed with explicit rules. All machine learning is AI, but not all AI is machine learning.
 
 **Is deep learning the same as machine learning?**
 
@@ -76,7 +76,7 @@ No. Using AI tools well is about clear prompting and good judgment, not the unde
 
 **Do I need to learn machine learning to get good at using AI?**
 
-No. Knowing the difference is useful context, but using AI well is a separate, more practical skill — AI fluency — that anyone can build in about 5 minutes a day, no math or ML background required.
+No. Knowing the difference is useful context, but using AI well is a separate, more practical skill (AI fluency) that anyone can build in about 5 minutes a day, no math or ML background required.
 
 ## Read next
 

@@ -3,12 +3,12 @@
   "order": 43,
   "pillar": "ai-fluency",
   "title": "What is RAG (retrieval-augmented generation)? Explained simply",
-  "lede": "RAG, or retrieval-augmented generation, is a technique that lets an AI look up real information before answering — so it's more accurate and can cite sources. Here's how it works and why it matters.",
+  "lede": "RAG, or retrieval-augmented generation, is a technique that lets an AI look up real information before answering, so it's more accurate and can cite sources. Here's how it works and why it matters.",
   "keyTakeaways": [
     "RAG (retrieval-augmented generation) connects an AI model to a real source of information so it retrieves facts before generating an answer.",
     "It reduces hallucinations and lets the AI cite sources and use up-to-date or private data the base model never saw.",
     "Perplexity and many AI search and 'chat with your documents' tools use RAG.",
-    "You don't need to build RAG to benefit — knowing it exists tells you why grounded, cited answers are more trustworthy."
+    "You don't need to build RAG to benefit. Knowing it exists tells you why grounded, cited answers are more trustworthy."
   ],
   "description": "What is RAG (retrieval-augmented generation)? A plain-English explanation: how it works, why it reduces hallucinations and adds citations, real examples, and why it matters.",
   "keywords": [
@@ -60,7 +60,7 @@
     {
       "id": "how",
       "heading": "How does RAG work?",
-      "html": "<p>In three steps:</p><ol><li><strong>Retrieve.</strong> When you ask a question, the system searches a knowledge source — the live web, a company's documents, a database — for the most relevant passages.</li><li><strong>Augment.</strong> It adds those passages to your prompt as context.</li><li><strong>Generate.</strong> The model writes an answer grounded in that retrieved context, often with citations.</li></ol><p>So instead of answering from memory alone, the AI answers from memory <em>plus</em> fresh, relevant facts.</p>"
+      "html": "<p>In three steps:</p><ol><li><strong>Retrieve.</strong> When you ask a question, the system searches a knowledge source (the live web, a company's documents, a database) for the most relevant passages.</li><li><strong>Augment.</strong> It adds those passages to your prompt as context.</li><li><strong>Generate.</strong> The model writes an answer grounded in that retrieved context, often with citations.</li></ol><p>So instead of answering from memory alone, the AI answers from memory <em>plus</em> fresh, relevant facts.</p>"
     },
     {
       "id": "why",
@@ -70,12 +70,12 @@
     {
       "id": "examples",
       "heading": "Examples of RAG",
-      "html": "<ul><li><strong><a href=\"/learn-perplexity\">Perplexity</a></strong> and other AI search tools — they retrieve live web results and answer with citations.</li><li><strong>\"Chat with your documents\" tools</strong> — upload a PDF or connect a knowledge base and ask questions about it.</li><li><strong>Company assistants</strong> that answer from internal policies and docs.</li></ul><p>Anytime an AI shows you sources or answers about your own files, RAG is usually behind it.</p>"
+      "html": "<ul><li><strong><a href=\"/learn-perplexity\">Perplexity</a></strong> and other AI search tools: they retrieve live web results and answer with citations.</li><li><strong>\"Chat with your documents\" tools</strong>: upload a PDF or connect a knowledge base and ask questions about it.</li><li><strong>Company assistants</strong> that answer from internal policies and docs.</li></ul><p>Anytime an AI shows you sources or answers about your own files, RAG is usually behind it.</p>"
     },
     {
       "id": "use",
       "heading": "What RAG means for you",
-      "html": "<p>You don't need to build RAG to benefit from it — but knowing it exists makes you a smarter user. When an answer comes with citations, you can check it; when it doesn't, be more skeptical. Preferring grounded, sourced tools for anything factual is part of <a href=\"/blog/what-is-ai-literacy\">AI literacy</a>. Want to sharpen the broader skill of using AI well? Start with the free <a href=\"/quiz\">AI IQ test</a>.</p>"
+      "html": "<p>You don't need to build RAG to benefit from it, but knowing it exists makes you a smarter user. When an answer comes with citations, you can check it; when it doesn't, be more skeptical. Preferring grounded, sourced tools for anything factual is part of <a href=\"/blog/what-is-ai-literacy\">AI literacy</a>. Want to sharpen the broader skill of using AI well? Start with the free <a href=\"/quiz\">AI IQ test</a>.</p>"
     }
   ],
   "readNext": [
@@ -99,7 +99,7 @@
   "faq": [
     {
       "q": "What is RAG in simple terms?",
-      "a": "RAG (retrieval-augmented generation) is when an AI looks up real information from a trusted source before answering, instead of relying only on memorized training data. It retrieves relevant facts, then generates an answer using them — making the response more accurate and citable."
+      "a": "RAG (retrieval-augmented generation) is when an AI looks up real information from a trusted source before answering, instead of relying only on memorized training data. It retrieves relevant facts, then generates an answer using them, making the response more accurate and citable."
     },
     {
       "q": "Why is RAG used?",
@@ -115,7 +115,7 @@
     },
     {
       "q": "Do I need to understand RAG to use AI well?",
-      "a": "No — knowing what RAG is helps you trust grounded tools, but you do not need to build it. What pays off is practical <a href=\"/become-ai-fluent\">AI fluency</a>: prompting well, verifying output, and choosing the right tool for the job."
+      "a": "No. Knowing what RAG is helps you trust grounded tools, but you do not need to build it. What pays off is practical <a href=\"/become-ai-fluent\">AI fluency</a>: prompting well, verifying output, and choosing the right tool for the job."
     }
   ],
   "related": [

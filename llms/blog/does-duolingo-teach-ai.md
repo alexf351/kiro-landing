@@ -26,7 +26,7 @@ pillar: "ai-fluency"
 
 ## Key takeaways
 
-- No — Duolingo does not teach AI. Its courses cover languages, plus Math and Music, not how to use AI tools.
+- No. Duolingo does not teach AI. Its courses cover languages, plus Math and Music, not how to use AI tools.
 - Duolingo uses AI internally (to help build lessons and power roleplay), but using AI is not the same as teaching you to use it.
 - People ask because Duolingo keeps adding subjects and "Duolingo for AI" is a common phrase: what they usually want is the method, not the brand.
 - The five-minute, streak-driven, practice-first method does work for AI: that's exactly what Iro AI is built on.
@@ -45,9 +45,9 @@ The phrase "Duolingo for AI" doesn't clear things up either. It's become shortha
 
 ## What actually teaches you AI the Duolingo way
 
-Strip Duolingo down and the magic isn't the mascot — it's the method: five-minute lessons, streaks that pull you back each day, active recall instead of passive watching, and immediate feedback on every answer. That loop is why it works for languages, and it works just as well for AI skills.
+Strip Duolingo down and the magic isn't the mascot. It's the method: five-minute lessons, streaks that pull you back each day, active recall instead of passive watching, and immediate feedback on every answer. That loop is why it works for languages, and it works just as well for AI skills.
 
-[Iro AI](/duolingo-for-ai) is built on exactly that model, aimed at AI. You keep a streak, earn XP, climb six ranks, and go head-to-head in duels — but instead of conjugating verbs, you write real prompts and get instant feedback on them. An **Ask Iro** coach explains anything you're stuck on by chat or voice, and **Custom Paths** generate a structured path on almost any topic you type in. It's free to start on iOS or [in the browser](https://app.tryiro.com), and Pro is one predictable price: $49.99 a year (about $4.17 a month) with a 7-day free trial. If you already like how Duolingo feels, this will feel familiar fast.
+[Iro AI](/duolingo-for-ai) is built on exactly that model, aimed at AI. You keep a streak, earn XP, climb six ranks, and go head-to-head in duels. But instead of conjugating verbs, you write real prompts and get instant feedback on them. An **Ask Iro** coach explains anything you're stuck on by chat or voice, and **Custom Paths** generate a structured path on almost any topic you type in. It's free to start on iOS or [in the browser](https://app.tryiro.com), and Pro is one predictable price: $49.99 a year (about $4.17 a month) with a 7-day free trial. If you already like how Duolingo feels, this will feel familiar fast.
 
 ## How to choose
 
@@ -57,7 +57,7 @@ Not sure where you stand? [A free AI IQ test](/quiz) takes a few minutes, needs 
 - **Want the direct head-to-head →** read [Iro AI vs Duolingo](/blog/iro-ai-vs-duolingo) for what each one does and where they overlap.
 - **Want the broader 2026 shortlist →** see [the best app to learn AI](/best-ai-learning-app).
 
-Short version: Duolingo is still the best way to learn a language. To learn AI the same way, you want an app built for AI — which is exactly the gap Iro is designed to fill.
+Short version: Duolingo is still the best way to learn a language. To learn AI the same way, you want an app built for AI, which is exactly the gap Iro is designed to fill.
 
 ## FAQ
 

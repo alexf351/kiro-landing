@@ -10,7 +10,7 @@
     "Catch hallucinations by asking for sources, cross-checking key claims, and distrusting suspiciously specific details.",
     "Treat AI output as a fast first draft to verify, not a final source of truth."
   ],
-  "description": "AI models confidently invent facts, citations, and numbers. Here are the five-second checks that catch most hallucinations — and a longer set for when stakes are high.",
+  "description": "AI models confidently invent facts, citations, and numbers. Here are the five-second checks that catch most hallucinations, and a longer set for when stakes are high.",
   "keywords": [
     "AI hallucination",
     "hallucination detection",
@@ -54,12 +54,12 @@
     {
       "id": "what",
       "heading": "What a hallucination is (and isn't)",
-      "html": "<p>A hallucination is when an AI confidently states something that isn't true. Not a typo. Not a misunderstanding. A real claim, well-written, presented with no flag, that's wrong.</p><p>It's not the same as a wrong opinion or a value judgement. \"This essay is well-structured\" can be debated. \"This essay won the Pulitzer Prize in 2019\" is either true or false — and that's where hallucinations live.</p><p>The reason this matters: AI outputs <em>look</em> equally confident whether they're true or invented. Your job is to add the doubt the model doesn't supply.</p>"
+      "html": "<p>A hallucination is when an AI confidently states something that isn't true. Not a typo. Not a misunderstanding. A real claim, well-written, presented with no flag, that's wrong.</p><p>It's not the same as a wrong opinion or a value judgement. \"This essay is well-structured\" can be debated. \"This essay won the Pulitzer Prize in 2019\" is either true or false, and that's where hallucinations live.</p><p>The reason this matters: AI outputs <em>look</em> equally confident whether they're true or invented. Your job is to add the doubt the model doesn't supply.</p>"
     },
     {
       "id": "five-second",
       "heading": "The 5-second checks",
-      "html": "<p>Run these first. They catch most of what matters.</p><ol><li><strong>Does the answer contain a name, date, statistic, or citation?</strong> If yes, treat it as a hypothesis, not a fact. Verify before quoting.</li><li><strong>Is the model's confidence higher than its data should allow?</strong> Watch for sweeping claims about recent events, niche topics, internal company info — none of which the model could actually know.</li><li><strong>Does the answer feel suspiciously well-suited to your question?</strong> Hallucinations often \"give you what you wanted to hear.\" Real answers push back.</li><li><strong>Are the URLs and titles plausible-but-unfamiliar?</strong> Made-up citations look correct on the surface — real journal, real-sounding title, plausible authors, fake DOI. Click through before trusting.</li><li><strong>Does it cite a specific person?</strong> Search the quote. If it doesn't exist verbatim somewhere, the model wrote it.</li></ol>"
+      "html": "<p>Run these first. They catch most of what matters.</p><ol><li><strong>Does the answer contain a name, date, statistic, or citation?</strong> If yes, treat it as a hypothesis, not a fact. Verify before quoting.</li><li><strong>Is the model's confidence higher than its data should allow?</strong> Watch for sweeping claims about recent events, niche topics, internal company info, none of which the model could actually know.</li><li><strong>Does the answer feel suspiciously well-suited to your question?</strong> Hallucinations often \"give you what you wanted to hear.\" Real answers push back.</li><li><strong>Are the URLs and titles plausible-but-unfamiliar?</strong> Made-up citations look correct on the surface: real journal, real-sounding title, plausible authors, fake DOI. Click through before trusting.</li><li><strong>Does it cite a specific person?</strong> Search the quote. If it doesn't exist verbatim somewhere, the model wrote it.</li></ol>"
     },
     {
       "id": "deeper",
@@ -69,12 +69,12 @@
     {
       "id": "shapes",
       "heading": "Common hallucination shapes",
-      "html": "<p>After you've seen a few, you start to recognise the shapes:</p><ul><li><strong>Fake citations.</strong> Real-looking journal, real-sounding paper title, made-up DOI or volume/issue.</li><li><strong>Confused entities.</strong> Two different real people merged into one. A real product attributed to the wrong company.</li><li><strong>Drifted dates.</strong> A real event placed in the wrong year by ±3.</li><li><strong>Compound-noun nonsense.</strong> \"As shown by the Lichtenberg–Rao theorem of 1972...\" — neither the theorem nor the year exists, but they sound right.</li><li><strong>Plausible misattribution.</strong> A quote that <em>sounds</em> like Buffett, attributed to Buffett, that he never said.</li></ul><p>The shape almost always involves a real-sounding noun phrase that nobody bothers to verify because it sounds familiar.</p>"
+      "html": "<p>After you've seen a few, you start to recognise the shapes:</p><ul><li><strong>Fake citations.</strong> Real-looking journal, real-sounding paper title, made-up DOI or volume/issue.</li><li><strong>Confused entities.</strong> Two different real people merged into one. A real product attributed to the wrong company.</li><li><strong>Drifted dates.</strong> A real event placed in the wrong year by ±3.</li><li><strong>Compound-noun nonsense.</strong> \"As shown by the Lichtenberg–Rao theorem of 1972...\" Neither the theorem nor the year exists, but they sound right.</li><li><strong>Plausible misattribution.</strong> A quote that <em>sounds</em> like Buffett, attributed to Buffett, that he never said.</li></ul><p>The shape almost always involves a real-sounding noun phrase that nobody bothers to verify because it sounds familiar.</p>"
     },
     {
       "id": "practise",
       "heading": "Where to practise",
-      "html": "<p>Hallucination detection is a muscle. You can build it by doing — every time you use an AI model, pick one claim and verify it. Over a month, you'll start catching them automatically.</p><p>Iro AI builds this directly into its exercises. The <a href=\"/learn-chatgpt\">ChatGPT</a>, <a href=\"/learn-claude\">Claude</a>, and <a href=\"/learn-perplexity\">Perplexity</a> paths each include hallucination-spotting drills. The <a href=\"/quiz\">free AI IQ test</a> includes a few of them too.</p>"
+      "html": "<p>Hallucination detection is a muscle. You can build it by doing: every time you use an AI model, pick one claim and verify it. Over a month, you'll start catching them automatically.</p><p>Iro AI builds this directly into its exercises. The <a href=\"/learn-chatgpt\">ChatGPT</a>, <a href=\"/learn-claude\">Claude</a>, and <a href=\"/learn-perplexity\">Perplexity</a> paths each include hallucination-spotting drills. The <a href=\"/quiz\">free AI IQ test</a> includes a few of them too.</p>"
     }
   ],
   "readNext": [
@@ -92,7 +92,7 @@
     },
     {
       "href": "/glossary",
-      "label": "AI glossary — hallucination, RAG, and more"
+      "label": "AI glossary: hallucination, RAG, and more"
     }
   ],
   "faq": [
@@ -102,7 +102,7 @@
     },
     {
       "q": "Is using RAG (retrieval-augmented generation) a fix?",
-      "a": "RAG dramatically reduces hallucinations because the model is given real source documents at runtime. It doesn't eliminate them — models can still misread or misquote retrieved sources. Always check direct quotes."
+      "a": "RAG dramatically reduces hallucinations because the model is given real source documents at runtime. It doesn't eliminate them: models can still misread or misquote retrieved sources. Always check direct quotes."
     },
     {
       "q": "How do I know if a tool is 'grounded'?",
@@ -114,7 +114,7 @@
     },
     {
       "q": "Is spotting AI mistakes a skill I can actually build?",
-      "a": "Yes — judging output is one of the most learnable parts of <a href=\"/become-ai-fluent\">AI fluency</a>, and one most people skip. It matters: in our data the <a href=\"/blog/average-ai-literacy-score\">average AI literacy score was about 5/10</a>, with verification among the weakest areas."
+      "a": "Yes. Judging output is one of the most learnable parts of <a href=\"/become-ai-fluent\">AI fluency</a>, and one most people skip. It matters: in our data the <a href=\"/blog/average-ai-literacy-score\">average AI literacy score was about 5/10</a>, with verification among the weakest areas."
     }
   ],
   "related": [

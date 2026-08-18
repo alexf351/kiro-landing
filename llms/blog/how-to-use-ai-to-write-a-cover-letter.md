@@ -51,11 +51,11 @@ Frame the output as a starting point. Ask for a draft you'll edit, and consider 
 
 This is the step most people skip, and it's the one that matters. Read the draft out loud. Cut every phrase you'd never actually say. Delete clichés, tighten the opener, and make sure every claim is backed by a real specific. Five minutes of editing is the difference between a letter that sounds like you and one that sounds like a robot.
 
-**A strong starting prompt looks like this:** "You're helping me write a cover letter for a Product Marketing Manager role at [Company]. Here's the job description: [paste it]. Here are three things I've actually done: (1) grew a SaaS newsletter from 4,000 to 22,000 subscribers in eight months; (2) led the launch of a new $40/month tier that hit 1,200 sign-ups in its first quarter; (3) rebuilt the onboarding email sequence and lifted activation 18%. Write a 250-word draft in a warm, direct, first-person voice — no buzzwords, no 'I am passionate about.' Open with a specific reason I'm a fit for this role, not a summary of my resume."
+**A strong starting prompt looks like this:** "You're helping me write a cover letter for a Product Marketing Manager role at [Company]. Here's the job description: [paste it]. Here are three things I've actually done: (1) grew a SaaS newsletter from 4,000 to 22,000 subscribers in eight months; (2) led the launch of a new $40/month tier that hit 1,200 sign-ups in its first quarter; (3) rebuilt the onboarding email sequence and lifted activation 18%. Write a 250-word draft in a warm, direct, first-person voice: no buzzwords, no 'I am passionate about.' Open with a specific reason I'm a fit for this role, not a summary of my resume."
 
 ## The generic-AI tells to cut
 
-Hiring managers read hundreds of these. They've learned to spot AI autopilot in seconds. Here's what gives it away — cut all of it:
+Hiring managers read hundreds of these. They've learned to spot AI autopilot in seconds. Here's what gives it away. Cut all of it:
 
 - **Buzzwords and filler:** "passionate," "leverage synergies," "dynamic self-starter," "think outside the box." These say nothing. Replace them with what you actually did.
 - **No specifics:** a letter that never names a number, a project, or a real result is a letter about nobody. Specifics are the whole point.
@@ -74,11 +74,11 @@ That's the real payoff: the skill is reusable. Getting good at this kind of prom
 
 **Can AI write a cover letter?**
 
-Yes — as a first draft. Give a good AI model the job description, two or three of your real achievements (with numbers), and a note on tone, and it will produce a solid, tailored draft in under a minute. What it can't do is invent your specifics or your voice, so the draft is a starting point you edit, not a finished letter you send.
+Yes, as a first draft. Give a good AI model the job description, two or three of your real achievements (with numbers), and a note on tone, and it will produce a solid, tailored draft in under a minute. What it can't do is invent your specifics or your voice, so the draft is a starting point you edit, not a finished letter you send.
 
 **Will employers know my cover letter was written by AI?**
 
-They can usually spot lazy AI output — the generic openers, the buzzwords, the letter that could have been sent to any company. What they can't spot is a letter full of your real, specific achievements written in your own voice, because that content only comes from you. The fix isn't hiding that you used AI; it's making the letter specific enough that it doesn't read like a template.
+They can usually spot lazy AI output: the generic openers, the buzzwords, the letter that could have been sent to any company. What they can't spot is a letter full of your real, specific achievements written in your own voice, because that content only comes from you. The fix isn't hiding that you used AI; it's making the letter specific enough that it doesn't read like a template.
 
 **What's the best AI for cover letters?**
 
@@ -86,11 +86,11 @@ Any capable general model — ChatGPT, Claude, or Gemini — writes a strong cov
 
 **Is it OK to use AI for a cover letter?**
 
-Yes. Using AI to draft and polish a cover letter is no different from using spell-check or asking a friend to review it — the ideas and achievements are still yours. What crosses a line is letting AI invent accomplishments you don't have. Keep the facts true, use AI for the drafting and phrasing, and you're fine.
+Yes. Using AI to draft and polish a cover letter is no different from using spell-check or asking a friend to review it. The ideas and achievements are still yours. What crosses a line is letting AI invent accomplishments you don't have. Keep the facts true, use AI for the drafting and phrasing, and you're fine.
 
 **How do I make an AI cover letter sound like me?**
 
-Feed the model examples of how you actually write — a few sentences from an email or a past letter — and tell it the tone you want (warm, direct, plain). Then edit the draft by hand: cut any phrase you'd never say out loud, and swap generic claims for specific stories. The voice comes from your real details, not from the model.
+Feed the model examples of how you actually write (a few sentences from an email or a past letter) and tell it the tone you want (warm, direct, plain). Then edit the draft by hand: cut any phrase you'd never say out loud, and swap generic claims for specific stories. The voice comes from your real details, not from the model.
 
 ## Read next
 

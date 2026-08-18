@@ -3,11 +3,11 @@
   "order": 9,
   "pillar": "ai-agents",
   "title": "AI automation for beginners: 5 things to automate this week",
-  "lede": "No code, no agents — just five repetitive tasks you can hand to AI starting today.",
+  "lede": "No code, no agents: just five repetitive tasks you can hand to AI starting today.",
   "keyTakeaways": [
     "AI automation chains AI steps into a workflow that runs with little or no human input, turning a 30-minute task into a one-click one.",
     "Start by automating boring, repeatable work: email drafting, summarizing, data cleanup, and report generation.",
-    "You do not need to code — tools like ChatGPT, Zapier, and Make let beginners build useful automations in an afternoon.",
+    "You do not need to code: tools like ChatGPT, Zapier, and Make let beginners build useful automations in an afternoon.",
     "The highest-ROI first automation is usually the task you do most often and dislike most."
   ],
   "description": "A beginner's guide to AI automation: five high-value, no-code tasks you can automate this week, plus how to tell when a simple workflow beats a fancy AI agent.",
@@ -70,7 +70,7 @@
     {
       "id": "what-counts",
       "heading": "What \"AI automation\" actually means",
-      "html": "<p>Automation does not have to mean building software. For most people it means handing a repetitive, rule-ish task to AI so you stop doing it by hand. No agents, no scripts to start — just a clear prompt you reuse, or a built-in AI feature in a tool you already have.</p><p>The skill is noticing which tasks repeat. Here are five worth automating this week.</p>"
+      "html": "<p>Automation does not have to mean building software. For most people it means handing a repetitive, rule-ish task to AI so you stop doing it by hand. No agents, no scripts to start: just a clear prompt you reuse, or a built-in AI feature in a tool you already have.</p><p>The skill is noticing which tasks repeat. Here are five worth automating this week.</p>"
     },
     {
       "id": "email",
@@ -80,7 +80,7 @@
     {
       "id": "research",
       "heading": "2. Research summaries",
-      "html": "<p>Instead of reading five articles, drop the links or text into a grounded tool and ask for a one-paragraph summary with the key claims and any disagreements. Use <a href=\"/learn-perplexity\">Perplexity</a> when you need sources you can click — and always <a href=\"/blog/spot-ai-hallucinations\">verify the facts</a> before you rely on them.</p>"
+      "html": "<p>Instead of reading five articles, drop the links or text into a grounded tool and ask for a one-paragraph summary with the key claims and any disagreements. Use <a href=\"/learn-perplexity\">Perplexity</a> when you need sources you can click, and always <a href=\"/blog/spot-ai-hallucinations\">verify the facts</a> before you rely on them.</p>"
     },
     {
       "id": "data",
@@ -100,7 +100,7 @@
     {
       "id": "agent-or-workflow",
       "heading": "Agent or workflow? (don't overcomplicate)",
-      "html": "<p>You will be tempted to reach for an \"AI agent\" for all of this. Usually you should not. If a task follows a fixed recipe — and all five above do — a simple, reusable prompt or workflow is more reliable than an agent that decides its own steps. Agents earn their complexity only when the path cannot be predicted in advance. We unpack exactly when in <a href=\"/blog/ai-agents-explained\">AI agents, explained without the jargon</a>.</p><p>Want to build the judgment for this hands-on? Iro AI's <a href=\"/ai-automation-course\">automation</a> and <a href=\"/ai-agents-course\">AI agents</a> paths turn these decisions into 5-minute exercises.</p>"
+      "html": "<p>You will be tempted to reach for an \"AI agent\" for all of this. Usually you should not. If a task follows a fixed recipe (and all five above do), a simple, reusable prompt or workflow is more reliable than an agent that decides its own steps. Agents earn their complexity only when the path cannot be predicted in advance. We unpack exactly when in <a href=\"/blog/ai-agents-explained\">AI agents, explained without the jargon</a>.</p><p>Want to build the judgment for this hands-on? Iro AI's <a href=\"/ai-automation-course\">automation</a> and <a href=\"/ai-agents-course\">AI agents</a> paths turn these decisions into 5-minute exercises.</p>"
     }
   ],
   "readNext": [

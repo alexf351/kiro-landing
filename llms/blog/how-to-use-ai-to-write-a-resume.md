@@ -17,7 +17,7 @@ pillar: "ai-fluency"
 
 # How to use AI to write a resume (without sounding like a robot)
 
-> AI can help you write a sharper resume in minutes — tailoring it to a job, strengthening bullet points, and beating keyword filters. The key is to guide it with real details and never let it invent anything.
+> AI can help you write a sharper resume in minutes: tailoring it to a job, strengthening bullet points, and beating keyword filters. The key is to guide it with real details and never let it invent anything.
 
 **Canonical:** https://tryiro.com/blog/how-to-use-ai-to-write-a-resume
 **Published:** 2026-06-14
@@ -27,19 +27,19 @@ pillar: "ai-fluency"
 ## Key takeaways
 
 - AI is great for tailoring your resume to a job, rewriting weak bullet points into strong ones, and matching keywords from the job description.
-- Feed it your real experience — never let AI invent jobs, titles, dates, or achievements.
+- Feed it your real experience. Never let AI invent jobs, titles, dates, or achievements.
 - Keep your own voice and verify every line; recruiters can spot generic AI filler.
 - Use AI to improve a resume you've drafted, not to fabricate one from nothing.
 
 ## Can AI write your resume?
 
-**AI can help you write a much sharper resume in minutes — but it works best as an editor, not an author.** Give it your real experience and the job description, and it will tailor your resume, turn weak bullet points into strong ones, and match the keywords that applicant tracking systems look for. What it should never do is invent jobs, titles, dates, or achievements. Used honestly, it's like having a careful resume coach on call.
+**AI can help you write a much sharper resume in minutes, but it works best as an editor, not an author.** Give it your real experience and the job description, and it will tailor your resume, turn weak bullet points into strong ones, and match the keywords that applicant tracking systems look for. What it should never do is invent jobs, titles, dates, or achievements. Used honestly, it's like having a careful resume coach on call.
 
 ## How to use AI to write your resume, step by step
 
 - **Start with your real material.** Paste your current resume or a list of your actual roles, achievements, and skills.
 - **Add the job description.** Give the AI the posting you're targeting so it can tailor and pull keywords.
-- **Ask it to tailor and strengthen,** not invent — see the prompts below.
+- **Ask it to tailor and strengthen,** not invent (see the prompts below).
 - **Edit in your own voice.** Cut generic phrasing and make sure every line is true.
 - **Check the keywords.** Confirm the resume reflects the skills the posting asks for, naturally.
 
@@ -54,17 +54,17 @@ For the prompting fundamentals, see [how to write a good AI prompt](/blog/how-to
 
 ## Mistakes to avoid
 
-**Letting AI fabricate.** Never accept invented jobs, titles, dates, or numbers — it's dishonest and easy to get caught in an interview. **Keeping generic filler.** Recruiters can smell "results-driven team player synergy" from a mile away; make it specific. **Skipping the edit.** Always rewrite in your own voice and verify every line. **Pasting sensitive personal data** you wouldn't want stored — use judgment.
+**Letting AI fabricate.** Never accept invented jobs, titles, dates, or numbers. It's dishonest and easy to get caught in an interview. **Keeping generic filler.** Recruiters can smell "results-driven team player synergy" from a mile away; make it specific. **Skipping the edit.** Always rewrite in your own voice and verify every line. **Pasting sensitive personal data** you wouldn't want stored. Use judgment.
 
 ## Beyond the resume
 
-The same approach works for cover letters, LinkedIn profiles, and interview prep — and learning to do it well is itself a job-market advantage. Employers increasingly value people who use AI effectively. Build that broader skill with [how to use AI at work](/blog/how-to-use-ai-at-work) and the [AI job hunting path](/ai-job-hunting). See where your AI skills stand with the free [AI IQ test](/quiz).
+The same approach works for cover letters, LinkedIn profiles, and interview prep. And learning to do it well is itself a job-market advantage. Employers increasingly value people who use AI effectively. Build that broader skill with [how to use AI at work](/blog/how-to-use-ai-at-work) and the [AI job hunting path](/ai-job-hunting). See where your AI skills stand with the free [AI IQ test](/quiz).
 
 ## FAQ
 
 **How do I use AI to write my resume?**
 
-Paste your real resume and the job description, then ask the AI to tailor it, strengthen your bullet points, and match the posting's keywords — without inventing anything. Then edit in your own voice and verify every line is true.
+Paste your real resume and the job description, then ask the AI to tailor it, strengthen your bullet points, and match the posting's keywords, without inventing anything. Then edit in your own voice and verify every line is true.
 
 **Is it okay to use AI to write a resume?**
 
@@ -72,11 +72,11 @@ Yes, as long as you use it honestly. Use AI to improve and tailor a resume based
 
 **Can ChatGPT write my resume?**
 
-ChatGPT can rewrite and tailor your resume in minutes if you give it your real experience and the job description. Treat it as an editor, not an author — review and personalize every line, and never let it invent details.
+ChatGPT can rewrite and tailor your resume in minutes if you give it your real experience and the job description. Treat it as an editor, not an author. Review and personalize every line, and never let it invent details.
 
 **Will recruiters know my resume was written with AI?**
 
-They may notice generic, robotic phrasing if you don't edit it. The fix is to feed AI your real details, keep your own voice, and make every bullet specific — so the resume reads like you, just sharper.
+They may notice generic, robotic phrasing if you don't edit it. The fix is to feed AI your real details, keep your own voice, and make every bullet specific, so the resume reads like you, just sharper.
 
 ## Read next
 

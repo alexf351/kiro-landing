@@ -29,7 +29,7 @@ pillar: "ai-tools"
 
 - ChatGPT is the more versatile general assistant; Microsoft Copilot is AI woven into Microsoft 365 apps.
 - Copilot wins when your work lives in Word, Excel, Outlook, and Teams; ChatGPT wins for open-ended, all-purpose use.
-- Both are powered by similar underlying models — the real difference is where they live and what they're connected to.
+- Both are powered by similar underlying models. The real difference is where they live and what they're connected to.
 - Prompting skill transfers between them and matters more than the choice.
 
 ## ChatGPT vs Microsoft Copilot: the short answer
@@ -42,15 +42,15 @@ pillar: "ai-tools"
 
 ## Where ChatGPT wins
 
-- **Versatility** — one assistant for writing, coding, brainstorming, and more.
-- **Ecosystem** — voice, image generation, custom GPTs, and the most integrations.
+- **Versatility**: one assistant for writing, coding, brainstorming, and more.
+- **Ecosystem**: voice, image generation, custom GPTs, and the most integrations.
 - **Open-ended work** not tied to any one suite of apps.
 
 It's the safest default if you want a single general-purpose assistant. Learn it at [learn ChatGPT](/learn-chatgpt).
 
 ## Where Copilot wins
 
-- **Microsoft 365 integration** — it works on your real Word docs, Excel sheets, Outlook mail, and Teams chats.
+- **Microsoft 365 integration**: it works on your real Word docs, Excel sheets, Outlook mail, and Teams chats.
 - **In-context actions** — summarize a thread, draft a doc, or analyze a spreadsheet without leaving the app.
 - **Enterprise fit** for organizations already standardized on Microsoft.
 
