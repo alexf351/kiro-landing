@@ -17,7 +17,7 @@ pillar: "prompt-engineering"
 
 # 15 ChatGPT prompts for beginners (copy, paste, and learn)
 
-> The best ChatGPT prompts for beginners are simple templates you can copy, paste, and adapt. Here are 15 across work, learning, and everyday life — plus the one pattern that makes any prompt better.
+> The best ChatGPT prompts for beginners are simple templates you can copy, paste, and adapt. Here are 15 across work, learning, and everyday life, plus the one pattern that makes any prompt better.
 
 **Canonical:** https://tryiro.com/blog/chatgpt-prompts-for-beginners
 **Published:** 2026-06-04
@@ -29,21 +29,21 @@ pillar: "prompt-engineering"
 
 - Good beginner prompts share a structure: give context, a role, a clear task, and the format you want.
 - Copy-paste these 15 prompts for work, learning, and everyday life, then swap in your own details.
-- The fastest upgrade to any prompt is adding context and asking for a specific format — not finding 'magic words.'
+- The fastest upgrade to any prompt is adding context and asking for a specific format, not finding 'magic words.'
 - Prompting is a skill that transfers to every AI tool, so practicing it on ChatGPT pays off on Claude, Gemini, and Perplexity too.
 
 ## The best ChatGPT prompts for beginners
 
-**The best beginner prompts aren't clever tricks — they're simple templates that tell ChatGPT what you want, in what role, and in what format.** Copy any prompt below, paste it into ChatGPT, and replace the bracketed parts with your details. The point isn't to memorize them; it's to notice the pattern so you can write your own.
+**The best beginner prompts aren't clever tricks: they're simple templates that tell ChatGPT what you want, in what role, and in what format.** Copy any prompt below, paste it into ChatGPT, and replace the bracketed parts with your details. The point isn't to memorize them; it's to notice the pattern so you can write your own.
 
 ## What makes a good ChatGPT prompt?
 
 Almost every strong prompt has four parts:
 
-- **Context** — the situation and any background ChatGPT needs.
-- **Role** — who you want it to act as ("a hiring manager," "a patient tutor").
-- **Task** — the specific thing to do.
-- **Format** — how you want the answer (a list, a table, 100 words, a polite email).
+- **Context**: the situation and any background ChatGPT needs.
+- **Role**: who you want it to act as ("a hiring manager," "a patient tutor").
+- **Task**: the specific thing to do.
+- **Format**: how you want the answer (a list, a table, 100 words, a polite email).
 
 Miss these and you get vague answers; include them and ChatGPT gets sharp. This is the core idea behind [prompt engineering](/blog/what-is-prompt-engineering).
 
@@ -75,20 +75,20 @@ Want a structured version of this? See [how to use AI for studying](/blog/how-to
 
 ## How to make any prompt better
 
-If an answer isn't great, you almost never need a "magic" prompt — you need to add one of these:
+If an answer isn't great, you almost never need a "magic" prompt. You need to add one of these:
 
 - **More context.** Tell ChatGPT who it's for, what you've tried, and any constraints.
 - **A clear format.** Ask for a table, a word count, bullet points, or a specific tone.
 - **An example.** Show one example of what "good" looks like.
 - **A follow-up.** Treat the first answer as a draft and ask it to revise: "make it shorter," "more formal," "add a step."
 
-That habit — context, format, iterate — is most of prompt engineering. If your prompts keep falling flat, see [why your AI prompts aren't working](/blog/why-your-ai-prompts-arent-working), and practice hands-on with the [prompt engineering app](/prompt-engineering-app).
+That habit (context, format, iterate) is most of prompt engineering. If your prompts keep falling flat, see [why your AI prompts aren't working](/blog/why-your-ai-prompts-arent-working), and practice hands-on with the [prompt engineering app](/prompt-engineering-app).
 
 ## FAQ
 
 **What are good ChatGPT prompts for beginners?**
 
-Good beginner prompts are simple templates that include context, a role, a clear task, and the format you want — for example, 'You are a patient tutor. Quiz me on [topic] one question at a time and explain my mistakes.' Copy a template, then swap in your own details.
+Good beginner prompts are simple templates that include context, a role, a clear task, and the format you want: for example, 'You are a patient tutor. Quiz me on [topic] one question at a time and explain my mistakes.' Copy a template, then swap in your own details.
 
 **How do I write a good ChatGPT prompt?**
 
@@ -96,7 +96,7 @@ Include four things: context (the background), a role (who ChatGPT should act as
 
 **Do I need experience to use ChatGPT prompts?**
 
-No. Start by copying a template and replacing the bracketed parts. The more you notice the underlying pattern — context, role, task, format — the faster you'll write your own.
+No. Start by copying a template and replacing the bracketed parts. The more you notice the underlying pattern (context, role, task, format), the faster you'll write your own.
 
 **Do these prompts work on other AI tools?**
 

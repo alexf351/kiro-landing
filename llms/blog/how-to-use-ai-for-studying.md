@@ -70,7 +70,7 @@ Copy these straight into any AI tool and swap in your topic:
 - _"I have [X days] to learn [topic] for [exam]. Build a day-by-day plan with a 30-minute task and a self-test each day."_
 - _"I'll explain [concept] in my own words. Point out exactly where I'm wrong or fuzzy, then give the corrected version."_
 
-Want more? The [free AI prompt library](/ai-prompts) has a whole section of learning prompts. And if you want to get genuinely good at directing AI, the skill behind all of this, that's exactly what [Iro AI](/quiz) trains.
+Want more? The [free AI prompt library](/ai-prompts) has a whole section of learning prompts. And if you want to get genuinely good at directing AI (the skill behind all of this), that's exactly what [Iro AI](/quiz) trains.
 
 ## FAQ
 

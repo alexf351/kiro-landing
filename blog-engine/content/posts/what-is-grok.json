@@ -68,17 +68,17 @@
     {
       "id": "good",
       "heading": "What is Grok good at?",
-      "html": "<p>Grok is handy for <strong>keeping up with current conversations</strong> — trending topics, breaking discussion, and what people are saying on X right now. Its casual tone appeals to people who find other assistants stiff. For careful, high-stakes work — long documents, precise reasoning, sensitive tasks — the mainstream assistants like <a href=\"/learn-chatgpt\">ChatGPT</a> and <a href=\"/learn-claude\">Claude</a> are often steadier choices. As always, <a href=\"/blog/spot-ai-hallucinations\">verify anything important</a>.</p>"
+      "html": "<p>Grok is handy for <strong>keeping up with current conversations</strong>: trending topics, breaking discussion, and what people are saying on X right now. Its casual tone appeals to people who find other assistants stiff. For careful, high-stakes work (long documents, precise reasoning, sensitive tasks), the mainstream assistants like <a href=\"/learn-chatgpt\">ChatGPT</a> and <a href=\"/learn-claude\">Claude</a> are often steadier choices. As always, <a href=\"/blog/spot-ai-hallucinations\">verify anything important</a>.</p>"
     },
     {
       "id": "use",
       "heading": "How to use Grok",
-      "html": "<p>Using Grok is like any assistant: ask a clear question and refine. The same prompting fundamentals apply — context, role, task, format. The one thing to lean on is its real-time strength: it's well suited to \"what's happening with X right now\" questions. For the prompting basics that work everywhere, see <a href=\"/blog/how-to-write-a-prompt\">how to write a good AI prompt</a>.</p>"
+      "html": "<p>Using Grok is like any assistant: ask a clear question and refine. The same prompting fundamentals apply: context, role, task, format. The one thing to lean on is its real-time strength: it's well suited to \"what's happening with X right now\" questions. For the prompting basics that work everywhere, see <a href=\"/blog/how-to-write-a-prompt\">how to write a good AI prompt</a>.</p>"
     },
     {
       "id": "vs",
       "heading": "Grok vs ChatGPT: which should you use?",
-      "html": "<p>Use Grok for real-time, X-flavored questions and a casual vibe; use ChatGPT as the more polished, versatile all-rounder for general work. Many people keep ChatGPT as a default and reach for Grok when they want a live read on a trending topic. See the wider field in <a href=\"/blog/best-ai-apps\">the best AI apps</a> and <a href=\"/blog/chatgpt-alternatives\">ChatGPT alternatives</a>. Whatever you use, directing it well — <a href=\"/blog/what-is-ai-fluency\">AI fluency</a> — is the real skill. Check yours with the free <a href=\"/quiz\">AI IQ test</a>.</p>"
+      "html": "<p>Use Grok for real-time, X-flavored questions and a casual vibe; use ChatGPT as the more polished, versatile all-rounder for general work. Many people keep ChatGPT as a default and reach for Grok when they want a live read on a trending topic. See the wider field in <a href=\"/blog/best-ai-apps\">the best AI apps</a> and <a href=\"/blog/chatgpt-alternatives\">ChatGPT alternatives</a>. Whatever you use, directing it well (<a href=\"/blog/what-is-ai-fluency\">AI fluency</a>) is the real skill. Check yours with the free <a href=\"/quiz\">AI IQ test</a>.</p>"
     }
   ],
   "readNext": [

@@ -7,7 +7,7 @@ app_store: "https://apps.apple.com/app/id6759628066"
 language: en-US
 keywords: ["cancel Finestro", "Finestro cancel subscription", "Finestro refund", "how to cancel Finestro AI Tools Mastery", "Finestro charged me", "Finestro unsubscribe"]
 date_published: "2026-08-03"
-date_modified: "2026-08-06"
+date_modified: "2026-08-18"
 reading_time_minutes: 6
 author: "Alex Furukawa"
 license: "© 2026 Iro AI"
@@ -21,7 +21,7 @@ pillar: "ai-fluency"
 
 **Canonical:** https://tryiro.com/blog/cancel-finestro
 **Published:** 2026-08-03
-**Updated:** 2026-08-06
+**Updated:** 2026-08-18
 **Reading time:** ~6 min
 **Author:** Alex Furukawa — Founder of Iro AI
 

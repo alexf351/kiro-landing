@@ -36,7 +36,7 @@ pillar: "prompt-engineering"
 
 People share prompts the way restaurants share recipes. Copy, paste, eat. Then the model updates and the prompt stops working.
 
-Patterns are different. A pattern is a _structure_ — a way of organising information for an AI model that survives whatever the model does next. Master the patterns and you can write a prompt for any model, any task, any version.
+Patterns are different. A pattern is a _structure_, a way of organising information for an AI model that survives whatever the model does next. Master the patterns and you can write a prompt for any model, any task, any version.
 
 These seven are the ones that show up over and over in real work. They're what Iro AI's [Prompt Lab](/prompt-engineering-app) drills.
 
@@ -53,19 +53,19 @@ Without role and constraints, you get average output. With them, you get specifi
 
 ## 2. Few-shot with anchors
 
-For tasks where style matters more than reasoning — classifications, rewrites, tone-matching — give the model two or three examples that bracket the kind of output you want, then ask for the next one in the same shape.
+For tasks where style matters more than reasoning (classifications, rewrites, tone-matching), give the model two or three examples that bracket the kind of output you want, then ask for the next one in the same shape.
 
 The trick is _anchoring_: pick examples that span the range. Don't give three nearly-identical examples. Give a clearly-easy one, a clearly-hard one, and a middle one. The model learns the structure, not the surface.
 
-Few-shot prompting works because large language models are strong in-context learners by design — the behavior OpenAI documented in [“Language Models are Few-Shot Learners”](https://arxiv.org/abs/2005.14165) (Brown et al., 2020).
+Few-shot prompting works because large language models are strong in-context learners by design, the behavior OpenAI documented in [“Language Models are Few-Shot Learners”](https://arxiv.org/abs/2005.14165) (Brown et al., 2020).
 
 ## 3. Output format contract
 
-Specify the output shape up front. Not as a wish — as a contract.
+Specify the output shape up front. Not as a wish. As a contract.
 
 > Return ONLY a JSON object with these keys: `summary` (string, ≤ 40 words), `risks` (array of objects with `name` and `severity`), and `next_step` (string). No prose outside the JSON.
 
-This is how you stop the model from preambling. The format contract is also what makes a prompt programmable — you can feed the output to the next step without parsing free text.
+This is how you stop the model from preambling. The format contract is also what makes a prompt programmable: you can feed the output to the next step without parsing free text.
 
 ## 4. Self-critique loop
 
@@ -79,9 +79,9 @@ This costs you a few seconds and almost always improves the answer. It works bec
 
 For anything complex, don't ask for the whole answer in one prompt. Ask the model to _plan_ the answer first, then execute the plan in subsequent turns.
 
-This is the basis of [agentic workflows](/ai-agents-course): break a goal into named steps, do each step, gate progress on review. It's also what makes long answers actually useful — without decomposition, the model loses the thread halfway through.
+This is the basis of [agentic workflows](/ai-agents-course): break a goal into named steps, do each step, gate progress on review. It's also what makes long answers actually useful. Without decomposition, the model loses the thread halfway through.
 
-Breaking a problem into steps measurably improves accuracy on complex tasks — the core finding behind [chain-of-thought prompting](https://arxiv.org/abs/2201.11903) (Wei et al., 2022).
+Breaking a problem into steps measurably improves accuracy on complex tasks, the core finding behind [chain-of-thought prompting](https://arxiv.org/abs/2201.11903) (Wei et al., 2022).
 
 ## 6. Comparison prompt
 
@@ -91,15 +91,15 @@ This is far more reliable than asking for one "good" answer. The model is better
 
 ## 7. Verify-then-trust
 
-The last pattern is a discipline more than a prompt. For any factual claim the model makes — numbers, dates, names, citations — check it before you trust it.
+The last pattern is a discipline more than a prompt. For any factual claim the model makes (numbers, dates, names, citations), check it before you trust it.
 
-Two cheap checks: paste the claim back and ask the model to find sources; or run the same claim through a grounded tool like Perplexity. [Hallucination detection](/blog/spot-ai-hallucinations) has its own post — read that next.
+Two cheap checks: paste the claim back and ask the model to find sources; or run the same claim through a grounded tool like Perplexity. [Hallucination detection](/blog/spot-ai-hallucinations) has its own post. Read that next.
 
 ## Putting them together
 
 Most real prompts use three or four patterns at once. A typical work prompt might use Role-Goal-Constraints + Output format + Self-critique. A research prompt might use Decomposition + Comparison + Verify-then-trust.
 
-The skill is knowing which patterns to combine for the task. That's not something you read your way to — you have to drill it. Iro AI's [Prompt Lab](/prompt-engineering-app) is the fastest way; the [ChatGPT path](/learn-chatgpt) and [Claude path](/learn-claude) apply the same patterns inside specific tools.
+The skill is knowing which patterns to combine for the task. That's not something you read your way to. You have to drill it. Iro AI's [Prompt Lab](/prompt-engineering-app) is the fastest way; the [ChatGPT path](/learn-chatgpt) and [Claude path](/learn-claude) apply the same patterns inside specific tools.
 
 ## FAQ
 
@@ -117,7 +117,7 @@ All four major assistants (ChatGPT, Claude, Gemini, Perplexity) respond well to 
 
 **How do I know which patterns to combine for a given task?**
 
-Reps. That's what Iro AI's Prompt Lab is for — you practise patterns on small tasks until the choice becomes automatic.
+Reps. That's what Iro AI's Prompt Lab is for: you practise patterns on small tasks until the choice becomes automatic.
 
 ## Read next
 

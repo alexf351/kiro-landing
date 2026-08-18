@@ -38,21 +38,21 @@ pillar: "ai-tools"
 
 ## Grok's standout features
 
-- **Real-time information** — it can pull in current posts and web results, so it's oriented toward what's happening now.
-- **Personality** — a more conversational, less buttoned-up tone than most assistants.
-- **X integration** — it lives where a lot of real-time discussion already happens.
+- **Real-time information**: it can pull in current posts and web results, so it's oriented toward what's happening now.
+- **Personality**: a more conversational, less buttoned-up tone than most assistants.
+- **X integration**: it lives where a lot of real-time discussion already happens.
 
 ## What is Grok good at?
 
-Grok is handy for **keeping up with current conversations** — trending topics, breaking discussion, and what people are saying on X right now. Its casual tone appeals to people who find other assistants stiff. For careful, high-stakes work — long documents, precise reasoning, sensitive tasks — the mainstream assistants like [ChatGPT](/learn-chatgpt) and [Claude](/learn-claude) are often steadier choices. As always, [verify anything important](/blog/spot-ai-hallucinations).
+Grok is handy for **keeping up with current conversations**: trending topics, breaking discussion, and what people are saying on X right now. Its casual tone appeals to people who find other assistants stiff. For careful, high-stakes work (long documents, precise reasoning, sensitive tasks), the mainstream assistants like [ChatGPT](/learn-chatgpt) and [Claude](/learn-claude) are often steadier choices. As always, [verify anything important](/blog/spot-ai-hallucinations).
 
 ## How to use Grok
 
-Using Grok is like any assistant: ask a clear question and refine. The same prompting fundamentals apply — context, role, task, format. The one thing to lean on is its real-time strength: it's well suited to "what's happening with X right now" questions. For the prompting basics that work everywhere, see [how to write a good AI prompt](/blog/how-to-write-a-prompt).
+Using Grok is like any assistant: ask a clear question and refine. The same prompting fundamentals apply: context, role, task, format. The one thing to lean on is its real-time strength: it's well suited to "what's happening with X right now" questions. For the prompting basics that work everywhere, see [how to write a good AI prompt](/blog/how-to-write-a-prompt).
 
 ## Grok vs ChatGPT: which should you use?
 
-Use Grok for real-time, X-flavored questions and a casual vibe; use ChatGPT as the more polished, versatile all-rounder for general work. Many people keep ChatGPT as a default and reach for Grok when they want a live read on a trending topic. See the wider field in [the best AI apps](/blog/best-ai-apps) and [ChatGPT alternatives](/blog/chatgpt-alternatives). Whatever you use, directing it well — [AI fluency](/blog/what-is-ai-fluency) — is the real skill. Check yours with the free [AI IQ test](/quiz).
+Use Grok for real-time, X-flavored questions and a casual vibe; use ChatGPT as the more polished, versatile all-rounder for general work. Many people keep ChatGPT as a default and reach for Grok when they want a live read on a trending topic. See the wider field in [the best AI apps](/blog/best-ai-apps) and [ChatGPT alternatives](/blog/chatgpt-alternatives). Whatever you use, directing it well ([AI fluency](/blog/what-is-ai-fluency)) is the real skill. Check yours with the free [AI IQ test](/quiz).
 
 ## FAQ
 

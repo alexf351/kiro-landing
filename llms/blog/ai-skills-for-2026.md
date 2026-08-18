@@ -40,20 +40,20 @@ Below are the seven skills that make the difference. None of them require coding
 
 ## The 7 AI skills worth learning
 
-- **Prompting.** Turning a vague need into clear instructions — context, role, task, and format — then refining. It's the highest-leverage skill and it transfers across every tool. Start with [the prompt patterns that work everywhere](/blog/prompt-engineering-patterns).
+- **Prompting.** Turning a vague need into clear instructions (context, role, task, and format), then refining. It's the highest-leverage skill and it transfers across every tool. Start with [the prompt patterns that work everywhere](/blog/prompt-engineering-patterns).
 - **Tool choice.** Knowing which tool fits which job: ChatGPT for general work, Claude for long writing and code, Gemini inside Google, Perplexity for sourced research. See the [comparison](/ai-tools-comparison).
-- **Output judgment.** Telling a good answer from a confident wrong one — the skill that separates fluent users from people who get burned.
+- **Output judgment.** Telling a good answer from a confident wrong one, the skill that separates fluent users from people who get burned.
 - **Verification.** Fact-checking claims, numbers, and sources before relying on them, and knowing how to [catch hallucinations](/blog/spot-ai-hallucinations).
-- **Workflow design.** Folding AI into how you already work — drafting, summarizing, analyzing — so it saves real time instead of being a novelty.
+- **Workflow design.** Folding AI into how you already work (drafting, summarizing, analyzing) so it saves real time instead of being a novelty.
 - **Working with AI agents.** Understanding when to hand a multi-step task to an [AI agent](/blog/ai-agents-explained), how to scope it, and where agents fail.
 - **Continuous learning.** The tools change monthly. The meta-skill of quickly learning whatever comes next is the one that never goes stale.
 
 ## How to build these AI skills
 
-All seven are built the same way any skill is: short, active, repeated practice with feedback — not passive video.
+All seven are built the same way any skill is: short, active, repeated practice with feedback, not passive video.
 
 - **Practice on real tasks** so lessons stick.
-- **Do daily reps** — five focused minutes beats a weekend binge you forget.
+- **Do daily reps**: five focused minutes beats a weekend binge you forget.
 - **Get feedback** and adjust; active recall is what transfers.
 - **Spread your practice** across all seven, not just prompting.
 
@@ -61,7 +61,7 @@ This is the exact loop Iro AI is built around, and the [how to learn AI](/how-to
 
 ## Why these skills are durable (not a fad)
 
-It's tempting to think better models will make these skills obsolete. The opposite is happening. A more capable model still needs a clear goal, good context, and someone who can tell when it's wrong — so the value of aiming it goes _up_, not down. And as AI gets woven into more of everyday work, the cost of not being fluent rises.
+It's tempting to think better models will make these skills obsolete. The opposite is happening. A more capable model still needs a clear goal, good context, and someone who can tell when it's wrong, so the value of aiming it goes _up_, not down. And as AI gets woven into more of everyday work, the cost of not being fluent rises.
 
 The skills above are durable precisely because they're about _you_ directing the tool, not about any single tool's features. The features will change; the ability to learn and direct them is what compounds.
 
@@ -81,7 +81,7 @@ No. The skills that matter most for using AI are communication and judgment skil
 
 **Will AI skills still matter as models improve?**
 
-Yes — more than ever. Better models still need a clear goal, good context, and someone who can catch their mistakes, so the value of directing them rises as they improve.
+Yes. More than ever. Better models still need a clear goal, good context, and someone who can catch their mistakes, so the value of directing them rises as they improve.
 
 ## Read next
 

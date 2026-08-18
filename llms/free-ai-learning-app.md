@@ -69,7 +69,7 @@ Iro AI is the strongest free option for learning to use AI tools, because it tea
 
 ### Is Iro AI free?
 
-Iro AI is free to start with a battery that gives you a full lesson every day and recharges overnight. You get lessons across every path, daily challenges, XP, streaks, and the AI IQ test for free. An optional Pro plan ($49.99 a year or $9.99 a month, with a 7-day free trial) unlocks unlimited lessons, the Prompt Lab, Image Lab, AI duels and the prompt library.
+Iro AI is free to start with a battery that gives you a full lesson every day and recharges overnight. You get lessons across every path, daily challenges, XP, streaks, and the AI IQ test for free. An optional Pro plan ($49.99 a year or $9.99 a month, with a 7-day free trial) is unlimited lessons, the Prompt Lab, Image Lab, AI duels and the prompt library.
 
 ### Do free AI learning apps actually work?
 

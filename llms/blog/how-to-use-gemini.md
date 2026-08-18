@@ -28,7 +28,7 @@ pillar: "ai-tools"
 ## Key takeaways
 
 - Gemini (by Google) is an AI assistant that works on its own and directly inside Google apps like Docs, Gmail, and Sheets.
-- It's free to start at gemini.google.com — type a request in plain language and refine it.
+- It's free to start at gemini.google.com. Type a request in plain language and refine it.
 - Gemini shines when your work already lives in Google Workspace and for multimodal tasks.
 - As with any AI, verify important facts — it can be confidently wrong.
 
@@ -38,11 +38,11 @@ pillar: "ai-tools"
 
 ## Getting started with Gemini
 
-- **Go to gemini.google.com** or open the app and sign in with your Google account — the free tier is plenty.
+- **Go to gemini.google.com** or open the app and sign in with your Google account. The free tier is plenty.
 - **Type a real request**, e.g. _"Summarize this email thread into 3 action items."_
 - **Refine it** with follow-ups until it's right.
 
-No technical skills needed — see [learning AI without coding](/blog/how-to-learn-ai-without-coding).
+No technical skills needed. See [learning AI without coding](/blog/how-to-learn-ai-without-coding).
 
 ## Using Gemini inside Google apps
 
@@ -50,14 +50,14 @@ Gemini's biggest advantage is being where you already work. In **Docs** it draft
 
 ## What is Gemini best at?
 
-- **Working in Google** — native Docs, Gmail, and Sheets integration.
+- **Working in Google**: native Docs, Gmail, and Sheets integration.
 - **Generous free access**, especially for Google users.
-- **Multimodal tasks** — it handles images and media well.
+- **Multimodal tasks**: it handles images and media well.
 - **Everyday drafting and summarizing** tied to your existing files.
 
 ## Gemini vs ChatGPT: which should you use?
 
-Use Gemini if your work lives in Google; use ChatGPT as the more versatile all-rounder. Many people use both. The full comparison is in [ChatGPT vs Gemini](/blog/chatgpt-vs-gemini). Whichever you choose, the skill of prompting and judging output — [AI fluency](/blog/what-is-ai-fluency) — matters more than the tool. See where you stand with the free [AI IQ test](/quiz), and remember to [verify important claims](/blog/spot-ai-hallucinations).
+Use Gemini if your work lives in Google; use ChatGPT as the more versatile all-rounder. Many people use both. The full comparison is in [ChatGPT vs Gemini](/blog/chatgpt-vs-gemini). Whichever you choose, the skill of prompting and judging output ([AI fluency](/blog/what-is-ai-fluency)) matters more than the tool. See where you stand with the free [AI IQ test](/quiz), and remember to [verify important claims](/blog/spot-ai-hallucinations).
 
 ## FAQ
 
@@ -71,7 +71,7 @@ Yes, Gemini has a generous free tier, especially handy if you already use Google
 
 **What is Gemini best for?**
 
-Gemini is best when your work lives in Google — it's built into Docs, Gmail, and Sheets — and for multimodal tasks involving images and media.
+Gemini is best when your work lives in Google (it's built into Docs, Gmail, and Sheets) and for multimodal tasks involving images and media.
 
 **Is Gemini better than ChatGPT?**
 

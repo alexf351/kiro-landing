@@ -27,39 +27,39 @@ pillar: "ai-tools"
 
 ## Key takeaways
 
-- Perplexity is an AI answer engine — it searches the live web and answers your question with inline citations you can verify.
-- It's free to start at perplexity.ai — ask a question in plain language and click the sources to check them.
+- Perplexity is an AI answer engine: it searches the live web and answers your question with inline citations you can verify.
+- It's free to start at perplexity.ai. Ask a question in plain language and click the sources to check them.
 - It's best for research and fact-finding, where seeing sources matters more than open-ended creation.
-- Always click through to the cited sources for anything important — citations make verifying easy.
+- Always click through to the cited sources for anything important. Citations make verifying easy.
 
 ## How do you use Perplexity?
 
-**To use Perplexity, go to perplexity.ai (or the app), ask a question in plain language, and read the answer along with its cited sources.** Unlike a standard chatbot, Perplexity is an _answer engine_: it searches the live web and returns a written answer with inline links to where the information came from. It's free to start, and the citations are the whole point — they let you verify what it tells you.
+**To use Perplexity, go to perplexity.ai (or the app), ask a question in plain language, and read the answer along with its cited sources.** Unlike a standard chatbot, Perplexity is an _answer engine_: it searches the live web and returns a written answer with inline links to where the information came from. It's free to start, and the citations are the whole point: they let you verify what it tells you.
 
 ## Getting started with Perplexity
 
-- **Go to perplexity.ai** or open the app — you can start without an account, though signing up unlocks more.
+- **Go to perplexity.ai** or open the app. You can start without an account, though signing up unlocks more.
 - **Ask a real question**, e.g. _"What are the main differences between the latest iPhone and Pixel?"_
 - **Read the answer and click the sources** to confirm the details, then ask follow-ups to go deeper.
 
-No technical skills needed — see [learning AI without coding](/blog/how-to-learn-ai-without-coding).
+No technical skills needed. See [learning AI without coding](/blog/how-to-learn-ai-without-coding).
 
 ## Why Perplexity's citations matter
 
-Most AI chatbots answer from memory, which is why they can [make things up](/blog/spot-ai-hallucinations). Perplexity grounds its answers in live web results and shows the sources — a technique called [retrieval-augmented generation](/blog/what-is-rag). That makes it far easier to trust, because you can check the original page in one click. For anything important, do exactly that.
+Most AI chatbots answer from memory, which is why they can [make things up](/blog/spot-ai-hallucinations). Perplexity grounds its answers in live web results and shows the sources, a technique called [retrieval-augmented generation](/blog/what-is-rag). That makes it far easier to trust, because you can check the original page in one click. For anything important, do exactly that.
 
 ## What is Perplexity best at?
 
-- **Research** — getting a sourced overview of a topic fast.
-- **Fact-finding** — questions where you need to verify the answer.
-- **Current events** — it searches the live web.
+- **Research**: getting a sourced overview of a topic fast.
+- **Fact-finding**: questions where you need to verify the answer.
+- **Current events**: it searches the live web.
 - **Comparisons and 'what's the best…' questions** with sources attached.
 
 Dig deeper at [learn Perplexity](/learn-perplexity).
 
 ## Perplexity vs ChatGPT: which should you use?
 
-Use Perplexity to _research and verify_; use ChatGPT to _create and do_. They're complementary — many people research in Perplexity, then write or build in ChatGPT. The full breakdown is in [ChatGPT vs Perplexity](/blog/chatgpt-vs-perplexity). Whatever you use, the skill of asking well and checking answers — [AI fluency](/blog/what-is-ai-fluency) — matters most. Check yours with the free [AI IQ test](/quiz).
+Use Perplexity to _research and verify_; use ChatGPT to _create and do_. They're complementary. Many people research in Perplexity, then write or build in ChatGPT. The full breakdown is in [ChatGPT vs Perplexity](/blog/chatgpt-vs-perplexity). Whatever you use, the skill of asking well and checking answers ([AI fluency](/blog/what-is-ai-fluency)) matters most. Check yours with the free [AI IQ test](/quiz).
 
 ## FAQ
 
@@ -81,7 +81,7 @@ They're built for different jobs. Perplexity is better for research and verifyin
 
 **How do I get good at Perplexity quickly?**
 
-Use it for real research questions daily and practice verifying its sources. Short reps build the habit — see how to learn AI in 5 minutes a day and develop full AI fluency across every tool.
+Use it for real research questions daily and practice verifying its sources. Short reps build the habit. See how to learn AI in 5 minutes a day and develop full AI fluency across every tool.
 
 ## Read next
 

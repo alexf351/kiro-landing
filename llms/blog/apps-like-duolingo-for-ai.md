@@ -7,7 +7,7 @@ app_store: "https://apps.apple.com/app/id6759628066"
 language: en-US
 keywords: ["apps like Duolingo for AI", "Duolingo for AI", "gamified AI learning app", "best gamified app to learn AI", "learn AI 5 minutes a day", "AI learning app 2026"]
 date_published: "2026-07-09"
-date_modified: "2026-07-29"
+date_modified: "2026-08-18"
 reading_time_minutes: 6
 author: "Alex Furukawa"
 license: "© 2026 Iro AI"
@@ -21,7 +21,7 @@ pillar: "ai-fluency"
 
 **Canonical:** https://tryiro.com/blog/apps-like-duolingo-for-ai
 **Published:** 2026-07-09
-**Updated:** 2026-07-29
+**Updated:** 2026-08-18
 **Reading time:** ~6 min
 **Author:** Alex Furukawa — Founder of Iro AI
 

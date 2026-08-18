@@ -7,7 +7,7 @@ app_store: "https://apps.apple.com/app/id6759628066"
 language: en-US
 keywords: ["Iro AI vs Learnova", "Learnova alternative", "Learnova review", "AI Tools Mastery app", "best AI learning app 2026"]
 date_published: "2026-05-31"
-date_modified: "2026-07-29"
+date_modified: "2026-08-18"
 reading_time_minutes: 7
 author: "Alex Furukawa"
 license: "© 2026 Iro AI"
@@ -21,7 +21,7 @@ pillar: "ai-fluency"
 
 **Canonical:** https://tryiro.com/blog/iro-ai-vs-learnova
 **Published:** 2026-05-31
-**Updated:** 2026-07-29
+**Updated:** 2026-08-18
 **Reading time:** ~7 min
 **Author:** Alex Furukawa — Founder of Iro AI
 
