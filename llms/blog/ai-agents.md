@@ -4,7 +4,7 @@ canonical_url: "https://tryiro.com/blog/ai-agents"
 site: "Iro AI"
 site_url: "https://tryiro.com"
 language: en-US
-last_updated: "2026-05-28"
+last_updated: "2026-08-13"
 keywords: ["AI agents", "LLM agents", "AI automation", "agentic workflows", "when to use AI agents"]
 author: "Iro AI"
 license: "© 2026 Iro AI"
@@ -16,7 +16,7 @@ type: "content-pillar"
 > A clear-eyed guide to AI agents and automation — what an agent actually is, when it beats a simple workflow, and how to design one that does not break.
 
 **Canonical:** https://tryiro.com/blog/ai-agents
-**Last updated:** 2026-05-28
+**Last updated:** 2026-08-13
 
 No category in AI is more hyped — or more misunderstood — than agents. Strip away the marketing and an agent is something simple: a loop that lets a model decide its own next step, using tools, until a goal is met.
 
@@ -29,6 +29,6 @@ You do not need to be an engineer to follow it. The same judgment applies whethe
 - [AI agents, explained without the jargon](https://tryiro.com/blog/ai-agents-explained) — Strip away the hype: an AI agent is a system that pursues a goal through multiple steps, often using tools. Here's what they really do, when they're worth using, and where they predictably break.
 - [AI automation for beginners: 5 things to automate this week](https://tryiro.com/blog/ai-automation-for-beginners) — A beginner's guide to AI automation: five high-value, no-code tasks you can automate this week, plus how to tell when a simple workflow beats a fancy AI agent.
 - [AI agents vs. automation: what's the difference (and when to use each)?](https://tryiro.com/blog/ai-agents-vs-automation) — AI agents vs automation explained: automation follows fixed rules, an AI agent decides its own steps toward a goal. Learn the difference, see examples, and know when to use each.
-- [What is agentic AI? Agents explained simply (2026)](https://tryiro.com/blog/what-is-agentic-ai) — What is agentic AI? A plain-English explanation of AI agents in 2026 — how they differ from chatbots and generative AI, real examples, when they're useful, and the risks to manage.
+- [What is agentic AI? Agents explained simply (2026)](https://tryiro.com/blog/what-is-agentic-ai) — What is agentic AI? A plain-English explanation of AI agents in 2026: how they differ from chatbots and generative AI, real examples, when they're useful, and the risks to manage.
 - [What is MCP? The protocol quietly wiring AI into everything](https://tryiro.com/blog/what-is-mcp) — MCP (Model Context Protocol) explained in plain terms: what it does, why 400M monthly SDK downloads matter, and what the 2026-07-28 stateless-core spec release changes.
 - [Grok Bot: what SpaceXAI's always-on AI agents actually do](https://tryiro.com/blog/grok-bot) — Grok Bot, SpaceXAI's always-on AI agents, explained: what each Bot does, how it differs from a chatbot, which subscriptions include the beta, what it costs, and what to weigh before giving one your logins.

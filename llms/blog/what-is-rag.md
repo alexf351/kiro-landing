@@ -17,7 +17,7 @@ pillar: "ai-fluency"
 
 # What is RAG (retrieval-augmented generation)? Explained simply
 
-> RAG, or retrieval-augmented generation, is a technique that lets an AI look up real information before answering — so it's more accurate and can cite sources. Here's how it works and why it matters.
+> RAG, or retrieval-augmented generation, is a technique that lets an AI look up real information before answering, so it's more accurate and can cite sources. Here's how it works and why it matters.
 
 **Canonical:** https://tryiro.com/blog/what-is-rag
 **Published:** 2026-06-11
@@ -30,7 +30,7 @@ pillar: "ai-fluency"
 - RAG (retrieval-augmented generation) connects an AI model to a real source of information so it retrieves facts before generating an answer.
 - It reduces hallucinations and lets the AI cite sources and use up-to-date or private data the base model never saw.
 - Perplexity and many AI search and 'chat with your documents' tools use RAG.
-- You don't need to build RAG to benefit — knowing it exists tells you why grounded, cited answers are more trustworthy.
+- You don't need to build RAG to benefit. Knowing it exists tells you why grounded, cited answers are more trustworthy.
 
 ## What is RAG?
 
@@ -40,7 +40,7 @@ pillar: "ai-fluency"
 
 In three steps:
 
-- **Retrieve.** When you ask a question, the system searches a knowledge source — the live web, a company's documents, a database — for the most relevant passages.
+- **Retrieve.** When you ask a question, the system searches a knowledge source (the live web, a company's documents, a database) for the most relevant passages.
 - **Augment.** It adds those passages to your prompt as context.
 - **Generate.** The model writes an answer grounded in that retrieved context, often with citations.
 
@@ -57,21 +57,21 @@ That's why a cited, grounded answer is generally more trustworthy than an unsour
 
 ## Examples of RAG
 
-- **[Perplexity](/learn-perplexity)** and other AI search tools — they retrieve live web results and answer with citations.
-- **"Chat with your documents" tools** — upload a PDF or connect a knowledge base and ask questions about it.
+- **[Perplexity](/learn-perplexity)** and other AI search tools: they retrieve live web results and answer with citations.
+- **"Chat with your documents" tools**: upload a PDF or connect a knowledge base and ask questions about it.
 - **Company assistants** that answer from internal policies and docs.
 
 Anytime an AI shows you sources or answers about your own files, RAG is usually behind it.
 
 ## What RAG means for you
 
-You don't need to build RAG to benefit from it — but knowing it exists makes you a smarter user. When an answer comes with citations, you can check it; when it doesn't, be more skeptical. Preferring grounded, sourced tools for anything factual is part of [AI literacy](/blog/what-is-ai-literacy). Want to sharpen the broader skill of using AI well? Start with the free [AI IQ test](/quiz).
+You don't need to build RAG to benefit from it, but knowing it exists makes you a smarter user. When an answer comes with citations, you can check it; when it doesn't, be more skeptical. Preferring grounded, sourced tools for anything factual is part of [AI literacy](/blog/what-is-ai-literacy). Want to sharpen the broader skill of using AI well? Start with the free [AI IQ test](/quiz).
 
 ## FAQ
 
 **What is RAG in simple terms?**
 
-RAG (retrieval-augmented generation) is when an AI looks up real information from a trusted source before answering, instead of relying only on memorized training data. It retrieves relevant facts, then generates an answer using them — making the response more accurate and citable.
+RAG (retrieval-augmented generation) is when an AI looks up real information from a trusted source before answering, instead of relying only on memorized training data. It retrieves relevant facts, then generates an answer using them, making the response more accurate and citable.
 
 **Why is RAG used?**
 
@@ -87,7 +87,7 @@ A normal language model answers only from what it learned during training. A RAG
 
 **Do I need to understand RAG to use AI well?**
 
-No — knowing what RAG is helps you trust grounded tools, but you do not need to build it. What pays off is practical AI fluency: prompting well, verifying output, and choosing the right tool for the job.
+No. Knowing what RAG is helps you trust grounded tools, but you do not need to build it. What pays off is practical AI fluency: prompting well, verifying output, and choosing the right tool for the job.
 
 ## Read next
 

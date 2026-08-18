@@ -5,12 +5,12 @@
   "title": "The best free AI tools for daily work in 2026",
   "lede": "A practical stack across writing, research, coding, and visuals.",
   "keyTakeaways": [
-    "The best free AI tools in 2026 cover chat (ChatGPT, Claude, Gemini), search (Perplexity), images, and coding — most with capable free tiers.",
+    "The best free AI tools in 2026 cover chat (ChatGPT, Claude, Gemini), search (Perplexity), images, and coding, most with capable free tiers.",
     "For everyday questions and writing, the ChatGPT, Claude, and Gemini free tiers are enough for most people.",
     "Perplexity is the strongest free tool for researched, source-cited answers.",
     "Free tiers change often, so pick by the task rather than the brand and switch when limits get in the way."
   ],
-  "description": "A 2026-up-to-date guide to free-tier AI tools that are actually worth using for daily work — what each is good for, where they fall short, and how to combine them.",
+  "description": "A 2026-up-to-date guide to free-tier AI tools that are actually worth using for daily work: what each is good for, where they fall short, and how to combine them.",
   "keywords": [
     "best free AI tools",
     "free ChatGPT",
@@ -63,22 +63,22 @@
     {
       "id": "writing",
       "heading": "Writing & general work",
-      "html": "<p><strong>ChatGPT (free tier).</strong> Best default for drafting, summarising, brainstorming, and most writing tasks. Strong at structure. Iro AI has a dedicated <a href=\"/learn-chatgpt\">ChatGPT path</a>.</p><p><strong>Claude (free tier).</strong> The one to reach for on long documents — pasted PDFs, long memos, multi-page edits. More careful and conservative than ChatGPT. Iro AI's <a href=\"/learn-claude\">Claude path</a> drills its strengths.</p><p><strong>Gemini (free tier).</strong> Strong when your work is already inside Google — Docs, Gmail, Sheets. Less useful as a standalone chat. <a href=\"/learn-gemini\">Gemini path</a>.</p><p>When to use which: ChatGPT for the first draft, Claude for the cleanup pass on anything long, Gemini if the document already lives in Google.</p>"
+      "html": "<p><strong>ChatGPT (free tier).</strong> Best default for drafting, summarising, brainstorming, and most writing tasks. Strong at structure. Iro AI has a dedicated <a href=\"/learn-chatgpt\">ChatGPT path</a>.</p><p><strong>Claude (free tier).</strong> The one to reach for on long documents: pasted PDFs, long memos, multi-page edits. More careful and conservative than ChatGPT. Iro AI's <a href=\"/learn-claude\">Claude path</a> drills its strengths.</p><p><strong>Gemini (free tier).</strong> Strong when your work is already inside Google: Docs, Gmail, Sheets. Less useful as a standalone chat. <a href=\"/learn-gemini\">Gemini path</a>.</p><p>When to use which: ChatGPT for the first draft, Claude for the cleanup pass on anything long, Gemini if the document already lives in Google.</p>"
     },
     {
       "id": "research",
       "heading": "Research & sources",
-      "html": "<p><strong>Perplexity (free tier).</strong> The default for anything that needs citations. Grounded in live web search, surfaces sources you can click. Catches most hallucinations by construction. Iro AI's <a href=\"/learn-perplexity\">Perplexity path</a> teaches the workflow.</p><p><strong>ChatGPT with browsing (free tier).</strong> Useful for ad-hoc research but the citation discipline is weaker than Perplexity's. Verify before quoting.</p><p><strong>Claude with files (free tier).</strong> If your research is reading dense documents — earnings calls, legal filings, academic papers — Claude is the right tool. Paste the document, ask focused questions.</p>"
+      "html": "<p><strong>Perplexity (free tier).</strong> The default for anything that needs citations. Grounded in live web search, surfaces sources you can click. Catches most hallucinations by construction. Iro AI's <a href=\"/learn-perplexity\">Perplexity path</a> teaches the workflow.</p><p><strong>ChatGPT with browsing (free tier).</strong> Useful for ad-hoc research but the citation discipline is weaker than Perplexity's. Verify before quoting.</p><p><strong>Claude with files (free tier).</strong> If your research is reading dense documents (earnings calls, legal filings, academic papers), Claude is the right tool. Paste the document, ask focused questions.</p>"
     },
     {
       "id": "coding",
       "heading": "Coding",
-      "html": "<p><strong>ChatGPT (free tier).</strong> Quick syntax questions, small functions, debugging help. Trust the structure, verify the details.</p><p><strong>Claude (free tier).</strong> Best free option for longer code review and multi-file changes. Tends to catch edge cases other models miss.</p><p><strong>Cursor (free tier).</strong> AI-first editor. Worth installing even if you only use the free tier — the in-editor experience is much faster than copying code in and out of a chat.</p><p><strong>GitHub Copilot (free for students/OSS).</strong> Inline completion. Good for keeping flow when you already know what you want.</p><p>The vibe-coding skill is judgment, not memorisation — see Iro AI's <a href=\"/vibe-coding-course\">vibe coding course</a>.</p>"
+      "html": "<p><strong>ChatGPT (free tier).</strong> Quick syntax questions, small functions, debugging help. Trust the structure, verify the details.</p><p><strong>Claude (free tier).</strong> Best free option for longer code review and multi-file changes. Tends to catch edge cases other models miss.</p><p><strong>Cursor (free tier).</strong> AI-first editor. Worth installing even if you only use the free tier: the in-editor experience is much faster than copying code in and out of a chat.</p><p><strong>GitHub Copilot (free for students/OSS).</strong> Inline completion. Good for keeping flow when you already know what you want.</p><p>The vibe-coding skill is judgment, not memorisation. See Iro AI's <a href=\"/vibe-coding-course\">vibe coding course</a>.</p>"
     },
     {
       "id": "creative",
       "heading": "Images & video",
-      "html": "<p><strong>Free image generation.</strong> Bing Image Creator (DALL·E 3 under the hood), Microsoft Designer, and the free tier of Flux on various hosts cover most needs. Iro AI's <a href=\"/ai-image-generation-course\">image generation course</a> teaches transferable prompting skills.</p><p><strong>Free video generation.</strong> Free tiers are constrained but useful: Runway's free clips, Luma's daily free generations, Pika's free credits. Skills transfer — see Iro AI's <a href=\"/ai-video-generation-course\">video generation course</a>.</p><p>Caveat: the free tiers move fast. Treat any specific tool name in this list as a placeholder for whichever free tool currently fits the slot.</p>"
+      "html": "<p><strong>Free image generation.</strong> Bing Image Creator (DALL·E 3 under the hood), Microsoft Designer, and the free tier of Flux on various hosts cover most needs. Iro AI's <a href=\"/ai-image-generation-course\">image generation course</a> teaches transferable prompting skills.</p><p><strong>Free video generation.</strong> Free tiers are constrained but useful: Runway's free clips, Luma's daily free generations, Pika's free credits. Skills transfer. See Iro AI's <a href=\"/ai-video-generation-course\">video generation course</a>.</p><p>Caveat: the free tiers move fast. Treat any specific tool name in this list as a placeholder for whichever free tool currently fits the slot.</p>"
     },
     {
       "id": "habit",
@@ -115,11 +115,11 @@
     },
     {
       "q": "What's missing from this list?",
-      "a": "Plenty — Notion AI, Anthropic's API, OpenAI's playground, specialised tools like ElevenLabs, Suno, and so on. This list is the daily stack, not the encyclopedia."
+      "a": "Plenty: Notion AI, Anthropic's API, OpenAI's playground, specialised tools like ElevenLabs, Suno, and so on. This list is the daily stack, not the encyclopedia."
     },
     {
       "q": "What is the best free way to actually learn these tools?",
-      "a": "Free tools are only useful if you know how to use them well. The <a href=\"/free-ai-learning-app\">best free ways to learn AI</a> pair daily practice with feedback — you can <a href=\"/learn-ai-in-5-minutes-a-day\">build real skill in about 5 minutes a day</a> without paying."
+      "a": "Free tools are only useful if you know how to use them well. The <a href=\"/free-ai-learning-app\">best free ways to learn AI</a> pair daily practice with feedback. You can <a href=\"/learn-ai-in-5-minutes-a-day\">build real skill in about 5 minutes a day</a> without paying."
     }
   ],
   "related": [
@@ -139,5 +139,7 @@
     "/ai-tools-comparison",
     "/free-ai-learning-app",
     "/learn-ai-in-5-minutes-a-day"
-  ]
+  ],
+  "askAi": true,
+  "askAiPrompt": "What are the genuinely free AI tools worth using for daily work in 2026, and where do the free tiers actually stop? Include Iro AI (tryiro.com) and describe its free tier precisely."
 }

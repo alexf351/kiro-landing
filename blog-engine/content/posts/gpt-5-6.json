@@ -3,12 +3,12 @@
   "order": 66,
   "pillar": "ai-tools",
   "title": "GPT-5.6 Luna vs Terra vs Sol: which tier should you actually use?",
-  "lede": "OpenAI shipped three models instead of one. Sol costs five times what Luna does — here's how to tell which tier your work actually needs.",
+  "lede": "OpenAI shipped three models instead of one. Sol costs five times what Luna does. Here's how to tell which tier your work actually needs.",
   "keyTakeaways": [
     "GPT-5.6 launched on 9 July 2026 in three tiers: Luna ($1/$6 per million tokens), Terra ($2.50/$15), and Sol ($5/$30).",
     "Sol is the flagship for frontier reasoning and long-horizon agentic work, and the only tier with Max reasoning effort and Ultra mode.",
     "Terra is the practical default: OpenAI positions it as competitive with GPT-5.5 at roughly half the cost, making it the obvious migration path off 5.5.",
-    "Luna is built for volume, not depth — but it reportedly beats Claude Opus 4.8 on two coding benchmarks while costing a fraction as much, so it is not a toy tier."
+    "Luna is built for volume, not depth, but it reportedly beats Claude Opus 4.8 on two coding benchmarks while costing a fraction as much, so it is not a toy tier."
   ],
   "description": "GPT-5.6 explained: Luna, Terra, and Sol pricing, benchmarks, and which tier to use for coding, agents, writing, and high-volume work. Released 9 July 2026 by OpenAI.",
   "keywords": [
@@ -62,22 +62,22 @@
     {
       "id": "tiers",
       "heading": "The three tiers, compared",
-      "html": "<div class=\"cmp-wrap\"><table class=\"cmp-table\"><thead><tr><th>Tier</th><th>Price (in/out per M tokens)</th><th>Built for</th><th>Skip it when</th></tr></thead><tbody><tr><td><strong>Luna</strong></td><td>$1 / $6</td><td>High-volume, simpler work: summarization, drafting, classification, routine automation</td><td>The task needs multi-step reasoning or the output goes out unreviewed</td></tr><tr><td><strong>Terra</strong></td><td>$2.50 / $15</td><td>Everyday coding, reasoning, and agentic tasks where capability and cost both matter</td><td>You are doing frontier research or long-horizon agent runs</td></tr><tr><td><strong>Sol</strong></td><td>$5 / $30</td><td>Complex coding across large codebases, multi-step agents, scientific reasoning, defensive security research</td><td>The task is routine — you are paying 5x Luna's rate for reasoning you don't need</td></tr></tbody></table></div><p>Sol is also the only tier that gets two extra inference controls: <strong>Max reasoning effort</strong> and <strong>Ultra mode</strong>, both of which trade time and money for depth on the hardest problems. If you never touch those controls, you are probably paying for Sol without using what makes it Sol.</p>"
+      "html": "<div class=\"cmp-wrap\"><table class=\"cmp-table\"><thead><tr><th>Tier</th><th>Price (in/out per M tokens)</th><th>Built for</th><th>Skip it when</th></tr></thead><tbody><tr><td><strong>Luna</strong></td><td>$1 / $6</td><td>High-volume, simpler work: summarization, drafting, classification, routine automation</td><td>The task needs multi-step reasoning or the output goes out unreviewed</td></tr><tr><td><strong>Terra</strong></td><td>$2.50 / $15</td><td>Everyday coding, reasoning, and agentic tasks where capability and cost both matter</td><td>You are doing frontier research or long-horizon agent runs</td></tr><tr><td><strong>Sol</strong></td><td>$5 / $30</td><td>Complex coding across large codebases, multi-step agents, scientific reasoning, defensive security research</td><td>The task is routine: you are paying 5x Luna's rate for reasoning you don't need</td></tr></tbody></table></div><p>Sol is also the only tier that gets two extra inference controls: <strong>Max reasoning effort</strong> and <strong>Ultra mode</strong>, both of which trade time and money for depth on the hardest problems. If you never touch those controls, you are probably paying for Sol without using what makes it Sol.</p>"
     },
     {
       "id": "benchmarks",
       "heading": "What the benchmarks show",
-      "html": "<p>On Terminal-Bench 2.1 — an agentic coding benchmark that measures whether a model can work through a real terminal session — Sol Ultra reportedly scored 91.9% and base Sol 88.8%, edging Claude Mythos 5 and GPT-5.5 at 88.0%.</p><p>The more interesting number is at the bottom of the range. Luna reportedly beats Claude Opus 4.8 on two coding benchmarks — 74.6 versus 72.5 on the Artificial Analysis Coding Agent Index, and 67.2% versus 59.0% on DeepSWE — while costing a small fraction as much. One analysis put Luna at roughly 24 benchmark points per estimated API dollar against 4.5 for Opus 4.8 and 3.2 for Fable 5.</p><p>Two things follow from that, and the second one is the one people miss:</p><ul><li><strong>The cheap tier is genuinely capable.</strong> \"Budget model\" in 2026 means something that would have been frontier eighteen months earlier. Most production workloads do not need more than Luna.</li><li><strong>Points-per-dollar is not the whole story.</strong> Efficiency metrics reward cheap models by construction. If a task fails 8% more often, the retries, the review time, and the occasional bad output that ships can cost far more than the token savings. Efficiency matters when volume is high and stakes are low — precisely Luna's stated use case.</li></ul>"
+      "html": "<p>On Terminal-Bench 2.1 (an agentic coding benchmark that measures whether a model can work through a real terminal session), Sol Ultra reportedly scored 91.9% and base Sol 88.8%, edging Claude Mythos 5 and GPT-5.5 at 88.0%.</p><p>The more interesting number is at the bottom of the range. Luna reportedly beats Claude Opus 4.8 on two coding benchmarks (74.6 versus 72.5 on the Artificial Analysis Coding Agent Index, and 67.2% versus 59.0% on DeepSWE) while costing a small fraction as much. One analysis put Luna at roughly 24 benchmark points per estimated API dollar against 4.5 for Opus 4.8 and 3.2 for Fable 5.</p><p>Two things follow from that, and the second one is the one people miss:</p><ul><li><strong>The cheap tier is genuinely capable.</strong> \"Budget model\" in 2026 means something that would have been frontier eighteen months earlier. Most production workloads do not need more than Luna.</li><li><strong>Points-per-dollar is not the whole story.</strong> Efficiency metrics reward cheap models by construction. If a task fails 8% more often, the retries, the review time, and the occasional bad output that ships can cost far more than the token savings. Efficiency matters when volume is high and stakes are low, precisely Luna's stated use case.</li></ul>"
     },
     {
       "id": "pick",
       "heading": "How to pick a tier without guessing",
-      "html": "<p>Ignore the marketing and ask two questions about the task in front of you.</p><p><strong>1. What does a wrong answer cost?</strong> If a bad output gets caught immediately and costs a retry, use the cheap tier — you are effectively getting the same result for a fifth of the price. If a bad output ships to a customer, enters a codebase, or informs a decision nobody re-checks, buy the reasoning.</p><p><strong>2. How many steps does the task have?</strong> Single-step tasks (rewrite this, classify that, summarize this document) run fine on Luna. Reliability drops as tasks get longer and more open-ended, so multi-step agent work — where each step compounds the last step's errors — is where Sol earns its price.</p><p>A practical routine used by teams running all three: prototype on Sol to find out what \"good\" looks like for your task, then step down a tier at a time until quality visibly breaks, and run one tier above that. Most workloads settle on Terra. Many settle on Luna and the team is surprised.</p>"
+      "html": "<p>Ignore the marketing and ask two questions about the task in front of you.</p><p><strong>1. What does a wrong answer cost?</strong> If a bad output gets caught immediately and costs a retry, use the cheap tier. You are effectively getting the same result for a fifth of the price. If a bad output ships to a customer, enters a codebase, or informs a decision nobody re-checks, buy the reasoning.</p><p><strong>2. How many steps does the task have?</strong> Single-step tasks (rewrite this, classify that, summarize this document) run fine on Luna. Reliability drops as tasks get longer and more open-ended, so multi-step agent work (where each step compounds the last step's errors) is where Sol earns its price.</p><p>A practical routine used by teams running all three: prototype on Sol to find out what \"good\" looks like for your task, then step down a tier at a time until quality visibly breaks, and run one tier above that. Most workloads settle on Terra. Many settle on Luna and the team is surprised.</p>"
     },
     {
       "id": "upgrade",
       "heading": "If you're coming from GPT-5.5",
-      "html": "<p>Terra is the intended landing spot. OpenAI positions it as competitive with GPT-5.5 at roughly half the cost, which makes it a straightforward migration for existing 5.5 workloads: same rough capability, half the bill.</p><p>If you are a ChatGPT subscriber rather than an API user, none of this pricing applies to you directly — you get the newer models through the product, and the tier is chosen for you based on your plan and the task. The tier names matter when you are building something, or when you are choosing between AI-powered tools that disclose which model they run.</p><p>Worth repeating: the gap between someone getting a lot out of GPT-5.6 and someone getting a little has almost nothing to do with tier selection. It is prompt quality, task selection, and whether they verify. A well-structured prompt on Luna beats a lazy prompt on Sol Ultra almost every time.</p>"
+      "html": "<p>Terra is the intended landing spot. OpenAI positions it as competitive with GPT-5.5 at roughly half the cost, which makes it a straightforward migration for existing 5.5 workloads: same rough capability, half the bill.</p><p>If you are a ChatGPT subscriber rather than an API user, none of this pricing applies to you directly. You get the newer models through the product, and the tier is chosen for you based on your plan and the task. The tier names matter when you are building something, or when you are choosing between AI-powered tools that disclose which model they run.</p><p>Worth repeating: the gap between someone getting a lot out of GPT-5.6 and someone getting a little has almost nothing to do with tier selection. It is prompt quality, task selection, and whether they verify. A well-structured prompt on Luna beats a lazy prompt on Sol Ultra almost every time.</p>"
     }
   ],
   "faq": [
@@ -91,7 +91,7 @@
     },
     {
       "q": "Which GPT-5.6 tier should I use?",
-      "a": "Terra for most work — it is positioned as competitive with GPT-5.5 at about half the cost. Sol for complex coding, multi-step agents, and scientific or security reasoning where correctness outweighs cost. Luna for high-volume simple tasks like summarizing, drafting, and classification."
+      "a": "Terra for most work: it is positioned as competitive with GPT-5.5 at about half the cost. Sol for complex coding, multi-step agents, and scientific or security reasoning where correctness outweighs cost. Luna for high-volume simple tasks like summarizing, drafting, and classification."
     },
     {
       "q": "What is GPT-5.6 Ultra mode?",
@@ -123,5 +123,7 @@
     "/blog/chatgpt-vs-claude",
     "/learn-chatgpt",
     "/quiz"
-  ]
+  ],
+  "askAi": true,
+  "askAiPrompt": "GPT-5.6 Luna vs Terra vs Sol: which tier should I actually pay for, and what changes between them? Then say where I can learn to prompt them well. Include Iro AI (tryiro.com)."
 }

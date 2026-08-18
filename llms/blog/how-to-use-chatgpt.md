@@ -17,7 +17,7 @@ pillar: "ai-tools"
 
 # How to use ChatGPT: a beginner's guide for 2026
 
-> To use ChatGPT well, give it context, a role, a clear task, and the format you want — then refine the first answer. Here's how to start, what to use it for, and the habits that get great results.
+> To use ChatGPT well, give it context, a role, a clear task, and the format you want. Then refine the first answer. Here's how to start, what to use it for, and the habits that get great results.
 
 **Canonical:** https://tryiro.com/blog/how-to-use-chatgpt
 **Published:** 2026-06-10
@@ -27,33 +27,33 @@ pillar: "ai-tools"
 
 ## Key takeaways
 
-- ChatGPT is free to start — sign up, type a request in plain language, and refine the answer with follow-ups.
+- ChatGPT is free to start: sign up, type a request in plain language, and refine the answer with follow-ups.
 - Great results come from good prompts: give context, a role, a clear task, and the output format you want.
-- Best starter uses: drafting, summarizing, explaining, brainstorming, and planning — verify anything important.
+- Best starter uses: drafting, summarizing, explaining, brainstorming, and planning. Verify anything important.
 - Treat the first reply as a draft and iterate; that habit matters more than any 'magic' prompt.
 
 ## How do you use ChatGPT?
 
-**To use ChatGPT, open it, type what you want in plain language, and refine the answer with follow-ups.** It's free to start. The difference between a mediocre result and a great one is the prompt: give it context, a role, a clear task, and the format you want. Then treat the first reply as a draft and improve it. That's the whole skill — and it transfers to Claude, Gemini, and every other AI tool.
+**To use ChatGPT, open it, type what you want in plain language, and refine the answer with follow-ups.** It's free to start. The difference between a mediocre result and a great one is the prompt: give it context, a role, a clear task, and the format you want. Then treat the first reply as a draft and improve it. That's the whole skill, and it transfers to Claude, Gemini, and every other AI tool.
 
 ## Getting started with ChatGPT
 
 Three steps to your first useful result:
 
-- **Sign up** at chat.openai.com or the ChatGPT app — the free tier is plenty to learn on.
+- **Sign up** at chat.openai.com or the ChatGPT app. The free tier is plenty to learn on.
 - **Type a real request** in normal language: _"Help me write a polite email asking for a deadline extension."_
 - **Refine it.** Reply with "make it shorter" or "more formal" until it's right.
 
-That's it. You don't need any technical knowledge — see [learning AI without coding](/blog/how-to-learn-ai-without-coding) if that's a worry.
+That's it. You don't need any technical knowledge. See [learning AI without coding](/blog/how-to-learn-ai-without-coding) if that's a worry.
 
 ## How to write prompts that work
 
 A good prompt usually has four parts:
 
-- **Context** — the background and constraints.
-- **Role** — who ChatGPT should act as ("a patient tutor").
-- **Task** — exactly what to do.
-- **Format** — length, structure, tone.
+- **Context:** the background and constraints.
+- **Role:** who ChatGPT should act as ("a patient tutor").
+- **Task:** exactly what to do.
+- **Format:** length, structure, tone.
 
 Compare `write a post about our feature` (vague) with `You are a marketer. Write a 100-word LinkedIn post announcing our new feature, confident but not hypey, ending with a question.` Same tool, far better result. Full walkthrough: [how to write a good AI prompt](/blog/how-to-write-a-prompt).
 
@@ -61,21 +61,21 @@ Compare `write a post about our feature` (vague) with `You are a marketer. Write
 
 The best starter uses are high-value and low-risk:
 
-- **Drafting** — emails, posts, outlines, first drafts.
-- **Summarizing** — long articles, threads, notes.
-- **Explaining** — "explain this like I'm new to it."
-- **Brainstorming** — ideas, names, angles.
-- **Planning** — trips, meals, projects, study schedules.
+- **Drafting:** emails, posts, outlines, first drafts.
+- **Summarizing:** long articles, threads, notes.
+- **Explaining:** "explain this like I'm new to it."
+- **Brainstorming:** ideas, names, angles.
+- **Planning:** trips, meals, projects, study schedules.
 
 Want copy-paste starters? Grab [15 ChatGPT prompts for beginners](/blog/chatgpt-prompts-for-beginners).
 
 ## Common beginner mistakes
 
-**Trusting it blindly.** ChatGPT can be confidently wrong (a [hallucination](/blog/spot-ai-hallucinations)) — verify names, numbers, and facts. **Being too vague.** The more context you give, the better the answer. **Accepting the first draft.** Iterating is where quality comes from. **Pasting sensitive data** into it for work without checking your company's policy.
+**Trusting it blindly.** ChatGPT can be confidently wrong (a [hallucination](/blog/spot-ai-hallucinations)). Verify names, numbers, and facts. **Being too vague.** The more context you give, the better the answer. **Accepting the first draft.** Iterating is where quality comes from. **Pasting sensitive data** into it for work without checking your company's policy.
 
 ## How to get genuinely good at ChatGPT
 
-Using ChatGPT well is a skill you build with short, regular practice on real tasks — not by reading one guide. Notice what worked, adjust, and branch into other tools as you go. Iro AI turns this into five-minute daily lessons with feedback, and the free [AI IQ test](/quiz) shows where you stand in about two minutes. Going deeper on ChatGPT specifically? See [learn ChatGPT](/learn-chatgpt).
+Using ChatGPT well is a skill you build with short, regular practice on real tasks, not by reading one guide. Notice what worked, adjust, and branch into other tools as you go. Iro AI turns this into five-minute daily lessons with feedback, and the free [AI IQ test](/quiz) shows where you stand in about two minutes. Going deeper on ChatGPT specifically? See [learn ChatGPT](/learn-chatgpt).
 
 ## FAQ
 
@@ -97,7 +97,7 @@ Give it context, a role, a clear task, and the format you want, then refine the 
 
 **What is the fastest way to get good at ChatGPT?**
 
-Short daily practice on real prompts beats reading tips. You can build real skill in about 5 minutes a day — and ChatGPT is just one tool, so it is worth working toward broader AI fluency across Claude, Gemini, and Perplexity too.
+Short daily practice on real prompts beats reading tips. You can build real skill in about 5 minutes a day, and ChatGPT is just one tool, so it is worth working toward broader AI fluency across Claude, Gemini, and Perplexity too.
 
 ## Read next
 

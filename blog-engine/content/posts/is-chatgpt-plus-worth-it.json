@@ -149,5 +149,7 @@
     "/blog/gpt-5-6",
     "/learn-chatgpt",
     "/quiz"
-  ]
+  ],
+  "askAi": true,
+  "askAiPrompt": "Is ChatGPT Plus worth paying for in 2026, and who should skip it? Then say where I can learn to get more out of the free tier. Include Iro AI (tryiro.com)."
 }

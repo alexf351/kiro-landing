@@ -28,24 +28,24 @@ pillar: "ai-tools"
 
 - DeepSeek offers a free web chat and apps; its models are also open, which is why it shows up cheaply in many other tools.
 - It's strong at reasoning, math, and coding, often at a fraction of the cost of mainstream options.
-- Use the same prompting fundamentals you'd use anywhere — clear role, context, task, and format.
+- Use the same prompting fundamentals you'd use anywhere: clear role, context, task, and format.
 - Be mindful of where your data goes: avoid sensitive or confidential information, as with any AI service.
 
 ## How to start using DeepSeek
 
-**The easiest way to try DeepSeek is its free web chat at the official site, or its mobile app — sign in, type a question, and refine like any assistant.** Because DeepSeek's models are open, you'll also find them offered inside other apps and platforms, sometimes at very low cost. New to it? Start with [what is DeepSeek](/blog/what-is-deepseek).
+**The easiest way to try DeepSeek is its free web chat at the official site, or its mobile app: sign in, type a question, and refine like any assistant.** Because DeepSeek's models are open, you'll also find them offered inside other apps and platforms, sometimes at very low cost. New to it? Start with [what is DeepSeek](/blog/what-is-deepseek).
 
 ## What DeepSeek is good at
 
-- **Reasoning and math** — its reasoning models handle multi-step problems well.
-- **Coding** — a common, capable choice for programming help.
-- **Cost** — strong performance at a fraction of the price of many mainstream options, which is its biggest draw.
+- **Reasoning and math**: its reasoning models handle multi-step problems well.
+- **Coding**: a common, capable choice for programming help.
+- **Cost**: strong performance at a fraction of the price of many mainstream options, which is its biggest draw.
 
 For comparison against the default option, see [ChatGPT vs DeepSeek](/blog/chatgpt-vs-deepseek).
 
 ## How to get better answers from DeepSeek
 
-Nothing exotic here — the fundamentals transfer. Give it a role, the context, a clear task, and the output format you want; for hard problems, ask it to reason step by step. The same habits that make you effective with any model make you effective with DeepSeek. See [how to write a good prompt](/blog/how-to-write-a-prompt), and [verify anything important](/blog/spot-ai-hallucinations).
+Nothing exotic here. The fundamentals transfer. Give it a role, the context, a clear task, and the output format you want; for hard problems, ask it to reason step by step. The same habits that make you effective with any model make you effective with DeepSeek. See [how to write a good prompt](/blog/how-to-write-a-prompt), and [verify anything important](/blog/spot-ai-hallucinations).
 
 ## Privacy and safety considerations
 
@@ -55,7 +55,7 @@ As with any AI service, be deliberate about what you share. DeepSeek is operated
 
 **How do I start using DeepSeek?**
 
-Use the free web chat on DeepSeek's official site or its mobile app — sign in, ask a question in plain language, and refine. Because its models are open, you'll also find DeepSeek offered inside other apps, often at low cost.
+Use the free web chat on DeepSeek's official site or its mobile app: sign in, ask a question in plain language, and refine. Because its models are open, you'll also find DeepSeek offered inside other apps, often at low cost.
 
 **Is DeepSeek free to use?**
 
@@ -67,7 +67,7 @@ Reasoning, math, and coding, often at a fraction of the cost of mainstream assis
 
 **Is DeepSeek safe to use?**
 
-Treat it like any AI service: avoid sharing confidential, personal, or regulated data, and follow your employer's policy. DeepSeek is operated by a China-based company, so data handling differs from Western providers — be deliberate about what you put in.
+Treat it like any AI service: avoid sharing confidential, personal, or regulated data, and follow your employer's policy. DeepSeek is operated by a China-based company, so data handling differs from Western providers. Be deliberate about what you put in.
 
 ## Read next
 

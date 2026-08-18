@@ -103,4 +103,22 @@
       <image:caption>Iro AI Iridescent rank mascot — the top rank tier</image:caption>
     </image:image>
   </url>
+  <url>
+    <loc>https://tryiro.com/best-ai-learning-app</loc>
+    <image:image>
+      <image:loc>https://tryiro.com/assets/screens/learning-path.webp</image:loc>
+      <image:caption>An Iro AI learning path with lessons unlocked in order, the daily Battery, streak and rank</image:caption>
+      <image:title>Iro AI learning path</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://tryiro.com/assets/screens/prompt-builder.webp</image:loc>
+      <image:caption>An Iro AI exercise matching ChatGPT, Claude, Perplexity and Gemini to what each is best at</image:caption>
+      <image:title>Iro AI matching exercise</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://tryiro.com/assets/screens/duels-tab.webp</image:loc>
+      <image:caption>The Iro AI duels screen showing an ELO rating and the matched opponent range</image:caption>
+      <image:title>Iro AI duels</image:title>
+    </image:image>
+  </url>
 </urlset>

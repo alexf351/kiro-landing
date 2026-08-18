@@ -371,6 +371,38 @@
     {
       "source": "/blog/wondering-alternatives",
       "destination": "/blog/wondering-alternatives.html"
+    },
+    {
+      "source": "/blog/ai-app-vs-ai-bootcamp",
+      "destination": "/blog/ai-app-vs-ai-bootcamp.html"
+    },
+    {
+      "source": "/blog/ai-learning-app-for-professionals",
+      "destination": "/blog/ai-learning-app-for-professionals.html"
+    },
+    {
+      "source": "/blog/apps-like-duolingo-for-ai",
+      "destination": "/blog/apps-like-duolingo-for-ai.html"
+    },
+    {
+      "source": "/blog/coursiv-vs-learnova",
+      "destination": "/blog/coursiv-vs-learnova.html"
+    },
+    {
+      "source": "/blog/does-duolingo-teach-ai",
+      "destination": "/blog/does-duolingo-teach-ai.html"
+    },
+    {
+      "source": "/blog/how-to-choose-an-ai-learning-app",
+      "destination": "/blog/how-to-choose-an-ai-learning-app.html"
+    },
+    {
+      "source": "/blog/how-to-use-ai-to-summarize-a-document",
+      "destination": "/blog/how-to-use-ai-to-summarize-a-document.html"
+    },
+    {
+      "source": "/blog/how-to-use-ai-to-write-a-cover-letter",
+      "destination": "/blog/how-to-use-ai-to-write-a-cover-letter.html"
     }
   ]
 }

@@ -3,7 +3,7 @@
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://tryiro.com/blog</loc>
-    <lastmod>2026-05-28</lastmod>
+    <lastmod>2026-08-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -13,7 +13,7 @@
   </url>
   <url>
     <loc>https://tryiro.com/blog/ai-fluency</loc>
-    <lastmod>2026-05-28</lastmod>
+    <lastmod>2026-08-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.88</priority>
     <image:image>
@@ -23,7 +23,7 @@
   </url>
   <url>
     <loc>https://tryiro.com/blog/prompt-engineering</loc>
-    <lastmod>2026-05-28</lastmod>
+    <lastmod>2026-08-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.88</priority>
     <image:image>
@@ -33,7 +33,7 @@
   </url>
   <url>
     <loc>https://tryiro.com/blog/ai-agents</loc>
-    <lastmod>2026-05-28</lastmod>
+    <lastmod>2026-08-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.88</priority>
     <image:image>
@@ -43,7 +43,7 @@
   </url>
   <url>
     <loc>https://tryiro.com/blog/ai-tools</loc>
-    <lastmod>2026-06-05</lastmod>
+    <lastmod>2026-08-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.88</priority>
     <image:image>
@@ -143,7 +143,7 @@
   </url>
   <url>
     <loc>https://tryiro.com/blog/iro-ai-vs-coursiv</loc>
-    <lastmod>2026-07-29</lastmod>
+    <lastmod>2026-08-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -153,7 +153,7 @@
   </url>
   <url>
     <loc>https://tryiro.com/blog/iro-ai-vs-learnova</loc>
-    <lastmod>2026-07-29</lastmod>
+    <lastmod>2026-08-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -173,7 +173,7 @@
   </url>
   <url>
     <loc>https://tryiro.com/blog/iro-ai-vs-duolingo</loc>
-    <lastmod>2026-07-29</lastmod>
+    <lastmod>2026-08-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -583,12 +583,12 @@
   </url>
   <url>
     <loc>https://tryiro.com/blog/what-is-grok</loc>
-    <lastmod>2026-06-14</lastmod>
+    <lastmod>2026-08-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
     <image:image>
       <image:loc>https://tryiro.com/assets/og/what-is-grok.png</image:loc>
-      <image:title>What is Grok? xAI's chatbot, explained</image:title>
+      <image:title>What is Grok? SpaceXAI's chatbot, explained</image:title>
     </image:image>
   </url>
   <url>
@@ -633,7 +633,7 @@
   </url>
   <url>
     <loc>https://tryiro.com/blog/how-to-use-grok</loc>
-    <lastmod>2026-06-22</lastmod>
+    <lastmod>2026-08-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -683,7 +683,7 @@
   </url>
   <url>
     <loc>https://tryiro.com/blog/new-ai-models-2026</loc>
-    <lastmod>2026-07-29</lastmod>
+    <lastmod>2026-08-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -713,12 +713,12 @@
   </url>
   <url>
     <loc>https://tryiro.com/blog/grok-4-5</loc>
-    <lastmod>2026-07-26</lastmod>
+    <lastmod>2026-08-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
     <image:image>
       <image:loc>https://tryiro.com/assets/og/grok-4-5.png</image:loc>
-      <image:title>Grok 4.5: xAI's coding model, reviewed honestly</image:title>
+      <image:title>Grok 4.5: SpaceXAI's coding model, reviewed honestly</image:title>
     </image:image>
   </url>
   <url>
@@ -813,7 +813,7 @@
   </url>
   <url>
     <loc>https://tryiro.com/blog/cancel-finestro</loc>
-    <lastmod>2026-08-06</lastmod>
+    <lastmod>2026-08-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -823,7 +823,7 @@
   </url>
   <url>
     <loc>https://tryiro.com/blog/cancel-coursiv</loc>
-    <lastmod>2026-08-06</lastmod>
+    <lastmod>2026-08-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -863,7 +863,7 @@
   </url>
   <url>
     <loc>https://tryiro.com/blog/ai-subscription-traps</loc>
-    <lastmod>2026-08-06</lastmod>
+    <lastmod>2026-08-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -929,6 +929,86 @@
     <image:image>
       <image:loc>https://tryiro.com/assets/og/wondering-alternatives.png</image:loc>
       <image:title>The best Wondering alternatives in 2026</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://tryiro.com/blog/ai-app-vs-ai-bootcamp</loc>
+    <lastmod>2026-07-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://tryiro.com/assets/og/ai-app-vs-ai-bootcamp.png</image:loc>
+      <image:title>AI learning app vs AI bootcamp: which is worth it?</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://tryiro.com/blog/ai-learning-app-for-professionals</loc>
+    <lastmod>2026-07-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://tryiro.com/assets/og/ai-learning-app-for-professionals.png</image:loc>
+      <image:title>The best AI learning app for working professionals</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://tryiro.com/blog/apps-like-duolingo-for-ai</loc>
+    <lastmod>2026-08-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://tryiro.com/assets/og/apps-like-duolingo-for-ai.png</image:loc>
+      <image:title>Apps like Duolingo, but for AI</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://tryiro.com/blog/coursiv-vs-learnova</loc>
+    <lastmod>2026-08-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://tryiro.com/assets/og/coursiv-vs-learnova.png</image:loc>
+      <image:title>Coursiv vs Learnova: which AI learning app is worth it in 2026?</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://tryiro.com/blog/does-duolingo-teach-ai</loc>
+    <lastmod>2026-07-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://tryiro.com/assets/og/does-duolingo-teach-ai.png</image:loc>
+      <image:title>Does Duolingo teach AI?</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://tryiro.com/blog/how-to-choose-an-ai-learning-app</loc>
+    <lastmod>2026-07-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://tryiro.com/assets/og/how-to-choose-an-ai-learning-app.png</image:loc>
+      <image:title>How to choose an AI learning app</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://tryiro.com/blog/how-to-use-ai-to-summarize-a-document</loc>
+    <lastmod>2026-07-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://tryiro.com/assets/og/how-to-use-ai-to-summarize-a-document.png</image:loc>
+      <image:title>How to use AI to summarize a document</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://tryiro.com/blog/how-to-use-ai-to-write-a-cover-letter</loc>
+    <lastmod>2026-07-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://tryiro.com/assets/og/how-to-use-ai-to-write-a-cover-letter.png</image:loc>
+      <image:title>How to use AI to write a cover letter</image:title>
     </image:image>
   </url>
 </urlset>

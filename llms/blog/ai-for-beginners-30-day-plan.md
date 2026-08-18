@@ -29,20 +29,20 @@ pillar: "ai-fluency"
 
 - You can build real AI fluency in about five minutes a day over 30 days, with no technical background required.
 - Week 1 covers the basics of ChatGPT and Claude; weeks 2 to 4 add prompting, fact-checking, and applying AI to your own work.
-- Daily practice beats binge-watching tutorials — short, active reps with feedback are how skills actually stick.
+- Daily practice beats binge-watching tutorials: short, active reps with feedback are how skills actually stick.
 - By day 30 the goal is a daily AI habit, not a list of memorized tricks.
 
 ## Start here: what you are actually learning
 
-Most beginners try to learn AI by collecting tips. They watch a few videos, save some clever prompts, and end up no more capable than when they started. The skill that matters is not a list of tricks — it is judgment: framing a task well, picking the right tool, and knowing when the answer is wrong.
+Most beginners try to learn AI by collecting tips. They watch a few videos, save some clever prompts, and end up no more capable than when they started. The skill that matters is not a list of tricks; it is judgment: framing a task well, picking the right tool, and knowing when the answer is wrong.
 
 This plan builds that judgment in four weeks, five minutes a day. You only need a free account on one AI assistant to start. By the end you will be able to delegate real work to AI and trust the result, because you will know how to check it.
 
 ## Week 1: get comfortable
 
-The goal this week is reps, not perfection. Pick one assistant — [ChatGPT](/learn-chatgpt) is the easiest first choice — and use it for one small real task every day: draft an email, summarise an article, plan your week, explain a concept you half-understand.
+The goal this week is reps, not perfection. Pick one assistant ([ChatGPT](/learn-chatgpt) is the easiest first choice) and use it for one small real task every day: draft an email, summarise an article, plan your week, explain a concept you half-understand.
 
-Do not optimise yet. You are building the reflex of reaching for AI when a task appears. Notice which answers feel useful and which feel generic — that gap is the thing the next three weeks fix.
+Do not optimise yet. You are building the reflex of reaching for AI when a task appears. Notice which answers feel useful and which feel generic. That gap is the thing the next three weeks fix.
 
 ## Week 2: prompt with structure
 
@@ -56,29 +56,29 @@ Practise rewriting last week's vague prompts into structured ones and compare th
 
 This is the week that separates confident users from burned ones. AI states wrong things as confidently as right ones, so you have to supply the doubt it does not. Every day, take one factual claim an AI gives you and check it before you trust it.
 
-- **Names, dates, numbers, citations** — treat them as hypotheses until verified.
+- **Names, dates, numbers, citations**: treat them as hypotheses until verified.
 - **Cross-check** against a grounded tool like [Perplexity](/learn-perplexity) that cites real sources.
-- **Ask for sources after the claim** — if they do not exist, do not quote it.
+- **Ask for sources after the claim**: if they do not exist, do not quote it.
 
 The full set of fast checks lives in [how to spot AI hallucinations in 5 seconds](/blog/spot-ai-hallucinations).
 
 ## Week 4: build a small workflow
 
-In the final week, chain your new skills into one repeatable workflow you will actually reuse. Pick a recurring task — weekly report, content draft, research summary — and design a three-step process: draft, critique, finalise.
+In the final week, chain your new skills into one repeatable workflow you will actually reuse. Pick a recurring task (weekly report, content draft, research summary) and design a three-step process: draft, critique, finalise.
 
-Learn which tool fits each step. The [best free AI tools for daily work](/blog/best-free-ai-tools-2026) breaks down what each assistant is good at. If your workflow needs the model to make decisions on its own, read [AI agents, explained without the jargon](/blog/ai-agents-explained) first — most tasks are better as a simple workflow than an agent.
+Learn which tool fits each step. The [best free AI tools for daily work](/blog/best-free-ai-tools-2026) breaks down what each assistant is good at. If your workflow needs the model to make decisions on its own, read [AI agents, explained without the jargon](/blog/ai-agents-explained) first. Most tasks are better as a simple workflow than an agent.
 
 ## Keep the habit going
 
-Thirty days is enough to get capable. Staying capable is about not stopping. The tool that beats every other tool is the one you open every day — and a streak is the cheapest way to make that automatic.
+Thirty days is enough to get capable. Staying capable is about not stopping. The tool that beats every other tool is the one you open every day, and a streak is the cheapest way to make that automatic.
 
-Iro AI is built for exactly this: 5-minute gamified lessons, feedback on every exercise, and streaks that keep you coming back. Start free, and if you want to know your baseline first, take the [free AI IQ test](/quiz) — 10 questions, 2 minutes, and it tells you your weakest topic.
+Iro AI is built for exactly this: 5-minute gamified lessons, feedback on every exercise, and streaks that keep you coming back. Start free, and if you want to know your baseline first, take the [free AI IQ test](/quiz): 10 questions, 2 minutes, and it tells you your weakest topic.
 
 ## FAQ
 
 **Can a complete beginner really learn AI in 30 days?**
 
-Yes — to a genuinely useful level. Thirty days of 5-minute daily practice is enough to draft, research, and verify with AI confidently. Mastery keeps going, but you will be past the hard part.
+Yes, to a genuinely useful level. Thirty days of 5-minute daily practice is enough to draft, research, and verify with AI confidently. Mastery keeps going, but you will be past the hard part.
 
 **Do I need to pay for any tools to follow this plan?**
 
@@ -90,11 +90,11 @@ About 5 minutes. The plan is deliberately small so the habit survives busy days.
 
 **What should I do after the 30 days?**
 
-Pick a specialisation. Iro AI has structured paths for ChatGPT, prompt engineering, AI agents, and more — keep practising in the area most useful to your work.
+Pick a specialisation. Iro AI has structured paths for ChatGPT, prompt engineering, AI agents, and more. Keep practising in the area most useful to your work.
 
 **Is learning AI actually worth the 30 days?**
 
-For almost everyone, yes — using AI well is now a baseline work skill with a fast payoff. Here is an honest look at whether learning AI is worth it, and what genuine AI fluency looks like at the end.
+For almost everyone, yes. Using AI well is now a baseline work skill with a fast payoff. Here is an honest look at whether learning AI is worth it, and what genuine AI fluency looks like at the end.
 
 ## Read next
 

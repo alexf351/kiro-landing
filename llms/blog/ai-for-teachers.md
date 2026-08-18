@@ -26,14 +26,14 @@ pillar: "ai-fluency"
 
 ## Key takeaways
 
-- AI can save teachers hours on lesson planning, drafting feedback, differentiating materials, and creating quizzes — time that goes back to teaching.
+- AI can save teachers hours on lesson planning, drafting feedback, differentiating materials, and creating quizzes: time that goes back to teaching.
 - Always review AI output for accuracy and tone, and never put student personal data into tools your school hasn't approved.
-- Teach students to use AI honestly and critically — AI literacy is now part of preparing them for work and life.
+- Teach students to use AI honestly and critically. AI literacy is now part of preparing them for work and life.
 - Start with one repetitive prep task this week and expand from there.
 
 ## How can teachers use AI?
 
-**Teachers can use AI to cut hours of prep — drafting lesson plans, feedback, differentiated materials, and quizzes — so more time goes to actual teaching.** Used well, AI is a tireless teaching assistant for the repetitive parts of the job. Used carelessly, it produces generic or wrong material and raises real privacy questions. The difference is judgment: you stay the expert, AI handles the first draft.
+**Teachers can use AI to cut hours of prep (drafting lesson plans, feedback, differentiated materials, and quizzes) so more time goes to actual teaching.** Used well, AI is a tireless teaching assistant for the repetitive parts of the job. Used carelessly, it produces generic or wrong material and raises real privacy questions. The difference is judgment: you stay the expert, AI handles the first draft.
 
 ## The highest-value uses for teachers
 
@@ -49,23 +49,23 @@ For the general playbook, see [how to use AI at work](/blog/how-to-use-ai-at-wor
 
 Three rules protect you and your students:
 
-- **Verify everything.** AI can be confidently wrong — check facts, dates, and examples before they reach students. Learn to [spot hallucinations](/blog/spot-ai-hallucinations).
+- **Verify everything.** AI can be confidently wrong. Check facts, dates, and examples before they reach students. Learn to [spot hallucinations](/blog/spot-ai-hallucinations).
 - **Protect student data.** Never paste names, grades, or personal details into tools your school or district hasn't approved.
 - **Keep your judgment in charge.** AI drafts; you decide what's accurate, age-appropriate, and aligned to your standards.
 
 ## Teaching students to use AI well
 
-Banning AI outright rarely works and skips a skill students will need. A better approach: set clear rules, then teach [AI literacy](/blog/what-is-ai-literacy) — how AI works, where it fails, how to [verify it](/blog/how-to-tell-if-something-is-ai-generated), and how to use it to learn rather than to cheat. Helping students use AI honestly and critically is part of preparing them for the real world.
+Banning AI outright rarely works and skips a skill students will need. A better approach: set clear rules, then teach [AI literacy](/blog/what-is-ai-literacy): how AI works, where it fails, how to [verify it](/blog/how-to-tell-if-something-is-ai-generated), and how to use it to learn rather than to cheat. Helping students use AI honestly and critically is part of preparing them for the real world.
 
 ## How to start (this week)
 
-Don't overhaul everything. Pick the single most repetitive prep task you do — drafting a quiz, leveling a reading, writing a parent email — and run it through a free tool like [ChatGPT](/learn-chatgpt) or [Claude](/learn-claude). Refine the prompt, bank the time saved, and add a second task next week. To build the underlying skill, Iro AI offers five-minute daily lessons; the free [AI IQ test](/quiz) shows where you're starting from.
+Don't overhaul everything. Pick the single most repetitive prep task you do (drafting a quiz, leveling a reading, writing a parent email) and run it through a free tool like [ChatGPT](/learn-chatgpt) or [Claude](/learn-claude). Refine the prompt, bank the time saved, and add a second task next week. To build the underlying skill, Iro AI offers five-minute daily lessons; the free [AI IQ test](/quiz) shows where you're starting from.
 
 ## FAQ
 
 **How can teachers use AI?**
 
-Teachers can use AI to draft lesson plans, differentiate materials to multiple reading levels, write feedback and parent emails, and create quizzes and rubrics. It handles the repetitive prep so more time goes to teaching — as long as you verify the output.
+Teachers can use AI to draft lesson plans, differentiate materials to multiple reading levels, write feedback and parent emails, and create quizzes and rubrics. It handles the repetitive prep so more time goes to teaching, as long as you verify the output.
 
 **Is it okay for teachers to use AI?**
 
@@ -77,7 +77,7 @@ General assistants like ChatGPT, Claude, and Gemini cover most teaching tasks (p
 
 **Should students be allowed to use AI?**
 
-Outright bans rarely work. A better approach is clear rules plus teaching AI literacy — how AI works, where it fails, how to verify it, and how to use it to learn rather than cheat — since students will need these skills.
+Outright bans rarely work. A better approach is clear rules plus teaching AI literacy (how AI works, where it fails, how to verify it, and how to use it to learn rather than cheat), since students will need these skills.
 
 ## Read next
 

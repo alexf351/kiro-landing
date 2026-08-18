@@ -29,7 +29,7 @@ pillar: "ai-tools"
 
 - ChatGPT is the more versatile general assistant; Microsoft Copilot is AI woven into Microsoft 365 apps.
 - Copilot wins when your work lives in Word, Excel, Outlook, and Teams; ChatGPT wins for open-ended, all-purpose use.
-- Both are powered by similar underlying models — the real difference is where they live and what they're connected to.
+- Both are powered by similar underlying models. The real difference is where they live and what they're connected to.
 - Prompting skill transfers between them and matters more than the choice.
 
 ## ChatGPT vs Microsoft Copilot: the short answer
@@ -42,16 +42,16 @@ pillar: "ai-tools"
 
 ## Where ChatGPT wins
 
-- **Versatility** — one assistant for writing, coding, brainstorming, and more.
-- **Ecosystem** — voice, image generation, custom GPTs, and the most integrations.
+- **Versatility**: one assistant for writing, coding, brainstorming, and more.
+- **Ecosystem**: voice, image generation, custom GPTs, and the most integrations.
 - **Open-ended work** not tied to any one suite of apps.
 
 It's the safest default if you want a single general-purpose assistant. Learn it at [learn ChatGPT](/learn-chatgpt).
 
 ## Where Copilot wins
 
-- **Microsoft 365 integration** — it works on your real Word docs, Excel sheets, Outlook mail, and Teams chats.
-- **In-context actions** — summarize a thread, draft a doc, or analyze a spreadsheet without leaving the app.
+- **Microsoft 365 integration**: it works on your real Word docs, Excel sheets, Outlook mail, and Teams chats.
+- **In-context actions**: summarize a thread, draft a doc, or analyze a spreadsheet without leaving the app.
 - **Enterprise fit** for organizations already standardized on Microsoft.
 
 If your day runs on Office, Copilot removes friction ChatGPT can't.
@@ -62,7 +62,7 @@ If your day runs on Office, Copilot removes friction ChatGPT can't.
 - **You want one versatile all-rounder →** ChatGPT.
 - **You write or code a lot →** consider [Claude](/blog/chatgpt-vs-claude) too.
 
-See the full picture in the [AI tools comparison](/ai-tools-comparison). And remember: the skill of directing any of these — [AI fluency](/blog/what-is-ai-fluency) — matters more than the choice. Check yours with the free [AI IQ test](/quiz).
+See the full picture in the [AI tools comparison](/ai-tools-comparison). And remember: the skill of directing any of these ([AI fluency](/blog/what-is-ai-fluency)) matters more than the choice. Check yours with the free [AI IQ test](/quiz).
 
 ## FAQ
 
@@ -84,7 +84,7 @@ Copilot has a free tier, but full integration across Word, Excel, Outlook, and T
 
 **What is the fastest way to get good with these AI tools?**
 
-Daily practice on real work beats reading comparisons. A few focused minutes a day compounds quickly — here is how to learn AI in 5 minutes a day and build the broader AI fluency that carries across ChatGPT, Copilot, and the rest.
+Daily practice on real work beats reading comparisons. A few focused minutes a day compounds quickly. Here is how to learn AI in 5 minutes a day and build the broader AI fluency that carries across ChatGPT, Copilot, and the rest.
 
 ## Read next
 

@@ -36,6 +36,7 @@
 <link rel="alternate" type="text/plain" title="LLM-readable product summary" href="/llms.txt"/>
 <link rel="alternate" type="text/plain" title="Detailed LLM-readable product reference" href="/llms-full.txt"/>
 <link rel="alternate" type="text/plain" title="AI assistant and crawler policy" href="/ai.txt"/>
+<link rel="alternate" type="text/markdown" title="Page in Markdown" href="/llms/index.md"/>
 <link rel="alternate" type="text/plain" title="LLM resource index" href="/llms-index.txt"/>
 <link rel="alternate" type="application/rss+xml" title="Iro AI changelog (RSS)" href="/rss.xml"/>
 <link rel="dns-prefetch" href="//apps.apple.com"/>
@@ -1293,7 +1294,7 @@ footer .wrap{display:flex;flex-direction:column;gap:24px}
   border:1px solid var(--line);color:var(--ink-2);transition:all .25s var(--ease)}
 .foot-socials a:hover{color:var(--accent);border-color:rgba(var(--accent-rgb),.4);background:rgba(var(--accent-rgb),.07);transform:translateY(-2px)}
 .foot-socials svg{width:18px;height:18px}
-.foot-bottom{border-top:1px solid var(--line);padding-top:22px}
+.foot-explore{position:static;top:auto;left:auto;right:auto;z-index:auto;height:auto;background:none;backdrop-filter:none;align-items:stretch;width:100%;border-top:1px solid var(--line);margin-top:2px;padding-top:4px;padding-bottom:26px;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:22px 30px}.foot-explore h3{font-family:'JetBrains Mono',monospace;font-size:10px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-3);margin:0 0 10px}.foot-explore ul{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:7px}.foot-explore a{font-size:13px;color:var(--ink-2);text-decoration:none}.foot-explore a:hover{color:var(--accent)}@media(max-width:980px){.foot-explore{grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}}@media(max-width:340px){.foot-explore{grid-template-columns:1fr}}.foot-bottom{border-top:1px solid var(--line);padding-top:22px}
 .foot-copy{font-family:'JetBrains Mono',monospace;font-size:11px;color:var(--ink-3);letter-spacing:.04em}
 @media(max-width:680px){.foot-top{flex-direction:column;align-items:flex-start;gap:20px}}
 
@@ -1460,7 +1461,7 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
       <b>Iro AI</b>
     </a>
     <div class="nav-links">
-      <a href="/quiz.html" class="nav-quiz">AI Rank Quiz</a>
+      <a href="/quiz" class="nav-quiz">AI Rank Quiz</a>
       <a href="#showcase">How it works</a>
       <a href="/paths">Paths</a>
       <a href="#pricing">Iro Pro</a>
@@ -1500,7 +1501,7 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
           <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M16.36 1.43c.04 1.06-.36 2.08-1.04 2.84-.72.81-1.9 1.44-3.03 1.35-.05-1.04.4-2.09 1.06-2.79.74-.81 1.99-1.4 3.01-1.4zM20.6 17.2c-.55 1.27-.82 1.84-1.53 2.96-.99 1.57-2.39 3.52-4.12 3.53-1.54.02-1.94-1-4.03-.99-2.09.01-2.53 1.01-4.07.99-1.73-.02-3.05-1.78-4.04-3.34C-.06 16.1-.35 10.97 1.36 8.24c1.2-1.94 3.1-3.08 4.89-3.08 1.82 0 2.97 1 4.48 1 1.46 0 2.35-1 4.46-1 1.59 0 3.28.87 4.48 2.37-3.94 2.16-3.3 7.79.93 9.67z"/></svg>
           <span class="btn-stack"><small>Download on the</small><b>App Store</b></span>
         </a>
-        <a class="btn btn-ghost btn-lg" href="/quiz.html">Take the AI rank quiz</a>
+        <a class="btn btn-ghost btn-lg" href="/quiz">Take the AI rank quiz</a>
       </div>
       <div class="hero-trust">
         <span class="stars">★★★★★</span>
@@ -1892,7 +1893,7 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
         <h3>Find your AI rank in 2 minutes</h3>
         <p>Ten questions on how you actually use AI. The median score is 8, but only 1 in 4 people score 9 or higher. <a href="/blog/average-ai-literacy-score">See the data</a>.</p>
         <div class="rankcta-actions">
-          <a class="btn btn-primary btn-lg" href="/quiz.html">Get my AI rank</a>
+          <a class="btn btn-primary btn-lg" href="/quiz">Get my AI rank</a>
           <span class="rankcta-note">No signup required to see your result.</span>
         </div>
       </div>
@@ -2109,7 +2110,7 @@ document.querySelectorAll('.askai-chip').forEach(function(a){
         <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M16.36 1.43c.04 1.06-.36 2.08-1.04 2.84-.72.81-1.9 1.44-3.03 1.35-.05-1.04.4-2.09 1.06-2.79.74-.81 1.99-1.4 3.01-1.4zM20.6 17.2c-.55 1.27-.82 1.84-1.53 2.96-.99 1.57-2.39 3.52-4.12 3.53-1.54.02-1.94-1-4.03-.99-2.09.01-2.53 1.01-4.07.99-1.73-.02-3.05-1.78-4.04-3.34C-.06 16.1-.35 10.97 1.36 8.24c1.2-1.94 3.1-3.08 4.89-3.08 1.82 0 2.97 1 4.48 1 1.46 0 2.35-1 4.46-1 1.59 0 3.28.87 4.48 2.37-3.94 2.16-3.3 7.79.93 9.67z"/></svg>
         <span class="btn-stack"><small>Download on the</small><b>App Store</b></span>
       </a>
-      <a class="btn btn-ghost btn-lg" href="/quiz.html">Take the AI rank quiz</a>
+      <a class="btn btn-ghost btn-lg" href="/quiz">Take the AI rank quiz</a>
     </div>
     <a class="hero-web-link" href="https://app.tryiro.com" data-cta="final">Try Iro in your browser. Your streak and progress sync to the app →</a>
 
@@ -2164,13 +2165,14 @@ document.querySelectorAll('.askai-chip').forEach(function(a){
       </div>
     </div>
     <div class="foot-bottom">
+      <nav class="foot-explore" aria-label="Explore Iro"><div><h3>Learn a tool</h3><ul><li><a href="/learn-chatgpt">ChatGPT</a></li><li><a href="/learn-claude">Claude</a></li><li><a href="/learn-gemini">Gemini</a></li><li><a href="/learn-perplexity">Perplexity</a></li><li><a href="/learn-copilot">Microsoft Copilot</a></li><li><a href="/learn-cursor">Cursor</a></li><li><a href="/learn-midjourney">Midjourney</a></li></ul></div><div><h3>AI for your job</h3><ul><li><a href="/ai-for-work">AI at work</a></li><li><a href="/ai-for-students">Students</a></li><li><a href="/ai-for-marketing">Marketing</a></li><li><a href="/ai-for-founders">Founders</a></li><li><a href="/ai-for-sales">Sales</a></li><li><a href="/ai-for-managers">Managers</a></li><li><a href="/ai-job-hunting">Job hunting</a></li></ul></div><div><h3>Build a skill</h3><ul><li><a href="/prompt-engineering-app">Prompt engineering</a></li><li><a href="/ai-agents-course">AI agents</a></li><li><a href="/ai-automation-course">AI automation</a></li><li><a href="/vibe-coding-course">Vibecoding</a></li><li><a href="/ai-image-generation-course">Image generation</a></li><li><a href="/free-ai-learning-app">Free ways to learn AI</a></li><li><a href="/learn-ai-in-5-minutes-a-day">Five minutes a day</a></li></ul></div><div><h3>Read the blog</h3><ul><li><a href="/blog/ai-fluency">AI fluency</a></li><li><a href="/blog/prompt-engineering">Prompt engineering</a></li><li><a href="/blog/ai-agents">AI agents &amp; automation</a></li><li><a href="/blog/ai-tools">AI tools</a></li><li><a href="/blog">All posts</a></li><li><a href="/blog/average-ai-literacy-score">The AI literacy data</a></li></ul></div></nav>
       <div class="foot-copy">© 2026 Iro AI · Master AI. Stay ahead.</div>
     </div>
   </div>
 </footer>
 <script>
 /* ============ Iro AI — Skill Universe ============
-   Mascot centered. 6 skill nodes orbit it. 18 path nodes branch off the skills.
+   Mascot centered. 6 skill nodes orbit it. 29 path nodes branch off the skills.
    A rank switch morphs the whole "Operator Build": mascot, gem, aura, scores. == */
 (function () {
   'use strict';

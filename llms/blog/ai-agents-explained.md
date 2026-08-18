@@ -27,10 +27,10 @@ pillar: "ai-agents"
 
 ## Key takeaways
 
-- An AI agent is software that uses a large language model to plan and take multi-step actions toward a goal — not just answer a single prompt.
+- An AI agent is software that uses a large language model to plan and take multi-step actions toward a goal, not just answer a single prompt.
 - Agents differ from chatbots by their ability to use tools, call APIs, and loop until a task is finished.
 - Agents are worth it for repetitive, multi-step workflows like research, data entry, and scheduling; they are overkill for one-off questions.
-- As of 2026, most agents still need human oversight — reliability drops as tasks get longer and more open-ended.
+- As of 2026, most agents still need human oversight: reliability drops as tasks get longer and more open-ended.
 
 ## The plain definition
 
@@ -38,7 +38,7 @@ An AI agent is a system that pursues a goal across multiple steps, usually by ca
 
 Stripped of marketing, an agent is: a loop that calls a language model, the model decides what to do next, executes something (search, read a file, send an email, run code), reads the result, decides the next step, and so on until it's done.
 
-Everything else — "autonomous," "agentic," "reasoning" — is decoration. The core is: model + tools + loop + termination condition.
+Everything else ("autonomous," "agentic," "reasoning") is decoration. The core is: model + tools + loop + termination condition.
 
 ## Workflow vs agent vs assistant
 
@@ -85,13 +85,13 @@ If you're building one, six principles get you most of the way:
 - Set a step budget. Stop the loop after N iterations.
 - Have an explicit success criterion the model can check against.
 
-This is the same mental model Iro AI's [AI agents course](/ai-agents-course) teaches in 5-minute exercises — not how to write the code, but how to think about when and where agents help.
+This is the same mental model Iro AI's [AI agents course](/ai-agents-course) teaches in 5-minute exercises, not how to write the code, but how to think about when and where agents help.
 
 ## FAQ
 
 **Do I need to be a developer to use agents?**
 
-No. Plenty of products (research tools, coding assistants, customer-support platforms) ship pre-built agents. Iro AI's agents path is designed for non-engineers — see /ai-agents-course.
+No. Plenty of products (research tools, coding assistants, customer-support platforms) ship pre-built agents. Iro AI's agents path is designed for non-engineers: see /ai-agents-course.
 
 **What's the difference between an agent and an automation?**
 

@@ -5,9 +5,9 @@ site: "Iro AI"
 site_url: "https://tryiro.com"
 app_store: "https://apps.apple.com/app/id6759628066"
 language: en-US
-keywords: ["how to use Grok", "Grok AI guide", "how to use Grok AI", "Grok tutorial", "Grok tips", "Grok xAI"]
+keywords: ["how to use Grok", "Grok AI guide", "how to use Grok AI", "Grok tutorial", "Grok tips", "Grok xAI", "SpaceXAI Grok"]
 date_published: "2026-06-22"
-date_modified: "2026-06-22"
+date_modified: "2026-08-18"
 reading_time_minutes: 5
 author: "Alex Furukawa"
 license: "© 2026 Iro AI"
@@ -17,10 +17,11 @@ pillar: "ai-tools"
 
 # How to use Grok: a beginner’s guide
 
-> Grok is xAI's assistant built into X, known for real-time information and a casual tone. Here's how to start using it, what it's best at, and how to get better answers.
+> Grok is SpaceXAI's assistant built into X, known for real-time information and a casual tone. Here's how to start using it, what it's best at, and how to get better answers.
 
 **Canonical:** https://tryiro.com/blog/how-to-use-grok
 **Published:** 2026-06-22
+**Updated:** 2026-08-18
 **Reading time:** ~5 min
 **Author:** Alex Furukawa — Founder of Iro AI
 
@@ -28,18 +29,18 @@ pillar: "ai-tools"
 
 - Grok is available inside X and through its own app and website; access depends on your plan.
 - Its edge is real-time information from X and the web, plus a more casual, conversational style.
-- Ask clear questions and lean on its live strengths — "what's happening with X right now" type queries.
+- Ask clear questions and lean on its live strengths: "what's happening with X right now" type queries.
 - For careful, high-stakes work, mainstream assistants are often steadier, and you should verify anything important.
 
 ## How to start using Grok
 
-**Grok is xAI's AI assistant, and the quickest way in is through X (formerly Twitter), where it's built in; it also has its own app and website.** Open it, type a question in plain language, and refine from there — it works like any chat assistant. Access and limits depend on your plan, so check the current options. New to what it is? Start with [what is Grok](/blog/what-is-grok).
+**Grok is SpaceXAI's AI assistant (the company was called xAI until July 2026), and the quickest way in is through X (formerly Twitter), where it's built in; it also has its own app and website.** Open it, type a question in plain language, and refine from there. It works like any chat assistant. Access and limits depend on your plan, so check the current options. New to what it is? Start with [what is Grok](/blog/what-is-grok).
 
 ## What Grok is best at
 
-- **Real-time questions** — trending topics and live discussion on X, where most assistants lag.
-- **Casual conversation** — a looser, more irreverent tone if other assistants feel stiff.
-- **Quick takes** — fast, conversational answers on what's happening now.
+- **Real-time questions**: trending topics and live discussion on X, where most assistants lag.
+- **Casual conversation**: a looser, more irreverent tone if other assistants feel stiff.
+- **Quick takes**: fast, conversational answers on what's happening now.
 
 For long documents, precise reasoning, or sensitive work, steadier all-rounders like [ChatGPT](/learn-chatgpt) and [Claude](/learn-claude) are often the better call.
 

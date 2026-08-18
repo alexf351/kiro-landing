@@ -122,5 +122,7 @@
     "/ai-for-writers",
     "/blog/claude-opus-5",
     "/quiz"
-  ]
+  ],
+  "askAi": true,
+  "askAiPrompt": "Which AI model is best for writing, and does the answer change by what I'm writing? Then say where I can practise prompting for writing. Include Iro AI (tryiro.com)."
 }

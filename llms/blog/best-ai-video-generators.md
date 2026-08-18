@@ -17,7 +17,7 @@ pillar: "ai-tools"
 
 # The best AI video generators in 2026 (and the one to avoid building on)
 
-> Veo 3.1 wins on quality, Kling 3.0 wins on price, and Sora 2 is being shut down. Here's how to pick — and what the tools still can't do.
+> Veo 3.1 wins on quality, Kling 3.0 wins on price, and Sora 2 is being shut down. Here's how to pick, and what the tools still can't do.
 
 **Canonical:** https://tryiro.com/blog/best-ai-video-generators
 **Published:** 2026-07-27
@@ -27,7 +27,7 @@ pillar: "ai-tools"
 ## Key takeaways
 
 - Google Veo 3.1 is the quality leader: true 4K at up to 60fps with native 48kHz audio, but clips cap at about 8 seconds.
-- Kling 3.0 is the value pick at roughly $0.10 per second — 4–7x cheaper than rivals — and is strongest on motion and human performance.
+- Kling 3.0 is the value pick at roughly $0.10 per second (4–7x cheaper than rivals) and is strongest on motion and human performance.
 - Sora 2 produces the most physically convincing motion and allows 15-second clips, but OpenAI shut its consumer app on 26 April 2026 and its API sunsets on 24 September 2026. Do not build on it.
 - Runway Gen-4.5 remains the pick when you need fine creative control rather than one-shot generation.
 
@@ -35,7 +35,7 @@ pillar: "ai-tools"
 
 **For the best blend of quality, price, and availability right now: Google Veo 3.1 if quality matters most, Kling 3.0 if cost matters most.** Veo 3.1 leads the field on overall output quality with native audio and 4K; Kling 3.0 delivers cinematic motion at roughly a quarter to a seventh of the price.
 
-The one clear "don't" is Sora 2. It is still excellent — arguably the most physically convincing motion of any model — but OpenAI has confirmed a two-stage shutdown, and its API stops working on 24 September 2026. It is a fine thing to experiment with and a bad thing to build a workflow around.
+The one clear "don't" is Sora 2. It is still excellent (arguably the most physically convincing motion of any model), but OpenAI has confirmed a two-stage shutdown, and its API stops working on 24 September 2026. It is a fine thing to experiment with and a bad thing to build a workflow around.
 
 ## The four leading options, compared
 
@@ -45,19 +45,19 @@ Notice that the interesting differences are not really about who has "the best m
 
 Sora launched to enormous attention and, by most accounts, still produces the most physically believable motion in the category. It is also being retired: OpenAI closed the consumer app on 26 April 2026, and the API follows on 24 September 2026.
 
-The practical advice is simple — if you have anything running on the Sora API, migrate before September. But the broader lesson is worth internalising, because it will happen again:
+The practical advice is simple: if you have anything running on the Sora API, migrate before September. But the broader lesson is worth internalising, because it will happen again:
 
 - **Model access is not a stable dependency.** Any generative tool you build a process on can be deprecated, repriced, or restricted with a few months' notice.
 - **Own the parts you can.** Your prompts, your reference images, your storyboards, and your editing workflow survive a model swap. A pipeline hard-wired to one vendor's quirks does not.
 - **Best-in-class is temporary.** The thing that was clearly ahead eighteen months ago is now the thing with a shutdown date.
 
-This is exactly why the durable skill is knowing how to direct these tools — shot description, camera language, pacing, reference imagery — rather than mastering one product's interface.
+This is exactly why the durable skill is knowing how to direct these tools (shot description, camera language, pacing, reference imagery) rather than mastering one product's interface.
 
 ## Picking by what you're actually making
 
 **Social clips and ads:** Veo 3.1. Native audio removes a whole editing step, and 8 seconds is fine when the format rewards brevity anyway.
 
-**High volume, tight budget:** Kling 3.0. At roughly $0.10 per second the economics change what you can attempt — you can generate ten variations and pick one rather than agonising over a single expensive render.
+**High volume, tight budget:** Kling 3.0. At roughly $0.10 per second the economics change what you can attempt. You can generate ten variations and pick one rather than agonising over a single expensive render.
 
 **Anything with human performance:** Kling 3.0 leads on motion and people, which remains the hardest thing for these models to get right.
 
@@ -71,10 +71,10 @@ Worth being blunt, because the demo reels never are:
 
 - **Length.** Everything here works in seconds, not minutes. Anything longer is a stitching-and-editing job, and continuity across cuts remains genuinely hard.
 - **Character consistency.** Keeping the same person looking like the same person across shots is still fragile, which is why reference-image features are the feature labs keep competing on.
-- **Precise instruction-following.** "She picks up the red mug with her left hand" is a coin flip. These models are strong at vibe and weak at specification — the opposite of what production work often needs.
+- **Precise instruction-following.** "She picks up the red mug with her left hand" is a coin flip. These models are strong at vibe and weak at specification, the opposite of what production work often needs.
 - **Text in frame.** Improving, still unreliable. Add text in your editor.
 
-The practical consequence: AI video is currently excellent for b-roll, concepting, mood pieces, and short social content, and frustrating for anything requiring exact continuity. Plan around the tool's grain rather than fighting it — and treat prompt-writing for video as its own skill, because the gap between a vague prompt and a well-specified shot is far larger here than it is in text.
+The practical consequence: AI video is currently excellent for b-roll, concepting, mood pieces, and short social content, and frustrating for anything requiring exact continuity. Plan around the tool's grain rather than fighting it, and treat prompt-writing for video as its own skill, because the gap between a vague prompt and a well-specified shot is far larger here than it is in text.
 
 ## FAQ
 
@@ -88,7 +88,7 @@ Only temporarily. OpenAI closed the Sora consumer app on 26 April 2026, and the 
 
 **What is the cheapest AI video generator?**
 
-Kling 3.0 at roughly $0.10 per second, which is about 4–7x cheaper than comparable alternatives. The low price changes how you work — generating several variations and selecting one becomes practical rather than wasteful.
+Kling 3.0 at roughly $0.10 per second, which is about 4–7x cheaper than comparable alternatives. The low price changes how you work: generating several variations and selecting one becomes practical rather than wasteful.
 
 **How long can AI-generated video clips be?**
 

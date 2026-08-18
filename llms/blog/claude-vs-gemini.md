@@ -28,9 +28,9 @@ pillar: "ai-tools"
 ## Key takeaways
 
 - Claude (Anthropic) is best for long-form writing, careful reasoning, and code; Gemini (Google) is best inside Google apps and for generous free multimodal use.
-- Both handle large inputs well — Claude is known for natural prose and instruction-following, Gemini for native Docs/Gmail integration.
+- Both handle large inputs well: Claude is known for natural prose and instruction-following, Gemini for native Docs/Gmail integration.
 - Choose by your main task and where your work lives, not by hype.
-- Whichever you pick, prompting skill matters more than the tool — and it transfers between them.
+- Whichever you pick, prompting skill matters more than the tool, and it transfers between them.
 
 ## Claude vs Gemini: the short answer
 
@@ -54,7 +54,7 @@ If you write or code for a living, Claude is often the better daily driver. New 
 
 Gemini is the natural choice when your day runs on Google:
 
-- **Native integration.** It works directly in Docs, Gmail, and Sheets — no copy-paste shuffle.
+- **Native integration.** It works directly in Docs, Gmail, and Sheets. No copy-paste shuffle.
 - **Generous free access**, especially for people already in the Google ecosystem.
 - **Multimodal.** It handles images and media smoothly.
 
@@ -73,7 +73,7 @@ Many people keep both: Claude for writing, Gemini inside Google. See the full [A
 
 ## What matters more than Claude vs Gemini
 
-The honest truth: the gap between these two is smaller than the gap between using one well and using it lazily. A vague prompt gets a vague answer from either; a clear one — context, role, task, format — gets a great answer from both. That skill, [AI fluency](/blog/what-is-ai-fluency), transfers across every tool. Practice it a few minutes a day and check where you stand with the free [AI IQ test](/quiz).
+The honest truth: the gap between these two is smaller than the gap between using one well and using it lazily. A vague prompt gets a vague answer from either; a clear one (context, role, task, format) gets a great answer from both. That skill, [AI fluency](/blog/what-is-ai-fluency), transfers across every tool. Practice it a few minutes a day and check where you stand with the free [AI IQ test](/quiz).
 
 ## FAQ
 
@@ -83,7 +83,7 @@ Neither is universally better. Claude is better for serious writing, careful rea
 
 **Is Claude or Gemini better for writing?**
 
-Claude is generally preferred for writing — its prose reads naturally and it follows nuanced instructions closely. Gemini is capable too, especially when you're drafting inside Google Docs.
+Claude is generally preferred for writing: its prose reads naturally and it follows nuanced instructions closely. Gemini is capable too, especially when you're drafting inside Google Docs.
 
 **Is Claude or Gemini better for coding?**
 
@@ -95,7 +95,7 @@ You can. A common setup is Claude for writing and code plus Gemini when you're w
 
 **What is the fastest way to get good at both Claude and Gemini?**
 
-Use both on real tasks and learn where each shines. That cross-tool judgment is the heart of AI fluency, and short daily reps build it — see how to learn AI in 5 minutes a day.
+Use both on real tasks and learn where each shines. That cross-tool judgment is the heart of AI fluency, and short daily reps build it. See how to learn AI in 5 minutes a day.
 
 ## Read next
 

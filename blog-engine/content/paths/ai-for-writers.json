@@ -110,6 +110,14 @@
     {
       "h2": "The highest-leverage uses for writers",
       "html": "<ul><li><strong>Angles &amp; outlines:</strong> \"Give me 10 angles on this topic for a skeptical reader,\" then a structured outline you fill in yourself.</li><li><strong>Editor, not ghostwriter:</strong> critique a draft against named criteria (clarity, structure, weak verbs, a lazy opening) and get line-level notes.</li><li><strong>Research:</strong> background, opposing views, and quotes to chase down, with every fact verified before it ships.</li><li><strong>Variations:</strong> 20 headlines, subject lines, or opening hooks so you're choosing from many, not settling for one.</li></ul><p>What's missing on purpose: writing the piece. It drafts scaffolding and pressure-tests; you write.</p>"
+    },
+    {
+      "h2": "What does an AI-assisted piece actually look like, start to finish?",
+      "html": "<p>Four passes, and you write the only one that counts. Here's the full loop on a 1,200-word article about remote hiring, with the actual prompt moves.</p><h3>Pass 1: angles, before you commit to one</h3><p>\"I'm writing for hiring managers at 50-person companies who already tried remote hiring and got burned. Give me 12 angles. Rank them by how much they'd surprise someone who reads a lot about this, and skip anything that sounds like a LinkedIn post.\" Two of the twelve will be things you wouldn't have reached on your own. Take one.</p><h3>Pass 2: outline, then argue with it</h3><p>Ask for a structure, then push back on the weakest part: \"Section three is the obvious take. What would an experienced reader object to here?\" The second answer beats the first most of the time. Two rounds is usually enough, and you're done in five minutes.</p><h3>Pass 3: you write</h3><p>Close the tab. Your examples, your sentences, the opinion you'd defend in an argument. This is the part readers remember and the part a model can't fake, because it doesn't have your week, your sources, or your stake in the answer.</p><h3>Pass 4: the critique and the headline</h3><p>Paste the finished draft, ask for a criteria-based critique that quotes the exact lines it flags, and fix what you agree with. Ignore the rest without guilt. Finish with 20 headline options, then rewrite the best one yourself.</p><p>Add it up and the model got maybe ten minutes of the whole job. The writing stayed yours, and the piece got out the door faster.</p>"
+    },
+    {
+      "h2": "The mistakes that cost writers the most time",
+      "html": "<p>The habits that cost real hours aren't the dramatic ones. Nobody loses an afternoon to a hallucinated statistic. They lose it to a session that produced 900 competent words nobody asked for.</p><ul><li><strong>Drafting before you have an angle.</strong> If you can't state your point in one sentence, the model picks one for you, and it picks the safe one every time.</li><li><strong>Taking the first outline.</strong> It comes back organized and completely predictable, because it's built from whatever already ranks. The tell: every section heading would sit just as comfortably on any other article about the topic.</li><li><strong>\"Make it better.\"</strong> Vague input, vague edit. Name the failure instead: the opening is slow, section three repeats section one, half the verbs are some form of \"is.\"</li><li><strong>Expecting a style sample to clone your voice.</strong> Samples nudge rhythm and word choice. They don't reproduce your opinions or your specific detail, and that's most of what people recognize as you.</li><li><strong>Letting it make the final call on a headline.</strong> Models read familiarity as clarity, so the safest-sounding line in the list wins, and safe is what readers scroll past. That call is a judgment about your reader, and you're the one who has met them.</li></ul><p>One habit prevents most of this: never ask AI for something you haven't tried to decide yourself first. Then it's reacting to your judgment instead of substituting its own, and you can tell instantly when a suggestion is wrong.</p>"
     }
   ],
   "faqHeading": "Writer questions about AI",
@@ -133,6 +141,14 @@
     {
       "q": "Which AI is best for writing?",
       "a": "Many writers prefer Claude for longer-form drafting and nuanced critique, while ChatGPT is a strong all-rounder for angles, outlines, and headlines. The tool matters less than the skill: knowing what to ask for and what to keep for yourself. That prompting judgment is exactly what Iro trains, tool-agnostically."
+    },
+    {
+      "q": "Do AI detectors actually work?",
+      "a": "Not reliably. Detection tools flag plenty of human writing as machine-made, especially from non-native English speakers, and they routinely miss AI text that a person has edited. A score is a weak signal, not evidence. What matters more is the policy you're writing under: many publications and clients now ask you to disclose AI-generated text while treating AI research and editing as ordinary, so check before you assume."
+    },
+    {
+      "q": "Does using AI to write hurt your SEO?",
+      "a": "Google doesn't rank a page down for being AI-assisted. Its published guidance judges content on whether it's helpful and original rather than on how it was produced, and its spam policies target pages mass-produced to game rankings. The practical risk is different: generic AI prose repeats what a hundred other pages already say, so it gives no reader, and no search engine, a reason to pick it."
     }
   ],
   "related": [
@@ -167,5 +183,5 @@
   "ctaHeading": "Practice the writer's AI playbook.",
   "ctaBody": "Iro turns these moves into five-minute exercises with feedback — so beating the blank page and running a tough edit becomes a rep you've already done.",
   "datePublished": "2026-07-09",
-  "dateModified": "2026-07-09"
+  "dateModified": "2026-08-18"
 }

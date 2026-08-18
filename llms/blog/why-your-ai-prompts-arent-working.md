@@ -17,7 +17,7 @@ pillar: "prompt-engineering"
 
 # Why your AI prompts aren't working (and how to fix them)
 
-> Five reasons prompts fail — and the quick fixes that turn vague output into useful work.
+> Five reasons prompts fail, and the quick fixes that turn vague output into useful work.
 
 **Canonical:** https://tryiro.com/blog/why-your-ai-prompts-arent-working
 **Published:** 2026-05-31
@@ -27,7 +27,7 @@ pillar: "prompt-engineering"
 
 ## Key takeaways
 
-- Most weak AI results come from vague prompts, not weak models — the fix is clearer input.
+- Most weak AI results come from vague prompts, not weak models. The fix is clearer input.
 - Add context, specify the audience and format, and give an example of what good looks like.
 - Ask for one thing at a time; overloaded prompts produce muddy answers.
 - If the first answer is off, refine it with specific feedback instead of starting over.
@@ -42,7 +42,7 @@ Same model, completely different result.
 
 ## 2. You skipped the role and context
 
-Models behave differently depending on who you tell them to be. "You are a senior copy editor" produces sharper edits than no role at all. Add the context it needs, too — the audience, the prior decisions, the format of the source material. Without context, the model invents it, and that is where wrong answers come from.
+Models behave differently depending on who you tell them to be. "You are a senior copy editor" produces sharper edits than no role at all. Add the context it needs, too: the audience, the prior decisions, the format of the source material. Without context, the model invents it, and that is where wrong answers come from.
 
 ## 3. You didn't specify the output format
 
@@ -58,7 +58,7 @@ For anything where style or format matters, show — do not tell. Two or three e
 
 ## Putting it together
 
-Most failed prompts break one of those five rules. A reliable opener that covers most of them: **role, goal, context, constraints, and output format** — then a self-critique pass. That structure is the backbone of practical [prompt engineering](/blog/prompt-engineering-patterns).
+Most failed prompts break one of those five rules. A reliable opener that covers most of them: **role, goal, context, constraints, and output format**, then a self-critique pass. That structure is the backbone of practical [prompt engineering](/blog/prompt-engineering-patterns).
 
 The fastest way to internalise it is reps. Iro AI's [Prompt Lab](/prompt-engineering-app) grades your real prompts and shows you exactly which of these mistakes you are making; the [ChatGPT path](/learn-chatgpt) applies the same moves inside the tool.
 

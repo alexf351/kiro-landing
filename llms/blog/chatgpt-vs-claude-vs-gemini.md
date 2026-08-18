@@ -17,7 +17,7 @@ pillar: "ai-tools"
 
 # ChatGPT vs Claude vs Gemini: which should you use in 2026?
 
-> A practical, no-hype comparison — and why the right answer is usually more than one.
+> A practical, no-hype comparison, and why the right answer is usually more than one.
 
 **Canonical:** https://tryiro.com/blog/chatgpt-vs-claude-vs-gemini
 **Published:** 2026-05-31
@@ -36,7 +36,7 @@ pillar: "ai-tools"
 
 There is no single best AI. There is a best AI _for a given task_, and the gap between the top models is smaller than the marketing suggests. For most people the honest advice is: start with ChatGPT, add a second model once you hit its limits, and learn to tell which job suits which tool.
 
-Here is what each one is genuinely good at in 2026 — and where each one quietly falls short.
+Here is what each one is genuinely good at in 2026, and where each one quietly falls short.
 
 ## At a glance
 
@@ -73,7 +73,7 @@ A rule that works for most people:
 - **Quick task or first draft?** ChatGPT.
 - **Long document, careful edit, or code?** Claude.
 - **Already in Google Docs or Gmail?** Gemini.
-- **Need cited sources?** Perplexity — see [the best free AI tools](/blog/best-free-ai-tools-2026).
+- **Need cited sources?** Perplexity. See [the best free AI tools](/blog/best-free-ai-tools-2026).
 
 The meta-skill is not picking the one true model — it is getting a good answer from any of them and comparing. That comparison habit is exactly what [prompt patterns](/blog/prompt-engineering-patterns) and the [free AI IQ test](/quiz) help you build.
 
@@ -93,11 +93,11 @@ It is the best default for most people, but not the best at everything. Claude l
 
 **Can I use the same prompt across all three?**
 
-Mostly yes. Good prompts are about clear specification, which transfers across models. The 7 prompt patterns work everywhere — see that post.
+Mostly yes. Good prompts are about clear specification, which transfers across models. The 7 prompt patterns work everywhere. See that post.
 
 **How do I learn to use all three tools well?**
 
-Rotate real tasks through each and build a mental map of what each does best. That cross-tool judgment is exactly what AI fluency means — and the best AI learning apps train it through active practice rather than passive reading.
+Rotate real tasks through each and build a mental map of what each does best. That cross-tool judgment is exactly what AI fluency means, and the best AI learning apps train it through active practice rather than passive reading.
 
 ## Read next
 

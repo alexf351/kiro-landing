@@ -11,7 +11,9 @@ handful a day; don't burn out doing all of them at once.
 Product Hunt launch kit, AlternativeTo positioning lines, directory
 short-forms, researched listicle targets, and HARO answer templates.
 (Status research 2026-07-21: no existing Iro listing found on any Tier-1
-directory — the whole list is still available.)
+directory. Re-checked 2026-08-18 across every reachable source and still
+found none, but treat that as "not found" rather than "not there": the
+proxy blocked most directory hosts that session.)
 
 ---
 
@@ -53,7 +55,11 @@ get you discovered by other list-makers.
 
 - [ ] **Product Hunt** — the big one. Prep a proper launch (gallery images, first comment, hunter if you can get one). Even a modest launch = a strong backlink + lasting profile. Pick a Tue–Thu. https://producthunt.com
 - [ ] **There's An AI For That** — the largest AI tool directory; category "AI learning". https://theresanaiforthat.com
-- [ ] **AlternativeTo** — list Iro as an alternative to **Duolingo, Coursiv, Brilliant, DataCamp**. This is exactly what searchers AND LLMs cite for "best AI learning app". https://alternativeto.net
+- [ ] **AlternativeTo** — list Iro as an alternative to **Duolingo, Coursiv, Brilliant, DataCamp**, and add
+  **NerdSip, Morso, Nibble, Kinnu, Imprint, Chunks, Blinkist and Headway**. Those eight are the apps that
+  actually appear alongside Iro in search results (measured 2026-08-18, see `search-baseline.md`), and Iro
+  is listed against none of them. This is exactly what searchers AND LLMs cite for "alternative to X".
+  https://alternativeto.net
 - [ ] **BetaList** — for early-stage; good for a first wave of eyes + a link. https://betalist.com
 - [ ] **Futurepedia** — major AI tools directory. https://futurepedia.io
 - [ ] **Uneed** / **Fazier** / **Startup Fame** — indie launch platforms, quick submits, real links.
@@ -69,6 +75,20 @@ get you discovered by other list-makers.
 - [ ] **Free-tools roundups:** pitch the **free AI IQ test** (tryiro.com/quiz) to "free AI tools" lists — it's your most linkable asset because it needs no signup.
 
 ---
+
+## 2b. The competitor set, as actually measured
+
+`growth/competitor-intel.md` has the fact-checked brief. Two things from it
+change how you work this list:
+
+- **The apps that rank alongside Iro are not the ones we write about.** Our
+  comparison pages target Coursiv, Finestro, Learnova and Wondering. The apps
+  that appear next to us in results are NerdSip, Morso, Chunks, Nibble, Kinnu
+  and BeFreed. Every listing and every listicle pitch should name those.
+- **Every one of them publishes its own roundup and ranks with it.** Chunks,
+  Nibble, NerdSip, Morso, RiseGuide and Headway all rank their own app in their
+  own comparison post. Self-listing is the norm in this category, not an
+  anomaly, so `/best-ai-learning-app` doing the same is not a risk.
 
 ## 3. EARN links (the durable ones — worth more than any directory)
 
@@ -118,9 +138,17 @@ No console; just paste one URL at a time. Submit the homepage + top pages
 **Bing Webmaster Tools** — https://www.bing.com/webmasters
 The bigger win: Bing's index also powers **ChatGPT Search, DuckDuckGo, Yahoo,
 and Ecosia**, so it's a GEO play too. Fastest setup: "Import from Google
-Search Console" (skips re-verification, auto-imports sitemaps). Otherwise add
+Search Console" (skips re-verification, auto-imports sitemaps).
+**Note:** that import path leaves no trace in this repo, so do not read a
+missing `msvalidate.01` tag as proof it was never done. Check the console. Otherwise add
 the site, verify, then Sitemaps → submit `https://tryiro.com/sitemap-index.xml`.
 Use URL Submission for the top pages; up to 10k/day on verified sites.
+
+**IndexNow** (automated Bing/Yandex/Seznam/Naver ping) — **already wired and
+running.** `.github/workflows/indexnow.yml` fires on every push to master that
+touches an HTML file or a sitemap, waits for the deploy to publish the key
+file, then submits every sitemap URL. Nothing to do here; the manual commands
+below are for one-off pings.
 
 **IndexNow** (automated Bing/Yandex/Seznam/Naver ping) — set up in this repo:
 - Key file served at `https://tryiro.com/b5b04a1f5ff05c02d330e53b5362b5db.txt`

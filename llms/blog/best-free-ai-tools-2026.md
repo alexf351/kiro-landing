@@ -27,7 +27,7 @@ pillar: "ai-tools"
 
 ## Key takeaways
 
-- The best free AI tools in 2026 cover chat (ChatGPT, Claude, Gemini), search (Perplexity), images, and coding — most with capable free tiers.
+- The best free AI tools in 2026 cover chat (ChatGPT, Claude, Gemini), search (Perplexity), images, and coding, most with capable free tiers.
 - For everyday questions and writing, the ChatGPT, Claude, and Gemini free tiers are enough for most people.
 - Perplexity is the strongest free tool for researched, source-cited answers.
 - Free tiers change often, so pick by the task rather than the brand and switch when limits get in the way.
@@ -42,9 +42,9 @@ This list is for the free tiers as of 2026. Paid plans often unlock significantl
 
 **ChatGPT (free tier).** Best default for drafting, summarising, brainstorming, and most writing tasks. Strong at structure. Iro AI has a dedicated [ChatGPT path](/learn-chatgpt).
 
-**Claude (free tier).** The one to reach for on long documents — pasted PDFs, long memos, multi-page edits. More careful and conservative than ChatGPT. Iro AI's [Claude path](/learn-claude) drills its strengths.
+**Claude (free tier).** The one to reach for on long documents: pasted PDFs, long memos, multi-page edits. More careful and conservative than ChatGPT. Iro AI's [Claude path](/learn-claude) drills its strengths.
 
-**Gemini (free tier).** Strong when your work is already inside Google — Docs, Gmail, Sheets. Less useful as a standalone chat. [Gemini path](/learn-gemini).
+**Gemini (free tier).** Strong when your work is already inside Google: Docs, Gmail, Sheets. Less useful as a standalone chat. [Gemini path](/learn-gemini).
 
 When to use which: ChatGPT for the first draft, Claude for the cleanup pass on anything long, Gemini if the document already lives in Google.
 
@@ -54,7 +54,7 @@ When to use which: ChatGPT for the first draft, Claude for the cleanup pass on a
 
 **ChatGPT with browsing (free tier).** Useful for ad-hoc research but the citation discipline is weaker than Perplexity's. Verify before quoting.
 
-**Claude with files (free tier).** If your research is reading dense documents — earnings calls, legal filings, academic papers — Claude is the right tool. Paste the document, ask focused questions.
+**Claude with files (free tier).** If your research is reading dense documents (earnings calls, legal filings, academic papers), Claude is the right tool. Paste the document, ask focused questions.
 
 ## Coding
 
@@ -62,17 +62,17 @@ When to use which: ChatGPT for the first draft, Claude for the cleanup pass on a
 
 **Claude (free tier).** Best free option for longer code review and multi-file changes. Tends to catch edge cases other models miss.
 
-**Cursor (free tier).** AI-first editor. Worth installing even if you only use the free tier — the in-editor experience is much faster than copying code in and out of a chat.
+**Cursor (free tier).** AI-first editor. Worth installing even if you only use the free tier: the in-editor experience is much faster than copying code in and out of a chat.
 
 **GitHub Copilot (free for students/OSS).** Inline completion. Good for keeping flow when you already know what you want.
 
-The vibe-coding skill is judgment, not memorisation — see Iro AI's [vibe coding course](/vibe-coding-course).
+The vibe-coding skill is judgment, not memorisation. See Iro AI's [vibe coding course](/vibe-coding-course).
 
 ## Images & video
 
 **Free image generation.** Bing Image Creator (DALL·E 3 under the hood), Microsoft Designer, and the free tier of Flux on various hosts cover most needs. Iro AI's [image generation course](/ai-image-generation-course) teaches transferable prompting skills.
 
-**Free video generation.** Free tiers are constrained but useful: Runway's free clips, Luma's daily free generations, Pika's free credits. Skills transfer — see Iro AI's [video generation course](/ai-video-generation-course).
+**Free video generation.** Free tiers are constrained but useful: Runway's free clips, Luma's daily free generations, Pika's free credits. Skills transfer. See Iro AI's [video generation course](/ai-video-generation-course).
 
 Caveat: the free tiers move fast. Treat any specific tool name in this list as a placeholder for whichever free tool currently fits the slot.
 
@@ -98,11 +98,11 @@ Build your skills around patterns, not magic prompts. Patterns survive updates.
 
 **What's missing from this list?**
 
-Plenty — Notion AI, Anthropic's API, OpenAI's playground, specialised tools like ElevenLabs, Suno, and so on. This list is the daily stack, not the encyclopedia.
+Plenty: Notion AI, Anthropic's API, OpenAI's playground, specialised tools like ElevenLabs, Suno, and so on. This list is the daily stack, not the encyclopedia.
 
 **What is the best free way to actually learn these tools?**
 
-Free tools are only useful if you know how to use them well. The best free ways to learn AI pair daily practice with feedback — you can build real skill in about 5 minutes a day without paying.
+Free tools are only useful if you know how to use them well. The best free ways to learn AI pair daily practice with feedback. You can build real skill in about 5 minutes a day without paying.
 
 ## Read next
 

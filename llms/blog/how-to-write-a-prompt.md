@@ -28,20 +28,20 @@ pillar: "prompt-engineering"
 ## Key takeaways
 
 - A good prompt has four parts: context (background), role (who the AI should act as), task (what to do), and format (how you want the answer).
-- The biggest upgrade to a weak answer is usually more context and a specific format — not a 'magic' phrase.
+- The biggest upgrade to a weak answer is usually more context and a specific format, not a 'magic' phrase.
 - Treat the first answer as a draft and refine it; iteration is part of prompting.
 - The same recipe works across ChatGPT, Claude, Gemini, and Perplexity.
 
 ## How do you write a good AI prompt?
 
-**A good prompt gives the AI four things: context, a role, a clear task, and the output format you want.** Most weak answers come from skipping these — the model has to guess what you mean. Add them and you'll get sharp, useful results from ChatGPT, Claude, Gemini, or any other tool. Then treat the first answer as a draft and refine it.
+**A good prompt gives the AI four things: context, a role, a clear task, and the output format you want.** Most weak answers come from skipping these: the model has to guess what you mean. Add them and you'll get sharp, useful results from ChatGPT, Claude, Gemini, or any other tool. Then treat the first answer as a draft and refine it.
 
 ## The four parts of a great prompt
 
-- **Context** — the background the AI needs: who it's for, what you've tried, any constraints. _"I'm emailing a client who missed a deadline; tone should stay warm."_
-- **Role** — who the AI should act as: _"You are an experienced customer-success manager."_
-- **Task** — the specific thing to do: _"Write a 3-sentence reply that asks for a new date without blaming them."_
-- **Format** — how you want it: length, structure, tone. _"Under 80 words, friendly, no jargon."_
+- **Context.** The background the AI needs: who it's for, what you've tried, any constraints. _"I'm emailing a client who missed a deadline; tone should stay warm."_
+- **Role.** Who the AI should act as: _"You are an experienced customer-success manager."_
+- **Task.** The specific thing to do: _"Write a 3-sentence reply that asks for a new date without blaming them."_
+- **Format.** How you want it: length, structure, tone. _"Under 80 words, friendly, no jargon."_
 
 You won't need all four every time, but the more ambiguous the task, the more they help. This is the heart of [prompt engineering](/blog/what-is-prompt-engineering).
 
@@ -62,13 +62,13 @@ The first answer is a draft, not the deliverable. Improve it with quick follow-u
 - **Adjust:** "Make it shorter / more formal / more specific."
 - **Add an example:** show one sample of "good" and ask it to match.
 - **Ask for options:** "Give me three versions, ranked."
-- **Push back:** "That intro is generic — try a sharper hook."
+- **Push back:** "That intro is generic. Try a sharper hook."
 
 Two or three rounds of this beats hunting for a perfect one-shot prompt.
 
 ## Common prompting mistakes
 
-**Being vague.** "Make it better" gives the model nothing to aim at — say what "better" means. **Skipping context.** The AI can't read your mind about audience or constraints. **Accepting the first draft.** Iterating is where the quality comes from. **Chasing magic words.** There aren't any — clarity beats tricks. If your prompts keep underperforming, see [why your AI prompts aren't working](/blog/why-your-ai-prompts-arent-working), and practice hands-on in the [Prompt Lab](/prompt-engineering-app).
+**Being vague.** "Make it better" gives the model nothing to aim at. Say what "better" means. **Skipping context.** The AI can't read your mind about audience or constraints. **Accepting the first draft.** Iterating is where the quality comes from. **Chasing magic words.** There aren't any: clarity beats tricks. If your prompts keep underperforming, see [why your AI prompts aren't working](/blog/why-your-ai-prompts-arent-working), and practice hands-on in the [Prompt Lab](/prompt-engineering-app).
 
 ## FAQ
 
@@ -90,7 +90,7 @@ Mostly yes. The context-role-task-format structure works across all major AI too
 
 **How do I practice writing prompts every day?**
 
-Take one real task each day and rewrite your prompt with a role, goal, context, and constraints. Daily reps are the whole game — you can build the skill in about 5 minutes a day on the way to broader AI fluency.
+Take one real task each day and rewrite your prompt with a role, goal, context, and constraints. Daily reps are the whole game. You can build the skill in about 5 minutes a day on the way to broader AI fluency.
 
 ## Read next
 

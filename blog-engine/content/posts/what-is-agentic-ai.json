@@ -3,14 +3,14 @@
   "order": 28,
   "pillar": "ai-agents",
   "title": "What is agentic AI? Agents explained simply (2026)",
-  "lede": "Agentic AI is AI that pursues a goal on its own — planning steps, using tools, and adapting — instead of just answering one prompt at a time. Here's what it means, how it differs from chatbots and generative AI, and when it's actually useful.",
+  "lede": "Agentic AI is AI that pursues a goal on its own (planning steps, using tools, and adapting) instead of just answering one prompt at a time. Here's what it means, how it differs from chatbots and generative AI, and when it's actually useful.",
   "keyTakeaways": [
-    "Agentic AI is AI that takes goal-directed action on its own — planning multiple steps, using tools, and reacting to results — rather than answering a single prompt.",
+    "Agentic AI is AI that takes goal-directed action on its own, planning multiple steps, using tools, and reacting to results, rather than answering a single prompt.",
     "It builds on generative AI (the language model is the 'brain') but adds autonomy, memory, and the ability to use tools.",
     "Agents shine on fuzzy, multi-step tasks; they're less predictable, so they need clear scope and human oversight.",
     "Understanding when to use an agent vs a simple prompt or fixed automation is a core 2026 AI skill."
   ],
-  "description": "What is agentic AI? A plain-English explanation of AI agents in 2026 — how they differ from chatbots and generative AI, real examples, when they're useful, and the risks to manage.",
+  "description": "What is agentic AI? A plain-English explanation of AI agents in 2026: how they differ from chatbots and generative AI, real examples, when they're useful, and the risks to manage.",
   "keywords": [
     "what is agentic AI",
     "agentic AI explained",
@@ -60,12 +60,12 @@
     {
       "id": "answer",
       "heading": "What is agentic AI?",
-      "html": "<p><strong>Agentic AI is artificial intelligence that pursues a goal on its own — planning steps, using tools, and adapting to what it finds — instead of just answering a single prompt.</strong> You give an \"AI agent\" an outcome (\"research these five competitors and summarize their pricing\") and it figures out the steps, takes them, and reacts to results, rather than waiting for you to spell out each move.</p>"
+      "html": "<p><strong>Agentic AI is artificial intelligence that pursues a goal on its own (planning steps, using tools, and adapting to what it finds) instead of just answering a single prompt.</strong> You give an \"AI agent\" an outcome (\"research these five competitors and summarize their pricing\") and it figures out the steps, takes them, and reacts to results, rather than waiting for you to spell out each move.</p>"
     },
     {
       "id": "how",
       "heading": "How do AI agents work?",
-      "html": "<p>An agent wraps a <a href=\"/blog/what-is-an-llm\">large language model</a> (the reasoning \"brain\") in a loop that adds three things a plain chatbot lacks:</p><ul><li><strong>Planning</strong> — it breaks a goal into steps and decides what to do next.</li><li><strong>Tools</strong> — it can search the web, run code, call APIs, or use apps to act, not just talk.</li><li><strong>Memory &amp; feedback</strong> — it remembers progress and adjusts based on what each step returns.</li></ul><p>For a deeper, jargon-free walkthrough, read <a href=\"/blog/ai-agents-explained\">AI agents, explained without the jargon</a>.</p>"
+      "html": "<p>An agent wraps a <a href=\"/blog/what-is-an-llm\">large language model</a> (the reasoning \"brain\") in a loop that adds three things a plain chatbot lacks:</p><ul><li><strong>Planning</strong>: it breaks a goal into steps and decides what to do next.</li><li><strong>Tools</strong>: it can search the web, run code, call APIs, or use apps to act, not just talk.</li><li><strong>Memory &amp; feedback</strong>: it remembers progress and adjusts based on what each step returns.</li></ul><p>For a deeper, jargon-free walkthrough, read <a href=\"/blog/ai-agents-explained\">AI agents, explained without the jargon</a>.</p>"
     },
     {
       "id": "vs",
@@ -80,7 +80,7 @@
     {
       "id": "when",
       "heading": "When should you use an agent?",
-      "html": "<p>Use an agent for <strong>fuzzy, multi-step tasks that need judgment and can't be fully scripted.</strong> For repeatable, well-defined tasks, simple rule-based <a href=\"/blog/ai-agents-vs-automation\">automation</a> is more reliable. And for a quick one-off answer, a plain prompt is faster. Knowing which to reach for is itself a skill — covered in <a href=\"/blog/ai-skills-for-2026\">the AI skills worth learning in 2026</a>.</p>"
+      "html": "<p>Use an agent for <strong>fuzzy, multi-step tasks that need judgment and can't be fully scripted.</strong> For repeatable, well-defined tasks, simple rule-based <a href=\"/blog/ai-agents-vs-automation\">automation</a> is more reliable. And for a quick one-off answer, a plain prompt is faster. Knowing which to reach for is itself a skill, covered in <a href=\"/blog/ai-skills-for-2026\">the AI skills worth learning in 2026</a>.</p>"
     },
     {
       "id": "risks",
@@ -109,7 +109,7 @@
   "faq": [
     {
       "q": "What is agentic AI in simple terms?",
-      "a": "Agentic AI is AI that pursues a goal on its own — planning steps, using tools, and adapting — instead of just answering one prompt. You give it an outcome and it works out and takes the steps to get there."
+      "a": "Agentic AI is AI that pursues a goal on its own (planning steps, using tools, and adapting) instead of just answering one prompt. You give it an outcome and it works out and takes the steps to get there."
     },
     {
       "q": "What is the difference between agentic AI and generative AI?",

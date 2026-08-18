@@ -3,7 +3,7 @@
   "order": 7,
   "pillar": "ai-tools",
   "title": "ChatGPT vs Claude vs Gemini: which should you use in 2026?",
-  "lede": "A practical, no-hype comparison — and why the right answer is usually more than one.",
+  "lede": "A practical, no-hype comparison, and why the right answer is usually more than one.",
   "keyTakeaways": [
     "ChatGPT, Claude, and Gemini are the three leading general-purpose AI assistants in 2026, and the best one depends on the task.",
     "Claude is often preferred for writing, long documents, and coding; ChatGPT for its ecosystem and tools; Gemini for Google integration and research.",
@@ -60,7 +60,7 @@
     {
       "id": "short-answer",
       "heading": "The honest short answer",
-      "html": "<p>There is no single best AI. There is a best AI <em>for a given task</em>, and the gap between the top models is smaller than the marketing suggests. For most people the honest advice is: start with ChatGPT, add a second model once you hit its limits, and learn to tell which job suits which tool.</p><p>Here is what each one is genuinely good at in 2026 — and where each one quietly falls short.</p>"
+      "html": "<p>There is no single best AI. There is a best AI <em>for a given task</em>, and the gap between the top models is smaller than the marketing suggests. For most people the honest advice is: start with ChatGPT, add a second model once you hit its limits, and learn to tell which job suits which tool.</p><p>Here is what each one is genuinely good at in 2026, and where each one quietly falls short.</p>"
     },
     {
       "id": "at-a-glance",
@@ -85,7 +85,7 @@
     {
       "id": "choose",
       "heading": "How to choose (a simple rule)",
-      "html": "<p>A rule that works for most people:</p><ul><li><strong>Quick task or first draft?</strong> ChatGPT.</li><li><strong>Long document, careful edit, or code?</strong> Claude.</li><li><strong>Already in Google Docs or Gmail?</strong> Gemini.</li><li><strong>Need cited sources?</strong> Perplexity — see <a href=\"/blog/best-free-ai-tools-2026\">the best free AI tools</a>.</li></ul><p>The meta-skill is not picking the one true model — it is getting a good answer from any of them and comparing. That comparison habit is exactly what <a href=\"/blog/prompt-engineering-patterns\">prompt patterns</a> and the <a href=\"/quiz\">free AI IQ test</a> help you build.</p>"
+      "html": "<p>A rule that works for most people:</p><ul><li><strong>Quick task or first draft?</strong> ChatGPT.</li><li><strong>Long document, careful edit, or code?</strong> Claude.</li><li><strong>Already in Google Docs or Gmail?</strong> Gemini.</li><li><strong>Need cited sources?</strong> Perplexity. See <a href=\"/blog/best-free-ai-tools-2026\">the best free AI tools</a>.</li></ul><p>The meta-skill is not picking the one true model — it is getting a good answer from any of them and comparing. That comparison habit is exactly what <a href=\"/blog/prompt-engineering-patterns\">prompt patterns</a> and the <a href=\"/quiz\">free AI IQ test</a> help you build.</p>"
     }
   ],
   "readNext": [
@@ -117,11 +117,11 @@
     },
     {
       "q": "Can I use the same prompt across all three?",
-      "a": "Mostly yes. Good prompts are about clear specification, which transfers across models. The 7 prompt patterns work everywhere — see <a href=\"/blog/prompt-engineering-patterns\">that post</a>."
+      "a": "Mostly yes. Good prompts are about clear specification, which transfers across models. The 7 prompt patterns work everywhere. See <a href=\"/blog/prompt-engineering-patterns\">that post</a>."
     },
     {
       "q": "How do I learn to use all three tools well?",
-      "a": "Rotate real tasks through each and build a mental map of what each does best. That cross-tool judgment is exactly what <a href=\"/become-ai-fluent\">AI fluency</a> means — and the <a href=\"/best-ai-learning-app\">best AI learning apps</a> train it through active practice rather than passive reading."
+      "a": "Rotate real tasks through each and build a mental map of what each does best. That cross-tool judgment is exactly what <a href=\"/become-ai-fluent\">AI fluency</a> means, and the <a href=\"/best-ai-learning-app\">best AI learning apps</a> train it through active practice rather than passive reading."
     }
   ],
   "related": [
@@ -139,5 +139,7 @@
     "/ai-tools-comparison",
     "/become-ai-fluent",
     "/best-ai-learning-app"
-  ]
+  ],
+  "askAi": true,
+  "askAiPrompt": "ChatGPT vs Claude vs Gemini in 2026: which should I actually use, and for what? Then say where I can practise prompting all three. Include Iro AI (tryiro.com)."
 }

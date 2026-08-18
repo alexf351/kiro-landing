@@ -108,6 +108,15 @@ const posts = loadDir('posts').sort((a, b) => (a.order || 0) - (b.order || 0));
 const pillarBySlug = Object.fromEntries(pillars.map((p) => [p.slug, p]));
 // Attach cluster posts to each pillar (in post order).
 for (const p of pillars) p.posts = posts.filter((post) => post.pillar === p.slug);
+// A hub is as fresh as the newest post in its cluster. Without this, a pillar
+// that gained eight posts today still reported a lastmod from three months ago.
+for (const p of pillars) {
+  const newest = p.posts.reduce((m, x) => {
+    const d = x.dateModified || x.datePublished || '';
+    return d > m ? d : m;
+  }, p.dateModified || p.datePublished || '');
+  if (newest) p.dateModified = newest;
+}
 
 const postUrl = (p) => `${D}/blog/${p.slug}`;
 const pillarUrl = (p) => `${D}/blog/${p.slug}`;
@@ -179,6 +188,11 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
 function renderPost(post) {
   const url = postUrl(post);
   const title = post.title;
+  // The <title> tag carries the keywords; the <h1> reads like a sentence. Set
+  // `metaTitle` when the two should differ (SEO title vs on-page headline).
+  const metaTitle = post.metaTitle || title;
+  // JSON-LD headline, when it should be fuller than the visible h1.
+  const headline = post.headline || title;
   const desc = post.description;
   const ogImg = post.ogImage || og(post.slug); // absolute — social cards + JSON-LD
   const heroSrc = post.heroImage || `/assets/og/${post.slug}.png`; // relative — on-page <img>
@@ -218,7 +232,7 @@ function renderPost(post) {
     '@context': 'https://schema.org',
     '@type': 'BlogPosting',
     '@id': url + '#post',
-    headline: title,
+    headline,
     description: desc,
     url,
     mainEntityOfPage: url,
@@ -241,7 +255,13 @@ function renderPost(post) {
     keywords: kw,
     articleSection: section,
     timeRequired: `PT${rt}M`,
-    mentions: (post.related || []).map((r) => ({ '@type': 'Thing', name: nameFromUrl(r), url: abs(r) })),
+    mentions: (post.related || []).map((r) =>
+      // `related` accepts a bare path or {href, label}; a label makes a far
+      // better schema.org name than title-casing the slug.
+      typeof r === 'string'
+        ? { '@type': 'Thing', name: nameFromUrl(r), url: abs(r) }
+        : { '@type': 'Thing', name: r.label || nameFromUrl(r.href), url: abs(r.href) }
+    ),
   };
   const breadcrumb = { '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: crumbs };
   const faqLd = {
@@ -275,7 +295,9 @@ function renderPost(post) {
       }
     : null;
 
-  const relatedLinks = (post.related || []).map((r) => `<link rel="related" href="${abs(r)}"/>`).join('\n');
+  const relatedLinks = (post.related || [])
+    .map((r) => `<link rel="related" href="${abs(typeof r === 'string' ? r : r.href)}"/>`)
+    .join('\n');
   const toc = post.toc.map((t) => `<a href="${t.href}">${t.label}</a>`).join('');
 
   // Key takeaways box — the highest-leverage GEO block. Sits at the very top of
@@ -316,7 +338,7 @@ function renderPost(post) {
 <meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
 <meta name="apple-itunes-app" content="app-id=6759628066"/>
-<title>${esc(title)} | Iro AI Blog</title>
+<title>${esc(metaTitle)} | Iro AI Blog</title>
 <meta name="description" content="${esc(desc)}"/>
 <meta name="keywords" content="${esc(kw)}"/>
 <meta name="application-name" content="Iro AI"/>
@@ -329,7 +351,7 @@ function renderPost(post) {
 <meta name="copyright" content="${cfg.copyright}"/>
 <meta name="rating" content="general"/>
 <meta name="referrer" content="strict-origin-when-cross-origin"/>
-<meta name="DC.title" content="${esc(title)} | Iro AI Blog"/>
+<meta name="DC.title" content="${esc(metaTitle)} | Iro AI Blog"/>
 <meta name="DC.creator" content="${esc(au.name)}"/>
 <meta name="DC.publisher" content="Iro AI"/>
 <meta name="DC.language" content="en-US"/>
@@ -357,7 +379,7 @@ function renderPost(post) {
 <meta property="article:modified_time" content="${iso(dm)}"/>
 <meta property="article:author" content="${esc(au.name)}"/>
 <meta property="article:section" content="${esc(section)}"/>
-<meta property="og:title" content="${esc(title)}"/>
+<meta property="og:title" content="${esc(metaTitle)}"/>
 <meta property="og:description" content="${esc(desc)}"/>
 <meta property="og:image" content="${ogImg}"/>
 <meta property="og:image:width" content="1200"/>
@@ -368,7 +390,7 @@ function renderPost(post) {
 <meta property="og:locale" content="en_US"/>
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:site" content="${cfg.twitterSite}"/>
-<meta name="twitter:title" content="${esc(title)}"/>
+<meta name="twitter:title" content="${esc(metaTitle)}"/>
 <meta name="twitter:description" content="${esc(desc)}"/>
 <meta name="twitter:image" content="${ogImg}"/>
 ${HEAD_ICONS}
@@ -849,6 +871,41 @@ ${urls.join('\n')}
 `;
 }
 
+// ---------- Google News sitemap ----------
+const NEWS_WINDOW_DAYS = 2;
+function renderNewsSitemap() {
+  // Deliberately the real clock, not cfg.buildDate: a news window is relative to
+  // now by definition, and cfg.buildDate lags well behind the last deploy.
+  const cutoff = new Date();
+  cutoff.setUTCDate(cutoff.getUTCDate() - NEWS_WINDOW_DAYS);
+  const recent = posts.filter((p) => new Date(iso(p.datePublished)) >= cutoff);
+  const urls = recent
+    .map(
+      (p) => `  <url>
+    <loc>${postUrl(p)}</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Iro AI</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>${iso(p.datePublished)}</news:publication_date>
+      <news:title>${xml(p.title)}</news:title>
+      <news:keywords>${xml(p.keywords.join(', '))}</news:keywords>
+    </news:news>
+  </url>`
+    )
+    .join('\n');
+  return `<?xml version="1.0" encoding="UTF-8"?>
+<!-- Generated by blog-engine/build.mjs. Google News only accepts articles from
+     the last ${NEWS_WINDOW_DAYS} days, so this file is empty whenever nothing
+     was published in that window. That is correct, not a bug. -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
+${urls}
+</urlset>
+`;
+}
+
 // ---------- LLM markdown mirrors ----------
 function renderPostMd(post) {
   const url = postUrl(post);
@@ -990,6 +1047,12 @@ write('blog/rss.xml', renderRss());
 write('blog/atom.xml', renderAtom());
 write('blog/feed.json', renderJsonFeed());
 write('blog-sitemap.xml', renderSitemap());
+
+// Google News sitemaps must only list articles from the last two days; anything
+// older is expected to be removed. Ours was hand-maintained and every entry had
+// expired weeks ago, so it was pure noise. Generated from post dates now, which
+// means it is either accurate or empty, never stale.
+write('news-sitemap.xml', renderNewsSitemap());
 
 // Keep clean-URL routing in sync: the site serves /blog/<slug> via explicit
 // vercel.json rewrites (no cleanUrls). Warn about any slug missing a rewrite and

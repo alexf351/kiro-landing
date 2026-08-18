@@ -26,16 +26,16 @@ pillar: "ai-agents"
 
 ## Key takeaways
 
-- MCP (Model Context Protocol) is an open standard for connecting AI models to tools and data — one common plug instead of a custom integration for every pairing.
+- MCP (Model Context Protocol) is an open standard for connecting AI models to tools and data: one common plug instead of a custom integration for every pairing.
 - It has crossed 400 million monthly SDK downloads, which makes it the de facto way AI assistants reach the outside world.
-- Today's 2026-07-28 release — the fifth spec version — moves MCP to a stateless request/response core, so servers can run on serverless and edge infrastructure.
+- Today's 2026-07-28 release, the fifth spec version, moves MCP to a stateless request/response core, so servers can run on serverless and edge infrastructure.
 - It also graduates extensions (MCP Apps and Tasks) into a versioned framework and hardens authorization, with the Enterprise-Managed Authorization extension now stable.
 
 ## The short answer
 
-**MCP — Model Context Protocol — is an open standard that lets AI models talk to outside tools and data through one common interface, instead of every app building a bespoke integration for every model.** It is the plumbing behind an assistant that can read your files, query a database, or take an action in another product.
+**MCP (Model Context Protocol) is an open standard that lets AI models talk to outside tools and data through one common interface, instead of every app building a bespoke integration for every model.** It is the plumbing behind an assistant that can read your files, query a database, or take an action in another product.
 
-The reason to pay attention now: MCP has passed **400 million monthly SDK downloads**, and today's **2026-07-28 specification** — its fifth release — is the largest structural change since launch, moving the protocol to a stateless core.
+The reason to pay attention now: MCP has passed **400 million monthly SDK downloads**, and today's **2026-07-28 specification** (its fifth release) is the largest structural change since launch, moving the protocol to a stateless core.
 
 ## The problem it solves
 
@@ -43,15 +43,15 @@ Before a shared protocol, connecting an AI assistant to a tool meant writing a c
 
 MCP replaces that with one interface. A tool exposes itself once as an _MCP server_; any MCP-speaking assistant can use it. The comparison people reach for is USB-C: before, every device had its own cable; after, one port fits everything.
 
-That is the whole idea, and its unglamorousness is the point. Protocols win by disappearing — you do not think about HTTP when you open a web page. MCP crossing 400 million monthly SDK downloads means it has largely stopped being a proposal and started being infrastructure.
+That is the whole idea, and its unglamorousness is the point. Protocols win by disappearing: you do not think about HTTP when you open a web page. MCP crossing 400 million monthly SDK downloads means it has largely stopped being a proposal and started being infrastructure.
 
 ## What the 2026-07-28 release changes
 
-The headline change. MCP moved from a bidirectional, stateful protocol — where client and server hold an open session — to a plain request/response model where every request describes itself completely.
+The headline change. MCP moved from a bidirectional, stateful protocol (where client and server hold an open session) to a plain request/response model where every request describes itself completely.
 
 That sounds like an implementation detail and is actually the difference between "MCP servers are something you host and babysit" and "MCP servers are something you deploy like any web endpoint." Because requests no longer depend on session state, any request can land on any instance behind an ordinary round-robin load balancer, and servers can run on serverless and edge infrastructure. Clients that still want the full capability list up front can make an optional discovery call.
 
-MCP Apps and Tasks now ship under a versioned extensions framework. In practice that means interactive interfaces and long-running work — an agent that takes twenty minutes rather than returning instantly — have a formal home without bloating the core protocol. This is the standard maturity move: keep the middle small, let capability grow at the edges.
+MCP Apps and Tasks now ship under a versioned extensions framework. In practice that means interactive interfaces and long-running work (an agent that takes twenty minutes rather than returning instantly) have a formal home without bloating the core protocol. This is the standard maturity move: keep the middle small, let capability grow at the edges.
 
 Authorization now aligns more closely with existing OAuth and OpenID Connect deployments, and the Enterprise-Managed Authorization (EMA) extension is stable. Translation: companies can let AI assistants reach internal systems using the identity infrastructure they already run, rather than inventing a parallel permission model. That is usually the specific thing blocking adoption inside large organisations.
 
@@ -59,7 +59,7 @@ The release also adds multi round-trip requests, header-based routing, cacheable
 
 ## Why this matters even if you never write code
 
-MCP is the reason the phrase "AI assistant" is shifting from something that answers questions to something that does things. Every capability that arrives in your tools — an assistant that can search your company wiki, file a ticket, pull a report — is likely riding on this kind of connection underneath.
+MCP is the reason the phrase "AI assistant" is shifting from something that answers questions to something that does things. Every capability that arrives in your tools (an assistant that can search your company wiki, file a ticket, pull a report) is likely riding on this kind of connection underneath.
 
 Three practical consequences:
 
@@ -75,9 +75,9 @@ Honest answer, by who you are:
 
 **If you work with AI daily but don't build:** know what it is and check what your assistant is connected to. That is roughly the depth that pays off. You do not need the spec.
 
-**If you're learning AI:** this is worth understanding conceptually, because it explains where the field is heading. The interesting frontier stopped being "how smart is the model" and became "what is it plugged into, and what is it permitted to do." Agents are just models with tools and a loop — MCP is how the tools get attached.
+**If you're learning AI:** this is worth understanding conceptually, because it explains where the field is heading. The interesting frontier stopped being "how smart is the model" and became "what is it plugged into, and what is it permitted to do." Agents are just models with tools and a loop; MCP is how the tools get attached.
 
-The skill that follows from that is not memorising a protocol. It is judgment about delegation: what you hand to an automated system, what you review before it acts, and what you never connect at all. That question gets more important every time integration gets easier — and it is a question about you, not about the model.
+The skill that follows from that is not memorising a protocol. It is judgment about delegation: what you hand to an automated system, what you review before it acts, and what you never connect at all. That question gets more important every time integration gets easier, and it is a question about you, not about the model.
 
 ## FAQ
 
@@ -95,7 +95,7 @@ Previously MCP was a bidirectional stateful protocol, meaning client and server 
 
 **Do I need to understand MCP to use AI tools?**
 
-No. MCP is infrastructure — most people will use tools built on it without ever touching it. The one part worth knowing as a user is what your AI assistant is connected to and what actions it is permitted to take, since assistants that can act on your accounts carry different risks from ones that only answer questions.
+No. MCP is infrastructure: most people will use tools built on it without ever touching it. The one part worth knowing as a user is what your AI assistant is connected to and what actions it is permitted to take, since assistants that can act on your accounts carry different risks from ones that only answer questions.
 
 **How widely is MCP used?**
 
