@@ -11,6 +11,93 @@ rows should be replaced with GSC data the moment the export exists.
 
 ---
 
+## MEASURED — the first real data (2026-08-18)
+
+Everything above this line was modelled. This section is not.
+
+### Google Search Console, 90 days to 2026-08-16
+
+| | |
+| --- | --- |
+| Clicks | **355** |
+| Impressions | **17,100** |
+| CTR | **2.1%** |
+| Average position | **32.7** |
+
+Shape of the curve matters more than the totals: impressions ran near zero in
+mid-May and reached roughly **550 a day by mid-August**. That is real growth
+and it came from the content work, not from links.
+
+**Three readings.**
+
+1. **CTR is not the problem, and titles are not either.** Published CTR curves
+   put position 33 at roughly 0.8 to 1.2%. We are at 2.1%, which is *above*
+   the curve. Rewriting titles and meta descriptions would be wasted effort
+   right now.
+2. **Position is the bottleneck.** 32.7 is page three or four. The pages are
+   indexed, they are being served, and almost nobody scrolls that far.
+3. **Position alone does not get us to the goal.** At today's impression
+   volume, even an average position of 8 yields about 900 clicks a month:
+
+   | Avg position | Est. CTR | Clicks/month at today's impressions |
+   | --- | --- | --- |
+   | 32.7 (now) | 2.1% | ~350 |
+   | 20 | 3.0% | ~495 |
+   | 12 | 4.5% | ~742 |
+   | 8 | 5.5% | ~908 |
+
+### Bing Webmaster, same day
+
+| | |
+| --- | --- |
+| Impressions | **0** |
+| URLs discovered | 71 (of our 172) |
+| Last sitemap crawl | 2026-07-21 |
+| Referring domains | 4 |
+
+`blog-sitemap.xml` had never been submitted, so Bing's sitemap discovery
+covered root pages only. Submitted 2026-08-18. IndexNow had been feeding it
+the blog URLs anyway (171 submitted in 21 hours, 6.5K over time), so Bing knew
+about the pages and was not showing them.
+
+The four referring domains are reddlx.com, liststartup.in, umia.finance and
+cybercorsairs.com. Those are auto-generated scraper directories. **The real
+referring-domain count is zero**, and Bing's own top recommendation says so:
+"Your site does not have enough inbound links from high quality domains."
+
+### What this does to the 100-a-day goal
+
+The plan modelled month 12 at 100 installs a day. **That is not credible
+against this data and I am retracting it.**
+
+100 installs/day needs roughly 100,000 sessions a month. We are at about 350 a
+month. That is a **289x** gap, and position improvement alone closes maybe 3x
+of it. The rest has to come from impression growth, which means more pages
+ranking for more queries, which means authority.
+
+A defensible ladder from here, assuming the directory and outreach work
+actually happens:
+
+| | Clicks/month | Installs/day |
+| --- | --- | --- |
+| Now | ~350 | under 1 |
+| Month 6 | 1,500-2,500 | 1-2 |
+| Month 12 | 4,000-8,000 | 4-8 |
+| 100/day | ~35,000 | the 2-4 year target |
+
+I would rather hand you that than a number that flatters the plan. The growth
+curve is genuinely good; the goal was set before anyone had measured the base.
+
+### The next thing I need
+
+The **Queries** and **Pages** tabs, exported as CSV, 3 months. The summary
+tells us the average is 32.7; the export tells us *which* terms sit at 11-20.
+Those are striking distance, where a small push moves a page onto page one and
+CTR triples. That list is the highest-value thing on this page and I cannot
+derive it from the totals.
+
+---
+
 ## Where Iro already ranks
 
 | Query | Iro's position | Page | Notes |
