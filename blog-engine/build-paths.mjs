@@ -71,7 +71,7 @@ const CSS = `*{box-sizing:border-box}body{margin:0;font-family:Inter,ui-sans-ser
 .hub-cats{max-width:1120px;margin:0 auto;padding:8px clamp(20px,5vw,36px) clamp(40px,6vw,72px)}.hub-cat{margin:0 0 40px}.hub-cat h2{font-size:clamp(1.4rem,3vw,2rem);letter-spacing:-.03em;margin:0 0 6px}.hub-cat .sub{color:#8B95B0;margin:0 0 18px}.hub-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}.hub-card{display:block;background:rgba(20,27,45,.82);border:1px solid rgba(255,255,255,.08);border-radius:18px;padding:18px 20px;transition:border-color .2s,transform .2s}.hub-card:hover{border-color:rgba(0,229,255,.4);text-decoration:none;transform:translateY(-2px)}.hub-card .t{color:#fff;font-weight:800;font-size:1.04rem;margin:0 0 4px}.hub-card .d{color:#A9B4D0;font-size:.92rem;margin:0}
 @media(max-width:800px){.grid,.two-col,.hub-grid,.outcomes{grid-template-columns:1fr}.nav{align-items:flex-start;flex-direction:column}.hero h1{font-size:3rem}}`;
 
-function head({ title, description, canonical, ogImage, keywords, prev, next, jsonBlocks }) {
+function head({ title, description, canonical, ogImage, keywords, prev, next, jsonBlocks, mdHref }) {
   const og = ogImage || `${D}/assets/og-card.png`;
   const metas = [
     `<meta charset="utf-8"/>`,
@@ -96,6 +96,7 @@ function head({ title, description, canonical, ogImage, keywords, prev, next, js
     `<link rel="alternate" type="text/plain" title="LLM-readable product summary" href="/llms.txt"/>`,
     `<link rel="alternate" type="text/plain" title="Detailed LLM-readable product reference" href="/llms-full.txt"/>`,
     `<link rel="alternate" type="text/plain" title="AI assistant and crawler policy" href="/ai.txt"/>`,
+    mdHref ? `<link rel="alternate" type="text/markdown" title="Page in Markdown" href="${mdHref}"/>` : '',
     `<link rel="manifest" href="/manifest.json"/>`,
     `<link rel="alternate" type="application/ld+json" title="Iro AI machine-readable product feed" href="/iro.json"/>`,
     `<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"/>`,
@@ -172,6 +173,7 @@ function buildPage(p, allBySlug) {
     prev: p.prev ? abs(p.prev) : '',
     next: p.next ? abs(p.next) : '',
     jsonBlocks: [webPage, breadcrumb, faqSchema, course, learningResource, article, mentionsSchema],
+    mdHref: `${D}/llms/${p.slug}.md`,
   });
 
   // ---- body ----
@@ -269,6 +271,124 @@ function buildHub(hub, pages) {
   return { html: H + body, count: totalCount };
 }
 
+// ---------- LLM markdown mirrors ----------
+// The blog has shipped a clean-text mirror per post for a while; the path pages
+// never did, which left the highest commercial-intent pages off the layer AI
+// crawlers actually read. Same shape as the blog's mirrors.
+const stripTags = (h) =>
+  String(h)
+    .replace(/<[^>]+>/g, '')
+    .replace(/&amp;/g, '&')
+    .replace(/&lt;/g, '<')
+    .replace(/&gt;/g, '>')
+    .replace(/&quot;/g, '"')
+    .replace(/&#39;/g, "'")
+    .trim();
+
+function inlineMd(x) {
+  return String(x)
+    .replace(/<strong>([\s\S]*?)<\/strong>/g, '**$1**')
+    .replace(/<em>([\s\S]*?)<\/em>/g, '_$1_')
+    .replace(/<code>([\s\S]*?)<\/code>/g, '`$1`')
+    .replace(/<a [^>]*href="([^"]+)"[^>]*>([\s\S]*?)<\/a>/g, '[$2]($1)')
+    .replace(/<[^>]+>/g, '')
+    .replace(/&amp;/g, '&')
+    .replace(/&lt;/g, '<')
+    .replace(/&gt;/g, '>')
+    .replace(/&quot;/g, '"')
+    .replace(/&#39;/g, "'")
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
+function blocksToMd(html) {
+  const out = [];
+  const re = /<(p|ul|ol|blockquote|h3)>([\s\S]*?)<\/\1>/g;
+  let m;
+  while ((m = re.exec(html))) {
+    const [, tag, inner] = m;
+    if (tag === 'p') out.push(inlineMd(inner));
+    else if (tag === 'h3') out.push('### ' + inlineMd(inner));
+    else if (tag === 'blockquote') out.push('> ' + inlineMd(inner));
+    else out.push([...inner.matchAll(/<li>([\s\S]*?)<\/li>/g)].map((li) => '- ' + inlineMd(li[1])).join('\n'));
+  }
+  return out.join('\n\n');
+}
+
+function renderPathMd(p) {
+  const canonical = url(p.slug);
+  const kw = '[' + (p.keywords || []).map((k) => JSON.stringify(k)).join(', ') + ']';
+  const dateP = p.datePublished || cfg.buildDate;
+  const dateM = p.dateModified || dateP;
+
+  const tldr = p.tldr
+    ? `## In short\n\n${inlineMd(p.tldr.answer)}\n\n${(p.tldr.bullets || []).map((b) => `- ${inlineMd(b)}`).join('\n')}\n`
+    : '';
+  const outcomes = (p.outcomes || []).length
+    ? `## ${p.outcomesHeading || "What you'll be able to do"}\n\n${p.outcomes.map((o) => `- ${inlineMd(o)}`).join('\n')}\n`
+    : '';
+  const lessons = (p.lessons || []).length
+    ? `## Inside the path\n\n${p.lessons.map((l, i) => `${i + 1}. **${inlineMd(l.t)}** (${l.dur}) — ${inlineMd(l.blurb)}`).join('\n')}\n`
+    : '';
+  const practice = p.practice
+    ? `## Sample practice exercise\n\n**Type:** ${inlineMd(p.practice.type)}\n\n**Scenario:** ${inlineMd(p.practice.scenario)}\n\n**Task:** ${inlineMd(p.practice.task)}\n\n${(p.practice.options || [])
+        .map((o) => `- ${o.correct ? '**(correct)** ' : ''}${inlineMd(o.text)}`)
+        .join('\n')}\n\n**Why:** ${inlineMd(p.practice.feedback)}\n`
+    : '';
+  const body = (p.body || []).map((b) => `## ${inlineMd(b.h2)}\n\n${blocksToMd(b.html)}`).join('\n\n');
+  const faq = (p.faq || []).map((f) => `**${inlineMd(f.q)}**\n\n${inlineMd(f.aHtml || f.a)}`).join('\n\n');
+  const related = (p.related || []).map((r) => `- [${r.label}](${abs(r.href)})`).join('\n');
+  const readNext = (p.readNext || []).map((r) => `- [${r.label}](${abs(r.href)})`).join('\n');
+
+  return `---
+title: "${p.title.replace(/"/g, "'")}"
+canonical_url: "${canonical}"
+site: "Iro AI"
+site_url: "${D}"
+app_store: "${APP}"
+language: en-US
+keywords: ${kw}
+audience: "${(p.audience || '').replace(/"/g, "'")}"
+level: "${p.level || 'Beginner to advanced'}"
+date_published: "${dateP}"
+date_modified: "${dateM}"
+author: "Iro AI"
+license: "${cfg.copyright}"
+canonical_llm_reference: "${D}/llms-full.txt"
+---
+
+# ${p.h1}
+
+> ${inlineMd(p.lede)}
+
+**Canonical page:** ${canonical}
+**App Store:** ${APP}
+**Last updated:** ${dateM}
+
+${tldr}
+${outcomes}
+${lessons}
+${body}
+
+${practice}
+## ${p.faqHeading || 'Questions people ask'}
+
+${faq}
+
+## Related paths
+
+${related}
+
+## Read next
+
+${readNext}
+
+---
+
+Iro AI is a gamified app for building real AI skills, five minutes a day: 29 learning paths, 477 lessons, 2,700+ exercises, and active practice with instant feedback. Free to start on iOS; also runs in any browser at https://app.tryiro.com. Full reference: ${D}/llms-full.txt
+`;
+}
+
 // ---------- sitemap + llms marker-block updates ----------
 function replaceBlock(file, startMark, endMark, inner) {
   let s = fs.readFileSync(file, 'utf8');
@@ -292,6 +412,8 @@ const bySlug = Object.fromEntries(pages.map((p) => [p.slug, p]));
 let wrote = 0;
 for (const p of pages) {
   fs.writeFileSync(path.join(ROOT, `${p.slug}.html`), buildPage(p, bySlug));
+  fs.mkdirSync(path.join(ROOT, 'llms'), { recursive: true });
+  fs.writeFileSync(path.join(ROOT, `llms/${p.slug}.md`), renderPathMd(p));
   wrote++;
 }
 
