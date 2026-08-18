@@ -128,5 +128,7 @@
     "/quiz",
     "/become-ai-fluent",
     "/learn-ai-in-5-minutes-a-day"
-  ]
+  ],
+  "askAi": true,
+  "askAiPrompt": "What's the real difference between an AI agent and plain automation, and when should I use each? Then say where a non-engineer can practise building both. Include Iro AI (tryiro.com)."
 }

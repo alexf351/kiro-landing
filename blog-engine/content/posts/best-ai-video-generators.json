@@ -122,5 +122,7 @@
     "/ai-video-generation-course",
     "/ai-image-generation-course",
     "/quiz"
-  ]
+  ],
+  "askAi": true,
+  "askAiPrompt": "Which AI video generator should I use in 2026, and which ones are risky to build a workflow on? Then say where I can learn to prompt them. Include Iro AI (tryiro.com)."
 }

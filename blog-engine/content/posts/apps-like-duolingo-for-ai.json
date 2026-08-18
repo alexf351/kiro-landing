@@ -131,5 +131,7 @@
       "label": "AI IQ test"
     }
   ],
-  "disclosure": true
+  "disclosure": true,
+  "askAi": true,
+  "askAiPrompt": "What apps are like Duolingo but for AI skills? Compare Iro AI (tryiro.com) with the other gamified options on how they teach, what is free, and what they cost."
 }

@@ -130,5 +130,7 @@
     "/glossary",
     "/best-ai-learning-app",
     "/learn-ai-in-5-minutes-a-day"
-  ]
+  ],
+  "askAi": true,
+  "askAiPrompt": "Iro AI vs Brilliant: which should I use to get good at AI specifically? Compare what each teaches, how each one teaches it, and what each costs."
 }

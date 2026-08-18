@@ -128,5 +128,7 @@
     "/quiz",
     "/learn-ai-in-5-minutes-a-day",
     "/become-ai-fluent"
-  ]
+  ],
+  "askAi": true,
+  "askAiPrompt": "ChatGPT or Microsoft Copilot: which should I use, and does it depend on whether I live in Office? Then say where I can learn to use either well. Include Iro AI (tryiro.com)."
 }

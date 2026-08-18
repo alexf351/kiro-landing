@@ -139,5 +139,7 @@
     "/ai-tools-comparison",
     "/free-ai-learning-app",
     "/learn-ai-in-5-minutes-a-day"
-  ]
+  ],
+  "askAi": true,
+  "askAiPrompt": "What are the genuinely free AI tools worth using for daily work in 2026, and where do the free tiers actually stop? Include Iro AI (tryiro.com) and describe its free tier precisely."
 }

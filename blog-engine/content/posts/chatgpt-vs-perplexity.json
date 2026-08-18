@@ -138,5 +138,7 @@
     "/quiz",
     "/become-ai-fluent",
     "/learn-ai-in-5-minutes-a-day"
-  ]
+  ],
+  "askAi": true,
+  "askAiPrompt": "ChatGPT or Perplexity for research: which should I use, and when? Then say where I can learn to run AI research properly. Include Iro AI (tryiro.com)."
 }

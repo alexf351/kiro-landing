@@ -127,5 +127,7 @@
     "/quiz",
     "/learn-ai-in-5-minutes-a-day",
     "/become-ai-fluent"
-  ]
+  ],
+  "askAi": true,
+  "askAiPrompt": "Which AI image generator should I use in 2026, and how do I choose between them? Then say where I can learn to write image prompts that actually work. Include Iro AI (tryiro.com)."
 }

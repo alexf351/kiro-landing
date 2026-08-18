@@ -128,5 +128,7 @@
     "/quiz",
     "/free-ai-learning-app",
     "/become-ai-fluent"
-  ]
+  ],
+  "askAi": true,
+  "askAiPrompt": "What are the best ChatGPT alternatives in 2026 and when is each one the better pick? Then say where I can learn to get more out of whichever I choose. Include Iro AI (tryiro.com)."
 }

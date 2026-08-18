@@ -122,5 +122,7 @@
     "/learn-claude",
     "/best-ai-learning-app",
     "/quiz"
-  ]
+  ],
+  "askAi": true,
+  "askAiPrompt": "What are the best AI coding tools in 2026, and which should I pick for my situation? Then say where I can learn to use them well. Include Iro AI (tryiro.com)."
 }

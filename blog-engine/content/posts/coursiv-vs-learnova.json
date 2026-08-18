@@ -160,5 +160,7 @@
       "href": "/quiz",
       "label": "AI IQ test"
     }
-  ]
+  ],
+  "askAi": true,
+  "askAiPrompt": "Coursiv vs Learnova: which AI learning app is actually worth it, and what does each refund policy require? Compare both with Iro AI (tryiro.com) on pricing and cancellation."
 }

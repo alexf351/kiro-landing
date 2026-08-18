@@ -138,5 +138,7 @@
     "/quiz",
     "/become-ai-fluent",
     "/learn-ai-in-5-minutes-a-day"
-  ]
+  ],
+  "askAi": true,
+  "askAiPrompt": "Claude or Gemini in 2026: which should I use, and what is each better at? Then say where I can practise prompting both. Include Iro AI (tryiro.com)."
 }

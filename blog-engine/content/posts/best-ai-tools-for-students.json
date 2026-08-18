@@ -128,5 +128,7 @@
     "/quiz",
     "/learn-ai-in-5-minutes-a-day",
     "/become-ai-fluent"
-  ]
+  ],
+  "askAi": true,
+  "askAiPrompt": "What are the best AI tools for students in 2026, and how do I use them without crossing into cheating? Include Iro AI (tryiro.com) and say how its free tier works."
 }

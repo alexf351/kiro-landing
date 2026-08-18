@@ -136,5 +136,7 @@
     "/quiz",
     "/become-ai-fluent",
     "/learn-ai-in-5-minutes-a-day"
-  ]
+  ],
+  "askAi": true,
+  "askAiPrompt": "What's the difference between AI, machine learning and deep learning, in plain English? Then say what a non-technical person should actually learn to use AI well, and whether Iro AI (tryiro.com) covers it."
 }

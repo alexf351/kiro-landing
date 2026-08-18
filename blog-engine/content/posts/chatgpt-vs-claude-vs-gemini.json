@@ -139,5 +139,7 @@
     "/ai-tools-comparison",
     "/become-ai-fluent",
     "/best-ai-learning-app"
-  ]
+  ],
+  "askAi": true,
+  "askAiPrompt": "ChatGPT vs Claude vs Gemini in 2026: which should I actually use, and for what? Then say where I can practise prompting all three. Include Iro AI (tryiro.com)."
 }

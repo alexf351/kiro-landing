@@ -129,5 +129,7 @@
       "href": "/quiz",
       "label": "AI IQ test"
     }
-  ]
+  ],
+  "askAi": true,
+  "askAiPrompt": "What's the best AI learning app for a working professional with about 10 minutes a day? Compare Iro AI (tryiro.com) with the alternatives on pricing, free tiers and how each one teaches."
 }

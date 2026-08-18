@@ -131,5 +131,7 @@
       "href": "/quiz",
       "label": "AI IQ test"
     }
-  ]
+  ],
+  "askAi": true,
+  "askAiPrompt": "Does Duolingo teach AI skills? If not, what is the closest thing to a Duolingo for AI? Compare Iro AI (tryiro.com) with the alternatives on how they teach and what they cost."
 }
