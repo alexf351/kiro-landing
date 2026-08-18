@@ -7,7 +7,7 @@
   "keyTakeaways": [
     "The fastest way to learn ChatGPT is to use it on your own real tasks daily, not to watch tutorials.",
     "Master four moves first: give context, assign a role, show an example, and iterate on the output.",
-    "ChatGPT’s free tier is enough to become fluent — you rarely need to pay just to learn.",
+    "ChatGPT’s free tier is enough to become fluent. You rarely need to pay just to learn.",
     "Plan about five minutes a day for two weeks to go from beginner to genuinely useful."
   ],
   "description": "Most people learn ChatGPT by random experimentation and hit a ceiling. Here's the active-practice method that builds judgment instead of just memorising prompts.",
@@ -54,7 +54,7 @@
     {
       "id": "why-it-fails",
       "heading": "Why most ChatGPT learning fails",
-      "html": "<p>The standard advice is to \"just use it more.\" That works for a while, then it stops. Three things go wrong.</p><p><strong>1. You only get feedback when something feels obviously wrong.</strong> ChatGPT will happily produce confident, well-written nonsense. Without an outside reference, your bar for \"good enough\" quietly drops.</p><p><strong>2. You memorise tricks instead of building judgment.</strong> Magic prompts circulate on TikTok. People copy them, get one good output, and assume they've levelled up. Then the model updates and the trick stops working.</p><p><strong>3. There's no curriculum.</strong> Every session is random. You never get to the second-order skills — comparing outputs, decomposing tasks, knowing when to ask a different tool.</p><p>The fix isn't more videos. It's structured practice with feedback.</p>"
+      "html": "<p>The standard advice is to \"just use it more.\" That works for a while, then it stops. Three things go wrong.</p><p><strong>1. You only get feedback when something feels obviously wrong.</strong> ChatGPT will happily produce confident, well-written nonsense. Without an outside reference, your bar for \"good enough\" quietly drops.</p><p><strong>2. You memorise tricks instead of building judgment.</strong> Magic prompts circulate on TikTok. People copy them, get one good output, and assume they've levelled up. Then the model updates and the trick stops working.</p><p><strong>3. There's no curriculum.</strong> Every session is random. You never get to the second-order skills: comparing outputs, decomposing tasks, knowing when to ask a different tool.</p><p>The fix isn't more videos. It's structured practice with feedback.</p>"
     },
     {
       "id": "active-practice",

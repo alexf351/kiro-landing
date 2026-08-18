@@ -115,7 +115,23 @@ verification file.
 - `cfg.buildDate` had sat at 2026-05-28 since May, dragging the `/blog` hub
   lastmod down with it.
 
-### 6. Content and copy
+### 6. /quiz had 63 words for a crawler to read
+
+The AI IQ test page was an h1, a subhead and a button. It also carried
+FAQPage schema whose four answers appeared nowhere on the page, which is the
+condition Google strips FAQ rich results for.
+
+It now has 466 visible words sitting below the CTA inside the intro state, so
+it is crawlable and disappears the moment the quiz starts. The four FAQ
+answers are on the page verbatim. The score figures come from your own
+97-completion corpus and the page says so.
+
+Two bugs came with it: `.quiz-footer` was `position:fixed` to the viewport
+bottom, which was fine when the page was one screen tall and floated over the
+text once it wasn't. And the nav and footer linked to `index.html`,
+`privacy.html`, `terms.html` rather than the canonicals.
+
+### 7. Content and copy
 
 - The four Grok posts were updated for the SpaceXAI rebrand. SpaceX absorbed
   xAI in a deal that closed 2 February 2026 and the AI business renamed itself
@@ -128,6 +144,91 @@ verification file.
   running four to eight times that. The worst posts were re-punctuated with a
   word-level check proving only punctuation moved.
 - Four homepage links pointed at `/quiz.html` instead of the canonical `/quiz`.
+- Eight pages quoting competitor prices, ratings and refund terms now carry an
+  as-of date. More on that below.
+- Two pages said Pro "unlocks unlimited lessons". Every lesson is already open
+  on the free tier; the Battery limits how many new ones a day, not which
+  ones. Corrected to "is unlimited lessons".
+
+---
+
+## Two things the research changed my mind about
+
+I ran an adversarial competitor and keyword study overnight. Fifteen agents,
+every finding fact-checked by a second agent told to refute it. Two results
+contradict the plan I gave you, and both are worth more than the plan was.
+
+### The microlearning cluster is a bad target. Do not build it.
+
+My plan said take it. The keyword study says no, for reasons I find
+convincing:
+
+- The volume sits in the B2B half. Every high-volume informational term
+  (microlearning, what is microlearning, microlearning examples, microlearning
+  statistics, microlearning platforms) returns corporate L&D vendors and
+  universities. A consumer app has no entity to rank there with.
+- The winnable half has mismatched intent. People searching "best
+  microlearning apps" want languages, history and book summaries, and every
+  incumbent listicle answers with Duolingo, Brilliant, Blinkist and Khan.
+- **The format makes you promote your competitors.** To rank you publish a
+  listicle naming and linking Duolingo, Blinkist, Headway and Brilliant. You
+  spend the budget building a page whose main job is recommending other
+  products.
+- "Microlearning" is B2B jargon. Consumers say "5 minutes a day" and
+  "bite-sized", both of which you already own pages for.
+
+The recommendation is at most one opportunistic listicle, never a content
+program. I did not build it.
+
+### Competitor comparison pages could not be written honestly
+
+I set out to write Iro vs NerdSip, NerdSip alternatives and a Blinkist/Headway
+comparison. The fact-check refused nearly all of it, and it was right to.
+
+The proxy blocked every primary source: blinkist.com, makeheadway.com,
+imprintapp.com, chunks.app, nerdsip.com, apps.apple.com, play.google.com,
+Reddit, Trustpilot. Everything reachable was an affiliate page, and those copy
+each other, so five agreeing sources is one unverified claim repeated five
+times. One dossier invented an "Imprint Pro" tier that does not exist.
+
+**The only competitor price that survived is NerdSip's: €7.99/mo, €49.99/yr,
+vendor-stated, euros only.** No verified USD price exists for anyone.
+
+So no comparison page shipped. Publishing a wrong price about a named
+competitor is a legal problem, and it is not worth a ranking. The full brief,
+including what did survive, is in `growth/competitor-intel.md`.
+
+**To unblock this, five minutes on your phone:** open the App Store listing
+for NerdSip, Kinnu, Morso, Nibble, Imprint, Chunks, Blinkist and Headway, tap
+through to the subscription sheet, and screenshot each one. That is a
+primary source with a date, and the pages become writable immediately.
+
+### What the research says we genuinely lose on
+
+Worth reading even though it stings:
+
+- **No Android.** NerdSip is on Google Play. Kinnu's exam-prep app is on
+  Google Play. That costs the install base and the Play listing's organic
+  surface, which ranks on several long-tail queries in this category.
+- **NerdSip's free tier is a better cold demo than ours.** A complete course
+  per day, no account required, plus a browsable free web library. Ours is one
+  full lesson a day behind an App Store install. For a stranger arriving from
+  a search result, theirs asks for less.
+- **Breadth.** Anyone who wants to learn any topic is better served by an
+  any-topic generator than by us.
+
+### On the Finestro pages
+
+The risk register flagged them as live legal exposure. Having read them, that
+is overstated: they attribute policy language to Finestro's own published
+policy, they say so explicitly, and they separate that from user reports with
+a stated lower level of certainty. That is careful work.
+
+The real gap was narrower. "4.76 out of 5 from around 320 App Store ratings"
+is checkable in seconds and drifts weekly, and it carried no date. Every page
+naming a third-party number now says "US figures at the time of writing, last
+reviewed August 2026", attached to the section that states the number. That is
+the proportionate fix. I did not pull anything.
 
 ---
 
@@ -141,6 +242,9 @@ verification file.
 | Pages with Ask-any-AI | 106 | 164 |
 | Pages with analytics | 169 | 172 |
 | Path pages with >1 inbound link | 17 of 26 | 26 of 26 |
+| Distinct internal links from the homepage | 14 | 35 |
+| Visible words on /quiz | 63 | 466 |
+| Em dashes across the blog | 945 | see below |
 
 722 JSON-LD blocks across the site, all valid.
 
@@ -178,14 +282,21 @@ Every traffic number in the plan is modelled, not measured. Hand me the export
 and the model becomes real within a day. Also approve the Vercel analytics tool
 call if you want server-side pageviews alongside PostHog.
 
-### 4. Work the thirteen directory submissions
+### 4. Screenshot eight subscription sheets
+
+Five minutes, and it unblocks every comparison page listed above. App Store
+listing for NerdSip, Kinnu, Morso, Nibble, Imprint, Chunks, Blinkist and
+Headway; tap into the subscription sheet; screenshot. Send them over and the
+pages get written with real, dated, primary-source prices.
+
+### 5. Work the thirteen directory submissions
 
 `growth/launch-kits.md` has the finished copy. AlternativeTo is the single
 highest-value listing: list Iro against Duolingo, Brilliant, Coursiv, DataCamp
 **and NerdSip**. It is what searchers and answer engines both read for
 "alternative to X".
 
-### 5. Budget about $500 for three placements
+### 6. Budget about $500 for three placements
 
 PC Tech Magazine sells a 1,000-word dofollow at $160, DR around 64, roughly a
 week's turnaround, and NerdSip is already there. Ask for inclusion in an
