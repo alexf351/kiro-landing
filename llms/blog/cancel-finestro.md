@@ -110,6 +110,8 @@ If you would rather spend nothing at all right now, the [AI rank quiz](/quiz) is
 
 What you actually get, so you can compare like for like: **29 learning paths, 477 lessons and 2,700+ hands-on exercises across 24 exercise types**. The Prompt Lab sends your prompts to a live model and grades them, Ask Iro coaches by chat or voice, and duels, an Image Lab, Custom Paths and claimable certificates sit around it. Every path is open free, paced by a battery giving you a full lesson a day, so nothing here needs a card to evaluate.
 
+Third-party prices and ratings here are US figures at the time of writing and change without notice. Last reviewed August 2026.
+
 ## FAQ
 
 **How do I cancel my Finestro subscription?**

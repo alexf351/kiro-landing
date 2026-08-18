@@ -36,6 +36,18 @@ pillar: "ai-fluency"
 
 The quick version, before the detail:
 
+|  | Iro AI | Learnova |
+| --- | --- | --- |
+| How you learn | Game-like active practice: drills, streaks, rank tiers | Step-by-step courses with quizzes and a practice playground |
+| Format | Bite-sized, mobile-first, feedback-driven | Structured modules, mobile-first |
+| Free entry point | Free AI IQ test, no signup to try | Free basic tier with limited access |
+| Pricing style | One annual price + 7-day free trial | Tiered subscription (free + premium) |
+| Best for | Building a daily AI-practice habit that sticks | Working through a guided AI-tools curriculum |
+
+
+
+Learnova details reflect publicly available information and may change. Always check current terms before subscribing to any app, including ours.
+
 ## What Learnova does well
 
 Learnova breaks AI tools down into clear, step-by-step lessons and pairs them with interactive quizzes and a hands-on playground where you can try what you just learned. It also offers a categorized prompt library, which is a nice touch for beginners who want examples to copy and adapt.
@@ -57,6 +69,8 @@ Both apps let you start without paying, which is the right way to do it.
 **Learnova** uses a tiered model: a free basic plan with limited access, plus premium subscriptions that unlock the full content and tools. That's a fair structure. Just check exactly what the free tier includes and what the premium plan renews at.
 
 **Iro AI** keeps it to one number: Pro is **$49.99 a year** (about **$4.17 a month**) with a **7-day free trial**, on top of the always-free AI IQ test. One plan, one renewal, easy to reason about.
+
+Third-party prices and ratings here are US figures at the time of writing and change without notice. Last reviewed August 2026.
 
 ## Which one should you choose?
 

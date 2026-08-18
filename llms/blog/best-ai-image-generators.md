@@ -38,7 +38,18 @@ pillar: "ai-tools"
 
 ## AI image generators at a glance
 
+| Tool | Best for | Notes |
+| --- | --- | --- |
+| Midjourney | Highest artistic quality | Beautiful results; strong style control |
+| ChatGPT (DALL·E) | Easiest all-rounder | Generate images right in a chat |
+| Gemini | Quick images inside Google | Multimodal, generous free access |
+| Adobe Firefly | Commercial-safe images | Trained for commercial use; Adobe integration |
+| Stable Diffusion | Control & free local use | Open; runs on your own machine |
+| Ideogram | Images with readable text | Handles in-image text well |
 
+
+
+Capabilities and pricing change fast. Check each tool. Last reviewed June 2026.
 
 ## The tools, one by one
 

@@ -38,7 +38,18 @@ pillar: "ai-tools"
 
 ## ChatGPT vs Perplexity, side by side
 
+|  | ChatGPT | Perplexity |
+| --- | --- | --- |
+| Type | Versatile AI assistant | Answer engine (search + AI) |
+| Best for | Creating, drafting, reasoning, coding | Research and fact-finding with sources |
+| Citations | Limited | Yes, inline sources by default |
+| Live web | Yes (with search) | Yes, core feature |
+| Free tier | Generous | Capable |
+| Extras | Voice, image gen, custom GPTs | Focused, source-first answers |
 
+
+
+Features and plans change often. Check each tool for current details. Last reviewed June 2026.
 
 ## Where ChatGPT wins
 

@@ -37,6 +37,8 @@ pillar: "ai-tools"
 
 The practical catch is hardware. Running K3 yourself takes roughly 594GB of VRAM at full precision, or about 350GB heavily quantized. That is an 8x H100 cluster, not a desktop. For almost everyone, "open weights" here means the freedom for companies and researchers to self-host and audit it, not a model you will run on your own machine.
 
+Figures reflect Moonshot's published specifications and reporting as of 27 July 2026.
+
 ## What Kimi K3 actually is
 
 K3 is a mixture-of-experts model: roughly 2.8 trillion total parameters, but only 16 of its 896 experts activate per token. That is how a model this size stays economically viable to serve: you pay compute for a fraction of the parameters on any given token.
@@ -53,6 +55,14 @@ API pricing is $3 per million input tokens and $15 per million output, dropping 
 ## Can you run it locally? Almost certainly not
 
 This is where enthusiasm for open weights meets arithmetic. The memory requirements:
+
+| Precision | VRAM needed | What that means in hardware |
+| --- | --- | --- |
+| BF16 (full) | ~594 GB | 8x H100 80GB (640GB total) as a practical minimum |
+| Q4 (4-bit quantized) | ~350 GB | Still far past any consumer setup |
+| Aggressive quantization | ~650GB–1TB in practice with overhead | Past every consumer ceiling, including a 512GB Mac Studio |
+
+
 
 A single RTX 4090 has 24GB. A high-end Mac Studio tops out at 512GB of unified memory and still cannot hold K3 comfortably. And the raw weights are only part of the problem: at 1M-token context, the KV cache alone consumes tens of gigabytes, so a setup that barely fits the weights will either swap constantly or force you to truncate context down to a few thousand tokens, which throws away the main reason to use the model.
 

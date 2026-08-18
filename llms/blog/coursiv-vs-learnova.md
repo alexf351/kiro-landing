@@ -40,7 +40,17 @@ Because of that overlap, the choice between them comes down to format details an
 
 ## At a glance
 
+|  | Coursiv | Learnova |
+| --- | --- | --- |
+| How you learn | Guided daily lessons, often packaged as a 28-day challenge | Step-by-step course modules with quizzes and a practice playground |
+| Format | Bite-sized, mobile-first, tick-off-today's-lesson | Structured course library, mobile-first |
+| Free entry point | Discounted intro offer, then paid | Free basic tier with limited access |
+| Pricing style | Intro offer that auto-renews as a recurring multi-week subscription | Tiered subscription (free + premium) |
+| Best for | People who want a fixed challenge with a daily lesson to complete | People who want a broader course catalog to work through |
 
+
+
+Details for both apps reflect publicly available information and may change, so always check current terms before subscribing to any app, including ours.
 
 ## Where Coursiv wins
 
@@ -69,6 +79,8 @@ Here's the uncomfortable question about both apps: _do you actually finish cours
 The scale, since a drills app can read as the lighter option against two course catalogues when it is the reverse: **29 learning paths, 477 lessons and 2,700+ hands-on exercises across 24 exercise types**, covering ChatGPT, Claude, Gemini, Perplexity, Grok, Copilot, prompting, agents and automation. The **Prompt Lab** grades prompts you write against a live model, and there are live **duels**, an **Image Lab**, and certificates you earn free and claim with Pro. Every path is open on the free tier.
 
 For the deeper dives, see [Iro AI vs Coursiv](/blog/iro-ai-vs-coursiv) and [Iro AI vs Learnova](/blog/iro-ai-vs-learnova).
+
+Third-party prices and ratings here are US figures at the time of writing and change without notice. Last reviewed August 2026.
 
 ## How to choose
 

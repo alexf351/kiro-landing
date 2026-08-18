@@ -38,7 +38,18 @@ pillar: "ai-tools"
 
 ## ChatGPT vs DeepSeek, side by side
 
+|  | ChatGPT | DeepSeek |
+| --- | --- | --- |
+| Maker | OpenAI (US) | DeepSeek (China) |
+| Best for | Polished, all-round use | Reasoning & coding on a budget |
+| Ecosystem | Largest: voice, image gen, custom GPTs | Leaner; several open models |
+| Cost | Generous free tier; paid plans | Free to use; very cost-efficient |
+| Open models | No | Yes, several openly available |
+| Data note | US-based | China-based; check org policy |
 
+
+
+Features, pricing, and availability change fast. Check each tool. Last reviewed June 2026.
 
 ## Where ChatGPT wins
 

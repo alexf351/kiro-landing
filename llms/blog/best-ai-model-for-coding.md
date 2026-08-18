@@ -38,7 +38,19 @@ pillar: "ai-tools"
 
 Note that this is a separate decision from [which coding tool you use](/blog/best-ai-coding-tools). Cursor, Copilot, and most modern editors now let you choose the model behind the interface, so you pick a tool for its workflow and a model for its strengths, and you can change either independently.
 
+Benchmark figures reflect published results as of 27 July 2026. Positions in this category change faster than in any other.
+
 ## The models, compared
+
+| Model | Price (in/out per M) | Notable coding results | Best for |
+| --- | --- | --- | --- |
+| **Claude Opus 5** | $5 / $25 | #1 on AA Agentic Index (55.3); reported within 0.5% of Fable 5 on CursorBench 3.2 at half the cost | The best all-round default, strong agentic work without flagship pricing |
+| **GPT-5.6 Sol** | $5 / $30 | 96.2% SWE-bench Verified; tops AA Coding Agent Index (80); 88.8% Terminal-Bench 2.1 | Long-horizon, tool-using agent runs |
+| **Claude Fable 5** | Premium tier | 95.0% SWE-bench Verified; strongest reported deep repository comprehension | Genuinely hard problems where cost is secondary |
+| **Grok 4.5** | $2 / $6 | 83.3% Terminal-Bench 2.1; 64.7% SWE-Bench Pro; ~3–4x fewer tokens per task | High volume, cost-constrained work |
+| **Kimi K3** | $3 / $15 | 93.4% SWE-bench Verified; #1 on LMArena's blind Frontend Code Arena | Front-end work; self-hosting where open weights matter |
+
+
 
 The spread on SWE-bench Verified: 96.2%, 95.0%, 93.4% across the top three, is worth pausing on. Those gaps are small enough that they will not be the thing that determines whether your afternoon goes well. Which is the honest headline: _at the top of this table, the models are close, and your prompt and your review process matter more than your pick._
 

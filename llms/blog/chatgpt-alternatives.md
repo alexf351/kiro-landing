@@ -38,7 +38,16 @@ pillar: "ai-tools"
 
 ## ChatGPT alternatives at a glance
 
+| Alternative | Better than ChatGPT for | Maker | Free tier |
+| --- | --- | --- | --- |
+| Claude | Long-form writing, careful reasoning, code | Anthropic | Yes |
+| Gemini | Working inside Google Docs, Gmail, Sheets | Google | Yes, generous |
+| Perplexity | Research with verifiable citations | Perplexity | Yes |
+| Microsoft Copilot | Word, Excel, Outlook, Teams | Microsoft | Yes |
 
+
+
+Plans and features change often. Check each tool. Last reviewed June 2026.
 
 ## The alternatives, one by one
 

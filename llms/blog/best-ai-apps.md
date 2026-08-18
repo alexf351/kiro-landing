@@ -38,7 +38,18 @@ pillar: "ai-tools"
 
 ## The best AI apps at a glance
 
+| App | Best for | Maker | Free tier |
+| --- | --- | --- | --- |
+| ChatGPT | Everyday all-round use | OpenAI | Yes, generous |
+| Claude | Writing & coding | Anthropic | Yes |
+| Gemini | Working inside Google apps | Google | Yes, generous |
+| Perplexity | Research with citations | Perplexity | Yes |
+| Copilot | Microsoft 365 & coding | Microsoft | Yes |
+| Iro AI | Getting good at all of them | Iro AI | Yes |
 
+
+
+Plans and features change often. Check each app for current details. Last reviewed June 2026.
 
 ## The best AI apps, one by one
 

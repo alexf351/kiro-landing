@@ -38,7 +38,21 @@ pillar: "ai-tools"
 
 The more useful takeaway is what the cluster of releases has in common. In 2026 the frontier stopped being a single leaderboard position and became a price-performance curve: the top models are close enough on capability that cost per task, speed, and tier selection decide which one you should actually run.
 
+Figures below reflect each lab's published pricing and reported benchmark results at the time of writing (26 July 2026). Model pricing and leaderboard positions in this field change within weeks. Check the vendor's current docs before you commit to one for production work.
+
 ## Every major 2026 release, in order
+
+| Model | Lab | Released | Why it mattered | API price (in/out per M tokens) |
+| --- | --- | --- | --- | --- |
+| **Muse Spark** | Meta (Superintelligence Labs) | April 2026 | Meta's first post-Llama model, a ground-up rebuild, not a Llama iteration. Free to use. | Free tier |
+| **Claude Fable 5** | Anthropic | June 2026 (general availability 1 July) | Anthropic's most capable generally available model; briefly restricted by US export controls before relaunch. | Premium tier |
+| **Grok 4.5** | SpaceXAI | 8 July 2026 | SpaceXAI's first model built specifically for coding and agentic work, trained on real developer session data. | $2 / $6 |
+| **GPT-5.6 (Luna, Terra, Sol)** | OpenAI | 9 July 2026 | Three tiers instead of one model, with Sol adding Max reasoning effort and Ultra mode. | $1/$6 to $5/$30 |
+| **Muse Spark 1.1** | Meta | 9 July 2026 | Multimodal reasoning update aimed at agentic tasks, on the Meta Model API. | Free tier |
+| **Kimi K3** | Moonshot AI | 16 July 2026 (weights 27 July) | At ~2.8T parameters, the largest open-weight release to date: 1M context, native vision, Modified MIT license. | $3 / $15 |
+| **Claude Opus 5** | Anthropic | 24 July 2026 | Near-Fable-5 capability at half the price, with a 1M-token context window and a fast mode. | $5 / $25 |
+
+
 
 Two things stand out from that list. First, the release cadence: five frontier launches inside July alone, and that excludes the wider wave of smaller releases (Google's Gemini 3.6 Flash trio, several Qwen models, poolside's Laguna S 2.1) that landed in the same fortnight. Second, the direction, with the exception of Fable 5, every release in the second half of 2026 has been about doing more for less, not setting a new capability ceiling.
 
@@ -59,6 +73,18 @@ Moonshot AI published the weights for Kimi K3 on 27 July, roughly 2.8 trillion p
 Grok 4.5 landed at 54 on the Artificial Analysis Intelligence Index: fourth place at the time, behind Fable 5, GPT-5.5, and Opus 4.8, at roughly a fifth of the cost of the models above it. Meta's Muse Spark landed fourth on the same index in April. Fourth place at a fifth of the price is a better deal than first place for most real work, which is exactly why the leaderboard alone stopped being a useful buying signal in 2026.
 
 ## Which model should you actually use?
+
+| If you want… | Use | Why |
+| --- | --- | --- |
+| A solid everyday default | GPT-5.6 Terra or Claude Opus 5 | Near-frontier quality without frontier pricing. Either is a safe general-purpose pick. |
+| Maximum capability, cost secondary | GPT-5.6 Sol or Claude Fable 5 | The two strongest reported reasoning models; Sol adds Ultra mode for the hardest tasks. |
+| Long documents or whole codebases | Claude Opus 5 | 1M-token context and 128K max output, with a knowledge cutoff of May 2026. |
+| High-volume, simple tasks | GPT-5.6 Luna or Grok 4.5 | Cheapest per token by a wide margin; Luna is built for summarizing, drafting, and classification at scale. |
+| Coding agents in a real repo | Grok 4.5 or GPT-5.6 Sol | Both target long-session agentic coding; Grok 4.5 reports using 3–4x fewer tokens per task than pricier rivals. |
+| Open weights you can self-host and audit | Kimi K3 | Modified MIT license, 1M context, but budget for an 8x H100 class machine, not a workstation. |
+| To spend nothing | Muse Spark | Meta's model is free, strong on multimodal reasoning, and notably strong on health and medical benchmarks. |
+
+
 
 One caveat worth stating plainly: nobody should reorganize their workflow every time a model ships. If your current tool does the job, a two-point benchmark difference will not change your output. The switching cost is real and the marginal gain usually is not.
 

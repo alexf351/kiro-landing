@@ -36,6 +36,18 @@ pillar: "ai-fluency"
 
 The quick version, before the detail:
 
+|  | Iro AI | Brilliant |
+| --- | --- | --- |
+| What it teaches | Using AI tools: prompting, ChatGPT, Claude, Gemini, agents | Math, logic, CS, and the concepts behind AI/ML |
+| Goal | Practical AI fluency for work and daily life | Deep conceptual understanding of how things work |
+| Format | Game-like drills, streaks, rank tiers, mobile-first | Interactive, hands-on problem-solving, mobile-first |
+| Best for | Getting results from AI tools today | Building first-principles understanding |
+| Pricing style | One annual price + 7-day free trial; free AI IQ test | Subscription with a free trial |
+
+
+
+Brilliant details reflect publicly available information and may change, so always check current terms before subscribing to any app, including ours.
+
 ## What Brilliant is great at
 
 Brilliant is one of the best learning apps ever made for _understanding things_. Instead of lectures, it teaches math, logic, probability, computer science, and the ideas behind neural networks through interactive puzzles you solve step by step. If you have ever wanted to genuinely understand what a model is doing rather than just use it, Brilliant is hard to beat.

@@ -37,7 +37,18 @@ pillar: "ai-tools"
 
 The one clear "don't" is Sora 2. It is still excellent (arguably the most physically convincing motion of any model), but OpenAI has confirmed a two-stage shutdown, and its API stops working on 24 September 2026. It is a fine thing to experiment with and a bad thing to build a workflow around.
 
+Pricing, model versions, and availability in AI video move faster than in text. Figures reflect reporting as of 27 July 2026.
+
 ## The four leading options, compared
+
+| Model | Best for | Standout spec | Watch-out |
+| --- | --- | --- | --- |
+| **Google Veo 3.1** | Overall quality; the safest pick for organisations | True 4K up to 60fps with native 48kHz audio | Clips cap around 8 seconds, short for storytelling |
+| **Kling 3.0** | Value, motion control, human performance | ~$0.10 per second, 4–7x cheaper than rivals | Less polished audio story than Veo |
+| **Sora 2** | Physical realism and longer single takes | 15-second clips, most convincing motion physics | Consumer app closed 26 April 2026; API sunsets 24 September 2026 |
+| **Runway Gen-4.5** | Creative control and iteration | Fine-grained direction rather than one-shot prompts | More of a craft tool: steeper learning curve |
+
+
 
 Notice that the interesting differences are not really about who has "the best model." They are about clip length, whether audio is generated natively, price per second, and how much control you get after the first generation. Those are workflow questions, and they matter more than a quality leaderboard.
 

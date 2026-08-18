@@ -40,7 +40,17 @@ One honest point most comparisons skip: the gap between the two matters far less
 
 ## At a glance
 
+|  | ChatGPT | Claude |
+| --- | --- | --- |
+| Maker | OpenAI | Anthropic |
+| Best for | All-purpose use, ecosystem, voice, images | Writing, long documents, coding, careful reasoning |
+| Strengths | Custom GPTs, image generation, voice mode, widest integrations | Large context, nuanced instruction-following, natural prose |
+| Free tier | Generous, with access to capable models | Capable, with usage limits |
+| Ecosystem | Very large (apps, plugins, API) | Growing; strong with developer tools |
 
+
+
+Details reflect publicly available information in 2026 and change often. Check each tool's current plans and features.
 
 ## Where ChatGPT wins
 

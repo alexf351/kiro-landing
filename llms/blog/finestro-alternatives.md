@@ -63,7 +63,17 @@ If you are already subscribed and want out, that is a separate job with a separa
 
 ## The top alternatives, compared
 
+| App | Best for | How you learn | Pricing shape |
+| --- | --- | --- | --- |
+| **Iro AI** | Using AI tools well, plus generated paths on any topic | Active, gamified practice with feedback and an AI coach | free to start; $49.99 a year or $9.99 a month |
+| Brilliant | Maths, logic and CS foundations | Interactive lessons | Subscription, limited free tier |
+| Khan Academy | Free foundational learning | Video and practice, plus the Khanmigo tutor | Free |
+| DataCamp | Data science and coding | In-browser coding exercises | Subscription, limited free tier |
+| Coursera | Certificates and structured courses | Video and quizzes | Audit free, paid certificates |
 
+
+
+Plans change often. Check each app's current pricing and renewal terms, including ours. Last reviewed July 2026.
 
 ## Why Iro AI is the closest alternative
 

@@ -76,7 +76,16 @@ We are not going to invent numbers to fill the row. If you are considering Learn
 
 ## Side by side
 
+| App | Pricing shape | What the refund policy requires | How you learn |
+| --- | --- | --- | --- |
+| **Coursiv** | Cheap intro, then weekly or multi-week plans | Usage thresholds: up to 80% of modules, plus progress screenshots, within 30 days | Guided lessons, packaged as a challenge |
+| **Finestro** | About $10 for a week, then about $49.99 a month | Forgetting to cancel and not knowing about auto-renewal are excluded | Guided lessons and readable modules |
+| **Learnova** | Not publicly documented | Not publicly documented | Course-style lessons, quizzes, a playground |
+| **Iro AI** (ours) | Free to start; $49.99 a year or $9.99 a month | Billed by Apple, so Apple's refund process applies | Active practice, drills, ranks, an AI coach |
 
+
+
+Every plan here changes without notice, ours included. Check current terms in the App Store listing before you subscribe. Last reviewed August 2026.
 
 ## Are any of them scams?
 

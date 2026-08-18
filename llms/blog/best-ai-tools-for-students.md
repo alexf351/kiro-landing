@@ -38,7 +38,17 @@ pillar: "ai-tools"
 
 ## Best AI tools for students at a glance
 
+| Tool | Best for students | Free tier |
+| --- | --- | --- |
+| ChatGPT | Explaining concepts, quizzing, outlining, study plans | Yes, generous |
+| Claude | Long readings, essay feedback, careful explanations | Yes |
+| Gemini | Working inside Google Docs and Drive | Yes, generous |
+| Perplexity | Research with citations you can check | Yes |
+| Iro AI | Learning to use all of the above well | Yes |
 
+
+
+Always follow your school's AI policy. Plans change. Check each tool.
 
 ## How students should actually use AI
 

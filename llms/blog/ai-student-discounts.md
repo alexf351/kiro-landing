@@ -38,7 +38,18 @@ pillar: "ai-tools"
 
 Before you feel short-changed by that: the free tiers of both improved substantially in 2026, and for the overwhelming majority of study work they are enough. The student-discount question turns out to matter much less than it looks.
 
+Offers verified as of 28 July 2026. Student programmes change and lapse frequently. Confirm on the provider's own page before planning around one.
+
 ## The verified list
+
+| Tool | Student offer | What you get | Catch |
+| --- | --- | --- | --- |
+| **Google Gemini** | Up to 12 months of AI Pro free | Gemini 3.1 Pro-level access, premium NotebookLM features, 2TB Google One storage | Verified US college students; verification runs through SheerID |
+| **GitHub Copilot** | Free for verified students | Unlimited completions and premium model access via the Copilot Student plan | Requires student verification; most useful if you actually code |
+| **ChatGPT** | None | — | The 2025 student promotion ended and has not been replaced |
+| **Claude** | None for individuals | Claude for Education exists but is sold to universities | Only helps if your institution has bought it; most have not |
+
+
 
 Gemini's offer is the outlier in value. Twelve months of a frontier-tier assistant plus 2TB of storage is a real amount of money, and NotebookLM in particular is genuinely well-suited to coursework: it grounds its answers in documents you upload, which is exactly the behaviour you want when working from lecture notes and set readings.
 

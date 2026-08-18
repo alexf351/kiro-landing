@@ -38,7 +38,18 @@ pillar: "ai-tools"
 
 ## ChatGPT vs Gemini, side by side
 
+|  | ChatGPT | Gemini |
+| --- | --- | --- |
+| Maker | OpenAI | Google |
+| Best for | Versatile, everyday all-round use | Working inside Google apps |
+| Ecosystem | Largest: voice, image gen, custom GPTs, integrations | Deep Google integration (Docs, Gmail, Sheets, Android) |
+| Free tier | Generous | Generous, especially in Google apps |
+| Multimodal | Strong (text, image, voice, data) | Strong (text, image, long context, media) |
+| Cites sources | Limited | Some, when it searches the web |
 
+
+
+Features and plans change often. Check each tool for current details. Last reviewed June 2026.
 
 ## Where ChatGPT wins
 

@@ -37,6 +37,8 @@ pillar: "ai-tools"
 
 The strategic story is bigger than the benchmark. Muse Spark is not a Llama update: it was built from the ground up under a new organisation, which is Meta signalling that its previous approach was not going to reach the frontier.
 
+Figures reflect reported benchmark results at the time of writing (26 July 2026). Index positions shift as new models launch.
+
 ## Why Meta left Llama behind
 
 Meta spent years as the standard-bearer for open-weight models. Llama made capable AI available to anyone who could run it, and Llama fine-tunes repeatedly showed that the open community could match closed models on specialized tasks at a fraction of the cost.

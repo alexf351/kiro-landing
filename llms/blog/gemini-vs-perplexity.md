@@ -38,7 +38,17 @@ pillar: "ai-tools"
 
 ## Gemini vs Perplexity, side by side
 
+|  | Gemini | Perplexity |
+| --- | --- | --- |
+| Type | Versatile AI assistant | Answer engine (search + AI) |
+| Best for | Creating, drafting, Google apps | Research with sources |
+| Citations | Some, when it searches | Yes, inline by default |
+| Lives in | Its own app + Google Docs/Gmail/Sheets | Its own app and web |
+| Free tier | Generous | Capable |
 
+
+
+Features and plans change often. Check each tool. Last reviewed June 2026.
 
 ## Where Gemini wins
 

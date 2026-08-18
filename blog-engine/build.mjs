@@ -76,12 +76,36 @@ function inlineMd(s) {
     .replace(/\s+/g, ' ')
     .trim();
 }
+// Comparison tables were silently dropped from the mirrors: blocksToMd only
+// matched p/ul/ol/blockquote, so "## At a glance" rendered as an empty heading.
+// On a comparison page the table IS the answer, so this was hiding exactly the
+// content an answer engine would want to cite.
+function tableToMd(html) {
+  const rows = [...html.matchAll(/<tr>([\s\S]*?)<\/tr>/g)].map((r) =>
+    [...r[1].matchAll(/<(th|td)[^>]*>([\s\S]*?)<\/\1>/g)].map((c) => inlineMd(c[2]).replace(/\|/g, '\\|'))
+  ).filter((r) => r.length);
+  if (!rows.length) return '';
+  // A leading <thead> gives the header row; otherwise synthesise a blank one so
+  // the markdown table is still well-formed.
+  const hasHead = /<thead>/.test(html);
+  const head = hasHead ? rows[0] : rows[0].map(() => ' ');
+  const body = hasHead ? rows.slice(1) : rows;
+  const width = Math.max(head.length, ...body.map((r) => r.length));
+  const pad = (r) => Array.from({ length: width }, (_, i) => r[i] || '');
+  return [
+    '| ' + pad(head).join(' | ') + ' |',
+    '| ' + Array.from({ length: width }, () => '---').join(' | ') + ' |',
+    ...body.map((r) => '| ' + pad(r).join(' | ') + ' |'),
+  ].join('\n');
+}
+
 function blocksToMd(html) {
   const out = [];
-  const re = /<(p|ul|ol|blockquote)>([\s\S]*?)<\/\1>/g;
+  const re = /<(p|ul|ol|blockquote|table)(?:\s[^>]*)?>([\s\S]*?)<\/\1>/g;
   let m;
   while ((m = re.exec(html))) {
     const [, tag, inner] = m;
+    if (tag === 'table') out.push(tableToMd(m[0]));
     if (tag === 'p') out.push(inlineMd(inner));
     else if (tag === 'blockquote') out.push('> ' + inlineMd(inner));
     else {

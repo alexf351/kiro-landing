@@ -37,7 +37,17 @@ pillar: "ai-tools"
 
 The tier names are deliberately non-obvious, so here is the ranking in plain terms: Luna is the fastest and cheapest, Terra is the balanced middle, and Sol is the flagship.
 
+Pricing and benchmark figures reflect OpenAI's published numbers and third-party reporting at the time of writing (26 July 2026).
+
 ## The three tiers, compared
+
+| Tier | Price (in/out per M tokens) | Built for | Skip it when |
+| --- | --- | --- | --- |
+| **Luna** | $1 / $6 | High-volume, simpler work: summarization, drafting, classification, routine automation | The task needs multi-step reasoning or the output goes out unreviewed |
+| **Terra** | $2.50 / $15 | Everyday coding, reasoning, and agentic tasks where capability and cost both matter | You are doing frontier research or long-horizon agent runs |
+| **Sol** | $5 / $30 | Complex coding across large codebases, multi-step agents, scientific reasoning, defensive security research | The task is routine: you are paying 5x Luna's rate for reasoning you don't need |
+
+
 
 Sol is also the only tier that gets two extra inference controls: **Max reasoning effort** and **Ultra mode**, both of which trade time and money for depth on the hardest problems. If you never touch those controls, you are probably paying for Sol without using what makes it Sol.
 

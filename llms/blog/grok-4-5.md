@@ -38,6 +38,8 @@ pillar: "ai-tools"
 
 That trade is the entire pitch, and for a specific kind of work it is a good one: long agent runs where token consumption compounds, and high-volume coding tasks where a small capability gap costs less than a large price gap.
 
+Figures reflect SpaceXAI's published pricing and reported benchmark results at the time of writing (26 July 2026). Leaderboard positions in this field change within weeks.
+
 ## What makes it different
 
 Grok 4.5 is a mixture-of-experts model trained on trillions of tokens of real Cursor developer session data: actual people working in actual codebases, rather than general web text and public repositories. The bet is that watching how developers iterate teaches a model something that reading finished code does not: what a half-broken change looks like, and what people do next.
@@ -47,6 +49,15 @@ SpaceXAI leaned on evaluations built to measure what a model can do inside a rea
 The most under-discussed number: Grok 4.5 reportedly uses 3–4x fewer tokens per task than the most expensive rivals while matching GPT-5.5 in the Codex harness on the Coding Agent Index (76). Combine that with a per-token price a fifth of theirs and the effective cost difference on a long agent run is large. This is a bigger deal than the headline price alone suggests.
 
 ## The numbers, in context
+
+| Benchmark | Grok 4.5 | What it measures |
+| --- | --- | --- |
+| Terminal-Bench 2.1 | 83.3% | Agentic coding through a real terminal session |
+| SWE-Bench Pro | 64.7% | Resolving real software engineering issues |
+| Coding Agent Index | 76 | Coding agent performance: matches GPT-5.5 in the Codex harness |
+| AA Intelligence Index | 54 | General capability composite: 4th at launch |
+
+
 
 For comparison, OpenAI reported Sol Ultra at 91.9% and base Sol at 88.8% on that same Terminal-Bench 2.1 benchmark. So Grok 4.5 is meaningfully behind the frontier on agentic coding (roughly five points behind base Sol) while costing $2/$6 against Sol's $5/$30.
 

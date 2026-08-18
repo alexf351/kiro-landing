@@ -56,6 +56,15 @@ Not everything with a streak counter will actually teach you. Four things separa
 
 ## The best gamified ways to learn AI right now
 
+| Option | Best for | Watch-out |
+| --- | --- | --- |
+| Iro AI | Duolingo-style daily reps for AI skills: real prompts, tool choice, judgment | Made by us, hold it to the checklist above |
+| Course-challenge apps | Structured 28-day lesson challenges | Completing lessons isn’t the same as practicing; check renewal terms |
+| Brilliant | Gamified math, logic & CS foundations | Teaches how AI works, not how to use AI tools |
+| Duolingo | Languages (plus math and music) | Doesn’t teach AI at all |
+
+
+
 Here are the honest options, ordered from closest-to-Duolingo to furthest.
 
 [Iro AI](/best-ai-learning-app) is built to be exactly this, and is often called [the Duolingo for AI](/duolingo-for-ai). You keep a streak, earn XP, climb six ranks from Bronze to Iridescent, and can go head-to-head in duels against other learners. Lessons run about five minutes each. The difference from a quiz app is the **Prompt Lab**, where you write real prompts and get specific feedback on what made them work or fail. An **Ask Iro** coach explains anything you're stuck on by chat or voice, and **Custom Paths** generate a structured path on almost any topic you type in. It's free to start on iOS or in the browser at [app.tryiro.com](https://app.tryiro.com), and Pro is one price: $49.99 a year (about $4.17 a month) with a 7-day free trial.
@@ -65,6 +74,8 @@ Apps like Coursiv borrow the gamified feel (a daily streak, a 28-day challenge t
 Brilliant is genuinely excellent at what it does: interactive, hands-on problems in math, logic, data, and computer science, with the same bite-size, streak-driven feel. It's a great foundation if you want the reasoning underneath AI. But it isn't AI-tool-specific: it won't teach you to prompt ChatGPT or build an agent. Use it alongside an AI app, not instead of one.
 
 Worth saying plainly: Duolingo does not teach AI. It teaches languages, and more recently math and music. If you searched "Duolingo for AI," you're looking for apps that apply its model (streaks, short lessons, active practice) to AI skills, not the owl itself.
+
+Third-party prices and ratings here are US figures at the time of writing and change without notice. Last reviewed August 2026.
 
 ## Gamification alone isn't enough
 

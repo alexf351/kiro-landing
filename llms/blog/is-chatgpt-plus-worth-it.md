@@ -43,6 +43,17 @@ Do not upgrade because answers feel shallow, generic or slightly wrong. That is 
 
 ## The four tiers, plainly
 
+| Tier | Price | What it changes | Ads |
+| --- | --- | --- | --- |
+| **Free** | $0 | Capped messages on the better model, then it drops you to a smaller one until the window resets | Being tested in the US |
+| **Go** | About $8 a month | Roughly 10x the free limits on messages, uploads and image generation, plus a longer memory window. Same base model as free | Yes, in the US test |
+| **Plus** | About $20 a month | The reasoning model, deep research, video generation, coding tools, memory and custom GPTs | No |
+| **Pro** | About $100 or $200 a month | Roughly 5x Plus usage at the lower price, about 20x plus a much larger context window at the higher one | No |
+
+
+
+OpenAI changes these often, and model names change faster than the tiers do. Check the current pricing page before you subscribe. Last reviewed August 2026.
+
 Go launched in India in 2025, reached more than 170 countries, and is now OpenAI's fastest growing plan. If you last looked at ChatGPT pricing a year ago, it did not exist and Pro was a single price.
 
 ## What paying actually buys

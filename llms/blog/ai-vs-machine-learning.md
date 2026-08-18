@@ -38,6 +38,12 @@ pillar: "ai-fluency"
 
 ## At a glance
 
+| Term | What it is | Example |
+| --- | --- | --- |
+| Artificial intelligence (AI) | The broad field of machines doing tasks that seem intelligent | A chatbot, a recommendation system, a self-driving car |
+| Machine learning (ML) | Systems that learn patterns from data instead of fixed rules | Spam filters, fraud detection, product recommendations |
+| Deep learning (DL) | ML using multi-layered neural networks; great for complex data | Image recognition, voice assistants, large language models |
+
 
 
 ## What is artificial intelligence?

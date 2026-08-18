@@ -56,6 +56,15 @@ Look for proof beyond the star rating. Screenshots and testimonials are easy to 
 
 Match the app to your goal, then verify the renewal price before you pay. Here's the fast version:
 
+| Your goal | Best fit | Watch-out |
+| --- | --- | --- |
+| Total beginner | A guided app with a beginner path and a daily habit built in | Don’t buy an annual plan before day three |
+| Already use AI, want to get good | Active prompt practice with scoring and feedback | Videos feel productive but don’t stick |
+| Spend nothing to start | Free tiers and the free 2-minute rank quiz | Check what “free” actually includes |
+| A specific job or skill | A focused path (marketing, finance, founders, sales…) | Generic courses waste your daily reps |
+
+
+
 - **You're a total beginner and want the clearest on-ramp →** start with our guide to the [best app to learn AI in 2026](/best-ai-learning-app), then the [AI learning app for beginners](/ai-learning-app-for-beginners).
 - **You already use AI and want to get genuinely good →** skip the intro courses and go straight to real prompt practice; see [how to learn AI](/how-to-learn-ai) and build the [5-minutes-a-day habit](/learn-ai-in-5-minutes-a-day).
 - **You want to spend nothing to start →** read the [free AI learning app](/free-ai-learning-app) guide and be clear-eyed about what "free" actually includes.

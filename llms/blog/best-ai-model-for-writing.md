@@ -38,7 +38,19 @@ pillar: "ai-tools"
 
 But the more useful answer is that this choice matters less than almost anything else you do. Two writers using the same model produce wildly different output, and the difference is not the model. It is what they put in and what they cut afterwards.
 
+Rankings reflect published evaluations as of 27 July 2026. Creative-writing assessments are more subjective than coding benchmarks. Treat them as a starting point, not a verdict.
+
 ## By what you're actually writing
+
+| What you're writing | Best pick | Why |
+| --- | --- | --- |
+| Fiction, stories, novels, screenplays | Claude Fable 5 | Carries a voice across long sessions, varies sentence rhythm, and handles subtext better than rivals. The model fiction writers most often settle on. |
+| Ideation and brainstorming | GPT-5.6 (Terra or Sol) | Strongest at premise expansion, alternate scenes, and generating many angles quickly, quantity and range over polish. |
+| Business and professional writing | Either, GPT-5.6 Terra is plenty | Emails, briefs, and reports are structural problems, not prose problems. Paying for a creative flagship here is waste. |
+| Editing and tightening your own draft | Claude Fable 5 | Better at preserving your voice while cutting, rather than rewriting everything into its own register. |
+| High-volume content | GPT-5.6 Luna | At $1/$6 per million tokens it changes the economics, though volume is where AI writing most obviously degrades into sameness. |
+
+
 
 One pattern worth noticing: the flagship creative model earns its keep on _voice-sensitive_ work, fiction, personal essays, anything where the writing itself is the product. For work where the writing is a delivery mechanism for information, the mid-tier models are indistinguishable in practice.
 

@@ -93,6 +93,8 @@ Now read that as a filter rather than a promise. If you subscribed, opened it tw
 
 Two other things worth knowing while you are working out what you agreed to. Coursiv's pricing runs through a quiz-based funnel, and the intro offer commonly lands somewhere around $6 to $20 before recurring charges reported at roughly **$19.95 for the first four weeks and about $39.95 every four weeks after**, so the number you remember agreeing to may not be the number on your statement. And the guarantee described above applies to subscriptions bought on the website. An App Store or Play Store purchase runs on Apple's or Google's rules instead, which is good news, as the next section explains.
 
+Third-party prices and ratings here are US figures at the time of writing and change without notice. Last reviewed August 2026.
+
 ## Getting the money back
 
 Ask whoever actually took the payment. The three routes are not equally good.

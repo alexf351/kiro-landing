@@ -37,6 +37,8 @@ pillar: "ai-agents"
 
 The reason to pay attention now: MCP has passed **400 million monthly SDK downloads**, and today's **2026-07-28 specification** (its fifth release) is the largest structural change since launch, moving the protocol to a stateless core.
 
+Details reflect the specification published 28 July 2026.
+
 ## The problem it solves
 
 Before a shared protocol, connecting an AI assistant to a tool meant writing a custom integration for that specific pairing. Ten assistants and ten tools meant a hundred bespoke connections, each maintained separately, each breaking on its own schedule.

@@ -39,7 +39,18 @@ The confusion comes from the word "learn." Both promise to teach you AI, but the
 
 ## At a glance
 
+|  | AI bootcamp | AI learning app |
+| --- | --- | --- |
+| Cost | Often thousands of dollars; many run roughly $5,000–$20,000+ | A few dollars a week; Iro is free to start, Pro is $49.99 a year (about $4.17 a month) |
+| Time commitment | Weeks to months, frequently full-time or heavy part-time | About 5 minutes a day, on your own schedule |
+| Best for | Career changers targeting a technical AI/ML or data role | Anyone who wants to use AI tools well in their current work or life |
+| Teaching style | Live cohort, instructors, projects, deadlines | Short, gamified practice with instant feedback |
+| Outcome | Portfolio, a credential, sometimes career-services support | Durable fluency and a habit with tools like ChatGPT |
+| Risk | High cost and time; no guaranteed job at the end | Low cost, low risk: the main risk is not showing up daily |
 
+
+
+Bootcamp figures are general ranges from publicly available programs and vary widely by provider, length, and format. Always check current terms before enrolling in anything, including our own Pro plan.
 
 ## When a bootcamp is worth it
 

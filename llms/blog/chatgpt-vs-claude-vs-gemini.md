@@ -42,6 +42,15 @@ Here is what each one is genuinely good at in 2026, and where each one quietly f
 
 The quick version, before the detail:
 
+|  | ChatGPT | Claude | Gemini |
+| --- | --- | --- | --- |
+| Best for | General writing, quick drafts, everyday questions | Long documents, careful reasoning, code review | Work inside Google Docs, Gmail, and Sheets |
+| Free tier | Largest and most generous | Smaller limits | Generous, especially in Google apps |
+| Weak spot | Verbose; confidently wrong at times | Tighter free limits | Less of a favorite as a standalone chat |
+| Reach for it when | You want a fast, reliable default | The input is long or the stakes are high | Your work already lives in Google |
+
+
+
 ## ChatGPT: the best default
 
 **Best for:** general writing, brainstorming, quick drafts, everyday questions, and learning. ChatGPT has the largest free tier, the most polish, and the easiest help to find when you are stuck.

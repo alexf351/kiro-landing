@@ -91,6 +91,8 @@ Since we are asking you to apply this to us: **Iro AI is our app.** It is free t
 
 And since we are asking you to apply the four checks to us, the product behind them: **29 paths, 477 lessons and 2,700+ exercises across 24 exercise types**, Prompt Lab, Ask Iro, an Image Lab, duels, Custom Paths and certificates, with every path open on the free tier so you can test the claim before paying.
 
+Third-party prices and ratings here are US figures at the time of writing and change without notice. Last reviewed August 2026.
+
 ## If you already paid
 
 Cancel first, then pursue the refund. Cancelling is instant and cannot be refused; a refund is a decision somebody else makes, and doing them in the wrong order is how people get charged again mid-conversation.

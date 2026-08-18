@@ -57,6 +57,18 @@ This is the quiet lesson of the whole post: with self-selected data, _who shows 
 
 The shape of all 97 completions, as of August 2026:
 
+| Stat | Value |
+| --- | --- |
+| Average | 7.4 / 10 |
+| Median | 8 |
+| Middle 50% of scores | 6 to 9 |
+| 10th percentile | 3.6 |
+| 90th percentile | 10 |
+| Range | 1 to 10 |
+| Standard deviation | 2.3 |
+
+
+
 For comparison, the first 50 completions averaged 5.2 with a median of 5, and 56% of that cohort scored 5 or below. In the current data the middle has moved up two full points while the low tail never went away.
 
 ## What it means: the divide is the finding

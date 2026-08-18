@@ -38,7 +38,18 @@ pillar: "ai-tools"
 
 ## Claude vs Gemini, side by side
 
+|  | Claude | Gemini |
+| --- | --- | --- |
+| Maker | Anthropic | Google |
+| Best for | Writing, reasoning, long documents, code | Working inside Google apps, multimodal tasks |
+| Standout strength | Natural prose; careful, nuanced instruction-following | Native Docs/Gmail/Sheets integration; generous free tier |
+| Long inputs | Strong (handles big documents well) | Strong (large context and media) |
+| Free tier | Capable | Generous, especially in Google apps |
+| Cites sources | Limited | Some, when it searches the web |
 
+
+
+Features and plans change often. Check each tool for current details. Last reviewed June 2026.
 
 ## Where Claude wins
 

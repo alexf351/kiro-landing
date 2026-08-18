@@ -47,7 +47,17 @@ For the direct head-to-head, see [Iro AI vs Coursiv](/blog/iro-ai-vs-coursiv).
 
 ## The top alternatives, compared
 
+| App | Best for | How you learn | Free tier |
+| --- | --- | --- | --- |
+| Iro AI | Using AI tools well, as a daily habit | Active, gamified practice with feedback | Yes |
+| Brilliant | Math, logic & CS foundations | Interactive lessons | Limited |
+| Khan Academy | Free foundational learning | Video + practice (+ Khanmigo tutor) | Yes |
+| DataCamp | Data science & coding | In-browser coding exercises | Limited |
+| Coursera | Certificates & structured courses | Video + quizzes | Audit free |
 
+
+
+Plans change often. Check each app's current pricing and renewal terms. Last reviewed June 2026.
 
 ## Why Iro AI is the closest alternative
 

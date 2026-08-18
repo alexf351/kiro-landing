@@ -37,6 +37,8 @@ pillar: "ai-tools"
 
 If you use Claude in a browser or an app, the practical change is that a stronger model is now the one answering you. If you build on the API, the change is a pricing decision: Opus 5 costs the same as Opus 4.8 while performing meaningfully better, which makes staying on 4.8 hard to justify.
 
+Pricing and benchmark figures here reflect Anthropic's published numbers and reporting at the time of writing (26 July 2026).
+
 ## What's actually new
 
 Anthropic held Opus 5 at Opus 4.8's rate — $5/$25 per million tokens — while pushing capability toward Fable 5, whose input pricing sits at double that. Batch API pricing runs $2.50/$12.50 per million tokens for work that can tolerate delay. Read the release as a repositioning rather than a new ceiling: the frontier is being made affordable rather than pushed further out.
@@ -59,6 +61,15 @@ Two honest caveats belong next to any of those numbers:
 The number that _is_ straightforwardly meaningful is price: $5/$25 versus Fable 5's premium tier is a real, verifiable difference that shows up on your bill every month.
 
 ## Opus 5 vs Fable 5 vs GPT-5.6
+
+| Model | Price (in/out per M) | Best for | Watch-out |
+| --- | --- | --- | --- |
+| **Claude Opus 5** | $5 / $25 | Long-context work, everyday reasoning, best capability-per-dollar in Anthropic's line-up | Not the outright capability leader: Fable 5 still edges it |
+| **Claude Fable 5** | Premium tier | The hardest problems where cost is not the constraint | Roughly double Opus 5's input price; extra safety guardrails can fall back to another model on high-risk prompts |
+| **GPT-5.6 Sol** | $5 / $30 | Long-horizon agentic work and frontier reasoning; Ultra mode for the hardest tasks | Higher output price than Opus 5; overkill for routine work |
+| **GPT-5.6 Terra** | $2.50 / $15 | The direct cost-efficient competitor to Opus 5 for everyday tasks | Shorter context than Opus 5's 1M window |
+
+
 
 The genuinely competitive matchup is Opus 5 against GPT-5.6 Terra and Sol: all three are aimed at the same buyer, who wants near-frontier quality without paying frontier prices. Opus 5's differentiator is the 1M-token context window; GPT-5.6's is the three-tier structure that lets you drop to Luna for cheap bulk work inside the same family.
 

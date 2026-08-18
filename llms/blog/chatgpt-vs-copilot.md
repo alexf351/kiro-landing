@@ -38,7 +38,17 @@ pillar: "ai-tools"
 
 ## ChatGPT vs Copilot, side by side
 
+|  | ChatGPT | Microsoft Copilot |
+| --- | --- | --- |
+| Maker | OpenAI | Microsoft |
+| Best for | Versatile, all-purpose use | Working inside Microsoft 365 |
+| Lives in | Its own app and web | Word, Excel, Outlook, Teams, Windows |
+| Ecosystem | Largest: voice, image gen, custom GPTs | Deep Office and Windows integration |
+| Free tier | Generous | Yes (paid for full Office integration) |
 
+
+
+Plans and features change often. Check each tool. Last reviewed June 2026.
 
 ## Where ChatGPT wins
 

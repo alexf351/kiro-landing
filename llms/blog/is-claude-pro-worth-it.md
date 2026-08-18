@@ -42,6 +42,17 @@ So the question is not whether Claude is good. It is whether you run out.
 
 ## The tiers, plainly
 
+| Tier | Price | What it changes |
+| --- | --- | --- |
+| **Free** | $0 | A rolling message allowance that resets over a few hours, with access to the everyday models |
+| **Pro** | About $20 a month, roughly $17 billed annually | Around 5x the free capacity, priority access when demand is high, Claude Code, and the top-end model |
+| **Max** | About $100 a month | Roughly 5x Pro's capacity, full coding access |
+| **Max, higher tier** | About $200 a month | Roughly 20x Pro's capacity and top priority |
+
+
+
+Anthropic revises these plans regularly and model names change faster than the tiers do, so check the current pricing page before subscribing. Last reviewed August 2026.
+
 Team plans start around $20 per seat with a minimum seat count, and the coding-heavy seat tier costs considerably more. If you are buying for a group, price that separately rather than assuming it scales linearly from Pro.
 
 ## What the free tier actually allows

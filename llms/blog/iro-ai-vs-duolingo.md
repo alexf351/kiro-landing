@@ -36,6 +36,18 @@ pillar: "ai-fluency"
 
 The quick version, before the detail:
 
+|  | Iro AI | Duolingo |
+| --- | --- | --- |
+| Subject | Using AI tools: prompting, ChatGPT, Claude, Gemini, agents | Languages, Spanish, French, Japanese, and dozens more |
+| Method | Short daily drills, streaks, XP, rank tiers | Short daily lessons, streaks, XP, leagues |
+| Why it works | Active practice + feedback beats passive video | Active practice + repetition beats rote study |
+| Best for | Building real AI fluency in 5 minutes a day | Building language skills in 5 minutes a day |
+| Pricing style | Free tier + one annual price; free AI IQ test | Free tier + Super/Max subscription |
+
+
+
+Duolingo details reflect publicly available information and may change. Always check current terms.
+
 ## The method they share
 
 Duolingo proved something important to hundreds of millions of people: you learn far more from five focused minutes a day (answering, getting instant feedback, keeping a streak) than from an hour of passive video you forget by morning. Short reps, fast feedback, and a reason to come back tomorrow.
