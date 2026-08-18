@@ -138,7 +138,9 @@ No console; just paste one URL at a time. Submit the homepage + top pages
 **Bing Webmaster Tools** — https://www.bing.com/webmasters
 The bigger win: Bing's index also powers **ChatGPT Search, DuckDuckGo, Yahoo,
 and Ecosia**, so it's a GEO play too. Fastest setup: "Import from Google
-Search Console" (skips re-verification, auto-imports sitemaps). Otherwise add
+Search Console" (skips re-verification, auto-imports sitemaps).
+**Note:** that import path leaves no trace in this repo, so do not read a
+missing `msvalidate.01` tag as proof it was never done. Check the console. Otherwise add
 the site, verify, then Sitemaps → submit `https://tryiro.com/sitemap-index.xml`.
 Use URL Submission for the top pages; up to 10k/day on verified sites.
 

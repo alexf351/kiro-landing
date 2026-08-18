@@ -23,6 +23,16 @@ four: the three localized homepages and the Google verification file. Every
 other page already had it. The localized pages are fixed; the rest was never
 broken.
 
+**Bing and Brave: I should not have claimed either way.** I wrote that you had
+never connected Bing Webmaster Tools. My only evidence was a missing
+`msvalidate.01` meta tag, and that proves nothing. Bing's recommended setup is
+"Import from Google Search Console", which requires no site verification at
+all, and DNS verification lives at your registrar, not in the repo. Brave's
+submit-url form leaves no trace anywhere. You say you set both up and you are
+almost certainly right. What I can verify from the codebase is only that
+`google-site-verification` and the IndexNow key file are present, and that no
+Bing verification file was ever added or removed in the git history.
+
 The rest of the diagnosis holds, and the audit that followed those corrections
 turned up bigger problems than either of the two I got wrong.
 
@@ -352,26 +362,32 @@ because the editors who say yes are the ones handed finished copy.
 In order. The first two are under an hour together and they are the largest
 structural gaps left.
 
-### 1. Connect Bing Webmaster Tools
+### 1. Open Bing Webmaster and read two numbers
 
-https://www.bing.com/webmasters — use "Import from Google Search Console",
-which skips re-verification and pulls the sitemaps across. Then add the
-`msvalidate.01` meta tag to the site (send it to me and I will put it on every
-page next to the Google one).
+Not to set it up. To find out what it holds.
 
-This is the index behind ChatGPT search, DuckDuckGo, Yahoo and Ecosia. It is
-the one place the site has no visibility at all.
+- **Pages discovered vs indexed**, against our 172 sitemap URLs.
+- **What it has cached for `/best-ai-learning-app`**, the page ranking 2nd and
+  3rd on our best queries.
 
-**Concrete evidence it matters:** the AI summary for "best AI learning apps for
-beginners gamified" currently describes Iro as having **18 learning paths**.
-Every page says 29 and has for months. Our best-ranking page is being quoted
-with stale numbers in exactly the answers we want to win.
+**Why this specific check:** the AI summary for "best AI learning apps for
+beginners gamified" describes Iro as having **18 learning paths**, and a
+research agent working only from search results came back with "20 paths, 375
+lessons, 2,000+ exercises". It has been 29 / 477 / 2,700+ since 3.06.
 
-### 2. Submit to Brave
+Part of that was our fault and is now fixed: the *Direct answer for AI
+overviews* block in `llms.txt` said 25 paths until last night. The rest is a
+crawl-freshness question, and the answer decides what to do next. If Bing has
+a stale cache, last night's IndexNow pings plus the corrected `llms.txt` will
+clear it on their own. If it has a current cache and the stale figures are
+coming from elsewhere, then I have been looking in the wrong place and want to
+know that before you spend anything on placements.
 
-https://search.brave.com/submit-url — one URL at a time, no console. Brave does
-not support IndexNow and runs its own index. Submit the ten priority pages in
-`growth/backlink-submission-pack.md` §5.
+### 2. Brave, same caveat
+
+If you already submitted, the only thing worth re-submitting is the handful of
+pages that changed materially last night: `/best-ai-learning-app`, `/quiz`,
+the 26 path pages, and the eight rescued blog posts.
 
 ### 3. Export the Search Console query report
 
