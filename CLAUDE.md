@@ -42,6 +42,15 @@ All images are served locally from the `assets/` folder via relative paths (e.g.
 - App icon in multiple sizes (256, 512, favicon, apple-touch-icon)
 - 6 app screenshots used in the gameplay showcase (named `01-node-map-...`, `02-hero-...`, etc.)
 
+**Screenshot currency:** `assets/screens/` holds several generations of app
+shots. Raw uploads live in dated folders (`assets/app pics 8.12/` is the most
+recent) and are converted into `assets/screens/`. Always use the newest
+version of a screen: check `ls -lat assets/screens/` before referencing one.
+As of the 8.12 upload the current set is `learning-path`, `prompt-builder`
+(now the match-pairs exercise), `duels-tab`, `create-path`, `operator-build`
+and `image-lab`. The older `node-map`, `prompt-lab`, `duel-victory` and
+`skill-tree` shots are superseded by those and should not be used.
+
 OG/Twitter meta images use the absolute URL `https://www.tryiro.com/assets/...` for social preview cards.
 
 ## Design Context
