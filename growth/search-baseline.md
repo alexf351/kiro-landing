@@ -59,15 +59,24 @@ Iro as having **18 learning paths**. Separately, a research agent working only
 from search results came back with "20 paths, 375 lessons, 2,000+ exercises,
 16 exercise types" as Iro's current figures.
 
-Every live file says 29 paths, 477 lessons, 2,700+ exercises, 24 exercise
-types. I checked the pages, `llms.txt`, `llms-full.txt` and `iro.json`: all
-consistent, all current. Nothing on the site says 18 or 20.
+**Correction to my own first pass.** I originally wrote that every live file
+said 29 and that nothing on the site said otherwise. That was wrong, and the
+reason is worth recording: my check grepped for `29 learning paths` as a
+single string, so it missed the counts wrapped across a line break. The
+*Direct answer for AI overviews* block in `llms.txt` said **25 learning
+paths**, and `llms-full.txt` carried the same figure in its
+preferred-description block. Both are the text we explicitly ask assistants to
+prefer over third-party summaries. Fixed on 18 August.
 
-So two independent stale snapshots are circulating in the index, and neither
-matches anything we publish. That is not a content problem, it is a crawl
-problem, and it is the concrete argument for the Bing and Brave submissions:
-our top-ranking page is being quoted with numbers we retired months ago, in
-exactly the answers we want to win.
+So one cause was ours. The 18 and the 20 are still unexplained by anything we
+publish, which leaves crawl freshness. **Not, as I also first wrote, a missing
+Bing connection:** I inferred that from an absent `msvalidate.01` tag, but the
+"Import from Google Search Console" route needs no site verification and DNS
+verification leaves nothing in the repo, so the tag's absence is not evidence.
+
+The check that actually settles it: what Bing Webmaster reports as discovered
+versus indexed against our 172 sitemap URLs, and what it has cached for
+`/best-ai-learning-app`.
 
 ## What I could not verify, and why it matters
 
