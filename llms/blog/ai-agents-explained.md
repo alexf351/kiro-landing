@@ -91,7 +91,7 @@ This is the same mental model Iro AI's [AI agents course](/ai-agents-course) tea
 
 **Do I need to be a developer to use agents?**
 
-No. Plenty of products (research tools, coding assistants, customer-support platforms) ship pre-built agents. Iro AI's agents path is designed for non-engineers — see /ai-agents-course.
+No. Plenty of products (research tools, coding assistants, customer-support platforms) ship pre-built agents. Iro AI's agents path is designed for non-engineers: see /ai-agents-course.
 
 **What's the difference between an agent and an automation?**
 

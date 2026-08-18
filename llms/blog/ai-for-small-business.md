@@ -41,7 +41,7 @@ pillar: "ai-fluency"
 - **Customer service:** draft replies to common questions, summarize tickets, and write FAQ answers (a human approves).
 - **Admin:** turn messy notes into agendas, summarize documents, draft proposals and SOPs.
 - **Analysis:** get a first-pass read on a spreadsheet, reviews, or survey responses.
-- **Research:** get oriented on a competitor, supplier, or market, then verify with sources.
+- **Research:** get oriented on a competitor, supplier, or market; then verify with sources.
 
 For the day-to-day playbook, see [how to use AI at work](/blog/how-to-use-ai-at-work).
 

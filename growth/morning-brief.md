@@ -85,21 +85,32 @@ from its own category. The window rotates by position rather than taking the
 first N, so every page gives six links and receives six. Worst-off pages went
 from 1 inbound link to 7.
 
-### 4. Ask-any-AI was on the blog and almost nowhere else
+### 4. Ask-any-AI was on five pages
 
-101 of 101 blog posts had it. 5 of 64 root pages did, and the root pages carry
-the higher commercial intent. This is the one surface that puts our framing
-into the prompt a reader sends to an assistant.
+**Correction to my own first count.** I originally reported this as "101 of 101
+blog posts, 5 of 64 root pages". That was wrong: I was grepping for
+`askai-chip`, which appears in the shared stylesheet on every page whether the
+block renders or not. Counting the rendered markup instead:
 
-Now on 63 of 72 root pages. Each has its own question rather than 63 copies of
-one: `/learn-chatgpt` asks how to get *good* at ChatGPT rather than just use
-it; `/free-ai-learning-app` asks what free tiers actually include. Clicks fire
-the same `ask_ai_clicked` event the blog does, so the surfaces are comparable
-in PostHog.
+| | Before | After |
+| --- | --- | --- |
+| Root pages | 5 of 72 | **62 of 72** |
+| Blog posts | 18 of 101 | 18 of 101 |
 
-The nine without it are utility pages: privacy, terms, delete-account,
-download, changelog, the three localized homepages, and the Google
-verification file.
+So the block was on five root pages, not almost everywhere. It is now on 62,
+each with its own question rather than 62 copies of one: `/learn-chatgpt` asks
+how to get *good* at ChatGPT rather than just use it; `/free-ai-learning-app`
+asks what free tiers actually include. Clicks fire the same `ask_ai_clicked`
+event, tagged by placement, so the surfaces are comparable in PostHog.
+
+The ten root pages without it are utility: privacy, terms, delete-account,
+download, changelog, the three localized homepages, the Google verification
+file, and `/quiz` (which injects its own block into the results screen, so a
+static grep misses it).
+
+**Still open:** 83 blog posts do not opt in. `askAi: true` plus a one-line
+prompt turns it on per post, and the commercially relevant ones are worth
+doing.
 
 ### 5. The sitemaps were understating how fresh the site is
 

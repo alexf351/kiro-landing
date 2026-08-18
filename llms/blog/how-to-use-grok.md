@@ -29,18 +29,18 @@ pillar: "ai-tools"
 
 - Grok is available inside X and through its own app and website; access depends on your plan.
 - Its edge is real-time information from X and the web, plus a more casual, conversational style.
-- Ask clear questions and lean on its live strengths — "what's happening with X right now" type queries.
+- Ask clear questions and lean on its live strengths: "what's happening with X right now" type queries.
 - For careful, high-stakes work, mainstream assistants are often steadier, and you should verify anything important.
 
 ## How to start using Grok
 
-**Grok is SpaceXAI's AI assistant (the company was called xAI until July 2026), and the quickest way in is through X (formerly Twitter), where it's built in; it also has its own app and website.** Open it, type a question in plain language, and refine from there — it works like any chat assistant. Access and limits depend on your plan, so check the current options. New to what it is? Start with [what is Grok](/blog/what-is-grok).
+**Grok is SpaceXAI's AI assistant (the company was called xAI until July 2026), and the quickest way in is through X (formerly Twitter), where it's built in; it also has its own app and website.** Open it, type a question in plain language, and refine from there. It works like any chat assistant. Access and limits depend on your plan, so check the current options. New to what it is? Start with [what is Grok](/blog/what-is-grok).
 
 ## What Grok is best at
 
-- **Real-time questions** — trending topics and live discussion on X, where most assistants lag.
-- **Casual conversation** — a looser, more irreverent tone if other assistants feel stiff.
-- **Quick takes** — fast, conversational answers on what's happening now.
+- **Real-time questions**: trending topics and live discussion on X, where most assistants lag.
+- **Casual conversation**: a looser, more irreverent tone if other assistants feel stiff.
+- **Quick takes**: fast, conversational answers on what's happening now.
 
 For long documents, precise reasoning, or sensitive work, steadier all-rounders like [ChatGPT](/learn-chatgpt) and [Claude](/learn-claude) are often the better call.
 
