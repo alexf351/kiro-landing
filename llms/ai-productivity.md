@@ -9,7 +9,7 @@ keywords: ["AI for productivity", "AI productivity tools", "how to use AI to be 
 audience: "Knowledge workers, managers, students, founders — anyone with too much to do"
 level: "Beginner to advanced"
 date_published: "2026-07-09"
-date_modified: "2026-07-09"
+date_modified: "2026-08-18"
 author: "Iro AI"
 license: "© 2026 Iro AI"
 canonical_llm_reference: "https://tryiro.com/llms-full.txt"
@@ -21,7 +21,7 @@ canonical_llm_reference: "https://tryiro.com/llms-full.txt"
 
 **Canonical page:** https://tryiro.com/ai-productivity
 **App Store:** https://apps.apple.com/app/id6759628066
-**Last updated:** 2026-07-09
+**Last updated:** 2026-08-18
 
 ## In short
 
@@ -60,6 +60,35 @@ The people who actually get hours back pick a few recurring tasks (email, notes,
 
 AI is a fast assistant, not a replacement for your thinking. The productivity comes from letting it do the 80% that's mechanical so you spend your energy on the 20% that isn't.
 
+## How do you turn an hour of meeting notes into a plan in five minutes?
+
+Run the notes through three passes instead of one, and don't ask for a summary until the last pass. Here's the sequence, using a real hour of rambling notes.
+
+### 1. Extract before you summarize
+
+Paste the notes and ask: "List every decision made, every open question, and every commitment someone made, with who made it. Quote the line each one came from. Don't add anything that isn't in the text." The quote requirement is the step people skip, and it's the one that makes the whole output checkable in about ten seconds.
+
+### 2. Separate what's yours
+
+Follow with: "Of those commitments, which are mine? Group the rest by owner, and mark anything that has a date attached." You now have a task list instead of a wall of prose, sorted by who has to move next.
+
+### 3. Write the update last
+
+Ask for "a five-line update for people who weren't in the room, using only the decisions listed above." Summaries drafted first tend to smooth over the disagreement that was the entire point of the meeting.
+
+Then check it. Skim the quotes, and if a line has no quote behind it, the model filled a gap on its own. Numbers and dates are where that happens most often, so those get a second look before anything reaches your calendar.
+
+## Which AI productivity habits quietly cost you time?
+
+Four habits eat most of the time AI was supposed to save, and none of them feel like mistakes while you're in them.
+
+- **The rewrite spiral.** You ask for a draft, don't like it, ask again, and twenty minutes disappear. Give it two rounds. If the third is still wrong, you're missing context, not prompts: name the fix ("shorter, no adjectives, end on a question") or write the opening line yourself and tell it to match your voice.
+- **Generating what a template already solved.** A weekly status update doesn't need fresh generation. It needs a saved format with three blanks in it. Starting from scratch every Friday is slower than filling in a form.
+- **Trusting a summary you can't spot-check.** Summaries fail quietly. They drop the one caveat or number you needed and still read perfectly well without it. Ask for quotes or references on anything you plan to act on.
+- **Typing context you could have pasted.** Describing a document in your own words takes longer than pasting the document, and it loses detail on the way.
+
+Before you trust an output, verify the expensive parts: names, numbers, dates, anything going out with your name on it, and any claim about a source you didn't actually paste in. Skim the rest. Checking everything at the same depth costs more time than the draft saved you.
+
 ## Sample practice exercise
 
 **Type:** Prompt practice
@@ -96,6 +125,14 @@ Start with one task, save the prompt that works, and reuse it until it's automat
 **Do I need to be technical?**
 
 Not at all. Everything here is plain-English prompting. Iro's beginner paths assume no coding and no prior AI experience.
+
+**Can AI plan my day or manage my calendar?**
+
+A plain chat assistant can't see your calendar unless you connect it or paste your schedule in. What it does well is the thinking part: give it tomorrow's commitments and your task list, then ask it to flag conflicts, group similar work together, and name the one thing that matters most. You still make the call and block the time.
+
+**Is it safe to paste work documents into AI?**
+
+Sometimes, and it depends on two things: your employer's policy and the plan you're using. Business and enterprise tiers generally don't train on your data, while consumer tiers vary, so check both before pasting. When you're unsure, strip names, customer details, and figures, or describe the structure instead. Never paste credentials or anything covered by a client agreement.
 
 ## Related paths
 

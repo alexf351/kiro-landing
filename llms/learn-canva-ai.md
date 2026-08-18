@@ -9,7 +9,7 @@ keywords: ["Canva AI", "how to use Canva AI", "Canva Magic Studio", "Canva Magic
 audience: "Marketers, small-business owners, creators, students, anyone making graphics without a designer"
 level: "Beginner to advanced"
 date_published: "2026-07-09"
-date_modified: "2026-07-09"
+date_modified: "2026-08-18"
 author: "Iro AI"
 license: "© 2026 Iro AI"
 canonical_llm_reference: "https://tryiro.com/llms-full.txt"
@@ -21,7 +21,7 @@ canonical_llm_reference: "https://tryiro.com/llms-full.txt"
 
 **Canonical page:** https://tryiro.com/learn-canva-ai
 **App Store:** https://apps.apple.com/app/id6759628066
-**Last updated:** 2026-07-09
+**Last updated:** 2026-08-18
 
 ## In short
 
@@ -62,6 +62,36 @@ The fix is a brief. Even one sentence of audience, format, tone, and brand chang
 
 All of them reward a clear brief and an editor's eye. AI drafts; you art-direct.
 
+## How do you go from a blank Canva page to a finished post?
+
+Work in a fixed order: brand kit, copy, image, layout, formats. Load your colors, fonts and logo into Canva's Brand Kit before you touch an AI tool, so everything generated after that has something to stay consistent with. Here's the full run for a single Instagram post.
+
+### 1. Copy before pictures
+
+Magic Write does better work when the message already exists. Brief it properly: _"Write three Instagram caption options for a summer sale on a minimalist skincare brand. Audience: people who already buy clean beauty. Tone: calm and direct, no exclamation marks. Under 40 words each. Include the offer, 20% off through Sunday, and one line on why the formula is gentle."_ Pick one, edit it by hand, and note how long your headline ended up.
+
+### 2. Image around the copy
+
+You now know where the text has to sit, so ask for that space. Give text-to-image the subject, style, palette, lighting, mood, and the negative space the headline needs. Generate a batch of four and reject three of them. First results are rarely the best ones.
+
+### 3. Layout, then formats
+
+Set the headline in your brand font with real margins, and if the type fights the image, darken the area behind it instead of shrinking the words. Only then run Magic Resize into story, feed and email header. Open every version and fix it by hand: resize repositions elements, it doesn't recompose a picture, and a crop that reads well at 1:1 usually falls apart at 9:16.
+
+## What should you check before you publish Canva AI output?
+
+Check the words inside the image first, the claims in the copy second, and how the whole thing looks on a phone third. Those three catch most of what ships broken. The rest is polish.
+
+Letters rendered by an image model are shapes, not spelling, so a generated poster will hand you a sign reading "SUMER SALE" or a bottle labelled in invented characters. Generate images with no words in them at all, then add your own text layers on top. Your copy stays editable, correctly spelled, and sharp at every size.
+
+- **Claims:** Magic Write will write "clinically proven" or "the #1 choice" without blinking. If you can't point to a source, cut the line. You're the one publishing it.
+- **Palette drift:** generated images come back near your brand colors rather than on them. Eyedrop the image, compare it to your Brand Kit swatches, and pull the design's accents toward the photo instead of leaving both slightly off.
+- **Contrast:** pale type over a pale AI background reads fine on a laptop and vanishes on a phone outdoors. Preview at actual size before you post.
+- **People and products:** zoom in on hands, teeth, jewelry and packaging seams. If it's your real product, don't ship a generated impression of it.
+- **Sameness:** three posts in a row in the same generated style and the feed starts to look synthetic. Mix in real photography.
+
+One more step before a paid campaign: read the terms for the AI feature you used and the plan you're on, because usage rights differ by tool and change over time. Save the source files too. The same prompt won't hand you the same image twice.
+
 ## Sample practice exercise
 
 **Type:** Prompt practice
@@ -98,6 +128,14 @@ They will if you brief them vaguely. The difference between generic and on-brand
 **Do I need design experience?**
 
 No. Canva AI is built for non-designers, and the skill you need is writing a clear brief, which Iro teaches from zero, five minutes at a time.
+
+**Is Canva AI free to use?**
+
+Partly. Canva meters its AI features with credits: the free plan includes a limited monthly allowance across Magic Write and image generation, and paid plans include a larger one. When the allowance runs out, those tools pause until the counter resets. Check the usage indicator in your Canva account, since the exact limits get adjusted over time.
+
+**Why does text in Canva AI images come out garbled?**
+
+Because image models draw letterforms as shapes rather than spelling words, so headlines and labels inside a generated image often come back misspelled or half-formed. Don't try to fix it with better prompts. Generate the image with no words in it, then add your headline, price and logo as real text layers in your brand font. They stay editable and readable at any size.
 
 ## Related paths
 

@@ -4,7 +4,7 @@ canonical_url: "https://tryiro.com/blog"
 site: "Iro AI"
 site_url: "https://tryiro.com"
 language: en-US
-last_updated: "2026-05-28"
+last_updated: "2026-08-18"
 author: "Iro AI"
 license: "© 2026 Iro AI"
 ---
@@ -14,7 +14,7 @@ license: "© 2026 Iro AI"
 > Short, practical writing on AI fluency, prompting, AI tools, and the active-practice method.
 
 **Canonical:** https://tryiro.com/blog
-**Last updated:** 2026-05-28
+**Last updated:** 2026-08-18
 
 ## Pillars
 

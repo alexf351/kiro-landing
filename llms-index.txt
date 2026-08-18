@@ -1,6 +1,6 @@
 # Iro AI — index of LLM-readable resources
 # https://tryiro.com/llms-index.txt
-# Last updated: 2026-05-28
+# Last updated: 2026-08-18
 #
 # This file lists every machine-readable / LLM-friendly resource on
 # tryiro.com so that AI assistants, answer engines, and crawlers can

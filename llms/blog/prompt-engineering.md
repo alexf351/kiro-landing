@@ -4,7 +4,7 @@ canonical_url: "https://tryiro.com/blog/prompt-engineering"
 site: "Iro AI"
 site_url: "https://tryiro.com"
 language: en-US
-last_updated: "2026-05-28"
+last_updated: "2026-08-03"
 keywords: ["prompt engineering", "prompt patterns", "ChatGPT prompts", "Claude prompts", "prompt design 2026"]
 author: "Iro AI"
 license: "© 2026 Iro AI"
@@ -16,7 +16,7 @@ type: "content-pillar"
 > The transferable prompt patterns that work across ChatGPT, Claude, Gemini, and Perplexity — and survive every model upgrade.
 
 **Canonical:** https://tryiro.com/blog/prompt-engineering
-**Last updated:** 2026-05-28
+**Last updated:** 2026-08-03
 
 Prompt engineering has a branding problem. It sounds like a dark art of secret phrases. It is not. Good prompting is just clear specification — telling a model who it should be, what you want, what it needs to know, and what the output must look like.
 
