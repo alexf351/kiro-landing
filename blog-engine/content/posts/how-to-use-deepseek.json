@@ -7,7 +7,7 @@
   "keyTakeaways": [
     "DeepSeek offers a free web chat and apps; its models are also open, which is why it shows up cheaply in many other tools.",
     "It's strong at reasoning, math, and coding, often at a fraction of the cost of mainstream options.",
-    "Use the same prompting fundamentals you'd use anywhere — clear role, context, task, and format.",
+    "Use the same prompting fundamentals you'd use anywhere: clear role, context, task, and format.",
     "Be mindful of where your data goes: avoid sensitive or confidential information, as with any AI service."
   ],
   "description": "How to use DeepSeek: where to access it, what it's good at, prompting tips, privacy considerations, and how it compares to ChatGPT.",
@@ -52,7 +52,7 @@
     {
       "id": "start",
       "heading": "How to start using DeepSeek",
-      "html": "<p><strong>The easiest way to try DeepSeek is its free web chat at the official site, or its mobile app — sign in, type a question, and refine like any assistant.</strong> Because DeepSeek's models are open, you'll also find them offered inside other apps and platforms, sometimes at very low cost. New to it? Start with <a href=\"/blog/what-is-deepseek\">what is DeepSeek</a>.</p>"
+      "html": "<p><strong>The easiest way to try DeepSeek is its free web chat at the official site, or its mobile app: sign in, type a question, and refine like any assistant.</strong> Because DeepSeek's models are open, you'll also find them offered inside other apps and platforms, sometimes at very low cost. New to it? Start with <a href=\"/blog/what-is-deepseek\">what is DeepSeek</a>.</p>"
     },
     {
       "id": "best",

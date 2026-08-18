@@ -80,7 +80,7 @@ For general personal use it's a capable tool, but because DeepSeek is built by a
 
 **What is the main difference between ChatGPT and DeepSeek?**
 
-ChatGPT is a polished all-rounder with the largest ecosystem; DeepSeek focuses on strong reasoning and coding at low cost and offers open models. The other difference is provenance: OpenAI is US-based, DeepSeek is China-based.
+ChatGPT is a polished all-rounder with the largest ecosystem; DeepSeek focuses on strong reasoning and coding at low cost and offers open models. The other difference is provenance: OpenAI is US-based; DeepSeek is China-based.
 
 **Does the specific model matter once I know how to use AI well?**
 
