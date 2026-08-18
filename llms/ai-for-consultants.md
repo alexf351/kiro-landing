@@ -9,7 +9,7 @@ keywords: ["AI for consultants", "AI for consulting", "AI consulting tools", "Ch
 audience: "Management consultants, strategy analysts, independent consultants, advisory and in-house strategy teams"
 level: "Beginner to advanced"
 date_published: "2026-07-09"
-date_modified: "2026-07-09"
+date_modified: "2026-08-18"
 author: "Iro AI"
 license: "© 2026 Iro AI"
 canonical_llm_reference: "https://tryiro.com/llms-full.txt"
@@ -21,7 +21,7 @@ canonical_llm_reference: "https://tryiro.com/llms-full.txt"
 
 **Canonical page:** https://tryiro.com/ai-for-consultants
 **App Store:** https://apps.apple.com/app/id6759628066
-**Last updated:** 2026-07-09
+**Last updated:** 2026-08-18
 
 ## In short
 
@@ -62,6 +62,40 @@ The risk is that a deliverable carries your firm's name. AI will state a market 
 
 What stays with you: the recommendation, the judgment behind it, and responsibility for every figure on the page. AI accelerates the work; it doesn't sign off on it.
 
+## How do you turn 20 interview notes into a synthesis?
+
+Work it in three passes: extract, then cluster, then pressure-test. Handing a model a folder of raw notes and asking for "the key themes" gets you five headings bland enough to describe any industry, because you've asked it to compress twice in one step.
+
+**Pass one, extraction.** Run each interview separately: "From the notes below, pull every distinct claim as one sentence. Tag each with the speaker's role and whether it's a fact, an estimate, or an opinion. Don't summarize or merge anything yet." You end up with a claim list you can sort, count, and trace back to a named person.
+
+**Pass two, clustering.** Feed it the claim list rather than the raw notes, and constrain the grouping:
+
+> Group these claims into themes. Every theme needs at least three claims drawn from two different interviews. List any claim that doesn't fit a theme separately instead of forcing it in.
+
+That orphan list is worth reading twice. The finding nobody expected usually sits there: one person saying something odd that turns out to be right.
+
+**Pass three, pressure test.** Ask which themes rest on a single source, where interviewees contradict each other, and what a skeptic would say is missing. Those are the first questions in a partner review, so you'd rather hear them from a model on Tuesday.
+
+The so-what is still yours to write. Iro's Prompt Lab, part of Pro, is where you practice multi-pass prompting like this and get feedback at each step instead of discovering the gaps on a live engagement.
+
+## The AI habits that waste the most time on an engagement
+
+The costliest habit isn't a sloppy prompt. It's asking the model for a conclusion you're supposed to own, then losing an afternoon trying to reconstruct logic you never built.
+
+### Asking for the answer instead of the structure
+
+"What should we recommend here?" returns confident, generic strategy: consolidate vendors, renegotiate contracts, pilot then scale. It reads fine and falls apart in the first partner review, because you can't say why those options and not four others. Ask for the issue tree, the hypotheses worth testing, and the data each one needs. Then go test them.
+
+### Letting it size the market
+
+Models produce market sizes on demand, complete with a growth rate and a tidy CAGR, and none of it is checkable. Ask for the method instead: which segments to count, which multiplier, which public sources carry the inputs. You pull the real numbers yourself. Any figure that reaches a slide should trace back to a named source with a year on it.
+
+### Generating the whole deck in one shot
+
+Ten slides of plausible filler take longer to fix than five real slides take to build. Get the narrative right first (one recommendation, the arguments under it, the evidence under those), then build pages against that spine. If you can't say the storyline out loud in thirty seconds, formatting won't save the deck.
+
+All three are the same decision wearing different clothes: where your judgment enters the work. Early, and AI genuinely saves you hours. Late, and you're auditing a stranger's reasoning against a deadline.
+
 ## Sample practice exercise
 
 **Type:** Prompt practice
@@ -98,6 +132,14 @@ Be careful. Client data is usually confidential and may be contractually protect
 **Will AI replace junior consultants?**
 
 It changes the job more than it replaces it. The research and first-draft work AI accelerates is exactly what juniors did, so the skill that matters now is directing and verifying AI well. That judgment is what Iro trains.
+
+**Can AI write a consulting proposal or scope of work?**
+
+It can draft the structure and most of the language. Give it the client's stated problem, your proposed approach, the timeline, and the team shape, then ask for the standard sections: objectives, scope, workplan, deliverables, assumptions, and exclusions. What it shouldn't touch is your credentials, past case examples, or pricing. Those are the parts a client reads most closely, and an invented one is hard to walk back.
+
+**Should I tell clients I used AI on their engagement?**
+
+Check the contract first. Many client agreements and firm policies now carry AI clauses that require disclosure or restrict which tools may touch their data, and that decides it for you. Past that, clients care less about your tooling than whether the analysis is verified and defensible. A useful test: if you'd hesitate to explain out loud how a number was produced, redo it before it ships.
 
 ## Related paths
 

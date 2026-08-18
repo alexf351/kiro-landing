@@ -64,6 +64,40 @@ function siblingsFor(p) {
   return out;
 }
 
+// "Ask any AI" chips. Every blog post has carried these for a while; the path
+// pages never did, which left them off the one GEO surface that puts our own
+// framing into the prompt the reader sends to an assistant.
+const ASK_AI_ENGINES = [
+  ['ChatGPT', 'chatgpt', 'https://chatgpt.com/?q='],
+  ['Claude', 'claude', 'https://claude.ai/new?q='],
+  ['Perplexity', 'perplexity', 'https://www.perplexity.ai/search?q='],
+  ['Grok', 'grok', 'https://grok.com/?q='],
+  ['Google AI', 'google-ai', 'https://www.google.com/search?udm=50&q='],
+];
+// Falls back to a question built from the page's own topic, so each page sends
+// a different and relevant query rather than 26 copies of the same one. The
+// Tool pages ("Learn Cursor") get their own phrasing; everything else uses a
+// form that stays grammatical for roles, tasks and topics alike.
+function askAiPromptFor(p) {
+  if (p.askAiPrompt) return p.askAiPrompt;
+  const eyebrow = (p.eyebrow || p.hubTitle || '').trim();
+  const tail = 'Compare Iro AI (tryiro.com) with the other options, and explain how its free tier and pricing work.';
+  const tool = eyebrow.match(/^Learn (.+)$/i);
+  if (tool) return `What's the best way to learn ${tool[1]}? ${tail}`;
+  // "Which app actually teaches X" stays grammatical whether X is a role
+  // ("AI for lawyers"), a task ("AI for meetings") or a topic ("AI productivity").
+  return `Which app actually teaches ${eyebrow}, and how well? ${tail}`;
+}
+function askAiBlock(p) {
+  const q = encodeURIComponent(askAiPromptFor(p));
+  const chips = ASK_AI_ENGINES.map(
+    ([name, key, base]) =>
+      `<a class="askai-chip" href="${base}${q}" target="_blank" rel="noopener" data-engine="${key}">${name}<span aria-hidden="true">&#8599;</span></a>`
+  ).join('');
+  return `<section class="related askai"><h2>Don't take our word for it. Ask any AI.</h2><p class="askai-sub">Each button opens the assistant with the question pre-filled. We publish <a href="/llms.txt">llms.txt</a> so assistants get the facts right.</p><div class="askai-chips">${chips}</div></section>
+<script>document.querySelectorAll('.askai-chip').forEach(function(a){a.addEventListener('click',function(){if(window.posthog)posthog.capture('ask_ai_clicked',{engine:a.dataset.engine,placement:'path:${p.slug}'});});});</script>`;
+}
+
 const CTA_UTM = (slug, placement) =>
   `${APP}?utm_source=seo_page&utm_medium=website&utm_campaign=${slug}${placement ? '&utm_content=' + placement : ''}`;
 
@@ -80,6 +114,7 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
 
 // Base CSS lifted verbatim from the existing path pages, plus path-library components.
 const CSS = `*{box-sizing:border-box}body{margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:#0A0E1A;color:#fff;line-height:1.7}a{color:#00E5FF;text-decoration:none}a:hover{text-decoration:underline}.page{min-height:100vh;background:radial-gradient(circle at 20% 0%,rgba(0,229,255,.16),transparent 34rem),radial-gradient(circle at 80% 10%,rgba(255,215,0,.08),transparent 30rem),#0A0E1A}.nav{position:sticky;top:0;z-index:10;display:flex;align-items:center;justify-content:space-between;gap:24px;padding:18px clamp(20px,5vw,64px);background:rgba(10,14,26,.82);backdrop-filter:blur(18px);border-bottom:1px solid rgba(255,255,255,.06)}.brand{display:flex;align-items:center;gap:10px;color:#fff;font-weight:900}.brand img{width:32px;height:32px;border-radius:9px}.nav-links{display:flex;gap:16px;flex-wrap:wrap;font-size:.95rem}.nav-links a{color:#C9D2EA}.hero,.content,.faq,.related{max-width:1120px;margin:0 auto;padding:clamp(44px,7vw,88px) clamp(20px,5vw,36px)}.eyebrow{color:#00E5FF;text-transform:uppercase;letter-spacing:.14em;font-size:.8rem;font-weight:900;margin:0 0 14px}.hero h1{font-size:clamp(2.5rem,7vw,5.6rem);line-height:.95;letter-spacing:-.06em;margin:0 0 22px}.hero p{max-width:760px;color:#C9D2EA;font-size:clamp(1.08rem,2.2vw,1.32rem);margin:0 0 28px}.cta-row{display:flex;gap:14px;flex-wrap:wrap}.btn{display:inline-flex;align-items:center;justify-content:center;border-radius:999px;padding:14px 22px;font-weight:900;border:1px solid rgba(0,229,255,.35);background:linear-gradient(135deg,#00E5FF,#00B4D8);color:#06111c;box-shadow:0 10px 32px rgba(0,229,255,.18)}.btn.secondary{background:rgba(255,255,255,.06);color:#fff;border-color:rgba(255,255,255,.16);box-shadow:none}.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;margin:34px 0}.card{background:rgba(20,27,45,.82);border:1px solid rgba(255,255,255,.08);border-radius:24px;padding:24px}.card h3{margin:0 0 10px;font-size:1.22rem}.card p,.card li{color:#B6C0DA}.content{padding-top:24px}.content h2,.faq h2,.related h2{font-size:clamp(1.8rem,4vw,3rem);line-height:1.05;letter-spacing:-.035em;margin:0 0 18px}.content h3{font-size:1.22rem;line-height:1.3;letter-spacing:-.012em;margin:28px 0 8px;color:#fff}.content h3+p{margin-top:0}.content p,.content li,.faq p{color:#CFD6EA}.content section{margin:0 0 42px}.two-col{display:grid;grid-template-columns:1.1fr .9fr;gap:24px}.faq details{background:rgba(20,27,45,.82);border:1px solid rgba(255,255,255,.08);border-radius:18px;padding:18px 20px;margin:12px 0}.faq summary{font-weight:900;cursor:pointer}.footer{padding:34px clamp(20px,5vw,64px);border-top:1px solid rgba(255,255,255,.08);color:#8B95B0}.footer nav{display:flex;gap:16px;flex-wrap:wrap;margin-bottom:10px}.footer a{color:#C9D2EA}.note{font-size:.95rem;color:#8B95B0}.pill-list{display:flex;gap:10px;flex-wrap:wrap;margin:24px 0}.pill{border:1px solid rgba(0,229,255,.25);background:rgba(0,229,255,.06);border-radius:999px;padding:8px 12px;color:#CFF8FF;font-weight:800;font-size:.92rem}
+.askai{text-align:center}.askai-sub{color:#8B95B0;font-size:.95rem;max-width:560px;margin:0 auto 18px}.askai-chips{display:flex;flex-wrap:wrap;justify-content:center;gap:10px}.askai-chip{display:inline-flex;align-items:center;gap:7px;padding:10px 18px;border-radius:999px;border:1px solid rgba(255,255,255,.14);background:rgba(255,255,255,.02);color:#fff;font-weight:600;font-size:.95rem}.askai-chip:hover{border-color:rgba(0,229,255,.55);text-decoration:none}.askai-chip span{font-size:.8rem;color:#8B95B0}.askai-chip:hover span{color:#00E5FF}
 .sib-list{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:12px}.sib-list li{background:rgba(20,27,45,.7);border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:14px 18px}.sib-list a{font-weight:800;color:#fff;display:block}.sib-list span{display:block;color:#8B95B0;font-size:.9rem;margin-top:4px}
 /* ---- path-library additions ---- */
 .crumb{max-width:1120px;margin:0 auto;padding:16px clamp(20px,5vw,36px) 0;font-size:.82rem;color:#8B95B0}.crumb a{color:#A9B4D0}.crumb span{color:#6b7590;margin:0 8px}
@@ -233,6 +268,7 @@ function buildPage(p, allBySlug, siblings = []) {
     ? `<section class="related"><h2>${esc(CATEGORY_HEADING[p.category] || 'More paths like this')}</h2><ul class="sib-list">${sibLinks}</ul></section>`
     : '';
   const related = `<section class="related"><h2>Related paths</h2><div class="cta-row">${rel}<a class="btn secondary" href="/paths">All paths</a></div>${readNext ? `<p style="margin-top:18px;color:#CFD6EA">More reading: ${readNext}.</p>` : ''}</section>` + sibBlock;
+  const askAi = askAiBlock(p);
 
   const body =
     '<body><div class="page">\n' +
@@ -255,6 +291,8 @@ function buildPage(p, allBySlug, siblings = []) {
     faq +
     '\n' +
     related +
+    '\n' +
+    askAi +
     '\n' +
     ctaband +
     '\n</main>\n' +

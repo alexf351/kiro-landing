@@ -9,7 +9,7 @@ keywords: ["AI for founders", "AI for startups", "AI tools for founders", "how f
 audience: "Startup founders, solo founders, indie hackers, early-stage operators"
 level: "Beginner to advanced"
 date_published: "2026-07-09"
-date_modified: "2026-07-09"
+date_modified: "2026-08-18"
 author: "Iro AI"
 license: "© 2026 Iro AI"
 canonical_llm_reference: "https://tryiro.com/llms-full.txt"
@@ -21,7 +21,7 @@ canonical_llm_reference: "https://tryiro.com/llms-full.txt"
 
 **Canonical page:** https://tryiro.com/ai-for-founders
 **App Store:** https://apps.apple.com/app/id6759628066
-**Last updated:** 2026-07-09
+**Last updated:** 2026-08-18
 
 ## In short
 
@@ -62,6 +62,36 @@ The other half is judgment. AI will confidently invent a market size, a competit
 
 Notice what's not on the list: letting AI make the decision. It drafts and researches; you decide.
 
+## How do you turn customer interviews into a positioning decision?
+
+Run it in three passes instead of one: extract, then cluster, then decide. Founders who paste ten transcripts into a chat and ask "what should our positioning be?" get a bland summary, because the model is doing three different jobs at once and none of them well.
+
+### Pass one: extract
+
+Feed one transcript at a time and ask for the same fixed schema every time: the problem in the customer's own words, what they tried before you, what they'd have to give up to switch, and any direct quote about budget or urgency. Verbatim quotes only. Tell it to write "not mentioned" instead of filling a gap, and it mostly will.
+
+### Pass two: cluster
+
+Paste the extracts together and ask it to group them by underlying problem rather than by feature request, with a count of how many interviews support each group. Then ask which clusters came from a single person. Those are the ones you'll over-weight later, usually because that person was articulate and you liked them.
+
+### Pass three: decide
+
+Now bring in a role. "Act as a skeptical seed investor. Here are the clusters and their counts. Which one would you bet a company on, and what would have to be true for that bet to work?" Then argue back. Ask for the strongest case against whichever cluster you already favor, and notice how much of your answer is evidence versus preference.
+
+The call is still yours. What you got back is the six hours of re-reading transcripts, plus a check on the quiet bias where the interview that agreed with you is the one you remember.
+
+## The AI habits that cost founders the most time
+
+The expensive mistakes aren't bad prompts. They're outputs that looked finished, got shipped, and came back.
+
+- **The one-shot mega-prompt.** Asking for an entire pitch deck or business plan in one request gets you something structurally correct and specifically empty. Chain it: positioning first, then the narrative arc, then slide copy, feeding each result into the next step.
+- **Regenerating instead of correcting.** Hitting retry five times is slower than one message that says what's wrong: "too long, cut the second paragraph, and the tone is pitchy where it should be matter-of-fact."
+- **Numbers you never checked.** A model will hand you "a $4.2B market growing 18% a year" with total confidence and no source. In a deck, that's one investor question away from a bad meeting. Anything numeric that leaves your building gets verified against a real source.
+- **Automating a process you've run twice.** If you can't write the steps down, you can't automate them. Do it by hand until it's boring, then build.
+- **Outsourcing the things only you can say.** The investor update after a bad month, an apology to a customer you let down, a rejection to a candidate you liked. Speed was never the constraint on those.
+
+The failure mode shifts as you grow. Solo, you're the only reviewer, so the risk is fatigue: at 11pm everything reads fine. Once there are three or four of you, unreviewed drafts start landing in shared docs and get treated as settled, because nobody remembers who actually wrote them. Label AI first drafts as first drafts and that problem mostly goes away.
+
 ## Sample practice exercise
 
 **Type:** Prompt practice
@@ -98,6 +128,14 @@ Ask it to flag uncertainty, request sources, and verify any number or claim you'
 **How much time does this take to learn?**
 
 About five minutes a day. Iro is built for busy people: short lessons, real practice, and a streak that keeps the habit alive between everything else you're doing.
+
+**Can AI help me build an MVP without hiring an engineer?**
+
+Up to a point. Vibe coding tools can get a non-technical founder to a working prototype fast enough to demo it, put it in front of ten users, and find out whether anyone cares. Where it breaks down is auth, payments, and handling real customer data. Treat the AI build as a validation step, then bring in someone technical before you charge for it.
+
+**Is it safe to put my startup's data into ChatGPT?**
+
+It depends on the plan and the data. Consumer tiers may use your conversations for training unless you switch that off, while business and enterprise plans generally don't. Either way, keep customer personal data, unreleased financials, and anything under an NDA out of a chat window until you've read the provider's current terms yourself. Redacting names and figures usually costs you nothing, since the model only needs the shape of the problem.
 
 ## Related paths
 

@@ -9,7 +9,7 @@ keywords: ["AI for designers", "AI design tools", "image generation prompts", "A
 audience: "Product, UX, visual, and brand designers, plus creative directors and design-curious builders"
 level: "Beginner to advanced"
 date_published: "2026-07-09"
-date_modified: "2026-07-09"
+date_modified: "2026-08-18"
 author: "Iro AI"
 license: "© 2026 Iro AI"
 canonical_llm_reference: "https://tryiro.com/llms-full.txt"
@@ -21,7 +21,7 @@ canonical_llm_reference: "https://tryiro.com/llms-full.txt"
 
 **Canonical page:** https://tryiro.com/ai-for-designers
 **App Store:** https://apps.apple.com/app/id6759628066
-**Last updated:** 2026-07-09
+**Last updated:** 2026-08-18
 
 ## In short
 
@@ -63,6 +63,35 @@ Control comes from five levers: subject, style, composition, lighting, and const
 
 What AI doesn't do: have taste. It explores and drafts; you judge, refine, and ship.
 
+## What does an AI-assisted design workflow actually look like?
+
+It looks like four or five short prompts spread across a project, not one giant prompt that returns a finished screen. Here's a real sequence for redesigning the empty state of a habit-tracking app.
+
+**1. Widen before you narrow.** "Here's the screen, the user, and the single action we want them to take. Give me eight distinct directions for this empty state, one line each, ranging from practical to strange. Ideas only, no visual descriptions." You keep two and throw out six. That ratio is the point.
+
+**2. Write the words before you draw anything.** "Draft three versions of the headline and one line of body copy for direction three. Headline under twelve words, second person, no exclamation marks. Make one plain, one warm, one blunt." Copy decides layout more often than designers admit, and knowing the real string length changes how you space the screen.
+
+**3. Then the art.** Only once you know what the screen says do you spend prompts on illustration, using the five levers above and changing one at a time.
+
+**4. Run a critique pass.** "Act as a senior product designer reviewing this flow. Here's the copy and the layout. Name the three weakest points and what you'd test first." Treat the answer as a checklist to argue with, not a verdict.
+
+**5. Compress the feedback.** After review, paste the whole thread: "De-duplicate these comments into a prioritized list. Separate what's a required change, what's personal preference, and what needs a decision from someone else."
+
+Each step takes a couple of minutes. The win isn't speed on any single prompt, it's that you stop building things you should have thrown out at step one. Iro's Prompt Lab, part of Pro, is where you can run rewrites like these and get feedback on the version you wrote.
+
+## What should you check before an AI-assisted design ships?
+
+Check four things: usage rights, exact brand values, accessibility, and whether the model invented an interface pattern you don't actually have. These are the failures that cost days, and none of them are visible in a pretty JPEG.
+
+- **Usage rights.** Commercial terms differ by tool and by plan, and some free plans don't grant them at all. Client and agency contracts increasingly ask you to disclose generated assets. Settle this before the file lands in a deliverable, not after legal asks.
+- **Exact values.** Image models approximate. Something generated "in deep navy with a cyan accent" lands near your palette, not on it. Correct the color in your editor, or treat the generation as reference and rebuild the asset as vector so it holds up at every size.
+- **Accessibility.** A composition that looks great full-bleed on your monitor often fails the moment real text sits on it. Check contrast against WCAG AA (4.5:1 for body text), confirm tap targets survive the crop, and make sure nothing relies on color alone to carry meaning.
+- **Invented patterns.** Ask a model for information architecture or a flow and it will confidently describe a component your design system doesn't include, or a pattern that fights the platform's conventions. Every suggestion is a proposal to check, not an instruction to follow.
+
+One more that's easy to miss: read generated microcopy for claims. Models write assured empty states and tooltips about features nobody built, and that language has a habit of surviving all the way into production.
+
+The whole pass takes a few minutes. Skipping it is how a fast draft turns into a slow rework.
+
 ## Sample practice exercise
 
 **Type:** Prompt practice
@@ -99,6 +128,14 @@ Image models like Midjourney, DALL-E, and Firefly for visuals, plus a general mo
 **How do I keep AI images on-brand?**
 
 Bake the brand into the prompt as explicit constraints: exact colors, mood, do's and don'ts, and a consistent style descriptor you reuse across generations. Then curate hard: generate many, keep few. AI gives you volume; staying on-brand is your call, enforced through precise constraints and ruthless selection.
+
+**Why does text in AI-generated images come out garbled?**
+
+Because image models paint text as pixels, not typography. They predict what letterforms look like rather than setting characters, so short words sometimes survive and longer strings drift into nonsense. The fix is workflow, not a better prompt: add "no text" as a constraint, leave negative space where the headline goes, then set real type in Figma or Illustrator. You keep the brand font, the kerning, and readable contrast.
+
+**Can I use AI-generated images in client work?**
+
+Often yes, but check two things first. Commercial rights depend on the tool and the plan you're on, and some free tiers don't include them, so read the current terms instead of assuming. Second, your client's contract may require disclosure or rule generated assets out entirely. In the US, an image with no meaningful human authorship generally can't be registered for copyright, which matters when the asset needs protecting.
 
 ## Related paths
 

@@ -9,7 +9,7 @@ keywords: ["AI for presentations", "AI presentation maker", "AI slide deck", "ho
 audience: "Founders, managers, marketers, students, and anyone who has to stand up and present"
 level: "Beginner to advanced"
 date_published: "2026-07-09"
-date_modified: "2026-07-09"
+date_modified: "2026-08-18"
 author: "Iro AI"
 license: "© 2026 Iro AI"
 canonical_llm_reference: "https://tryiro.com/llms-full.txt"
@@ -21,7 +21,7 @@ canonical_llm_reference: "https://tryiro.com/llms-full.txt"
 
 **Canonical page:** https://tryiro.com/ai-for-presentations
 **App Store:** https://apps.apple.com/app/id6759628066
-**Last updated:** 2026-07-09
+**Last updated:** 2026-08-18
 
 ## In short
 
@@ -62,6 +62,36 @@ Once the structure holds, AI is a fast drafting partner for the rest, as long as
 
 A good move is to ask for one headline and no more than three bullets per slide: it forces the deck to stay skimmable and stops you from reading paragraphs at your audience. Then ask the model for a couple of visual options per key slide so you can brief a designer or build them yourself. The presentation is still yours; AI just gets you to a strong draft faster.
 
+## How do you get from raw notes to a talk you can deliver?
+
+Work in passes, and don't ask for the deck first. Each pass hands the model something it couldn't guess, and hands you a decision to make while the talk is still cheap to change.
+
+- **Brief it.** Paste the raw material: your notes, the doc it came from, the numbers. Then state the audience, the goal, and the time limit, and tell it explicitly not to write slides yet.
+- **Ask for three arcs, not one.** "Give me three different ways to structure this talk. For each, name the opening move and what it asks the audience to believe." Choosing between three is a much better use of your judgment than accepting the first.
+- **Expand the arc you picked.** One headline, three bullets maximum, one speaker note per slide. A slide a minute is a sane ceiling, so a 10-minute talk is roughly six to ten slides, not twenty.
+- **Stress-test it.** "You're the CFO in this room. Ask the five hardest questions and name my weakest claim." Write your answers down. Most talks come apart in the questions afterwards, not in the deck.
+- **Cut with a timer running.** Read the whole thing out loud against the clock. Anything you stumble over was written to be read, not said, so rewrite it the way you'd actually say it.
+
+One pass belongs to you alone. Check every number and every named fact against its source before it goes on a slide, because a model will produce a confident figure it never actually saw, and a slide makes any figure look like evidence. A wrong number on screen costs you the room for the rest of the talk.
+
+## Pitch deck, internal update, conference talk: what changes in the prompt
+
+The three inputs stay constant (audience, goal, time limit), but the arc, the evidence, and the ask shift with the room. Naming which kind of talk you're giving is one of the highest-value words in the prompt.
+
+### Investor pitch
+
+The room is deciding two things: whether this is worth doing, and whether you're the one to do it. Ask for the arc problem, why now, what you've built, evidence it's working, the raise. Tell the model to keep one claim per slide and push the detail into an appendix. Then ask it to attack your "why now," because that's the question you'll get.
+
+### Internal update or decision meeting
+
+Your audience already has the context, so cut the setup. Lead with the recommendation and the ask, then the evidence behind it. A prompt that works: "Rewrite this so the decision I need appears in the first 30 seconds and the supporting detail comes after." Ask for a one-paragraph spoken version too, since exec meetings run late and you'll sometimes get four minutes instead of twelve.
+
+### Conference talk or teaching session
+
+Nobody is approving anything here, so the goal is one idea people can repeat later. Ask for a single takeaway sentence, then three concrete moments (a story, a live demo, a before and after) that make it land. Slides carry fewer words in this format, and the speaker notes carry more.
+
+The habit doesn't change: name the room, name what you want from it, name your time slot. What changes is what the audience holds, whether that's money, a decision, or just their attention, and how hard your evidence has to work to earn it.
+
 ## Sample practice exercise
 
 **Type:** Prompt practice
@@ -98,6 +128,14 @@ They will if you only give it a topic. Generic in, generic out. When you provide
 **Can AI help me cut a deck that's too long?**
 
 Yes. That's one of its best uses. Paste your outline, tell it the message and the time limit, and ask which slides don't serve the point and which bullets can be cut or merged. Then make the final call on what stays.
+
+**Can AI make an actual PowerPoint or Google Slides file?**
+
+Some tools can. Copilot in PowerPoint and Gemini in Google Slides draft a deck from a prompt or an existing document, and standalone tools like Gamma build a themed deck you then edit. Chat models such as ChatGPT or Claude give you the outline, bullets, and speaker notes as text that you paste in yourself. Layout, brand, and fact-checking are still your job either way.
+
+**How do I get AI to write speaker notes I can actually deliver?**
+
+Ask for spoken language, not written prose: three short prompts per slide instead of a paragraph, plus one transition line into the next slide. Give it the slide headline, the bullets, and how long you have on that slide. Then read the notes out loud. Anything you stumble over was written to be read, so cut it or say it your own way.
 
 ## Related paths
 
