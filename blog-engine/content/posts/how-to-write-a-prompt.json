@@ -6,7 +6,7 @@
   "lede": "A good prompt has four parts: context, role, task, and format. Add those, then refine the first answer. Here's the simple recipe, with before-and-after examples you can copy.",
   "keyTakeaways": [
     "A good prompt has four parts: context (background), role (who the AI should act as), task (what to do), and format (how you want the answer).",
-    "The biggest upgrade to a weak answer is usually more context and a specific format — not a 'magic' phrase.",
+    "The biggest upgrade to a weak answer is usually more context and a specific format, not a 'magic' phrase.",
     "Treat the first answer as a draft and refine it; iteration is part of prompting.",
     "The same recipe works across ChatGPT, Claude, Gemini, and Perplexity."
   ],
@@ -55,12 +55,12 @@
     {
       "id": "answer",
       "heading": "How do you write a good AI prompt?",
-      "html": "<p><strong>A good prompt gives the AI four things: context, a role, a clear task, and the output format you want.</strong> Most weak answers come from skipping these — the model has to guess what you mean. Add them and you'll get sharp, useful results from ChatGPT, Claude, Gemini, or any other tool. Then treat the first answer as a draft and refine it.</p>"
+      "html": "<p><strong>A good prompt gives the AI four things: context, a role, a clear task, and the output format you want.</strong> Most weak answers come from skipping these: the model has to guess what you mean. Add them and you'll get sharp, useful results from ChatGPT, Claude, Gemini, or any other tool. Then treat the first answer as a draft and refine it.</p>"
     },
     {
       "id": "parts",
       "heading": "The four parts of a great prompt",
-      "html": "<ol><li><strong>Context</strong> — the background the AI needs: who it's for, what you've tried, any constraints. <em>\"I'm emailing a client who missed a deadline; tone should stay warm.\"</em></li><li><strong>Role</strong> — who the AI should act as: <em>\"You are an experienced customer-success manager.\"</em></li><li><strong>Task</strong> — the specific thing to do: <em>\"Write a 3-sentence reply that asks for a new date without blaming them.\"</em></li><li><strong>Format</strong> — how you want it: length, structure, tone. <em>\"Under 80 words, friendly, no jargon.\"</em></li></ol><p>You won't need all four every time, but the more ambiguous the task, the more they help. This is the heart of <a href=\"/blog/what-is-prompt-engineering\">prompt engineering</a>.</p>"
+      "html": "<ol><li><strong>Context.</strong> The background the AI needs: who it's for, what you've tried, any constraints. <em>\"I'm emailing a client who missed a deadline; tone should stay warm.\"</em></li><li><strong>Role.</strong> Who the AI should act as: <em>\"You are an experienced customer-success manager.\"</em></li><li><strong>Task.</strong> The specific thing to do: <em>\"Write a 3-sentence reply that asks for a new date without blaming them.\"</em></li><li><strong>Format.</strong> How you want it: length, structure, tone. <em>\"Under 80 words, friendly, no jargon.\"</em></li></ol><p>You won't need all four every time, but the more ambiguous the task, the more they help. This is the heart of <a href=\"/blog/what-is-prompt-engineering\">prompt engineering</a>.</p>"
     },
     {
       "id": "example",
@@ -70,12 +70,12 @@
     {
       "id": "refine",
       "heading": "How to refine the first answer",
-      "html": "<p>The first answer is a draft, not the deliverable. Improve it with quick follow-ups:</p><ul><li><strong>Adjust:</strong> \"Make it shorter / more formal / more specific.\"</li><li><strong>Add an example:</strong> show one sample of \"good\" and ask it to match.</li><li><strong>Ask for options:</strong> \"Give me three versions, ranked.\"</li><li><strong>Push back:</strong> \"That intro is generic — try a sharper hook.\"</li></ul><p>Two or three rounds of this beats hunting for a perfect one-shot prompt.</p>"
+      "html": "<p>The first answer is a draft, not the deliverable. Improve it with quick follow-ups:</p><ul><li><strong>Adjust:</strong> \"Make it shorter / more formal / more specific.\"</li><li><strong>Add an example:</strong> show one sample of \"good\" and ask it to match.</li><li><strong>Ask for options:</strong> \"Give me three versions, ranked.\"</li><li><strong>Push back:</strong> \"That intro is generic. Try a sharper hook.\"</li></ul><p>Two or three rounds of this beats hunting for a perfect one-shot prompt.</p>"
     },
     {
       "id": "mistakes",
       "heading": "Common prompting mistakes",
-      "html": "<p><strong>Being vague.</strong> \"Make it better\" gives the model nothing to aim at — say what \"better\" means. <strong>Skipping context.</strong> The AI can't read your mind about audience or constraints. <strong>Accepting the first draft.</strong> Iterating is where the quality comes from. <strong>Chasing magic words.</strong> There aren't any — clarity beats tricks. If your prompts keep underperforming, see <a href=\"/blog/why-your-ai-prompts-arent-working\">why your AI prompts aren't working</a>, and practice hands-on in the <a href=\"/prompt-engineering-app\">Prompt Lab</a>.</p>"
+      "html": "<p><strong>Being vague.</strong> \"Make it better\" gives the model nothing to aim at. Say what \"better\" means. <strong>Skipping context.</strong> The AI can't read your mind about audience or constraints. <strong>Accepting the first draft.</strong> Iterating is where the quality comes from. <strong>Chasing magic words.</strong> There aren't any: clarity beats tricks. If your prompts keep underperforming, see <a href=\"/blog/why-your-ai-prompts-arent-working\">why your AI prompts aren't working</a>, and practice hands-on in the <a href=\"/prompt-engineering-app\">Prompt Lab</a>.</p>"
     }
   ],
   "readNext": [
@@ -115,7 +115,7 @@
     },
     {
       "q": "How do I practice writing prompts every day?",
-      "a": "Take one real task each day and rewrite your prompt with a role, goal, context, and constraints. Daily reps are the whole game — you can <a href=\"/learn-ai-in-5-minutes-a-day\">build the skill in about 5 minutes a day</a> on the way to broader <a href=\"/become-ai-fluent\">AI fluency</a>."
+      "a": "Take one real task each day and rewrite your prompt with a role, goal, context, and constraints. Daily reps are the whole game. You can <a href=\"/learn-ai-in-5-minutes-a-day\">build the skill in about 5 minutes a day</a> on the way to broader <a href=\"/become-ai-fluent\">AI fluency</a>."
     }
   ],
   "related": [

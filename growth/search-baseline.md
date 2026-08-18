@@ -55,12 +55,46 @@ be judged on the long-tail phrases around it ("apps like Duolingo but for AI",
 ## One thing search is currently getting wrong about us
 
 The AI summary for "best AI learning apps for beginners gamified" described
-Iro as having **18 learning paths**. Every page on the site says 29, and has
-for a while. The index is serving a months-old snapshot of our best page.
+Iro as having **18 learning paths**. Separately, a research agent working only
+from search results came back with "20 paths, 375 lessons, 2,000+ exercises,
+16 exercise types" as Iro's current figures.
 
-That is not a content problem, it is a crawl problem, and it is the concrete
-argument for the Bing/Brave submissions below: our top-ranking page is being
-quoted with stale numbers in the exact answers we want to win.
+Every live file says 29 paths, 477 lessons, 2,700+ exercises, 24 exercise
+types. I checked the pages, `llms.txt`, `llms-full.txt` and `iro.json`: all
+consistent, all current. Nothing on the site says 18 or 20.
+
+So two independent stale snapshots are circulating in the index, and neither
+matches anything we publish. That is not a content problem, it is a crawl
+problem, and it is the concrete argument for the Bing and Brave submissions:
+our top-ranking page is being quoted with numbers we retired months ago, in
+exactly the answers we want to win.
+
+## What I could not verify, and why it matters
+
+I tried to build a verified fact sheet on the competitor set so we could write
+honest comparison pages. **It failed, and the failure is worth recording.**
+
+The proxy this session blocked every primary source: blinkist.com,
+makeheadway.com, imprintapp.com, chunks.app, nerdsip.com, apps.apple.com,
+play.google.com, Reddit and Trustpilot. Everything reachable was an SEO farm,
+and those copy each other, so five sources agreeing means one unverified claim
+repeated five times.
+
+An adversarial fact-check refused the pricing outright:
+
+- **Blinkist and Headway** — no publishable price. Two incompatible Headway
+  structures reported; every Blinkist source traced back to affiliate pages.
+- **Imprint and Chunks** — zero primary reads. One dossier invented an
+  "Imprint Pro" tier that does not exist.
+- **NerdSip, Kinnu, Morso, Nibble** — medium confidence on structure (Kinnu is
+  genuinely free, Morso has a real free tier, Nibble has none beyond a 7-day
+  trial), no confidence on numbers.
+
+**So no competitor comparison page was written.** Publishing a wrong price
+about a named competitor is a legal and reputational problem, and it is not
+worth a ranking. The pages are worth writing the moment the prices can be
+checked from an unblocked network, or from your own phone in five minutes:
+open each app's App Store listing and screenshot the subscription sheet.
 
 ## The queries to track from here
 

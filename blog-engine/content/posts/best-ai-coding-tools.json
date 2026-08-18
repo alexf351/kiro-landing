@@ -104,15 +104,15 @@
     },
     {
       "q": "What is the best AI coding tool for beginners?",
-      "a": "ChatGPT or Claude in chat are the gentlest start — you can ask questions, get explanations, and paste code for help without changing your setup. Once you're comfortable, an in-editor tool like Copilot or Cursor speeds you up."
+      "a": "ChatGPT or Claude in chat are the gentlest start. You can ask questions, get explanations, and paste code for help without changing your setup. Once you're comfortable, an in-editor tool like Copilot or Cursor speeds you up."
     },
     {
       "q": "Is GitHub Copilot or Cursor better?",
-      "a": "Copilot is great inline autocomplete and chat inside popular editors; Cursor is an AI-first editor that excels at multi-file, in-context, and agentic edits. Try both — many developers prefer Cursor for larger changes and Copilot for everyday autocomplete."
+      "a": "Copilot is great inline autocomplete and chat inside popular editors; Cursor is an AI-first editor that excels at multi-file, in-context, and agentic edits. Try both. Many developers prefer Cursor for larger changes and Copilot for everyday autocomplete."
     },
     {
       "q": "Can AI really write code for me?",
-      "a": "Yes, increasingly so — \"vibe coding\" makes small apps and scripts realistic from plain-English descriptions. But you still need to specify clearly, review the output, and understand enough to catch mistakes. AI is a multiplier on your judgment, not a replacement for it."
+      "a": "Yes, increasingly so: \"vibe coding\" makes small apps and scripts realistic from plain-English descriptions. But you still need to specify clearly, review the output, and understand enough to catch mistakes. AI is a multiplier on your judgment, not a replacement for it."
     }
   ],
   "related": [

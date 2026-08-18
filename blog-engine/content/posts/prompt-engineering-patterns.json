@@ -10,7 +10,7 @@
     "Few-shot examples (showing one to three samples) reliably improve format and quality.",
     "Treat the first output as a draft and refine it with specific feedback."
   ],
-  "description": "Forget magic phrases. These 7 prompt patterns transfer across models and survive model upgrades — the foundation of practical prompt engineering.",
+  "description": "Forget magic phrases. These 7 prompt patterns transfer across models and survive model upgrades: the foundation of practical prompt engineering.",
   "keywords": [
     "prompt engineering",
     "prompt patterns",
@@ -65,7 +65,7 @@
     {
       "id": "intro",
       "heading": "Why patterns beat prompts",
-      "html": "<p>People share prompts the way restaurants share recipes. Copy, paste, eat. Then the model updates and the prompt stops working.</p><p>Patterns are different. A pattern is a <em>structure</em> — a way of organising information for an AI model that survives whatever the model does next. Master the patterns and you can write a prompt for any model, any task, any version.</p><p>These seven are the ones that show up over and over in real work. They're what Iro AI's <a href=\"/prompt-engineering-app\">Prompt Lab</a> drills.</p>"
+      "html": "<p>People share prompts the way restaurants share recipes. Copy, paste, eat. Then the model updates and the prompt stops working.</p><p>Patterns are different. A pattern is a <em>structure</em>, a way of organising information for an AI model that survives whatever the model does next. Master the patterns and you can write a prompt for any model, any task, any version.</p><p>These seven are the ones that show up over and over in real work. They're what Iro AI's <a href=\"/prompt-engineering-app\">Prompt Lab</a> drills.</p>"
     },
     {
       "id": "p1",
@@ -75,12 +75,12 @@
     {
       "id": "p2",
       "heading": "2. Few-shot with anchors",
-      "html": "<p>For tasks where style matters more than reasoning — classifications, rewrites, tone-matching — give the model two or three examples that bracket the kind of output you want, then ask for the next one in the same shape.</p><p>The trick is <em>anchoring</em>: pick examples that span the range. Don't give three nearly-identical examples. Give a clearly-easy one, a clearly-hard one, and a middle one. The model learns the structure, not the surface.</p><p>Few-shot prompting works because large language models are strong in-context learners by design — the behavior OpenAI documented in <a href=\"https://arxiv.org/abs/2005.14165\" rel=\"nofollow noopener\" target=\"_blank\">“Language Models are Few-Shot Learners”</a> (Brown et al., 2020).</p>"
+      "html": "<p>For tasks where style matters more than reasoning (classifications, rewrites, tone-matching), give the model two or three examples that bracket the kind of output you want, then ask for the next one in the same shape.</p><p>The trick is <em>anchoring</em>: pick examples that span the range. Don't give three nearly-identical examples. Give a clearly-easy one, a clearly-hard one, and a middle one. The model learns the structure, not the surface.</p><p>Few-shot prompting works because large language models are strong in-context learners by design, the behavior OpenAI documented in <a href=\"https://arxiv.org/abs/2005.14165\" rel=\"nofollow noopener\" target=\"_blank\">“Language Models are Few-Shot Learners”</a> (Brown et al., 2020).</p>"
     },
     {
       "id": "p3",
       "heading": "3. Output format contract",
-      "html": "<p>Specify the output shape up front. Not as a wish — as a contract.</p><blockquote>Return ONLY a JSON object with these keys: <code>summary</code> (string, ≤ 40 words), <code>risks</code> (array of objects with <code>name</code> and <code>severity</code>), and <code>next_step</code> (string). No prose outside the JSON.</blockquote><p>This is how you stop the model from preambling. The format contract is also what makes a prompt programmable — you can feed the output to the next step without parsing free text.</p>"
+      "html": "<p>Specify the output shape up front. Not as a wish. As a contract.</p><blockquote>Return ONLY a JSON object with these keys: <code>summary</code> (string, ≤ 40 words), <code>risks</code> (array of objects with <code>name</code> and <code>severity</code>), and <code>next_step</code> (string). No prose outside the JSON.</blockquote><p>This is how you stop the model from preambling. The format contract is also what makes a prompt programmable: you can feed the output to the next step without parsing free text.</p>"
     },
     {
       "id": "p4",
@@ -90,7 +90,7 @@
     {
       "id": "p5",
       "heading": "5. Decomposition",
-      "html": "<p>For anything complex, don't ask for the whole answer in one prompt. Ask the model to <em>plan</em> the answer first, then execute the plan in subsequent turns.</p><p>This is the basis of <a href=\"/ai-agents-course\">agentic workflows</a>: break a goal into named steps, do each step, gate progress on review. It's also what makes long answers actually useful — without decomposition, the model loses the thread halfway through.</p><p>Breaking a problem into steps measurably improves accuracy on complex tasks — the core finding behind <a href=\"https://arxiv.org/abs/2201.11903\" rel=\"nofollow noopener\" target=\"_blank\">chain-of-thought prompting</a> (Wei et al., 2022).</p>"
+      "html": "<p>For anything complex, don't ask for the whole answer in one prompt. Ask the model to <em>plan</em> the answer first, then execute the plan in subsequent turns.</p><p>This is the basis of <a href=\"/ai-agents-course\">agentic workflows</a>: break a goal into named steps, do each step, gate progress on review. It's also what makes long answers actually useful. Without decomposition, the model loses the thread halfway through.</p><p>Breaking a problem into steps measurably improves accuracy on complex tasks, the core finding behind <a href=\"https://arxiv.org/abs/2201.11903\" rel=\"nofollow noopener\" target=\"_blank\">chain-of-thought prompting</a> (Wei et al., 2022).</p>"
     },
     {
       "id": "p6",
@@ -100,12 +100,12 @@
     {
       "id": "p7",
       "heading": "7. Verify-then-trust",
-      "html": "<p>The last pattern is a discipline more than a prompt. For any factual claim the model makes — numbers, dates, names, citations — check it before you trust it.</p><p>Two cheap checks: paste the claim back and ask the model to find sources; or run the same claim through a grounded tool like Perplexity. <a href=\"/blog/spot-ai-hallucinations\">Hallucination detection</a> has its own post — read that next.</p>"
+      "html": "<p>The last pattern is a discipline more than a prompt. For any factual claim the model makes (numbers, dates, names, citations), check it before you trust it.</p><p>Two cheap checks: paste the claim back and ask the model to find sources; or run the same claim through a grounded tool like Perplexity. <a href=\"/blog/spot-ai-hallucinations\">Hallucination detection</a> has its own post. Read that next.</p>"
     },
     {
       "id": "combine",
       "heading": "Putting them together",
-      "html": "<p>Most real prompts use three or four patterns at once. A typical work prompt might use Role-Goal-Constraints + Output format + Self-critique. A research prompt might use Decomposition + Comparison + Verify-then-trust.</p><p>The skill is knowing which patterns to combine for the task. That's not something you read your way to — you have to drill it. Iro AI's <a href=\"/prompt-engineering-app\">Prompt Lab</a> is the fastest way; the <a href=\"/learn-chatgpt\">ChatGPT path</a> and <a href=\"/learn-claude\">Claude path</a> apply the same patterns inside specific tools.</p>"
+      "html": "<p>Most real prompts use three or four patterns at once. A typical work prompt might use Role-Goal-Constraints + Output format + Self-critique. A research prompt might use Decomposition + Comparison + Verify-then-trust.</p><p>The skill is knowing which patterns to combine for the task. That's not something you read your way to. You have to drill it. Iro AI's <a href=\"/prompt-engineering-app\">Prompt Lab</a> is the fastest way; the <a href=\"/learn-chatgpt\">ChatGPT path</a> and <a href=\"/learn-claude\">Claude path</a> apply the same patterns inside specific tools.</p>"
     }
   ],
   "readNext": [
@@ -141,7 +141,7 @@
     },
     {
       "q": "How do I know which patterns to combine for a given task?",
-      "a": "Reps. That's what Iro AI's Prompt Lab is for — you practise patterns on small tasks until the choice becomes automatic."
+      "a": "Reps. That's what Iro AI's Prompt Lab is for: you practise patterns on small tasks until the choice becomes automatic."
     }
   ],
   "related": [

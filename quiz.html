@@ -747,7 +747,7 @@ body{
 
 /* FOOTER */
 .quiz-footer{
-  position:fixed;bottom:0;left:0;right:0;
+  position:relative;margin-top:auto;width:100%;
   padding:12px 24px;text-align:center;font-size:11px;color:var(--text3);opacity:.4;
   background:transparent
 }
@@ -838,14 +838,26 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
 <link rel="related" href="https://tryiro.com/blog/spot-ai-hallucinations"/>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://tryiro.com/quiz#mentions", "url": "https://tryiro.com/quiz", "mentions": [{"@type": "WebPage", "url": "https://tryiro.com/learn-chatgpt"}, {"@type": "WebPage", "url": "https://tryiro.com/learn-claude"}, {"@type": "WebPage", "url": "https://tryiro.com/prompt-engineering-app"}, {"@type": "WebPage", "url": "https://tryiro.com/blog/how-to-learn-chatgpt-in-2026"}, {"@type": "WebPage", "url": "https://tryiro.com/blog/spot-ai-hallucinations"}], "relatedLink": ["https://tryiro.com/learn-chatgpt", "https://tryiro.com/learn-claude", "https://tryiro.com/prompt-engineering-app", "https://tryiro.com/blog/how-to-learn-chatgpt-in-2026", "https://tryiro.com/blog/spot-ai-hallucinations"]}</script>
 <meta name="apple-itunes-app" content="app-id=6759628066"/>
+<style>
+.quiz-about{max-width:660px;margin:56px auto 0;padding:34px 0 8px;border-top:1px solid rgba(255,255,255,.09);text-align:left}
+.quiz-about h2{font-size:1.18rem;letter-spacing:-.01em;margin:26px 0 10px;color:#fff}
+.quiz-about h2:first-of-type{margin-top:0}
+.quiz-about p{color:#CFD6EA;font-size:.98rem;line-height:1.7;margin:0 0 14px}
+.quiz-about a{color:#00E5FF;text-decoration:none}
+.quiz-about a:hover{text-decoration:underline}
+.quiz-about details{background:rgba(20,27,45,.62);border:1px solid rgba(255,255,255,.08);border-radius:12px;padding:12px 16px;margin:9px 0}
+.quiz-about summary{font-weight:700;cursor:pointer;color:#fff;font-size:.96rem}
+.quiz-about details p{margin:9px 0 0;font-size:.94rem}
+.quiz-about-next{font-size:.9rem;color:#8B95B0;margin-top:24px}
+</style>
 </head>
 <body>
 <div class="ambient-gradient"></div>
 <canvas class="stars-canvas" id="starsCanvas" aria-hidden="true"></canvas>
 
 <nav class="quiz-nav" aria-label="Main navigation">
-<a class="quiz-logo" href="index.html"><picture><source srcset="assets/kiro-app-icon-256.webp" type="image/webp"/><img alt="Iro AI" decoding="async" src="assets/kiro-app-icon-256.png"/></picture><span>Iro AI</span></a>
-<a href="index.html">&larr; Back to site</a>
+<a class="quiz-logo" href="/"><picture><source srcset="assets/kiro-app-icon-256.webp" type="image/webp"/><img alt="Iro AI" decoding="async" src="assets/kiro-app-icon-256.png"/></picture><span>Iro AI</span></a>
+<a href="/">&larr; Back to site</a>
 </nav>
 
 
@@ -862,6 +874,26 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
 <p>10 questions. 2 minutes. Only 1 in 4 people score 9 or higher. Find out where you stand.</p>
 <button class="btn-primary" id="startBtn">Start the quiz</button>
 <div class="quiz-meta">Free &middot; No signup &middot; ~2 minutes</div>
+<section class="quiz-about" aria-labelledby="about-h">
+<h2 id="about-h">What the AI IQ test measures</h2>
+<p><strong>The AI IQ test is a free, 10-question check of how well you actually use AI, not how much you know about it.</strong> Every question is a working scenario: which prompt gets the better result, which answer is a hallucination, which tool fits the job. It takes about two minutes, needs no signup, and scores you out of 10.</p>
+<p>The questions are drawn from six areas: ChatGPT, Claude, prompt engineering, spotting AI hallucinations, choosing between AI tools, and AI fundamentals. Answers are shuffled every time, so the position of the right option tells you nothing.</p>
+
+<h2>How your score is read</h2>
+<p>Your result maps to a rank, from Bronze at the low end to Diamond at the top, plus a skill profile showing your strongest area and the one worth training first. The rank is the same ladder used inside the Iro app, so a score here is a real starting position rather than a number on its own.</p>
+
+<h2>What people actually score</h2>
+<p><strong>Across 97 completions from 90 people, the average is 7.4 out of 10 and the median is 8.</strong> Only about a quarter of people score 9 or higher, and roughly 1 in 10 get a perfect 10. At the other end, about 1 in 4 land at 6 or below.</p>
+<p>Those are our own numbers from this test, self-selected and including retakes. The full breakdown, including why the first 50 completions averaged 5.2, is in <a href="/blog/average-ai-literacy-score">the score distribution write-up</a>.</p>
+
+<h2>Questions people ask</h2>
+<details><summary>Is this an AI IQ test or an AI rank quiz?</summary><p>Both. Iro's free quiz is widely known as the AI IQ test, and your result is shown as an AI rank from Bronze to Diamond, with a starting skill profile that highlights your strongest topic and the one to train first.</p></details>
+<details><summary>How long does the AI IQ test take?</summary><p>About 2 minutes. The quiz is 10 questions, with no signup required.</p></details>
+<details><summary>Is the AI IQ test free?</summary><p>Yes. The AI IQ test is completely free and does not require an account. Your score maps to a rank tier from Bronze to Diamond and recommends a learning path inside Iro AI.</p></details>
+<details><summary>What does the AI IQ test cover?</summary><p>The test covers ChatGPT, Claude, prompt engineering, AI hallucinations, AI tools, and AI fundamentals, a representative slice of the topics taught in the Iro AI app.</p></details>
+
+<p class="quiz-about-next">After the test: <a href="/best-ai-learning-app">compare the best apps to learn AI</a> &middot; <a href="/how-to-learn-ai">how to learn AI in 2026</a> &middot; <a href="/paths">browse the path library</a></p>
+</section>
 </div>
 
 <!-- QUIZ -->
@@ -882,7 +914,7 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
 </div>
 
 <div class="toast" id="toast">Copied to clipboard!</div>
-<div class="quiz-footer"><a href="privacy.html">Privacy</a> · <a href="terms.html">Terms</a>
+<div class="quiz-footer"><a href="/privacy">Privacy</a> · <a href="/terms">Terms</a>
  <a href="/blog">Blog</a></div>
 
 <script>

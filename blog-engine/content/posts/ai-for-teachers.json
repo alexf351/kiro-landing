@@ -5,12 +5,12 @@
   "title": "AI for teachers: practical, responsible ways to use it in 2026",
   "lede": "Teachers can use AI to cut prep time on lesson plans, feedback, and differentiation — freeing hours for actual teaching. Here are the highest-value uses and how to use it responsibly with students.",
   "keyTakeaways": [
-    "AI can save teachers hours on lesson planning, drafting feedback, differentiating materials, and creating quizzes — time that goes back to teaching.",
+    "AI can save teachers hours on lesson planning, drafting feedback, differentiating materials, and creating quizzes: time that goes back to teaching.",
     "Always review AI output for accuracy and tone, and never put student personal data into tools your school hasn't approved.",
-    "Teach students to use AI honestly and critically — AI literacy is now part of preparing them for work and life.",
+    "Teach students to use AI honestly and critically. AI literacy is now part of preparing them for work and life.",
     "Start with one repetitive prep task this week and expand from there."
   ],
-  "description": "AI for teachers in 2026: practical, responsible ways to use AI for lesson planning, feedback, differentiation, and quizzes — plus how to handle student data and academic integrity.",
+  "description": "AI for teachers in 2026: practical, responsible ways to use AI for lesson planning, feedback, differentiation, and quizzes, plus how to handle student data and academic integrity.",
   "keywords": [
     "AI for teachers",
     "how teachers can use AI",
@@ -55,7 +55,7 @@
     {
       "id": "answer",
       "heading": "How can teachers use AI?",
-      "html": "<p><strong>Teachers can use AI to cut hours of prep — drafting lesson plans, feedback, differentiated materials, and quizzes — so more time goes to actual teaching.</strong> Used well, AI is a tireless teaching assistant for the repetitive parts of the job. Used carelessly, it produces generic or wrong material and raises real privacy questions. The difference is judgment: you stay the expert, AI handles the first draft.</p>"
+      "html": "<p><strong>Teachers can use AI to cut hours of prep (drafting lesson plans, feedback, differentiated materials, and quizzes) so more time goes to actual teaching.</strong> Used well, AI is a tireless teaching assistant for the repetitive parts of the job. Used carelessly, it produces generic or wrong material and raises real privacy questions. The difference is judgment: you stay the expert, AI handles the first draft.</p>"
     },
     {
       "id": "uses",
@@ -65,17 +65,17 @@
     {
       "id": "responsible",
       "heading": "Using AI responsibly as a teacher",
-      "html": "<p>Three rules protect you and your students:</p><ul><li><strong>Verify everything.</strong> AI can be confidently wrong — check facts, dates, and examples before they reach students. Learn to <a href=\"/blog/spot-ai-hallucinations\">spot hallucinations</a>.</li><li><strong>Protect student data.</strong> Never paste names, grades, or personal details into tools your school or district hasn't approved.</li><li><strong>Keep your judgment in charge.</strong> AI drafts; you decide what's accurate, age-appropriate, and aligned to your standards.</li></ul>"
+      "html": "<p>Three rules protect you and your students:</p><ul><li><strong>Verify everything.</strong> AI can be confidently wrong. Check facts, dates, and examples before they reach students. Learn to <a href=\"/blog/spot-ai-hallucinations\">spot hallucinations</a>.</li><li><strong>Protect student data.</strong> Never paste names, grades, or personal details into tools your school or district hasn't approved.</li><li><strong>Keep your judgment in charge.</strong> AI drafts; you decide what's accurate, age-appropriate, and aligned to your standards.</li></ul>"
     },
     {
       "id": "students",
       "heading": "Teaching students to use AI well",
-      "html": "<p>Banning AI outright rarely works and skips a skill students will need. A better approach: set clear rules, then teach <a href=\"/blog/what-is-ai-literacy\">AI literacy</a> — how AI works, where it fails, how to <a href=\"/blog/how-to-tell-if-something-is-ai-generated\">verify it</a>, and how to use it to learn rather than to cheat. Helping students use AI honestly and critically is part of preparing them for the real world.</p>"
+      "html": "<p>Banning AI outright rarely works and skips a skill students will need. A better approach: set clear rules, then teach <a href=\"/blog/what-is-ai-literacy\">AI literacy</a>: how AI works, where it fails, how to <a href=\"/blog/how-to-tell-if-something-is-ai-generated\">verify it</a>, and how to use it to learn rather than to cheat. Helping students use AI honestly and critically is part of preparing them for the real world.</p>"
     },
     {
       "id": "start",
       "heading": "How to start (this week)",
-      "html": "<p>Don't overhaul everything. Pick the single most repetitive prep task you do — drafting a quiz, leveling a reading, writing a parent email — and run it through a free tool like <a href=\"/learn-chatgpt\">ChatGPT</a> or <a href=\"/learn-claude\">Claude</a>. Refine the prompt, bank the time saved, and add a second task next week. To build the underlying skill, Iro AI offers five-minute daily lessons; the free <a href=\"/quiz\">AI IQ test</a> shows where you're starting from.</p>"
+      "html": "<p>Don't overhaul everything. Pick the single most repetitive prep task you do (drafting a quiz, leveling a reading, writing a parent email) and run it through a free tool like <a href=\"/learn-chatgpt\">ChatGPT</a> or <a href=\"/learn-claude\">Claude</a>. Refine the prompt, bank the time saved, and add a second task next week. To build the underlying skill, Iro AI offers five-minute daily lessons; the free <a href=\"/quiz\">AI IQ test</a> shows where you're starting from.</p>"
     }
   ],
   "readNext": [
@@ -99,7 +99,7 @@
   "faq": [
     {
       "q": "How can teachers use AI?",
-      "a": "Teachers can use AI to draft lesson plans, differentiate materials to multiple reading levels, write feedback and parent emails, and create quizzes and rubrics. It handles the repetitive prep so more time goes to teaching — as long as you verify the output."
+      "a": "Teachers can use AI to draft lesson plans, differentiate materials to multiple reading levels, write feedback and parent emails, and create quizzes and rubrics. It handles the repetitive prep so more time goes to teaching, as long as you verify the output."
     },
     {
       "q": "Is it okay for teachers to use AI?",
@@ -111,7 +111,7 @@
     },
     {
       "q": "Should students be allowed to use AI?",
-      "a": "Outright bans rarely work. A better approach is clear rules plus teaching AI literacy — how AI works, where it fails, how to verify it, and how to use it to learn rather than cheat — since students will need these skills."
+      "a": "Outright bans rarely work. A better approach is clear rules plus teaching AI literacy (how AI works, where it fails, how to verify it, and how to use it to learn rather than cheat), since students will need these skills."
     }
   ],
   "related": [

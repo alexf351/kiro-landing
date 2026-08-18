@@ -3,14 +3,14 @@
   "order": 55,
   "pillar": "ai-fluency",
   "title": "AI for real estate: practical ways agents can use it in 2026",
-  "lede": "Real estate agents can use AI to write listings, follow up with leads, summarize market data, and handle admin — saving hours a week. Here are the highest-value uses and how to stay compliant.",
+  "lede": "Real estate agents can use AI to write listings, follow up with leads, summarize market data, and handle admin, saving hours a week. Here are the highest-value uses and how to stay compliant.",
   "keyTakeaways": [
     "Agents can use AI to draft listings and marketing, follow up with leads, summarize market data, and cut admin time.",
-    "Always fact-check property details and follow fair-housing and advertising rules — AI can produce non-compliant or inaccurate copy.",
+    "Always fact-check property details and follow fair-housing and advertising rules: AI can produce non-compliant or inaccurate copy.",
     "Never paste client financial or personal data into tools your brokerage hasn't approved.",
-    "Start with one repetitive task — like listing descriptions — and expand from there."
+    "Start with one repetitive task (like listing descriptions) and expand from there."
   ],
-  "description": "AI for real estate in 2026: practical ways agents can use AI for listings, lead follow-up, market summaries, and admin — plus fair-housing compliance and data cautions.",
+  "description": "AI for real estate in 2026: practical ways agents can use AI for listings, lead follow-up, market summaries, and admin, plus fair-housing compliance and data cautions.",
   "keywords": [
     "AI for real estate",
     "AI for real estate agents",
@@ -55,7 +55,7 @@
     {
       "id": "answer",
       "heading": "How can real estate agents use AI?",
-      "html": "<p><strong>Agents can use AI to draft listings and marketing, follow up with leads faster, summarize market data, and clear admin — easily saving hours a week.</strong> AI is a tireless assistant for the writing- and research-heavy parts of the job, freeing you for showings, negotiation, and relationships — the parts that actually close deals. The catch: real estate has fair-housing and advertising rules, so you stay the expert and verify everything.</p>"
+      "html": "<p><strong>Agents can use AI to draft listings and marketing, follow up with leads faster, summarize market data, and clear admin, easily saving hours a week.</strong> AI is a tireless assistant for the writing- and research-heavy parts of the job, freeing you for showings, negotiation, and relationships — the parts that actually close deals. The catch: real estate has fair-housing and advertising rules, so you stay the expert and verify everything.</p>"
     },
     {
       "id": "uses",
@@ -65,17 +65,17 @@
     {
       "id": "compliance",
       "heading": "Staying compliant and accurate",
-      "html": "<p>Two rules matter most in real estate:</p><ul><li><strong>Follow fair-housing and advertising laws.</strong> AI can unintentionally generate language that steers or discriminates, or makes claims you can't support. Review every public-facing piece against your jurisdiction's rules.</li><li><strong>Verify every property detail.</strong> AI can invent square footage, features, or figures. Check listing facts against the source before publishing — see <a href=\"/blog/spot-ai-hallucinations\">spotting hallucinations</a>.</li></ul><p>And never paste client financial or personal data into tools your brokerage hasn't approved.</p>"
+      "html": "<p>Two rules matter most in real estate:</p><ul><li><strong>Follow fair-housing and advertising laws.</strong> AI can unintentionally generate language that steers or discriminates, or makes claims you can't support. Review every public-facing piece against your jurisdiction's rules.</li><li><strong>Verify every property detail.</strong> AI can invent square footage, features, or figures. Check listing facts against the source before publishing. See <a href=\"/blog/spot-ai-hallucinations\">spotting hallucinations</a>.</li></ul><p>And never paste client financial or personal data into tools your brokerage hasn't approved.</p>"
     },
     {
       "id": "start",
       "heading": "How to start (this week)",
-      "html": "<p>Pick the single most repetitive writing task you do — usually listing descriptions or lead replies — and run it through a free tool like <a href=\"/learn-chatgpt\">ChatGPT</a> or <a href=\"/learn-claude\">Claude</a>. Give it the property facts and your brand voice, refine the output, and bank the time. Add a second task next week.</p>"
+      "html": "<p>Pick the single most repetitive writing task you do (usually listing descriptions or lead replies) and run it through a free tool like <a href=\"/learn-chatgpt\">ChatGPT</a> or <a href=\"/learn-claude\">Claude</a>. Give it the property facts and your brand voice, refine the output, and bank the time. Add a second task next week.</p>"
     },
     {
       "id": "skill",
       "heading": "The real edge: getting fluent",
-      "html": "<p>Any agent can open ChatGPT. The ones who pull ahead use it <em>well</em> — sharp prompts, good judgment, AI folded into their workflow. That's <a href=\"/blog/what-is-ai-fluency\">AI fluency</a>, and a few minutes of practice a day compounds fast. Iro AI builds it through short lessons, including paths for business and marketing. See where you stand with the free <a href=\"/quiz\">AI IQ test</a>.</p>"
+      "html": "<p>Any agent can open ChatGPT. The ones who pull ahead use it <em>well</em>: sharp prompts, good judgment, AI folded into their workflow. That's <a href=\"/blog/what-is-ai-fluency\">AI fluency</a>, and a few minutes of practice a day compounds fast. Iro AI builds it through short lessons, including paths for business and marketing. See where you stand with the free <a href=\"/quiz\">AI IQ test</a>.</p>"
     }
   ],
   "readNext": [
@@ -99,7 +99,7 @@
   "faq": [
     {
       "q": "How can real estate agents use AI?",
-      "a": "Agents can use AI to draft listing descriptions and marketing, follow up with leads faster, summarize market data into briefings, and clear admin. It handles writing- and research-heavy tasks so agents focus on showings, negotiation, and relationships — as long as they verify details and follow fair-housing rules."
+      "a": "Agents can use AI to draft listing descriptions and marketing, follow up with leads faster, summarize market data into briefings, and clear admin. It handles writing- and research-heavy tasks so agents focus on showings, negotiation, and relationships, as long as they verify details and follow fair-housing rules."
     },
     {
       "q": "What are the best AI tools for real estate?",
@@ -111,7 +111,7 @@
     },
     {
       "q": "Can AI write real estate listings?",
-      "a": "Yes — AI is great at turning property facts into polished listing copy in seconds. Always edit for accuracy and compliance, since AI can exaggerate or invent details and may produce language that violates fair-housing rules."
+      "a": "Yes. AI is great at turning property facts into polished listing copy in seconds. Always edit for accuracy and compliance, since AI can exaggerate or invent details and may produce language that violates fair-housing rules."
     }
   ],
   "related": [

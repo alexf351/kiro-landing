@@ -10,7 +10,7 @@
     "It's best for keeping up with current conversations and trending topics; for careful work, the mainstream assistants are often steadier.",
     "Like any AI, it can be wrong or biased, so verify anything that matters."
   ],
-  "description": "What is Grok? A plain-English explainer on SpaceXAI's chatbot — what it is, its real-time X integration, its personality, what it's good at, and how it compares to ChatGPT.",
+  "description": "What is Grok? A plain-English explainer on SpaceXAI's chatbot: what it is, its real-time X integration, its personality, what it's good at, and how it compares to ChatGPT.",
   "keywords": [
     "what is Grok",
     "Grok AI",
@@ -63,7 +63,7 @@
     {
       "id": "features",
       "heading": "Grok's standout features",
-      "html": "<ul><li><strong>Real-time information</strong> — it can pull in current posts and web results, so it's oriented toward what's happening now.</li><li><strong>Personality</strong> — a more conversational, less buttoned-up tone than most assistants.</li><li><strong>X integration</strong> — it lives where a lot of real-time discussion already happens.</li></ul>"
+      "html": "<ul><li><strong>Real-time information</strong>: it can pull in current posts and web results, so it's oriented toward what's happening now.</li><li><strong>Personality</strong>: a more conversational, less buttoned-up tone than most assistants.</li><li><strong>X integration</strong>: it lives where a lot of real-time discussion already happens.</li></ul>"
     },
     {
       "id": "good",
