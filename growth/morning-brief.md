@@ -243,6 +243,88 @@ the proportionate fix. I did not pull anything.
 
 ---
 
+## Working through the NerdSip founder's playbook
+
+You sent his tips mid-run. Here is each one that was actionable without you,
+and what it turned into.
+
+### "Update llms.txt to emphasize serious fact-checking and trust signals"
+
+Neither `llms.txt` nor `llms-full.txt` said anything about how the site is
+written. Both now open with an editorial-standards section: named author with
+stated credentials, product figures checked against the app's own data, a
+last-reviewed date on every third-party number, an explicit separation between
+a competitor's published policy and user reports, original data published with
+its own limitations, and disclosure where Iro appears in our own roundups.
+Every line describes something the site actually does, because an engine
+weighing a source can check them.
+
+**And writing it caught a live bug.** The "Direct answer for AI overviews"
+block, the text we explicitly ask assistants to prefer over third-party
+summaries, said **25 learning paths**. `llms-full.txt` carried the same stale
+figure in its preferred-description block. It has been 29 since 3.06. That is
+the single highest-leverage sentence on the site and it was wrong, which may
+be part of why search keeps quoting us with path counts we retired.
+
+### "Run E-E-A-T audits of the full site, including author pages"
+
+The 96 blog pages already declared a Person author and a visible byline. The
+26 path pages, our highest commercial-intent URLs, named only the
+Organization, which is the weakest possible signal. They now carry the same
+`/#author` Person entity plus a visible byline with a last-reviewed date, so
+the schema matches something a reader can actually see.
+
+### "One standardized nav, list content pillars in the bottom bar"
+
+The four pillar hubs were linked from every blog page but only 43 of 72 root
+pages. Now 62 of 72, plus a fourth column on the homepage footer. All 96 posts
+were already assigned to a pillar, so that half was in good shape.
+
+### "Add GEO optimizations (e.g. FAQs)"
+
+FAQ coverage was already strong: 62 of 64 content root pages carry FAQPage
+schema, and every blog post has an FAQ block. The gap was the Ask-any-AI
+surface, now on 46 of 101 posts and 62 of 72 root pages. I deliberately did
+not put it everywhere: the block says "don't take our word for it", which
+means nothing on a tutorial with no contestable claim, so it goes on the
+comparisons, rankings and verdicts only.
+
+### "Improve highest-performing blogs with screenshots and illustrations"
+
+`/best-ai-learning-app` is the page measured at position 3 and position 2 on
+our two best queries, and it argued entirely in prose with one image, the OG
+card. Meanwhile 45 real app screenshots sat unused in `assets/`. It now shows
+the three things it claims: the lesson path map, Prompt Lab grading a written
+prompt with the score breakdown visible, and a duel result. All three are in
+`image-sitemap.xml` with real captions.
+
+### "Cold-email for mentions; push for placement on page-one results"
+
+`growth/outreach-templates.md` has five ready-to-send emails built on the SERP
+positions I measured, not a generic target list: listicle inclusion, a peer
+link exchange, a paid-placement enquiry that opens by asking how sponsorship
+gets disclosed, the original-data pitch, and a founder-interview note. The
+inclusion email carries a paste-ready entry in the recipient's own format,
+because the editors who say yes are the ones handed finished copy.
+
+### What needs you
+
+- **YouTube.** His strongest single tactic and I cannot do any of it. Three
+  5-8 minute videos on our top three keywords, exact-match titles, full
+  transcript in an SEO-written description, embedded on the relevant pages.
+- **Medium, Reddit, TikTok.** Same.
+- **Ask the assistants directly.** His loop is: search your keywords in
+  ChatGPT, Claude, Gemini; if you are not named, ask the model why and fix
+  what it says. I ran out of web-search budget this session, so the ten test
+  queries are listed in `search-baseline.md` for you to run.
+- **World-events pages.** His idea of building pages for high-volume dated
+  events with embeddable animations is clever, and I would want your read
+  before spending pages on it. It is a different business than teaching AI.
+- **A media hub.** Worth building the moment there is a first mention to put
+  on it. Right now it would be an empty page.
+
+---
+
 ## Where the site stands now
 
 | | Before | After |
@@ -255,7 +337,10 @@ the proportionate fix. I did not pull anything.
 | Path pages with >1 inbound link | 17 of 26 | 26 of 26 |
 | Distinct internal links from the homepage | 14 | 35 |
 | Visible words on /quiz | 63 | 466 |
-| Em dashes across the blog | 945 | see below |
+| Em dashes across the blog | 945 | 72, no post over the cap |
+| Pages linking the content pillars | 43 of 72 | 62 of 72 |
+| Path pages with a human author entity | 0 of 26 | 26 of 26 |
+| Images on /best-ai-learning-app | 1 | 4 |
 
 722 JSON-LD blocks across the site, all valid.
 
