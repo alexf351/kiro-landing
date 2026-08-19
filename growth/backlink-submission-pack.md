@@ -81,7 +81,7 @@ never have asked.
 | Startup Fame | 2026-08-19 | yes | `noopener` only | verifier rejected nofollow |
 | PeerPush | 2026-08-19 | **queued** | — | free queue, ~34 days, est. **2026-09-22**. Paid skip was $39; declined, since the paid delta is speed + videos + analytics, not the link. Their own modal says "Every plan includes: Permanent listing link." |
 | Product Hunt | — | — | — | the only one in this row with a real audience; needs launch prep |
-| Bob's Tech Review | — | — | — | quick submit, same fills |
+| Bob's Tech Review | **skipped** | — | — | Run by the NerdSip founder. Unlike every other row here, this is a *review someone else writes*, not a listing we control — and that someone sells the closest competing product. Bad trade for the smallest badge in the set. Same call as the standing "do not send the inclusion ask to NerdSip" note in §3. |
 
 **When PeerPush goes live (~22 Sept):** grab the badge embed, add it as a
 fourth `<li>` in the `.featured` strip in `index.html`, nofollowed first, then
@@ -95,9 +95,9 @@ the defense.
 **And the row still has a ceiling.** One or two dofollow reciprocal links is
 unremarkable; plenty of legitimate sites carry badges. A footer full of them,
 all pointing into the same small directory network, is a different picture and
-starts to resemble the pattern the policy describes. **Cap the strip at five,
-and prefer badges from places with an actual audience** (Product Hunt) over
-pure directories.
+starts to resemble the pattern the policy describes. **Cap the strip at four** — Wired Business, Startup Fame, PeerPush, Product
+Hunt — **and prefer badges from places with an actual audience** (Product
+Hunt) over pure directories.
 
 **Also required, and easy to miss:** the badge must be *visible to a
 non-scrolling bot*. Ours initially carried the site's `.reveal` class
