@@ -2148,7 +2148,11 @@ document.querySelectorAll('.askai-chip').forEach(function(a){
      badges in as <li> items; the row holds five before it wraps. Keep
      rel="nofollow noopener" on every one — these are reciprocal
      badge-for-listing links. -->
-<div class="featured reveal">
+<!-- No .reveal here, and no loading="lazy" on the badges below. Directory
+     verification bots load the page without scrolling: .reveal holds the strip
+     at opacity:0 until IntersectionObserver fires, and lazy images never get
+     fetched. Both made the badges invisible to Startup Fame's checker. -->
+<div class="featured">
   <div class="wrap">
     <!-- Re-add once there are 3+ badges; with one that self-labels
          "Featured on", a section label just says it twice.
@@ -2157,13 +2161,13 @@ document.querySelectorAll('.askai-chip').forEach(function(a){
       <li>
         <a href="https://wired.business" target="_blank" rel="nofollow noopener">
           <img src="https://wired.business/badge0-dark.svg" alt="Featured on Wired Business"
-               width="200" height="54" loading="lazy" decoding="async">
+               width="200" height="54" decoding="async">
         </a>
       </li>
       <li>
         <a href="https://startupfa.me/s/iro-ai?utm_source=tryiro.com" target="_blank" rel="nofollow noopener">
           <img src="https://startupfa.me/badges/featured/dark.webp" alt="Iro AI featured on Startup Fame"
-               width="171" height="54" loading="lazy" decoding="async">
+               width="171" height="54" decoding="async">
         </a>
       </li>
     </ul>
