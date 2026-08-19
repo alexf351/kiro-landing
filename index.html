@@ -810,6 +810,16 @@ nav .wrap{display:flex;align-items:center;justify-content:space-between}
 .review-mini.hl p{color:var(--ink)}
 .review-mini p{font-size:13px;font-weight:500;line-height:1.5;color:var(--ink-2);text-wrap:pretty}
 .rm-src{font-family:'JetBrains Mono',monospace;font-size:9.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-3);margin-top:auto;padding-top:4px}
+
+/* Third-party listing badges. Normalised to one height so a row of mismatched
+   external SVGs still reads as a set. */
+.featured{max-width:1080px;margin:36px auto 0;display:flex;flex-direction:column;align-items:center;gap:14px}
+.featured-lab{font-family:'JetBrains Mono',monospace;font-size:9.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-3)}
+.featured-row{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:12px}
+.featured-row a{display:block;border-radius:8px;opacity:.78;transition:opacity .3s var(--ease)}
+.featured-row a:hover,.featured-row a:focus-visible{opacity:1}
+.featured-row img{display:block;height:44px;width:auto;max-width:100%}
+@media(prefers-reduced-motion:reduce){.featured-row a{transition:none}}
 @media(max-width:880px){
   .proof-grid{grid-template-columns:1fr;gap:22px}
   .rating-hero{margin-top:22px;padding-top:20px}
@@ -1887,6 +1897,24 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
         <span class="rm-src">Jmf275 · App Store</span>
       </article>
     </div>
+
+    <!-- Third-party listings. Drop new badges in as <li> items; the row is
+         built to hold five before it wraps. Keep rel="nofollow noopener" on
+         every one: these are reciprocal badge-for-listing links. -->
+    <div class="featured reveal" data-d="2">
+      <!-- Re-add once there are 3+ badges; with one that self-labels
+           "Featured on", a section label just says it twice.
+           <span class="featured-lab">Featured on</span> -->
+      <ul class="featured-row">
+        <li>
+          <a href="https://wired.business" target="_blank" rel="nofollow noopener">
+            <img src="https://wired.business/badge0-dark.svg" alt="Featured on Wired Business"
+                 width="200" height="54" loading="lazy" decoding="async">
+          </a>
+        </li>
+      </ul>
+    </div>
+
     <div class="rankcta reveal" id="rank-quiz" data-d="1">
       <div class="rankcta-copy">
         <span class="rankcta-kicker"><i></i>Rank assessment · Free · ~2 min</span>
