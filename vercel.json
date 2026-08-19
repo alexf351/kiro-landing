@@ -596,6 +596,10 @@
       "destination": "/about.html"
     },
     {
+      "source": "/ai-info",
+      "destination": "/ai-info.html"
+    },
+    {
       "source": "/quiz",
       "destination": "/quiz.html"
     },
