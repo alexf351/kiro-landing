@@ -73,8 +73,24 @@ equity exactly where it is enforced and nowhere else. Doing it the other way
 round — dofollow by default — hands away equity to directories that would
 never have asked.
 
-Current state: Wired Business nofollow (verified), Startup Fame dofollow
-(required).
+### Badge row status
+
+| Directory | Submitted | Live | Badge rel | Notes |
+| --- | --- | --- | --- | --- |
+| Wired Business | 2026-08-19 | yes | `nofollow` | verified with nofollow intact |
+| Startup Fame | 2026-08-19 | yes | `noopener` only | verifier rejected nofollow |
+| PeerPush | 2026-08-19 | **queued** | — | free queue, ~34 days, est. **2026-09-22**. Paid skip was $39; declined, since the paid delta is speed + videos + analytics, not the link. Their own modal says "Every plan includes: Permanent listing link." |
+| Product Hunt | — | — | — | the only one in this row with a real audience; needs launch prep |
+| Bob's Tech Review | — | — | — | quick submit, same fills |
+
+**When PeerPush goes live (~22 Sept):** grab the badge embed, add it as a
+fourth `<li>` in the `.featured` strip in `index.html`, nofollowed first, then
+verify. No `.reveal`, no `loading="lazy"`.
+
+Costs declined so far: $29 (Wired Business Pro), $39 (PeerPush Standard), plus
+a 40%-off exit-intent modal on the latter. Every directory in this category
+runs the same upsell; the free tier exists to create the moment. The pattern is
+the defense.
 
 **And the row still has a ceiling.** One or two dofollow reciprocal links is
 unremarkable; plenty of legitimate sites carry badges. A footer full of them,
