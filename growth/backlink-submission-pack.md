@@ -63,17 +63,25 @@ Ruled out before landing on that, so the conclusion is sound: the href was
 present in the live page (fetched via Vercel), the document parses with zero
 unclosed tags, there is no redirect on the apex, and `/` sends `no-cache`.
 
-Two things follow.
+**But it is not a category rule.** Same day, **Wired Business verified with
+`rel="nofollow"` still on its badge.** Two directories, two different
+enforcement levels. So:
 
-1. **The link is the price, and it is enforced unqualified.** These directories
-   are selling link equity; a verifier that accepts a nofollowed badge would
-   have nothing to sell. Assume every badge in the row must be dofollow.
-2. **So the row has a ceiling.** Two dofollow reciprocal links is unremarkable
-   — plenty of legitimate sites carry badges. A footer full of them, all
-   pointing into the same small directory network, is a different picture and
-   starts to look like the pattern the policy describes. **Cap the strip at
-   five, and prefer badges from places with an actual audience** (Product Hunt)
-   over pure directories.
+**The operating rule: ship every new badge nofollowed, hit Verify, and remove
+`nofollow` only if that specific verifier rejects it.** You then pay link
+equity exactly where it is enforced and nowhere else. Doing it the other way
+round — dofollow by default — hands away equity to directories that would
+never have asked.
+
+Current state: Wired Business nofollow (verified), Startup Fame dofollow
+(required).
+
+**And the row still has a ceiling.** One or two dofollow reciprocal links is
+unremarkable; plenty of legitimate sites carry badges. A footer full of them,
+all pointing into the same small directory network, is a different picture and
+starts to resemble the pattern the policy describes. **Cap the strip at five,
+and prefer badges from places with an actual audience** (Product Hunt) over
+pure directories.
 
 **Also required, and easy to miss:** the badge must be *visible to a
 non-scrolling bot*. Ours initially carried the site's `.reveal` class
