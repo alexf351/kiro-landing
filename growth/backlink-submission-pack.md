@@ -48,6 +48,42 @@ proxy blocked most directory hosts that session.)
 
 ---
 
+## 0b. Badge directories — what verification actually requires
+
+**Measured 2026-08-19, on Startup Fame.** Worth reading before you collect any
+more badges, because it settles a question I got wrong.
+
+I originally shipped the badges with `rel="nofollow"`, on the reasoning that a
+badge-for-listing swap is the arrangement Google's link spam policy asks to be
+qualified. **Startup Fame's verifier rejects a nofollowed badge.** It failed
+repeatedly with "please add a link to https://startupfa.me" while the link was
+demonstrably in the served HTML. Removing `nofollow` passed immediately.
+
+Ruled out before landing on that, so the conclusion is sound: the href was
+present in the live page (fetched via Vercel), the document parses with zero
+unclosed tags, there is no redirect on the apex, and `/` sends `no-cache`.
+
+Two things follow.
+
+1. **The link is the price, and it is enforced unqualified.** These directories
+   are selling link equity; a verifier that accepts a nofollowed badge would
+   have nothing to sell. Assume every badge in the row must be dofollow.
+2. **So the row has a ceiling.** Two dofollow reciprocal links is unremarkable
+   — plenty of legitimate sites carry badges. A footer full of them, all
+   pointing into the same small directory network, is a different picture and
+   starts to look like the pattern the policy describes. **Cap the strip at
+   five, and prefer badges from places with an actual audience** (Product Hunt)
+   over pure directories.
+
+**Also required, and easy to miss:** the badge must be *visible to a
+non-scrolling bot*. Ours initially carried the site's `.reveal` class
+(`opacity:0` until IntersectionObserver fires) and `loading="lazy"`, so a bot
+that loads without scrolling saw a transparent element wrapping images that
+were never requested. Both are removed and there is a comment in `index.html`
+saying so. **Never put `.reveal` or lazy-loading on a badge.**
+
+---
+
 ## 1. TIER 1 — do this week (highest link + traffic value)
 
 Check each off. Most give a real do- or nofollow link + referral traffic +
