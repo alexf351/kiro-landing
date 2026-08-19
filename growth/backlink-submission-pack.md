@@ -235,3 +235,66 @@ SEO + links compound over **months**, not weeks. The pages you shipped will
 start ranking in 2–8 weeks; backlinks accelerate it. Keep other channels
 (TikTok, App Store, paid) alive in parallel — don't bet the company on SEO
 landing this month. But keep at this list and it *will* pay off.
+
+---
+
+## 7. Review velocity (from the Tally teardown, 2026-08-19)
+
+Tally reached 4.8 on G2 and 4.9 on Product Hunt by **asking**: through their
+newsletter and after support interactions. We have 4.7 on the App Store and
+nothing anywhere else, and `competitor-intel.md` §3 lists *"no verified
+third-party proof of any kind"* as a place Iro loses. This is the cheapest fix
+for that.
+
+**Where to collect, in priority order.**
+
+1. **Product Hunt** — reviews accrue on the profile whether or not you have
+   launched, and they persist. Do this alongside the launch, not after.
+2. **App Store** — you already have 4.7. The lever is *volume*, not score;
+   a 4.7 from 40 ratings reads very differently from a 4.7 from 400.
+3. **AlternativeTo / SaaSHub** — reviews there double as the listings Tier 1
+   already asks for, and both are heavily scraped by answer engines.
+4. **G2** — only worth it if you ever push a team/business tier. It is a B2B
+   surface and the profile setup is not free of effort.
+
+**When to ask.** Not randomly, and never on first open. The moments where
+someone has just experienced the product working:
+
+- immediately after a rank-up or a completed path
+- after a duel win
+- after a support conversation that resolved well
+- in the newsletter, to people with a streak over ~14 days
+
+**What to ask for.** One tap to the store sheet, no interstitial of your own
+first. Asking "enjoying Iro?" and routing unhappy answers to a feedback form
+instead of the store is against App Store guidelines — use Apple's native
+`SKStoreReviewController` and let it handle throttling.
+
+**Why this is GEO work, not just vanity.** Review text is third-party writing
+about Iro on domains engines already crawl. Per the Tally thread: *ChatGPT
+recommends Tally because the internet does.* Reviews are the cheapest way to
+put sentences about Iro on the internet that we did not write ourselves.
+
+---
+
+## 8. Open defect — the rank ladder contradicts itself
+
+Found 2026-08-19 while writing `/ai-info`. **Needs Alex to answer before it
+can be fixed**, because the site does not contain the answer.
+
+| Surface | What it says |
+| --- | --- |
+| 5 places across the site | "six ranks" |
+| `index.html` rank widget | Bronze, Silver, Gold, Platinum, Diamond — **five**, and these are the *quiz result* tiers |
+| `index.html` (one mention) | **Titan** |
+| `llms-full.txt` (two mentions) | **Iridescent** |
+| `CLAUDE.md` | mascot art for six tiers, top one named *iridescent* |
+
+The quiz tiers (Bronze→Diamond) are a separate system from the app's rank
+ladder, so that part is not a conflict. The live conflict is the **sixth and
+top rank: Titan or Iridescent?** Two published files disagree, and this is
+exactly the class of string answer engines quote back verbatim.
+
+`/ai-info` deliberately says "six ranks" without naming the top one. Once Alex
+confirms, fix `index.html`, `llms-full.txt`, `CLAUDE.md` and `/ai-info`
+together.
