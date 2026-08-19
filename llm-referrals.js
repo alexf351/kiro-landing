@@ -42,7 +42,22 @@
   try { utm = new URLSearchParams(location.search).get('utm_source') || ''; } catch (e) {}
 
   // utm_source can carry an explicit AI tag even when the referrer is blank
-  var source = classify(ref) || classify(utm);
+  // utm_source normally carries a bare token ("chatgpt"), not a hostname, so
+  // the referrer regexes above never matched it. Match tokens separately.
+  var TOKENS = {
+    chatgpt: 'chatgpt', openai: 'chatgpt', gpt: 'chatgpt',
+    perplexity: 'perplexity', claude: 'claude', anthropic: 'claude',
+    gemini: 'gemini', bard: 'gemini', copilot: 'copilot', bingchat: 'copilot',
+    grok: 'grok', xai: 'grok', poe: 'poe', phind: 'phind', kagi: 'kagi',
+    mistral: 'mistral', metaai: 'meta-ai', you: 'you'
+  };
+  function classifyToken(str) {
+    if (!str) return null;
+    var k = String(str).toLowerCase().replace(/[^a-z]/g, '');
+    return TOKENS[k] || null;
+  }
+
+  var source = classify(ref) || classify(utm) || classifyToken(utm);
 
   // first-touch persistence
   var KEY = 'iro_ai_source';

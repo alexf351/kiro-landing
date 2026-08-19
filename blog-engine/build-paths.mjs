@@ -203,7 +203,7 @@ function head({ title, description, canonical, ogImage, keywords, prev, next, js
     '\n<link rel="stylesheet" href="/iro.css"/>\n' +
     `<meta name="apple-itunes-app" content="app-id=${APPID}"/>\n` +
     POSTHOG +
-    '\n<script src="/llm-referrals.js"></script>\n</head>\n'
+    '\n<script src="/llm-referrals.js"></script><script src="/prompt-capture.js" defer></script>\n</head>\n'
   );
 }
 
