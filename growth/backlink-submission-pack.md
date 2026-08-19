@@ -277,24 +277,30 @@ put sentences about Iro on the internet that we did not write ourselves.
 
 ---
 
-## 8. Open defect — the rank ladder contradicts itself
+## 8. Resolved — the rank ladder contradiction
 
-Found 2026-08-19 while writing `/ai-info`. **Needs Alex to answer before it
-can be fixed**, because the site does not contain the answer.
+Traced 2026-08-19. **Iridescent is correct; "Titan" is a leftover in one widget.**
 
-| Surface | What it says |
+| Surface | Sixth rank |
 | --- | --- |
-| 5 places across the site | "six ranks" |
-| `index.html` rank widget | Bronze, Silver, Gold, Platinum, Diamond — **five**, and these are the *quiz result* tiers |
-| `index.html` (one mention) | **Titan** |
-| `llms-full.txt` (two mentions) | **Iridescent** |
-| `CLAUDE.md` | mascot art for six tiers, top one named *iridescent* |
+| `index.html` Operator Build widget (~line 2232) | **Titan** — and it loads `assets/iridescent-kiro.webp` as that tier's mascot |
+| `faq.html` FAQ schema | Iridescent |
+| `blog/apps-like-duolingo-for-ai.html` | "six ranks from Bronze to Iridescent" |
+| `glossary.html`, `llms-full.txt`, `iro.json`, `llms/*.md` | Iridescent |
+| mascot art in `assets/` | `iridescent-kiro.webp` |
 
-The quiz tiers (Bronze→Diamond) are a separate system from the app's rank
-ladder, so that part is not a conflict. The live conflict is the **sixth and
-top rank: Titan or Iridescent?** Two published files disagree, and this is
-exactly the class of string answer engines quote back verbatim.
+The widget contradicts itself inside a single object: the tier is labelled
+Titan and rendered with the Iridescent mascot. Every other surface, and the
+image file the widget itself loads, says Iridescent.
 
-`/ai-info` deliberately says "six ranks" without naming the top one. Once Alex
-confirms, fix `index.html`, `llms-full.txt`, `CLAUDE.md` and `/ai-info`
-together.
+The Bronze→Diamond ladder that also appears across the site is the **quiz
+result** tiers, a separate five-tier system. Not a conflict.
+
+**Also noted:** `tierForScore()` in the same widget has a seventh floor tier,
+`wood`, below bronze, which is not in `RANKS` and is not named anywhere else
+on the site. Harmless today (nothing renders it) but worth knowing it exists.
+
+**My error, corrected.** `competitor-intel.md` asserted the reverse — "top
+rank is **Titan**" and listed "Bronze to Iridescent" as a *stale string to
+fix*. That has been sitting in the brief as a recommendation since the
+overnight pass and is now corrected in three places.
