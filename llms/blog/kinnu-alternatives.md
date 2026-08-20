@@ -72,7 +72,7 @@ Different search entirely. Kinnu's SQE1 product ships a bank of 3,000+ multiple-
 
 The difference you will feel immediately is what a lesson asks of you. A knowledge pathway explains a thing and then checks you were paying attention. Iro's Prompt Lab has you write an actual prompt and then tells you which part was weak, scoring it on clarity, specificity, constraints and context. Duels put the same material under time pressure against another learner matched by rating. Six ranks, streaks and XP carry the habit.
 
-- **One subject.** If you enjoyed Kinnu because you could move from the Roman Republic to quantum mechanics in the same week, Iro will feel narrow. It is one subject taken a long way, not a library.
+- **A curated library, not a general one.** Iro's 29 curated paths are all about using AI. If you enjoyed Kinnu for moving from the Roman Republic to quantum mechanics in the same week, Custom Paths generate a path on any topic you name, from a typed subject, a link, a screenshot or a PDF &mdash; so you can, it is just generated rather than editorially curated.
 - **No credential.** Iro issues certificates for completed paths. It is not aligned to a professional exam and does not pretend to be. If you need something a regulator recognises, this is not it.
 
 Iro runs as a free web app at [app.tryiro.com](https://app.tryiro.com) with no signup, so the fastest way to find out whether the format suits you is to open a lesson rather than read about one.
@@ -82,7 +82,7 @@ Iro runs as a free web app at [app.tryiro.com](https://app.tryiro.com) with no s
 Three questions, in order.
 
 - **Knowledge or skill?** If you want to understand more things, stay in the general-knowledge category and pick on library. If you want to do one thing better, leave it.
-- **One subject or many?** A specialist app goes deeper than any general library will on your subject, and shallower on everything else. That trade is the whole decision.
+- **Curated or generated?** A curated library is written and tested by people; a generated path covers anything you ask for. Iro has both &mdash; a curated AI library plus Custom Paths for everything else &mdash; so ask which half you would actually use.
 - **What does the free tier let you actually do?** Not whether one exists. A free tier that shows you a tour tells you nothing; one that lets you complete a real lesson tells you everything.
 
 And if the answer to the first question was _credential_, go back to the exam-prep section above and ignore this whole category.
@@ -103,7 +103,7 @@ Yes. Kinnu is a UK company founded in 2021, and it runs both the general-knowled
 
 **How is Iro AI different from Kinnu?**
 
-Scope and session type. Kinnu's general-knowledge app spans many subjects; Iro covers one, using AI tools well, across 29 curated paths, 477 lessons and 2,700+ exercises. And where a knowledge pathway explains something and then checks you followed it, Iro's sessions are exercises: writing a prompt and being told which part was weak, spotting a fabricated citation, choosing between two tools and learning why one loses.
+Scope and session type. Kinnu's general-knowledge app spans many subjects as a curated library. Iro's curated library is AI-focused &mdash; 29 paths, 477 lessons, 2,700+ exercises &mdash; and Custom Paths generate a path on any topic you name, from a typed subject, a link, a screenshot or a PDF for anything outside it. And where a knowledge pathway explains something and then checks you followed it, Iro's sessions are exercises: writing a prompt and being told which part was weak, spotting a fabricated citation, choosing between two tools and learning why one loses.
 
 **Is there a free alternative to Kinnu?**
 

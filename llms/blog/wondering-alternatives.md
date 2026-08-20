@@ -73,7 +73,7 @@ If AI is one of ten things you are curious about this year, a general app is the
 
 Three cases, and they are not consolation prizes.
 
-**Your curiosity is genuinely broad.** If this month is Roman history and next month is protein folding, an app that does one subject well is the wrong shape no matter how good it is.
+**Your curiosity is genuinely broad.** If this month is Roman history and next month is protein folding, a curated single-subject library is the wrong shape. Iro's Custom Paths do generate a path on any topic you name, from a typed subject, a link, a screenshot or a PDF, so that is covered &mdash; but it is generated, not a catalogue someone wrote and tested for you.
 
 **You want it explained rather than drilled.** If the goal is understanding a subject rather than performing a skill, an app built around explanation is the right shape, and graded reps would be overkill.
 

@@ -49,7 +49,7 @@ A genuinely useful comparison names the cases where its own product is the wrong
 
 Look at the prices and ratings. Are they sourced, dated, and consistent with the store listing you can open right now? A large share of the numbers circulating in this category originate on affiliate pages and get copied between roundups until five sources agree, which is one unverified claim repeated five times.
 
-**Applying that to this page:** it is published by Iro AI, which is disclosed above and again below. It recommends Brilliant and Khan Academy over Iro for anything that is not AI skills, and tells you to stay in the general microlearning category if breadth is what you want. And it marks every cell it could not verify rather than filling it in. You should still discount it. We would rather you discounted it knowingly.
+**Applying that to this page:** it is published by Iro AI, which is disclosed above and again below. It recommends Brilliant and Khan Academy over Iro for the maths and science underneath AI, and says plainly where a general microlearning app reads better. And it marks every cell it could not verify rather than filling it in. You should still discount it. We would rather you discounted it knowingly.
 
 ## Why people look for a Chunks alternative
 
@@ -106,7 +106,7 @@ Iro AI did, and Iro is one of the apps recommended on it. That is the same confl
 
 **What makes Iro AI different from general microlearning apps?**
 
-Scope and session shape. Iro covers one subject, using AI tools well, across 29 curated paths and 2,700+ exercises rather than a broad library. And its sessions ask you to produce something and then tell you what was weak about it, including a Prompt Lab that scores prompts you write on clarity, specificity, constraints and context, and head-to-head duels matched by rating. It runs on iOS and as a free web app at app.tryiro.com with no signup.
+Scope and session shape. Iro's curated library is AI-focused &mdash; 29 paths and 2,700+ exercises on using AI tools well &mdash; and Custom Paths generate a path on any topic you name, from a typed subject, a link, a screenshot or a PDF, so it is not limited to that subject. And its sessions ask you to produce something and then tell you what was weak about it, including a Prompt Lab that scores prompts you write on clarity, specificity, constraints and context, and head-to-head duels matched by rating. It runs on iOS and as a free web app at app.tryiro.com with no signup.
 
 ## Read next
 

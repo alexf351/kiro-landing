@@ -80,7 +80,7 @@ On check two, it is curated: 29 paths, 477 lessons and 2,700+ exercises across 2
 
 On check three, every path is open from the start and paced by a Battery that gives you a lesson a day and recharges overnight, so the free tier is a real lesson rather than a preview. On check four, the Battery is the answer: missing a day costs you a day, not a number you were emotionally attached to.
 
-- **You want breadth.** One subject, taken a long way. If you want to learn about wine one week and Roman history the next, a general microlearning app is the better product and it is not close.
+- **You want a curated library across many subjects.** Iro's curated paths are all about AI. Wine one week and Roman history the next is possible &mdash; Custom Paths generate a path on any topic you name, from a typed subject, a link, a screenshot or a PDF &mdash; but those are generated, and a general microlearning app's editorially written catalogue is a different thing.
 - **You are on Android.** Iro is iOS plus a free web app with no signup. Android is in development with a waitlist on the home page. If you want a native Android app today, that decides it.
 
 The web app at [app.tryiro.com](https://app.tryiro.com) is the fastest way to run check one yourself: open a lesson and see whether it makes you produce anything.
@@ -105,7 +105,7 @@ Not worse, different. Generated content is unbeatable for breadth: you can get a
 
 **Is Iro AI a microlearning app?**
 
-Yes, in format: five-minute daily sessions, streaks, XP and six ranks. In scope it is narrower than most, covering one subject, using AI tools well, across 29 curated paths and 2,700+ exercises. That narrowness is the point. It also runs as a free web app at app.tryiro.com with no signup, so you can judge the format in about two minutes.
+Yes, in format: five-minute daily sessions, streaks, XP and six ranks. Its curated library is narrower than most, covering using AI tools well across 29 paths and 2,700+ exercises, while Custom Paths generate a path on any topic you name, from a typed subject, a link, a screenshot or a PDF. That narrowness is the point. It also runs as a free web app at app.tryiro.com with no signup, so you can judge the format in about two minutes.
 
 ## Read next
 

@@ -72,13 +72,13 @@ We publish what we could verify from a company's own listing and mark the rest a
 
 ## Where Iro AI fits, and where it does not
 
-**Iro is the practice half of the pair, for one subject.** Same five-minute daily commitment, and it is not short of visual explanation, but the session does not end at the explanation. It ends with something you produced.
+**Iro is the practice half of the pair.** Same five-minute daily commitment, and it is not short of visual explanation, but the session does not end at the explanation. It ends with something you produced.
 
 The Prompt Lab has you write a real prompt and then scores it on clarity, specificity, constraints and context, telling you which part was weak. Other exercise types have you find the fabricated citation inside an answer that reads perfectly, repair a prompt that is nearly right, or choose between two tools and learn why the other one loses. Duels run the same material under time pressure against another learner matched by rating. That is retrieval and feedback, which is the mechanism the illustrated format is missing.
 
 The scope is 29 curated paths, 477 lessons and 2,700+ exercises across 24 exercise types, covering ChatGPT, Claude, Gemini, Perplexity, prompt engineering, agents and automation. Streaks, XP and six ranks carry the habit; the Battery paces new lessons at one a day and recharges overnight.
 
-- **Breadth of ideas.** An explainer library spans psychology, business, science and history. Iro covers one subject. If you want to keep meeting new ideas, that is a better product and we are not competing for it.
+- **Illustrated explanation as a craft.** A visual explainer library is drawn and written by people, and that is a real skill. Iro's curated library is AI-focused and Custom Paths generate a path on any topic you name, from a typed subject, a link, a screenshot or a PDF, so breadth exists &mdash; but a generated path will not be illustrated the way a made explainer is.
 - **Low effort on a bad day.** Reading a beautiful lesson when you are tired is achievable. Practising is not, always. There is a real argument for the format that asks less of you on the days you have nothing.
 
 You can test the difference in two minutes at [app.tryiro.com](https://app.tryiro.com), which is free and needs no signup: do one exercise and notice how different it feels from finishing a lesson you only read.
@@ -99,7 +99,7 @@ It works very well for understanding an idea quickly and less well for being abl
 
 **How is Iro AI different from Imprint?**
 
-Iro covers one subject, using AI tools well, and its sessions end with something you produced rather than something you read. The Prompt Lab grades a prompt you write on clarity, specificity, constraints and context; other exercises have you catch fabricated citations, repair weak prompts, or choose between tools. There are 29 curated paths, 477 lessons and 2,700+ exercises across 24 exercise types. If you want breadth across many subjects, an explainer library is the better fit.
+Iro's curated library is about using AI tools well, and its sessions end with something you produced rather than something you read. Custom Paths generate a path on any topic you name, from a typed subject, a link, a screenshot or a PDF, so it is not restricted to AI. The Prompt Lab grades a prompt you write on clarity, specificity, constraints and context; other exercises have you catch fabricated citations, repair weak prompts, or choose between tools. There are 29 curated paths, 477 lessons and 2,700+ exercises across 24 exercise types. If you want breadth across many subjects, an explainer library is the better fit.
 
 **Is there a free alternative to Imprint?**
 

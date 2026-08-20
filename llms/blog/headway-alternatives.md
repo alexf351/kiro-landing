@@ -66,7 +66,7 @@ Grouped by job. The first row is a like-for-like swap; the rest are different pr
 
 It is a curriculum rather than a library: 29 paths across ChatGPT, Claude, Gemini, Perplexity, prompt engineering, agents and automation, 2,700+ exercises across 24 exercise types, with streaks and six ranks doing the same habit work that keeps people opening a summary app.
 
-- **Breadth.** Thousands of titles across every subject against one subject covered properly. If you want to graze, summaries win outright.
+- **Editorially produced range.** Thousands of professionally summarised titles against a curated AI library. Iro is not limited to AI &mdash; Custom Paths generate a path on any topic you name, from a typed subject, a link, a screenshot or a PDF &mdash; but a generated path is not the same as a book condensed by an editor.
 - **Hands-free.** Audio works while you drive or cook. Practice needs your hands and your attention. If that is the only slot you have, that is a genuine argument for staying.
 
 Iro also runs as a free web app at [app.tryiro.com](https://app.tryiro.com) with no signup, which is the quickest way to find out whether the format fits.
@@ -99,7 +99,7 @@ Because a summary transfers an argument, and arguments do not become habits by t
 
 **Is Iro AI like Headway?**
 
-Only in session length. Both ask about five minutes a day. Headway gives you a compressed book; Iro gives you an exercise with instant feedback, across 29 curated paths about using AI tools. If your goal is broad reading across many subjects, Headway is the better fit and Iro is not trying to compete for that.
+Only in session length. Both ask about five minutes a day. Headway gives you a compressed book; Iro gives you an exercise with instant feedback, across 29 curated paths about using AI tools. If your goal is broad reading through professionally condensed books, Headway is the better fit. Iro is not confined to AI &mdash; Custom Paths generate a path on any topic you name, from a typed subject, a link, a screenshot or a PDF &mdash; but it is a practice product, not a reading library.
 
 ## Read next
 

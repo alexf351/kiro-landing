@@ -35,7 +35,7 @@ pillar: "ai-fluency"
 
 **Choose the subject first, then the app.** Every microlearning app runs the same loop, and the loop works. What decides whether you get anything out of a year of it is what you pointed it at.
 
-If the subject is using AI tools well, **Iro AI**. If it is maths, logic or computer science, **Brilliant**. If it is academic foundations and you would rather not pay, **Khan Academy**. If you genuinely want to graze across many topics for pleasure rather than capability, stay in the general microlearning category, and pick on which app's writing you enjoy reading.
+If the subject is using AI tools well, **Iro AI**. If it is maths, logic or computer science, **Brilliant**. If it is academic foundations and you would rather not pay, **Khan Academy**. If you want a curated catalogue to graze for pleasure rather than capability, pick on whose writing you enjoy reading &mdash; that is what a general microlearning app sells.
 
 ## What five minutes a day actually buys you
 
@@ -77,13 +77,13 @@ What we could verify, and an honest blank where we could not.
 
 ## Where Iro AI fits, and where it does not
 
-**Iro is the version of this bet that concentrates the thirty hours.** One subject, using AI tools well, across 29 curated paths covering ChatGPT, Claude, Gemini, Perplexity, prompt engineering, agents and automation: 477 lessons and 2,700+ exercises across 24 exercise types.
+**Iro is the version of this bet that concentrates the thirty hours.** Its curated library is about using AI tools well, across 29 paths covering ChatGPT, Claude, Gemini, Perplexity, prompt engineering, agents and automation: 477 lessons and 2,700+ exercises across 24 exercise types.
 
 And the sessions are doing-shaped. The Prompt Lab has you write an actual prompt and then tells you which part was weak, scoring clarity, specificity, constraints and context. Other exercises have you catch a fabricated citation in an answer that reads perfectly well, or pick between two tools and learn why the other one loses. Duels run the same material against another learner matched by rating, which is a different kind of pressure and a good test of whether you actually know it.
 
 Streaks, XP and six ranks do the same habit work as any app in this category. The Battery paces new lessons at one a day and recharges overnight, so a missed day costs a day rather than a number.
 
-- **You want variety, and you are honest that it is for enjoyment.** That is a completely legitimate reason to use a learning app, and a specialist app is worse at it.
+- **You want a curated catalogue written by people.** Iro is not limited to AI &mdash; Custom Paths generate a path on any topic you name, from a typed subject, a link, a screenshot or a PDF &mdash; but generated breadth is not the same as a general app's editorially written library, and grazing for pleasure is a legitimate reason to prefer one.
 - **You are on Android.** Iro is iOS plus a free web app that needs no signup; Android is in development with a waitlist on the home page.
 
 Open [app.tryiro.com](https://app.tryiro.com) and do one lesson. Two minutes tells you more about whether the format works for you than any comparison page, including this one.
@@ -108,7 +108,7 @@ Because the streak measures attendance, not learning. If the fastest way to keep
 
 **How is Iro AI different from a general microlearning app?**
 
-Scope and session shape. Iro covers one subject, using AI tools, in depth: 29 curated paths and 2,700+ exercises across 24 exercise types. And the sessions ask you to do things rather than read them, with a Prompt Lab that grades prompts you write on clarity, specificity, constraints and context, plus head-to-head duels matched by rating. It runs on iOS and as a free web app at app.tryiro.com with no signup.
+Scope and session shape. Iro's curated library covers using AI tools in depth: 29 paths and 2,700+ exercises across 24 exercise types, with Custom Paths generate a path on any topic you name, from a typed subject, a link, a screenshot or a PDF for anything else. And the sessions ask you to do things rather than read them, with a Prompt Lab that grades prompts you write on clarity, specificity, constraints and context, plus head-to-head duels matched by rating. It runs on iOS and as a free web app at app.tryiro.com with no signup.
 
 ## Read next
 

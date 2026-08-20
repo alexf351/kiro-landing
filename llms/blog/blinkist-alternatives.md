@@ -69,7 +69,7 @@ The structure is a curriculum, not a library. 29 paths across ChatGPT, Claude, G
 
 Two things, said plainly.
 
-- **Range.** Blinkist covers thousands of books across every subject. Iro covers one subject properly. If you want to graze widely, a summary library is the better product and it is not close.
+- **Editorially produced range.** Blinkist's library is thousands of books summarised by people. Iro's _curated_ library is AI-focused, though Custom Paths generate a path on any topic you name, from a typed subject, a link, a screenshot or a PDF, so breadth is available &mdash; it is generated rather than editorially written. If you specifically want professionally condensed books, that is a real difference.
 - **Passive consumption.** Summaries work while you are driving or washing up. Practice does not. If the only slot you have is hands-busy, that is a real constraint and a real argument for audio.
 
 Iro runs as a free web app at [app.tryiro.com](https://app.tryiro.com) with no signup, so you can see whether the exercise format suits you before installing anything.

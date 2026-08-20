@@ -80,7 +80,7 @@ Iro also runs as a free web app at [app.tryiro.com](https://app.tryiro.com) with
 
 Three questions settle it.
 
-- **One subject or many?** Many, and you want generation: NerdSip. One, and you want it done properly: whichever app specialises in it.
+- **Curated or generated?** Both apps generate &mdash; NerdSip on any topic you type, Iro through Custom Paths from a topic, link, screenshot or PDF. The difference is what sits alongside it: Iro adds a curated, tested AI curriculum; NerdSip adds a public library of courses other people generated.
 - **Read or practise?** If you learn by reading and checking, generated courses work well. If you only retain things you have done, look for an app where the exercise is the lesson.
 - **What does the free tier let you actually do?** Not whether one exists. NerdSip gives you a course a day but no generations. Iro opens every path but paces new lessons with a Battery. Khan Academy gives you everything. Those are three different meanings of free.
 
@@ -98,7 +98,7 @@ There is a free tier, and it is unusually generous as a demo: one complete sampl
 
 **How is Iro AI different from NerdSip?**
 
-Breadth versus depth. NerdSip generates a course on anything you type. Iro is one subject, using AI, taken further: 29 curated paths, 477 lessons and 2,700+ hands-on exercises, plus a Prompt Lab that grades prompts you write and head-to-head duels matched by rating. Iro also has Custom Paths for generating a path on a topic you name, so the generated format exists, it just sits alongside the curriculum rather than replacing it.
+Breadth versus depth. NerdSip generates a course on anything you type. Iro's curated library goes deeper on one subject: 29 paths, 477 lessons and 2,700+ hands-on exercises on using AI, plus a Prompt Lab that grades prompts you write and head-to-head duels matched by rating. It generates too, via Custom Paths. Iro also has Custom Paths for generating a path on a topic you name, so the generated format exists, it just sits alongside the curriculum rather than replacing it.
 
 **Does NerdSip have an Android app?**
 
