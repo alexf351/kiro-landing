@@ -87,7 +87,7 @@ Ask anyone who interviews for AI-adjacent roles what they check, and you get var
 
 **Fluency in the tools your team actually uses.** Not a survey of forty products. Deep, current, practical use of two or three.
 
-All three come from doing the work repeatedly, which is why we built **Iro AI** around practice rather than lectures. You write real prompts and get them graded, learn to spot AI mistakes, and build the habit with short daily sessions. It is free to start, Pro is $49.99 a year, and yes, you get a shareable certificate for each path you finish. That certificate is a nice artifact. The reps are the point.
+All three come from doing the work repeatedly, which is why we built **Iro AI** around practice rather than lectures. You write real prompts and get them graded, learn to spot AI mistakes, and build the habit with short daily sessions. It is free to start, Pro is $49.99 a year, and yes, you earn a certificate with its own credential ID for each path you finish — free to earn, and claimed with your name on Pro if you want to share it. That certificate is a nice artifact. The reps are the point.
 
 ## How to decide in two minutes
 

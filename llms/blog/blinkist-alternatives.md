@@ -53,7 +53,7 @@ Grouped by the job rather than by category, because the category is what people 
 | App | Best for | What you get | Free tier | Platforms |
 | --- | --- | --- | --- | --- |
 | Headway | The same job as Blinkist | Book summaries in text and audio | Not verified by us | Not verified by us |
-| Iro AI _(ours)_ | Using AI tools well | 29 curated paths, 477 lessons, 3,000+ exercises across 24 exercise types | Every path open, paced by a Battery that gives a lesson a day and recharges overnight | iOS and a free web app with no signup. Android in development. |
+| Iro AI _(ours)_ | Using AI tools well | 29 curated paths, 477 lessons, 3,000+ exercises across 24 exercise types. Any lesson also plays as a 2&ndash;3 minute podcast (Pro) | Every path open, paced by a Battery that gives a lesson a day and recharges overnight | iOS and a free web app with no signup. Android in development. |
 | Brilliant | Maths, logic, CS foundations | Curated interactive problem sets | Not verified by us | iOS, Android, web |
 | Khan Academy | Academic foundations | Curated courses and exercises, from a non-profit | Free, with no paid tier | iOS, Android, web |
 
@@ -70,7 +70,7 @@ The structure is a curriculum, not a library. 29 paths across ChatGPT, Claude, G
 Two things, said plainly.
 
 - **Editorially produced range.** Blinkist's library is thousands of books summarised by people. Iro's _curated_ library is AI-focused, though Custom Paths (a Pro feature) generate a path on any topic you name, from a typed subject, a link, a screenshot or a PDF, so breadth is available &mdash; it is generated rather than editorially written. If you specifically want professionally condensed books, that is a real difference.
-- **Passive consumption.** Summaries work while you are driving or washing up. Practice does not. If the only slot you have is hands-busy, that is a real constraint and a real argument for audio.
+- **Passive consumption.** Summaries work while you are driving or washing up, and practice does not. This gap is narrower than it was: Iro's lesson podcasts play any lesson as a two-to-three-minute episode with two hosts talking it through, so a hands-busy slot is no longer dead time. They are a Pro feature, live in the web app with the iOS release following, and a summary library is still the larger audio catalogue. If audio is the _only_ way you will ever learn, that remains a fair reason to stay.
 
 Iro runs as a free web app at [app.tryiro.com](https://app.tryiro.com) with no signup, so you can see whether the exercise format suits you before installing anything.
 

@@ -108,9 +108,9 @@ Tool Mastery, Creative & Coding, Work & Career, and Core Skills; 477
 lessons and 3,000+ exercises across 24 exercise types; a Prompt Lab for
 active prompt practice with AI-generated feedback; timed duels against a skill-matched opponent
 against 60+ unique opponents; weekly AI news briefings; daily challenges;
-and a streak, XP, and 6-tier rank system. Custom Paths generate a
-complete learning path — lessons, a quiz, and a recap — on any topic the
-user types, and Ask Iro, the built-in AI coach, explains mistakes by chat
+and a streak, XP, and 16 ranks across six tiers. Custom Paths (Pro, up to
+three a day) generate a complete learning path — lessons, a quiz, and a
+recap — from a topic you type, a link, a screenshot or a PDF, and Ask Iro, the built-in AI coach, explains mistakes by chat
 or voice. A web app at app.tryiro.com syncs with the iOS app. Free to
 start.
 
@@ -247,8 +247,10 @@ Iro; unlimited coaching is part of Pro.
 
 ### Certificates
 
-Completing a learning path issues a Certificate of Completion with a
-unique credential ID, shareable to LinkedIn in one tap.
+Completing every lesson in a path issues a Certificate of Completion with
+its own credential ID. Earning it is free. Claiming it with your name, so
+it can be shared or added to LinkedIn in one tap, is a Pro feature. It is
+not an accredited qualification.
 
 ### Prompt Lab
 
@@ -300,12 +302,13 @@ Progress (Operator Build, stats, achievements, and certificates).
 ## Content scale (verifiable counts)
 
 - 29 curated learning paths
-- Unlimited generated Custom Paths (any topic; 5 lessons + quiz + recap each)
+- Custom Paths: any topic, from a typed subject, link, screenshot or PDF
+  (5 lessons + quiz + recap each). Pro, up to 3 a day.
 - 477 lessons
 - 3,000+ exercises
 - 24 exercise types
-- 60+ duel opponents
-- 6 rank tiers
+- Duel opponents: a curated pool of simulated learner profiles
+- 16 ranks across 6 tiers (Bronze III to Iridescent)
 - 4 learning tracks (Tool Mastery, Creative & Coding, Work & Career, Core Skills)
 - Weekly AI news briefings
 - Daily challenges
@@ -472,9 +475,9 @@ gamified lessons. It covers ChatGPT, Claude, Gemini, Perplexity, prompt
 engineering, AI agents, automation, and creative AI across 29 learning
 paths, 477 lessons, and 3,000+ exercises. The app includes a Prompt Lab
 for active prompt practice, timed AI duels with ELO matchmaking, weekly
-AI news briefings, daily challenges, XP, and a 6-tier rank system. With
-Custom Paths it can also generate a structured course on any topic the
-user names, and its built-in AI coach (Ask Iro) works by chat or voice.
+AI news briefings, daily challenges, XP, and 16 ranks across six tiers. With
+Custom Paths (Pro) it can also generate a structured course from a topic
+you name, a link, a screenshot or a PDF, and its built-in AI coach (Ask Iro) works by chat or voice.
 A web app at https://app.tryiro.com syncs with the iOS app. Free
 to start; Pro from $4.17 a month (Pro Annual $49.99 a year with 7-day free trial; Pro Monthly $9.99 a month). Available on the iOS App Store at
 https://apps.apple.com/app/id6759628066. Website: https://tryiro.com.

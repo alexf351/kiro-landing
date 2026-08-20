@@ -278,3 +278,40 @@ what to watch: an AI answer that names Iro is worth more than a blue link.
 Ask the same ten of ChatGPT, Claude, Perplexity, Gemini and Google AI Mode.
 Record only whether Iro is named and which page it cites. Thirty minutes a
 month, and it is the only GEO ranking report that exists.
+
+---
+
+## Open technical item — FAQ schema drift (found 2026-08-21)
+
+Measured across all 182 published pages: **836 FAQPage answers, 17 of which do
+not appear verbatim in the visible copy of their own page.**
+
+Google's requirement is that the schema answer be present on the page. These 17
+are not fabrications — every sentence in them does appear somewhere on the page
+— but the schema answer *recomposes* material from two different visible
+questions. Example, `faq.html`:
+
+| | |
+| --- | --- |
+| Schema | "Iro AI runs on iPhone and iPad (iOS), and in any desktop or mobile browser at app.tryiro.com. **Android is in development.**" |
+| Visible, Q1 | "Iro AI runs on iPhone and iPad (iOS), and in any desktop or mobile browser at app.tryiro.com." |
+| Visible, Q2 | *When will Iro be on Android?* → "Android is in development. Follow tryiro.com…" |
+
+The tail sentence is on the page, under a different question, so the exact
+string never matches.
+
+**Not fixed, deliberately.** It is pre-existing, it is not a factual error, and
+rewriting 17 live answers to chase an exact-match rule is a different job from
+the product-truth pass this was found during — with a real chance of
+introducing errors in copy that is currently correct. Worth doing as its own
+scoped task.
+
+The affected pages: `faq.html` (3), `index.html` (4), `ai-tools-comparison.html`
+(4), `ai-prompts.html` (3), and one each on `learn-ai-on-iphone.html`,
+`best-ai-learning-app.html` and `quiz.html`.
+
+**The check itself is worth keeping** — and note the trap in writing it. A
+naive version replaces every tag with a space, which breaks the match on any
+answer containing an inline `<a>` or `<strong>` and reports **61** false
+positives. Strip inline tags to the empty string, compare against both
+normalisations, and only then is a mismatch real.

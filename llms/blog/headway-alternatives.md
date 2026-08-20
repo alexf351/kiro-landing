@@ -52,7 +52,7 @@ Grouped by job. The first row is a like-for-like swap; the rest are different pr
 | App | Best for | What you get | Free tier | Platforms |
 | --- | --- | --- | --- | --- |
 | Blinkist | The same job as Headway | Book summaries in text and audio | Not verified by us | Not verified by us |
-| Iro AI _(ours)_ | Using AI tools well | 29 curated paths, 477 lessons, 3,000+ exercises across 24 exercise types | Every path open, paced by a Battery that gives a lesson a day and recharges overnight | iOS and a free web app with no signup. Android in development. |
+| Iro AI _(ours)_ | Using AI tools well | 29 curated paths, 477 lessons, 3,000+ exercises across 24 exercise types. Any lesson also plays as a 2&ndash;3 minute podcast (Pro) | Every path open, paced by a Battery that gives a lesson a day and recharges overnight | iOS and a free web app with no signup. Android in development. |
 | Brilliant | Maths, logic, CS foundations | Curated interactive problem sets | Not verified by us | iOS, Android, web |
 | Khan Academy | Academic foundations on no budget | Curated courses and exercises, from a non-profit | Free, with no paid tier | iOS, Android, web |
 
@@ -67,7 +67,7 @@ Grouped by job. The first row is a like-for-like swap; the rest are different pr
 It is a curriculum rather than a library: 29 paths across ChatGPT, Claude, Gemini, Perplexity, prompt engineering, agents and automation, 3,000+ exercises across 24 exercise types, with streaks and 16 ranks doing the same habit work that keeps people opening a summary app.
 
 - **Editorially produced range.** Thousands of professionally summarised titles against a curated AI library. Iro is not limited to AI &mdash; Custom Paths (a Pro feature) generate a path on any topic you name, from a typed subject, a link, a screenshot or a PDF &mdash; but a generated path is not the same as a book condensed by an editor.
-- **Hands-free.** Audio works while you drive or cook. Practice needs your hands and your attention. If that is the only slot you have, that is a genuine argument for staying.
+- **Hands-free.** Audio works while you drive or cook, and graded practice needs your hands. Iro closes part of this: lesson podcasts play any lesson as a two-to-three-minute episode with two hosts, so you can take the lesson on a commute and do the practice later. They are Pro, live in the web app with iOS following, and Headway's catalogue of narrated summaries is still bigger. If listening is the only slot you will ever have, that is a genuine argument for staying.
 
 Iro also runs as a free web app at [app.tryiro.com](https://app.tryiro.com) with no signup, which is the quickest way to find out whether the format fits.
 

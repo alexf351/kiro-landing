@@ -14,14 +14,53 @@ pages could share the same body text, you've failed — every page is specific t
 its exact topic.
 
 ## HARD FACTS — never contradict these
+
+*Verified against the app repo 2026-08-20. Where this block and anything else
+disagree, this block wins. Read "Product-truth open items" at the bottom too —
+it carries the three things that are deliberately unsettled.*
+
 - **Product:** Iro AI — "the Duolingo for AI." Gamified microlearning: ~5-minute
-  lessons, active practice with instant feedback, streaks, XP, 6 ranks, daily
-  challenges, head-to-head duels (ELO matchmaking), weekly AI news.
-- **Real features you may reference:** Prompt Lab / real prompt practice with
-  feedback; 24 exercise types; **Ask Iro** (a personal AI coach — chat and
-  voice); **Custom Paths** (generate a learning path on almost any topic you
-  type in); shareable certificates; 29 built-in learning paths; 477 lessons;
-  3,000+ exercises. **Do NOT invent features that aren't in this list.**
+  lessons, active practice with instant feedback, streaks, XP, **16 ranks across
+  six tiers (Bronze III → Diamond I → Iridescent)**, daily challenges, timed
+  duels, weekly AI news.
+- **Duels are NOT live play.** Opponents are **simulated learner profiles drawn
+  from a curated pool**, matched to your skill. Write "a skill-matched
+  opponent". **Never** write live, real-time, PvP, "against other learners", or
+  "against another person" — this is a standing product rule, not a style
+  preference.
+- **Real features you may reference:**
+  - **Prompt Lab** — write a real prompt, scored on clarity, specificity,
+    constraints and context (Pro).
+  - **24 exercise types**, including spot-the-hallucination, a 0–100
+    trust-calibration dial, delegate-versus-do-it-yourself calls, prompt
+    repair, guardrail writing and compression drills.
+  - **Ask Iro** — personal AI coach, chat and voice. Free: 10 questions then 1
+    a day, forever. Pro: unlimited.
+  - **Custom Paths** — generate a path on any topic from a **typed subject, a
+    link, a screenshot or a PDF**. Pro, up to 3 a day.
+  - **Community Paths** — paths built by other learners. Browsing and liking
+    are free; taking one into your library is Pro.
+  - **Lesson podcasts** — any lesson as a 2–3 minute episode with two hosts,
+    Sam and Ava. Pro. See the open-items note for how to frame availability.
+  - **Image Lab** — 3 images free, up to 10 a day on Pro (not unlimited).
+  - **Prompt library** — 250 prompts across 8 categories (Pro).
+  - **Certificates** — one per path, each with a credential ID. **Earned free**
+    by finishing every lesson; *claiming* one with your name, to share, is Pro.
+    Not accredited and never to be described as a qualification.
+  - **29 built-in learning paths; 477 lessons; 3,000+ exercises.**
+- **The 29 paths, by name,** when a page needs to show breadth: tool courses for
+  ChatGPT, Claude, Gemini, Perplexity, Grok, Microsoft Copilot, NotebookLM, Suno
+  and ElevenLabs; applied paths (Excel, email, slides, side hustles, vibe
+  coding, agents, automation); role paths (business, marketing, finance,
+  managers, healthcare, school, job hunting, productivity). Sizes run from
+  5-lesson sprints to a 33-lesson AI Foundations flagship.
+- **Never publish which AI models or vendors power Iro's own features** — the
+  coach, Image Lab and podcasts included. That is deliberate product policy.
+- **Never claim Android.** iOS and web only; Android is in development with a
+  waitlist. Saying a competitor has Android is fine and often true.
+- **Never write "Kiro"** in published copy. Legacy internal name; it survives
+  only in some asset filenames and in disambiguation copy that explains it.
+- **Do NOT invent features that aren't in this list.**
   *Where 3,000+ comes from (verified against the app repo 2026-08-20): curriculum exercises are 2,271; app-wide adds the Daily Challenge pool (140), the Duels pool (163), weekly AI news quizzes (516 and growing ~15/week) and onboarding (~50), for 3,090+ today. Publish "3,000+ interactive exercises" app-wide, or "2,200+ curriculum exercises". The old "2,700+" was wrong in both framings.*
 
 ## GEO rules (this is how we get cited by ChatGPT/Perplexity/AI Overviews)

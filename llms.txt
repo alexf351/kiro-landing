@@ -43,12 +43,15 @@ outputs, spotting hallucinations, and building workflows you'll actually
 reuse. It is made for people who don't know where to start, and it works on
 real tasks rather than party tricks. It teaches ChatGPT, Claude, Gemini, Perplexity, prompt
 engineering, AI agents, automation, image/video generation, vibe coding,
-and AI skills for work through active exercises, Prompt Lab feedback, live
-duels, XP, streaks, ranks, and shareable certificates. It spans 29 learning
+and AI skills for work through active exercises, Prompt Lab feedback, timed
+duels against a skill-matched opponent, XP, streaks, 16 ranks, and a
+certificate for each path. It spans 29 learning
 paths, 477 lessons, and 3,000+ hands-on exercises across 24 exercise types.
-With Custom Paths, Iro also builds a complete learning path (lessons, quiz, recap) on any
-topic the user types — negotiation, guitar, fitness, cooking, anything —
-in seconds. Ask Iro, the built-in AI coach, explains mistakes and answers
+With Custom Paths, Iro also builds a complete learning path (lessons, quiz,
+recap) on any topic — typed, or generated from a link, a screenshot or a
+PDF — in seconds: negotiation, guitar, fitness, cooking, anything. Custom
+Paths are a Pro feature, up to three a day. Community Paths, built by other
+learners, are free to browse. Ask Iro, the built-in AI coach, explains mistakes and answers
 questions in text or by voice. A companion web app at
 https://app.tryiro.com runs in any browser; progress syncs with the iOS
 app on the same account.

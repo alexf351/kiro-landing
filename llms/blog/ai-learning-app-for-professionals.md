@@ -50,7 +50,7 @@ Watching a video feels productive and teaches almost nothing that sticks. Retent
 
 A marketer, an analyst, and a manager need different AI moves. Generic "intro to AI" content leaves you to translate it into your job yourself. Look for role- and use-case-specific tracks, for example, [AI for work](/ai-for-work) or [AI for marketing](/ai-for-marketing), so the examples already match what you do.
 
-Being visibly the AI-fluent person on your team is worth something. Shareable certificates you can post to LinkedIn help. Be honest about what they are: proof that you've done the practice, not a university credential, but a real signal that you're building the skill on purpose.
+Being visibly the AI-fluent person on your team is worth something. Certificates you can post to LinkedIn help — you earn one free for each path you finish, and claiming it with your name is a Pro feature. Be honest about what they are: proof that you've done the practice, not a university credential, but a real signal that you're building the skill on purpose.
 
 ## How Iro fits a professional's day
 
@@ -83,7 +83,7 @@ No. The skills that pay off at work are tool skills, not programming: writing cl
 
 **Can an AI learning app actually help my career?**
 
-Yes, if it teaches applied skills you use on real tasks rather than AI theory. Being the person on your team who can draft, analyze, and automate faster with AI is a visible advantage. Iro also issues shareable certificates you can post to LinkedIn: honest proof that you've practiced the skill, not a university credential, but a real signal you're building it.
+Yes, if it teaches applied skills you use on real tasks rather than AI theory. Being the person on your team who can draft, analyze, and automate faster with AI is a visible advantage. Iro also issues a certificate for each path, with its own credential ID: earned free by finishing every lesson, claimed with your name on Pro, then posted to LinkedIn. Honest proof that you've practiced the skill, not a university credential, but a real signal you're building it.
 
 **Should professionals use a free or paid AI app?**
 
