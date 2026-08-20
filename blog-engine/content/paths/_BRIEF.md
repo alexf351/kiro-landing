@@ -186,3 +186,41 @@ product claim.
 Write each assigned spec to `blog-engine/content/paths/<slug>.json` as valid
 JSON (no comments, no trailing commas). Validate with `node -e` or `python -m
 json.tool` before finishing. Do not modify any other file.
+
+---
+
+## Positioning rule for comparison pages (added 2026-08-19)
+
+These pages exist to show that Iro is the right choice. That is the job.
+Three errors on 19 August all cut the other way, and all three were factually
+wrong as well as off-message:
+
+1. "Iro covers one subject" — false. Custom Paths and Community Paths cover
+   anything (both Pro).
+2. "NerdSip's free tier is the most generous cold demo" — false.
+   app.tryiro.com is the full product with no signup; their browser surface is
+   read-only.
+3. "Prefer your desktop? Iro also runs in your browser" — framed a free,
+   no-signup product as a desktop convenience.
+
+**The rule, so this stops recurring.** A concession earns its place only if it
+passes both tests:
+
+- **It is true.** Check it against the product, not against a stale brief.
+- **It is about a different buyer, not ours.** Android is a concession: that
+  reader cannot install Iro today, full stop. "They want breadth" was not — our
+  reader can have breadth. Never hand a reason to leave to the reader the page
+  is written for.
+
+**One real concession per page is the target.** Zero reads as an advert and
+does not get cited; `/best-ai-learning-app` ranks 3 and 2 and gets quoted
+verbatim precisely because it names competitors and says who each is for. Three
+concessions, or one in the key takeaways, is over-correcting.
+
+**Never close an FAQ answer by recommending the competitor** on the query the
+page exists to win. Lead with Iro, then qualify.
+
+**Check the Pro gate before claiming a capability.** Custom Paths, Community
+Paths, Prompt Lab, Image Lab, unlimited Ask Iro, the prompt library, duels and
+certificate claiming are Pro. The free tier is the 29 curated AI paths, paced
+by the Battery, plus the full web app with no signup.

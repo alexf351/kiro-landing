@@ -101,7 +101,7 @@
     },
     {
       "q": "What makes Iro AI different from general microlearning apps?",
-      "a": "Scope and session shape. Iro's curated library is AI-focused &mdash; 29 paths and 2,700+ exercises on using AI tools well &mdash; and Custom Paths generate a path on any topic you name, from a typed subject, a link, a screenshot or a PDF, so it is not limited to that subject. And its sessions ask you to produce something and then tell you what was weak about it, including a Prompt Lab that scores prompts you write on clarity, specificity, constraints and context, and head-to-head duels matched by rating. It runs on iOS and as a free web app at app.tryiro.com with no signup."
+      "a": "Scope and session shape. Iro's curated library is AI-focused &mdash; 29 paths and 2,700+ exercises on using AI tools well &mdash; and Custom Paths (a Pro feature) generate a path on any topic you name, from a typed subject, a link, a screenshot or a PDF, so it is not limited to that subject. And its sessions ask you to produce something and then tell you what was weak about it, including a Prompt Lab that scores prompts you write on clarity, specificity, constraints and context, and head-to-head duels matched by rating. It runs on iOS and as a free web app at app.tryiro.com with no signup."
     }
   ],
   "readNext": [

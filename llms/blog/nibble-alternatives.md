@@ -83,7 +83,7 @@ And the sessions are doing-shaped. The Prompt Lab has you write an actual prompt
 
 Streaks, XP and six ranks do the same habit work as any app in this category. The Battery paces new lessons at one a day and recharges overnight, so a missed day costs a day rather than a number.
 
-- **You want a curated catalogue written by people.** Iro is not limited to AI &mdash; Custom Paths generate a path on any topic you name, from a typed subject, a link, a screenshot or a PDF &mdash; but generated breadth is not the same as a general app's editorially written library, and grazing for pleasure is a legitimate reason to prefer one.
+- **You want a curated catalogue written by people.** Iro is not limited to AI &mdash; Custom Paths (a Pro feature) generate a path on any topic you name, from a typed subject, a link, a screenshot or a PDF &mdash; but generated breadth is not the same as a general app's editorially written library, and grazing for pleasure is a legitimate reason to prefer one.
 - **You are on Android.** Iro is iOS plus a free web app that needs no signup; Android is in development with a waitlist on the home page.
 
 Open [app.tryiro.com](https://app.tryiro.com) and do one lesson. Two minutes tells you more about whether the format works for you than any comparison page, including this one.
@@ -108,7 +108,7 @@ Because the streak measures attendance, not learning. If the fastest way to keep
 
 **How is Iro AI different from a general microlearning app?**
 
-Scope and session shape. Iro's curated library covers using AI tools in depth: 29 paths and 2,700+ exercises across 24 exercise types, with Custom Paths generate a path on any topic you name, from a typed subject, a link, a screenshot or a PDF for anything else. And the sessions ask you to do things rather than read them, with a Prompt Lab that grades prompts you write on clarity, specificity, constraints and context, plus head-to-head duels matched by rating. It runs on iOS and as a free web app at app.tryiro.com with no signup.
+Scope and session shape. Iro's curated library covers using AI tools in depth: 29 paths and 2,700+ exercises across 24 exercise types, with Custom Paths (a Pro feature) generate a path on any topic you name, from a typed subject, a link, a screenshot or a PDF for anything else. And the sessions ask you to do things rather than read them, with a Prompt Lab that grades prompts you write on clarity, specificity, constraints and context, plus head-to-head duels matched by rating. It runs on iOS and as a free web app at app.tryiro.com with no signup.
 
 ## Read next
 

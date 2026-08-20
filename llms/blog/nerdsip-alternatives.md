@@ -35,7 +35,7 @@ pillar: "ai-fluency"
 
 **Pick by what you actually want to learn.** If it is using AI tools well, Iro AI is the closest alternative: same five-minute format, but a curated curriculum instead of generated courses. If it is general knowledge, Kinnu. If it is the maths and computer science underneath AI, Brilliant or Khan Academy. If it is a language, Duolingo, which is the app everything in this category is modelled on.
 
-What you give up by leaving NerdSip is breadth. Its whole proposition is that you type any topic and get a course back, and none of the alternatives below do that across every subject. Iro AI comes closest with Custom Paths, which generate a path on a topic you name, but the curated library it sits alongside is about AI specifically.
+What you give up by leaving NerdSip is breadth. Its whole proposition is that you type any topic and get a course back, and none of the alternatives below do that across every subject. Iro AI comes closest with Custom Paths, a Pro feature that generates a path on a topic you name, alongside a curated library about AI specifically.
 
 ## Why people look for a NerdSip alternative
 
@@ -71,7 +71,7 @@ The practical difference is what happens when you get something wrong. A generat
 
 Being straight about this, because a comparison page that finds no fault with its own author is not worth reading.
 
-- **A public course library you can browse without signing up.** NerdSip's web library lets you read other people's generated courses cold. That is a genuinely useful shop window, and we do not have an equivalent.
+- **A public course library you can browse without signing up.** NerdSip's web library lets you read other people's generated courses cold, without an account. Iro has the same idea inside the product &mdash; Community Paths are paths built by other learners &mdash; but they sit behind Pro rather than on the open web, so NerdSip's version works as a shop window in a way ours does not.
 - **Android.** NerdSip is on Google Play. Iro is iOS and web, with Android in development and a waitlist on the home page. If you are on Android today, that decides it.
 
 Iro also runs as a free web app at [app.tryiro.com](https://app.tryiro.com) with no signup, which is the fastest way to see whether the format suits you.
@@ -90,7 +90,7 @@ And check the renewal price and the cancel path before you enter a card, on any 
 
 **What is the best NerdSip alternative?**
 
-For using AI tools well, Iro AI is the closest match: the same five-minute daily format, but a curated curriculum of 29 paths, 477 lessons and 2,700+ exercises rather than courses generated on request &mdash; and Custom Paths generate on any topic you name, so you keep the generator too. You can try the whole thing free at app.tryiro.com without an account. For general knowledge as a curated library, Kinnu. For maths and computer science foundations, Brilliant or Khan Academy.
+For using AI tools well, Iro AI is the closest match: the same five-minute daily format, but a curated curriculum of 29 paths, 477 lessons and 2,700+ exercises rather than courses generated on request &mdash; and Custom Paths, on Pro, generate on any topic you name, so you keep the generator too. You can try the whole thing free at app.tryiro.com without an account. For general knowledge as a curated library, Kinnu. For maths and computer science foundations, Brilliant or Khan Academy.
 
 **Is NerdSip free?**
 

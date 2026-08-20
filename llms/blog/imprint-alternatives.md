@@ -78,7 +78,7 @@ The Prompt Lab has you write a real prompt and then scores it on clarity, specif
 
 The scope is 29 curated paths, 477 lessons and 2,700+ exercises across 24 exercise types, covering ChatGPT, Claude, Gemini, Perplexity, prompt engineering, agents and automation. Streaks, XP and six ranks carry the habit; the Battery paces new lessons at one a day and recharges overnight.
 
-- **Illustrated explanation as a craft.** A visual explainer library is drawn and written by people, and that is a real skill. Iro's curated library is AI-focused and Custom Paths generate a path on any topic you name, from a typed subject, a link, a screenshot or a PDF, so breadth exists &mdash; but a generated path will not be illustrated the way a made explainer is.
+- **Illustrated explanation as a craft.** A visual explainer library is drawn and written by people, and that is a real skill. Iro's curated library is AI-focused and Custom Paths (a Pro feature) generate a path on any topic you name, from a typed subject, a link, a screenshot or a PDF, so breadth exists &mdash; but a generated path will not be illustrated the way a made explainer is.
 - **Low effort on a bad day.** Reading a beautiful lesson when you are tired is achievable. Practising is not, always. There is a real argument for the format that asks less of you on the days you have nothing.
 
 You can test the difference in two minutes at [app.tryiro.com](https://app.tryiro.com), which is free and needs no signup: do one exercise and notice how different it feels from finishing a lesson you only read.
@@ -99,7 +99,7 @@ It works very well for understanding an idea quickly and less well for being abl
 
 **How is Iro AI different from Imprint?**
 
-Iro's curated library is about using AI tools well, and its sessions end with something you produced rather than something you read. Custom Paths generate a path on any topic you name, from a typed subject, a link, a screenshot or a PDF, so it is not restricted to AI. The Prompt Lab grades a prompt you write on clarity, specificity, constraints and context; other exercises have you catch fabricated citations, repair weak prompts, or choose between tools. There are 29 curated paths, 477 lessons and 2,700+ exercises across 24 exercise types. If you want breadth across many subjects, an explainer library is the better fit.
+Iro's curated library is about using AI tools well, and its sessions end with something you produced rather than something you read. Custom Paths (a Pro feature) generate a path on any topic you name, from a typed subject, a link, a screenshot or a PDF, so it is not restricted to AI. The Prompt Lab grades a prompt you write on clarity, specificity, constraints and context; other exercises have you catch fabricated citations, repair weak prompts, or choose between tools. There are 29 curated paths, 477 lessons and 2,700+ exercises across 24 exercise types. If you want breadth across many subjects, an explainer library is the better fit.
 
 **Is there a free alternative to Imprint?**
 
