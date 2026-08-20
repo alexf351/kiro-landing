@@ -28,7 +28,7 @@ pillar: "ai-fluency"
 
 - The best NerdSip alternative depends on what you want generated versus taught: Iro AI for AI skills specifically, Kinnu for general knowledge, Brilliant or Khan Academy for foundations, Duolingo for languages.
 - NerdSip's strength is breadth. Type any topic and it builds a course, which nothing on this list does as openly.
-- NerdSip's free tier is the most generous cold demo in this category: a complete sample course a day, no account required. Say what you like about the rest, that is a real advantage.
+- Try before you install: Iro's full web app at app.tryiro.com needs no account and no download, while NerdSip's browser surface is a read-only library and its interactive app is a mobile install.
 - Iro AI is the closest match for one specific goal, learning to use AI tools well, with 29 curated paths, 477 lessons and 2,700+ exercises rather than generated-on-demand content.
 
 ## The best NerdSip alternatives
@@ -71,7 +71,7 @@ The practical difference is what happens when you get something wrong. A generat
 
 Being straight about this, because a comparison page that finds no fault with its own author is not worth reading.
 
-- **A better free demo.** A complete course a day with no account is a lower bar than installing an app. If you want to try the idea before committing anything, NerdSip asks less of you.
+- **A public course library you can browse without signing up.** NerdSip's web library lets you read other people's generated courses cold. That is a genuinely useful shop window, and we do not have an equivalent.
 - **Android.** NerdSip is on Google Play. Iro is iOS and web, with Android in development and a waitlist on the home page. If you are on Android today, that decides it.
 
 Iro also runs as a free web app at [app.tryiro.com](https://app.tryiro.com) with no signup, which is the fastest way to see whether the format suits you.
@@ -90,7 +90,7 @@ And check the renewal price and the cancel path before you enter a card, on any 
 
 **What is the best NerdSip alternative?**
 
-It depends what you want to learn. For using AI tools well, Iro AI is the closest match: the same five-minute daily format, but a curated curriculum of 29 paths and 2,700+ exercises rather than courses generated on request. For general knowledge, Kinnu. For maths and computer science foundations, Brilliant or Khan Academy. NerdSip remains the best option if what you want is a course on any topic you can name.
+For using AI tools well, Iro AI is the closest match: the same five-minute daily format, but a curated curriculum of 29 paths, 477 lessons and 2,700+ exercises rather than courses generated on request &mdash; and Custom Paths generate on any topic you name, so you keep the generator too. You can try the whole thing free at app.tryiro.com without an account. For general knowledge as a curated library, Kinnu. For maths and computer science foundations, Brilliant or Khan Academy.
 
 **Is NerdSip free?**
 
