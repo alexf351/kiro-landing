@@ -97,7 +97,19 @@ point of the page.
 ## 3. Paid placement enquiry
 
 For mid-tier tech press. PC Tech Magazine is the proven one, since NerdSip is
-already there. Read the grey-hat caveat in the plan before committing.
+already there.
+
+**Revised 2026-08-19 — read this before sending.** This is advertising, not
+link building, and the difference is not cosmetic. Google permits paid
+placements; what it prohibits is paid links that pass ranking signal, and the
+remedy is `rel="sponsored"` or `nofollow` on the link. So question 2 below is
+not politeness, it is the whole basis on which this is legitimate. If an outlet
+says it does not mark placements, **decline** — you would be buying a link
+rather than an audience, which is the same thing Firsto sells for $19.90 with
+better production values.
+
+Judge the buy on **readers**, not on DR. If the placement would be worthless
+to you with a nofollowed link, you are not buying advertising.
 
 **Subject:** Sponsored inclusion in your app roundup, rate card?
 
@@ -107,7 +119,8 @@ already there. Read the grey-hat caveat in the plan before committing.
 > coverage. Two questions:
 >
 > 1. What does inclusion in an existing roundup cost, versus a standalone
->    review? I would rather be added to a list that already ranks.
+>    review? Your micro-learning roundup already reaches the readers I care
+>    about, so being added there is worth more to me than a separate piece.
 > 2. Do you mark sponsored placements, and how? I want it disclosed properly.
 >
 > If it helps, we have original data worth writing about: 97 completions of a
@@ -117,8 +130,15 @@ already there. Read the grey-hat caveat in the plan before committing.
 > Alex Furukawa
 > Founder, Iro AI · https://tryiro.com
 
-Asking for disclosure up front is deliberate. An outlet that will not mark a
-paid placement is one whose links carry no weight anyway.
+Asking for disclosure up front is deliberate, and the reason is stated above:
+it is what separates advertising from link buying. Note the ask no longer says
+"a list that already ranks" — stating an SEO motive in an email about paid
+placement is exactly the framing that turns one into the other, and it was the
+wrong thing to put in your mouth.
+
+**Priority: low.** Ranked below the original-data study in §4, which reaches
+the same outlets for free and gives them a reason to link that no rate card
+can buy.
 
 ---
 
