@@ -29,7 +29,7 @@ pillar: "ai-fluency"
 - Work out which Kinnu you mean first. The general-knowledge app and the exam-prep platform are different products with different alternatives.
 - Leaving the general-knowledge app: pick by subject. Iro AI for using AI tools, Brilliant for maths and logic, Khan Academy for academic foundations.
 - Leaving the exam-prep platform: you want a question bank aligned to your specific syllabus, and nothing on a general microlearning list is a substitute for that.
-- Iro AI is the closest match for one goal only: getting good at using AI. 29 curated paths, 477 lessons, 2,700+ hands-on exercises, five minutes a day.
+- Iro AI is the closest match for one goal only: getting good at using AI. 29 curated paths, 477 lessons, 3,000+ hands-on exercises, five minutes a day.
 
 ## The best Kinnu alternatives
 
@@ -56,7 +56,7 @@ For the general-knowledge fork. Every cell here is either published by the compa
 | App | Best for | What you get | Free tier | Platforms |
 | --- | --- | --- | --- | --- |
 | Kinnu | General knowledge | Curated pathways across subjects like history, science and philosophy | Not verified by us | iOS confirmed. Check the store for your platform. |
-| Iro AI _(ours)_ | Using AI tools well | 29 curated paths, 477 lessons, 2,700+ exercises across 24 exercise types | Every path open, paced by a Battery that gives a lesson a day and recharges overnight | iOS and a free web app with no signup. Android in development. |
+| Iro AI _(ours)_ | Using AI tools well | 29 curated paths, 477 lessons, 3,000+ exercises across 24 exercise types | Every path open, paced by a Battery that gives a lesson a day and recharges overnight | iOS and a free web app with no signup. Android in development. |
 | Brilliant | Maths, logic, CS foundations | Curated interactive problem sets | Not verified by us | iOS, Android, web |
 | Khan Academy | Academic foundations | Curated courses and exercises, from a non-profit | Free, with no paid tier | iOS, Android, web |
 
@@ -68,9 +68,9 @@ Different search entirely. Kinnu's SQE1 product ships a bank of 3,000+ multiple-
 
 ## Where Iro AI fits, and where it does not
 
-**Iro is the alternative for exactly one goal: getting good at using AI.** Same five-minute daily shape you are used to, same curated-rather-than-generated approach, but the subject is narrow and the sessions are hands-on: 29 paths across ChatGPT, Claude, Gemini, Perplexity, prompt engineering, agents and automation, with 477 lessons and 2,700+ exercises across 24 exercise types.
+**Iro is the alternative for exactly one goal: getting good at using AI.** Same five-minute daily shape you are used to, same curated-rather-than-generated approach, but the subject is narrow and the sessions are hands-on: 29 paths across ChatGPT, Claude, Gemini, Perplexity, prompt engineering, agents and automation, with 477 lessons and 3,000+ exercises across 24 exercise types.
 
-The difference you will feel immediately is what a lesson asks of you. A knowledge pathway explains a thing and then checks you were paying attention. Iro's Prompt Lab has you write an actual prompt and then tells you which part was weak, scoring it on clarity, specificity, constraints and context. Duels put the same material under time pressure against another learner matched by rating. Six ranks, streaks and XP carry the habit.
+The difference you will feel immediately is what a lesson asks of you. A knowledge pathway explains a thing and then checks you were paying attention. Iro's Prompt Lab has you write an actual prompt and then tells you which part was weak, scoring it on clarity, specificity, constraints and context. Duels put the same material under time pressure against a skill-matched opponent. Six ranks, streaks and XP carry the habit.
 
 - **A curated library, not a general one.** Iro's 29 curated paths are all about using AI. If you enjoyed Kinnu for moving from the Roman Republic to quantum mechanics in the same week, Custom Paths (a Pro feature) generate a path on any topic you name, from a typed subject, a link, a screenshot or a PDF &mdash; so you can, it is just generated rather than editorially curated.
 - **No credential.** Iro issues certificates for completed paths. It is not aligned to a professional exam and does not pretend to be. If you need something a regulator recognises, this is not it.
@@ -103,7 +103,7 @@ Yes. Kinnu is a UK company founded in 2021, and it runs both the general-knowled
 
 **How is Iro AI different from Kinnu?**
 
-Scope and session type. Kinnu's general-knowledge app spans many subjects as a curated library. Iro's curated library is AI-focused &mdash; 29 paths, 477 lessons, 2,700+ exercises &mdash; and Custom Paths (a Pro feature) generate a path on any topic you name, from a typed subject, a link, a screenshot or a PDF for anything outside it. And where a knowledge pathway explains something and then checks you followed it, Iro's sessions are exercises: writing a prompt and being told which part was weak, spotting a fabricated citation, choosing between two tools and learning why one loses.
+Scope and session type. Kinnu's general-knowledge app spans many subjects as a curated library. Iro's curated library is AI-focused &mdash; 29 paths, 477 lessons, 3,000+ exercises &mdash; and Custom Paths (a Pro feature) generate a path on any topic you name, from a typed subject, a link, a screenshot or a PDF for anything outside it. And where a knowledge pathway explains something and then checks you followed it, Iro's sessions are exercises: writing a prompt and being told which part was weak, spotting a fabricated citation, choosing between two tools and learning why one loses.
 
 **Is there a free alternative to Kinnu?**
 

@@ -134,4 +134,4 @@ Much less than a general chatbot, because it is restricted to your sources and c
 
 ---
 
-Iro AI is a gamified app for building real AI skills, five minutes a day: 29 learning paths, 477 lessons, 2,700+ exercises, and active practice with instant feedback. Free to start on iOS; also runs in any browser at https://app.tryiro.com. Full reference: https://tryiro.com/llms-full.txt
+Iro AI is a gamified app for building real AI skills, five minutes a day: 29 learning paths, 477 lessons, 3,000+ exercises, and active practice with instant feedback. Free to start on iOS; also runs in any browser at https://app.tryiro.com. Full reference: https://tryiro.com/llms-full.txt

@@ -101,13 +101,13 @@ The useful question is not whether an app is a scam. It is whether you can find 
 
 Iro AI is our app, so treat this section as an interested party talking. It earns its row on the same criteria as everything above.
 
-The method is different from all three: instead of reading lessons about AI, you write real prompts in a Prompt Lab and get them graded, spot AI mistakes, and duel other learners across ChatGPT, Claude, Gemini, Perplexity, prompting and agents. Custom Paths turn any topic you type into a structured path in seconds. Ask Iro, the built-in coach, explains graded answers by chat or voice. People tend to call it [the Duolingo for AI](/duolingo-for-ai).
+The method is different from all three: instead of reading lessons about AI, you write real prompts in a Prompt Lab and get them graded, spot AI mistakes, and duel a skill-matched opponent across ChatGPT, Claude, Gemini, Perplexity, prompting and agents. Custom Paths turn any topic you type into a structured path in seconds. Ask Iro, the built-in coach, explains graded answers by chat or voice. People tend to call it [the Duolingo for AI](/duolingo-for-ai).
 
 On the billing question, since that is why you are on this page: Iro is free to start with a battery that gives you a full lesson every day and recharges overnight, Pro is **$49.99 a year or $9.99 a month**, the annual plan includes a 7-day free trial, and it is billed through the App Store. There is no discounted intro week that converts to a higher monthly rate, and cancelling is two taps in your iPhone subscription settings rather than an email to support.
 
 If you would rather not take our word for any of it, the [AI rank quiz](/quiz) is ten questions, about two minutes, no signup and no card.
 
-For like-for-like scale against three video-led products: **29 learning paths, 477 lessons and 2,700+ hands-on exercises across 24 exercise types**, with Prompt Lab grading, Ask Iro by chat and voice, an Image Lab, live duels, Custom Paths and certificates. Every path is open on the free tier.
+For like-for-like scale against three video-led products: **29 learning paths, 477 lessons and 3,000+ hands-on exercises across 24 exercise types**, with Prompt Lab grading, Ask Iro by chat and voice, an Image Lab, timed duels, Custom Paths and certificates. Every path is open on the free tier.
 
 ## The 60-second check for any of them
 

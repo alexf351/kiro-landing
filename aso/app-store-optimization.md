@@ -77,7 +77,7 @@ gpt,claude,gemini,prompt,tutor,bootcamp,course,llm,genai,agent,automation,quiz,c
 ## 4. Promotional text (≤170 chars — editable any time, not indexed)
 
 ```
-New: weekly AI news + live duels. Learn ChatGPT, Claude, Gemini & prompting in 5-minute lessons. Free to start — see how high your AI IQ really is.
+New: weekly AI news + timed duels. Learn ChatGPT, Claude, Gemini & prompting in 5-minute lessons. Free to start — see how high your AI IQ really is.
 ```
 (146 chars.) Swap this for launches/seasonal hooks; it doesn't affect search,
 so use it for conversion and freshness.
@@ -91,7 +91,7 @@ it keyword-natural for screenshots/AI overviews that may quote it.
 ```
 Iro is the fun, fast way to actually get good at AI — like Duolingo, but for ChatGPT, Claude, Gemini, and the AI skills that matter at work and in life.
 
-Most people use AI at maybe 10% of its potential. Iro closes that gap in about five minutes a day. Instead of watching another endless video course, you learn by doing: write real prompts, get instant feedback, spot AI mistakes, compare models, and duel other learners — then keep a streak going as you climb the ranks.
+Most people use AI at maybe 10% of its potential. Iro closes that gap in about five minutes a day. Instead of watching another endless video course, you learn by doing: write real prompts, get instant feedback, spot AI mistakes, compare models, and duel a skill-matched opponent — then keep a streak going as you climb the ranks.
 
 WHAT YOU'LL LEARN
 • ChatGPT, Claude, Gemini & Perplexity — get more out of every tool
@@ -108,7 +108,7 @@ WHY IRO WORKS
 • XP, daily streaks, and 6 ranks to keep you coming back
 • Weekly AI news so you never fall behind
 
-29 learning paths · 477 lessons · 2,700+ hands-on exercises · for total beginners and power users alike.
+29 learning paths · 477 lessons · 3,000+ hands-on exercises · for total beginners and power users alike.
 
 NOT SURE WHERE YOU STAND?
 Take the free AI IQ Test — 10 questions, about two minutes — and get a personalized learning path.
@@ -229,7 +229,7 @@ promo text — these are genuine App Store reviews):
 **Promo-text variant that leads with social proof** (≤170 chars):
 
 ```
-4.7★ — "5 minutes a day and it actually sticks." Learn ChatGPT, Claude & Gemini by doing, not watching. Free to start, with live duels and weekly AI news.
+4.7★ — "5 minutes a day and it actually sticks." Learn ChatGPT, Claude & Gemini by doing, not watching. Free to start, with timed duels and weekly AI news.
 ```
 (150 chars.) Rotate this against the feature-led promo text in §4 and keep the
 better performer.

@@ -47,7 +47,7 @@ The phrase "Duolingo for AI" doesn't clear things up either. It's become shortha
 
 Strip Duolingo down and the magic isn't the mascot. It's the method: five-minute lessons, streaks that pull you back each day, active recall instead of passive watching, and immediate feedback on every answer. That loop is why it works for languages, and it works just as well for AI skills.
 
-[Iro AI](/duolingo-for-ai) is built on exactly that model, aimed at AI. You keep a streak, earn XP, climb six ranks, and go head-to-head in duels. But instead of conjugating verbs, you write real prompts and get instant feedback on them. An **Ask Iro** coach explains anything you're stuck on by chat or voice, and **Custom Paths** generate a structured path on almost any topic you type in. It's free to start on iOS or [in the browser](https://app.tryiro.com), and Pro is one predictable price: $49.99 a year (about $4.17 a month) with a 7-day free trial. If you already like how Duolingo feels, this will feel familiar fast.
+[Iro AI](/duolingo-for-ai) is built on exactly that model, aimed at AI. You keep a streak, earn XP, climb 16 ranks, and go head-to-head in duels. But instead of conjugating verbs, you write real prompts and get instant feedback on them. An **Ask Iro** coach explains anything you're stuck on by chat or voice, and **Custom Paths** generate a structured path on almost any topic you type in. It's free to start on iOS or [in the browser](https://app.tryiro.com), and Pro is one predictable price: $49.99 a year (about $4.17 a month) with a 7-day free trial. If you already like how Duolingo feels, this will feel familiar fast.
 
 ## How to choose
 

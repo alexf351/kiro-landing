@@ -54,9 +54,9 @@ Keep the rule simple: one tiny rep, every day, even on busy days. Momentum matte
 
 ## How Iro makes the 5-minute habit automatic
 
-Iro is the Duolingo for AI — built around exactly this five-minute loop. Each lesson is short and hands-on: you write prompts in a Prompt Lab that gives feedback, evaluate AI answers, and learn one concept at a time across 29 learning paths (477 lessons, 2,700+ exercises) covering ChatGPT, Claude, Gemini, Perplexity, prompt engineering, AI agents, automation, and more.
+Iro is the Duolingo for AI — built around exactly this five-minute loop. Each lesson is short and hands-on: you write prompts in a Prompt Lab that gives feedback, evaluate AI answers, and learn one concept at a time across 29 learning paths (477 lessons, 3,000+ exercises) covering ChatGPT, Claude, Gemini, Perplexity, prompt engineering, AI agents, automation, and more.
 
-Streaks, XP, six ranks, and live duels do the hard part — getting you to come back tomorrow. It is free to start on iOS; Pro unlocks everything for $49.99 a year (about $4.17 a month, with a 7-day free trial) or $9.99 a month. Want a 2-minute baseline first? Take the free AI IQ test.
+Streaks, XP, 16 ranks, and timed duels do the hard part — getting you to come back tomorrow. It is free to start on iOS; Pro unlocks everything for $49.99 a year (about $4.17 a month, with a 7-day free trial) or $9.99 a month. Want a 2-minute baseline first? Take the free AI IQ test.
 
 ## FAQ
 
@@ -78,4 +78,4 @@ For most people, yes — because the deciding factor is whether you keep going. 
 
 ### Is there an app for learning AI in 5 minutes a day?
 
-Yes — Iro AI. It is a gamified iPhone app with 5-minute lessons, a Prompt Lab, streaks, XP, ranks, and live duels, built specifically to make daily AI practice a habit. Free to start on iOS.
+Yes — Iro AI. It is a gamified iPhone app with 5-minute lessons, a Prompt Lab, streaks, XP, ranks, and timed duels, built specifically to make daily AI practice a habit. Free to start on iOS.

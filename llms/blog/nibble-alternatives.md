@@ -29,7 +29,7 @@ pillar: "ai-fluency"
 - Five minutes a day is about thirty hours a year. That is enough to get genuinely good at something narrow, and nowhere near enough to get good at everything.
 - Which is why the subject you choose matters more than the app you choose. Spread thirty hours across twelve topics and you get thirty hours of trivia.
 - Reading-shaped and doing-shaped sessions compound differently. Practice with feedback is what converts time into capability.
-- Iro AI spends the whole thirty hours on one subject: using AI tools well, across 29 curated paths, 477 lessons and 2,700+ exercises.
+- Iro AI spends the whole thirty hours on one subject: using AI tools well, across 29 curated paths, 477 lessons and 3,000+ exercises.
 
 ## The best Nibble alternatives
 
@@ -67,7 +67,7 @@ What we could verify, and an honest blank where we could not.
 | App | Best for | What you get | Free tier | Platforms |
 | --- | --- | --- | --- | --- |
 | Nibble | Bite-size general knowledge | Short microlearning sessions across topics | Not verified by us | Not verified by us |
-| Iro AI _(ours)_ | Using AI tools well | 29 curated paths, 477 lessons, 2,700+ exercises across 24 exercise types | Every path open, paced by a Battery that gives a lesson a day and recharges overnight | iOS and a free web app with no signup. Android in development. |
+| Iro AI _(ours)_ | Using AI tools well | 29 curated paths, 477 lessons, 3,000+ exercises across 24 exercise types | Every path open, paced by a Battery that gives a lesson a day and recharges overnight | iOS and a free web app with no signup. Android in development. |
 | Brilliant | Maths, logic, CS foundations | Curated interactive problem sets | Not verified by us | iOS, Android, web |
 | Khan Academy | Academic foundations | Curated courses and exercises, from a non-profit | Free, with no paid tier | iOS, Android, web |
 
@@ -77,11 +77,11 @@ What we could verify, and an honest blank where we could not.
 
 ## Where Iro AI fits, and where it does not
 
-**Iro is the version of this bet that concentrates the thirty hours.** Its curated library is about using AI tools well, across 29 paths covering ChatGPT, Claude, Gemini, Perplexity, prompt engineering, agents and automation: 477 lessons and 2,700+ exercises across 24 exercise types.
+**Iro is the version of this bet that concentrates the thirty hours.** Its curated library is about using AI tools well, across 29 paths covering ChatGPT, Claude, Gemini, Perplexity, prompt engineering, agents and automation: 477 lessons and 3,000+ exercises across 24 exercise types.
 
-And the sessions are doing-shaped. The Prompt Lab has you write an actual prompt and then tells you which part was weak, scoring clarity, specificity, constraints and context. Other exercises have you catch a fabricated citation in an answer that reads perfectly well, or pick between two tools and learn why the other one loses. Duels run the same material against another learner matched by rating, which is a different kind of pressure and a good test of whether you actually know it.
+And the sessions are doing-shaped. The Prompt Lab has you write an actual prompt and then tells you which part was weak, scoring clarity, specificity, constraints and context. Other exercises have you catch a fabricated citation in an answer that reads perfectly well, or pick between two tools and learn why the other one loses. Duels run the same material against a skill-matched opponent, which is a different kind of pressure and a good test of whether you actually know it.
 
-Streaks, XP and six ranks do the same habit work as any app in this category. The Battery paces new lessons at one a day and recharges overnight, so a missed day costs a day rather than a number.
+Streaks, XP and 16 ranks do the same habit work as any app in this category. The Battery paces new lessons at one a day and recharges overnight, so a missed day costs a day rather than a number.
 
 - **You want a curated catalogue written by people.** Iro is not limited to AI &mdash; Custom Paths (a Pro feature) generate a path on any topic you name, from a typed subject, a link, a screenshot or a PDF &mdash; but generated breadth is not the same as a general app's editorially written library, and grazing for pleasure is a legitimate reason to prefer one.
 - **You are on Android.** Iro is iOS plus a free web app that needs no signup; Android is in development with a waitlist on the home page.
@@ -92,7 +92,7 @@ Open [app.tryiro.com](https://app.tryiro.com) and do one lesson. Two minutes tel
 
 **What is the best Nibble alternative?**
 
-Pick by subject rather than by app, because the format barely differs across the category. For using AI tools well, Iro AI: 29 curated paths, 477 lessons and 2,700+ hands-on exercises. For maths, logic and computer science, Brilliant. For academic foundations at no cost, Khan Academy. If you want broad general knowledge for enjoyment, staying in the general microlearning category is a reasonable answer.
+Pick by subject rather than by app, because the format barely differs across the category. For using AI tools well, Iro AI: 29 curated paths, 477 lessons and 3,000+ hands-on exercises. For maths, logic and computer science, Brilliant. For academic foundations at no cost, Khan Academy. If you want broad general knowledge for enjoyment, staying in the general microlearning category is a reasonable answer.
 
 **Is Nibble free?**
 
@@ -108,7 +108,7 @@ Because the streak measures attendance, not learning. If the fastest way to keep
 
 **How is Iro AI different from a general microlearning app?**
 
-Scope and session shape. Iro's curated library covers using AI tools in depth: 29 paths and 2,700+ exercises across 24 exercise types, with Custom Paths (a Pro feature) generate a path on any topic you name, from a typed subject, a link, a screenshot or a PDF for anything else. And the sessions ask you to do things rather than read them, with a Prompt Lab that grades prompts you write on clarity, specificity, constraints and context, plus head-to-head duels matched by rating. It runs on iOS and as a free web app at app.tryiro.com with no signup.
+Scope and session shape. Iro's curated library covers using AI tools in depth: 29 paths and 3,000+ exercises across 24 exercise types, with Custom Paths (a Pro feature) generate a path on any topic you name, from a typed subject, a link, a screenshot or a PDF for anything else. And the sessions ask you to do things rather than read them, with a Prompt Lab that grades prompts you write on clarity, specificity, constraints and context, plus head-to-head duels matched by rating. It runs on iOS and as a free web app at app.tryiro.com with no signup.
 
 ## Read next
 

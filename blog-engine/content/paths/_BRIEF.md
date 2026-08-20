@@ -21,49 +21,8 @@ its exact topic.
   feedback; 24 exercise types; **Ask Iro** (a personal AI coach — chat and
   voice); **Custom Paths** (generate a learning path on almost any topic you
   type in); shareable certificates; 29 built-in learning paths; 477 lessons;
-  2,700+ exercises. **Do NOT invent features that aren't in this list.**
-  *Where 2,700+ comes from (verified against the app repo, Aug 2026): 2,271
-  lesson exercises + 165 duel pool + 187 weekly briefings + 140 daily
-  challenges + 38 onboarding = 2,801, floored to 2,700+. Counting lesson
-  exercises alone gives 2,271, so do not "correct" the figure downward
-  without counting all five pools.*
-- **Platform:** iOS now. Android is **in development** — users can join the
-  Android waitlist on the home page. Iro also runs in any browser at
-  **app.tryiro.com**. NEVER claim there is an Android app. NEVER touch/expand
-  Android messaging beyond "in development + waitlist."
-- **Pricing:** Free to start. **Every learning path is open on the free tier**,
-  paced by a **Battery**: one Battery Charge a day, spent when you start a new
-  path lesson, recharging overnight. Earn extra charges from the Daily
-  Challenge (+1 a day), by inviting a friend (+1 a week), or with 300 gems
-  (once a day). Banked charges cap at 2 and survive overnight; the daily charge
-  does not carry over. Replays, review sessions, weekly AI news quizzes, the
-  Daily Challenge and onboarding never use a charge. Free also includes the
-  Daily Challenge, weekly AI news briefings, a taste of Ask Iro (10 lifetime
-  starter credits, then 1 question a day), and all streaks, XP and ranks. Pro is **$49.99 a year** (about $4.17 a
-  month) with a **7-day free trial**, or **$9.99 a month**. Cancel anytime.
-  Pro is unlimited lessons, the **Prompt Lab**, the **Image Lab**, **AI
-  Duels**, the full prompt library, unlimited Ask Iro, unlimited Custom Paths
-  and community paths, and certificate claiming.
-- **Free/Pro rule:** NEVER give free users an allowance on Prompt Lab, Image
-  Lab or Duels. Those are Pro only. NEVER say Pro "unlocks lessons" (every
-  lesson in every path is already open to free users; the Battery limits how
-  many NEW lessons a day, not which ones). Say Pro "is unlimited lessons" or "learn as fast as you want."
-  Certificates are **earned free, claimed with Pro**. "Free taste" applies to
-  **Ask Iro only**.
-- **Battery copy rule:** always "Battery" or "Battery Charge", never hearts,
-  lives, energy or Focus. Frame it as a recharging resource, never as
-  punishment: mistakes never cost a charge, and you always finish a lesson you
-  started. Never call the free tier unlimited learning.
-- **"Free" rule — RETRACTED 2026-08-18, DO NOT FOLLOW THE OLD VERSION.** This
-  rule used to say the web app had a paywall and must be referred to neutrally.
-  That is wrong: **app.tryiro.com is free and needs no signup.** The old rule
-  produced 26 instances of "Prefer your desktop? Iro also runs in your browser",
-  which sells a free no-signup product as a convenience for desktop users.
-  Awaiting confirmation of the exact free/Pro shape on web before rewriting;
-  until then, do not write new copy that implies the web app is limited or
-  paid, and do not repeat the "neutral mention" pattern.
-- **Tone:** confident, plain-spoken, a little bold. No hype, no em-dash-free
-  robotic voice, no fake statistics, no invented user quotes or ratings.
+  3,000+ exercises. **Do NOT invent features that aren't in this list.**
+  *Where 3,000+ comes from (verified against the app repo 2026-08-20): curriculum exercises are 2,271; app-wide adds the Daily Challenge pool (140), the Duels pool (163), weekly AI news quizzes (516 and growing ~15/week) and onboarding (~50), for 3,090+ today. Publish "3,000+ interactive exercises" app-wide, or "2,200+ curriculum exercises". The old "2,700+" was wrong in both framings.*
 
 ## GEO rules (this is how we get cited by ChatGPT/Perplexity/AI Overviews)
 - The `tldr.answer` must answer the page's core question in the FIRST sentence,

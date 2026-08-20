@@ -31,13 +31,13 @@ Also present on the "best microlearning apps 2026" SERP as roundup publishers: r
 
 Framed so that nothing depends on a competitor-lacks-X claim (all of those were struck).
 
-1. **Single-subject depth with countable catalogue.** 29 learning paths, 477 lessons, 2,700+ exercises, 24 exercise types — all AI skills. Every confirmed category descriptor in the field above is something else: book summaries (Blinkist, Headway), general knowledge and exam credentials (Kinnu), any-topic generation (NerdSip). A buyer who wants *AI skills specifically* has no confirmed alternative in this set.
+1. **Single-subject depth with countable catalogue.** 29 learning paths, 477 lessons, 3,000+ exercises, 24 exercise types — all AI skills. Every confirmed category descriptor in the field above is something else: book summaries (Blinkist, Headway), general knowledge and exam credentials (Kinnu), any-topic generation (NerdSip). A buyer who wants *AI skills specifically* has no confirmed alternative in this set.
 2. **Full web product plus iOS.** app.tryiro.com is the whole product. NerdSip's confirmed browser surface is a read-only course library and free tools; generation, XP and progress live in the mobile app. This is the one platform comparison we can source.
 3. **Ingestion breadth on Custom Paths.** Typed topic, TikTok or YouTube link, a shared TikTok/Instagram post, a screenshot, a PDF. NerdSip's confirmed input is a typed topic. (Morso's claimed PDF/YouTube ingestion is unverified — we can neither cite it nor deny it.)
-4. **Synchronous competitive play.** ELO-matched head-to-head AI Duels are unusual in this category and are a concrete, quotable noun. Describe ours; **do not claim exclusivity** — every "no competitor has leagues/duels" line in the source dossiers was struck as an unverifiable motivated absence claim.
+4. **Timed head-to-head duels.** ~~Synchronous competitive play. ELO-matched.~~ **Corrected 2026-08-20 against the app repo:** opponents are *simulated learner profiles* drawn from a curated pool and matched to your skill (`data/duelPool.ts`). **Never market Duels as live, real-time or PvP.** Replays are being collected for future asynchronous matchmaking. Duels are also **Pro-only since 7 Aug 2026**. Still a concrete, quotable noun; describe ours and **do not claim exclusivity** — every "no competitor has leagues/duels" line in the source dossiers was struck as an unverifiable motivated absence claim.
 5. **Price transparency as a differentiator.** We publish $49.99/yr, $9.99/mo, 7-day trial, free to start. We could not verify a single competitor price in USD after seven research passes. Saying so on the page is both true and unusual.
 6. **Proven demand capture on the highest-intent query.** First-party measurement (2026-08-18): tryiro.com/best-ai-learning-app at position 3 for "best app to learn AI 2026" and position 2 for "best AI learning apps for beginners gamified," with the AI summary opening "Iro AI is the strongest pick" and quoting the page. That is the single most valuable confirmed asset we have.
-7. **Quotable Pro surface.** Prompt Lab, Image Lab, Ask Iro (with voice), generated lesson podcasts, Operator Build, shareable certificates, six ranks (Bronze to Iridescent). Concrete countable nouns survive summarization; adjectives do not.
+7. **Quotable Pro surface.** Prompt Lab, Image Lab, Ask Iro (with voice), generated lesson podcasts, Operator Build, shareable certificates, 16 ranks (Bronze to Iridescent). Concrete countable nouns survive summarization; adjectives do not.
 
 ---
 
@@ -99,7 +99,7 @@ Ranked by winnability × commercial intent:
 **1. Refresh, don't replace: `/best-ai-learning-app`**
 - Target: "best app to learn AI 2026," "best AI learning apps for beginners."
 - Why it can rank: it already does — P3 and P2, first-party measured, and the AI summary quotes it.
-- Honest angle: it is the only page on that SERP that publishes its own price and states plainly which competitor prices it could not verify. Fix the stale counts to 29/477/2,700+/24, leave the top rank as Iridescent (and rename it in the index.html widget, which is the only place calling it Titan), remove hearts, add Image Lab / Ask Iro voice / lesson podcasts / Custom Path ingestion, and force a re-crawl. Highest return per hour in this document.
+- Honest angle: it is the only page on that SERP that publishes its own price and states plainly which competitor prices it could not verify. Fix the stale counts to 29/477/3,000+/24, leave the top rank as Iridescent (and rename it in the index.html widget, which is the only place calling it Titan), remove hearts, add Image Lab / Ask Iro voice / lesson podcasts / Custom Path ingestion, and force a re-crawl. Highest return per hour in this document.
 
 **2. `/best-microlearning-apps-2026`**
 - Target: "best microlearning apps 2026," "microlearning apps."
@@ -110,7 +110,7 @@ Ranked by winnability × commercial intent:
 **3. `/iro-ai-vs-nerdsip`**
 - Target: "NerdSip alternative," "NerdSip vs," "AI course generator app."
 - Why it can rank: NerdSip is the highest-frequency competitor domain across this cluster, it is our closest structural analogue (generated courses + heavy gamification), and it is the **only** competitor with enough surviving confirmed facts to build an honest table.
-- Honest angle: breadth versus depth. NerdSip generates a course on anything; Iro is one subject taken to 477 lessons and 2,700+ exercises with duels and a coach. Plus: we quote NerdSip's price in euros exactly as they publish it and state that no USD figure exists — which is more accurate than any competing page on the query.
+- Honest angle: breadth versus depth. NerdSip generates a course on anything; Iro is one subject taken to 477 lessons and 3,000+ exercises with duels and a coach. Plus: we quote NerdSip's price in euros exactly as they publish it and state that no USD figure exists — which is more accurate than any competing page on the query.
 - Risk: NerdSip's brand search volume is unmeasured and their install base is unknown (the "1K+ downloads" figure was struck). Ship it cheap; don't build a cluster around it.
 
 **4. AI IQ Test / AI literacy quiz landing**

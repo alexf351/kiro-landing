@@ -29,7 +29,7 @@ pillar: "ai-fluency"
 - The honest answer depends on which job you are hiring the app for: Headway if you want book summaries with a different interface, Iro AI if you want a skill you can use on Monday, Brilliant or Khan Academy for foundations.
 - A summary is a knowledge product. Reading one gives you the argument of a book, which is real value, but it is not the same as practising something until you can do it.
 - If you keep finishing summaries and not changing anything you do, the format is the problem, not your discipline.
-- Iro AI is the closest alternative if the skill you want is using AI well: 29 curated paths, 477 lessons and 2,700+ hands-on exercises, in five-minute sessions.
+- Iro AI is the closest alternative if the skill you want is using AI well: 29 curated paths, 477 lessons and 3,000+ hands-on exercises, in five-minute sessions.
 
 ## The best Blinkist alternatives
 
@@ -53,7 +53,7 @@ Grouped by the job rather than by category, because the category is what people 
 | App | Best for | What you get | Free tier | Platforms |
 | --- | --- | --- | --- | --- |
 | Headway | The same job as Blinkist | Book summaries in text and audio | Not verified by us | Not verified by us |
-| Iro AI _(ours)_ | Using AI tools well | 29 curated paths, 477 lessons, 2,700+ exercises across 24 exercise types | Every path open, paced by a Battery that gives a lesson a day and recharges overnight | iOS and a free web app with no signup. Android in development. |
+| Iro AI _(ours)_ | Using AI tools well | 29 curated paths, 477 lessons, 3,000+ exercises across 24 exercise types | Every path open, paced by a Battery that gives a lesson a day and recharges overnight | iOS and a free web app with no signup. Android in development. |
 | Brilliant | Maths, logic, CS foundations | Curated interactive problem sets | Not verified by us | iOS, Android, web |
 | Khan Academy | Academic foundations | Curated courses and exercises, from a non-profit | Free, with no paid tier | iOS, Android, web |
 
@@ -65,7 +65,7 @@ Grouped by the job rather than by category, because the category is what people 
 
 **Iro is the alternative if the thing you kept reading summaries about was AI.** Same five-minute daily commitment as a summary, but the session is an exercise rather than a chapter: write a prompt and get told which part was weak, spot the hallucination in a plausible answer, pick the right tool for a task and find out why the other one loses.
 
-The structure is a curriculum, not a library. 29 paths across ChatGPT, Claude, Gemini, Perplexity, prompt engineering, agents and automation, with 2,700+ exercises across 24 exercise types. Streaks, XP and six ranks keep the habit going, which is the part Blinkist gets right and most educational apps get wrong.
+The structure is a curriculum, not a library. 29 paths across ChatGPT, Claude, Gemini, Perplexity, prompt engineering, agents and automation, with 3,000+ exercises across 24 exercise types. Streaks, XP and 16 ranks keep the habit going, which is the part Blinkist gets right and most educational apps get wrong.
 
 Two things, said plainly.
 
@@ -98,7 +98,7 @@ They work for what they are: transferring the argument of a book in fifteen minu
 
 **Is Iro AI a Blinkist alternative?**
 
-Only if the subject you care about is AI. Iro is not a summary library; it is a curriculum of 29 paths, 477 lessons and 2,700+ hands-on exercises about using AI tools well, in five-minute sessions with instant feedback. If you want broad coverage across every subject, a summary app is the better fit and Iro is not trying to replace it.
+Only if the subject you care about is AI. Iro is not a summary library; it is a curriculum of 29 paths, 477 lessons and 3,000+ hands-on exercises about using AI tools well, in five-minute sessions with instant feedback. If you want broad coverage across every subject, a summary app is the better fit and Iro is not trying to replace it.
 
 **What should I check before switching subscriptions?**
 

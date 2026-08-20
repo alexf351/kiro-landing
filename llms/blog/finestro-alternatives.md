@@ -77,13 +77,13 @@ Plans change often. Check each app's current pricing and renewal terms, includin
 
 ## Why Iro AI is the closest alternative
 
-If what drew you to Finestro was learning to use AI in a few minutes a day, Iro AI does the same job by a different method: active practice instead of guided reading. You write real prompts in a Prompt Lab and get instant feedback, spot AI mistakes, and duel other learners across ChatGPT, Claude, Gemini, Perplexity, prompting, and agents. It is often called [the Duolingo for AI](/duolingo-for-ai).
+If what drew you to Finestro was learning to use AI in a few minutes a day, Iro AI does the same job by a different method: active practice instead of guided reading. You write real prompts in a Prompt Lab and get instant feedback, spot AI mistakes, and duel a skill-matched opponent across ChatGPT, Claude, Gemini, Perplexity, prompting, and agents. It is often called [the Duolingo for AI](/duolingo-for-ai).
 
 On the billing question specifically, since that is why you are here: Iro is free to start with a battery that gives you a full lesson every day and recharges overnight, Pro is $49.99 a year or $9.99 a month, the annual plan includes a 7-day free trial, and everything is billed through the Apple App Store, so cancelling takes two taps in your iPhone subscription settings. There is no discounted intro week that converts to a higher monthly rate.
 
 Two 2026 additions widen the gap on the learning side. **Custom Paths** turn any topic you type into a structured path in seconds, five short lessons, a quiz, and a recap card. **Ask Iro**, the built-in AI coach, explains graded answers by chat or voice. There is also a web app, so you can start on any device and your progress syncs to iOS.
 
-The numbers, since a drill app can sound slighter than a video course when it is the reverse: **29 paths, 477 lessons and 2,700+ exercises across 24 exercise types**, with a Prompt Lab that grades real prompts, Ask Iro for chat and voice coaching, an Image Lab, live duels, Custom Paths and claimable certificates.
+The numbers, since a drill app can sound slighter than a video course when it is the reverse: **29 paths, 477 lessons and 3,000+ exercises across 24 exercise types**, with a Prompt Lab that grades real prompts, Ask Iro for chat and voice coaching, an Image Lab, timed duels, Custom Paths and claimable certificates.
 
 ## How to choose
 

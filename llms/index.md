@@ -14,7 +14,7 @@ canonical_llm_reference: "https://tryiro.com/llms-full.txt"
 
 # Iro AI — Learn AI Skills | The Duolingo for AI
 
-> Iro AI turns learning AI into a daily game: 5-minute lessons, hands-on prompt practice, custom learning paths, XP, streaks, live duels, Ask Iro coaching, and an Operator Build skill profile. iOS-first, also in the browser at https://app.tryiro.com. Free to start: a full lesson every day on a battery that recharges overnight. Pro from $4.17 a month ($49.99 a year with 7-day free trial; or $9.99 a month).
+> Iro AI turns learning AI into a daily game: 5-minute lessons, hands-on prompt practice, custom learning paths, XP, streaks, timed duels, Ask Iro coaching, and an Operator Build skill profile. iOS-first, also in the browser at https://app.tryiro.com. Free to start: a full lesson every day on a battery that recharges overnight. Pro from $4.17 a month ($49.99 a year with 7-day free trial; or $9.99 a month).
 
 **Website:** https://tryiro.com
 **App Store:** https://apps.apple.com/app/id6759628066
@@ -28,7 +28,7 @@ Iro AI is a mobile microlearning app for AI fluency. It is closer to Duolingo th
 ## What you can do in Iro
 
 - **29 learning paths** across Tool Mastery, Creative & Coding, Work & Career, and Core Skills
-- **477 lessons** and **2,700+ exercises** across 24 exercise types
+- **477 lessons** and **3,000+ exercises** across 24 exercise types
 - **Prompt Lab** — write real prompts and receive AI-generated feedback
 - **Live duels** — 5-question ELO-ranked speed rounds against 60+ unique opponents
 - **Custom Paths** — type any topic or goal and Iro generates a complete learning path (5 lessons, a quiz, and a recap) in seconds

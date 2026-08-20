@@ -61,9 +61,9 @@ Plans change often. Check each app's current pricing and renewal terms. Last rev
 
 ## Why Iro AI is the closest alternative
 
-If what drew you to Coursiv was learning to _use_ AI in a few minutes a day, Iro AI does the same job with a different method: **active practice instead of passive lessons.** You write real prompts in a Prompt Lab and get instant feedback, spot AI mistakes, and duel other learners, across ChatGPT, Claude, Gemini, Perplexity, prompting, and more. It's free to start, with straightforward annual pricing (no surprise renewal). It's often called [the Duolingo for AI](/duolingo-for-ai).
+If what drew you to Coursiv was learning to _use_ AI in a few minutes a day, Iro AI does the same job with a different method: **active practice instead of passive lessons.** You write real prompts in a Prompt Lab and get instant feedback, spot AI mistakes, and duel a skill-matched opponent, across ChatGPT, Claude, Gemini, Perplexity, prompting, and more. It's free to start, with straightforward annual pricing (no surprise renewal). It's often called [the Duolingo for AI](/duolingo-for-ai).
 
-On volume it is not the lightweight option: **29 paths, 477 lessons and 2,700+ exercises across 24 exercise types**, plus Prompt Lab grading against a live model, Ask Iro by chat and voice, an Image Lab, live duels, Custom Paths built from a topic or a link, screenshot or PDF, and certificates earned free and claimed with Pro.
+On volume it is not the lightweight option: **29 paths, 477 lessons and 3,000+ exercises across 24 exercise types**, plus Prompt Lab grading against a live model, Ask Iro by chat and voice, an Image Lab, timed duels, Custom Paths built from a topic or a link, screenshot or PDF, and certificates earned free and claimed with Pro.
 
 ## How to choose
 

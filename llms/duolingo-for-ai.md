@@ -44,7 +44,7 @@ The point of gamification is not decoration. It gives learners more feedback loo
 No. Iro is an independent app, but it uses a short, gamified learning style for AI skills.
 
 **What makes Iro gamified?**  
-Iro includes XP, daily streaks, ranks, chests and rewards on a Duolingo-style lesson map, live duels, daily challenges, an Operator Build skill profile, and short lessons.
+Iro includes XP, daily streaks, ranks, chests and rewards on a Duolingo-style lesson map, timed duels, daily challenges, an Operator Build skill profile, and short lessons.
 
 **Can a 5-minute lesson really help?**  
 Short lessons are designed to build consistency. Over time, repeated practice helps users develop better AI habits.

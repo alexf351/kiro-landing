@@ -49,7 +49,7 @@ We make one of the apps below, so read this with that in mind. It is flagged whe
 
 ## The alternatives, honestly
 
-**Iro AI (ours).** A single-subject app for getting good at using AI: 29 paths, 477 lessons and 2,700+ hands-on exercises across ChatGPT, Claude, Gemini, Perplexity, prompting, agents, automation and AI for specific jobs. You write real prompts and get them graded against a live model, spot hallucinations, and duel other learners. It also builds a course from a topic you type, a TikTok or YouTube link, a shared Instagram post, a screenshot or a PDF, so it covers Wondering's source-material ground too. Free tier with every path open; Pro is $49.99 a year, about $4.17 a month, or $9.99 monthly. That undercuts Wondering Pro, which is $7.50 a month on annual billing, or $90 a year, by roughly 45%. iOS and web, Android in development.
+**Iro AI (ours).** A single-subject app for getting good at using AI: 29 paths, 477 lessons and 3,000+ hands-on exercises across ChatGPT, Claude, Gemini, Perplexity, prompting, agents, automation and AI for specific jobs. You write real prompts and get them graded against a live model, spot hallucinations, and duel a skill-matched opponent. It also builds a course from a topic you type, a TikTok or YouTube link, a shared Instagram post, a screenshot or a PDF, so it covers Wondering's source-material ground too. Free tier with every path open; Pro is $49.99 a year, about $4.17 a month, or $9.99 monthly. That undercuts Wondering Pro, which is $7.50 a month on annual billing, or $90 a year, by roughly 45%. iOS and web, Android in development.
 
 **Brilliant.** The strongest premium alternative for breadth with real interactivity, particularly maths, science, computer science and logic. Much larger catalogue than any new app, genuinely well-made problems rather than explanations with a quiz attached. Weaker if your interests are outside its subject range, and it will not build a course from a document you supply.
 
@@ -65,7 +65,7 @@ Narrow beats broad here, and it is worth being concrete about why.
 
 A general learning app can explain what a context window is, what an agent does and why models hallucinate. That is real knowledge and it is useful. But **using AI well is a performance skill**, closer to writing or negotiating than to trivia. The gap between knowing what a good prompt contains and producing one on a real task under time pressure is exactly the gap that only practice closes.
 
-That is the case for a single-subject app: it can afford to spend 2,700 exercises on one skill, grade the prompts you write rather than test whether you remember a definition, and keep a profile of which of six areas you are weakest in so you know what to train next.
+That is the case for a single-subject app: it can afford to spend thousands of exercises on the skill you came for, grade the prompts you write rather than test whether you remember a definition, and keep a profile of which of six areas you are weakest in so you know what to train next.
 
 If AI is one of ten things you are curious about this year, a general app is the sensible purchase. If it is the thing you want on your CV in six months, buy the specialist.
 

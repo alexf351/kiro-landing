@@ -29,7 +29,7 @@ pillar: "ai-fluency"
 - Ignore feature lists. Four checks decide whether a microlearning app works for you: what a session asks of you, how the content is made, what the free tier actually unlocks, and how it behaves on the day you miss.
 - Generated content is the right answer for breadth and the wrong one for depth. If you want to get good at a specific thing, curated beats generated.
 - The strongest signal is whether the session is reading-shaped or doing-shaped. Everything else follows from that.
-- Iro AI is the pick if the specific thing is using AI: 29 curated paths, 477 lessons and 2,700+ hands-on exercises, five minutes a day.
+- Iro AI is the pick if the specific thing is using AI: 29 curated paths, 477 lessons and 3,000+ hands-on exercises, five minutes a day.
 
 ## The short answer
 
@@ -64,7 +64,7 @@ Same discipline as the rest of this site: we publish what we could verify and ma
 | App | Best for | What you get | Free tier | Platforms |
 | --- | --- | --- | --- | --- |
 | Morso | Microlearning across topics | Microlearning and AI-generated courses | Not verified by us | Not verified by us |
-| Iro AI _(ours)_ | Using AI tools well | 29 curated paths, 477 lessons, 2,700+ exercises across 24 exercise types | Every path open, paced by a Battery that gives a lesson a day and recharges overnight | iOS and a free web app with no signup. Android in development. |
+| Iro AI _(ours)_ | Using AI tools well | 29 curated paths, 477 lessons, 3,000+ exercises across 24 exercise types | Every path open, paced by a Battery that gives a lesson a day and recharges overnight | iOS and a free web app with no signup. Android in development. |
 | Brilliant | Maths, logic, CS foundations | Curated interactive problem sets | Not verified by us | iOS, Android, web |
 | Khan Academy | Academic foundations | Curated courses and exercises, from a non-profit | Free, with no paid tier | iOS, Android, web |
 
@@ -76,7 +76,7 @@ Same discipline as the rest of this site: we publish what we could verify and ma
 
 **Iro is the answer to check one.** The sessions are doing-shaped by construction: the Prompt Lab has you write a real prompt and then scores it on clarity, specificity, constraints and context, telling you which part was weak. Other exercise types have you spot a fabricated citation inside a plausible answer, choose between two tools and find out why one loses, or repair a prompt that is nearly right.
 
-On check two, it is curated: 29 paths, 477 lessons and 2,700+ exercises across 24 exercise types, covering ChatGPT, Claude, Gemini, Perplexity, prompt engineering, agents and automation. Custom Paths exist for generating a path on a topic you name, so the generated format is available; it just sits alongside the curriculum rather than being the whole product.
+On check two, it is curated: 29 paths, 477 lessons and 3,000+ exercises across 24 exercise types, covering ChatGPT, Claude, Gemini, Perplexity, prompt engineering, agents and automation. Custom Paths exist for generating a path on a topic you name, so the generated format is available; it just sits alongside the curriculum rather than being the whole product.
 
 On check three, every path is open from the start and paced by a Battery that gives you a lesson a day and recharges overnight, so the free tier is a real lesson rather than a preview. On check four, the Battery is the answer: missing a day costs you a day, not a number you were emotionally attached to.
 
@@ -89,7 +89,7 @@ The web app at [app.tryiro.com](https://app.tryiro.com) is the fastest way to ru
 
 **What is the best Morso alternative?**
 
-It depends on the subject you want. For using AI tools well, Iro AI: 29 curated paths, 477 lessons and 2,700+ hands-on exercises in five-minute sessions. For maths, logic and computer science, Brilliant. For academic foundations at no cost, Khan Academy. If what you specifically wanted was generating a course on any topic you type, that is a different product shape and NerdSip is the closer comparison.
+It depends on the subject you want. For using AI tools well, Iro AI: 29 curated paths, 477 lessons and 3,000+ hands-on exercises in five-minute sessions. For maths, logic and computer science, Brilliant. For academic foundations at no cost, Khan Academy. If what you specifically wanted was generating a course on any topic you type, that is a different product shape and NerdSip is the closer comparison.
 
 **Is Morso free?**
 
@@ -105,7 +105,7 @@ Not worse, different. Generated content is unbeatable for breadth: you can get a
 
 **Is Iro AI a microlearning app?**
 
-Yes, in format: five-minute daily sessions, streaks, XP and six ranks. Its curated library is narrower than most, covering using AI tools well across 29 paths and 2,700+ exercises, while Custom Paths (a Pro feature) generate a path on any topic you name, from a typed subject, a link, a screenshot or a PDF. That narrowness is the point. It also runs as a free web app at app.tryiro.com with no signup, so you can judge the format in about two minutes.
+Yes, in format: five-minute daily sessions, streaks, XP and 16 ranks. Its curated library is narrower than most, covering using AI tools well across 29 paths and 3,000+ exercises, while Custom Paths (a Pro feature) generate a path on any topic you name, from a typed subject, a link, a screenshot or a PDF. That narrowness is the point. It also runs as a free web app at app.tryiro.com with no signup, so you can judge the format in about two minutes.
 
 ## Read next
 

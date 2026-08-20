@@ -373,7 +373,7 @@ Not to set it up. To find out what it holds.
 **Why this specific check:** the AI summary for "best AI learning apps for
 beginners gamified" describes Iro as having **18 learning paths**, and a
 research agent working only from search results came back with "20 paths, 375
-lessons, 2,000+ exercises". It has been 29 / 477 / 2,700+ since 3.06.
+lessons, 2,000+ exercises". It has been 29 / 477 / 3,000+ since 3.06.
 
 Part of that was our fault and is now fixed: the *Direct answer for AI
 overviews* block in `llms.txt` said 25 paths until last night. The rest is a

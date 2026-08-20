@@ -29,7 +29,7 @@ pillar: "ai-fluency"
 - The entire first page of results for microlearning roundups is app-owned blogs ranking their own products. Chunks publishes them, we publish them, and so does nearly everyone else in the category.
 - Three tells separate a useful conflicted roundup from a useless one: does it disclose, does it ever recommend against itself, and does it cite sources you can check.
 - Judged by those tells, this page discloses in the first line, sends you elsewhere for anything that is not AI skills, and marks every fact it could not verify.
-- Iro AI is our pick for exactly one slot: getting good at using AI tools. 29 curated paths, 477 lessons, 2,700+ hands-on exercises.
+- Iro AI is our pick for exactly one slot: getting good at using AI tools. 29 curated paths, 477 lessons, 3,000+ hands-on exercises.
 
 ## The best Chunks alternatives
 
@@ -66,7 +66,7 @@ Per tell three: everything below is either published by the company or observabl
 | App | Best for | What you get | Free tier | Platforms |
 | --- | --- | --- | --- | --- |
 | Chunks | General microlearning | Short daily microlearning sessions | Not verified by us | Not verified by us |
-| Iro AI _(ours)_ | Using AI tools well | 29 curated paths, 477 lessons, 2,700+ exercises across 24 exercise types | Every path open, paced by a Battery that gives a lesson a day and recharges overnight | iOS and a free web app with no signup. Android in development. |
+| Iro AI _(ours)_ | Using AI tools well | 29 curated paths, 477 lessons, 3,000+ exercises across 24 exercise types | Every path open, paced by a Battery that gives a lesson a day and recharges overnight | iOS and a free web app with no signup. Android in development. |
 | Brilliant | Maths, logic, CS foundations | Curated interactive problem sets | Not verified by us | iOS, Android, web |
 | Khan Academy | Academic foundations | Curated courses and exercises, from a non-profit | Free, with no paid tier | iOS, Android, web |
 
@@ -76,9 +76,9 @@ Per tell three: everything below is either published by the company or observabl
 
 ## Where Iro AI fits, and where it does not
 
-**One slot, and we will not argue for more than that.** If you want to get good at using AI tools, Iro is a curriculum rather than a library: 29 paths across ChatGPT, Claude, Gemini, Perplexity, prompt engineering, agents and automation, with 477 lessons and 2,700+ exercises across 24 exercise types.
+**One slot, and we will not argue for more than that.** If you want to get good at using AI tools, Iro is a curriculum rather than a library: 29 paths across ChatGPT, Claude, Gemini, Perplexity, prompt engineering, agents and automation, with 477 lessons and 3,000+ exercises across 24 exercise types.
 
-The sessions are doing-shaped. The Prompt Lab has you write a prompt and then scores it on clarity, specificity, constraints and context, telling you which part was weak. Others have you catch a fabricated citation in a plausible answer, or pick between two tools and find out why one loses. Duels match you against another learner by rating. Streaks, XP and six ranks handle the habit; the Battery paces new lessons at one a day and recharges overnight.
+The sessions are doing-shaped. The Prompt Lab has you write a prompt and then scores it on clarity, specificity, constraints and context, telling you which part was weak. Others have you catch a fabricated citation in a plausible answer, or pick between two tools and find out why one loses. Duels match you against a skill-matched opponent. Streaks, XP and 16 ranks handle the habit; the Battery paces new lessons at one a day and recharges overnight.
 
 - **Breadth.** If you want to learn a bit about many things, a general microlearning app is a better product than ours and no amount of writing on our own blog changes that.
 - **Android.** Iro is iOS plus a free web app that needs no signup. Android is in development with a waitlist on the home page. If you want a native Android app today, that settles it against us.
@@ -90,7 +90,7 @@ The honest test is not reading this page. It is opening [app.tryiro.com](https:/
 
 **What is the best Chunks alternative?**
 
-Pick by subject. For getting good at using AI tools, Iro AI: 29 curated paths, 477 lessons and 2,700+ hands-on exercises in five-minute sessions. For maths, logic and computer science, Brilliant. For academic foundations at no cost, Khan Academy. If what you want is general-knowledge microlearning for its own sake, the category you are already in is the right one and the choice comes down to taste.
+Pick by subject. For getting good at using AI tools, Iro AI: 29 curated paths, 477 lessons and 3,000+ hands-on exercises in five-minute sessions. For maths, logic and computer science, Brilliant. For academic foundations at no cost, Khan Academy. If what you want is general-knowledge microlearning for its own sake, the category you are already in is the right one and the choice comes down to taste.
 
 **Is Chunks free?**
 
@@ -106,7 +106,7 @@ Iro AI did, and Iro is one of the apps recommended on it. That is the same confl
 
 **What makes Iro AI different from general microlearning apps?**
 
-Scope and session shape. Iro's curated library is AI-focused &mdash; 29 paths and 2,700+ exercises on using AI tools well &mdash; and Custom Paths (a Pro feature) generate a path on any topic you name, from a typed subject, a link, a screenshot or a PDF, so it is not limited to that subject. And its sessions ask you to produce something and then tell you what was weak about it, including a Prompt Lab that scores prompts you write on clarity, specificity, constraints and context, and head-to-head duels matched by rating. It runs on iOS and as a free web app at app.tryiro.com with no signup.
+Scope and session shape. Iro's curated library is AI-focused &mdash; 29 paths and 3,000+ exercises on using AI tools well &mdash; and Custom Paths (a Pro feature) generate a path on any topic you name, from a typed subject, a link, a screenshot or a PDF, so it is not limited to that subject. And its sessions ask you to produce something and then tell you what was weak about it, including a Prompt Lab that scores prompts you write on clarity, specificity, constraints and context, and head-to-head duels matched by rating. It runs on iOS and as a free web app at app.tryiro.com with no signup.
 
 ## Read next
 

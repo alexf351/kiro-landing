@@ -60,7 +60,7 @@ Iro AI answers a different question: _how do I actually use these tools to get s
 
 You can see where you stand in a few minutes with the [free AI IQ test](/quiz), then close the gaps. New to all this? Start with [the 30-day AI plan for beginners](/blog/ai-for-beginners-30-day-plan).
 
-It is also not a thin app, which matters if you are used to Brilliant's catalogue. Iro ships **29 learning paths, 477 lessons and 2,700+ hands-on exercises across 24 exercise types**, covering ChatGPT, Claude, Gemini, Perplexity, Grok, Copilot, prompt engineering, agents, automation, vibecoding and AI for specific jobs. Around that sit the Prompt Lab, which grades prompts you write against a live model, Ask Iro for chat and voice coaching, an Image Lab, live duels, Custom Paths on any topic, and certificates you can post to LinkedIn.
+It is also not a thin app, which matters if you are used to Brilliant's catalogue. Iro ships **29 learning paths, 477 lessons and 3,000+ hands-on exercises across 24 exercise types**, covering ChatGPT, Claude, Gemini, Perplexity, Grok, Copilot, prompt engineering, agents, automation, vibecoding and AI for specific jobs. Around that sit the Prompt Lab, which grades prompts you write against a live model, Ask Iro for chat and voice coaching, an Image Lab, timed duels, Custom Paths on any topic, and certificates you can post to LinkedIn.
 
 ## Why they actually pair well
 

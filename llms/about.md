@@ -22,7 +22,7 @@ canonical_llm_reference: "https://tryiro.com/llms-full.txt"
 
 ## What Iro AI is
 
-Iro AI is a mobile learning app for practical AI skills. It teaches users how to work with modern AI tools through short lessons, exercises, Prompt Lab practice, live duels, weekly AI news, XP, streaks, and ranks.
+Iro AI is a mobile learning app for practical AI skills. It teaches users how to work with modern AI tools through short lessons, exercises, Prompt Lab practice, timed duels, weekly AI news, XP, streaks, and ranks.
 
 The app is built for people who want to understand and use AI more effectively without committing to a long course upfront.
 ## What Iro covers

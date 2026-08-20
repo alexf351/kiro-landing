@@ -28,7 +28,7 @@ pillar: "ai-fluency"
 ## Key takeaways
 
 - Duolingo works because of four things (active recall, daily streaks, bite-size lessons, and instant feedback), and the same loop applies cleanly to AI skills.
-- The closest thing to a Duolingo for AI today is Iro AI: streaks, XP, six ranks, head-to-head duels, and 5-minute lessons where you write real prompts and get feedback.
+- The closest thing to a Duolingo for AI today is Iro AI: streaks, XP, 16 ranks, head-to-head duels, and 5-minute lessons where you write real prompts and get feedback.
 - Course-challenge apps and general gamified apps (like Brilliant) borrow parts of the model, but few make you actively practice the AI tools you use.
 - Duolingo itself does not teach AI: this piece is about apps that apply its habit-forming model to AI skills.
 
@@ -67,7 +67,7 @@ Not everything with a streak counter will actually teach you. Four things separa
 
 Here are the honest options, ordered from closest-to-Duolingo to furthest.
 
-[Iro AI](/best-ai-learning-app) is built to be exactly this, and is often called [the Duolingo for AI](/duolingo-for-ai). You keep a streak, earn XP, climb six ranks from Bronze to Iridescent, and can go head-to-head in duels against other learners. Lessons run about five minutes each. The difference from a quiz app is the **Prompt Lab**, where you write real prompts and get specific feedback on what made them work or fail. An **Ask Iro** coach explains anything you're stuck on by chat or voice, and **Custom Paths** generate a structured path on almost any topic you type in. It's free to start on iOS or in the browser at [app.tryiro.com](https://app.tryiro.com), and Pro is one price: $49.99 a year (about $4.17 a month) with a 7-day free trial.
+[Iro AI](/best-ai-learning-app) is built to be exactly this, and is often called [the Duolingo for AI](/duolingo-for-ai). You keep a streak, earn XP, climb 16 ranks from Bronze III to Iridescent, and can go head-to-head in duels against other learners. Lessons run about five minutes each. The difference from a quiz app is the **Prompt Lab**, where you write real prompts and get specific feedback on what made them work or fail. An **Ask Iro** coach explains anything you're stuck on by chat or voice, and **Custom Paths** generate a structured path on almost any topic you type in. It's free to start on iOS or in the browser at [app.tryiro.com](https://app.tryiro.com), and Pro is one price: $49.99 a year (about $4.17 a month) with a 7-day free trial.
 
 Apps like Coursiv borrow the gamified feel (a daily streak, a 28-day challenge to complete), but the underlying unit is lesson completion, not active practice. You tick off today's guided lesson rather than write and defend your own prompts. That's better than nothing, and the challenge framing does drive momentum, but ticking a box is closer to watching than doing. If you're weighing these, see our roundup of [Coursiv alternatives](/blog/coursiv-alternatives).
 
@@ -91,7 +91,7 @@ Yes. Iro AI is the closest thing to a Duolingo for AI: it uses the same model (d
 
 **What apps are like Duolingo but for AI?**
 
-The most Duolingo-like option is Iro AI, with streaks, XP, six ranks, head-to-head duels, and five-minute practice lessons. Course-challenge apps like Coursiv borrow the streak-and-challenge feel but center on lesson completion rather than active practice. Brilliant is gamified and hands-on but teaches math and computer-science foundations, not AI tools specifically. Duolingo itself does not teach AI.
+The most Duolingo-like option is Iro AI, with streaks, XP, 16 ranks, head-to-head duels, and five-minute practice lessons. Course-challenge apps like Coursiv borrow the streak-and-challenge feel but center on lesson completion rather than active practice. Brilliant is gamified and hands-on but teaches math and computer-science foundations, not AI tools specifically. Duolingo itself does not teach AI.
 
 **Does gamified learning actually work for AI?**
 

@@ -10,7 +10,7 @@
     "Iro grades the work. You write real prompts and get feedback on them, which is a different activity from reading a well-made lesson.",
     "Annual against annual, Wondering Pro is about 80% more than Iro Pro, $90 a year against $49.99, and the $7.50 monthly figure is a founding rate rather than the standing price.",
     "Iro also generates a path on any topic, so if that feature is what attracts you, compare the two directly rather than assuming only one has it.",
-    "Both gamify, differently. Wondering has streaks including a friend streak we do not have; Iro adds XP, ranks, live duels and an evolving mascot."
+    "Both gamify, differently. Wondering has streaks including a friend streak we do not have; Iro adds XP, ranks, timed duels and an evolving mascot."
   ],
   "description": "An honest comparison of Iro AI and Wondering: what each one is built for, where Wondering's any-topic personalisation wins, where graded practice matters more, and how the pricing compares.",
   "disclosure": true,
@@ -83,7 +83,7 @@
     {
       "id": "iro",
       "heading": "What Iro does",
-      "html": "<p>Iro AI is narrow on purpose. It teaches one subject, using AI, and goes deep on it: 29 learning paths, 477 lessons and 2,700+ hands-on exercises across ChatGPT, Claude, Gemini, Perplexity, prompt engineering, agents, automation, vibecoding and AI for specific jobs.</p><p>The mechanic is different too. Iro is built around <strong>doing the thing and being marked on it</strong>. You write real prompts in the Prompt Lab and get them graded, judge whether a model's output is good, spot hallucinations, and duel other learners on timed questions. Streaks, XP and ranks hold the daily habit together, and a visible skill profile shows which of six areas you are weakest in.</p><p>It runs on iOS and in any browser, with Android in development.</p>"
+      "html": "<p>Iro AI is narrow on purpose. It teaches one subject, using AI, and goes deep on it: 29 learning paths, 477 lessons and 3,000+ hands-on exercises across ChatGPT, Claude, Gemini, Perplexity, prompt engineering, agents, automation, vibecoding and AI for specific jobs.</p><p>The mechanic is different too. Iro is built around <strong>doing the thing and being marked on it</strong>. You write real prompts in the Prompt Lab and get them graded, judge whether a model's output is good, spot hallucinations, and duel a skill-matched opponent on timed questions. Streaks, XP and ranks hold the daily habit together, and a visible skill profile shows which of six areas you are weakest in.</p><p>It runs on iOS and in any browser, with Android in development.</p>"
     },
     {
       "id": "overlap",
@@ -134,7 +134,7 @@
     },
     {
       "q": "Which is better for learning AI specifically?",
-      "a": "Iro AI, by design. It is a single-subject app with 29 paths, 477 lessons and 2,700+ exercises on AI tools, prompting, agents and automation, plus a Prompt Lab that grades prompts you write. A general learning app can explain AI concepts well, but it will not put you through graded reps on the skill."
+      "a": "Iro AI, by design. It is a single-subject app with 29 paths, 477 lessons and 3,000+ exercises on AI tools, prompting, agents and automation, plus a Prompt Lab that grades prompts you write. A general learning app can explain AI concepts well, but it will not put you through graded reps on the skill."
     },
     {
       "q": "Which app is more gamified, Wondering or Iro AI?",
