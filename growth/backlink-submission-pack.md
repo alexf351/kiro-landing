@@ -84,7 +84,7 @@ never have asked.
 | PeerPush | 2026-08-19 | **queued** | — | free queue, ~34 days, est. **2026-09-22**. Paid skip was $39; declined, since the paid delta is speed + videos + analytics, not the link. Their own modal says "Every plan includes: Permanent listing link." |
 | Firsto | 2026-08-19 | badge verified, listing **queued** | `nofollow` **accepted** | Badge moved it from the 180-day standard queue (16 Feb 2027) to the priority queue: **launches 18 Sep 2026**. Their terms: *keep the badge online 30 days* — i.e. until **~18 Sep 2026** — to hold the slot. Declined the $19.90 tier, which sells a "Guaranteed DR59+ Dofollow Backlink" rather than speed. |
 | Verified Tools | 2026-08-20 | badge live, listing **under review** | `nofollow` first — **unverified** | Their offer is the Startup Fame trade verbatim: *"Add our badge to your homepage. Once verified, your listing link becomes dofollow."* Their own embed ships `noopener noreferrer` with no nofollow, which is a hint their checker may read `rel` the way Startup Fame's did. Shipped nofollowed per the standing rule; **if verification fails, drop `nofollow` and re-check — that is the known fix, and it is the only thing to change.** Also dropped their `noreferrer`: it strips the Referer header, so they would not see our clicks, and we want that traffic attributed. |
-| TinyLaunch | 2026-08-21 | submitted | — | Free listing, Education & Learning. |
+| TinyLaunch | 2026-08-21 | **scheduled 21 Sep 2026** | — | Confirmed by email same day. Standard (free) launch, Education & Learning. Listing: https://tinylaunch.com/launch/20197-iro-ai — pending review. No badge taken. |
 | LaunchBuck | **skipped** | — | — | Submit form returned "Something went wrong" on repeated attempts 2026-08-21. Not worth chasing: DR 26, and the number that actually decides it is **4% dofollow across 365 linking websites** — roughly 15 domains pass it any equity, so it has little to pass on. Revisit only if it starts showing up as a cited source. |
 | Product Hunt | — | — | — | the only one in this row with a real audience; needs launch prep |
 | Bob's Tech Review | **skipped** | — | — | Run by the NerdSip founder. Unlike every other row here, this is a *review someone else writes*, not a listing we control — and that someone sells the closest competing product. Bad trade for the smallest badge in the set. Same call as the standing "do not send the inclusion ask to NerdSip" note in §3. |
@@ -96,6 +96,9 @@ never have asked.
 | **~18 Sep 2026** | Firsto's 30-day badge obligation ends — same day the listing goes live, so the badge stays put until then regardless. |
 | **18 Sep 2026** | Firsto listing goes live (confirmed on activation, 08:00 UTC). |
 | **~22 Sep 2026** | PeerPush listing goes live — grab its badge embed then. |
+| **21 Sep 2026** | TinyLaunch launch day. |
+
+**Three listings land inside five days** (Firsto 18th, TinyLaunch 21st, PeerPush ~22nd). That is the closest thing to a launch moment on the calendar, and it is free. If Product Hunt is going to happen, aiming it at that week compounds the three rather than spending them separately — a PH launch with three fresh listings already live reads better than a cold one.
 
 **When a badge is worth a slot.** The strip caps at four, so every badge now
 displaces another. Decide with these, in order:
