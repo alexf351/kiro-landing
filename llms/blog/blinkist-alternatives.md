@@ -70,7 +70,7 @@ The structure is a curriculum, not a library. 29 paths across ChatGPT, Claude, G
 Two things, said plainly.
 
 - **Editorially produced range.** Blinkist's library is thousands of books summarised by people. Iro's _curated_ library is AI-focused, though Custom Paths (a Pro feature) generate a path on any topic you name, from a typed subject, a link, a screenshot or a PDF, so breadth is available &mdash; it is generated rather than editorially written. If you specifically want professionally condensed books, that is a real difference.
-- **Passive consumption.** Summaries work while you are driving or washing up, and practice does not. This gap is narrower than it was: Iro's lesson podcasts play any lesson as a two-to-three-minute episode with two hosts talking it through, so a hands-busy slot is no longer dead time. They are a Pro feature, live in the web app with the iOS release following, and a summary library is still the larger audio catalogue. If audio is the _only_ way you will ever learn, that remains a fair reason to stay.
+- **Passive consumption.** Summaries work while you are driving or washing up, and practice does not. This gap is narrower than it was: Iro's lesson podcasts play any lesson as a two-to-three-minute episode with two hosts talking it through, so a hands-busy slot is no longer dead time. They are a Pro feature, live on iOS and the web, and a summary library is still the larger audio catalogue. If audio is the _only_ way you will ever learn, that remains a fair reason to stay.
 
 Iro runs as a free web app at [app.tryiro.com](https://app.tryiro.com) with no signup, so you can see whether the exercise format suits you before installing anything.
 

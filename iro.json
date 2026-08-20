@@ -81,7 +81,7 @@
       "featureList": [
         "29 learning paths across ChatGPT, Claude, Gemini, Perplexity, prompt engineering, AI agents, automation, image/video generation, vibe coding, work, marketing, finance, and more",
         "477 lessons and 3,000+ exercises across 24 exercise types",
-        "Custom Paths (Pro, up to 3 a day): name any topic, or hand Iro a link, a screenshot or a PDF, and it generates a complete learning path (5 lessons, a quiz, and a recap) in seconds — not just AI topics",
+        "Custom Paths (Pro, up to 3 a day and 40 a month): name any topic, or hand Iro a link, a screenshot or a PDF, and it generates a complete learning path (5 lessons, a quiz, and a recap) in seconds — not just AI topics",
         "Ask Iro: built-in AI coach with chat and voice modes",
         "Prompt Lab with AI-generated feedback",
         "Timed AI duels against a skill-matched opponent from a curated pool",
@@ -92,7 +92,7 @@
         "Free: every path open, one full lesson a day on a battery that recharges overnight. Pro is unlimited lessons, Prompt Lab, Image Lab, duels, Custom and Community Paths, lesson podcasts and certificate claiming",
         "A Certificate of Completion for each of the 29 paths, each with its own credential ID: earned free, claimed with your name on Pro",
         "Community Paths (Pro): a library of learning paths built by other learners; browsing and liking are free",
-        "Lesson podcasts (Pro): any lesson as a 2-3 minute episode with two hosts, Sam and Ava. Live in the web app; iOS release following",
+        "Lesson podcasts (Pro): any lesson as a 2-3 minute episode with two hosts, Sam and Ava. Live on iOS and the web",
         "Web app at app.tryiro.com with account sync to iOS",
         "Image Lab: generate and refine images from your own prompts",
         "Turn a TikTok or YouTube link, a shared Instagram post, a screenshot or a PDF into a full interactive learning path"
@@ -466,7 +466,7 @@
       },
       {
         "q": "Is Iro AI free?",
-        "a": "Yes. You can use Iro for free with a battery that gives you a full lesson every day and recharges overnight. Every learning path is open on the free tier, across all 24 exercise types. Iro Pro adds unlimited lessons and practice, the Prompt Lab, the Image Lab, AI Duels, Custom Paths (up to 3 a day) and Community Paths, and unlimited Ask Iro guidance. You can start with a 7-day free trial and upgrade only if you want the unlimited experience."
+        "a": "Yes. You can use Iro for free with a battery that gives you a full lesson every day and recharges overnight. Every learning path is open on the free tier, across all 24 exercise types. Iro Pro adds unlimited lessons and practice, the Prompt Lab, the Image Lab, AI Duels, Custom Paths (up to 3 a day and 40 a month) and Community Paths, and unlimited Ask Iro guidance. You can start with a 7-day free trial and upgrade only if you want the unlimited experience."
       },
       {
         "q": "What does Iro AI cost?",

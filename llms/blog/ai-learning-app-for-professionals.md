@@ -87,7 +87,7 @@ Yes, if it teaches applied skills you use on real tasks rather than AI theory. B
 
 **Should professionals use a free or paid AI app?**
 
-Start free. Iro's free tier lets you try lessons across every path, and the free AI IQ test needs no signup. Upgrade to Pro only once the daily habit sticks: it's $49.99 a year (about $4.17 a month) with a 7-day free trial, or $9.99 a month, and unlocks every path, Custom Paths, up to 3 a day, and unlimited Ask Iro.
+Start free. Iro's free tier lets you try lessons across every path, and the free AI IQ test needs no signup. Upgrade to Pro only once the daily habit sticks: it's $49.99 a year (about $4.17 a month) with a 7-day free trial, or $9.99 a month, and unlocks every path, Custom Paths, up to 3 a day and 40 a month, and unlimited Ask Iro.
 
 ## Read next
 

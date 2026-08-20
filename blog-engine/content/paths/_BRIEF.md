@@ -23,11 +23,17 @@ it carries the three things that are deliberately unsettled.*
   lessons, active practice with instant feedback, streaks, XP, **16 ranks across
   six tiers (Bronze III → Diamond I → Iridescent)**, daily challenges, timed
   duels, weekly AI news.
-- **Duels are NOT live play.** Opponents are **simulated learner profiles drawn
-  from a curated pool**, matched to your skill. Write "a skill-matched
-  opponent". **Never** write live, real-time, PvP, "against other learners", or
-  "against another person" — this is a standing product rule, not a style
-  preference.
+- **Duels are NOT live play.** Opponents are **simulated characters drawn from
+  a curated pool**, matched to your skill — stylized personas, not other users
+  playing at the same time. Write "a skill-matched opponent". **Never** write
+  live, real-time, PvP, "against other learners", or "against another person" —
+  this is a standing product rule, not a style preference.
+- **Do not name the celebrity-styled opponents in published copy.** Some
+  personas use real people's names (stylized, not their likenesses). Alex
+  confirmed this is real on 2026-08-21. It stays off public pages anyway: using
+  a person's *name* is the right of publicity just as much as their likeness is,
+  and celebrity-named characters in a paid app is the textbook fact pattern.
+  Describe the roster, not the roster's names, unless Alex says otherwise.
 - **Real features you may reference:**
   - **Prompt Lab** — write a real prompt, scored on clarity, specificity,
     constraints and context (Pro).
@@ -37,11 +43,12 @@ it carries the three things that are deliberately unsettled.*
   - **Ask Iro** — personal AI coach, chat and voice. Free: 10 questions then 1
     a day, forever. Pro: unlimited.
   - **Custom Paths** — generate a path on any topic from a **typed subject, a
-    link, a screenshot or a PDF**. Pro, up to 3 a day.
+    link, a screenshot or a PDF**. Pro, up to 3 a day and 40 a month.
   - **Community Paths** — paths built by other learners. Browsing and liking
     are free; taking one into your library is Pro.
   - **Lesson podcasts** — any lesson as a 2–3 minute episode with two hosts,
-    Sam and Ava. Pro. See the open-items note for how to frame availability.
+    Sam and Ava. Pro, live on iOS and the web. No availability qualifier
+    needed (confirmed 2026-08-21).
   - **Image Lab** — 3 images free, up to 10 a day on Pro (not unlimited).
   - **Prompt library** — 250 prompts across 8 categories (Pro).
   - **Certificates** — one per path, each with a credential ID. **Earned free**
@@ -226,17 +233,20 @@ by the Battery, plus the full web app with no signup.
 
 ---
 
-## Product-truth open items (2026-08-20)
+## Product-truth open items (updated 2026-08-21)
 
-- **Custom Paths monthly cap: unconfirmed.** The app-repo brief said 3/day and
-  20/month. Alex doubts the monthly figure and is checking. **Publish "up to 3
-  a day" only** until confirmed — the monthly number is currently absent from
-  every surface on purpose. Do not reinstate it from the brief alone.
-- **Lesson podcasts: live in the web app, iOS shortly.** Two hosts, Sam and
-  Ava, roughly two to three minutes, Pro. Alex confirmed 2026-08-20 that it is
-  real and live at app.tryiro.com but not yet in the App Store build. Publish
-  it as live *in the web app* with iOS following — that is both accurate today
-  and how he wants it framed. Drop the web-app qualifier once iOS ships.
+Two of the three below are now closed. Kept rather than deleted, because the
+history is what stops the old numbers coming back.
+
+- **Custom Paths cap: SETTLED — 3 a day and 40 a month.** Alex confirmed the
+  monthly figure on 2026-08-21. The app-repo brief's 20/month was wrong; his
+  doubt about it was correct. Both numbers now publish together, since "3 a
+  day" alone reads as ~90 a month and overstates it.
+- **Lesson podcasts: SETTLED — live on iOS and the web.** Two hosts, Sam and
+  Ava, roughly two to three minutes, Pro. Alex confirmed on 2026-08-21 that the
+  App Store build is close enough to treat as live and asked that we not carry
+  a qualifier we would only have to remove again. Every "in the web app, iOS
+  shortly" hedge has been dropped.
 - **Pro Pass: do not mention, ever.** A 3-day streak earns 48 hours of Pro.
   Real, verified in the app repo, and Alex's explicit decision is that it stays
   off the site — publishing "3-day streak = free Pro" invites gaming. Zero
