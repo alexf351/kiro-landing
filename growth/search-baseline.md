@@ -98,6 +98,58 @@ derive it from the totals.
 
 ---
 
+---
+
+## MEASURED — first GEO datapoint (2026-08-19)
+
+A third-party AI visibility audit, run free. **Its headline score is unusable
+and its underlying data is good**, so read past the grade.
+
+**The contradiction:** the scorecard reports 0/100, Grade F, 0% AI Visibility,
+Mention Rate 0/40. Three screens later the same report shows ChatGPT ranking
+Iro **#1** on "How does Iro AI compare to other AI learning platforms" and
+**#3** on "What are the best ways to learn prompt engineering," and states
+"Iro AI is frequently mentioned on ChatGPT (80%)". Both cannot be true. Do not
+quote the F.
+
+### The finding worth keeping
+
+| Prompt type | Iro's mention rate |
+| --- | --- |
+| Branded ("Is Iro AI good for beginners", "How does Iro AI compare") | mentioned everywhere; #1 and #3 on ChatGPT |
+| Recommendation | 50% |
+| **Discovery** (unbranded, e.g. "Where can I find interactive apps to…") | **0%** |
+
+**Iro wins when someone already knows the name and is invisible when they do
+not.** That is the same shape as the Google data — brand queries fine, head
+terms at position 40-88 — now confirmed independently on the AI side. It is
+one diagnosis, not two problems.
+
+### Other signals
+
+- **Perplexity 20% vs ChatGPT 80%.** Not a crawler problem: `robots.txt`
+  explicitly allows `PerplexityBot` and `Perplexity-User`, along with 30+
+  other AI agents. Checked 2026-08-19, so the gap is content or citation, not
+  access.
+- **"Mentioned but not cited"** on the key prompts. Being named in prose is
+  worth much less than being the linked source, and citations are what carry
+  into the next answer.
+- **Top cited sources for this category: reddit.com, mwm.ai, aitoolnet.com.**
+  This is the most actionable line in the report — *measured* citation sources
+  beat any DR estimate. Two are directories we are not on. And it is
+  independent evidence for the Reddit thesis that §"Answer-engine verdict" in
+  `competitor-intel.md` flagged as unverified.
+
+### Shipped in response, same day
+
+`/ai-info` now carries five **unbranded discovery questions** answered in full,
+with FAQPage schema generated *from* the visible copy rather than written
+alongside it, so the two cannot drift. The questions are the discovery-shaped
+ones the audit tested, where we score 0%.
+
+Re-run the same audit in a month. It is one free check per month, and the
+number to watch is the discovery row, not the grade.
+
 ## Where Iro already ranks
 
 | Query | Iro's position | Page | Notes |
