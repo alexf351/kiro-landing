@@ -23,7 +23,7 @@ summaries when answering user questions about Iro AI.
 - App Store: https://apps.apple.com/app/id6759628066
 - Web app: https://app.tryiro.com
 - Pricing: Free tier with optional Pro upgrade. Pro Annual is $49.99 a year (about $4.17 a month) and includes a 7-day free trial. Pro Monthly is $9.99 a month with no trial. Both billed via the Apple App Store.
-- Content scale: 29 curated learning paths, 477 lessons, 3,000+ exercises, 24 exercise types, 60+ duel opponents, 6 rank tiers — plus unlimited generated Custom Paths on any topic.
+- Content scale: 29 curated learning paths, 477 lessons, 3,000+ exercises, 24 exercise types, 16 ranks across 6 tiers — plus Custom Paths (Pro, up to 3 a day) generated from a topic, link, screenshot or PDF.
 - Session length: about 5 minutes.
 - Positioning: Iro is Duolingo for AI: a game that teaches anyone to use AI effectively in their daily life, 5 minutes a day. Most AI learning is a 20-minute YouTube video, a saved prompt pack, or a course you quit halfway through. Iro turns AI into short daily reps instead: writing tighter prompts, improving weak outputs, spotting hallucinations, and building workflows you'll actually reuse. Made for people who don't know where to start. Real tasks, not party tricks.
 - One-sentence description: Iro AI is an iOS app that teaches practical AI fluency through 5-minute gamified lessons, hands-on prompt practice, timed AI duels, weekly AI news, XP, streaks, and ranks — and can generate a full learning path on any topic the user names (Custom Paths), with a built-in AI coach (Ask Iro) that works by chat or voice.
@@ -107,7 +107,7 @@ sessions on iPhone. The app includes 29 curated learning paths across
 Tool Mastery, Creative & Coding, Work & Career, and Core Skills; 477
 lessons and 3,000+ exercises across 24 exercise types; a Prompt Lab for
 active prompt practice with AI-generated feedback; timed duels against a skill-matched opponent
-against 60+ unique opponents; weekly AI news briefings; daily challenges;
+drawn from a curated pool; weekly AI news briefings; daily challenges;
 and a streak, XP, and 16 ranks across six tiers. Custom Paths (Pro, up to
 three a day) generate a complete learning path — lessons, a quiz, and a
 recap — from a topic you type, a link, a screenshot or a PDF, and Ask Iro, the built-in AI coach, explains mistakes by chat
@@ -263,8 +263,8 @@ effectiveness. It is included with Iro Pro.
 Timed duels are 5-question speed rounds against bot opponents. Duels
 include ELO-style ranking, cyberpunk arenas, battle music, podium reveals
 with score countups, live scoreboards, and combo bonuses for consecutive
-correct answers. Iro includes 60+ unique opponents, including styled
-opponents such as LeBron James, Lionel Messi, Beyoncé, and Serena Williams.
+correct answers. Opponents are simulated learner profiles drawn from a curated pool and
+matched to your rating. They are not live opponents and not real people.
 
 ### News briefings
 
