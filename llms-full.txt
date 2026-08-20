@@ -232,9 +232,15 @@ change, so the loop teaches you what actually moves the result. Image Lab is a P
 
 ### Source to course
 
-On Create-a-Path you can paste a link to a TikTok, Instagram or YouTube post, or upload a
-screenshot or a PDF, and Iro builds a full interactive learning path on that
-topic, lessons and exercises included.
+On Create-a-Path you can paste a TikTok, YouTube or Reddit link or any web
+page, share a post straight from TikTok or Instagram with the system share
+sheet, or upload a screenshot or a PDF, and Iro builds a full interactive
+learning path on that topic, lessons and exercises included.
+
+Pasting an Instagram **link** is the one input that will not work: IG links
+are rejected client-side and server-side alike. Sharing the post from
+Instagram works, because the share sheet hands over the image rather than a
+URL, and so does a screenshot.
 
 ### Ask Iro — built-in AI coach (chat and voice)
 

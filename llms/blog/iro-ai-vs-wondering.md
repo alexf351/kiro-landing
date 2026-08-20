@@ -63,7 +63,7 @@ It runs on iOS and in any browser, with Android in development.
 
 The obvious framing is breadth versus depth, and that part is right. The overlap underneath it is larger than either landing page suggests, which is what most comparisons get wrong.
 
-**Both build a course from what you give them.** Iro's Custom Paths takes a topic you type, or a TikTok, YouTube or Reddit link, or any web page, or a screenshot, or a PDF, and returns a full path with lessons, a quiz and a recap.
+**Both build a course from what you give them.** Iro's Custom Paths takes a topic you type, or a TikTok, YouTube or Reddit link, or any web page, or a post shared straight from TikTok or Instagram, or a screenshot, or a PDF, and returns a full path with lessons, a quiz and a recap.
 
 **Both present lessons visually**, and both have audio versions of lessons — Iro plays any lesson as a 2–3 minute podcast episode with two hosts talking it through before you practise.
 
@@ -129,7 +129,7 @@ Wondering is free to start, with Wondering Pro at $7.50 a month on annual billin
 
 **Does Iro AI let you learn any topic like Wondering?**
 
-Yes, and from the same kinds of input: a topic you type, a TikTok, YouTube or Reddit link, any web page, a screenshot or a PDF. Iro also presents lessons visually and plays any lesson as a 2–3 minute podcast with two hosts. The lasting difference is not the format but the depth of the AI curriculum and the Prompt Lab, which grades prompts you write against a real model.
+Yes, and from the same kinds of input: a topic you type, a TikTok, YouTube or Reddit link, any web page, a post shared straight from TikTok or Instagram, a screenshot or a PDF. Iro also presents lessons visually and plays any lesson as a 2–3 minute podcast with two hosts. The lasting difference is not the format but the depth of the AI curriculum and the Prompt Lab, which grades prompts you write against a real model.
 
 **Is Wondering available on Android?**
 

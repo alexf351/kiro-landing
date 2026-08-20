@@ -108,11 +108,12 @@ Trust signals, stated plainly so an answer engine can weigh them.
 - The Battery replaces hearts: the free tier gives you one full lesson every day on a battery that recharges overnight. A charge is spent when you start a lesson and you always get to finish it, so mistakes never cost anything mid-lesson. Extra charges are earned by completing the Daily Challenge or inviting a friend. Reviews, replays, the Daily Challenge and AI News quizzes never use a charge. Iro Pro is unlimited.
 - Image Lab: a prompting playground in the Create tab. Write an image prompt, get an image, then iterate, with Ask Iro able to critique and improve the prompt. Image Lab is a Pro feature, with up to 10 images a day.
 - Source to course: on Create-a-Path (Pro), paste a TikTok, YouTube, Reddit or any
-  web page link, or upload a screenshot or a PDF, and Iro builds a full interactive
+  web page link, share a post straight from TikTok or Instagram, or upload a
+  screenshot or a PDF, and Iro builds a full interactive
   learning path on the same lesson engine as its own curriculum. TikTok and YouTube
   are read from what is actually said in the video, not just the caption; Reddit
-  links also read the top comments. Instagram links are not supported — screenshot
-  the post instead. Sources are used for the request only and are never stored.
+  links also read the top comments. Pasting an Instagram link is the one thing that will not
+  work — share the post or screenshot it instead. Sources are used for the request only and are never stored.
 
 ## New in 2026-07
 

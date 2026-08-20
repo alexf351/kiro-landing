@@ -53,10 +53,20 @@ it carries the three things that are deliberately unsettled.*
     top comments as well as the post — so a generated path is grounded in **what
     was actually said**, not just a caption or a title. Sources are used for the
     request only and are never stored.
-  - **The in-app share sheet is NOT live.** "Share a post straight from
-    TikTok/Instagram" is code-complete but dormant until the next native build.
-    Never publish it as available. The site did, for months, and it told people
-    to do the one thing that fails.
+  - **The in-app share sheet IS live.** "Share a post straight from TikTok or
+    Instagram" works in real builds: `ShareIntentHandler` is mounted in
+    `app/_layout.tsx` and routes a shared URL to `sharedUrl` and a shared image
+    to `sharedImage`, and the app ships its own how-to with an Instagram tab.
+    Publish it. *(I removed this claim on 2026-08-21 believing it dormant — a
+    doc line said "activates in the next eas build" and I trusted it over the
+    code. Alex corrected it; the build had already shipped. Check the wiring,
+    not the changelog prose.)*
+  - **The one input that genuinely fails is an Instagram LINK.** Rejected in
+    `app/post-to-path.tsx` and again in `extract-post/index.ts`, both with
+    "Instagram links can't be read." Sharing *from* Instagram is fine — the
+    share sheet hands over an image, which is the screenshot lane. Keep those
+    two straight: the app deliberately names Instagram on the screenshot card
+    and not on the link field.
   - **Community Paths** — paths built by other learners. Browsing and liking
     are free; taking one into your library is Pro.
   - **Lesson podcasts** — any lesson as a 2–3 minute episode with two hosts,

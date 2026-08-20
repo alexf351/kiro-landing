@@ -60,7 +60,7 @@ Learnova and Iro AI agree that practice matters. The difference is emphasis. Lea
 
 Everything is organized into focused paths, [ChatGPT](/learn-chatgpt), [Claude](/learn-claude), [Gemini](/learn-gemini), and more, and you can start with the [free AI IQ test](/quiz) to find your weak spots first. If you're brand new, the [30-day AI plan](/blog/ai-for-beginners-30-day-plan) is the place to begin.
 
-Practice-first only works if there is enough of it, so here is the volume: **29 paths, 477 lessons and 3,000+ exercises across 24 exercise types**. That covers ChatGPT, Claude, Gemini, Perplexity, Grok, Copilot, prompting, agents, automation and AI for specific jobs. The Prompt Lab grades real prompts against a live model, Ask Iro coaches by chat or voice, and Custom Paths turns any topic, or a TikTok, YouTube or Reddit link, any web page, a screenshot or a PDF, into a path of its own.
+Practice-first only works if there is enough of it, so here is the volume: **29 paths, 477 lessons and 3,000+ exercises across 24 exercise types**. That covers ChatGPT, Claude, Gemini, Perplexity, Grok, Copilot, prompting, agents, automation and AI for specific jobs. The Prompt Lab grades real prompts against a live model, Ask Iro coaches by chat or voice, and Custom Paths turns any topic, or a TikTok, YouTube or Reddit link, any web page, a post shared straight from TikTok or Instagram, a screenshot or a PDF, into a path of its own.
 
 ## Pricing, honestly
 
