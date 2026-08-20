@@ -80,12 +80,28 @@ never have asked.
 | Wired Business | 2026-08-19 | yes | `nofollow` | verified with nofollow intact |
 | Startup Fame | 2026-08-19 | yes | `noopener` only | verifier rejected nofollow |
 | PeerPush | 2026-08-19 | **queued** | — | free queue, ~34 days, est. **2026-09-22**. Paid skip was $39; declined, since the paid delta is speed + videos + analytics, not the link. Their own modal says "Every plan includes: Permanent listing link." |
+| Firsto | 2026-08-19 | badge live, listing **queued** | `nofollow` | Badge moved it from the 180-day standard queue (16 Feb 2027) to the priority queue: **launches 19 Sep 2026**. Their terms: *keep the badge online 30 days* — i.e. until **~18 Sep 2026** — to hold the slot. Declined the $19.90 tier, which sells a "Guaranteed DR59+ Dofollow Backlink" rather than speed. |
 | Product Hunt | — | — | — | the only one in this row with a real audience; needs launch prep |
 | Bob's Tech Review | **skipped** | — | — | Run by the NerdSip founder. Unlike every other row here, this is a *review someone else writes*, not a listing we control — and that someone sells the closest competing product. Bad trade for the smallest badge in the set. Same call as the standing "do not send the inclusion ask to NerdSip" note in §3. |
 
-**When PeerPush goes live (~22 Sept):** grab the badge embed, add it as a
-fourth `<li>` in the `.featured` strip in `index.html`, nofollowed first, then
-verify. No `.reveal`, no `loading="lazy"`.
+### Dates to keep
+
+| Date | What |
+| --- | --- |
+| **~18 Sep 2026** | Firsto's 30-day badge obligation ends. The badge can come out after this without losing the launch slot. |
+| **19 Sep 2026** | Firsto listing goes live. |
+| **~22 Sep 2026** | PeerPush listing goes live — grab its badge embed then. |
+
+**Adding any new badge:** append an `<li>` to the `.featured` strip in
+`index.html`, `rel="nofollow noopener"` first, then verify. No `.reveal`, no
+`loading="lazy"`, and **convert any inline `style="width:…"` the vendor ships
+into `width`/`height` attributes** — inline styles outrank the stylesheet and
+break the row's uniform 44px height. Firsto's embed did exactly this.
+
+**The strip caps at four.** Live now: Wired Business, Startup Fame, Firsto.
+PeerPush makes four in September; Product Hunt would make five, at which point
+the weakest pure directory comes out. Product Hunt is the one with an actual
+audience, so it stays.
 
 Costs declined so far: $29 (Wired Business Pro), $39 (PeerPush Standard), plus
 a 40%-off exit-intent modal on the latter. Every directory in this category
