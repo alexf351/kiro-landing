@@ -423,7 +423,13 @@ nav .wrap{display:flex;align-items:center;justify-content:space-between}
    angled behind it. Advancing shifts each screenshot one phone toward the
    centre rather than swapping the whole composition. */
 .ia-stackvp{position:relative;width:clamp(310px,38vw,480px);max-width:100%;aspect-ratio:var(--vp-ar,100/121);
-  isolation:isolate;touch-action:pan-y}
+  isolation:isolate;touch-action:pan-y;
+  /* The slot -2/+2 phones are opacity:0 but still laid out, and their transform
+     put them ~66px past this box -- enough to make the whole document scroll
+     sideways at 390px. Clip horizontally only: `clip` (not `hidden`) leaves
+     this a non-scrolling box, and overflow-y stays visible so the glow and
+     shadows above and below are untouched. */
+  overflow-x:clip}
 .ia-stackvp::before{content:'';position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);
   width:92%;aspect-ratio:1;border-radius:50%;z-index:0;pointer-events:none;
   background:radial-gradient(circle,rgba(var(--accent-rgb),.13),transparent 64%)}
@@ -872,7 +878,11 @@ nav .wrap{display:flex;align-items:center;justify-content:space-between}
   .rp-flag{margin-left:0}
 }
 /* ===== Ask Iro — AI coach module (design_handoff_ai_coach) ===== */
-section.coach{position:relative;padding:clamp(80px,11vh,140px) 0}
+/* overflow-x:clip because .coach-stage::before is inset -8% horizontally, and
+   at 390px that soft glow reached 8px past the viewport and scrolled the
+   document. Clipping a fading radial gradient at the edge is invisible; the
+   glow's vertical spill is untouched since overflow-y stays visible. */
+section.coach{position:relative;padding:clamp(80px,11vh,140px) 0;overflow-x:clip}
 .coach-grid{display:grid;grid-template-columns:1fr 1.04fr;gap:clamp(40px,5vw,76px);align-items:center;max-width:1080px;margin:0 auto}
 .coach-copy{max-width:480px}
 .coach-mascot{display:block;width:118px;height:auto;margin:0 0 20px;filter:drop-shadow(0 14px 30px rgba(0,0,0,.42))}
@@ -2155,8 +2165,9 @@ document.querySelectorAll('.askai-chip').forEach(function(a){
      fetched. Both made the badges invisible to Startup Fame's checker. -->
 <div class="featured">
   <div class="wrap">
-    <!-- Re-add once there are 3+ badges; with one that self-labels
-         "Featured on", a section label just says it twice.
+    <!-- Deliberately no section label. Two of the four badges self-label
+         "Featured on", so a heading saying it again is redundant even now
+         that the row is full.
          <span class="featured-lab">Featured on</span> -->
     <ul class="featured-row">
       <li>
@@ -2176,6 +2187,13 @@ document.querySelectorAll('.askai-chip').forEach(function(a){
            title="Find Iro AI on Firsto">
           <img src="https://firsto.co/images/badges/find-us-on-firsto.svg" alt="Find Iro AI on Firsto"
                width="111" height="42" decoding="async">
+        </a>
+      </li>
+      <li>
+        <a href="https://www.verifiedtools.info/tools/iro-ai" target="_blank" rel="nofollow noopener"
+           title="Iro AI on Verified Tools">
+          <img src="https://www.verifiedtools.info/badge.svg" alt="Iro AI on Verified Tools"
+               width="200" height="54" decoding="async">
         </a>
       </li>
     </ul>

@@ -83,6 +83,7 @@ never have asked.
 | Startup Fame | 2026-08-19 | yes | `noopener` only | verifier rejected nofollow |
 | PeerPush | 2026-08-19 | **queued** | — | free queue, ~34 days, est. **2026-09-22**. Paid skip was $39; declined, since the paid delta is speed + videos + analytics, not the link. Their own modal says "Every plan includes: Permanent listing link." |
 | Firsto | 2026-08-19 | badge verified, listing **queued** | `nofollow` **accepted** | Badge moved it from the 180-day standard queue (16 Feb 2027) to the priority queue: **launches 18 Sep 2026**. Their terms: *keep the badge online 30 days* — i.e. until **~18 Sep 2026** — to hold the slot. Declined the $19.90 tier, which sells a "Guaranteed DR59+ Dofollow Backlink" rather than speed. |
+| Verified Tools | 2026-08-20 | badge live, listing **under review** | `nofollow` first — **unverified** | Their offer is the Startup Fame trade verbatim: *"Add our badge to your homepage. Once verified, your listing link becomes dofollow."* Their own embed ships `noopener noreferrer` with no nofollow, which is a hint their checker may read `rel` the way Startup Fame's did. Shipped nofollowed per the standing rule; **if verification fails, drop `nofollow` and re-check — that is the known fix, and it is the only thing to change.** Also dropped their `noreferrer`: it strips the Referer header, so they would not see our clicks, and we want that traffic attributed. |
 | Product Hunt | — | — | — | the only one in this row with a real audience; needs launch prep |
 | Bob's Tech Review | **skipped** | — | — | Run by the NerdSip founder. Unlike every other row here, this is a *review someone else writes*, not a listing we control — and that someone sells the closest competing product. Bad trade for the smallest badge in the set. Same call as the standing "do not send the inclusion ask to NerdSip" note in §3. |
 
@@ -100,10 +101,22 @@ never have asked.
 into `width`/`height` attributes** — inline styles outrank the stylesheet and
 break the row's uniform 44px height. Firsto's embed did exactly this.
 
-**The strip caps at four.** Live now: Wired Business, Startup Fame, Firsto.
-PeerPush makes four in September; Product Hunt would make five, at which point
-the weakest pure directory comes out. Product Hunt is the one with an actual
-audience, so it stays.
+**The strip is now at its cap of four.** Live: Wired Business, Startup Fame,
+Firsto, Verified Tools. That means PeerPush (~22 Sep) and Product Hunt are no
+longer additions — each one is a **swap**, and the swap has to be decided
+rather than defaulted.
+
+Order to remove from, worst first, when a slot is needed:
+
+1. **Startup Fame** — the only badge we ship dofollow, because its verifier
+   rejected nofollow. It is the one actually passing equity out of the
+   homepage, so it costs the most to keep.
+2. **Verified Tools** — newest and least proven; drop it if it never verifies.
+3. **Wired Business** — nofollow accepted, so it is cheap to keep.
+4. **Firsto** — contractually pinned until ~18 Sep. Not removable before then
+   without forfeiting the priority slot.
+
+Product Hunt displaces whichever sits highest on that list when it launches.
 
 Costs declined so far: $29 (Wired Business Pro), $39 (PeerPush Standard), plus
 a 40%-off exit-intent modal on the latter. Every directory in this category
@@ -113,9 +126,10 @@ the defense.
 **And the row still has a ceiling.** One or two dofollow reciprocal links is
 unremarkable; plenty of legitimate sites carry badges. A footer full of them,
 all pointing into the same small directory network, is a different picture and
-starts to resemble the pattern the policy describes. **Cap the strip at four** — Wired Business, Startup Fame, PeerPush, Product
-Hunt — **and prefer badges from places with an actual audience** (Product
-Hunt) over pure directories.
+starts to resemble the pattern the policy describes. **Cap the strip at four**
+— and **prefer badges from places with an actual audience** (Product Hunt)
+over pure directories. The removal order above is how that preference gets
+applied when the next listing goes live.
 
 **Also required, and easy to miss:** the badge must be *visible to a
 non-scrolling bot*. Ours initially carried the site's `.reveal` class
