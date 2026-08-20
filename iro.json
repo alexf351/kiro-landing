@@ -95,7 +95,7 @@
         "Lesson podcasts (Pro): any lesson as a 2-3 minute episode with two hosts, Sam and Ava. Live on iOS and the web",
         "Web app at app.tryiro.com with account sync to iOS",
         "Image Lab: generate and refine images from your own prompts",
-        "Turn a TikTok or YouTube link, a shared Instagram post, a screenshot or a PDF into a full interactive learning path"
+        "Turn a TikTok, YouTube or Reddit link, any web page, a screenshot or a PDF into a full interactive learning path (Pro). TikTok and YouTube are read from what is actually said in the video, not just the caption"
       ],
       "offers": [
         {
@@ -592,7 +592,7 @@
       },
       {
         "term": "Video to course",
-        "definition": "On Create-a-Path, paste a TikTok or YouTube link, share a post straight from TikTok or Instagram, or upload a screenshot or PDF, and Iro builds a full interactive learning path on that topic, lessons and exercises included."
+        "definition": "On Create-a-Path you can paste a TikTok, YouTube, Reddit or any web page link, or upload a screenshot or a PDF, and Iro builds a full interactive learning path on the same lesson engine as its own curriculum. For TikTok and YouTube it reads what is actually said in the video rather than just the caption, and for Reddit it reads the top comments too. Instagram links are not supported \u2014 screenshot the post instead. Create-a-Path is a Pro feature."
       }
     ],
     "direct_answer": "Iro AI is a gamified iPhone app for learning practical AI skills in about five minutes a day. It teaches ChatGPT, Claude, Gemini, Perplexity, prompt engineering, AI agents, automation, creative AI, and AI skills for work through active practice instead of passive video watching.",

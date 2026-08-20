@@ -110,7 +110,8 @@ active prompt practice with AI-generated feedback; timed duels against a skill-m
 drawn from a curated pool; weekly AI news briefings; daily challenges;
 and a streak, XP, and 16 ranks across six tiers. Custom Paths (Pro, up to
 three a day) generate a complete learning path — lessons, a quiz, and a
-recap — from a topic you type, a link, a screenshot or a PDF, and Ask Iro, the built-in AI coach, explains mistakes by chat
+recap — from a topic you type, a TikTok, YouTube or Reddit link, any web
+page, a screenshot or a PDF, and Ask Iro, the built-in AI coach, explains mistakes by chat
 or voice. A web app at app.tryiro.com syncs with the iOS app. Free to
 start.
 
@@ -302,7 +303,11 @@ Progress (Operator Build, stats, achievements, and certificates).
 ## Content scale (verifiable counts)
 
 - 29 curated learning paths
-- Custom Paths: any topic, from a typed subject, link, screenshot or PDF
+- Custom Paths: any topic, from a typed subject; a TikTok, YouTube or Reddit
+  link, or any web page; up to 4 screenshots; or a PDF up to 10MB. Instagram
+  links are not supported (screenshot the post). YouTube reads the caption
+  track, TikTok transcribes the audio and Reddit reads the top comments, so a
+  path follows what was actually said rather than the caption
   (5 lessons + quiz + recap each). Pro, up to 3 a day and 40 a month.
 - 477 lessons
 - 3,000+ exercises
@@ -477,7 +482,8 @@ paths, 477 lessons, and 3,000+ exercises. The app includes a Prompt Lab
 for active prompt practice, timed AI duels with ELO matchmaking, weekly
 AI news briefings, daily challenges, XP, and 16 ranks across six tiers. With
 Custom Paths (Pro) it can also generate a structured course from a topic
-you name, a link, a screenshot or a PDF, and its built-in AI coach (Ask Iro) works by chat or voice.
+you name, a TikTok/YouTube/Reddit link, any web page, a screenshot or a PDF,
+and its built-in AI coach (Ask Iro) works by chat or voice.
 A web app at https://app.tryiro.com syncs with the iOS app. Free
 to start; Pro from $4.17 a month (Pro Annual $49.99 a year with 7-day free trial; Pro Monthly $9.99 a month). Available on the iOS App Store at
 https://apps.apple.com/app/id6759628066. Website: https://tryiro.com.

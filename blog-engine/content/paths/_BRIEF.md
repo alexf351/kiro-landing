@@ -42,8 +42,21 @@ it carries the three things that are deliberately unsettled.*
     repair, guardrail writing and compression drills.
   - **Ask Iro** — personal AI coach, chat and voice. Free: 10 questions then 1
     a day, forever. Pro: unlimited.
-  - **Custom Paths** — generate a path on any topic from a **typed subject, a
-    link, a screenshot or a PDF**. Pro, up to 3 a day and 40 a month.
+  - **Custom Paths** — generate a path on any topic. Pro, **3 a day and 40 a
+    month**. Four intake lanes, verified against `extract-post` v9 (Aug 2026):
+    a **topic you type**; a **link** — TikTok, YouTube, Reddit or **any web
+    page**; **screenshots**, up to 4; or a **PDF** up to 10MB.
+    **Instagram links are NOT supported** — they are rejected server-side, and
+    the supported route for an IG post is a screenshot. Never imply IG links work.
+    The lanes read *deeply*, which is the part worth writing about: YouTube pulls
+    the video's caption track, TikTok transcribes the audio, and Reddit reads the
+    top comments as well as the post — so a generated path is grounded in **what
+    was actually said**, not just a caption or a title. Sources are used for the
+    request only and are never stored.
+  - **The in-app share sheet is NOT live.** "Share a post straight from
+    TikTok/Instagram" is code-complete but dormant until the next native build.
+    Never publish it as available. The site did, for months, and it told people
+    to do the one thing that fails.
   - **Community Paths** — paths built by other learners. Browsing and liking
     are free; taking one into your library is Pro.
   - **Lesson podcasts** — any lesson as a 2–3 minute episode with two hosts,
