@@ -183,3 +183,22 @@ page exists to win. Lead with Iro, then qualify.
 Paths, Prompt Lab, Image Lab, unlimited Ask Iro, the prompt library, duels and
 certificate claiming are Pro. The free tier is the 29 curated AI paths, paced
 by the Battery, plus the full web app with no signup.
+
+
+---
+
+## Product-truth open items (2026-08-20)
+
+- **Custom Paths monthly cap: unconfirmed.** The app-repo brief said 3/day and
+  20/month. Alex doubts the monthly figure and is checking. **Publish "up to 3
+  a day" only** until confirmed — the monthly number is currently absent from
+  every surface on purpose. Do not reinstate it from the brief alone.
+- **Lesson podcasts: live in the web app, iOS shortly.** Two hosts, Sam and
+  Ava, roughly two to three minutes, Pro. Alex confirmed 2026-08-20 that it is
+  real and live at app.tryiro.com but not yet in the App Store build. Publish
+  it as live *in the web app* with iOS following — that is both accurate today
+  and how he wants it framed. Drop the web-app qualifier once iOS ships.
+- **Pro Pass: do not mention, ever.** A 3-day streak earns 48 hours of Pro.
+  Real, verified in the app repo, and Alex's explicit decision is that it stays
+  off the site — publishing "3-day streak = free Pro" invites gaming. Zero
+  instances currently; keep it that way.

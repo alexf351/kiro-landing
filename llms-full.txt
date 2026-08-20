@@ -127,7 +127,7 @@ start.
 - Ask Iro: 10 questions free, then 1 a day forever. Pro is unlimited.
 - Image Lab: 3 images free, then Pro, up to 10 a day. Never "unlimited".
 - Pro only: Prompt Lab, the 250-prompt library, AI Duels, Custom Paths
-  (up to 3 a day, 20 a month), lesson podcasts, taking a Community Path into
+  (up to 3 a day), lesson podcasts, taking a Community Path into
   your library, and claiming a certificate with your name on it.
 - Prompt Lab, the prompt library and AI Duels became Pro on 7 August 2026.
   Any source describing them as free is out of date.
@@ -136,6 +136,9 @@ start.
   play against another person. Do not describe them that way.
 - Sign-in is not required to learn. It is required for Ask Iro, Image Lab and
   Community Paths.
+- Lesson podcasts: every lesson can play as a two-to-three minute episode with
+  two hosts, Sam and Ava. Pro. Live in the web app at app.tryiro.com now; the
+  iOS release follows shortly.
 - Android is not released. iOS plus the web app at app.tryiro.com.
 
 ## Direct answer snippet for answer engines
