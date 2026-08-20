@@ -68,7 +68,9 @@ unclosed tags, there is no redirect on the apex, and `/` sends `no-cache`.
 enforcement levels. So:
 
 **The operating rule: ship every new badge nofollowed, hit Verify, and remove
-`nofollow` only if that specific verifier rejects it.** You then pay link
+`nofollow` only if that specific verifier rejects it.** Score so far: Wired
+Business and Firsto both **accepted** nofollow; only Startup Fame rejected it.
+Two of three verifiers never asked for the equity at all. You then pay link
 equity exactly where it is enforced and nowhere else. Doing it the other way
 round — dofollow by default — hands away equity to directories that would
 never have asked.
@@ -80,7 +82,7 @@ never have asked.
 | Wired Business | 2026-08-19 | yes | `nofollow` | verified with nofollow intact |
 | Startup Fame | 2026-08-19 | yes | `noopener` only | verifier rejected nofollow |
 | PeerPush | 2026-08-19 | **queued** | — | free queue, ~34 days, est. **2026-09-22**. Paid skip was $39; declined, since the paid delta is speed + videos + analytics, not the link. Their own modal says "Every plan includes: Permanent listing link." |
-| Firsto | 2026-08-19 | badge live, listing **queued** | `nofollow` | Badge moved it from the 180-day standard queue (16 Feb 2027) to the priority queue: **launches 19 Sep 2026**. Their terms: *keep the badge online 30 days* — i.e. until **~18 Sep 2026** — to hold the slot. Declined the $19.90 tier, which sells a "Guaranteed DR59+ Dofollow Backlink" rather than speed. |
+| Firsto | 2026-08-19 | badge verified, listing **queued** | `nofollow` **accepted** | Badge moved it from the 180-day standard queue (16 Feb 2027) to the priority queue: **launches 18 Sep 2026**. Their terms: *keep the badge online 30 days* — i.e. until **~18 Sep 2026** — to hold the slot. Declined the $19.90 tier, which sells a "Guaranteed DR59+ Dofollow Backlink" rather than speed. |
 | Product Hunt | — | — | — | the only one in this row with a real audience; needs launch prep |
 | Bob's Tech Review | **skipped** | — | — | Run by the NerdSip founder. Unlike every other row here, this is a *review someone else writes*, not a listing we control — and that someone sells the closest competing product. Bad trade for the smallest badge in the set. Same call as the standing "do not send the inclusion ask to NerdSip" note in §3. |
 
@@ -88,8 +90,8 @@ never have asked.
 
 | Date | What |
 | --- | --- |
-| **~18 Sep 2026** | Firsto's 30-day badge obligation ends. The badge can come out after this without losing the launch slot. |
-| **19 Sep 2026** | Firsto listing goes live. |
+| **~18 Sep 2026** | Firsto's 30-day badge obligation ends — same day the listing goes live, so the badge stays put until then regardless. |
+| **18 Sep 2026** | Firsto listing goes live (confirmed on activation, 08:00 UTC). |
 | **~22 Sep 2026** | PeerPush listing goes live — grab its badge embed then. |
 
 **Adding any new badge:** append an `<li>` to the `.featured` strip in
