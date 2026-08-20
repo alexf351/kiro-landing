@@ -296,9 +296,16 @@ image file the widget itself loads, says Iridescent.
 The Bronze→Diamond ladder that also appears across the site is the **quiz
 result** tiers, a separate five-tier system. Not a conflict.
 
-**Also noted:** `tierForScore()` in the same widget has a seventh floor tier,
-`wood`, below bronze, which is not in `RANKS` and is not named anywhere else
-on the site. Harmless today (nothing renders it) but worth knowing it exists.
+**Fixed 2026-08-19.** Alex confirmed Iridescent. The widget's four `titan`
+references are renamed and it now renders Bronze / Silver / Gold / Platinum /
+Diamond / Iridescent with no console errors. `/ai-info` names the top rank.
+
+**Correction to my own note above:** I flagged a seventh tier, `wood`, as an
+unrendered phantom. That was wrong — `wood` is a real entry in `RANK_TIERS`
+and `tierForScore()` uses it as the colour band for *individual skill scores*
+below 25, which the Bronze sample build hits (automation: 22). It is a score
+band, not a rank, and it is correct as written. `RANKS` holding six and
+`RANK_TIERS` holding seven is deliberate.
 
 **My error, corrected.** `competitor-intel.md` asserted the reverse — "top
 rank is **Titan**" and listed "Bronze to Iridescent" as a *stale string to

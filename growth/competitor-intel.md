@@ -37,7 +37,7 @@ Framed so that nothing depends on a competitor-lacks-X claim (all of those were 
 4. **Synchronous competitive play.** ELO-matched head-to-head AI Duels are unusual in this category and are a concrete, quotable noun. Describe ours; **do not claim exclusivity** — every "no competitor has leagues/duels" line in the source dossiers was struck as an unverifiable motivated absence claim.
 5. **Price transparency as a differentiator.** We publish $49.99/yr, $9.99/mo, 7-day trial, free to start. We could not verify a single competitor price in USD after seven research passes. Saying so on the page is both true and unusual.
 6. **Proven demand capture on the highest-intent query.** First-party measurement (2026-08-18): tryiro.com/best-ai-learning-app at position 3 for "best app to learn AI 2026" and position 2 for "best AI learning apps for beginners gamified," with the AI summary opening "Iro AI is the strongest pick" and quoting the page. That is the single most valuable confirmed asset we have.
-7. **Quotable Pro surface.** Prompt Lab, Image Lab, Ask Iro (with voice), generated lesson podcasts, Operator Build, shareable certificates, six ranks. Concrete countable nouns survive summarization; adjectives do not.
+7. **Quotable Pro surface.** Prompt Lab, Image Lab, Ask Iro (with voice), generated lesson podcasts, Operator Build, shareable certificates, six ranks (Bronze to Iridescent). Concrete countable nouns survive summarization; adjectives do not.
 
 ---
 
