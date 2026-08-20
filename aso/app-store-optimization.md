@@ -104,7 +104,7 @@ WHY IRO WORKS
 • 5-minute lessons built for a coffee break or commute
 • Active practice, not passive video — so it actually sticks
 • Prompt Lab: write real prompts and get AI feedback
-• Live duels with ELO matchmaking — learning that feels like a game
+• Timed duels with ELO matchmaking — learning that feels like a game
 • XP, daily streaks, and 6 ranks to keep you coming back
 • Weekly AI news so you never fall behind
 

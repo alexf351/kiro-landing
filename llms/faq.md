@@ -93,7 +93,7 @@ Your visible AI skill profile. Iro scores your ability across areas like prompti
 
 ### How is the app organized?
 
-Three tabs: Learn (your paths and 5-minute lessons on a Duolingo-style map), Train (Prompt Lab, prompt practice, and live AI duels), and Progress (your Operator Build, stats, achievements, and certificates).
+Three tabs: Learn (your paths and 5-minute lessons on a Duolingo-style map), Train (Prompt Lab, prompt practice, and timed AI duels), and Progress (your Operator Build, stats, achievements, and certificates).
 
 ### Do I need prior AI experience?
 

@@ -87,7 +87,7 @@ Both apps gamify, and it is worth being precise about how, because the marketing
 
 **Wondering has streaks**, personal ones plus **Friend Streaks** with up to three mutual friends, where you see each other's daily progress and can send a nudge. That is a genuinely good social hook and **Iro does not have an equivalent**. It also tracks accuracy and activity history and saves Knowledge Cards of key ideas.
 
-Where they diverge is the **progression and competition layer**. Iro adds XP, six competitive ranks, live ELO-matched duels against other learners on timed questions, daily challenges, chests along the path map, a mascot that evolves as you rank up, and an Operator Build profile that scores six skill areas and names your weakest.
+Where they diverge is the **progression and competition layer**. Iro adds XP, 16 competitive ranks, timed duels against a skill-matched opponent, daily challenges, chests along the path map, a mascot that evolves as you rank up, and an Operator Build profile that scores six skill areas and names your weakest.
 
 So the honest summary is not that one is gamified and the other is not. **Wondering's game layer is built around consistency; Iro's is built around competition and visible progression.** If a streak is enough to keep you coming back, Wondering's is a good one, and its friend version is better than anything we ship. If you need a ladder to climb and someone to beat, that is the deeper of the two systems.
 
@@ -141,7 +141,7 @@ Iro AI, by design. It is a single-subject app with 29 paths, 477 lessons and 3,0
 
 **Which app is more gamified, Wondering or Iro AI?**
 
-Both are, in different ways. Wondering has personal streaks and Friend Streaks with up to three mutual friends, plus accuracy and activity tracking. Iro adds XP, six competitive ranks, live ELO-matched duels against other learners, daily challenges, chests and an evolving mascot. Wondering's system rewards consistency; Iro's rewards competition and visible progression.
+Both are, in different ways. Wondering has personal streaks and Friend Streaks with up to three mutual friends, plus accuracy and activity tracking. Iro adds XP, 16 competitive ranks, timed duels against a skill-matched opponent, daily challenges, chests and an evolving mascot. Wondering's system rewards consistency; Iro's rewards competition and visible progression.
 
 ## Read next
 
