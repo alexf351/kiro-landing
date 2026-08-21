@@ -43,7 +43,7 @@
   </url>
   <url>
     <loc>https://tryiro.com/blog/ai-tools</loc>
-    <lastmod>2026-08-18</lastmod>
+    <lastmod>2026-08-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.88</priority>
     <image:image>
@@ -683,7 +683,7 @@
   </url>
   <url>
     <loc>https://tryiro.com/blog/new-ai-models-2026</loc>
-    <lastmod>2026-08-18</lastmod>
+    <lastmod>2026-08-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -1089,6 +1089,26 @@
     <image:image>
       <image:loc>https://tryiro.com/assets/og/chunks-alternatives.png</image:loc>
       <image:title>The best Chunks alternatives in 2026</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://tryiro.com/blog/gemini-3-7-flash</loc>
+    <lastmod>2026-08-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://tryiro.com/assets/og/gemini-3-7-flash.png</image:loc>
+      <image:title>Gemini 3.7 Flash: what changed, and whether you'll notice</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://tryiro.com/blog/grok-imagine-image-2</loc>
+    <lastmod>2026-08-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://tryiro.com/assets/og/grok-imagine-image-2.png</image:loc>
+      <image:title>Grok Imagine Image 2.0: the editing tools are the story</image:title>
     </image:image>
   </url>
 </urlset>

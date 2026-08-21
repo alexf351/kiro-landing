@@ -9,7 +9,7 @@
     <description>Short, practical writing on AI fluency, prompting, AI tools, and the active-practice method that beats endless video courses.</description>
     <language>en-US</language>
     <atom:link href="https://tryiro.com/blog/rss.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Tue, 18 Aug 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 21 Aug 2026 00:00:00 GMT</lastBuildDate>
     <generator>tryiro.com</generator>
     <copyright>© 2026 Iro AI</copyright>
     <image>
@@ -952,6 +952,24 @@
       <dc:creator>Iro AI</dc:creator>
       <category>AI fluency</category>
       <description>Looking for a Chunks alternative? Every microlearning roundup is written by one of the apps in it, including this one. Here is how to read them, plus an honest comparison of Iro AI, Brilliant and Khan Academy.</description>
+    </item>
+    <item>
+      <title>Gemini 3.7 Flash: what changed, and whether you'll notice</title>
+      <link>https://tryiro.com/blog/gemini-3-7-flash</link>
+      <guid isPermaLink="true">https://tryiro.com/blog/gemini-3-7-flash</guid>
+      <pubDate>Fri, 21 Aug 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Iro AI</dc:creator>
+      <category>AI tools</category>
+      <description>Gemini 3.7 Flash explained: release date, introductory pricing, the 1M-token context window, tunable thinking levels, and whether the upgrade matters if you use the Gemini app.</description>
+    </item>
+    <item>
+      <title>Grok Imagine Image 2.0: the editing tools are the story</title>
+      <link>https://tryiro.com/blog/grok-imagine-image-2</link>
+      <guid isPermaLink="true">https://tryiro.com/blog/grok-imagine-image-2</guid>
+      <pubDate>Fri, 21 Aug 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Iro AI</dc:creator>
+      <category>AI tools</category>
+      <description>Grok Imagine Image 2.0 explained: release date, region-level editing, multi-image references, arena ranking versus gpt-image-2, and how to actually prompt it well.</description>
     </item>
   </channel>
 </rss>

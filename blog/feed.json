@@ -1209,6 +1209,30 @@
         "comparison",
         "AI learning apps"
       ]
+    },
+    {
+      "id": "https://tryiro.com/blog/gemini-3-7-flash",
+      "url": "https://tryiro.com/blog/gemini-3-7-flash",
+      "title": "Gemini 3.7 Flash: what changed, and whether you'll notice",
+      "summary": "Google shipped Gemini 3.7 Flash three weeks after 3.6 Flash, at half the introductory price, with tunable thinking and a 1M-token context window. Here is what actually changed, who it is for, and the honest answer for people who just use the Gemini app.",
+      "date_published": "2026-08-21T00:00:00Z",
+      "tags": [
+        "AI tools",
+        "Gemini",
+        "AI models"
+      ]
+    },
+    {
+      "id": "https://tryiro.com/blog/grok-imagine-image-2",
+      "url": "https://tryiro.com/blog/grok-imagine-image-2",
+      "title": "Grok Imagine Image 2.0: the editing tools are the story",
+      "summary": "SpaceXAI shipped Grok Imagine Image 2.0 on 7 August 2026 with region-level editing, five-image reference inputs, and a claimed number-two spot on both image arenas. The generation quality is the headline; the editing controls are the part that changes how you work.",
+      "date_published": "2026-08-21T00:00:00Z",
+      "tags": [
+        "AI tools",
+        "Grok",
+        "AI image generation"
+      ]
     }
   ]
 }

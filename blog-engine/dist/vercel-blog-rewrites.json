@@ -435,6 +435,14 @@
     {
       "source": "/blog/chunks-alternatives",
       "destination": "/blog/chunks-alternatives.html"
+    },
+    {
+      "source": "/blog/gemini-3-7-flash",
+      "destination": "/blog/gemini-3-7-flash.html"
+    },
+    {
+      "source": "/blog/grok-imagine-image-2",
+      "destination": "/blog/grok-imagine-image-2.html"
     }
   ]
 }

@@ -1064,6 +1064,14 @@
       "destination": "/blog/claude-opus-5.html"
     },
     {
+      "source": "/blog/gemini-3-7-flash",
+      "destination": "/blog/gemini-3-7-flash.html"
+    },
+    {
+      "source": "/blog/grok-imagine-image-2",
+      "destination": "/blog/grok-imagine-image-2.html"
+    },
+    {
       "source": "/blog/gpt-5-6",
       "destination": "/blog/gpt-5-6.html"
     },

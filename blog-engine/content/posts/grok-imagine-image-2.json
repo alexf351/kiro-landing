@@ -1,0 +1,98 @@
+{
+  "slug": "grok-imagine-image-2",
+  "order": 106,
+  "pillar": "ai-tools",
+  "title": "Grok Imagine Image 2.0: the editing tools are the story",
+  "lede": "SpaceXAI shipped Grok Imagine Image 2.0 on 7 August 2026 with region-level editing, five-image reference inputs, and a claimed number-two spot on both image arenas. The generation quality is the headline; the editing controls are the part that changes how you work.",
+  "keyTakeaways": [
+    "Grok Imagine Image 2.0 shipped 7 August 2026 as Quality Mode on grok.com/imagine and in the Grok iOS and Android apps. A dedicated API is listed as coming soon.",
+    "The real upgrade is editing, not generation: a magic wand that changes only the region you point at, segmentation for precise areas, and background removal that exports a subject with transparency.",
+    "Multi-reference editing accepts up to five input images in one generation, which is what makes consistent characters and styles practical rather than lucky.",
+    "SpaceXAI claims second place on both the Arena text-to-image and image-edit leaderboards as of 7 August 2026, behind OpenAI's gpt-image-2. Treat vendor-cited rankings as a claim with a date on it, not a permanent fact."
+  ],
+  "description": "Grok Imagine Image 2.0 explained: release date, region-level editing, multi-image references, arena ranking versus gpt-image-2, and how to actually prompt it well.",
+  "keywords": [
+    "Grok Imagine Image 2.0",
+    "Grok Imagine 2",
+    "Grok image generation",
+    "Grok Imagine editing",
+    "SpaceXAI image model",
+    "Grok Imagine vs gpt-image-2"
+  ],
+  "datePublished": "2026-08-21",
+  "dateModified": "2026-08-21",
+  "readingTime": 6,
+  "articleSection": "AI tools",
+  "feedCategory": "AI tools",
+  "feedTags": ["AI tools", "Grok", "AI image generation"],
+  "inlineCtaAfter": 2,
+  "toc": [
+    { "href": "#answer", "label": "The short answer" },
+    { "href": "#editing", "label": "Why the editing tools matter" },
+    { "href": "#refs", "label": "Five reference images" },
+    { "href": "#ranking", "label": "About that ranking" },
+    { "href": "#prompt", "label": "How to actually prompt it" }
+  ],
+  "sections": [
+    {
+      "id": "answer",
+      "heading": "The short answer",
+      "html": "<p><strong>Grok Imagine Image 2.0 launched on 7 August 2026 as the Quality Mode inside Grok</strong> — on grok.com/imagine and in the iOS and Android apps. A standalone API is listed as coming soon, so for now this is a product you use rather than one you build on.</p><p>SpaceXAI leads with a leaderboard claim: second in the world on both text-to-image and image editing, behind OpenAI's gpt-image-2. That is worth knowing and worth discounting slightly, for reasons below.</p><p><strong>The more useful story is the editing toolkit.</strong> Region-level control, segmentation, background removal and five-image references move image generation from \"roll again and hope\" toward something closer to actual iteration — which is the difference between a toy and a tool.</p><p>A branding note, since it confuses people: SpaceX acquired xAI on 2 February 2026 and the merged company became <strong>SpaceXAI</strong> on 6 July 2026. Grok, the apps, SuperGrok and the developer API all kept their names. Only the parent changed.</p>"
+    },
+    {
+      "id": "editing",
+      "heading": "Why the editing tools matter more than the ranking",
+      "html": "<p>Almost everyone's real problem with AI images is not that the first result is bad. It is that the first result is <em>90% right</em> and there is no way to fix the last 10% without regenerating everything and losing the parts you liked.</p><p>That is what this release goes after:</p><ul><li><strong>Magic wand.</strong> Point at a region and change only that region. The rest of the frame stays put.</li><li><strong>Segmentation.</strong> Select a precise area to modify rather than describing it and hoping the model picks the same thing you meant.</li><li><strong>Background removal.</strong> Export any subject with transparency — genuinely useful, because it removes a whole round-trip into an image editor.</li></ul><p>Taken together these change the shape of the work. Instead of writing longer and longer prompts trying to pin down every detail at once, you generate something roughly right and then correct it in passes. <strong>That is how design actually works</strong>, and it is a better fit for how people think.</p>"
+    },
+    {
+      "id": "refs",
+      "heading": "Five reference images is the underrated feature",
+      "html": "<p>Multi-reference editing accepts <strong>up to five input images in a single generation</strong>. This sounds like a specification and is really a capability change.</p><p>Consistency has been the hard ceiling in AI image work. One image is easy. A set of eight that look like the same character, the same product, the same visual world is where most projects fall apart, because text alone is a lossy way to describe a look.</p><p>References fix that by showing rather than telling. Feed it the character from three angles plus two style plates and you are constraining the output with evidence instead of adjectives. <strong>If you are producing anything as a series</strong> — a brand set, a storyboard, a cast of characters — this matters far more than a leaderboard position.</p>"
+    },
+    {
+      "id": "ranking",
+      "heading": "About that number-two ranking",
+      "html": "<p>SpaceXAI cites the Arena text-to-image and image-edit leaderboards as of 7 August 2026, placing Image 2.0 second in both, with OpenAI's gpt-image-2 first.</p><p>Two caveats, neither of which means the claim is wrong.</p><p><strong>It is vendor-cited and dated.</strong> A company reporting its own leaderboard position on launch day is not the same as an independent result, and arena rankings move as models ship. The claim is fine; the date on it is the important half.</p><p><strong>Arena rankings measure preference, not fitness for your job.</strong> These boards aggregate human votes on side-by-side outputs, which tracks general appeal well and predicts almost nothing about whether a model nails your specific style, your text rendering, or your product photography. <strong>Second place overall can be first place for you.</strong></p><p>The practical move is unchanged: try your own real task on two or three tools and judge the outputs you actually need. That is a five-minute test and it beats any leaderboard.</p>"
+    },
+    {
+      "id": "prompt",
+      "heading": "How to actually prompt an image model",
+      "html": "<p>Better tools raise the ceiling. They do not raise your floor — that is still prompting, and image prompting fails differently from text prompting.</p><p>The reliable structure names four things, in roughly this order:</p><ol><li><strong>Subject</strong> — what is in frame, specifically. \"A woman\" is a coin flip; \"a woman in her fifties, short grey hair, reading glasses pushed up\" is a brief.</li><li><strong>Composition</strong> — shot type, angle, what fills the frame. Most disappointing images are a composition problem wearing a quality problem's clothes.</li><li><strong>Light</strong> — the single biggest lever on whether an image reads as professional. Name it: soft window light, hard midday sun, single rim light in a dark room.</li><li><strong>Style</strong> — medium and treatment, not artist names. \"35mm film, shallow depth of field, muted palette\" is reproducible.</li></ol><p>Then change <strong>one variable at a time</strong>. The instinct is to rewrite the whole prompt when something looks wrong, which teaches you nothing because you cannot tell which change did what. Vary one element, look, keep or discard. That is how you build an actual mental model of what the tool responds to — and with region-level editing, you can now do it without destroying the parts that already worked.</p><p>If you would rather practise that with feedback than guess, <a href=\"/blog/best-ai-image-generators\">our image generator comparison</a> covers picking the right tool, and Iro's Image Lab has you write real image prompts and iterate on them.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "When was Grok Imagine Image 2.0 released?",
+      "a": "Grok Imagine Image 2.0 shipped on 7 August 2026. It is generally available as the Quality Mode on grok.com/imagine and inside the Grok iOS and Android apps. A dedicated API was listed as coming soon at launch."
+    },
+    {
+      "q": "What is new in Grok Imagine Image 2.0?",
+      "a": "The main additions are editing controls: a magic wand that changes only the region you point at, segmentation for selecting precise areas, background removal that exports a subject with transparency, and multi-reference editing that accepts up to five input images in a single generation."
+    },
+    {
+      "q": "Is Grok Imagine better than gpt-image-2?",
+      "a": "SpaceXAI reports Image 2.0 as second on both the Arena text-to-image and image-edit leaderboards as of 7 August 2026, with OpenAI's gpt-image-2 first. That is a vendor-cited, dated claim, and arena rankings measure general human preference rather than fitness for a specific job. Test both on your own actual task before deciding."
+    },
+    {
+      "q": "Is Grok Imagine made by xAI or SpaceXAI?",
+      "a": "Both names refer to the same company. SpaceX acquired xAI on 2 February 2026, and the merged business rebranded as SpaceXAI on 6 July 2026. The Grok product name, the apps, SuperGrok and the developer API all kept their existing branding — only the parent company's name changed."
+    },
+    {
+      "q": "How do I write better AI image prompts?",
+      "a": "Name four things: subject with real specificity, composition (shot type and angle), lighting, and style as a medium rather than an artist name. Then change one variable at a time so you can tell which change caused which result. Rewriting the whole prompt when something looks wrong teaches you nothing about the tool."
+    }
+  ],
+  "readNext": [
+    { "href": "/blog/best-ai-image-generators", "label": "The best AI image generators in 2026" },
+    { "href": "/blog/new-ai-models-2026", "label": "Every 2026 AI model release, tracked" },
+    { "href": "/blog/how-to-use-grok", "label": "How to actually use Grok" }
+  ],
+  "related": [
+    "/blog/best-ai-image-generators",
+    "/blog/new-ai-models-2026",
+    "/blog/how-to-use-grok",
+    "/blog/what-is-grok",
+    "/blog/grok-4-5",
+    "/blog/how-to-write-a-prompt"
+  ]
+}

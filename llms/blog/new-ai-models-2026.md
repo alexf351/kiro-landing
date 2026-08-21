@@ -7,7 +7,7 @@ app_store: "https://apps.apple.com/app/id6759628066"
 language: en-US
 keywords: ["new AI models 2026", "AI model releases", "latest AI models", "Claude Opus 5", "GPT-5.6", "Grok 4.5", "Muse Spark", "best AI model 2026", "Kimi K3"]
 date_published: "2026-07-26"
-date_modified: "2026-08-18"
+date_modified: "2026-08-21"
 reading_time_minutes: 9
 author: "Alex Furukawa"
 license: "© 2026 Iro AI"
@@ -21,7 +21,7 @@ pillar: "ai-tools"
 
 **Canonical:** https://tryiro.com/blog/new-ai-models-2026
 **Published:** 2026-07-26
-**Updated:** 2026-08-18
+**Updated:** 2026-08-21
 **Reading time:** ~9 min
 **Author:** Alex Furukawa — Founder of Iro AI
 
@@ -51,6 +51,8 @@ Figures below reflect each lab's published pricing and reported benchmark result
 | **Muse Spark 1.1** | Meta | 9 July 2026 | Multimodal reasoning update aimed at agentic tasks, on the Meta Model API. | Free tier |
 | **Kimi K3** | Moonshot AI | 16 July 2026 (weights 27 July) | At ~2.8T parameters, the largest open-weight release to date: 1M context, native vision, Modified MIT license. | $3 / $15 |
 | **Claude Opus 5** | Anthropic | 24 July 2026 | Near-Fable-5 capability at half the price, with a 1M-token context window and a fast mode. | $5 / $25 |
+| **Grok Imagine Image 2.0** | SpaceXAI | 7 August 2026 | Image model with region-level editing, segmentation, background removal and up to five reference images. Vendor-cited second on both Arena image boards, behind gpt-image-2. | In Grok; API coming soon |
+| **Gemini 3.7 Flash** | Google | 13 August 2026 | Workhorse update three weeks after 3.6 Flash: better coding and agents, 1M context, tunable thinking levels. Introductory price doubles on 1 January 2027. | $0.75 / $3.75 to 31 Dec 2026 |
 
 
 

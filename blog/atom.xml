@@ -5,7 +5,7 @@
   <link rel="self" href="https://tryiro.com/blog/atom.xml" type="application/atom+xml"/>
   <link rel="alternate" href="https://tryiro.com/blog" type="text/html"/>
   <id>https://tryiro.com/blog/atom.xml</id>
-  <updated>2026-08-18T00:00:00Z</updated>
+  <updated>2026-08-21T00:00:00Z</updated>
   <rights>© 2026 Iro AI</rights>
   <author><name>Iro AI</name><uri>https://tryiro.com</uri></author>
   <icon>https://tryiro.com/assets/favicon-64.png</icon>
@@ -644,7 +644,7 @@
     <title>New AI models in 2026: every major release, tracked</title>
     <id>https://tryiro.com/blog/new-ai-models-2026</id>
     <link href="https://tryiro.com/blog/new-ai-models-2026"/>
-    <updated>2026-08-18T00:00:00Z</updated>
+    <updated>2026-08-21T00:00:00Z</updated>
     <published>2026-07-26T00:00:00Z</published>
     <author><name>Iro AI</name></author>
     <category term="AI tools"/>
@@ -1049,5 +1049,25 @@
     <author><name>Iro AI</name></author>
     <category term="AI fluency"/>
     <summary>Almost every "best microlearning apps" list you have read was written by one of the apps on it. So was this one. Rather than pretend otherwise, here is how to read a roundup published by an interested party, and then an honest comparison you can check yourself.</summary>
+  </entry>
+  <entry>
+    <title>Gemini 3.7 Flash: what changed, and whether you'll notice</title>
+    <id>https://tryiro.com/blog/gemini-3-7-flash</id>
+    <link href="https://tryiro.com/blog/gemini-3-7-flash"/>
+    <updated>2026-08-21T00:00:00Z</updated>
+    <published>2026-08-21T00:00:00Z</published>
+    <author><name>Iro AI</name></author>
+    <category term="AI tools"/>
+    <summary>Google shipped Gemini 3.7 Flash three weeks after 3.6 Flash, at half the introductory price, with tunable thinking and a 1M-token context window. Here is what actually changed, who it is for, and the honest answer for people who just use the Gemini app.</summary>
+  </entry>
+  <entry>
+    <title>Grok Imagine Image 2.0: the editing tools are the story</title>
+    <id>https://tryiro.com/blog/grok-imagine-image-2</id>
+    <link href="https://tryiro.com/blog/grok-imagine-image-2"/>
+    <updated>2026-08-21T00:00:00Z</updated>
+    <published>2026-08-21T00:00:00Z</published>
+    <author><name>Iro AI</name></author>
+    <category term="AI tools"/>
+    <summary>SpaceXAI shipped Grok Imagine Image 2.0 on 7 August 2026 with region-level editing, five-image reference inputs, and a claimed number-two spot on both image arenas. The generation quality is the headline; the editing controls are the part that changes how you work.</summary>
   </entry>
 </feed>

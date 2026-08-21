@@ -1,0 +1,98 @@
+{
+  "slug": "gemini-3-7-flash",
+  "order": 105,
+  "pillar": "ai-tools",
+  "title": "Gemini 3.7 Flash: what changed, and whether you'll notice",
+  "lede": "Google shipped Gemini 3.7 Flash three weeks after 3.6 Flash, at half the introductory price, with tunable thinking and a 1M-token context window. Here is what actually changed, who it is for, and the honest answer for people who just use the Gemini app.",
+  "keyTakeaways": [
+    "Gemini 3.7 Flash arrived on 13 August 2026, three weeks after 3.6 Flash, at an introductory $0.75 per million input tokens and $3.75 per million output — half what 3.6 Flash cost. Introductory pricing runs to 31 December 2026, then doubles to $1.50 and $7.50.",
+    "The gains Google leads with are coding and agents: higher first-pass accuracy on debugging and issue resolution, and more feature-complete web layouts in fewer prompts.",
+    "Tunable thinking levels (low, medium, high) are the part worth learning. You decide how much the model deliberates, which is a cost and latency dial as much as a quality one.",
+    "If you use Gemini through the app rather than the API, the practical change is small. Prompting well still moves your results far more than the version number does."
+  ],
+  "description": "Gemini 3.7 Flash explained: release date, introductory pricing, the 1M-token context window, tunable thinking levels, and whether the upgrade matters if you use the Gemini app.",
+  "keywords": [
+    "Gemini 3.7 Flash",
+    "Gemini 3.7 Flash pricing",
+    "Gemini 3.7 vs 3.6 Flash",
+    "Gemini 3.7 Flash release date",
+    "Google Gemini new model",
+    "Gemini thinking levels"
+  ],
+  "datePublished": "2026-08-21",
+  "dateModified": "2026-08-21",
+  "readingTime": 6,
+  "articleSection": "AI tools",
+  "feedCategory": "AI tools",
+  "feedTags": ["AI tools", "Gemini", "AI models"],
+  "inlineCtaAfter": 2,
+  "toc": [
+    { "href": "#answer", "label": "The short answer" },
+    { "href": "#changed", "label": "What actually changed" },
+    { "href": "#thinking", "label": "Tunable thinking, explained" },
+    { "href": "#price", "label": "The pricing catch" },
+    { "href": "#matters", "label": "Does it matter for you?" }
+  ],
+  "sections": [
+    {
+      "id": "answer",
+      "heading": "The short answer",
+      "html": "<p><strong>Gemini 3.7 Flash is Google's workhorse model, released 13 August 2026, and its headline is price-to-performance rather than a new capability ceiling.</strong> It landed three weeks after 3.6 Flash — Google credits developer feedback and algorithmic gains for the short turnaround — with meaningfully better coding and agent performance at half the introductory cost per million tokens.</p><p>It keeps the specs that made Flash useful: a <strong>1M-token context window</strong>, up to 64k output tokens, and the same built-in tool suite as 3.6 Flash. What is new is <strong>tunable thinking</strong> at low, medium and high.</p><p>The honest framing: this is an infrastructure release. If you build with the API, it is a straightforward win. If you type into the Gemini app, you will struggle to feel the difference, and that is not a criticism of the model.</p>"
+    },
+    {
+      "id": "changed",
+      "heading": "What actually changed",
+      "html": "<p>Google leads the announcement with software engineering, and the claims are specific enough to be checkable.</p><ul><li><strong>Coding.</strong> Higher first-pass accuracy on debugging and issue resolution against 3.6 Flash, and more production-ready code on the first attempt.</li><li><strong>Web development.</strong> More functional layouts and more feature-complete apps in fewer prompts — the interesting metric there is <em>fewer prompts</em>, which is a measure of how often the model needs correcting.</li><li><strong>Agents.</strong> Positioned as the most capable workhorse model Google has shipped for agentic work, which is the same direction every lab moved in during 2026.</li></ul><p>Note what is <em>not</em> claimed: no jump in reasoning ceiling, no new modality, no context increase. The 1M window and 64k output cap are unchanged. This is a sharpening, not a leap, and Google is fairly straight about that.</p>"
+    },
+    {
+      "id": "thinking",
+      "heading": "Tunable thinking, explained",
+      "html": "<p>The feature most worth understanding is <strong>thinking levels</strong>: low, medium and high. You are choosing how much the model deliberates before answering.</p><p>People read this as a quality dial. It is really three dials at once — <strong>quality, latency and cost</strong> — and they pull against each other.</p><ul><li><strong>Low</strong> suits high-volume, low-ambiguity work: classification, extraction, formatting, anything where the right answer is not in doubt and you want it fast and cheap.</li><li><strong>Medium</strong> is the sane default for ordinary work.</li><li><strong>High</strong> earns its cost on genuinely hard problems — multi-step debugging, tricky logic, anything where a wrong answer costs more than the extra tokens.</li></ul><p>Turning thinking up on a simple task is the common mistake. You pay more, wait longer, and often get an answer that is no better and occasionally worse, because the model talks itself out of the obvious. <strong>Knowing which tasks deserve deliberation is a real skill</strong>, and it transfers across every model that offers a reasoning setting.</p>"
+    },
+    {
+      "id": "price",
+      "heading": "The pricing catch",
+      "html": "<p>Introductory pricing is <strong>$0.75 per million input tokens and $3.75 per million output</strong>, roughly half 3.6 Flash. That is the number in the headlines.</p><p>The part to diary: <strong>introductory pricing expires on 31 December 2026</strong>, after which it becomes <strong>$1.50 input and $7.50 output</strong> — a doubling.</p><div class=\"cmp-wrap\"><table class=\"cmp-table\"><thead><tr><th></th><th>Input / 1M</th><th>Output / 1M</th></tr></thead><tbody><tr><th>Now, to 31 Dec 2026</th><td>$0.75</td><td>$3.75</td></tr><tr><th>From 1 Jan 2027</th><td>$1.50</td><td>$7.50</td></tr></tbody></table></div><p>If you are modelling unit economics on a product, model them at the January number. Building a margin on introductory pricing is how a healthy-looking service becomes unprofitable on a date you already knew about.</p>"
+    },
+    {
+      "id": "matters",
+      "heading": "Does it matter for you?",
+      "html": "<p>Depends entirely on how you touch it.</p><p><strong>If you build on the API:</strong> yes. Better coding at half the cost is a clear win, and the thinking levels give you a genuine lever over spend.</p><p><strong>If you use the Gemini app:</strong> honestly, not much. You do not choose the model tier, you are not billed per token, and the improvements are concentrated in coding and agent workflows most app users never touch.</p><p>Which points at something the release cycle obscures. Models now ship <a href=\"/blog/new-ai-models-2026\">every few weeks</a>, and almost none of those releases change what a normal person can get done. <strong>The gap between a good result and a bad one is still mostly the prompt.</strong> A clear task, enough context, explicit constraints and a stated output format will out-perform a version upgrade nearly every time — and unlike the version number, that skill carries to whatever ships next month.</p><p>That is the case for practising the durable part rather than chasing the changelog. If you want to build it deliberately, <a href=\"/learn-gemini\">Iro's Gemini path</a> works on exactly this, and the <a href=\"/blog/how-to-write-a-prompt\">four things every prompt needs</a> is the free version of the idea.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "When was Gemini 3.7 Flash released?",
+      "a": "Gemini 3.7 Flash was released on 13 August 2026, about three weeks after Gemini 3.6 Flash. Google attributed the fast turnaround to developer feedback and algorithmic improvements, and the model is generally available for production use."
+    },
+    {
+      "q": "How much does Gemini 3.7 Flash cost?",
+      "a": "Introductory pricing is $0.75 per million input tokens and $3.75 per million output tokens, roughly half the cost of Gemini 3.6 Flash. That introductory rate runs until 31 December 2026, after which pricing doubles to $1.50 per million input and $7.50 per million output."
+    },
+    {
+      "q": "What is the Gemini 3.7 Flash context window?",
+      "a": "Gemini 3.7 Flash supports a 1M-token context window and up to 64k output tokens, unchanged from Gemini 3.6 Flash. The release focused on coding, agent performance and price rather than on expanding context."
+    },
+    {
+      "q": "What are Gemini thinking levels?",
+      "a": "Thinking levels — low, medium and high — let you set how much the model deliberates before answering. It is a cost and latency control as much as a quality one: low suits high-volume, unambiguous tasks like classification and extraction, medium is a reasonable default, and high is worth the extra tokens only on genuinely hard problems such as multi-step debugging."
+    },
+    {
+      "q": "Is Gemini 3.7 Flash better than 3.6 Flash?",
+      "a": "For coding, agents and web development, yes — Google reports higher first-pass code accuracy and more feature-complete results in fewer prompts, at half the introductory price. For everyday chat use in the Gemini app the difference is minor, because the improvements concentrate in developer workflows most app users never touch."
+    }
+  ],
+  "readNext": [
+    { "href": "/blog/new-ai-models-2026", "label": "Every 2026 AI model release, tracked" },
+    { "href": "/blog/how-to-use-gemini", "label": "How to actually use Gemini well" },
+    { "href": "/blog/how-to-write-a-prompt", "label": "The four things every prompt needs" }
+  ],
+  "related": [
+    "/blog/new-ai-models-2026",
+    "/blog/how-to-use-gemini",
+    "/blog/chatgpt-vs-gemini",
+    "/blog/gemini-vs-perplexity",
+    "/blog/how-to-write-a-prompt",
+    "/learn-gemini"
+  ]
+}
