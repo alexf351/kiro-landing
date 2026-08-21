@@ -1,0 +1,10 @@
+{
+  "name": "iro-landing",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Static marketing site for Iro AI. This package.json exists only so Vercel can install the two dependencies that middleware.ts needs for server-side AI crawler tracking — there is deliberately no build script, because the site is prebuilt HTML committed to the repo and served from the repo root.",
+  "dependencies": {
+    "@datafast/ai-crawl": "1.0.9",
+    "@vercel/functions": "3.9.5"
+  }
+}

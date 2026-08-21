@@ -1,0 +1,12 @@
+# Installed by Vercel at build time from package.json (for middleware.ts).
+# Never commit these — the repo is the deploy artifact for the static HTML,
+# and a committed node_modules would ship thousands of files to production.
+node_modules/
+
+# npm/yarn noise
+npm-debug.log*
+yarn-error.log*
+.npm/
+
+# Local tooling
+.DS_Store
