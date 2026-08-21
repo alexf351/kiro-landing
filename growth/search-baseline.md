@@ -315,3 +315,43 @@ naive version replaces every tag with a space, which breaks the match on any
 answer containing an inline `<a>` or `<strong>` and reports **61** false
 positives. Strip inline tags to the empty string, compare against both
 normalisations, and only then is a mismatch real.
+
+---
+
+## New instrument — server-side AI crawler tracking (live 2026-08-21)
+
+We could never see AI crawlers before. The DataFast script in every page head
+only fires for visitors that execute JavaScript, and GPTBot, ClaudeBot,
+PerplexityBot and friends do not. Everything we knew about AI crawling was
+inferred from Bing's discovery counts and from whether assistants happened to
+name us.
+
+`middleware.ts` now catches them server-side and reports to DataFast. **This is
+the instrument the GEO plan was missing**: it answers, with dates, whether
+assistants are actually fetching `/llms.txt`, `/llms-full.txt`, `/iro.json` and
+`/ai-info` — the four surfaces this whole strategy is built on, and which until
+now were an act of faith.
+
+**What to watch, in rough order of value:**
+
+1. **Is anything fetching `/llms.txt` and `/llms-full.txt` at all?** If not,
+   every hour spent on them is being spent on a file nobody reads.
+2. **`ChatGPT-User` and `Claude-User` hits** — the `answer_fetch` category.
+   These are *live user questions* being answered with our page, which is the
+   closest thing to a real-time GEO signal that exists.
+3. **Which pages the training crawlers take.** `/best-ai-learning-app` is our
+   proven asset; if GPTBot is not taking it, that is a finding.
+4. **404s from crawlers.** DataFast reports what bots asked for and did not
+   find — a free list of pages worth creating.
+
+**Caveats to keep honest.** The local user-agent check is a pre-filter only;
+DataFast's servers do the provider and IP verification, so the crawler list
+updates without us upgrading the package. User agents are trivially spoofable,
+so treat volume as indicative rather than exact. And this now runs an edge
+invocation on every non-asset request — negligible at our traffic, worth
+re-checking if crawler volume turns out to be orders of magnitude above human
+volume.
+
+Re-read this alongside the monthly GEO check above. The discovery-prompt row is
+still the number that matters; this tells you whether the inputs to it are even
+being read.
