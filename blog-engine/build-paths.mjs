@@ -204,7 +204,7 @@ function head({ title, description, canonical, ogImage, keywords, prev, next, js
     `<meta name="apple-itunes-app" content="app-id=${APPID}"/>\n` +
     POSTHOG +
     '\n<script src="/llm-referrals.js"></script><script src="/prompt-capture.js" defer></script>\n' +
-    '<script defer data-website-id="dfid_pTmvsHyl8feOT2EfmXOim" data-domain="tryiro.com" src="https://datafa.st/js/script.js"></script>\n</head>\n'
+    '<script defer data-website-id="dfid_pTmvsHyl8feOT2EfmXOim" data-domain="tryiro.com" src="https://datafa.st/js/script.js"></script>\n<script src="/datafast-goals.js" defer></script>\n</head>\n'
   );
 }
 

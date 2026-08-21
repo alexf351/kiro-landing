@@ -210,7 +210,8 @@ const ANALYTICS = `<script>
 posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https://us.i.posthog.com',person_profiles:'identified_only'});
 </script>
 <script src="/llm-referrals.js"></script><script src="/prompt-capture.js" defer></script>
-<script defer data-website-id="dfid_pTmvsHyl8feOT2EfmXOim" data-domain="tryiro.com" src="https://datafa.st/js/script.js"></script>`;
+<script defer data-website-id="dfid_pTmvsHyl8feOT2EfmXOim" data-domain="tryiro.com" src="https://datafa.st/js/script.js"></script>
+<script src="/datafast-goals.js" defer></script>`;
 
 // ---------- post renderer ----------
 function renderPost(post) {
