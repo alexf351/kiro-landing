@@ -51,6 +51,7 @@ Figures below reflect each lab's published pricing and reported benchmark result
 | **Muse Spark 1.1** | Meta | 9 July 2026 | Multimodal reasoning update aimed at agentic tasks, on the Meta Model API. | Free tier |
 | **Kimi K3** | Moonshot AI | 16 July 2026 (weights 27 July) | At ~2.8T parameters, the largest open-weight release to date: 1M context, native vision, Modified MIT license. | $3 / $15 |
 | **Claude Opus 5** | Anthropic | 24 July 2026 | Near-Fable-5 capability at half the price, with a 1M-token context window and a fast mode. | $5 / $25 |
+| **DeepSeek V4-Flash-0731** | DeepSeek | 31 July 2026 | Open weights under MIT on Hugging Face: 284B total / 13B active, 1M context. V4-Pro (1.6T / 49B active) is the larger sibling. | MIT, self-host |
 | **Grok Imagine Image 2.0** | SpaceXAI | 7 August 2026 | Image model with region-level editing, segmentation, background removal and up to five reference images. Vendor-cited second on both Arena image boards, behind gpt-image-2. | In Grok; API coming soon |
 | **Gemini 3.7 Flash** | Google | 13 August 2026 | Workhorse update three weeks after 3.6 Flash: better coding and agents, 1M context, tunable thinking levels. Introductory price doubles on 1 January 2027. | $0.75 / $3.75 to 31 Dec 2026 |
 

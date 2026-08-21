@@ -1096,9 +1096,23 @@ try {
     ...slugs.map((s) => ({ source: `/blog/${s}`, destination: `/blog/${s}.html` })),
   ];
   write('blog-engine/dist/vercel-blog-rewrites.json', JSON.stringify({ rewrites }, null, 2) + '\n');
+
+  // Merge missing rewrites straight into vercel.json rather than only warning.
+  // Canonical URLs and the sitemap both use the extensionless /blog/<slug>
+  // form, so a post without a rewrite 404s at its own canonical URL while only
+  // the .html works. That has silently orphaned posts twice; a warning is not
+  // enough because the warning scrolls past. Insert after the last existing
+  // /blog/ rewrite so relative order is preserved, and re-serialise with the
+  // same 2-space formatting the file already uses (verified byte-identical on
+  // round-trip), which keeps the diff to just the added entries.
   if (missing.length) {
-    console.log('\n  ! vercel.json is missing /blog rewrites for:', missing.join(', '));
-    console.log('    Add them from blog-engine/dist/vercel-blog-rewrites.json (or set "cleanUrls": true).');
+    const list = vercel.rewrites || (vercel.rewrites = []);
+    let at = -1;
+    for (let i = 0; i < list.length; i++) if (String(list[i].source).startsWith('/blog/')) at = i;
+    const added = missing.map((s2) => ({ source: `/blog/${s2}`, destination: `/blog/${s2}.html` }));
+    list.splice(at + 1, 0, ...added);
+    fs.writeFileSync(path.join(ROOT, 'vercel.json'), JSON.stringify(vercel, null, 2) + '\n');
+    console.log('\n  + vercel.json: added /blog rewrites for', missing.join(', '));
   }
 } catch {
   /* vercel.json optional */

@@ -443,6 +443,10 @@
     {
       "source": "/blog/grok-imagine-image-2",
       "destination": "/blog/grok-imagine-image-2.html"
+    },
+    {
+      "source": "/blog/deepseek-v4",
+      "destination": "/blog/deepseek-v4.html"
     }
   ]
 }

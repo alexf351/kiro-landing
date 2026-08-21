@@ -1,0 +1,98 @@
+{
+  "slug": "deepseek-v4",
+  "order": 107,
+  "pillar": "ai-tools",
+  "title": "DeepSeek V4: what open weights actually mean for you",
+  "lede": "DeepSeek V4 is the strongest open-weight model of 2026: 1.6 trillion parameters, a million-token context, MIT licensed, free to download. Almost none of that matters if you are not running your own servers — so here is the part that does.",
+  "keyTakeaways": [
+    "DeepSeek V4 comes in two sizes, both MIT licensed with weights on Hugging Face: V4-Pro at 1.6T total parameters with 49B active, and V4-Flash at 284B total with 13B active. Both support a 1M-token context window.",
+    "MIT licensing is the genuinely unusual part. You can download it, run it, modify it and use it commercially with essentially no strings — which is not true of most models people call 'open'.",
+    "'1.6 trillion parameters' does not mean you can run it. Only 49B are active per token, but you still need all 1.6T in memory, which is a server-rack problem rather than a laptop one.",
+    "If you are not self-hosting, the practical benefit is indirect: open weights push the whole market's prices down and give you an exit if a vendor changes terms. That is worth understanding even if you never download anything."
+  ],
+  "description": "DeepSeek V4 explained without the hype: the real parameter counts, what MIT-licensed open weights let you do, why you probably still cannot run it, and what it changes for people who just use AI apps.",
+  "keywords": [
+    "DeepSeek V4",
+    "DeepSeek V4 Pro",
+    "DeepSeek V4 Flash",
+    "DeepSeek open weights",
+    "DeepSeek V4 context window",
+    "best open source AI model 2026"
+  ],
+  "datePublished": "2026-08-21",
+  "dateModified": "2026-08-21",
+  "readingTime": 7,
+  "articleSection": "AI tools",
+  "feedCategory": "AI tools",
+  "feedTags": ["AI tools", "DeepSeek", "AI models"],
+  "inlineCtaAfter": 2,
+  "toc": [
+    { "href": "#answer", "label": "The short answer" },
+    { "href": "#sizes", "label": "The two models" },
+    { "href": "#mit", "label": "Why MIT matters" },
+    { "href": "#run", "label": "Can you actually run it?" },
+    { "href": "#matters", "label": "What it changes for you" }
+  ],
+  "sections": [
+    {
+      "id": "answer",
+      "heading": "The short answer",
+      "html": "<p><strong>DeepSeek V4 is the most capable openly licensed model released in 2026, and for most people its importance is economic rather than practical.</strong> You are unlikely to run it. You will probably still benefit from it existing.</p><p>The verifiable facts, from the model cards themselves: two sizes, <strong>V4-Pro at 1.6T total parameters with 49B active</strong> and <strong>V4-Flash at 284B total with 13B active</strong>, both with a <strong>1M-token context window</strong>, both released under the <strong>MIT licence</strong> with weights on Hugging Face. V4-Flash-0731 was promoted to a production-candidate build on 31 July 2026.</p><p class=\"note\"><strong>A note on numbers you will see elsewhere.</strong> Coverage of this release has been unusually sloppy — parameter counts off by a factor of ten, and API availability reported as generally available while DeepSeek's own docs still listed it as preview. Everything above comes from the model cards and DeepSeek's API documentation. Where third-party write-ups disagree with those, trust the source.</p>"
+    },
+    {
+      "id": "sizes",
+      "heading": "The two models, and what the numbers mean",
+      "html": "<div class=\"cmp-wrap\"><table class=\"cmp-table\"><thead><tr><th></th><th>Total parameters</th><th>Active per token</th><th>Context</th><th>Licence</th></tr></thead><tbody><tr><th>V4-Pro</th><td>1.6T</td><td>49B</td><td>1M tokens</td><td>MIT</td></tr><tr><th>V4-Flash</th><td>284B</td><td>13B</td><td>1M tokens</td><td>MIT</td></tr></tbody></table></div><p>The two-number format trips people up, so it is worth unpacking. These are <strong>mixture-of-experts</strong> models: the full network is enormous, but only a fraction of it fires for any given token. V4-Pro holds 1.6 trillion parameters and uses about 49 billion of them at a time.</p><p>That design buys speed and cost, <em>not</em> a smaller footprint. The whole model still has to be resident in memory, because the router cannot know in advance which experts a token will need. <strong>Active parameters tell you what it costs to run. Total parameters tell you what it costs to host.</strong> Marketing tends to quote whichever is more flattering.</p>"
+    },
+    {
+      "id": "mit",
+      "heading": "Why the MIT licence is the actual story",
+      "html": "<p>\"Open\" gets used very loosely in AI. Plenty of models described as open ship with licences restricting commercial use, capping your user count, forbidding using outputs to train other models, or reserving the right to change terms later.</p><p><strong>MIT has essentially none of that.</strong> Download it, run it, modify it, build a business on it, keep your changes private. It is the same licence a great deal of ordinary open-source software uses, and applying it to a frontier-scale model is a deliberate and unusual choice.</p><p>Two consequences worth caring about:</p><ul><li><strong>It is a permanent floor.</strong> A released MIT model cannot be un-released. Whatever happens to DeepSeek as a company, these weights stay downloadable and usable — which is a very different guarantee from an API that can be repriced or retired.</li><li><strong>It is competitive pressure.</strong> A capable free-to-self-host model puts a ceiling on what closed vendors can charge for equivalent capability. You feel that in prices you never negotiated.</li></ul>"
+    },
+    {
+      "id": "run",
+      "heading": "Can you actually run it? Almost certainly not",
+      "html": "<p>This is where enthusiasm meets hardware.</p><p>\"Free to download\" and \"free to use\" are different claims. To serve V4-Pro you need all 1.6T parameters in fast memory. Even heavily quantised that is a multi-GPU server, not a gaming PC and not a laptop. <strong>V4-Flash at 284B is far more approachable and still well beyond consumer hardware.</strong></p><p>So who is this actually for?</p><ul><li><strong>Companies with a data-residency or compliance requirement</strong> that rules out sending text to someone else's API. This is the big one, and it is why open weights matter commercially.</li><li><strong>Inference providers</strong>, who host it and sell access — which is how most people who \"use DeepSeek V4\" will actually reach it.</li><li><strong>Researchers</strong>, who can inspect and modify something at this scale rather than probing a black box.</li></ul><p>If you are an individual, the realistic route is DeepSeek's own app and API, or a third-party host. You get the model without the rack.</p>"
+    },
+    {
+      "id": "matters",
+      "heading": "What it changes if you just use AI apps",
+      "html": "<p>Honestly? Not much this week, and quite a lot over a year.</p><p>Open weights at frontier capability do three things that reach ordinary users indirectly. They <strong>drag prices down</strong> across the market. They <strong>make lock-in less dangerous</strong>, because a credible alternative exists that nobody can withdraw. And they <strong>widen who can build</strong>, which means more tools, including from people who could never have afforded to train anything.</p><p>What it does <em>not</em> change is the thing that actually determines your results. A better model does not rescue a vague prompt; it produces a more articulate version of the wrong answer. <strong>The skills that decide whether AI is useful to you — describing a task precisely, giving enough context, setting constraints, and checking output you cannot verify at a glance — are model-independent.</strong> They were true of V3, they are true of V4, and they will be true of whatever ships next.</p><p>That is the case for spending your time on the durable half. Iro's paths cover <a href=\"/blog/how-to-write-a-prompt\">how to structure a prompt</a> and <a href=\"/blog/spot-ai-hallucinations\">how to catch a confident wrong answer</a>, which pay off across every model in this post and every one after it.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "How many parameters does DeepSeek V4 have?",
+      "a": "DeepSeek V4 comes in two sizes. V4-Pro has 1.6 trillion total parameters with about 49 billion active per token, and V4-Flash has 284 billion total with about 13 billion active. Both are mixture-of-experts models, so only a fraction of the network runs for any given token even though the whole model must be held in memory."
+    },
+    {
+      "q": "Is DeepSeek V4 really open source?",
+      "a": "The weights are released under the MIT licence on Hugging Face, which is unusually permissive: you can download, run, modify and commercially use them with essentially no restrictions. Purists note that open weights are not the same as fully open source, since training data and code are not necessarily included, but MIT weights are far more permissive than most licences marketed as open."
+    },
+    {
+      "q": "Can I run DeepSeek V4 on my own computer?",
+      "a": "Almost certainly not. Mixture-of-experts means only around 49 billion of V4-Pro's parameters are active per token, but all 1.6 trillion must still be resident in memory, which requires a multi-GPU server rather than a desktop. V4-Flash at 284 billion is more approachable but still beyond consumer hardware. Most people will reach V4 through DeepSeek's own app and API or a third-party inference provider."
+    },
+    {
+      "q": "What is DeepSeek V4's context window?",
+      "a": "Both V4-Pro and V4-Flash support a 1 million token context window, according to their Hugging Face model cards."
+    },
+    {
+      "q": "Does a better model mean better results for me?",
+      "a": "Only partly. A stronger model raises the ceiling but does not fix a vague request — it tends to produce a more fluent version of the wrong answer. The factors that most affect your results are describing the task precisely, supplying enough context, stating constraints, and verifying output you cannot check at a glance. Those skills transfer across every model."
+    }
+  ],
+  "readNext": [
+    { "href": "/blog/new-ai-models-2026", "label": "Every 2026 AI model release, tracked" },
+    { "href": "/blog/chatgpt-vs-deepseek", "label": "ChatGPT vs DeepSeek, compared" },
+    { "href": "/blog/spot-ai-hallucinations", "label": "How to spot AI hallucinations" }
+  ],
+  "related": [
+    "/blog/new-ai-models-2026",
+    "/blog/chatgpt-vs-deepseek",
+    "/blog/spot-ai-hallucinations",
+    "/blog/how-to-write-a-prompt",
+    "/blog/gemini-3-7-flash",
+    "/blog/what-is-an-llm"
+  ]
+}

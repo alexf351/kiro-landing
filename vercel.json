@@ -1302,6 +1302,10 @@
     {
       "source": "/blog/chunks-alternatives",
       "destination": "/blog/chunks-alternatives.html"
+    },
+    {
+      "source": "/blog/deepseek-v4",
+      "destination": "/blog/deepseek-v4.html"
     }
   ]
 }

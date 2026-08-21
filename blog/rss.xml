@@ -971,5 +971,14 @@
       <category>AI tools</category>
       <description>Grok Imagine Image 2.0 explained: release date, region-level editing, multi-image references, arena ranking versus gpt-image-2, and how to actually prompt it well.</description>
     </item>
+    <item>
+      <title>DeepSeek V4: what open weights actually mean for you</title>
+      <link>https://tryiro.com/blog/deepseek-v4</link>
+      <guid isPermaLink="true">https://tryiro.com/blog/deepseek-v4</guid>
+      <pubDate>Fri, 21 Aug 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Iro AI</dc:creator>
+      <category>AI tools</category>
+      <description>DeepSeek V4 explained without the hype: the real parameter counts, what MIT-licensed open weights let you do, why you probably still cannot run it, and what it changes for people who just use AI apps.</description>
+    </item>
   </channel>
 </rss>

@@ -1111,4 +1111,14 @@
       <image:title>Grok Imagine Image 2.0: the editing tools are the story</image:title>
     </image:image>
   </url>
+  <url>
+    <loc>https://tryiro.com/blog/deepseek-v4</loc>
+    <lastmod>2026-08-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://tryiro.com/assets/og/deepseek-v4.png</image:loc>
+      <image:title>DeepSeek V4: what open weights actually mean for you</image:title>
+    </image:image>
+  </url>
 </urlset>

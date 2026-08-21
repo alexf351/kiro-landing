@@ -1233,6 +1233,18 @@
         "Grok",
         "AI image generation"
       ]
+    },
+    {
+      "id": "https://tryiro.com/blog/deepseek-v4",
+      "url": "https://tryiro.com/blog/deepseek-v4",
+      "title": "DeepSeek V4: what open weights actually mean for you",
+      "summary": "DeepSeek V4 is the strongest open-weight model of 2026: 1.6 trillion parameters, a million-token context, MIT licensed, free to download. Almost none of that matters if you are not running your own servers — so here is the part that does.",
+      "date_published": "2026-08-21T00:00:00Z",
+      "tags": [
+        "AI tools",
+        "DeepSeek",
+        "AI models"
+      ]
     }
   ]
 }
