@@ -355,3 +355,47 @@ volume.
 Re-read this alongside the monthly GEO check above. The discovery-prompt row is
 still the number that matters; this tells you whether the inputs to it are even
 being read.
+
+---
+
+## MEASURED — Ahrefs, 2026-08-21
+
+First movement on domain authority since tracking began.
+
+| | 2026-08-18 | 2026-08-21 |
+| --- | --- | --- |
+| Domain Rating | 0.4 | **2.8** |
+| Backlinks | — | 897 (4% dofollow) |
+| Linking websites | 4 | **518** (3% dofollow) |
+
+**The DR move is real and worth having.** After months at effectively zero, 0.4
+to 2.8 in three days is the badge work landing — Wired Business and Startup Fame
+verified, and Firsto, TinyLaunch and PeerPush have not even gone live yet.
+
+**The 518 figure is not what it looks like, and it matters that we say so.**
+Four directory submissions cannot produce 514 new referring domains in three
+days. That is the signature of scraper and aggregator propagation: submit to one
+directory network and hundreds of auto-generated sites copy the listing. It is
+the same phenomenon as the original four (reddlx.com, liststartup.in,
+umia.finance, cybercorsairs.com), just at scale.
+
+Run our own test on it:
+
+- **3% dofollow of 518 is about 15 domains actually passing equity.** By the
+  exact standard applied to LaunchBuck two days ago — 365 linking websites at 4%
+  dofollow, "roughly 15 domains pass it equity, so it has little to pass on" —
+  tryiro.com is now approximately where LaunchBuck is. That standard has to cut
+  both ways or it is not a standard.
+- **DR is logarithmic and compresses hard at the bottom.** 0.4 → 2.8 reads as a
+  7x gain and is closer to "left the floor" than "gained authority". The
+  interesting threshold is DR 10-15, and it is not near.
+
+**What actually settles it, and we can now measure it.** Referring domains that
+send no traffic and pass no equity are noise. DataFast is live as of today, so
+the question "did any of these 518 send a single human being?" has an answer
+waiting in the referrers report. Check it in a week.
+
+**Do not change strategy on this number.** It is a leading indicator moving in
+the right direction, not evidence that directory volume works. The plan stays:
+a small number of badges from places that get cited, Product Hunt for audience,
+and content that earns links on merit.
