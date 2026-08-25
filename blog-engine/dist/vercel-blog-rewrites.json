@@ -459,6 +459,10 @@
     {
       "source": "/blog/how-to-use-microsoft-copilot",
       "destination": "/blog/how-to-use-microsoft-copilot.html"
+    },
+    {
+      "source": "/blog/best-learning-apps",
+      "destination": "/blog/best-learning-apps.html"
     }
   ]
 }

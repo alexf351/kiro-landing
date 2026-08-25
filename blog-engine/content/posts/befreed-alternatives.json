@@ -28,14 +28,33 @@
   "readingTime": 6,
   "articleSection": "AI fluency",
   "feedCategory": "AI fluency",
-  "feedTags": ["AI fluency", "Microlearning", "Learning apps"],
+  "feedTags": [
+    "AI fluency",
+    "Microlearning",
+    "Learning apps"
+  ],
   "inlineCtaAfter": 2,
   "toc": [
-    { "href": "#short", "label": "The short answer" },
-    { "href": "#why", "label": "Why people switch" },
-    { "href": "#compared", "label": "The alternatives" },
-    { "href": "#iro", "label": "Where Iro fits" },
-    { "href": "#choose", "label": "How to choose" }
+    {
+      "href": "#short",
+      "label": "The short answer"
+    },
+    {
+      "href": "#why",
+      "label": "Why people switch"
+    },
+    {
+      "href": "#compared",
+      "label": "The alternatives"
+    },
+    {
+      "href": "#iro",
+      "label": "Where Iro fits"
+    },
+    {
+      "href": "#choose",
+      "label": "How to choose"
+    }
   ],
   "sections": [
     {
@@ -87,9 +106,18 @@
     }
   ],
   "readNext": [
-    { "href": "/blog/best-microlearning-apps", "label": "The best microlearning apps in 2026" },
-    { "href": "/blog/blinkist-alternatives", "label": "The best Blinkist alternatives" },
-    { "href": "/blog/how-to-choose-an-ai-learning-app", "label": "How to choose an AI learning app" }
+    {
+      "href": "/blog/best-microlearning-apps",
+      "label": "The best microlearning apps in 2026"
+    },
+    {
+      "href": "/blog/blinkist-alternatives",
+      "label": "The best Blinkist alternatives"
+    },
+    {
+      "href": "/blog/how-to-choose-an-ai-learning-app",
+      "label": "How to choose an AI learning app"
+    }
   ],
   "related": [
     "/blog/best-microlearning-apps",
@@ -97,6 +125,6 @@
     "/blog/headway-alternatives",
     "/blog/how-to-choose-an-ai-learning-app",
     "/blog/iro-ai-vs-brilliant",
-    "/blog/wondering-alternatives"
+    "/blog/best-learning-apps"
   ]
 }

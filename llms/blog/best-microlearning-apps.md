@@ -43,6 +43,8 @@ So the useful question is not which app is best. It is _which job you are hiring
 
 Pick the wrong category and the app will not stick, no matter how good it is. That is the most common failure here and it looks like a motivation problem when it is really a category error.
 
+Looking more broadly than short-session apps? [The best apps to learn something new](/blog/best-learning-apps) covers the whole category by subject &mdash; languages, maths, general knowledge and the rest.
+
 ## Three jobs that keep getting confused
 
 They compress a book into fifteen minutes. Genuinely good at what they do: broad exposure, fast, excellent for deciding what deserves the full read. **Their honest limit is transfer.** A summary hands you an argument, and arguments do not become habits on their own. If you have finished forty summaries and changed nothing you do, the format is working exactly as designed — it was never a behaviour-change product.
@@ -119,9 +121,9 @@ Khan Academy is entirely free with no paid tier. Duolingo's full courses are fre
 
 ## Read next
 
+- [The best apps to learn something new](https://tryiro.com/blog/best-learning-apps)
 - [How to choose an AI learning app](https://tryiro.com/blog/how-to-choose-an-ai-learning-app)
 - [The best Blinkist alternatives](https://tryiro.com/blog/blinkist-alternatives)
-- [Iro AI vs Brilliant](https://tryiro.com/blog/iro-ai-vs-brilliant)
 
 ## About the author
 

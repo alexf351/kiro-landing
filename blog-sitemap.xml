@@ -1151,4 +1151,14 @@
       <image:title>How to use Microsoft Copilot (and why it seems broken)</image:title>
     </image:image>
   </url>
+  <url>
+    <loc>https://tryiro.com/blog/best-learning-apps</loc>
+    <lastmod>2026-08-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://tryiro.com/assets/og/best-learning-apps.png</image:loc>
+      <image:title>The best apps to learn something new in 2026</image:title>
+    </image:image>
+  </url>
 </urlset>

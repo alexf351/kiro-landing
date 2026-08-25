@@ -28,20 +28,39 @@
   "readingTime": 9,
   "articleSection": "AI fluency",
   "feedCategory": "AI fluency",
-  "feedTags": ["AI fluency", "Microlearning", "Learning apps"],
+  "feedTags": [
+    "AI fluency",
+    "Microlearning",
+    "Learning apps"
+  ],
   "inlineCtaAfter": 3,
   "toc": [
-    { "href": "#short", "label": "The short answer" },
-    { "href": "#three", "label": "Three jobs, not one category" },
-    { "href": "#test", "label": "The ten-minute test" },
-    { "href": "#compared", "label": "The apps, compared" },
-    { "href": "#iro", "label": "Where Iro fits, and where it doesn't" }
+    {
+      "href": "#short",
+      "label": "The short answer"
+    },
+    {
+      "href": "#three",
+      "label": "Three jobs, not one category"
+    },
+    {
+      "href": "#test",
+      "label": "The ten-minute test"
+    },
+    {
+      "href": "#compared",
+      "label": "The apps, compared"
+    },
+    {
+      "href": "#iro",
+      "label": "Where Iro fits, and where it doesn't"
+    }
   ],
   "sections": [
     {
       "id": "short",
       "heading": "The short answer",
-      "html": "<p><strong>There is no best microlearning app, because \"microlearning\" describes a session length rather than a method.</strong> Five minutes of book summary and five minutes of graded practice are different activities that happen to take the same time, and they produce different results.</p><p>So the useful question is not which app is best. It is <em>which job you are hiring an app to do</em>:</p><ul><li><strong>Cover a lot of ground quickly</strong> — a summary library. Blinkist, Headway, BeFreed.</li><li><strong>Understand a subject properly</strong> — a curated concept course. Brilliant, Kinnu, Imprint, Khan Academy.</li><li><strong>Get measurably better at doing something</strong> — a practice app. Duolingo for languages, Iro AI for using AI tools.</li></ul><p>Pick the wrong category and the app will not stick, no matter how good it is. That is the most common failure here and it looks like a motivation problem when it is really a category error.</p>"
+      "html": "<p><strong>There is no best microlearning app, because \"microlearning\" describes a session length rather than a method.</strong> Five minutes of book summary and five minutes of graded practice are different activities that happen to take the same time, and they produce different results.</p><p>So the useful question is not which app is best. It is <em>which job you are hiring an app to do</em>:</p><ul><li><strong>Cover a lot of ground quickly</strong> — a summary library. Blinkist, Headway, BeFreed.</li><li><strong>Understand a subject properly</strong> — a curated concept course. Brilliant, Kinnu, Imprint, Khan Academy.</li><li><strong>Get measurably better at doing something</strong> — a practice app. Duolingo for languages, Iro AI for using AI tools.</li></ul><p>Pick the wrong category and the app will not stick, no matter how good it is. That is the most common failure here and it looks like a motivation problem when it is really a category error.</p><p class=\"note\">Looking more broadly than short-session apps? <a href=\"/blog/best-learning-apps\">The best apps to learn something new</a> covers the whole category by subject &mdash; languages, maths, general knowledge and the rest.</p>"
     },
     {
       "id": "three",
@@ -87,16 +106,25 @@
     }
   ],
   "readNext": [
-    { "href": "/blog/how-to-choose-an-ai-learning-app", "label": "How to choose an AI learning app" },
-    { "href": "/blog/blinkist-alternatives", "label": "The best Blinkist alternatives" },
-    { "href": "/blog/iro-ai-vs-brilliant", "label": "Iro AI vs Brilliant" }
+    {
+      "href": "/blog/best-learning-apps",
+      "label": "The best apps to learn something new"
+    },
+    {
+      "href": "/blog/how-to-choose-an-ai-learning-app",
+      "label": "How to choose an AI learning app"
+    },
+    {
+      "href": "/blog/blinkist-alternatives",
+      "label": "The best Blinkist alternatives"
+    }
   ],
   "related": [
+    "/blog/best-learning-apps",
     "/blog/how-to-choose-an-ai-learning-app",
     "/blog/blinkist-alternatives",
     "/blog/headway-alternatives",
     "/blog/kinnu-alternatives",
-    "/blog/iro-ai-vs-brilliant",
-    "/blog/iro-ai-vs-duolingo"
+    "/blog/iro-ai-vs-brilliant"
   ]
 }
