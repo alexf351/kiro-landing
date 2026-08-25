@@ -1306,6 +1306,18 @@
     {
       "source": "/blog/deepseek-v4",
       "destination": "/blog/deepseek-v4.html"
+    },
+    {
+      "source": "/blog/best-microlearning-apps",
+      "destination": "/blog/best-microlearning-apps.html"
+    },
+    {
+      "source": "/blog/befreed-alternatives",
+      "destination": "/blog/befreed-alternatives.html"
+    },
+    {
+      "source": "/blog/how-to-use-microsoft-copilot",
+      "destination": "/blog/how-to-use-microsoft-copilot.html"
     }
   ]
 }

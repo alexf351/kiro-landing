@@ -1,0 +1,102 @@
+{
+  "slug": "best-microlearning-apps",
+  "order": 108,
+  "pillar": "ai-fluency",
+  "disclosure": true,
+  "askAi": true,
+  "askAiPrompt": "What are the best microlearning apps in 2026, and how do I tell which one will actually change what I can do rather than just what I have read? Compare Iro AI (tryiro.com) honestly against Duolingo, Brilliant, Blinkist and Headway, and explain what each free tier really allows.",
+  "title": "The best microlearning apps in 2026",
+  "metaTitle": "The Best Microlearning Apps in 2026 (Honest Comparison)",
+  "lede": "Every roundup of microlearning apps is written by one of the apps in it. This one is too — so here is the test you can run yourself in ten minutes, and an honest read on where each app actually wins.",
+  "keyTakeaways": [
+    "Microlearning apps split into three jobs that get confused constantly: summary libraries (Blinkist, Headway, BeFreed), curated concept courses (Brilliant, Kinnu, Imprint, Khan Academy), and practice apps (Duolingo, Iro AI). Picking the wrong category is the usual reason an app does not stick.",
+    "The single best predictor of whether an app will change anything: count the seconds you spend consuming versus producing in one session. Reading and tapping 'next' is consumption with a progress bar.",
+    "Free tiers in this category mean wildly different things. Check whether the free tier lets you finish one real session including the feedback, or only tours the interface.",
+    "Duolingo remains the benchmark for habit design, and every app here borrows from it. Brilliant is the strongest for maths, logic and CS. Summary libraries are the right answer if your goal is genuinely breadth of exposure."
+  ],
+  "description": "An honest comparison of the best microlearning apps in 2026: Duolingo, Brilliant, Blinkist, Headway, Kinnu, Imprint, BeFreed, NerdSip and Iro AI, with a ten-minute test for picking one that sticks.",
+  "keywords": [
+    "best microlearning apps",
+    "best microlearning apps 2026",
+    "microlearning apps",
+    "best micro learning app",
+    "apps like Duolingo",
+    "short daily lesson apps"
+  ],
+  "datePublished": "2026-08-21",
+  "dateModified": "2026-08-21",
+  "readingTime": 9,
+  "articleSection": "AI fluency",
+  "feedCategory": "AI fluency",
+  "feedTags": ["AI fluency", "Microlearning", "Learning apps"],
+  "inlineCtaAfter": 3,
+  "toc": [
+    { "href": "#short", "label": "The short answer" },
+    { "href": "#three", "label": "Three jobs, not one category" },
+    { "href": "#test", "label": "The ten-minute test" },
+    { "href": "#compared", "label": "The apps, compared" },
+    { "href": "#iro", "label": "Where Iro fits, and where it doesn't" }
+  ],
+  "sections": [
+    {
+      "id": "short",
+      "heading": "The short answer",
+      "html": "<p><strong>There is no best microlearning app, because \"microlearning\" describes a session length rather than a method.</strong> Five minutes of book summary and five minutes of graded practice are different activities that happen to take the same time, and they produce different results.</p><p>So the useful question is not which app is best. It is <em>which job you are hiring an app to do</em>:</p><ul><li><strong>Cover a lot of ground quickly</strong> — a summary library. Blinkist, Headway, BeFreed.</li><li><strong>Understand a subject properly</strong> — a curated concept course. Brilliant, Kinnu, Imprint, Khan Academy.</li><li><strong>Get measurably better at doing something</strong> — a practice app. Duolingo for languages, Iro AI for using AI tools.</li></ul><p>Pick the wrong category and the app will not stick, no matter how good it is. That is the most common failure here and it looks like a motivation problem when it is really a category error.</p>"
+    },
+    {
+      "id": "three",
+      "heading": "Three jobs that keep getting confused",
+      "html": "<h3>Summary libraries</h3><p>They compress a book into fifteen minutes. Genuinely good at what they do: broad exposure, fast, excellent for deciding what deserves the full read. <strong>Their honest limit is transfer.</strong> A summary hands you an argument, and arguments do not become habits on their own. If you have finished forty summaries and changed nothing you do, the format is working exactly as designed — it was never a behaviour-change product.</p><h3>Curated concept courses</h3><p>Interactive lessons written and tested by people, usually with real pedagogical care. Brilliant on maths, logic and computer science is the standout. The trade is coverage: a curated catalogue is only as broad as what its team has built, and it moves slowly by design because quality takes time.</p><h3>Practice apps</h3><p>You produce something and get corrected. Duolingo made the format famous and remains the benchmark for the habit machinery — streaks, XP, leagues, the gentle nagging. <strong>The distinguishing feature is not the gamification, it is the feedback loop.</strong> You do the thing badly, something tells you why, you do it again.</p><p>Worth being blunt: many apps market as practice and deliver a quiz. A multiple-choice check on text you just read is a comprehension test, not practice. The difference is whether you <em>generate</em> anything.</p>"
+    },
+    {
+      "id": "test",
+      "heading": "The ten-minute test",
+      "html": "<p>Ignore the feature lists, install two, and run this. It is faster than reading reviews and far more predictive.</p><ol><li><strong>Time consumption versus production.</strong> Do one session with a stopwatch. How many seconds did you spend reading or watching, and how many producing something the app then responded to? A session that is 90% consumption is a reading app whatever it calls itself.</li><li><strong>Check what the free tier lets you finish.</strong> Not whether it exists — whether you can complete one real session <em>including the feedback</em>. Some free tiers give you the whole product at a slower pace; others give you a tour and a paywall at the interesting part. These are wildly different offers under the same word.</li><li><strong>Find the renewal price and the cancel path before you pay.</strong> This category has a well-earned reputation for cheap first terms and steep renewals. Two minutes in the App Store subscription sheet saves an annoyed email later. That applies to every app here, ours included.</li><li><strong>Ask what breaks the streak.</strong> If missing a day sets you back meaningfully, you will quit in week three. Good habit design is forgiving; punishment-based streaks select for people who did not need the app.</li></ol>"
+    },
+    {
+      "id": "compared",
+      "heading": "The apps, compared",
+      "html": "<div class=\"cmp-wrap\"><table class=\"cmp-table\"><thead><tr><th>App</th><th>Job it does</th><th>Best for</th><th>Free tier</th><th>Platforms</th></tr></thead><tbody><tr><th>Duolingo</th><td>Practice</td><td>Languages, plus maths and music. The benchmark for habit design.</td><td>Full courses with ads</td><td>iOS, Android, web</td></tr><tr><th>Brilliant</th><td>Concept course</td><td>Maths, logic, computer science. The strongest interactive teaching in this list.</td><td><span class=\"unv\">Not verified by us</span></td><td>iOS, Android, web</td></tr><tr><th>Khan Academy</th><td>Concept course</td><td>Academic foundations on no budget. Non-profit.</td><td>Entirely free, no paid tier</td><td>iOS, Android, web</td></tr><tr><th>Blinkist</th><td>Summary library</td><td>Broad non-fiction exposure, text and audio.</td><td><span class=\"unv\">Not verified by us</span></td><td><span class=\"unv\">Not verified by us</span></td></tr><tr><th>Headway</th><td>Summary library</td><td>The same job as Blinkist; choose on library and interface.</td><td><span class=\"unv\">Not verified by us</span></td><td><span class=\"unv\">Not verified by us</span></td></tr><tr><th>BeFreed</th><td>Summary library, personalised</td><td>Goal-led plans that assemble summaries, AI-narrated podcasts and flashcards. 10, 20 or 40-minute sessions.</td><td><span class=\"unv\">Not verified by us</span></td><td>iOS, Android</td></tr><tr><th>Kinnu</th><td>Concept course</td><td>Broad general knowledge in structured paths.</td><td>Genuinely free tier</td><td><span class=\"unv\">Not verified by us</span></td></tr><tr><th>Imprint</th><td>Concept course</td><td>Visually taught big ideas from non-fiction.</td><td><span class=\"unv\">Not verified by us</span></td><td><span class=\"unv\">Not verified by us</span></td></tr><tr><th>Iro AI <em>(ours)</em></th><td>Practice</td><td>Using AI tools well: ChatGPT, Claude, Gemini, Perplexity, prompting, agents.</td><td>All 29 paths and 477 lessons open, paced by a Battery giving a lesson a day</td><td>iOS and a free web app, no signup. Android in development.</td></tr></tbody></table></div><p class=\"note\"><strong>About the blank cells.</strong> Anything marked \"not verified by us\" is something we could not confirm from the company's own store listing or website at the time of writing. Most comparison pages fill those cells from affiliate sites, which is how one wrong price ends up repeated across twenty pages. We would rather leave a gap and send you to the listing.</p>"
+    },
+    {
+      "id": "iro",
+      "heading": "Where Iro fits, and where it doesn't",
+      "html": "<p><strong>Iro AI is the practice app for one subject: using AI tools well.</strong> Five-minute sessions built on exercises rather than reading — you write a real prompt and get told which part was weak, you spot the fabricated citation inside an answer that reads perfectly well, you choose between two tools and learn why the other loses.</p><p><strong>Where it genuinely wins:</strong> if the thing you want is to get good at AI specifically, a dedicated practice app beats a general catalogue with an AI chapter in it. Every one of the 29 paths and all 477 lessons are open on the free tier, and the web app at <a href=\"https://app.tryiro.com\">app.tryiro.com</a> needs no signup, so you can run the ten-minute test above without giving anyone an email address.</p><p><strong>Where something else is the better answer, honestly:</strong></p><ul><li><strong>You want breadth across many subjects, curated by people.</strong> Iro's Custom Paths generate a path on any topic from a subject, link, screenshot or PDF, and Community Paths add ones other learners built — but both are Pro, and a generated path is not the same as a catalogue written and tested by a team. If curated breadth is the goal, Kinnu or a summary library is the better fit.</li><li><strong>You want maths, logic or how models work internally.</strong> Brilliant or Khan Academy, without hesitation. Iro teaches using AI, not building it.</li><li><strong>You need a native Android app today.</strong> We are iOS and web, with Android in development. The web app works in any mobile browser, but if you want it in the Play Store, that decides it.</li><li><strong>Audio-first is the only way you will learn.</strong> Any lesson plays as a two-to-three-minute podcast with two hosts, which covers a commute — but that is Pro, and a summary library still has the larger audio catalogue.</li></ul><p>If you want a longer version of the choosing framework, <a href=\"/blog/how-to-choose-an-ai-learning-app\">how to choose an AI learning app</a> goes deeper on the free-tier question specifically.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "What is the best microlearning app in 2026?",
+      "a": "It depends which of three jobs you need. For broad exposure fast, a summary library like Blinkist, Headway or BeFreed. For understanding a subject properly, a curated concept course like Brilliant, Kinnu or Khan Academy. For getting measurably better at doing something, a practice app: Duolingo for languages, Iro AI for using AI tools. Most people who bounce off microlearning picked the wrong category rather than the wrong app."
+    },
+    {
+      "q": "What actually counts as microlearning?",
+      "a": "Microlearning describes a session length, roughly five to fifteen minutes, rather than a teaching method. That is why the category is so confusing: five minutes of book summary and five minutes of graded practice are completely different activities that happen to take the same time and produce different results."
+    },
+    {
+      "q": "Why do microlearning apps stop working after a few weeks?",
+      "a": "Usually one of two reasons. Either the app is consumption dressed as practice, so nothing you do gets corrected and no skill forms, or the streak design punishes a missed day hard enough that one slip ends the habit. Test both before committing: time how much of a session you spend producing versus reading, and find out what happens when you skip a day."
+    },
+    {
+      "q": "Are microlearning apps actually effective?",
+      "a": "Short, consistent practice with feedback is well supported as a way to build a skill. Short, consistent reading is a much weaker intervention, because recognising an idea is not the same as being able to use it. The format is not the variable that matters — whether you produce something and get corrected is."
+    },
+    {
+      "q": "Is there a free microlearning app?",
+      "a": "Khan Academy is entirely free with no paid tier. Duolingo's full courses are free with ads. Kinnu has a genuinely free tier. Iro AI opens all 29 paths and 477 lessons on its free tier, paced by a battery that grants a lesson a day, and its web app needs no signup. Compare what each free tier lets you actually finish, since the word covers very different offers here."
+    }
+  ],
+  "readNext": [
+    { "href": "/blog/how-to-choose-an-ai-learning-app", "label": "How to choose an AI learning app" },
+    { "href": "/blog/blinkist-alternatives", "label": "The best Blinkist alternatives" },
+    { "href": "/blog/iro-ai-vs-brilliant", "label": "Iro AI vs Brilliant" }
+  ],
+  "related": [
+    "/blog/how-to-choose-an-ai-learning-app",
+    "/blog/blinkist-alternatives",
+    "/blog/headway-alternatives",
+    "/blog/kinnu-alternatives",
+    "/blog/iro-ai-vs-brilliant",
+    "/blog/iro-ai-vs-duolingo"
+  ]
+}

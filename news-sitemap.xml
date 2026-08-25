@@ -4,40 +4,5 @@
      was published in that window. That is correct, not a bug. -->
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
-  <url>
-    <loc>https://tryiro.com/blog/gemini-3-7-flash</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Iro AI</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-21T00:00:00Z</news:publication_date>
-      <news:title>Gemini 3.7 Flash: what changed, and whether you'll notice</news:title>
-      <news:keywords>Gemini 3.7 Flash, Gemini 3.7 Flash pricing, Gemini 3.7 vs 3.6 Flash, Gemini 3.7 Flash release date, Google Gemini new model, Gemini thinking levels</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://tryiro.com/blog/grok-imagine-image-2</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Iro AI</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-21T00:00:00Z</news:publication_date>
-      <news:title>Grok Imagine Image 2.0: the editing tools are the story</news:title>
-      <news:keywords>Grok Imagine Image 2.0, Grok Imagine 2, Grok image generation, Grok Imagine editing, SpaceXAI image model, Grok Imagine vs gpt-image-2</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://tryiro.com/blog/deepseek-v4</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Iro AI</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-21T00:00:00Z</news:publication_date>
-      <news:title>DeepSeek V4: what open weights actually mean for you</news:title>
-      <news:keywords>DeepSeek V4, DeepSeek V4 Pro, DeepSeek V4 Flash, DeepSeek open weights, DeepSeek V4 context window, best open source AI model 2026</news:keywords>
-    </news:news>
-  </url>
+
 </urlset>

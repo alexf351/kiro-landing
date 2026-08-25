@@ -1245,6 +1245,42 @@
         "DeepSeek",
         "AI models"
       ]
+    },
+    {
+      "id": "https://tryiro.com/blog/best-microlearning-apps",
+      "url": "https://tryiro.com/blog/best-microlearning-apps",
+      "title": "The best microlearning apps in 2026",
+      "summary": "Every roundup of microlearning apps is written by one of the apps in it. This one is too — so here is the test you can run yourself in ten minutes, and an honest read on where each app actually wins.",
+      "date_published": "2026-08-21T00:00:00Z",
+      "tags": [
+        "AI fluency",
+        "Microlearning",
+        "Learning apps"
+      ]
+    },
+    {
+      "id": "https://tryiro.com/blog/befreed-alternatives",
+      "url": "https://tryiro.com/blog/befreed-alternatives",
+      "title": "The best BeFreed alternatives in 2026",
+      "summary": "BeFreed assembles books, talks and research into a personalised plan of summaries, AI-narrated podcasts and flashcards. If you are looking for an alternative, the question worth asking first is whether you want that job done better — or a different job entirely.",
+      "date_published": "2026-08-21T00:00:00Z",
+      "tags": [
+        "AI fluency",
+        "Microlearning",
+        "Learning apps"
+      ]
+    },
+    {
+      "id": "https://tryiro.com/blog/how-to-use-microsoft-copilot",
+      "url": "https://tryiro.com/blog/how-to-use-microsoft-copilot",
+      "title": "How to use Microsoft Copilot (and why it seems broken)",
+      "summary": "Most complaints about Copilot come down to one thing: there are two different products with the same name, and the free one cannot do the thing people are trying to do. Here is which is which, and how to prompt the one you have.",
+      "date_published": "2026-08-21T00:00:00Z",
+      "tags": [
+        "AI tools",
+        "Microsoft Copilot",
+        "AI at work"
+      ]
     }
   ]
 }

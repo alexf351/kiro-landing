@@ -1080,4 +1080,34 @@
     <category term="AI tools"/>
     <summary>DeepSeek V4 is the strongest open-weight model of 2026: 1.6 trillion parameters, a million-token context, MIT licensed, free to download. Almost none of that matters if you are not running your own servers — so here is the part that does.</summary>
   </entry>
+  <entry>
+    <title>The best microlearning apps in 2026</title>
+    <id>https://tryiro.com/blog/best-microlearning-apps</id>
+    <link href="https://tryiro.com/blog/best-microlearning-apps"/>
+    <updated>2026-08-21T00:00:00Z</updated>
+    <published>2026-08-21T00:00:00Z</published>
+    <author><name>Iro AI</name></author>
+    <category term="AI fluency"/>
+    <summary>Every roundup of microlearning apps is written by one of the apps in it. This one is too — so here is the test you can run yourself in ten minutes, and an honest read on where each app actually wins.</summary>
+  </entry>
+  <entry>
+    <title>The best BeFreed alternatives in 2026</title>
+    <id>https://tryiro.com/blog/befreed-alternatives</id>
+    <link href="https://tryiro.com/blog/befreed-alternatives"/>
+    <updated>2026-08-21T00:00:00Z</updated>
+    <published>2026-08-21T00:00:00Z</published>
+    <author><name>Iro AI</name></author>
+    <category term="AI fluency"/>
+    <summary>BeFreed assembles books, talks and research into a personalised plan of summaries, AI-narrated podcasts and flashcards. If you are looking for an alternative, the question worth asking first is whether you want that job done better — or a different job entirely.</summary>
+  </entry>
+  <entry>
+    <title>How to use Microsoft Copilot (and why it seems broken)</title>
+    <id>https://tryiro.com/blog/how-to-use-microsoft-copilot</id>
+    <link href="https://tryiro.com/blog/how-to-use-microsoft-copilot"/>
+    <updated>2026-08-21T00:00:00Z</updated>
+    <published>2026-08-21T00:00:00Z</published>
+    <author><name>Iro AI</name></author>
+    <category term="AI tools"/>
+    <summary>Most complaints about Copilot come down to one thing: there are two different products with the same name, and the free one cannot do the thing people are trying to do. Here is which is which, and how to prompt the one you have.</summary>
+  </entry>
 </feed>

@@ -4,7 +4,7 @@ canonical_url: "https://tryiro.com/blog/ai-fluency"
 site: "Iro AI"
 site_url: "https://tryiro.com"
 language: en-US
-last_updated: "2026-08-18"
+last_updated: "2026-08-21"
 keywords: ["AI fluency", "how to learn AI", "AI skills", "learn AI 2026", "AI for beginners"]
 author: "Iro AI"
 license: "© 2026 Iro AI"
@@ -16,7 +16,7 @@ type: "content-pillar"
 > Build real AI fluency in 2026 — the active-practice method, the free tools worth using, and how to tell when AI is wrong.
 
 **Canonical:** https://tryiro.com/blog/ai-fluency
-**Last updated:** 2026-08-18
+**Last updated:** 2026-08-21
 
 AI fluency is the ability to get reliable, useful results from AI tools — and to know when not to trust them. It is not about memorising magic prompts. It is a skill you build through active practice, the same way you would learn a language or an instrument.
 
@@ -83,3 +83,5 @@ Work through the posts below in order, or jump straight to whichever gap is most
 - [The best Nibble alternatives in 2026](https://tryiro.com/blog/nibble-alternatives) — Looking for a Nibble alternative? A clear-eyed look at what five minutes a day actually buys you, and which microlearning app to pick depending on the subject. Iro AI, Brilliant and Khan Academy compared.
 - [The best Imprint alternatives in 2026](https://tryiro.com/blog/imprint-alternatives) — Looking for an Imprint alternative? Visual learning is fast at understanding and weak at transfer. Here is what to switch to depending on your goal, with Iro AI, Brilliant and Khan Academy compared honestly.
 - [The best Chunks alternatives in 2026](https://tryiro.com/blog/chunks-alternatives) — Looking for a Chunks alternative? Every microlearning roundup is written by one of the apps in it, including this one. Here is how to read them, plus an honest comparison of Iro AI, Brilliant and Khan Academy.
+- [The best microlearning apps in 2026](https://tryiro.com/blog/best-microlearning-apps) — An honest comparison of the best microlearning apps in 2026: Duolingo, Brilliant, Blinkist, Headway, Kinnu, Imprint, BeFreed, NerdSip and Iro AI, with a ten-minute test for picking one that sticks.
+- [The best BeFreed alternatives in 2026](https://tryiro.com/blog/befreed-alternatives) — Looking for a BeFreed alternative? Compare Blinkist, Headway, Brilliant, Khan Academy and Iro AI by what you actually want: personalised summaries, a usable skill, or academic foundations.

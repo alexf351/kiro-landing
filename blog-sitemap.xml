@@ -13,7 +13,7 @@
   </url>
   <url>
     <loc>https://tryiro.com/blog/ai-fluency</loc>
-    <lastmod>2026-08-18</lastmod>
+    <lastmod>2026-08-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.88</priority>
     <image:image>
@@ -1119,6 +1119,36 @@
     <image:image>
       <image:loc>https://tryiro.com/assets/og/deepseek-v4.png</image:loc>
       <image:title>DeepSeek V4: what open weights actually mean for you</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://tryiro.com/blog/best-microlearning-apps</loc>
+    <lastmod>2026-08-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://tryiro.com/assets/og/best-microlearning-apps.png</image:loc>
+      <image:title>The best microlearning apps in 2026</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://tryiro.com/blog/befreed-alternatives</loc>
+    <lastmod>2026-08-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://tryiro.com/assets/og/befreed-alternatives.png</image:loc>
+      <image:title>The best BeFreed alternatives in 2026</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://tryiro.com/blog/how-to-use-microsoft-copilot</loc>
+    <lastmod>2026-08-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://tryiro.com/assets/og/how-to-use-microsoft-copilot.png</image:loc>
+      <image:title>How to use Microsoft Copilot (and why it seems broken)</image:title>
     </image:image>
   </url>
 </urlset>

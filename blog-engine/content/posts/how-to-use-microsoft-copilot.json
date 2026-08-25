@@ -1,0 +1,101 @@
+{
+  "slug": "how-to-use-microsoft-copilot",
+  "order": 110,
+  "pillar": "ai-tools",
+  "askAi": true,
+  "askAiPrompt": "How do I actually use Microsoft Copilot well, and what is the difference between the free Copilot and Copilot inside Word, Excel and Outlook? Explain what each one can do and how to prompt it properly.",
+  "title": "How to use Microsoft Copilot (and why it seems broken)",
+  "metaTitle": "How to Use Microsoft Copilot in 2026: A Practical Guide",
+  "lede": "Most complaints about Copilot come down to one thing: there are two different products with the same name, and the free one cannot do the thing people are trying to do. Here is which is which, and how to prompt the one you have.",
+  "keyTakeaways": [
+    "There are two Copilots. The free one at copilot.microsoft.com is a web chatbot. Copilot inside Word, Excel, PowerPoint and Outlook needs a paid Microsoft 365 subscription — Personal, Family or Premium.",
+    "Almost every 'Copilot doesn't work in Word' complaint is someone using the free web version. Nothing is broken; they have the other product.",
+    "Copilot's real advantage over ChatGPT and Claude is not the model, it is the context: inside Microsoft 365 it can see your document, your spreadsheet and your inbox. That is also its main privacy consideration.",
+    "The prompting skill is the same one every other assistant rewards. Copilot rewards it slightly more, because vague requests against your real documents produce confidently wrong output about your actual work."
+  ],
+  "description": "How to use Microsoft Copilot in 2026: the difference between free Copilot and Copilot in Microsoft 365, what it does in Word, Excel, PowerPoint and Outlook, and how to prompt it well.",
+  "keywords": [
+    "how to use Microsoft Copilot",
+    "Microsoft Copilot guide",
+    "Copilot in Word",
+    "Copilot in Excel",
+    "is Microsoft Copilot free",
+    "Copilot vs ChatGPT"
+  ],
+  "datePublished": "2026-08-21",
+  "dateModified": "2026-08-21",
+  "readingTime": 7,
+  "articleSection": "AI tools",
+  "feedCategory": "AI tools",
+  "feedTags": ["AI tools", "Microsoft Copilot", "AI at work"],
+  "inlineCtaAfter": 2,
+  "toc": [
+    { "href": "#two", "label": "There are two Copilots" },
+    { "href": "#apps", "label": "What it does in each app" },
+    { "href": "#prompt", "label": "How to prompt it" },
+    { "href": "#trust", "label": "What not to trust it with" },
+    { "href": "#vs", "label": "Copilot or ChatGPT?" }
+  ],
+  "sections": [
+    {
+      "id": "two",
+      "heading": "There are two Copilots, and that is the whole confusion",
+      "html": "<p><strong>Microsoft ships two different things under the name Copilot, and most frustration with it is really a mismatch between the two.</strong></p><div class=\"cmp-wrap\"><table class=\"cmp-table\"><thead><tr><th></th><th>Free Copilot</th><th>Copilot in Microsoft 365</th></tr></thead><tbody><tr><th>Where</th><td>copilot.microsoft.com, the desktop and mobile apps, and Edge</td><td>Inside Word, Excel, PowerPoint, Outlook and OneNote</td></tr><tr><th>Costs</th><td>Nothing</td><td>A paid Microsoft 365 subscription — Personal, Family or Premium</td></tr><tr><th>Can it see your documents?</th><td>No</td><td>Yes, that is the entire point</td></tr><tr><th>Good for</th><td>General questions, drafting, web-grounded answers</td><td>Working on the file actually in front of you</td></tr></tbody></table></div><p>So when someone says \"Copilot can't summarise my document,\" they are almost always in the free web chatbot, which has never been able to see their files. Nothing is broken. It is the other product.</p><p class=\"note\">Microsoft's tier names and prices have moved more than once, including a Microsoft 365 Premium tier and a pricing update in the last year. We deliberately do not quote figures here — check <a href=\"https://www.microsoft.com/en-us/microsoft-365-copilot/pricing\" rel=\"nofollow noopener\" target=\"_blank\">Microsoft's own pricing page</a>, because a number copied from a blog post is how people end up surprised at renewal.</p>"
+    },
+    {
+      "id": "apps",
+      "heading": "What it actually does in each app",
+      "html": "<p>Assuming you have the paid version, this is where it earns the money:</p><ul><li><strong>Word</strong> — drafts from a brief, rewrites a section in a different register, and summarises a long document. Best used on the awkward first draft, where a bad start costs the most time.</li><li><strong>Excel</strong> — analyses a range, builds charts, and surfaces patterns. Ask it to explain what a formula does before you ask it to write one; it is a very effective way to learn a spreadsheet you inherited.</li><li><strong>PowerPoint</strong> — generates outlines and suggests layouts. Treat the output as structure, not as a finished deck.</li><li><strong>Outlook</strong> — drafts replies and summarises long threads. Thread summarisation is genuinely the strongest single feature: it turns a forty-message chain into who decided what.</li></ul><p>The pattern worth noticing: <strong>Copilot is strongest on tasks where the source material is right there and the work is transformation</strong> — summarise this, rewrite this, explain this. It is weakest when asked to invent something with no grounding, which is exactly when a general chatbot does better.</p>"
+    },
+    {
+      "id": "prompt",
+      "heading": "How to prompt it",
+      "html": "<p>The same four things every assistant needs, with one Copilot-specific wrinkle.</p><ol><li><strong>Say what the output should be.</strong> \"Summarise this\" invites a summary of whatever length it fancies. \"Summarise this into five bullets, each naming a decision and who owns it\" produces something you can use.</li><li><strong>Name the audience and register.</strong> \"Rewrite this for a client who is not technical\" changes the output far more than any adjective about tone.</li><li><strong>Point at the source explicitly.</strong> This is the Copilot-specific part. In Word and Outlook you can reference specific files and threads, and results improve sharply when you do rather than assuming it knows which document you mean.</li><li><strong>State the constraints.</strong> Length, what to exclude, what to preserve verbatim. Constraints are the difference between a draft you edit and a draft you rewrite.</li></ol><p>A worked example. Instead of <em>\"write an email about the delay\"</em>, try: <em>\"Draft a reply to this thread telling the client the delivery slips two weeks. Lead with the new date, give one sentence of cause without blaming anyone, offer a call. Under 120 words, plain language, no apology in the first sentence.\"</em></p><p>The second prompt is not longer for the sake of it. Every clause removes a decision the model would otherwise make badly on your behalf.</p>"
+    },
+    {
+      "id": "trust",
+      "heading": "What not to trust it with",
+      "html": "<p>Copilot's grounding in your real files makes it more useful <em>and</em> more dangerous, because a confident wrong answer about your own data is much harder to spot than a wrong answer about the world.</p><ul><li><strong>Check every number it reports back.</strong> Especially in Excel and in thread summaries. A summary that transposes two figures reads exactly as fluently as one that does not.</li><li><strong>Verify anything attributed to a person.</strong> \"Sam agreed to the deadline\" in a thread summary is the kind of claim that causes real problems if the model inferred it.</li><li><strong>Know your organisation's data posture.</strong> Copilot in Microsoft 365 works by having access to your content. That is the feature. Whether it is appropriate for a given document is a policy question, not a technical one.</li></ul><p>The underlying skill is judging output you cannot verify at a glance, which is the most transferable AI skill there is and the one most people skip. <a href=\"/blog/spot-ai-hallucinations\">How to spot AI hallucinations</a> covers the tells.</p>"
+    },
+    {
+      "id": "vs",
+      "heading": "Copilot or ChatGPT?",
+      "html": "<p>Not really a competition, because they win on different axes.</p><p><strong>Use Copilot when the context is the point.</strong> The document, the spreadsheet, the thread. Nothing else has that access, and pasting a long document into a chatbot loses the structure that made it a document.</p><p><strong>Use ChatGPT or Claude when the thinking is the point.</strong> Open-ended drafting, argument, exploration, code. They are also simply where you already are if you do not live in Microsoft 365.</p><p>Most people who use AI seriously end up using two or three, chosen by task rather than loyalty. <strong>Tool choice is itself a skill</strong>, and it is the one that stops you forcing every job through whichever app you opened first. <a href=\"/blog/chatgpt-vs-copilot\">ChatGPT vs Copilot</a> goes deeper on the split, and Iro's <a href=\"/learn-copilot\">Copilot path</a> is built around practising these prompts rather than reading about them.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Is Microsoft Copilot free?",
+      "a": "Partly. A free Copilot is available at copilot.microsoft.com, as desktop and mobile apps, and inside Edge — it is a web-grounded chatbot. Copilot inside Word, Excel, PowerPoint and Outlook requires a paid Microsoft 365 subscription such as Personal, Family or Premium. Most complaints that Copilot cannot see a document come from people using the free web version."
+    },
+    {
+      "q": "Why can't Copilot see my Word document?",
+      "a": "Because you are almost certainly using the free web Copilot, which has no access to your files by design. Copilot needs to run inside the Microsoft 365 app itself to read the document you are working on, and that requires a paid subscription."
+    },
+    {
+      "q": "What is Copilot best at?",
+      "a": "Transformation tasks where the source material is already present: summarising a long document, rewriting a section for a different audience, explaining an inherited spreadsheet formula, and condensing a long email thread into decisions and owners. It is weaker at open-ended invention with no grounding, where a general chatbot usually does better."
+    },
+    {
+      "q": "How do I write a good Copilot prompt?",
+      "a": "Say what the output should be including its format, name the audience and register, point explicitly at the source file or thread rather than assuming it knows which you mean, and state constraints such as length and what to preserve verbatim. Each clause removes a decision the model would otherwise make badly on your behalf."
+    },
+    {
+      "q": "Should I use Copilot or ChatGPT?",
+      "a": "Use Copilot when the context is the point — the document, spreadsheet or thread it can actually see. Use ChatGPT or Claude when the thinking is the point, such as open-ended drafting, argument or code. Most people who use AI seriously end up using several and choosing by task rather than by loyalty."
+    }
+  ],
+  "readNext": [
+    { "href": "/blog/chatgpt-vs-copilot", "label": "ChatGPT vs Microsoft Copilot" },
+    { "href": "/blog/what-is-microsoft-copilot", "label": "What is Microsoft Copilot?" },
+    { "href": "/blog/how-to-use-ai-at-work", "label": "How to use AI at work" }
+  ],
+  "related": [
+    "/blog/chatgpt-vs-copilot",
+    "/blog/what-is-microsoft-copilot",
+    "/blog/how-to-use-ai-at-work",
+    "/blog/spot-ai-hallucinations",
+    "/blog/how-to-write-a-prompt",
+    "/learn-copilot"
+  ]
+}
