@@ -86,10 +86,20 @@ never have asked.
 | Verified Tools | 2026-08-20 | badge live, listing **under review** | `nofollow` first — **unverified** | Their offer is the Startup Fame trade verbatim: *"Add our badge to your homepage. Once verified, your listing link becomes dofollow."* Their own embed ships `noopener noreferrer` with no nofollow, which is a hint their checker may read `rel` the way Startup Fame's did. Shipped nofollowed per the standing rule; **if verification fails, drop `nofollow` and re-check — that is the known fix, and it is the only thing to change.** Also dropped their `noreferrer`: it strips the Referer header, so they would not see our clicks, and we want that traffic attributed. |
 | TinyLaunch | 2026-08-21 | **scheduled 21 Sep 2026** | — | Confirmed by email same day. Standard (free) launch, Education & Learning. Listing: https://tinylaunch.com/launch/20197-iro-ai — pending review. No badge taken. |
 | LaunchBuck | **skipped** | — | — | Submit form returned "Something went wrong" on repeated attempts 2026-08-21. Not worth chasing: DR 26, and the number that actually decides it is **4% dofollow across 365 linking websites** — roughly 15 domains pass it any equity, so it has little to pass on. Revisit only if it starts showing up as a cited source. |
-| **Aitoolnet** | 2026-08-21 | **paid $9.9, listing within 24h** | — (no badge) | **The one directory that passes test #1.** The AI visibility audit named reddit.com, mwm.ai and aitoolnet.com as *measured* citation sources for this category, which puts it in a different class from the launch boards. Free route existed but required a reciprocal badge, and the strip is at its cap of four — so $9.9 bought speed *and* kept a badge slot free, which is the cheaper trade. Category: Education Assistant. Pricing: Freemium. |
+| **Aitoolnet** | 2026-08-21 | **paid $9.9 — payment confirmed via PayPro, no vendor confirmation yet; check 2026-08-22** | — (no badge) | **The one directory that passes test #1.** The AI visibility audit named reddit.com, mwm.ai and aitoolnet.com as *measured* citation sources for this category, which puts it in a different class from the launch boards. Free route existed but required a reciprocal badge, and the strip is at its cap of four — so $9.9 bought speed *and* kept a badge slot free, which is the cheaper trade. Category: Education Assistant. Pricing: Freemium. |
 | outbid.lol | 2026-08-21 | live | dofollow (theirs, not ours) | **$5 pay-to-rank leaderboard.** Bid sets position. Logged as the worked example of the paid-link rule below — judge it on referral traffic in DataFast, not on links. |
 | Product Hunt | — | — | — | the only one in this row with a real audience; needs launch prep |
 | Bob's Tech Review | **skipped** | — | — | Run by the NerdSip founder. Unlike every other row here, this is a *review someone else writes*, not a listing we control — and that someone sells the closest competing product. Bad trade for the smallest badge in the set. Same call as the standing "do not send the inclusion ask to NerdSip" note in §3. |
+
+
+**Aitoolnet follow-up (open).** Payment cleared through PayPro Global but no
+confirmation arrived from aitoolnet and the listing was not visible immediately.
+Most likely benign: PayPro is a merchant of record, so the handoff to the vendor
+commonly lags, and their SLA is 24 hours rather than instant. **Do not
+resubmit** — a second payment through an MoR is hard to refund. Keep the PayPro
+order ID; if it is not live by 2026-08-22, email support@aitoolnet.com with the
+order ID and the submitted URL. Worth resolving properly, because whether their
+paid tier actually delivers decides if we ever recommend paying for speed again.
 
 ### Dates to keep
 
