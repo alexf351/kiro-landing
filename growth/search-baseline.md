@@ -399,3 +399,58 @@ waiting in the referrers report. Check it in a week.
 the right direction, not evidence that directory volume works. The plan stays:
 a small number of badges from places that get cited, Product Hunt for audience,
 and content that earns links on merit.
+
+---
+
+## RESOLVED — where the stale figures in AI answers actually come from (2026-08-21)
+
+**I was wrong earlier on this page, and the correction matters.**
+
+Under "One thing search is currently getting wrong about us" I recorded that an
+AI summary described Iro as having **18 learning paths**, and that a research
+agent working from search results returned **"20 paths, 375 lessons, 2,000+
+exercises, 16 exercise types"**. I fixed the one cause I found on our own site
+(llms.txt said 25) and concluded: *"The 18 and the 20 are still unexplained by
+anything we publish, which leaves crawl freshness."*
+
+**They were never unexplained, and it was never crawl freshness. It is the App
+Store listing**, which I had not thought to check because I was auditing the
+website.
+
+| Claim | App Store listing says | Actually |
+| --- | --- | --- |
+| Learning paths | **20** | 29 |
+| Lessons | **345** | 477 |
+| Exercises | **2,000+** | 3,000+ |
+| Exercise types | **16** | 24 |
+| Ranks | **6, Bronze to Iridescent** | 16 ranks across 6 tiers |
+| Hearts | **"unlimited hearts" with Pro** | Hearts were replaced by the Battery |
+| Duels | **"5 AI duels" free** | Duels became Pro-only on 7 Aug 2026 |
+| Web app | not mentioned | app.tryiro.com is the full product, no signup |
+
+Three of those figures — 20 paths, 2,000+ exercises, 16 exercise types — match
+the research agent's output exactly. That is the source.
+
+### Why this outranks any directory submission
+
+1. **It is higher authority than tryiro.com.** apps.apple.com is one of the most
+   trusted domains on the web. When it and our site disagree, assistants and
+   aggregators have little reason to prefer us.
+2. **Directories copy it rather than us.** mwm.ai — named by the AI visibility
+   audit as a *measured* citation source for this category — lists 266,000 apps
+   across 462 categories "powered by MWM market intelligence". That is
+   auto-populated from store data, not a submission queue. Submitting to
+   directories before fixing the listing propagates the wrong numbers faster.
+3. **It silently undid a week of work.** Every correction made to the site in
+   the past week — 3,000+ exercises, 16 ranks, the Battery, duels being Pro —
+   is contradicted by a page we never edited.
+
+### The lesson worth keeping
+
+The site was audited exhaustively and the discrepancy survived, because the
+audit's scope was "our website" when the entity's real footprint is **website +
+App Store listing + the machine-readable files**. A fact is only corrected when
+every high-authority surface agrees. Add the store listing to the sweep.
+
+**Action: update the App Store description before any further directory
+submissions.** Corrected copy drafted 2026-08-21; see the handoff.
