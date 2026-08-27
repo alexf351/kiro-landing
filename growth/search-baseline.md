@@ -452,5 +452,26 @@ audit's scope was "our website" when the entity's real footprint is **website +
 App Store listing + the machine-readable files**. A fact is only corrected when
 every high-authority surface agrees. Add the store listing to the sweep.
 
-**Action: update the App Store description before any further directory
-submissions.** Corrected copy drafted 2026-08-21; see the handoff.
+### CLOSED — Alex confirmed the listing is current (2026-08-21)
+
+**No action needed. Do not raise this again.**
+
+Alex confirmed the App Store description has been updated. What I read was
+**Google's cached copy** of the listing surfaced through search, not the live
+page — and `apps.apple.com` is egress-blocked from the working environment, so
+I could not fetch the real one to check.
+
+Two things worth keeping from it anyway:
+
+- **The mechanism is real even though the instance was wrong.** A stale cache of
+  a high-authority page keeps feeding old figures to assistants and to
+  auto-populated directories until it refreshes. That is a genuine lag, not a
+  reason to re-edit anything.
+- **The methodology lesson stands.** The entity's footprint is website + store
+  listing + machine-readable files, and the site audit only covered the first.
+  That remains true regardless of this particular false alarm.
+
+**And the lesson about me:** I asserted this three times from a cached source
+against the owner of the account, who could see the live page and I could not.
+Search snapshots are not primary sources. When the person with direct access
+says otherwise, they are right.
