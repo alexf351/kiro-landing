@@ -86,6 +86,8 @@ never have asked.
 | Verified Tools | 2026-08-20 | badge live, listing **under review** | `nofollow` first — **unverified** | Their offer is the Startup Fame trade verbatim: *"Add our badge to your homepage. Once verified, your listing link becomes dofollow."* Their own embed ships `noopener noreferrer` with no nofollow, which is a hint their checker may read `rel` the way Startup Fame's did. Shipped nofollowed per the standing rule; **if verification fails, drop `nofollow` and re-check — that is the known fix, and it is the only thing to change.** Also dropped their `noreferrer`: it strips the Referer header, so they would not see our clicks, and we want that traffic attributed. |
 | TinyLaunch | 2026-08-21 | **scheduled 21 Sep 2026** | — | Confirmed by email same day. Standard (free) launch, Education & Learning. Listing: https://tinylaunch.com/launch/20197-iro-ai — pending review. No badge taken. |
 | LaunchBuck | **skipped** | — | — | Submit form returned "Something went wrong" on repeated attempts 2026-08-21. Not worth chasing: DR 26, and the number that actually decides it is **4% dofollow across 365 linking websites** — roughly 15 domains pass it any equity, so it has little to pass on. Revisit only if it starts showing up as a cited source. |
+| **Aitoolnet** | 2026-08-21 | **paid $9.9, listing within 24h** | — (no badge) | **The one directory that passes test #1.** The AI visibility audit named reddit.com, mwm.ai and aitoolnet.com as *measured* citation sources for this category, which puts it in a different class from the launch boards. Free route existed but required a reciprocal badge, and the strip is at its cap of four — so $9.9 bought speed *and* kept a badge slot free, which is the cheaper trade. Category: Education Assistant. Pricing: Freemium. |
+| outbid.lol | 2026-08-21 | live | dofollow (theirs, not ours) | **$5 pay-to-rank leaderboard.** Bid sets position. Logged as the worked example of the paid-link rule below — judge it on referral traffic in DataFast, not on links. |
 | Product Hunt | — | — | — | the only one in this row with a real audience; needs launch prep |
 | Bob's Tech Review | **skipped** | — | — | Run by the NerdSip founder. Unlike every other row here, this is a *review someone else writes*, not a listing we control — and that someone sells the closest competing product. Bad trade for the smallest badge in the set. Same call as the standing "do not send the inclusion ask to NerdSip" note in §3. |
 
@@ -117,6 +119,31 @@ Failing all three, take the free listing **without** the badge: the page, the
 brand mention and any referral traffic are the parts that mattered anyway, and
 a footer of five reciprocal badges pointing into one small directory network is
 the pattern the link-scheme policy actually describes.
+
+**Worked example, 2026-08-21 — the same $10 spent two ways.**
+
+Two purchases on the same day, and the difference is the whole rule:
+
+| | outbid.lol, $5 | Aitoolnet, $9.9 |
+| --- | --- | --- |
+| What the money bought | position on a pay-to-rank board, plus a dofollow | skipping a queue |
+| Was the link available free? | no — the link *is* the product | **yes**, free route existed |
+| Is it a measured citation source? | no | **yes** |
+| Verdict | tolerable at $5, do not repeat or scale | good spend |
+
+outbid.lol is a paid dofollow, which is what the policy prohibits. At $5 on a
+two-day-old novelty site the practical risk is negligible — Google's usual
+response to obvious paid-link networks is to devalue them rather than penalise
+the buyers, and that needs a pattern at scale. **But do not bid higher and do
+not repeat it**, and expect the whole `.lol` bidding wave (Payluck, Daily
+Outbid) to be devalued in bulk once the footprint is obvious.
+
+Aitoolnet is the opposite shape. The listing was free either way, so the $9.9
+bought speed and avoided owing a reciprocal badge from a strip already at its
+cap of four. That is the Firsto trade, and it is fine.
+
+**The test, restated:** ask whether the link exists without the money. If yes,
+you are buying speed. If no, you are buying the link.
 
 **Do not buy a dofollow.** Paying for speed is fine (Firsto). Paying for the
 link itself is not, and a tier that bundles both — LaunchBuck's $5 "dofollow
