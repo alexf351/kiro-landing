@@ -104,6 +104,61 @@ order ID; if it is not live by 2026-08-22, email support@aitoolnet.com with the
 order ID and the submitted URL. Worth resolving properly, because whether their
 paid tier actually delivers decides if we ever recommend paying for speed again.
 
+### Grok Bot autonomous run — 2026-08-21
+
+Alex handed the agent brief (product data block, hard-facts list, NEVER SAY
+list, free-tier-only rule, no reciprocal badges, no paid placements, never
+create competitor entries, support@tryiro.com) to Grok Bot and let it run.
+**The full run table is not available yet** — Alex hit his Grok usage cap
+before he could pull it, so it resumes next week. What follows is
+reconstructed from the confirmation mail that landed in the inbox, so treat it
+as *sites touched*, not *listings live*.
+
+| Site | Signal in inbox | State |
+| --- | --- | --- |
+| Launching Next | "in queue" | submitted, awaiting review |
+| SideProjectors | account registered + project received | submitted |
+| Peerlist | **four** verification codes in four minutes | **uncertain — see below** |
+| Indie Hackers | welcome mail | account only; no listing exists there to confirm |
+| FoundrList | scheduled to launch | queued with a date |
+| AIChief | account ready | account created; submission unconfirmed |
+| The Runway | submission received | submitted |
+| G2 | email verification | account only — **G2 needs reviews, not a listing** |
+| Crunchbase | welcome mail | account created; profile unconfirmed |
+| AppAdvice | **bounced** — `devcontact@appadvice.com` address not found | dead contact, drop it |
+
+**Three things to check when the usage resets, in this order:**
+
+1. **Peerlist retried its own signup four times.** Four codes in four minutes
+   is an agent looping on a step it could not complete, not a person. The
+   submission is as likely half-finished or duplicated as it is done. Log in
+   manually before assuming there is a listing there.
+2. **G2 is not a directory listing.** A G2 profile is worth something only
+   once it carries reviews; an empty profile is a dead page with our name on
+   it. Either drive a handful of real reviews to it or leave it unclaimed —
+   claiming it and abandoning it is the worst of the three options. Same logic
+   as §7's review-velocity note.
+3. **Get the run table.** Without it we do not know what the agent said about
+   Iro on each form — and the whole point of the NEVER SAY list is that the
+   claims stay right on pages we do not control. Spot-check the live listings
+   against the hard facts: 29 paths, 477 lessons, 16 ranks, Battery, duels
+   never described as live, no Android, no "Kiro", no model/vendor names.
+
+**Unrelated to links, but worth acting on.** The same inbox showed a GitHub
+personal access token (classic) named `grokbot` created with `admin:enterprise`
+and `admin:gpg_key` scopes. Nothing in directory submission needs either — that
+token can administer an enterprise and manage signing keys. Revoke it and, if
+the agent genuinely needs GitHub at all, reissue a fine-grained token scoped to
+one repo, read-only. There were also Google security alerts for Grok access on
+`nba.designsig@gmail.com`; worth confirming that account is one of yours.
+
+**The standing read on agent-run submissions.** The brief's quality bar was
+"20 real listings beats 100 junk ones", and this run is the test of whether an
+agent can hold that line. Judge it in a month on one number: how many of these
+are *live listings with correct copy*, not how many accounts exist. If the
+answer is most of them, this is the cheapest link channel available. If it is a
+pile of half-finished signups, it is noise with our brand on it.
+
 ### Dates to keep
 
 | Date | What |
@@ -223,15 +278,15 @@ get you discovered by other list-makers.
 - [ ] **BetaList** — for early-stage; good for a first wave of eyes + a link. https://betalist.com
 - [ ] **Futurepedia** — major AI tools directory. https://futurepedia.io
 - [ ] **Uneed** / **Fazier** / **Startup Fame** — indie launch platforms, quick submits, real links.
-- [ ] **Peerlist Launchpad** — dev/indie audience, good DR.
+- [~] **Peerlist Launchpad** — dev/indie audience, good DR. *Grok Bot attempted 2026-08-21 and looped on signup (four codes in four minutes) — verify manually before treating this as done.*
 - [ ] **SaaSHub** — SaaS directory; add as alternative to the same competitors.
 - [ ] **Toolify.ai** — AI directory with decent traffic.
 
 ## 2. TIER 2 — broaden over the next 2–3 weeks
 
 - [ ] **AI directories:** AIToolsDirectory, AItoolhunt, TopAI.tools, Insidr.ai, AI Scout, AIcyclopedia, easywithai, Foundr AI list.
-- [ ] **App/edtech:** AppAdvice, appPicker, "best language-learning-style apps" roundups.
-- [ ] **Indie/startup:** Indie Hackers (post your build story), Startup Stash, Launching Next, Land-book (if the site design is strong — yours is).
+- [ ] **App/edtech:** ~~AppAdvice~~ (*`devcontact@appadvice.com` bounced 2026-08-21 — address not found; find a live contact or drop it*), appPicker, "best language-learning-style apps" roundups.
+- [~] **Indie/startup:** Indie Hackers (post your build story — *account created by Grok Bot 2026-08-21, story still unwritten and that is the part that carries the link*), Startup Stash, **Launching Next** (*submitted 2026-08-21, in queue*), Land-book (if the site design is strong — yours is).
 - [ ] **Free-tools roundups:** pitch the **free AI IQ test** (tryiro.com/quiz) to "free AI tools" lists — it's your most linkable asset because it needs no signup.
 
 ---
