@@ -46,6 +46,45 @@ and it came from the content work, not from links.
    | 12 | 4.5% | ~742 |
    | 8 | 5.5% | ~908 |
 
+### Update — 300 clicks in 28 days (Google milestone mail, 2026-08-27)
+
+| | 90 days to 2026-08-16 | 28 days to 2026-08-27 |
+| --- | --- | --- |
+| Clicks | 355 | **300** |
+| Clicks/day | 3.9 | **10.7** |
+
+**The two windows overlap by only 17 days, and the shorter one nearly matches
+the longer one's total.** That is the whole finding: essentially all of the
+site's search traffic to date is concentrated in the last month. It is the
+same curve the impressions data showed — near zero in mid-May, ~550/day by
+mid-August — now visible in clicks.
+
+Run rate is roughly **325 clicks/month** and still climbing.
+
+**What this does and does not tell us.** A milestone email carries one number,
+so it cannot separate the two things that produce it. Clicks went up because
+impressions went up, or because position improved, or both — and the answer
+changes what to do next:
+
+- **If impressions drove it**, position is still ~33 and the bottleneck in
+  reading #2 above is unchanged. Keep publishing; the links work is what
+  eventually moves position.
+- **If position moved**, the projection table below is now stale, because it
+  was computed "at today's impression volume" and that volume has grown. Every
+  row in it understates.
+
+**Pull the current GSC 28-day numbers and settle it** — clicks, impressions,
+CTR and average position, same four rows as the table above. That comparison
+is worth more than the milestone itself, and it is a two-minute export.
+
+One thing already worth noting: the projection table's **first row has been
+realized**. That row was not a description of the past — it projected ~350
+clicks/month from the mid-August impression rate *at an unchanged position of
+32.7*. We are now at ~325/month actual, against a trailing-90-day average of
+~118. So the site has caught up to what its current traffic was already worth,
+and every row above the first is still unclaimed. Those rows need position, and
+position needs links.
+
 ### Bing Webmaster, same day
 
 | | |
