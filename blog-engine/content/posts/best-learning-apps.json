@@ -28,14 +28,33 @@
   "readingTime": 9,
   "articleSection": "AI fluency",
   "feedCategory": "AI fluency",
-  "feedTags": ["AI fluency", "Learning apps", "Microlearning"],
+  "feedTags": [
+    "AI fluency",
+    "Learning apps",
+    "Microlearning"
+  ],
   "inlineCtaAfter": 3,
   "toc": [
-    { "href": "#short", "label": "The short answer" },
-    { "href": "#subject", "label": "By subject" },
-    { "href": "#format", "label": "Course, practice or summary?" },
-    { "href": "#stick", "label": "Two questions that predict retention" },
-    { "href": "#iro", "label": "Where Iro fits, honestly" }
+    {
+      "href": "#short",
+      "label": "The short answer"
+    },
+    {
+      "href": "#subject",
+      "label": "By subject"
+    },
+    {
+      "href": "#format",
+      "label": "Course, practice or summary?"
+    },
+    {
+      "href": "#stick",
+      "label": "Two questions that predict retention"
+    },
+    {
+      "href": "#iro",
+      "label": "Where Iro fits, honestly"
+    }
   ],
   "sections": [
     {
@@ -87,9 +106,18 @@
     }
   ],
   "readNext": [
-    { "href": "/blog/best-microlearning-apps", "label": "The best microlearning apps in 2026" },
-    { "href": "/best-ai-learning-app", "label": "The best AI learning app" },
-    { "href": "/blog/how-to-choose-an-ai-learning-app", "label": "How to choose an AI learning app" }
+    {
+      "href": "/blog/best-microlearning-apps",
+      "label": "The best microlearning apps in 2026"
+    },
+    {
+      "href": "/best-ai-learning-app",
+      "label": "The best AI learning app"
+    },
+    {
+      "href": "/blog/how-to-choose-an-ai-learning-app",
+      "label": "How to choose an AI learning app"
+    }
   ],
   "related": [
     "/blog/best-microlearning-apps",
@@ -98,5 +126,44 @@
     "/blog/iro-ai-vs-brilliant",
     "/blog/blinkist-alternatives",
     "/best-ai-learning-app"
-  ]
+  ],
+  "itemList": {
+    "name": "The best apps to learn something new in 2026, by subject",
+    "description": "The learning apps recommended in this guide, organised by subject: languages, maths and logic, general knowledge, books, and AI skills.",
+    "items": [
+      {
+        "name": "Duolingo",
+        "description": "Languages. The habit machinery — streaks, leagues, gentle pacing — is its real achievement."
+      },
+      {
+        "name": "Brilliant",
+        "description": "Interactive concept teaching for maths, logic and computer science."
+      },
+      {
+        "name": "Khan Academy",
+        "description": "Completely free with no paid tier — the pick when budget is the binding constraint."
+      },
+      {
+        "name": "Kinnu",
+        "description": "Structured paths across a wide general-knowledge catalogue, with a real free tier."
+      },
+      {
+        "name": "Blinkist",
+        "description": "Book summaries for broad non-fiction exposure."
+      },
+      {
+        "name": "Headway",
+        "description": "Book summaries; same job as Blinkist, choose on library and interface."
+      },
+      {
+        "name": "BeFreed",
+        "description": "Goal-led plans that assemble summaries, AI-narrated podcasts and flashcards."
+      },
+      {
+        "name": "Iro AI",
+        "description": "A practice app for AI skills: prompting, tool choice, spotting AI mistakes, and agents.",
+        "url": "https://tryiro.com"
+      }
+    ]
+  }
 }

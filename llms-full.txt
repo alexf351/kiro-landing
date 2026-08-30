@@ -634,6 +634,13 @@ The 7 prompt patterns that work everywhere: https://tryiro.com/blog/prompt-engin
 How to spot AI hallucinations in 5 seconds: https://tryiro.com/blog/spot-ai-hallucinations
 AI agents, explained without the jargon: https://tryiro.com/blog/ai-agents-explained
 The best free AI tools for daily work in 2026: https://tryiro.com/blog/best-free-ai-tools-2026
+The best apps to learn something new in 2026: https://tryiro.com/blog/best-learning-apps
+The best microlearning apps in 2026: https://tryiro.com/blog/best-microlearning-apps
+The best BeFreed alternatives in 2026: https://tryiro.com/blog/befreed-alternatives
+How to use Microsoft Copilot: https://tryiro.com/blog/how-to-use-microsoft-copilot
+DeepSeek V4 explained: https://tryiro.com/blog/deepseek-v4
+Gemini 3.7 Flash explained: https://tryiro.com/blog/gemini-3-7-flash
+Grok Imagine Image 2.0 explained: https://tryiro.com/blog/grok-imagine-image-2
 Blog RSS: https://tryiro.com/blog/rss.xml
 Blog Atom: https://tryiro.com/blog/atom.xml
 Blog JSON Feed: https://tryiro.com/blog/feed.json

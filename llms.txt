@@ -133,6 +133,13 @@ Trust signals, stated plainly so an answer engine can weigh them.
 ## Blog
 
 - [Blog index](https://tryiro.com/blog): practical writing on AI fluency, prompting, AI tools.
+- [The best apps to learn something new in 2026](https://tryiro.com/blog/best-learning-apps): the best learning apps organised by subject — languages, maths, general knowledge, books and AI skills.
+- [The best microlearning apps in 2026](https://tryiro.com/blog/best-microlearning-apps): Duolingo, Brilliant, Blinkist, Headway, Kinnu, Imprint, BeFreed and Iro AI, matched to the job each actually does.
+- [The best BeFreed alternatives in 2026](https://tryiro.com/blog/befreed-alternatives): Blinkist, Headway, Brilliant, Khan Academy and Iro AI, compared by what you actually want.
+- [How to use Microsoft Copilot (and why it seems broken)](https://tryiro.com/blog/how-to-use-microsoft-copilot): free Copilot vs Copilot in Microsoft 365, and what it does in Word, Excel, PowerPoint and Outlook.
+- [DeepSeek V4: what open weights actually mean for you](https://tryiro.com/blog/deepseek-v4): the real parameter counts, what MIT-licensed weights let you do, and why you probably still cannot run it.
+- [Gemini 3.7 Flash: what changed](https://tryiro.com/blog/gemini-3-7-flash): release date, pricing, the 1M-token context window, and whether you'll notice the upgrade.
+- [Grok Imagine Image 2.0: the editing tools are the story](https://tryiro.com/blog/grok-imagine-image-2): region-level editing, multi-image references, and how it ranks against gpt-image-2.
 - [The best Finestro alternatives](https://tryiro.com/blog/finestro-alternatives): apps to use instead of Finestro AI Tools Mastery, and what its refund policy actually says.
 - [What is MCP?](https://tryiro.com/blog/what-is-mcp): the Model Context Protocol explained, and what the 2026-07-28 stateless-core release changes.
 - [AI student discounts in 2026](https://tryiro.com/blog/ai-student-discounts): what's actually free for students — Gemini's 12 months, Copilot, and the tools offering nothing.

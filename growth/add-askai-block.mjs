@@ -76,7 +76,7 @@ function block(slug, prompt) {
     CSS +
     `\n<section class="askai-sec" style="max-width:760px;margin:0 auto;padding:20px 20px 56px;text-align:center">` +
     `<h2>Don't take our word for it. Ask any AI.</h2>` +
-    `<p style="color:#9BA7C4;max-width:560px;margin:0 auto 20px">Each button opens the assistant with the question pre-filled. We publish <a href="/llms.txt">llms.txt</a> so assistants get the facts right.</p>` +
+    `<p style="color:#9BA7C4;max-width:560px;margin:0 auto 20px">Each button opens the assistant with the question pre-filled. We publish <a href="/llms.txt">llms.txt</a> and <a href="/ai-info">a reference page for AI assistants</a> so they get the facts right.</p>` +
     `<div class="askai-chips">${chips}</div></section>\n` +
     `<script>document.querySelectorAll('.askai-chip').forEach(function(a){a.addEventListener('click',function(){if(window.posthog)posthog.capture('ask_ai_clicked',{engine:a.dataset.engine,placement:'${slug}'});});});</script>`
   );

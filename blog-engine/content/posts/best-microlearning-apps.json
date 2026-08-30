@@ -126,5 +126,48 @@
     "/blog/headway-alternatives",
     "/blog/kinnu-alternatives",
     "/blog/iro-ai-vs-brilliant"
-  ]
+  ],
+  "itemList": {
+    "name": "The best microlearning apps in 2026, compared",
+    "description": "The microlearning apps compared in this guide, in the order they appear: each matched to the job it actually does — practice, concept course, or summary library.",
+    "items": [
+      {
+        "name": "Duolingo",
+        "description": "Practice app for languages, plus maths and music. The benchmark for habit design."
+      },
+      {
+        "name": "Brilliant",
+        "description": "Concept courses for maths, logic and computer science. The strongest interactive teaching in this list."
+      },
+      {
+        "name": "Khan Academy",
+        "description": "Concept courses for academic foundations on no budget. Non-profit, entirely free."
+      },
+      {
+        "name": "Blinkist",
+        "description": "Summary library for broad non-fiction exposure, text and audio."
+      },
+      {
+        "name": "Headway",
+        "description": "Summary library doing the same job as Blinkist; choose on library and interface."
+      },
+      {
+        "name": "BeFreed",
+        "description": "Personalised summary library: goal-led plans that assemble summaries, AI-narrated podcasts and flashcards."
+      },
+      {
+        "name": "Kinnu",
+        "description": "Concept courses for broad general knowledge in structured paths, with a genuinely free tier."
+      },
+      {
+        "name": "Imprint",
+        "description": "Concept courses that teach big ideas from non-fiction visually."
+      },
+      {
+        "name": "Iro AI",
+        "description": "Practice app for AI skills: prompting, tool choice, spotting AI mistakes, and agents, in 5-minute daily lessons.",
+        "url": "https://tryiro.com"
+      }
+    ]
+  }
 }

@@ -163,7 +163,7 @@ function askAiBlock(prompt, placement) {
   const q = encodeURIComponent(prompt || ASK_AI_DEFAULT_PROMPT);
   const chips = ASK_AI_ENGINES.map(([name, key, base]) =>
     askAiChip(name, key, `${base}${q}`)).join('');
-  return `<section class="related askai"><h2>Don't take our word for it. Ask any AI.</h2><p class="askai-sub">Each button opens the assistant with the question pre-filled. We publish <a href="/llms.txt">llms.txt</a> so assistants get the facts right.</p><div class="askai-chips">${chips}</div></section>
+  return `<section class="related askai"><h2>Don't take our word for it. Ask any AI.</h2><p class="askai-sub">Each button opens the assistant with the question pre-filled. We publish <a href="/llms.txt">llms.txt</a> and <a href="/ai-info">a reference page for AI assistants</a> so they get the facts right.</p><div class="askai-chips">${chips}</div></section>
 <script>document.querySelectorAll('.askai-chip').forEach(function(a){a.addEventListener('click',function(){if(window.posthog)posthog.capture('ask_ai_clicked',{engine:a.dataset.engine,placement:'${placement}'});});});</script>`;
 }
 
@@ -324,6 +324,25 @@ function renderPost(post) {
       }
     : null;
 
+  // Optional ItemList schema for ranked roundups ("best X" posts). Opt in with
+  // a post-level `itemList: { name?, description?, items: [{name, url?, description?}] }`.
+  const itemListLd = post.itemList
+    ? {
+        '@context': 'https://schema.org',
+        '@type': 'ItemList',
+        name: post.itemList.name || title,
+        description: post.itemList.description || desc,
+        itemListOrder: 'https://schema.org/ItemListOrderAscending',
+        numberOfItems: post.itemList.items.length,
+        itemListElement: post.itemList.items.map((it, i) => {
+          const el = { '@type': 'ListItem', position: i + 1, name: it.name };
+          if (it.description) el.item = { '@type': 'Thing', name: it.name, description: it.description, ...(it.url ? { url: it.url } : {}) };
+          else if (it.url) el.url = it.url;
+          return el;
+        }),
+      }
+    : null;
+
   const relatedLinks = (post.related || [])
     .map((r) => `<link rel="related" href="${abs(typeof r === 'string' ? r : r.href)}"/>`)
     .join('\n');
@@ -429,7 +448,8 @@ ${HEAD_ICONS}
 ${FONTS_CSS}
 ${relatedLinks}
 <script type="application/ld+json">${jsonld(faqLd)}</script>${
-    howToLd ? `\n<script type="application/ld+json">${jsonld(howToLd)}</script>` : ''
+    howToLd ? `\n<script type="application/ld+json">${jsonld(howToLd)}</script>` : '',
+    itemListLd ? `\n<script type="application/ld+json">${jsonld(itemListLd)}</script>` : ''
   }
 ${ANALYTICS}
 </head>

@@ -1,6 +1,6 @@
 # Iro AI — index of LLM-readable resources
 # https://tryiro.com/llms-index.txt
-# Last updated: 2026-08-18
+# Last updated: 2026-08-30
 #
 # This file lists every machine-readable / LLM-friendly resource on
 # tryiro.com so that AI assistants, answer engines, and crawlers can
@@ -99,7 +99,7 @@ ai iq test by iro ai          https://tryiro.com/llms/quiz.md
 vibe coding course            https://tryiro.com/llms/vibe-coding-course.md
 
 ## Blog (markdown mirrors)
-# 109 post and pillar mirrors, generated
+# 116 post and pillar mirrors, generated
 ai agents explained           https://tryiro.com/llms/blog/ai-agents-explained.md
 ai agents vs. automation      https://tryiro.com/llms/blog/ai-agents-vs-automation.md
 ai agents & automation        https://tryiro.com/llms/blog/ai-agents.md
@@ -120,6 +120,7 @@ ai vs machine learning        https://tryiro.com/llms/blog/ai-vs-machine-learnin
 apps like duolingo for ai     https://tryiro.com/llms/blog/apps-like-duolingo-for-ai.md
 are ai certifications worth   https://tryiro.com/llms/blog/are-ai-certifications-worth-it.md
 average ai literacy score     https://tryiro.com/llms/blog/average-ai-literacy-score.md
+befreed alternatives          https://tryiro.com/llms/blog/befreed-alternatives.md
 best ai apps                  https://tryiro.com/llms/blog/best-ai-apps.md
 best ai coding tools in 2026  https://tryiro.com/llms/blog/best-ai-coding-tools.md
 best ai image generators      https://tryiro.com/llms/blog/best-ai-image-generators.md
@@ -128,6 +129,8 @@ best ai model for writing     https://tryiro.com/llms/blog/best-ai-model-for-wri
 best ai tools for students    https://tryiro.com/llms/blog/best-ai-tools-for-students.md
 best ai video generators      https://tryiro.com/llms/blog/best-ai-video-generators.md
 best free ai tools 2026       https://tryiro.com/llms/blog/best-free-ai-tools-2026.md
+best learning apps            https://tryiro.com/llms/blog/best-learning-apps.md
+best microlearning apps       https://tryiro.com/llms/blog/best-microlearning-apps.md
 blinkist alternatives         https://tryiro.com/llms/blog/blinkist-alternatives.md
 cancel coursiv                https://tryiro.com/llms/blog/cancel-coursiv.md
 cancel finestro               https://tryiro.com/llms/blog/cancel-finestro.md
@@ -145,12 +148,15 @@ claude vs gemini              https://tryiro.com/llms/blog/claude-vs-gemini.md
 coursiv alternatives          https://tryiro.com/llms/blog/coursiv-alternatives.md
 coursiv vs finestro vs learn  https://tryiro.com/llms/blog/coursiv-vs-finestro-vs-learnova.md
 coursiv vs learnova           https://tryiro.com/llms/blog/coursiv-vs-learnova.md
+deepseek v4                   https://tryiro.com/llms/blog/deepseek-v4.md
 does duolingo teach ai        https://tryiro.com/llms/blog/does-duolingo-teach-ai.md
 finestro alternatives         https://tryiro.com/llms/blog/finestro-alternatives.md
+gemini 3.7 flash              https://tryiro.com/llms/blog/gemini-3-7-flash.md
 gemini vs perplexity          https://tryiro.com/llms/blog/gemini-vs-perplexity.md
 gpt-5.6 luna vs terra vs sol  https://tryiro.com/llms/blog/gpt-5-6.md
 grok 4.5                      https://tryiro.com/llms/blog/grok-4-5.md
 grok bot                      https://tryiro.com/llms/blog/grok-bot.md
+grok imagine image 2.0        https://tryiro.com/llms/blog/grok-imagine-image-2.md
 headway alternatives          https://tryiro.com/llms/blog/headway-alternatives.md
 how long to learn ai          https://tryiro.com/llms/blog/how-long-to-learn-ai.md
 how to choose an ai learning  https://tryiro.com/llms/blog/how-to-choose-an-ai-learning-app.md
@@ -167,6 +173,7 @@ how to use claude             https://tryiro.com/llms/blog/how-to-use-claude.md
 how to use deepseek           https://tryiro.com/llms/blog/how-to-use-deepseek.md
 how to use gemini             https://tryiro.com/llms/blog/how-to-use-gemini.md
 how to use grok               https://tryiro.com/llms/blog/how-to-use-grok.md
+how to use microsoft copilot  https://tryiro.com/llms/blog/how-to-use-microsoft-copilot.md
 how to use perplexity         https://tryiro.com/llms/blog/how-to-use-perplexity.md
 how to write a prompt         https://tryiro.com/llms/blog/how-to-write-a-prompt.md
 imprint alternatives          https://tryiro.com/llms/blog/imprint-alternatives.md

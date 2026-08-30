@@ -104,7 +104,7 @@ Only in session length. Both ask about five minutes a day. Headway gives you a c
 ## Read next
 
 - [How to choose an AI learning app](https://tryiro.com/blog/how-to-choose-an-ai-learning-app)
-- [Practice app or video course?](https://tryiro.com/blog/iro-ai-vs-video-courses)
+- [Practice app or video course?](https://tryiro.com/iro-ai-vs-video-courses)
 - [How to spot an AI subscription trap](https://tryiro.com/blog/ai-subscription-traps)
 
 ## About the author
