@@ -376,6 +376,29 @@ function renderPost(post) {
   const content = lines.join('\n');
 
   const readNext = post.readNext.map((r) => `<li><a href="${r.href}">${r.label}</a></li>`).join('');
+  // Surface curated non-blog `related` targets (path/topic/money pages) as visible
+  // links — until now they rendered only as invisible <link rel="related"> head
+  // tags, so the cross-cluster equity never reached crawlers or readers.
+  const readNextHrefs = new Set(post.readNext.map((r) => r.href));
+  const exploreLinks = (post.related || [])
+    .map((r) => (typeof r === 'string' ? { href: r } : r))
+    .filter((r) => !r.href.startsWith('/blog/') && !readNextHrefs.has(r.href) && r.href !== '/quiz')
+    .filter((r) => fs.existsSync(path.join(ROOT, r.href.replace(/^\//, '') + '.html')))
+    .slice(0, 4)
+    .map((r) => {
+      let label = r.label;
+      if (!label) {
+        const f = path.join(ROOT, r.href.replace(/^\//, '') + '.html');
+        const m = fs.readFileSync(f, 'utf8').match(/<title[^>]*>(.*?)<\/title>/s);
+        label = m ? m[1].replace(/\s*\|\s*Iro AI( Blog)?\s*$/i, '').split(/[:\u2014]/)[0].trim() : '';
+      }
+      if (!label) label = r.href.replace(/^\//, '').replace(/-/g, ' ');
+      return `<li><a href="${r.href}">${esc(label)}</a></li>`;
+    })
+    .join('');
+  const exploreBlock = exploreLinks
+    ? `\n<section class="related"><h2>Explore on Iro</h2><ul>${exploreLinks}</ul></section>`
+    : '';
   const faq = post.faq.map((f) => `<details><summary>${f.q}</summary><p>${f.a}</p></details>`).join('');
 
   const pillarMeta = pillar ? `<span><a href="/blog/${pillar.slug}">${esc(pillar.shortName || pillar.title)}</a></span>` : '';
@@ -386,7 +409,7 @@ function renderPost(post) {
 <meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
 <meta name="apple-itunes-app" content="app-id=6759628066"/>
-<title>${esc(metaTitle)} | Iro AI Blog</title>
+<title>${esc(metaTitle)} | Iro AI</title>
 <meta name="description" content="${esc(desc)}"/>
 <meta name="keywords" content="${esc(kw)}"/>
 <meta name="application-name" content="Iro AI"/>
@@ -399,7 +422,7 @@ function renderPost(post) {
 <meta name="copyright" content="${cfg.copyright}"/>
 <meta name="rating" content="general"/>
 <meta name="referrer" content="strict-origin-when-cross-origin"/>
-<meta name="DC.title" content="${esc(metaTitle)} | Iro AI Blog"/>
+<meta name="DC.title" content="${esc(metaTitle)} | Iro AI"/>
 <meta name="DC.creator" content="${esc(au.name)}"/>
 <meta name="DC.publisher" content="Iro AI"/>
 <meta name="DC.language" content="en-US"/>
@@ -466,7 +489,7 @@ ${NAV}
 <div class="content">
 ${content}
 </div>
-<section class="related"><h2>Read next</h2><ul>${readNext}</ul></section>
+<section class="related"><h2>Read next</h2><ul>${readNext}</ul></section>${exploreBlock}
 <section class="faq"><h2>FAQ</h2>${faq}</section>${post.askAi ? '\n' + askAiBlock(post.askAiPrompt, 'blog:' + post.slug) : ''}
 <section class="related"><h2>About the author</h2><ul><li><a href="${au.url}" rel="author" target="_blank">${esc(au.name)}</a><p>${esc(au.bio)}</p></li></ul></section>
 </main>
@@ -563,7 +586,7 @@ function renderPillar(pillar) {
 <meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
 <meta name="apple-itunes-app" content="app-id=6759628066"/>
-<title>${esc(pillar.title)} | Iro AI Blog</title>
+<title>${esc(pillar.title)} | Iro AI</title>
 <meta name="description" content="${esc(pillar.description)}"/>
 <meta name="keywords" content="${esc(kw)}"/>
 <meta name="application-name" content="Iro AI"/>
@@ -575,7 +598,7 @@ function renderPillar(pillar) {
 <meta name="publisher" content="Iro AI"/>
 <meta name="copyright" content="${cfg.copyright}"/>
 <meta name="referrer" content="strict-origin-when-cross-origin"/>
-<meta name="DC.title" content="${esc(pillar.title)} | Iro AI Blog"/>
+<meta name="DC.title" content="${esc(pillar.title)} | Iro AI"/>
 <meta name="DC.creator" content="Iro AI"/>
 <meta name="DC.publisher" content="Iro AI"/>
 <meta name="DC.language" content="en-US"/>

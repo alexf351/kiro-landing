@@ -80,6 +80,11 @@
       "external": false
     },
     {
+      "href": "/paths",
+      "label": "Learning paths",
+      "external": false
+    },
+    {
       "href": "https://instagram.com/tryiro",
       "label": "Instagram",
       "external": true
