@@ -3,6 +3,7 @@
   "order": 19,
   "pillar": "ai-fluency",
   "title": "What is an LLM? Large language models explained simply",
+  "metaTitle": "What Is an LLM? Large Language Models Explained",
   "lede": "A large language model (LLM) is an AI trained on huge amounts of text to predict the next word, which lets it answer, write, summarize, and reason in plain language. Here's how LLMs work, what they're good and bad at, and how to use them well.",
   "keyTakeaways": [
     "A large language model (LLM) is an AI system trained on vast amounts of text to predict the next word, which lets it understand and generate human language.",

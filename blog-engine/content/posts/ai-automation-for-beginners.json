@@ -3,6 +3,7 @@
   "order": 9,
   "pillar": "ai-agents",
   "title": "AI automation for beginners: 5 things to automate this week",
+  "metaTitle": "AI Automation for Beginners: 5 Tasks to Automate",
   "lede": "No code, no agents: just five repetitive tasks you can hand to AI starting today.",
   "keyTakeaways": [
     "AI automation chains AI steps into a workflow that runs with little or no human input, turning a 30-minute task into a two-minute review.",
@@ -10,7 +11,7 @@
     "You do not need to code: a reusable prompt in a tool like ChatGPT covers most of this, and trigger-based tools like Zapier and Make take over once a routine has proven itself.",
     "The highest-ROI first automation is usually the task you do most often and dislike most."
   ],
-  "description": "A beginner's guide to AI automation: five high-value, no-code tasks you can automate this week, with copy-paste prompts, plus when to graduate to Zapier or Make and when a simple workflow beats a fancy AI agent.",
+  "description": "Five high-value tasks you can automate with AI this week, no code required, with copy-paste prompts and the point where Zapier or Make takes over.",
   "keywords": [
     "AI automation for beginners",
     "no-code AI automation",

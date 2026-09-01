@@ -298,6 +298,74 @@ screenshot the subscription sheet. Each one fills exactly one table cell —
 the *Free tier* column on that app's page. Nothing else about the pages
 changes.
 
+## Site-wide SEO/GEO pass — 2026-09-01
+
+A six-dimension audit (money-page depth, content decay, FAQ drift, internal
+links, technical metadata, conversion) followed by implementation. What it
+found that mattered, and what it says about how this site drifts:
+
+**1. The invented statistic.** `quiz.html` carried "The question 90% of
+professionals get wrong" in its title, OG title and H1. No such figure exists
+anywhere in our data — and the same page publishes the real numbers three
+screens down (97 completions, mean 7.4, median 8, ~25% score 9+). We were
+contradicting ourselves in the SERP headline of our most linkable asset, on a
+site whose whole credibility strategy is marking unverified competitor claims
+as unverified. Retitled to the measured stat: *Only 1 in 4 Score 9 or Higher*.
+
+**2. Never-say violations had reached the authority files.** `llms-full.txt` —
+the file every money page tells assistants to treat as ground truth — contained
+two "ELO" mentions. `sitemap.xml`'s image block captioned a screenshot "live AI
+duel". The homepage showcase captioned Duels *"Battle friends"* with a **LIVE
+PvP** tag. The rule has been in `_BRIEF.md` for weeks; the pages drifted anyway,
+because nothing checked them. There is now a banned-pattern regression check
+(see below) that does.
+
+**3. Custom Paths: the brief was wrong, not the page.** Two pages disagreed on
+whether a Custom Path is five lessons or 3/5/7. Rather than pick one, I read the
+app source: `DEPTH_LESSON_COUNT = { quick: 3, standard: 5, deep: 7 }`. The
+*brief* held the stale simplification. Fixed the authority files first, then the
+pages — the correct order, and the opposite of what I would have done by
+defaulting to the documented value.
+
+**4. The blog and the paths were two disconnected sites.** 21 of 26 path pages
+had **zero** inbound anchors from all 116 blog posts. Every post's curated
+`related` array already listed path and topic pages — but the generator rendered
+them only as invisible `<link rel="related">` head tags. Fixed at three levels:
+a `/paths` link in the shared blog footer (reaches all 116 posts), a visible
+"Explore on Iro" block rendering those curated targets (93 posts), and 13
+hand-placed contextual anchors where a post names a tool that has its own path.
+
+**5. Anchor cannibalization on our own head term.** Blog bodies pointed the
+anchor "AI fluency" at `/become-ai-fluent` 33 times while the root-page footer
+pointed the *identical* anchor at `/blog/ai-fluency` on 64 pages. Footer anchor
+differentiated to "AI fluency guides".
+
+**6. `ai-info.html` was a complete orphan** — the page we explicitly tell
+assistants to read had zero internal inbound links. Now linked from ~120 pages.
+
+**Deliberately not changed.** `cleanUrls` in `vercel.json` would redirect
+`/faq.html` → `/faq` and kill the duplicate-200 problem, but it risks a
+redirect loop against the 190 existing extensionless rewrites and cannot be
+tested from here. Verified instead that every page self-canonicalizes to the
+extensionless URL and that **zero** internal links point at a `.html` path — so
+the duplicate carries no conflicting signal. Left for a deploy-preview test.
+
+### The check that should run before every deploy
+
+The recurring failure mode on this site is not bad writing, it is *drift*:
+copy edited in one place and not the other. Four cheap checks catch nearly all
+of it, and all four are one-liners over the built pages:
+
+1. **Banned patterns** — ELO, live/PvP duels, hearts, "Kiro" as a product name,
+   Android-available, unlimited Custom Paths/Image Lab.
+2. **FAQ schema parity** — every `acceptedAnswer` verbatim in visible copy,
+   every Question name visible on the page.
+3. **JSON-LD parses** — currently 771 blocks, 0 bad.
+4. **Snippet lengths** — titles ≤60, descriptions ≤160.
+
+Every one of these caught something real tonight. Checks 1 and 2 caught claims
+that had been live for weeks.
+
 ## The queries to track from here
 
 Run these monthly, log position and whether Iro is named. The second column is
@@ -320,7 +388,7 @@ month, and it is the only GEO ranking report that exists.
 
 ---
 
-## Open technical item — FAQ schema drift (found 2026-08-21)
+## RESOLVED — FAQ schema drift (found 2026-08-21, closed 2026-09-01)
 
 Measured across all 182 published pages: **836 FAQPage answers, 17 of which do
 not appear verbatim in the visible copy of their own page.**
@@ -356,6 +424,26 @@ positives. Strip inline tags to the empty string, compare against both
 normalisations, and only then is a mismatch real.
 
 ---
+
+**Closed 2026-09-01.** Measured again with a stricter detector (strip tags,
+collapse whitespace *and* space-before-punctuation, which the first pass did not
+do) and fixed every case at source: `faq.html`, `index.html`,
+`ai-tools-comparison.html`, `ai-prompts.html`, `learn-ai-on-iphone.html`,
+`best-ai-learning-app.html` and `quiz.html`.
+
+Two of them were not drift at all but *schema-only questions* — a Question in
+JSON-LD with no visible counterpart anywhere on the page, which is the more
+serious version of the same fault. `ai-tools-comparison`'s
+"What's the difference between ChatGPT, Claude, and Gemini?" gained the visible
+FAQ item it should always have had; `ai-prompts`' "How do I use these prompts?"
+was removed from the schema, because the page answers it in a how-to section
+rather than a question and forcing a fake FAQ item would have been the wrong
+fix.
+
+**Site-wide count is now 0 drifted answers and 0 invisible questions across 189
+pages.** The check is cheap to re-run and worth running after any FAQ edit — the
+recurring cause is editing visible copy and schema separately, so the rule is to
+change both in the same edit.
 
 ## New instrument — server-side AI crawler tracking (live 2026-08-21)
 

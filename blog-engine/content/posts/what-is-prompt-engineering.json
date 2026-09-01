@@ -3,6 +3,7 @@
   "order": 15,
   "pillar": "prompt-engineering",
   "title": "What is prompt engineering? A clear definition with examples",
+  "metaTitle": "What Is Prompt Engineering? Definition and Examples",
   "lede": "Prompt engineering is the skill of writing and structuring instructions so an AI model reliably gives you the output you actually want. Here's what it means, why it works, and how to get good at it, with before-and-after examples.",
   "keyTakeaways": [
     "Prompt engineering is writing and structuring AI instructions so the model reliably produces the output you want.",
