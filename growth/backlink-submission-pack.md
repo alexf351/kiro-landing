@@ -150,6 +150,13 @@ pending), SideProjectors (in review), Launching Next (**~4-month queue**),
 Insidr, Startup Stash, AI Tools Directory, The Next AI, ToolPilot, AIChief
 (account exists, no public URL), Uneed (**draft until we pay**).
 
+**Round 2 adds 11 more to the skip list** (see the round-2 section below):
+EdTech Impact, llmstxt.site, llmstxt.info, directory.llmstxt.cloud,
+llmstxt.work, Learnamic, LaunchBoosts, TeachersFirst Edge, Class Tech Tips,
+AASL Best Digital Tools 2027, Common Sense Privacy. **Any round-3 brief must
+carry all 36 names** — the skip list is the single thing that stops an agent
+run burning itself on resubmissions.
+
 **Absent from both lists — which is itself the finding:** Peerlist, G2,
 Crunchbase, AppAdvice. Peerlist's absence confirms the four-verification-codes
 read: the agent looped and never completed it. G2 and Crunchbase were account
@@ -206,6 +213,78 @@ agent can hold that line. Judge it in a month on one number: how many of these
 are *live listings with correct copy*, not how many accounts exist. If the
 answer is most of them, this is the cheapest link channel available. If it is a
 pile of half-finished signups, it is noise with our brand on it.
+
+### Grok Bot round 2 — 2026-09-01
+
+Ran on the round-2 brief (skip list of 25, education-sector first, llms.txt
+directories second, account-is-not-a-submission, two-attempts-then-move-on).
+**Eleven sites, zero wasted on resubmissions** — the skip list did its job.
+One live immediately; the other ten sit with real human reviewers, which is
+what an education channel looks like versus an auto-publishing tool directory.
+
+| Site | Status | URL / route |
+| --- | --- | --- |
+| **EdTech Impact** | **LIVE** | https://edtechimpact.com/products/iro-ai/ |
+| llmstxt.site | submitted | — |
+| llmstxt.info | submitted (Standard, free) | — |
+| directory.llmstxt.cloud | **waitlist** | — |
+| llmstxt.work | submitted | — |
+| Learnamic | submitted | — |
+| LaunchBoosts | submitted | — |
+| TeachersFirst Edge | pitched by email | editorial |
+| Class Tech Tips | pitched by email | editorial |
+| AASL Best Digital Tools 2027 | nominated | award, not a listing |
+| Common Sense Privacy | submitted by email | **evaluation, see below** |
+
+**EdTech Impact is the best listing we have.** It is a review platform schools
+actually use during procurement, so the audience is buyers rather than
+link-crawlers. It is also the first listing where the *reviews* matter more
+than the link — same shape as G2, but in a sector where we can plausibly get
+them. Worth reading the live page against the hard facts, second only to
+Aitoolnet.
+
+**The four llms.txt directories are the bot-first experiment, and they are an
+honest fit.** We publish llms.txt, llms-full.txt, llms-index.txt, ai.txt and
+175 markdown mirrors, so a directory *of llms.txt files* is the one category
+where the listing describes something we genuinely do. Judge them on one
+question only: **do they show up in the DataFast AI-crawler report?** If
+crawlers reach us through them, bot-first directories beat human-first ones
+for GEO and that is a genuinely new finding. If nothing arrives, they cost
+nothing and the experiment is closed. Do not expect link equity from
+four-week-old domains, and do not scale this pattern past these four — the
+footprint of one brand across every near-identical llmstxt.* domain starts to
+look manufactured however legitimate each one is.
+
+### The K-12 tension this round exposes — decide before Common Sense reports
+
+Four of these channels are K-12: TeachersFirst Edge, Class Tech Tips, AASL
+(school librarians) and Common Sense Privacy. **Our privacy policy says Iro
+"is not directed at children under the age of 13" and that we do not knowingly
+collect data from them.** That is an honest, standard 13+ stance and there is
+nothing wrong with it — but it is in tension with pitching K-12 channels, and
+one of them publishes a public rating.
+
+**Common Sense Privacy is an evaluation, not a listing.** They review the
+privacy policy against a K-12 lens and publish a score that schools check
+before adopting a tool. Three outcomes:
+
+1. They rate us as a 13+ / not-for-children product. Fine, accurate, and
+   limits us to high school and teacher use — which is the honest market.
+2. They find the policy thin on something they weight heavily (third-party
+   data sharing, retention specifics, ad/tracking disclosure). A weak public
+   rating on a site schools trust is worse than no rating.
+3. They do not review it at all, since we are not a children's product.
+
+**Before that lands, read the privacy policy once as a school would.** The
+current page covers collection, third parties, retention/deletion, children's
+privacy and changes — the right sections — but it was written for an app
+store, not a district procurement review. This is the one item in the whole
+pack where a submission can produce a *negative* public artifact.
+
+**Positioning for all four K-12 channels: high school and up, plus teachers
+themselves.** Iro teaching a teacher to use AI is a straightforward,
+defensible pitch that sidesteps the under-13 question entirely — and AASL and
+TeachersFirst both serve educators directly, not just classrooms.
 
 ### Dates to keep
 
