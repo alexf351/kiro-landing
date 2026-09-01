@@ -1,5 +1,5 @@
 ---
-title: "Learn ElevenLabs: Voice Settings, Stability & Natural Speech | Iro AI"
+title: "Learn ElevenLabs: Settings for Natural Speech | Iro AI"
 canonical_url: "https://tryiro.com/learn-elevenlabs"
 site: "Iro AI"
 site_url: "https://tryiro.com"

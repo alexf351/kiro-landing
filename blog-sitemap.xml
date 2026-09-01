@@ -28,7 +28,7 @@
     <priority>0.88</priority>
     <image:image>
       <image:loc>https://tryiro.com/assets/og/prompt-engineering.png</image:loc>
-      <image:title>Prompt Engineering: Patterns That Survive Model Updates</image:title>
+      <image:title>Prompt Engineering: Patterns That Survive Updates</image:title>
     </image:image>
   </url>
   <url>
@@ -38,7 +38,7 @@
     <priority>0.88</priority>
     <image:image>
       <image:loc>https://tryiro.com/assets/og/ai-agents.png</image:loc>
-      <image:title>AI Agents &amp; Automation: From Hype to Working Systems</image:title>
+      <image:title>AI Agents &amp; Automation: Hype to Working Systems</image:title>
     </image:image>
   </url>
   <url>
@@ -48,7 +48,7 @@
     <priority>0.88</priority>
     <image:image>
       <image:loc>https://tryiro.com/assets/og/ai-tools.png</image:loc>
-      <image:title>AI Tools in 2026: Pick the Right One, Then Use It Well</image:title>
+      <image:title>AI Tools in 2026: Pick One, Then Use It Well</image:title>
     </image:image>
   </url>
   <url>

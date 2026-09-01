@@ -1,5 +1,5 @@
 ---
-title: "Prompt Engineering: Patterns That Survive Model Updates"
+title: "Prompt Engineering: Patterns That Survive Updates"
 canonical_url: "https://tryiro.com/blog/prompt-engineering"
 site: "Iro AI"
 site_url: "https://tryiro.com"
@@ -11,7 +11,7 @@ license: "© 2026 Iro AI"
 type: "content-pillar"
 ---
 
-# Prompt Engineering: Patterns That Survive Model Updates
+# Prompt Engineering: Patterns That Survive Updates
 
 > The transferable prompt patterns that work across ChatGPT, Claude, Gemini, and Perplexity — and survive every model upgrade.
 

@@ -1,5 +1,5 @@
 ---
-title: "Learn NotebookLM: Sources, Audio Overviews & Research | Iro AI"
+title: "Learn NotebookLM: Sources and Audio Overviews | Iro AI"
 canonical_url: "https://tryiro.com/learn-notebooklm"
 site: "Iro AI"
 site_url: "https://tryiro.com"

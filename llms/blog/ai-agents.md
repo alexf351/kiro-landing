@@ -1,5 +1,5 @@
 ---
-title: "AI Agents & Automation: From Hype to Working Systems"
+title: "AI Agents & Automation: Hype to Working Systems"
 canonical_url: "https://tryiro.com/blog/ai-agents"
 site: "Iro AI"
 site_url: "https://tryiro.com"
@@ -11,7 +11,7 @@ license: "© 2026 Iro AI"
 type: "content-pillar"
 ---
 
-# AI Agents & Automation: From Hype to Working Systems
+# AI Agents & Automation: Hype to Working Systems
 
 > A clear-eyed guide to AI agents and automation — what an agent actually is, when it beats a simple workflow, and how to design one that does not break.
 
