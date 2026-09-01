@@ -10,7 +10,7 @@
     "Tokens are the unit behind pricing, rate limits, and context windows, so they affect cost and how much a model can handle at once.",
     "You don't need to count tokens to use AI well, but understanding them demystifies limits and bills."
   ],
-  "description": "What are tokens in AI? A plain-English explainer: what a token is, how tokenization works, the words-per-token rule of thumb, and why tokens drive cost and limits.",
+  "description": "A plain-English explainer: what a token is, how tokenization works, the words-per-token rule of thumb, and why tokens drive AI cost and limits.",
   "keywords": [
     "what are tokens in AI",
     "AI tokens explained",

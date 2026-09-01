@@ -3,6 +3,7 @@
   "order": 23,
   "pillar": "ai-agents",
   "title": "AI agents vs. automation: what's the difference (and when to use each)?",
+  "metaTitle": "AI agents vs. automation: what's the difference?",
   "lede": "Automation follows fixed rules you define; an AI agent decides its own steps toward a goal. Knowing which one to reach for saves time and avoids expensive surprises. Here's the difference in plain English, with examples.",
   "keyTakeaways": [
     "Automation follows fixed, predefined rules ('if X, do Y') and is predictable; an AI agent uses an LLM to decide its own steps toward a goal and can adapt.",
@@ -10,7 +11,7 @@
     "Agents are more flexible but less predictable: they can take wrong turns, so they need clear scope and human review.",
     "Many of the best real-world setups combine both: rules for the predictable parts, an agent for the judgment calls."
   ],
-  "description": "AI agents vs automation explained: automation follows fixed rules, an AI agent decides its own steps toward a goal. Learn the difference, see examples, and know when to use each.",
+  "description": "Automation follows fixed rules you define; an AI agent decides its own steps toward a goal. See the difference, real examples, and when to use each.",
   "keywords": [
     "AI agents vs automation",
     "difference between AI agents and automation",

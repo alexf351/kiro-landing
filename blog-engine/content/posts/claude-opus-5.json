@@ -3,6 +3,7 @@
   "order": 65,
   "pillar": "ai-tools",
   "title": "Claude Opus 5: what actually changed, and who it's for",
+  "metaTitle": "Claude Opus 5: pricing, benchmarks, what changed",
   "lede": "Anthropic's newest model lands at half the price of Fable 5 with a 1M-token context window. Here's what's genuinely new, what the benchmarks mean, and whether you should switch.",
   "keyTakeaways": [
     "Claude Opus 5 rolled out on 24 July 2026 at $5 per million input tokens and $25 per million output: the same price as Opus 4.8, and half the input price of Anthropic's flagship Fable 5.",
@@ -10,7 +11,7 @@
     "It has a 1M-token context window, 128K max output, and a May 2026 knowledge cutoff, the most recent of any Claude model.",
     "A fast mode runs roughly 2.5x quicker at double the token price ($10/$50), and effort settings let you trade cost against depth on a per-request basis."
   ],
-  "description": "Claude Opus 5 explained: release date, pricing, the 1M-token context window, fast mode, effort settings, benchmark results, and how it compares to Fable 5 and GPT-5.6.",
+  "description": "Claude Opus 5's release date, pricing, 1M-token context window, fast mode and effort settings, plus benchmarks and how it compares to Fable 5 and GPT-5.6.",
   "keywords": [
     "Claude Opus 5",
     "Claude Opus 5 pricing",

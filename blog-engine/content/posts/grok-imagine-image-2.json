@@ -3,6 +3,7 @@
   "order": 106,
   "pillar": "ai-tools",
   "title": "Grok Imagine Image 2.0: the editing tools are the story",
+  "metaTitle": "Grok Imagine Image 2.0: Editing Tools and Prompts",
   "lede": "SpaceXAI shipped Grok Imagine Image 2.0 on 7 August 2026 with region-level editing, five-image reference inputs, and a claimed number-two spot on both image arenas. The generation quality is the headline; the editing controls are the part that changes how you work.",
   "keyTakeaways": [
     "Grok Imagine Image 2.0 shipped 7 August 2026 as Quality Mode on grok.com/imagine and in the Grok iOS and Android apps. A dedicated API is listed as coming soon.",
@@ -10,7 +11,7 @@
     "Multi-reference editing accepts up to five input images in one generation, which is what makes consistent characters and styles practical rather than lucky.",
     "SpaceXAI claims second place on both the Arena text-to-image and image-edit leaderboards as of 7 August 2026, behind OpenAI's gpt-image-2. Treat vendor-cited rankings as a claim with a date on it, not a permanent fact."
   ],
-  "description": "Grok Imagine Image 2.0 explained: release date, region-level editing, multi-image references, arena ranking versus gpt-image-2, and how to actually prompt it well.",
+  "description": "Grok Imagine Image 2.0 explained: the 7 August 2026 release, region-level editing, five-image references, arena ranking, and how to prompt it.",
   "keywords": [
     "Grok Imagine Image 2.0",
     "Grok Imagine 2",

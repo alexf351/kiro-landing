@@ -3,6 +3,7 @@
   "order": 105,
   "pillar": "ai-tools",
   "title": "Gemini 3.7 Flash: what changed, and whether you'll notice",
+  "metaTitle": "Gemini 3.7 Flash: pricing, specs and what changed",
   "lede": "Google shipped Gemini 3.7 Flash three weeks after 3.6 Flash, at half the introductory price, with tunable thinking and a 1M-token context window. Here is what actually changed, who it is for, and the honest answer for people who just use the Gemini app.",
   "keyTakeaways": [
     "Gemini 3.7 Flash arrived on 13 August 2026, three weeks after 3.6 Flash, at an introductory $0.75 per million input tokens and $3.75 per million output — half what 3.6 Flash cost. Introductory pricing runs to 31 December 2026, then doubles to $1.50 and $7.50.",
@@ -10,7 +11,7 @@
     "Tunable thinking levels (low, medium, high) are the part worth learning. You decide how much the model deliberates, which is a cost and latency dial as much as a quality one.",
     "If you use Gemini through the app rather than the API, the practical change is small. Prompting well still moves your results far more than the version number does."
   ],
-  "description": "Gemini 3.7 Flash explained: release date, introductory pricing, the 1M-token context window, tunable thinking levels, and whether the upgrade matters if you use the Gemini app.",
+  "description": "Gemini 3.7 Flash's release date, introductory pricing, 1M-token context window and tunable thinking levels, plus whether the upgrade matters in the app.",
   "keywords": [
     "Gemini 3.7 Flash",
     "Gemini 3.7 Flash pricing",

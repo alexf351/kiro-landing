@@ -3,6 +3,7 @@
   "order": 73,
   "pillar": "ai-agents",
   "title": "What is MCP? The protocol quietly wiring AI into everything",
+  "metaTitle": "What is MCP? Model Context Protocol explained",
   "lede": "Model Context Protocol passed 400 million monthly SDK downloads and shipped its biggest spec update yet today. Here's what it actually is, in plain terms.",
   "keyTakeaways": [
     "MCP (Model Context Protocol) is an open standard for connecting AI models to tools and data: one common plug instead of a custom integration for every pairing.",
@@ -10,7 +11,7 @@
     "Today's 2026-07-28 release, the fifth spec version, moves MCP to a stateless request/response core, so servers can run on serverless and edge infrastructure.",
     "It also graduates extensions (MCP Apps and Tasks) into a versioned framework and hardens authorization, with the Enterprise-Managed Authorization extension now stable."
   ],
-  "description": "MCP (Model Context Protocol) explained in plain terms: what it does, why 400M monthly SDK downloads matter, and what the 2026-07-28 stateless-core spec release changes.",
+  "description": "Model Context Protocol explained in plain terms: what it does, why 400M monthly SDK downloads matter, and what the 2026-07-28 stateless-core spec changes.",
   "keywords": [
     "what is MCP",
     "Model Context Protocol",

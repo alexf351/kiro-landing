@@ -3,6 +3,7 @@
   "order": 37,
   "pillar": "ai-fluency",
   "title": "How to tell if something is AI-generated (text, images & more)",
+  "metaTitle": "How to Tell If Something Is AI-Generated",
   "lede": "There's no 100% reliable way to detect AI content, but a handful of tells (generic phrasing, factual slips, too-perfect structure, and visual glitches) catch most of it. Here's what to look for.",
   "keyTakeaways": [
     "No detector is 100% reliable: AI-detection tools produce false positives and are easily fooled, so use judgment, not just a tool.",
@@ -10,7 +11,7 @@
     "Image tells: odd hands and teeth, garbled text, inconsistent lighting, and too-perfect symmetry.",
     "The reliable move is to verify claims against sources rather than trying to 'spot the robot.'"
   ],
-  "description": "How to tell if something is AI-generated: the real tells in AI text and images, why detection tools are unreliable, and the verification habit that actually works.",
+  "description": "The real tells in AI-written text and AI-generated images, why detection tools are unreliable, and the verification habit that catches most of it.",
   "keywords": [
     "how to tell if something is AI generated",
     "how to detect AI writing",

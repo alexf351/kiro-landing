@@ -10,7 +10,7 @@
     "It's best for keeping up with current conversations and trending topics; for careful work, the mainstream assistants are often steadier.",
     "Like any AI, it can be wrong or biased, so verify anything that matters."
   ],
-  "description": "What is Grok? A plain-English explainer on SpaceXAI's chatbot: what it is, its real-time X integration, its personality, what it's good at, and how it compares to ChatGPT.",
+  "description": "A plain-English explainer on SpaceXAI's chatbot: what Grok is, its real-time X integration, its personality, and how it compares to ChatGPT.",
   "keywords": [
     "what is Grok",
     "Grok AI",
@@ -134,5 +134,5 @@
     "/quiz",
     "/blog/how-to-use-grok"
   ],
-  "metaTitle": "What is Grok? SpaceXAI (formerly xAI) Chatbot Explained"
+  "metaTitle": "What Is Grok? SpaceXAI's Chatbot Explained"
 }

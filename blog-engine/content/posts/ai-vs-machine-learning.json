@@ -3,6 +3,7 @@
   "order": 38,
   "pillar": "ai-fluency",
   "title": "AI vs machine learning vs deep learning: the difference, explained",
+  "metaTitle": "AI vs machine learning vs deep learning, explained",
   "lede": "AI is the broad goal of machines doing smart things; machine learning is the main way we build it; deep learning is a powerful type of machine learning. Here's how they fit together, in plain English.",
   "keyTakeaways": [
     "AI is the broad field of making machines do tasks that seem intelligent; machine learning is the dominant method for achieving it.",
@@ -10,7 +11,7 @@
     "Deep learning is a type of machine learning using neural networks; it powers most of today's generative AI, including ChatGPT.",
     "Think of them as nested: deep learning is part of machine learning, which is part of AI."
   ],
-  "description": "AI vs machine learning vs deep learning explained simply: clear definitions, how they're related (nested, not separate), real examples, and where generative AI and ChatGPT fit.",
+  "description": "Clear definitions of AI, machine learning and deep learning, how they nest inside each other, real examples, and where generative AI and ChatGPT fit in.",
   "keywords": [
     "AI vs machine learning",
     "machine learning vs deep learning",

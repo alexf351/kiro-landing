@@ -10,7 +10,7 @@
     "Treat the first answer as a draft and refine it; iteration is part of prompting.",
     "The same recipe works across ChatGPT, Claude, Gemini, and Perplexity."
   ],
-  "description": "How to write a good AI prompt, step by step: the context-role-task-format recipe, before-and-after examples, and how to refine answers. Works on ChatGPT, Claude, and Gemini.",
+  "description": "The context-role-task-format recipe for a good AI prompt, with before-and-after examples and how to refine answers in ChatGPT, Claude or Gemini.",
   "keywords": [
     "how to write a prompt",
     "how to write a good AI prompt",

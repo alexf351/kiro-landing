@@ -3,6 +3,7 @@
   "order": 68,
   "pillar": "ai-tools",
   "title": "Meta Muse Spark: the free model most people haven't tried",
+  "metaTitle": "Meta Muse Spark: Features, Benchmarks, and Access",
   "lede": "Meta walked away from Llama and rebuilt from scratch. Muse Spark is the result: a free, multimodal reasoning model that quietly leads on medical benchmarks.",
   "keyTakeaways": [
     "Muse Spark is the first model from Meta Superintelligence Labs, launched April 2026 and updated to version 1.1 on 9 July 2026 with a focus on multimodal reasoning for agentic tasks.",
@@ -10,7 +11,7 @@
     "It is free, which makes it the most accessible capable model on the market: the usual reason to skip a model (cost) does not apply.",
     "It scored 52 on the Artificial Analysis Intelligence Index v4.0 at launch (fourth overall) and reportedly leads every competitor on health and medical benchmarks."
   ],
-  "description": "Meta Muse Spark explained: the first Meta Superintelligence Labs model, its 1.1 update, Contemplating mode, benchmark results, and why a free frontier-adjacent model matters.",
+  "description": "Meta Muse Spark explained: the first Meta Superintelligence Labs model, its 1.1 update, Contemplating mode, benchmarks, and what free really means.",
   "keywords": [
     "Meta Muse Spark",
     "Muse Spark benchmarks",
