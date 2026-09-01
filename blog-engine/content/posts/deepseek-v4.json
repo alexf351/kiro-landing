@@ -3,6 +3,7 @@
   "order": 107,
   "pillar": "ai-tools",
   "title": "DeepSeek V4: what open weights actually mean for you",
+  "metaTitle": "DeepSeek V4: specs, open weights and who can run it",
   "lede": "DeepSeek V4 is the strongest open-weight model of 2026: 1.6 trillion parameters, a million-token context, MIT licensed, free to download. Almost none of that matters if you are not running your own servers — so here is the part that does.",
   "keyTakeaways": [
     "DeepSeek V4 comes in two sizes, both MIT licensed with weights on Hugging Face: V4-Pro at 1.6T total parameters with 49B active, and V4-Flash at 284B total with 13B active. Both support a 1M-token context window.",

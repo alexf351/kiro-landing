@@ -724,6 +724,10 @@
       "destination": "/blog/index.html"
     },
     {
+      "source": "/editorial-policy",
+      "destination": "/editorial-policy.html"
+    },
+    {
       "source": "/blog/how-to-learn-chatgpt-in-2026",
       "destination": "/blog/how-to-learn-chatgpt-in-2026.html"
     },

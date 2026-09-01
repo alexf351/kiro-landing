@@ -3,6 +3,7 @@
   "order": 27,
   "pillar": "ai-fluency",
   "title": "What is generative AI? A simple explanation with examples",
+  "metaTitle": "What is generative AI? A simple explanation",
   "lede": "Generative AI is artificial intelligence that creates new content (text, images, audio, video, or code) in response to a prompt. Here's how it works, what it can and can't do, and how to use it well.",
   "keyTakeaways": [
     "Generative AI is AI that creates new content (text, images, audio, video, code) from a prompt, rather than just classifying or predicting from data.",
@@ -10,7 +11,7 @@
     "It's powerful for drafting, summarizing, brainstorming, and creating media, but it can be confidently wrong, so you verify what matters.",
     "Getting value from generative AI is a skill: clear prompts, good judgment, and practice."
   ],
-  "description": "What is generative AI? A plain-English explanation: how it works, real examples (text, images, video, code), how it differs from traditional AI, its limits, and how to use it well.",
+  "description": "A plain-English answer: how generative AI works, real examples across text, images, video and code, how it differs from traditional AI, and where it fails.",
   "keywords": [
     "what is generative AI",
     "generative AI explained",

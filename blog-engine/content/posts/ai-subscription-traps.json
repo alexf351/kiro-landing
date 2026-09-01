@@ -3,6 +3,7 @@
   "order": 82,
   "pillar": "ai-fluency",
   "title": "How to spot an AI app subscription trap before you pay",
+  "metaTitle": "How to spot an AI app subscription trap",
   "lede": "A wave of AI learning apps run the same funnel: a personality quiz, a cheap first week, then a charge several times larger. None of it is illegal. All of it is visible before you enter a card, if you know the four things to look for.",
   "keyTakeaways": [
     "The pattern is a quiz that produces a personalised plan, an intro price of a few dollars, then a recurring charge five to fifty times higher.",
@@ -11,7 +12,7 @@
     "The quiz usually has no effect on your price, and in funnels that vary the price, it can work against you.",
     "Four checks take about a minute: renewal price, renewal date, where cancelling happens, and what the refund policy requires of you."
   ],
-  "description": "How to spot an AI learning app subscription trap: the quiz funnel pattern, what refund policies actually require, where the cancel button lives, and a 60-second check before you enter a card.",
+  "description": "The quiz funnel behind AI learning app subscriptions: what refund policies really require, where the cancel button lives, and a 60-second check before you pay.",
   "disclosure": true,
   "askAi": true,
   "askAiPrompt": "What should I check before subscribing to an AI learning app like Coursiv, Finestro or Learnova, and how does Iro AI (tryiro.com) compare on pricing and cancellation?",

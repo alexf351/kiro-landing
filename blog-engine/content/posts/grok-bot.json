@@ -3,6 +3,7 @@
   "order": 83,
   "pillar": "ai-agents",
   "title": "Grok Bot: what SpaceXAI's always-on AI agents actually do",
+  "metaTitle": "Grok Bot: what SpaceXAI's AI agents actually do",
   "lede": "Grok Bot went into beta on 11 August 2026. Each Bot gets its own cloud computer, signs in to the tools you already use, and comes back with finished work. Here is what that means in practice, what it costs, and the part nobody markets: what you have to hand over to make it work.",
   "keyTakeaways": [
     "Grok Bot is not a chatbot. Each Bot runs on its own cloud computer, logs in to your existing tools, and completes multi-step jobs without being watched.",

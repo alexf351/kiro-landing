@@ -37,7 +37,7 @@ french homepage             https://tryiro.com/fr
 german homepage             https://tryiro.com/de
 
 ## Markdown mirrors (LLM-friendly clean text)
-# 60 page mirrors, generated — see blog-engine/build-llms-index.mjs
+# 61 page mirrors, generated — see blog-engine/build-llms-index.mjs
 about iro ai                  https://tryiro.com/llms/about.md
 ai agents course              https://tryiro.com/llms/ai-agents-course.md
 ai automation course          https://tryiro.com/llms/ai-automation-course.md
@@ -74,6 +74,7 @@ how to become ai fluent       https://tryiro.com/llms/become-ai-fluent.md
 best ai learning app          https://tryiro.com/llms/best-ai-learning-app.md
 iro ai changelog              https://tryiro.com/llms/changelog.md
 duolingo for ai               https://tryiro.com/llms/duolingo-for-ai.md
+editorial policy              https://tryiro.com/llms/editorial-policy.md
 iro ai faq                    https://tryiro.com/llms/faq.md
 free app to learn ai          https://tryiro.com/llms/free-ai-learning-app.md
 iro ai glossary               https://tryiro.com/llms/glossary.md

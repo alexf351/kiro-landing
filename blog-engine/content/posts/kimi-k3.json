@@ -3,6 +3,7 @@
   "order": 69,
   "pillar": "ai-tools",
   "title": "Kimi K3: the biggest open-weight model ever, and who can actually run it",
+  "metaTitle": "Kimi K3: specs, pricing, and who can run it",
   "lede": "Moonshot AI released the weights to a 2.8-trillion-parameter model today. Here's what that means, what it costs to run, and why 'open weights' isn't the same as 'you can use it'.",
   "keyTakeaways": [
     "Kimi K3's weights shipped on 27 July 2026 under a Modified MIT license. At roughly 2.8 trillion parameters, it is the largest open-weight model released to date.",

@@ -590,6 +590,8 @@ https://tryiro.com/how-to-learn-ai.
 
 ## Key URLs
 
+Editorial policy (how this site is written and checked): https://tryiro.com/editorial-policy
+
 Homepage: https://tryiro.com
 App Store: https://apps.apple.com/app/id6759628066
 Web app: https://app.tryiro.com

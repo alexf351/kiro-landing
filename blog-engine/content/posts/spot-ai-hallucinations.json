@@ -10,7 +10,7 @@
     "Catch hallucinations by asking for sources, cross-checking key claims, and distrusting suspiciously specific details.",
     "Treat AI output as a fast first draft to verify, not a final source of truth."
   ],
-  "description": "AI models confidently invent facts, citations, and numbers. Here are the five-second checks that catch most hallucinations, and a longer set for when stakes are high.",
+  "description": "AI models confidently invent facts, citations and numbers. Here are the five-second checks that catch most hallucinations, plus deeper ones for high stakes.",
   "keywords": [
     "AI hallucination",
     "hallucination detection",
