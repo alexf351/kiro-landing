@@ -3,10 +3,10 @@
 <head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>AI IQ Test by Iro AI — The question 90% of professionals get wrong</title>
+<title>AI IQ Test by Iro AI — Only 1 in 4 Score 9 or Higher</title>
 <meta content="Iro AI's free AI IQ Test: 10 questions, 2 minutes. Find out where you stand on AI, and how far you could go." name="description"/>
 <meta content="#0A0E1A" name="theme-color"/>
-<meta property="og:title" content="AI IQ Test by Iro AI — The question 90% of professionals get wrong"/>
+<meta property="og:title" content="AI IQ Test by Iro AI — Only 1 in 4 Score 9 or Higher"/>
 <meta property="og:description" content="Iro AI's free AI IQ Test: 10 questions, 2 minutes. Find out where you stand on AI, and how far you could go."/>
 <meta property="og:image" content="https://tryiro.com/assets/og/quiz.png"/>
 <meta property="og:url" content="https://tryiro.com/quiz"/>
@@ -15,7 +15,7 @@
 <link rel="alternate" hreflang="en" href="https://tryiro.com/quiz"/>
 <link rel="alternate" hreflang="x-default" href="https://tryiro.com/quiz"/>
 <meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:title" content="AI IQ Test by Iro AI — The question 90% of professionals get wrong"/>
+<meta name="twitter:title" content="AI IQ Test by Iro AI — Only 1 in 4 Score 9 or Higher"/>
 <meta name="twitter:description" content="Iro AI's free AI IQ Test: 10 questions, 2 minutes. Find out where you stand on AI, and how far you could go."/>
 <meta name="twitter:image" content="https://tryiro.com/assets/og/quiz.png"/>
 <script type="application/ld+json">
@@ -25,7 +25,7 @@
 {"@context":"https://schema.org","@type":"WebPage","url":"https://tryiro.com/quiz","name":"AI IQ Test by Iro AI","description":"Free, no-signup AI IQ test: 10 questions, ~2 minutes. Find out where you stand on AI and get a personalized learning path recommendation.","speakable":{"@type":"SpeakableSpecification","cssSelector":["h1","h2"]},"isPartOf":{"@type":"WebSite","name":"Iro AI","url":"https://tryiro.com/"},"about":[{"@type":"Thing","name":"AI assessment"},{"@type":"Thing","name":"AI literacy quiz"}],"inLanguage":"en-US"}
 </script>
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Is this an AI IQ test or an AI rank quiz?","acceptedAnswer":{"@type":"Answer","text":"Both. Iro's free quiz is widely known as the AI IQ test, and your result is shown as an AI rank from Bronze to Diamond, with a starting skill profile that highlights your strongest topic and the one to train first."}},{"@type":"Question","name":"How long does the AI IQ test take?","acceptedAnswer":{"@type":"Answer","text":"About 2 minutes. The quiz is 10 questions, with no signup required."}},{"@type":"Question","name":"Is the AI IQ test free?","acceptedAnswer":{"@type":"Answer","text":"Yes. The AI IQ test is completely free and does not require an account. Your score maps to a rank tier from Bronze to Diamond and recommends a learning path inside Iro AI."}},{"@type":"Question","name":"What does the AI IQ test cover?","acceptedAnswer":{"@type":"Answer","text":"The test covers ChatGPT, Claude, prompt engineering, AI hallucinations, AI tools, and AI fundamentals — a representative slice of the topics taught in the Iro AI app."}}]}
+{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Is this an AI IQ test or an AI rank quiz?","acceptedAnswer":{"@type":"Answer","text":"Both. Iro's free quiz is widely known as the AI IQ test, and your result is shown as an AI rank from Bronze to Diamond, with a starting skill profile that highlights your strongest topic and the one to train first."}},{"@type":"Question","name":"How long does the AI IQ test take?","acceptedAnswer":{"@type":"Answer","text":"About 2 minutes. The quiz is 10 questions, with no signup required."}},{"@type":"Question","name":"Is the AI IQ test free?","acceptedAnswer":{"@type":"Answer","text":"Yes. The AI IQ test is completely free and does not require an account. Your score maps to a rank tier from Bronze to Diamond and recommends a learning path inside Iro AI."}},{"@type":"Question","name":"What does the AI IQ test cover?","acceptedAnswer":{"@type":"Answer","text":"The test covers ChatGPT, Claude, prompt engineering, AI hallucinations, AI tools, and AI fundamentals, a representative slice of the topics taught in the Iro AI app."}}]}
 </script>
 <link href="assets/favicon-64.png" rel="icon" type="image/png"/>
 <link href="assets/apple-touch-icon.png" rel="apple-touch-icon"/>
@@ -873,7 +873,7 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
 <div class="intro-stage-ring" aria-hidden="true"></div>
 <picture><source srcset="assets/diamond-kiro.webp" type="image/webp"/><img alt="Iro" class="intro-mascot" decoding="async" src="assets/diamond-kiro.png"/></picture>
 </div>
-<h1>The AI question <span>90%</span> of <br/>professionals get wrong</h1>
+<h1>How well do you <span>actually</span> use AI?</h1>
 <p>10 questions. 2 minutes. Only 1 in 4 people score 9 or higher. Find out where you stand.</p>
 <button class="btn-primary" id="startBtn">Start the quiz</button>
 <div class="quiz-meta">Free &middot; No signup &middot; ~2 minutes</div>
@@ -973,11 +973,10 @@ const streakWords=['Nice!','Correct!','On fire!','Unstoppable!','Genius!'];
   const friendScore=params.get('score');
   if(friendScore!==null){
     const intro=document.getElementById('quizIntro');
-    const badge=intro.querySelector('.quiz-badge');
     const challenge=document.createElement('div');
     challenge.className='challenge-bar';
     challenge.innerHTML=`Your friend scored <span>${friendScore}/10</span>. Can you beat them?`;
-    intro.insertBefore(challenge,badge);
+    intro.insertBefore(challenge,intro.firstElementChild);
   }
 })();
 
@@ -1052,10 +1051,10 @@ function showResults(){
   r.style.display='block';
 
   let rank,rankClass,msg,mascot;
-  if(score<=3){rank='Bronze';rankClass='rank-bronze';msg='You\u2019re early in your AI journey, and that\u2019s the best time to start. Iro can get you to Platinum in a week.';mascot='bronze-kiro.png'}
+  if(score<=3){rank='Bronze';rankClass='rank-bronze';msg='You\u2019re early in your AI journey, and that\u2019s the best time to start. Iro\u2019s beginner paths start from zero, five minutes a day.';mascot='bronze-kiro.png'}
   else if(score<=5){rank='Silver';rankClass='rank-silver';msg='You know more than most people. A few focused days with Iro and you\u2019ll be dangerous.';mascot='silver-kiro.png'}
   else if(score<=7){rank='Gold';rankClass='rank-gold';msg='Solid foundation. You\u2019re ahead of the curve, and Iro will turn that into real fluency.';mascot='gold-kiro.png'}
-  else if(score<=9){rank='Platinum';rankClass='rank-platinum';msg='You\u2019re in the top tier. Iro Pro\u2019s advanced paths will sharpen your edge even further.';mascot='platinum-kiro.png'}
+  else if(score<=9){rank='Platinum';rankClass='rank-platinum';msg='You\u2019re in the top tier. Iro\u2019s advanced paths will sharpen your edge even further.';mascot='platinum-kiro.png'}
   else{rank='Diamond';rankClass='rank-diamond';msg='Perfect score. You might already be an AI expert, but Iro\u2019s Prompt Lab and duels will still challenge you.';mascot='diamond-kiro.png'}
 
   // Benchmark from our own quiz data, published at /blog/average-ai-literacy-score:
@@ -1084,7 +1083,8 @@ function showResults(){
     <div class="results-profile-head"><span>Skill profile</span><span>This quiz</span></div>
     ${profile.map(p=>`<div class="rprof-row${p.t===weakest?' is-weak':''}"><span class="rprof-lab">${p.t}</span><span class="rprof-bar"><i style="--w:${Math.round(p.pct*100)}%"></i></span><span class="rprof-val">${p.right}/${p.total}</span></div>${p.t===weakest?'<div class="rprof-weak-tag">Train this first</div>':''}`).join('')}
   </div>`;
-  if(weakest){nextStepHtml=`<div class="results-next">Path: <strong>${weakest} Basics</strong></div>`;}
+  const nextHref={'Prompt Engineering':'/prompt-engineering-app','AI Foundations':'/how-to-learn-ai','AI Tools':'/ai-tools-comparison','AI Automation':'/ai-automation-course','AI Business':'/ai-for-work','AI for Healthcare':'/ai-for-healthcare','AI for Managers':'/ai-for-managers'}[weakest];
+  if(weakest){nextStepHtml=`<div class="results-next">Train this first: <a href="${nextHref||'/paths'}"><strong>${weakest}</strong></a></div>`;}
 
   const rankLc=rank.toLowerCase();
   const accuracy=score*10;
@@ -1107,6 +1107,7 @@ function showResults(){
     <div class="btn-row">
       <a class="btn-primary" href="https://apps.apple.com/app/id6759628066?utm_source=website&utm_medium=cta&utm_campaign=quiz_results">Download Iro &mdash; It's Free</a>
       <button class="results-link" id="shareBtn">Challenge a Friend</button>
+      <a class="results-link" href="https://app.tryiro.com?utm_source=website&utm_medium=cta&utm_campaign=quiz_results">No iPhone? Start free in your browser &rarr;</a>
       <button class="retake" id="retakeBtn">Retake Quiz</button>
     </div>
     ${profileHtml}
@@ -1164,11 +1165,15 @@ function showResults(){
   document.getElementById('shareBtn').addEventListener('click',()=>{
     const url=`https://tryiro.com/quiz?score=${score}`;
     const text=`I scored ${score}/10 on the Iro IQ Test. Can you beat me? ${url}`;
-    navigator.clipboard.writeText(text).then(()=>{
+    const done=()=>{
       if(window.posthog)posthog.capture('quiz_shared',{score,rank});
       const t=document.getElementById('toast');t.classList.add('show');
       setTimeout(()=>t.classList.remove('show'),2000);
-    });
+    };
+    if(navigator.share){navigator.share({text}).then(done).catch(()=>{});}
+    else if(navigator.clipboard&&navigator.clipboard.writeText){
+      navigator.clipboard.writeText(text).then(done).catch(()=>{window.prompt('Copy your challenge link:',text);done();});
+    }else{window.prompt('Copy your challenge link:',text);done();}
   });
 
 }

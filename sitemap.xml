@@ -26,20 +26,20 @@
       <image:title>Iro AI Diamond rank mascot</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://tryiro.com/assets/screens/prompt-lab.webp</image:loc>
-      <image:title>Iro AI Prompt Lab — active prompt practice</image:title>
+      <image:loc>https://tryiro.com/assets/screens/learning-path.webp</image:loc>
+      <image:title>Iro AI daily lesson path with chests and quests</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://tryiro.com/assets/screens/learning-path-list.webp</image:loc>
-      <image:title>Iro AI learning paths across ChatGPT, Claude, Gemini, Perplexity</image:title>
+      <image:loc>https://tryiro.com/assets/screens/prompt-builder.webp</image:loc>
+      <image:title>Iro AI match-pairs prompt practice exercise</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://tryiro.com/assets/screens/duel-victory.webp</image:loc>
-      <image:title>Iro AI live AI duel victory podium</image:title>
+      <image:loc>https://tryiro.com/assets/screens/duels-tab.webp</image:loc>
+      <image:title>Iro AI duels tab — timed rounds against skill-matched simulated opponents</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://tryiro.com/assets/screens/ranks.webp</image:loc>
-      <image:title>Iro AI rank progression — Bronze to Iridescent</image:title>
+      <image:loc>https://tryiro.com/assets/screens/rank-up.webp</image:loc>
+      <image:title>Iro AI rank progression — Bronze III to Iridescent</image:title>
     </image:image>
   </url>
   <url>

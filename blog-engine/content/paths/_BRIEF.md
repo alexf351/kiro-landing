@@ -42,7 +42,9 @@ it carries the three things that are deliberately unsettled.*
     repair, guardrail writing and compression drills.
   - **Ask Iro** — personal AI coach, chat and voice. Free: 10 questions then 1
     a day, forever. Pro: unlimited.
-  - **Custom Paths** — generate a path on any topic. Pro, **3 a day and 40 a
+  - **Custom Paths** — generate a path on any topic. Depth picker verified in
+  app source (DEPTH_LESSON_COUNT): **quick 3 / standard 5 / deep 7 lessons**,
+  plus a starting level (new-to-this → advanced). Pro, **3 a day and 40 a
     month**. Four intake lanes, verified against `extract-post` v9 (Aug 2026):
     a **topic you type**; a **link** — TikTok, YouTube, Reddit or **any web
     page**; **screenshots**, up to 4; or a **PDF** up to 10MB.
