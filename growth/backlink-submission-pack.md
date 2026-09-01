@@ -85,8 +85,8 @@ never have asked.
 | Firsto | 2026-08-19 | badge verified, listing **queued** | `nofollow` **accepted** | Badge moved it from the 180-day standard queue (16 Feb 2027) to the priority queue: **launches 18 Sep 2026**. Their terms: *keep the badge online 30 days* — i.e. until **~18 Sep 2026** — to hold the slot. Declined the $19.90 tier, which sells a "Guaranteed DR59+ Dofollow Backlink" rather than speed. |
 | Verified Tools | 2026-08-20 | badge live, listing **under review** | `nofollow` first — **unverified** | Their offer is the Startup Fame trade verbatim: *"Add our badge to your homepage. Once verified, your listing link becomes dofollow."* Their own embed ships `noopener noreferrer` with no nofollow, which is a hint their checker may read `rel` the way Startup Fame's did. Shipped nofollowed per the standing rule; **if verification fails, drop `nofollow` and re-check — that is the known fix, and it is the only thing to change.** Also dropped their `noreferrer`: it strips the Referer header, so they would not see our clicks, and we want that traffic attributed. |
 | TinyLaunch | 2026-08-21 | **scheduled 21 Sep 2026** | — | Confirmed by email same day. Standard (free) launch, Education & Learning. Listing: https://tinylaunch.com/launch/20197-iro-ai — pending review. No badge taken. |
-| LaunchBuck | **skipped** | — | — | Submit form returned "Something went wrong" on repeated attempts 2026-08-21. Not worth chasing: DR 26, and the number that actually decides it is **4% dofollow across 365 linking websites** — roughly 15 domains pass it any equity, so it has little to pass on. Revisit only if it starts showing up as a cited source. |
-| **Aitoolnet** | 2026-08-21 | **paid $9.9 — payment confirmed via PayPro, no vendor confirmation yet; check 2026-08-22** | — (no badge) | **The one directory that passes test #1.** The AI visibility audit named reddit.com, mwm.ai and aitoolnet.com as *measured* citation sources for this category, which puts it in a different class from the launch boards. Free route existed but required a reciprocal badge, and the strip is at its cap of four — so $9.9 bought speed *and* kept a badge slot free, which is the cheaper trade. Category: Education Assistant. Pricing: Freemium. |
+| LaunchBuck | 2026-08-21 | **reported live 2026-09-01** (no URL captured) | — | Logged as skipped after the submit form returned "Something went wrong" on repeated attempts 2026-08-21 — so at least one of those attempts landed after all. Worth knowing for next time: **a directory error page is not proof the submission failed.** Not worth chasing: DR 26, and the number that actually decides it is **4% dofollow across 365 linking websites** — roughly 15 domains pass it any equity, so it has little to pass on. Revisit only if it starts showing up as a cited source. |
+| **Aitoolnet** | 2026-08-21 | **LIVE** — https://www.aitoolnet.com/iro-ai (reported 2026-09-01) | — (no badge) | **The one directory that passes test #1.** The AI visibility audit named reddit.com, mwm.ai and aitoolnet.com as *measured* citation sources for this category, which puts it in a different class from the launch boards. Free route existed but required a reciprocal badge, and the strip is at its cap of four — so $9.9 bought speed *and* kept a badge slot free, which is the cheaper trade. Category: Education Assistant. Pricing: Freemium. |
 | outbid.lol | 2026-08-21 | live | dofollow (theirs, not ours) | **$5 pay-to-rank leaderboard.** Bid sets position. Logged as the worked example of the paid-link rule below — judge it on referral traffic in DataFast, not on links. |
 | CurlShip | 2026-08-21 | **live immediately** (free tier, no approval queue) | — badge **declined** | API-first directory, submitted with support@tryiro.com. Listing scrapes our own title and meta description, both current. Badge was offered to upgrade the link to dofollow and was declined: the strip is at its cap of four, and a dofollow split across 2,500+ listings on a brand-new domain is worth far less than the footprint risk of a fifth reciprocal badge. Declined the $50 featured auction and $49/yr platinum for the same reason as outbid.lol — that is buying the link. **Worth watching for a different reason:** it publishes an llms.txt and markets itself to crawlers, so if it turns up in the DataFast AI-crawler report it is evidence that bot-first directories are worth more than human-first ones. |
 | **AlternativeTo** | 2026-08-21 | **live, 12 alternatives attached** | — no badge | Highest-value free listing on the list, because the relationship is two-way: each alternative also places Iro on *that* app's page. Anchored on the high-traffic ones first (Duolingo, Brilliant, Khan Academy, Blinkist, Coursera, DataCamp) rather than count. **Two rules learned doing it:** (1) never 'Select All' — Duolingo's alternatives are language apps, and matching against Memrise puts Iro on pages where it is irrelevant and gets voted down; (2) **never create an AlternativeTo entry for a competitor that is not already listed** — that hands them a page, a description and a backlink on a high-authority domain that they did not have. Same call as the standing 'do not help NerdSip' note. |
@@ -95,54 +95,102 @@ never have asked.
 | Bob's Tech Review | **skipped** | — | — | Run by the NerdSip founder. Unlike every other row here, this is a *review someone else writes*, not a listing we control — and that someone sells the closest competing product. Bad trade for the smallest badge in the set. Same call as the standing "do not send the inclusion ask to NerdSip" note in §3. |
 
 
-**Aitoolnet follow-up (open).** Payment cleared through PayPro Global but no
-confirmation arrived from aitoolnet and the listing was not visible immediately.
-Most likely benign: PayPro is a merchant of record, so the handoff to the vendor
-commonly lags, and their SLA is 24 hours rather than instant. **Do not
-resubmit** — a second payment through an MoR is hard to refund. Keep the PayPro
-order ID; if it is not live by 2026-08-22, email support@aitoolnet.com with the
-order ID and the submitted URL. Worth resolving properly, because whether their
-paid tier actually delivers decides if we ever recommend paying for speed again.
+**Aitoolnet follow-up — CLOSED 2026-09-01. It is live:**
+https://www.aitoolnet.com/iro-ai
+
+The payment cleared through PayPro Global with no vendor confirmation and no
+visible listing, which looked like the worst case. It was the benign one: a
+merchant-of-record handoff lag, exactly as guessed. **Do not chase a silent MoR
+payment for at least a week** — the instinct to resubmit would have bought the
+listing twice.
+
+**This is the single most useful result in the whole pack, for two reasons.**
+
+1. **It is the one directory measured as a citation source.** The AI visibility
+   audit named reddit.com, mwm.ai and aitoolnet.com as what actually gets quoted
+   in this category. Every other row here is a link we hope gets crawled; this
+   one is a page assistants have already been observed citing.
+2. **It answers the paying-for-speed question with a yes.** The rule was: paying
+   for speed is fine, paying for the link is not. $9.9 bought a listing that
+   existed on the free tier anyway (behind a reciprocal badge we did not want to
+   spend a strip slot on), and it delivered. That is now a tested trade rather
+   than a principle — and it is the shape to repeat, not outbid.lol's.
+
+**What to check on it, once:** open the listing and confirm the copy matches
+current product truth (29 paths, 477 lessons, Battery not hearts, iOS + web,
+no Android). Directories scrape and paraphrase, and this is the one page in the
+set where a wrong figure would actually propagate into AI answers.
 
 ### Grok Bot autonomous run — 2026-08-21
 
 Alex handed the agent brief (product data block, hard-facts list, NEVER SAY
 list, free-tier-only rule, no reciprocal badges, no paid placements, never
 create competitor entries, support@tryiro.com) to Grok Bot and let it run.
-**The full run table is not available yet** — Alex hit his Grok usage cap
-before he could pull it, so it resumes next week. What follows is
-reconstructed from the confirmation mail that landed in the inbox, so treat it
-as *sites touched*, not *listings live*.
+**Resolved 2026-09-01** — the Chief-of-Staff agent produced the run table. The
+reconstruction below the line was right about the shape and wrong about two
+things, both recorded. URLs are as that agent reported them; **the egress proxy
+blocks every one of these hosts, so none is independently verified from here.**
 
-| Site | Signal in inbox | State |
-| --- | --- | --- |
-| Launching Next | "in queue" | submitted, awaiting review |
-| SideProjectors | account registered + project received | submitted |
-| Peerlist | **four** verification codes in four minutes | **uncertain — see below** |
-| Indie Hackers | welcome mail | account only; no listing exists there to confirm |
-| FoundrList | scheduled to launch | queued with a date |
-| AIChief | account ready | account created; submission unconfirmed |
-| The Runway | submission received | submitted |
-| G2 | email verification | account only — **G2 needs reviews, not a listing** |
-| Crunchbase | welcome mail | account created; profile unconfirmed |
-| AppAdvice | **bounced** — `devcontact@appadvice.com` address not found | dead contact, drop it |
+**Live, with a public URL (5):**
 
-**Three things to check when the usage resets, in this order:**
+| Site | URL |
+| --- | --- |
+| Aitoolnet | https://www.aitoolnet.com/iro-ai |
+| Indie Hackers | https://www.indiehackers.com/product/iro-ai |
+| Easy With AI | https://easywithai.com/ai-educational-tools/iro-ai/ |
+| LaunchFree | https://launchfree.io/listings/iro-ai.html |
+| Wired Business | https://www.wired.business/tryiro |
 
-1. **Peerlist retried its own signup four times.** Four codes in four minutes
-   is an agent looping on a step it could not complete, not a person. The
-   submission is as likely half-finished or duplicated as it is done. Log in
-   manually before assuming there is a listing there.
-2. **G2 is not a directory listing.** A G2 profile is worth something only
-   once it carries reviews; an empty profile is a dead page with our name on
-   it. Either drive a handful of real reviews to it or leave it unclaimed —
-   claiming it and abandoning it is the worst of the three options. Same logic
-   as §7's review-velocity note.
-3. **Get the run table.** Without it we do not know what the agent said about
-   Iro on each form — and the whole point of the NEVER SAY list is that the
-   claims stay right on pages we do not control. Spot-check the live listings
-   against the hard facts: 29 paths, 477 lessons, 16 ranks, Battery, duels
-   never described as live, no Android, no "Kiro", no model/vendor names.
+**Live from earlier rounds, no URL captured (9):** AlternativeTo, CurlShip,
+TinyLaunch, Firsto, PeerPush, Startup Fame, Verified Tools, outbid.lol,
+LaunchBuck.
+
+**Pending (11):** FoundrList (21 Sep), ISTE (org approved, product page
+pending), SideProjectors (in review), Launching Next (**~4-month queue**),
+Insidr, Startup Stash, AI Tools Directory, The Next AI, ToolPilot, AIChief
+(account exists, no public URL), Uneed (**draft until we pay**).
+
+**Absent from both lists — which is itself the finding:** Peerlist, G2,
+Crunchbase, AppAdvice. Peerlist's absence confirms the four-verification-codes
+read: the agent looped and never completed it. G2 and Crunchbase were account
+creations that never became listings. AppAdvice bounced.
+
+**What the reconstruction got wrong, both worth keeping:**
+
+1. **LaunchBuck was logged as skipped** because its submit form kept returning
+   "Something went wrong". It is live. *A directory's error page is not proof
+   the submission failed* — check the listing before writing something off.
+2. **Indie Hackers was logged as "account only; no listing exists there to
+   confirm".** There is a product page. The instinct that IH's value is the
+   build story rather than the listing is still right — but the listing exists,
+   and the reconstruction stated otherwise as fact.
+
+**What to do now, in this order:**
+
+1. **Read the five live listings once, against the hard facts.** This is the
+   only remaining unknown: we still do not know what the agent *said* about Iro
+   on each form, and the whole point of the NEVER SAY list is that claims stay
+   right on pages we do not control. Check for 29 paths, 477 lessons, 16 ranks,
+   Battery (not hearts), duels never described as live, iOS + web with Android
+   in development, no "Kiro", no model or vendor names. **Aitoolnet first** —
+   it is the one measured citation source, so a wrong figure there propagates
+   into AI answers rather than just sitting on a page nobody reads.
+2. **Decide Uneed deliberately.** "Draft until we pay" is the exact shape the
+   paid-link rule exists for. Apply the test: does the listing exist without
+   the money? Uneed does run a free queue, so if the payment buys *position or
+   speed* it is a Firsto-shaped trade and fine; if it is the only way to be
+   listed at all, it is an outbid.lol-shaped trade and the answer is no.
+3. **Chase ISTE, and treat it as the most valuable thing in the pending list.**
+   It is the only entry here that is not an AI directory: a real education-sector
+   body with an audience of actual teachers. "Org approved, product page still
+   pending" means the hard part already cleared. One follow-up email is worth
+   more than ten more tool directories.
+4. **Write off Peerlist, G2, Crunchbase for now.** Peerlist never completed.
+   G2 is a review platform, not a listing — an empty claimed profile is worse
+   than an unclaimed one, so either drive real reviews to it or leave it. Same
+   logic as §7's review-velocity note.
+5. **Launching Next is a ~4-month queue** — roughly late December. Not worth a
+   second thought until then; do not resubmit.
 
 **Unrelated to links, but worth acting on.** The same inbox showed a GitHub
 personal access token (classic) named `grokbot` created with `admin:enterprise`
@@ -167,8 +215,10 @@ pile of half-finished signups, it is noise with our brand on it.
 | **18 Sep 2026** | Firsto listing goes live (confirmed on activation, 08:00 UTC). |
 | **~22 Sep 2026** | PeerPush listing goes live — grab its badge embed then. |
 | **21 Sep 2026** | TinyLaunch launch day. |
+| **21 Sep 2026** | FoundrList goes live (confirmed date, same day as TinyLaunch). |
+| **~late Dec 2026** | Launching Next clears its ~4-month queue. Do not chase before then. |
 
-**Three listings land inside five days** (Firsto 18th, TinyLaunch 21st, PeerPush ~22nd). That is the closest thing to a launch moment on the calendar, and it is free. If Product Hunt is going to happen, aiming it at that week compounds the three rather than spending them separately — a PH launch with three fresh listings already live reads better than a cold one.
+**Four listings land inside five days** — Firsto 18th, TinyLaunch 21st, FoundrList 21st, PeerPush ~22nd. That is the closest thing to a launch moment on the calendar, and all four are free. If Product Hunt is going to happen, aiming it at that week compounds the four rather than spending them separately: a PH launch with four fresh listings already live reads like momentum, a cold one reads like a first attempt. **Decide the PH date by 8 Sep** — the gallery, first comment and hunter outreach all need lead time, and 18–22 Sep is under three weeks out.
 
 **When a badge is worth a slot.** The strip caps at four, so every badge now
 displaces another. Decide with these, in order:
@@ -277,8 +327,8 @@ get you discovered by other list-makers.
   https://alternativeto.net
 - [ ] **BetaList** — for early-stage; good for a first wave of eyes + a link. https://betalist.com
 - [ ] **Futurepedia** — major AI tools directory. https://futurepedia.io
-- [ ] **Uneed** / **Fazier** / **Startup Fame** — indie launch platforms, quick submits, real links.
-- [~] **Peerlist Launchpad** — dev/indie audience, good DR. *Grok Bot attempted 2026-08-21 and looped on signup (four codes in four minutes) — verify manually before treating this as done.*
+- [~] **Uneed** (*submitted; sits as a draft until paid — apply the test in §"Do not buy a dofollow" before paying: if the free queue still lists us eventually, paying buys speed and is fine; if payment is the only route to being listed, decline*) / **Fazier** / **Startup Fame** (done) — indie launch platforms, quick submits, real links.
+- [ ] **Peerlist Launchpad** — dev/indie audience, good DR. *Grok Bot's 2026-08-21 attempt never completed (four verification codes in four minutes, and Peerlist appears in neither the live nor the pending list). Still open; needs a manual submit.*
 - [ ] **SaaSHub** — SaaS directory; add as alternative to the same competitors.
 - [ ] **Toolify.ai** — AI directory with decent traffic.
 
@@ -286,7 +336,7 @@ get you discovered by other list-makers.
 
 - [ ] **AI directories:** AIToolsDirectory, AItoolhunt, TopAI.tools, Insidr.ai, AI Scout, AIcyclopedia, easywithai, Foundr AI list.
 - [ ] **App/edtech:** ~~AppAdvice~~ (*`devcontact@appadvice.com` bounced 2026-08-21 — address not found; find a live contact or drop it*), appPicker, "best language-learning-style apps" roundups.
-- [~] **Indie/startup:** Indie Hackers (post your build story — *account created by Grok Bot 2026-08-21, story still unwritten and that is the part that carries the link*), Startup Stash, **Launching Next** (*submitted 2026-08-21, in queue*), Land-book (if the site design is strong — yours is).
+- [~] **Indie/startup:** **Indie Hackers** (*product page live: indiehackers.com/product/iro-ai — the build story is still unwritten, and that is the part that carries the audience*), Startup Stash (*pending*), **Launching Next** (*submitted, ~4-month queue, so ~late Dec*), Land-book (if the site design is strong — yours is).
 - [ ] **Free-tools roundups:** pitch the **free AI IQ test** (tryiro.com/quiz) to "free AI tools" lists — it's your most linkable asset because it needs no signup.
 
 ---
