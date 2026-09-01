@@ -11,7 +11,7 @@
     "Tunable thinking levels (low, medium, high) are the part worth learning. You decide how much the model deliberates, which is a cost and latency dial as much as a quality one.",
     "If you use Gemini through the app rather than the API, the practical change is small. Prompting well still moves your results far more than the version number does."
   ],
-  "description": "Gemini 3.7 Flash's release date, introductory pricing, 1M-token context window and tunable thinking levels, plus whether the upgrade matters in the app.",
+  "description": "Gemini 3.7 Flash's release date, introductory pricing, 1M-token context window and tunable thinking levels, plus whether you'll notice it in the Gemini app.",
   "keywords": [
     "Gemini 3.7 Flash",
     "Gemini 3.7 Flash pricing",

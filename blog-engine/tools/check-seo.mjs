@@ -76,7 +76,7 @@ for (const p of pages) {
   }
 }
 
-// 3. Snippet lengths. Over-length titles and descriptions are truncated in the
+// 5. Snippet lengths. Over-length titles and descriptions are truncated in the
 //    SERP, so the promise the page paid for never reaches the searcher.
 for (const p of pages) {
   const s = fs.readFileSync(path.join(ROOT, p), 'utf8');
@@ -85,6 +85,29 @@ for (const p of pages) {
   const tag = (s.match(/<meta\b[^>]*>/g) || []).find((x) => /name="description"/.test(x));
   const c = tag && tag.match(/content="([^"]*)"/);
   if (c && norm(c[1]).length > 160) note(`DESC    ${p}: ${norm(c[1]).length} chars`);
+}
+
+// 4. Snippet claims. A meta description that names a product the page never
+//    mentions sends the searcher somewhere the page cannot deliver. Two of these
+//    shipped on 2026-09-01 ("Google Imagen" on a post covering Gemini; "NerdSip"
+//    on a roundup that omits it) and length checks structurally cannot see them.
+//    Heuristic: a capitalised word (or two-word pair) inside the description,
+//    never sentence-initial and never spanning a sentence boundary, must appear
+//    in the page's own visible text.
+const SNIPPET_STOP = new Set(['The','And','But','For','You','Your','Our','This','That','What','How','Why','When','Where','Which','Who','Plus','Free','Best','New','Real','Most','More','Every','Each','One','Two','Three','Here','Iro','English','Learn','Take','Find','Pick','Read','Use','Get','See','Ask','Try','Start','Also','Both','All','Some','Any','Full','Same','Own','Like','About','Into','Over','Under','Out','Per','Via','Compare','Looking','Forget','Architecture','Leverage']);
+for (const p of pages) {
+  const s = fs.readFileSync(path.join(ROOT, p), 'utf8');
+  const body = visible(s).toLowerCase();
+  const tag = (s.match(/<meta\b[^>]*>/g) || []).find((x) => /name="description"/.test(x));
+  const c = tag && tag.match(/content="([^"]*)"/);
+  if (!c) continue;
+  const d = norm(c[1]);
+  for (const m of d.matchAll(/(?:(?<=[a-z,] )|(?<=[a-z] ))([A-Z][A-Za-z0-9\u00b7]{2,}(?:\s[A-Z][A-Za-z0-9]{2,})?)/g)) {
+    const tok = m[1].trim();
+    if (tok.includes('-') || SNIPPET_STOP.has(tok) || SNIPPET_STOP.has(tok.split(' ')[0])) continue;
+    if (body.includes(tok.toLowerCase())) continue;
+    note(`SNIPPET ${p}: description names "${tok}", which does not appear on the page`);
+  }
 }
 
 console.log(`checked ${pages.length} pages, ${answers} FAQ answers`);
