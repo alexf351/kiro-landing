@@ -341,7 +341,17 @@ pointed the *identical* anchor at `/blog/ai-fluency` on 64 pages. Footer anchor
 differentiated to "AI fluency guides".
 
 **6. `ai-info.html` was a complete orphan** — the page we explicitly tell
-assistants to read had zero internal inbound links. Now linked from ~120 pages.
+assistants to read had zero internal inbound links. Fixed in the morning pass
+(shipped to `master`, deployed); it now resolves from ~120 pages via the ask-AI
+block. Everything else in this section is on the `claude/iro-site-polish-tk6qpi`
+branch and is **not deployed yet**.
+
+**7. The blog-to-paths bridge, measured.** Pages linking the `/paths` hub went
+from **55 to 178**, and real blog anchors into the 26 path pages went from
+**5 links reaching 4 paths** to **25 links reaching 12**. The remaining 14 are
+role pages (accountants, lawyers, recruiters) with no matching post yet — they
+need content written for them, not more links from posts that do not mention
+them.
 
 **Deliberately not changed.** `cleanUrls` in `vercel.json` would redirect
 `/faq.html` → `/faq` and kill the duplicate-200 problem, but it risks a
