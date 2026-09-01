@@ -390,7 +390,7 @@ function renderPost(post) {
       if (!label) {
         const f = path.join(ROOT, r.href.replace(/^\//, '') + '.html');
         const m = fs.readFileSync(f, 'utf8').match(/<title[^>]*>(.*?)<\/title>/s);
-        label = m ? m[1].replace(/\s*\|\s*Iro AI( Blog)?\s*$/i, '').split(/[:\u2014]/)[0].trim() : '';
+        label = m ? m[1].split('|')[0].split(/[:\u2014]/)[0].trim() : '';
       }
       if (!label) label = r.href.replace(/^\//, '').replace(/-/g, ' ');
       return `<li><a href="${r.href}">${esc(label)}</a></li>`;

@@ -10,7 +10,7 @@
     "Reported results: 83.3% on Terminal-Bench 2.1, 64.7% on SWE-Bench Pro, and 54 on the Artificial Analysis Intelligence Index — fourth place at launch, behind Claude Fable 5, GPT-5.5, and Claude Opus 4.8.",
     "Its real advantage is token efficiency: it reportedly uses 3–4x fewer tokens per task than the priciest rivals, which compounds the price gap in long agent runs."
   ],
-  "description": "Grok 4.5 explained: SpaceXAI's coding-focused model, released 8 July 2026. Pricing, Terminal-Bench and SWE-Bench Pro results, token efficiency, and when it beats more expensive models.",
+  "description": "Grok 4.5 explained: SpaceXAI's coding-focused model, released 8 July 2026. Pricing, Terminal-Bench and SWE-Bench Pro results, and token efficiency.",
   "keywords": [
     "Grok 4.5",
     "Grok 4.5 benchmarks",

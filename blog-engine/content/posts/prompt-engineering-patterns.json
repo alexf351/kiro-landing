@@ -19,8 +19,8 @@
     "prompt design"
   ],
   "datePublished": "2026-05-24",
-  "dateModified": "2026-06-01",
-  "readingTime": 9,
+  "dateModified": "2026-09-01",
+  "readingTime": 4,
   "articleSection": "AI fluency",
   "feedCategory": "Prompt engineering",
   "feedTags": [
@@ -137,7 +137,7 @@
     },
     {
       "q": "Which model handles these patterns best?",
-      "a": "All four major assistants (ChatGPT, Claude, Gemini, Perplexity) respond well to all seven patterns. Claude tends to be best at Self-critique. Perplexity is best at Verify-then-trust because it's built for grounded answers."
+      "a": "All four major assistants (ChatGPT, Claude, Gemini, Perplexity) respond well to all seven patterns. Claude tends to be best at Self-critique. Perplexity is best at Verify-then-trust because it's built for grounded answers. The models behind those names change every few months; our <a href=\"/blog/new-ai-models-2026\">2026 model tracker</a> follows each major release and what it's currently best at."
     },
     {
       "q": "How do I know which patterns to combine for a given task?",
@@ -159,6 +159,7 @@
     "/blog/what-is-ai-fluency",
     "/blog/what-is-prompt-engineering",
     "/ai-prompts",
-    "/blog/is-prompt-engineering-dead"
+    "/blog/is-prompt-engineering-dead",
+    "/blog/new-ai-models-2026"
   ]
 }

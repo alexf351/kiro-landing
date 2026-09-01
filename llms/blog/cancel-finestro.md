@@ -108,7 +108,7 @@ The billing, since that is what brought you here: free to start with a battery t
 
 If you would rather spend nothing at all right now, the [AI rank quiz](/quiz) is ten questions and about two minutes, with no signup and no card. For the full field including the free options, see [the best Finestro alternatives](/blog/finestro-alternatives) and [how Coursiv, Finestro and Learnova compare](/blog/coursiv-vs-finestro-vs-learnova).
 
-What you actually get, so you can compare like for like: **29 learning paths, 477 lessons and 3,000+ hands-on exercises across 24 exercise types**. The Prompt Lab sends your prompts to a live model and grades them, Ask Iro coaches by chat or voice, and duels, an Image Lab, Custom Paths and claimable certificates sit around it. Every path is open free, paced by a battery giving you a full lesson a day, so nothing here needs a card to evaluate.
+What you actually get, so you can compare like for like: **29 learning paths, 477 lessons and 3,000+ hands-on exercises across 24 exercise types**. The Prompt Lab sends your prompts to a live model and grades them, Ask Iro coaches by chat or voice, and duels, an Image Lab, Custom Paths and claimable certificates sit around it. Every path is [open on the free plan](/free-ai-learning-app), paced by a battery giving you a full lesson a day, so nothing here needs a card to evaluate.
 
 Third-party prices and ratings here are US figures at the time of writing and change without notice. Last reviewed August 2026.
 

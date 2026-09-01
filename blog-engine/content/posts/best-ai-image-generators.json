@@ -65,7 +65,7 @@
     {
       "id": "tools",
       "heading": "The tools, one by one",
-      "html": "<ul><li><strong>Midjourney</strong>: the go-to for striking, artistic images and fine style control.</li><li><strong>ChatGPT (DALL·E)</strong>: the easiest entry point. Describe an image in chat and get it, then refine conversationally.</li><li><strong>Gemini</strong>: quick image generation with Google's multimodal models and a generous free tier.</li><li><strong>Adobe Firefly</strong>: designed for commercial-safe output and built into Adobe's creative apps.</li><li><strong>Stable Diffusion</strong>: open and highly controllable; can run free on your own hardware.</li><li><strong>Ideogram</strong>: notably good at rendering readable text inside images.</li></ul>"
+      "html": "<ul><li><strong>Midjourney</strong>: the go-to for striking, artistic images and fine style control. Its prompt-and-parameter syntax rewards a little study; see <a href=\"/learn-midjourney\">learning Midjourney</a> for prompts, parameters, and style.</li><li><strong>ChatGPT (DALL·E)</strong>: the easiest entry point. Describe an image in chat and get it, then refine conversationally.</li><li><strong>Gemini</strong>: quick image generation with Google's multimodal models and a generous free tier.</li><li><strong>Adobe Firefly</strong>: designed for commercial-safe output and built into Adobe's creative apps.</li><li><strong>Stable Diffusion</strong>: open and highly controllable; can run free on your own hardware.</li><li><strong>Ideogram</strong>: notably good at rendering readable text inside images.</li></ul>"
     },
     {
       "id": "prompt",

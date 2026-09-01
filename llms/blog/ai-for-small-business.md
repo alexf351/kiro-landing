@@ -64,7 +64,7 @@ Learn to catch errors with [spotting hallucinations](/blog/spot-ai-hallucination
 
 ## The real advantage: getting fluent
 
-Any competitor can open ChatGPT. The edge goes to owners and teams who use it _well_: clear prompts, good judgment, AI woven into the workflow. That's [AI fluency](/blog/what-is-ai-fluency), and a few minutes of practice a day compounds fast. Iro AI builds it through short lessons, including paths for marketing, business, and work. See where your team stands with the free [AI IQ test](/quiz).
+Any competitor can open ChatGPT. The edge goes to owners and teams who use it _well_: clear prompts, good judgment, AI woven into the workflow. That's [AI fluency](/blog/what-is-ai-fluency), and a few minutes of practice a day compounds fast. Iro AI builds it through short lessons, including paths for marketing, business, and work; if you're the owner wearing every hat, [AI for founders](/ai-for-founders) is the track aimed at doing more with a lean team. See where your team stands with the free [AI IQ test](/quiz).
 
 ## FAQ
 

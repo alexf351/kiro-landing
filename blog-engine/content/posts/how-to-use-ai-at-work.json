@@ -20,8 +20,8 @@
     "AI productivity at work"
   ],
   "datePublished": "2026-06-04",
-  "dateModified": "2026-06-04",
-  "readingTime": 7,
+  "dateModified": "2026-09-01",
+  "readingTime": 5,
   "articleSection": "AI fluency",
   "feedCategory": "AI fluency",
   "feedTags": [
@@ -61,7 +61,7 @@
     {
       "id": "tasks",
       "heading": "The best tasks to use AI for at work",
-      "html": "<p>These deliver value fast with low risk, across almost any role:</p><ul><li><strong>Drafting:</strong> emails, summaries, outlines, first drafts of documents. AI is excellent at beating the blank page.</li><li><strong>Summarizing:</strong> condensing long threads, reports, or meeting notes into the key points.</li><li><strong>Brainstorming:</strong> generating options, angles, names, and counterarguments to react to.</li><li><strong>Research (first pass):</strong> getting oriented on a topic quickly, then verifying with sources (a tool like <a href=\"/learn-perplexity\">Perplexity</a> shows citations).</li><li><strong>Reformatting:</strong> turning messy notes into a clean table, agenda, or checklist.</li></ul><p>Hold AI back from high-stakes, final decisions and anything where a confident wrong answer would be costly, until you've verified it.</p>"
+      "html": "<p>These deliver value fast with low risk, across almost any role:</p><ul><li><strong>Drafting:</strong> emails, summaries, outlines, first drafts of documents. AI is excellent at beating the blank page. Try: <em>\"Draft a 120-word email to a client explaining the deliverable slips one week. Include the new date, one plain sentence on why, and no groveling.\"</em> More workflows like this in <a href=\"/ai-productivity\">AI productivity</a>.</li><li><strong>Summarizing:</strong> condensing long threads, reports, or meeting notes into the key points (see <a href=\"/ai-for-meetings\">AI for meetings</a> for the notes-to-action-items workflow). Try: <em>\"Summarize this thread in five bullets: decisions made, open questions, and who owes what by when.\"</em></li><li><strong>Brainstorming:</strong> generating options, angles, names, and counterarguments to react to. Try: <em>\"Give me 10 names for an internal training program: five safe, five unexpected. Then pick your top two and argue for them.\"</em></li><li><strong>Research (first pass):</strong> getting oriented on a topic quickly, then verifying with sources (a tool like <a href=\"/learn-perplexity\">Perplexity</a> shows citations). Try: <em>\"I'm new to [topic]. Explain the five concepts I need first, where experts disagree, and what to read next.\"</em></li><li><strong>Reformatting:</strong> turning messy notes into a clean table, agenda, or checklist. Try: <em>\"Turn these notes into a table with columns for task, owner, and deadline, and flag anything that has no owner.\"</em> The same trick extends to spreadsheets: writing and explaining formulas, cleaning imported data. See <a href=\"/ai-for-excel\">AI for Excel</a>.</li></ul><p>Hold AI back from high-stakes, final decisions and anything where a confident wrong answer would be costly, until you've verified it.</p>"
     },
     {
       "id": "responsibly",
@@ -71,12 +71,12 @@
     {
       "id": "better",
       "heading": "How to get better results at work",
-      "html": "<p>If the output is mediocre, the fix is almost always more context, not a fancier prompt. Tell the model who it's for, what you're trying to achieve, and the format you want, then refine the first draft. Give it an example of \"good\" when you can.</p><p>That habit (context, format, iterate) is the core of <a href=\"/blog/what-is-prompt-engineering\">prompt engineering</a>, and it works across ChatGPT, Claude, and Gemini. The <a href=\"/blog/chatgpt-prompts-for-beginners\">beginner prompt templates</a> are a good place to start for common work tasks.</p>"
+      "html": "<p>If the output is mediocre, the fix is almost always more context, not a fancier prompt. Tell the model who it's for, what you're trying to achieve, and the format you want, then refine the first draft. Give it an example of \"good\" when you can.</p><p>That habit (context, format, iterate) is the core of <a href=\"/blog/what-is-prompt-engineering\">prompt engineering</a>, and it works across ChatGPT, Claude, and Gemini. The <a href=\"/blog/chatgpt-prompts-for-beginners\">beginner prompt templates</a> are a good place to start for common work tasks.</p><h3>What if your company gives you Copilot?</h3><p>Same rules, different wrapper. Copilot in Microsoft 365 is a chat model wired into Word, Excel, and Outlook, so everything in this guide still applies: give it context, verify what it produces, and treat data with the same care, because being inside Office doesn't exempt a document from your company's policy. The upside is that it can already see the file you're working in, which solves half the context problem for you. If it's the tool on your desktop, learn its quirks — our guide to <a href=\"/blog/how-to-use-microsoft-copilot\">how to use Microsoft Copilot</a> explains the two very different products that share the name and how to prompt each one. Gemini fills the same role inside Google Workspace, and the same three rules carry over unchanged.</p>"
     },
     {
       "id": "habit",
       "heading": "Build the habit (a few minutes a day)",
-      "html": "<p>Using AI at work becomes second nature the same way any skill does: short, daily, real practice. Pick one task a day to run through AI, notice what worked, and adjust. In two to three weeks it stops being a novelty and becomes part of how you work. That's <a href=\"/blog/what-is-ai-fluency\">AI fluency</a>.</p><p>If you want a structured path tailored to your role (marketing, finance, management, and more), Iro AI turns these habits into five-minute daily exercises with feedback. See <a href=\"/ai-for-work\">AI for work</a> or check where you stand with the free <a href=\"/quiz\">AI IQ test</a>.</p>"
+      "html": "<p>Using AI at work becomes second nature the same way any skill does: short, daily, real practice. Pick one task a day to run through AI, notice what worked, and adjust. In two to three weeks it stops being a novelty and becomes part of how you work. That's <a href=\"/blog/what-is-ai-fluency\">AI fluency</a>.</p><p>If you want a structured path tailored to your role (marketing, finance, management, and more), Iro AI turns these habits into five-minute daily exercises with feedback. See <a href=\"/ai-for-work\">AI for work</a>, compare options in our guide to the <a href=\"/blog/ai-learning-app-for-professionals\">best AI learning app for professionals</a>, or check where you stand with the free <a href=\"/quiz\">AI IQ test</a>.</p>"
     }
   ],
   "readNext": [

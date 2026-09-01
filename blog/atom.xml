@@ -5,7 +5,7 @@
   <link rel="self" href="https://tryiro.com/blog/atom.xml" type="application/atom+xml"/>
   <link rel="alternate" href="https://tryiro.com/blog" type="text/html"/>
   <id>https://tryiro.com/blog/atom.xml</id>
-  <updated>2026-08-21T00:00:00Z</updated>
+  <updated>2026-09-01T00:00:00Z</updated>
   <rights>© 2026 Iro AI</rights>
   <author><name>Iro AI</name><uri>https://tryiro.com</uri></author>
   <icon>https://tryiro.com/assets/favicon-64.png</icon>
@@ -24,7 +24,7 @@
     <title>The 7 prompt patterns that work everywhere</title>
     <id>https://tryiro.com/blog/prompt-engineering-patterns</id>
     <link href="https://tryiro.com/blog/prompt-engineering-patterns"/>
-    <updated>2026-06-01T00:00:00Z</updated>
+    <updated>2026-09-01T00:00:00Z</updated>
     <published>2026-05-24T00:00:00Z</published>
     <author><name>Iro AI</name></author>
     <category term="Prompt engineering"/>
@@ -44,7 +44,7 @@
     <title>AI agents, explained without the jargon</title>
     <id>https://tryiro.com/blog/ai-agents-explained</id>
     <link href="https://tryiro.com/blog/ai-agents-explained"/>
-    <updated>2026-06-01T00:00:00Z</updated>
+    <updated>2026-09-01T00:00:00Z</updated>
     <published>2026-05-24T00:00:00Z</published>
     <author><name>Iro AI</name></author>
     <category term="AI agents"/>
@@ -94,7 +94,7 @@
     <title>AI automation for beginners: 5 things to automate this week</title>
     <id>https://tryiro.com/blog/ai-automation-for-beginners</id>
     <link href="https://tryiro.com/blog/ai-automation-for-beginners"/>
-    <updated>2026-06-01T00:00:00Z</updated>
+    <updated>2026-09-01T00:00:00Z</updated>
     <published>2026-05-31T00:00:00Z</published>
     <author><name>Iro AI</name></author>
     <category term="AI automation"/>
@@ -244,7 +244,7 @@
     <title>How to use AI at work (a practical guide for 2026)</title>
     <id>https://tryiro.com/blog/how-to-use-ai-at-work</id>
     <link href="https://tryiro.com/blog/how-to-use-ai-at-work"/>
-    <updated>2026-06-04T00:00:00Z</updated>
+    <updated>2026-09-01T00:00:00Z</updated>
     <published>2026-06-04T00:00:00Z</published>
     <author><name>Iro AI</name></author>
     <category term="AI fluency"/>

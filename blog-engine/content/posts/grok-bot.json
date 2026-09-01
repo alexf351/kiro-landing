@@ -11,7 +11,7 @@
     "Cursor tiers grant access because SpaceX now owns both. It acquired xAI, rebranded to SpaceXAI, then agreed to buy Cursor's parent Anysphere.",
     "The real cost is trust: a Bot that signs in to your accounts holds your session, so the scoping decisions are yours to make before you delegate."
   ],
-  "description": "Grok Bot, SpaceXAI's always-on AI agents, explained: what each Bot does, how it differs from a chatbot, which subscriptions include the beta, what it costs, and what to weigh before giving one your logins.",
+  "description": "Grok Bot, SpaceXAI's always-on AI agents, explained: what each Bot does, how it differs from a chatbot, which subscriptions include the beta, what it costs.",
   "askAi": true,
   "askAiPrompt": "What is SpaceXAI's Grok Bot, how does it differ from a normal AI chatbot, and what should I know before letting an AI agent sign in to my work tools?",
   "keywords": [

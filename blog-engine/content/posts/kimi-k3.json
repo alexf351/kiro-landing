@@ -10,7 +10,7 @@
     "The API is the realistic route at $3 per million input tokens and $15 per million output — cheaper than most frontier models, with $0.30 per million on cache hits.",
     "Treat the benchmarks carefully: as of the weights release, essentially every published K3 result is vendor-run in Moonshot's own environment, with independent evaluation still pending."
   ],
-  "description": "Kimi K3 explained: Moonshot AI's 2.8-trillion-parameter open-weight model, released 27 July 2026. Architecture, benchmarks, API pricing, and the hardware reality of running it locally.",
+  "description": "Kimi K3 explained: Moonshot AI's 2.8-trillion-parameter open-weight model, released 27 July 2026. Architecture, benchmarks, API pricing, running it locally.",
   "keywords": [
     "Kimi K3",
     "Kimi K3 open weights",

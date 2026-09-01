@@ -7,8 +7,8 @@ app_store: "https://apps.apple.com/app/id6759628066"
 language: en-US
 keywords: ["prompt engineering", "prompt patterns", "ChatGPT prompts", "Claude prompts", "prompt design"]
 date_published: "2026-05-24"
-date_modified: "2026-06-01"
-reading_time_minutes: 9
+date_modified: "2026-09-01"
+reading_time_minutes: 4
 author: "Alex Furukawa"
 license: "© 2026 Iro AI"
 canonical_llm_reference: "https://tryiro.com/llms-full.txt"
@@ -21,8 +21,8 @@ pillar: "prompt-engineering"
 
 **Canonical:** https://tryiro.com/blog/prompt-engineering-patterns
 **Published:** 2026-05-24
-**Updated:** 2026-06-01
-**Reading time:** ~9 min
+**Updated:** 2026-09-01
+**Reading time:** ~4 min
 **Author:** Alex Furukawa — Founder of Iro AI
 
 ## Key takeaways
@@ -113,7 +113,7 @@ System prompts use the same patterns. A good system prompt is mostly Role + Cons
 
 **Which model handles these patterns best?**
 
-All four major assistants (ChatGPT, Claude, Gemini, Perplexity) respond well to all seven patterns. Claude tends to be best at Self-critique. Perplexity is best at Verify-then-trust because it's built for grounded answers.
+All four major assistants (ChatGPT, Claude, Gemini, Perplexity) respond well to all seven patterns. Claude tends to be best at Self-critique. Perplexity is best at Verify-then-trust because it's built for grounded answers. The models behind those names change every few months; our 2026 model tracker follows each major release and what it's currently best at.
 
 **How do I know which patterns to combine for a given task?**
 

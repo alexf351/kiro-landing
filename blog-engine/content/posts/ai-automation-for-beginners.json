@@ -5,12 +5,12 @@
   "title": "AI automation for beginners: 5 things to automate this week",
   "lede": "No code, no agents: just five repetitive tasks you can hand to AI starting today.",
   "keyTakeaways": [
-    "AI automation chains AI steps into a workflow that runs with little or no human input, turning a 30-minute task into a one-click one.",
+    "AI automation chains AI steps into a workflow that runs with little or no human input, turning a 30-minute task into a two-minute review.",
     "Start by automating boring, repeatable work: email drafting, summarizing, data cleanup, and report generation.",
-    "You do not need to code: tools like ChatGPT, Zapier, and Make let beginners build useful automations in an afternoon.",
+    "You do not need to code: a reusable prompt in a tool like ChatGPT covers most of this, and trigger-based tools like Zapier and Make take over once a routine has proven itself.",
     "The highest-ROI first automation is usually the task you do most often and dislike most."
   ],
-  "description": "A beginner's guide to AI automation: five high-value, no-code tasks you can automate this week, plus how to tell when a simple workflow beats a fancy AI agent.",
+  "description": "A beginner's guide to AI automation: five high-value, no-code tasks you can automate this week, with copy-paste prompts, plus when to graduate to Zapier or Make and when a simple workflow beats a fancy AI agent.",
   "keywords": [
     "AI automation for beginners",
     "no-code AI automation",
@@ -19,8 +19,8 @@
     "what to automate with AI"
   ],
   "datePublished": "2026-05-31",
-  "dateModified": "2026-06-01",
-  "readingTime": 7,
+  "dateModified": "2026-09-01",
+  "readingTime": 5,
   "articleSection": "AI fluency",
   "feedCategory": "AI automation",
   "feedTags": [
@@ -62,6 +62,10 @@
       "label": "5. Meeting notes"
     },
     {
+      "href": "#graduate",
+      "label": "Graduating to Zapier/Make"
+    },
+    {
       "href": "#agent-or-workflow",
       "label": "Agent or workflow?"
     }
@@ -70,37 +74,42 @@
     {
       "id": "what-counts",
       "heading": "What \"AI automation\" actually means",
-      "html": "<p>Automation does not have to mean building software. For most people it means handing a repetitive, rule-ish task to AI so you stop doing it by hand. No agents, no scripts to start: just a clear prompt you reuse, or a built-in AI feature in a tool you already have.</p><p>The skill is noticing which tasks repeat. Here are five worth automating this week.</p>"
+      "html": "<p>Automation does not have to mean building software. For most people it means handing a repetitive, rule-ish task to AI so you stop doing it by hand. No agents, no scripts to start: just a clear prompt you reuse, or a built-in AI feature in a tool you already have.</p><p>The skill is noticing which tasks repeat. Each section below gives you a prompt to steal: run it a few times, tweak the wording until the output needs almost no editing, then save it somewhere you can paste from in two seconds. That saved prompt <em>is</em> the automation. Here are five worth building this week.</p>"
     },
     {
       "id": "email",
       "heading": "1. Inbox triage and replies",
-      "html": "<p>Paste a long email or thread and ask AI to summarise it, flag what needs a decision, and draft a reply in your tone. You review and send. Ten minutes of email becomes two — and nothing important gets buried.</p>"
+      "html": "<p>Paste a long email or thread and ask AI to summarize it, flag what needs a decision, and draft a reply in your tone. The machine does the reading; you do the judgment, then send.</p><p>Prompt to steal:</p><p><em>\"Summarize this thread in three bullets, flag anything that needs a decision from me, and draft a reply in my usual tone — direct but friendly: [paste thread]\"</em></p><p>For a typical morning inbox, ten minutes of reading and dithering becomes two of reviewing — and the thing that actually needed a decision stops getting buried under newsletters.</p>"
     },
     {
       "id": "research",
       "heading": "2. Research summaries",
-      "html": "<p>Instead of reading five articles, drop the links or text into a grounded tool and ask for a one-paragraph summary with the key claims and any disagreements. Use <a href=\"/learn-perplexity\">Perplexity</a> when you need sources you can click, and always <a href=\"/blog/spot-ai-hallucinations\">verify the facts</a> before you rely on them.</p>"
+      "html": "<p>Instead of reading five articles end to end, drop the links or text into a grounded tool and ask for a summary of each with the key claims and any disagreements. Use <a href=\"/learn-perplexity\">Perplexity</a> when you need sources you can click, and always <a href=\"/blog/spot-ai-hallucinations\">verify the facts</a> before you rely on them.</p><p>Prompt to steal:</p><p><em>\"Summarize each of these in one paragraph, list the key claims, and flag anywhere they disagree with each other: [paste links or text]\"</em></p><p>An hour of tab-hopping typically becomes ten minutes of reading summaries. You still open the one source that really matters — but now you know which one it is, and why.</p>"
     },
     {
       "id": "data",
       "heading": "3. Data cleanup and formatting",
-      "html": "<p>Messy list, inconsistent dates, a table that needs reshaping? AI is great at \"here is the data, return it in exactly this format.\" Specify the output precisely and it does the tedious part in seconds. Paste the result straight into your sheet.</p>"
+      "html": "<p>Messy list, inconsistent dates, a table that needs reshaping? AI is great at \"here is the data, return it in exactly this format.\" The trick is specifying the output precisely — column names, date format, what to do with duplicates — so there is nothing left for it to interpret.</p><p>Prompt to steal:</p><p><em>\"Reformat this as a table with columns Name, Company, Email, Date (YYYY-MM-DD). Merge obvious duplicates, and list any rows you were unsure about at the end: [paste data]\"</em></p><p>That last clause matters: asking the AI to flag its own uncertain rows turns a blind paste into a quick review. Twenty minutes of hand-fixing typically becomes two of checking the flagged rows before they go into your sheet.</p>"
     },
     {
       "id": "content",
       "heading": "4. Repurposing content",
-      "html": "<p>One piece of content can become five. Turn a blog post into a thread, an email, and three captions with a single structured prompt. Give it the source, the target format, and the tone, and let it do the reshaping.</p>"
+      "html": "<p>One piece of content can become five. Turn a blog post into a thread, an email, and three captions with a single structured prompt: give it the source, the target formats, and the tone, and let it do the reshaping.</p><p>Prompt to steal:</p><p><em>\"Turn this post into (1) a LinkedIn post under 150 words, (2) a plain-text email to my list, and (3) three short social captions. Keep my tone, and don't add claims that aren't in the original: [paste post]\"</em></p><p>Treat the drafts as 80% versions to edit, not finished copy — the voice needs your pass. Still, an afternoon of rewriting the same ideas typically becomes half an hour of editing.</p>"
     },
     {
       "id": "meetings",
       "heading": "5. Meeting notes into action items",
-      "html": "<p>Paste a transcript and ask for a summary, the decisions made, and a list of action items with owners. The notes write themselves, and nothing falls through the cracks.</p>"
+      "html": "<p>Paste a transcript and ask for a summary, the decisions made, and a list of action items with owners. The notes write themselves while the meeting is still fresh, and nothing falls through the cracks.</p><p>Prompt to steal:</p><p><em>\"From this transcript, give me a five-bullet summary, every decision that was made, and action items formatted as 'owner — task — deadline'. Mark any item where the owner or deadline was unclear: [paste transcript]\"</em></p><p>The fifteen minutes of write-up after a typical call drops to two: correcting a misheard name, confirming the unclear owners it flagged, and sending.</p>"
+    },
+    {
+      "id": "graduate",
+      "heading": "When to graduate to Zapier or Make",
+      "html": "<p>Everything above still needs you to paste something in. Tools like <strong>Zapier</strong> and <strong>Make</strong> remove that step: they watch for a trigger — a new email, a form response, a fresh row in a sheet — and run your workflow on that event or on a schedule, with an AI step in the middle if you want one. No pasting, no remembering to do it.</p><p>Graduate a task only after the manual version has proven its worth: you have run the same prompt on the same kind of input for a couple of weeks, you rarely edit the output, and a mistake would be cheap to catch. Wiring a trigger to a routine you haven't stabilized just produces errors faster, and further from your eyes. When one of your five pastes becomes boringly reliable, that is the one to hand to a trigger.</p>"
     },
     {
       "id": "agent-or-workflow",
       "heading": "Agent or workflow? (don't overcomplicate)",
-      "html": "<p>You will be tempted to reach for an \"AI agent\" for all of this. Usually you should not. If a task follows a fixed recipe (and all five above do), a simple, reusable prompt or workflow is more reliable than an agent that decides its own steps. Agents earn their complexity only when the path cannot be predicted in advance. We unpack exactly when in <a href=\"/blog/ai-agents-explained\">AI agents, explained without the jargon</a>.</p><p>Want to build the judgment for this hands-on? Iro AI's <a href=\"/ai-automation-course\">automation</a> and <a href=\"/ai-agents-course\">AI agents</a> paths turn these decisions into 5-minute exercises.</p>"
+      "html": "<p>You will be tempted to reach for an \"AI agent\" for all of this. Usually you should not. If a task follows a fixed recipe (and all five above do), a simple, reusable prompt or workflow is more reliable than an agent that decides its own steps — <a href=\"/blog/ai-agents-vs-automation\">AI agents vs. automation</a> draws that line precisely. Agents earn their complexity only when the path cannot be predicted in advance; for what that looks like in practice, see <a href=\"/blog/what-is-agentic-ai\">what agentic AI actually means</a> and <a href=\"/blog/ai-agents-explained\">AI agents, explained without the jargon</a>.</p><p>Want to build the judgment for this hands-on? Iro AI's <a href=\"/ai-automation-course\">automation</a> and <a href=\"/ai-agents-course\">AI agents</a> paths turn these decisions into 5-minute exercises.</p>"
     }
   ],
   "readNext": [
@@ -141,6 +150,8 @@
   ],
   "related": [
     "/blog/ai-agents-explained",
+    "/blog/ai-agents-vs-automation",
+    "/blog/what-is-agentic-ai",
     "/blog/best-free-ai-tools-2026",
     "/blog/prompt-engineering-patterns",
     "/ai-automation-course",

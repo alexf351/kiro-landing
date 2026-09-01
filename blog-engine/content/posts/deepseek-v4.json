@@ -10,7 +10,7 @@
     "'1.6 trillion parameters' does not mean you can run it. Only 49B are active per token, but you still need all 1.6T in memory, which is a server-rack problem rather than a laptop one.",
     "If you are not self-hosting, the practical benefit is indirect: open weights push the whole market's prices down and give you an exit if a vendor changes terms. That is worth understanding even if you never download anything."
   ],
-  "description": "DeepSeek V4 explained without the hype: the real parameter counts, what MIT-licensed open weights let you do, why you probably still cannot run it, and what it changes for people who just use AI apps.",
+  "description": "DeepSeek V4 explained without the hype: the real parameter counts, what MIT-licensed open weights let you do, and why you probably still cannot run it.",
   "keywords": [
     "DeepSeek V4",
     "DeepSeek V4 Pro",

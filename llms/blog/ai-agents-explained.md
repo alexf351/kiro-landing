@@ -7,8 +7,8 @@ app_store: "https://apps.apple.com/app/id6759628066"
 language: en-US
 keywords: ["AI agents", "LLM agents", "agent workflows", "AI automation", "autonomous AI"]
 date_published: "2026-05-24"
-date_modified: "2026-06-01"
-reading_time_minutes: 8
+date_modified: "2026-09-01"
+reading_time_minutes: 4
 author: "Alex Furukawa"
 license: "© 2026 Iro AI"
 canonical_llm_reference: "https://tryiro.com/llms-full.txt"
@@ -21,8 +21,8 @@ pillar: "ai-agents"
 
 **Canonical:** https://tryiro.com/blog/ai-agents-explained
 **Published:** 2026-05-24
-**Updated:** 2026-06-01
-**Reading time:** ~8 min
+**Updated:** 2026-09-01
+**Reading time:** ~4 min
 **Author:** Alex Furukawa — Founder of Iro AI
 
 ## Key takeaways
@@ -39,6 +39,8 @@ An AI agent is a system that pursues a goal across multiple steps, usually by ca
 Stripped of marketing, an agent is: a loop that calls a language model, the model decides what to do next, executes something (search, read a file, send an email, run code), reads the result, decides the next step, and so on until it's done.
 
 Everything else ("autonomous," "agentic," "reasoning") is decoration. The core is: model + tools + loop + termination condition.
+
+Two of those parts are less bespoke than they sound. The model swaps out as the frontier moves (we track [every major 2026 release](/blog/new-ai-models-2026)), and the tools half has largely standardized: in practice, most 2026 agents reach their tools through the [Model Context Protocol](/blog/what-is-mcp), an open standard that lets one agent connect to many tools without a custom integration for each pair.
 
 ## Workflow vs agent vs assistant
 
@@ -107,6 +109,7 @@ Track three things: task completion rate, average steps to completion, and the r
 
 ## Read next
 
+- [What is agentic AI? Agents explained simply (2026)](https://tryiro.com/blog/what-is-agentic-ai)
 - [How to spot AI hallucinations in 5 seconds](https://tryiro.com/blog/spot-ai-hallucinations)
 - [The 7 prompt patterns that work everywhere](https://tryiro.com/blog/prompt-engineering-patterns)
 - [AI agents in Iro AI](https://tryiro.com/ai-agents-course)

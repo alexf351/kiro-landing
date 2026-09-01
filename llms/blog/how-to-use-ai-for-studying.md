@@ -41,7 +41,7 @@ Think of it as the world's most patient tutor: available at 2am, never judges yo
 
 - **Explain a concept until it clicks.** Ask it to explain something "like I'm new to it," with an analogy and an example. Then ask follow-ups until there are no gaps. Re-explaining on demand is where AI beats a textbook.
 - **Quiz yourself.** Have it ask you questions one at a time, increasing in difficulty, and explain why each answer is right or wrong. Active recall is one of the most proven ways to make things stick.
-- **Summarize and organize your notes.** Paste messy notes and ask for a clean summary, a concept map, or the five things most likely to be tested.
+- **Summarize and organize your notes.** Paste messy notes and ask for a clean summary, a concept map, or the five things most likely to be tested. The same moves work on whole readings and PDFs; see [how to use AI to summarize a document](/blog/how-to-use-ai-to-summarize-a-document).
 - **Build a study plan.** Give it your deadline and goal and have it produce a day-by-day plan with short daily tasks and self-tests.
 - **Generate practice problems.** Ask for extra practice questions in the style of your exam, then have it grade your attempts and show the working.
 
@@ -59,7 +59,7 @@ The failure mode is letting AI think for you. A few rules that keep you honest:
 
 For most studying, the free tier of [ChatGPT](/learn-chatgpt) or [Claude](/learn-claude) is more than enough. You rarely need to pay to learn. ChatGPT is the most versatile all-rounder; Claude is excellent for working through long readings and explaining them carefully. For research where you need sources, [Perplexity](/learn-perplexity) cites its references, which makes verification easier.
 
-Don't overthink the choice. Pick one, build the habit, and switch only if it stops serving you. (Curious which fits you? [ChatGPT vs Claude](/blog/chatgpt-vs-claude) breaks it down.)
+Don't overthink the choice. Pick one, build the habit, and switch only if it stops serving you. (Curious which fits you? [ChatGPT vs Claude](/blog/chatgpt-vs-claude) breaks it down, and [the best AI tools for students](/blog/best-ai-tools-for-students) covers the fuller shortlist.)
 
 ## Study prompts to steal
 
@@ -70,7 +70,7 @@ Copy these straight into any AI tool and swap in your topic:
 - _"I have [X days] to learn [topic] for [exam]. Build a day-by-day plan with a 30-minute task and a self-test each day."_
 - _"I'll explain [concept] in my own words. Point out exactly where I'm wrong or fuzzy, then give the corrected version."_
 
-Want more? The [free AI prompt library](/ai-prompts) has a whole section of learning prompts. And if you want to get genuinely good at directing AI (the skill behind all of this), that's exactly what [Iro AI](/quiz) trains.
+Want more? The [free AI prompt library](/ai-prompts) has a whole section of learning prompts, and [these 15 ChatGPT prompts for beginners](/blog/chatgpt-prompts-for-beginners) are a gentle way in if prompting still feels awkward. And if you want to get genuinely good at directing AI (the skill behind all of this), that's exactly what [Iro AI](/quiz) trains.
 
 ## FAQ
 

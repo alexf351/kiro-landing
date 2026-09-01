@@ -19,8 +19,8 @@
     "autonomous AI"
   ],
   "datePublished": "2026-05-24",
-  "dateModified": "2026-06-01",
-  "readingTime": 8,
+  "dateModified": "2026-09-01",
+  "readingTime": 4,
   "articleSection": "AI fluency",
   "feedCategory": "AI agents",
   "feedTags": [
@@ -53,7 +53,7 @@
     {
       "id": "definition",
       "heading": "The plain definition",
-      "html": "<p>An AI agent is a system that pursues a goal across multiple steps, usually by calling tools or APIs along the way. That's it.</p><p>Stripped of marketing, an agent is: a loop that calls a language model, the model decides what to do next, executes something (search, read a file, send an email, run code), reads the result, decides the next step, and so on until it's done.</p><p>Everything else (\"autonomous,\" \"agentic,\" \"reasoning\") is decoration. The core is: model + tools + loop + termination condition.</p>"
+      "html": "<p>An AI agent is a system that pursues a goal across multiple steps, usually by calling tools or APIs along the way. That's it.</p><p>Stripped of marketing, an agent is: a loop that calls a language model, the model decides what to do next, executes something (search, read a file, send an email, run code), reads the result, decides the next step, and so on until it's done.</p><p>Everything else (\"autonomous,\" \"agentic,\" \"reasoning\") is decoration. The core is: model + tools + loop + termination condition.</p><p>Two of those parts are less bespoke than they sound. The model swaps out as the frontier moves (we track <a href=\"/blog/new-ai-models-2026\">every major 2026 release</a>), and the tools half has largely standardized: in practice, most 2026 agents reach their tools through the <a href=\"/blog/what-is-mcp\">Model Context Protocol</a>, an open standard that lets one agent connect to many tools without a custom integration for each pair.</p>"
     },
     {
       "id": "categories",
@@ -77,6 +77,10 @@
     }
   ],
   "readNext": [
+    {
+      "href": "/blog/what-is-agentic-ai",
+      "label": "What is agentic AI? Agents explained simply (2026)"
+    },
     {
       "href": "/blog/spot-ai-hallucinations",
       "label": "How to spot AI hallucinations in 5 seconds"
@@ -117,6 +121,9 @@
     "/ai-automation-course",
     "/vibe-coding-course",
     "/learn-claude",
+    "/blog/what-is-agentic-ai",
+    "/blog/what-is-mcp",
+    "/blog/new-ai-models-2026",
     "/blog/spot-ai-hallucinations",
     "/blog/prompt-engineering-patterns",
     "/blog/how-to-learn-chatgpt-in-2026",

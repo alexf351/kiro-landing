@@ -48,6 +48,26 @@
       "label": "Full AI tools comparison"
     },
     {
+      "href": "/learn-copilot",
+      "label": "Microsoft Copilot course"
+    },
+    {
+      "href": "/learn-midjourney",
+      "label": "Midjourney course"
+    },
+    {
+      "href": "/learn-cursor",
+      "label": "Cursor course"
+    },
+    {
+      "href": "/learn-notebooklm",
+      "label": "NotebookLM course"
+    },
+    {
+      "href": "/paths",
+      "label": "All 29 learning paths"
+    },
+    {
       "href": "/quiz",
       "label": "Free AI IQ test"
     }

@@ -10,7 +10,7 @@
     "Every lab now ships tiers instead of one model (Luna/Terra/Sol at OpenAI, effort settings at Anthropic) so choosing the right tier now matters more than choosing the right lab.",
     "Benchmark leaderboards reshuffle within weeks. The skill that transfers between models (prompting, judgment, knowing when to verify) is worth more than tracking any single release."
   ],
-  "description": "Every major AI model release in 2026: Claude Opus 5, Claude Fable 5, GPT-5.6 (Luna, Terra, Sol), Grok 4.5, and Meta Muse Spark. Release dates, pricing, benchmarks, and which model to actually use.",
+  "description": "Every major AI model release in 2026: Claude Opus 5, Claude Fable 5, GPT-5.6 (Luna, Terra, Sol), Grok 4.5 and Meta Muse Spark — dates, pricing, benchmarks.",
   "keywords": [
     "new AI models 2026",
     "AI model releases",

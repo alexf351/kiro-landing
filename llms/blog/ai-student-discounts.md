@@ -74,7 +74,9 @@ If you want a practical setup with no spend:
 
 One caution worth stating, because student AI use is where it bites hardest: none of these tools are reliable on facts, and the confident tone is not evidence. Anything going into graded work needs verification against a real source. The skill that separates students who benefit from AI from students who get burned by it is not tool access; it is knowing which outputs to trust and which to check.
 
-That skill is also the one that transfers after graduation, when nobody is offering you a discount at all.
+That skill fits the $0 stack too: Iro's [free AI learning app](/free-ai-learning-app) tier opens every lesson, paced to one full lesson a day, with no card required.
+
+And it is the one thing here that transfers after graduation, when nobody is offering you a discount at all.
 
 ## FAQ
 

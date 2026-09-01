@@ -1,6 +1,6 @@
 # Iro AI — index of LLM-readable resources
 # https://tryiro.com/llms-index.txt
-# Last updated: 2026-08-30
+# Last updated: 2026-08-18
 #
 # This file lists every machine-readable / LLM-friendly resource on
 # tryiro.com so that AI assistants, answer engines, and crawlers can
@@ -37,7 +37,7 @@ french homepage             https://tryiro.com/fr
 german homepage             https://tryiro.com/de
 
 ## Markdown mirrors (LLM-friendly clean text)
-# 59 page mirrors, generated — see blog-engine/build-llms-index.mjs
+# 60 page mirrors, generated — see blog-engine/build-llms-index.mjs
 about iro ai                  https://tryiro.com/llms/about.md
 ai agents course              https://tryiro.com/llms/ai-agents-course.md
 ai automation course          https://tryiro.com/llms/ai-automation-course.md
@@ -77,6 +77,7 @@ duolingo for ai               https://tryiro.com/llms/duolingo-for-ai.md
 iro ai faq                    https://tryiro.com/llms/faq.md
 free app to learn ai          https://tryiro.com/llms/free-ai-learning-app.md
 iro ai glossary               https://tryiro.com/llms/glossary.md
+how to learn ai               https://tryiro.com/llms/how-to-learn-ai.md
 iro ai                        https://tryiro.com/llms/index.md
 iro ai vs video courses       https://tryiro.com/llms/iro-ai-vs-video-courses.md
 is learning ai worth it       https://tryiro.com/llms/is-learning-ai-worth-it.md

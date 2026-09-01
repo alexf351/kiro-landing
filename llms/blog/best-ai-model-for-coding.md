@@ -36,7 +36,7 @@ pillar: "ai-tools"
 
 **For most developers in 2026: Claude Opus 5 is the best default, GPT-5.6 Sol is the pick for long-horizon agent work, Claude Fable 5 for the hardest problems, and Grok 4.5 when cost per task is the constraint.** Opus 5 took the top spot on Artificial Analysis's Agentic Index at 55.3, just ahead of GPT-5.6 Sol at 54.0, while costing $5/$25 per million tokens.
 
-Note that this is a separate decision from [which coding tool you use](/blog/best-ai-coding-tools). Cursor, Copilot, and most modern editors now let you choose the model behind the interface, so you pick a tool for its workflow and a model for its strengths, and you can change either independently.
+Note that this is a separate decision from [which coding tool you use](/blog/best-ai-coding-tools). [Cursor](/learn-cursor), Copilot, and most modern editors now let you choose the model behind the interface, so you pick a tool for its workflow and a model for its strengths, and you can change either independently.
 
 Benchmark figures reflect published results as of 27 July 2026. Positions in this category change faster than in any other.
 
@@ -90,7 +90,7 @@ The skills that actually separate people getting value from AI coding tools from
 - **Knowing when not to.** Some problems are faster to solve directly than to specify precisely enough for a model to get right.
 - **Verifying behaviour, not appearance.** Running it, testing edge cases, checking the failure paths, the parts a confident-sounding explanation can paper over.
 
-None of that changes when the leaderboard reshuffles next month. That is the argument for treating AI as a skill you practise deliberately rather than a tool you simply adopt.
+None of that changes when the leaderboard reshuffles next month. That is the argument for treating AI as a skill you practise deliberately rather than a tool you simply adopt — the kind of practice [AI for developers](/ai-for-developers) and the [vibe coding course](/vibe-coding-course) are built around.
 
 ## FAQ
 

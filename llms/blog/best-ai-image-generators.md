@@ -53,7 +53,7 @@ Capabilities and pricing change fast. Check each tool. Last reviewed June 2026.
 
 ## The tools, one by one
 
-- **Midjourney**: the go-to for striking, artistic images and fine style control.
+- **Midjourney**: the go-to for striking, artistic images and fine style control. Its prompt-and-parameter syntax rewards a little study; see [learning Midjourney](/learn-midjourney) for prompts, parameters, and style.
 - **ChatGPT (DALL·E)**: the easiest entry point. Describe an image in chat and get it, then refine conversationally.
 - **Gemini**: quick image generation with Google's multimodal models and a generous free tier.
 - **Adobe Firefly**: designed for commercial-safe output and built into Adobe's creative apps.

@@ -68,7 +68,7 @@ The line is simple: **use AI to learn, not to submit.** Having AI explain a proo
 
 ## The real edge: learning to use AI well
 
-Here's the part that outlasts any single class: employers increasingly expect graduates who can use AI effectively. The students who win aren't the ones who let AI do their homework. They're the ones who build genuine [AI fluency](/blog/what-is-ai-fluency): prompting well, judging output, and applying it to real work. Iro AI builds that in five-minute daily lessons. See where you stand with the free [AI IQ test](/quiz).
+Here's the part that outlasts any single class: employers increasingly expect graduates who can use AI effectively. The students who win aren't the ones who let AI do their homework. They're the ones who build genuine [AI fluency](/blog/what-is-ai-fluency): prompting well, judging output, and applying it to real work. Iro AI builds that in five-minute daily lessons; the [AI for students](/ai-for-students) page shows how it fits around coursework. See where you stand with the free [AI IQ test](/quiz).
 
 ## FAQ
 

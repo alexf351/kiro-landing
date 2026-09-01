@@ -10,7 +10,7 @@
     "LLMs are strong at language tasks but can be confidently wrong (hallucinate), so you should verify anything that matters.",
     "You don't need to understand the math to use LLMs well: getting good at them is a prompting-and-judgment skill."
   ],
-  "description": "What is an LLM? A large language model is an AI trained on text to predict the next word. Here's how LLMs work, examples, what they're bad at, and how to use them well, in plain English.",
+  "description": "What is an LLM? A large language model is an AI trained on text to predict the next word. How LLMs work, examples, and what they're bad at, in plain English.",
   "keywords": [
     "what is an LLM",
     "large language model",
