@@ -85,7 +85,7 @@ never have asked.
 | Firsto | 2026-08-19 | badge verified, listing **queued** | `nofollow` **accepted** | Badge moved it from the 180-day standard queue (16 Feb 2027) to the priority queue: **launches 18 Sep 2026**. Their terms: *keep the badge online 30 days* — i.e. until **~18 Sep 2026** — to hold the slot. Declined the $19.90 tier, which sells a "Guaranteed DR59+ Dofollow Backlink" rather than speed. |
 | Verified Tools | 2026-08-20 | badge live, listing **under review** | `nofollow` first — **unverified** | Their offer is the Startup Fame trade verbatim: *"Add our badge to your homepage. Once verified, your listing link becomes dofollow."* Their own embed ships `noopener noreferrer` with no nofollow, which is a hint their checker may read `rel` the way Startup Fame's did. Shipped nofollowed per the standing rule; **if verification fails, drop `nofollow` and re-check — that is the known fix, and it is the only thing to change.** Also dropped their `noreferrer`: it strips the Referer header, so they would not see our clicks, and we want that traffic attributed. |
 | TinyLaunch | 2026-08-21 | **scheduled 21 Sep 2026** | — | Confirmed by email same day. Standard (free) launch, Education & Learning. Listing: https://tinylaunch.com/launch/20197-iro-ai — pending review. No badge taken. |
-| LaunchBuck | 2026-08-21 | **reported live 2026-09-01** (no URL captured) | — | Logged as skipped after the submit form returned "Something went wrong" on repeated attempts 2026-08-21 — so at least one of those attempts landed after all. Worth knowing for next time: **a directory error page is not proof the submission failed.** Not worth chasing: DR 26, and the number that actually decides it is **4% dofollow across 365 linking websites** — roughly 15 domains pass it any equity, so it has little to pass on. Revisit only if it starts showing up as a cited source. |
+| LaunchBuck | 2026-08-21 | **NOT live** — `/p/iro-ai` 404s (audited 2026-09-01, correcting the round-2 report) | — | Logged as skipped after the submit form returned "Something went wrong" on repeated attempts 2026-08-21 — so at least one of those attempts landed after all. Worth knowing for next time: **a directory error page is not proof the submission failed.** Not worth chasing: DR 26, and the number that actually decides it is **4% dofollow across 365 linking websites** — roughly 15 domains pass it any equity, so it has little to pass on. Revisit only if it starts showing up as a cited source. |
 | **Aitoolnet** | 2026-08-21 | **LIVE** — https://www.aitoolnet.com/iro-ai (reported 2026-09-01) | — (no badge) | **The one directory that passes test #1.** The AI visibility audit named reddit.com, mwm.ai and aitoolnet.com as *measured* citation sources for this category, which puts it in a different class from the launch boards. Free route existed but required a reciprocal badge, and the strip is at its cap of four — so $9.9 bought speed *and* kept a badge slot free, which is the cheaper trade. Category: Education Assistant. Pricing: Freemium. |
 | outbid.lol | 2026-08-21 | live | dofollow (theirs, not ours) | **$5 pay-to-rank leaderboard.** Bid sets position. Logged as the worked example of the paid-link rule below — judge it on referral traffic in DataFast, not on links. |
 | CurlShip | 2026-08-21 | **live immediately** (free tier, no approval queue) | — badge **declined** | API-first directory, submitted with support@tryiro.com. Listing scrapes our own title and meta description, both current. Badge was offered to upgrade the link to dofollow and was declined: the strip is at its cap of four, and a dofollow split across 2,500+ listings on a brand-new domain is worth far less than the footprint risk of a fifth reciprocal badge. Declined the $50 featured auction and $49/yr platinum for the same reason as outbid.lol — that is buying the link. **Worth watching for a different reason:** it publishes an llms.txt and markets itself to crawlers, so if it turns up in the DataFast AI-crawler report it is evidence that bot-first directories are worth more than human-first ones. |
@@ -285,6 +285,67 @@ pack where a submission can produce a *negative* public artifact.
 themselves.** Iro teaching a teacher to use AI is a straightforward,
 defensible pitch that sidesteps the under-13 question entirely — and AASL and
 TeachersFirst both serve educators directly, not just classrooms.
+
+### Grok Bot round 3 — the audit, 2026-09-01
+
+The audit round, and the most valuable of the three. Two headline results.
+
+**1. Four listings we recorded as live were never live.**
+
+| Site | What the audit found |
+| --- | --- |
+| AlternativeTo | Search empty, `/software/iro-ai` returns 404. **Alex did this work personally and saw 12 alternatives attached**, so the likely explanation is moderation — AlternativeTo reviews new entries and can reject them. Needs Alex to log in and check status, not a resubmit. |
+| Verified Tools | Not live. **And we are displaying their badge on the homepage right now**, hotlinked from their domain. See below. |
+| outbid.lol | Site returned HTTP 429 (rate-limited), so this is *could not verify*, not *not live*. We paid $5 for it. Check manually. |
+| LaunchBuck | `/p/iro-ai` 404s. My 2026-09-01 entry above logged it as live from the round-2 report — **that was wrong and is corrected here.** |
+
+**The Verified Tools badge is the urgent one.** The deal was: display their
+badge, and once verified the listing link becomes dofollow. If there is no
+listing, we are giving an outbound link plus a third-party image request on the
+homepage and receiving nothing. **Click the badge on tryiro.com — five seconds.
+If it 404s, pull the badge.** It also frees a slot in a strip capped at four.
+
+**2. Seven of the eleven listings that ARE live carry wrong copy.**
+
+Two were fixed by the agent (**Wired Business**, **TinyLaunch**). Seven need a
+human because every dashboard login was blocked by anti-bot measures — Turnstile,
+Google OAuth, a failed magic link. That is the tooling working as designed, not
+an agent failure.
+
+| Site | Wrong | Fix route |
+| --- | --- | --- |
+| **AIToolNet** | 7-day trial shown on monthly; Custom Paths uncapped; duels not labelled simulated. **Wrong in 7 languages** (zh, zh-TW, ko, ja, ru, fr, es). | No CMS. Emailed support@aitoolnet.com |
+| **EdTech Impact** | iOS-only, pricing "not provided by vendor", missing web app / Battery / 29-477-3,000+ / 16 ranks. **Lists "1-100 customers" — a number we never supplied.** | **my.edtechimpact.com** → Profile → Information → Save and Publish |
+| Firsto | 2,700+ exercises, live duels, trial on monthly, Custom Paths uncapped | Dashboard, else contact@firsto.co |
+| PeerPush | Live duels, 2,700+, **six ranks**, $4.17 only, wrong handle (@nbakix) | Login @afur351, else support@peerpush.com |
+| Startup Fame | Live duels, 2,700+, six ranks, Custom Paths uncapped | Dashboard, else hello@startupfa.me |
+| Easy With AI | Custom Paths uncapped, no Pro price | Emailed admin@easywithai.com |
+| LaunchFree | Trial not annual-only; **logo file is `kiro-app-icon-512.png`** | Emailed hello@launchfree.io |
+
+**The pattern in the errors is one thing repeated: these are all snapshots of
+the old product.** "2,700+ exercises", "six ranks", live duels, uncapped Custom
+Paths — that is the pre-August product. Directories scrape once at submission
+and never refresh. Every listing is a photograph of the day it was submitted,
+so **the copy has to be right at submission time; there is no cheap fix
+afterwards.** That is now the strongest argument for the pre-submission fact
+check, and against submitting in volume.
+
+**3. The .edu vein opened.** Fourteen university library guides, teaching
+centres and higher-ed trackers contacted, all `.edu` or EDUCAUSE, each with a
+named librarian or an actual suggestion form — Ithaka S+R's GenAI Product
+Tracker, EDUCAUSE Library, and LibGuides at SUNY Oswego, UVA, Baylor, Chapman,
+Montgomery College, Miami, LSU, Vanderbilt, Yale Poorvu, Fresno State, UF and
+The Chicago School.
+
+**Do not scale this before measuring it.** Fourteen personalised emails to
+named librarians is outreach; a hundred is spam, and it would put
+support@tryiro.com at risk. **Wait for reply rates on these fourteen before
+sending any more.** If two or three land, the pitch works and the channel is
+worth real investment. If zero land in two weeks, the pitch is wrong and
+sending more of it just burns the list.
+
+Also correctly declined: Tech & Learning ($625), Common Sense reviews (paused),
+EdSurge (turned out to be ISTE, already done).
 
 ### Dates to keep
 
