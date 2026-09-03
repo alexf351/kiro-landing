@@ -83,7 +83,7 @@ never have asked.
 | Startup Fame | 2026-08-19 | yes | `noopener` only | verifier rejected nofollow |
 | PeerPush | 2026-08-19 | **queued** | — | free queue, ~34 days, est. **2026-09-22**. Paid skip was $39; declined, since the paid delta is speed + videos + analytics, not the link. Their own modal says "Every plan includes: Permanent listing link." |
 | Firsto | 2026-08-19 | badge verified, listing **queued** | `nofollow` **accepted** | Badge moved it from the 180-day standard queue (16 Feb 2027) to the priority queue: **launches 18 Sep 2026**. Their terms: *keep the badge online 30 days* — i.e. until **~18 Sep 2026** — to hold the slot. Declined the $19.90 tier, which sells a "Guaranteed DR59+ Dofollow Backlink" rather than speed. |
-| Verified Tools | 2026-08-20 | badge live, listing **under review** | `nofollow` first — **unverified** | Their offer is the Startup Fame trade verbatim: *"Add our badge to your homepage. Once verified, your listing link becomes dofollow."* Their own embed ships `noopener noreferrer` with no nofollow, which is a hint their checker may read `rel` the way Startup Fame's did. Shipped nofollowed per the standing rule; **if verification fails, drop `nofollow` and re-check — that is the known fix, and it is the only thing to change.** Also dropped their `noreferrer`: it strips the Referer header, so they would not see our clicks, and we want that traffic attributed. |
+| Verified Tools | 2026-08-20 | **listing never appeared — badge REMOVED 2026-09-01** | — | **The one trade in this pack that ran at a loss, and the clearest lesson in it.** We displayed their badge for ~12 days against `verifiedtools.info/tools/iro-ai`, which does not exist: it soft-404s to their homepage. So the link we were giving was not even a dead link to a subpage &mdash; it was a live link to their **root domain**, the most valuable target a directory can receive, plus a hotlinked image request on our homepage. We got nothing. **And the badge was never needed:** their own homepage reads "Submit your tool &mdash; free, with a dofollow backlink." The badge-for-dofollow trade they offered was for something already free. **Rule from this: verify the listing URL resolves to an actual listing BEFORE the badge goes up, and re-check it a week later.** A badge is an outbound homepage link; it is the most expensive thing we give anyone, and it was running against nothing. If the listing is still wanted, submit through their free form &mdash; no badge. |
 | TinyLaunch | 2026-08-21 | **scheduled 21 Sep 2026** | — | Confirmed by email same day. Standard (free) launch, Education & Learning. Listing: https://tinylaunch.com/launch/20197-iro-ai — pending review. No badge taken. |
 | LaunchBuck | 2026-08-21 | **NOT live** — `/p/iro-ai` 404s (audited 2026-09-01, correcting the round-2 report) | — | Logged as skipped after the submit form returned "Something went wrong" on repeated attempts 2026-08-21 — so at least one of those attempts landed after all. Worth knowing for next time: **a directory error page is not proof the submission failed.** Not worth chasing: DR 26, and the number that actually decides it is **4% dofollow across 365 linking websites** — roughly 15 domains pass it any equity, so it has little to pass on. Revisit only if it starts showing up as a cited source. |
 | **Aitoolnet** | 2026-08-21 | **LIVE** — https://www.aitoolnet.com/iro-ai (reported 2026-09-01) | — (no badge) | **The one directory that passes test #1.** The AI visibility audit named reddit.com, mwm.ai and aitoolnet.com as *measured* citation sources for this category, which puts it in a different class from the launch boards. Free route existed but required a reciprocal badge, and the strip is at its cap of four — so $9.9 bought speed *and* kept a badge slot free, which is the cheaper trade. Category: Education Assistant. Pricing: Freemium. |
@@ -414,20 +414,25 @@ is mostly selling the link. Declined both.
 into `width`/`height` attributes** — inline styles outrank the stylesheet and
 break the row's uniform 44px height. Firsto's embed did exactly this.
 
-**The strip is now at its cap of four.** Live: Wired Business, Startup Fame,
-Firsto, Verified Tools. That means PeerPush (~22 Sep) and Product Hunt are no
-longer additions — each one is a **swap**, and the swap has to be decided
-rather than defaulted.
+**The strip now holds three, not four.** Live: Wired Business, Startup Fame,
+Firsto. Verified Tools was removed 2026-09-01 when its listing turned out never
+to have existed, which **frees one slot** — so the next badge (PeerPush ~22 Sep,
+or Product Hunt) is an addition rather than a swap. The slot after that is a
+swap again, decided by the order below.
 
 Order to remove from, worst first, when a slot is needed:
 
 1. **Startup Fame** — the only badge we ship dofollow, because its verifier
    rejected nofollow. It is the one actually passing equity out of the
    homepage, so it costs the most to keep.
-2. **Verified Tools** — newest and least proven; drop it if it never verifies.
+2. ~~**Verified Tools**~~ — *removed 2026-09-01; the listing never existed.
+   The "drop it if it never verifies" line was right, and it took twelve days
+   to act on because nobody clicked the badge.*
 3. **Wired Business** — nofollow accepted, so it is cheap to keep.
 4. **Firsto** — contractually pinned until ~18 Sep. Not removable before then
-   without forfeiting the priority slot.
+   without forfeiting the priority slot. **Note: its listing currently carries
+   wrong copy** (2,700+ exercises, live duels) — a badge pointing at a listing
+   that misdescribes the product is worth less than one pointing at nothing.
 
 Product Hunt displaces whichever sits highest on that list when it launches.
 
