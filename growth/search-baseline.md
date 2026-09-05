@@ -495,6 +495,39 @@ being read.
 
 ---
 
+## Domain Rating trend
+
+| Date | DR | Note |
+| --- | --- | --- |
+| 2026-08-18 | **0.4** | baseline, effectively zero |
+| 2026-08-21 | **2.8** | first badge/directory wave landing |
+| 2026-09-01 | **4** | second wave |
+
+Real movement, and the trajectory is right. Three things keep it honest.
+
+**1. It happened with fewer real links than we had logged.** The round-3 audit
+found that four entries recorded as live were not: AlternativeTo, Verified
+Tools, LaunchBuck, and probably outbid.lol. So DR climbed 0.4 → 4 while our
+actual link count was lower than the tracker said. Either the listings that did
+land are doing more work than assumed, or the scraper propagation is — and the
+3%-dofollow-of-518-domains caveat from 21 Aug still stands.
+
+**2. The curve gets much steeper from here.** Ahrefs DR is logarithmic. 0 → 4
+is the cheapest stretch on the whole scale; 4 → 8 costs far more than the first
+four did, and 8 → 15 more again. **Do not read this rate as a trend line.** The
+directory channel that produced it is largely spent — the good ones are done and
+the audit showed the rest are long-tail.
+
+**3. DR is a proxy, and the outcome it proxies has not moved yet.** Google does
+not read Ahrefs DR; it is one vendor's model of link-graph strength. The number
+that matters is average position, still **32.7** at last measure. DR climbing
+tenfold while position sits still is itself informative: **links were not the
+only bottleneck.** If they had been, position would be tracking DR.
+
+That is the argument for the GSC Queries export over more directory work. DR is
+the thing we can see; position is the thing that pays. Right now we are
+optimising the visible one because it is the only one we have data for.
+
 ## MEASURED — Ahrefs, 2026-08-21
 
 First movement on domain authority since tracking began.
