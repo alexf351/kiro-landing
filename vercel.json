@@ -728,6 +728,10 @@
       "destination": "/editorial-policy.html"
     },
     {
+      "source": "/for-educators",
+      "destination": "/for-educators.html"
+    },
+    {
       "source": "/blog/how-to-learn-chatgpt-in-2026",
       "destination": "/blog/how-to-learn-chatgpt-in-2026.html"
     },
@@ -1326,6 +1330,10 @@
     {
       "source": "/blog/best-learning-apps",
       "destination": "/blog/best-learning-apps.html"
+    },
+    {
+      "source": "/blog/teach-ai-literacy-high-school",
+      "destination": "/blog/teach-ai-literacy-high-school.html"
     }
   ]
 }

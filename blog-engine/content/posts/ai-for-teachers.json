@@ -4,14 +4,15 @@
   "pillar": "ai-fluency",
   "title": "AI for teachers: practical, responsible ways to use it in 2026",
   "metaTitle": "AI for teachers: practical ways to use it in 2026",
-  "lede": "Teachers can use AI to cut prep time on lesson plans, feedback, and differentiation — freeing hours for actual teaching. Here are the highest-value uses and how to use it responsibly with students.",
+  "lede": "Teachers can cut hours of prep with AI — lesson plans, feedback, differentiation — without handing over judgment. Here are the highest-value uses with the prompts that make them work, the data rules that keep you safe, and how to handle students using it too.",
   "keyTakeaways": [
-    "AI can save teachers hours on lesson planning, drafting feedback, differentiating materials, and creating quizzes: time that goes back to teaching.",
-    "Always review AI output for accuracy and tone, and never put student personal data into tools your school hasn't approved.",
-    "Teach students to use AI honestly and critically. AI literacy is now part of preparing them for work and life.",
-    "Start with one repetitive prep task this week and expand from there."
+    "AI is good at first drafts of things you can evaluate quickly. If you would have to research the answer to check it, that is the wrong task to delegate.",
+    "Differentiation is the highest-leverage use and the most underused, because doing it by hand is genuinely slow.",
+    "Never paste identifying student details into an unapproved tool. Describing the situation without the name gets you the same quality of help.",
+    "AI detectors are not reliable enough to accuse a student — they produce false positives and flag non-native English writers at higher rates.",
+    "Keep the prompts that work. A prompt that produced a usable differentiated reading will do it again all year."
   ],
-  "description": "Practical, responsible ways teachers can use AI for lesson planning, feedback, differentiation and quizzes, plus how to handle student data and integrity.",
+  "description": "Practical ways teachers can use AI for lesson planning, feedback and differentiation, with copy-paste prompts, the student-data rules, and how to teach AI use.",
   "keywords": [
     "AI for teachers",
     "how teachers can use AI",
@@ -20,8 +21,8 @@
     "AI for lesson planning"
   ],
   "datePublished": "2026-06-11",
-  "dateModified": "2026-06-11",
-  "readingTime": 7,
+  "dateModified": "2026-09-01",
+  "readingTime": 6,
   "articleSection": "AI fluency",
   "feedCategory": "AI fluency",
   "feedTags": [
@@ -29,7 +30,7 @@
     "education",
     "teachers"
   ],
-  "inlineCtaAfter": 2,
+  "inlineCtaAfter": 3,
   "toc": [
     {
       "href": "#answer",
@@ -56,30 +57,34 @@
     {
       "id": "answer",
       "heading": "How can teachers use AI?",
-      "html": "<p><strong>Teachers can use AI to cut hours of prep (drafting lesson plans, feedback, differentiated materials, and quizzes) so more time goes to actual teaching.</strong> Used well, AI is a tireless teaching assistant for the repetitive parts of the job. Used carelessly, it produces generic or wrong material and raises real privacy questions. The difference is judgment: you stay the expert, AI handles the first draft.</p>"
+      "html": "<p><strong>Teachers can use AI to cut hours of prep &mdash; drafting lesson plans, feedback, differentiated materials and quizzes &mdash; so more time goes to actual teaching.</strong> Used well, AI is a tireless teaching assistant for the repetitive parts of the job. Used carelessly, it produces generic or wrong material and raises real privacy questions. The difference is judgment: you stay the expert, AI handles the first draft.</p><p>The framing that makes this practical: <strong>AI is good at first drafts of things you can evaluate quickly.</strong> You can tell in ten seconds whether a generated quiz question is any good, because you know your subject and your students. That is exactly the shape of task worth delegating. Anything you would have to research to check is the wrong place to start.</p>"
     },
     {
       "id": "uses",
       "heading": "The highest-value uses for teachers",
-      "html": "<ul><li><strong>Lesson planning:</strong> generate a plan, objectives, and activities for a topic and grade level, then adapt.</li><li><strong>Differentiation:</strong> rewrite the same material at three reading levels, or for an IEP need.</li><li><strong>Feedback:</strong> draft constructive comments you then personalize (on work you've read).</li><li><strong>Assessment:</strong> create quizzes, rubrics, and discussion questions in seconds.</li><li><strong>Communication:</strong> draft parent emails and newsletters.</li></ul><p>For the general playbook, see <a href=\"/blog/how-to-use-ai-at-work\">how to use AI at work</a>.</p>"
+      "html": "<p>Five uses cover most of the value. Each prompt below is a starting point &mdash; the specifics you add are what make the output usable.</p><ul><li><p><strong>Lesson planning.</strong> Generate a plan, objectives and activities for a topic and grade level, then adapt.<br/><em>\"Draft a 50-minute lesson plan on [topic] for [grade]. Include a warm-up, direct instruction, a paired activity and an exit ticket. Assume no prior knowledge of [concept]. List the materials needed.\"</em></p></li><li><p><strong>Differentiation.</strong> This is the highest-leverage use and the one most teachers underuse, because doing it by hand is genuinely slow.<br/><em>\"Rewrite this passage at three reading levels: two years below grade, at grade, and for a student who finds it too easy. Keep the same key vocabulary in all three.\"</em></p></li><li><p><strong>Feedback.</strong> Draft constructive comments you then personalise &mdash; on work you have actually read.<br/><em>\"Here are three strengths and two weaknesses I noticed in a student essay: [notes]. Draft warm, specific feedback in about 120 words, addressed to a Year 10 student, ending with one concrete next step.\"</em></p></li><li><p><strong>Assessment.</strong> Quizzes, rubrics and discussion questions in seconds.<br/><em>\"Write 8 multiple-choice questions on [topic] for [grade]. Make the distractors reflect real misconceptions rather than obvious wrong answers. Mark the correct answer and explain each distractor.\"</em> The misconception instruction is what separates a usable quiz from a filler one.</p></li><li><p><strong>Communication.</strong> Parent emails, newsletters and the difficult message you have been putting off.<br/><em>\"Draft a short, warm email to a parent about [situation]. Non-judgmental tone, focus on the plan going forward, invite a conversation. No jargon.\"</em></p></li></ul><p>For the general playbook beyond teaching, see <a href=\"/blog/how-to-use-ai-at-work\">how to use AI at work</a>.</p>"
     },
     {
       "id": "responsible",
       "heading": "Using AI responsibly as a teacher",
-      "html": "<p>Three rules protect you and your students:</p><ul><li><strong>Verify everything.</strong> AI can be confidently wrong. Check facts, dates, and examples before they reach students. Learn to <a href=\"/blog/spot-ai-hallucinations\">spot hallucinations</a>.</li><li><strong>Protect student data.</strong> Never paste names, grades, or personal details into tools your school or district hasn't approved.</li><li><strong>Keep your judgment in charge.</strong> AI drafts; you decide what's accurate, age-appropriate, and aligned to your standards.</li></ul>"
+      "html": "<p>Three rules protect you and your students.</p><ul><li><p><strong>Verify everything before it reaches students.</strong> AI can be confidently wrong, and it is most convincing when it invents specifics &mdash; a date, a citation, a statistic. It will not flag its own uncertainty. Check facts and examples the same way you would check a textbook you did not recognise. Our guide on <a href=\"/blog/spot-ai-hallucinations\">spotting hallucinations</a> covers the fastest checks.</p></li><li><p><strong>Protect student data.</strong> Never paste student names, grades, IEP details, behaviour notes or anything identifying into a tool your school or district has not approved. In the US, student education records are covered by FERPA, and many districts have their own approved-tools list on top of that. The practical habit: describe the situation without identifying the student. \"A Year 9 student who is strong verbally but struggles to start written work\" gets you the same quality of help as a name would.</p></li><li><p><strong>Keep your judgment in charge.</strong> AI drafts; you decide what is accurate, age-appropriate and aligned to your standards. The moment you are publishing output you have not read closely, the tool has stopped saving you time and started borrowing your credibility.</p></li></ul>"
     },
     {
       "id": "students",
       "heading": "Teaching students to use AI well",
-      "html": "<p>Banning AI outright rarely works and skips a skill students will need. A better approach: set clear rules, then teach <a href=\"/blog/what-is-ai-literacy\">AI literacy</a>: how AI works, where it fails, how to <a href=\"/blog/how-to-tell-if-something-is-ai-generated\">verify it</a>, and how to use it to learn rather than to cheat. Helping students use AI honestly and critically is part of preparing them for the real world.</p>"
+      "html": "<p>Banning AI outright rarely works. It is difficult to enforce, it pushes use out of sight where you cannot teach into it, and it leaves students to work out the norms on their own.</p><p>The better approach is to set clear rules per assignment and then actually teach the skill: how these systems work, where they fail, how to <a href=\"/blog/how-to-tell-if-something-is-ai-generated\">verify what they produce</a>, and how to use them to learn rather than to avoid learning. That is <a href=\"/blog/what-is-ai-literacy\">AI literacy</a>, and it transfers to whatever tools exist in five years.</p><p>One caution worth knowing before you rely on it: <strong>AI detection tools are not reliable enough to accuse a student.</strong> They produce false positives, and published evaluations have found they flag writing by non-native English speakers at higher rates. Treat a detector score as a reason to have a conversation, never as evidence.</p><p>We have written the full version of this as a separate guide: <a href=\"/blog/teach-ai-literacy-high-school\">how to teach AI literacy to high school students</a> &mdash; a five-unit sequence, five classroom activities that need no student accounts, and how to assess it.</p>"
     },
     {
       "id": "start",
       "heading": "How to start (this week)",
-      "html": "<p>Don't overhaul everything. Pick the single most repetitive prep task you do (drafting a quiz, leveling a reading, writing a parent email) and run it through a free tool like <a href=\"/learn-chatgpt\">ChatGPT</a> or <a href=\"/learn-claude\">Claude</a>. Refine the prompt, bank the time saved, and add a second task next week. To build the underlying skill, Iro AI offers five-minute daily lessons; the free <a href=\"/quiz\">AI IQ test</a> shows where you're starting from.</p>"
+      "html": "<p>Do not overhaul everything. Pick the single most repetitive prep task you do &mdash; drafting a quiz, levelling a reading, writing a parent email &mdash; and run it through a free tool like <a href=\"/learn-chatgpt\">ChatGPT</a> or <a href=\"/learn-claude\">Claude</a>. Refine the prompt until the output is genuinely usable, bank the time saved, then add a second task next week.</p><p>Two habits make the difference between this working and fizzling out. <strong>Keep your good prompts.</strong> A prompt that produced a usable differentiated reading will do it again all year; a note in your phone is enough of a system. And <strong>always give it your context</strong> &mdash; grade level, what students already know, how long you have, what you are actually assessing. Generic prompts produce the generic output that puts most teachers off after one attempt.</p><p>To build the underlying skill rather than collecting tips, <strong>Iro AI</strong> teaches practical AI use in five-minute daily lessons across 29 learning paths and 477 lessons &mdash; prompting, verification, tool choice and where AI fails. Every path is open on the free tier, on iPhone or in any browser. The free <a href=\"/quiz\">AI IQ test</a> takes about two minutes and shows where you are starting from.</p>"
     }
   ],
   "readNext": [
+    {
+      "href": "/blog/teach-ai-literacy-high-school",
+      "label": "How to teach AI literacy to high school students"
+    },
     {
       "href": "/blog/how-to-use-ai-at-work",
       "label": "How to use AI at work"
@@ -89,12 +94,12 @@
       "label": "The best AI tools for students"
     },
     {
-      "href": "/blog/what-is-ai-literacy",
-      "label": "What is AI literacy?"
-    },
-    {
       "href": "/quiz",
       "label": "Take the free AI IQ test"
+    },
+    {
+      "href": "/for-educators",
+      "label": "Iro AI for educators and schools"
     }
   ],
   "faq": [
@@ -116,12 +121,14 @@
     }
   ],
   "related": [
+    "/blog/teach-ai-literacy-high-school",
     "/blog/how-to-use-ai-at-work",
     "/blog/best-ai-tools-for-students",
     "/blog/what-is-ai-literacy",
     "/blog/how-to-tell-if-something-is-ai-generated",
     "/ai-for-students",
     "/how-to-learn-ai",
-    "/quiz"
+    "/quiz",
+    "/for-educators"
   ]
 }

@@ -483,7 +483,7 @@
   </url>
   <url>
     <loc>https://tryiro.com/blog/ai-for-teachers</loc>
-    <lastmod>2026-06-11</lastmod>
+    <lastmod>2026-09-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -1159,6 +1159,16 @@
     <image:image>
       <image:loc>https://tryiro.com/assets/og/best-learning-apps.png</image:loc>
       <image:title>The best apps to learn something new in 2026</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://tryiro.com/blog/teach-ai-literacy-high-school</loc>
+    <lastmod>2026-09-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://tryiro.com/assets/og/teach-ai-literacy-high-school.png</image:loc>
+      <image:title>How to teach AI literacy to high school students</image:title>
     </image:image>
   </url>
 </urlset>

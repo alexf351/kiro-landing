@@ -9,7 +9,7 @@
     <description>Short, practical writing on AI fluency, prompting, AI tools, and the active-practice method that beats endless video courses.</description>
     <language>en-US</language>
     <atom:link href="https://tryiro.com/blog/rss.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Fri, 21 Aug 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 01 Sep 2026 00:00:00 GMT</lastBuildDate>
     <generator>tryiro.com</generator>
     <copyright>© 2026 Iro AI</copyright>
     <image>
@@ -411,7 +411,7 @@
       <pubDate>Thu, 11 Jun 2026 00:00:00 GMT</pubDate>
       <dc:creator>Iro AI</dc:creator>
       <category>AI fluency</category>
-      <description>Practical, responsible ways teachers can use AI for lesson planning, feedback, differentiation and quizzes, plus how to handle student data and integrity.</description>
+      <description>Practical ways teachers can use AI for lesson planning, feedback and differentiation, with copy-paste prompts, the student-data rules, and how to teach AI use.</description>
     </item>
     <item>
       <title>ChatGPT vs Microsoft Copilot: which should you use in 2026?</title>
@@ -1015,6 +1015,15 @@
       <dc:creator>Iro AI</dc:creator>
       <category>AI fluency</category>
       <description>Duolingo, Brilliant, Khan Academy, Kinnu, Blinkist and Iro compared by what each teaches best, plus a two-question test for picking the one you will stick with.</description>
+    </item>
+    <item>
+      <title>How to teach AI literacy to high school students</title>
+      <link>https://tryiro.com/blog/teach-ai-literacy-high-school</link>
+      <guid isPermaLink="true">https://tryiro.com/blog/teach-ai-literacy-high-school</guid>
+      <pubDate>Tue, 01 Sep 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Iro AI</dc:creator>
+      <category>AI fluency</category>
+      <description>A practical sequence for teaching AI literacy in high school: what to cover in what order, five classroom activities needing no software, and how to assess it.</description>
     </item>
   </channel>
 </rss>

@@ -101,7 +101,7 @@ ai iq test by iro ai          https://tryiro.com/llms/quiz.md
 vibe coding course            https://tryiro.com/llms/vibe-coding-course.md
 
 ## Blog (markdown mirrors)
-# 116 post and pillar mirrors, generated
+# 117 post and pillar mirrors, generated
 ai agents explained           https://tryiro.com/llms/blog/ai-agents-explained.md
 ai agents vs. automation      https://tryiro.com/llms/blog/ai-agents-vs-automation.md
 ai agents & automation        https://tryiro.com/llms/blog/ai-agents.md
@@ -199,6 +199,7 @@ nibble alternatives           https://tryiro.com/llms/blog/nibble-alternatives.m
 prompt engineering patterns   https://tryiro.com/llms/blog/prompt-engineering-patterns.md
 prompt engineering            https://tryiro.com/llms/blog/prompt-engineering.md
 spot ai hallucinations        https://tryiro.com/llms/blog/spot-ai-hallucinations.md
+teach ai literacy high schoo  https://tryiro.com/llms/blog/teach-ai-literacy-high-school.md
 ai fluency pyramid            https://tryiro.com/llms/blog/the-ai-fluency-pyramid.md
 what are tokens in ai         https://tryiro.com/llms/blog/what-are-tokens-in-ai.md
 what is a context window      https://tryiro.com/llms/blog/what-is-a-context-window.md
