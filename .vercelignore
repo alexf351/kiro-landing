@@ -9,12 +9,13 @@
 assets/new app pics 7.21/
 assets/app pics 8.12/
 
-# Design handoff snapshots (frozen prototypes, intentionally stale)
-design_handoff_ai_coach/
-design_handoff_custom_paths/
-design_handoff_iro_landing/
-design_handoff_iro_pro_paywall/
-design_handoff_reviews_section/
+# Design handoff snapshots (frozen prototypes, intentionally stale).
+# Glob, not a list: two newer handoff folders (daily_loop, reviews_rank_quiz)
+# were deploying because they were added after this list was written.
+design_handoff_*/
+
+# Agent/tool config — never a public page
+.claude/
 
 # Build tooling + source content (generators, not served output)
 blog-engine/
