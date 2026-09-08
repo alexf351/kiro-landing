@@ -107,7 +107,7 @@ h1,h2,h3,h4{font-family:'Geist','Outfit',sans-serif;font-weight:800}
    ============================================================ */
 .lede{color:var(--ink-2)}
 .meta{color:var(--ink-3)}
-.hero-img{border:1px solid var(--line)}
+.hero-img{border:1px solid var(--line);height:auto}
 .toc{background:var(--surface);border:1px solid var(--line)}
 .toc strong{color:var(--accent)}
 .toc a{color:var(--ink)}
