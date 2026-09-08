@@ -48,8 +48,8 @@
 <link rel="alternate" type="application/json" title="Iro AI localization map" href="/localization.json"/>
 <link rel="search" type="application/opensearchdescription+xml" title="Iro AI" href="/opensearch.xml"/>
 <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"/>
-<link href="assets/gold-kiro.webp" rel="preload" as="image" type="image/webp"/>
-<link href="assets/kiro-app-icon-256.png" rel="preload" as="image"/>
+<link href="assets/gold-kiro-480.webp" rel="preload" as="image" type="image/webp"/>
+<link href="assets/kiro-app-icon-128.webp" rel="preload" as="image" type="image/webp"/>
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"SoftwareApplication","name":"Iro AI","alternateName":["Iro AI — Learn AI Skills","Iro"],"description":"Iro AI: master the AI tools that matter (ChatGPT, Claude, Gemini, Perplexity, AI Coding, Image & Video Generation, and more) through guided paths and 5-minute daily lessons.","applicationCategory":"EducationApplication","operatingSystem":"iOS","offers":[{"@type":"Offer","price":"0","priceCurrency":"USD","description":"Free with optional Pro upgrade"},{"@type":"Offer","name":"Pro Annual","price":"49.99","priceCurrency":"USD","description":"$49.99 a year (about $4.17 a month). Includes a 7-day free trial."},{"@type":"Offer","name":"Pro Monthly","price":"9.99","priceCurrency":"USD","description":"$9.99 a month. Cancel anytime."}],"url":"https://tryiro.com","downloadUrl":"https://apps.apple.com/app/id6759628066","availableLanguage":["en","es","fr","de"]}
 </script>
@@ -82,7 +82,9 @@
 </script>
 <link href="https://fonts.googleapis.com" rel="preconnect"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
-<link href="https://fonts.googleapis.com/css2?family=Geist:wght@400..900&amp;family=Outfit:wght@400;500;600;700;800&amp;family=JetBrains+Mono:wght@400;500;700&amp;display=swap" rel="stylesheet"/>
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Geist:wght@400..900&amp;family=Outfit:wght@400;500;600;700;800&amp;family=JetBrains+Mono:wght@400;500;700&amp;display=swap"/>
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@400..900&amp;family=Outfit:wght@400;500;600;700;800&amp;family=JetBrains+Mono:wght@400;500;700&amp;display=swap" rel="stylesheet" media="print" onload="this.media='all'"/>
+<noscript><link href="https://fonts.googleapis.com/css2?family=Geist:wght@400..900&amp;family=Outfit:wght@400;500;600;700;800&amp;family=JetBrains+Mono:wght@400;500;700&amp;display=swap" rel="stylesheet"/></noscript>
 <style>
 /* ============================================================
    IRO AI — premium landing redesign
@@ -143,6 +145,12 @@ body{
 img{display:block;max-width:100%}
 a{color:inherit;text-decoration:none}
 ::selection{background:rgba(var(--accent-rgb),.3);color:#fff}
+/* Keyboard focus: one visible ring everywhere, offset so chunky buttons keep their lip. */
+:focus-visible{outline:2px solid var(--accent);outline-offset:3px;border-radius:6px}
+.btn:focus-visible,.nav-cta:focus-visible,.pro-cta:focus-visible,.dl-btn:focus-visible{outline-offset:5px;border-radius:18px}
+.ia-dot:focus-visible{outline-offset:6px;border-radius:100px}
+.ia-arrow:focus-visible,.nav-menu:focus-visible{outline-offset:3px;border-radius:50%}
+.nav-menu:focus-visible{border-radius:12px}
 
 /* ---------- ambient background ---------- */
 .bg-field{position:fixed;inset:0;z-index:-2;pointer-events:none}
@@ -261,6 +269,14 @@ section.enemy > .wrap{position:relative;z-index:1}
   color:var(--accent-ink);
   box-shadow:0 5px 0 var(--accent-edge),0 12px 26px rgba(var(--accent-rgb),.32),0 1px 0 rgba(255,255,255,.45) inset;
 }
+/* Hover sheen: a highlight band sweeps across on pointer devices. Drawn as a
+   moving background inside the button box, so nothing needs overflow:hidden
+   (which would clip the bottom lip and the attention ring). */
+.btn-primary::after{content:'';position:absolute;inset:0;border-radius:inherit;pointer-events:none;
+  background:linear-gradient(100deg,transparent 32%,rgba(255,255,255,.34) 50%,transparent 68%);
+  background-size:260% 100%;background-position:130% 0;background-repeat:no-repeat}
+@media(hover:hover){.btn-primary:hover::after{animation:btn-sheen .8s var(--ease-out) both}}
+@keyframes btn-sheen{from{background-position:130% 0}to{background-position:-130% 0}}
 .btn-primary:hover{filter:brightness(1.05);
   box-shadow:0 5px 0 var(--accent-edge),0 16px 36px rgba(var(--accent-rgb),.5),0 1px 0 rgba(255,255,255,.5) inset}
 .btn-primary:active{transform:translateY(4px);
@@ -291,6 +307,12 @@ nav .wrap{display:flex;align-items:center;justify-content:space-between}
 .nav-links{display:flex;align-items:center;gap:30px}
 .nav-links a:not(.btn){font-size:13.5px;font-weight:500;color:var(--ink-2);transition:color .2s;letter-spacing:.01em}
 .nav-links a:not(.btn):hover{color:var(--ink)}
+@media(hover:hover) and (min-width:761px){
+  .nav-links a:not(.btn){position:relative}
+  .nav-links a:not(.btn)::after{content:'';position:absolute;left:0;right:0;bottom:-7px;height:2px;border-radius:2px;background:var(--accent);
+    transform:scaleX(0);transform-origin:left;transition:transform .25s var(--ease-out)}
+  .nav-links a:not(.btn):hover::after,.nav-links a:not(.btn):focus-visible::after{transform:scaleX(1)}
+}
 .locale-links{display:inline-flex;align-items:center;gap:2px;padding:4px;border:1px solid var(--line);border-radius:999px;background:rgba(255,255,255,.035)}
 .locale-links a{font-family:'JetBrains Mono',monospace!important;font-size:10px!important;font-weight:800!important;letter-spacing:.08em!important;padding:5px 7px;border-radius:999px;color:var(--ink-3)!important}
 .locale-links a[aria-current="true"],.locale-links a:hover{color:var(--accent)!important;background:rgba(var(--accent-rgb),.08)}
@@ -302,7 +324,30 @@ nav .wrap{display:flex;align-items:center;justify-content:space-between}
 .nav-cta:active{transform:translateY(3px);box-shadow:0 0 0 var(--accent-edge),0 4px 12px rgba(var(--accent-rgb),.3),0 1px 0 rgba(255,255,255,.4) inset}
 .nav-webapp{color:var(--ink-3)!important}
 .nav-webapp:hover{color:var(--ink)!important}
-@media(max-width:760px){.nav-links a:not(.btn){display:none}.nav-links .locale-links,.nav-links .locale-links a{display:inline-flex}}
+.nav-links{margin-left:auto}
+.nav-right{display:flex;align-items:center;gap:10px;margin-left:30px}
+/* Mobile menu: a disclosure button next to the CTA opens the link list as a
+   panel under the bar. Links stay in the DOM at every width, so crawlers and
+   the attribution script (nav#nav) see the same nav on every device. */
+.nav-menu{display:none;position:relative;width:44px;height:44px;margin-right:-8px;padding:0;border:0;border-radius:12px;background:transparent;color:var(--ink);cursor:pointer;-webkit-tap-highlight-color:transparent}
+.nav-menu span{position:absolute;left:12px;width:20px;height:2px;border-radius:2px;background:currentColor;transition:transform .3s var(--ease),top .3s var(--ease)}
+.nav-menu span:first-child{top:17px}
+.nav-menu span:last-child{top:25px}
+nav.open .nav-menu span:first-child{top:21px;transform:rotate(45deg)}
+nav.open .nav-menu span:last-child{top:21px;transform:rotate(-45deg)}
+@media(max-width:760px){
+  .nav-right{margin-left:auto}
+  .nav-menu{display:inline-flex}
+  .nav-links{display:none;position:absolute;top:62px;left:0;right:0;margin:0;flex-direction:column;align-items:stretch;gap:0;
+    padding:6px 20px 14px;background:rgba(7,10,18,.96);backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px);
+    border-bottom:1px solid var(--line);box-shadow:0 24px 40px rgba(0,0,0,.45)}
+  nav.open .nav-links{display:flex;animation:nav-drop .28s var(--ease-out) both}
+  .nav-links a:not(.btn){display:flex;align-items:center;min-height:50px;font-size:16.5px;font-weight:600;color:var(--ink);border-bottom:1px solid var(--line)}
+  .nav-links a:not(.btn):last-child{border-bottom:0}
+  .nav-links .nav-webapp{color:var(--accent)!important}
+  .nav-links .locale-links,.nav-links .locale-links a{display:inline-flex}
+}
+@keyframes nav-drop{from{opacity:0;transform:translateY(-8px)}to{opacity:1;transform:none}}
 
 /* ============================================================
    HERO
@@ -430,6 +475,13 @@ nav .wrap{display:flex;align-items:center;justify-content:space-between}
      this a non-scrolling box, and overflow-y stays visible so the glow and
      shadows above and below are untouched. */
   overflow-x:clip}
+.ia-stackvp{animation:ia-bob 7s ease-in-out infinite}
+@keyframes ia-bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-6px)}}
+.device .glare{overflow:hidden}
+.ia-ph[data-slot="0"] .glare::after{content:'';position:absolute;top:-10%;bottom:-10%;left:0;width:45%;
+  background:linear-gradient(90deg,transparent,rgba(255,255,255,.16),transparent);transform:translateX(-150%) skewX(-18deg);
+  animation:ia-glare 1.25s var(--ease-out) .3s both}
+@keyframes ia-glare{to{transform:translateX(330%) skewX(-18deg)}}
 .ia-stackvp::before{content:'';position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);
   width:92%;aspect-ratio:1;border-radius:50%;z-index:0;pointer-events:none;
   background:radial-gradient(circle,rgba(var(--accent-rgb),.13),transparent 64%)}
@@ -608,7 +660,33 @@ nav .wrap{display:flex;align-items:center;justify-content:space-between}
    ============================================================ */
 /* hero variant: copy on top, universe as the centerpiece */
 .hero-uni{min-height:auto;display:block;padding-top:118px;padding-bottom:70px;text-align:center}
-.hero-uni .wrap{display:flex;flex-direction:column;align-items:center}
+.hero-uni .wrap{display:flex;flex-direction:column;align-items:center;position:relative;z-index:1}
+/* Entrance: the copy rises first (0-.5s), the CTAs follow, and the skill
+   universe pops in behind at 1.1s (see --pop-delay). The wordmark and aurora
+   fade up underneath so the first frame is calm, not a wall of glow. */
+.hero-uni .hero-lead>*,.hero-uni .hero-actions{animation:hero-rise .9s var(--ease-out) both}
+.hero-uni .hero-sub{animation-delay:.12s}
+.hero-uni .android-banner{animation-delay:.2s}
+.hero-uni .hero-actions{animation-delay:.26s}
+.hero-uni .hero-wordmark{animation:hero-fade 1.8s ease-out .5s both}
+@keyframes hero-rise{from{opacity:0;transform:translateY(22px)}to{opacity:1;transform:none}}
+@keyframes hero-fade{from{opacity:0}to{opacity:1}}
+/* Ambient depth: two slow aurora blobs (brand cyan, rank gold) drifting on
+   transform only. No blur filter: the gradient fade is the softness, and a
+   filtered 700px element is a real cost on phones. */
+.hero-uni::before,.hero-uni::after{content:'';position:absolute;z-index:0;pointer-events:none;border-radius:50%;aspect-ratio:1}
+.hero-uni::before{width:min(78vw,760px);left:-16%;top:-10%;
+  background:radial-gradient(circle,rgba(var(--accent-rgb),.16),rgba(var(--accent-rgb),.05) 40%,transparent 66%);
+  animation:aurora-a 28s ease-in-out infinite alternate}
+.hero-uni::after{width:min(64vw,620px);right:-18%;top:26%;
+  background:radial-gradient(circle,rgba(255,201,64,.13),rgba(255,201,64,.04) 40%,transparent 66%);
+  animation:aurora-b 34s ease-in-out infinite alternate}
+@keyframes aurora-a{from{transform:translate3d(0,0,0) scale(1)}to{transform:translate3d(9vw,7vh,0) scale(1.14)}}
+@keyframes aurora-b{from{transform:translate3d(0,0,0) scale(1)}to{transform:translate3d(-8vw,-6vh,0) scale(1.1)}}
+/* One-shot attention ring on the hero App Store button, right after the entrance settles. */
+header.hero .hero-ctas .btn-primary::before{content:'';position:absolute;inset:-5px;border-radius:inherit;border:2px solid rgba(var(--accent-rgb),.75);opacity:0;pointer-events:none;
+  animation:cta-ring 1.4s ease-out 1.35s 1 both}
+@keyframes cta-ring{0%{opacity:.9;transform:scale(.96)}100%{opacity:0;transform:scale(1.16)}}
 .hero-lead{max-width:760px;margin:0 auto;order:1}
 .hero-actions{order:2;margin-top:30px;display:flex;flex-direction:column;align-items:center;gap:22px}
 .hero-universe{order:3}
@@ -812,6 +890,13 @@ nav .wrap{display:flex;align-items:center;justify-content:space-between}
   background:var(--surface);border:1px solid var(--line);transition:border-color .3s}
 .rm-stars{color:var(--gold);font-size:10px;letter-spacing:2.5px;text-shadow:0 0 8px rgba(var(--gold-rgb),.3)}
 .review-mini:hover,.review-feat:hover{border-color:rgba(var(--accent-rgb),.25)}
+@media(hover:hover){
+  .review-mini,.review-feat{transition:border-color .3s,transform .35s var(--ease-out),box-shadow .35s var(--ease-out)}
+  .review-mini:hover,.review-feat:hover{transform:translateY(-3px);box-shadow:0 16px 34px rgba(0,0,0,.35)}
+}
+.review-minis.in .review-mini{animation:hero-rise .7s var(--ease-out) both}
+.review-minis.in .review-mini:nth-child(2){animation-delay:.1s}
+.review-minis.in .review-mini:nth-child(3){animation-delay:.2s}
 .review-mini.hl{border-color:var(--line)}
 .review-mini.hl p{color:var(--ink)}
 .review-mini p{font-size:13px;font-weight:500;line-height:1.5;color:var(--ink-2);text-wrap:pretty}
@@ -885,7 +970,10 @@ nav .wrap{display:flex;align-items:center;justify-content:space-between}
 section.coach{position:relative;padding:clamp(80px,11vh,140px) 0;overflow-x:clip}
 .coach-grid{display:grid;grid-template-columns:1fr 1.04fr;gap:clamp(40px,5vw,76px);align-items:center;max-width:1080px;margin:0 auto}
 .coach-copy{max-width:480px}
-.coach-mascot{display:block;width:118px;height:auto;margin:0 0 20px;filter:drop-shadow(0 14px 30px rgba(0,0,0,.42))}
+.coach-mascot{display:block;width:118px;height:auto;margin:0 0 20px;filter:drop-shadow(0 14px 30px rgba(0,0,0,.42));transition:filter .4s ease}
+.coach-copy.in .coach-mascot{animation:mascot-pop .7s var(--ease-out) .1s both,float 5s ease-in-out .8s infinite}
+.coach-copy:hover .coach-mascot{filter:drop-shadow(0 14px 30px rgba(0,0,0,.42)) drop-shadow(0 0 22px rgba(var(--accent-rgb),.45))}
+@keyframes mascot-pop{0%{opacity:0;transform:translateY(16px) scale(.8)}60%{opacity:1;transform:translateY(-4px) scale(1.06)}100%{opacity:1;transform:none}}
 .coach-eyebrow{margin-bottom:20px}
 .coach-h{font-family:'Geist',sans-serif;font-size:clamp(30px,3.7vw,48px);font-weight:800;letter-spacing:-.035em;line-height:1.03;color:var(--ink)}
 .coach-h .accent{color:var(--accent)}
@@ -1156,7 +1244,7 @@ section.coach{position:relative;padding:clamp(80px,11vh,140px) 0;overflow-x:clip
   color:#4ADE80;background:rgba(8,14,12,.92);border:1px solid rgba(74,222,128,.45);padding:7px 14px;border-radius:100px;
   box-shadow:0 8px 22px rgba(0,0,0,.5)}
 .cert-verified svg{width:14px;height:14px}
-.cert-img{width:100%;max-width:500px;margin-top:18px;border-radius:14px;display:block;
+.cert-img{width:100%;height:auto;max-width:500px;margin-top:18px;border-radius:14px;display:block;
   box-shadow:0 30px 70px rgba(0,0,0,.55),0 0 60px rgba(var(--gold-rgb),.18);
   transform:rotateX(6deg) rotateY(-6deg);transform-style:preserve-3d;transition:transform .5s var(--ease)}
 .cert-visual:hover .cert-img{transform:rotateX(2deg) rotateY(-2deg)}
@@ -1204,7 +1292,7 @@ section.coach{position:relative;padding:clamp(80px,11vh,140px) 0;overflow-x:clip
 .pro-stage{position:relative;display:flex;align-items:center;justify-content:center;min-height:380px}
 .pro-glow{position:absolute;width:min(420px,92%);aspect-ratio:1;border-radius:50%;background:radial-gradient(circle,rgba(var(--gold-rgb),.2),rgba(var(--gold-rgb),.05) 46%,transparent 68%);filter:blur(14px)}
 .pro-rays{position:absolute;width:min(430px,100%);aspect-ratio:1;opacity:.85}
-.pro-mascot{position:relative;width:clamp(190px,21vw,258px);filter:drop-shadow(0 26px 46px rgba(0,0,0,.55)) drop-shadow(0 0 34px rgba(var(--gold-rgb),.28));animation:float 6s ease-in-out infinite}
+.pro-mascot{position:relative;width:clamp(190px,21vw,258px);height:auto;filter:drop-shadow(0 26px 46px rgba(0,0,0,.55)) drop-shadow(0 0 34px rgba(var(--gold-rgb),.28));animation:float 6s ease-in-out infinite}
 .pro-spark{position:absolute;width:16px;height:16px;opacity:.75;animation:proTwinkle 3.4s ease-in-out infinite}
 .pro-spark.s1{top:18%;right:24%}
 .pro-spark.s2{bottom:20%;left:22%;width:11px;height:11px;animation-delay:1.7s}
@@ -1270,7 +1358,7 @@ section.coach{position:relative;padding:clamp(80px,11vh,140px) 0;overflow-x:clip
 .final::before{content:'';position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);
   width:760px;height:520px;background:radial-gradient(ellipse at center,rgba(var(--accent-rgb),.12),transparent 65%);pointer-events:none}
 .final .wrap{position:relative;z-index:2}
-.final img.cta-mascot{width:128px;margin:0 auto 28px;
+.final img.cta-mascot{width:128px;height:auto;margin:0 auto 28px;
   filter:drop-shadow(0 16px 36px rgba(0,0,0,.5)) drop-shadow(0 0 30px rgba(var(--accent-rgb),.3));
   animation:float 6s ease-in-out infinite}
 .final h2{font-family:'Geist',sans-serif;font-size:clamp(38px,5.5vw,68px);font-weight:800;letter-spacing:-.04em;
@@ -1337,8 +1425,9 @@ footer .wrap{display:flex;flex-direction:column;gap:24px}
 [data-motion="calm"] .pill .dot{animation:none!important}
 [data-motion="calm"] .hero-device{transform:rotateY(-7deg) rotateX(3deg)!important}
 @media(prefers-reduced-motion:reduce){
-  *{animation-duration:.001ms!important;animation-iteration-count:1!important}
+  *{animation-duration:.001ms!important;animation-iteration-count:1!important;animation-delay:0s!important}
   .reveal{opacity:1;transform:none}
+  .hero-uni::before,.hero-uni::after,.ia-stackvp{animation:none}
 }
 
 /* ============================================================
@@ -1439,14 +1528,14 @@ html.is-android .locale-suggest{bottom:12px;top:auto}
 posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https://us.i.posthog.com',person_profiles:'identified_only'});
 </script>
 <script async src="https://aromatic-caribou-889.convex.site/api/a/am_xBvr5KPeNgRbN-Cp"></script>
-<script src="/llm-referrals.js"></script>
+<script src="/llm-referrals.js" defer></script>
 <script src="/prompt-capture.js" defer></script>
 <meta name="apple-itunes-app" content="app-id=6759628066"/>
 <script defer data-website-id="dfid_pTmvsHyl8feOT2EfmXOim" data-domain="tryiro.com" src="https://datafa.st/js/script.js"></script>
 <script src="/datafast-goals.js" defer></script>
 </head>
 <body>
-<a class="skip-nav" href="#top">Skip to content</a>
+<a class="skip-nav" href="#main">Skip to content</a>
 <div class="iab-overlay" id="iabOverlay" role="dialog" aria-modal="true" aria-labelledby="iabTitle" hidden>
 <div class="iab-card">
 <button class="iab-close" type="button" aria-label="Close" id="iabClose">&times;</button>
@@ -1461,7 +1550,7 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
 </div>
 <div class="app-banner" id="appBanner" role="region" aria-label="Get the Iro AI app">
 <button class="app-banner-x" type="button" aria-label="Dismiss" id="appBannerX">&times;</button>
-<img class="app-banner-icon" src="assets/kiro-app-icon-256.png" alt="Iro AI app icon"/>
+<img class="app-banner-icon" src="assets/kiro-app-icon-128.webp" alt="Iro AI app icon"/>
 <div class="app-banner-txt"><b>Iro AI</b><span>Master AI. Free on the App Store.</span></div>
 <a class="app-banner-get" href="https://apps.apple.com/app/id6759628066" id="appBannerGet">Get</a>
 </div>
@@ -1482,10 +1571,10 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
 <nav id="nav">
   <div class="wrap">
     <a class="brand" href="#top" aria-label="Iro AI home">
-      <img src="assets/kiro-app-icon-256.png" alt="Iro app icon"/>
+      <img src="assets/kiro-app-icon-128.webp" alt="Iro app icon"/>
       <b>Iro AI</b>
     </a>
-    <div class="nav-links">
+    <div class="nav-links" id="navLinks">
       <a href="/quiz" class="nav-quiz">AI Rank Quiz</a>
       <a href="#showcase">How it works</a>
       <a href="/paths">Paths</a>
@@ -1495,17 +1584,21 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
       <span class="locale-links" aria-label="Language"><a href="/" hreflang="en" lang="en" aria-current="true">EN</a><a href="/es" hreflang="es" lang="es">ES</a><a href="/fr" hreflang="fr" lang="fr">FR</a><a href="/de" hreflang="de" lang="de">DE</a></span>
       -->
       <a class="nav-webapp" href="https://app.tryiro.com" data-cta="nav">Open web app</a>
+    </div>
+    <div class="nav-right">
       <a class="btn btn-primary nav-cta" href="https://apps.apple.com/app/id6759628066">Get the app</a>
+      <button class="nav-menu" id="navMenu" type="button" aria-expanded="false" aria-controls="navLinks" aria-label="Open menu"><span></span><span></span></button>
     </div>
   </div>
 </nav>
 
 <!-- ============ HERO (skill universe) ============ -->
+<main id="main">
 <header class="hero hero-uni" id="top" data-screen-label="Hero">
   <div class="hero-wordmark" aria-hidden="true">iro</div>
   <div class="wrap">
     <div class="hero-lead">
-      <h1 class="reveal in">Learn AI<br/><span class="accent">like a game.</span></h1>
+      <h1 class="reveal in">Learn AI <br/><span class="accent">like a game.</span></h1>
       <p class="hero-sub reveal in" data-d="1">The game that teaches anyone to use AI effectively in their daily life. 5 minutes a day, real tasks, not party tricks.</p>
       <div class="android-banner" id="androidBanner">
         <p class="android-banner-msg"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M6 18a1 1 0 0 0 1 1h1v3.5a1.5 1.5 0 0 0 3 0V19h2v3.5a1.5 1.5 0 0 0 3 0V19h1a1 1 0 0 0 1-1V8H6zM3.5 8A1.5 1.5 0 0 0 2 9.5v6a1.5 1.5 0 0 0 3 0v-6A1.5 1.5 0 0 0 3.5 8m17 0A1.5 1.5 0 0 0 19 9.5v6a1.5 1.5 0 0 0 3 0v-6A1.5 1.5 0 0 0 20.5 8M15.53 2.16l1.3-1.3a.5.5 0 0 0-.7-.7l-1.48 1.47A6 6 0 0 0 12 1a6 6 0 0 0-2.65.63L7.87.16a.5.5 0 1 0-.7.7l1.3 1.3A5.98 5.98 0 0 0 6 7h12a5.98 5.98 0 0 0-2.47-4.84M9.5 5a1 1 0 1 1 0-2 1 1 0 0 1 0 2m5 0a1 1 0 1 1 0-2 1 1 0 0 1 0 2"/></svg><span><b>On Android?</b> The app is iOS-only for now, but Iro runs in any Android browser at <a href="https://app.tryiro.com" data-cta="hero-android">app.tryiro.com</a> &mdash; start today, free. Get notified when the app drops:</span></p>
@@ -1566,7 +1659,7 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
   <div class="wrap">
     <div class="sec-head reveal">
       <span class="eyebrow center">Why Iro</span>
-      <h2 class="sec-title">Real tasks,<br/><span class="accent">not party tricks.</span></h2>
+      <h2 class="sec-title">Real tasks, <br/><span class="accent">not party tricks.</span></h2>
       <p class="sec-sub">Made for people who don't know where to start.</p>
     </div>
     <div class="enemy-grid reveal">
@@ -1677,8 +1770,8 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
 <section class="coach" id="ask-iro" data-screen-label="AI coach">
   <div class="wrap">
     <div class="coach-grid">
-      <div class="coach-copy">
-        <img class="coach-mascot" src="assets/platinum-kiro.webp" alt="Iro, your AI coach" width="118" loading="lazy" decoding="async" onerror="if(/\.webp$/.test(this.src))this.src=this.src.replace('.webp','.png')"/>
+      <div class="coach-copy reveal">
+        <img class="coach-mascot" src="assets/platinum-kiro-480.webp" alt="Iro, your AI coach" width="118" height="155" loading="lazy" decoding="async" onerror="if(/\.webp$/.test(this.src))this.src=this.src.replace('-480.webp','.png')"/>
         <span class="cp-eyebrow coach-eyebrow"><span class="dot"></span>Meet Iro, your coach</span>
         <h2 class="coach-h">Stuck? <span class="accent">Just ask Iro.</span></h2>
         <p class="coach-sub">Miss a question and Iro shows you <b>why</b>, breaks down the tricky part, and gives you a sharper rep while it's fresh, like a friend who's great at AI, right in your pocket.</p>
@@ -1688,7 +1781,7 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
       <div class="coach-stage">
         <div class="coach-chat" id="coachChat">
           <div class="cc-head">
-            <span class="cc-ava"><img src="assets/kiro-app-icon-256.png" alt="Iro coach"/><span class="cc-pulse"></span></span>
+            <span class="cc-ava"><img src="assets/kiro-app-icon-128.webp" alt="Iro coach"/><span class="cc-pulse"></span></span>
             <span class="cc-id">
               <b>Iro</b>
               <span class="cc-status"><i></i> AI Coach · online</span>
@@ -1700,10 +1793,10 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
                and renders the live, sequenced conversation on scroll into view.
                Under prefers-reduced-motion the script bails and this is shown as-is. -->
           <div class="cc-body" id="ccBody">
-            <div class="cc-row coach"><img class="cc-mava" src="assets/kiro-app-icon-256.png" alt=""/><div class="cc-bub">Quick check: what would improve this prompt most?</div></div>
+            <div class="cc-row coach"><img class="cc-mava" src="assets/kiro-app-icon-128.webp" alt=""/><div class="cc-bub">Quick check: what would improve this prompt most?</div></div>
             <div class="cc-row coach"><span class="cc-mava-sp"></span><div class="cc-card"><div class="cc-prompt"><span class="cc-prompt-lab">The prompt</span><span class="cc-prompt-txt">&ldquo;Make this landing page better.&rdquo;</span></div></div></div>
             <div class="cc-row coach"><span class="cc-mava-sp"></span><div class="cc-card"><div class="cc-quiz"><button class="cc-opt locked correct" type="button"><span class="k">A</span><span class="t">Add audience, goal, and constraints</span><span class="res">&#10003;</span></button><button class="cc-opt locked dim" type="button"><span class="k">B</span><span class="t">Make it longer</span></button><button class="cc-opt locked dim" type="button"><span class="k">C</span><span class="t">Use more emojis</span></button></div></div></div>
-            <div class="cc-row coach"><img class="cc-mava" src="assets/kiro-app-icon-256.png" alt=""/><div class="cc-bub">Exactly. <b>&ldquo;Better&rdquo;</b> is too vague. Strong prompts tell the AI who it&rsquo;s helping, what outcome matters, and what constraints to follow.</div></div>
+            <div class="cc-row coach"><img class="cc-mava" src="assets/kiro-app-icon-128.webp" alt=""/><div class="cc-bub">Exactly. <b>&ldquo;Better&rdquo;</b> is too vague. Strong prompts tell the AI who it&rsquo;s helping, what outcome matters, and what constraints to follow.</div></div>
             <div class="cc-row coach"><span class="cc-mava-sp"></span><div class="cc-card"><div class="cc-ba"><div class="cc-ba-row before"><span class="cc-ba-lab">Before</span><span class="cc-ba-txt">Make this landing page better.</span></div><div class="cc-ba-row after"><span class="cc-ba-lab">After</span><span class="cc-ba-txt">Act as a conversion strategist. Rewrite this hero for busy founders. Keep it under 12 words and make the outcome specific.</span></div></div></div></div>
           </div>
 
@@ -1729,7 +1822,7 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
   var chips = document.getElementById('ccChips');
   if (!body) return;
   var reduce = window.matchMedia('(prefers-reduced-motion:reduce)').matches;
-  var AVA = 'assets/kiro-app-icon-256.png';
+  var AVA = 'assets/kiro-app-icon-128.webp';
   var started = false, idx = 0, timers = [], firstQuiz = true;
   if (reduce) return; /* leave the static fallback thread as-is */
 
@@ -1959,7 +2052,7 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
     <div class="cp-copy">
       <img class="cp-mascot" src="assets/typing-kiro.webp" alt="" aria-hidden="true" width="96" loading="lazy" decoding="async" onerror="if(/\.webp$/.test(this.src))this.src=this.src.replace('.webp','.png')"/>
       <span class="cp-eyebrow"><span class="dot"></span>Custom paths<span class="sep">·</span><span class="pro">Pro</span></span>
-      <h2 class="cp-h" id="cp-title">Not just AI.<br/><span class="accent">Learn anything.</span></h2>
+      <h2 class="cp-h" id="cp-title">Not just AI. <br/><span class="accent">Learn anything.</span></h2>
       <p class="cp-lead">Type any topic and Iro builds a full learning path (lessons, practice, and a recap) in seconds. Or paste a <strong>TikTok or YouTube link</strong>, share a post from <strong>TikTok or Instagram</strong>, or upload a <strong>screenshot or PDF</strong>, and Iro turns it into a full interactive path.</p>
       <div class="cp-steps" aria-hidden="true">
         <span><span class="n">1</span><b>Name your topic</b></span>
@@ -2015,7 +2108,7 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
 
       <div class="cert-visual">
         <span class="cert-verified"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>Credential ID</span>
-        <img class="cert-img" src="assets/certificate.webp" alt="Iro AI Certificate of Completion for AI Foundations, issued to Alex Morgan" loading="lazy" decoding="async" onerror="if(/\.webp$/.test(this.src))this.src=this.src.replace('.webp','.jpg')"/>
+        <img class="cert-img" src="assets/certificate.webp" width="3360" height="2400" alt="Iro AI Certificate of Completion for AI Foundations, issued to Alex Morgan" loading="lazy" decoding="async" onerror="if(/\.webp$/.test(this.src))this.src=this.src.replace('.webp','.jpg')"/>
         <p class="cert-sample">Sample certificate</p>
       </div>
     </div>
@@ -2032,7 +2125,7 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
       <div class="pro-stage reveal">
         <span class="pro-glow" aria-hidden="true"></span>
         <svg class="pro-rays" viewBox="0 0 400 400" aria-hidden="true"><g stroke="rgba(255,206,74,.3)" stroke-width="1.5" stroke-linecap="round"><line x1="200" y1="26" x2="200" y2="62"/><line x1="287" y1="49" x2="269" y2="80"/><line x1="351" y1="113" x2="320" y2="131"/><line x1="374" y1="200" x2="338" y2="200"/><line x1="351" y1="287" x2="320" y2="269"/><line x1="287" y1="351" x2="269" y2="320"/><line x1="200" y1="374" x2="200" y2="338"/><line x1="113" y1="351" x2="131" y2="320"/><line x1="49" y1="287" x2="80" y2="269"/><line x1="26" y1="200" x2="62" y2="200"/><line x1="49" y1="113" x2="80" y2="131"/><line x1="113" y1="49" x2="131" y2="80"/></g></svg>
-        <img class="pro-mascot" src="assets/gold-kiro.webp" alt="Iro in gold Pro form" width="258" loading="lazy" decoding="async" onerror="if(/\.webp$/.test(this.src))this.src=this.src.replace('.webp','.png')"/>
+        <img class="pro-mascot" src="assets/gold-kiro-480.webp" alt="Iro in gold Pro form" width="258" height="270" loading="lazy" decoding="async" onerror="if(/\.webp$/.test(this.src))this.src=this.src.replace('-480.webp','.png')"/>
         <svg class="pro-spark s1" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2l2.2 7.8L22 12l-7.8 2.2L12 22l-2.2-7.8L2 12l7.8-2.2z" fill="#FFCE4A"/></svg>
         <svg class="pro-spark s2" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2l2.2 7.8L22 12l-7.8 2.2L12 22l-2.2-7.8L2 12l7.8-2.2z" fill="#FFCE4A"/></svg>
       </div>
@@ -2128,8 +2221,8 @@ document.querySelectorAll('.askai-chip').forEach(function(a){
 <!-- ============ FINAL CTA ============ -->
 <section class="final" data-screen-label="Final CTA">
   <div class="wrap">
-    <img class="cta-mascot reveal" src="assets/iridescent-kiro.webp" alt="Iro the penguin" loading="lazy" decoding="async"/>
-    <h2 class="reveal" data-d="1">Level up your AI,<br/><span class="accent">five minutes a day.</span></h2>
+    <img class="cta-mascot reveal" src="assets/iridescent-kiro-480.webp" alt="Iro the penguin" width="128" height="144" loading="lazy" decoding="async" onerror="if(/\.webp$/.test(this.src))this.src=this.src.replace('-480.webp','.png')"/>
+    <h2 class="reveal" data-d="1">Level up your AI, <br/><span class="accent">five minutes a day.</span></h2>
     <p class="reveal" data-d="2">One lesson a day. Free to start. Keep your streak alive.</p>
     <div class="hero-ctas reveal" data-d="3">
       <a class="btn btn-primary btn-lg" href="https://apps.apple.com/app/id6759628066">
@@ -2156,6 +2249,7 @@ document.querySelectorAll('.askai-chip').forEach(function(a){
   </div>
 </section>
 
+</main>
 <!-- ============ THIRD-PARTY LISTINGS ============
      Closing trust strip, between the final CTA and the footer. Drop new
      badges in as <li> items; the row holds five before it wraps. Keep
@@ -2199,7 +2293,7 @@ document.querySelectorAll('.askai-chip').forEach(function(a){
 <footer>
   <div class="wrap">
     <div class="foot-top">
-      <div class="foot-brand"><img src="assets/kiro-app-icon-256.png" alt=""/><b>Iro AI</b></div>
+      <div class="foot-brand"><img src="assets/kiro-app-icon-128.webp" alt=""/><b>Iro AI</b></div>
       <div class="foot-links">
         <a href="#showcase">How it works</a>
         <a href="#ask-iro">Iro coach</a>
@@ -2263,17 +2357,17 @@ var RANK_TIERS = {
   // Each sample build averages into its own band on the tier ladder and peaks
   // on a different skill, so the six of them show all six archetypes.
   var BUILDS = {
-    bronze:     { mascot:'assets/bronze-kiro.webp',
+    bronze:     { mascot:'assets/bronze-kiro-480.webp',
       scores:{ strategy:28, research:30, prompting:34, execution:42, automation:22, writing:38 } },
-    silver:     { mascot:'assets/silver-kiro.webp',
+    silver:     { mascot:'assets/silver-kiro-480.webp',
       scores:{ strategy:44, research:46, prompting:52, execution:42, automation:36, writing:62 } },
-    gold:       { mascot:'assets/gold-kiro.webp',
+    gold:       { mascot:'assets/gold-kiro-480.webp',
       scores:{ strategy:72, research:92, prompting:78, execution:48, automation:22, writing:64 } },
-    platinum:   { mascot:'assets/platinum-kiro.webp',
+    platinum:   { mascot:'assets/platinum-kiro-480.webp',
       scores:{ strategy:88, research:84, prompting:82, execution:70, automation:58, writing:74 } },
-    diamond:    { mascot:'assets/diamond-kiro.webp',
+    diamond:    { mascot:'assets/diamond-kiro-480.webp',
       scores:{ strategy:88, research:87, prompting:96, execution:86, automation:84, writing:89 } },
-    titan:      { mascot:'assets/iridescent-kiro.webp',
+    titan:      { mascot:'assets/iridescent-kiro-480.webp',
       scores:{ strategy:96, research:95, prompting:97, execution:94, automation:99, writing:96 } }
   };
   var DEFAULT_RANK = 'gold';
@@ -2295,24 +2389,24 @@ var RANK_TIERS = {
       paths:[
         {n:'AI Foundations',s:'Foundations',emoji:'🧬',c:'#06D6A0'},
         {n:'AI for Healthcare',s:'Healthcare',emoji:'🏥',c:'#9B8CFF'},
-        {n:'Perplexity',s:'Perplexity',logo:'assets/perplexity.png',c:'#4A90E2'},
+        {n:'Perplexity',s:'Perplexity',logo:'assets/perplexity-96.webp',c:'#4A90E2'},
         {n:'AI for School',s:'School',emoji:'🎓',c:'#FF9F1C'},
         {n:'NotebookLM',s:'NotebookLM',emoji:'📓',c:'#4E8CFF'}] },
     { id:'prompting', emoji:'⚡', label:'PROMPTING', deg:120, color:'#FFC940',
       desc:'Pull reliable, high-signal output from any model.',
       paths:[
         {n:'Prompt Engineering',s:'Prompt Eng',emoji:'💬',c:'#00E5FF'},
-        {n:'ChatGPT',s:'ChatGPT',logo:'assets/chatgpt.png',c:'#10A37F'},
-        {n:'Claude',s:'Claude',logo:'assets/claude.png',c:'#D97757'},
-        {n:'Gemini',s:'Gemini',logo:'assets/gemini.png',c:'#6F7BFF'},
-        {n:'Grok',s:'Grok',logo:'assets/grok.webp',c:'#C084FC'}] },
+        {n:'ChatGPT',s:'ChatGPT',logo:'assets/chatgpt-96.webp',c:'#10A37F'},
+        {n:'Claude',s:'Claude',logo:'assets/claude-96.webp',c:'#D97757'},
+        {n:'Gemini',s:'Gemini',logo:'assets/gemini-96.webp',c:'#6F7BFF'},
+        {n:'Grok',s:'Grok',logo:'assets/grok-96.webp',c:'#C084FC'}] },
     { id:'execution', emoji:'🚀', label:'EXECUTION', deg:180, color:'#FF9D4D',
       desc:'Turn AI output into shipped, real-world work.',
       paths:[
         {n:'AI Tools',s:'AI Tools',emoji:'🛠️',c:'#FF6B35'},
         {n:'AI for Job Hunting',s:'Job Hunting',emoji:'💼',c:'#4C9AFF'},
         {n:'AI for Productivity',s:'Productivity',emoji:'🎯',c:'#14B8A6'},
-        {n:'Microsoft Copilot',s:'Copilot',logo:'assets/copilot.webp',c:'#2DD4BF'},
+        {n:'Microsoft Copilot',s:'Copilot',logo:'assets/copilot-96.webp',c:'#2DD4BF'},
         {n:'AI Slides & Decks',s:'Slides',emoji:'📊',c:'#38BDF8'}] },
     { id:'automation',emoji:'⚙️', label:'AUTOMATION',deg:240, color:'#5B9DFF',
       desc:'Build workflows and agents that run without you.',
@@ -2328,8 +2422,8 @@ var RANK_TIERS = {
         {n:'AI for Marketing',s:'Marketing',emoji:'📣',c:'#FF2D55'},
         {n:'AI Image Generation',s:'Image Gen',emoji:'🎨',c:'#FF5FA2'},
         {n:'AI Video Generation',s:'Video Gen',emoji:'🎬',c:'#7C5CFF'},
-        {n:'Suno',s:'Suno',logo:'assets/suno.png',c:'#FF6B4A'},
-        {n:'ElevenLabs',s:'ElevenLabs',logo:'assets/elevenlabs.png',c:'#38BDF8'}] }
+        {n:'Suno',s:'Suno',logo:'assets/suno-96.webp',c:'#FF6B4A'},
+        {n:'ElevenLabs',s:'ElevenLabs',logo:'assets/elevenlabs-96.webp',c:'#38BDF8'}] }
   ];
 
   // Archetype comes from the strongest skill, not the rank.
@@ -2428,14 +2522,18 @@ var RANK_TIERS = {
     var bubbleBtn = document.createElement('button');
     bubbleBtn.type = 'button';
     bubbleBtn.className = 'uni-bubble-box';
-    bubbleBtn.setAttribute('aria-label', 'Iro tip, tap for the next one');
-    bubbleBtn.textContent = BUBBLE_LINES[0];
+    var bubbleTxt = document.createElement('span');
+    var bubbleHint = document.createElement('span');
+    bubbleHint.className = 'sr-only';
+    bubbleHint.textContent = ' (Iro tip, tap for the next one)';
+    bubbleTxt.textContent = BUBBLE_LINES[0];
+    bubbleBtn.appendChild(bubbleTxt); bubbleBtn.appendChild(bubbleHint);
     bubbleEl.appendChild(bubbleBtn);
     var bIdx = 0, bTimer = null, bStarted = false;
     function bShow(i){
       bIdx = ((i % BUBBLE_LINES.length) + BUBBLE_LINES.length) % BUBBLE_LINES.length;
       bubbleEl.classList.add('swapping');
-      setTimeout(function(){ bubbleBtn.textContent = BUBBLE_LINES[bIdx]; bubbleEl.classList.remove('swapping'); }, 200);
+      setTimeout(function(){ bubbleTxt.textContent = BUBBLE_LINES[bIdx]; bubbleEl.classList.remove('swapping'); }, 200);
     }
     function bNext(){ bShow(bIdx + 1); }
     function bStop(){ if (bTimer){ clearInterval(bTimer); bTimer = null; } }
@@ -2612,6 +2710,9 @@ var RANK_TIERS = {
     { img:'assets/screens/prompt-builder.webp', t:'Practice',     h:'Practice in 5 minutes',      tag:'HANDS-ON',
       d:'Match each AI tool to what it actually does best, then check your answer.',
       b:['Pair ChatGPT, Claude, Gemini and Perplexity to real strengths','Learn which tool to reach for before you need it','Instant check, with your streak on the line'] },
+    { img:'assets/screens/ask-iro.webp', t:'Coach',        h:'Ask Iro what to do next',    tag:'AI COACH',
+      d:'Iro quizzes you on today&rsquo;s lesson, explains the why, and points you at the next rep.',
+      b:['&ldquo;Quiz me on today&rsquo;s lesson&rdquo;','Explanations, not just answers','One tap into Prompt Lab practice'] },
     { img:'assets/screens/create-path.webp', t:'Create',       h:'Create any AI path',         tag:'CUSTOM PATHS',
       d:'Type any goal and Iro builds a custom path in seconds, lessons, quiz and recap included.',
       b:['&ldquo;Learn AI for work&rdquo; &rarr; a full path','Interviews, agents, finance, anything','Community paths from other learners'] },
@@ -2624,9 +2725,6 @@ var RANK_TIERS = {
     { img:'assets/screens/duels-tab.webp', t:'Duels',        h:'Win timed AI duels', tag:'AI DUELS \u00b7 PRO',
       d:'Five questions, fifteen seconds each, against an opponent matched to your rating.',
       b:['Skill-matched opponents','+25 XP a win, weekly arena challenges','A rating trend that tracks your climb'] },
-    { img:'assets/screens/ask-iro.webp', t:'Coach',        h:'Ask Iro what to do next',    tag:'AI COACH',
-      d:'Iro quizzes you on today&rsquo;s lesson, explains the why, and points you at the next rep.',
-      b:['&ldquo;Quiz me on today&rsquo;s lesson&rdquo;','Explanations, not just answers','One tap into Prompt Lab practice'] },
     { img:'assets/screens/news-refresh.webp', t:'AI news',      h:'Stay current with AI news',  tag:'WEEKLY',
       d:'Weekly AI briefings with read-and-quiz exercises. Earn XP for keeping up.',
       b:['The week&rsquo;s AI stories, minus the hype','A 3-question quiz on every story','+30 XP early-bird bonus'] },
@@ -2787,6 +2885,26 @@ var RANK_TIERS = {
   function onScrollNav(){ if(nav) nav.classList.toggle('scrolled', window.scrollY > 12); }
   onScrollNav();
   window.addEventListener('scroll', onScrollNav, { passive: true });
+
+  /* ---- mobile menu (disclosure) ---- */
+  var menuBtn = document.getElementById('navMenu');
+  var menuLinks = document.getElementById('navLinks');
+  if (nav && menuBtn && menuLinks) {
+    var setMenu = function (open) {
+      nav.classList.toggle('open', open);
+      menuBtn.setAttribute('aria-expanded', open ? 'true' : 'false');
+      menuBtn.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
+    };
+    menuBtn.addEventListener('click', function () { setMenu(!nav.classList.contains('open')); });
+    menuLinks.addEventListener('click', function (e) { if (e.target.closest('a')) setMenu(false); });
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape' && nav.classList.contains('open')) { setMenu(false); menuBtn.focus(); }
+    });
+    document.addEventListener('click', function (e) {
+      if (nav.classList.contains('open') && !nav.contains(e.target)) setMenu(false);
+    });
+    window.matchMedia('(min-width:761px)').addEventListener('change', function (m) { if (m.matches) setMenu(false); });
+  }
 
   /* ---- reveal on scroll ---- */
   var reveals = document.querySelectorAll('.reveal:not(.in)');
