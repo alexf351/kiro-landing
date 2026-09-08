@@ -3,6 +3,7 @@
   "order": 36,
   "pillar": "ai-fluency",
   "title": "AI for small business: practical ways to use it in 2026",
+  "metaTitle": "AI for Small Business: Practical Uses in 2026",
   "lede": "Small businesses can use AI today to save hours on marketing, customer service, admin, and analysis. No technical team required. Here are the highest-value uses and how to start safely.",
   "keyTakeaways": [
     "Small businesses can get real value from AI now without a technical team: start with marketing, customer service, admin, and analysis.",
@@ -10,7 +11,7 @@
     "Verify anything customer-facing or financial, and don't paste sensitive data into tools you haven't vetted.",
     "The biggest win is time: AI handles the busywork so you focus on customers and growth."
   ],
-  "description": "AI for small business in 2026: practical, no-code ways to use AI for marketing, customer service, admin, and analysis. The best starting tasks, free tools, and how to do it safely.",
+  "description": "Practical, no-code ways small businesses can use AI for marketing, customer service, admin, and analysis, plus free tools and how to start safely.",
   "keywords": [
     "AI for small business",
     "how small businesses can use AI",
@@ -75,7 +76,7 @@
     {
       "id": "skill",
       "heading": "The real advantage: getting fluent",
-      "html": "<p>Any competitor can open ChatGPT. The edge goes to owners and teams who use it <em>well</em>: clear prompts, good judgment, AI woven into the workflow. That's <a href=\"/blog/what-is-ai-fluency\">AI fluency</a>, and a few minutes of practice a day compounds fast. Iro AI builds it through short lessons, including paths for marketing, business, and work. See where your team stands with the free <a href=\"/quiz\">AI IQ test</a>.</p>"
+      "html": "<p>Any competitor can open ChatGPT. The edge goes to owners and teams who use it <em>well</em>: clear prompts, good judgment, AI woven into the workflow. That's <a href=\"/blog/what-is-ai-fluency\">AI fluency</a>, and a few minutes of practice a day compounds fast. Iro AI builds it through short lessons, including paths for marketing, business, and work; if you're the owner wearing every hat, <a href=\"/ai-for-founders\">AI for founders</a> is the track aimed at doing more with a lean team. See where your team stands with the free <a href=\"/quiz\">AI IQ test</a>.</p>"
     }
   ],
   "readNext": [

@@ -47,7 +47,7 @@ AI fluency is not one skill: it is four, stacked. Each layer makes the next one 
 - **Judgment.** Evaluating the output: catching [hallucinations](/blog/spot-ai-hallucinations), checking facts and sources, and deciding whether to trust, edit, or throw the answer away. This is the layer that separates fluent users from people who get burned by confident-sounding mistakes.
 - **Application.** Wiring AI into your real work and habits so it compounds: drafting, summarizing, analyzing, automating the boring parts, and knowing which tasks to delegate to AI versus do yourself.
 
-Most beginners over-invest in layer one and ignore three and four. Fluency comes from balancing all four.
+Most beginners over-invest in layer one and ignore three and four. Fluency comes from balancing all four. If you'd rather see this as levels to climb, [the AI Fluency Pyramid](/blog/the-ai-fluency-pyramid) maps five stages from merely having access to fully integrating AI into your work.
 
 ## AI fluency vs AI literacy: what's the difference?
 

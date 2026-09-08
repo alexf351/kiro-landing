@@ -3,6 +3,7 @@
   "order": 72,
   "pillar": "ai-tools",
   "title": "The best AI model for writing in 2026 (by what you're writing)",
+  "metaTitle": "Best AI Model for Writing in 2026, by Genre",
   "lede": "Claude Fable 5 leads on prose, GPT-5.6 leads on ideas, and the model matters less than most people think. An honest guide by genre.",
   "keyTakeaways": [
     "Claude Fable 5 is the strongest model for prose quality. It is Anthropic's purpose-built creative model and holds the highest Arena Elo of any tracked model at 1508 as of July 2026.",
@@ -10,7 +11,7 @@
     "Model choice is genuinely secondary for writing. What you feed it (voice samples, constraints, real detail) changes the output far more than switching models does.",
     "Every current model has tells: over-balanced sentences, hedging, tidy summary paragraphs. Recognising and cutting them is the actual skill."
   ],
-  "description": "The best AI model for writing in 2026: Claude Fable 5 for prose, GPT-5.6 for ideation, and how to pick by genre: fiction, business writing, blogging, and editing.",
+  "description": "Claude Fable 5 leads on prose, GPT-5.6 on ideation, and how to pick by genre: fiction, business writing, blogging, and editing. Plus the AI tells to cut.",
   "keywords": [
     "best AI model for writing",
     "best AI for creative writing",

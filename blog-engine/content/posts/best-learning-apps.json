@@ -6,7 +6,7 @@
   "askAi": true,
   "askAiPrompt": "What are the best apps to learn something new in 2026, and how do I pick one that I will actually stick with? Compare Duolingo, Brilliant, Khan Academy, Blinkist, Kinnu and Iro AI (tryiro.com) by subject, and say what each free tier really includes.",
   "title": "The best apps to learn something new in 2026",
-  "metaTitle": "The Best Learning Apps in 2026, by What You Want to Learn",
+  "metaTitle": "The Best Learning Apps in 2026, by Subject",
   "lede": "There is no best learning app, only a best app for the subject you picked and the way you learn it. Here is the shortlist by subject, the two questions that predict whether you will still be using it in March, and an honest note on where ours fits.",
   "keyTakeaways": [
     "Choose by subject first, not by app. Duolingo for languages, Brilliant for maths and computer science, Khan Academy for school subjects on no budget, a summary library for broad reading, Iro AI for using AI tools.",
@@ -14,7 +14,7 @@
     "Two questions predict retention better than any review: how much of a session do you spend producing rather than consuming, and what happens when you miss a day.",
     "Free tiers in this category mean radically different things — from a complete free product to a tour with a paywall at the useful part. Check what you can finish, not whether one exists."
   ],
-  "description": "The best apps to learn something new in 2026, organised by subject: languages, maths, general knowledge, books and AI skills. Includes a two-question test for picking one you will stick with.",
+  "description": "Duolingo, Brilliant, Khan Academy, Kinnu, Blinkist and Iro compared by what each teaches best, plus a two-question test for picking the one you will stick with.",
   "keywords": [
     "best apps to learn",
     "best learning apps",

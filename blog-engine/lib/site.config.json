@@ -39,7 +39,7 @@
     "appleTouch": "/assets/apple-touch-icon.png",
     "tile": "/assets/kiro-app-icon-256.png",
     "logo512": "/assets/kiro-app-icon-512.png",
-    "brand": "/assets/kiro-app-icon-256.png"
+    "brand": "/assets/kiro-app-icon-128.webp"
   },
   "nav": [
     {
@@ -75,8 +75,23 @@
       "external": false
     },
     {
+      "href": "/editorial-policy",
+      "label": "Editorial policy",
+      "external": false
+    },
+    {
+      "href": "/for-educators",
+      "label": "For educators",
+      "external": false
+    },
+    {
       "href": "/blog",
       "label": "Blog",
+      "external": false
+    },
+    {
+      "href": "/paths",
+      "label": "Learning paths",
       "external": false
     },
     {

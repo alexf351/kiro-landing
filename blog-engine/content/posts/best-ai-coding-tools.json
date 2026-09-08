@@ -61,7 +61,7 @@
     {
       "id": "tools",
       "heading": "The best AI coding tools, compared",
-      "html": "<ul><li><strong>GitHub Copilot</strong>: inline autocomplete and chat right in your editor; the default for many developers.</li><li><strong>Cursor</strong>: an AI-first editor that's excellent at multi-file, in-context edits and agentic changes.</li><li><strong>Claude (and Claude Code)</strong>: strong at reasoning, large refactors, and clear explanations; great for thinking through architecture. See <a href=\"/learn-claude\">learning Claude</a>.</li><li><strong>ChatGPT</strong>: a versatile all-rounder for generating, debugging, and explaining code. See <a href=\"/learn-chatgpt\">learning ChatGPT</a>.</li><li><strong>Gemini</strong>: capable and tightly integrated with Google's ecosystem. See <a href=\"/learn-gemini\">learning Gemini</a>.</li></ul>"
+      "html": "<ul><li><strong>GitHub Copilot</strong>: inline autocomplete and chat right in your editor; the default for many developers.</li><li><strong>Cursor</strong>: an AI-first editor that's excellent at multi-file, in-context edits and agentic changes. See <a href=\"/learn-cursor\">learning Cursor</a> for agent mode, rules, and reviewing AI code.</li><li><strong>Claude (and Claude Code)</strong>: strong at reasoning, large refactors, and clear explanations; great for thinking through architecture. See <a href=\"/learn-claude\">learning Claude</a>.</li><li><strong>ChatGPT</strong>: a versatile all-rounder for generating, debugging, and explaining code. See <a href=\"/learn-chatgpt\">learning ChatGPT</a>.</li><li><strong>Gemini</strong>: capable and tightly integrated with Google's ecosystem. See <a href=\"/learn-gemini\">learning Gemini</a>.</li></ul>"
     },
     {
       "id": "pick",
@@ -76,7 +76,7 @@
     {
       "id": "good",
       "heading": "How to actually get good",
-      "html": "<p>The tool is a multiplier on your own clarity. Developers who get the most from AI write precise specs, supply the right context, and review every change. They don't paste and pray. That's <a href=\"/become-ai-fluent\">AI fluency</a> applied to code, and like any skill it grows with reps. You can <a href=\"/learn-ai-in-5-minutes-a-day\">practice in about 5 minutes a day</a>, and the <a href=\"/best-ai-learning-app\">best AI learning apps</a> build the habit through active practice. Check your level with the free <a href=\"/quiz\">AI IQ test</a>.</p>"
+      "html": "<p>The tool is a multiplier on your own clarity. Developers who get the most from AI write precise specs, supply the right context, and review every change. They don't paste and pray. That's <a href=\"/become-ai-fluent\">AI fluency</a> applied to code, and like any skill it grows with reps — the <a href=\"/ai-for-developers\">AI for developers</a> track is built around exactly those reps. You can <a href=\"/learn-ai-in-5-minutes-a-day\">practice in about 5 minutes a day</a>, and the <a href=\"/best-ai-learning-app\">best AI learning apps</a> build the habit through active practice. Check your level with the free <a href=\"/quiz\">AI IQ test</a>.</p>"
     }
   ],
   "readNext": [

@@ -3,6 +3,7 @@
   "order": 82,
   "pillar": "ai-fluency",
   "title": "How to spot an AI app subscription trap before you pay",
+  "metaTitle": "How to spot an AI app subscription trap",
   "lede": "A wave of AI learning apps run the same funnel: a personality quiz, a cheap first week, then a charge several times larger. None of it is illegal. All of it is visible before you enter a card, if you know the four things to look for.",
   "keyTakeaways": [
     "The pattern is a quiz that produces a personalised plan, an intro price of a few dollars, then a recurring charge five to fifty times higher.",
@@ -11,7 +12,7 @@
     "The quiz usually has no effect on your price, and in funnels that vary the price, it can work against you.",
     "Four checks take about a minute: renewal price, renewal date, where cancelling happens, and what the refund policy requires of you."
   ],
-  "description": "How to spot an AI learning app subscription trap: the quiz funnel pattern, what refund policies actually require, where the cancel button lives, and a 60-second check before you enter a card.",
+  "description": "The quiz funnel behind AI learning app subscriptions: what refund policies really require, where the cancel button lives, and a 60-second check before you pay.",
   "disclosure": true,
   "askAi": true,
   "askAiPrompt": "What should I check before subscribing to an AI learning app like Coursiv, Finestro or Learnova, and how does Iro AI (tryiro.com) compare on pricing and cancellation?",
@@ -84,7 +85,7 @@
     {
       "id": "check",
       "heading": "The 60-second check",
-      "html": "<p>Before you enter a card into any AI app, ours included, find these four things. All are visible before you pay, and an app that makes one hard to find has told you something.</p><ol><li><strong>The renewal price.</strong> Not the intro price. The number you pay in week two.</li><li><strong>The renewal date.</strong> Put it in your calendar with a reminder a day early. This one step prevents most of the complaints in this article.</li><li><strong>Where cancelling happens.</strong> Phone settings, or an email to support?</li><li><strong>What the refund policy requires of you.</strong> Not whether one exists. What you must have done to qualify.</li></ol><p>Since we are asking you to apply this to us: <strong>Iro AI is our app.</strong> It is free to start, every lesson in all 29 paths is free with a a battery pacing practice, and Pro is $49.99 a year with a 7-day trial or $9.99 a month. It is billed through the App Store, so cancelling is the two-tap route. There is no discounted intro week that converts to a higher rate. Check those claims against our App Store listing before you believe them.</p><p>And since we are asking you to apply the four checks to us, the product behind them: <strong>29 paths, 477 lessons and 3,000+ exercises across 24 exercise types</strong>, Prompt Lab, Ask Iro, an Image Lab, duels, Custom Paths and certificates, with every path open on the free tier so you can test the claim before paying.</p><p class=\"note\">Third-party prices and ratings here are US figures at the time of writing and change without notice. Last reviewed August 2026.</p>"
+      "html": "<p>Before you enter a card into any AI app, ours included, find these four things. All are visible before you pay, and an app that makes one hard to find has told you something.</p><ol><li><strong>The renewal price.</strong> Not the intro price. The number you pay in week two.</li><li><strong>The renewal date.</strong> Put it in your calendar with a reminder a day early. This one step prevents most of the complaints in this article.</li><li><strong>Where cancelling happens.</strong> Phone settings, or an email to support?</li><li><strong>What the refund policy requires of you.</strong> Not whether one exists. What you must have done to qualify.</li></ol><p>Since we are asking you to apply this to us: <strong>Iro AI is our app.</strong> It is free to start, every lesson in all 29 paths is <a href=\"/free-ai-learning-app\">free, with a battery pacing practice</a>, and Pro is $49.99 a year with a 7-day trial or $9.99 a month. It is billed through the App Store, so cancelling is the two-tap route. There is no discounted intro week that converts to a higher rate. Check those claims against our App Store listing before you believe them.</p><p>And since we are asking you to apply the four checks to us, the product behind them: <strong>29 paths, 477 lessons and 3,000+ exercises across 24 exercise types</strong>, Prompt Lab, Ask Iro, an Image Lab, duels, Custom Paths and certificates, with every path open on the free tier so you can test the claim before paying.</p><p class=\"note\">Third-party prices and ratings here are US figures at the time of writing and change without notice. Last reviewed August 2026.</p>"
     },
     {
       "id": "already",

@@ -64,7 +64,7 @@ It's the safest default if you want a single general-purpose assistant. Learn it
 - **In-context actions**: summarize a thread, draft a doc, or analyze a spreadsheet without leaving the app.
 - **Enterprise fit** for organizations already standardized on Microsoft.
 
-If your day runs on Office, Copilot removes friction ChatGPT can't.
+If your day runs on Office, Copilot removes friction ChatGPT can't. Get up to speed with it in Word, Excel, Outlook, and Teams at [learn Microsoft Copilot](/learn-copilot).
 
 ## How to choose
 

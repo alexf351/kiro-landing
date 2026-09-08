@@ -3,6 +3,7 @@
   "order": 70,
   "pillar": "ai-tools",
   "title": "The best AI video generators in 2026 (and the one to avoid building on)",
+  "metaTitle": "The best AI video generators in 2026, compared",
   "lede": "Veo 3.1 wins on quality, Kling 3.0 wins on price, and Sora 2 is being shut down. Here's how to pick, and what the tools still can't do.",
   "keyTakeaways": [
     "Google Veo 3.1 is the quality leader: true 4K at up to 60fps with native 48kHz audio, but clips cap at about 8 seconds.",
@@ -10,7 +11,7 @@
     "Sora 2 produces the most physically convincing motion and allows 15-second clips, but OpenAI shut its consumer app on 26 April 2026 and its API sunsets on 24 September 2026. Do not build on it.",
     "Runway Gen-4.5 remains the pick when you need fine creative control rather than one-shot generation."
   ],
-  "description": "The best AI video generators in 2026 compared: Google Veo 3.1, Kling 3.0, Sora 2, and Runway Gen-4.5. Quality, pricing, clip length, and which to choose for your use case.",
+  "description": "Veo 3.1, Kling 3.0, Sora 2 and Runway Gen-4.5 compared on quality, price and clip length, plus why Sora 2 is shutting down and should not be built on.",
   "keywords": [
     "best AI video generator",
     "AI video generator 2026",

@@ -38,7 +38,7 @@ pillar: "ai-tools"
 ## The best AI coding tools, compared
 
 - **GitHub Copilot**: inline autocomplete and chat right in your editor; the default for many developers.
-- **Cursor**: an AI-first editor that's excellent at multi-file, in-context edits and agentic changes.
+- **Cursor**: an AI-first editor that's excellent at multi-file, in-context edits and agentic changes. See [learning Cursor](/learn-cursor) for agent mode, rules, and reviewing AI code.
 - **Claude (and Claude Code)**: strong at reasoning, large refactors, and clear explanations; great for thinking through architecture. See [learning Claude](/learn-claude).
 - **ChatGPT**: a versatile all-rounder for generating, debugging, and explaining code. See [learning ChatGPT](/learn-chatgpt).
 - **Gemini**: capable and tightly integrated with Google's ecosystem. See [learning Gemini](/learn-gemini).
@@ -53,7 +53,7 @@ Match the tool to the job. Want suggestions as you type? Copilot. Want an AI tha
 
 ## How to actually get good
 
-The tool is a multiplier on your own clarity. Developers who get the most from AI write precise specs, supply the right context, and review every change. They don't paste and pray. That's [AI fluency](/become-ai-fluent) applied to code, and like any skill it grows with reps. You can [practice in about 5 minutes a day](/learn-ai-in-5-minutes-a-day), and the [best AI learning apps](/best-ai-learning-app) build the habit through active practice. Check your level with the free [AI IQ test](/quiz).
+The tool is a multiplier on your own clarity. Developers who get the most from AI write precise specs, supply the right context, and review every change. They don't paste and pray. That's [AI fluency](/become-ai-fluent) applied to code, and like any skill it grows with reps — the [AI for developers](/ai-for-developers) track is built around exactly those reps. You can [practice in about 5 minutes a day](/learn-ai-in-5-minutes-a-day), and the [best AI learning apps](/best-ai-learning-app) build the habit through active practice. Check your level with the free [AI IQ test](/quiz).
 
 ## FAQ
 

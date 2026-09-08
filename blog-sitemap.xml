@@ -13,7 +13,7 @@
   </url>
   <url>
     <loc>https://tryiro.com/blog/ai-fluency</loc>
-    <lastmod>2026-08-21</lastmod>
+    <lastmod>2026-09-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.88</priority>
     <image:image>
@@ -23,22 +23,22 @@
   </url>
   <url>
     <loc>https://tryiro.com/blog/prompt-engineering</loc>
-    <lastmod>2026-08-03</lastmod>
+    <lastmod>2026-09-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.88</priority>
     <image:image>
       <image:loc>https://tryiro.com/assets/og/prompt-engineering.png</image:loc>
-      <image:title>Prompt Engineering: Patterns That Survive Model Updates</image:title>
+      <image:title>Prompt Engineering: Patterns That Survive Updates</image:title>
     </image:image>
   </url>
   <url>
     <loc>https://tryiro.com/blog/ai-agents</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-09-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.88</priority>
     <image:image>
       <image:loc>https://tryiro.com/assets/og/ai-agents.png</image:loc>
-      <image:title>AI Agents &amp; Automation: From Hype to Working Systems</image:title>
+      <image:title>AI Agents &amp; Automation: Hype to Working Systems</image:title>
     </image:image>
   </url>
   <url>
@@ -48,7 +48,7 @@
     <priority>0.88</priority>
     <image:image>
       <image:loc>https://tryiro.com/assets/og/ai-tools.png</image:loc>
-      <image:title>AI Tools in 2026: Pick the Right One, Then Use It Well</image:title>
+      <image:title>AI Tools in 2026: Pick One, Then Use It Well</image:title>
     </image:image>
   </url>
   <url>
@@ -63,7 +63,7 @@
   </url>
   <url>
     <loc>https://tryiro.com/blog/prompt-engineering-patterns</loc>
-    <lastmod>2026-06-01</lastmod>
+    <lastmod>2026-09-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -83,7 +83,7 @@
   </url>
   <url>
     <loc>https://tryiro.com/blog/ai-agents-explained</loc>
-    <lastmod>2026-06-01</lastmod>
+    <lastmod>2026-09-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -133,7 +133,7 @@
   </url>
   <url>
     <loc>https://tryiro.com/blog/ai-automation-for-beginners</loc>
-    <lastmod>2026-06-01</lastmod>
+    <lastmod>2026-09-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -283,7 +283,7 @@
   </url>
   <url>
     <loc>https://tryiro.com/blog/how-to-use-ai-at-work</loc>
-    <lastmod>2026-06-04</lastmod>
+    <lastmod>2026-09-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -483,7 +483,7 @@
   </url>
   <url>
     <loc>https://tryiro.com/blog/ai-for-teachers</loc>
-    <lastmod>2026-06-11</lastmod>
+    <lastmod>2026-09-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -1159,6 +1159,16 @@
     <image:image>
       <image:loc>https://tryiro.com/assets/og/best-learning-apps.png</image:loc>
       <image:title>The best apps to learn something new in 2026</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://tryiro.com/blog/teach-ai-literacy-high-school</loc>
+    <lastmod>2026-09-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://tryiro.com/assets/og/teach-ai-literacy-high-school.png</image:loc>
+      <image:title>How to teach AI literacy to high school students</image:title>
     </image:image>
   </url>
 </urlset>

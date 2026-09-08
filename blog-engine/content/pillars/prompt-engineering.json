@@ -1,7 +1,7 @@
 {
   "slug": "prompt-engineering",
   "order": 2,
-  "title": "Prompt Engineering: Patterns That Survive Model Updates",
+  "title": "Prompt Engineering: Patterns That Survive Updates",
   "shortName": "Prompt Engineering",
   "tagline": "Reusable prompt structures for any model",
   "lede": "The transferable prompt patterns that work across ChatGPT, Claude, Gemini, and Perplexity — and survive every model upgrade.",

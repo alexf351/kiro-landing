@@ -7,8 +7,8 @@ app_store: "https://apps.apple.com/app/id6759628066"
 language: en-US
 keywords: ["how to use AI at work", "using AI at work", "AI for work", "AI at work examples", "how to use ChatGPT at work", "AI productivity at work"]
 date_published: "2026-06-04"
-date_modified: "2026-06-04"
-reading_time_minutes: 7
+date_modified: "2026-09-01"
+reading_time_minutes: 5
 author: "Alex Furukawa"
 license: "© 2026 Iro AI"
 canonical_llm_reference: "https://tryiro.com/llms-full.txt"
@@ -21,7 +21,8 @@ pillar: "ai-fluency"
 
 **Canonical:** https://tryiro.com/blog/how-to-use-ai-at-work
 **Published:** 2026-06-04
-**Reading time:** ~7 min
+**Updated:** 2026-09-01
+**Reading time:** ~5 min
 **Author:** Alex Furukawa — Founder of Iro AI
 
 ## Key takeaways
@@ -41,11 +42,11 @@ The goal isn't to replace your judgment; it's to remove the blank-page friction 
 
 These deliver value fast with low risk, across almost any role:
 
-- **Drafting:** emails, summaries, outlines, first drafts of documents. AI is excellent at beating the blank page.
-- **Summarizing:** condensing long threads, reports, or meeting notes into the key points.
-- **Brainstorming:** generating options, angles, names, and counterarguments to react to.
-- **Research (first pass):** getting oriented on a topic quickly, then verifying with sources (a tool like [Perplexity](/learn-perplexity) shows citations).
-- **Reformatting:** turning messy notes into a clean table, agenda, or checklist.
+- **Drafting:** emails, summaries, outlines, first drafts of documents. AI is excellent at beating the blank page. Try: _"Draft a 120-word email to a client explaining the deliverable slips one week. Include the new date, one plain sentence on why, and no groveling."_ More workflows like this in [AI productivity](/ai-productivity).
+- **Summarizing:** condensing long threads, reports, or meeting notes into the key points (see [AI for meetings](/ai-for-meetings) for the notes-to-action-items workflow). Try: _"Summarize this thread in five bullets: decisions made, open questions, and who owes what by when."_
+- **Brainstorming:** generating options, angles, names, and counterarguments to react to. Try: _"Give me 10 names for an internal training program: five safe, five unexpected. Then pick your top two and argue for them."_
+- **Research (first pass):** getting oriented on a topic quickly, then verifying with sources (a tool like [Perplexity](/learn-perplexity) shows citations). Try: _"I'm new to [topic]. Explain the five concepts I need first, where experts disagree, and what to read next."_
+- **Reformatting:** turning messy notes into a clean table, agenda, or checklist. Try: _"Turn these notes into a table with columns for task, owner, and deadline, and flag anything that has no owner."_ The same trick extends to spreadsheets: writing and explaining formulas, cleaning imported data. See [AI for Excel](/ai-for-excel).
 
 Hold AI back from high-stakes, final decisions and anything where a confident wrong answer would be costly, until you've verified it.
 
@@ -65,11 +66,13 @@ If the output is mediocre, the fix is almost always more context, not a fancier 
 
 That habit (context, format, iterate) is the core of [prompt engineering](/blog/what-is-prompt-engineering), and it works across ChatGPT, Claude, and Gemini. The [beginner prompt templates](/blog/chatgpt-prompts-for-beginners) are a good place to start for common work tasks.
 
+Same rules, different wrapper. Copilot in Microsoft 365 is a chat model wired into Word, Excel, and Outlook, so everything in this guide still applies: give it context, verify what it produces, and treat data with the same care, because being inside Office doesn't exempt a document from your company's policy. The upside is that it can already see the file you're working in, which solves half the context problem for you. If it's the tool on your desktop, learn its quirks — our guide to [how to use Microsoft Copilot](/blog/how-to-use-microsoft-copilot) explains the two very different products that share the name and how to prompt each one. Gemini fills the same role inside Google Workspace, and the same three rules carry over unchanged.
+
 ## Build the habit (a few minutes a day)
 
 Using AI at work becomes second nature the same way any skill does: short, daily, real practice. Pick one task a day to run through AI, notice what worked, and adjust. In two to three weeks it stops being a novelty and becomes part of how you work. That's [AI fluency](/blog/what-is-ai-fluency).
 
-If you want a structured path tailored to your role (marketing, finance, management, and more), Iro AI turns these habits into five-minute daily exercises with feedback. See [AI for work](/ai-for-work) or check where you stand with the free [AI IQ test](/quiz).
+If you want a structured path tailored to your role (marketing, finance, management, and more), Iro AI turns these habits into five-minute daily exercises with feedback. See [AI for work](/ai-for-work), compare options in our guide to the [best AI learning app for professionals](/blog/ai-learning-app-for-professionals), or check where you stand with the free [AI IQ test](/quiz).
 
 ## FAQ
 

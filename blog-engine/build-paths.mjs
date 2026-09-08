@@ -122,7 +122,7 @@ const CTA_UTM = (slug, placement) =>
 const FONTS =
   '<link rel="preconnect" href="https://fonts.googleapis.com"/>' +
   '<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>' +
-  '<link href="https://fonts.googleapis.com/css2?family=Geist:wght@400..900&family=Outfit:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet"/>';
+  '<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Geist:wght@400..900&family=Outfit:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap"/>\n<link href="https://fonts.googleapis.com/css2?family=Geist:wght@400..900&family=Outfit:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet" media="print" onload="this.media=\'all\'"/>\n<noscript><link href="https://fonts.googleapis.com/css2?family=Geist:wght@400..900&family=Outfit:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet"/></noscript>';
 
 const POSTHOG = `<script>
 !function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.crossOrigin="anonymous",p.async=!0,p.src=s.api_host.replace(".i.posthog.com","-assets.i.posthog.com")+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="init capture register register_once register_for_session unregister unregister_for_session getFeatureFlag getFeatureFlagPayload isFeatureEnabled reloadFeatureFlags updateEarlyAccessFeatureEnrollment getEarlyAccessFeatures on onFeatureFlags onSessionId getSurveys getActiveMatchingSurveys renderSurvey canRenderSurvey identify setPersonProperties group resetGroups setPersonPropertiesForFlags resetPersonPropertiesForFlags setGroupPropertiesForFlags resetGroupPropertiesForFlags reset get_distinct_id getGroups get_session_id get_session_replay_url alias set_config startSessionRecording stopSessionRecording sessionRecordingStarted captureException loadToolbar get_property getSessionProperty createPersonProfile opt_in_capturing opt_out_capturing has_opted_in_capturing has_opted_out_capturing clear_opt_in_out_capturing debug getPageViewId".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
@@ -203,17 +203,17 @@ function head({ title, description, canonical, ogImage, keywords, prev, next, js
     '\n<link rel="stylesheet" href="/iro.css"/>\n' +
     `<meta name="apple-itunes-app" content="app-id=${APPID}"/>\n` +
     POSTHOG +
-    '\n<script src="/llm-referrals.js"></script><script src="/prompt-capture.js" defer></script>\n' +
+    '\n<script src="/llm-referrals.js" defer></script><script src="/prompt-capture.js" defer></script>\n' +
     '<script defer data-website-id="dfid_pTmvsHyl8feOT2EfmXOim" data-domain="tryiro.com" src="https://datafa.st/js/script.js"></script>\n<script src="/datafast-goals.js" defer></script>\n</head>\n'
   );
 }
 
 const NAV =
-  '<header class="nav"><a class="brand" href="/"><img src="assets/kiro-app-icon-256.png" alt="Iro AI"/>Iro AI</a>' +
+  '<header class="nav"><a class="brand" href="/"><img src="assets/kiro-app-icon-128.webp" alt="" width="28" height="28"/>Iro AI</a>' +
   '<nav class="nav-links"><a href="/paths">Path library</a><a href="/learn-chatgpt">Learn ChatGPT</a><a href="/prompt-engineering-app">Prompt Engineering</a><a href="/quiz">AI IQ Test</a><a href="/about">About</a><a href="https://app.tryiro.com">Open web app</a></nav></header>';
 
 const FOOTER =
-  '<footer class="footer"><nav><a href="/paths">Path library</a><a href="/privacy">Privacy</a><a href="/terms">Terms</a><a href="/blog">Blog</a><a href="/blog/ai-fluency">AI fluency</a><a href="/blog/prompt-engineering">Prompt engineering</a><a href="/blog/ai-agents">AI agents</a><a href="/blog/ai-tools">AI tools</a><a href="https://instagram.com/tryiro" target="_blank" rel="noopener">Instagram</a><a href="https://www.tiktok.com/@tryiro" target="_blank" rel="noopener">TikTok</a><a href="https://www.youtube.com/@tryiroai" target="_blank" rel="noopener">YouTube</a><a href="https://x.com/tryiroapp" target="_blank" rel="noopener">X</a><a href="https://www.linkedin.com/company/iro-ai-app/" target="_blank" rel="noopener">LinkedIn</a><a href="https://app.tryiro.com">Web app / Log in</a></nav><p>© 2026 Iro AI. Master AI. Stay ahead.</p></footer>';
+  '<footer class="footer"><nav><a href="/paths">Path library</a><a href="/privacy">Privacy</a><a href="/terms">Terms</a><a href="/editorial-policy">Editorial policy</a><a href="/for-educators">For educators</a><a href="/blog">Blog</a><a href="/blog/ai-fluency">AI fluency guides</a><a href="/blog/prompt-engineering">Prompt engineering</a><a href="/blog/ai-agents">AI agents</a><a href="/blog/ai-tools">AI tools</a><a href="https://instagram.com/tryiro" target="_blank" rel="noopener">Instagram</a><a href="https://www.tiktok.com/@tryiro" target="_blank" rel="noopener">TikTok</a><a href="https://www.youtube.com/@tryiroai" target="_blank" rel="noopener">YouTube</a><a href="https://x.com/tryiroapp" target="_blank" rel="noopener">X</a><a href="https://www.linkedin.com/company/iro-ai-app/" target="_blank" rel="noopener">LinkedIn</a><a href="https://app.tryiro.com">Web app / Log in</a></nav><p>© 2026 Iro AI. Master AI. Stay ahead.</p></footer>';
 
 // ---------- page builder ----------
 function buildPage(p, allBySlug, siblings = []) {

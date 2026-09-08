@@ -3,6 +3,7 @@
   "order": 8,
   "pillar": "prompt-engineering",
   "title": "Why your AI prompts aren't working (and how to fix them)",
+  "metaTitle": "Why Your AI Prompts Aren't Working: 5 Fixes",
   "lede": "Five reasons prompts fail, and the quick fixes that turn vague output into useful work.",
   "keyTakeaways": [
     "Most weak AI results come from vague prompts, not weak models. The fix is clearer input.",
@@ -10,7 +11,7 @@
     "Ask for one thing at a time; overloaded prompts produce muddy answers.",
     "If the first answer is off, refine it with specific feedback instead of starting over."
   ],
-  "description": "If ChatGPT keeps giving you generic, useless answers, the prompt is usually the problem. Here are the five most common prompt mistakes and how to fix each one fast.",
+  "description": "If ChatGPT keeps giving you generic, useless answers, the prompt is usually the problem. Here are the five most common prompt mistakes and how to fix each.",
   "keywords": [
     "why ChatGPT gives bad answers",
     "fix AI prompts",

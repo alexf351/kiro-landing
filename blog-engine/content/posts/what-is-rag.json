@@ -3,6 +3,7 @@
   "order": 43,
   "pillar": "ai-fluency",
   "title": "What is RAG (retrieval-augmented generation)? Explained simply",
+  "metaTitle": "What Is RAG (Retrieval-Augmented Generation)?",
   "lede": "RAG, or retrieval-augmented generation, is a technique that lets an AI look up real information before answering, so it's more accurate and can cite sources. Here's how it works and why it matters.",
   "keyTakeaways": [
     "RAG (retrieval-augmented generation) connects an AI model to a real source of information so it retrieves facts before generating an answer.",
@@ -10,7 +11,7 @@
     "Perplexity and many AI search and 'chat with your documents' tools use RAG.",
     "You don't need to build RAG to benefit. Knowing it exists tells you why grounded, cited answers are more trustworthy."
   ],
-  "description": "What is RAG (retrieval-augmented generation)? A plain-English explanation: how it works, why it reduces hallucinations and adds citations, real examples, and why it matters.",
+  "description": "RAG (retrieval-augmented generation) lets an AI look up real information before answering. How it works, why it cuts hallucinations, and where you meet it.",
   "keywords": [
     "what is RAG",
     "retrieval augmented generation",

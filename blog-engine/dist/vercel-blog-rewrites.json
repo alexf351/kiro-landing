@@ -463,6 +463,10 @@
     {
       "source": "/blog/best-learning-apps",
       "destination": "/blog/best-learning-apps.html"
+    },
+    {
+      "source": "/blog/teach-ai-literacy-high-school",
+      "destination": "/blog/teach-ai-literacy-high-school.html"
     }
   ]
 }

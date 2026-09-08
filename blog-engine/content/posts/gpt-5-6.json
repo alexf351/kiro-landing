@@ -3,6 +3,7 @@
   "order": 66,
   "pillar": "ai-tools",
   "title": "GPT-5.6 Luna vs Terra vs Sol: which tier should you actually use?",
+  "metaTitle": "GPT-5.6 Pricing: Luna vs Terra vs Sol Tiers",
   "lede": "OpenAI shipped three models instead of one. Sol costs five times what Luna does. Here's how to tell which tier your work actually needs.",
   "keyTakeaways": [
     "GPT-5.6 launched on 9 July 2026 in three tiers: Luna ($1/$6 per million tokens), Terra ($2.50/$15), and Sol ($5/$30).",
@@ -10,7 +11,7 @@
     "Terra is the practical default: OpenAI positions it as competitive with GPT-5.5 at roughly half the cost, making it the obvious migration path off 5.5.",
     "Luna is built for volume, not depth, but it reportedly beats Claude Opus 4.8 on two coding benchmarks while costing a fraction as much, so it is not a toy tier."
   ],
-  "description": "GPT-5.6 explained: Luna, Terra, and Sol pricing, benchmarks, and which tier to use for coding, agents, writing, and high-volume work. Released 9 July 2026 by OpenAI.",
+  "description": "GPT-5.6 tiers compared: Luna at $1/$6, Terra at $2.50/$15, Sol at $5/$30 per million tokens, and which one to use for coding, agents, and high-volume work.",
   "keywords": [
     "GPT-5.6",
     "GPT-5.6 pricing",

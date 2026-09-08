@@ -1,11 +1,11 @@
 {
   "slug": "ai-agents",
   "order": 3,
-  "title": "AI Agents & Automation: From Hype to Working Systems",
+  "title": "AI Agents & Automation: Hype to Working Systems",
   "shortName": "AI Agents",
   "tagline": "What agents really are and when to use them",
   "lede": "A clear-eyed guide to AI agents and automation — what an agent actually is, when it beats a simple workflow, and how to design one that does not break.",
-  "description": "A clear-eyed guide to AI agents and automation: what an agent actually is, when it beats a simple workflow, and how to design one that does not break in production.",
+  "description": "AI agents and automation in 2026: what they actually are, where they work, and how to build a first one without the hype or a research budget.",
   "keywords": [
     "AI agents",
     "LLM agents",

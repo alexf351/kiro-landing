@@ -11,7 +11,7 @@
     "Model choice is a real decision: fast, low-latency models suit live and interactive use, while the higher-quality models suit anything people will actually sit and listen to.",
     "Cloning someone else's voice without documented permission is the line. Treat consent as a hard requirement rather than a formality."
   ],
-  "description": "What ElevenLabs is and how it works: text to speech, voice cloning, dubbing and sound effects, how the credit pricing actually adds up, which model to pick, and the consent rules that matter.",
+  "description": "What ElevenLabs is and how it works: text to speech, voice cloning, dubbing and sound effects, how credit pricing adds up, and which model to pick.",
   "askAi": true,
   "askAiPrompt": "What is ElevenLabs used for, how does its credit-based pricing work, and what are the rules and risks around AI voice cloning?",
   "keywords": [

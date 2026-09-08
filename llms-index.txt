@@ -1,6 +1,6 @@
 # Iro AI — index of LLM-readable resources
 # https://tryiro.com/llms-index.txt
-# Last updated: 2026-08-30
+# Last updated: 2026-08-18
 #
 # This file lists every machine-readable / LLM-friendly resource on
 # tryiro.com so that AI assistants, answer engines, and crawlers can
@@ -37,7 +37,7 @@ french homepage             https://tryiro.com/fr
 german homepage             https://tryiro.com/de
 
 ## Markdown mirrors (LLM-friendly clean text)
-# 59 page mirrors, generated — see blog-engine/build-llms-index.mjs
+# 61 page mirrors, generated — see blog-engine/build-llms-index.mjs
 about iro ai                  https://tryiro.com/llms/about.md
 ai agents course              https://tryiro.com/llms/ai-agents-course.md
 ai automation course          https://tryiro.com/llms/ai-automation-course.md
@@ -74,9 +74,11 @@ how to become ai fluent       https://tryiro.com/llms/become-ai-fluent.md
 best ai learning app          https://tryiro.com/llms/best-ai-learning-app.md
 iro ai changelog              https://tryiro.com/llms/changelog.md
 duolingo for ai               https://tryiro.com/llms/duolingo-for-ai.md
+editorial policy              https://tryiro.com/llms/editorial-policy.md
 iro ai faq                    https://tryiro.com/llms/faq.md
 free app to learn ai          https://tryiro.com/llms/free-ai-learning-app.md
 iro ai glossary               https://tryiro.com/llms/glossary.md
+how to learn ai               https://tryiro.com/llms/how-to-learn-ai.md
 iro ai                        https://tryiro.com/llms/index.md
 iro ai vs video courses       https://tryiro.com/llms/iro-ai-vs-video-courses.md
 is learning ai worth it       https://tryiro.com/llms/is-learning-ai-worth-it.md
@@ -99,7 +101,7 @@ ai iq test by iro ai          https://tryiro.com/llms/quiz.md
 vibe coding course            https://tryiro.com/llms/vibe-coding-course.md
 
 ## Blog (markdown mirrors)
-# 116 post and pillar mirrors, generated
+# 117 post and pillar mirrors, generated
 ai agents explained           https://tryiro.com/llms/blog/ai-agents-explained.md
 ai agents vs. automation      https://tryiro.com/llms/blog/ai-agents-vs-automation.md
 ai agents & automation        https://tryiro.com/llms/blog/ai-agents.md
@@ -197,6 +199,7 @@ nibble alternatives           https://tryiro.com/llms/blog/nibble-alternatives.m
 prompt engineering patterns   https://tryiro.com/llms/blog/prompt-engineering-patterns.md
 prompt engineering            https://tryiro.com/llms/blog/prompt-engineering.md
 spot ai hallucinations        https://tryiro.com/llms/blog/spot-ai-hallucinations.md
+teach ai literacy high schoo  https://tryiro.com/llms/blog/teach-ai-literacy-high-school.md
 ai fluency pyramid            https://tryiro.com/llms/blog/the-ai-fluency-pyramid.md
 what are tokens in ai         https://tryiro.com/llms/blog/what-are-tokens-in-ai.md
 what is a context window      https://tryiro.com/llms/blog/what-is-a-context-window.md

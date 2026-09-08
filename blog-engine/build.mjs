@@ -167,7 +167,7 @@ function askAiBlock(prompt, placement) {
 <script>document.querySelectorAll('.askai-chip').forEach(function(a){a.addEventListener('click',function(){if(window.posthog)posthog.capture('ask_ai_clicked',{engine:a.dataset.engine,placement:'${placement}'});});});</script>`;
 }
 
-const STYLE = `*{box-sizing:border-box}body{margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:#0A0E1A;color:#fff;line-height:1.75}a{color:#00E5FF;text-decoration:none}a:hover{text-decoration:underline}.page{min-height:100vh;background:radial-gradient(circle at 20% 0%,rgba(0,229,255,.16),transparent 34rem),radial-gradient(circle at 80% 10%,rgba(255,215,0,.08),transparent 30rem),#0A0E1A}.nav{position:sticky;top:0;z-index:10;display:flex;align-items:center;justify-content:space-between;gap:24px;padding:18px clamp(20px,5vw,64px);background:rgba(10,14,26,.82);backdrop-filter:blur(18px);border-bottom:1px solid rgba(255,255,255,.06)}.brand{display:flex;align-items:center;gap:10px;color:#fff;font-weight:900}.brand img{width:32px;height:32px;border-radius:9px}.nav-links{display:flex;gap:16px;flex-wrap:wrap;font-size:.95rem}.nav-links a{color:#C9D2EA}.hero,.content,.related,.faq{max-width:760px;margin:0 auto;padding:clamp(28px,5vw,56px) clamp(20px,5vw,36px)}.hero{padding-top:clamp(48px,8vw,96px)}.eyebrow{color:#00E5FF;text-transform:uppercase;letter-spacing:.14em;font-size:.78rem;font-weight:900;margin:0 0 14px}.hero h1{font-size:clamp(2rem,5vw,3.4rem);line-height:1.1;letter-spacing:-.04em;margin:0 0 18px}.lede{color:#C9D2EA;font-size:clamp(1.05rem,2vw,1.2rem);margin:0 0 22px;line-height:1.7}.meta{color:#8B95B0;font-size:.92rem;font-family:JetBrains Mono,ui-monospace,Menlo,monospace;display:flex;gap:18px;flex-wrap:wrap;margin-bottom:24px}.hero-img{width:100%;border-radius:18px;border:1px solid rgba(255,255,255,.08);margin:8px 0 20px;display:block}.content h2{font-size:clamp(1.4rem,3vw,2rem);margin:42px 0 12px;letter-spacing:-.02em;color:#fff;scroll-margin-top:72px}.content h3{font-size:1.18rem;margin:28px 0 10px;letter-spacing:-.01em;color:#fff}.content p,.content li{color:#CFD6EA;font-size:1.04rem}.content p{margin:0 0 16px}.content ul,.content ol{margin:0 0 16px;padding-left:22px}.content li{margin:6px 0}.content blockquote{margin:18px 0;padding:14px 18px;border-left:3px solid #00E5FF;background:rgba(0,229,255,.05);border-radius:0 14px 14px 0;color:#E6ECF8}.content code{background:rgba(0,229,255,.08);border:1px solid rgba(0,229,255,.18);padding:1px 6px;border-radius:6px;font-size:.92em;color:#CFF8FF}.toc{background:rgba(20,27,45,.7);border:1px solid rgba(255,255,255,.08);border-radius:18px;padding:18px 22px;margin:0 0 22px;font-size:.95rem}
+const STYLE = `*{box-sizing:border-box}body{margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:#0A0E1A;color:#fff;line-height:1.75}a{color:#00E5FF;text-decoration:none}a:hover{text-decoration:underline}.page{min-height:100vh;background:radial-gradient(circle at 20% 0%,rgba(0,229,255,.16),transparent 34rem),radial-gradient(circle at 80% 10%,rgba(255,215,0,.08),transparent 30rem),#0A0E1A}.nav{position:sticky;top:0;z-index:10;display:flex;align-items:center;justify-content:space-between;gap:24px;padding:18px clamp(20px,5vw,64px);background:rgba(10,14,26,.82);backdrop-filter:blur(18px);border-bottom:1px solid rgba(255,255,255,.06)}.brand{display:flex;align-items:center;gap:10px;color:#fff;font-weight:900}.brand img{width:32px;height:32px;border-radius:9px}.nav-links{display:flex;gap:16px;flex-wrap:wrap;font-size:.95rem}.nav-links a{color:#C9D2EA}.hero,.content,.related,.faq{max-width:760px;margin:0 auto;padding:clamp(28px,5vw,56px) clamp(20px,5vw,36px)}.hero{padding-top:clamp(48px,8vw,96px)}.eyebrow{color:#00E5FF;text-transform:uppercase;letter-spacing:.14em;font-size:.78rem;font-weight:900;margin:0 0 14px}.hero h1{font-size:clamp(2rem,5vw,3.4rem);line-height:1.1;letter-spacing:-.04em;margin:0 0 18px}.lede{color:#C9D2EA;font-size:clamp(1.05rem,2vw,1.2rem);margin:0 0 22px;line-height:1.7}.meta{color:#8B95B0;font-size:.92rem;font-family:JetBrains Mono,ui-monospace,Menlo,monospace;display:flex;gap:18px;flex-wrap:wrap;margin-bottom:24px}.hero-img{width:100%;height:auto;aspect-ratio:1200/630;object-fit:cover;border-radius:18px;border:1px solid rgba(255,255,255,.08);margin:8px 0 20px;display:block}.content h2{font-size:clamp(1.4rem,3vw,2rem);margin:42px 0 12px;letter-spacing:-.02em;color:#fff;scroll-margin-top:72px}.content h3{font-size:1.18rem;margin:28px 0 10px;letter-spacing:-.01em;color:#fff}.content p,.content li{color:#CFD6EA;font-size:1.04rem}.content p{margin:0 0 16px}.content ul,.content ol{margin:0 0 16px;padding-left:22px}.content li{margin:6px 0}.content blockquote{margin:18px 0;padding:14px 18px;border-left:3px solid #00E5FF;background:rgba(0,229,255,.05);border-radius:0 14px 14px 0;color:#E6ECF8}.content code{background:rgba(0,229,255,.08);border:1px solid rgba(0,229,255,.18);padding:1px 6px;border-radius:6px;font-size:.92em;color:#CFF8FF}.toc{background:rgba(20,27,45,.7);border:1px solid rgba(255,255,255,.08);border-radius:18px;padding:18px 22px;margin:0 0 22px;font-size:.95rem}
 /* v2: sticky TOC rail + comparison tables + editorial disclosure */
 .cmp-wrap{overflow-x:auto;margin:18px 0 10px}
 .cmp-table{width:100%;border-collapse:collapse;font-size:.92rem;line-height:1.45}
@@ -179,9 +179,9 @@ const STYLE = `*{box-sizing:border-box}body{margin:0;font-family:Inter,ui-sans-s
 .content .note{font-size:.92rem;color:#8B95B0;border-left:2px solid rgba(0,229,255,.3);padding-left:14px;margin:14px 0 0}
 .disclosure{font-size:.86rem;color:#7A87A8;background:rgba(20,27,45,.4);border-left:3px solid rgba(0,229,255,.35);border-radius:0 10px 10px 0;padding:9px 14px;margin:0 0 22px}
 .disclosure strong{color:#9BA7C4}
-@media(min-width:1440px){.toc{position:fixed;left:calc(50% - 706px);top:110px;width:232px;max-height:72vh;overflow:auto;margin:0;z-index:40}}.toc strong{color:#fff;display:block;margin-bottom:6px;font-size:.78rem;letter-spacing:.14em;text-transform:uppercase;color:#00E5FF}.toc a{color:#CFF8FF;font-weight:600;display:inline-block;margin:3px 14px 3px 0}.key-takeaways{background:linear-gradient(180deg,rgba(0,229,255,.08),rgba(0,229,255,.02));border:1px solid rgba(0,229,255,.22);border-radius:18px;padding:18px 24px 20px;margin:0 0 22px}.key-takeaways h2{font-size:.8rem;letter-spacing:.14em;text-transform:uppercase;color:#00E5FF;margin:0 0 10px;scroll-margin-top:72px}.key-takeaways ul{margin:0;padding-left:20px}.key-takeaways li{color:#E6ECF8;font-size:1.05rem;margin:8px 0;font-weight:500}.cta-box{background:rgba(20,27,45,.85);border:1px solid rgba(0,229,255,.25);border-radius:18px;padding:22px 24px;margin:28px 0;text-align:left}.cta-box h3{margin:0 0 8px;font-size:1.1rem;color:#fff}.cta-box p{margin:0 0 14px;color:#CFD6EA}.cta-row{display:flex;gap:12px;flex-wrap:wrap}.btn{display:inline-flex;align-items:center;justify-content:center;border-radius:999px;padding:12px 20px;font-weight:900;border:1px solid rgba(0,229,255,.35);background:linear-gradient(135deg,#00E5FF,#00B4D8);color:#06111c;font-size:.95rem}.btn.secondary{background:rgba(255,255,255,.06);color:#fff;border-color:rgba(255,255,255,.16)}.related h2,.faq h2{font-size:clamp(1.3rem,2.5vw,1.7rem);margin:0 0 14px;letter-spacing:-.02em}.related ul{list-style:none;padding:0;margin:0}.related li{background:rgba(20,27,45,.7);border:1px solid rgba(255,255,255,.08);border-radius:14px;padding:14px 18px;margin:10px 0}.related li a{font-weight:700;color:#fff}.related li p{margin:6px 0 0;color:#8B95B0;font-size:.92rem}.faq details{background:rgba(20,27,45,.78);border:1px solid rgba(255,255,255,.08);border-radius:14px;padding:14px 18px;margin:10px 0}.faq summary{font-weight:800;cursor:pointer;color:#fff}.faq p{color:#CFD6EA;margin:8px 0 0}.footer{padding:34px clamp(20px,5vw,64px);border-top:1px solid rgba(255,255,255,.08);color:#8B95B0;margin-top:48px}.footer nav{display:flex;gap:16px;flex-wrap:wrap;margin-bottom:10px}.footer a{color:#C9D2EA}.posts-list{list-style:none;padding:0;margin:0}.posts-list li{background:rgba(20,27,45,.7);border:1px solid rgba(255,255,255,.08);border-radius:18px;padding:22px 24px;margin:14px 0}.posts-list h2{font-size:1.3rem;margin:0 0 6px}.posts-list h2 a{color:#fff}.posts-list .meta{margin-bottom:6px}.posts-list p{color:#CFD6EA;margin:6px 0 0;font-size:1rem}.askai{text-align:center}.askai-sub{color:#8B95B0;font-size:.95rem;max-width:560px;margin:0 auto 18px}.askai-chips{display:flex;flex-wrap:wrap;justify-content:center;gap:10px}.askai-chip{display:inline-flex;align-items:center;gap:7px;padding:10px 18px;border-radius:999px;border:1px solid rgba(255,255,255,.14);background:rgba(255,255,255,.02);color:#fff;font-weight:600;font-size:.95rem}.askai-chip svg{flex:none}.askai-chip:hover{border-color:rgba(0,229,255,.55);text-decoration:none}.askai-chip span{font-size:.8rem;color:#8B95B0}.askai-chip:hover span{color:#00E5FF}@media(max-width:800px){.nav{align-items:flex-start;flex-direction:column}.hero h1{font-size:2.1rem}}`;
+@media(min-width:1440px){.toc{position:fixed;left:calc(50% - 706px);top:110px;width:232px;max-height:72vh;overflow:auto;margin:0;z-index:40}}.toc strong{color:#fff;display:block;margin-bottom:6px;font-size:.78rem;letter-spacing:.14em;text-transform:uppercase;color:#00E5FF}.toc a{color:#CFF8FF;font-weight:600;display:inline-block;margin:3px 14px 3px 0}.key-takeaways{background:linear-gradient(180deg,rgba(0,229,255,.08),rgba(0,229,255,.02));border:1px solid rgba(0,229,255,.22);border-radius:18px;padding:18px 24px 20px;margin:0 0 22px}.key-takeaways h2{font-size:.8rem;letter-spacing:.14em;text-transform:uppercase;color:#00E5FF;margin:0 0 10px;scroll-margin-top:72px}.key-takeaways ul{margin:0;padding-left:20px}.key-takeaways li{color:#E6ECF8;font-size:1.05rem;margin:8px 0;font-weight:500}.cta-box{background:rgba(20,27,45,.85);border:1px solid rgba(0,229,255,.25);border-radius:18px;padding:22px 24px;margin:28px 0;text-align:left}.cta-box h3{margin:0 0 8px;font-size:1.1rem;color:#fff}.cta-box .cta-h{margin:0 0 8px;font-size:1.1rem;font-weight:800;color:#fff}.cta-box p{margin:0 0 14px;color:#CFD6EA}.cta-row{display:flex;gap:12px;flex-wrap:wrap}.btn{display:inline-flex;align-items:center;justify-content:center;border-radius:999px;padding:12px 20px;font-weight:900;border:1px solid rgba(0,229,255,.35);background:linear-gradient(135deg,#00E5FF,#00B4D8);color:#06111c;font-size:.95rem}.btn.secondary{background:rgba(255,255,255,.06);color:#fff;border-color:rgba(255,255,255,.16)}.related h2,.faq h2{font-size:clamp(1.3rem,2.5vw,1.7rem);margin:0 0 14px;letter-spacing:-.02em}.related ul{list-style:none;padding:0;margin:0}.related li{background:rgba(20,27,45,.7);border:1px solid rgba(255,255,255,.08);border-radius:14px;padding:14px 18px;margin:10px 0}.related li a{font-weight:700;color:#fff}.related li p{margin:6px 0 0;color:#8B95B0;font-size:.92rem}.faq details{background:rgba(20,27,45,.78);border:1px solid rgba(255,255,255,.08);border-radius:14px;padding:14px 18px;margin:10px 0}.faq summary{font-weight:800;cursor:pointer;color:#fff}.faq p{color:#CFD6EA;margin:8px 0 0}.footer{padding:34px clamp(20px,5vw,64px);border-top:1px solid rgba(255,255,255,.08);color:#8B95B0;margin-top:48px}.footer nav{display:flex;gap:16px;flex-wrap:wrap;margin-bottom:10px}.footer a{color:#C9D2EA}.posts-list{list-style:none;padding:0;margin:0}.posts-list li{background:rgba(20,27,45,.7);border:1px solid rgba(255,255,255,.08);border-radius:18px;padding:22px 24px;margin:14px 0}.posts-list h2{font-size:1.3rem;margin:0 0 6px}.posts-list h2 a{color:#fff}.posts-list .meta{margin-bottom:6px}.posts-list p{color:#CFD6EA;margin:6px 0 0;font-size:1rem}.askai{text-align:center}.askai-sub{color:#8B95B0;font-size:.95rem;max-width:560px;margin:0 auto 18px}.askai-chips{display:flex;flex-wrap:wrap;justify-content:center;gap:10px}.askai-chip{display:inline-flex;align-items:center;gap:7px;padding:10px 18px;border-radius:999px;border:1px solid rgba(255,255,255,.14);background:rgba(255,255,255,.02);color:#fff;font-weight:600;font-size:.95rem}.askai-chip svg{flex:none}.askai-chip:hover{border-color:rgba(0,229,255,.55);text-decoration:none}.askai-chip span{font-size:.8rem;color:#8B95B0}.askai-chip:hover span{color:#00E5FF}@media(max-width:800px){.nav{align-items:flex-start;flex-direction:column}.hero h1{font-size:2.1rem}}`;
 
-const NAV = `<header class="nav"><a class="brand" href="/"><img src="${cfg.icons.brand}" alt="Iro AI"/>Iro AI</a><nav class="nav-links">${cfg.nav
+const NAV = `<header class="nav"><a class="brand" href="/"><img src="${cfg.icons.brand}" alt="" width="28" height="28"/>Iro AI</a><nav class="nav-links">${cfg.nav
   .map((n) => `<a href="${n.href}">${n.label}</a>`)
   .join('')}</nav></header>`;
 
@@ -190,14 +190,16 @@ const FOOTER = `<footer class="footer"><nav>${cfg.footer
   .join('')}</nav><p>${cfg.copyright}. ${cfg.tagline}</p></footer>`;
 
 const ctaBox = (slug) =>
-  `<div class="cta-box"><h3>${cfg.cta.heading}</h3><p>${cfg.cta.body}</p><div class="cta-row"><a class="btn" href="${esc(
+  `<div class="cta-box"><p class="cta-h">${cfg.cta.heading}</p><p>${cfg.cta.body}</p><div class="cta-row"><a class="btn" href="${esc(
     `${cfg.appStoreUrl}?utm_source=blog&utm_medium=inline&utm_campaign=${slug}`
   )}">${cfg.cta.primaryLabel}</a><a class="btn secondary" href="${cfg.cta.secondaryHref}">${cfg.cta.secondaryLabel}</a></div></div>`;
 
 // Shared <head> alternate/meta blocks reused across page types.
 const FONTS_CSS = `<link rel="preconnect" href="https://fonts.googleapis.com"/>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-<link href="https://fonts.googleapis.com/css2?family=Geist:wght@400..900&family=Outfit:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet"/>
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Geist:wght@400..900&family=Outfit:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap"/>
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@400..900&family=Outfit:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'"/>
+<noscript><link href="https://fonts.googleapis.com/css2?family=Geist:wght@400..900&family=Outfit:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet"/></noscript>
 <link rel="stylesheet" href="/iro.css"/>`;
 const HEAD_ICONS = `<link rel="icon" href="${cfg.icons.favicon}" type="image/png"/>
 <link rel="apple-touch-icon" href="${cfg.icons.appleTouch}"/>`;
@@ -209,7 +211,7 @@ const ANALYTICS = `<script>
 !function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.crossOrigin="anonymous",p.async=!0,p.src=s.api_host.replace(".i.posthog.com","-assets.i.posthog.com")+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="init capture register register_once register_for_session unregister unregister_for_session getFeatureFlag getFeatureFlagPayload isFeatureEnabled reloadFeatureFlags updateEarlyAccessFeatureEnrollment getEarlyAccessFeatures on onFeatureFlags onSessionId getSurveys getActiveMatchingSurveys renderSurvey canRenderSurvey identify setPersonProperties group resetGroups setPersonPropertiesForFlags resetPersonPropertiesForFlags setGroupPropertiesForFlags resetGroupPropertiesForFlags reset get_distinct_id getGroups get_session_id get_session_replay_url alias set_config startSessionRecording stopSessionRecording sessionRecordingStarted captureException loadToolbar get_property getSessionProperty createPersonProfile opt_in_capturing opt_out_capturing has_opted_in_capturing has_opted_out_capturing clear_opt_in_out_capturing debug getPageViewId".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
 posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https://us.i.posthog.com',person_profiles:'identified_only'});
 </script>
-<script src="/llm-referrals.js"></script><script src="/prompt-capture.js" defer></script>
+<script src="/llm-referrals.js" defer></script><script src="/prompt-capture.js" defer></script>
 <script defer data-website-id="dfid_pTmvsHyl8feOT2EfmXOim" data-domain="tryiro.com" src="https://datafa.st/js/script.js"></script>
 <script src="/datafast-goals.js" defer></script>`;
 
@@ -376,6 +378,29 @@ function renderPost(post) {
   const content = lines.join('\n');
 
   const readNext = post.readNext.map((r) => `<li><a href="${r.href}">${r.label}</a></li>`).join('');
+  // Surface curated non-blog `related` targets (path/topic/money pages) as visible
+  // links — until now they rendered only as invisible <link rel="related"> head
+  // tags, so the cross-cluster equity never reached crawlers or readers.
+  const readNextHrefs = new Set(post.readNext.map((r) => r.href));
+  const exploreLinks = (post.related || [])
+    .map((r) => (typeof r === 'string' ? { href: r } : r))
+    .filter((r) => !r.href.startsWith('/blog/') && !readNextHrefs.has(r.href) && r.href !== '/quiz')
+    .filter((r) => fs.existsSync(path.join(ROOT, r.href.replace(/^\//, '') + '.html')))
+    .slice(0, 4)
+    .map((r) => {
+      let label = r.label;
+      if (!label) {
+        const f = path.join(ROOT, r.href.replace(/^\//, '') + '.html');
+        const m = fs.readFileSync(f, 'utf8').match(/<title[^>]*>(.*?)<\/title>/s);
+        label = m ? m[1].split('|')[0].split(/[:\u2014]/)[0].trim() : '';
+      }
+      if (!label) label = r.href.replace(/^\//, '').replace(/-/g, ' ');
+      return `<li><a href="${r.href}">${esc(label)}</a></li>`;
+    })
+    .join('');
+  const exploreBlock = exploreLinks
+    ? `\n<section class="related"><h2>Explore on Iro</h2><ul>${exploreLinks}</ul></section>`
+    : '';
   const faq = post.faq.map((f) => `<details><summary>${f.q}</summary><p>${f.a}</p></details>`).join('');
 
   const pillarMeta = pillar ? `<span><a href="/blog/${pillar.slug}">${esc(pillar.shortName || pillar.title)}</a></span>` : '';
@@ -386,7 +411,7 @@ function renderPost(post) {
 <meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
 <meta name="apple-itunes-app" content="app-id=6759628066"/>
-<title>${esc(metaTitle)} | Iro AI Blog</title>
+<title>${esc(metaTitle)} | Iro AI</title>
 <meta name="description" content="${esc(desc)}"/>
 <meta name="keywords" content="${esc(kw)}"/>
 <meta name="application-name" content="Iro AI"/>
@@ -399,7 +424,7 @@ function renderPost(post) {
 <meta name="copyright" content="${cfg.copyright}"/>
 <meta name="rating" content="general"/>
 <meta name="referrer" content="strict-origin-when-cross-origin"/>
-<meta name="DC.title" content="${esc(metaTitle)} | Iro AI Blog"/>
+<meta name="DC.title" content="${esc(metaTitle)} | Iro AI"/>
 <meta name="DC.creator" content="${esc(au.name)}"/>
 <meta name="DC.publisher" content="Iro AI"/>
 <meta name="DC.language" content="en-US"/>
@@ -466,7 +491,7 @@ ${NAV}
 <div class="content">
 ${content}
 </div>
-<section class="related"><h2>Read next</h2><ul>${readNext}</ul></section>
+<section class="related"><h2>Read next</h2><ul>${readNext}</ul></section>${exploreBlock}
 <section class="faq"><h2>FAQ</h2>${faq}</section>${post.askAi ? '\n' + askAiBlock(post.askAiPrompt, 'blog:' + post.slug) : ''}
 <section class="related"><h2>About the author</h2><ul><li><a href="${au.url}" rel="author" target="_blank">${esc(au.name)}</a><p>${esc(au.bio)}</p></li></ul></section>
 </main>
@@ -563,7 +588,7 @@ function renderPillar(pillar) {
 <meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
 <meta name="apple-itunes-app" content="app-id=6759628066"/>
-<title>${esc(pillar.title)} | Iro AI Blog</title>
+<title>${esc(pillar.title)} | Iro AI</title>
 <meta name="description" content="${esc(pillar.description)}"/>
 <meta name="keywords" content="${esc(kw)}"/>
 <meta name="application-name" content="Iro AI"/>
@@ -575,7 +600,7 @@ function renderPillar(pillar) {
 <meta name="publisher" content="Iro AI"/>
 <meta name="copyright" content="${cfg.copyright}"/>
 <meta name="referrer" content="strict-origin-when-cross-origin"/>
-<meta name="DC.title" content="${esc(pillar.title)} | Iro AI Blog"/>
+<meta name="DC.title" content="${esc(pillar.title)} | Iro AI"/>
 <meta name="DC.creator" content="Iro AI"/>
 <meta name="DC.publisher" content="Iro AI"/>
 <meta name="DC.language" content="en-US"/>
