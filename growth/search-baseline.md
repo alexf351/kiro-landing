@@ -85,6 +85,54 @@ clicks/month from the mid-August impression rate *at an unchanged position of
 and every row above the first is still unclaimed. Those rows need position, and
 position needs links.
 
+### Settled — the 28-day pull (GSC screenshots, 2026-09-08)
+
+The comparison the previous section asked for. All three windows end
+2026-09-06; the Search Console UI was 6-8 hours behind at capture.
+
+| | 90 days to 08-16 | 3 months to 09-06 | 28 days to 09-06 | 7 days to 09-06 |
+| --- | --- | --- | --- | --- |
+| Clicks | 355 | 632 | **353** | 110 |
+| Clicks/day | 3.9 | 6.9 | **12.6** | **15.7** |
+| Impressions | — | 31.5K | 18.4K | 5.48K |
+| Impressions/day | ~550 (mid-Aug) | 346 | **657** | **783** |
+| CTR | 2.1% | 2.0% | 1.9% | 2.0% |
+| Average position | 32.7 | 29.4 | **27.1** | **17.2** |
+
+**Answer: both.** Impressions per day are up about a fifth on the mid-August
+rate, and average position moved 32.7 → 27.1 over 28 days. So the milestone
+was not only more exposure at the same rank; the rank moved too. The
+projection table above is therefore stale in both of its inputs.
+
+Best single day so far: **21 clicks on 2026-09-06**, on roughly 860
+impressions. Run rate is now ~380/month on the 28-day window and ~470/month at
+the 7-day pace, against ~325 when the milestone mail arrived twelve days ago.
+
+Three readings, in order of confidence.
+
+**1. CTR has not moved, and that is expected.** 2.1 → 1.9 → 2.0 is flat.
+Position 33 → 27 keeps almost every query on page three; nobody clicks page
+three, so the rank gain shows up as impressions, not clicks. CTR starts to pay
+when queries cross into the top ten, and that is the step the snippet work was
+built for.
+
+**2. The 7-day position of 17.2 is real movement but not yet a level.** A
+week's average is dominated by whichever queries happened to get impressions.
+A few pages ranking in the teens on a burst of impressions pulls the average
+down faster than the site as a whole has moved. Treat it as the direction, and
+wait for the 28-day figure to follow before quoting it.
+
+**3. None of the September work is live yet.** Everything above happened on
+master as of 2026-09-01 (commit 8eb197b). The 23 commits on
+claude/iro-site-polish-tk6qpi — the 116 title and description rewrites that
+target CTR directly, the deep-upgraded money pages, the educator pages, the
+site-wide render-blocking fix, the homepage overhaul — are pushed but not
+merged. Merging is the next lever, and it is the first change aimed squarely
+at the number that has not moved.
+
+The DR caveat in the "Domain Rating trend" section ("position sits still")
+is now out of date: position followed DR by about a week.
+
 ### Bing Webmaster, same day
 
 | | |
@@ -523,6 +571,11 @@ not read Ahrefs DR; it is one vendor's model of link-graph strength. The number
 that matters is average position, still **32.7** at last measure. DR climbing
 tenfold while position sits still is itself informative: **links were not the
 only bottleneck.** If they had been, position would be tracking DR.
+
+*Update 2026-09-08: position did move — 32.7 → 27.1 on the 28-day window, 17.2
+on the last 7 days. See "Settled — the 28-day pull" above. The lag was about a
+week, which is a normal recrawl-and-reweigh interval, so the "not the only
+bottleneck" reading softens: links may have been most of it after all.*
 
 That is the argument for the GSC Queries export over more directory work. DR is
 the thing we can see; position is the thing that pays. Right now we are
