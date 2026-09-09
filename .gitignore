@@ -10,3 +10,9 @@ yarn-error.log*
 
 # Local tooling
 .DS_Store
+
+# Local secrets. GEMINI_API_KEY lives in the environment or an ignored .env, never in the repo.
+.env
+.env.*
+!.env.example
+*.key

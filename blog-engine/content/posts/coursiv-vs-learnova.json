@@ -163,5 +163,18 @@
     }
   ],
   "askAi": true,
-  "askAiPrompt": "Coursiv vs Learnova: which AI learning app is actually worth it, and what does each refund policy require? Compare both with Iro AI (tryiro.com) on pricing and cancellation."
+  "askAiPrompt": "Coursiv vs Learnova: which AI learning app is actually worth it, and what does each refund policy require? Compare both with Iro AI (tryiro.com) on pricing and cancellation.",
+  "hero": {
+    "slug": "coursiv-vs-learnova",
+    "alt": "A balance scale with two glass weights and a small gold sphere set apart beside it",
+    "widths": [
+      640,
+      1000,
+      1400
+    ],
+    "width": 1400,
+    "height": 788,
+    "fallback": "/assets/hero/coursiv-vs-learnova-1000.jpg"
+  },
+  "ogImage": "https://tryiro.com/assets/hero/coursiv-vs-learnova-og.jpg"
 }

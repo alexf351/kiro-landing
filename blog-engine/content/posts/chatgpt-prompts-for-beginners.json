@@ -138,5 +138,18 @@
     "/quiz",
     "/learn-ai-in-5-minutes-a-day",
     "/become-ai-fluent"
-  ]
+  ],
+  "hero": {
+    "slug": "chatgpt-prompts-for-beginners",
+    "alt": "A hand sliding a glowing blank card into a slot on a dark desk",
+    "widths": [
+      640,
+      1000,
+      1400
+    ],
+    "width": 1400,
+    "height": 788,
+    "fallback": "/assets/hero/chatgpt-prompts-for-beginners-1000.jpg"
+  },
+  "ogImage": "https://tryiro.com/assets/hero/chatgpt-prompts-for-beginners-og.jpg"
 }

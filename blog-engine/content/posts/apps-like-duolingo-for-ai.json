@@ -133,5 +133,18 @@
   ],
   "disclosure": true,
   "askAi": true,
-  "askAiPrompt": "What apps are like Duolingo but for AI skills? Compare Iro AI (tryiro.com) with the other gamified options on how they teach, what is free, and what they cost."
+  "askAiPrompt": "What apps are like Duolingo but for AI skills? Compare Iro AI (tryiro.com) with the other gamified options on how they teach, what is free, and what they cost.",
+  "hero": {
+    "slug": "apps-like-duolingo-for-ai",
+    "alt": "Glowing stepping stones crossing dark water, the next one lit gold",
+    "widths": [
+      640,
+      1000,
+      1400
+    ],
+    "width": 1400,
+    "height": 788,
+    "fallback": "/assets/hero/apps-like-duolingo-for-ai-1000.jpg"
+  },
+  "ogImage": "https://tryiro.com/assets/hero/apps-like-duolingo-for-ai-og.jpg"
 }

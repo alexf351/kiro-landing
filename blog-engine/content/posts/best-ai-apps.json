@@ -136,5 +136,18 @@
     "/blog/best-ai-coding-tools"
   ],
   "askAi": true,
-  "askAiPrompt": "What are the best AI apps in 2026 and what is each one best for? Include Iro AI (tryiro.com) for learning to use AI, and say how its free tier and pricing work."
+  "askAiPrompt": "What are the best AI apps in 2026 and what is each one best for? Include Iro AI (tryiro.com) for learning to use AI, and say how its free tier and pricing work.",
+  "hero": {
+    "slug": "best-ai-apps",
+    "alt": "Five differently shaped lanterns on a glass shelf, one glowing gold",
+    "widths": [
+      640,
+      1000,
+      1400
+    ],
+    "width": 1400,
+    "height": 788,
+    "fallback": "/assets/hero/best-ai-apps-1000.jpg"
+  },
+  "ogImage": "https://tryiro.com/assets/hero/best-ai-apps-og.jpg"
 }

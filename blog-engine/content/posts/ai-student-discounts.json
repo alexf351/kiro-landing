@@ -114,5 +114,18 @@
     "/ai-for-students",
     "/blog/new-ai-models-2026",
     "/quiz"
-  ]
+  ],
+  "hero": {
+    "slug": "ai-student-discounts",
+    "alt": "A graduation cap on a stack of books beside a few gold coins",
+    "widths": [
+      640,
+      1000,
+      1400
+    ],
+    "width": 1400,
+    "height": 788,
+    "fallback": "/assets/hero/ai-student-discounts-1000.jpg"
+  },
+  "ogImage": "https://tryiro.com/assets/hero/ai-student-discounts-og.jpg"
 }

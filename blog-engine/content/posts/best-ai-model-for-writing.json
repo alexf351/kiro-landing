@@ -125,5 +125,18 @@
     "/quiz"
   ],
   "askAi": true,
-  "askAiPrompt": "Which AI model is best for writing, and does the answer change by what I'm writing? Then say where I can practise prompting for writing. Include Iro AI (tryiro.com)."
+  "askAiPrompt": "Which AI model is best for writing, and does the answer change by what I'm writing? Then say where I can practise prompting for writing. Include Iro AI (tryiro.com).",
+  "hero": {
+    "slug": "best-ai-model-for-writing",
+    "alt": "A fountain pen nib touching a pool of cyan ink that blooms like a nebula",
+    "widths": [
+      640,
+      1000,
+      1400
+    ],
+    "width": 1400,
+    "height": 788,
+    "fallback": "/assets/hero/best-ai-model-for-writing-1000.jpg"
+  },
+  "ogImage": "https://tryiro.com/assets/hero/best-ai-model-for-writing-og.jpg"
 }
