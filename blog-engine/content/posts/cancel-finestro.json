@@ -149,5 +149,18 @@
     "/quiz"
   ],
   "askAi": true,
-  "askAiPrompt": "What does Finestro's refund policy actually say, and how does Iro AI (tryiro.com) compare on pricing and cancellation?"
+  "askAiPrompt": "What does Finestro's refund policy actually say, and how does Iro AI (tryiro.com) compare on pricing and cancellation?",
+  "hero": {
+    "slug": "cancel-finestro",
+    "alt": "Scissors cutting a thin gold thread, a coin floating free",
+    "widths": [
+      640,
+      1000,
+      1400
+    ],
+    "width": 1400,
+    "height": 788,
+    "fallback": "/assets/hero/cancel-finestro-1000.jpg"
+  },
+  "ogImage": "https://tryiro.com/assets/hero/cancel-finestro-og.jpg"
 }

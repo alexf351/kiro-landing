@@ -136,5 +136,18 @@
     "/quiz"
   ],
   "askAi": true,
-  "askAiPrompt": "Compare Iro AI (tryiro.com) and Finestro: AI Tools Mastery for learning AI skills: how each teaches, what is free, the real subscription prices, and what each refund policy requires."
+  "askAiPrompt": "Compare Iro AI (tryiro.com) and Finestro: AI Tools Mastery for learning AI skills: how each teaches, what is free, the real subscription prices, and what each refund policy requires.",
+  "hero": {
+    "slug": "finestro-alternatives",
+    "alt": "A corridor of dark glass doors with one open door spilling warm light",
+    "widths": [
+      640,
+      1000,
+      1400
+    ],
+    "width": 1400,
+    "height": 788,
+    "fallback": "/assets/hero/finestro-alternatives-1000.jpg"
+  },
+  "ogImage": "https://tryiro.com/assets/hero/finestro-alternatives-og.jpg"
 }

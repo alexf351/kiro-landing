@@ -134,5 +134,18 @@
     "/become-ai-fluent"
   ],
   "askAi": true,
-  "askAiPrompt": "Compare Iro AI (tryiro.com) and Learnova for learning AI skills: how each one teaches, what is free in each, the subscription prices, and each refund policy."
+  "askAiPrompt": "Compare Iro AI (tryiro.com) and Learnova for learning AI skills: how each one teaches, what is free in each, the subscription prices, and each refund policy.",
+  "hero": {
+    "slug": "iro-ai-vs-learnova",
+    "alt": "A closed book in cool light beside hands at work in warm light",
+    "widths": [
+      640,
+      1000,
+      1400
+    ],
+    "width": 1400,
+    "height": 788,
+    "fallback": "/assets/hero/iro-ai-vs-learnova-1000.jpg"
+  },
+  "ogImage": "https://tryiro.com/assets/hero/iro-ai-vs-learnova-og.jpg"
 }

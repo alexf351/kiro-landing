@@ -1,0 +1,1079 @@
+{
+  "version": 1,
+  "entries": {
+    "best-ai-learning-app": {
+      "slug": "best-ai-learning-app",
+      "kind": "root",
+      "score": 96,
+      "reason": "106 clicks / 3 mo, second page on the site; buyer's-guide intent; direct App Store CTA; thumbnail currently a text card",
+      "alt": "A row of glass pedestals in a dark gallery, one lit by a gold spotlight",
+      "model": "gemini-3.1-flash-image",
+      "aspectRatio": "16:9",
+      "prompt": "Premium editorial illustration with a cinematic, softly rendered 3D feel. Setting: a deep navy, near-black galaxy backdrop with faint starfield depth, translucent smoked-glass surfaces and thin refractive light edges. Materials: matte black, charcoal, frosted glass. Colour is restrained: one cyan (#00E5FF) light source and one warm gold (#FFC940) accent at most, everything else desaturated navy and grey. Subtle volumetric glow, shallow depth of field, calm and confident mood. Composition for a 16:9 blog hero: main subject in the lower two-thirds, slightly right of centre; keep the upper-left third as quiet negative space; nothing important within 8% of any edge.\nArticle title: \"The best app to learn AI in 2026\".\nReader intent: Comparing AI learning apps before choosing one.\nAudience: Adults who want to get good at using ChatGPT, Claude and Gemini, not data science.\nThe image must communicate this outcome: Confidence that they picked the right one for their goal.\nVisual metaphor: A curated choice: a row of glass pedestals in a dark gallery, each holding a different abstract object, and only one is lit by a warm gold spotlight.\nSubject and scene: Five frosted-glass pedestals receding into darkness. On them sit simple abstract objects: a brass compass, a closed book, a small flame in a glass, a key, a smooth stone. The pedestal with the compass is bathed in warm gold light; the others sit in cool cyan half-light.\nStrictly no text, letters, numbers, captions, labels or typography anywhere in the image. No logos, brand marks, app icons, watermarks or signatures. No user interfaces, screens with content, dashboards, charts, chat bubbles, phones showing apps, or fake windows. No robots, androids, brains, circuit-board heads or glowing humanoids. No penguins or mascots. No recognisable real people or celebrity likeness; if a person appears, show them from behind or in silhouette. No neon rainbow palettes, no purple-pink gradients, no clutter.",
+      "promptHash": "c3ee7de33d7b",
+      "master": {
+        "path": "assets/hero/best-ai-learning-app-master.jpg",
+        "width": 1376,
+        "height": 768,
+        "bytes": 554854,
+        "mime": "image/jpeg"
+      },
+      "usage": {
+        "promptTokens": 439,
+        "candidateTokens": 1530,
+        "totalTokens": 1969
+      },
+      "estimatedUsd": 0.06,
+      "timestamp": "2026-09-08T23:58:28.595Z",
+      "status": "done",
+      "ms": 8704,
+      "variants": {
+        "640.webp": {
+          "path": "assets/hero/best-ai-learning-app-640.webp",
+          "width": 640,
+          "height": 360,
+          "bytes": 8350
+        },
+        "1000.webp": {
+          "path": "assets/hero/best-ai-learning-app-1000.webp",
+          "width": 1000,
+          "height": 563,
+          "bytes": 17660
+        },
+        "1400.webp": {
+          "path": "assets/hero/best-ai-learning-app-1400.webp",
+          "width": 1400,
+          "height": 788,
+          "bytes": 26464
+        },
+        "1000.jpg": {
+          "path": "assets/hero/best-ai-learning-app-1000.jpg",
+          "width": 1000,
+          "height": 563,
+          "bytes": 35658
+        },
+        "og.jpg": {
+          "path": "assets/hero/best-ai-learning-app-og.jpg",
+          "width": 1200,
+          "height": 630,
+          "bytes": 50304
+        }
+      },
+      "integrated": {
+        "at": "2026-09-09T00:01:25.378Z",
+        "note": "best-ai-learning-app.html: og/twitter/schema image → hero og, og:image:alt added, hero figure inserted"
+      }
+    },
+    "coursiv-alternatives": {
+      "slug": "coursiv-alternatives",
+      "kind": "post",
+      "score": 91,
+      "reason": "69 clicks / 3 mo, top blog post; switching intent; links straight to Iro; thumbnail is a text card",
+      "alt": "A traveller on a night platform where one glowing rail line leads toward a warm horizon",
+      "model": "gemini-3.1-flash-image",
+      "aspectRatio": "16:9",
+      "prompt": "Premium editorial illustration with a cinematic, softly rendered 3D feel. Setting: a deep navy, near-black galaxy backdrop with faint starfield depth, translucent smoked-glass surfaces and thin refractive light edges. Materials: matte black, charcoal, frosted glass. Colour is restrained: one cyan (#00E5FF) light source and one warm gold (#FFC940) accent at most, everything else desaturated navy and grey. Subtle volumetric glow, shallow depth of field, calm and confident mood. Composition for a 16:9 blog hero: main subject in the lower two-thirds, slightly right of centre; keep the upper-left third as quiet negative space; nothing important within 8% of any edge.\nArticle title: \"The best Coursiv alternatives in 2026\".\nReader intent: Leaving one AI learning app and looking for a better one.\nAudience: People who tried a guided-lesson app and want active practice or clearer pricing.\nThe image must communicate this outcome: Relief: there are better options and a clear way to pick.\nVisual metaphor: Changing trains: an empty night platform where several glowing lines depart in different directions and one is clearly the right one.\nSubject and scene: A quiet, glass-roofed platform at night seen from behind a lone traveller with a small bag. Several rail lines curve away into the dark; one line is lit cyan and leads toward a warm gold glow on the horizon. Rain-wet stone floor with soft reflections.\nStrictly no text, letters, numbers, captions, labels or typography anywhere in the image. No logos, brand marks, app icons, watermarks or signatures. No user interfaces, screens with content, dashboards, charts, chat bubbles, phones showing apps, or fake windows. No robots, androids, brains, circuit-board heads or glowing humanoids. No penguins or mascots. No recognisable real people or celebrity likeness; if a person appears, show them from behind or in silhouette. No neon rainbow palettes, no purple-pink gradients, no clutter.",
+      "promptHash": "0e2d16001b55",
+      "master": {
+        "path": "assets/hero/coursiv-alternatives-master.jpg",
+        "width": 1376,
+        "height": 768,
+        "bytes": 601434,
+        "mime": "image/jpeg"
+      },
+      "usage": {
+        "promptTokens": 426,
+        "candidateTokens": 1495,
+        "totalTokens": 1921
+      },
+      "estimatedUsd": 0.06,
+      "timestamp": "2026-09-08T23:58:36.286Z",
+      "status": "done",
+      "ms": 7675,
+      "variants": {
+        "640.webp": {
+          "path": "assets/hero/coursiv-alternatives-640.webp",
+          "width": 640,
+          "height": 360,
+          "bytes": 13970
+        },
+        "1000.webp": {
+          "path": "assets/hero/coursiv-alternatives-1000.webp",
+          "width": 1000,
+          "height": 563,
+          "bytes": 31218
+        },
+        "1400.webp": {
+          "path": "assets/hero/coursiv-alternatives-1400.webp",
+          "width": 1400,
+          "height": 788,
+          "bytes": 45868
+        },
+        "1000.jpg": {
+          "path": "assets/hero/coursiv-alternatives-1000.jpg",
+          "width": 1000,
+          "height": 563,
+          "bytes": 54862
+        },
+        "og.jpg": {
+          "path": "assets/hero/coursiv-alternatives-og.jpg",
+          "width": 1200,
+          "height": 630,
+          "bytes": 74447
+        }
+      },
+      "integrated": {
+        "at": "2026-09-09T00:01:25.379Z",
+        "note": "posts/coursiv-alternatives.json: hero + ogImage set (run node blog-engine/build.mjs)"
+      }
+    },
+    "finestro-alternatives": {
+      "slug": "finestro-alternatives",
+      "kind": "post",
+      "score": 89,
+      "reason": "46 clicks / 3 mo; switching intent after a renewal charge; thumbnail currently the app icon (Google skipped the card)",
+      "alt": "A corridor of dark glass doors with one open door spilling warm light",
+      "model": "gemini-3.1-flash-image",
+      "aspectRatio": "16:9",
+      "prompt": "Premium editorial illustration with a cinematic, softly rendered 3D feel. Setting: a deep navy, near-black galaxy backdrop with faint starfield depth, translucent smoked-glass surfaces and thin refractive light edges. Materials: matte black, charcoal, frosted glass. Colour is restrained: one cyan (#00E5FF) light source and one warm gold (#FFC940) accent at most, everything else desaturated navy and grey. Subtle volumetric glow, shallow depth of field, calm and confident mood. Composition for a 16:9 blog hero: main subject in the lower two-thirds, slightly right of centre; keep the upper-left third as quiet negative space; nothing important within 8% of any edge.\nArticle title: \"The best Finestro alternatives in 2026\".\nReader intent: Finding a replacement after a surprise subscription charge.\nAudience: Consumers burned by an auto-renewal who still want to learn AI.\nThe image must communicate this outcome: A way out and a better place to land.\nVisual metaphor: A curved corridor of closed frosted-glass doors, and one door standing open with warm light spilling out.\nSubject and scene: A long, gently curving corridor of dark smoked-glass doors. All are shut except one, ajar, with warm gold light pouring across the polished floor. A faint cyan glow lines the corridor edges. Viewed from low, slightly off-axis.\nStrictly no text, letters, numbers, captions, labels or typography anywhere in the image. No logos, brand marks, app icons, watermarks or signatures. No user interfaces, screens with content, dashboards, charts, chat bubbles, phones showing apps, or fake windows. No robots, androids, brains, circuit-board heads or glowing humanoids. No penguins or mascots. No recognisable real people or celebrity likeness; if a person appears, show them from behind or in silhouette. No neon rainbow palettes, no purple-pink gradients, no clutter.",
+      "promptHash": "527010bebd12",
+      "master": {
+        "path": "assets/hero/finestro-alternatives-master.jpg",
+        "width": 1376,
+        "height": 768,
+        "bytes": 520604,
+        "mime": "image/jpeg"
+      },
+      "usage": {
+        "promptTokens": 411,
+        "candidateTokens": 1508,
+        "totalTokens": 1919
+      },
+      "estimatedUsd": 0.06,
+      "timestamp": "2026-09-08T23:58:44.019Z",
+      "status": "done",
+      "ms": 7733,
+      "variants": {
+        "640.webp": {
+          "path": "assets/hero/finestro-alternatives-640.webp",
+          "width": 640,
+          "height": 360,
+          "bytes": 8856
+        },
+        "1000.webp": {
+          "path": "assets/hero/finestro-alternatives-1000.webp",
+          "width": 1000,
+          "height": 563,
+          "bytes": 16476
+        },
+        "1400.webp": {
+          "path": "assets/hero/finestro-alternatives-1400.webp",
+          "width": 1400,
+          "height": 788,
+          "bytes": 24948
+        },
+        "1000.jpg": {
+          "path": "assets/hero/finestro-alternatives-1000.jpg",
+          "width": 1000,
+          "height": 563,
+          "bytes": 38679
+        },
+        "og.jpg": {
+          "path": "assets/hero/finestro-alternatives-og.jpg",
+          "width": 1200,
+          "height": 630,
+          "bytes": 53439
+        }
+      },
+      "integrated": {
+        "at": "2026-09-09T00:01:25.380Z",
+        "note": "posts/finestro-alternatives.json: hero + ogImage set (run node blog-engine/build.mjs)"
+      }
+    },
+    "apps-like-duolingo-for-ai": {
+      "slug": "apps-like-duolingo-for-ai",
+      "kind": "post",
+      "score": 87,
+      "reason": "41 clicks / 3 mo; category-defining query; feeds /duolingo-for-ai and the App Store; text-card thumbnail",
+      "alt": "Glowing stepping stones crossing dark water, the next one lit gold",
+      "model": "gemini-3.1-flash-image",
+      "aspectRatio": "16:9",
+      "prompt": "Premium editorial illustration with a cinematic, softly rendered 3D feel. Setting: a deep navy, near-black galaxy backdrop with faint starfield depth, translucent smoked-glass surfaces and thin refractive light edges. Materials: matte black, charcoal, frosted glass. Colour is restrained: one cyan (#00E5FF) light source and one warm gold (#FFC940) accent at most, everything else desaturated navy and grey. Subtle volumetric glow, shallow depth of field, calm and confident mood. Composition for a 16:9 blog hero: main subject in the lower two-thirds, slightly right of centre; keep the upper-left third as quiet negative space; nothing important within 8% of any edge.\nArticle title: \"Apps like Duolingo, but for AI\".\nReader intent: Wanting the streak-and-bite-size habit loop, applied to AI skills.\nAudience: People for whom Duolingo is the only habit that ever stuck.\nThe image must communicate this outcome: The daily habit, transferred to a skill that pays.\nVisual metaphor: A streak made physical: a chain of small glowing stepping stones crossing dark water, each one a day.\nSubject and scene: Flat stepping stones crossing still black water, receding toward the horizon. The stones already crossed glow soft cyan; the next one ahead glows warm gold. Ripples and reflections, a faint starfield above. No figures.\nStrictly no text, letters, numbers, captions, labels or typography anywhere in the image. No logos, brand marks, app icons, watermarks or signatures. No user interfaces, screens with content, dashboards, charts, chat bubbles, phones showing apps, or fake windows. No robots, androids, brains, circuit-board heads or glowing humanoids. No penguins or mascots. No recognisable real people or celebrity likeness; if a person appears, show them from behind or in silhouette. No neon rainbow palettes, no purple-pink gradients, no clutter.",
+      "promptHash": "08641866c686",
+      "master": {
+        "path": "assets/hero/apps-like-duolingo-for-ai-master.jpg",
+        "width": 1376,
+        "height": 768,
+        "bytes": 532455,
+        "mime": "image/jpeg"
+      },
+      "usage": {
+        "promptTokens": 412,
+        "candidateTokens": 1489,
+        "totalTokens": 1901
+      },
+      "estimatedUsd": 0.06,
+      "timestamp": "2026-09-08T23:58:51.748Z",
+      "status": "done",
+      "ms": 7728,
+      "variants": {
+        "640.webp": {
+          "path": "assets/hero/apps-like-duolingo-for-ai-640.webp",
+          "width": 640,
+          "height": 360,
+          "bytes": 7520
+        },
+        "1000.webp": {
+          "path": "assets/hero/apps-like-duolingo-for-ai-1000.webp",
+          "width": 1000,
+          "height": 563,
+          "bytes": 14722
+        },
+        "1400.webp": {
+          "path": "assets/hero/apps-like-duolingo-for-ai-1400.webp",
+          "width": 1400,
+          "height": 788,
+          "bytes": 22396
+        },
+        "1000.jpg": {
+          "path": "assets/hero/apps-like-duolingo-for-ai-1000.jpg",
+          "width": 1000,
+          "height": 563,
+          "bytes": 31285
+        },
+        "og.jpg": {
+          "path": "assets/hero/apps-like-duolingo-for-ai-og.jpg",
+          "width": 1200,
+          "height": 630,
+          "bytes": 45043
+        }
+      },
+      "integrated": {
+        "at": "2026-09-09T00:01:25.382Z",
+        "note": "posts/apps-like-duolingo-for-ai.json: hero + ogImage set (run node blog-engine/build.mjs)"
+      }
+    },
+    "free-ai-learning-app": {
+      "slug": "free-ai-learning-app",
+      "kind": "root",
+      "score": 85,
+      "reason": "18 clicks / 3 mo and climbing; money page rewritten in Sep; free-to-start is the conversion argument; thumbnail is the app icon",
+      "alt": "An open padlock on a step in front of an open glass gate with a lit path beyond",
+      "model": "gemini-3.1-flash-image",
+      "aspectRatio": "16:9",
+      "prompt": "Premium editorial illustration with a cinematic, softly rendered 3D feel. Setting: a deep navy, near-black galaxy backdrop with faint starfield depth, translucent smoked-glass surfaces and thin refractive light edges. Materials: matte black, charcoal, frosted glass. Colour is restrained: one cyan (#00E5FF) light source and one warm gold (#FFC940) accent at most, everything else desaturated navy and grey. Subtle volumetric glow, shallow depth of field, calm and confident mood. Composition for a 16:9 blog hero: main subject in the lower two-thirds, slightly right of centre; keep the upper-left third as quiet negative space; nothing important within 8% of any edge.\nArticle title: \"The best free app to learn AI\".\nReader intent: Learning AI without paying.\nAudience: Budget-conscious beginners, many without an iPhone.\nThe image must communicate this outcome: You can start now, and nothing is locked behind a card.\nVisual metaphor: An unlocked gate: a heavy padlock lying open on a stone step in front of an open glass gate, with a lit path beyond.\nSubject and scene: A tall frosted-glass gate standing open in the dark. On the stone step in front of it, an old iron padlock lies open. Beyond the gate a path of pale cyan light leads away. Warm gold catches the gate's edge. Low camera angle, shallow focus on the padlock.\nStrictly no text, letters, numbers, captions, labels or typography anywhere in the image. No logos, brand marks, app icons, watermarks or signatures. No user interfaces, screens with content, dashboards, charts, chat bubbles, phones showing apps, or fake windows. No robots, androids, brains, circuit-board heads or glowing humanoids. No penguins or mascots. No recognisable real people or celebrity likeness; if a person appears, show them from behind or in silhouette. No neon rainbow palettes, no purple-pink gradients, no clutter.",
+      "promptHash": "e55823b081a5",
+      "master": {
+        "path": "assets/hero/free-ai-learning-app-master.jpg",
+        "width": 1376,
+        "height": 768,
+        "bytes": 525240,
+        "mime": "image/jpeg"
+      },
+      "usage": {
+        "promptTokens": 417,
+        "candidateTokens": 1419,
+        "totalTokens": 1836
+      },
+      "estimatedUsd": 0.06,
+      "timestamp": "2026-09-08T23:58:59.663Z",
+      "status": "done",
+      "ms": 7915,
+      "variants": {
+        "640.webp": {
+          "path": "assets/hero/free-ai-learning-app-640.webp",
+          "width": 640,
+          "height": 360,
+          "bytes": 6978
+        },
+        "1000.webp": {
+          "path": "assets/hero/free-ai-learning-app-1000.webp",
+          "width": 1000,
+          "height": 563,
+          "bytes": 14460
+        },
+        "1400.webp": {
+          "path": "assets/hero/free-ai-learning-app-1400.webp",
+          "width": 1400,
+          "height": 788,
+          "bytes": 21790
+        },
+        "1000.jpg": {
+          "path": "assets/hero/free-ai-learning-app-1000.jpg",
+          "width": 1000,
+          "height": 563,
+          "bytes": 33174
+        },
+        "og.jpg": {
+          "path": "assets/hero/free-ai-learning-app-og.jpg",
+          "width": 1200,
+          "height": 630,
+          "bytes": 46686
+        }
+      },
+      "integrated": {
+        "at": "2026-09-09T00:01:25.383Z",
+        "note": "free-ai-learning-app.html: og/twitter/schema image → hero og, og:image:alt added, hero figure inserted"
+      }
+    },
+    "duolingo-for-ai": {
+      "slug": "duolingo-for-ai",
+      "kind": "root",
+      "score": 84,
+      "reason": "9 clicks / 3 mo but +800%; the brand's defining query; direct App Store CTA; text-card thumbnail",
+      "alt": "A wall of glass tiles with an unbroken lit streak ending in a small flame",
+      "model": "gemini-3.1-flash-image",
+      "aspectRatio": "16:9",
+      "prompt": "Premium editorial illustration with a cinematic, softly rendered 3D feel. Setting: a deep navy, near-black galaxy backdrop with faint starfield depth, translucent smoked-glass surfaces and thin refractive light edges. Materials: matte black, charcoal, frosted glass. Colour is restrained: one cyan (#00E5FF) light source and one warm gold (#FFC940) accent at most, everything else desaturated navy and grey. Subtle volumetric glow, shallow depth of field, calm and confident mood. Composition for a 16:9 blog hero: main subject in the lower two-thirds, slightly right of centre; keep the upper-left third as quiet negative space; nothing important within 8% of any edge.\nArticle title: \"The Duolingo for AI\".\nReader intent: Checking whether a Duolingo-style app for AI exists.\nAudience: Habit-driven learners who already know the Duolingo loop.\nThe image must communicate this outcome: Yes, it exists, and it feels familiar from day one.\nVisual metaphor: A wall of glass calendar tiles where a chain of lit tiles runs unbroken to today, and a small flame sits on the last one.\nSubject and scene: A grid of square frosted-glass tiles mounted on a dark wall, like a month. A diagonal run of tiles glows cyan from one corner to the centre; the last tile in the run holds a small, warm gold flame. The rest are dim. Slight perspective, shallow depth of field.\nStrictly no text, letters, numbers, captions, labels or typography anywhere in the image. No logos, brand marks, app icons, watermarks or signatures. No user interfaces, screens with content, dashboards, charts, chat bubbles, phones showing apps, or fake windows. No robots, androids, brains, circuit-board heads or glowing humanoids. No penguins or mascots. No recognisable real people or celebrity likeness; if a person appears, show them from behind or in silhouette. No neon rainbow palettes, no purple-pink gradients, no clutter.",
+      "promptHash": "0b418e7b7806",
+      "master": {
+        "path": "assets/hero/duolingo-for-ai-master.jpg",
+        "width": 1376,
+        "height": 768,
+        "bytes": 553845,
+        "mime": "image/jpeg"
+      },
+      "usage": {
+        "promptTokens": 427,
+        "candidateTokens": 1505,
+        "totalTokens": 1932
+      },
+      "estimatedUsd": 0.06,
+      "timestamp": "2026-09-08T23:59:07.486Z",
+      "status": "done",
+      "ms": 7823,
+      "variants": {
+        "640.webp": {
+          "path": "assets/hero/duolingo-for-ai-640.webp",
+          "width": 640,
+          "height": 360,
+          "bytes": 10710
+        },
+        "1000.webp": {
+          "path": "assets/hero/duolingo-for-ai-1000.webp",
+          "width": 1000,
+          "height": 563,
+          "bytes": 21258
+        },
+        "1400.webp": {
+          "path": "assets/hero/duolingo-for-ai-1400.webp",
+          "width": 1400,
+          "height": 788,
+          "bytes": 30980
+        },
+        "1000.jpg": {
+          "path": "assets/hero/duolingo-for-ai-1000.jpg",
+          "width": 1000,
+          "height": 563,
+          "bytes": 41216
+        },
+        "og.jpg": {
+          "path": "assets/hero/duolingo-for-ai-og.jpg",
+          "width": 1200,
+          "height": 630,
+          "bytes": 56979
+        }
+      },
+      "integrated": {
+        "at": "2026-09-09T00:01:25.384Z",
+        "note": "duolingo-for-ai.html: og/twitter/schema image → hero og, og:image:alt added, hero figure inserted"
+      }
+    },
+    "cancel-finestro": {
+      "slug": "cancel-finestro",
+      "kind": "post",
+      "score": 82,
+      "reason": "24 clicks / 3 mo; money-back intent brings the reader at the exact moment they want an alternative; icon thumbnail",
+      "alt": "Scissors cutting a thin gold thread, a coin floating free",
+      "model": "gemini-3.1-flash-image",
+      "aspectRatio": "16:9",
+      "prompt": "Premium editorial illustration with a cinematic, softly rendered 3D feel. Setting: a deep navy, near-black galaxy backdrop with faint starfield depth, translucent smoked-glass surfaces and thin refractive light edges. Materials: matte black, charcoal, frosted glass. Colour is restrained: one cyan (#00E5FF) light source and one warm gold (#FFC940) accent at most, everything else desaturated navy and grey. Subtle volumetric glow, shallow depth of field, calm and confident mood. Composition for a 16:9 blog hero: main subject in the lower two-thirds, slightly right of centre; keep the upper-left third as quiet negative space; nothing important within 8% of any edge.\nArticle title: \"How to cancel Finestro and request a refund\".\nReader intent: Stopping a charge and getting the last one back.\nAudience: Subscribers who were charged unexpectedly.\nThe image must communicate this outcome: The charge stops and the money returns.\nVisual metaphor: A cut thread: scissors have just snipped a thin cord that was tied to a coin, and the coin drifts back toward the viewer.\nSubject and scene: Close-up on a pair of matte-black scissors that have just cut a thin gold thread. The freed end of the thread curls in the air. A single brushed-gold coin floats free, catching cyan rim light. Dark glass tabletop, soft reflections.\nStrictly no text, letters, numbers, captions, labels or typography anywhere in the image. No logos, brand marks, app icons, watermarks or signatures. No user interfaces, screens with content, dashboards, charts, chat bubbles, phones showing apps, or fake windows. No robots, androids, brains, circuit-board heads or glowing humanoids. No penguins or mascots. No recognisable real people or celebrity likeness; if a person appears, show them from behind or in silhouette. No neon rainbow palettes, no purple-pink gradients, no clutter.",
+      "promptHash": "c2784fbd28a5",
+      "master": {
+        "path": "assets/hero/cancel-finestro-master.jpg",
+        "width": 1376,
+        "height": 768,
+        "bytes": 518687,
+        "mime": "image/jpeg"
+      },
+      "usage": {
+        "promptTokens": 409,
+        "candidateTokens": 1578,
+        "totalTokens": 1987
+      },
+      "estimatedUsd": 0.06,
+      "timestamp": "2026-09-08T23:59:14.951Z",
+      "status": "done",
+      "ms": 7464,
+      "variants": {
+        "640.webp": {
+          "path": "assets/hero/cancel-finestro-640.webp",
+          "width": 640,
+          "height": 360,
+          "bytes": 7926
+        },
+        "1000.webp": {
+          "path": "assets/hero/cancel-finestro-1000.webp",
+          "width": 1000,
+          "height": 563,
+          "bytes": 15156
+        },
+        "1400.webp": {
+          "path": "assets/hero/cancel-finestro-1400.webp",
+          "width": 1400,
+          "height": 788,
+          "bytes": 22730
+        },
+        "1000.jpg": {
+          "path": "assets/hero/cancel-finestro-1000.jpg",
+          "width": 1000,
+          "height": 563,
+          "bytes": 30804
+        },
+        "og.jpg": {
+          "path": "assets/hero/cancel-finestro-og.jpg",
+          "width": 1200,
+          "height": 630,
+          "bytes": 42394
+        }
+      },
+      "integrated": {
+        "at": "2026-09-09T00:01:25.385Z",
+        "note": "posts/cancel-finestro.json: hero + ogImage set (run node blog-engine/build.mjs)"
+      }
+    },
+    "chatgpt-prompts-for-beginners": {
+      "slug": "chatgpt-prompts-for-beginners",
+      "kind": "post",
+      "score": 81,
+      "reason": "5 clicks / 3 mo but high-intent prompting query with big search volume; matches the Prompt Engineering path; icon thumbnail",
+      "alt": "A hand sliding a glowing blank card into a slot on a dark desk",
+      "model": "gemini-3.1-flash-image",
+      "aspectRatio": "16:9",
+      "prompt": "Premium editorial illustration with a cinematic, softly rendered 3D feel. Setting: a deep navy, near-black galaxy backdrop with faint starfield depth, translucent smoked-glass surfaces and thin refractive light edges. Materials: matte black, charcoal, frosted glass. Colour is restrained: one cyan (#00E5FF) light source and one warm gold (#FFC940) accent at most, everything else desaturated navy and grey. Subtle volumetric glow, shallow depth of field, calm and confident mood. Composition for a 16:9 blog hero: main subject in the lower two-thirds, slightly right of centre; keep the upper-left third as quiet negative space; nothing important within 8% of any edge.\nArticle title: \"15 ChatGPT prompts for beginners\".\nReader intent: Getting copy-and-paste prompts that work.\nAudience: First-week ChatGPT users.\nThe image must communicate this outcome: A template they can reuse, and the pattern behind it.\nVisual metaphor: A template made physical: a hand placing a glowing cut-out card into a slot on a dark glass surface, a stack of identical blank cards beside it.\nSubject and scene: A hand seen from above slides a thin, softly glowing cyan card into a recessed slot in a dark glass desk. Beside it a neat stack of identical blank cards. One card on top has a warm gold edge. Everything else is deep navy. No writing on any card.\nStrictly no text, letters, numbers, captions, labels or typography anywhere in the image. No logos, brand marks, app icons, watermarks or signatures. No user interfaces, screens with content, dashboards, charts, chat bubbles, phones showing apps, or fake windows. No robots, androids, brains, circuit-board heads or glowing humanoids. No penguins or mascots. No recognisable real people or celebrity likeness; if a person appears, show them from behind or in silhouette. No neon rainbow palettes, no purple-pink gradients, no clutter.",
+      "promptHash": "668316a75e7b",
+      "master": {
+        "path": "assets/hero/chatgpt-prompts-for-beginners-master.jpg",
+        "width": 1376,
+        "height": 768,
+        "bytes": 564506,
+        "mime": "image/jpeg"
+      },
+      "usage": {
+        "promptTokens": 417,
+        "candidateTokens": 1485,
+        "totalTokens": 1902
+      },
+      "estimatedUsd": 0.06,
+      "timestamp": "2026-09-08T23:59:22.491Z",
+      "status": "done",
+      "ms": 7540,
+      "variants": {
+        "640.webp": {
+          "path": "assets/hero/chatgpt-prompts-for-beginners-640.webp",
+          "width": 640,
+          "height": 360,
+          "bytes": 8262
+        },
+        "1000.webp": {
+          "path": "assets/hero/chatgpt-prompts-for-beginners-1000.webp",
+          "width": 1000,
+          "height": 563,
+          "bytes": 17540
+        },
+        "1400.webp": {
+          "path": "assets/hero/chatgpt-prompts-for-beginners-1400.webp",
+          "width": 1400,
+          "height": 788,
+          "bytes": 25968
+        },
+        "1000.jpg": {
+          "path": "assets/hero/chatgpt-prompts-for-beginners-1000.jpg",
+          "width": 1000,
+          "height": 563,
+          "bytes": 35202
+        },
+        "og.jpg": {
+          "path": "assets/hero/chatgpt-prompts-for-beginners-og.jpg",
+          "width": 1200,
+          "height": 630,
+          "bytes": 50307
+        }
+      },
+      "integrated": {
+        "at": "2026-09-09T00:01:25.386Z",
+        "note": "posts/chatgpt-prompts-for-beginners.json: hero + ogImage set (run node blog-engine/build.mjs)"
+      }
+    },
+    "ai-student-discounts": {
+      "slug": "ai-student-discounts",
+      "kind": "post",
+      "score": 79,
+      "reason": "15 clicks / 3 mo; save-money intent; students are a growing audience after the ISTE and librarian outreach; icon thumbnail",
+      "alt": "A graduation cap on a stack of books beside a few gold coins",
+      "model": "gemini-3.1-flash-image",
+      "aspectRatio": "16:9",
+      "prompt": "Premium editorial illustration with a cinematic, softly rendered 3D feel. Setting: a deep navy, near-black galaxy backdrop with faint starfield depth, translucent smoked-glass surfaces and thin refractive light edges. Materials: matte black, charcoal, frosted glass. Colour is restrained: one cyan (#00E5FF) light source and one warm gold (#FFC940) accent at most, everything else desaturated navy and grey. Subtle volumetric glow, shallow depth of field, calm and confident mood. Composition for a 16:9 blog hero: main subject in the lower two-thirds, slightly right of centre; keep the upper-left third as quiet negative space; nothing important within 8% of any edge.\nArticle title: \"AI student discounts in 2026\".\nReader intent: Finding out which AI tools are actually free for students.\nAudience: University students.\nThe image must communicate this outcome: Knowing exactly what is free and not overpaying.\nVisual metaphor: A student desk at night: a mortarboard resting on a stack of books, and a few gold coins beside it, one balanced on its edge.\nSubject and scene: A dark desk at night with a graduation mortarboard resting on three stacked books. Beside them, a small scatter of brushed-gold coins, one standing on its edge and catching cyan light from a window off-frame. Soft starfield through the window.\nStrictly no text, letters, numbers, captions, labels or typography anywhere in the image. No logos, brand marks, app icons, watermarks or signatures. No user interfaces, screens with content, dashboards, charts, chat bubbles, phones showing apps, or fake windows. No robots, androids, brains, circuit-board heads or glowing humanoids. No penguins or mascots. No recognisable real people or celebrity likeness; if a person appears, show them from behind or in silhouette. No neon rainbow palettes, no purple-pink gradients, no clutter.",
+      "promptHash": "da3c2b1863a5",
+      "master": {
+        "path": "assets/hero/ai-student-discounts-master.jpg",
+        "width": 1376,
+        "height": 768,
+        "bytes": 532886,
+        "mime": "image/jpeg"
+      },
+      "usage": {
+        "promptTokens": 410,
+        "candidateTokens": 1532,
+        "totalTokens": 1942
+      },
+      "estimatedUsd": 0.06,
+      "timestamp": "2026-09-08T23:59:30.376Z",
+      "status": "done",
+      "ms": 7885,
+      "variants": {
+        "640.webp": {
+          "path": "assets/hero/ai-student-discounts-640.webp",
+          "width": 640,
+          "height": 360,
+          "bytes": 9878
+        },
+        "1000.webp": {
+          "path": "assets/hero/ai-student-discounts-1000.webp",
+          "width": 1000,
+          "height": 563,
+          "bytes": 18168
+        },
+        "1400.webp": {
+          "path": "assets/hero/ai-student-discounts-1400.webp",
+          "width": 1400,
+          "height": 788,
+          "bytes": 26514
+        },
+        "1000.jpg": {
+          "path": "assets/hero/ai-student-discounts-1000.jpg",
+          "width": 1000,
+          "height": 563,
+          "bytes": 36263
+        },
+        "og.jpg": {
+          "path": "assets/hero/ai-student-discounts-og.jpg",
+          "width": 1200,
+          "height": 630,
+          "bytes": 49502
+        }
+      },
+      "integrated": {
+        "at": "2026-09-09T00:01:25.387Z",
+        "note": "posts/ai-student-discounts.json: hero + ogImage set (run node blog-engine/build.mjs)"
+      }
+    },
+    "how-to-learn-ai": {
+      "slug": "how-to-learn-ai",
+      "kind": "root",
+      "score": 78,
+      "reason": "Heuristic, no GSC evidence yet: the deep-upgraded step-by-step money page on the site's head query; conversion page; text-card thumbnail",
+      "alt": "A silhouette at the foot of five glass steps rising toward a warm light",
+      "model": "gemini-3.1-flash-image",
+      "aspectRatio": "16:9",
+      "prompt": "Premium editorial illustration with a cinematic, softly rendered 3D feel. Setting: a deep navy, near-black galaxy backdrop with faint starfield depth, translucent smoked-glass surfaces and thin refractive light edges. Materials: matte black, charcoal, frosted glass. Colour is restrained: one cyan (#00E5FF) light source and one warm gold (#FFC940) accent at most, everything else desaturated navy and grey. Subtle volumetric glow, shallow depth of field, calm and confident mood. Composition for a 16:9 blog hero: main subject in the lower two-thirds, slightly right of centre; keep the upper-left third as quiet negative space; nothing important within 8% of any edge.\nArticle title: \"How to learn AI in 2026: a simple step-by-step plan\".\nReader intent: Starting from zero with a plan.\nAudience: Complete beginners, no coding.\nThe image must communicate this outcome: A clear five-step climb they can actually finish.\nVisual metaphor: A staircase of five wide glass steps rising out of darkness into light, seen from the bottom.\nSubject and scene: Five broad frosted-glass steps rise toward a soft gold glow at the top, each step edge lit by a thin cyan line. Starfield behind. A small figure seen from behind stands on the first step, in silhouette. Low camera, looking up.\nStrictly no text, letters, numbers, captions, labels or typography anywhere in the image. No logos, brand marks, app icons, watermarks or signatures. No user interfaces, screens with content, dashboards, charts, chat bubbles, phones showing apps, or fake windows. No robots, androids, brains, circuit-board heads or glowing humanoids. No penguins or mascots. No recognisable real people or celebrity likeness; if a person appears, show them from behind or in silhouette. No neon rainbow palettes, no purple-pink gradients, no clutter.",
+      "promptHash": "c689a11e311b",
+      "master": {
+        "path": "assets/hero/how-to-learn-ai-master.jpg",
+        "width": 1376,
+        "height": 768,
+        "bytes": 561150,
+        "mime": "image/jpeg"
+      },
+      "usage": {
+        "promptTokens": 409,
+        "candidateTokens": 1551,
+        "totalTokens": 1960
+      },
+      "estimatedUsd": 0.06,
+      "timestamp": "2026-09-08T23:59:38.258Z",
+      "status": "done",
+      "ms": 7882,
+      "variants": {
+        "640.webp": {
+          "path": "assets/hero/how-to-learn-ai-640.webp",
+          "width": 640,
+          "height": 360,
+          "bytes": 9482
+        },
+        "1000.webp": {
+          "path": "assets/hero/how-to-learn-ai-1000.webp",
+          "width": 1000,
+          "height": 563,
+          "bytes": 18916
+        },
+        "1400.webp": {
+          "path": "assets/hero/how-to-learn-ai-1400.webp",
+          "width": 1400,
+          "height": 788,
+          "bytes": 28236
+        },
+        "1000.jpg": {
+          "path": "assets/hero/how-to-learn-ai-1000.jpg",
+          "width": 1000,
+          "height": 563,
+          "bytes": 37119
+        },
+        "og.jpg": {
+          "path": "assets/hero/how-to-learn-ai-og.jpg",
+          "width": 1200,
+          "height": 630,
+          "bytes": 52357
+        }
+      },
+      "integrated": {
+        "at": "2026-09-09T00:01:25.388Z",
+        "note": "how-to-learn-ai.html: og/twitter/schema image → hero og, og:image:alt added, hero figure inserted"
+      }
+    },
+    "ai-tools-comparison": {
+      "slug": "ai-tools-comparison",
+      "kind": "root",
+      "score": 77,
+      "reason": "6 clicks / 3 mo; ChatGPT vs Claude vs Gemini is a high-intent tools query; matches the Tool Mastery paths; text-card thumbnail",
+      "alt": "Five hand tools in glass trays on a dark bench, a hand reaching for one",
+      "model": "gemini-3.1-flash-image",
+      "aspectRatio": "16:9",
+      "prompt": "Premium editorial illustration with a cinematic, softly rendered 3D feel. Setting: a deep navy, near-black galaxy backdrop with faint starfield depth, translucent smoked-glass surfaces and thin refractive light edges. Materials: matte black, charcoal, frosted glass. Colour is restrained: one cyan (#00E5FF) light source and one warm gold (#FFC940) accent at most, everything else desaturated navy and grey. Subtle volumetric glow, shallow depth of field, calm and confident mood. Composition for a 16:9 blog hero: main subject in the lower two-thirds, slightly right of centre; keep the upper-left third as quiet negative space; nothing important within 8% of any edge.\nArticle title: \"AI tools, compared honestly\".\nReader intent: Choosing between ChatGPT, Claude, Gemini, Perplexity and Copilot.\nAudience: People who use one tool and wonder if another fits better.\nThe image must communicate this outcome: The right tool for each job, without brand loyalty.\nVisual metaphor: A craftsman's bench: five different hand tools laid in individual glass trays, and a hand reaching for the one that fits the job.\nSubject and scene: A dark workbench with five recessed glass trays in a row, each holding one simple tool: a chisel, a hand plane, a compass, a brush, a small hammer. A hand from the right reaches toward the compass, which is rim-lit gold; the others sit in cyan half-light. No markings on any tool.\nStrictly no text, letters, numbers, captions, labels or typography anywhere in the image. No logos, brand marks, app icons, watermarks or signatures. No user interfaces, screens with content, dashboards, charts, chat bubbles, phones showing apps, or fake windows. No robots, androids, brains, circuit-board heads or glowing humanoids. No penguins or mascots. No recognisable real people or celebrity likeness; if a person appears, show them from behind or in silhouette. No neon rainbow palettes, no purple-pink gradients, no clutter.",
+      "promptHash": "224463482f4d",
+      "master": {
+        "path": "assets/hero/ai-tools-comparison-master.jpg",
+        "width": 1376,
+        "height": 768,
+        "bytes": 634015,
+        "mime": "image/jpeg"
+      },
+      "usage": {
+        "promptTokens": 433,
+        "candidateTokens": 1594,
+        "totalTokens": 2027
+      },
+      "estimatedUsd": 0.06,
+      "timestamp": "2026-09-08T23:59:46.795Z",
+      "status": "done",
+      "ms": 8537,
+      "variants": {
+        "640.webp": {
+          "path": "assets/hero/ai-tools-comparison-640.webp",
+          "width": 640,
+          "height": 360,
+          "bytes": 13920
+        },
+        "1000.webp": {
+          "path": "assets/hero/ai-tools-comparison-1000.webp",
+          "width": 1000,
+          "height": 563,
+          "bytes": 27522
+        },
+        "1400.webp": {
+          "path": "assets/hero/ai-tools-comparison-1400.webp",
+          "width": 1400,
+          "height": 788,
+          "bytes": 39726
+        },
+        "1000.jpg": {
+          "path": "assets/hero/ai-tools-comparison-1000.jpg",
+          "width": 1000,
+          "height": 563,
+          "bytes": 53139
+        },
+        "og.jpg": {
+          "path": "assets/hero/ai-tools-comparison-og.jpg",
+          "width": 1200,
+          "height": 630,
+          "bytes": 74188
+        }
+      },
+      "integrated": {
+        "at": "2026-09-09T00:01:25.389Z",
+        "note": "ai-tools-comparison.html: og/twitter/schema image → hero og, og:image:alt added, hero figure inserted"
+      }
+    },
+    "ai-learning-app-for-professionals": {
+      "slug": "ai-learning-app-for-professionals",
+      "kind": "post",
+      "score": 75,
+      "reason": "2 clicks / 3 mo but the clearest career/work-outcome page; matches AI for Work path; icon thumbnail",
+      "alt": "A commuter seen from behind on a dawn train, city skyline through the window",
+      "model": "gemini-3.1-flash-image",
+      "aspectRatio": "16:9",
+      "prompt": "Premium editorial illustration with a cinematic, softly rendered 3D feel. Setting: a deep navy, near-black galaxy backdrop with faint starfield depth, translucent smoked-glass surfaces and thin refractive light edges. Materials: matte black, charcoal, frosted glass. Colour is restrained: one cyan (#00E5FF) light source and one warm gold (#FFC940) accent at most, everything else desaturated navy and grey. Subtle volumetric glow, shallow depth of field, calm and confident mood. Composition for a 16:9 blog hero: main subject in the lower two-thirds, slightly right of centre; keep the upper-left third as quiet negative space; nothing important within 8% of any edge.\nArticle title: \"The best AI learning app for working professionals\".\nReader intent: Fitting job-relevant AI skills into a workday.\nAudience: Employed adults with no time for a course.\nThe image must communicate this outcome: Five useful minutes on the commute, every day.\nVisual metaphor: The commute: a train window at dawn, a professional seen from behind, the city sliding past, a small pool of cyan light in their hands.\nSubject and scene: Inside a quiet train carriage at dawn. A commuter in a coat, seen from behind, looks down at a soft cyan glow in their hands (the source is out of frame, no screen visible). Through the window, a dark city skyline with a thin gold sunrise line. Reflections on the glass.\nStrictly no text, letters, numbers, captions, labels or typography anywhere in the image. No logos, brand marks, app icons, watermarks or signatures. No user interfaces, screens with content, dashboards, charts, chat bubbles, phones showing apps, or fake windows. No robots, androids, brains, circuit-board heads or glowing humanoids. No penguins or mascots. No recognisable real people or celebrity likeness; if a person appears, show them from behind or in silhouette. No neon rainbow palettes, no purple-pink gradients, no clutter.",
+      "promptHash": "821ab665855c",
+      "master": {
+        "path": "assets/hero/ai-learning-app-for-professionals-master.jpg",
+        "width": 1376,
+        "height": 768,
+        "bytes": 558987,
+        "mime": "image/jpeg"
+      },
+      "usage": {
+        "promptTokens": 424,
+        "candidateTokens": 1514,
+        "totalTokens": 1938
+      },
+      "estimatedUsd": 0.06,
+      "timestamp": "2026-09-08T23:59:54.781Z",
+      "status": "done",
+      "ms": 7985,
+      "variants": {
+        "640.webp": {
+          "path": "assets/hero/ai-learning-app-for-professionals-640.webp",
+          "width": 640,
+          "height": 360,
+          "bytes": 9938
+        },
+        "1000.webp": {
+          "path": "assets/hero/ai-learning-app-for-professionals-1000.webp",
+          "width": 1000,
+          "height": 563,
+          "bytes": 21064
+        },
+        "1400.webp": {
+          "path": "assets/hero/ai-learning-app-for-professionals-1400.webp",
+          "width": 1400,
+          "height": 788,
+          "bytes": 31678
+        },
+        "1000.jpg": {
+          "path": "assets/hero/ai-learning-app-for-professionals-1000.jpg",
+          "width": 1000,
+          "height": 563,
+          "bytes": 39831
+        },
+        "og.jpg": {
+          "path": "assets/hero/ai-learning-app-for-professionals-og.jpg",
+          "width": 1200,
+          "height": 630,
+          "bytes": 54963
+        }
+      },
+      "integrated": {
+        "at": "2026-09-09T00:01:25.391Z",
+        "note": "posts/ai-learning-app-for-professionals.json: hero + ogImage set (run node blog-engine/build.mjs)"
+      }
+    },
+    "best-ai-model-for-writing": {
+      "slug": "best-ai-model-for-writing",
+      "kind": "post",
+      "score": 73,
+      "reason": "4 clicks / 3 mo; writing is a high-intent use case; matches Claude and writing paths; icon thumbnail",
+      "alt": "A fountain pen nib touching a pool of cyan ink that blooms like a nebula",
+      "model": "gemini-3.1-flash-image",
+      "aspectRatio": "16:9",
+      "prompt": "Premium editorial illustration with a cinematic, softly rendered 3D feel. Setting: a deep navy, near-black galaxy backdrop with faint starfield depth, translucent smoked-glass surfaces and thin refractive light edges. Materials: matte black, charcoal, frosted glass. Colour is restrained: one cyan (#00E5FF) light source and one warm gold (#FFC940) accent at most, everything else desaturated navy and grey. Subtle volumetric glow, shallow depth of field, calm and confident mood. Composition for a 16:9 blog hero: main subject in the lower two-thirds, slightly right of centre; keep the upper-left third as quiet negative space; nothing important within 8% of any edge.\nArticle title: \"The best AI model for writing in 2026\".\nReader intent: Picking a model by the kind of writing.\nAudience: Writers, marketers, students.\nThe image must communicate this outcome: Better prose, and knowing the model matters less than the brief.\nVisual metaphor: A fountain-pen nib touching a pool of cyan ink that spreads into a small galaxy.\nSubject and scene: Extreme close-up of a matte-black fountain pen nib touching a dark glass surface. Where it touches, cyan ink blooms outward into swirling nebula-like ribbons with a few gold sparks. Rest of the frame is deep navy. No paper, no writing.\nStrictly no text, letters, numbers, captions, labels or typography anywhere in the image. No logos, brand marks, app icons, watermarks or signatures. No user interfaces, screens with content, dashboards, charts, chat bubbles, phones showing apps, or fake windows. No robots, androids, brains, circuit-board heads or glowing humanoids. No penguins or mascots. No recognisable real people or celebrity likeness; if a person appears, show them from behind or in silhouette. No neon rainbow palettes, no purple-pink gradients, no clutter.",
+      "promptHash": "2139723959b2",
+      "master": {
+        "path": "assets/hero/best-ai-model-for-writing-master.jpg",
+        "width": 1376,
+        "height": 768,
+        "bytes": 566852,
+        "mime": "image/jpeg"
+      },
+      "usage": {
+        "promptTokens": 406,
+        "candidateTokens": 1453,
+        "totalTokens": 1859
+      },
+      "estimatedUsd": 0.06,
+      "timestamp": "2026-09-09T00:00:02.527Z",
+      "status": "done",
+      "ms": 7745,
+      "variants": {
+        "640.webp": {
+          "path": "assets/hero/best-ai-model-for-writing-640.webp",
+          "width": 640,
+          "height": 360,
+          "bytes": 11470
+        },
+        "1000.webp": {
+          "path": "assets/hero/best-ai-model-for-writing-1000.webp",
+          "width": 1000,
+          "height": 563,
+          "bytes": 21022
+        },
+        "1400.webp": {
+          "path": "assets/hero/best-ai-model-for-writing-1400.webp",
+          "width": 1400,
+          "height": 788,
+          "bytes": 30556
+        },
+        "1000.jpg": {
+          "path": "assets/hero/best-ai-model-for-writing-1000.jpg",
+          "width": 1000,
+          "height": 563,
+          "bytes": 40345
+        },
+        "og.jpg": {
+          "path": "assets/hero/best-ai-model-for-writing-og.jpg",
+          "width": 1200,
+          "height": 630,
+          "bytes": 55274
+        }
+      },
+      "integrated": {
+        "at": "2026-09-09T00:01:25.392Z",
+        "note": "posts/best-ai-model-for-writing.json: hero + ogImage set (run node blog-engine/build.mjs)"
+      }
+    },
+    "become-ai-fluent": {
+      "slug": "become-ai-fluent",
+      "kind": "root",
+      "score": 72,
+      "reason": "Heuristic, no GSC evidence yet: the deep-upgraded page for the site's own head term; conversion page; text-card thumbnail",
+      "alt": "A glass lens bringing a blurred field of lights into sharp focus",
+      "model": "gemini-3.1-flash-image",
+      "aspectRatio": "16:9",
+      "prompt": "Premium editorial illustration with a cinematic, softly rendered 3D feel. Setting: a deep navy, near-black galaxy backdrop with faint starfield depth, translucent smoked-glass surfaces and thin refractive light edges. Materials: matte black, charcoal, frosted glass. Colour is restrained: one cyan (#00E5FF) light source and one warm gold (#FFC940) accent at most, everything else desaturated navy and grey. Subtle volumetric glow, shallow depth of field, calm and confident mood. Composition for a 16:9 blog hero: main subject in the lower two-thirds, slightly right of centre; keep the upper-left third as quiet negative space; nothing important within 8% of any edge.\nArticle title: \"How to become AI fluent in 2026\".\nReader intent: Understanding what AI fluency is and how to reach it.\nAudience: Professionals who feel behind.\nThe image must communicate this outcome: Clarity: fluency is a practical skill with levels, and it is learnable.\nVisual metaphor: Coming into focus: a large glass lens held over a blurred field of light, and inside the lens everything is sharp.\nSubject and scene: A round frosted-glass lens floats above a dark field of soft, blurred cyan and gold light points. Inside the lens the same points resolve into crisp, sharp stars. Thin gold rim on the lens. Deep navy surround, gentle depth of field.\nStrictly no text, letters, numbers, captions, labels or typography anywhere in the image. No logos, brand marks, app icons, watermarks or signatures. No user interfaces, screens with content, dashboards, charts, chat bubbles, phones showing apps, or fake windows. No robots, androids, brains, circuit-board heads or glowing humanoids. No penguins or mascots. No recognisable real people or celebrity likeness; if a person appears, show them from behind or in silhouette. No neon rainbow palettes, no purple-pink gradients, no clutter.",
+      "promptHash": "7dba0a7fe780",
+      "master": {
+        "path": "assets/hero/become-ai-fluent-master.jpg",
+        "width": 1376,
+        "height": 768,
+        "bytes": 520184,
+        "mime": "image/jpeg"
+      },
+      "usage": {
+        "promptTokens": 413,
+        "candidateTokens": 1449,
+        "totalTokens": 1862
+      },
+      "estimatedUsd": 0.06,
+      "timestamp": "2026-09-09T00:00:10.056Z",
+      "status": "done",
+      "ms": 7528,
+      "variants": {
+        "640.webp": {
+          "path": "assets/hero/become-ai-fluent-640.webp",
+          "width": 640,
+          "height": 360,
+          "bytes": 10252
+        },
+        "1000.webp": {
+          "path": "assets/hero/become-ai-fluent-1000.webp",
+          "width": 1000,
+          "height": 563,
+          "bytes": 18746
+        },
+        "1400.webp": {
+          "path": "assets/hero/become-ai-fluent-1400.webp",
+          "width": 1400,
+          "height": 788,
+          "bytes": 26772
+        },
+        "1000.jpg": {
+          "path": "assets/hero/become-ai-fluent-1000.jpg",
+          "width": 1000,
+          "height": 563,
+          "bytes": 36159
+        },
+        "og.jpg": {
+          "path": "assets/hero/become-ai-fluent-og.jpg",
+          "width": 1200,
+          "height": 630,
+          "bytes": 49069
+        }
+      },
+      "integrated": {
+        "at": "2026-09-09T00:01:25.393Z",
+        "note": "become-ai-fluent.html: og/twitter/schema image → hero og, og:image:alt added, hero figure inserted"
+      }
+    },
+    "best-ai-apps": {
+      "slug": "best-ai-apps",
+      "kind": "post",
+      "score": 71,
+      "reason": "5 clicks / 3 mo; broad tools roundup; text-card thumbnail",
+      "alt": "Five differently shaped lanterns on a glass shelf, one glowing gold",
+      "model": "gemini-3.1-flash-image",
+      "aspectRatio": "16:9",
+      "prompt": "Premium editorial illustration with a cinematic, softly rendered 3D feel. Setting: a deep navy, near-black galaxy backdrop with faint starfield depth, translucent smoked-glass surfaces and thin refractive light edges. Materials: matte black, charcoal, frosted glass. Colour is restrained: one cyan (#00E5FF) light source and one warm gold (#FFC940) accent at most, everything else desaturated navy and grey. Subtle volumetric glow, shallow depth of field, calm and confident mood. Composition for a 16:9 blog hero: main subject in the lower two-thirds, slightly right of centre; keep the upper-left third as quiet negative space; nothing important within 8% of any edge.\nArticle title: \"The best AI apps in 2026 (and what each is best for)\".\nReader intent: A shortlist of AI apps by job.\nAudience: Everyday users choosing a couple of apps.\nThe image must communicate this outcome: One app per job, no overlap.\nVisual metaphor: Five differently shaped lanterns on a glass shelf, each glowing a slightly different warmth, each obviously for a different purpose.\nSubject and scene: A single long frosted-glass shelf against a dark wall holds five lanterns of clearly different shapes: a tall cylinder, a cube, a sphere, a low wide dish, a small teardrop. Four glow cool cyan, one glows warm gold. Soft reflections on the shelf. No markings.\nStrictly no text, letters, numbers, captions, labels or typography anywhere in the image. No logos, brand marks, app icons, watermarks or signatures. No user interfaces, screens with content, dashboards, charts, chat bubbles, phones showing apps, or fake windows. No robots, androids, brains, circuit-board heads or glowing humanoids. No penguins or mascots. No recognisable real people or celebrity likeness; if a person appears, show them from behind or in silhouette. No neon rainbow palettes, no purple-pink gradients, no clutter.",
+      "promptHash": "fc3f2c12376c",
+      "master": {
+        "path": "assets/hero/best-ai-apps-master.jpg",
+        "width": 1376,
+        "height": 768,
+        "bytes": 562003,
+        "mime": "image/jpeg"
+      },
+      "usage": {
+        "promptTokens": 418,
+        "candidateTokens": 1556,
+        "totalTokens": 1974
+      },
+      "estimatedUsd": 0.06,
+      "timestamp": "2026-09-09T00:00:18.341Z",
+      "status": "done",
+      "ms": 8285,
+      "variants": {
+        "640.webp": {
+          "path": "assets/hero/best-ai-apps-640.webp",
+          "width": 640,
+          "height": 360,
+          "bytes": 6984
+        },
+        "1000.webp": {
+          "path": "assets/hero/best-ai-apps-1000.webp",
+          "width": 1000,
+          "height": 563,
+          "bytes": 13696
+        },
+        "1400.webp": {
+          "path": "assets/hero/best-ai-apps-1400.webp",
+          "width": 1400,
+          "height": 788,
+          "bytes": 21042
+        },
+        "1000.jpg": {
+          "path": "assets/hero/best-ai-apps-1000.jpg",
+          "width": 1000,
+          "height": 563,
+          "bytes": 28933
+        },
+        "og.jpg": {
+          "path": "assets/hero/best-ai-apps-og.jpg",
+          "width": 1200,
+          "height": 630,
+          "bytes": 42639
+        }
+      },
+      "integrated": {
+        "at": "2026-09-09T00:01:25.394Z",
+        "note": "posts/best-ai-apps.json: hero + ogImage set (run node blog-engine/build.mjs)"
+      }
+    },
+    "coursiv-vs-learnova": {
+      "slug": "coursiv-vs-learnova",
+      "kind": "post",
+      "score": 69,
+      "reason": "5 clicks / 3 mo; head-to-head comparison intent; the post's third option is Iro; text-card thumbnail",
+      "alt": "A balance scale with two glass weights and a small gold sphere set apart beside it",
+      "model": "gemini-3.1-flash-image",
+      "aspectRatio": "16:9",
+      "prompt": "Premium editorial illustration with a cinematic, softly rendered 3D feel. Setting: a deep navy, near-black galaxy backdrop with faint starfield depth, translucent smoked-glass surfaces and thin refractive light edges. Materials: matte black, charcoal, frosted glass. Colour is restrained: one cyan (#00E5FF) light source and one warm gold (#FFC940) accent at most, everything else desaturated navy and grey. Subtle volumetric glow, shallow depth of field, calm and confident mood. Composition for a 16:9 blog hero: main subject in the lower two-thirds, slightly right of centre; keep the upper-left third as quiet negative space; nothing important within 8% of any edge.\nArticle title: \"Coursiv vs Learnova: which AI learning app is worth it in 2026?\".\nReader intent: Comparing the two most-advertised AI learning apps.\nAudience: People who saw both in ads.\nThe image must communicate this outcome: A clear verdict, and a third option if neither fits.\nVisual metaphor: A balance scale with two frosted-glass weights, and a small third object set apart beside it on the table.\nSubject and scene: A brass-and-black balance scale on a dark glass table, one frosted-glass block in each pan, nearly level. Set apart to the right, a small smooth gold sphere rests on the table, lit by a soft cyan beam. Deep navy background.\nStrictly no text, letters, numbers, captions, labels or typography anywhere in the image. No logos, brand marks, app icons, watermarks or signatures. No user interfaces, screens with content, dashboards, charts, chat bubbles, phones showing apps, or fake windows. No robots, androids, brains, circuit-board heads or glowing humanoids. No penguins or mascots. No recognisable real people or celebrity likeness; if a person appears, show them from behind or in silhouette. No neon rainbow palettes, no purple-pink gradients, no clutter.",
+      "promptHash": "c75de4794bf1",
+      "master": {
+        "path": "assets/hero/coursiv-vs-learnova-master.jpg",
+        "width": 1376,
+        "height": 768,
+        "bytes": 524592,
+        "mime": "image/jpeg"
+      },
+      "usage": {
+        "promptTokens": 421,
+        "candidateTokens": 1517,
+        "totalTokens": 1938
+      },
+      "estimatedUsd": 0.06,
+      "timestamp": "2026-09-09T00:00:26.460Z",
+      "status": "done",
+      "ms": 8119,
+      "variants": {
+        "640.webp": {
+          "path": "assets/hero/coursiv-vs-learnova-640.webp",
+          "width": 640,
+          "height": 360,
+          "bytes": 8348
+        },
+        "1000.webp": {
+          "path": "assets/hero/coursiv-vs-learnova-1000.webp",
+          "width": 1000,
+          "height": 563,
+          "bytes": 15876
+        },
+        "1400.webp": {
+          "path": "assets/hero/coursiv-vs-learnova-1400.webp",
+          "width": 1400,
+          "height": 788,
+          "bytes": 23354
+        },
+        "1000.jpg": {
+          "path": "assets/hero/coursiv-vs-learnova-1000.jpg",
+          "width": 1000,
+          "height": 563,
+          "bytes": 33494
+        },
+        "og.jpg": {
+          "path": "assets/hero/coursiv-vs-learnova-og.jpg",
+          "width": 1200,
+          "height": 630,
+          "bytes": 46520
+        }
+      },
+      "integrated": {
+        "at": "2026-09-09T00:01:25.397Z",
+        "note": "posts/coursiv-vs-learnova.json: hero + ogImage set (run node blog-engine/build.mjs)"
+      }
+    },
+    "iro-ai-vs-learnova": {
+      "slug": "iro-ai-vs-learnova",
+      "kind": "post",
+      "score": 66,
+      "reason": "3 clicks / 3 mo; direct competitor comparison with Iro as one side; icon thumbnail",
+      "alt": "A closed book in cool light beside hands at work in warm light",
+      "model": "gemini-3.1-flash-image",
+      "aspectRatio": "16:9",
+      "prompt": "Premium editorial illustration with a cinematic, softly rendered 3D feel. Setting: a deep navy, near-black galaxy backdrop with faint starfield depth, translucent smoked-glass surfaces and thin refractive light edges. Materials: matte black, charcoal, frosted glass. Colour is restrained: one cyan (#00E5FF) light source and one warm gold (#FFC940) accent at most, everything else desaturated navy and grey. Subtle volumetric glow, shallow depth of field, calm and confident mood. Composition for a 16:9 blog hero: main subject in the lower two-thirds, slightly right of centre; keep the upper-left third as quiet negative space; nothing important within 8% of any edge.\nArticle title: \"Iro AI vs Learnova: which AI learning app should you pick in 2026?\".\nReader intent: Reading versus practicing: which app actually builds skill.\nAudience: Comparison shoppers.\nThe image must communicate this outcome: Practice beats reading, and here is the evidence.\nVisual metaphor: Two halves of one frame: on the left a closed book on a shelf in cool light; on the right a workbench with hands mid-task in warm light.\nSubject and scene: A split composition on one dark glass table. Left half: a closed book standing upright, lit cool cyan, untouched. Right half: a pair of hands seen from above, mid-task, shaping a small glowing object, lit warm gold. Thin line of light divides the halves.\nStrictly no text, letters, numbers, captions, labels or typography anywhere in the image. No logos, brand marks, app icons, watermarks or signatures. No user interfaces, screens with content, dashboards, charts, chat bubbles, phones showing apps, or fake windows. No robots, androids, brains, circuit-board heads or glowing humanoids. No penguins or mascots. No recognisable real people or celebrity likeness; if a person appears, show them from behind or in silhouette. No neon rainbow palettes, no purple-pink gradients, no clutter.",
+      "promptHash": "da2f0922fc5b",
+      "master": {
+        "path": "assets/hero/iro-ai-vs-learnova-master.jpg",
+        "width": 1376,
+        "height": 768,
+        "bytes": 548750,
+        "mime": "image/jpeg"
+      },
+      "usage": {
+        "promptTokens": 429,
+        "candidateTokens": 1567,
+        "totalTokens": 1996
+      },
+      "estimatedUsd": 0.06,
+      "timestamp": "2026-09-09T00:00:34.414Z",
+      "status": "done",
+      "ms": 7953,
+      "variants": {
+        "640.webp": {
+          "path": "assets/hero/iro-ai-vs-learnova-640.webp",
+          "width": 640,
+          "height": 360,
+          "bytes": 8854
+        },
+        "1000.webp": {
+          "path": "assets/hero/iro-ai-vs-learnova-1000.webp",
+          "width": 1000,
+          "height": 563,
+          "bytes": 18324
+        },
+        "1400.webp": {
+          "path": "assets/hero/iro-ai-vs-learnova-1400.webp",
+          "width": 1400,
+          "height": 788,
+          "bytes": 27834
+        },
+        "1000.jpg": {
+          "path": "assets/hero/iro-ai-vs-learnova-1000.jpg",
+          "width": 1000,
+          "height": 563,
+          "bytes": 41336
+        },
+        "og.jpg": {
+          "path": "assets/hero/iro-ai-vs-learnova-og.jpg",
+          "width": 1200,
+          "height": 630,
+          "bytes": 57871
+        }
+      },
+      "integrated": {
+        "at": "2026-09-09T00:01:25.398Z",
+        "note": "posts/iro-ai-vs-learnova.json: hero + ogImage set (run node blog-engine/build.mjs)"
+      }
+    }
+  },
+  "updatedAt": "2026-09-09T00:01:25.398Z",
+  "model": "gemini-3.1-flash-image",
+  "pricePerImageUsdEstimate": 0.06
+}

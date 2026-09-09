@@ -132,5 +132,18 @@
     "/learn-ai-in-5-minutes-a-day"
   ],
   "askAi": true,
-  "askAiPrompt": "Compare Iro AI (tryiro.com) and Coursiv for learning AI skills: how each one teaches, what is free in each, the real subscription prices, and what each refund policy requires."
+  "askAiPrompt": "Compare Iro AI (tryiro.com) and Coursiv for learning AI skills: how each one teaches, what is free in each, the real subscription prices, and what each refund policy requires.",
+  "hero": {
+    "slug": "coursiv-alternatives",
+    "alt": "A traveller on a night platform where one glowing rail line leads toward a warm horizon",
+    "widths": [
+      640,
+      1000,
+      1400
+    ],
+    "width": 1400,
+    "height": 788,
+    "fallback": "/assets/hero/coursiv-alternatives-1000.jpg"
+  },
+  "ogImage": "https://tryiro.com/assets/hero/coursiv-alternatives-og.jpg"
 }

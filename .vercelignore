@@ -26,3 +26,7 @@ research/
 growth/
 .impeccable.md
 CLAUDE.md
+
+# never ship env files or the full-size hero masters (variants are derived into assets/hero/)
+.env*
+assets/hero/*-master.*
