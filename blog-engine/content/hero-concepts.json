@@ -356,6 +356,19 @@
       "metaphor": "A glass prism on a drafting table splitting one beam into two",
       "subject": "On a dark drafting table, a small triangular glass prism splits a single cyan beam into a cyan and a warm gold beam that land on the table as two soft pools of light. A brass compass and a ruler rest nearby, out of focus.",
       "alt": "A glass prism splitting a beam into cyan and gold light on a drafting table"
+    },
+    {
+      "slug": "paths-hub",
+      "kind": "asset",
+      "score": 62,
+      "reason": "Path library hero (header nav page), rendered by build-paths.mjs",
+      "title": "The Iro AI Path Library",
+      "intent": "Choosing a learning path by tool, skill or job",
+      "audience": "Anyone deciding what to practice first",
+      "outcome": "One library, every route laid out, pick one and start",
+      "metaphor": "A map table in a dark glass room with several routes of light leading out from one point",
+      "subject": "A large dark glass map table seen from a low angle. From a single warm gold point near the front, several thin routes of cyan light branch outward across the table toward the far edge, each ending in a small glass marker. Faint contour lines etched in the glass, soft reflections, starfield beyond. No text, no labels.",
+      "alt": "A dark glass map table with routes of light branching out from one point"
     }
   ]
 }

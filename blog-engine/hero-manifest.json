@@ -1701,9 +1701,72 @@
         "at": "2026-09-09T17:02:21.066Z",
         "note": "section-ai-tools-3: asset only, no page integration"
       }
+    },
+    "paths-hub": {
+      "slug": "paths-hub",
+      "kind": "asset",
+      "score": 62,
+      "reason": "Path library hero (header nav page), rendered by build-paths.mjs",
+      "alt": "A dark glass map table with routes of light branching out from one point",
+      "model": "gemini-3.1-flash-image",
+      "aspectRatio": "16:9",
+      "prompt": "Premium editorial illustration with a cinematic, softly rendered 3D feel. Setting: a deep navy, near-black galaxy backdrop with faint starfield depth, translucent smoked-glass surfaces and thin refractive light edges. Materials: matte black, charcoal, frosted glass. Colour is restrained: one cyan (#00E5FF) light source and one warm gold (#FFC940) accent at most, everything else desaturated navy and grey. Subtle volumetric glow, shallow depth of field, calm and confident mood. Composition for a 16:9 blog hero: main subject in the lower two-thirds, slightly right of centre; keep the upper-left third as quiet negative space; nothing important within 8% of any edge.\nArticle title: \"The Iro AI Path Library\".\nReader intent: Choosing a learning path by tool, skill or job.\nAudience: Anyone deciding what to practice first.\nThe image must communicate this outcome: One library, every route laid out, pick one and start.\nVisual metaphor: A map table in a dark glass room with several routes of light leading out from one point.\nSubject and scene: A large dark glass map table seen from a low angle. From a single warm gold point near the front, several thin routes of cyan light branch outward across the table toward the far edge, each ending in a small glass marker. Faint contour lines etched in the glass, soft reflections, starfield beyond. No text, no labels.\nStrictly no text, letters, numbers, captions, labels or typography anywhere in the image. No logos, brand marks, app icons, watermarks or signatures. No user interfaces, screens with content, dashboards, charts, chat bubbles, phones showing apps, or fake windows. No robots, androids, brains, circuit-board heads or glowing humanoids. No penguins or mascots. No recognisable real people or celebrity likeness; if a person appears, show them from behind or in silhouette. No neon rainbow palettes, no purple-pink gradients, no clutter.",
+      "promptHash": "e1bc3ae39dc6",
+      "master": {
+        "path": "assets/hero/paths-hub-master.jpg",
+        "width": 1376,
+        "height": 768,
+        "bytes": 508257,
+        "mime": "image/jpeg"
+      },
+      "usage": {
+        "promptTokens": 420,
+        "candidateTokens": 1480,
+        "totalTokens": 1900
+      },
+      "estimatedUsd": 0.06,
+      "timestamp": "2026-09-09T17:08:24.895Z",
+      "status": "done",
+      "ms": 8270,
+      "variants": {
+        "640.webp": {
+          "path": "assets/hero/paths-hub-640.webp",
+          "width": 640,
+          "height": 360,
+          "bytes": 9618
+        },
+        "1000.webp": {
+          "path": "assets/hero/paths-hub-1000.webp",
+          "width": 1000,
+          "height": 563,
+          "bytes": 19934
+        },
+        "1400.webp": {
+          "path": "assets/hero/paths-hub-1400.webp",
+          "width": 1400,
+          "height": 788,
+          "bytes": 29038
+        },
+        "1000.jpg": {
+          "path": "assets/hero/paths-hub-1000.jpg",
+          "width": 1000,
+          "height": 563,
+          "bytes": 36971
+        },
+        "og.jpg": {
+          "path": "assets/hero/paths-hub-og.jpg",
+          "width": 1200,
+          "height": 630,
+          "bytes": 50214
+        }
+      },
+      "integrated": {
+        "at": "2026-09-09T17:08:25.712Z",
+        "note": "paths-hub: asset only, no page integration"
+      }
     }
   },
-  "updatedAt": "2026-09-09T17:02:21.066Z",
+  "updatedAt": "2026-09-09T17:08:25.712Z",
   "model": "gemini-3.1-flash-image",
   "pricePerImageUsdEstimate": 0.06
 }
