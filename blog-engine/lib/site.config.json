@@ -143,6 +143,70 @@
     "keywords": "Iro AI blog, AI fluency, prompt engineering, ChatGPT tips, AI agents, AI tools",
     "ogImage": "/assets/og/blog.png",
     "pillarsHeading": "Start with a pillar",
-    "pillarsIntro": "Each pillar is a complete topic hub. Start there, then dive into the deep-dive posts inside it."
+    "pillarsIntro": "Each pillar is a complete topic hub. Start there, then dive into the deep-dive posts inside it.",
+    "hero": {
+      "slug": "blog-hub",
+      "alt": "An open glass notebook on a dark desk with cyan light rising from its pages"
+    },
+    "editorialHeading": "Written by a named author. Checked against the app.",
+    "editorialBody": "Every post here is written by Alex Furukawa, who builds Iro. Product figures trace to one source, third-party figures carry a date, comparisons disclose the conflict, and corrections are logged in the open.",
+    "editorialLink": {
+      "href": "/editorial-policy",
+      "label": "How we write and check"
+    },
+    "exploreHeading": "Explore Iro",
+    "exploreIntro": "The blog is the reading layer. When you want to move from reading to doing, these are the doors.",
+    "explore": [
+      {
+        "href": "/paths",
+        "title": "Learning paths",
+        "sub": "29 guided paths, from ChatGPT to vibe coding.",
+        "icon": "map"
+      },
+      {
+        "href": "/quiz",
+        "title": "AI Rank Quiz",
+        "sub": "Ten questions. Your rank in two minutes.",
+        "icon": "target"
+      },
+      {
+        "href": "/free-ai-learning-app",
+        "title": "Free ways to learn AI",
+        "sub": "What is really free, and where to start.",
+        "icon": "unlock"
+      },
+      {
+        "href": "/best-ai-learning-app",
+        "title": "Best AI learning apps",
+        "sub": "Eight apps compared, by goal and budget.",
+        "icon": "star"
+      },
+      {
+        "href": "/for-educators",
+        "title": "For educators",
+        "sub": "Teaching AI literacy in high school and beyond.",
+        "icon": "cap"
+      },
+      {
+        "href": "/glossary",
+        "title": "Glossary",
+        "sub": "The AI terms, in plain English.",
+        "icon": "book"
+      },
+      {
+        "href": "/ai-info",
+        "title": "Ask any AI about Iro",
+        "sub": "What Iro is, stated plainly for assistants.",
+        "icon": "chat"
+      },
+      {
+        "href": "/changelog",
+        "title": "Changelog",
+        "sub": "What shipped on tryiro.com, dated.",
+        "icon": "clock"
+      }
+    ],
+    "postsHeading": "All posts",
+    "postsIntro": "Newest first. Filter by topic, or start with a pillar above."
   }
 }

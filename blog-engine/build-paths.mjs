@@ -142,7 +142,42 @@ const CSS = `*{box-sizing:border-box}body{margin:0;font-family:Inter,ui-sans-ser
 .ctaband{max-width:1120px;margin:0 auto;padding:8px clamp(20px,5vw,36px) clamp(40px,6vw,72px)}.ctaband .box{background:linear-gradient(135deg,rgba(0,229,255,.14),rgba(255,215,0,.05));border:1px solid rgba(0,229,255,.28);border-radius:26px;padding:clamp(26px,4vw,42px);text-align:center}.ctaband h2{font-size:clamp(1.6rem,3.4vw,2.4rem);margin:0 0 12px;letter-spacing:-.03em}.ctaband p{color:#CFD6EA;max-width:620px;margin:0 auto 22px}.ctaband .cta-row{justify-content:center}
 /* hub */
 .hub-cats{max-width:1120px;margin:0 auto;padding:8px clamp(20px,5vw,36px) clamp(40px,6vw,72px)}.hub-cat{margin:0 0 40px}.hub-cat h2{font-size:clamp(1.4rem,3vw,2rem);letter-spacing:-.03em;margin:0 0 6px}.hub-cat .sub{color:#8B95B0;margin:0 0 18px}.hub-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}.hub-card{display:block;background:rgba(20,27,45,.82);border:1px solid rgba(255,255,255,.08);border-radius:18px;padding:18px 20px;transition:border-color .2s,transform .2s}.hub-card:hover{border-color:rgba(0,229,255,.4);text-decoration:none;transform:translateY(-2px)}.hub-card .t{color:#fff;font-weight:800;font-size:1.04rem;margin:0 0 4px}.hub-card .d{color:#A9B4D0;font-size:.92rem;margin:0}
-@media(max-width:800px){.grid,.two-col,.hub-grid,.outcomes{grid-template-columns:1fr}.nav{align-items:flex-start;flex-direction:column}.hero h1{font-size:3rem}}`;
+@media(max-width:800px){.grid,.two-col,.hub-grid,.outcomes{grid-template-columns:1fr}.nav{align-items:flex-start;flex-direction:column}.hero h1{font-size:3rem}}
+/* ---- path library hub ---- */
+.hero-split{display:grid;grid-template-columns:1.05fr .95fr;gap:clamp(24px,4vw,56px);align-items:center}
+.hero-split .hero-copy{min-width:0}
+.hero-split h1{font-size:clamp(2.3rem,4.8vw,4.2rem)}
+.hero-art{margin:0;border-radius:22px;overflow:hidden;border:1px solid rgba(255,255,255,.1);box-shadow:0 30px 70px rgba(0,0,0,.5),0 0 60px rgba(0,229,255,.12);background:#0A0E1A}
+.hero-art img{display:block;width:100%;height:auto}
+.lib-bar{display:flex;flex-wrap:wrap;align-items:center;gap:12px 18px;margin:0 0 34px;padding:14px 16px;border-radius:16px;background:rgba(20,27,45,.6);border:1px solid rgba(255,255,255,.08)}
+.lib-jump{display:flex;flex-wrap:wrap;gap:8px}
+.lib-jump a{display:inline-flex;align-items:center;gap:7px;padding:8px 13px;border-radius:999px;border:1px solid rgba(255,255,255,.12);color:#C9D2EA;font-weight:600;font-size:.9rem;text-decoration:none;transition:border-color .2s,color .2s}
+.lib-jump a:hover{border-color:rgba(0,229,255,.5);color:#fff;text-decoration:none}
+.lib-jump b{font-family:JetBrains Mono,ui-monospace,Menlo,monospace;font-size:.72rem;color:#00E5FF;font-weight:700}
+.lib-find{flex:1 1 220px;min-width:180px;margin-left:auto}
+.lib-find .sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0)}
+.lib-find input{width:100%;padding:10px 14px;border-radius:12px;border:1px solid rgba(255,255,255,.14);background:rgba(10,14,26,.8);color:#fff;font:inherit;font-size:.95rem}
+.lib-find input:focus{outline:2px solid #00E5FF;outline-offset:2px;border-color:#00E5FF}
+.lib-count{margin:0;color:#8B95B0;font-family:JetBrains Mono,ui-monospace,Menlo,monospace;font-size:.78rem;white-space:nowrap}
+.hub-cat[hidden]{display:none}
+.hub-cat-h{display:flex;align-items:flex-start;gap:14px;margin:0 0 18px}
+.hub-cat-h h2{margin:0 0 4px}
+.hub-cat-h .sub{margin:0}
+.hub-cat-ico{flex:none;display:inline-flex;align-items:center;justify-content:center;width:44px;height:44px;border-radius:12px;background:rgba(0,229,255,.08);border:1px solid rgba(0,229,255,.25);color:#00E5FF}
+.hub-cat-ico svg{width:22px;height:22px}
+.hub-cat-n{margin-left:auto;align-self:center;font-family:JetBrains Mono,ui-monospace,Menlo,monospace;font-size:.8rem;color:#8B95B0;border:1px solid rgba(255,255,255,.1);border-radius:999px;padding:5px 10px}
+.hub-card{display:flex;flex-direction:column;gap:6px;padding:18px 20px 16px;transition:border-color .25s,transform .25s,box-shadow .25s}
+.hub-card:hover{box-shadow:0 16px 34px rgba(0,0,0,.4)}
+.hub-card[hidden]{display:none}
+.hub-card .d{flex:1}
+.hub-card .f{display:flex;justify-content:space-between;align-items:center;margin:10px 0 0;padding-top:10px;border-top:1px solid rgba(255,255,255,.07);font-family:JetBrains Mono,ui-monospace,Menlo,monospace;font-size:.72rem;letter-spacing:.06em;text-transform:uppercase;color:#8B95B0}
+.hub-card .f i{font-style:normal;color:#00E5FF;font-size:1rem;transition:transform .25s}
+.hub-card:hover .f i{transform:translateX(3px)}
+@media(max-width:900px){.hero-split{grid-template-columns:1fr}.hero-art{max-width:640px}}
+@media(max-width:800px){.hub-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:560px){.hub-grid{grid-template-columns:1fr}.lib-find{margin-left:0}}
+@media(prefers-reduced-motion:reduce){.hub-card,.hub-card .f i,.lib-jump a{transition:none}}
+`;
 
 function head({ title, description, canonical, ogImage, keywords, prev, next, jsonBlocks, mdHref }) {
   const og = ogImage || `${D}/assets/og-card.png`;
@@ -331,7 +366,7 @@ function buildHub(hub, pages) {
   const byCat = {};
   for (const c of hub.categories) byCat[c.id] = [];
   // include generated pages + any manually-registered entries from hub.extra
-  const entries = pages.map((p) => ({ slug: p.slug, cat: p.category, t: p.hubTitle || p.eyebrow, d: p.hubBlurb || p.metaDescription }))
+  const entries = pages.map((p) => ({ slug: p.slug, cat: p.category, t: p.hubTitle || p.eyebrow, d: p.hubBlurb || p.metaDescription, n: (p.lessons || []).length }))
     .concat(hub.extra || []);
   for (const e of entries) {
     if (!byCat[e.cat]) byCat[e.cat] = [];
@@ -346,21 +381,35 @@ function buildHub(hub, pages) {
 
   const H = head({ title: hub.title, description: hub.metaDescription, canonical, ogImage: fs.existsSync(path.join(ROOT, 'assets/og/paths.png')) ? `${D}/assets/og/paths.png` : `${D}/assets/og-card.png`, keywords: (hub.keywords || []).join(', '), jsonBlocks: [collection, breadcrumb, itemList, faqSchema] });
 
+  const CAT_ICON = {
+    tools: '<path d="M14.5 4.5a4 4 0 0 0-4.9 5.1L3 16.2V21h4.8l6.6-6.6a4 4 0 0 0 5.1-4.9l-2.6 2.6-2.3-.6-.6-2.3z"/>',
+    skills: '<path d="M13 2 4 14h6l-1 8 9-12h-6z"/>',
+    jobs: '<rect x="3" y="7" width="18" height="13" rx="2"/><path d="M9 7V5a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v2M3 12h18"/>',
+    start: '<path d="M5 21V4"/><path d="M5 4h11l-2 3.5L16 11H5"/>',
+  };
+  const catIcon = (id) => `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${CAT_ICON[id] || CAT_ICON.start}</svg>`;
+  const catCount = (id) => (byCat[id] || []).length;
   const cats = hub.categories.map((c) => {
     const items = (byCat[c.id] || []);
     if (!items.length) return '';
-    const cards = items.map((e) => `<a class="hub-card" href="${e.slug.startsWith('http') ? e.slug : '/' + e.slug}"><p class="t">${esc(e.t)}</p><p class="d">${esc(e.d)}</p></a>`).join('');
-    return `<section class="hub-cat"><h2>${esc(c.title)}</h2><p class="sub">${esc(c.sub)}</p><div class="hub-grid">${cards}</div></section>`;
+    const cards = items.map((e) => `<a class="hub-card" href="${e.slug.startsWith('http') ? e.slug : '/' + e.slug}" data-cat="${c.id}"><p class="t">${esc(e.t)}</p><p class="d">${esc(e.d)}</p><p class="f"><span>${e.n ? `${e.n} lessons` : 'Learning path'}</span><i aria-hidden="true">→</i></p></a>`).join('');
+    return `<section class="hub-cat" id="cat-${c.id}"><div class="hub-cat-h"><span class="hub-cat-ico">${catIcon(c.id)}</span><div><h2>${esc(c.title)}</h2><p class="sub">${esc(c.sub)}</p></div><span class="hub-cat-n">${items.length}</span></div><div class="hub-grid">${cards}</div></section>`;
   }).join('\n');
+  const jump = `<div class="lib-bar"><nav class="lib-jump" aria-label="Library sections">${hub.categories.filter((c) => catCount(c.id)).map((c) => `<a href="#cat-${c.id}">${esc(c.title)} <b>${catCount(c.id)}</b></a>`).join('')}</nav><label class="lib-find"><span class="sr">Find a path</span><input id="pathFind" type="search" placeholder="Find a tool, skill or job…" autocomplete="off"/></label><p class="lib-count" id="libCount" aria-live="polite">${totalCount} guides</p></div>`;
+  const libScript = `<script>(function(){var q=document.getElementById('pathFind'),cards=[].slice.call(document.querySelectorAll('.hub-card')),cats=[].slice.call(document.querySelectorAll('.hub-cat')),out=document.getElementById('libCount'),total=cards.length;if(!q)return;function run(){var v=q.value.trim().toLowerCase(),n=0;cards.forEach(function(c){var hit=!v||c.textContent.toLowerCase().indexOf(v)>-1;c.hidden=!hit;if(hit)n++;});cats.forEach(function(s){s.hidden=!s.querySelector('.hub-card:not([hidden])');});out.textContent=v?(n+' of '+total+' guides'):(total+' guides');}q.addEventListener('input',run);})();</script>`;
 
   const crumb = `<nav class="crumb" aria-label="Breadcrumb"><a href="/">Home</a><span>›</span>Path library</nav>`;
-  const hero = `<section class="hero"><p class="eyebrow">${esc(hub.eyebrow)}</p><h1>${esc(hub.h1)}</h1><p>${esc(hub.lede)}</p><div class="cta-row"><a class="btn" href="${CTA_UTM('paths', 'hero')}" data-cta="app_store">Download Iro free</a><a class="btn secondary" href="/quiz">Take the AI IQ test</a></div><p class="note">${esc(hub.note)}</p></section>`;
+  const heroArt = fs.existsSync(path.join(ROOT, 'assets/hero/paths-hub-1000.webp'))
+    ? `<figure class="hero-art"><picture><source type="image/webp" srcset="/assets/hero/paths-hub-640.webp 640w, /assets/hero/paths-hub-1000.webp 1000w, /assets/hero/paths-hub-1400.webp 1400w" sizes="(max-width: 900px) calc(100vw - 40px), 520px"/><img src="/assets/hero/paths-hub-1000.jpg" alt="A dark glass map table with routes of light branching out from one point" width="1400" height="788" fetchpriority="high" decoding="async"/></picture></figure>`
+    : '';
+  const hero = `<section class="hero hero-split"><div class="hero-copy"><p class="eyebrow">${esc(hub.eyebrow)}</p><h1>${esc(hub.h1)}</h1><p>${esc(hub.lede)}</p><div class="cta-row"><a class="btn" href="${CTA_UTM('paths', 'hero')}" data-cta="app_store">Download Iro free</a><a class="btn secondary" href="/quiz">Take the AI IQ test</a></div><p class="note">${esc(hub.note)}</p></div>${heroArt}</section>`;
   const answer = `<div class="answer"><div class="box"><p class="lbl">What is this?</p><p>${esc(hub.answer)}</p><ul>${hub.answerBullets.map((b) => `<li>${esc(b)}</li>`).join('')}</ul></div></div>`;
   const faq = `<section class="faq"><h2>Questions people ask</h2>${hub.faq.map((f, i) => `<details${i === 0 ? ' open' : ''}><summary>${esc(f.q)}</summary><p>${esc(f.a)}</p></details>`).join('')}</section>`;
   const ctaband = `<div class="ctaband"><div class="box"><h2>${esc(hub.ctaHeading)}</h2><p>${esc(hub.ctaBody)}</p><div class="cta-row"><a class="btn" href="${CTA_UTM('paths', 'footer')}" data-cta="app_store">Download Iro free</a><a class="btn secondary" href="/quiz">Take the AI IQ test</a></div></div></div>`;
 
-  const body = '<body><div class="page">\n' + NAV + '\n' + crumb + '\n<main>\n' + hero + '\n' + answer + '\n<div class="hub-cats">\n' + cats + '\n</div>\n' + faq + '\n' + ctaband + '\n</main>\n' + FOOTER + '\n</div></body></html>\n';
-  return { html: H + body, count: totalCount };
+  const body = '<body><div class="page">\n' + NAV + '\n' + crumb + '\n<main>\n' + hero + '\n' + answer + '\n<div class="hub-cats">\n' + jump + '\n' + cats + '\n</div>\n' + faq + '\n' + ctaband + '\n</main>\n' + FOOTER + '\n' + libScript + '\n</div></body></html>\n';
+  const preload = heroArt ? `<link rel="preload" as="image" type="image/webp" imagesrcset="/assets/hero/paths-hub-640.webp 640w, /assets/hero/paths-hub-1000.webp 1000w, /assets/hero/paths-hub-1400.webp 1400w" imagesizes="(max-width: 900px) calc(100vw - 40px), 520px" fetchpriority="high"/>` : '';
+  return { html: H.replace('</head>', preload + '</head>') + body, count: totalCount };
 }
 
 // ---------- LLM markdown mirrors ----------

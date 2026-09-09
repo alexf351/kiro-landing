@@ -1071,9 +1071,702 @@
         "at": "2026-09-09T00:01:25.398Z",
         "note": "posts/iro-ai-vs-learnova.json: hero + ogImage set (run node blog-engine/build.mjs)"
       }
+    },
+    "blog-hub": {
+      "slug": "blog-hub",
+      "kind": "asset",
+      "score": 60,
+      "reason": "Blog hub hero (assets only, rendered by build.mjs renderIndex)",
+      "alt": "An open glass notebook on a dark desk with cyan light rising from its pages",
+      "model": "gemini-3.1-flash-image",
+      "aspectRatio": "16:9",
+      "prompt": "Premium editorial illustration with a cinematic, softly rendered 3D feel. Setting: a deep navy, near-black galaxy backdrop with faint starfield depth, translucent smoked-glass surfaces and thin refractive light edges. Materials: matte black, charcoal, frosted glass. Colour is restrained: one cyan (#00E5FF) light source and one warm gold (#FFC940) accent at most, everything else desaturated navy and grey. Subtle volumetric glow, shallow depth of field, calm and confident mood. Composition for a 16:9 blog hero: main subject in the lower two-thirds, slightly right of centre; keep the upper-left third as quiet negative space; nothing important within 8% of any edge.\nArticle title: \"The Iro AI Blog\".\nReader intent: Browsing practical writing on AI fluency.\nAudience: Readers arriving from search or the app.\nThe image must communicate this outcome: Calm, considered writing that leads to doing.\nVisual metaphor: An open notebook of frosted glass whose pages release a slow drift of light.\nSubject and scene: An open notebook made of frosted glass lies on a dark desk, angled toward the viewer. From its pages a gentle stream of tiny cyan light motes rises and drifts upward. A matte-black pen rests beside it. A warm gold pool of lamplight falls from off-frame on the desk edge. Deep navy starfield above.\nStrictly no text, letters, numbers, captions, labels or typography anywhere in the image. No logos, brand marks, app icons, watermarks or signatures. No user interfaces, screens with content, dashboards, charts, chat bubbles, phones showing apps, or fake windows. No robots, androids, brains, circuit-board heads or glowing humanoids. No penguins or mascots. No recognisable real people or celebrity likeness; if a person appears, show them from behind or in silhouette. No neon rainbow palettes, no purple-pink gradients, no clutter.",
+      "promptHash": "cccdee3b8397",
+      "master": {
+        "path": "assets/hero/blog-hub-master.jpg",
+        "width": 1376,
+        "height": 768,
+        "bytes": 540226,
+        "mime": "image/jpeg"
+      },
+      "usage": {
+        "promptTokens": 409,
+        "candidateTokens": 1441,
+        "totalTokens": 1850
+      },
+      "estimatedUsd": 0.06,
+      "timestamp": "2026-09-09T16:56:46.783Z",
+      "status": "done",
+      "ms": 8653,
+      "variants": {
+        "640.webp": {
+          "path": "assets/hero/blog-hub-640.webp",
+          "width": 640,
+          "height": 360,
+          "bytes": 7672
+        },
+        "1000.webp": {
+          "path": "assets/hero/blog-hub-1000.webp",
+          "width": 1000,
+          "height": 563,
+          "bytes": 16070
+        },
+        "1400.webp": {
+          "path": "assets/hero/blog-hub-1400.webp",
+          "width": 1400,
+          "height": 788,
+          "bytes": 24304
+        },
+        "1000.jpg": {
+          "path": "assets/hero/blog-hub-1000.jpg",
+          "width": 1000,
+          "height": 563,
+          "bytes": 32096
+        },
+        "og.jpg": {
+          "path": "assets/hero/blog-hub-og.jpg",
+          "width": 1200,
+          "height": 630,
+          "bytes": 45752
+        }
+      },
+      "integrated": {
+        "at": "2026-09-09T16:57:31.634Z",
+        "note": "blog-hub: asset only, no page integration"
+      }
+    },
+    "section-ai-fluency": {
+      "slug": "section-ai-fluency",
+      "kind": "asset",
+      "score": 59,
+      "reason": "Card art for posts in the AI fluency section without their own hero",
+      "alt": "Two ribbons of light weaving into one braid",
+      "model": "gemini-3.1-flash-image",
+      "aspectRatio": "16:9",
+      "prompt": "Premium editorial illustration with a cinematic, softly rendered 3D feel. Setting: a deep navy, near-black galaxy backdrop with faint starfield depth, translucent smoked-glass surfaces and thin refractive light edges. Materials: matte black, charcoal, frosted glass. Colour is restrained: one cyan (#00E5FF) light source and one warm gold (#FFC940) accent at most, everything else desaturated navy and grey. Subtle volumetric glow, shallow depth of field, calm and confident mood. Composition for a 16:9 blog hero: main subject in the lower two-thirds, slightly right of centre; keep the upper-left third as quiet negative space; nothing important within 8% of any edge.\nArticle title: \"AI fluency\".\nReader intent: Getting genuinely good at using AI.\nAudience: Everyday learners.\nThe image must communicate this outcome: Skill that compounds.\nVisual metaphor: Two ribbons of light, one cyan and one gold, weaving into a single braid.\nSubject and scene: Above a dark glass surface, two slender ribbons of light, one cyan and one warm gold, twist around each other and merge into one braided strand that runs toward the horizon. Soft reflections below, starfield behind.\nStrictly no text, letters, numbers, captions, labels or typography anywhere in the image. No logos, brand marks, app icons, watermarks or signatures. No user interfaces, screens with content, dashboards, charts, chat bubbles, phones showing apps, or fake windows. No robots, androids, brains, circuit-board heads or glowing humanoids. No penguins or mascots. No recognisable real people or celebrity likeness; if a person appears, show them from behind or in silhouette. No neon rainbow palettes, no purple-pink gradients, no clutter.",
+      "promptHash": "8f6545a7dadc",
+      "master": {
+        "path": "assets/hero/section-ai-fluency-master.jpg",
+        "width": 1376,
+        "height": 768,
+        "bytes": 559887,
+        "mime": "image/jpeg"
+      },
+      "usage": {
+        "promptTokens": 372,
+        "candidateTokens": 1404,
+        "totalTokens": 1776
+      },
+      "estimatedUsd": 0.06,
+      "timestamp": "2026-09-09T16:56:54.871Z",
+      "status": "done",
+      "ms": 8070,
+      "variants": {
+        "640.webp": {
+          "path": "assets/hero/section-ai-fluency-640.webp",
+          "width": 640,
+          "height": 360,
+          "bytes": 13956
+        },
+        "1000.webp": {
+          "path": "assets/hero/section-ai-fluency-1000.webp",
+          "width": 1000,
+          "height": 563,
+          "bytes": 27892
+        },
+        "1400.webp": {
+          "path": "assets/hero/section-ai-fluency-1400.webp",
+          "width": 1400,
+          "height": 788,
+          "bytes": 40468
+        },
+        "1000.jpg": {
+          "path": "assets/hero/section-ai-fluency-1000.jpg",
+          "width": 1000,
+          "height": 563,
+          "bytes": 49406
+        },
+        "og.jpg": {
+          "path": "assets/hero/section-ai-fluency-og.jpg",
+          "width": 1200,
+          "height": 630,
+          "bytes": 67331
+        }
+      },
+      "integrated": {
+        "at": "2026-09-09T16:57:31.635Z",
+        "note": "section-ai-fluency: asset only, no page integration"
+      }
+    },
+    "section-ai-tools": {
+      "slug": "section-ai-tools",
+      "kind": "asset",
+      "score": 58,
+      "reason": "Card art for posts in the AI tools section without their own hero",
+      "alt": "A tool roll unrolled on a bench with one tool lit gold",
+      "model": "gemini-3.1-flash-image",
+      "aspectRatio": "16:9",
+      "prompt": "Premium editorial illustration with a cinematic, softly rendered 3D feel. Setting: a deep navy, near-black galaxy backdrop with faint starfield depth, translucent smoked-glass surfaces and thin refractive light edges. Materials: matte black, charcoal, frosted glass. Colour is restrained: one cyan (#00E5FF) light source and one warm gold (#FFC940) accent at most, everything else desaturated navy and grey. Subtle volumetric glow, shallow depth of field, calm and confident mood. Composition for a 16:9 blog hero: main subject in the lower two-thirds, slightly right of centre; keep the upper-left third as quiet negative space; nothing important within 8% of any edge.\nArticle title: \"AI tools\".\nReader intent: Choosing and using the right tool.\nAudience: Everyday users.\nThe image must communicate this outcome: The right tool for the job.\nVisual metaphor: A canvas tool roll unrolled on a bench, one tool lit.\nSubject and scene: A dark canvas tool roll lies unrolled on a frosted-glass bench, five simple hand tools tucked into its loops: a chisel, a small brush, a ruler, a compass, a hand plane. The compass is rim-lit warm gold; the rest sit in cool cyan half-light. No markings.\nStrictly no text, letters, numbers, captions, labels or typography anywhere in the image. No logos, brand marks, app icons, watermarks or signatures. No user interfaces, screens with content, dashboards, charts, chat bubbles, phones showing apps, or fake windows. No robots, androids, brains, circuit-board heads or glowing humanoids. No penguins or mascots. No recognisable real people or celebrity likeness; if a person appears, show them from behind or in silhouette. No neon rainbow palettes, no purple-pink gradients, no clutter.",
+      "promptHash": "5395a1ec2ad5",
+      "master": {
+        "path": "assets/hero/section-ai-tools-master.jpg",
+        "width": 1376,
+        "height": 768,
+        "bytes": 536841,
+        "mime": "image/jpeg"
+      },
+      "usage": {
+        "promptTokens": 392,
+        "candidateTokens": 1554,
+        "totalTokens": 1946
+      },
+      "estimatedUsd": 0.06,
+      "timestamp": "2026-09-09T16:57:03.633Z",
+      "status": "done",
+      "ms": 8761,
+      "variants": {
+        "640.webp": {
+          "path": "assets/hero/section-ai-tools-640.webp",
+          "width": 640,
+          "height": 360,
+          "bytes": 10674
+        },
+        "1000.webp": {
+          "path": "assets/hero/section-ai-tools-1000.webp",
+          "width": 1000,
+          "height": 563,
+          "bytes": 20876
+        },
+        "1400.webp": {
+          "path": "assets/hero/section-ai-tools-1400.webp",
+          "width": 1400,
+          "height": 788,
+          "bytes": 31328
+        },
+        "1000.jpg": {
+          "path": "assets/hero/section-ai-tools-1000.jpg",
+          "width": 1000,
+          "height": 563,
+          "bytes": 42701
+        },
+        "og.jpg": {
+          "path": "assets/hero/section-ai-tools-og.jpg",
+          "width": 1200,
+          "height": 630,
+          "bytes": 58272
+        }
+      },
+      "integrated": {
+        "at": "2026-09-09T16:57:31.635Z",
+        "note": "section-ai-tools: asset only, no page integration"
+      }
+    },
+    "section-ai-agents": {
+      "slug": "section-ai-agents",
+      "kind": "asset",
+      "score": 57,
+      "reason": "Card art for posts in the AI agents section without their own hero",
+      "alt": "A chain of glass gears passing a thread of light along the row",
+      "model": "gemini-3.1-flash-image",
+      "aspectRatio": "16:9",
+      "prompt": "Premium editorial illustration with a cinematic, softly rendered 3D feel. Setting: a deep navy, near-black galaxy backdrop with faint starfield depth, translucent smoked-glass surfaces and thin refractive light edges. Materials: matte black, charcoal, frosted glass. Colour is restrained: one cyan (#00E5FF) light source and one warm gold (#FFC940) accent at most, everything else desaturated navy and grey. Subtle volumetric glow, shallow depth of field, calm and confident mood. Composition for a 16:9 blog hero: main subject in the lower two-thirds, slightly right of centre; keep the upper-left third as quiet negative space; nothing important within 8% of any edge.\nArticle title: \"AI agents and automation\".\nReader intent: Understanding what agents do.\nAudience: Curious professionals.\nThe image must communicate this outcome: Work that runs itself.\nVisual metaphor: A chain of glass gears turning in sequence with a thread of light passing through them.\nSubject and scene: A row of five frosted-glass gears of different sizes, meshed in sequence on a dark surface. A thin thread of cyan light passes from gear to gear; the last gear glows warm gold. Shallow depth of field, starfield behind.\nStrictly no text, letters, numbers, captions, labels or typography anywhere in the image. No logos, brand marks, app icons, watermarks or signatures. No user interfaces, screens with content, dashboards, charts, chat bubbles, phones showing apps, or fake windows. No robots, androids, brains, circuit-board heads or glowing humanoids. No penguins or mascots. No recognisable real people or celebrity likeness; if a person appears, show them from behind or in silhouette. No neon rainbow palettes, no purple-pink gradients, no clutter.",
+      "promptHash": "08418b5193ed",
+      "master": {
+        "path": "assets/hero/section-ai-agents-master.jpg",
+        "width": 1376,
+        "height": 768,
+        "bytes": 618821,
+        "mime": "image/jpeg"
+      },
+      "usage": {
+        "promptTokens": 379,
+        "candidateTokens": 1607,
+        "totalTokens": 1986
+      },
+      "estimatedUsd": 0.06,
+      "timestamp": "2026-09-09T16:57:12.410Z",
+      "status": "done",
+      "ms": 8775,
+      "variants": {
+        "640.webp": {
+          "path": "assets/hero/section-ai-agents-640.webp",
+          "width": 640,
+          "height": 360,
+          "bytes": 17688
+        },
+        "1000.webp": {
+          "path": "assets/hero/section-ai-agents-1000.webp",
+          "width": 1000,
+          "height": 563,
+          "bytes": 34500
+        },
+        "1400.webp": {
+          "path": "assets/hero/section-ai-agents-1400.webp",
+          "width": 1400,
+          "height": 788,
+          "bytes": 49734
+        },
+        "1000.jpg": {
+          "path": "assets/hero/section-ai-agents-1000.jpg",
+          "width": 1000,
+          "height": 563,
+          "bytes": 61499
+        },
+        "og.jpg": {
+          "path": "assets/hero/section-ai-agents-og.jpg",
+          "width": 1200,
+          "height": 630,
+          "bytes": 83624
+        }
+      },
+      "integrated": {
+        "at": "2026-09-09T16:57:31.636Z",
+        "note": "section-ai-agents: asset only, no page integration"
+      }
+    },
+    "section-prompt-engineering": {
+      "slug": "section-prompt-engineering",
+      "kind": "asset",
+      "score": 56,
+      "reason": "Card art for posts in the Prompt engineering section without their own hero",
+      "alt": "A brass key entering a glass lock with cyan light around the keyhole",
+      "model": "gemini-3.1-flash-image",
+      "aspectRatio": "16:9",
+      "prompt": "Premium editorial illustration with a cinematic, softly rendered 3D feel. Setting: a deep navy, near-black galaxy backdrop with faint starfield depth, translucent smoked-glass surfaces and thin refractive light edges. Materials: matte black, charcoal, frosted glass. Colour is restrained: one cyan (#00E5FF) light source and one warm gold (#FFC940) accent at most, everything else desaturated navy and grey. Subtle volumetric glow, shallow depth of field, calm and confident mood. Composition for a 16:9 blog hero: main subject in the lower two-thirds, slightly right of centre; keep the upper-left third as quiet negative space; nothing important within 8% of any edge.\nArticle title: \"Prompt engineering\".\nReader intent: Writing prompts that work.\nAudience: Beginners and intermediates.\nThe image must communicate this outcome: Precise inputs, precise outputs.\nVisual metaphor: A brass key sliding into a frosted-glass lock.\nSubject and scene: Close-up of a small brass key entering a lock set into a block of frosted glass. A thin line of cyan light escapes around the keyhole. Dark navy surround, soft gold glint on the key's bow.\nStrictly no text, letters, numbers, captions, labels or typography anywhere in the image. No logos, brand marks, app icons, watermarks or signatures. No user interfaces, screens with content, dashboards, charts, chat bubbles, phones showing apps, or fake windows. No robots, androids, brains, circuit-board heads or glowing humanoids. No penguins or mascots. No recognisable real people or celebrity likeness; if a person appears, show them from behind or in silhouette. No neon rainbow palettes, no purple-pink gradients, no clutter.",
+      "promptHash": "30a5e780a511",
+      "master": {
+        "path": "assets/hero/section-prompt-engineering-master.jpg",
+        "width": 1376,
+        "height": 768,
+        "bytes": 490667,
+        "mime": "image/jpeg"
+      },
+      "usage": {
+        "promptTokens": 370,
+        "candidateTokens": 1509,
+        "totalTokens": 1879
+      },
+      "estimatedUsd": 0.06,
+      "timestamp": "2026-09-09T16:57:20.185Z",
+      "status": "done",
+      "ms": 7774,
+      "variants": {
+        "640.webp": {
+          "path": "assets/hero/section-prompt-engineering-640.webp",
+          "width": 640,
+          "height": 360,
+          "bytes": 6176
+        },
+        "1000.webp": {
+          "path": "assets/hero/section-prompt-engineering-1000.webp",
+          "width": 1000,
+          "height": 563,
+          "bytes": 12234
+        },
+        "1400.webp": {
+          "path": "assets/hero/section-prompt-engineering-1400.webp",
+          "width": 1400,
+          "height": 788,
+          "bytes": 18376
+        },
+        "1000.jpg": {
+          "path": "assets/hero/section-prompt-engineering-1000.jpg",
+          "width": 1000,
+          "height": 563,
+          "bytes": 24796
+        },
+        "og.jpg": {
+          "path": "assets/hero/section-prompt-engineering-og.jpg",
+          "width": 1200,
+          "height": 630,
+          "bytes": 35561
+        }
+      },
+      "integrated": {
+        "at": "2026-09-09T16:57:31.636Z",
+        "note": "section-prompt-engineering: asset only, no page integration"
+      }
+    },
+    "section-ai-fundamentals": {
+      "slug": "section-ai-fundamentals",
+      "kind": "asset",
+      "score": 55,
+      "reason": "Card art for posts in the AI fundamentals section without their own hero",
+      "alt": "A seedling growing from a glass cube lit from above",
+      "model": "gemini-3.1-flash-image",
+      "aspectRatio": "16:9",
+      "prompt": "Premium editorial illustration with a cinematic, softly rendered 3D feel. Setting: a deep navy, near-black galaxy backdrop with faint starfield depth, translucent smoked-glass surfaces and thin refractive light edges. Materials: matte black, charcoal, frosted glass. Colour is restrained: one cyan (#00E5FF) light source and one warm gold (#FFC940) accent at most, everything else desaturated navy and grey. Subtle volumetric glow, shallow depth of field, calm and confident mood. Composition for a 16:9 blog hero: main subject in the lower two-thirds, slightly right of centre; keep the upper-left third as quiet negative space; nothing important within 8% of any edge.\nArticle title: \"AI fundamentals\".\nReader intent: Understanding how AI works.\nAudience: Beginners.\nThe image must communicate this outcome: Solid ground to build on.\nVisual metaphor: A seedling growing from a glass cube.\nSubject and scene: A single green seedling with two leaves grows from the top of a frosted-glass cube resting on a dark surface. A soft cyan beam lights it from above; a faint warm gold glow sits inside the cube at the roots. Starfield behind.\nStrictly no text, letters, numbers, captions, labels or typography anywhere in the image. No logos, brand marks, app icons, watermarks or signatures. No user interfaces, screens with content, dashboards, charts, chat bubbles, phones showing apps, or fake windows. No robots, androids, brains, circuit-board heads or glowing humanoids. No penguins or mascots. No recognisable real people or celebrity likeness; if a person appears, show them from behind or in silhouette. No neon rainbow palettes, no purple-pink gradients, no clutter.",
+      "promptHash": "1e74952d7bbc",
+      "master": {
+        "path": "assets/hero/section-ai-fundamentals-master.jpg",
+        "width": 1376,
+        "height": 768,
+        "bytes": 464678,
+        "mime": "image/jpeg"
+      },
+      "usage": {
+        "promptTokens": 368,
+        "candidateTokens": 1409,
+        "totalTokens": 1777
+      },
+      "estimatedUsd": 0.06,
+      "timestamp": "2026-09-09T16:57:28.433Z",
+      "status": "done",
+      "ms": 8247,
+      "variants": {
+        "640.webp": {
+          "path": "assets/hero/section-ai-fundamentals-640.webp",
+          "width": 640,
+          "height": 360,
+          "bytes": 4992
+        },
+        "1000.webp": {
+          "path": "assets/hero/section-ai-fundamentals-1000.webp",
+          "width": 1000,
+          "height": 563,
+          "bytes": 10202
+        },
+        "1400.webp": {
+          "path": "assets/hero/section-ai-fundamentals-1400.webp",
+          "width": 1400,
+          "height": 788,
+          "bytes": 16310
+        },
+        "1000.jpg": {
+          "path": "assets/hero/section-ai-fundamentals-1000.jpg",
+          "width": 1000,
+          "height": 563,
+          "bytes": 23285
+        },
+        "og.jpg": {
+          "path": "assets/hero/section-ai-fundamentals-og.jpg",
+          "width": 1200,
+          "height": 630,
+          "bytes": 33801
+        }
+      },
+      "integrated": {
+        "at": "2026-09-09T16:57:31.637Z",
+        "note": "section-ai-fundamentals: asset only, no page integration"
+      }
+    },
+    "section-ai-fluency-2": {
+      "slug": "section-ai-fluency-2",
+      "kind": "asset",
+      "score": 54,
+      "reason": "Second card variant for the AI fluency section (63 posts) so neighbouring cards differ",
+      "alt": "A glass paper boat crossing dark water toward a warm light",
+      "model": "gemini-3.1-flash-image",
+      "aspectRatio": "16:9",
+      "prompt": "Premium editorial illustration with a cinematic, softly rendered 3D feel. Setting: a deep navy, near-black galaxy backdrop with faint starfield depth, translucent smoked-glass surfaces and thin refractive light edges. Materials: matte black, charcoal, frosted glass. Colour is restrained: one cyan (#00E5FF) light source and one warm gold (#FFC940) accent at most, everything else desaturated navy and grey. Subtle volumetric glow, shallow depth of field, calm and confident mood. Composition for a 16:9 blog hero: main subject in the lower two-thirds, slightly right of centre; keep the upper-left third as quiet negative space; nothing important within 8% of any edge.\nArticle title: \"AI fluency\".\nReader intent: Building a daily AI habit.\nAudience: Everyday learners.\nThe image must communicate this outcome: Steady progress.\nVisual metaphor: A small paper boat of frosted glass crossing calm dark water toward a warm light.\nSubject and scene: A small folded paper boat made of frosted glass drifts across still black water toward a soft gold glow on the horizon, leaving a thin cyan wake. Starfield above, gentle reflections below. No figures.\nStrictly no text, letters, numbers, captions, labels or typography anywhere in the image. No logos, brand marks, app icons, watermarks or signatures. No user interfaces, screens with content, dashboards, charts, chat bubbles, phones showing apps, or fake windows. No robots, androids, brains, circuit-board heads or glowing humanoids. No penguins or mascots. No recognisable real people or celebrity likeness; if a person appears, show them from behind or in silhouette. No neon rainbow palettes, no purple-pink gradients, no clutter.",
+      "promptHash": "0d2edbdd3acf",
+      "master": {
+        "path": "assets/hero/section-ai-fluency-2-master.jpg",
+        "width": 1376,
+        "height": 768,
+        "bytes": 451367,
+        "mime": "image/jpeg"
+      },
+      "usage": {
+        "promptTokens": 366,
+        "candidateTokens": 1535,
+        "totalTokens": 1901
+      },
+      "estimatedUsd": 0.06,
+      "timestamp": "2026-09-09T17:01:53.192Z",
+      "status": "done",
+      "ms": 8971,
+      "variants": {
+        "640.webp": {
+          "path": "assets/hero/section-ai-fluency-2-640.webp",
+          "width": 640,
+          "height": 360,
+          "bytes": 5312
+        },
+        "1000.webp": {
+          "path": "assets/hero/section-ai-fluency-2-1000.webp",
+          "width": 1000,
+          "height": 563,
+          "bytes": 10644
+        },
+        "1400.webp": {
+          "path": "assets/hero/section-ai-fluency-2-1400.webp",
+          "width": 1400,
+          "height": 788,
+          "bytes": 16890
+        },
+        "1000.jpg": {
+          "path": "assets/hero/section-ai-fluency-2-1000.jpg",
+          "width": 1000,
+          "height": 563,
+          "bytes": 23230
+        },
+        "og.jpg": {
+          "path": "assets/hero/section-ai-fluency-2-og.jpg",
+          "width": 1200,
+          "height": 630,
+          "bytes": 33588
+        }
+      },
+      "integrated": {
+        "at": "2026-09-09T17:02:21.063Z",
+        "note": "section-ai-fluency-2: asset only, no page integration"
+      }
+    },
+    "section-ai-fluency-3": {
+      "slug": "section-ai-fluency-3",
+      "kind": "asset",
+      "score": 53,
+      "reason": "Third card variant for the AI fluency section",
+      "alt": "A cairn of glass stones with the top stone glowing",
+      "model": "gemini-3.1-flash-image",
+      "aspectRatio": "16:9",
+      "prompt": "Premium editorial illustration with a cinematic, softly rendered 3D feel. Setting: a deep navy, near-black galaxy backdrop with faint starfield depth, translucent smoked-glass surfaces and thin refractive light edges. Materials: matte black, charcoal, frosted glass. Colour is restrained: one cyan (#00E5FF) light source and one warm gold (#FFC940) accent at most, everything else desaturated navy and grey. Subtle volumetric glow, shallow depth of field, calm and confident mood. Composition for a 16:9 blog hero: main subject in the lower two-thirds, slightly right of centre; keep the upper-left third as quiet negative space; nothing important within 8% of any edge.\nArticle title: \"AI fluency\".\nReader intent: Skill that builds on itself.\nAudience: Everyday learners.\nThe image must communicate this outcome: Something solid, stone by stone.\nVisual metaphor: A cairn of smooth glass stones, the top one lit.\nSubject and scene: Seven smooth frosted-glass stones stacked into a balanced cairn on a dark surface. The top stone glows soft cyan; a faint warm gold light pools at the base. Shallow depth of field, starfield behind.\nStrictly no text, letters, numbers, captions, labels or typography anywhere in the image. No logos, brand marks, app icons, watermarks or signatures. No user interfaces, screens with content, dashboards, charts, chat bubbles, phones showing apps, or fake windows. No robots, androids, brains, circuit-board heads or glowing humanoids. No penguins or mascots. No recognisable real people or celebrity likeness; if a person appears, show them from behind or in silhouette. No neon rainbow palettes, no purple-pink gradients, no clutter.",
+      "promptHash": "e1632b1a1498",
+      "master": {
+        "path": "assets/hero/section-ai-fluency-3-master.jpg",
+        "width": 1376,
+        "height": 768,
+        "bytes": 490880,
+        "mime": "image/jpeg"
+      },
+      "usage": {
+        "promptTokens": 370,
+        "candidateTokens": 1592,
+        "totalTokens": 1962
+      },
+      "estimatedUsd": 0.06,
+      "timestamp": "2026-09-09T17:02:01.521Z",
+      "status": "done",
+      "ms": 8327,
+      "variants": {
+        "640.webp": {
+          "path": "assets/hero/section-ai-fluency-3-640.webp",
+          "width": 640,
+          "height": 360,
+          "bytes": 5644
+        },
+        "1000.webp": {
+          "path": "assets/hero/section-ai-fluency-3-1000.webp",
+          "width": 1000,
+          "height": 563,
+          "bytes": 10936
+        },
+        "1400.webp": {
+          "path": "assets/hero/section-ai-fluency-3-1400.webp",
+          "width": 1400,
+          "height": 788,
+          "bytes": 17276
+        },
+        "1000.jpg": {
+          "path": "assets/hero/section-ai-fluency-3-1000.jpg",
+          "width": 1000,
+          "height": 563,
+          "bytes": 27055
+        },
+        "og.jpg": {
+          "path": "assets/hero/section-ai-fluency-3-og.jpg",
+          "width": 1200,
+          "height": 630,
+          "bytes": 38432
+        }
+      },
+      "integrated": {
+        "at": "2026-09-09T17:02:21.064Z",
+        "note": "section-ai-fluency-3: asset only, no page integration"
+      }
+    },
+    "section-ai-tools-2": {
+      "slug": "section-ai-tools-2",
+      "kind": "asset",
+      "score": 52,
+      "reason": "Second card variant for the AI tools section (39 posts)",
+      "alt": "Five tools hanging on a dark pegboard, one lit gold",
+      "model": "gemini-3.1-flash-image",
+      "aspectRatio": "16:9",
+      "prompt": "Premium editorial illustration with a cinematic, softly rendered 3D feel. Setting: a deep navy, near-black galaxy backdrop with faint starfield depth, translucent smoked-glass surfaces and thin refractive light edges. Materials: matte black, charcoal, frosted glass. Colour is restrained: one cyan (#00E5FF) light source and one warm gold (#FFC940) accent at most, everything else desaturated navy and grey. Subtle volumetric glow, shallow depth of field, calm and confident mood. Composition for a 16:9 blog hero: main subject in the lower two-thirds, slightly right of centre; keep the upper-left third as quiet negative space; nothing important within 8% of any edge.\nArticle title: \"AI tools\".\nReader intent: Knowing which tool to reach for.\nAudience: Everyday users.\nThe image must communicate this outcome: The right tool, on the right hook.\nVisual metaphor: A workshop pegboard of dark glass with five tools hung in silhouette, one lit.\nSubject and scene: A dark frosted-glass pegboard fills the frame. Five simple hand tools hang from hooks in silhouette: a wrench, a hand saw, a mallet, a pair of pliers, a small level. The level is rim-lit warm gold; the rest are edged in cool cyan. No labels, no text.\nStrictly no text, letters, numbers, captions, labels or typography anywhere in the image. No logos, brand marks, app icons, watermarks or signatures. No user interfaces, screens with content, dashboards, charts, chat bubbles, phones showing apps, or fake windows. No robots, androids, brains, circuit-board heads or glowing humanoids. No penguins or mascots. No recognisable real people or celebrity likeness; if a person appears, show them from behind or in silhouette. No neon rainbow palettes, no purple-pink gradients, no clutter.",
+      "promptHash": "7554417a7ef6",
+      "master": {
+        "path": "assets/hero/section-ai-tools-2-master.jpg",
+        "width": 1376,
+        "height": 768,
+        "bytes": 548601,
+        "mime": "image/jpeg"
+      },
+      "usage": {
+        "promptTokens": 397,
+        "candidateTokens": 1502,
+        "totalTokens": 1899
+      },
+      "estimatedUsd": 0.06,
+      "timestamp": "2026-09-09T17:02:10.147Z",
+      "status": "done",
+      "ms": 8625,
+      "variants": {
+        "640.webp": {
+          "path": "assets/hero/section-ai-tools-2-640.webp",
+          "width": 640,
+          "height": 360,
+          "bytes": 9224
+        },
+        "1000.webp": {
+          "path": "assets/hero/section-ai-tools-2-1000.webp",
+          "width": 1000,
+          "height": 563,
+          "bytes": 19400
+        },
+        "1400.webp": {
+          "path": "assets/hero/section-ai-tools-2-1400.webp",
+          "width": 1400,
+          "height": 788,
+          "bytes": 28550
+        },
+        "1000.jpg": {
+          "path": "assets/hero/section-ai-tools-2-1000.jpg",
+          "width": 1000,
+          "height": 563,
+          "bytes": 38971
+        },
+        "og.jpg": {
+          "path": "assets/hero/section-ai-tools-2-og.jpg",
+          "width": 1200,
+          "height": 630,
+          "bytes": 55151
+        }
+      },
+      "integrated": {
+        "at": "2026-09-09T17:02:21.065Z",
+        "note": "section-ai-tools-2: asset only, no page integration"
+      }
+    },
+    "section-ai-tools-3": {
+      "slug": "section-ai-tools-3",
+      "kind": "asset",
+      "score": 51,
+      "reason": "Third card variant for the AI tools section",
+      "alt": "A glass prism splitting a beam into cyan and gold light on a drafting table",
+      "model": "gemini-3.1-flash-image",
+      "aspectRatio": "16:9",
+      "prompt": "Premium editorial illustration with a cinematic, softly rendered 3D feel. Setting: a deep navy, near-black galaxy backdrop with faint starfield depth, translucent smoked-glass surfaces and thin refractive light edges. Materials: matte black, charcoal, frosted glass. Colour is restrained: one cyan (#00E5FF) light source and one warm gold (#FFC940) accent at most, everything else desaturated navy and grey. Subtle volumetric glow, shallow depth of field, calm and confident mood. Composition for a 16:9 blog hero: main subject in the lower two-thirds, slightly right of centre; keep the upper-left third as quiet negative space; nothing important within 8% of any edge.\nArticle title: \"AI tools\".\nReader intent: Comparing tools honestly.\nAudience: Everyday users.\nThe image must communicate this outcome: Seeing what each one is really for.\nVisual metaphor: A glass prism on a drafting table splitting one beam into two.\nSubject and scene: On a dark drafting table, a small triangular glass prism splits a single cyan beam into a cyan and a warm gold beam that land on the table as two soft pools of light. A brass compass and a ruler rest nearby, out of focus.\nStrictly no text, letters, numbers, captions, labels or typography anywhere in the image. No logos, brand marks, app icons, watermarks or signatures. No user interfaces, screens with content, dashboards, charts, chat bubbles, phones showing apps, or fake windows. No robots, androids, brains, circuit-board heads or glowing humanoids. No penguins or mascots. No recognisable real people or celebrity likeness; if a person appears, show them from behind or in silhouette. No neon rainbow palettes, no purple-pink gradients, no clutter.",
+      "promptHash": "1fdd21cd97dc",
+      "master": {
+        "path": "assets/hero/section-ai-tools-3-master.jpg",
+        "width": 1376,
+        "height": 768,
+        "bytes": 519305,
+        "mime": "image/jpeg"
+      },
+      "usage": {
+        "promptTokens": 375,
+        "candidateTokens": 1558,
+        "totalTokens": 1933
+      },
+      "estimatedUsd": 0.06,
+      "timestamp": "2026-09-09T17:02:19.626Z",
+      "status": "done",
+      "ms": 9478,
+      "variants": {
+        "640.webp": {
+          "path": "assets/hero/section-ai-tools-3-640.webp",
+          "width": 640,
+          "height": 360,
+          "bytes": 8722
+        },
+        "1000.webp": {
+          "path": "assets/hero/section-ai-tools-3-1000.webp",
+          "width": 1000,
+          "height": 563,
+          "bytes": 16450
+        },
+        "1400.webp": {
+          "path": "assets/hero/section-ai-tools-3-1400.webp",
+          "width": 1400,
+          "height": 788,
+          "bytes": 24358
+        },
+        "1000.jpg": {
+          "path": "assets/hero/section-ai-tools-3-1000.jpg",
+          "width": 1000,
+          "height": 563,
+          "bytes": 37185
+        },
+        "og.jpg": {
+          "path": "assets/hero/section-ai-tools-3-og.jpg",
+          "width": 1200,
+          "height": 630,
+          "bytes": 50700
+        }
+      },
+      "integrated": {
+        "at": "2026-09-09T17:02:21.066Z",
+        "note": "section-ai-tools-3: asset only, no page integration"
+      }
+    },
+    "paths-hub": {
+      "slug": "paths-hub",
+      "kind": "asset",
+      "score": 62,
+      "reason": "Path library hero (header nav page), rendered by build-paths.mjs",
+      "alt": "A dark glass map table with routes of light branching out from one point",
+      "model": "gemini-3.1-flash-image",
+      "aspectRatio": "16:9",
+      "prompt": "Premium editorial illustration with a cinematic, softly rendered 3D feel. Setting: a deep navy, near-black galaxy backdrop with faint starfield depth, translucent smoked-glass surfaces and thin refractive light edges. Materials: matte black, charcoal, frosted glass. Colour is restrained: one cyan (#00E5FF) light source and one warm gold (#FFC940) accent at most, everything else desaturated navy and grey. Subtle volumetric glow, shallow depth of field, calm and confident mood. Composition for a 16:9 blog hero: main subject in the lower two-thirds, slightly right of centre; keep the upper-left third as quiet negative space; nothing important within 8% of any edge.\nArticle title: \"The Iro AI Path Library\".\nReader intent: Choosing a learning path by tool, skill or job.\nAudience: Anyone deciding what to practice first.\nThe image must communicate this outcome: One library, every route laid out, pick one and start.\nVisual metaphor: A map table in a dark glass room with several routes of light leading out from one point.\nSubject and scene: A large dark glass map table seen from a low angle. From a single warm gold point near the front, several thin routes of cyan light branch outward across the table toward the far edge, each ending in a small glass marker. Faint contour lines etched in the glass, soft reflections, starfield beyond. No text, no labels.\nStrictly no text, letters, numbers, captions, labels or typography anywhere in the image. No logos, brand marks, app icons, watermarks or signatures. No user interfaces, screens with content, dashboards, charts, chat bubbles, phones showing apps, or fake windows. No robots, androids, brains, circuit-board heads or glowing humanoids. No penguins or mascots. No recognisable real people or celebrity likeness; if a person appears, show them from behind or in silhouette. No neon rainbow palettes, no purple-pink gradients, no clutter.",
+      "promptHash": "e1bc3ae39dc6",
+      "master": {
+        "path": "assets/hero/paths-hub-master.jpg",
+        "width": 1376,
+        "height": 768,
+        "bytes": 508257,
+        "mime": "image/jpeg"
+      },
+      "usage": {
+        "promptTokens": 420,
+        "candidateTokens": 1480,
+        "totalTokens": 1900
+      },
+      "estimatedUsd": 0.06,
+      "timestamp": "2026-09-09T17:08:24.895Z",
+      "status": "done",
+      "ms": 8270,
+      "variants": {
+        "640.webp": {
+          "path": "assets/hero/paths-hub-640.webp",
+          "width": 640,
+          "height": 360,
+          "bytes": 9618
+        },
+        "1000.webp": {
+          "path": "assets/hero/paths-hub-1000.webp",
+          "width": 1000,
+          "height": 563,
+          "bytes": 19934
+        },
+        "1400.webp": {
+          "path": "assets/hero/paths-hub-1400.webp",
+          "width": 1400,
+          "height": 788,
+          "bytes": 29038
+        },
+        "1000.jpg": {
+          "path": "assets/hero/paths-hub-1000.jpg",
+          "width": 1000,
+          "height": 563,
+          "bytes": 36971
+        },
+        "og.jpg": {
+          "path": "assets/hero/paths-hub-og.jpg",
+          "width": 1200,
+          "height": 630,
+          "bytes": 50214
+        }
+      },
+      "integrated": {
+        "at": "2026-09-09T17:08:25.712Z",
+        "note": "paths-hub: asset only, no page integration"
+      }
     }
   },
-  "updatedAt": "2026-09-09T00:01:25.398Z",
+  "updatedAt": "2026-09-09T17:08:25.712Z",
   "model": "gemini-3.1-flash-image",
   "pricePerImageUsdEstimate": 0.06
 }

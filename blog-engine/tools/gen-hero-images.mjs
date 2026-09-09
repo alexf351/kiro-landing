@@ -344,7 +344,7 @@ async function main() {
     for (const p of deriveSet) {
       if (manifest.entries[p.slug].status !== 'done' || manifest.entries[p.slug].deriveError) continue;
       try {
-        const note = p.kind === 'post' ? integratePost(p) : integrateRoot(p);
+        const note = p.kind === 'asset' ? `${p.slug}: asset only, no page integration` : p.kind === 'post' ? integratePost(p) : integrateRoot(p);
         manifest.entries[p.slug].integrated = { at: new Date().toISOString(), note };
         counts.integrated++;
         log(`integrate ${note}`);

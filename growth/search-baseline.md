@@ -133,6 +133,28 @@ at the number that has not moved.
 The DR caveat in the "Domain Rating trend" section ("position sits still")
 is now out of date: position followed DR by about a week.
 
+### Hero images live on 17 pages (2026-09-09)
+
+Original hero art replaced the shared pixel-text cover on the 17 highest-
+opportunity pages (PR #163, merge 0eef592, production READY 2026-09-09).
+Selection and per-page click counts are in
+`blog-engine/content/hero-concepts.json`; what was generated, from which
+prompt, is in `blog-engine/hero-manifest.json`.
+
+Indexing requested the same day for the five pages that carry 79% of those
+pages' clicks: /best-ai-learning-app, /blog/coursiv-alternatives,
+/blog/finestro-alternatives, /blog/apps-like-duolingo-for-ai,
+/free-ai-learning-app. The other twelve can be requested over the following
+days (the per-property quota is roughly ten a day).
+
+**How to judge it, around 2026-09-23.** Search Console → Pages, 28-day
+window, compare CTR on these 17 against CTR on the rest of the site. The
+control is the ~170 pages that still carry the text card. If the 17 move and
+the rest do not, the images earned their keep and the next batch is
+justified. If everything moves together, credit the September snippet
+rewrites instead. Thumbnails in results lag the recrawl by days, so do not
+read anything before the 23rd.
+
 ### Bing Webmaster, same day
 
 | | |
