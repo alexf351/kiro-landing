@@ -105,7 +105,7 @@ was not only more exposure at the same rank; the rank moved too. The
 projection table above is therefore stale in both of its inputs.
 
 Best single day so far: **21 clicks on 2026-09-06**, on roughly 860
-impressions. Run rate is now ~380/month on the 28-day window and ~470/month at
+impressions. *(Superseded 2026-09-08 — see the milestone ladder below.)* Run rate is now ~380/month on the 28-day window and ~470/month at
 the 7-day pace, against ~325 when the milestone mail arrived twelve days ago.
 
 Three readings, in order of confidence.
@@ -154,6 +154,36 @@ the rest do not, the images earned their keep and the next batch is
 justified. If everything moves together, credit the September snippet
 rewrites instead. Thumbnails in results lag the recrawl by days, so do not
 read anything before the 23rd.
+
+### The milestone ladder: 20 → 350 clicks in 28 days (2026-09-10)
+
+Google's own milestone mails, which are the cleanest long-run record we have
+because they all measure the same 28-day window:
+
+| Mail dated | Clicks in 28 days |
+| --- | --- |
+| 2026-06-06 | **20** |
+| 2026-08-27 | **300** |
+| 2026-09-10 | **350** |
+
+**17.5x in 96 days.** The 3-month chart on 2026-09-10 (data through 09-08)
+shows a new daily high of roughly **27 clicks**, up from 21 on 09-06, on
+roughly 890 impressions — impressions at a high too. Both lines have been
+making higher highs continuously since late July.
+
+**The timing note that matters more than the number.** Search Console data
+ran through 2026-09-08. The September work went live 09-08 (site pass),
+09-09 (heroes, blog hub, path library) and 09-10 (analytics). So this high is
+the *pre-existing trend continuing*, not the new work paying off. Nothing
+merged this week could have been crawled, re-ranked and clicked inside the
+window.
+
+**What this does to the 23 Sep read.** A steeply rising baseline means "clicks
+went up after the merge" will prove nothing — clicks were going up anyway, and
+would have without us. The test stays what it was: **CTR on the 17 pages that
+gained hero art, against CTR on the ~170 pages that still carry the text
+card**, over the same window. That comparison is immune to the trend, because
+the trend lifts both. Resist reading the headline number as a verdict.
 
 ### Bing Webmaster, same day
 
