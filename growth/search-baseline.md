@@ -525,6 +525,28 @@ pages.** The check is cheap to re-run and worth running after any FAQ edit — t
 recurring cause is editing visible copy and schema separately, so the rule is to
 change both in the same edit.
 
+## Instrument moved: AI crawler tracking now reports to PostHog (2026-09-09)
+
+The DataFast trial expired. Its human analytics duplicated PostHog, and the
+one thing it did uniquely, the server-side crawler report, was never read
+during the trial, so it was not worth $9 a month. `middleware.ts` now
+classifies the crawler user agents itself and sends one PostHog event per hit:
+
+- **Event** `ai_crawler_hit`, distinct_id `crawler:<bot>`, no person profile.
+- **Properties** `bot`, `provider`, `category` (training / answer_fetch /
+  search_index / other), `surface` (llms, ai-info, product-feed, robots,
+  sitemap, feed, home, blog-hub, blog-post, path-library, path-page, page),
+  `path`, `host`, `country`, `user_agent`.
+- **Lost**: DataFast's IP verification. A spoofed user agent now counts, so
+  read volumes as directional. Everything else in the 21 Aug "what to watch"
+  list still applies; build it as a PostHog insight broken down by `surface`
+  and `provider`.
+- **Removed**: the DataFast tag from every page (one third-party request
+  fewer per load), datafast-goals.js, and the @datafast/ai-crawl package.
+
+First check after deploy: fetch https://tryiro.com/llms.txt with a GPTBot
+user agent and confirm one `ai_crawler_hit` lands in PostHog.
+
 ## New instrument — server-side AI crawler tracking (live 2026-08-21)
 
 We could never see AI crawlers before. The DataFast script in every page head
