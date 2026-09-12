@@ -7,7 +7,7 @@ app_store: "https://apps.apple.com/app/id6759628066"
 language: en-US
 keywords: ["GPT-5.6", "GPT-5.6 pricing", "GPT-5.6 Sol", "GPT-5.6 Terra", "GPT-5.6 Luna", "GPT-5.6 vs GPT-5.5", "which GPT-5.6 tier"]
 date_published: "2026-07-26"
-date_modified: "2026-07-26"
+date_modified: "2026-09-12"
 reading_time_minutes: 7
 author: "Alex Furukawa"
 license: "© 2026 Iro AI"
@@ -21,6 +21,7 @@ pillar: "ai-tools"
 
 **Canonical:** https://tryiro.com/blog/gpt-5-6
 **Published:** 2026-07-26
+**Updated:** 2026-09-12
 **Reading time:** ~7 min
 **Author:** Alex Furukawa — Founder of Iro AI
 
@@ -38,6 +39,8 @@ pillar: "ai-tools"
 The tier names are deliberately non-obvious, so here is the ranking in plain terms: Luna is the fastest and cheapest, Terra is the balanced middle, and Sol is the flagship.
 
 Pricing and benchmark figures reflect OpenAI's published numbers and third-party reporting at the time of writing (26 July 2026).
+
+**Update, 12 September 2026.** OpenAI released [GPT-6 Astra](/blog/gpt-6-astra) on 3 September 2026, so GPT-5.6 is no longer the frontier family. It is, however, still the one most people are using: Sol remains the default model on paid ChatGPT plans, and the tier advice below is unchanged.
 
 ## The three tiers, compared
 
@@ -104,6 +107,7 @@ For high-volume, single-step tasks, yes. Luna reportedly outperforms Claude Opus
 
 ## Read next
 
+- [GPT-6 Astra: what replaced this at the frontier](https://tryiro.com/blog/gpt-6-astra)
 - [Every 2026 AI model release, tracked](https://tryiro.com/blog/new-ai-models-2026)
 - [Claude Opus 5: what changed](https://tryiro.com/blog/claude-opus-5)
 - [Learn to use ChatGPT properly](https://tryiro.com/learn-chatgpt)

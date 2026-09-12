@@ -22,7 +22,7 @@
     "which GPT-5.6 tier"
   ],
   "datePublished": "2026-07-26",
-  "dateModified": "2026-07-26",
+  "dateModified": "2026-09-12",
   "readingTime": 7,
   "articleSection": "AI tools",
   "feedCategory": "AI tools",
@@ -58,7 +58,7 @@
     {
       "id": "answer",
       "heading": "The short answer",
-      "html": "<p><strong>Use Terra by default, Sol when being wrong is expensive, and Luna when you are running the same simple task thousands of times.</strong> OpenAI released the GPT-5.6 family on 9 July 2026 after a limited preview that began on 26 June, splitting one flagship into three tiers priced from $1/$6 to $5/$30 per million tokens.</p><p>The tier names are deliberately non-obvious, so here is the ranking in plain terms: Luna is the fastest and cheapest, Terra is the balanced middle, and Sol is the flagship.</p><p class=\"note\">Pricing and benchmark figures reflect OpenAI's published numbers and third-party reporting at the time of writing (26 July 2026).</p>"
+      "html": "<p><strong>Use Terra by default, Sol when being wrong is expensive, and Luna when you are running the same simple task thousands of times.</strong> OpenAI released the GPT-5.6 family on 9 July 2026 after a limited preview that began on 26 June, splitting one flagship into three tiers priced from $1/$6 to $5/$30 per million tokens.</p><p>The tier names are deliberately non-obvious, so here is the ranking in plain terms: Luna is the fastest and cheapest, Terra is the balanced middle, and Sol is the flagship.</p><p class=\"note\">Pricing and benchmark figures reflect OpenAI's published numbers and third-party reporting at the time of writing (26 July 2026).</p><p class=\"note\"><strong>Update, 12 September 2026.</strong> OpenAI released <a href=\"/blog/gpt-6-astra\">GPT-6 Astra</a> on 3 September 2026, so GPT-5.6 is no longer the frontier family. It is, however, still the one most people are using: Sol remains the default model on paid ChatGPT plans, and the tier advice below is unchanged.</p>"
     },
     {
       "id": "tiers",
@@ -105,6 +105,10 @@
   ],
   "readNext": [
     {
+      "href": "/blog/gpt-6-astra",
+      "label": "GPT-6 Astra: what replaced this at the frontier"
+    },
+    {
       "href": "/blog/new-ai-models-2026",
       "label": "Every 2026 AI model release, tracked"
     },
@@ -118,6 +122,7 @@
     }
   ],
   "related": [
+    "/blog/gpt-6-astra",
     "/blog/new-ai-models-2026",
     "/blog/claude-opus-5",
     "/blog/grok-4-5",

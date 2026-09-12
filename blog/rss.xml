@@ -9,7 +9,7 @@
     <description>Short, practical writing on AI fluency, prompting, AI tools, and the active-practice method that beats endless video courses.</description>
     <language>en-US</language>
     <atom:link href="https://tryiro.com/blog/rss.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Tue, 01 Sep 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 12 Sep 2026 00:00:00 GMT</lastBuildDate>
     <generator>tryiro.com</generator>
     <copyright>© 2026 Iro AI</copyright>
     <image>
@@ -591,7 +591,7 @@
       <pubDate>Sun, 26 Jul 2026 00:00:00 GMT</pubDate>
       <dc:creator>Iro AI</dc:creator>
       <category>AI tools</category>
-      <description>Every major AI model release in 2026: Claude Opus 5, Claude Fable 5, GPT-5.6 (Luna, Terra, Sol), Grok 4.5 and Muse Spark — dates, pricing and benchmarks.</description>
+      <description>Every major AI model release in 2026: GPT-6 Astra, Claude Opus 5, Claude Fable 5, GPT-5.6, Grok 4.5 and Kimi K3, with dates, pricing and what changed.</description>
     </item>
     <item>
       <title>Claude Opus 5: what actually changed, and who it's for</title>
@@ -1024,6 +1024,24 @@
       <dc:creator>Iro AI</dc:creator>
       <category>AI fluency</category>
       <description>A practical sequence for teaching AI literacy in high school: what to cover in what order, five classroom activities needing no software, and how to assess it.</description>
+    </item>
+    <item>
+      <title>GPT-6 Astra: what it is, and whether you actually have it</title>
+      <link>https://tryiro.com/blog/gpt-6-astra</link>
+      <guid isPermaLink="true">https://tryiro.com/blog/gpt-6-astra</guid>
+      <pubDate>Sat, 12 Sep 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Iro AI</dc:creator>
+      <category>AI tools</category>
+      <description>GPT-6 Astra explained: the 3 September 2026 release, which ChatGPT plans can actually reach it, and why the 99.9% benchmark number needs an asterisk.</description>
+    </item>
+    <item>
+      <title>How to read an AI benchmark score</title>
+      <link>https://tryiro.com/blog/how-to-read-ai-benchmarks</link>
+      <guid isPermaLink="true">https://tryiro.com/blog/how-to-read-ai-benchmarks</guid>
+      <pubDate>Sat, 12 Sep 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Iro AI</dc:creator>
+      <category>AI fluency</category>
+      <description>AI benchmark scores are marketing until you know how they were measured. The harness problem, four ways numbers mislead, and what to ask before believing one.</description>
     </item>
   </channel>
 </rss>

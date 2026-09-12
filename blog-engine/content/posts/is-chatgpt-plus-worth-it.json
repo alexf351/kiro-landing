@@ -23,7 +23,7 @@
     "ChatGPT subscription"
   ],
   "datePublished": "2026-08-03",
-  "dateModified": "2026-08-06",
+  "dateModified": "2026-09-12",
   "readingTime": 8,
   "articleSection": "AI fluency",
   "feedCategory": "AI fluency",
@@ -72,7 +72,7 @@
     {
       "id": "tiers",
       "heading": "The four tiers, plainly",
-      "html": "<div class=\"cmp-wrap\"><table class=\"cmp-table\"><thead><tr><th>Tier</th><th>Price</th><th>What it changes</th><th>Ads</th></tr></thead><tbody><tr><td><strong>Free</strong></td><td>$0</td><td>Capped messages on the better model, then it drops you to a smaller one until the window resets</td><td>Being tested in the US</td></tr><tr><td><strong>Go</strong></td><td>About $8 a month</td><td>Roughly 10x the free limits on messages, uploads and image generation, plus a longer memory window. Same base model as free</td><td>Yes, in the US test</td></tr><tr><td><strong>Plus</strong></td><td>About $20 a month</td><td>The reasoning model, deep research, video generation, coding tools, memory and custom GPTs</td><td>No</td></tr><tr><td><strong>Pro</strong></td><td>About $100 or $200 a month</td><td>Roughly 5x Plus usage at the lower price, about 20x plus a much larger context window at the higher one</td><td>No</td></tr></tbody></table></div><p class=\"note\">OpenAI changes these often, and model names change faster than the tiers do. Check the current pricing page before you subscribe. Last reviewed August 2026.</p><p>Go launched in India in 2025, reached more than 170 countries, and is now OpenAI's fastest growing plan. If you last looked at ChatGPT pricing a year ago, it did not exist and Pro was a single price.</p>"
+      "html": "<div class=\"cmp-wrap\"><table class=\"cmp-table\"><thead><tr><th>Tier</th><th>Price</th><th>What it changes</th><th>Ads</th></tr></thead><tbody><tr><td><strong>Free</strong></td><td>$0</td><td>Capped messages on the better model, then it drops you to a smaller one until the window resets</td><td>Being tested in the US</td></tr><tr><td><strong>Go</strong></td><td>About $8 a month</td><td>Roughly 10x the free limits on messages, uploads and image generation, plus a longer memory window. Same base model as free</td><td>Yes, in the US test</td></tr><tr><td><strong>Plus</strong></td><td>About $20 a month</td><td>The reasoning model, deep research, video generation, coding tools, memory and custom GPTs</td><td>No</td></tr><tr><td><strong>Pro</strong></td><td>About $100 or $200 a month</td><td>Roughly 5x Plus usage at the lower price, about 20x plus a much larger context window at the higher one</td><td>No</td></tr></tbody></table></div><p class=\"note\">OpenAI changes these often, and model names change faster than the tiers do. Check the current pricing page before you subscribe. Last reviewed August 2026.</p><p>Go launched in India in 2025, reached more than 170 countries, and is now OpenAI's fastest growing plan. If you last looked at ChatGPT pricing a year ago, it did not exist and Pro was a single price.</p><p><strong>One thing changed in September 2026 that the table above does not capture.</strong> OpenAI released <a href=\"/blog/gpt-6-astra\">GPT-6 Astra</a> on 3 September, and access to it splits the tiers in a new way. Reporting through mid-September has Plus subscribers reaching Astra only inside ChatGPT Work and Codex rather than the ordinary model picker, with allowances measured weekly or monthly: around 200 messages a week on $200 Pro, around 50 on $100 Pro, and about 15 a month on Business Standard. OpenAI paused new $200 Pro sign-ups on 11 September because demand outran capacity.</p><p>This does not change the advice below. GPT-5.6 Sol is still the default model on every paid plan, so the tier you pick still mostly determines how much you can use, not what you can reach.</p>"
     },
     {
       "id": "buys",
@@ -141,6 +141,7 @@
     }
   ],
   "related": [
+    "/blog/gpt-6-astra",
     "/blog/is-claude-pro-worth-it",
     "/blog/why-your-ai-prompts-arent-working",
     "/blog/chatgpt-vs-claude-vs-gemini",

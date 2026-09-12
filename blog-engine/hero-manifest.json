@@ -1764,9 +1764,135 @@
         "at": "2026-09-09T17:08:25.712Z",
         "note": "paths-hub: asset only, no page integration"
       }
+    },
+    "gpt-6-astra": {
+      "slug": "gpt-6-astra",
+      "kind": "post",
+      "score": 93,
+      "reason": "Day-one explainer for the biggest model release of 2026; news volume is live now and the post's angle (who can actually reach it) is differentiated",
+      "alt": "A huge vault door open a crack with gold light blazing through, and a small cyan-lit side passage beside it",
+      "model": "gemini-3.1-flash-image",
+      "aspectRatio": "16:9",
+      "prompt": "Premium editorial illustration with a cinematic, softly rendered 3D feel. Setting: a deep navy, near-black galaxy backdrop with faint starfield depth, translucent smoked-glass surfaces and thin refractive light edges. Materials: matte black, charcoal, frosted glass. Colour is restrained: one cyan (#00E5FF) light source and one warm gold (#FFC940) accent at most, everything else desaturated navy and grey. Subtle volumetric glow, shallow depth of field, calm and confident mood. Composition for a 16:9 blog hero: main subject in the lower two-thirds, slightly right of centre; keep the upper-left third as quiet negative space; nothing important within 8% of any edge.\nArticle title: \"GPT-6 Astra: what it is, and whether you actually have it\".\nReader intent: Finding out what the new model is and whether their plan can reach it.\nAudience: ChatGPT subscribers who read the headlines and found nothing changed in their app.\nThe image must communicate this outcome: Knowing exactly where the new model lives and whether it matters to them.\nVisual metaphor: Power you can see but not walk straight into: a vast vault door barely ajar with brilliant light behind it, while a narrow side passage is the way through.\nSubject and scene: A monumental circular vault door of dark brushed metal, open just a hand's width, with intense warm gold light blazing through the gap and falling in a thin blade across a polished floor. To the right, a much smaller side passage glows cool cyan and clearly leads somewhere. Deep navy hall, faint starfield above, low camera angle looking up at the door.\nStrictly no text, letters, numbers, captions, labels or typography anywhere in the image. No logos, brand marks, app icons, watermarks or signatures. No user interfaces, screens with content, dashboards, charts, chat bubbles, phones showing apps, or fake windows. No robots, androids, brains, circuit-board heads or glowing humanoids. No penguins or mascots. No recognisable real people or celebrity likeness; if a person appears, show them from behind or in silhouette. No neon rainbow palettes, no purple-pink gradients, no clutter.",
+      "promptHash": "d2486165e093",
+      "master": {
+        "path": "assets/hero/gpt-6-astra-master.jpg",
+        "width": 1376,
+        "height": 768,
+        "bytes": 528373,
+        "mime": "image/jpeg"
+      },
+      "usage": {
+        "promptTokens": 460,
+        "candidateTokens": 1631,
+        "totalTokens": 2091
+      },
+      "estimatedUsd": 0.06,
+      "timestamp": "2026-09-12T03:19:51.455Z",
+      "status": "done",
+      "ms": 9587,
+      "variants": {
+        "640.webp": {
+          "path": "assets/hero/gpt-6-astra-640.webp",
+          "width": 640,
+          "height": 360,
+          "bytes": 10290
+        },
+        "1000.webp": {
+          "path": "assets/hero/gpt-6-astra-1000.webp",
+          "width": 1000,
+          "height": 563,
+          "bytes": 20652
+        },
+        "1400.webp": {
+          "path": "assets/hero/gpt-6-astra-1400.webp",
+          "width": 1400,
+          "height": 788,
+          "bytes": 30308
+        },
+        "1000.jpg": {
+          "path": "assets/hero/gpt-6-astra-1000.jpg",
+          "width": 1000,
+          "height": 563,
+          "bytes": 41559
+        },
+        "og.jpg": {
+          "path": "assets/hero/gpt-6-astra-og.jpg",
+          "width": 1200,
+          "height": 630,
+          "bytes": 57390
+        }
+      },
+      "integrated": {
+        "at": "2026-09-12T03:20:02.394Z",
+        "note": "posts/gpt-6-astra.json: hero + ogImage set (run node blog-engine/build.mjs)"
+      }
+    },
+    "how-to-read-ai-benchmarks": {
+      "slug": "how-to-read-ai-benchmarks",
+      "kind": "post",
+      "score": 90,
+      "reason": "Evergreen judgement skill with a live news hook (the 99.9 vs 62.7 split); nothing on the site covers reading benchmark claims",
+      "alt": "A glass sphere casting two shadows of very different lengths from two light sources",
+      "model": "gemini-3.1-flash-image",
+      "aspectRatio": "16:9",
+      "prompt": "Premium editorial illustration with a cinematic, softly rendered 3D feel. Setting: a deep navy, near-black galaxy backdrop with faint starfield depth, translucent smoked-glass surfaces and thin refractive light edges. Materials: matte black, charcoal, frosted glass. Colour is restrained: one cyan (#00E5FF) light source and one warm gold (#FFC940) accent at most, everything else desaturated navy and grey. Subtle volumetric glow, shallow depth of field, calm and confident mood. Composition for a 16:9 blog hero: main subject in the lower two-thirds, slightly right of centre; keep the upper-left third as quiet negative space; nothing important within 8% of any edge.\nArticle title: \"How to read an AI benchmark score\".\nReader intent: Working out whether a model's headline score means anything.\nAudience: People choosing between AI tools who keep seeing bar charts.\nThe image must communicate this outcome: Seeing that the measurement setup, not the model, often produces the lead.\nVisual metaphor: One object, two very different shadows, because the light was moved.\nSubject and scene: A single frosted-glass sphere resting on a dark reflective surface, lit from two directions at once. One light throws a short compact shadow, the other throws a shadow several times longer across the floor. The short shadow is edged cyan, the long one warm gold. Deep navy background, faint starfield, shallow depth of field on the sphere.\nStrictly no text, letters, numbers, captions, labels or typography anywhere in the image. No logos, brand marks, app icons, watermarks or signatures. No user interfaces, screens with content, dashboards, charts, chat bubbles, phones showing apps, or fake windows. No robots, androids, brains, circuit-board heads or glowing humanoids. No penguins or mascots. No recognisable real people or celebrity likeness; if a person appears, show them from behind or in silhouette. No neon rainbow palettes, no purple-pink gradients, no clutter.",
+      "promptHash": "88a7ffe67a8e",
+      "master": {
+        "path": "assets/hero/how-to-read-ai-benchmarks-master.jpg",
+        "width": 1376,
+        "height": 768,
+        "bytes": 492469,
+        "mime": "image/jpeg"
+      },
+      "usage": {
+        "promptTokens": 424,
+        "candidateTokens": 1539,
+        "totalTokens": 1963
+      },
+      "estimatedUsd": 0.06,
+      "timestamp": "2026-09-12T03:20:00.248Z",
+      "status": "done",
+      "ms": 8790,
+      "variants": {
+        "640.webp": {
+          "path": "assets/hero/how-to-read-ai-benchmarks-640.webp",
+          "width": 640,
+          "height": 360,
+          "bytes": 4218
+        },
+        "1000.webp": {
+          "path": "assets/hero/how-to-read-ai-benchmarks-1000.webp",
+          "width": 1000,
+          "height": 563,
+          "bytes": 7792
+        },
+        "1400.webp": {
+          "path": "assets/hero/how-to-read-ai-benchmarks-1400.webp",
+          "width": 1400,
+          "height": 788,
+          "bytes": 12652
+        },
+        "1000.jpg": {
+          "path": "assets/hero/how-to-read-ai-benchmarks-1000.jpg",
+          "width": 1000,
+          "height": 563,
+          "bytes": 19988
+        },
+        "og.jpg": {
+          "path": "assets/hero/how-to-read-ai-benchmarks-og.jpg",
+          "width": 1200,
+          "height": 630,
+          "bytes": 29649
+        }
+      },
+      "integrated": {
+        "at": "2026-09-12T03:20:02.395Z",
+        "note": "posts/how-to-read-ai-benchmarks.json: hero + ogImage set (run node blog-engine/build.mjs)"
+      }
     }
   },
-  "updatedAt": "2026-09-09T17:08:25.712Z",
+  "updatedAt": "2026-09-12T03:20:02.395Z",
   "model": "gemini-3.1-flash-image",
   "pricePerImageUsdEstimate": 0.06
 }
