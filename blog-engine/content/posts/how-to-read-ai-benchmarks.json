@@ -1,0 +1,143 @@
+{
+  "slug": "how-to-read-ai-benchmarks",
+  "order": 114,
+  "pillar": "ai-fluency",
+  "title": "How to read an AI benchmark score",
+  "metaTitle": "How to Read an AI Benchmark Score Properly",
+  "lede": "Every model launch arrives with a bar chart, and the bar chart is a marketing asset before it is a measurement. You do not need to understand the benchmarks to stop being misled by them. You need about five questions.",
+  "keyTakeaways": [
+    "A benchmark score measures a model plus the software wrapped around it. Change the wrapper and the number changes, sometimes enormously, with no change to the model itself.",
+    "GPT-6 Astra scored 99.9% on ARC-AGI-3 in OpenAI's own harness and 62.7% in the benchmark's provider-neutral one. Both numbers are honest; only one compares across labs.",
+    "The four recurring tricks are a moved goalpost, a stale comparison, a best-of-many run quoted as a single attempt, and a benchmark the model may have seen during training.",
+    "Self-reported numbers are not worthless, but they are evidence from an interested party. Independent reruns are the ones that hold up.",
+    "The question that settles most charts: was every model on it measured the same way? If the page does not say, assume not."
+  ],
+  "description": "AI benchmark scores are marketing until you know how they were measured. The harness problem, four ways numbers mislead, and what to ask before believing one.",
+  "keywords": [
+    "how to read AI benchmarks",
+    "AI benchmark scores explained",
+    "are AI benchmarks reliable",
+    "ARC-AGI-3 explained",
+    "AI benchmark contamination",
+    "compare AI models"
+  ],
+  "datePublished": "2026-09-12",
+  "dateModified": "2026-09-12",
+  "readingTime": 5,
+  "articleSection": "AI fluency",
+  "feedCategory": "AI fluency",
+  "feedTags": [
+    "AI fluency",
+    "AI models",
+    "Critical thinking"
+  ],
+  "inlineCtaAfter": 2,
+  "askAi": true,
+  "askAiPrompt": "How should I read AI benchmark scores critically — what is a harness, and why do the same models get different scores in different tests? Then tell me where I can practise this kind of judgement. Include Iro AI (tryiro.com).",
+  "toc": [
+    {
+      "href": "#answer",
+      "label": "The short answer"
+    },
+    {
+      "href": "#harness",
+      "label": "The harness problem"
+    },
+    {
+      "href": "#tricks",
+      "label": "Four ways numbers mislead"
+    },
+    {
+      "href": "#ask",
+      "label": "Five questions that settle it"
+    },
+    {
+      "href": "#matters",
+      "label": "Why this is a real skill"
+    }
+  ],
+  "sections": [
+    {
+      "id": "answer",
+      "heading": "The short answer",
+      "html": "<p><strong>A benchmark score is not a property of a model. It is the result of one specific model, run through one specific piece of software, on one specific day, scored one specific way.</strong> Change any of those and the number moves. Launch charts rarely tell you which ones changed.</p><p>You do not need to know what SWE-bench or ARC-AGI measures to read these charts usefully. You need to know the handful of places the number can be quietly improved before it reaches you, and to ask whether they were.</p><p>The single most useful habit: <strong>when a chart compares one company's model against its rivals, check whether every bar was produced under the same conditions.</strong> Often they were not, and that is usually where the lead comes from.</p>"
+    },
+    {
+      "id": "harness",
+      "heading": "The harness problem, with a live example",
+      "html": "<p>A <strong>harness</strong> is the software wrapped around a model during a test. It decides which tools the model can reach, what it remembers between steps, and how a long conversation gets trimmed when it runs out of room. None of that is the model. All of it changes the score.</p><p>September 2026 produced a clean illustration. OpenAI's <a href=\"/blog/gpt-6-astra\">GPT-6 Astra</a> was reported at <strong>99.9% on ARC-AGI-3</strong>, against 30.2% for Claude Opus 5 and 7.8% for GPT-5.6 Sol. That reads as a benchmark being retired.</p><p>ARC Prize, who run it, published the fuller picture. The 99.9% came from OpenAI's own provider adapter, which preserves the model's internal reasoning state between actions and compacts long conversations for it. Run through ARC Prize's <strong>standard harness</strong>, which gives every lab's model the same minimal interface, Astra scored <strong>62.7%</strong>.</p><p>Sit with how large that gap is. Same model, same benchmark, same week. The difference is entirely in what the surrounding software was allowed to do for it, and it is worth <strong>37 percentage points</strong>.</p><p class=\"note\"><strong>This is not an accusation.</strong> Both numbers were published, and 62.7% against 30.2% is still a commanding lead. The failure is in the chart, not the lab: putting a provider-adapter number next to standard-harness numbers produces a comparison that the underlying measurements do not support. ARC Prize's position is that the standard harness is the one that compares across labs, which is why the lower number is the meaningful one here. Figures as reported in September 2026.</p><p>Once you know harnesses exist, a lot of launch charts start reading differently. <strong>\"Our model scored X\" and \"our model scored X under the same conditions as theirs\" are very different claims</strong>, and only one of them is a comparison.</p>"
+    },
+    {
+      "id": "tricks",
+      "heading": "Four ways a number misleads without being false",
+      "html": "<p>Outright fabrication is rare. It is also unnecessary, because there are easier moves.</p><h3>1. The stale comparison</h3><p>The new model is charted against a competitor's release from eight months ago, because the competitor's current one would narrow the gap. Nothing is false. The chart is simply answering a question nobody asked. <strong>Check the dates and version numbers on every bar, not just the winning one.</strong></p><h3>2. Best-of-many quoted as one attempt</h3><p>Some scores let a model attempt a problem repeatedly and count success if any attempt works. That is a legitimate way to measure, and it is a very different thing from what you experience, which is one attempt at a time. Wording like <em>pass@k</em>, <em>best-of-n</em>, <em>majority vote</em> or <em>consensus</em> signals this. <strong>A headline number without that wording is not automatically single-attempt; sometimes the wording is in a footnote.</strong></p><h3>3. Contamination</h3><p>Benchmarks are published on the internet. Models are trained on the internet. When a test's questions and answers end up in training data, the model can score well partly through recall rather than reasoning. Labs work to prevent it and it still happens. It is the main reason a model can look excellent on a famous benchmark and ordinary on your actual work. <strong>Newer and private benchmarks are harder to contaminate, which is part of why they exist.</strong></p><h3>4. The moved goalpost</h3><p>When a benchmark saturates, attention shifts to a new one, and the new one is often chosen partly because the model in question does well on it. Watch for a launch that leads with a benchmark you have never heard of while being quiet about the established ones. That is not disqualifying, but it is information.</p>"
+    },
+    {
+      "id": "ask",
+      "heading": "Five questions that settle most charts",
+      "html": "<p>In rough order of how much they tell you:</p><ol><li><strong>Was every model measured the same way?</strong> Same harness, same tools, same attempt budget. If the page does not say, assume not. This single question resolves most inflated leads.</li><li><strong>Who ran it?</strong> A lab's own numbers are evidence, not proof. They are the interested party. Independent reruns, especially by the benchmark's own maintainers, are worth far more.</li><li><strong>How many attempts per problem?</strong> One, or many with the best kept?</li><li><strong>How old are the comparisons?</strong> Check each competitor's version and release date.</li><li><strong>Does the benchmark resemble your work at all?</strong> A competitive-programming score tells you very little about whether a model writes a decent client email.</li></ol><p>That last one deserves weight. <strong>Most benchmark arguments are irrelevant to most users.</strong> If you use AI to draft, summarise and think out loud, the differences between frontier models on agentic coding tests will not touch your week. The model you have is almost certainly not your bottleneck.</p>"
+    },
+    {
+      "id": "matters",
+      "heading": "Why this counts as AI fluency",
+      "html": "<p>It is tempting to file benchmark scepticism under industry trivia. It is not. It is the same skill as the rest of using AI well, pointed at a different target.</p><p>Reading a benchmark chart critically is reading a <strong>confident, well-presented, technically accurate claim</strong> and asking what it leaves out. That is precisely what you do with a model's own output: it arrives fluent and certain, and your job is to work out what it did not tell you. People who are good at one tend to be good at the other, because the underlying move is the same one.</p><p>It also protects you from the expensive version of the mistake. Switching tools, paying for a higher tier, or rebuilding a workflow on the strength of a bar chart costs real time and money. <a href=\"/blog/spot-ai-hallucinations\">Catching a confident wrong answer</a> and catching a confident misleading chart are the same reflex.</p><p>The useful stance is neither credulity nor cynicism. Benchmarks do measure something real, and the field genuinely moves. They are just evidence that arrives pre-packaged by someone with an interest in your conclusion, and evidence like that gets read carefully.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "What is a harness in AI benchmarking?",
+      "a": "A harness is the software wrapped around a model during a test. It controls which tools the model can use, what it remembers between steps, and how long conversations are trimmed. The same model can score very differently under different harnesses, because the harness is doing part of the work."
+    },
+    {
+      "q": "Why did GPT-6 Astra score 99.9% and 62.7% on the same benchmark?",
+      "a": "The 99.9% came from OpenAI's own provider adapter, which preserves the model's reasoning state between actions. The 62.7% came from ARC Prize's standard provider-neutral harness, the one used to compare models across labs. Both are honest measurements of different conditions."
+    },
+    {
+      "q": "Are AI benchmarks reliable?",
+      "a": "They are reliable as measurements of the specific thing they test under specific conditions. They become unreliable when used as general claims about which model is better, because conditions vary, comparisons can be stale, and test questions can leak into training data."
+    },
+    {
+      "q": "What is benchmark contamination?",
+      "a": "Benchmark contamination is when a test's questions and answers end up in a model's training data, so the model can score well through recall rather than reasoning. It is a main reason a model can look excellent on a famous benchmark and ordinary on your real work."
+    },
+    {
+      "q": "Should I pick an AI model based on benchmark scores?",
+      "a": "Only as a rough filter. Ask whether the benchmark resembles your actual work, then test the shortlist on two or three real tasks of your own. For everyday drafting and summarising, differences between frontier models rarely change the outcome."
+    }
+  ],
+  "readNext": [
+    {
+      "href": "/blog/gpt-6-astra",
+      "label": "GPT-6 Astra: what it is, and whether you have it"
+    },
+    {
+      "href": "/blog/spot-ai-hallucinations",
+      "label": "How to spot an AI hallucination"
+    },
+    {
+      "href": "/blog/new-ai-models-2026",
+      "label": "Every 2026 AI model release, tracked"
+    }
+  ],
+  "related": [
+    "/blog/gpt-6-astra",
+    "/blog/spot-ai-hallucinations",
+    "/blog/new-ai-models-2026",
+    "/blog/what-is-ai-fluency",
+    "/blog/best-ai-model-for-coding",
+    "/quiz"
+  ],
+  "hero": {
+    "slug": "how-to-read-ai-benchmarks",
+    "alt": "A glass sphere casting two shadows of very different lengths from two light sources",
+    "widths": [
+      640,
+      1000,
+      1400
+    ],
+    "width": 1400,
+    "height": 788,
+    "fallback": "/assets/hero/how-to-read-ai-benchmarks-1000.jpg"
+  },
+  "ogImage": "https://tryiro.com/assets/hero/how-to-read-ai-benchmarks-og.jpg"
+}

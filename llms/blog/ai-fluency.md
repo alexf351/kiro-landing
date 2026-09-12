@@ -4,7 +4,7 @@ canonical_url: "https://tryiro.com/blog/ai-fluency"
 site: "Iro AI"
 site_url: "https://tryiro.com"
 language: en-US
-last_updated: "2026-09-01"
+last_updated: "2026-09-12"
 keywords: ["AI fluency", "how to learn AI", "AI skills", "learn AI 2026", "AI for beginners"]
 author: "Iro AI"
 license: "© 2026 Iro AI"
@@ -16,7 +16,7 @@ type: "content-pillar"
 > Build real AI fluency in 2026 — the active-practice method, the free tools worth using, and how to tell when AI is wrong.
 
 **Canonical:** https://tryiro.com/blog/ai-fluency
-**Last updated:** 2026-09-01
+**Last updated:** 2026-09-12
 
 AI fluency is the ability to get reliable, useful results from AI tools — and to know when not to trust them. It is not about memorising magic prompts. It is a skill you build through active practice, the same way you would learn a language or an instrument.
 
@@ -87,3 +87,4 @@ Work through the posts below in order, or jump straight to whichever gap is most
 - [The best BeFreed alternatives in 2026](https://tryiro.com/blog/befreed-alternatives) — Looking for a BeFreed alternative? Compare Blinkist, Headway, Brilliant, Khan Academy and Iro AI by what you want: summaries, a skill, or foundations.
 - [The best apps to learn something new in 2026](https://tryiro.com/blog/best-learning-apps) — Duolingo, Brilliant, Khan Academy, Kinnu, Blinkist and Iro compared by what each teaches best, plus a two-question test for picking the one you will stick with.
 - [How to teach AI literacy to high school students](https://tryiro.com/blog/teach-ai-literacy-high-school) — A practical sequence for teaching AI literacy in high school: what to cover in what order, five classroom activities needing no software, and how to assess it.
+- [How to read an AI benchmark score](https://tryiro.com/blog/how-to-read-ai-benchmarks) — AI benchmark scores are marketing until you know how they were measured. The harness problem, four ways numbers mislead, and what to ask before believing one.

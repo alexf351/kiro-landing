@@ -3,15 +3,18 @@
   "order": 64,
   "pillar": "ai-tools",
   "title": "New AI models in 2026: every major release, tracked",
-  "lede": "Claude Opus 5, GPT-5.6, Grok 4.5, Muse Spark, the frontier moved four times in four months. Here's every major model release of 2026, what actually changed, and which one to use.",
+  "lede": "Eleven major releases in six months, most recently GPT-6 Astra on 3 September. Here's every one of them, what actually changed, and which model to use.",
   "keyTakeaways": [
+    "GPT-6 Astra (3 September 2026) is the newest frontier release and the most agentic, but it did not replace anything: GPT-5.6 Sol is still the default model on paid ChatGPT plans.",
     "Five labs shipped frontier models in July 2026 alone: Anthropic (Claude Opus 5 on 24 July), OpenAI (the GPT-5.6 family on 9 July), SpaceXAI (Grok 4.5 on 8 July), Moonshot AI (Kimi K3, weights 27 July), and Meta (Muse Spark 1.1 on 9 July).",
     "The real 2026 story is price, not raw capability: Opus 5 delivers near-Fable-5 performance at half the price, and GPT-5.6 Terra matches GPT-5.5 for roughly half the cost.",
     "Every lab now ships tiers instead of one model (Luna/Terra/Sol at OpenAI, effort settings at Anthropic) so choosing the right tier now matters more than choosing the right lab.",
     "Benchmark leaderboards reshuffle within weeks. The skill that transfers between models (prompting, judgment, knowing when to verify) is worth more than tracking any single release."
   ],
-  "description": "Every major AI model release in 2026: Claude Opus 5, Claude Fable 5, GPT-5.6 (Luna, Terra, Sol), Grok 4.5 and Muse Spark — dates, pricing and benchmarks.",
+  "description": "Every major AI model release in 2026: GPT-6 Astra, Claude Opus 5, Claude Fable 5, GPT-5.6, Grok 4.5 and Kimi K3, with dates, pricing and what changed.",
   "keywords": [
+    "new AI models September 2026",
+    "GPT-6 Astra",
     "new AI models 2026",
     "AI model releases",
     "latest AI models",
@@ -23,7 +26,7 @@
     "Kimi K3"
   ],
   "datePublished": "2026-07-26",
-  "dateModified": "2026-08-21",
+  "dateModified": "2026-09-12",
   "readingTime": 9,
   "articleSection": "AI tools",
   "feedCategory": "AI tools",
@@ -64,7 +67,7 @@
     {
       "id": "releases",
       "heading": "Every major 2026 release, in order",
-      "html": "<div class=\"cmp-wrap\"><table class=\"cmp-table\"><thead><tr><th>Model</th><th>Lab</th><th>Released</th><th>Why it mattered</th><th>API price (in/out per M tokens)</th></tr></thead><tbody><tr><td><strong>Muse Spark</strong></td><td>Meta (Superintelligence Labs)</td><td>April 2026</td><td>Meta's first post-Llama model, a ground-up rebuild, not a Llama iteration. Free to use.</td><td>Free tier</td></tr><tr><td><strong>Claude Fable 5</strong></td><td>Anthropic</td><td>June 2026 (general availability 1 July)</td><td>Anthropic's most capable generally available model; briefly restricted by US export controls before relaunch.</td><td>Premium tier</td></tr><tr><td><strong>Grok 4.5</strong></td><td>SpaceXAI</td><td>8 July 2026</td><td>SpaceXAI's first model built specifically for coding and agentic work, trained on real developer session data.</td><td>$2 / $6</td></tr><tr><td><strong>GPT-5.6 (Luna, Terra, Sol)</strong></td><td>OpenAI</td><td>9 July 2026</td><td>Three tiers instead of one model, with Sol adding Max reasoning effort and Ultra mode.</td><td>$1/$6 to $5/$30</td></tr><tr><td><strong>Muse Spark 1.1</strong></td><td>Meta</td><td>9 July 2026</td><td>Multimodal reasoning update aimed at agentic tasks, on the Meta Model API.</td><td>Free tier</td></tr><tr><td><strong>Kimi K3</strong></td><td>Moonshot AI</td><td>16 July 2026 (weights 27 July)</td><td>At ~2.8T parameters, the largest open-weight release to date: 1M context, native vision, Modified MIT license.</td><td>$3 / $15</td></tr><tr><td><strong>Claude Opus 5</strong></td><td>Anthropic</td><td>24 July 2026</td><td>Near-Fable-5 capability at half the price, with a 1M-token context window and a fast mode.</td><td>$5 / $25</td></tr><tr><td><strong>DeepSeek V4-Flash-0731</strong></td><td>DeepSeek</td><td>31 July 2026</td><td>Open weights under MIT on Hugging Face: 284B total / 13B active, 1M context. V4-Pro (1.6T / 49B active) is the larger sibling.</td><td>MIT, self-host</td></tr><tr><td><strong>Grok Imagine Image 2.0</strong></td><td>SpaceXAI</td><td>7 August 2026</td><td>Image model with region-level editing, segmentation, background removal and up to five reference images. Vendor-cited second on both Arena image boards, behind gpt-image-2.</td><td>In Grok; API coming soon</td></tr><tr><td><strong>Gemini 3.7 Flash</strong></td><td>Google</td><td>13 August 2026</td><td>Workhorse update three weeks after 3.6 Flash: better coding and agents, 1M context, tunable thinking levels. Introductory price doubles on 1 January 2027.</td><td>$0.75 / $3.75 to 31 Dec 2026</td></tr></tbody></table></div><p>Two things stand out from that list. First, the release cadence: five frontier launches inside July alone, and that excludes the wider wave of smaller releases (Google's Gemini 3.6 Flash trio, several Qwen models, poolside's Laguna S 2.1) that landed in the same fortnight. Second, the direction, with the exception of Fable 5, every release in the second half of 2026 has been about doing more for less, not setting a new capability ceiling.</p>"
+      "html": "<div class=\"cmp-wrap\"><table class=\"cmp-table\"><thead><tr><th>Model</th><th>Lab</th><th>Released</th><th>Why it mattered</th><th>API price (in/out per M tokens)</th></tr></thead><tbody><tr><td><strong>Muse Spark</strong></td><td>Meta (Superintelligence Labs)</td><td>April 2026</td><td>Meta's first post-Llama model, a ground-up rebuild, not a Llama iteration. Free to use.</td><td>Free tier</td></tr><tr><td><strong>Claude Fable 5</strong></td><td>Anthropic</td><td>June 2026 (general availability 1 July)</td><td>Anthropic's most capable generally available model; briefly restricted by US export controls before relaunch.</td><td>Premium tier</td></tr><tr><td><strong>Grok 4.5</strong></td><td>SpaceXAI</td><td>8 July 2026</td><td>SpaceXAI's first model built specifically for coding and agentic work, trained on real developer session data.</td><td>$2 / $6</td></tr><tr><td><strong>GPT-5.6 (Luna, Terra, Sol)</strong></td><td>OpenAI</td><td>9 July 2026</td><td>Three tiers instead of one model, with Sol adding Max reasoning effort and Ultra mode.</td><td>$1/$6 to $5/$30</td></tr><tr><td><strong>Muse Spark 1.1</strong></td><td>Meta</td><td>9 July 2026</td><td>Multimodal reasoning update aimed at agentic tasks, on the Meta Model API.</td><td>Free tier</td></tr><tr><td><strong>Kimi K3</strong></td><td>Moonshot AI</td><td>16 July 2026 (weights 27 July)</td><td>At ~2.8T parameters, the largest open-weight release to date: 1M context, native vision, Modified MIT license.</td><td>$3 / $15</td></tr><tr><td><strong>Claude Opus 5</strong></td><td>Anthropic</td><td>24 July 2026</td><td>Near-Fable-5 capability at half the price, with a 1M-token context window and a fast mode.</td><td>$5 / $25</td></tr><tr><td><strong>DeepSeek V4-Flash-0731</strong></td><td>DeepSeek</td><td>31 July 2026</td><td>Open weights under MIT on Hugging Face: 284B total / 13B active, 1M context. V4-Pro (1.6T / 49B active) is the larger sibling.</td><td>MIT, self-host</td></tr><tr><td><strong>Grok Imagine Image 2.0</strong></td><td>SpaceXAI</td><td>7 August 2026</td><td>Image model with region-level editing, segmentation, background removal and up to five reference images. Vendor-cited second on both Arena image boards, behind gpt-image-2.</td><td>In Grok; API coming soon</td></tr><tr><td><strong>Gemini 3.7 Flash</strong></td><td>Google</td><td>13 August 2026</td><td>Workhorse update three weeks after 3.6 Flash: better coding and agents, 1M context, tunable thinking levels. Introductory price doubles on 1 January 2027.</td><td>$0.75 / $3.75 to 31 Dec 2026</td></tr><tr><td><strong>GPT-6 Astra</strong></td><td>OpenAI</td><td>3 September 2026</td><td>Frontier model aimed at agentic work: computer use, browsing and long multi-step tasks. GPT-5.6 Sol stays the default on paid ChatGPT plans, and Plus reaches Astra only inside Work and Codex.</td><td>$10 / $50</td></tr></tbody></table></div><p>Two things stand out from that list. First, the release cadence: five frontier launches inside July alone, and that excludes the wider wave of smaller releases (Google's Gemini 3.6 Flash trio, several Qwen models, poolside's Laguna S 2.1) that landed in the same fortnight. Second, the direction, with the exception of Fable 5, every release in the second half of 2026 has been about doing more for less, not setting a new capability ceiling.</p>"
     },
     {
       "id": "changed",
@@ -110,6 +113,10 @@
   ],
   "readNext": [
     {
+      "href": "/blog/gpt-6-astra",
+      "label": "GPT-6 Astra: the newest release, explained"
+    },
+    {
       "href": "/blog/kimi-k3",
       "label": "Kimi K3: the biggest open-weight model yet"
     },
@@ -123,6 +130,8 @@
     }
   ],
   "related": [
+    "/blog/how-to-read-ai-benchmarks",
+    "/blog/gpt-6-astra",
     "/blog/claude-opus-5",
     "/blog/kimi-k3",
     "/blog/gpt-5-6",

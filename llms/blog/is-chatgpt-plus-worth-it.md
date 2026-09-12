@@ -7,7 +7,7 @@ app_store: "https://apps.apple.com/app/id6759628066"
 language: en-US
 keywords: ["is ChatGPT Plus worth it", "ChatGPT Plus price", "ChatGPT Go vs Plus", "ChatGPT free vs paid", "ChatGPT pricing 2026", "is ChatGPT Pro worth it", "ChatGPT subscription"]
 date_published: "2026-08-03"
-date_modified: "2026-08-06"
+date_modified: "2026-09-12"
 reading_time_minutes: 8
 author: "Alex Furukawa"
 license: "© 2026 Iro AI"
@@ -21,7 +21,7 @@ pillar: "ai-fluency"
 
 **Canonical:** https://tryiro.com/blog/is-chatgpt-plus-worth-it
 **Published:** 2026-08-03
-**Updated:** 2026-08-06
+**Updated:** 2026-09-12
 **Reading time:** ~8 min
 **Author:** Alex Furukawa — Founder of Iro AI
 
@@ -55,6 +55,10 @@ Do not upgrade because answers feel shallow, generic or slightly wrong. That is 
 OpenAI changes these often, and model names change faster than the tiers do. Check the current pricing page before you subscribe. Last reviewed August 2026.
 
 Go launched in India in 2025, reached more than 170 countries, and is now OpenAI's fastest growing plan. If you last looked at ChatGPT pricing a year ago, it did not exist and Pro was a single price.
+
+**One thing changed in September 2026 that the table above does not capture.** OpenAI released [GPT-6 Astra](/blog/gpt-6-astra) on 3 September, and access to it splits the tiers in a new way. Reporting through mid-September has Plus subscribers reaching Astra only inside ChatGPT Work and Codex rather than the ordinary model picker, with allowances measured weekly or monthly: around 200 messages a week on $200 Pro, around 50 on $100 Pro, and about 15 a month on Business Standard. OpenAI paused new $200 Pro sign-ups on 11 September because demand outran capacity.
+
+This does not change the advice below. GPT-5.6 Sol is still the default model on every paid plan, so the tier you pick still mostly determines how much you can use, not what you can reach.
 
 ## What paying actually buys
 

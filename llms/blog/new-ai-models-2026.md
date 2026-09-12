@@ -5,9 +5,9 @@ site: "Iro AI"
 site_url: "https://tryiro.com"
 app_store: "https://apps.apple.com/app/id6759628066"
 language: en-US
-keywords: ["new AI models 2026", "AI model releases", "latest AI models", "Claude Opus 5", "GPT-5.6", "Grok 4.5", "Muse Spark", "best AI model 2026", "Kimi K3"]
+keywords: ["new AI models September 2026", "GPT-6 Astra", "new AI models 2026", "AI model releases", "latest AI models", "Claude Opus 5", "GPT-5.6", "Grok 4.5", "Muse Spark", "best AI model 2026", "Kimi K3"]
 date_published: "2026-07-26"
-date_modified: "2026-08-21"
+date_modified: "2026-09-12"
 reading_time_minutes: 9
 author: "Alex Furukawa"
 license: "© 2026 Iro AI"
@@ -17,16 +17,17 @@ pillar: "ai-tools"
 
 # New AI models in 2026: every major release, tracked
 
-> Claude Opus 5, GPT-5.6, Grok 4.5, Muse Spark, the frontier moved four times in four months. Here's every major model release of 2026, what actually changed, and which one to use.
+> Eleven major releases in six months, most recently GPT-6 Astra on 3 September. Here's every one of them, what actually changed, and which model to use.
 
 **Canonical:** https://tryiro.com/blog/new-ai-models-2026
 **Published:** 2026-07-26
-**Updated:** 2026-08-21
+**Updated:** 2026-09-12
 **Reading time:** ~9 min
 **Author:** Alex Furukawa — Founder of Iro AI
 
 ## Key takeaways
 
+- GPT-6 Astra (3 September 2026) is the newest frontier release and the most agentic, but it did not replace anything: GPT-5.6 Sol is still the default model on paid ChatGPT plans.
 - Five labs shipped frontier models in July 2026 alone: Anthropic (Claude Opus 5 on 24 July), OpenAI (the GPT-5.6 family on 9 July), SpaceXAI (Grok 4.5 on 8 July), Moonshot AI (Kimi K3, weights 27 July), and Meta (Muse Spark 1.1 on 9 July).
 - The real 2026 story is price, not raw capability: Opus 5 delivers near-Fable-5 performance at half the price, and GPT-5.6 Terra matches GPT-5.5 for roughly half the cost.
 - Every lab now ships tiers instead of one model (Luna/Terra/Sol at OpenAI, effort settings at Anthropic) so choosing the right tier now matters more than choosing the right lab.
@@ -54,6 +55,7 @@ Figures below reflect each lab's published pricing and reported benchmark result
 | **DeepSeek V4-Flash-0731** | DeepSeek | 31 July 2026 | Open weights under MIT on Hugging Face: 284B total / 13B active, 1M context. V4-Pro (1.6T / 49B active) is the larger sibling. | MIT, self-host |
 | **Grok Imagine Image 2.0** | SpaceXAI | 7 August 2026 | Image model with region-level editing, segmentation, background removal and up to five reference images. Vendor-cited second on both Arena image boards, behind gpt-image-2. | In Grok; API coming soon |
 | **Gemini 3.7 Flash** | Google | 13 August 2026 | Workhorse update three weeks after 3.6 Flash: better coding and agents, 1M context, tunable thinking levels. Introductory price doubles on 1 January 2027. | $0.75 / $3.75 to 31 Dec 2026 |
+| **GPT-6 Astra** | OpenAI | 3 September 2026 | Frontier model aimed at agentic work: computer use, browsing and long multi-step tasks. GPT-5.6 Sol stays the default on paid ChatGPT plans, and Plus reaches Astra only inside Work and Codex. | $10 / $50 |
 
 
 
@@ -132,6 +134,7 @@ Kimi K3 from Moonshot AI, whose weights were published on 27 July 2026 under a M
 
 ## Read next
 
+- [GPT-6 Astra: the newest release, explained](https://tryiro.com/blog/gpt-6-astra)
 - [Kimi K3: the biggest open-weight model yet](https://tryiro.com/blog/kimi-k3)
 - [Claude Opus 5: what actually changed](https://tryiro.com/blog/claude-opus-5)
 - [GPT-5.6: Luna vs Terra vs Sol](https://tryiro.com/blog/gpt-5-6)

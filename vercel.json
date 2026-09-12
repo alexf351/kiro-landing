@@ -1334,6 +1334,14 @@
     {
       "source": "/blog/teach-ai-literacy-high-school",
       "destination": "/blog/teach-ai-literacy-high-school.html"
+    },
+    {
+      "source": "/blog/gpt-6-astra",
+      "destination": "/blog/gpt-6-astra.html"
+    },
+    {
+      "source": "/blog/how-to-read-ai-benchmarks",
+      "destination": "/blog/how-to-read-ai-benchmarks.html"
     }
   ]
 }

@@ -764,7 +764,7 @@
       "id": "https://tryiro.com/blog/new-ai-models-2026",
       "url": "https://tryiro.com/blog/new-ai-models-2026",
       "title": "New AI models in 2026: every major release, tracked",
-      "summary": "Claude Opus 5, GPT-5.6, Grok 4.5, Muse Spark, the frontier moved four times in four months. Here's every major model release of 2026, what actually changed, and which one to use.",
+      "summary": "Eleven major releases in six months, most recently GPT-6 Astra on 3 September. Here's every one of them, what actually changed, and which model to use.",
       "date_published": "2026-07-26T00:00:00Z",
       "tags": [
         "AI tools",
@@ -1305,6 +1305,30 @@
         "AI literacy",
         "Education",
         "Teaching"
+      ]
+    },
+    {
+      "id": "https://tryiro.com/blog/gpt-6-astra",
+      "url": "https://tryiro.com/blog/gpt-6-astra",
+      "title": "GPT-6 Astra: what it is, and whether you actually have it",
+      "summary": "OpenAI released GPT-6 Astra on 3 September 2026 and the coverage has been loud. The practical question is quieter: open ChatGPT right now and you probably cannot select it. Here is what it is, where it actually lives, and which of the headline numbers survive a second look.",
+      "date_published": "2026-09-12T00:00:00Z",
+      "tags": [
+        "AI tools",
+        "ChatGPT",
+        "AI models"
+      ]
+    },
+    {
+      "id": "https://tryiro.com/blog/how-to-read-ai-benchmarks",
+      "url": "https://tryiro.com/blog/how-to-read-ai-benchmarks",
+      "title": "How to read an AI benchmark score",
+      "summary": "Every model launch arrives with a bar chart, and the bar chart is a marketing asset before it is a measurement. You do not need to understand the benchmarks to stop being misled by them. You need about five questions.",
+      "date_published": "2026-09-12T00:00:00Z",
+      "tags": [
+        "AI fluency",
+        "AI models",
+        "Critical thinking"
       ]
     }
   ]

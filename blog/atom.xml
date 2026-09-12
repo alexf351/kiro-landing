@@ -5,7 +5,7 @@
   <link rel="self" href="https://tryiro.com/blog/atom.xml" type="application/atom+xml"/>
   <link rel="alternate" href="https://tryiro.com/blog" type="text/html"/>
   <id>https://tryiro.com/blog/atom.xml</id>
-  <updated>2026-09-01T00:00:00Z</updated>
+  <updated>2026-09-12T00:00:00Z</updated>
   <rights>© 2026 Iro AI</rights>
   <author><name>Iro AI</name><uri>https://tryiro.com</uri></author>
   <icon>https://tryiro.com/assets/favicon-64.png</icon>
@@ -644,11 +644,11 @@
     <title>New AI models in 2026: every major release, tracked</title>
     <id>https://tryiro.com/blog/new-ai-models-2026</id>
     <link href="https://tryiro.com/blog/new-ai-models-2026"/>
-    <updated>2026-08-21T00:00:00Z</updated>
+    <updated>2026-09-12T00:00:00Z</updated>
     <published>2026-07-26T00:00:00Z</published>
     <author><name>Iro AI</name></author>
     <category term="AI tools"/>
-    <summary>Claude Opus 5, GPT-5.6, Grok 4.5, Muse Spark, the frontier moved four times in four months. Here's every major model release of 2026, what actually changed, and which one to use.</summary>
+    <summary>Eleven major releases in six months, most recently GPT-6 Astra on 3 September. Here's every one of them, what actually changed, and which model to use.</summary>
   </entry>
   <entry>
     <title>Claude Opus 5: what actually changed, and who it's for</title>
@@ -664,7 +664,7 @@
     <title>GPT-5.6 Luna vs Terra vs Sol: which tier should you actually use?</title>
     <id>https://tryiro.com/blog/gpt-5-6</id>
     <link href="https://tryiro.com/blog/gpt-5-6"/>
-    <updated>2026-07-26T00:00:00Z</updated>
+    <updated>2026-09-12T00:00:00Z</updated>
     <published>2026-07-26T00:00:00Z</published>
     <author><name>Iro AI</name></author>
     <category term="AI tools"/>
@@ -794,7 +794,7 @@
     <title>Is ChatGPT Plus worth it in 2026?</title>
     <id>https://tryiro.com/blog/is-chatgpt-plus-worth-it</id>
     <link href="https://tryiro.com/blog/is-chatgpt-plus-worth-it"/>
-    <updated>2026-08-06T00:00:00Z</updated>
+    <updated>2026-09-12T00:00:00Z</updated>
     <published>2026-08-03T00:00:00Z</published>
     <author><name>Iro AI</name></author>
     <category term="AI fluency"/>
@@ -1129,5 +1129,25 @@
     <author><name>Iro AI</name></author>
     <category term="AI fluency"/>
     <summary>Most AI literacy guidance stops at "have a policy." A policy is not a curriculum. Here is a sequence you can actually teach, five activities that need no software, and an honest answer to the cheating question.</summary>
+  </entry>
+  <entry>
+    <title>GPT-6 Astra: what it is, and whether you actually have it</title>
+    <id>https://tryiro.com/blog/gpt-6-astra</id>
+    <link href="https://tryiro.com/blog/gpt-6-astra"/>
+    <updated>2026-09-12T00:00:00Z</updated>
+    <published>2026-09-12T00:00:00Z</published>
+    <author><name>Iro AI</name></author>
+    <category term="AI tools"/>
+    <summary>OpenAI released GPT-6 Astra on 3 September 2026 and the coverage has been loud. The practical question is quieter: open ChatGPT right now and you probably cannot select it. Here is what it is, where it actually lives, and which of the headline numbers survive a second look.</summary>
+  </entry>
+  <entry>
+    <title>How to read an AI benchmark score</title>
+    <id>https://tryiro.com/blog/how-to-read-ai-benchmarks</id>
+    <link href="https://tryiro.com/blog/how-to-read-ai-benchmarks"/>
+    <updated>2026-09-12T00:00:00Z</updated>
+    <published>2026-09-12T00:00:00Z</published>
+    <author><name>Iro AI</name></author>
+    <category term="AI fluency"/>
+    <summary>Every model launch arrives with a bar chart, and the bar chart is a marketing asset before it is a measurement. You do not need to understand the benchmarks to stop being misled by them. You need about five questions.</summary>
   </entry>
 </feed>

@@ -369,6 +369,32 @@
       "metaphor": "A map table in a dark glass room with several routes of light leading out from one point",
       "subject": "A large dark glass map table seen from a low angle. From a single warm gold point near the front, several thin routes of cyan light branch outward across the table toward the far edge, each ending in a small glass marker. Faint contour lines etched in the glass, soft reflections, starfield beyond. No text, no labels.",
       "alt": "A dark glass map table with routes of light branching out from one point"
+    },
+    {
+      "slug": "gpt-6-astra",
+      "kind": "post",
+      "score": 93,
+      "reason": "Day-one explainer for the biggest model release of 2026; news volume is live now and the post's angle (who can actually reach it) is differentiated",
+      "title": "GPT-6 Astra: what it is, and whether you actually have it",
+      "intent": "Finding out what the new model is and whether their plan can reach it",
+      "audience": "ChatGPT subscribers who read the headlines and found nothing changed in their app",
+      "outcome": "Knowing exactly where the new model lives and whether it matters to them",
+      "metaphor": "Power you can see but not walk straight into: a vast vault door barely ajar with brilliant light behind it, while a narrow side passage is the way through",
+      "subject": "A monumental circular vault door of dark brushed metal, open just a hand's width, with intense warm gold light blazing through the gap and falling in a thin blade across a polished floor. To the right, a much smaller side passage glows cool cyan and clearly leads somewhere. Deep navy hall, faint starfield above, low camera angle looking up at the door.",
+      "alt": "A huge vault door open a crack with gold light blazing through, and a small cyan-lit side passage beside it"
+    },
+    {
+      "slug": "how-to-read-ai-benchmarks",
+      "kind": "post",
+      "score": 90,
+      "reason": "Evergreen judgement skill with a live news hook (the 99.9 vs 62.7 split); nothing on the site covers reading benchmark claims",
+      "title": "How to read an AI benchmark score",
+      "intent": "Working out whether a model's headline score means anything",
+      "audience": "People choosing between AI tools who keep seeing bar charts",
+      "outcome": "Seeing that the measurement setup, not the model, often produces the lead",
+      "metaphor": "One object, two very different shadows, because the light was moved",
+      "subject": "A single frosted-glass sphere resting on a dark reflective surface, lit from two directions at once. One light throws a short compact shadow, the other throws a shadow several times longer across the floor. The short shadow is edged cyan, the long one warm gold. Deep navy background, faint starfield, shallow depth of field on the sphere.",
+      "alt": "A glass sphere casting two shadows of very different lengths from two light sources"
     }
   ]
 }
