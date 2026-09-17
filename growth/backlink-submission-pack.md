@@ -38,10 +38,10 @@ proxy blocked most directory hosts that session.)
 > Iro is the Duolingo for AI: master ChatGPT, Claude, prompting, and AI agents through 5-minute gamified lessons, real practice, streaks, and duels. Free to start.
 
 **Medium description (~300 chars):**
-> Iro AI turns learning AI into a game. Instead of watching videos you'll forget, you practice: write real prompts, spot AI mistakes, and duel a skill-matched opponent — 5 minutes a day. 29 learning paths across ChatGPT, Claude, Gemini, prompting, and agents, plus Custom Paths that build a course on any topic. Free to start on iOS or the web.
+> Iro AI turns learning AI into a game. Instead of watching videos you'll forget, you practice: write real prompts, spot AI mistakes, and duel a skill-matched opponent — 5 minutes a day. 34 learning paths across ChatGPT, Claude, Gemini, prompting, and agents, plus Custom Paths that build a course on any topic. Free to start on iOS or the web.
 
 **Long description (~500 chars):**
-> Iro AI is a gamified app for building real AI skills — "the Duolingo for AI." Most people learn AI by watching tutorials and hit a ceiling. Iro makes you practice instead: write real prompts and get instant feedback, compare model outputs, spot hallucinations, and go head-to-head in timed duels. It covers ChatGPT, Claude, Gemini, Perplexity, prompt engineering, and AI agents across 29 paths (477 lessons, 3,000+ exercises), plus Ask Iro (an AI coach) and Custom Paths that generate a course on any topic you type. Five minutes a day, streaks and ranks to keep you going. Free to start on iOS or in the browser.
+> Iro AI is a gamified app for building real AI skills — "the Duolingo for AI." Most people learn AI by watching tutorials and hit a ceiling. Iro makes you practice instead: write real prompts and get instant feedback, compare model outputs, spot hallucinations, and go head-to-head in timed duels. It covers ChatGPT, Claude, Gemini, Perplexity, prompt engineering, and AI agents across 34 paths (522 lessons, 3,000+ exercises), plus Ask Iro (an AI coach) and Custom Paths that generate a course on any topic you type. Five minutes a day, streaks and ranks to keep you going. Free to start on iOS or in the browser.
 
 **Founder blurb (for "maker" fields):**
 > I'm Alex, solo founder of Iro. I built it because every "learn AI" resource was passive video that doesn't stick — Iro makes you actually practice, like Duolingo does for languages.
@@ -117,7 +117,7 @@ listing twice.
    than a principle — and it is the shape to repeat, not outbid.lol's.
 
 **What to check on it, once:** open the listing and confirm the copy matches
-current product truth (29 paths, 477 lessons, Battery not hearts, iOS + web,
+current product truth (34 paths, 522 lessons, Battery not hearts, iOS + web,
 no Android). Directories scrape and paraphrase, and this is the one page in the
 set where a wrong figure would actually propagate into AI answers.
 
@@ -177,7 +177,7 @@ creations that never became listings. AppAdvice bounced.
 1. **Read the five live listings once, against the hard facts.** This is the
    only remaining unknown: we still do not know what the agent *said* about Iro
    on each form, and the whole point of the NEVER SAY list is that claims stay
-   right on pages we do not control. Check for 29 paths, 477 lessons, 16 ranks,
+   right on pages we do not control. Check for 34 paths, 522 lessons, 16 ranks,
    Battery (not hearts), duels never described as live, iOS + web with Android
    in development, no "Kiro", no model or vendor names. **Aitoolnet first** —
    it is the one measured citation source, so a wrong figure there propagates
@@ -312,14 +312,18 @@ human because every dashboard login was blocked by anti-bot measures — Turnsti
 Google OAuth, a failed magic link. That is the tooling working as designed, not
 an agent failure.
 
+*Note (2026-09-17): "Custom Paths uncapped" was dropped from these rows. It was an
+error when the cap existed; the App Store listing removed the cap, so those
+directories are now right and nothing needs requesting from them on that point.*
+
 | Site | Wrong | Fix route |
 | --- | --- | --- |
-| **AIToolNet** | 7-day trial shown on monthly; Custom Paths uncapped; duels not labelled simulated. **Wrong in 7 languages** (zh, zh-TW, ko, ja, ru, fr, es). | No CMS. Emailed support@aitoolnet.com |
-| **EdTech Impact** | iOS-only, pricing "not provided by vendor", missing web app / Battery / 29-477-3,000+ / 16 ranks. **Lists "1-100 customers" — a number we never supplied.** | **my.edtechimpact.com** → Profile → Information → Save and Publish |
-| Firsto | 2,700+ exercises, live duels, trial on monthly, Custom Paths uncapped | Dashboard, else contact@firsto.co |
+| **AIToolNet** | 7-day trial shown on monthly; duels not labelled simulated. **Wrong in 7 languages** (zh, zh-TW, ko, ja, ru, fr, es). | No CMS. Emailed support@aitoolnet.com |
+| **EdTech Impact** | iOS-only, pricing "not provided by vendor", missing web app / Battery / 34-522-3,000+ / 16 ranks. **Lists "1-100 customers" — a number we never supplied.** | **my.edtechimpact.com** → Profile → Information → Save and Publish |
+| Firsto | 2,700+ exercises, live duels, trial on monthly | Dashboard, else contact@firsto.co |
 | PeerPush | Live duels, 2,700+, **six ranks**, $4.17 only, wrong handle (@nbakix) | Login @afur351, else support@peerpush.com |
-| Startup Fame | Live duels, 2,700+, six ranks, Custom Paths uncapped | Dashboard, else hello@startupfa.me |
-| Easy With AI | Custom Paths uncapped, no Pro price | Emailed admin@easywithai.com |
+| Startup Fame | Live duels, 2,700+, six ranks | Dashboard, else hello@startupfa.me |
+| Easy With AI | No Pro price | Emailed admin@easywithai.com |
 | LaunchFree | Trial not annual-only; **logo file is `kiro-app-icon-512.png`** | Emailed hello@launchfree.io |
 
 **The pattern in the errors is one thing repeated: these are all snapshots of

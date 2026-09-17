@@ -108,7 +108,7 @@ WHY IRO WORKS
 • XP, daily streaks, and 6 ranks to keep you coming back
 • Weekly AI news so you never fall behind
 
-29 learning paths · 477 lessons · 3,000+ hands-on exercises · for total beginners and power users alike.
+34 learning paths · 522 lessons · 3,000+ hands-on exercises · for total beginners and power users alike.
 
 NOT SURE WHERE YOU STAND?
 Take the free AI IQ Test — 10 questions, about two minutes — and get a personalized learning path.
@@ -124,10 +124,10 @@ Download Iro and turn AI from a novelty into your edge.
 1. Master AI in 5 minutes a day
 2. Learn ChatGPT, Claude & Gemini
 3. Write real prompts. Get feedback.
-4. Duel other learners — live
+4. Duel a skill-matched rival
 5. Keep your streak. Climb the ranks.
 6. Spot AI mistakes like a pro
-7. 29 paths for every job
+7. 34 paths for every job
 8. Take the free AI IQ Test
 
 ## 7. "What's New" template (per release)
