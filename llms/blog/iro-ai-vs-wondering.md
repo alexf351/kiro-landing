@@ -53,7 +53,7 @@ It is in early access on iOS and web. There is no Android app.
 
 ## What Iro does
 
-Iro AI is narrow on purpose. It teaches one subject, using AI, and goes deep on it: 29 learning paths, 477 lessons and 3,000+ hands-on exercises across ChatGPT, Claude, Gemini, Perplexity, prompt engineering, agents, automation, vibecoding and AI for specific jobs.
+Iro AI is narrow on purpose. It teaches one subject, using AI, and goes deep on it: 34 learning paths, 522 lessons and 3,000+ hands-on exercises across ChatGPT, Claude, Gemini, Perplexity, prompt engineering, agents, automation, vibecoding and AI for specific jobs.
 
 The mechanic is different too. Iro is built around **doing the thing and being marked on it**. You write real prompts in the Prompt Lab and get them graded, judge whether a model's output is good, spot hallucinations, and duel a skill-matched opponent on timed questions. Streaks, XP and ranks hold the daily habit together, and a visible skill profile shows which of six areas you are weakest in.
 
@@ -99,7 +99,7 @@ Both are free to start. The paid tiers are where they separate.
 
 Annual against annual, that is **$40 a year more for Wondering, or about 80% more per month**.
 
-Two things make the gap wider than the headline. The $7.50 is an **early-supporter founding rate** rather than the standing price, so new subscribers should check what they are actually quoted. And the free tiers differ in kind: Iro opens **every one of its 29 paths** on the free tier, paced by a battery that gives you a full lesson a day, so the paid upgrade buys speed rather than access.
+Two things make the gap wider than the headline. The $7.50 is an **early-supporter founding rate** rather than the standing price, so new subscribers should check what they are actually quoted. And the free tiers differ in kind: Iro opens **every one of its 34 paths** on the free tier, paced by a battery that gives you a full lesson a day, so the paid upgrade buys speed rather than access.
 
 Cheaper is not automatically better. But if you are weighing two apps and one costs nearly twice as much for a broader, shallower treatment of your actual subject, that belongs in the decision.
 
@@ -137,7 +137,7 @@ No. At the time of writing it is in early access on iOS and the web only. Iro AI
 
 **Which is better for learning AI specifically?**
 
-Iro AI, by design. It is a single-subject app with 29 paths, 477 lessons and 3,000+ exercises on AI tools, prompting, agents and automation, plus a Prompt Lab that grades prompts you write. A general learning app can explain AI concepts well, but it will not put you through graded reps on the skill.
+Iro AI, by design. It is a single-subject app with 34 paths, 522 lessons and 3,000+ exercises on AI tools, prompting, agents and automation, plus a Prompt Lab that grades prompts you write. A general learning app can explain AI concepts well, but it will not put you through graded reps on the skill.
 
 **Which app is more gamified, Wondering or Iro AI?**
 

@@ -107,7 +107,7 @@ On the billing question, since that is why you are on this page: Iro is free to 
 
 If you would rather not take our word for any of it, the [AI rank quiz](/quiz) is ten questions, about two minutes, no signup and no card.
 
-For like-for-like scale against three video-led products: **29 learning paths, 477 lessons and 3,000+ hands-on exercises across 24 exercise types**, with Prompt Lab grading, Ask Iro by chat and voice, an Image Lab, timed duels, Custom Paths and certificates. Every path is open on the free tier.
+For like-for-like scale against three video-led products: **34 learning paths, 522 lessons and 3,000+ hands-on exercises across 23 exercise types**, with Prompt Lab grading, Ask Iro by chat and voice, an Image Lab, timed duels, Custom Paths and certificates. Every path is open on the free tier.
 
 ## The 60-second check for any of them
 

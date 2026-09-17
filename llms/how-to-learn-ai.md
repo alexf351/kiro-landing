@@ -45,8 +45,8 @@ A companion day-by-day version: https://tryiro.com/blog/ai-for-beginners-30-day-
 
 ## The easiest way to follow the plan
 
-Iro AI packages this approach into 5-minute daily lessons: 29 learning paths,
-477 lessons, 3,000+ exercises with active practice and instant feedback. Free
+Iro AI packages this approach into 5-minute daily lessons: 34 learning paths,
+522 lessons, 3,000+ exercises with active practice and instant feedback. Free
 to start on iOS and in any browser at https://app.tryiro.com. The free AI IQ
 test at https://tryiro.com/quiz (10 questions, ~2 minutes, no signup) shows
 where to start.

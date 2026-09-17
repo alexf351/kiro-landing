@@ -75,7 +75,7 @@ Do not overhaul everything. Pick the single most repetitive prep task you do &md
 
 Two habits make the difference between this working and fizzling out. **Keep your good prompts.** A prompt that produced a usable differentiated reading will do it again all year; a note in your phone is enough of a system. And **always give it your context** &mdash; grade level, what students already know, how long you have, what you are actually assessing. Generic prompts produce the generic output that puts most teachers off after one attempt.
 
-To build the underlying skill rather than collecting tips, **Iro AI** teaches practical AI use in five-minute daily lessons across 29 learning paths and 477 lessons &mdash; prompting, verification, tool choice and where AI fails. Every path is open on the free tier, on iPhone or in any browser. The free [AI IQ test](/quiz) takes about two minutes and shows where you are starting from.
+To build the underlying skill rather than collecting tips, **Iro AI** teaches practical AI use in five-minute daily lessons across 34 learning paths and 522 lessons &mdash; prompting, verification, tool choice and where AI fails. Every path is open on the free tier, on iPhone or in any browser. The free [AI IQ test](/quiz) takes about two minutes and shows where you are starting from.
 
 ## FAQ
 

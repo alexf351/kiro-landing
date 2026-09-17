@@ -87,9 +87,9 @@ Also worth two minutes before you pay anything: find the renewal price and the c
 
 ## Where Iro fits, honestly
 
-**Iro AI does one subject: using AI tools well.** Five-minute sessions built on exercises rather than reading — write a real prompt and get told which part was weak, spot the fabricated citation inside an answer that reads perfectly well, choose between two tools and learn why the other loses. 29 paths across ChatGPT, Claude, Gemini, Perplexity, prompting, agents and automation.
+**Iro AI does one subject: using AI tools well.** Five-minute sessions built on exercises rather than reading — write a real prompt and get told which part was weak, spot the fabricated citation inside an answer that reads perfectly well, choose between two tools and learn why the other loses. 34 paths across ChatGPT, Claude, Gemini, Perplexity, prompting, agents and automation.
 
-**It is the right pick if** the thing you want to learn is AI, and you have decided that reading about it has not worked. Every path and all 477 lessons are open on the free tier, and the web app at [app.tryiro.com](https://app.tryiro.com) needs no signup, so you can run both tests above without giving anyone an email address.
+**It is the right pick if** the thing you want to learn is AI, and you have decided that reading about it has not worked. Every path and all 522 lessons are open on the free tier, and the web app at [app.tryiro.com](https://app.tryiro.com) needs no signup, so you can run both tests above without giving anyone an email address.
 
 **It is the wrong pick if** you came here to learn a language, maths, or a school subject. Duolingo, Brilliant and Khan Academy are better at those than we will ever be, and recommending ourselves into rows where we do not belong would make this page worthless to you and to us.
 
@@ -113,7 +113,7 @@ They solve different problems. A course is better when you need structured, sequ
 
 **What is the best free learning app?**
 
-Khan Academy is entirely free with no paid tier at all, which is genuinely rare here. Duolingo's full courses are free with ads. Kinnu has a real free tier. Iro AI opens all 29 paths and 477 lessons free, paced by a battery granting a lesson a day, and its web app needs no signup. Check what each free tier lets you finish rather than whether one exists.
+Khan Academy is entirely free with no paid tier at all, which is genuinely rare here. Duolingo's full courses are free with ads. Kinnu has a real free tier. Iro AI opens all 34 paths and 522 lessons free, paced by a battery granting a lesson a day, and its web app needs no signup. Check what each free tier lets you finish rather than whether one exists.
 
 **Can a learning app give me a real qualification?**
 

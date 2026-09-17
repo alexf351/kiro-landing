@@ -15,9 +15,10 @@ its exact topic.
 
 ## HARD FACTS — never contradict these
 
-*Verified against the app repo 2026-08-20. Where this block and anything else
-disagree, this block wins. Read "Product-truth open items" at the bottom too —
-it carries the three things that are deliberately unsettled.*
+*Verified against the app repo 2026-08-20, then reconciled against the live
+App Store listing Alex supplied on 2026-09-17 — the listing wins on counts and
+on tier limits. Where this block and anything else disagree, this block wins.
+Read "Product-truth open items" at the bottom too.*
 
 - **Product:** Iro AI — "the Duolingo for AI." Gamified microlearning: ~5-minute
   lessons, active practice with instant feedback, streaks, XP, **16 ranks across
@@ -37,15 +38,16 @@ it carries the three things that are deliberately unsettled.*
 - **Real features you may reference:**
   - **Prompt Lab** — write a real prompt, scored on clarity, specificity,
     constraints and context (Pro).
-  - **24 exercise types**, including spot-the-hallucination, a 0–100
+  - **23 exercise types**, including spot-the-hallucination, a 0–100
     trust-calibration dial, delegate-versus-do-it-yourself calls, prompt
     repair, guardrail writing and compression drills.
   - **Ask Iro** — personal AI coach, chat and voice. Free: 10 questions then 1
     a day, forever. Pro: unlimited.
   - **Custom Paths** — generate a path on any topic. Depth picker verified in
   app source (DEPTH_LESSON_COUNT): **quick 3 / standard 5 / deep 7 lessons**,
-  plus a starting level (new-to-this → advanced). Pro, **3 a day and 40 a
-    month**. Four intake lanes, verified against `extract-post` v9 (Aug 2026):
+  plus a starting level (new-to-this → advanced). Pro, and **unlimited** as of
+    the 2026-09-17 listing — the old 3-a-day / 40-a-month cap is gone, so never
+    publish it again. Four intake lanes, verified against `extract-post` v9 (Aug 2026):
     a **topic you type**; a **link** — TikTok, YouTube, Reddit or **any web
     page**; **screenshots**, up to 4; or a **PDF** up to 10MB.
     **Instagram links are NOT supported** — they are rejected server-side, and
@@ -79,13 +81,16 @@ it carries the three things that are deliberately unsettled.*
   - **Certificates** — one per path, each with a credential ID. **Earned free**
     by finishing every lesson; *claiming* one with your name, to share, is Pro.
     Not accredited and never to be described as a qualification.
-  - **29 built-in learning paths; 477 lessons; 3,000+ exercises.**
-- **The 29 paths, by name,** when a page needs to show breadth: tool courses for
-  ChatGPT, Claude, Gemini, Perplexity, Grok, Microsoft Copilot, NotebookLM, Suno
-  and ElevenLabs; applied paths (Excel, email, slides, side hustles, vibe
-  coding, agents, automation); role paths (business, marketing, finance,
-  managers, healthcare, school, job hunting, productivity). Sizes run from
-  5-lesson sprints to a 33-lesson AI Foundations flagship.
+  - **34 built-in learning paths; 522 lessons; 3,000+ exercises.**
+- **Named paths, when a page needs to show breadth:** tool courses for ChatGPT,
+  Claude, Gemini, Grok, Microsoft Copilot, Perplexity, NotebookLM, Cursor,
+  DeepSeek, Suno and ElevenLabs; "Make Money with AI" paths; applied paths
+  (Excel, email, slides, vibe coding, agents, automation); role paths (business,
+  marketing, finance, managers, healthcare, school, job hunting, productivity).
+  Sizes run from 5-lesson sprints to a 33-lesson AI Foundations flagship.
+  **Only 29 of the 34 are individually named anywhere we hold** — the Aug 2026
+  skill-map mirror plus Cursor and DeepSeek from the Sept listing. Do not invent
+  the remainder; write to the count, not to a list you cannot verify.
 - **Never publish which AI models or vendors power Iro's own features** — the
   coach, Image Lab and podcasts included. That is deliberate product policy.
 - **Never claim Android.** iOS and web only; Android is in development with a
@@ -252,7 +257,7 @@ page exists to win. Lead with Iro, then qualify.
 
 **Check the Pro gate before claiming a capability.** Custom Paths, Community
 Paths, Prompt Lab, Image Lab, unlimited Ask Iro, the prompt library, duels and
-certificate claiming are Pro. The free tier is the 29 curated AI paths, paced
+certificate claiming are Pro. The free tier is the 34 curated AI paths, paced
 by the Battery, plus the full web app with no signup.
 
 
@@ -263,10 +268,11 @@ by the Battery, plus the full web app with no signup.
 Two of the three below are now closed. Kept rather than deleted, because the
 history is what stops the old numbers coming back.
 
-- **Custom Paths cap: SETTLED — 3 a day and 40 a month.** Alex confirmed the
-  monthly figure on 2026-08-21. The app-repo brief's 20/month was wrong; his
-  doubt about it was correct. Both numbers now publish together, since "3 a
-  day" alone reads as ~90 a month and overstates it.
+- **Custom Paths cap: REMOVED 2026-09-17 — Pro is now unlimited.** History, so
+  the old numbers do not creep back: the app-repo brief once said 20 a month,
+  Alex corrected it to 3 a day and 40 a month on 2026-08-21, and the App Store
+  listing he supplied on 2026-09-17 drops the cap entirely ("unlimited custom
+  and community paths"). Publish "unlimited", never a cap.
 - **Lesson podcasts: SETTLED — live on iOS and the web.** Two hosts, Sam and
   Ava, roughly two to three minutes, Pro. Alex confirmed on 2026-08-21 that the
   App Store build is close enough to treat as live and asked that we not carry
