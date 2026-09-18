@@ -298,7 +298,7 @@ Human-readable version of this section: https://tryiro.com/editorial-policy
 - [News sitemap](https://tryiro.com/news-sitemap.xml): changelog entries.
 - [Markdown mirrors](https://tryiro.com/llms/index.md): clean text versions of homepage and every topic / hub page under `/llms/*.md`.
 
-Last updated: 2026-08-11.
+Last updated: 2026-09-17.
 
 <!-- PATHLIB:START -->
 ## Iro path library (learn by doing)

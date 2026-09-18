@@ -6,7 +6,7 @@ site_url: "https://tryiro.com"
 app_store: "https://apps.apple.com/app/id6759628066"
 language: en-US
 keywords: ["AI learning app", "ChatGPT", "Claude", "Gemini", "Perplexity", "prompt engineering", "AI agents"]
-last_updated: "2026-07-23"
+last_updated: "2026-09-17"
 author: "Iro AI"
 license: "© 2026 Iro AI"
 canonical_llm_reference: "https://tryiro.com/llms-full.txt"
@@ -19,7 +19,7 @@ canonical_llm_reference: "https://tryiro.com/llms-full.txt"
 **Website:** https://tryiro.com
 **App Store:** https://apps.apple.com/app/id6759628066
 **Tagline:** Master the AI tools that matter. Train like it's a game.
-**Last updated:** 2026-07-23
+**Last updated:** 2026-09-17
 
 ## What Iro AI is
 
