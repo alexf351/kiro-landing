@@ -76,7 +76,7 @@ Ignore the feature lists, install two, and run this. It is faster than reading r
 | BeFreed | Summary library, personalised | Goal-led plans that assemble summaries, AI-narrated podcasts and flashcards. 10, 20 or 40-minute sessions. | Not verified by us | iOS, Android |
 | Kinnu | Concept course | Broad general knowledge in structured paths. | Genuinely free tier | Not verified by us |
 | Imprint | Concept course | Visually taught big ideas from non-fiction. | Not verified by us | Not verified by us |
-| Iro AI _(ours)_ | Practice | Using AI tools well: ChatGPT, Claude, Gemini, Perplexity, prompting, agents. | All 29 paths and 477 lessons open, paced by a Battery giving a lesson a day | iOS and a free web app, no signup. Android in development. |
+| Iro AI _(ours)_ | Practice | Using AI tools well: ChatGPT, Claude, Gemini, Perplexity, prompting, agents. | All 34 paths and 522 lessons open, paced by a Battery giving a lesson a day | iOS and a free web app, no signup. Android in development. |
 
 
 
@@ -86,7 +86,7 @@ Ignore the feature lists, install two, and run this. It is faster than reading r
 
 **Iro AI is the practice app for one subject: using AI tools well.** Five-minute sessions built on exercises rather than reading — you write a real prompt and get told which part was weak, you spot the fabricated citation inside an answer that reads perfectly well, you choose between two tools and learn why the other loses.
 
-**Where it genuinely wins:** if the thing you want is to get good at AI specifically, a dedicated practice app beats a general catalogue with an AI chapter in it. Every one of the 29 paths and all 477 lessons are open on the free tier, and the web app at [app.tryiro.com](https://app.tryiro.com) needs no signup, so you can run the ten-minute test above without giving anyone an email address.
+**Where it genuinely wins:** if the thing you want is to get good at AI specifically, a dedicated practice app beats a general catalogue with an AI chapter in it. Every one of the 34 paths and all 522 lessons are open on the free tier, and the web app at [app.tryiro.com](https://app.tryiro.com) needs no signup, so you can run the ten-minute test above without giving anyone an email address.
 
 **Where something else is the better answer, honestly:**
 
@@ -117,7 +117,7 @@ Short, consistent practice with feedback is well supported as a way to build a s
 
 **Is there a free microlearning app?**
 
-Khan Academy is entirely free with no paid tier. Duolingo's full courses are free with ads. Kinnu has a genuinely free tier. Iro AI opens all 29 paths and 477 lessons on its free tier, paced by a battery that grants a lesson a day, and its web app needs no signup. Compare what each free tier lets you actually finish, since the word covers very different offers here.
+Khan Academy is entirely free with no paid tier. Duolingo's full courses are free with ads. Kinnu has a genuinely free tier. Iro AI opens all 34 paths and 522 lessons on its free tier, paced by a battery that grants a lesson a day, and its web app needs no signup. Compare what each free tier lets you actually finish, since the word covers very different offers here.
 
 ## Read next
 

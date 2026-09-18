@@ -51,7 +51,7 @@ Which sets up the fork. If you like the format and want a bigger library or a di
 | --- | --- | --- | --- | --- |
 | Blinkist | The same job as BeFreed | Book summaries in text and audio | Not verified by us | Not verified by us |
 | Headway | The same job again | Book summaries, strong habit framing | Not verified by us | Not verified by us |
-| Iro AI _(ours)_ | Using AI tools well | 29 curated paths, 477 lessons, 3,000+ exercises across 24 exercise types. Any lesson also plays as a 2&ndash;3 minute podcast (Pro) | Every path open, paced by a Battery that gives a lesson a day and recharges overnight | iOS and a free web app with no signup. Android in development. |
+| Iro AI _(ours)_ | Using AI tools well | 34 curated paths, 522 lessons, 3,000+ exercises across 23 exercise types. Any lesson also plays as a 2&ndash;3 minute podcast (Pro) | Every path open, paced by a Battery that gives a lesson a day and recharges overnight | iOS and a free web app with no signup. Android in development. |
 | Brilliant | Maths, logic, CS foundations | Curated interactive problem sets | Not verified by us | iOS, Android, web |
 | Khan Academy | Academic foundations on no budget | Curated courses and exercises, from a non-profit | Free, with no paid tier | iOS, Android, web |
 
@@ -63,7 +63,7 @@ Which sets up the fork. If you like the format and want a bigger library or a di
 
 **Iro is the alternative if the goal you typed into BeFreed was about AI.** Same five minutes a day; different thing happening inside them. You write a prompt and get told which part was weak, catch a fabricated citation inside an answer that reads perfectly well, or pick between two tools and learn why one loses.
 
-It is a curriculum rather than a library: 29 paths across ChatGPT, Claude, Gemini, Perplexity, prompt engineering, agents and automation, 3,000+ exercises across 24 exercise types, with streaks and 16 ranks doing the habit work.
+It is a curriculum rather than a library: 34 paths across ChatGPT, Claude, Gemini, Perplexity, prompt engineering, agents and automation, 3,000+ exercises across 23 exercise types, with streaks and 16 ranks doing the habit work.
 
 - **Breadth of source material.** BeFreed draws on a large body of books, talks and research across every subject. Iro's curated library is about AI. Custom Paths generate a path on any topic from a subject, link, screenshot or PDF, and Community Paths add ones other learners built — but both are Pro, and generated is not the same as a catalogue assembled from real sources.
 - **Android.** BeFreed ships a native Android app and we do not yet. Our web app runs in any mobile browser, but that is not the same thing, and if it matters to you it decides it.
@@ -91,7 +91,7 @@ BeFreed turns books, expert talks and research into a personalised learning plan
 
 **Is there a free BeFreed alternative?**
 
-Khan Academy is entirely free with no paid tier. Iro AI is free to start with every one of its 29 paths open, paced by a battery that gives you a full lesson a day, and it runs as a free web app at app.tryiro.com with no signup. Compare what each free tier lets you actually finish, since the word covers very different offers in this category.
+Khan Academy is entirely free with no paid tier. Iro AI is free to start with every one of its 34 paths open, paced by a battery that gives you a full lesson a day, and it runs as a free web app at app.tryiro.com with no signup. Compare what each free tier lets you actually finish, since the word covers very different offers in this category.
 
 **Does BeFreed have an Android app?**
 

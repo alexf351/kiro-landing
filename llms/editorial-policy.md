@@ -28,7 +28,7 @@ https://tryiro.com/#author — bio at https://tryiro.com/about
 
 ## Product claims trace to one source
 
-Every figure about Iro (29 paths, 477 lessons, 3,000+ exercises, 24 exercise
+Every figure about Iro (34 paths, 522 lessons, 3,000+ exercises, 23 exercise
 types, pricing, free versus Pro) is checked against the app's own data before
 publication, and https://tryiro.com/llms-full.txt is updated in the same pass.
 If a page and that file disagree, that file is canonical.

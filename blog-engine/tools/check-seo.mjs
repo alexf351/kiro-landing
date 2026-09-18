@@ -41,7 +41,18 @@ const norm = (t) => visible(t).trim();
 const BANNED = [
   [/\bELO\b/, 'ELO (duels are skill-matched, never ELO-ranked)'],
   [/\b(?:live|real[- ]time|PvP)[- ]?(?:AI )?duels?\b|\bduels?\b[^.<]{0,30}\b(?:live|real people|real players|another person)\b|\bBattle friends\b/i, 'live/PvP duels'],
-  [/unlimited [Cc]ustom [Pp]aths|unlimited [Ii]mage [Ll]ab/, 'unlimited Custom Paths/Image Lab'],
+  // Image Lab is 10 a day on Pro, never unlimited. Custom Paths WERE capped at
+  // 3/day and 40/month; the 2026-09-17 App Store listing removed the cap, so
+  // "unlimited Custom Paths" is now true and the old cap is the banned claim.
+  [/unlimited [Ii]mage [Ll]ab/, 'unlimited Image Lab'],
+  [/Custom Paths[^.<]{0,70}(?:3 a day|three a day|40 a month)/i, 'the retired Custom Paths cap (Pro is unlimited since 2026-09-17)'],
+  // Product counts, superseded by the 2026-09-17 App Store listing. These drift
+  // back easily because they sit in ~60 posts; the gate is cheaper than a grep.
+  // The changelog is exempt: a dated entry is supposed to carry the number that
+  // was true on its date, and rewriting it would be the actual error.
+  [/\b29 (?:learning |guided |curated |built-in |curated learning )?paths?\b/, 'the retired 29-paths count (now 34)', /changelog/],
+  [/\b477 lessons\b/, 'the retired 477-lessons count (now 522)', /changelog/],
+  [/\b24 (?:interactive |distinct |different )?exercise types?\b/, 'the retired 24-exercise-types count (now 23)', /changelog/],
   // Only flag Android availability claimed for IRO. Competitors' Google Play
   // presence is a legitimate, frequently-made comparison point.
   [/\bIro[^.<]{0,60}\b(?:available on Android|on Google Play)\b|\bAndroid app is (?:live|available)\b|\bdownload Iro (?:for|on) Android\b/i, 'Android availability for Iro'],
@@ -49,7 +60,8 @@ const BANNED = [
 ];
 for (const p of pages) {
   const s = fs.readFileSync(path.join(ROOT, p), 'utf8');
-  for (const [rx, label] of BANNED) {
+  for (const [rx, label, exempt] of BANNED) {
+    if (exempt && exempt.test(p)) continue;
     const m = s.match(rx);
     if (m) note(`BANNED  ${p}: ${label} — "${s.slice(Math.max(0, m.index - 40), m.index + 60).replace(/\s+/g, ' ')}"`);
   }

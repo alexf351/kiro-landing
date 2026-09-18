@@ -27,8 +27,8 @@ Iro AI is a mobile microlearning app for AI fluency. It is closer to Duolingo th
 
 ## What you can do in Iro
 
-- **29 learning paths** across Tool Mastery, Creative & Coding, Work & Career, and Core Skills
-- **477 lessons** and **3,000+ exercises** across 24 exercise types
+- **34 learning paths** across Tool Mastery, Creative & Coding, Work & Career, and Core Skills
+- **522 lessons** and **3,000+ exercises** across 23 exercise types
 - **Prompt Lab** — write real prompts and receive AI-generated feedback
 - **Timed duels** — 5-question ELO-ranked speed rounds against 60+ unique opponents
 - **Custom Paths** — type any topic or goal and Iro generates a complete learning path (5 lessons, a quiz, and a recap) in seconds

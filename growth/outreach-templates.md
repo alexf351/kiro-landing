@@ -47,7 +47,7 @@ Iro. Send this to each.
 >
 > If it is useful, here is a paste-ready entry in your format:
 >
-> **Iro AI** — the Duolingo for AI. 29 learning paths, 477 lessons and 3,000+
+> **Iro AI** — the Duolingo for AI. 34 learning paths, 522 lessons and 3,000+
 > hands-on exercises covering ChatGPT, Claude, Gemini, Perplexity, prompt
 > engineering and AI agents. Five-minute daily lessons with real prompt
 > practice and instant feedback, streaks, 16 ranks, and head-to-head duels.
@@ -188,7 +188,7 @@ For indie and startup publications, podcasts, and local business press.
 > bounce off AI because every resource was a video they would forget.
 >
 > Iro is the Duolingo for AI. Five-minute daily lessons, real prompt practice
-> with feedback, streaks and ranks. 29 paths, 477 lessons, 3,000+ exercises.
+> with feedback, streaks and ranks. 34 paths, 522 lessons, 3,000+ exercises.
 >
 > Angles I can talk about with actual numbers rather than opinions:
 > - What 97 AI literacy tests say about where people are stuck.
