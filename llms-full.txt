@@ -284,9 +284,9 @@ effectiveness. It is included with Iro Pro.
 
 ### Timed duels
 
-Timed duels are 5-question speed rounds against bot opponents. Duels
+Timed duels are 5-question speed rounds against simulated opponents. Duels
 include rating-based matchmaking, cyberpunk arenas, battle music, podium reveals
-with score countups, live scoreboards, and combo bonuses for consecutive
+with score countups, running scoreboards, and combo bonuses for consecutive
 correct answers. Opponents are simulated characters drawn from a curated pool and matched to
 your rating — stylized personas rather than other users playing at the same
 time. Duels are not live play.

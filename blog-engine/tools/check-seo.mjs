@@ -17,6 +17,18 @@ const pages = [
   ...fs.readdirSync(path.join(ROOT, 'blog')).filter((f) => f.endsWith('.html')).map((f) => `blog/${f}`),
 ];
 
+// The machine-readable surfaces. They carry the same product claims as the
+// pages and are read by the assistants we most want to be right, but they are
+// not HTML, so until 2026-09-18 nothing checked them — and "ELO-ranked duels"
+// and "bot opponents", banned on every page since August, were still sitting
+// live in iro.json, llms-full.txt and two /llms mirrors. Only the BANNED list
+// runs over these; the FAQ/JSON-LD/snippet checks are HTML-shaped.
+const feeds = [
+  ...['iro.json', 'llms.txt', 'llms-full.txt', 'llms-index.txt', 'localization.json'].filter((f) => fs.existsSync(path.join(ROOT, f))),
+  ...(fs.existsSync(path.join(ROOT, 'llms')) ? fs.readdirSync(path.join(ROOT, 'llms')).filter((f) => f.endsWith('.md')).map((f) => `llms/${f}`) : []),
+  ...(fs.existsSync(path.join(ROOT, 'llms/blog')) ? fs.readdirSync(path.join(ROOT, 'llms/blog')).filter((f) => f.endsWith('.md')).map((f) => `llms/blog/${f}`) : []),
+];
+
 const fail = [];
 const note = (msg) => fail.push(msg);
 
@@ -40,7 +52,9 @@ const norm = (t) => visible(t).trim();
 //    blog-engine/content/paths/_BRIEF.md that pages have violated before.
 const BANNED = [
   [/\bELO\b/, 'ELO (duels are skill-matched, never ELO-ranked)'],
-  [/\b(?:live|real[- ]time|PvP)[- ]?(?:AI )?duels?\b|\bduels?\b[^.<]{0,30}\b(?:live|real people|real players|another person)\b|\bBattle friends\b/i, 'live/PvP duels'],
+  // Tempered so the prohibition itself does not trip the gate: llms-full.txt
+  // says "Duels are not live play", which is the copy we want, not a breach.
+  [/\b(?:live|real[- ]time|PvP)[- ]?(?:AI )?duels?\b|\bduels?\b(?:(?!\bnot\b|\bnever\b)[^.<]){0,30}\b(?:live|real people|real players|another person)\b|\bBattle friends\b/i, 'live/PvP duels'],
   // Image Lab is 10 a day on Pro, never unlimited. Custom Paths WERE capped at
   // 3/day and 40/month; the 2026-09-17 App Store listing removed the cap, so
   // "unlimited Custom Paths" is now true and the old cap is the banned claim.
@@ -55,10 +69,12 @@ const BANNED = [
   [/\b24 (?:interactive |distinct |different )?exercise types?\b/, 'the retired 24-exercise-types count (now 23)', /changelog/],
   // Only flag Android availability claimed for IRO. Competitors' Google Play
   // presence is a legitimate, frequently-made comparison point.
-  [/\bIro[^.<]{0,60}\b(?:available on Android|on Google Play)\b|\bAndroid app is (?:live|available)\b|\bdownload Iro (?:for|on) Android\b/i, 'Android availability for Iro'],
+  // The trailing (?!\?) lets "Is Iro available on Android?" stand as a FAQ
+  // question; a flat assertion still ends in a full stop and still fails.
+  [/\bIro[^.<]{0,60}\b(?:available on Android|on Google Play)\b(?!\?)|\bAndroid app is (?:live|available)\b|\bdownload Iro (?:for|on) Android\b/i, 'Android availability for Iro'],
   [/90% of\s*(?:<[^>]*>\s*)*professionals/, 'the retired 90%-of-professionals stat'],
 ];
-for (const p of pages) {
+for (const p of [...pages, ...feeds]) {
   const s = fs.readFileSync(path.join(ROOT, p), 'utf8');
   for (const [rx, label, exempt] of BANNED) {
     if (exempt && exempt.test(p)) continue;
