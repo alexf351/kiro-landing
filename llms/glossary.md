@@ -79,7 +79,7 @@ canonical_llm_reference: "https://tryiro.com/llms-full.txt"
 
 **Prompt Lab** — Iro's active prompt-practice feature. You write prompts and get AI-generated feedback on quality and effectiveness.
 
-**Timed duels** — ELO-ranked 5-question speed rounds against bot opponents in cyberpunk arenas with battle music and podium reveals.
+**Timed duels** — Rating-matched 5-question speed rounds against simulated opponents in cyberpunk arenas with battle music and podium reveals.
 
 **Track** — One of four high-level groupings (Tool Mastery, Creative & Coding, Work & Career, Core Skills).
 
