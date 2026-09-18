@@ -1,6 +1,6 @@
 # Iro AI — Full LLM Reference
 
-Last updated: 2026-07-23
+Last updated: 2026-09-17
 Canonical source: https://tryiro.com/llms-full.txt
 Short source: https://tryiro.com/llms.txt
 Website: https://tryiro.com
