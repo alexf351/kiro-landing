@@ -413,13 +413,16 @@ from day one, no badge needed", Firsto's $19.90 "Guaranteed DR59+ Dofollow" --
 is mostly selling the link. Declined both.
 
 **Adding any new badge:** append an `<li>` to the `.featured` strip in
-`index.html`, `rel="nofollow noopener"` first, then verify. No `.reveal`, no
+`index.html` (award badges go first, ahead of plain listings),
+`rel="nofollow noopener"` first, then verify. No `.reveal`, no
 `loading="lazy"`, and **convert any inline `style="width:…"` the vendor ships
 into `width`/`height` attributes** — inline styles outrank the stylesheet and
 break the row's uniform 44px height. Firsto's embed did exactly this.
 
-**The strip is back at its cap of four.** Live: Wired Business, Startup Fame,
-Firsto, PeerPush (added 2026-09-23 after it ranked #1 Product of the Day).
+**The strip is back at its cap of four.** Live, in display order: PeerPush
+(added 2026-09-23 after it ranked #1 Product of the Day, and moved to the front
+the same day: an award outranks a plain listing), Wired Business, Startup Fame,
+Firsto.
 Verified Tools was removed 2026-09-01 when its listing turned out never to have
 existed; PeerPush took that slot. **The next badge (e.g. Product Hunt) is a
 swap**, decided by the order below.
