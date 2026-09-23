@@ -89,6 +89,7 @@
   "Wired Business",
   "Startup Fame",
   "Firsto",
+  "PeerPush",
   "English",
   "Español",
   "Français",
@@ -1928,6 +1929,14 @@
     "de": "Iro AI auf Firsto finden",
     "pt-br": "Encontre o Iro AI no Firsto",
     "it": "Trova Iro AI su Firsto"
+   },
+   "peerpush": {
+    "en": "Iro AI, #1 Product of the Day on PeerPush",
+    "es": "Iro AI, producto n.º 1 del día en PeerPush",
+    "fr": "Iro AI, produit n° 1 du jour sur PeerPush",
+    "de": "Iro AI, Platz 1 als Produkt des Tages auf PeerPush",
+    "pt-br": "Iro AI, produto nº 1 do dia no PeerPush",
+    "it": "Iro AI, prodotto n. 1 del giorno su PeerPush"
    }
   },
   "footer": {
