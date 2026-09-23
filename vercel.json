@@ -96,6 +96,31 @@
       ],
       "destination": "https://tryiro.com/:path*",
       "permanent": true
+    },
+    {
+      "source": "/en",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/en/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/pt",
+      "destination": "/pt-br",
+      "permanent": true
+    },
+    {
+      "source": "/pt/",
+      "destination": "/pt-br",
+      "permanent": true
+    },
+    {
+      "source": "/pt-BR",
+      "destination": "/pt-br",
+      "permanent": true
     }
   ],
   "headers": [
@@ -545,6 +570,84 @@
       ]
     },
     {
+      "source": "/pt-br",
+      "headers": [
+        {
+          "key": "Content-Language",
+          "value": "pt-BR"
+        },
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=3600"
+        }
+      ]
+    },
+    {
+      "source": "/pt-br.html",
+      "headers": [
+        {
+          "key": "Content-Language",
+          "value": "pt-BR"
+        },
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=3600"
+        }
+      ]
+    },
+    {
+      "source": "/pt-br/",
+      "headers": [
+        {
+          "key": "Content-Language",
+          "value": "pt-BR"
+        },
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=3600"
+        }
+      ]
+    },
+    {
+      "source": "/it",
+      "headers": [
+        {
+          "key": "Content-Language",
+          "value": "it"
+        },
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=3600"
+        }
+      ]
+    },
+    {
+      "source": "/it.html",
+      "headers": [
+        {
+          "key": "Content-Language",
+          "value": "it"
+        },
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=3600"
+        }
+      ]
+    },
+    {
+      "source": "/it/",
+      "headers": [
+        {
+          "key": "Content-Language",
+          "value": "it"
+        },
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=3600"
+        }
+      ]
+    },
+    {
       "source": "/localization.json",
       "headers": [
         {
@@ -590,6 +693,22 @@
     {
       "source": "/de/",
       "destination": "/de.html"
+    },
+    {
+      "source": "/pt-br",
+      "destination": "/pt-br.html"
+    },
+    {
+      "source": "/pt-br/",
+      "destination": "/pt-br.html"
+    },
+    {
+      "source": "/it",
+      "destination": "/it.html"
+    },
+    {
+      "source": "/it/",
+      "destination": "/it.html"
     },
     {
       "source": "/about",

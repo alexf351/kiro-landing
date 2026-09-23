@@ -23,24 +23,48 @@
       "name": "Deutsch",
       "url": "https://tryiro.com/de",
       "htmlFile": "de.html"
+    },
+    {
+      "code": "it",
+      "name": "Italiano",
+      "url": "https://tryiro.com/it",
+      "htmlFile": "it.html"
+    },
+    {
+      "code": "pt-BR",
+      "name": "Português (Brasil)",
+      "url": "https://tryiro.com/pt-br",
+      "htmlFile": "pt-br.html"
     }
   ],
   "localizedSurfaces": [
-    "homepage",
-    "hreflang",
-    "sitemap",
-    "JSON-LD WebPage metadata"
+    "homepage (every section, including the interactive demos)",
+    "title, meta description, Open Graph and Twitter text",
+    "JSON-LD (SoftwareApplication, MobileApplication, Organization, FAQPage, WebPage, ItemList, BreadcrumbList, Course)",
+    "hreflang (en, es, fr, de, it, pt-BR, x-default) and self-canonical per locale",
+    "sitemap"
   ],
-  "lastUpdated": "2026-06-02",
+  "notLocalized": [
+    "blog",
+    "path library and path pages",
+    "AI rank quiz",
+    "legal pages",
+    "the iOS app interface"
+  ],
+  "generation": "es.html, fr.html, de.html, it.html and pt-br.html are generated from index.html and blog-engine/i18n/home.json by blog-engine/build-i18n.mjs",
+  "lastUpdated": "2026-09-23",
   "detection": {
-    "mode": "client-side suggestion banner",
+    "mode": "client-side suggestion bar on / only",
     "autoRedirect": false,
     "source": "navigator.languages",
     "supportedLocales": [
       "es",
       "fr",
-      "de"
+      "de",
+      "it",
+      "pt-BR"
     ],
-    "persistence": "localStorage remembers dismissals for 30 days and explicit language choices indefinitely"
+    "persistence": "localStorage key iro_locale_choice records an explicit choice from the language menu or the suggestion bar; / sends a returning visitor with a saved choice to that locale, and choosing English saves \"en\", which keeps / in English. Dismissing the suggestion is remembered for 30 days.",
+    "note": "Any Portuguese browser language (pt, pt-BR, pt-PT) is offered the Brazilian Portuguese page, the only Portuguese version."
   }
 }
