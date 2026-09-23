@@ -16,6 +16,11 @@ There are no build, test, or lint commands. To develop locally, serve the files 
 - `index.html` — Landing page (hero, gameplay showcase, rank progression, social proof, FAQ accordion)
 - `quiz.html` — AI IQ Test interactive quiz with client-side state machine (intro → quiz → results)
 - `privacy.html` / `terms.html` — Legal pages
+- `es.html` / `fr.html` / `de.html` — Spanish, French and German homepages (`/es`, `/fr`, `/de`). **Generated** by
+  `node blog-engine/build-i18n.mjs` from `index.html` plus the dictionary `blog-engine/i18n/home.json`; never hand-edit
+  them. After changing English copy on the homepage, run the generator: it names every dictionary entry the change made
+  stale and every new string with no translation, and refuses to write if a script or JSON-LD block would break.
+  `--check` builds in memory without writing. The blog, path pages, quiz and legal pages are English-only.
 
 **All CSS and JavaScript are inlined** in each HTML file. There are no external stylesheets or script files.
 

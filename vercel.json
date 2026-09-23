@@ -96,6 +96,16 @@
       ],
       "destination": "https://tryiro.com/:path*",
       "permanent": true
+    },
+    {
+      "source": "/en",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/en/",
+      "destination": "/",
+      "permanent": true
     }
   ],
   "headers": [
