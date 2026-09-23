@@ -609,6 +609,45 @@
       ]
     },
     {
+      "source": "/it",
+      "headers": [
+        {
+          "key": "Content-Language",
+          "value": "it"
+        },
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=3600"
+        }
+      ]
+    },
+    {
+      "source": "/it.html",
+      "headers": [
+        {
+          "key": "Content-Language",
+          "value": "it"
+        },
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=3600"
+        }
+      ]
+    },
+    {
+      "source": "/it/",
+      "headers": [
+        {
+          "key": "Content-Language",
+          "value": "it"
+        },
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=3600"
+        }
+      ]
+    },
+    {
       "source": "/localization.json",
       "headers": [
         {
@@ -662,6 +701,14 @@
     {
       "source": "/pt-br/",
       "destination": "/pt-br.html"
+    },
+    {
+      "source": "/it",
+      "destination": "/it.html"
+    },
+    {
+      "source": "/it/",
+      "destination": "/it.html"
     },
     {
       "source": "/about",

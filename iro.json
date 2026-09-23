@@ -611,6 +611,7 @@
         "es": "https://tryiro.com/es",
         "fr": "https://tryiro.com/fr",
         "de": "https://tryiro.com/de",
+        "it": "https://tryiro.com/it",
         "pt-BR": "https://tryiro.com/pt-br"
       },
       "locale_inventory": "https://tryiro.com/localization.json"

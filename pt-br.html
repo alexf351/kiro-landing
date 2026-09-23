@@ -10,7 +10,7 @@
    explicit choice counts: browser language never redirects, crawlers have no
    saved choice, and picking English saves "en", which stays on "/". Query and
    hash carry over. */
-(function(){try{var p=location.pathname;if(p!=='/'&&p!=='/index.html')return;var c=localStorage.getItem('iro_locale_choice');if(c==='es'||c==='fr'||c==='de'||c==='pt-br')location.replace('/'+c+location.search+location.hash);}catch(_){}})();</script>
+(function(){try{var p=location.pathname;if(p!=='/'&&p!=='/index.html')return;var c=localStorage.getItem('iro_locale_choice');if(c==='es'||c==='fr'||c==='de'||c==='it'||c==='pt-br')location.replace('/'+c+location.search+location.hash);}catch(_){}})();</script>
 <title>Iro AI — Aprenda IA jogando | O Duolingo da IA</title>
 <meta content="O Iro é o Duolingo da IA: um jogo que ensina você a usar a IA no dia a dia. 5 minutos por dia, tarefas reais, não truques de salão. Grátis para começar." name="description"/>
 <meta name="google-site-verification" content="uONlEdikz9IkC7fxQdpFSi6ewOEyp0gsyNWDiMSVRVc"/>
@@ -28,11 +28,13 @@
 <meta property="og:locale:alternate" content="es_ES"/>
 <meta property="og:locale:alternate" content="fr_FR"/>
 <meta property="og:locale:alternate" content="de_DE"/>
+<meta property="og:locale:alternate" content="it_IT"/>
 <link rel="canonical" href="https://tryiro.com/pt-br"/>
 <link rel="alternate" hreflang="en" href="https://tryiro.com/"/>
 <link rel="alternate" hreflang="es" href="https://tryiro.com/es"/>
 <link rel="alternate" hreflang="fr" href="https://tryiro.com/fr"/>
 <link rel="alternate" hreflang="de" href="https://tryiro.com/de"/>
+<link rel="alternate" hreflang="it" href="https://tryiro.com/it"/>
 <link rel="alternate" hreflang="pt-BR" href="https://tryiro.com/pt-br"/>
 <link rel="alternate" hreflang="x-default" href="https://tryiro.com/"/>
 <meta name="twitter:card" content="summary_large_image"/>
@@ -1599,7 +1601,7 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
       <a href="#pricing">Iro Pro</a>
       <a href="#faq">Dúvidas</a>
       <a class="nav-webapp" href="https://app.tryiro.com" data-cta="nav">Abrir o app web</a>
-      <div class="lang-row" role="group" aria-label="Idioma"><a href="/" hreflang="en" lang="en" data-lang-link>English</a><a href="/es" hreflang="es" lang="es" data-lang-link>Español</a><a href="/fr" hreflang="fr" lang="fr" data-lang-link>Français</a><a href="/de" hreflang="de" lang="de" data-lang-link>Deutsch</a><a href="/pt-br" hreflang="pt-BR" lang="pt-BR" data-lang-link aria-current="page">Português (Brasil)</a></div>
+      <div class="lang-row" role="group" aria-label="Idioma"><a href="/" hreflang="en" lang="en" data-lang-link>English</a><a href="/es" hreflang="es" lang="es" data-lang-link>Español</a><a href="/fr" hreflang="fr" lang="fr" data-lang-link>Français</a><a href="/de" hreflang="de" lang="de" data-lang-link>Deutsch</a><a href="/it" hreflang="it" lang="it" data-lang-link>Italiano</a><a href="/pt-br" hreflang="pt-BR" lang="pt-BR" data-lang-link aria-current="page">Português (Brasil)</a></div>
     </div>
     <div class="nav-right">
       <details class="lang-menu" id="langMenu">
@@ -1609,6 +1611,7 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
           <li><a href="/es" hreflang="es" lang="es" data-lang-link>Español</a></li>
           <li><a href="/fr" hreflang="fr" lang="fr" data-lang-link>Français</a></li>
           <li><a href="/de" hreflang="de" lang="de" data-lang-link>Deutsch</a></li>
+          <li><a href="/it" hreflang="it" lang="it" data-lang-link>Italiano</a></li>
           <li><a href="/pt-br" hreflang="pt-BR" lang="pt-BR" data-lang-link aria-current="page">Português (Brasil)</a></li>
         </ul>
       </details>
@@ -2337,6 +2340,7 @@ document.querySelectorAll('.askai-chip').forEach(function(a){
         <a href="/es" hreflang="es" lang="es" data-lang-link>Español</a>
         <a href="/fr" hreflang="fr" lang="fr" data-lang-link>Français</a>
         <a href="/de" hreflang="de" lang="de" data-lang-link>Deutsch</a>
+        <a href="/it" hreflang="it" lang="it" data-lang-link>Italiano</a>
         <a href="/pt-br" hreflang="pt-BR" lang="pt-BR" data-lang-link aria-current="page">Português (Brasil)</a>
         <a href="https://app.tryiro.com" data-cta="footer">App web / Entrar</a>
         <a href="/privacy">Privacidade</a>
@@ -3159,14 +3163,15 @@ var RANK_TIERS = {
 </script>
 <script>
 /* Browser-language suggestion. This intentionally does NOT redirect: it only
-   offers a localized homepage when the visitor's browser prefers es/fr/de/pt.
-   The saved choice is the page's path segment (es, fr, de, pt-br), which is
+   offers a localized homepage when the visitor's browser prefers es/fr/de/it/pt.
+   The saved choice is the page's path segment (es, fr, de, it, pt-br), which is
    what "/" redirects to. */
 (function(){
   var supported={
     es:{label:'Español',url:'/es',title:'¿Prefieres español?',text:'Abre la página de Iro AI en español.',cta:'Ver español'},
     fr:{label:'Français',url:'/fr',title:'Vous préférez le français ?',text:'Ouvrez la page Iro AI en français.',cta:'Voir en français'},
     de:{label:'Deutsch',url:'/de',title:'Lieber auf Deutsch?',text:'Öffne die deutsche Iro AI Seite.',cta:'Deutsch ansehen'},
+    it:{label:'Italiano',url:'/it',title:'Preferisci l’italiano?',text:'Apri la pagina di Iro AI in italiano.',cta:'Vedi in italiano'},
     pt:{id:'pt-br',hreflang:'pt-BR',label:'Português (Brasil)',url:'/pt-br',title:'Prefere português?',text:'Abra a página do Iro AI em português.',cta:'Ver em português'}
   };
   var path=(location.pathname||'/').replace(/\/+$/,'')||'/';
@@ -3225,7 +3230,7 @@ var RANK_TIERS = {
     a.addEventListener('focus',function(){ carry(a); });
     a.addEventListener('click',function(){
       carry(a);
-      var lang=a.getAttribute('href').split(/[?#]/)[0].replace(/^\/+|\/+$/g,'')||'en';   // en, es, fr, de, pt-br
+      var lang=a.getAttribute('href').split(/[?#]/)[0].replace(/^\/+|\/+$/g,'')||'en';   // en, es, fr, de, it, pt-br
       try{localStorage.setItem(KEY,lang);}catch(_){}
       if(window.posthog)posthog.capture('locale_menu_selected',{locale:lang,from:document.documentElement.lang});
     });

@@ -1,19 +1,19 @@
 #!/usr/bin/env node
 /*
- * build-i18n.mjs — the Spanish, French, German and Brazilian Portuguese
- * homepages, generated.
+ * build-i18n.mjs — the Spanish, French, German, Brazilian Portuguese and
+ * Italian homepages, generated.
  *
- *   node blog-engine/build-i18n.mjs            write es.html, fr.html, de.html, pt-br.html
+ *   node blog-engine/build-i18n.mjs            write es.html, fr.html, de.html, pt-br.html, it.html
  *   node blog-engine/build-i18n.mjs --check    build in memory, report, write nothing
  *   node blog-engine/build-i18n.mjs --only de  one locale
  *
  * index.html is the only homepage anyone edits. This reads it and one
- * dictionary, blog-engine/i18n/home.json, and writes /es, /fr, /de and /pt-br. The
+ * dictionary, blog-engine/i18n/home.json, and writes /es, /fr, /de, /pt-br and /it. The
  * localized pages are build output, like blog/*.html: hand edits are
  * overwritten on the next run.
  *
  * The dictionary is organized by page section (see i18n/sections.mjs). Each
- * entry is { en, es, fr, de, pt-br }, where `en` is the English exactly as it appears
+ * entry is { en, es, fr, de, pt-br, it }, where `en` is the English exactly as it appears
  * in index.html — gettext style, so the English page needs no placeholders and
  * stays byte-for-byte what it was. An entry only replaces text inside its own
  * section, and only whole strings:
