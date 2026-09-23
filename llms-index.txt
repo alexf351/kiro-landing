@@ -35,6 +35,7 @@ robots policy               https://tryiro.com/robots.txt
 spanish homepage            https://tryiro.com/es
 french homepage             https://tryiro.com/fr
 german homepage             https://tryiro.com/de
+portuguese homepage         https://tryiro.com/pt-br
 
 ## Markdown mirrors (LLM-friendly clean text)
 # 61 page mirrors, generated — see blog-engine/build-llms-index.mjs

@@ -101,6 +101,7 @@ Human-readable version of this section: https://tryiro.com/editorial-policy
 - [Spanish / Español](https://tryiro.com/es): localized Iro AI homepage for Spanish-speaking visitors.
 - [French / Français](https://tryiro.com/fr): localized Iro AI homepage for French-speaking visitors.
 - [German / Deutsch](https://tryiro.com/de): localized Iro AI homepage for German-speaking visitors.
+- [Brazilian Portuguese / Português (Brasil)](https://tryiro.com/pt-br): localized Iro AI homepage for Portuguese-speaking visitors.
 - [Localization map](https://tryiro.com/localization.json): machine-readable locale inventory.
 
 ## Product

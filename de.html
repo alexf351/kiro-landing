@@ -10,7 +10,7 @@
    explicit choice counts: browser language never redirects, crawlers have no
    saved choice, and picking English saves "en", which stays on "/". Query and
    hash carry over. */
-(function(){try{var p=location.pathname;if(p!=='/'&&p!=='/index.html')return;var c=localStorage.getItem('iro_locale_choice');if(c==='es'||c==='fr'||c==='de')location.replace('/'+c+location.search+location.hash);}catch(_){}})();</script>
+(function(){try{var p=location.pathname;if(p!=='/'&&p!=='/index.html')return;var c=localStorage.getItem('iro_locale_choice');if(c==='es'||c==='fr'||c==='de'||c==='pt-br')location.replace('/'+c+location.search+location.hash);}catch(_){}})();</script>
 <title>Iro AI — KI lernen wie ein Spiel | Das Duolingo für KI</title>
 <meta content="Iro ist das Duolingo für KI: ein Spiel, mit dem du KI im Alltag nutzen lernst. 5 Minuten am Tag, echte Aufgaben statt Partytricks. Kostenlos starten." name="description"/>
 <meta name="google-site-verification" content="uONlEdikz9IkC7fxQdpFSi6ewOEyp0gsyNWDiMSVRVc"/>
@@ -27,11 +27,13 @@
 <meta property="og:locale:alternate" content="en_US"/>
 <meta property="og:locale:alternate" content="es_ES"/>
 <meta property="og:locale:alternate" content="fr_FR"/>
+<meta property="og:locale:alternate" content="pt_BR"/>
 <link rel="canonical" href="https://tryiro.com/de"/>
 <link rel="alternate" hreflang="en" href="https://tryiro.com/"/>
 <link rel="alternate" hreflang="es" href="https://tryiro.com/es"/>
 <link rel="alternate" hreflang="fr" href="https://tryiro.com/fr"/>
 <link rel="alternate" hreflang="de" href="https://tryiro.com/de"/>
+<link rel="alternate" hreflang="pt-BR" href="https://tryiro.com/pt-br"/>
 <link rel="alternate" hreflang="x-default" href="https://tryiro.com/"/>
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:title" content="Iro AI — KI lernen wie ein Spiel | Das Duolingo für KI"/>
@@ -311,7 +313,7 @@ nav .wrap{display:flex;align-items:center;justify-content:space-between}
 .lang-chev{width:13px;height:13px;flex:none;transition:transform .2s var(--ease)}
 .lang-menu[open] .lang-chev{transform:rotate(180deg)}
 .lang-list{position:absolute;right:0;top:calc(100% + 8px);z-index:120;min-width:172px;margin:0;padding:6px;list-style:none;background:rgba(10,14,24,.97);border:1px solid var(--line);border-radius:14px;box-shadow:0 18px 40px rgba(0,0,0,.5);-webkit-backdrop-filter:blur(18px);backdrop-filter:blur(18px)}
-.lang-list a{display:flex;align-items:center;justify-content:space-between;gap:14px;min-height:40px;padding:0 12px;border-radius:9px;font-size:14.5px;font-weight:600;color:var(--ink-2);transition:background .15s,color .15s}
+.lang-list a{display:flex;align-items:center;justify-content:space-between;gap:14px;min-height:40px;padding:0 12px;white-space:nowrap;border-radius:9px;font-size:14.5px;font-weight:600;color:var(--ink-2);transition:background .15s,color .15s}
 .lang-list a:hover{background:rgba(255,255,255,.05);color:var(--ink)}
 .lang-list a[aria-current="page"]{color:var(--accent)}
 .lang-list a[aria-current="page"]::after{content:'';width:7px;height:7px;border-radius:50%;background:currentColor;box-shadow:0 0 10px rgba(var(--accent-rgb),.6)}
@@ -1597,7 +1599,7 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
       <a href="#pricing">Iro Pro</a>
       <a href="#faq">FAQ</a>
       <a class="nav-webapp" href="https://app.tryiro.com" data-cta="nav">Web-App öffnen</a>
-      <div class="lang-row" role="group" aria-label="Sprache"><a href="/" hreflang="en" lang="en" data-lang-link>English</a><a href="/es" hreflang="es" lang="es" data-lang-link>Español</a><a href="/fr" hreflang="fr" lang="fr" data-lang-link>Français</a><a href="/de" hreflang="de" lang="de" data-lang-link aria-current="page">Deutsch</a></div>
+      <div class="lang-row" role="group" aria-label="Sprache"><a href="/" hreflang="en" lang="en" data-lang-link>English</a><a href="/es" hreflang="es" lang="es" data-lang-link>Español</a><a href="/fr" hreflang="fr" lang="fr" data-lang-link>Français</a><a href="/de" hreflang="de" lang="de" data-lang-link aria-current="page">Deutsch</a><a href="/pt-br" hreflang="pt-BR" lang="pt-BR" data-lang-link>Português (Brasil)</a></div>
     </div>
     <div class="nav-right">
       <details class="lang-menu" id="langMenu">
@@ -1607,6 +1609,7 @@ posthog.init('phc_WkvD7IaVmxRJFXWpiu5MkabZL1iQZpPmDTvMmQTkXkc',{api_host:'https:
           <li><a href="/es" hreflang="es" lang="es" data-lang-link>Español</a></li>
           <li><a href="/fr" hreflang="fr" lang="fr" data-lang-link>Français</a></li>
           <li><a href="/de" hreflang="de" lang="de" data-lang-link aria-current="page">Deutsch</a></li>
+          <li><a href="/pt-br" hreflang="pt-BR" lang="pt-BR" data-lang-link>Português (Brasil)</a></li>
         </ul>
       </details>
       <a class="btn btn-primary nav-cta" href="https://apps.apple.com/app/id6759628066">App laden</a>
@@ -2330,11 +2333,11 @@ document.querySelectorAll('.askai-chip').forEach(function(a){
         <a href="/how-to-learn-ai">KI lernen: so geht’s</a>
         <a href="/best-ai-learning-app">Die besten KI-Apps</a>
         <a href="/ai-tools-comparison">KI-Tools vergleichen</a>
-        <!-- Language links hidden until localization is ready.
-        <a href="/es" hreflang="es" lang="es">Español</a>
-        <a href="/fr" hreflang="fr" lang="fr">Français</a>
-        <a href="/de" hreflang="de" lang="de">Deutsch</a>
-        -->
+        <a href="/" hreflang="en" lang="en" data-lang-link>English</a>
+        <a href="/es" hreflang="es" lang="es" data-lang-link>Español</a>
+        <a href="/fr" hreflang="fr" lang="fr" data-lang-link>Français</a>
+        <a href="/de" hreflang="de" lang="de" data-lang-link aria-current="page">Deutsch</a>
+        <a href="/pt-br" hreflang="pt-BR" lang="pt-BR" data-lang-link>Português (Brasil)</a>
         <a href="https://app.tryiro.com" data-cta="footer">Web-App / Anmelden</a>
         <a href="/privacy">Datenschutz</a>
         <a href="/terms">Nutzungsbedingungen</a>
@@ -3156,12 +3159,15 @@ var RANK_TIERS = {
 </script>
 <script>
 /* Browser-language suggestion. This intentionally does NOT redirect: it only
-   offers a localized homepage when the visitor's browser prefers es/fr/de. */
+   offers a localized homepage when the visitor's browser prefers es/fr/de/pt.
+   The saved choice is the page's path segment (es, fr, de, pt-br), which is
+   what "/" redirects to. */
 (function(){
   var supported={
     es:{label:'Español',url:'/es',title:'¿Prefieres español?',text:'Abre la página de Iro AI en español.',cta:'Ver español'},
     fr:{label:'Français',url:'/fr',title:'Vous préférez le français ?',text:'Ouvrez la page Iro AI en français.',cta:'Voir en français'},
-    de:{label:'Deutsch',url:'/de',title:'Lieber auf Deutsch?',text:'Öffne die deutsche Iro AI Seite.',cta:'Deutsch ansehen'}
+    de:{label:'Deutsch',url:'/de',title:'Lieber auf Deutsch?',text:'Öffne die deutsche Iro AI Seite.',cta:'Deutsch ansehen'},
+    pt:{id:'pt-br',hreflang:'pt-BR',label:'Português (Brasil)',url:'/pt-br',title:'Prefere português?',text:'Abra a página do Iro AI em português.',cta:'Ver em português'}
   };
   var path=(location.pathname||'/').replace(/\/+$/,'')||'/';
   if(path!=='/'&&path!=='/index.html')return;
@@ -3181,25 +3187,26 @@ var RANK_TIERS = {
     if(dismissed&&Date.now()-dismissed<30*864e5)return;
   }catch(_){}
   var data=supported[preferred];
+  var id=data.id||preferred;
   var box=document.getElementById('localeSuggest');
   var title=document.getElementById('localeSuggestTitle');
   var text=document.getElementById('localeSuggestText');
   var go=document.getElementById('localeSuggestGo');
   var close=document.getElementById('localeSuggestClose');
   if(!box||!go||!close)return;
-  title.textContent=data.title;text.textContent=data.text;go.textContent=data.cta;go.href=data.url;go.setAttribute('hreflang',preferred);
-  setTimeout(function(){box.hidden=false;box.classList.add('show');if(window.posthog)posthog.capture('locale_suggestion_shown',{locale:preferred});},1200);
+  title.textContent=data.title;text.textContent=data.text;go.textContent=data.cta;go.href=data.url;go.setAttribute('hreflang',data.hreflang||preferred);
+  setTimeout(function(){box.hidden=false;box.classList.add('show');if(window.posthog)posthog.capture('locale_suggestion_shown',{locale:id});},1200);
   close.addEventListener('click',function(){
     box.classList.remove('show');box.hidden=true;
     try{localStorage.setItem(DISMISS,String(Date.now()));}catch(_){}
-    if(window.posthog)posthog.capture('locale_suggestion_dismissed',{locale:preferred});
+    if(window.posthog)posthog.capture('locale_suggestion_dismissed',{locale:id});
   });
   go.addEventListener('click',function(){
-    try{localStorage.setItem(CHOICE,preferred);}catch(_){}
-    if(window.posthog)posthog.capture('locale_suggestion_clicked',{locale:preferred});
+    try{localStorage.setItem(CHOICE,id);}catch(_){}
+    if(window.posthog)posthog.capture('locale_suggestion_clicked',{locale:id});
   });
   document.querySelectorAll('a[hreflang]').forEach(function(a){
-    a.addEventListener('click',function(){var lang=a.getAttribute('hreflang');if(lang&&lang!=='x-default'){try{localStorage.setItem(CHOICE,lang);}catch(_){}}});
+    a.addEventListener('click',function(){if(a===go)return;var lang=(a.getAttribute('href')||'').split(/[?#]/)[0].replace(/^\/+|\/+$/g,'')||'en';try{localStorage.setItem(CHOICE,lang);}catch(_){}});
   });
 })();
 </script>
@@ -3218,7 +3225,7 @@ var RANK_TIERS = {
     a.addEventListener('focus',function(){ carry(a); });
     a.addEventListener('click',function(){
       carry(a);
-      var lang=a.getAttribute('hreflang');
+      var lang=a.getAttribute('href').split(/[?#]/)[0].replace(/^\/+|\/+$/g,'')||'en';   // en, es, fr, de, pt-br
       try{localStorage.setItem(KEY,lang);}catch(_){}
       if(window.posthog)posthog.capture('locale_menu_selected',{locale:lang,from:document.documentElement.lang});
     });
