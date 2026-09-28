@@ -13,7 +13,7 @@
   </url>
   <url>
     <loc>https://tryiro.com/blog/ai-fluency</loc>
-    <lastmod>2026-09-12</lastmod>
+    <lastmod>2026-09-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.88</priority>
     <image:image>
@@ -1189,6 +1189,36 @@
     <image:image>
       <image:loc>https://tryiro.com/assets/hero/how-to-read-ai-benchmarks-og.jpg</image:loc>
       <image:title>How to read an AI benchmark score</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://tryiro.com/blog/skilario-review</loc>
+    <lastmod>2026-09-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://tryiro.com/assets/og/skilario-review.png</image:loc>
+      <image:title>Skilario review: who runs it, what it costs, and what the terms say</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://tryiro.com/blog/cancel-skilario</loc>
+    <lastmod>2026-09-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://tryiro.com/assets/og/cancel-skilario.png</image:loc>
+      <image:title>How to cancel Skilario and try to get your money back</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://tryiro.com/blog/skilario-alternatives</loc>
+    <lastmod>2026-09-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://tryiro.com/assets/og/skilario-alternatives.png</image:loc>
+      <image:title>The best Skilario alternatives in 2026</image:title>
     </image:image>
   </url>
 </urlset>

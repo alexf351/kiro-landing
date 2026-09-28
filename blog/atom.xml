@@ -5,7 +5,7 @@
   <link rel="self" href="https://tryiro.com/blog/atom.xml" type="application/atom+xml"/>
   <link rel="alternate" href="https://tryiro.com/blog" type="text/html"/>
   <id>https://tryiro.com/blog/atom.xml</id>
-  <updated>2026-09-12T00:00:00Z</updated>
+  <updated>2026-09-28T00:00:00Z</updated>
   <rights>© 2026 Iro AI</rights>
   <author><name>Iro AI</name><uri>https://tryiro.com</uri></author>
   <icon>https://tryiro.com/assets/favicon-64.png</icon>
@@ -1149,5 +1149,35 @@
     <author><name>Iro AI</name></author>
     <category term="AI fluency"/>
     <summary>Every model launch arrives with a bar chart, and the bar chart is a marketing asset before it is a measurement. You do not need to understand the benchmarks to stop being misled by them. You need about five questions.</summary>
+  </entry>
+  <entry>
+    <title>Skilario review: who runs it, what it costs, and what the terms say</title>
+    <id>https://tryiro.com/blog/skilario-review</id>
+    <link href="https://tryiro.com/blog/skilario-review"/>
+    <updated>2026-09-28T00:00:00Z</updated>
+    <published>2026-09-28T00:00:00Z</published>
+    <author><name>Iro AI</name></author>
+    <category term="AI fluency"/>
+    <summary>Skilario is a new AI-skills app sold mostly through its website. The lessons are a familiar format. The part worth reading before you pay is the terms, because they rule out almost every refund. Here is who runs it, what it costs, and what you are agreeing to.</summary>
+  </entry>
+  <entry>
+    <title>How to cancel Skilario and try to get your money back</title>
+    <id>https://tryiro.com/blog/cancel-skilario</id>
+    <link href="https://tryiro.com/blog/cancel-skilario"/>
+    <updated>2026-09-28T00:00:00Z</updated>
+    <published>2026-09-28T00:00:00Z</published>
+    <author><name>Iro AI</name></author>
+    <category term="AI fluency"/>
+    <summary>Cancelling Skilario takes a minute once you know who bills you. The refund is harder, because its terms rule out most of the usual reasons. Here is both, in the order that saves you money.</summary>
+  </entry>
+  <entry>
+    <title>The best Skilario alternatives in 2026</title>
+    <id>https://tryiro.com/blog/skilario-alternatives</id>
+    <link href="https://tryiro.com/blog/skilario-alternatives"/>
+    <updated>2026-09-28T00:00:00Z</updated>
+    <published>2026-09-28T00:00:00Z</published>
+    <author><name>Iro AI</name></author>
+    <category term="AI fluency"/>
+    <summary>People look past Skilario for one of three reasons: the price, the refund terms, or wanting practice rather than reading. Here are the alternatives that answer each one, and one that doesn't.</summary>
   </entry>
 </feed>

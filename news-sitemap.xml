@@ -4,5 +4,40 @@
      was published in that window. That is correct, not a bug. -->
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
-
+  <url>
+    <loc>https://tryiro.com/blog/skilario-review</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Iro AI</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-28T00:00:00Z</news:publication_date>
+      <news:title>Skilario review: who runs it, what it costs, and what the terms say</news:title>
+      <news:keywords>Skilario review, Skilario reviews, is Skilario legit, Skilario scam, Skilario price, Skilario app, Skilario Trustpilot, Skilario Cherry Entertainment</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://tryiro.com/blog/cancel-skilario</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Iro AI</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-28T00:00:00Z</news:publication_date>
+      <news:title>How to cancel Skilario and try to get your money back</news:title>
+      <news:keywords>cancel Skilario, Skilario cancel subscription, Skilario refund, how to cancel Skilario, Skilario charged me, Skilario support email, Skilario unsubscribe</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://tryiro.com/blog/skilario-alternatives</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Iro AI</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-28T00:00:00Z</news:publication_date>
+      <news:title>The best Skilario alternatives in 2026</news:title>
+      <news:keywords>Skilario alternatives, Skilario alternative, apps like Skilario, Skilario vs, better than Skilario, alternative to Skilario</news:keywords>
+    </news:news>
+  </url>
 </urlset>
