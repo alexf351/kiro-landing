@@ -5,7 +5,7 @@
   <link rel="self" href="https://tryiro.com/blog/atom.xml" type="application/atom+xml"/>
   <link rel="alternate" href="https://tryiro.com/blog" type="text/html"/>
   <id>https://tryiro.com/blog/atom.xml</id>
-  <updated>2026-09-12T00:00:00Z</updated>
+  <updated>2026-10-08T00:00:00Z</updated>
   <rights>© 2026 Iro AI</rights>
   <author><name>Iro AI</name><uri>https://tryiro.com</uri></author>
   <icon>https://tryiro.com/assets/favicon-64.png</icon>
@@ -571,14 +571,14 @@
     <summary>AI can help you write a sharper resume in minutes: tailoring it to a job, strengthening bullet points, and beating keyword filters. The key is to guide it with real details and never let it invent anything.</summary>
   </entry>
   <entry>
-    <title>The average AI literacy score just jumped from 5.2 to 7.4. Here's what actually happened.</title>
+    <title>196 people took our AI literacy test. The median was 7 out of 10, and only 1 in 7 got a perfect score.</title>
     <id>https://tryiro.com/blog/average-ai-literacy-score</id>
     <link href="https://tryiro.com/blog/average-ai-literacy-score"/>
-    <updated>2026-08-06T00:00:00Z</updated>
+    <updated>2026-10-08T00:00:00Z</updated>
     <published>2026-06-20T00:00:00Z</published>
     <author><name>Iro AI</name></author>
     <category term="AI fluency"/>
-    <summary>When we published the first 50 results of our free AI IQ test, the average score was 5.2 out of 10. Ninety-seven completions in, it's 7.4. People didn't get smarter in ten weeks. Who takes the test changed, and that turns out to be the more interesting finding.</summary>
+    <summary>We've published the results of our free AI IQ test since the first 50 completions. This refresh is the cleanest cut yet: 196 people, one first attempt each, internal test runs removed, April 1 to October 8, 2026. The median is 7 out of 10. And where people came from moves their score more than almost anything else, which turns out to be the more interesting finding.</summary>
   </entry>
   <entry>
     <title>Is prompt engineering dead in 2026?</title>

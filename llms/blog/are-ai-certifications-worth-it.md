@@ -95,7 +95,7 @@ All three come from doing the work repeatedly, which is why we built **Iro AI** 
 - **Does a specific job posting name a certificate?** Then get that one, cheaply, and treat it as a key rather than an education.
 - **Neither?** Spend the money on nothing and the time on building something. Then write up what you built. That write-up will outperform any certificate in the room.
 
-Not sure where your AI skills actually stand? The [AI rank quiz](/quiz) is ten questions, about two minutes, no signup and no card. The median score is 8 out of 10, so it is a real test rather than a lead magnet.
+Not sure where your AI skills actually stand? The [AI rank quiz](/quiz) is ten questions, about two minutes, no signup and no card. The median score is 7 out of 10 and only 1 in 7 people get a perfect score, so it is a real test rather than a lead magnet.
 
 ## FAQ
 

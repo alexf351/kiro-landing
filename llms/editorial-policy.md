@@ -55,8 +55,8 @@ competitor is the better answer.
 
 The AI literacy figures at https://tryiro.com/blog/average-ai-literacy-score
 come from our own quiz and are published with the sample size, the collection
-window, and the caveats that weaken them: self-selected respondents, retakes
-included, and the founder's own attempts disclosed.
+window, and the caveats that weaken them: self-selected respondents, web only,
+one first attempt per person, and internal test runs excluded (and said so).
 
 ## Corrections
 

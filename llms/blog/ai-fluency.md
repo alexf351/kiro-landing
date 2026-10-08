@@ -4,7 +4,7 @@ canonical_url: "https://tryiro.com/blog/ai-fluency"
 site: "Iro AI"
 site_url: "https://tryiro.com"
 language: en-US
-last_updated: "2026-09-12"
+last_updated: "2026-10-08"
 keywords: ["AI fluency", "how to learn AI", "AI skills", "learn AI 2026", "AI for beginners"]
 author: "Iro AI"
 license: "© 2026 Iro AI"
@@ -16,7 +16,7 @@ type: "content-pillar"
 > Build real AI fluency in 2026 — the active-practice method, the free tools worth using, and how to tell when AI is wrong.
 
 **Canonical:** https://tryiro.com/blog/ai-fluency
-**Last updated:** 2026-09-12
+**Last updated:** 2026-10-08
 
 AI fluency is the ability to get reliable, useful results from AI tools — and to know when not to trust them. It is not about memorising magic prompts. It is a skill you build through active practice, the same way you would learn a language or an instrument.
 
@@ -54,7 +54,7 @@ Work through the posts below in order, or jump straight to whichever gap is most
 - [AI trends in 2026: what's actually changing (and what to do about it)](https://tryiro.com/blog/ai-trends-2026) — Agentic AI, multimodal models, AI inside everyday apps, and AI fluency as a baseline skill: what's really changing, and how to stay ahead of it.
 - [AI for real estate: practical ways agents can use it in 2026](https://tryiro.com/blog/ai-for-real-estate) — How real estate agents use AI in 2026: listing copy, lead follow-up, market summaries and admin, plus the fair-housing and client-data rules to follow.
 - [How to use AI to write a resume (without sounding like a robot)](https://tryiro.com/blog/how-to-use-ai-to-write-a-resume) — How to use AI to write a resume in 2026: tailor it to a job, strengthen bullet points, and pass keyword filters — honestly, without fabricating anything.
-- [The average AI literacy score just jumped from 5.2 to 7.4. Here's what actually happened.](https://tryiro.com/blog/average-ai-literacy-score) — What's the average score on an AI literacy test? Across 97 completions of our AI IQ test the average is 7.4/10, the median 8, up from 5.2 in the first cohort.
+- [196 people took our AI literacy test. The median was 7 out of 10, and only 1 in 7 got a perfect score.](https://tryiro.com/blog/average-ai-literacy-score) — What's the average AI literacy score? Across 196 people who took our AI IQ test (Apr to Oct 2026), the median is 7/10, the mean 6.91, and only 1 in 7 scored 10.
 - [What is a context window in AI?](https://tryiro.com/blog/what-is-a-context-window) — What is a context window in AI? A plain-English explainer: what it is, how it relates to tokens, why models 'forget', and practical tips for working within it.
 - [What are tokens in AI?](https://tryiro.com/blog/what-are-tokens-in-ai) — A plain-English explainer: what a token is, how tokenization works, the words-per-token rule of thumb, and why tokens drive AI cost and limits.
 - [The best Finestro alternatives in 2026](https://tryiro.com/blog/finestro-alternatives) — The best Finestro alternatives in 2026: Iro AI for active practice, Brilliant and Khan Academy for foundations, and DataCamp for data skills.

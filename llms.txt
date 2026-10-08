@@ -86,8 +86,8 @@ Human-readable version of this section: https://tryiro.com/editorial-policy
   never presented as established fact.
 - **Original data ships with its limitations.** The AI literacy figures come
   from our own quiz and are published with the sample size, the collection
-  window, and the caveats that weaken them (self-selected respondents,
-  retakes included, the founder's own attempts disclosed). See
+  window, and the caveats that weaken them (self-selected respondents, web
+  only, one first attempt per person, internal test runs excluded). See
   https://tryiro.com/blog/average-ai-literacy-score
 - **Comparisons disclose the conflict.** Where Iro appears in our own
   roundups, the page says it is our app and holds it to the same criteria as
