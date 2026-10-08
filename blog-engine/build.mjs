@@ -253,8 +253,11 @@ const FOOTER = `<footer class="footer"><nav>${cfg.footer
   .map((f) => `<a href="${f.href}"${f.external ? ' target="_blank" rel="noopener"' : ''}>${f.label}</a>`)
   .join('')}</nav><p>${cfg.copyright}. ${cfg.tagline}</p></footer>`;
 
-const ctaBox = (slug) =>
-  `<div class="cta-box"><p class="cta-h">${cfg.cta.heading}</p><p>${cfg.cta.body}</p><div class="cta-row"><a class="btn" href="${esc(
+// A post can override the CTA pitch (heading/body only) with `cta` in its JSON,
+// e.g. cancel/refund posts where the default "practice this" pitch doesn't fit.
+// Buttons, links and tracking stay the shared ones.
+const ctaBox = (slug, override = {}) =>
+  `<div class="cta-box"><p class="cta-h">${override.heading || cfg.cta.heading}</p><p>${override.body || cfg.cta.body}</p><div class="cta-row"><a class="btn" href="${esc(
     `${cfg.appStoreUrl}?utm_source=blog&utm_medium=inline&utm_campaign=${slug}`
   )}">${cfg.cta.primaryLabel}</a><a class="btn secondary" href="${cfg.cta.secondaryHref}">${cfg.cta.secondaryLabel}</a></div></div>`;
 
@@ -432,10 +435,10 @@ function renderPost(post) {
   post.sections.forEach((s, i) => {
     lines.push(`<h2 id="${s.id}">${s.heading}</h2>`);
     lines.push(s.html);
-    if (i === after) lines.push(ctaBox(post.slug));
+    if (i === after) lines.push(ctaBox(post.slug, post.cta));
   });
   lines.push('');
-  lines.push(ctaBox(post.slug));
+  lines.push(ctaBox(post.slug, post.cta));
   const content = lines.join('\n');
 
   const readNext = post.readNext.map((r) => `<li><a href="${r.href}">${r.label}</a></li>`).join('');
