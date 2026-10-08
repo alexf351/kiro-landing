@@ -106,7 +106,7 @@ Iro AI is our app, so weigh this accordingly. If what you wanted from Finestro w
 
 The billing, since that is what brought you here: free to start with a battery that gives you a full lesson every day and recharges overnight, Pro is **$49.99 a year or $9.99 a month**, the annual plan has a 7-day free trial, and it is billed by Apple, so cancelling is the same two taps described above. There is no cheap intro week that converts to a higher monthly rate.
 
-If you would rather spend nothing at all right now, the [AI rank quiz](/quiz) is ten questions and about two minutes, with no signup and no card. For the full field including the free options, see [the best Finestro alternatives](/blog/finestro-alternatives) and [how Coursiv, Finestro and Learnova compare](/blog/coursiv-vs-finestro-vs-learnova).
+If you would rather spend nothing at all right now, the [AI rank quiz](/quiz) is ten questions and about two minutes, with no signup and no card. For the full field including the free options, see [the best Finestro alternatives](/blog/finestro-alternatives) and [how Coursiv, Finestro and Learnova compare](/blog/coursiv-vs-finestro-vs-learnova). If you are choosing from scratch, start with our guide to the [best app to learn AI](/best-ai-learning-app).
 
 What you actually get, so you can compare like for like: **34 learning paths, 522 lessons and 3,000+ hands-on exercises across 23 exercise types**. The Prompt Lab sends your prompts to a live model and grades them, Ask Iro coaches by chat or voice, and duels, an Image Lab, Custom Paths and claimable certificates sit around it. Every path is [open on the free plan](/free-ai-learning-app), paced by a battery giving you a full lesson a day, so nothing here needs a card to evaluate.
 
