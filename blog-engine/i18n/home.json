@@ -1115,12 +1115,12 @@
     "it": "Scopri il tuo grado IA in 2 minuti"
    },
    "quizP": {
-    "en": "Ten questions on how you actually use AI. The median score is 8, but only 1 in 4 people score 9 or higher. <a href=\"/blog/average-ai-literacy-score\">See the data</a>.",
-    "es": "Diez preguntas sobre cómo usas realmente la IA. La puntuación mediana es 8, pero solo 1 de cada 4 personas saca 9 o más. <a href=\"/blog/average-ai-literacy-score\">Ver los datos</a> (en inglés).",
-    "fr": "Dix questions sur votre usage réel de l’IA. Le score médian est de 8, mais seule 1 personne sur 4 obtient 9 ou plus. <a href=\"/blog/average-ai-literacy-score\">Voir les données</a> (en anglais).",
-    "de": "Zehn Fragen dazu, wie du KI wirklich nutzt. Der Median liegt bei 8, aber nur jede vierte Person erreicht 9 oder mehr. <a href=\"/blog/average-ai-literacy-score\">Zu den Daten</a> (auf Englisch).",
-    "pt-br": "Dez perguntas sobre como você usa a IA de verdade. A pontuação mediana é 8, mas só 1 em cada 4 pessoas tira 9 ou mais. <a href=\"/blog/average-ai-literacy-score\">Veja os dados</a> (em inglês).",
-    "it": "Dieci domande su come usi davvero l’IA. Il punteggio mediano è 8, ma solo 1 persona su 4 fa 9 o più. <a href=\"/blog/average-ai-literacy-score\">Guarda i dati</a> (in inglese)."
+    "en": "Ten questions on how you actually use AI. The median score is 7, and only 1 in 7 people get a perfect score. <a href=\"/blog/average-ai-literacy-score\">See the data</a>.",
+    "es": "Diez preguntas sobre cómo usas realmente la IA. La puntuación mediana es 7, y solo 1 de cada 7 personas saca un 10 perfecto. <a href=\"/blog/average-ai-literacy-score\">Ver los datos</a> (en inglés).",
+    "fr": "Dix questions sur votre usage réel de l’IA. Le score médian est de 7, et seule 1 personne sur 7 obtient un score parfait. <a href=\"/blog/average-ai-literacy-score\">Voir les données</a> (en anglais).",
+    "de": "Zehn Fragen dazu, wie du KI wirklich nutzt. Der Median liegt bei 7, und nur jede siebte Person erreicht die volle Punktzahl. <a href=\"/blog/average-ai-literacy-score\">Zu den Daten</a> (auf Englisch).",
+    "pt-br": "Dez perguntas sobre como você usa a IA de verdade. A pontuação mediana é 7, e só 1 em cada 7 pessoas tira nota máxima. <a href=\"/blog/average-ai-literacy-score\">Veja os dados</a> (em inglês).",
+    "it": "Dieci domande su come usi davvero l’IA. Il punteggio mediano è 7, e solo 1 persona su 7 ottiene il punteggio pieno. <a href=\"/blog/average-ai-literacy-score\">Guarda i dati</a> (in inglese)."
    },
    "quizCta": {
     "en": "Get my AI rank",
