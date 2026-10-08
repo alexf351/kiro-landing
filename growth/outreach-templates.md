@@ -123,9 +123,10 @@ to you with a nofollowed link, you are not buying advertising.
 >    about, so being added there is worth more to me than a separate piece.
 > 2. Do you mark sponsored placements, and how? I want it disclosed properly.
 >
-> If it helps, we have original data worth writing about: 97 completions of a
-> free AI literacy test, average 7.4 out of 10, with the full distribution
-> published at https://tryiro.com/blog/average-ai-literacy-score
+> If it helps, we have original data worth writing about from a free AI
+> literacy test: 196 people, median 7/10, only 1 in 7 get a perfect score,
+> with the full distribution published at
+> https://tryiro.com/blog/average-ai-literacy-score
 >
 > Alex Furukawa
 > Founder, Iro AI · https://tryiro.com
@@ -147,20 +148,22 @@ can buy.
 To AI and education newsletters, and to journalists covering AI literacy. This
 is the only item on this page that produces links nobody can buy.
 
-**Subject:** Data: average AI literacy score across 97 tests
+**Subject:** Data: average AI literacy score across 196 people
 
 > Hi [name],
 >
 > I run a free AI literacy test and have been keeping the results. The
 > distribution is more interesting than the average:
 >
-> - Across 97 completions from 90 people: average 7.4 out of 10, median 8.
-> - About a quarter score 9 or higher. About a quarter land at 6 or below.
-> - The first 50 completions averaged 5.2. That jump is not people improving,
->   it is the audience changing, and I say so in the write-up.
+> - 196 people (Apr 1 to Oct 8, 2026, first attempt per person, internal
+>   test runs excluded): median 7/10, average 6.91.
+> - 33% scored 9 or higher (about 1 in 3), and 14% got a perfect 10 (about
+>   1 in 7).
+> - Where people come from moves the score more than anything: visitors from
+>   Reddit averaged 8.4, visitors from Google 6.1. I say so in the write-up.
 >
-> Caveats stated plainly: self-selected respondents, retakes included, and a
-> few of the perfect scores are me testing my own quiz. The full method and
+> Caveats stated plainly: self-selected respondents, web only, one first
+> attempt per person, and my own test runs are excluded. The full method and
 > the numbers are at
 > https://tryiro.com/blog/average-ai-literacy-score
 >
@@ -191,7 +194,8 @@ For indie and startup publications, podcasts, and local business press.
 > with feedback, streaks and ranks. 34 paths, 522 lessons, 3,000+ exercises.
 >
 > Angles I can talk about with actual numbers rather than opinions:
-> - What 97 AI literacy tests say about where people are stuck.
+> - Where people get stuck with AI: 196 people, median 7/10, only 1 in 7 get
+>   a perfect score.
 > - Building and shipping a full iOS app solo alongside a demanding day job.
 > - Why gamification works for skills and fails for knowledge.
 >
