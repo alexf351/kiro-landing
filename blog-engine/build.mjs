@@ -20,6 +20,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { bottomBanner, bannerVariant } from './partials/bottom-banner.mjs';
 import { askAiChip } from './ask-ai-logos.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
@@ -555,6 +556,7 @@ ${post.hero ? heroPicture(post.hero) : `<img class="hero-img" src="${heroSrc}" a
 <div class="content">
 ${content}
 </div>
+${bottomBanner({ variant: bannerVariant(post.slug), slug: post.slug })}
 <section class="related"><h2>Read next</h2><ul>${readNext}</ul></section>${exploreBlock}
 <section class="faq"><h2>FAQ</h2>${faq}</section>${post.askAi ? '\n' + askAiBlock(post.askAiPrompt, 'blog:' + post.slug) : ''}
 <section class="related"><h2>About the author</h2><ul><li><a href="${au.url}" rel="author" target="_blank">${esc(au.name)}</a><p>${esc(au.bio)}</p></li></ul></section>
@@ -726,6 +728,7 @@ ${NAV}
 ${(pillar.intro || []).map((h) => h).join('\n')}
 ${ctaBox(pillar.slug)}
 </div>
+${bottomBanner({ variant: bannerVariant(pillar.slug), slug: pillar.slug })}
 <section class="related"><h2>In this pillar</h2><ul class="posts-list">${postsList}</ul></section>
 ${faqSection}
 <section class="related"><h2>Explore more</h2><ul>${related}</ul></section>
