@@ -1645,7 +1645,7 @@
     "it": "Iro è gratis?"
    },
    "a1": {
-    "en": "Yes. You can use Iro for free with a battery that gives you a full lesson every day and recharges overnight, plus extra charges from the Daily Challenge, inviting a friend, or gems.<br/><br/>All 34 paths and 23 exercise types are free, and so are your avatar and its gear, the feed, friends, the weekly league, weekly AI news, streaks, XP and ranks. Iro Pro adds unlimited lessons and practice, podcast mode, the Prompt Lab, the Image Lab, AI Duels, the prompt library, unlimited Ask Iro, unlimited Custom Paths and Community Paths, and certificate claiming.<br/><br/>You can start with a 7-day free trial and upgrade only if you want the unlimited experience.",
+    "en": "Yes. You can use Iro for free with a battery that gives you a full lesson every day and recharges overnight, plus extra charges from the Daily Challenge, inviting a friend, or gems.<br/><br/>All 34 paths and 23 exercise types are free, and so are your avatar and its gear, the feed, friends, the weekly league, weekly AI news, streaks, XP and ranks. Iro Pro adds unlimited lessons and practice, podcast mode, the Prompt Lab, the Image Lab, AI Duels, the prompt library, unlimited Ask Iro, unlimited Custom Paths and Community Paths, and certificate claiming.<br/><br/>You can start with a 7-day free trial and upgrade only if you want the unlimited experience. Comparing free options? See how Iro stacks up in our guide to the best <a href=\"/free-ai-learning-app\">free AI learning app</a>.",
     "es": "Sí. Puedes usar Iro gratis con una batería que te da una lección completa cada día y se recarga por la noche, más cargas extra con el Reto diario, invitando a un amigo o con gemas.<br/><br/>Las 34 rutas y los 23 tipos de ejercicio son gratis, igual que tu avatar y su equipamiento, el feed, los amigos, la liga semanal, las noticias semanales de IA, las rachas, los XP y los rangos. Iro Pro añade lecciones y práctica ilimitadas, el modo pódcast, el Prompt Lab, el Image Lab, los Duelos de IA, la biblioteca de prompts, Ask Iro ilimitado, rutas personalizadas y de la comunidad ilimitadas, y la posibilidad de reclamar certificados con tu nombre.<br/><br/>Puedes empezar con una prueba gratis de 7 días y pasarte a Pro solo si quieres la experiencia ilimitada.",
     "fr": "Oui. Vous pouvez utiliser Iro gratuitement grâce à une batterie qui vous donne une leçon complète chaque jour et se recharge pendant la nuit, avec des recharges en plus via le Défi du jour, en invitant un ami ou avec des gemmes.<br/><br/>Les 34 parcours et les 23 types d’exercices sont gratuits, tout comme votre avatar et son équipement, le fil d’actualité, les amis, la ligue hebdomadaire, l’actu IA de la semaine, les séries, l’XP et les rangs. Iro Pro ajoute les leçons et l’entraînement illimités, le mode podcast, le Prompt Lab, l’Image Lab, les Duels IA, la bibliothèque de prompts, Ask Iro en illimité, les parcours personnalisés et de la communauté en illimité, ainsi que les certificats à votre nom.<br/><br/>Vous pouvez commencer par un essai gratuit de 7 jours et ne passer à Pro que si vous voulez l’expérience illimitée.",
     "de": "Ja. Du kannst Iro kostenlos nutzen – mit einem Akku, der dir jeden Tag eine komplette Lektion gibt und sich über Nacht wieder auflädt, plus Extra-Ladungen über die Tägliche Challenge, Freunde-Einladungen oder Edelsteine.<br/><br/>Alle 34 Lernpfade und 23 Übungsarten sind kostenlos, ebenso dein Avatar und seine Ausrüstung, der Feed, Freunde, die Wochenliga, die wöchentlichen KI-News, Streaks, XP und Ränge. Iro Pro bietet unbegrenzte Lektionen und Übungen, den Podcast-Modus, das Prompt Lab, das Image Lab, KI-Duelle, die Prompt-Bibliothek, unbegrenztes Ask Iro, unbegrenzte eigene und Community-Lernpfade sowie Zertifikate auf deinen Namen.<br/><br/>Du kannst mit einer 7-tägigen Gratis-Testphase starten und nur upgraden, wenn du das unbegrenzte Erlebnis willst.",
@@ -2181,12 +2181,12 @@
     "it": "Il blog (in inglese)"
    },
    "fluency": {
-    "en": "AI fluency guides",
-    "es": "Guías para dominar la IA",
-    "fr": "Guides de maîtrise de l’IA",
-    "de": "Leitfäden zur KI-Kompetenz",
-    "pt-br": "Guias de fluência em IA",
-    "it": "Guide per padroneggiare l’IA"
+    "en": "Apps like Duolingo for AI",
+    "es": "Apps como Duolingo para la IA",
+    "fr": "Applis comme Duolingo pour l’IA",
+    "de": "Apps wie Duolingo für KI",
+    "pt-br": "Apps como o Duolingo para IA",
+    "it": "App come Duolingo per l’IA"
    },
    "agentsAuto": {
     "en": "AI agents &amp; automation",

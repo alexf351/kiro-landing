@@ -34,6 +34,9 @@
   "articleSection": "AI fluency",
   "firstDate": "2026-05-24",
   "buildDate": "2026-08-18",
+  "exploreLabels": {
+    "/ai-tools-comparison": "AI Tools Compared 2026"
+  },
   "icons": {
     "favicon": "/assets/favicon-64.png",
     "appleTouch": "/assets/apple-touch-icon.png",
@@ -47,12 +50,12 @@
       "label": "Learn ChatGPT"
     },
     {
-      "href": "/prompt-engineering-app",
-      "label": "Prompt Engineering"
+      "href": "/free-ai-learning-app",
+      "label": "Free AI learning app"
     },
     {
-      "href": "/ai-agents-course",
-      "label": "AI Agents"
+      "href": "/best-ai-learning-app",
+      "label": "Best AI learning app"
     },
     {
       "href": "/quiz",
