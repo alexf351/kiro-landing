@@ -10,6 +10,7 @@ No build tools, no framework, no `npm install`. Just Node 18+.
 ```bash
 node blog-engine/build.mjs                 # render everything from content/*.json
 node blog-engine/generate-hero-image.mjs   # generate hero/OG covers for new posts
+node blog-engine/tools/sitemap-lastmod.mjs # sitemap.xml + sitemap-index.xml lastmod from git (body-text changes only)
 ```
 
 ---
