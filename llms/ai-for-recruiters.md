@@ -117,6 +117,7 @@ Only if you let it mass-generate. Feed it a specific detail about the candidate'
 
 ## Read next
 
+- [AI cold emails that don't sound like AI](https://tryiro.com/blog/ai-cold-email-that-doesnt-sound-like-ai)
 - [How to use AI to write a resume](https://tryiro.com/blog/how-to-use-ai-to-write-a-resume)
 - [How to use AI at work](https://tryiro.com/blog/how-to-use-ai-at-work)
 - [Prompt engineering patterns](https://tryiro.com/blog/prompt-engineering-patterns)

@@ -339,7 +339,7 @@ Browse every Iro learning path at https://tryiro.com/paths. Each path is a set o
 - [Learn Notion AI](https://tryiro.com/learn-notion-ai): How to use Notion AI — drafting and summarizing docs, extracting action items, autofilling databases, and workspace Q&A.
 - [Learn Canva AI](https://tryiro.com/learn-canva-ai): Using Canva AI (Magic Studio) well — briefing Magic Write and text-to-image for on-brand copy and visuals.
 - [Learn ElevenLabs](https://tryiro.com/learn-elevenlabs): How to use ElevenLabs well: what stability, similarity, and style control, settings by use case, writing for the ear, and voice-cloning ethics.
-- [Learn Gamma](https://tryiro.com/learn-gamma): How to use Gamma well: prompting structure rather than topics, cards versus slides, credit budgeting, and which export format survives.
+- [Learn Gamma](https://tryiro.com/learn-gamma): How to use Gamma well: prompting structure rather than topics, the fixed 16:9 canvas, credit budgeting, and exporting cleanly to PowerPoint and Google Slides.
 - [AI for Excel & Sheets](https://tryiro.com/ai-for-excel): Using AI as a spreadsheet copilot for Excel and Google Sheets — writing formulas, cleaning data, and verifying results.
 - [AI for research](https://tryiro.com/ai-for-research): AI for research done right — get sourced, synthesized answers and catch hallucinated citations before you cite them.
 - [AI for presentations](https://tryiro.com/ai-for-presentations): AI for presentations — structure a talk with a narrative arc, draft slides and speaker notes, and tighten the message.

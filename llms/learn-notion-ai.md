@@ -9,7 +9,7 @@ keywords: ["learn Notion AI", "how to use Notion AI", "Notion AI prompts", "Noti
 audience: "Teams, founders, students, and anyone who runs their life in Notion"
 level: "Beginner to advanced"
 date_published: "2026-07-09"
-date_modified: "2026-07-09"
+date_modified: "2026-10-23"
 author: "Iro AI"
 license: "© 2026 Iro AI"
 canonical_llm_reference: "https://tryiro.com/llms-full.txt"
@@ -21,7 +21,7 @@ canonical_llm_reference: "https://tryiro.com/llms-full.txt"
 
 **Canonical page:** https://tryiro.com/learn-notion-ai
 **App Store:** https://apps.apple.com/app/id6759628066
-**Last updated:** 2026-07-09
+**Last updated:** 2026-10-23
 
 ## In short
 
@@ -92,7 +92,7 @@ Yes. Notion Q&A searches across your pages (and connected tools like Slack or Go
 
 **Is Notion AI free?**
 
-Notion AI is a paid feature. It is bundled into Notion's paid plans and offered as an add-on, usually with a limited number of free responses to try first. The prompting skill you learn here works the same in free AI tools too.
+Full Notion AI comes with Notion's Business and Enterprise plans. The Free and Plus plans include a limited trial of it, and there is no longer a separate AI add-on to buy. The prompting skill you learn here works the same in free AI tools too.
 
 ## Related paths
 
@@ -112,6 +112,7 @@ Notion AI is a paid feature. It is bundled into Notion's paid plans and offered 
 
 ## Read next
 
+- [Notion AI vs ChatGPT](https://tryiro.com/blog/notion-ai-vs-chatgpt)
 - [How to use AI at work](https://tryiro.com/blog/how-to-use-ai-at-work)
 - [The best AI apps](https://tryiro.com/blog/best-ai-apps)
 - [How to write a prompt](https://tryiro.com/blog/how-to-write-a-prompt)

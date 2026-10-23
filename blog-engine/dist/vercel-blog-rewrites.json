@@ -487,6 +487,50 @@
     {
       "source": "/blog/skilario-alternatives",
       "destination": "/blog/skilario-alternatives.html"
+    },
+    {
+      "source": "/blog/gemini-4-argon",
+      "destination": "/blog/gemini-4-argon.html"
+    },
+    {
+      "source": "/blog/claude-duet",
+      "destination": "/blog/claude-duet.html"
+    },
+    {
+      "source": "/blog/gpt-6-pro-parallel-agents",
+      "destination": "/blog/gpt-6-pro-parallel-agents.html"
+    },
+    {
+      "source": "/blog/ai-fake-case-citations",
+      "destination": "/blog/ai-fake-case-citations.html"
+    },
+    {
+      "source": "/blog/best-ai-apps-for-iphone",
+      "destination": "/blog/best-ai-apps-for-iphone.html"
+    },
+    {
+      "source": "/blog/client-data-in-chatgpt",
+      "destination": "/blog/client-data-in-chatgpt.html"
+    },
+    {
+      "source": "/blog/how-to-check-ai-generated-sql",
+      "destination": "/blog/how-to-check-ai-generated-sql.html"
+    },
+    {
+      "source": "/blog/ai-for-performance-reviews",
+      "destination": "/blog/ai-for-performance-reviews.html"
+    },
+    {
+      "source": "/blog/gamma-vs-canva-vs-chatgpt-slides",
+      "destination": "/blog/gamma-vs-canva-vs-chatgpt-slides.html"
+    },
+    {
+      "source": "/blog/ai-cold-email-that-doesnt-sound-like-ai",
+      "destination": "/blog/ai-cold-email-that-doesnt-sound-like-ai.html"
+    },
+    {
+      "source": "/blog/notion-ai-vs-chatgpt",
+      "destination": "/blog/notion-ai-vs-chatgpt.html"
     }
   ]
 }

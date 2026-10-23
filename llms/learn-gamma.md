@@ -1,5 +1,5 @@
 ---
-title: "Learn Gamma: AI Presentations, Cards & Export | Iro AI"
+title: "Learn Gamma: AI Presentations, Credits & Export | Iro AI"
 canonical_url: "https://tryiro.com/learn-gamma"
 site: "Iro AI"
 site_url: "https://tryiro.com"
@@ -9,7 +9,7 @@ keywords: ["Gamma app", "how to use Gamma", "Gamma AI presentation", "Gamma cred
 audience: "Founders, marketers, consultants, students, and anyone who builds decks"
 level: "Beginner"
 date_published: "2026-07-29"
-date_modified: "2026-07-29"
+date_modified: "2026-10-23"
 author: "Iro AI"
 license: "© 2026 Iro AI"
 canonical_llm_reference: "https://tryiro.com/llms-full.txt"
@@ -21,16 +21,16 @@ canonical_llm_reference: "https://tryiro.com/llms-full.txt"
 
 **Canonical page:** https://tryiro.com/learn-gamma
 **App Store:** https://apps.apple.com/app/id6759628066
-**Last updated:** 2026-07-29
+**Last updated:** 2026-10-23
 
 ## In short
 
-Gamma generates presentations, documents, and web pages from a prompt, using flexible cards rather than fixed-size slides. The free plan includes 400 one-time AI credits and a full deck generation costs roughly 40, so expect around 8 to 10 generated decks before you need to upgrade or earn more. Export to PDF, PPTX, or PNG is available on all plans, though PDF preserves the design most reliably.
+Gamma generates presentations, documents, and web pages from a prompt. Presentations now sit on a fixed 16:9 canvas with grid-based layouts, and the free plan includes 400 one-time AI credits with up to 10 slides per prompt (paid plans allow up to 100). PowerPoint export embeds your theme fonts and keeps tables editable; Google Slides is the format to check, because it replaces embedded fonts with its own.
 
-- Cards resize to their content, so text does not get squeezed to fit a slide.
-- A full deck generation costs roughly 40 of your 400 free credits.
+- Presentations use a fixed 16:9 canvas with grid layouts, so write for slide-sized chunks.
+- The free plan has 400 one-time AI credits. How many a deck uses depends on its length and the model, so long decks cost more.
 - Free credits do not refresh; paid plans provide a refreshing monthly allowance.
-- PPTX export often shifts layouts and substitutes fonts. PDF holds up better.
+- PPTX export embeds your heading and body fonts and keeps tables editable. Uploading that file to Google Slides swaps the fonts.
 
 ## What you'll be able to do
 
@@ -42,35 +42,35 @@ Gamma generates presentations, documents, and web pages from a prompt, using fle
 ## Inside the path
 
 1. **Prompt the structure, not the topic** (5 min) — Why "a deck about our Q3 results" produces filler and what to write instead.
-2. **Cards, not slides** (5 min) — What changes when the container grows to fit the content.
+2. **Designing for the 16:9 canvas** (5 min) — Why a fixed slide changes how much you put on each one.
 3. **Credits are finite** (5 min) — Where the 400 free credits go and how to not waste them.
-4. **Exporting cleanly** (5 min) — PDF, PPTX, and what breaks in each.
+4. **Exporting cleanly** (5 min) — PDF, PPTX and Google Slides, and what to check in each.
 
 ## The prompt decides everything
 
 Gamma's output quality tracks the specificity of your prompt almost linearly. Give it a topic and you get filler with nice typography. Give it a structure and real numbers and you get a draft worth editing.
 
-The pattern that works: state the number of cards, say what belongs on each, include your actual figures, and set a tone. It feels like more work than typing a sentence, and it is, but it replaces the twenty minutes you would otherwise spend rewriting generic content.
+The pattern that works: state the number of slides, say what belongs on each, include your actual figures, and set a tone. It feels like more work than typing a sentence, and it is, but it replaces the twenty minutes you would otherwise spend rewriting generic content.
 
-## Cards are not slides
+## Design for the 16:9 canvas
 
-Gamma uses cards that grow to fit their content rather than fixed-size slides. Text does not get squashed to fit a template, which removes the most common cause of ugly decks.
+Presentations in Gamma now use a fixed 16:9 canvas with layouts built on grids. Content is arranged to fit the slide, so the old habit of letting a card grow to hold a long paragraph no longer works for decks. Plan one idea per slide and move detail into speaker notes.
 
-There is also a document mode that produces long-form scrollable content instead of a card-by-card deck, which suits memos, reports, and proposals. Choosing the wrong mode is a common early mistake: if the output is meant to be read rather than presented, document mode is the better container.
+There is also a document mode that produces long-form scrollable content instead of a slide-by-slide deck, which suits memos, reports, and proposals. Choosing the wrong mode is a common early mistake: if the output is meant to be read rather than presented, document mode is the better container.
 
 ## Credits, and not wasting them
 
-The free plan comes with 400 one-time AI credits. A full deck generation costs roughly 40, so you get about 8 to 10 generated decks. Free credits do not refresh, though referrals add more, and paid plans provide a refreshing monthly allowance.
+The free plan comes with 400 one-time AI credits, and they do not refresh; paid plans provide a refreshing monthly allowance. Gamma does not charge a fixed amount per deck: credit use depends on the task, the model, and how long the generation is, so a 10-slide draft costs less than a long, image-heavy one. The free plan also caps a single prompt at 10 slides, against 100 on paid plans.
 
-The practical consequence: do not use generation as a thinking tool. Work out your structure first, then generate once against a detailed prompt, then edit by hand. Regenerating repeatedly to "see what it comes up with" is how people burn 400 credits in an afternoon and end up with a deck no better than their second attempt.
+The practical consequence: do not use generation as a thinking tool. Work out your structure first, then generate once against a detailed prompt, then edit by hand. Regenerating repeatedly to "see what it comes up with" is how people burn their free credits in an afternoon and end up with a deck no better than their second attempt.
 
 ## Exporting without surprises
 
-PDF, PPTX, and PNG export are available across plans. They are not equally reliable.
+Gamma exports to PDF, PNG, and PowerPoint (PPTX), and you reach Google Slides by uploading the PPTX.
 
-Because Gamma's native format is a flexible web layout, **PPTX export often shifts layouts and substitutes fonts**, and complex cards can arrive in PowerPoint as flattened, non-editable images. **PDF preserves the design most faithfully** and is the safer choice for sharing and printing.
+**PowerPoint export is now a usable editing format.** Gamma embeds your theme's heading and body fonts in the file, exports tables as real, editable tables, and includes speaker notes. Two things still need a check: italic text uses a slanted version of the regular font, and there is no slide master, so changes have to be made slide by slide.
 
-If someone downstream genuinely needs to edit in PowerPoint, plan for that from the start and keep cards simple, or accept that you will be doing cleanup on the other side.
+**Google Slides is where fonts change.** It ignores fonts embedded in an uploaded PowerPoint file and substitutes its own, so text can reflow. If the deck is going to Google Slides, look through every slide after the upload, or pick theme fonts Google Slides already has. For a file nobody needs to edit, PDF is still the simplest handoff.
 
 ## Sample practice exercise
 
@@ -81,33 +81,33 @@ If someone downstream genuinely needs to edit in PowerPoint, plan for that from 
 **Task:** Choose the prompt most likely to produce a deck you can present without rebuilding it.
 
 - "Create a professional investor update presentation for our startup's Q3 results."
-- **(correct)** "8-card investor update. Card 1: headline, revenue up 40% QoQ. Cards 2 to 3: the two enterprise logos signed and what they unlock. Card 4: churn rose from 3% to 4%, with the cause and the fix. Cards 5 to 6: hiring ask, two engineers, with the reasoning. Card 7: risks. Card 8: what we need from you. Direct tone, numbers in headlines, no filler."
+- **(correct)** "8-slide investor update. Slide 1: headline, revenue up 40% QoQ. Slides 2 to 3: the two enterprise logos signed and what they unlock. Slide 4: churn rose from 3% to 4%, with the cause and the fix. Slides 5 to 6: hiring ask, two engineers, with the reasoning. Slide 7: risks. Slide 8: what we need from you. Direct tone, numbers in headlines, no filler."
 - "Make the best possible investor deck. Use your judgment on structure and make it visually stunning."
 - "Q3 results: revenue, customers, churn, hiring."
 
-**Why:** The second prompt wins because it supplies the two things Gamma cannot infer: **the structure** (how many cards and what goes on each) and **the specifics** (40%, 3% to 4%, two engineers). Given only a topic, the model fills space with generic business language, which is where the "AI deck" look comes from. Notice it also carries the uncomfortable number. A deck that hides worsening churn does not survive the first question, and telling the tool to include it is how you keep the argument honest. The vague prompts produce something that looks finished and says nothing.
+**Why:** The second prompt wins because it supplies the two things Gamma cannot infer: **the structure** (how many slides and what goes on each) and **the specifics** (40%, 3% to 4%, two engineers). Given only a topic, the model fills space with generic business language, which is where the "AI deck" look comes from. Notice it also carries the uncomfortable number. A deck that hides worsening churn does not survive the first question, and telling the tool to include it is how you keep the argument honest. The vague prompts produce something that looks finished and says nothing.
 
 ## Gamma questions
 
 **How many free credits does Gamma give you?**
 
-The free plan includes 400 one-time AI credits. A full presentation generation costs roughly 40, so that is around 8 to 10 generated decks. Free credits do not refresh, though referrals earn more and paid plans include a refreshing monthly allowance.
+The free plan includes 400 one-time AI credits, and they do not refresh. How many a deck uses depends on its length, the model, and the task, so there is no fixed cost per deck. Free prompts generate up to 10 slides; paid plans allow up to 100 and include a refreshing monthly allowance.
 
-**What is the difference between cards and slides in Gamma?**
+**Do Gamma slides resize to fit their content?**
 
-Cards resize to fit their content instead of forcing content into a fixed slide. That removes the usual problem of text being squeezed to fit a template. Gamma also offers a document mode for long-form scrollable content like memos and reports.
+Not in presentations any more. The new Gamma uses a fixed 16:9 canvas with grid-based layouts, so content is arranged to fit the slide rather than the slide growing to fit the content. For long-form, scrollable writing such as memos and reports, use document mode instead.
 
 **Can you export Gamma to PowerPoint?**
 
-Yes, PPTX export is available on all plans, but it is the least reliable format. Layouts often shift, fonts get substituted, and complex cards can arrive as flattened images that cannot be edited. PDF preserves the original design most faithfully.
+Yes. PPTX export embeds your theme's heading and body fonts, keeps tables editable, and includes speaker notes, though there is no slide master. To use Google Slides, upload the PPTX, but expect Google Slides to replace the embedded fonts with its own, so check each slide afterwards.
 
 **How do I get a better deck out of Gamma?**
 
-Prompt the structure rather than the topic. Say how many cards you want, what belongs on each, include your real numbers, and set a tone. A topic-only prompt produces generic filler, which is where the recognisable AI-deck look comes from.
+Prompt the structure rather than the topic. Say how many slides you want, what belongs on each, include your real numbers, and set a tone. A topic-only prompt produces generic filler, which is where the recognisable AI-deck look comes from.
 
 **Is Gamma good for documents as well as presentations?**
 
-Yes. Document mode produces long-form scrollable content rather than cards, which suits memos, reports, and proposals better than a presentation format does.
+Yes. Document mode produces long-form scrollable content rather than a slide deck, which suits memos, reports, and proposals better than a presentation format does.
 
 ## Related paths
 
@@ -127,6 +127,7 @@ Yes. Document mode produces long-form scrollable content rather than cards, whic
 
 ## Read next
 
+- [Gamma vs Canva vs ChatGPT for slides](https://tryiro.com/blog/gamma-vs-canva-vs-chatgpt-slides)
 - [The best AI apps](https://tryiro.com/blog/best-ai-apps)
 - [The best free AI tools](https://tryiro.com/blog/best-free-ai-tools-2026)
 

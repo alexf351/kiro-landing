@@ -45,7 +45,9 @@ h1,h2,h3,h4{font-family:'Geist','Outfit',sans-serif;font-weight:800}
 .nav-links a{color:var(--ink-2);font-weight:500;letter-spacing:.01em;transition:color .2s}
 .nav-links a:hover{color:var(--ink);text-decoration:none}
 .nav-links a[href="/quiz"],.nav-links a[href="/quiz.html"]{color:var(--accent);font-weight:600}
-@media(max-width:760px){.nav{height:auto;flex-direction:column;align-items:flex-start;gap:12px;
+/* Stacked on phones, the header is ~140px tall; pinned, it covered a sixth of
+   the screen and hid every heading a table-of-contents link jumped to. */
+@media(max-width:760px){.nav{position:static;height:auto;flex-direction:column;align-items:flex-start;gap:12px;
   padding-top:14px;padding-bottom:14px}}
 
 /* ---------- eyebrow ---------- */

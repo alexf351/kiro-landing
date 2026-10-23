@@ -117,6 +117,8 @@ About five minutes a day. Iro's lessons are short, hands-on reps with instant fe
 
 ## Read next
 
+- [How to use AI for performance reviews](https://tryiro.com/blog/ai-for-performance-reviews)
+- [Is it safe to put client data in ChatGPT?](https://tryiro.com/blog/client-data-in-chatgpt)
 - [How to use AI at work](https://tryiro.com/blog/how-to-use-ai-at-work)
 - [Prompt engineering patterns](https://tryiro.com/blog/prompt-engineering-patterns)
 - [How to spot AI hallucinations](https://tryiro.com/blog/spot-ai-hallucinations)

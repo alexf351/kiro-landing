@@ -133,7 +133,7 @@
     },
     {
       "q": "Is Notion AI free?",
-      "a": "Notion AI is a paid feature. It is bundled into Notion's paid plans and offered as an add-on, usually with a limited number of free responses to try first. The prompting skill you learn here works the same in free AI tools too."
+      "a": "Full Notion AI comes with Notion's Business and Enterprise plans. The Free and Plus plans include a limited trial of it, and there is no longer a separate AI add-on to buy. The prompting skill you learn here works the same in free AI tools too."
     }
   ],
   "related": [
@@ -152,6 +152,10 @@
   ],
   "readNext": [
     {
+      "href": "/blog/notion-ai-vs-chatgpt",
+      "label": "Notion AI vs ChatGPT"
+    },
+    {
       "href": "/blog/how-to-use-ai-at-work",
       "label": "How to use AI at work"
     },
@@ -168,5 +172,5 @@
   "ctaHeading": "Practice Notion AI prompts.",
   "ctaBody": "Iro turns drafting, summarizing, and extracting into five-minute exercises with feedback, so Notion AI cleans up your notes instead of just restating them.",
   "datePublished": "2026-07-09",
-  "dateModified": "2026-07-09"
+  "dateModified": "2026-10-23"
 }

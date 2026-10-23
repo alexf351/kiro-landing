@@ -9,7 +9,7 @@
     <description>Short, practical writing on AI fluency, prompting, AI tools, and the active-practice method that beats endless video courses.</description>
     <language>en-US</language>
     <atom:link href="https://tryiro.com/blog/rss.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Mon, 28 Sep 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 23 Oct 2026 00:00:00 GMT</lastBuildDate>
     <generator>tryiro.com</generator>
     <copyright>© 2026 Iro AI</copyright>
     <image>
@@ -591,7 +591,7 @@
       <pubDate>Sun, 26 Jul 2026 00:00:00 GMT</pubDate>
       <dc:creator>Iro AI</dc:creator>
       <category>AI tools</category>
-      <description>Every major AI model release in 2026: GPT-6 Astra, Claude Opus 5, Claude Fable 5, GPT-5.6, Grok 4.5 and Kimi K3, with dates, pricing and what changed.</description>
+      <description>Every major AI release of 2026: Gemini 4 Argon, GPT-6 Sol, Claude Opus 5.5, GPT-6.1 Sol, Muse Spark Open and Kimi K3, with dates, pricing and what changed.</description>
     </item>
     <item>
       <title>Claude Opus 5: what actually changed, and who it's for</title>
@@ -1069,6 +1069,105 @@
       <dc:creator>Iro AI</dc:creator>
       <category>AI fluency</category>
       <description>Looking for a Skilario alternative? Compare Iro AI, Coursiv, Brilliant, Khan Academy, DataCamp and Coursera by how they teach, what is free and how you pay.</description>
+    </item>
+    <item>
+      <title>Gemini 4 Argon: what it is, who actually has it, and what the numbers mean</title>
+      <link>https://tryiro.com/blog/gemini-4-argon</link>
+      <guid isPermaLink="true">https://tryiro.com/blog/gemini-4-argon</guid>
+      <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Iro AI</dc:creator>
+      <category>AI tools</category>
+      <description>Gemini 4 Argon explained: which Gemini plans actually include it, why cyber defenders got it first, and what Google's own benchmark table really shows.</description>
+    </item>
+    <item>
+      <title>Claude Duet: what Anthropic's background agent does, and what to check first</title>
+      <link>https://tryiro.com/blog/claude-duet</link>
+      <guid isPermaLink="true">https://tryiro.com/blog/claude-duet</guid>
+      <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Iro AI</dc:creator>
+      <category>AI agents</category>
+      <description>Claude Duet explained: what Anthropic's background agent does, who can join the waitlist, how its approvals work, and what to check before connecting apps.</description>
+    </item>
+    <item>
+      <title>GPT-6 Pro parallel agents: what they are, who gets them, and when they help</title>
+      <link>https://tryiro.com/blog/gpt-6-pro-parallel-agents</link>
+      <guid isPermaLink="true">https://tryiro.com/blog/gpt-6-pro-parallel-agents</guid>
+      <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Iro AI</dc:creator>
+      <category>AI agents</category>
+      <description>GPT-6 Pro's parallel agents explained: what OpenAI shipped on 16 October 2026, which ChatGPT plans get it, and when splitting a task helps or backfires.</description>
+    </item>
+    <item>
+      <title>AI fake case citations: what happened to the lawyers, and how to avoid it</title>
+      <link>https://tryiro.com/blog/ai-fake-case-citations</link>
+      <guid isPermaLink="true">https://tryiro.com/blog/ai-fake-case-citations</guid>
+      <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Iro AI</dc:creator>
+      <category>AI fluency</category>
+      <description>Lawyers have been fined and disqualified for filing AI-invented cases. What happened in Mata v. Avianca and since, why AI fakes citations, and how to check.</description>
+    </item>
+    <item>
+      <title>The best AI apps for iPhone in 2026, picked by job</title>
+      <link>https://tryiro.com/blog/best-ai-apps-for-iphone</link>
+      <guid isPermaLink="true">https://tryiro.com/blog/best-ai-apps-for-iphone</guid>
+      <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Iro AI</dc:creator>
+      <category>AI tools</category>
+      <description>The best AI apps for iPhone in 2026 by job: ChatGPT, Claude, Gemini, Perplexity, Wispr Flow, Grammarly and Firefly, with one honest limit for each.</description>
+    </item>
+    <item>
+      <title>Is it safe to put client data in ChatGPT? A guide for accountants, lawyers and HR</title>
+      <link>https://tryiro.com/blog/client-data-in-chatgpt</link>
+      <guid isPermaLink="true">https://tryiro.com/blog/client-data-in-chatgpt</guid>
+      <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Iro AI</dc:creator>
+      <category>AI fluency</category>
+      <description>Is it safe to put client data in ChatGPT? What each plan does with your chats as of October 2026, the settings that matter, and what never to paste.</description>
+    </item>
+    <item>
+      <title>How to check AI-generated SQL before you trust the numbers</title>
+      <link>https://tryiro.com/blog/how-to-check-ai-generated-sql</link>
+      <guid isPermaLink="true">https://tryiro.com/blog/how-to-check-ai-generated-sql</guid>
+      <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Iro AI</dc:creator>
+      <category>AI tools</category>
+      <description>AI-written SQL usually runs, and that's the trap. The 7 mistakes ChatGPT makes in SQL, a prompt that prevents many, and a 6-step check before you trust it.</description>
+    </item>
+    <item>
+      <title>How to use AI for performance reviews without letting it judge anyone</title>
+      <link>https://tryiro.com/blog/ai-for-performance-reviews</link>
+      <guid isPermaLink="true">https://tryiro.com/blog/ai-for-performance-reviews</guid>
+      <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Iro AI</dc:creator>
+      <category>AI fluency</category>
+      <description>How to use AI for performance reviews and self-evaluations: prompts that start from your own notes, what ChatGPT must never do, and privacy and bias checks.</description>
+    </item>
+    <item>
+      <title>Gamma vs Canva vs ChatGPT for slides: which AI should make your deck?</title>
+      <link>https://tryiro.com/blog/gamma-vs-canva-vs-chatgpt-slides</link>
+      <guid isPermaLink="true">https://tryiro.com/blog/gamma-vs-canva-vs-chatgpt-slides</guid>
+      <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Iro AI</dc:creator>
+      <category>AI tools</category>
+      <description>Gamma vs Canva vs ChatGPT for slides: which makes the best first draft, holds your brand, exports cleanly to PowerPoint, and what each costs in 2026.</description>
+    </item>
+    <item>
+      <title>How to write an AI cold email that doesn't sound like AI</title>
+      <link>https://tryiro.com/blog/ai-cold-email-that-doesnt-sound-like-ai</link>
+      <guid isPermaLink="true">https://tryiro.com/blog/ai-cold-email-that-doesnt-sound-like-ai</guid>
+      <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Iro AI</dc:creator>
+      <category>Prompt engineering</category>
+      <description>Why AI cold emails sound like AI, and a method that fixes it: real research, one reason, a short ask, a banned-phrase list. Before-and-after emails included.</description>
+    </item>
+    <item>
+      <title>Notion AI vs ChatGPT: which to use, and is Notion AI worth it?</title>
+      <link>https://tryiro.com/blog/notion-ai-vs-chatgpt</link>
+      <guid isPermaLink="true">https://tryiro.com/blog/notion-ai-vs-chatgpt</guid>
+      <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Iro AI</dc:creator>
+      <category>AI tools</category>
+      <description>Notion AI vs ChatGPT for notes, docs, meeting notes and workspace search, what Notion's 2025 plan change means, and when Notion AI is worth paying for.</description>
     </item>
   </channel>
 </rss>

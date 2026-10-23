@@ -118,6 +118,7 @@ No. Buyers still buy from people they trust, and AI can't build that relationshi
 
 ## Read next
 
+- [AI cold emails that don't sound like AI](https://tryiro.com/blog/ai-cold-email-that-doesnt-sound-like-ai)
 - [How to use AI at work](https://tryiro.com/blog/how-to-use-ai-at-work)
 - [Prompt engineering patterns](https://tryiro.com/blog/prompt-engineering-patterns)
 - [How to write a prompt](https://tryiro.com/blog/how-to-write-a-prompt)

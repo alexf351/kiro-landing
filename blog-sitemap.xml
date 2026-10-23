@@ -3,7 +3,7 @@
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://tryiro.com/blog</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -13,7 +13,7 @@
   </url>
   <url>
     <loc>https://tryiro.com/blog/ai-fluency</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.88</priority>
     <image:image>
@@ -23,7 +23,7 @@
   </url>
   <url>
     <loc>https://tryiro.com/blog/prompt-engineering</loc>
-    <lastmod>2026-09-01</lastmod>
+    <lastmod>2026-10-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.88</priority>
     <image:image>
@@ -33,7 +33,7 @@
   </url>
   <url>
     <loc>https://tryiro.com/blog/ai-agents</loc>
-    <lastmod>2026-09-01</lastmod>
+    <lastmod>2026-10-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.88</priority>
     <image:image>
@@ -43,7 +43,7 @@
   </url>
   <url>
     <loc>https://tryiro.com/blog/ai-tools</loc>
-    <lastmod>2026-09-12</lastmod>
+    <lastmod>2026-10-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.88</priority>
     <image:image>
@@ -683,7 +683,7 @@
   </url>
   <url>
     <loc>https://tryiro.com/blog/new-ai-models-2026</loc>
-    <lastmod>2026-09-12</lastmod>
+    <lastmod>2026-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -1219,6 +1219,116 @@
     <image:image>
       <image:loc>https://tryiro.com/assets/og/skilario-alternatives.png</image:loc>
       <image:title>The best Skilario alternatives in 2026</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://tryiro.com/blog/gemini-4-argon</loc>
+    <lastmod>2026-10-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://tryiro.com/assets/og/gemini-4-argon.png</image:loc>
+      <image:title>Gemini 4 Argon: what it is, who actually has it, and what the numbers mean</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://tryiro.com/blog/claude-duet</loc>
+    <lastmod>2026-10-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://tryiro.com/assets/og/claude-duet.png</image:loc>
+      <image:title>Claude Duet: what Anthropic's background agent does, and what to check first</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://tryiro.com/blog/gpt-6-pro-parallel-agents</loc>
+    <lastmod>2026-10-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://tryiro.com/assets/og/gpt-6-pro-parallel-agents.png</image:loc>
+      <image:title>GPT-6 Pro parallel agents: what they are, who gets them, and when they help</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://tryiro.com/blog/ai-fake-case-citations</loc>
+    <lastmod>2026-10-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://tryiro.com/assets/og/ai-fake-case-citations.png</image:loc>
+      <image:title>AI fake case citations: what happened to the lawyers, and how to avoid it</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://tryiro.com/blog/best-ai-apps-for-iphone</loc>
+    <lastmod>2026-10-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://tryiro.com/assets/og/best-ai-apps-for-iphone.png</image:loc>
+      <image:title>The best AI apps for iPhone in 2026, picked by job</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://tryiro.com/blog/client-data-in-chatgpt</loc>
+    <lastmod>2026-10-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://tryiro.com/assets/og/client-data-in-chatgpt.png</image:loc>
+      <image:title>Is it safe to put client data in ChatGPT? A guide for accountants, lawyers and HR</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://tryiro.com/blog/how-to-check-ai-generated-sql</loc>
+    <lastmod>2026-10-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://tryiro.com/assets/og/how-to-check-ai-generated-sql.png</image:loc>
+      <image:title>How to check AI-generated SQL before you trust the numbers</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://tryiro.com/blog/ai-for-performance-reviews</loc>
+    <lastmod>2026-10-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://tryiro.com/assets/og/ai-for-performance-reviews.png</image:loc>
+      <image:title>How to use AI for performance reviews without letting it judge anyone</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://tryiro.com/blog/gamma-vs-canva-vs-chatgpt-slides</loc>
+    <lastmod>2026-10-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://tryiro.com/assets/og/gamma-vs-canva-vs-chatgpt-slides.png</image:loc>
+      <image:title>Gamma vs Canva vs ChatGPT for slides: which AI should make your deck?</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://tryiro.com/blog/ai-cold-email-that-doesnt-sound-like-ai</loc>
+    <lastmod>2026-10-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://tryiro.com/assets/og/ai-cold-email-that-doesnt-sound-like-ai.png</image:loc>
+      <image:title>How to write an AI cold email that doesn't sound like AI</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://tryiro.com/blog/notion-ai-vs-chatgpt</loc>
+    <lastmod>2026-10-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://tryiro.com/assets/og/notion-ai-vs-chatgpt.png</image:loc>
+      <image:title>Notion AI vs ChatGPT: which to use, and is Notion AI worth it?</image:title>
     </image:image>
   </url>
 </urlset>

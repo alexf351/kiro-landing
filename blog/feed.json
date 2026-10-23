@@ -764,7 +764,7 @@
       "id": "https://tryiro.com/blog/new-ai-models-2026",
       "url": "https://tryiro.com/blog/new-ai-models-2026",
       "title": "New AI models in 2026: every major release, tracked",
-      "summary": "Eleven major releases in six months, most recently GPT-6 Astra on 3 September. Here's every one of them, what actually changed, and which model to use.",
+      "summary": "Twenty-six major releases since April, the latest Anthropic's Claude Duet preview on 21 October. Here's what each one changed, and which model to use.",
       "date_published": "2026-07-26T00:00:00Z",
       "tags": [
         "AI tools",
@@ -1363,6 +1363,138 @@
         "AI fluency",
         "comparison",
         "AI learning apps"
+      ]
+    },
+    {
+      "id": "https://tryiro.com/blog/gemini-4-argon",
+      "url": "https://tryiro.com/blog/gemini-4-argon",
+      "title": "Gemini 4 Argon: what it is, who actually has it, and what the numbers mean",
+      "summary": "Google's Gemini 4 Argon went to vetted cyber defenders on 30 September 2026 and to paying Gemini subscribers on 13 October. Whether you can use it comes down to one line on your plan, and Google's own benchmark table is more mixed than the launch posts make it sound.",
+      "date_published": "2026-10-23T00:00:00Z",
+      "tags": [
+        "AI tools",
+        "Gemini",
+        "AI models"
+      ]
+    },
+    {
+      "id": "https://tryiro.com/blog/claude-duet",
+      "url": "https://tryiro.com/blog/claude-duet",
+      "title": "Claude Duet: what Anthropic's background agent does, and what to check first",
+      "summary": "Claude Duet is a new Anthropic app, in research preview since 21 October 2026, where Claude watches your connected apps, briefs you each morning and works in the background, then asks before it sends, pays, signs or deletes. Access is a waitlist for US Pro and Max subscribers, and the trust questions are worth settling before you connect anything.",
+      "date_published": "2026-10-23T00:00:00Z",
+      "tags": [
+        "AI agents",
+        "Claude",
+        "AI tools"
+      ]
+    },
+    {
+      "id": "https://tryiro.com/blog/gpt-6-pro-parallel-agents",
+      "url": "https://tryiro.com/blog/gpt-6-pro-parallel-agents",
+      "title": "GPT-6 Pro parallel agents: what they are, who gets them, and when they help",
+      "summary": "On 16 October 2026 OpenAI upgraded GPT-6 Pro in ChatGPT so several agents can work on different parts of one task at the same time. It's for Pro subscribers, not Plus, and it pays off only when the parts of a job don't depend on each other.",
+      "date_published": "2026-10-23T00:00:00Z",
+      "tags": [
+        "AI agents",
+        "ChatGPT",
+        "AI models"
+      ]
+    },
+    {
+      "id": "https://tryiro.com/blog/ai-fake-case-citations",
+      "url": "https://tryiro.com/blog/ai-fake-case-citations",
+      "title": "AI fake case citations: what happened to the lawyers, and how to avoid it",
+      "summary": "Lawyers have been fined, disqualified and referred to regulators for filing cases an AI tool made up. The details differ, but every one of those filings skipped the same step: nobody pulled the cited opinion from a real legal database and read it before signing.",
+      "date_published": "2026-10-23T00:00:00Z",
+      "tags": [
+        "AI fluency",
+        "Hallucination",
+        "AI for work"
+      ]
+    },
+    {
+      "id": "https://tryiro.com/blog/best-ai-apps-for-iphone",
+      "url": "https://tryiro.com/blog/best-ai-apps-for-iphone",
+      "title": "The best AI apps for iPhone in 2026, picked by job",
+      "summary": "Most iPhone owners need one assistant (ChatGPT or Claude), Perplexity for research, and at most one specialist for voice, writing or images. Here's what each app is best for, one honest limit apiece, and the iPhone settings that put them a press away.",
+      "date_published": "2026-10-23T00:00:00Z",
+      "tags": [
+        "AI tools",
+        "AI apps",
+        "iPhone"
+      ]
+    },
+    {
+      "id": "https://tryiro.com/blog/client-data-in-chatgpt",
+      "url": "https://tryiro.com/blog/client-data-in-chatgpt",
+      "title": "Is it safe to put client data in ChatGPT? A guide for accountants, lawyers and HR",
+      "summary": "Not on a personal account with the default settings, and not on any plan your firm hasn't approved for client work. Here's what each ChatGPT plan does with what you type, the settings worth changing, and how to strip a prompt of anything that identifies a client.",
+      "date_published": "2026-10-23T00:00:00Z",
+      "tags": [
+        "AI fluency",
+        "AI for work",
+        "Privacy"
+      ]
+    },
+    {
+      "id": "https://tryiro.com/blog/how-to-check-ai-generated-sql",
+      "url": "https://tryiro.com/blog/how-to-check-ai-generated-sql",
+      "title": "How to check AI-generated SQL before you trust the numbers",
+      "summary": "SQL from ChatGPT almost always runs; the danger is that it runs and quietly answers a different question. Here are the seven mistakes behind most wrong numbers, a prompt that heads off many of them, and six checks to run before anyone sees the result.",
+      "date_published": "2026-10-23T00:00:00Z",
+      "tags": [
+        "AI tools",
+        "ChatGPT",
+        "Data analysis"
+      ]
+    },
+    {
+      "id": "https://tryiro.com/blog/ai-for-performance-reviews",
+      "url": "https://tryiro.com/blog/ai-for-performance-reviews",
+      "title": "How to use AI for performance reviews without letting it judge anyone",
+      "summary": "AI is good at turning your notes into a clear, specific review and has no idea what anyone actually did. Use it on your evidence, never instead of it, and check your company's policy before an HR document goes anywhere near a chatbot.",
+      "date_published": "2026-10-23T00:00:00Z",
+      "tags": [
+        "AI fluency",
+        "AI at work",
+        "Managers"
+      ]
+    },
+    {
+      "id": "https://tryiro.com/blog/gamma-vs-canva-vs-chatgpt-slides",
+      "url": "https://tryiro.com/blog/gamma-vs-canva-vs-chatgpt-slides",
+      "title": "Gamma vs Canva vs ChatGPT for slides: which AI should make your deck?",
+      "summary": "Gamma builds the most complete first draft, Canva is best at holding a brand, and ChatGPT fits when the deck grows out of your own notes and has to end up in PowerPoint or Google Slides. Here's how they compare on drafting, design control, export, collaboration and price.",
+      "date_published": "2026-10-23T00:00:00Z",
+      "tags": [
+        "AI tools",
+        "presentations",
+        "comparison"
+      ]
+    },
+    {
+      "id": "https://tryiro.com/blog/ai-cold-email-that-doesnt-sound-like-ai",
+      "url": "https://tryiro.com/blog/ai-cold-email-that-doesnt-sound-like-ai",
+      "title": "How to write an AI cold email that doesn't sound like AI",
+      "summary": "AI cold emails read as AI because the model fills every gap in your prompt with the most average email it knows. Give it real research and one real reason, ban its favorite phrases and write the first line yourself, and the draft starts to read like someone who did their homework.",
+      "date_published": "2026-10-23T00:00:00Z",
+      "tags": [
+        "Prompt engineering",
+        "AI at work",
+        "Sales"
+      ]
+    },
+    {
+      "id": "https://tryiro.com/blog/notion-ai-vs-chatgpt",
+      "url": "https://tryiro.com/blog/notion-ai-vs-chatgpt",
+      "title": "Notion AI vs ChatGPT: which to use, and is Notion AI worth it?",
+      "summary": "Use Notion AI when the answer lives in your Notion workspace, and ChatGPT for everything that starts from a blank page or the open web. Notion AI now comes with the Business plan rather than as an add-on, which changes the math on whether it's worth paying for.",
+      "date_published": "2026-10-23T00:00:00Z",
+      "tags": [
+        "AI tools",
+        "Notion AI",
+        "ChatGPT"
       ]
     }
   ]

@@ -23,7 +23,7 @@
   ],
   "datePublished": "2026-10-23",
   "dateModified": "2026-10-23",
-  "readingTime": 7,
+  "readingTime": 6,
   "articleSection": "AI tools",
   "feedCategory": "AI tools",
   "feedTags": [
@@ -83,7 +83,7 @@
     {
       "id": "meetings",
       "heading": "Meeting notes and searching your own workspace",
-      "html": "<p>This is where Notion AI earns its price. <a href=\"https://www.notion.com/help/ai-meeting-notes\">AI Meeting Notes</a> records from the Notion desktop app, capturing both your microphone and your computer's audio, so remote participants on Zoom, Google Meet or Teams are transcribed without a bot joining the call. When you stop, it writes a summary with key points and action items, and its citations jump to the transcript line each point came from. In the browser or on your phone it records only your microphone, which suits in-person meetings better. There's a 10-hour daily limit per person, and Notion reminds you to get everyone's consent before you transcribe.</p><p><strong>Enterprise Search</strong> answers questions from your Notion pages and connected tools such as Slack, Microsoft Teams and GitHub, with citations back to the sources. Ask what you promised a client in the last review and it can point you to the page that says so.</p><p>ChatGPT can do a version of both, from the outside. Give it a transcript or your rough notes and it will turn them into a clean summary with owners and deadlines; our page on <a href=\"/ai-for-meetings\">AI for meetings</a> has the prompts. Its plugins can read Google Drive, Slack and Notion itself. What it doesn't do is live in your workspace, so each question starts with you pointing it at the right files. For long reports and PDFs, see <a href=\"/blog/how-to-use-ai-to-summarize-a-document\">how to summarize a document with AI</a>.</p>"
+      "html": "<p>This is where Notion AI earns its price. <a href=\"https://www.notion.com/help/ai-meeting-notes\">AI Meeting Notes</a> records from the Notion desktop app, capturing both your microphone and your computer's audio, so remote participants on Zoom, Google Meet or Teams are transcribed without a bot joining the call. When you stop, it writes a summary with key points and action items, and its citations jump to the transcript line each point came from.</p><p>In the browser or on your phone it records only your microphone, which suits in-person meetings better. There's a 10-hour daily limit per person, and Notion reminds you to get everyone's consent before you transcribe.</p><p><strong>Enterprise Search</strong> answers questions from your Notion pages and connected tools such as Slack, Microsoft Teams and GitHub, with citations back to the sources. Ask what you promised a client in the last review and it can point you to the page that says so.</p><p>ChatGPT can do a version of both, from the outside. Give it a transcript or your rough notes and it will turn them into a clean summary with owners and deadlines; our page on <a href=\"/ai-for-meetings\">AI for meetings</a> has the prompts.</p><p>Its plugins can read Google Drive, Slack and Notion itself. What it doesn't do is live in your workspace, so each question starts with you pointing it at the right files. For long reports and PDFs, see <a href=\"/blog/how-to-use-ai-to-summarize-a-document\">how to summarize a document with AI</a>.</p>"
     },
     {
       "id": "writing",
@@ -93,7 +93,7 @@
     {
       "id": "worth",
       "heading": "Is Notion AI worth it?",
-      "html": "<p>It depends on where you start. Prices below are at time of writing (October 2026).</p><ul><li><strong>Your team already runs on Notion Plus.</strong> Business costs $10 more per member per month on yearly billing, and that buys Notion AI plus SSO and private teamspaces. If you hold regular meetings and lose time hunting for decisions in old pages, it's usually worth it.</li><li><strong>You work alone and don't live in Notion.</strong> Skip it. ChatGPT covers more ground outside a workspace, and its free tier handles casual use. Our take on <a href=\"/blog/is-chatgpt-plus-worth-it\">whether ChatGPT Plus is worth it</a> covers the next step up.</li><li><strong>You use Notion personally on the Free plan.</strong> Use the trial to test meeting notes and search on your own pages first. Business is priced per member, so it's more a team decision than a personal one.</li><li><strong>You want both.</strong> That's a common setup: Notion AI for anything inside the workspace, ChatGPT for everything else.</li></ul><p><strong>Use Notion AI when</strong> the question is about your own pages, meetings or databases. <strong>Use ChatGPT when</strong> the work starts blank, needs the open web, or lives in files outside Notion.</p>"
+      "html": "<p>It depends on where you start. Prices below are at time of writing (October 2026).</p><ul><li><strong>Your team already runs on Notion Plus.</strong> Business costs $10 more per member per month on yearly billing, and that buys Notion AI plus SSO and private teamspaces. If you hold regular meetings and lose time hunting for decisions in old pages, it's usually worth it.</li><li><strong>You work alone and don't live in Notion.</strong> Skip it. ChatGPT covers more ground outside a workspace, and its free tier handles casual use. Our take on <a href=\"/blog/is-chatgpt-plus-worth-it\">whether ChatGPT Plus is worth it</a> covers the next step up.</li><li><strong>You use Notion personally on the Free plan.</strong> Use the trial to test meeting notes and questions about your own pages first. Business is priced per member, so it's more a team decision than a personal one.</li><li><strong>You want both.</strong> That's a common setup: Notion AI for anything inside the workspace, ChatGPT for everything else.</li></ul><p><strong>Use Notion AI when</strong> the question is about your own pages, meetings or databases. <strong>Use ChatGPT when</strong> the work starts blank, needs the open web, or lives in files outside Notion.</p>"
     },
     {
       "id": "skill",
@@ -104,7 +104,7 @@
   "faq": [
     {
       "q": "Is Notion AI worth it?",
-      "a": "It's worth it if your team already works in Notion and holds regular meetings, because AI Meeting Notes and Enterprise Search save real time. AI now comes with the Business plan, $20 per member per month billed yearly at time of writing (October 2026). If you work alone and outside Notion, ChatGPT is the better buy."
+      "a": "It's worth it if your team already works in Notion and holds regular meetings, because AI Meeting Notes and Enterprise Search cut manual note-taking and searching. AI now comes with the Business plan, $20 per member per month billed yearly at time of writing (October 2026). If you work alone and outside Notion, ChatGPT is the better buy."
     },
     {
       "q": "Is Notion AI free?",

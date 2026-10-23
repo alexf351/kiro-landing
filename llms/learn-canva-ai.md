@@ -159,6 +159,7 @@ Image models draw letterforms as shapes rather than spelling words, so headlines
 
 ## Read next
 
+- [Gamma vs Canva vs ChatGPT for slides](https://tryiro.com/blog/gamma-vs-canva-vs-chatgpt-slides)
 - [The best AI apps](https://tryiro.com/blog/best-ai-apps)
 - [How to use AI at work](https://tryiro.com/blog/how-to-use-ai-at-work)
 - [Practice prompt engineering](https://tryiro.com/prompt-engineering-app)

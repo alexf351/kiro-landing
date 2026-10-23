@@ -168,6 +168,10 @@
   ],
   "readNext": [
     {
+      "href": "/blog/gamma-vs-canva-vs-chatgpt-slides",
+      "label": "Gamma vs Canva vs ChatGPT for slides"
+    },
+    {
       "href": "/blog/how-to-write-a-prompt",
       "label": "How to write a prompt"
     },
