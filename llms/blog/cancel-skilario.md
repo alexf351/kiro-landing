@@ -119,7 +119,7 @@ Iro AI is our app, so read this as an interested party talking. If what you want
 
 On billing, since that is what brought you here: Iro is free to start, with a battery that gives you a full lesson every day and recharges overnight. Pro is **$9.99 a month or $49.99 a year**, the annual plan includes a 7-day free trial, and it is billed by Apple, so cancelling is the same two taps described above rather than an email thread. There is no intro rate that converts to a higher one.
 
-If you would rather spend nothing right now, the [AI rank quiz](/quiz) is ten questions and about two minutes, no signup and no card. For the wider field, including the free options, see [the best Skilario alternatives](/blog/skilario-alternatives), and for the full picture of what you signed up to, [our Skilario review](/blog/skilario-review).
+If you would rather spend nothing right now, the [AI rank quiz](/quiz) is ten questions and about two minutes, no signup and no card. If you are choosing from scratch, start with our guide to the [best app to learn AI](/best-ai-learning-app). For the wider field, including the free options, see [the best Skilario alternatives](/blog/skilario-alternatives), and for the full picture of what you signed up to, [our Skilario review](/blog/skilario-review).
 
 ## FAQ
 

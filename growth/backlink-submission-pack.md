@@ -412,9 +412,9 @@ link itself is not, and a tier that bundles both — LaunchBuck's $5 "dofollow
 from day one, no badge needed", Firsto's $19.90 "Guaranteed DR59+ Dofollow" --
 is mostly selling the link. Declined both.
 
-**Adding any new badge:** append an `<li>` to the `.featured` strip in
-`index.html` (award badges go first, ahead of plain listings),
-`rel="nofollow noopener"` first, then verify. No `.reveal`, no
+**Adding any new badge:** add an `<li>` to the `.featured` strip in
+`index.html`: award badges at the front, plain listings at the end. Ship it
+with `rel="nofollow noopener"`, then verify. No `.reveal`, no
 `loading="lazy"`, and **convert any inline `style="width:…"` the vendor ships
 into `width`/`height` attributes** — inline styles outrank the stylesheet and
 break the row's uniform 44px height. Firsto's embed did exactly this.
