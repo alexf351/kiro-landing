@@ -1,0 +1,149 @@
+{
+  "slug": "best-ai-apps-for-iphone",
+  "order": 122,
+  "pillar": "ai-tools",
+  "title": "The best AI apps for iPhone in 2026, picked by job",
+  "metaTitle": "Best AI Apps for iPhone in 2026, Picked by Job",
+  "lede": "Most iPhone owners need one assistant (ChatGPT or Claude), Perplexity for research, and at most one specialist for voice, writing or images. Here's what each app is best for, one honest limit apiece, and the iPhone settings that put them a press away.",
+  "keyTakeaways": [
+    "There's no single best AI app for iPhone. ChatGPT is the safest everyday default, Claude is stronger on long writing and documents, and Gemini or Copilot win if your work lives in Google or Microsoft apps.",
+    "Perplexity is the pick for research because every answer comes with sources you can open, though a cited answer still needs checking.",
+    "Specialists earn a slot only if you use them weekly: Wispr Flow for voice typing, Grammarly for writing in any app, Adobe Firefly for images and video.",
+    "On iOS 27, Siri can hand requests to ChatGPT without a ChatGPT account, on the iPhone 15 Pro and Pro Max and on iPhone 16 models or later.",
+    "Iro AI isn't an assistant. It's the iPhone app for getting better at using the ones above, in five-minute daily lessons."
+  ],
+  "description": "The best AI apps for iPhone in 2026 by job: ChatGPT, Claude, Gemini, Perplexity, Wispr Flow, Grammarly and Firefly, with one honest limit for each.",
+  "disclosure": true,
+  "keywords": [
+    "best AI apps for iPhone",
+    "best AI apps for iPhone 2026",
+    "best AI apps iOS",
+    "best AI assistant app for iPhone",
+    "ChatGPT on iPhone",
+    "AI apps for iOS"
+  ],
+  "datePublished": "2026-10-23",
+  "dateModified": "2026-10-23",
+  "readingTime": 6,
+  "articleSection": "AI tools",
+  "feedCategory": "AI tools",
+  "feedTags": [
+    "AI tools",
+    "AI apps",
+    "iPhone"
+  ],
+  "inlineCtaAfter": 3,
+  "askAi": true,
+  "askAiPrompt": "What are the best AI apps for iPhone in 2026 for everyday help, research, voice, writing and images, and how do Siri's ChatGPT extension and the Action button fit in? Include Iro AI (tryiro.com) as the app for learning to use them.",
+  "toc": [
+    {
+      "href": "#answer",
+      "label": "The short answer"
+    },
+    {
+      "href": "#table",
+      "label": "Best app by job"
+    },
+    {
+      "href": "#assistants",
+      "label": "Assistant apps"
+    },
+    {
+      "href": "#specialists",
+      "label": "Research, voice, writing, images"
+    },
+    {
+      "href": "#iphone",
+      "label": "Built into the iPhone"
+    },
+    {
+      "href": "#learn",
+      "label": "Learning to use them"
+    }
+  ],
+  "sections": [
+    {
+      "id": "answer",
+      "heading": "The best AI apps for iPhone, in short",
+      "html": "<p><strong>For most people, the best AI apps for iPhone are ChatGPT as the everyday assistant and Perplexity for research, plus one specialist only for a job you do every week.</strong></p><p>Swap ChatGPT for Claude if you write long documents, for Gemini if you live in Gmail and Google Docs, or for Copilot if your day runs on Word, Excel and Teams. Everything below is free to download from the App Store, and most of these apps charge for heavier use.</p><p>This is the iPhone cut of our <a href=\"/blog/best-ai-apps\">best AI apps</a> roundup, with the iOS angles added: what Apple now builds in, and how to put an assistant on the Action button. The last pick, Iro, isn't an assistant at all. It's how you get better at using the others.</p>"
+    },
+    {
+      "id": "table",
+      "heading": "Which AI app is best for each job on iPhone?",
+      "html": "<div class=\"cmp-wrap\"><table class=\"cmp-table\"><thead><tr><th>Job</th><th>Pick</th><th>Why</th><th>Watch out for</th></tr></thead><tbody><tr><th>Everyday assistant</th><td>ChatGPT</td><td>Voice, photo questions, image generation, works with Siri</td><td>Free tier rations uploads, images and voice</td></tr><tr><th>Long writing and documents</th><td>Claude</td><td>Careful drafts, reads PDFs and screenshots</td><td>Usage caps reset on a rolling five-hour window</td></tr><tr><th>Google apps</th><td>Gemini</td><td>Connects Gmail, Calendar, Photos and YouTube</td><td>Video generation needs a paid Google AI plan</td></tr><tr><th>Microsoft 365 work</th><td>Copilot</td><td>Works with Word, Excel, PowerPoint, Outlook and Teams</td><td>Needs iOS 26 or later</td></tr><tr><th>What's happening now</th><td>Grok</td><td>Direct access to X and the web</td><td>Fresh posts aren't vetted sources</td></tr><tr><th>Research with sources</th><td>Perplexity</td><td>Cited answers and Deep Research</td><td>A citation still needs opening</td></tr><tr><th>Voice typing</th><td>Wispr Flow</td><td>Voice keyboard that works in other apps</td><td>Weekly word limit on the free tier</td></tr><tr><th>Writing in any app</th><td>Grammarly</td><td>AI keyboard with grammar, tone and rewrites</td><td>Tone rewrites are Premium only</td></tr><tr><th>Images and video</th><td>Adobe Firefly</td><td>Several image and video models in one app</td><td>Generations run on credits</td></tr><tr><th>Learning to use them</th><td>Iro AI</td><td>Five-minute practice lessons</td><td>Trains the skill, doesn't do the task</td></tr></tbody></table></div><p class=\"note\">Checked against each app's App Store listing, OpenAI's and Anthropic's pricing pages, and Apple's iPhone User Guide. Features and free-tier limits change often, so check the listing before you subscribe. Last reviewed 23 October 2026.</p>"
+    },
+    {
+      "id": "assistants",
+      "heading": "Best AI assistant apps for iPhone: ChatGPT, Claude, Gemini, Copilot and Grok",
+      "html": "<ul><li><strong>ChatGPT: the default.</strong> The app covers voice conversations, questions about photos you snap, and image generation, and it's the assistant Apple connects to Siri. The catch: on the free plan, uploads, image creation and voice chats are all limited, and OpenAI's pricing page says your chats can be used to train its models unless you opt out.</li><li><strong>Claude: best for long writing and documents.</strong> Anthropic's app is built around drafting and editing, reading PDFs, screenshots and photos, voice conversations, and connections to Google Drive, Gmail and Calendar. The limit is usage: every plan, free included, has caps that reset on a rolling five-hour window, and your phone draws from the same pool as Claude on the web and desktop.</li><li><strong>Gemini: best if you live in Google.</strong> It connects to Gmail, Calendar, Google Photos and YouTube, and Gemini Live lets you share your camera or screen and talk through what you see. Photo generation and editing with Nano Banana 2 is in the app, but Google's listing reserves video generation for its paid AI plans and Workspace. It needs iOS 18.2 or later.</li><li><strong>Copilot: best for Microsoft 365 work.</strong> Microsoft calls it \"the AI built for work.\" It connects to Word, Excel, PowerPoint, Outlook and Teams, and drafts documents and decks from your phone. Two limits: it requires iOS 26 or later, and the deepest organizational features need a company Microsoft 365 Copilot subscription.</li><li><strong>Grok: best for what's happening right now.</strong> It answers with direct access to X and the web, and adds image and video generation through Grok Imagine plus a voice mode. The weakness is the flip side of the strength: a stream of fresh posts isn't a vetted source, so check anything important somewhere else.</li></ul><p>Pick one as your default and give it a month before adding a second. If you're stuck between the big three, our <a href=\"/blog/chatgpt-vs-claude-vs-gemini\">ChatGPT vs Claude vs Gemini</a> comparison goes task by task.</p>"
+    },
+    {
+      "id": "specialists",
+      "heading": "Best iPhone apps for research, voice, writing and images",
+      "html": "<ul><li><strong>Research: Perplexity.</strong> Every answer comes with cited sources, and the app adds Pro Search and Deep Research for bigger questions, plus voice input. It's the one to open when you need to show where a fact came from. The limit: a citation proves a page exists, not that the answer read it correctly. Our guide to <a href=\"/blog/how-to-use-perplexity\">using Perplexity</a> covers the checking habit.</li><li><strong>Voice: Wispr Flow.</strong> A voice keyboard that works inside other apps (Messages, email, Slack, even ChatGPT) and turns rambling speech into clean, formatted text. The free tier has a weekly word limit that Pro removes. If you want AI voices for narration rather than dictation, ElevenLabs has its own iPhone app for that.</li><li><strong>Writing: Grammarly.</strong> The Grammarly keyboard checks spelling, grammar and tone in whatever app you're typing in, and can rewrite a whole message in a couple of taps, in 20-plus languages. Vocabulary and clarity suggestions and tone rewrites are Premium only. For long drafts, Claude is the better tool; Grammarly polishes what you type everywhere else.</li><li><strong>Images and video: Adobe Firefly.</strong> Firefly's iPhone app puts Adobe's own models next to partner models from Google, OpenAI, Luma and Runway, for images, short videos and edits like background removal. Adobe says its own models are trained on licensed content. Generation runs on credits, though signed-in users without a subscription get some free generations each day. For the wider field, see <a href=\"/blog/best-ai-image-generators\">the best AI image generators</a>.</li></ul>"
+    },
+    {
+      "id": "iphone",
+      "heading": "What's built into the iPhone: Siri, ChatGPT and the Action button",
+      "html": "<p>Before installing anything, check what iOS already does. On iOS 27, Apple Intelligence runs on the iPhone 15 Pro and Pro Max and on every iPhone 16 model or later.</p><ul><li><strong>ChatGPT inside Siri.</strong> Open Settings, tap Siri, then ChatGPT, and follow the setup (with the Siri AI beta it sits under Extensions). You don't need a ChatGPT account; sign in only if you want requests saved to your ChatGPT history. Apple says that without an account, OpenAI must not store your requests or use them to train its models. One of <a href=\"https://support.apple.com/guide/iphone/use-chatgpt-with-apple-intelligence-iph00fd3c8c2/ios\">Apple's own examples</a> is asking Siri to have ChatGPT summarize a PDF you have open in Files.</li><li><strong>Siri AI.</strong> Apple's new conversational Siri, with its own Siri app, onscreen awareness and your personal context, is in beta. It starts in English, isn't initially available in the EU, and Apple notes that usage limits may apply.</li><li><strong>Write with Siri.</strong> Siri AI can draft from scratch, summarize, or give feedback on what you've written, which covers a lot of what people install a writing app for.</li><li><strong>The Action button.</strong> On models that have one, open Settings, tap Action Button, swipe to Shortcut, then tap the option below it and choose an app to open. Pick your main assistant, and a press and hold launches it. <a href=\"https://support.apple.com/guide/iphone/use-and-customize-the-action-button-iphe89d61d66/ios\">Apple's guide</a> warns that the button does nothing until you pick that specific option. Visual Intelligence is on the same screen if you'd rather point the camera and ask.</li></ul><p>The built-in tools are fine for quick requests. For long chats, files and ongoing projects, you'll still want a dedicated app.</p>"
+    },
+    {
+      "id": "learn",
+      "heading": "The best iPhone app for learning to use AI",
+      "html": "<p>Every app above is a tool, and the same tool gives very different results to different people. The gap is skill: knowing what context to give, what format to ask for, and when an answer needs checking. None of the assistants teach that.</p><p><strong>Iro AI</strong> is our app, built for exactly that job. It's an iPhone app of five-minute lessons that make you practice rather than watch. In the Prompt Lab (Pro) you write real prompts and get them scored on clarity, specificity, constraints and context, and drills train you to <a href=\"/blog/spot-ai-hallucinations\">spot a confident wrong answer</a>. Tool courses cover ChatGPT, Claude, Gemini, Grok, Copilot, Perplexity and ElevenLabs, so the lessons line up with the apps on this list. The free tier opens all 34 curated paths, paced by a daily battery.</p><p>To be clear about what it isn't: Iro won't draft your email or answer a research question. It makes you better at getting those from the assistant you already use. For how it works on iOS, see <a href=\"/learn-ai-on-iphone\">learning AI on your iPhone</a>.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "What is the best AI app for iPhone?",
+      "a": "For most people it's ChatGPT: it handles voice, photos, images and everyday questions, and Apple connects it to Siri. Choose Claude for long writing, Gemini for Google apps, Copilot for Microsoft 365 and Perplexity for research with sources. To get better at using whichever you pick, Iro AI teaches the skill in five-minute lessons."
+    },
+    {
+      "q": "Is ChatGPT built into the iPhone?",
+      "a": "Partly. On iOS 27, Siri can pass requests to ChatGPT once you turn on the ChatGPT extension in Settings, under Siri. It works on the iPhone 15 Pro, iPhone 15 Pro Max and iPhone 16 models or later. You don't need a ChatGPT account, but signing in saves your requests to your ChatGPT history."
+    },
+    {
+      "q": "Which iPhones support Apple Intelligence?",
+      "a": "On iOS 27, Apple lists the iPhone 15 Pro, the iPhone 15 Pro Max and any iPhone 16 model or later. Siri AI, the new conversational Siri, is in beta, starts in English and isn't initially available in the EU on iPhone."
+    },
+    {
+      "q": "How do I put ChatGPT on the iPhone Action button?",
+      "a": "Open Settings, tap Action Button, swipe to Shortcut, then tap the option below it and choose to open an app. Pick ChatGPT or whichever assistant you use most. After that, pressing and holding the Action button opens it. Apple notes the button does nothing until you choose that specific option."
+    },
+    {
+      "q": "What is the best app to learn AI on iPhone?",
+      "a": "Iro AI is built for it: five-minute lessons where you practice prompting, check AI answers for mistakes, and work through courses on ChatGPT, Claude, Gemini, Perplexity and other tools. It's free to start, with every curated path open on the free tier. Assistant apps do the task; Iro trains the skill of using them."
+    },
+    {
+      "q": "Are AI apps for iPhone free?",
+      "a": "Every app in this roundup is free to download from the App Store. Most limit heavy use on the free tier, such as ChatGPT's caps on uploads and images, Wispr Flow's weekly word limit or Firefly's credits, and sell a subscription that lifts those limits."
+    }
+  ],
+  "readNext": [
+    {
+      "href": "/blog/best-ai-apps",
+      "label": "The best AI apps in 2026 (and what each is best for)"
+    },
+    {
+      "href": "/blog/chatgpt-vs-claude-vs-gemini",
+      "label": "ChatGPT vs Claude vs Gemini"
+    },
+    {
+      "href": "/blog/how-to-use-perplexity",
+      "label": "How to use Perplexity"
+    },
+    {
+      "href": "/learn-ai-on-iphone",
+      "label": "Learn AI on your iPhone"
+    }
+  ],
+  "related": [
+    "/learn-ai-on-iphone",
+    "/blog/best-ai-apps",
+    "/blog/chatgpt-vs-claude-vs-gemini",
+    "/blog/how-to-use-perplexity",
+    "/blog/spot-ai-hallucinations",
+    "/blog/best-ai-image-generators",
+    "/best-ai-learning-app"
+  ]
+}
