@@ -146,6 +146,46 @@
       "source": "/it/",
       "destination": "/it",
       "permanent": true
+    },
+    {
+      "source": "/zh-hans/",
+      "destination": "/zh-hans",
+      "permanent": true
+    },
+    {
+      "source": "/zh",
+      "destination": "/zh-hans",
+      "permanent": true
+    },
+    {
+      "source": "/zh/",
+      "destination": "/zh-hans",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn",
+      "destination": "/zh-hans",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/",
+      "destination": "/zh-hans",
+      "permanent": true
+    },
+    {
+      "source": "/zh-CN",
+      "destination": "/zh-hans",
+      "permanent": true
+    },
+    {
+      "source": "/zh-Hans",
+      "destination": "/zh-hans",
+      "permanent": true
+    },
+    {
+      "source": "/zh-sg",
+      "destination": "/zh-hans",
+      "permanent": true
     }
   ],
   "headers": [
@@ -608,6 +648,32 @@
       ]
     },
     {
+      "source": "/zh-hans",
+      "headers": [
+        {
+          "key": "Content-Language",
+          "value": "zh-Hans"
+        },
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=3600"
+        }
+      ]
+    },
+    {
+      "source": "/zh-hans.html",
+      "headers": [
+        {
+          "key": "Content-Language",
+          "value": "zh-Hans"
+        },
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=3600"
+        }
+      ]
+    },
+    {
       "source": "/localization.json",
       "headers": [
         {
@@ -667,6 +733,10 @@
     {
       "source": "/it",
       "destination": "/it.html"
+    },
+    {
+      "source": "/zh-hans",
+      "destination": "/zh-hans.html"
     },
     {
       "source": "/about",

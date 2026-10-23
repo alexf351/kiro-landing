@@ -96,7 +96,8 @@
     fr: { text: 'Nous utilisons des cookies pour voir quelles pages vous aident.', accept: 'Accepter', reject: 'Refuser', privacy: 'Confidentialité', label: 'Choix des cookies' },
     de: { text: 'Wir nutzen Cookies, um zu sehen, welche Seiten dir helfen.', accept: 'Akzeptieren', reject: 'Ablehnen', privacy: 'Datenschutz', label: 'Cookie-Auswahl' },
     it: { text: 'Usiamo i cookie per capire quali pagine ti sono utili.', accept: 'Accetta', reject: 'Rifiuta', privacy: 'Privacy', label: 'Scelta sui cookie' },
-    pt: { text: 'Usamos cookies para ver quais páginas ajudam você.', accept: 'Aceitar', reject: 'Recusar', privacy: 'Privacidade', label: 'Escolha de cookies' }
+    pt: { text: 'Usamos cookies para ver quais páginas ajudam você.', accept: 'Aceitar', reject: 'Recusar', privacy: 'Privacidade', label: 'Escolha de cookies' },
+    zh: { text: '我们使用 Cookie 来了解哪些页面对你有帮助。', accept: '接受', reject: '拒绝', privacy: '隐私政策', label: 'Cookie 选择' }
   };
   function strings() {
     var lang = (document.documentElement.getAttribute('lang') || 'en').toLowerCase().slice(0, 2);

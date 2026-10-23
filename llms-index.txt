@@ -37,6 +37,7 @@ french homepage             https://tryiro.com/fr
 german homepage             https://tryiro.com/de
 italian homepage            https://tryiro.com/it
 portuguese homepage         https://tryiro.com/pt-br
+simplified chinese homepage https://tryiro.com/zh-hans
 
 ## Markdown mirrors (LLM-friendly clean text)
 # 61 page mirrors, generated — see blog-engine/build-llms-index.mjs
