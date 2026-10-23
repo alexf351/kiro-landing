@@ -828,7 +828,7 @@
     "de": "KI-Skills aufbauen mit <span class=\"accent\">einer Übung am Tag</span>",
     "pt-br": "Evolua em IA com <span class=\"accent\">um treino por dia</span>",
     "it": "Costruisci competenze di IA con <span class=\"accent\">un allenamento al giorno</span>",
-    "zh-hans": "每天<span class=\"accent\">练一次</span>，AI 能力稳步提升"
+    "zh-hans": "每天<span class=\"accent\">练一次</span>，<br/>AI 能力稳步提升"
    },
    "loopSub": {
     "en": "Iro turns learning AI into a simple loop: choose your path, practice for a few minutes, and level up as your skills improve.",
