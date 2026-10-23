@@ -18,9 +18,10 @@
  *   data-convex-analytics="on"   also load the convex.site tracker after Accept
  *                                (only the pages that already carried it)
  *
- * Re-open the banner from anywhere with a link to #cookie-settings, an element
- * with data-cookie-settings, or window.iroConsent.open(). Switching from
- * Accept to Reject clears the analytics storage and reloads the page.
+ * Re-open the banner from anywhere with a link to #cookie-settings (every page
+ * footer has one, labelled "Cookie settings"), an element with
+ * data-cookie-settings, or window.iroConsent.open(). Switching from Accept to
+ * Reject clears the analytics storage and reloads the page.
  */
 (function () {
   'use strict';
@@ -95,7 +96,8 @@
     fr: { text: 'Nous utilisons des cookies pour voir quelles pages vous aident.', accept: 'Accepter', reject: 'Refuser', privacy: 'Confidentialité', label: 'Choix des cookies' },
     de: { text: 'Wir nutzen Cookies, um zu sehen, welche Seiten dir helfen.', accept: 'Akzeptieren', reject: 'Ablehnen', privacy: 'Datenschutz', label: 'Cookie-Auswahl' },
     it: { text: 'Usiamo i cookie per capire quali pagine ti sono utili.', accept: 'Accetta', reject: 'Rifiuta', privacy: 'Privacy', label: 'Scelta sui cookie' },
-    pt: { text: 'Usamos cookies para ver quais páginas ajudam você.', accept: 'Aceitar', reject: 'Recusar', privacy: 'Privacidade', label: 'Escolha de cookies' }
+    pt: { text: 'Usamos cookies para ver quais páginas ajudam você.', accept: 'Aceitar', reject: 'Recusar', privacy: 'Privacidade', label: 'Escolha de cookies' },
+    zh: { text: '我们使用 Cookie 来了解哪些页面对你有帮助。', accept: '接受', reject: '拒绝', privacy: '隐私政策', label: 'Cookie 选择' }
   };
   function strings() {
     var lang = (document.documentElement.getAttribute('lang') || 'en').toLowerCase().slice(0, 2);
@@ -180,13 +182,21 @@
     else fn();
   }
 
-  window.iroConsent = { get: getChoice, open: function () { whenReady(openBanner); } };
+  // Opened on request (the Cookie settings link): move focus into the banner so
+  // keyboard and screen-reader users land on the choice they asked for.
+  function openOnRequest() {
+    openBanner();
+    var first = banner && banner.querySelector('button');
+    if (first) first.focus({ preventScroll: true });
+  }
+
+  window.iroConsent = { get: getChoice, open: function () { whenReady(openOnRequest); } };
 
   document.addEventListener('click', function (e) {
     var el = e.target && e.target.closest && e.target.closest('a[href="#cookie-settings"],[data-cookie-settings]');
     if (!el) return;
     e.preventDefault();
-    openBanner();
+    openOnRequest();
   });
 
   // Banner button order: App Store leads on iPhone, the web app everywhere else.

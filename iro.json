@@ -612,7 +612,8 @@
         "fr": "https://tryiro.com/fr",
         "de": "https://tryiro.com/de",
         "it": "https://tryiro.com/it",
-        "pt-BR": "https://tryiro.com/pt-br"
+        "pt-BR": "https://tryiro.com/pt-br",
+        "zh-Hans": "https://tryiro.com/zh-hans"
       },
       "locale_inventory": "https://tryiro.com/localization.json"
     }

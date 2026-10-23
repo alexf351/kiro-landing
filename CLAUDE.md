@@ -16,8 +16,8 @@ There are no build, test, or lint commands. To develop locally, serve the files 
 - `index.html` — Landing page (hero, gameplay showcase, rank progression, social proof, FAQ accordion)
 - `quiz.html` — AI IQ Test interactive quiz with client-side state machine (intro → quiz → results)
 - `privacy.html` / `terms.html` — Legal pages
-- `es.html` / `fr.html` / `de.html` / `it.html` / `pt-br.html` — Spanish, French, German, Italian and Brazilian
-  Portuguese homepages (`/es`, `/fr`, `/de`, `/it`, `/pt-br`). **Generated** by
+- `es.html` / `fr.html` / `de.html` / `it.html` / `pt-br.html` / `zh-hans.html` — Spanish, French, German, Italian,
+  Brazilian Portuguese and Simplified Chinese homepages (`/es`, `/fr`, `/de`, `/it`, `/pt-br`, `/zh-hans`). **Generated** by
   `node blog-engine/build-i18n.mjs` from `index.html` plus the dictionary `blog-engine/i18n/home.json`; never hand-edit
   them. After changing English copy on the homepage, run the generator: it names every dictionary entry the change made
   stale and every new string with no translation, and refuses to write if a script or JSON-LD block would break.
@@ -27,7 +27,9 @@ There are no build, test, or lint commands. To develop locally, serve the files 
 
 ### Design System (CSS variables in `:root`)
 - Dark theme with cyan (#00E5FF) accent color
-- Fonts: "Outfit" (body), "JetBrains Mono" (numbers/monospace) via Google Fonts
+- Fonts: "Geist" (headings), "Outfit" (body), "JetBrains Mono" (numbers/monospace), self-hosted from
+  `assets/fonts/` via `/assets/fonts/fonts.css`. Do not reintroduce Google Fonts links: a page must contact no
+  third party before the visitor answers the cookie banner.
 - Responsive breakpoints: 1024px, 768px, 480px
 
 ### Quiz Engine (`quiz.html`)
@@ -41,9 +43,12 @@ There are no build, test, or lint commands. To develop locally, serve the files 
 
 ### Analytics
 - PostHog integration tracks: quiz_started, quiz_answer (with question/topic/difficulty), quiz_completed, quiz_shared
+- Everything analytics loads through `/consent.js`, only after the visitor accepts the cookie banner. Every page footer
+  carries a `<a href="#cookie-settings">Cookie settings</a>` link that reopens the banner; keep it on new pages.
 
 ### Assets
-All images are served locally from the `assets/` folder via relative paths (e.g., `src="assets/diamond-kiro.png"`). Nothing is pulled from a CDN or external image host. The folder contains:
+All images are served locally from the `assets/` folder via relative paths (e.g., `src="assets/diamond-kiro.png"`). Nothing is pulled from a CDN or external image host, including third-party badges, which are
+downloaded into `assets/badges/`. The folder contains:
 - Mascot images for 6 rank tiers (bronze, silver, gold, platinum, diamond, iridescent)
 - App icon in multiple sizes (256, 512, favicon, apple-touch-icon)
 - 6 app screenshots used in the gameplay showcase (named `01-node-map-...`, `02-hero-...`, etc.)

@@ -263,11 +263,11 @@ const ctaBox = (slug, override = {}) =>
   )}">${cfg.cta.primaryLabel}</a><a class="btn secondary" href="${cfg.cta.secondaryHref}">${cfg.cta.secondaryLabel}</a></div></div>`;
 
 // Shared <head> alternate/meta blocks reused across page types.
-const FONTS_CSS = `<link rel="preconnect" href="https://fonts.googleapis.com"/>
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Geist:wght@400..900&family=Outfit:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap"/>
-<link href="https://fonts.googleapis.com/css2?family=Geist:wght@400..900&family=Outfit:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'"/>
-<noscript><link href="https://fonts.googleapis.com/css2?family=Geist:wght@400..900&family=Outfit:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet"/></noscript>
+// Fonts are self-hosted (assets/fonts/fonts.css) so nothing third-party loads
+// before the visitor answers the cookie banner.
+const FONTS_CSS = `<link rel="preload" as="style" href="/assets/fonts/fonts.css"/>
+<link href="/assets/fonts/fonts.css" rel="stylesheet" media="print" onload="this.media='all'"/>
+<noscript><link href="/assets/fonts/fonts.css" rel="stylesheet"/></noscript>
 <link rel="stylesheet" href="/iro.css"/>`;
 const HEAD_ICONS = `<link rel="icon" href="${cfg.icons.favicon}" type="image/png"/>
 <link rel="apple-touch-icon" href="${cfg.icons.appleTouch}"/>`;
@@ -510,7 +510,6 @@ function renderPost(post) {
 <link rel="alternate" type="text/plain" title="LLM resource index" href="/llms-index.txt"/>
 <link rel="alternate" type="application/rss+xml" title="Iro AI changelog (RSS)" href="/rss.xml"/>
 <link rel="dns-prefetch" href="//apps.apple.com"/>
-<link rel="preconnect" href="https://apps.apple.com" crossorigin/>
 <link rel="alternate" type="application/atom+xml" title="Iro AI changelog (Atom)" href="/atom.xml"/>
 <link rel="alternate" type="application/feed+json" title="Iro AI changelog (JSON Feed)" href="/feed.json"/>
 <link rel="alternate" type="text/markdown" title="Post in Markdown" href="${D}/llms/blog/${post.slug}.md"/>
@@ -688,7 +687,6 @@ function renderPillar(pillar) {
 <link rel="alternate" type="application/atom+xml" title="Iro AI blog feed (Atom)" href="/blog/atom.xml"/>
 <link rel="alternate" type="application/feed+json" title="Iro AI blog (JSON Feed)" href="/blog/feed.json"/>
 <link rel="dns-prefetch" href="//apps.apple.com"/>
-<link rel="preconnect" href="https://apps.apple.com" crossorigin/>
 <link rel="alternate" type="text/markdown" title="Pillar in Markdown" href="${D}/llms/blog/${pillar.slug}.md"/>
 <link rel="manifest" href="/manifest.json"/>
 <link rel="alternate" type="application/ld+json" title="Iro AI machine-readable product feed" href="/iro.json"/>
@@ -897,7 +895,6 @@ ${heroPreload}
 <link rel="alternate" type="application/atom+xml" title="Iro AI blog feed (Atom)" href="/blog/atom.xml"/>
 <link rel="alternate" type="application/feed+json" title="Iro AI blog (JSON Feed)" href="/blog/feed.json"/>
 <link rel="dns-prefetch" href="//apps.apple.com"/>
-<link rel="preconnect" href="https://apps.apple.com" crossorigin/>
 <link rel="manifest" href="/manifest.json"/>
 <link rel="alternate" type="application/ld+json" title="Iro AI machine-readable product feed" href="/iro.json"/>
 <meta property="og:title" content="The Iro AI Blog"/>
