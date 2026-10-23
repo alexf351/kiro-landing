@@ -75,7 +75,7 @@ Ask what you want to be true in a month.
 
 If it is "I will have been exposed to twenty more ideas," a personalised summary app delivers that reliably, and you should pick on library size and how much you like the narration. If it is "I will do one specific thing better than I do now," you need a product built around repetition and correction, and you should pick the one that specialises in that thing.
 
-Then run the free tier properly. Not whether one exists — whether it lets you complete the real activity end to end, including the feedback. A free tier that shows you the interface tells you nothing about whether you will still be opening the app in March.
+Then run the free tier properly. Not whether one exists — whether it lets you complete the real activity end to end, including the feedback. A free tier that shows you the interface tells you nothing about whether you will still be opening the app in March. If the skill is AI, start with our guide to the best [free app to learn AI](/free-ai-learning-app).
 
 The longer version of that test is in [the best microlearning apps](/blog/best-microlearning-apps), which compares the whole category by the job each app actually does.
 

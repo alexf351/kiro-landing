@@ -20,6 +20,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { bottomBanner, bannerVariant } from './partials/bottom-banner.mjs';
 import { askAiChip } from './ask-ai-logos.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
@@ -452,7 +453,10 @@ function renderPost(post) {
     .filter((r) => fs.existsSync(path.join(ROOT, r.href.replace(/^\//, '') + '.html')))
     .slice(0, 4)
     .map((r) => {
-      let label = r.label;
+      // Pinned short labels (site.config.json exploreLabels) win over the
+      // target page's <title>, so retitling a page for SERP keywords does not
+      // silently relabel every post that links to it on the next regenerate.
+      let label = r.label || (cfg.exploreLabels || {})[r.href];
       if (!label) {
         const f = path.join(ROOT, r.href.replace(/^\//, '') + '.html');
         const m = fs.readFileSync(f, 'utf8').match(/<title[^>]*>(.*?)<\/title>/s);
@@ -555,6 +559,7 @@ ${post.hero ? heroPicture(post.hero) : `<img class="hero-img" src="${heroSrc}" a
 <div class="content">
 ${content}
 </div>
+${bottomBanner({ variant: bannerVariant(post.slug), slug: post.slug })}
 <section class="related"><h2>Read next</h2><ul>${readNext}</ul></section>${exploreBlock}
 <section class="faq"><h2>FAQ</h2>${faq}</section>${post.askAi ? '\n' + askAiBlock(post.askAiPrompt, 'blog:' + post.slug) : ''}
 <section class="related"><h2>About the author</h2><ul><li><a href="${au.url}" rel="author" target="_blank">${esc(au.name)}</a><p>${esc(au.bio)}</p></li></ul></section>
@@ -726,6 +731,7 @@ ${NAV}
 ${(pillar.intro || []).map((h) => h).join('\n')}
 ${ctaBox(pillar.slug)}
 </div>
+${bottomBanner({ variant: bannerVariant(pillar.slug), slug: pillar.slug })}
 <section class="related"><h2>In this pillar</h2><ul class="posts-list">${postsList}</ul></section>
 ${faqSection}
 <section class="related"><h2>Explore more</h2><ul>${related}</ul></section>
@@ -1070,7 +1076,13 @@ function renderSitemap() {
       <image:title>${xml(imgTitle)}</image:title>
     </image:image>
   </url>`;
-  const urls = [entry(D + '/blog', cfg.buildDate, 'weekly', '0.9', D + cfg.blog.ogImage, 'Iro AI Blog')];
+  // The index is as fresh as the newest post or hub it lists (the same date its
+  // visible "Updated" stat shows), not cfg.buildDate, which lags by months.
+  const indexDate = [...posts, ...pillars].reduce((m, p) => {
+    const d = p.dateModified || p.datePublished || '';
+    return d > m ? d : m;
+  }, cfg.buildDate);
+  const urls = [entry(D + '/blog', indexDate, 'weekly', '0.9', D + cfg.blog.ogImage, 'Iro AI Blog')];
   for (const p of pillars)
     urls.push(entry(pillarUrl(p), p.dateModified || cfg.buildDate, 'weekly', '0.88', p.ogImage || og(p.slug), p.title));
   for (const p of posts)

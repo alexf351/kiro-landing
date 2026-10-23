@@ -189,6 +189,17 @@
     openBanner();
   });
 
+  // Banner button order: App Store leads on iPhone, the web app everywhere else.
+  whenReady(function () {
+    var iphone = /iPhone|iPod/i.test(navigator.userAgent) ||
+      (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
+    if (iphone) return;
+    document.querySelectorAll('.iro-banner .cta-row').forEach(function (row) {
+      var web = row.querySelector('a[href*="app.tryiro.com"]');
+      if (web) row.insertBefore(web, row.firstChild);
+    });
+  });
+
   var choice = getChoice();
   if (choice === 'granted') startAnalytics();
   else if (choice !== 'denied' && opt('banner') !== 'off') whenReady(openBanner);
@@ -204,6 +215,7 @@
     if (a.closest('.nav, nav')) return 'nav';
     if (a.closest('.hero')) return 'hero';
     if (a.closest('.cta-box')) return 'in-article';
+    if (a.closest('.iro-banner')) return 'bottom-banner';
     if (a.closest('.ctaband')) return 'bottom';
     if (a.closest('.related')) return 'related';
     if (a.closest('.faq')) return 'faq';

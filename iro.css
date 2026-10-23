@@ -133,3 +133,24 @@ h1,h2,h3,h4{font-family:'Geist','Outfit',sans-serif;font-weight:800}
 /* Generated hero art on root pages (blog-engine/tools/gen-hero-images.mjs) */
 .hero-media{margin:26px 0 0;border-radius:18px;overflow:hidden;border:1px solid var(--line);background:#0A0E1A}
 .hero-media .hero-img{display:block;width:100%;height:auto;border:0;border-radius:0;margin:0}
+
+/* ---------- bottom-of-page download banner ----------
+   One shared block (blog-engine/partials/bottom-banner.mjs). In normal flow,
+   never fixed, so it can't cover the consent banner. */
+.iro-banner{display:flex;gap:clamp(18px,3vw,32px);align-items:center;
+  max-width:760px;margin:clamp(28px,5vw,48px) auto;padding:clamp(20px,3vw,28px);
+  background:var(--surface);border:1px solid var(--line-strong);border-radius:20px;
+  box-shadow:0 0 0 1px rgba(var(--accent-rgb),.05),0 24px 60px rgba(0,0,0,.35)}
+.iro-banner-shot{width:132px;height:auto;flex:0 0 auto;align-self:flex-start;
+  border-radius:18px;border:1px solid var(--line-strong);
+  box-shadow:0 0 0 6px #0B0F1A,0 14px 30px rgba(0,0,0,.5)}
+.iro-banner-copy{min-width:0}
+.iro-banner-h{margin:0 0 8px;font-family:'Geist','Outfit',sans-serif;font-weight:800;
+  font-size:clamp(1.15rem,2.4vw,1.45rem);line-height:1.25;letter-spacing:-.02em;color:var(--ink)}
+.iro-banner-sub{margin:0 0 16px;color:var(--ink-2);font-size:.95rem}
+.iro-banner .cta-row{display:flex;flex-wrap:wrap;gap:10px}
+@media(max-width:640px){
+  .iro-banner{flex-direction:column;align-items:center;text-align:center}
+  .iro-banner .cta-row{justify-content:center}
+  .iro-banner .btn{width:100%}
+}
