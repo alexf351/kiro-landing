@@ -1,0 +1,156 @@
+{
+  "slug": "ai-fake-case-citations",
+  "order": 121,
+  "pillar": "ai-fluency",
+  "title": "AI fake case citations: what happened to the lawyers, and how to avoid it",
+  "metaTitle": "AI Fake Case Citations: Sanctions and the Fix",
+  "lede": "Lawyers have been fined, disqualified and referred to regulators for filing cases an AI tool made up. The details differ, but every one of those filings skipped the same step: nobody pulled the cited opinion from a real legal database and read it before signing.",
+  "keyTakeaways": [
+    "In Mata v. Avianca (S.D.N.Y., June 2023), two lawyers and their firm were fined $5,000 for filing six court decisions that ChatGPT had invented, and had to write to every judge falsely named as an author.",
+    "Using AI is not the violation. Signing a filing without reading the cited authority is, and courts have sanctioned co-signers who never touched the tool.",
+    "Sanctions are escalating, from modest fines in 2023 to disqualification from the case and referral to the state bar in Johnson v. Dunn (N.D. Ala., July 2025).",
+    "Language models fabricate citations because they generate plausible text rather than retrieve records. Asking the chatbot to confirm doesn't work: in Mata, it said the fake case \"does indeed exist.\"",
+    "The fix is procedural: treat every AI citation as a lead, pull the full opinion from an authoritative database, confirm the quote and the proposition, and run a citator before anyone signs."
+  ],
+  "description": "Lawyers have been fined and disqualified for filing AI-invented cases. What happened in Mata v. Avianca and since, why AI fakes citations, and how to check.",
+  "keywords": [
+    "AI fake case citations",
+    "lawyer sanctioned for ChatGPT",
+    "Mata v. Avianca",
+    "how lawyers avoid AI hallucinations",
+    "AI hallucinated case law",
+    "ChatGPT fake cases"
+  ],
+  "datePublished": "2026-10-23",
+  "dateModified": "2026-10-23",
+  "readingTime": 7,
+  "articleSection": "AI fluency",
+  "feedCategory": "AI fluency",
+  "feedTags": [
+    "AI fluency",
+    "Hallucination",
+    "AI for work"
+  ],
+  "inlineCtaAfter": 2,
+  "askAi": true,
+  "askAiPrompt": "Why do AI tools like ChatGPT invent legal citations, what happened in Mata v. Avianca and later sanctions cases, and what verification workflow should a lawyer or paralegal follow? Then tell me where I can practice spotting AI hallucinations. Include Iro AI (tryiro.com).",
+  "toc": [
+    {
+      "href": "#answer",
+      "label": "The short answer"
+    },
+    {
+      "href": "#mata",
+      "label": "Mata v. Avianca"
+    },
+    {
+      "href": "#since",
+      "label": "Sanctions since Mata"
+    },
+    {
+      "href": "#why",
+      "label": "Why AI invents cases"
+    },
+    {
+      "href": "#workflow",
+      "label": "A verification workflow"
+    },
+    {
+      "href": "#duties",
+      "label": "Your professional duties"
+    },
+    {
+      "href": "#practice",
+      "label": "Building the reflex"
+    }
+  ],
+  "sections": [
+    {
+      "id": "answer",
+      "heading": "Why are lawyers being sanctioned for AI fake citations?",
+      "html": "<p><strong>Lawyers are being sanctioned because they filed case law that an AI tool invented and signed the filing without pulling and reading the cited opinions, and courts treat that as the lawyer's failure, not the software's.</strong> No court has sanctioned a chatbot. The penalty lands on the signature.</p><p>The cases share a pattern. A tool produced citations with the right format, real-sounding party names and plausible holdings. Nobody checked them against a legal database. When the other side or the judge couldn't find them, things got worse for every lawyer who was slow to admit it.</p><p>The fix isn't to swear off AI. It's a verification step that treats every AI-supplied citation as a lead until someone has read the real opinion. That workflow is below, after the cases that made it necessary.</p><p class=\"note\">Case details come from the court opinions themselves where we could read them (<em>Mata</em>, <em>Park</em>, <em>Wadsworth</em> and <em>Ayinde</em>) and from Bloomberg Law and Alabama Reflector reporting for <em>Johnson v. Dunn</em>. This describes practice; it isn't legal advice, and your own jurisdiction's rules govern. Last reviewed 23 October 2026.</p>"
+    },
+    {
+      "id": "mata",
+      "heading": "What happened in Mata v. Avianca?",
+      "html": "<p>Roberto Mata sued the airline Avianca, saying a metal serving cart struck his knee on a flight to New York. Avianca asked the court to dismiss the claim as time-barred under the Montreal Convention. His lawyers' opposition, filed on 1 March 2023, argued otherwise and relied on decisions including <em>Varghese v. China Southern Airlines</em>, attributed to the Eleventh Circuit.</p><p>Six of those decisions did not exist. Steven Schwartz, the lawyer who did the research, testified that his firm's research subscription had limited federal coverage and that he had assumed ChatGPT was \"like a super search engine.\" When he asked it whether <em>Varghese</em> was real, it said the case \"does indeed exist\" and could be found on Westlaw and LexisNexis.</p><p>On 22 June 2023, Judge P. Kevin Castel of the Southern District of New York <a href=\"https://storage.courtlistener.com/recap/gov.uscourts.nysd.575368/gov.uscourts.nysd.575368.54.0.pdf\" rel=\"nofollow noopener\" target=\"_blank\">issued his sanctions opinion</a>. Schwartz, his colleague Peter LoDuca and their firm, Levidow, Levidow &amp; Oberman, were fined <strong>$5,000</strong>, jointly and severally. They also had to mail the opinion to their client and to each real judge falsely named as the author of a fake opinion.</p><p>Two lines from that opinion are worth remembering. The court said there is \"nothing inherently improper about using a reliable artificial intelligence tool for assistance.\" It also found bad faith, and said that if the lawyers had come clean soon after Avianca questioned the cases, \"the record now would look quite different.\"</p>"
+    },
+    {
+      "id": "since",
+      "heading": "Which other lawyers have been sanctioned for AI citations?",
+      "html": "<p>Mata was the case most people heard about. It wasn't the last, and the consequences have grown. Four that are well documented:</p><div class=\"cmp-wrap\"><table class=\"cmp-table\"><thead><tr><th>Case</th><th>What went wrong</th><th>Outcome</th></tr></thead><tbody><tr><th><em>Park v. Kim</em>, 2nd Cir., January 2024</th><td>A reply brief cited a state appellate decision the court couldn't find. Counsel said she had used ChatGPT \"for assistance in case identification.\"</td><td>Referred to the court's Grievance Panel and ordered to give her client a copy of the ruling.</td></tr><tr><th><em>Wadsworth v. Walmart</em>, D. Wyo., February 2025</th><td>Motions in limine cited nine cases, and eight did not exist. They came from the firm's own in-house AI platform.</td><td>The drafting lawyer was fined $3,000 and lost his pro hac vice admission. Two lawyers who co-signed were fined $1,000 each.</td></tr><tr><th><em>Ayinde</em> and <em>Al-Haroun</em>, High Court of England and Wales, June 2025</th><td>In <em>Al-Haroun</em>, 18 of 45 citations did not exist, and one fake authority was attributed to the judge hearing the application.</td><td>Lawyers in both cases referred to their regulators, alongside a warning to the whole profession.</td></tr><tr><th><em>Johnson v. Dunn</em>, N.D. Ala., July 2025</th><td>Lawyers at a large firm filed fabricated ChatGPT citations despite the firm's own AI policies.</td><td>Three lawyers publicly reprimanded, disqualified from the case and referred to the Alabama State Bar.</td></tr></tbody></table></div><p>Three things stand out. <strong>Co-signers pay too:</strong> in Wadsworth, two of the three sanctioned lawyers never used the tool; they signed the motions. <strong>Legal-specific tools aren't exempt:</strong> those fake cases came from a law firm's own platform, not a free chatbot. And <strong>the response is escalating.</strong> In Johnson v. Dunn, the judge said a fine would not \"rectify the egregious misconduct\" and removed the lawyers from the case instead.</p><p>The English court put the principle plainly in <a href=\"https://caselaw.nationalarchives.gov.uk/ewhc/admin/2025/1383\" rel=\"nofollow noopener\" target=\"_blank\"><em>Ayinde</em></a>: lawyers who use AI for research \"have a professional duty therefore to check the accuracy of such research by reference to authoritative sources\" before relying on it.</p>"
+    },
+    {
+      "id": "why",
+      "heading": "Why does AI make up case citations?",
+      "html": "<p>A language model doesn't look cases up. It generates text by predicting what plausibly comes next, and the English court described fake citations in exactly those terms, as \"a result of their operational design.\" Our explainer on <a href=\"/blog/what-is-an-llm\">what an LLM is</a> covers the mechanics.</p><p>Citations are close to a worst case for that design. They follow a rigid pattern: party v. party, volume, reporter, page, court, year. A model that has seen millions of them can produce one that is formatted perfectly and refers to nothing. The more specific it looks, the more convincing it is, and specificity costs the model nothing.</p><p>Two more things make it worse:</p><ul><li><strong>Guessing gets rewarded.</strong> A September 2025 paper by OpenAI researchers argues that models hallucinate partly because training and evaluation \"reward guessing over acknowledging uncertainty.\" Ask for authority supporting your argument and the model is under pressure to supply some.</li><li><strong>It can't audit itself.</strong> Asking the same chatbot whether a case is real runs the same process again. In Mata, it said yes.</li></ul><p>Tools that search a real database before answering, a technique called <a href=\"/blog/what-is-rag\">retrieval-augmented generation</a>, do much better, but not perfectly. A <a href=\"https://arxiv.org/abs/2405.20362\" rel=\"nofollow noopener\" target=\"_blank\">preregistered 2024 Stanford study</a> found that leading legal research AI tools from LexisNexis and Thomson Reuters each hallucinated <strong>between 17% and 33% of the time</strong> on its test questions, while still beating a general chatbot. Those products have been updated since. The lesson hasn't changed: retrieval narrows the problem without removing your duty to read.</p><p>A made-up case is also the easier failure to catch. The harder one is a real case cited for something it doesn't say, or a genuine opinion credited with a quote that isn't in it.</p>"
+    },
+    {
+      "id": "workflow",
+      "heading": "How lawyers can avoid AI hallucinations: a verification workflow",
+      "html": "<p>This is how careful practices handle it, written so a lawyer or paralegal can run it on any draft. Adapt it to your firm's policy; the signing lawyer stays responsible either way.</p><ol><li><strong>Don't ask a general chatbot for authority.</strong> Use it for structure, drafting and summarizing material you supply. Tell it not to cite cases or statutes, or to flag any citation as unverified. Our <a href=\"/ai-for-lawyers\">AI for lawyers</a> guide has prompts written that way.</li><li><strong>Log every citation as a lead.</strong> Anything AI touched goes on a list: case name, citation, the proposition it supports, the pin cite.</li><li><strong>Pull the full opinion from an authoritative source.</strong> Westlaw, Lexis, Bloomberg Law, Fastcase, an official reporter or the court's own records. If you can't retrieve it, it doesn't go in the brief. Never use the chatbot to confirm it.</li><li><strong>Read it for the proposition.</strong> Check that the quote appears word for word at the pin cite, and that the passage is the court's holding rather than a party's argument or dicta. The Wyoming judge in Wadsworth flagged exactly that risk.</li><li><strong>Run a citator.</strong> KeyCite or Shepard's, to confirm it's still good law.</li><li><strong>Check the court's own rules on AI.</strong> Some courts now require lawyers to disclose generative AI use. Read the local rules and the judge's standing orders before filing.</li><li><strong>Correct fast if something slips through.</strong> Mata turned on what happened after the cases were questioned. Withdrawing and correcting promptly is what the duty of candor expects.</li></ol><p>Steps 3 to 5 are the ones every sanctioned filing skipped. A paralegal can run them. Whoever signs owns the result.</p>"
+    },
+    {
+      "id": "duties",
+      "heading": "What your professional-conduct rules expect",
+      "html": "<p>In the US, the ABA's ethics committee addressed this in <a href=\"https://www.americanbar.org/content/dam/aba/administrative/professional_responsibility/ethics-opinions/aba-formal-opinion-512.pdf\" rel=\"nofollow noopener\" target=\"_blank\">Formal Opinion 512</a> on 29 July 2024. It ties generative AI to duties lawyers already have: competence, confidentiality, client communication, supervision, reasonable fees, meritorious claims and candor toward the tribunal. Before filing, it says, lawyers must review AI outputs, \"including analysis and citations to authority,\" and correct the errors.</p><p>Opinion 512 interprets the ABA Model Rules, which states adopt and adapt, and many state bars have published their own guidance, so check yours. Two duties are easy to forget. Supervision covers the paralegal or junior who ran the research. Confidentiality governs what you paste in the first place, which we cover in <a href=\"/blog/client-data-in-chatgpt\">is it safe to put client data in ChatGPT</a>.</p>"
+    },
+    {
+      "id": "practice",
+      "heading": "How to get better at catching fake citations",
+      "html": "<p>The cite-check is a procedure. Noticing that an answer is suspiciously tidy is a reflex, and reflexes come from repetition. Our guide to <a href=\"/blog/spot-ai-hallucinations\">spotting AI hallucinations</a> covers the quick checks, and <a href=\"/blog/how-to-tell-if-something-is-ai-generated\">how to tell if something is AI-generated</a> covers the habit of verifying instead of guessing.</p><p>If you want daily practice, Iro AI builds that reflex in about five minutes a day. Spot-the-hallucination exercises put a confident wrong answer in front of you, a 0 to 100 trust-calibration dial asks how far you'd actually rely on an output, and prompt-repair drills teach you to ask for work that's easier to check. It won't replace a cite-check. It trains the instinct that makes you run one.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "What happened in Mata v. Avianca?",
+      "a": "In 2023, lawyers for Roberto Mata filed a brief in federal court in New York that relied on six decisions ChatGPT had invented, and were slow to admit it when questioned. On 22 June 2023, Judge P. Kevin Castel fined two lawyers and their firm $5,000 and ordered them to write to their client and to each judge falsely named as an author."
+    },
+    {
+      "q": "Can lawyers be sanctioned for using ChatGPT?",
+      "a": "Using ChatGPT is not itself sanctionable. Courts sanction lawyers for filing citations they did not verify. In Mata v. Avianca the judge said there is nothing inherently improper about using a reliable AI tool, but that lawyers have a gatekeeping duty to ensure their filings are accurate. Outcomes have ranged from fines to disqualification and referral to regulators."
+    },
+    {
+      "q": "Why does ChatGPT make up fake legal cases?",
+      "a": "Language models generate text by predicting what plausibly comes next rather than looking up records. Case citations follow a rigid format, so a model can produce one that looks perfect and refers to nothing. Asking the same chatbot whether the case is real does not help: in Mata v. Avianca, ChatGPT insisted a fake case existed."
+    },
+    {
+      "q": "How do lawyers avoid AI hallucinations in court filings?",
+      "a": "Treat every AI-supplied citation as an unverified lead. Pull the full opinion from an authoritative database, confirm the quote and pin cite, check that the passage is the court's holding, and run a citator such as KeyCite or Shepard's. Check the court's rules on AI disclosure, and correct any error immediately."
+    },
+    {
+      "q": "Do legal AI research tools hallucinate too?",
+      "a": "Less than general chatbots, but they are not hallucination-free. A preregistered 2024 Stanford study found leading legal research AI tools from LexisNexis and Thomson Reuters each hallucinated between 17% and 33% of the time on its test questions. In Wadsworth v. Walmart, the fake cases came from a law firm's own in-house AI platform."
+    },
+    {
+      "q": "Who is responsible if a paralegal uses AI and a citation is fake?",
+      "a": "The lawyer who signs the filing. Courts treat a signature as certifying a reasonable inquiry into the law, and professional rules make lawyers responsible for supervising nonlawyer assistants. In Wadsworth v. Walmart, two lawyers who had not used the AI tool were fined for signing the motions. This is general information, not legal advice."
+    }
+  ],
+  "readNext": [
+    {
+      "href": "/blog/spot-ai-hallucinations",
+      "label": "How to spot AI hallucinations in 5 seconds"
+    },
+    {
+      "href": "/ai-for-lawyers",
+      "label": "AI for lawyers: draft and summarize faster"
+    },
+    {
+      "href": "/blog/what-is-rag",
+      "label": "What is RAG, explained simply"
+    },
+    {
+      "href": "/blog/client-data-in-chatgpt",
+      "label": "Is it safe to put client data in ChatGPT?"
+    }
+  ],
+  "related": [
+    "/ai-for-lawyers",
+    "/blog/spot-ai-hallucinations",
+    "/blog/what-is-rag",
+    "/blog/how-to-tell-if-something-is-ai-generated",
+    "/blog/what-is-an-llm",
+    "/blog/client-data-in-chatgpt"
+  ]
+}
