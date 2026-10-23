@@ -50,7 +50,6 @@
 <link rel="alternate" type="text/plain" title="LLM resource index" href="/llms-index.txt"/>
 <link rel="alternate" type="application/rss+xml" title="Iro AI changelog (RSS)" href="/rss.xml"/>
 <link rel="dns-prefetch" href="//apps.apple.com"/>
-<link rel="preconnect" href="https://apps.apple.com" crossorigin/>
 <link rel="alternate" type="application/atom+xml" title="Iro AI changelog (Atom)" href="/atom.xml"/>
 <link rel="alternate" type="application/feed+json" title="Iro AI changelog (JSON Feed)" href="/feed.json"/>
 <link rel="manifest" href="/manifest.json"/>
@@ -90,11 +89,9 @@
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"Course","@id":"https://tryiro.com/#ai-fluency-course","name":"Iro AI practical AI fluency curriculum","description":"A mobile-first AI learning curriculum with 34 paths, 522 lessons, 3,000+ exercises, Prompt Lab practice, timed duels, XP, streaks, and ranks.","provider":{"@id":"https://tryiro.com/#organization"},"educationalLevel":"Beginner to advanced","teaches":["AI fluency","Prompt engineering","ChatGPT","Claude","Gemini","Perplexity","AI agents","AI automation","AI image generation","AI video generation","Vibe coding","AI for work"],"hasCourseInstance":{"@type":"CourseInstance","courseMode":"mobile app","courseWorkload":"PT5M per lesson","location":{"@type":"VirtualLocation","url":"https://apps.apple.com/app/id6759628066"}}}
 </script>
-<link href="https://fonts.googleapis.com" rel="preconnect"/>
-<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
-<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Geist:wght@400..900&amp;family=Outfit:wght@400;500;600;700;800&amp;family=JetBrains+Mono:wght@400;500;700&amp;display=swap"/>
-<link href="https://fonts.googleapis.com/css2?family=Geist:wght@400..900&amp;family=Outfit:wght@400;500;600;700;800&amp;family=JetBrains+Mono:wght@400;500;700&amp;display=swap" rel="stylesheet" media="print" onload="this.media='all'"/>
-<noscript><link href="https://fonts.googleapis.com/css2?family=Geist:wght@400..900&amp;family=Outfit:wght@400;500;600;700;800&amp;family=JetBrains+Mono:wght@400;500;700&amp;display=swap" rel="stylesheet"/></noscript>
+<link rel="preload" as="style" href="/assets/fonts/fonts.css"/>
+<link href="/assets/fonts/fonts.css" rel="stylesheet" media="print" onload="this.media='all'"/>
+<noscript><link href="/assets/fonts/fonts.css" rel="stylesheet"/></noscript>
 <style>
 /* ============================================================
    IRO AI — premium landing redesign
@@ -2298,7 +2295,10 @@ document.querySelectorAll('.askai-chip').forEach(function(a){
      Closing trust strip, between the final CTA and the footer. Drop new
      badges in as <li> items; the row holds five before it wraps. Keep
      rel="nofollow noopener" on every one — these are reciprocal
-     badge-for-listing links. -->
+     badge-for-listing links. Self-host the badge image in assets/badges/:
+     a hotlinked image sends every visitor's IP address to the directory
+     before they answer the cookie banner. Verifiers check the link, which
+     still points at the directory. -->
 <!-- No .reveal here, and no loading="lazy" on the badges below. Directory
      verification bots load the page without scrolling: .reveal holds the strip
      at opacity:0 until IntersectionObserver fires, and lazy images never get
@@ -2312,26 +2312,26 @@ document.querySelectorAll('.askai-chip').forEach(function(a){
     <ul class="featured-row">
       <li>
         <a href="https://peerpush.com/p/iro-ai" target="_blank" rel="nofollow noopener">
-          <img src="https://peerpush.com/p/iro-ai/badge.png" alt="Iro AI, #1 Product of the Day on PeerPush"
+          <img src="assets/badges/peerpush-product-of-the-day.png" alt="Iro AI, #1 Product of the Day on PeerPush"
                width="230" height="65" decoding="async">
         </a>
       </li>
       <li>
         <a href="https://wired.business" target="_blank" rel="nofollow noopener">
-          <img src="https://wired.business/badge0-dark.svg" alt="Featured on Wired Business"
+          <img src="assets/badges/wired-business.svg" alt="Featured on Wired Business"
                width="200" height="54" decoding="async">
         </a>
       </li>
       <li>
         <a href="https://startupfa.me/s/iro-ai?utm_source=tryiro.com" target="_blank" rel="noopener">
-          <img src="https://startupfa.me/badges/featured/dark.webp" alt="Iro AI featured on Startup Fame"
+          <img src="assets/badges/startup-fame.webp" alt="Iro AI featured on Startup Fame"
                width="171" height="54" decoding="async">
         </a>
       </li>
       <li>
         <a href="https://firsto.co/projects/iro-ai-learn-ai-skills" target="_blank" rel="nofollow noopener"
            title="Find Iro AI on Firsto">
-          <img src="https://firsto.co/images/badges/find-us-on-firsto.svg" alt="Find Iro AI on Firsto"
+          <img src="assets/badges/firsto.svg" alt="Find Iro AI on Firsto"
                width="111" height="42" decoding="async">
         </a>
       </li>
@@ -2364,6 +2364,7 @@ document.querySelectorAll('.askai-chip').forEach(function(a){
         <a href="https://app.tryiro.com" data-cta="footer">Web app / Log in</a>
         <a href="/privacy">Privacy</a>
         <a href="/terms">Terms</a>
+        <a href="#cookie-settings">Cookie settings</a>
       </div>
       <div class="foot-socials">
         <a href="https://instagram.com/tryiro" aria-label="Instagram" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg></a>

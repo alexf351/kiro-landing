@@ -119,10 +119,12 @@ const CTA_UTM = (slug, placement) =>
   `${APP}?utm_source=seo_page&utm_medium=website&utm_campaign=${slug}${placement ? '&utm_content=' + placement : ''}`;
 
 // ---------- shared chrome ----------
+// Self-hosted (assets/fonts/fonts.css): nothing third-party loads before the
+// visitor answers the cookie banner.
 const FONTS =
-  '<link rel="preconnect" href="https://fonts.googleapis.com"/>' +
-  '<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>' +
-  '<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Geist:wght@400..900&family=Outfit:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap"/>\n<link href="https://fonts.googleapis.com/css2?family=Geist:wght@400..900&family=Outfit:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet" media="print" onload="this.media=\'all\'"/>\n<noscript><link href="https://fonts.googleapis.com/css2?family=Geist:wght@400..900&family=Outfit:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet"/></noscript>';
+  '<link rel="preload" as="style" href="/assets/fonts/fonts.css"/>\n' +
+  '<link href="/assets/fonts/fonts.css" rel="stylesheet" media="print" onload="this.media=\'all\'"/>\n' +
+  '<noscript><link href="/assets/fonts/fonts.css" rel="stylesheet"/></noscript>';
 
 // PostHog + referral scripts load from /consent.js only after the visitor accepts.
 const POSTHOG = `<script src="/consent.js"></script>`;
@@ -246,7 +248,7 @@ const NAV =
   '<nav class="nav-links"><a href="/paths">Path library</a><a href="/learn-chatgpt">Learn ChatGPT</a><a href="/free-ai-learning-app">Free AI learning app</a><a href="/quiz">AI IQ Test</a><a href="/about">About</a><a href="https://app.tryiro.com">Open web app</a></nav></header>';
 
 const FOOTER =
-  '<footer class="footer"><nav><a href="/paths">Path library</a><a href="/privacy">Privacy</a><a href="/terms">Terms</a><a href="/editorial-policy">Editorial policy</a><a href="/for-educators">For educators</a><a href="/blog">Blog</a><a href="/blog/apps-like-duolingo-for-ai">Apps like Duolingo for AI</a><a href="/blog/prompt-engineering">Prompt engineering</a><a href="/duolingo-for-ai">Duolingo for AI</a><a href="/blog/ai-tools">AI tools</a><a href="https://instagram.com/tryiro" target="_blank" rel="noopener">Instagram</a><a href="https://www.tiktok.com/@tryiro" target="_blank" rel="noopener">TikTok</a><a href="https://www.youtube.com/@tryiroai" target="_blank" rel="noopener">YouTube</a><a href="https://x.com/tryiroapp" target="_blank" rel="noopener">X</a><a href="https://www.linkedin.com/company/iro-ai-app/" target="_blank" rel="noopener">LinkedIn</a><a href="https://app.tryiro.com">Web app / Log in</a></nav><p>© 2026 Iro AI. Master AI. Stay ahead.</p></footer>';
+  '<footer class="footer"><nav><a href="/paths">Path library</a><a href="/privacy">Privacy</a><a href="/terms">Terms</a><a href="#cookie-settings">Cookie settings</a><a href="/editorial-policy">Editorial policy</a><a href="/for-educators">For educators</a><a href="/blog">Blog</a><a href="/blog/apps-like-duolingo-for-ai">Apps like Duolingo for AI</a><a href="/blog/prompt-engineering">Prompt engineering</a><a href="/duolingo-for-ai">Duolingo for AI</a><a href="/blog/ai-tools">AI tools</a><a href="https://instagram.com/tryiro" target="_blank" rel="noopener">Instagram</a><a href="https://www.tiktok.com/@tryiro" target="_blank" rel="noopener">TikTok</a><a href="https://www.youtube.com/@tryiroai" target="_blank" rel="noopener">YouTube</a><a href="https://x.com/tryiroapp" target="_blank" rel="noopener">X</a><a href="https://www.linkedin.com/company/iro-ai-app/" target="_blank" rel="noopener">LinkedIn</a><a href="https://app.tryiro.com">Web app / Log in</a></nav><p>© 2026 Iro AI. Master AI. Stay ahead.</p></footer>';
 
 // ---------- page builder ----------
 function buildPage(p, allBySlug, siblings = []) {

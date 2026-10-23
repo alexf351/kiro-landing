@@ -18,9 +18,10 @@
  *   data-convex-analytics="on"   also load the convex.site tracker after Accept
  *                                (only the pages that already carried it)
  *
- * Re-open the banner from anywhere with a link to #cookie-settings, an element
- * with data-cookie-settings, or window.iroConsent.open(). Switching from
- * Accept to Reject clears the analytics storage and reloads the page.
+ * Re-open the banner from anywhere with a link to #cookie-settings (every page
+ * footer has one, labelled "Cookie settings"), an element with
+ * data-cookie-settings, or window.iroConsent.open(). Switching from Accept to
+ * Reject clears the analytics storage and reloads the page.
  */
 (function () {
   'use strict';
@@ -180,13 +181,21 @@
     else fn();
   }
 
-  window.iroConsent = { get: getChoice, open: function () { whenReady(openBanner); } };
+  // Opened on request (the Cookie settings link): move focus into the banner so
+  // keyboard and screen-reader users land on the choice they asked for.
+  function openOnRequest() {
+    openBanner();
+    var first = banner && banner.querySelector('button');
+    if (first) first.focus({ preventScroll: true });
+  }
+
+  window.iroConsent = { get: getChoice, open: function () { whenReady(openOnRequest); } };
 
   document.addEventListener('click', function (e) {
     var el = e.target && e.target.closest && e.target.closest('a[href="#cookie-settings"],[data-cookie-settings]');
     if (!el) return;
     e.preventDefault();
-    openBanner();
+    openOnRequest();
   });
 
   // Banner button order: App Store leads on iPhone, the web app everywhere else.

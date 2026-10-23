@@ -2028,6 +2028,14 @@
     "pt-br": "Termos",
     "it": "Termini"
    },
+   "cookies": {
+    "en": "Cookie settings",
+    "es": "Configuración de cookies",
+    "fr": "Paramètres des cookies",
+    "de": "Cookie-Einstellungen",
+    "pt-br": "Configurações de cookies",
+    "it": "Impostazioni dei cookie"
+   },
    "explore": {
     "en": "Explore Iro",
     "es": "Explora Iro",

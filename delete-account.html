@@ -43,7 +43,6 @@
 <link rel="alternate" type="text/plain" title="LLM resource index" href="/llms-index.txt"/>
 <link rel="alternate" type="application/rss+xml" title="Iro AI changelog (RSS)" href="/rss.xml"/>
 <link rel="dns-prefetch" href="//apps.apple.com"/>
-<link rel="preconnect" href="https://apps.apple.com" crossorigin/>
 <link rel="dns-prefetch" href="//www.googletagmanager.com"/>
 <link rel="alternate" type="application/atom+xml" title="Iro AI changelog (Atom)" href="/atom.xml"/>
 <link rel="alternate" type="application/feed+json" title="Iro AI changelog (JSON Feed)" href="/feed.json"/>
@@ -52,9 +51,9 @@
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"WebPage","name":"Delete Your Iro AI Account","description":"Learn how to request deletion of your Iro AI account and data, what is deleted, what may be retained, and how subscriptions are handled.","url":"https://tryiro.com/delete-account","isPartOf":{"@type":"WebSite","name":"Iro AI","url":"https://tryiro.com/"},"publisher":{"@type":"Organization","name":"Iro AI","url":"https://tryiro.com"},"inLanguage":"en-US"}
 </script>
-<link href="https://fonts.googleapis.com" rel="preconnect"/>
-<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
-<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700;800;900&family=JetBrains+Mono:wght@700&display=swap" rel="stylesheet"/>
+<link rel="preload" as="style" href="/assets/fonts/fonts.css"/>
+<link href="/assets/fonts/fonts.css" rel="stylesheet" media="print" onload="this.media='all'"/>
+<noscript><link href="/assets/fonts/fonts.css" rel="stylesheet"/></noscript>
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
 :root{
@@ -140,6 +139,10 @@ section a:hover{opacity:.7}
   border-top:1px solid rgba(255,255,255,.03);
   font-size:11px;color:var(--text3);opacity:.4
 }
+.legal-links{display:flex;flex-wrap:wrap;justify-content:center;gap:4px 20px;margin-top:64px;font-size:13px}
+.legal-links a{color:var(--text2);text-decoration:none;padding:6px 2px}
+.legal-links a:hover,.legal-links a[aria-current]{color:var(--cyan)}
+.legal-links + .legal-footer{margin-top:16px}
 
 .ambient-gradient{
   position:fixed;top:0;left:0;right:0;bottom:0;z-index:-2;pointer-events:none;
@@ -159,11 +162,7 @@ section a:hover{opacity:.7}
   main{padding:100px 16px 60px}
   section{padding:20px 18px}
 }
-</style><link rel="preconnect" href="https://fonts.googleapis.com"/>
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Geist:wght@400..900&family=Outfit:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap"/>
-<link href="https://fonts.googleapis.com/css2?family=Geist:wght@400..900&family=Outfit:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'"/>
-<noscript><link href="https://fonts.googleapis.com/css2?family=Geist:wght@400..900&family=Outfit:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet"/></noscript>
+</style>
 <link rel="stylesheet" href="/iro.css"/>
 <meta name="apple-itunes-app" content="app-id=6759628066"/>
 <script src="/consent.js" data-convex-analytics="on"></script>
@@ -221,6 +220,7 @@ section a:hover{opacity:.7}
 <p>If you have any questions about account deletion or what happens to your data, reach out to <a href="mailto:support@tryiro.com">support@tryiro.com</a> and we&rsquo;ll get back to you.</p>
 </section>
 
+<nav class="legal-links" aria-label="Legal"><a href="/privacy">Privacy</a><a href="/terms">Terms</a><a href="#cookie-settings">Cookie settings</a></nav>
 <div class="legal-footer">&copy; 2026 Iro. Master AI. Become Unreplaceable.</div>
 </main>
 </body></html>

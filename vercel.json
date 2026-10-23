@@ -121,6 +121,31 @@
       "source": "/pt-BR",
       "destination": "/pt-br",
       "permanent": true
+    },
+    {
+      "source": "/es/",
+      "destination": "/es",
+      "permanent": true
+    },
+    {
+      "source": "/fr/",
+      "destination": "/fr",
+      "permanent": true
+    },
+    {
+      "source": "/de/",
+      "destination": "/de",
+      "permanent": true
+    },
+    {
+      "source": "/pt-br/",
+      "destination": "/pt-br",
+      "permanent": true
+    },
+    {
+      "source": "/it/",
+      "destination": "/it",
+      "permanent": true
     }
   ],
   "headers": [
@@ -531,45 +556,6 @@
       ]
     },
     {
-      "source": "/es/",
-      "headers": [
-        {
-          "key": "Content-Language",
-          "value": "es"
-        },
-        {
-          "key": "Cache-Control",
-          "value": "public, max-age=3600"
-        }
-      ]
-    },
-    {
-      "source": "/fr/",
-      "headers": [
-        {
-          "key": "Content-Language",
-          "value": "fr"
-        },
-        {
-          "key": "Cache-Control",
-          "value": "public, max-age=3600"
-        }
-      ]
-    },
-    {
-      "source": "/de/",
-      "headers": [
-        {
-          "key": "Content-Language",
-          "value": "de"
-        },
-        {
-          "key": "Cache-Control",
-          "value": "public, max-age=3600"
-        }
-      ]
-    },
-    {
       "source": "/pt-br",
       "headers": [
         {
@@ -584,19 +570,6 @@
     },
     {
       "source": "/pt-br.html",
-      "headers": [
-        {
-          "key": "Content-Language",
-          "value": "pt-BR"
-        },
-        {
-          "key": "Cache-Control",
-          "value": "public, max-age=3600"
-        }
-      ]
-    },
-    {
-      "source": "/pt-br/",
       "headers": [
         {
           "key": "Content-Language",
@@ -635,19 +608,6 @@
       ]
     },
     {
-      "source": "/it/",
-      "headers": [
-        {
-          "key": "Content-Language",
-          "value": "it"
-        },
-        {
-          "key": "Cache-Control",
-          "value": "public, max-age=3600"
-        }
-      ]
-    },
-    {
       "source": "/localization.json",
       "headers": [
         {
@@ -663,6 +623,24 @@
           "value": "*"
         }
       ]
+    },
+    {
+      "source": "/assets/fonts/(.*).woff2",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
+    },
+    {
+      "source": "/assets/fonts/fonts.css",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=86400, stale-while-revalidate=604800"
+        }
+      ]
     }
   ],
   "rewrites": [
@@ -675,15 +653,7 @@
       "destination": "/es.html"
     },
     {
-      "source": "/es/",
-      "destination": "/es.html"
-    },
-    {
       "source": "/fr",
-      "destination": "/fr.html"
-    },
-    {
-      "source": "/fr/",
       "destination": "/fr.html"
     },
     {
@@ -691,23 +661,11 @@
       "destination": "/de.html"
     },
     {
-      "source": "/de/",
-      "destination": "/de.html"
-    },
-    {
       "source": "/pt-br",
       "destination": "/pt-br.html"
     },
     {
-      "source": "/pt-br/",
-      "destination": "/pt-br.html"
-    },
-    {
       "source": "/it",
-      "destination": "/it.html"
-    },
-    {
-      "source": "/it/",
       "destination": "/it.html"
     },
     {

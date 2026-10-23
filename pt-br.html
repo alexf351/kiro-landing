@@ -50,7 +50,6 @@
 <link rel="alternate" type="text/plain" title="LLM resource index" href="/llms-index.txt"/>
 <link rel="alternate" type="application/rss+xml" title="Iro AI changelog (RSS)" href="/rss.xml"/>
 <link rel="dns-prefetch" href="//apps.apple.com"/>
-<link rel="preconnect" href="https://apps.apple.com" crossorigin/>
 <link rel="alternate" type="application/atom+xml" title="Iro AI changelog (Atom)" href="/atom.xml"/>
 <link rel="alternate" type="application/feed+json" title="Iro AI changelog (JSON Feed)" href="/feed.json"/>
 <link rel="manifest" href="/manifest.json"/>
@@ -69,11 +68,9 @@
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"ItemList","@id":"https://tryiro.com/pt-br#learning-paths","name":"Trilhas de aprendizagem do Iro AI","description":"34 trilhas de aprendizagem em quatro eixos (Domínio de ferramentas, Criatividade e código, Trabalho e carreira, Habilidades essenciais) dentro do app Iro AI para iOS.","itemListOrder":"https://schema.org/ItemListOrderAscending","numberOfItems":18,"itemListElement":[{"@type":"ListItem","position":1,"name":"ChatGPT","url":"https://tryiro.com/learn-chatgpt"},{"@type":"ListItem","position":2,"name":"Claude","url":"https://tryiro.com/learn-claude"},{"@type":"ListItem","position":3,"name":"Gemini","url":"https://tryiro.com/learn-gemini"},{"@type":"ListItem","position":4,"name":"Perplexity","url":"https://tryiro.com/learn-perplexity"},{"@type":"ListItem","position":5,"name":"Engenharia de prompt","url":"https://tryiro.com/prompt-engineering-app"},{"@type":"ListItem","position":6,"name":"Agentes de IA","url":"https://tryiro.com/ai-agents-course"},{"@type":"ListItem","position":7,"name":"Automação com IA","url":"https://tryiro.com/ai-automation-course"},{"@type":"ListItem","position":8,"name":"Geração de imagens com IA","url":"https://tryiro.com/ai-image-generation-course"},{"@type":"ListItem","position":9,"name":"Geração de vídeo com IA","url":"https://tryiro.com/ai-video-generation-course"},{"@type":"ListItem","position":10,"name":"Vibe coding","url":"https://tryiro.com/vibe-coding-course"},{"@type":"ListItem","position":11,"name":"IA para marketing","url":"https://tryiro.com/ai-for-marketing"},{"@type":"ListItem","position":12,"name":"IA para finanças","url":"https://tryiro.com/ai-for-finance"},{"@type":"ListItem","position":13,"name":"IA para o trabalho","url":"https://tryiro.com/ai-for-work"},{"@type":"ListItem","position":14,"name":"IA para estudantes","url":"https://tryiro.com/ai-for-students"},{"@type":"ListItem","position":15,"name":"IA para a saúde","url":"https://tryiro.com/ai-for-healthcare"},{"@type":"ListItem","position":16,"name":"IA para gestores","url":"https://tryiro.com/ai-for-managers"},{"@type":"ListItem","position":17,"name":"Busca de emprego com IA","url":"https://tryiro.com/ai-job-hunting"},{"@type":"ListItem","position":18,"name":"App para aprender IA do zero","url":"https://tryiro.com/ai-learning-app-for-beginners"}],"inLanguage":"pt-BR"}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","@id":"https://tryiro.com/pt-br#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Iro AI","item":"https://tryiro.com/pt-br"}]}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"Course","@id":"https://tryiro.com/pt-br#ai-fluency-course","name":"Currículo prático de fluência em IA do Iro AI","description":"Um currículo de aprendizagem de IA pensado para o celular, com 34 trilhas, 522 lições, mais de 3.000 exercícios, prática no Prompt Lab, duelos cronometrados, XP, ofensivas e ranks.","provider":{"@id":"https://tryiro.com/#organization"},"educationalLevel":"Do iniciante ao avançado","teaches":["Fluência em IA","Engenharia de prompt","ChatGPT","Claude","Gemini","Perplexity","Agentes de IA","Automação com IA","Geração de imagens com IA","Geração de vídeo com IA","Vibe coding","IA para o trabalho"],"hasCourseInstance":{"@type":"CourseInstance","courseMode":"app para celular","courseWorkload":"PT5M per lesson","location":{"@type":"VirtualLocation","url":"https://apps.apple.com/app/id6759628066"}},"inLanguage":"pt-BR"}</script>
-<link href="https://fonts.googleapis.com" rel="preconnect"/>
-<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
-<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Geist:wght@400..900&amp;family=Outfit:wght@400;500;600;700;800&amp;family=JetBrains+Mono:wght@400;500;700&amp;display=swap"/>
-<link href="https://fonts.googleapis.com/css2?family=Geist:wght@400..900&amp;family=Outfit:wght@400;500;600;700;800&amp;family=JetBrains+Mono:wght@400;500;700&amp;display=swap" rel="stylesheet" media="print" onload="this.media='all'"/>
-<noscript><link href="https://fonts.googleapis.com/css2?family=Geist:wght@400..900&amp;family=Outfit:wght@400;500;600;700;800&amp;family=JetBrains+Mono:wght@400;500;700&amp;display=swap" rel="stylesheet"/></noscript>
+<link rel="preload" as="style" href="/assets/fonts/fonts.css"/>
+<link href="/assets/fonts/fonts.css" rel="stylesheet" media="print" onload="this.media='all'"/>
+<noscript><link href="/assets/fonts/fonts.css" rel="stylesheet"/></noscript>
 <style>
 /* ============================================================
    IRO AI — premium landing redesign
@@ -2279,7 +2276,10 @@ document.querySelectorAll('.askai-chip').forEach(function(a){
      Closing trust strip, between the final CTA and the footer. Drop new
      badges in as <li> items; the row holds five before it wraps. Keep
      rel="nofollow noopener" on every one — these are reciprocal
-     badge-for-listing links. -->
+     badge-for-listing links. Self-host the badge image in assets/badges/:
+     a hotlinked image sends every visitor's IP address to the directory
+     before they answer the cookie banner. Verifiers check the link, which
+     still points at the directory. -->
 <!-- No .reveal here, and no loading="lazy" on the badges below. Directory
      verification bots load the page without scrolling: .reveal holds the strip
      at opacity:0 until IntersectionObserver fires, and lazy images never get
@@ -2293,26 +2293,26 @@ document.querySelectorAll('.askai-chip').forEach(function(a){
     <ul class="featured-row">
       <li>
         <a href="https://peerpush.com/p/iro-ai" target="_blank" rel="nofollow noopener">
-          <img src="https://peerpush.com/p/iro-ai/badge.png" alt="Iro AI, produto nº 1 do dia no PeerPush"
+          <img src="assets/badges/peerpush-product-of-the-day.png" alt="Iro AI, produto nº 1 do dia no PeerPush"
                width="230" height="65" decoding="async">
         </a>
       </li>
       <li>
         <a href="https://wired.business" target="_blank" rel="nofollow noopener">
-          <img src="https://wired.business/badge0-dark.svg" alt="Destaque na Wired Business"
+          <img src="assets/badges/wired-business.svg" alt="Destaque na Wired Business"
                width="200" height="54" decoding="async">
         </a>
       </li>
       <li>
         <a href="https://startupfa.me/s/iro-ai?utm_source=tryiro.com" target="_blank" rel="noopener">
-          <img src="https://startupfa.me/badges/featured/dark.webp" alt="Iro AI em destaque no Startup Fame"
+          <img src="assets/badges/startup-fame.webp" alt="Iro AI em destaque no Startup Fame"
                width="171" height="54" decoding="async">
         </a>
       </li>
       <li>
         <a href="https://firsto.co/projects/iro-ai-learn-ai-skills" target="_blank" rel="nofollow noopener"
            title="Encontre o Iro AI no Firsto">
-          <img src="https://firsto.co/images/badges/find-us-on-firsto.svg" alt="Encontre o Iro AI no Firsto"
+          <img src="assets/badges/firsto.svg" alt="Encontre o Iro AI no Firsto"
                width="111" height="42" decoding="async">
         </a>
       </li>
@@ -2345,6 +2345,7 @@ document.querySelectorAll('.askai-chip').forEach(function(a){
         <a href="https://app.tryiro.com" data-cta="footer">App web / Entrar</a>
         <a href="/privacy">Privacidade</a>
         <a href="/terms">Termos</a>
+        <a href="#cookie-settings">Configurações de cookies</a>
       </div>
       <div class="foot-socials">
         <a href="https://instagram.com/tryiro" aria-label="Instagram" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg></a>
