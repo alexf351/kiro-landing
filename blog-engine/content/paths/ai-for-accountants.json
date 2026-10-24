@@ -151,6 +151,10 @@
   ],
   "readNext": [
     {
+      "href": "/blog/client-data-in-chatgpt",
+      "label": "Is it safe to put client data in ChatGPT?"
+    },
+    {
       "href": "/blog/spot-ai-hallucinations",
       "label": "How to spot AI hallucinations"
     },

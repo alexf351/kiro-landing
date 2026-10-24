@@ -4,5 +4,136 @@
      was published in that window. That is correct, not a bug. -->
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
-
+  <url>
+    <loc>https://tryiro.com/blog/gemini-4-argon</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Iro AI</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-23T00:00:00Z</news:publication_date>
+      <news:title>Gemini 4 Argon: what it is, who actually has it, and what the numbers mean</news:title>
+      <news:keywords>Gemini 4 Argon, Gemini Argon, Gemini 4 Argon free, Gemini 4 Argon benchmarks, Gemini 4 Argon vs GPT-6 Astra, Gemini 4 Argon Google AI Pro</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://tryiro.com/blog/claude-duet</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Iro AI</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-23T00:00:00Z</news:publication_date>
+      <news:title>Claude Duet: what Anthropic's background agent does, and what to check first</news:title>
+      <news:keywords>Claude Duet, what is Claude Duet, Claude Duet waitlist, Claude Duet safety, Anthropic proactive agent, Claude Duet Pro and Max</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://tryiro.com/blog/gpt-6-pro-parallel-agents</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Iro AI</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-23T00:00:00Z</news:publication_date>
+      <news:title>GPT-6 Pro parallel agents: what they are, who gets them, and when they help</news:title>
+      <news:keywords>GPT-6 Pro parallel agents, GPT-6 Pro, ChatGPT parallel agents, GPT-6 Pro ChatGPT Plus, GPT-6 Astra Pro, multi-agent ChatGPT</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://tryiro.com/blog/ai-fake-case-citations</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Iro AI</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-23T00:00:00Z</news:publication_date>
+      <news:title>AI fake case citations: what happened to the lawyers, and how to avoid it</news:title>
+      <news:keywords>AI fake case citations, lawyer sanctioned for ChatGPT, Mata v. Avianca, how lawyers avoid AI hallucinations, AI hallucinated case law, ChatGPT fake cases</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://tryiro.com/blog/best-ai-apps-for-iphone</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Iro AI</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-23T00:00:00Z</news:publication_date>
+      <news:title>The best AI apps for iPhone in 2026, picked by job</news:title>
+      <news:keywords>best AI apps for iPhone, best AI apps for iPhone 2026, best AI apps iOS, best AI assistant app for iPhone, ChatGPT on iPhone, AI apps for iOS</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://tryiro.com/blog/client-data-in-chatgpt</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Iro AI</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-23T00:00:00Z</news:publication_date>
+      <news:title>Is it safe to put client data in ChatGPT? A guide for accountants, lawyers and HR</news:title>
+      <news:keywords>is it safe to put client data in ChatGPT, can I use ChatGPT with confidential information, ChatGPT data privacy, ChatGPT confidentiality for lawyers, ChatGPT client data for accountants, ChatGPT employee data HR</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://tryiro.com/blog/how-to-check-ai-generated-sql</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Iro AI</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-23T00:00:00Z</news:publication_date>
+      <news:title>How to check AI-generated SQL before you trust the numbers</news:title>
+      <news:keywords>how to check SQL from ChatGPT, is ChatGPT SQL accurate, AI SQL mistakes, AI-generated SQL, ChatGPT SQL prompt, validate SQL query results</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://tryiro.com/blog/ai-for-performance-reviews</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Iro AI</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-23T00:00:00Z</news:publication_date>
+      <news:title>How to use AI for performance reviews without letting it judge anyone</news:title>
+      <news:keywords>how to use AI for performance reviews, ChatGPT performance review, AI self-evaluation, AI performance review prompts, write a self-review with AI, AI for managers</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://tryiro.com/blog/gamma-vs-canva-vs-chatgpt-slides</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Iro AI</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-23T00:00:00Z</news:publication_date>
+      <news:title>Gamma vs Canva vs ChatGPT for slides: which AI should make your deck?</news:title>
+      <news:keywords>Gamma vs Canva, best AI for making slides, ChatGPT vs Gamma for presentations, Gamma vs ChatGPT, Canva AI presentations, AI presentation maker</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://tryiro.com/blog/ai-cold-email-that-doesnt-sound-like-ai</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Iro AI</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-23T00:00:00Z</news:publication_date>
+      <news:title>How to write an AI cold email that doesn't sound like AI</news:title>
+      <news:keywords>AI cold email that doesn't sound like AI, how to write cold emails with ChatGPT, AI outreach that gets replies, ChatGPT cold email prompt, AI sales email, AI recruiter outreach</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://tryiro.com/blog/notion-ai-vs-chatgpt</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Iro AI</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-23T00:00:00Z</news:publication_date>
+      <news:title>Notion AI vs ChatGPT: which to use, and is Notion AI worth it?</news:title>
+      <news:keywords>Notion AI vs ChatGPT, is Notion AI worth it, Notion AI pricing, Notion AI meeting notes, ChatGPT vs Notion AI, Notion AI Business plan</news:keywords>
+    </news:news>
+  </url>
 </urlset>

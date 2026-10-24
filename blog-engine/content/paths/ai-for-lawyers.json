@@ -151,6 +151,14 @@
   ],
   "readNext": [
     {
+      "href": "/blog/ai-fake-case-citations",
+      "label": "AI fake case citations, and how to avoid them"
+    },
+    {
+      "href": "/blog/client-data-in-chatgpt",
+      "label": "Is it safe to put client data in ChatGPT?"
+    },
+    {
       "href": "/blog/spot-ai-hallucinations",
       "label": "How to spot AI hallucinations"
     },

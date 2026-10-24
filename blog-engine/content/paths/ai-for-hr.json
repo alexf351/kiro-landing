@@ -151,6 +151,14 @@
   ],
   "readNext": [
     {
+      "href": "/blog/ai-for-performance-reviews",
+      "label": "How to use AI for performance reviews"
+    },
+    {
+      "href": "/blog/client-data-in-chatgpt",
+      "label": "Is it safe to put client data in ChatGPT?"
+    },
+    {
       "href": "/blog/how-to-use-ai-at-work",
       "label": "How to use AI at work"
     },

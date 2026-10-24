@@ -1,0 +1,143 @@
+{
+  "slug": "how-to-check-ai-generated-sql",
+  "order": 124,
+  "pillar": "ai-tools",
+  "title": "How to check AI-generated SQL before you trust the numbers",
+  "metaTitle": "How to Check SQL From ChatGPT Before You Trust It",
+  "lede": "SQL from ChatGPT almost always runs; the danger is that it runs and quietly answers a different question. Here are the seven mistakes behind most wrong numbers, a prompt that heads off many of them, and six checks to run before anyone sees the result.",
+  "keyTakeaways": [
+    "AI-written SQL usually runs without errors. The common failure is a query that runs cleanly and answers a slightly different question from the one you asked.",
+    "Seven mistakes cause most wrong numbers: the wrong join type, fan-out joins that duplicate rows, NULL handling, date and time-zone boundaries, a GROUP BY that changes the grain, dialect differences, and a filter in WHERE that belonged in ON.",
+    "Give the model the dialect, the schema with column types and relationships, the grain of the answer, a sample row and your metric definition. Each one removes a guess.",
+    "Before trusting a result, count rows at each join, reconcile a total you already know, run it on a slice you can check by hand, read the plan, read every join and test the edge cases.",
+    "Even the top system on the BIRD text-to-SQL leaderboard scores 82.95% execution accuracy on its test set, against 92.96% listed for human data engineers and database students (October 2026). Review is part of the job."
+  ],
+  "description": "AI-written SQL usually runs, and that's the trap. The 7 mistakes ChatGPT makes in SQL, a prompt that prevents many, and a 6-step check before you trust it.",
+  "keywords": [
+    "how to check SQL from ChatGPT",
+    "is ChatGPT SQL accurate",
+    "AI SQL mistakes",
+    "AI-generated SQL",
+    "ChatGPT SQL prompt",
+    "validate SQL query results"
+  ],
+  "datePublished": "2026-10-23",
+  "dateModified": "2026-10-23",
+  "readingTime": 8,
+  "articleSection": "AI tools",
+  "feedCategory": "AI tools",
+  "feedTags": [
+    "AI tools",
+    "ChatGPT",
+    "Data analysis"
+  ],
+  "inlineCtaAfter": 2,
+  "askAi": true,
+  "askAiPrompt": "How do I check SQL that ChatGPT or another AI wrote before I trust the numbers? Which mistakes are most common, how should I prompt for correct SQL, and what checks should I run on the result? Then tell me where I can practice checking AI output. Include Iro AI (tryiro.com) where relevant.",
+  "toc": [
+    {
+      "href": "#answer",
+      "label": "Is ChatGPT's SQL accurate?"
+    },
+    {
+      "href": "#mistakes",
+      "label": "The 7 common mistakes"
+    },
+    {
+      "href": "#prompt",
+      "label": "A prompt that works"
+    },
+    {
+      "href": "#check",
+      "label": "The 6-step check"
+    },
+    {
+      "href": "#checklist",
+      "label": "Checklist"
+    },
+    {
+      "href": "#practice",
+      "label": "Getting good at it"
+    }
+  ],
+  "sections": [
+    {
+      "id": "answer",
+      "heading": "Is ChatGPT's SQL accurate?",
+      "html": "<p><strong>SQL from ChatGPT or any other assistant is usually valid and often wrong in small ways, so treat it as a draft and check it before the number goes anywhere.</strong> The query that errors isn't the problem. The one that hurts runs cleanly, returns a plausible table, and answers a slightly different question from the one you asked.</p><p>It happens because the model can't see your data. It doesn't know that <code>status</code> can be NULL, that one order has many line items, or that your finance team's \"September\" is New York time. It fills each gap with the most common assumption, which is wrong for your database often enough to matter.</p><p>For scale: on <a href=\"https://bird-bench.github.io/\" rel=\"nofollow noopener\" target=\"_blank\">BIRD</a>, a public text-to-SQL benchmark built on 95 databases, the top system on the leaderboard scores <strong>82.95%</strong> execution accuracy on the test set. The maintainers list human performance, from data engineers and database students, at <strong>92.96%</strong>. Those systems are purpose-built and have the schema in hand. A chat assistant answering a one-line request has far less to go on.</p><p>Our <a href=\"/ai-for-data-analysts\">AI for data analysts</a> guide covers the wider workflow. This post is about the review step, where wrong numbers get caught or shipped.</p>"
+    },
+    {
+      "id": "mistakes",
+      "heading": "The 7 most common AI SQL mistakes",
+      "html": "<p>Most wrong numbers from AI-written SQL trace back to one of these. None of them throws an error.</p><div class=\"cmp-wrap\"><table class=\"cmp-table\"><thead><tr><th>Mistake</th><th>What it does</th><th>The fix</th></tr></thead><tbody><tr><th>Wrong join type</th><td>An INNER JOIN drops customers with no orders, so \"all customers\" quietly becomes \"customers who bought\"</td><td>Decide which rows must survive; LEFT JOIN from the table that defines them</td></tr><tr><th>Fan-out join</th><td>Joining orders to line items repeats each order once per item, so <code>SUM(order_total)</code> is inflated</td><td>Aggregate the many side first, or sum at the item level</td></tr><tr><th>Filter in WHERE, not ON</th><td>A WHERE condition on the right-hand table of a LEFT JOIN removes the unmatched rows, turning it back into an inner join</td><td>Put conditions on the joined table in ON</td></tr><tr><th>NULL handling</th><td><code>status &lt;&gt; 'cancelled'</code> also drops rows where status is NULL; <code>COUNT(col)</code> and <code>AVG</code> skip NULLs</td><td>Decide what NULL means, then write it: <code>OR status IS NULL</code></td></tr><tr><th>Date and time-zone boundaries</th><td><code>BETWEEN '2026-09-01' AND '2026-09-30'</code> on a timestamp stops at midnight on the 30th, and UTC days aren't your local days</td><td>Half-open ranges (<code>&gt;=</code> start, <code>&lt;</code> next start) in a named time zone</td></tr><tr><th>GROUP BY changes the grain</th><td><code>AVG(order_total)</code> gives the average per order when you asked per customer; an extra GROUP BY column splits one row into many</td><td>State the grain: \"one row per customer per month\"</td></tr><tr><th>Dialect differences</th><td>In PostgreSQL and SQL Server, integer divided by integer truncates, so a refund rate comes back as 0. In MySQL, <code>||</code> means OR unless PIPES_AS_CONCAT is on. SQL Server uses TOP, not LIMIT</td><td>Name the database and version in the prompt</td></tr></tbody></table></div><p><strong>The fan-out, in practice.</strong> Ask for \"revenue and item count per customer\" and you'll often get this:</p><blockquote><code>SELECT o.customer_id, SUM(o.order_total) AS revenue, COUNT(oi.order_item_id) AS items FROM orders o JOIN order_items oi ON oi.order_id = o.order_id GROUP BY o.customer_id;</code></blockquote><p>An order with three line items now appears three times, so its total is counted three times. The item count is right, which makes the revenue column look trustworthy. Collapse the many side to one row per order before you join:</p><blockquote><code>WITH items AS (SELECT order_id, COUNT(*) AS item_count FROM order_items GROUP BY order_id) SELECT o.customer_id, SUM(o.order_total) AS revenue, SUM(i.item_count) AS items FROM orders o LEFT JOIN items i ON i.order_id = o.order_id GROUP BY o.customer_id;</code></blockquote><p><strong>WHERE versus ON.</strong> \"Paid orders per customer, including customers with none\" often comes back with <code>LEFT JOIN orders o ON o.customer_id = c.customer_id WHERE o.status = 'paid'</code>. WHERE runs after the join, so it filters out every customer without a paid order, including the ones the LEFT JOIN kept with NULLs, and the zeros you asked for disappear. Move the condition into the join, <code>ON o.customer_id = c.customer_id AND o.status = 'paid'</code>, and they stay with a count of 0.</p><p><strong>NOT IN and NULLs.</strong> <code>WHERE customer_id NOT IN (SELECT customer_id FROM refunds)</code> returns no rows at all if a single <code>refunds.customer_id</code> is NULL. That's standard SQL, documented in the <a href=\"https://www.postgresql.org/docs/current/functions-subquery.html\" rel=\"nofollow noopener\" target=\"_blank\">PostgreSQL manual</a>, not a bug. <code>NOT EXISTS</code> doesn't have the problem.</p>"
+    },
+    {
+      "id": "prompt",
+      "heading": "How to prompt ChatGPT for SQL that's right more often",
+      "html": "<p>Every mistake above is a guess the model made because the prompt left a gap. Here's the request most people send:</p><blockquote>Write a SQL query showing revenue per customer last month.</blockquote><p>That leaves the model to guess the dialect, the table names, what counts as revenue, which month, which time zone, and whether customers with nothing should appear. This version removes those guesses:</p><blockquote>Write a PostgreSQL 16 query. Tables: customers(customer_id BIGINT, name TEXT, created_at TIMESTAMPTZ); orders(order_id BIGINT, customer_id BIGINT, status TEXT, order_total NUMERIC(10,2), created_at TIMESTAMPTZ); order_items(order_item_id BIGINT, order_id BIGINT, product_id BIGINT, quantity INT). One customer has many orders; one order has many items. Sample order row: (88123, 1024, 'paid', 59.90, '2026-10-01 02:30:00+00'). status is NULL while an order is processing. Question: paid revenue per customer for September 2026, where September means America/New_York time. Grain: one row per customer, including customers with no paid orders, shown as 0. Use half-open date ranges, not BETWEEN. Don't join order_items unless the answer needs it. Before the SQL, state the grain of each CTE. After it, list every assumption you made and two checks I should run on the result.</blockquote><p>Each line does a job. The dialect settles the date functions and the division rules. The types and relationships warn the model about fan-out. The NULL note and the zero-rows rule head off the WHERE-versus-ON trap. The sample row is deliberate too: 02:30 UTC on 1 October is still 30 September in New York, so a query that filters in UTC drops it.</p><p>The closing request for assumptions is the most useful part: it turns silent guesses into a list you can confirm or correct. Five real rows beat one, with anything sensitive removed or faked. <a href=\"/blog/how-to-write-a-prompt\">How to write a good AI prompt</a> covers the general structure. Which model you use matters less than this context, but if you're choosing one anyway, see <a href=\"/blog/best-ai-model-for-coding\">which AI model to use for coding</a>.</p>"
+    },
+    {
+      "id": "check",
+      "heading": "How to check SQL from ChatGPT: 6 steps",
+      "html": "<p>Run these before a result reaches a dashboard, a deck or a decision. It's ordinary code review, the same habit our <a href=\"/ai-for-developers\">AI for developers</a> page applies to application code.</p><ol><li><strong>Count rows at every join.</strong> Run the query in pieces and compare <code>COUNT(*)</code> with <code>COUNT(DISTINCT order_id)</code>, or whatever your grain should be. If they differ where they should match, a join has fanned out.</li><li><strong>Reconcile one total you already trust.</strong> Last month's revenue from the finance report, yesterday's sign-ups from the product dashboard. If the total is off, stop. The breakdown can't be right when the sum isn't.</li><li><strong>Run it on a slice you can check by hand.</strong> Filter to one customer or one day, pull the raw rows, and do the arithmetic yourself. Ten rows you've verified beat a million you haven't.</li><li><strong>Read the plan.</strong> <code>EXPLAIN</code> shows how the database will run the query and how many rows it expects at each step. A join that's expected to produce far more rows than you have orders deserves a look. In PostgreSQL, <code>EXPLAIN ANALYZE</code> actually executes the statement, so the <a href=\"https://www.postgresql.org/docs/current/sql-explain.html\" rel=\"nofollow noopener\" target=\"_blank\">documentation</a> suggests wrapping anything that writes data in <code>BEGIN</code> and <code>ROLLBACK</code>.</li><li><strong>Read every join out loud.</strong> For each one, say what a single row means before and after it. \"One row per order\" becoming \"one row per order item\" is the sentence that catches fan-out. Then check each join type against the population you want.</li><li><strong>Push the edges.</strong> Try a customer with no orders, an order with a NULL status, a timestamp at 23:59 on the last day of the range, and an empty month. Each should land where your definition says it should.</li></ol><p>Asking a fresh chat to find the bugs is a useful second pass, not a substitute for these steps. Step 2 is the same move that catches <a href=\"/blog/spot-ai-hallucinations\">an AI hallucination</a>: check a confident answer against something you already know.</p><p class=\"note\">SQL behavior checked against the PostgreSQL, MySQL and SQL Server documentation. BIRD figures as listed on its leaderboard in October 2026. Last reviewed 23 October 2026.</p>"
+    },
+    {
+      "id": "checklist",
+      "heading": "A checklist before you trust AI-written SQL",
+      "html": "<ul><li>Dialect and version named in the prompt</li><li>Schema pasted with column types and relationships</li><li>Grain stated in one sentence, and the output matches it</li><li>Every join type matches the rows you need to keep</li><li>Conditions on a LEFT JOIN's right-hand table sit in ON, not WHERE</li><li>No SUM or AVG over rows a join has duplicated</li><li>NULLs handled on purpose: <code>&lt;&gt;</code>, <code>NOT IN</code>, <code>COUNT(col)</code> and <code>AVG</code> checked</li><li>Date ranges half-open, in a named time zone</li><li>Ratios cast to a decimal before dividing</li><li>One known total reconciled</li><li>One slice checked by hand</li><li>The model's assumptions read, and each one confirmed or fixed</li></ul>"
+    },
+    {
+      "id": "practice",
+      "heading": "How to get good at reviewing AI SQL",
+      "html": "<p>The checklist works, but the real skill sits underneath it: seeing a confident, well-formatted answer and asking what it assumed. It's the same skill for a query, a formula or a summary, and practice builds it faster than reading does.</p><p>That's the habit Iro trains. Lessons take about five minutes and you do the work, with instant feedback: spot-the-hallucination exercises, a 0–100 trust-calibration dial for deciding how far to trust an output, and prompt repair. There's an Excel path, and on Pro you can generate a Custom Path on any topic you type, SQL review included. If your query results end up in a spreadsheet, our <a href=\"/ai-for-excel\">AI for Excel</a> guide applies the same checks to formulas.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Is ChatGPT good at writing SQL?",
+      "a": "It's good at syntax and structure and less reliable on meaning. ChatGPT writes SQL that usually runs, but without your schema it guesses table names, join types, NULL handling and date boundaries. Give it the dialect, the schema with types, the grain and a sample row, then reconcile a known total before you trust the result."
+    },
+    {
+      "q": "How do I know if an AI-generated SQL query is correct?",
+      "a": "Reconcile it against a total you already trust, run it on a slice small enough to check by hand, compare row counts before and after each join, and test edge cases such as NULLs, empty periods and the last minute of a date range. A query that runs without errors is not evidence that it's right."
+    },
+    {
+      "q": "Why does my AI-written SQL return duplicate rows?",
+      "a": "Usually a fan-out join. When you join a table to one with many matching rows, such as orders to order items, each order repeats once per item and any SUM over the order table is inflated. Aggregate the many side to one row per key before joining, or sum at the item level."
+    },
+    {
+      "q": "What is the difference between a filter in WHERE and in ON?",
+      "a": "On a LEFT JOIN, a condition in ON decides which right-hand rows match, so unmatched left rows survive with NULLs. The same condition in WHERE runs after the join and removes those rows, which turns the query back into an inner join. Put conditions on the joined table in ON when you need every left row."
+    },
+    {
+      "q": "What should I include in a prompt to get correct SQL?",
+      "a": "The database and version, the tables with column types and relationships, one or more sample rows, the exact metric definition, the grain of the answer, the time zone for dates and how to treat missing data. Ask the model to list its assumptions after the query so you can confirm or correct each one."
+    },
+    {
+      "q": "Can I paste company data into ChatGPT to get SQL written?",
+      "a": "Paste the schema and a few sample rows with sensitive values removed or faked, not real customer data. The schema is usually enough for the model to write the query. Check which AI tools your company has approved before sharing anything internal, including table and column names."
+    }
+  ],
+  "readNext": [
+    {
+      "href": "/blog/spot-ai-hallucinations",
+      "label": "How to spot AI hallucinations in 5 seconds"
+    },
+    {
+      "href": "/blog/best-ai-model-for-coding",
+      "label": "Which AI model should you use for coding?"
+    },
+    {
+      "href": "/blog/how-to-write-a-prompt",
+      "label": "How to write a good AI prompt"
+    }
+  ],
+  "related": [
+    "/ai-for-data-analysts",
+    "/ai-for-excel",
+    "/blog/spot-ai-hallucinations",
+    "/blog/best-ai-model-for-coding",
+    "/blog/how-to-write-a-prompt",
+    "/ai-for-developers"
+  ]
+}

@@ -152,6 +152,7 @@ Ask for spoken language, not written prose: three short prompts per slide instea
 
 ## Read next
 
+- [Gamma vs Canva vs ChatGPT for slides](https://tryiro.com/blog/gamma-vs-canva-vs-chatgpt-slides)
 - [How to write a prompt](https://tryiro.com/blog/how-to-write-a-prompt)
 - [The 7 prompt patterns that work everywhere](https://tryiro.com/blog/prompt-engineering-patterns)
 - [How to use AI at work](https://tryiro.com/blog/how-to-use-ai-at-work)

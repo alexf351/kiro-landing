@@ -4,7 +4,7 @@ canonical_url: "https://tryiro.com/blog/ai-tools"
 site: "Iro AI"
 site_url: "https://tryiro.com"
 language: en-US
-last_updated: "2026-09-12"
+last_updated: "2026-10-23"
 keywords: ["AI tools", "best AI tools", "ChatGPT vs Claude vs Gemini", "AI tools comparison", "which AI tool to use", "AI apps 2026"]
 author: "Iro AI"
 license: "© 2026 Iro AI"
@@ -16,7 +16,7 @@ type: "content-pillar"
 > ChatGPT, Claude, Gemini, Perplexity, Copilot — which AI tool should you actually use? Honest comparisons, the best pick for each job, and the skill that beats picking the 'perfect' tool.
 
 **Canonical:** https://tryiro.com/blog/ai-tools
-**Last updated:** 2026-09-12
+**Last updated:** 2026-10-23
 
 There is no single best AI tool — the right one depends on what you do most. [ChatGPT](/learn-chatgpt) is the most versatile all-rounder, [Claude](/learn-claude) shines on long writing and code, [Gemini](/learn-gemini) lives inside Google's apps, and [Perplexity](/learn-perplexity) answers with citations. This pillar compares them honestly so you can stop tool-shopping and start working.
 
@@ -48,7 +48,7 @@ So use these guides to pick a sensible default, then build the skill that actual
 - [How to use Grok: a beginner’s guide](https://tryiro.com/blog/how-to-use-grok) — How to use Grok, SpaceXAI's chatbot: where to access it, its real-time strengths, prompting tips, and when to reach for it versus ChatGPT or Claude.
 - [How to use DeepSeek: a beginner’s guide](https://tryiro.com/blog/how-to-use-deepseek) — How to use DeepSeek: where to access it, what it's good at, prompting tips, privacy considerations, and how it compares to ChatGPT.
 - [The best AI coding tools in 2026](https://tryiro.com/blog/best-ai-coding-tools) — The best AI coding tools in 2026 compared (GitHub Copilot, Cursor, Claude Code, ChatGPT, and Gemini): what each is best at and how to use them well.
-- [New AI models in 2026: every major release, tracked](https://tryiro.com/blog/new-ai-models-2026) — Every major AI model release in 2026: GPT-6 Astra, Claude Opus 5, Claude Fable 5, GPT-5.6, Grok 4.5 and Kimi K3, with dates, pricing and what changed.
+- [New AI models in 2026: every major release, tracked](https://tryiro.com/blog/new-ai-models-2026) — Every major AI release of 2026: Gemini 4 Argon, GPT-6 Sol, Claude Opus 5.5, GPT-6.1 Sol, Muse Spark Open and Kimi K3, with dates, pricing and what changed.
 - [Claude Opus 5: what actually changed, and who it's for](https://tryiro.com/blog/claude-opus-5) — Claude Opus 5's release date, pricing, 1M-token context window, fast mode and effort settings, plus benchmarks and how it compares to Fable 5 and GPT-5.6.
 - [GPT-5.6 Luna vs Terra vs Sol: which tier should you actually use?](https://tryiro.com/blog/gpt-5-6) — GPT-5.6 tiers compared: Luna at $1/$6, Terra at $2.50/$15, Sol at $5/$30 per million tokens, and which one to use for coding, agents, and high-volume work.
 - [Grok 4.5: SpaceXAI's coding model, reviewed honestly](https://tryiro.com/blog/grok-4-5) — Grok 4.5 explained: SpaceXAI's coding-focused model, released 8 July 2026. Pricing, Terminal-Bench and SWE-Bench Pro results, and token efficiency.
@@ -66,3 +66,8 @@ So use these guides to pick a sensible default, then build the skill that actual
 - [DeepSeek V4: what open weights actually mean for you](https://tryiro.com/blog/deepseek-v4) — DeepSeek V4 explained without the hype: the real parameter counts, what MIT-licensed open weights let you do, and why you probably still cannot run it.
 - [How to use Microsoft Copilot (and why it seems broken)](https://tryiro.com/blog/how-to-use-microsoft-copilot) — Free Copilot and Copilot in Microsoft 365 are different products. What each does in Word, Excel, PowerPoint and Outlook, and how to prompt it for real work.
 - [GPT-6 Astra: what it is, and whether you actually have it](https://tryiro.com/blog/gpt-6-astra) — GPT-6 Astra explained: the 3 September 2026 release, which ChatGPT plans can actually reach it, and why the 99.9% benchmark number needs an asterisk.
+- [Gemini 4 Argon: what it is, who actually has it, and what the numbers mean](https://tryiro.com/blog/gemini-4-argon) — Gemini 4 Argon explained: which Gemini plans actually include it, why cyber defenders got it first, and what Google's own benchmark table really shows.
+- [The best AI apps for iPhone in 2026, picked by job](https://tryiro.com/blog/best-ai-apps-for-iphone) — The best AI apps for iPhone in 2026 by job: ChatGPT, Claude, Gemini, Perplexity, Wispr Flow, Grammarly and Firefly, with one honest limit for each.
+- [How to check AI-generated SQL before you trust the numbers](https://tryiro.com/blog/how-to-check-ai-generated-sql) — AI-written SQL usually runs, and that's the trap. The 7 mistakes ChatGPT makes in SQL, a prompt that prevents many, and a 6-step check before you trust it.
+- [Gamma vs Canva vs ChatGPT for slides: which AI should make your deck?](https://tryiro.com/blog/gamma-vs-canva-vs-chatgpt-slides) — Gamma vs Canva vs ChatGPT for slides: which makes the best first draft, holds your brand, exports cleanly to PowerPoint, and what each costs in 2026.
+- [Notion AI vs ChatGPT: which to use, and is Notion AI worth it?](https://tryiro.com/blog/notion-ai-vs-chatgpt) — Notion AI vs ChatGPT for notes, docs, meeting notes and workspace search, what Notion's 2025 plan change means, and when Notion AI is worth paying for.

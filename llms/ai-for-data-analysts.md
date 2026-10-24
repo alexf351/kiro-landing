@@ -117,6 +117,7 @@ Be careful with sensitive or personal data. Check your company's policy and the 
 
 ## Read next
 
+- [How to check SQL from ChatGPT](https://tryiro.com/blog/how-to-check-ai-generated-sql)
 - [How to use AI at work](https://tryiro.com/blog/how-to-use-ai-at-work)
 - [How to spot AI hallucinations](https://tryiro.com/blog/spot-ai-hallucinations)
 - [The 7 prompt patterns that work everywhere](https://tryiro.com/blog/prompt-engineering-patterns)
