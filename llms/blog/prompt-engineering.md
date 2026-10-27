@@ -4,7 +4,7 @@ canonical_url: "https://tryiro.com/blog/prompt-engineering"
 site: "Iro AI"
 site_url: "https://tryiro.com"
 language: en-US
-last_updated: "2026-10-23"
+last_updated: "2026-10-27"
 keywords: ["prompt engineering", "prompt patterns", "ChatGPT prompts", "Claude prompts", "prompt design 2026"]
 author: "Iro AI"
 license: "© 2026 Iro AI"
@@ -16,7 +16,7 @@ type: "content-pillar"
 > The transferable prompt patterns that work across ChatGPT, Claude, Gemini, and Perplexity — and survive every model upgrade.
 
 **Canonical:** https://tryiro.com/blog/prompt-engineering
-**Last updated:** 2026-10-23
+**Last updated:** 2026-10-27
 
 Prompt engineering has a branding problem. It sounds like a dark art of secret phrases. It is not. Good prompting is just clear specification — telling a model who it should be, what you want, what it needs to know, and what the output must look like.
 
@@ -33,3 +33,4 @@ This pillar teaches prompting as a transferable skill you can drill. Start with 
 - [How to write a good AI prompt: a step-by-step guide](https://tryiro.com/blog/how-to-write-a-prompt) — The context-role-task-format recipe for a good AI prompt, with before-and-after examples and how to refine answers in ChatGPT, Claude or Gemini.
 - [Is prompt engineering dead in 2026?](https://tryiro.com/blog/is-prompt-engineering-dead) — No, prompt engineering isn't dead, it evolved. What changed, what still matters, and why precise instructions matter more once AI agents act for you.
 - [How to write an AI cold email that doesn't sound like AI](https://tryiro.com/blog/ai-cold-email-that-doesnt-sound-like-ai) — Why AI cold emails sound like AI, and a method that fixes it: real research, one reason, a short ask, a banned-phrase list. Before-and-after emails included.
+- [How to make a mood board with AI: directions, not final art](https://tryiro.com/blog/how-to-make-a-mood-board-with-ai) — How to make a mood board with AI: write the brief first, generate 3-4 distinct directions, use image prompts that behave, then turn the board into a spec.

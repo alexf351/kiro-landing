@@ -9,7 +9,7 @@
     <description>Short, practical writing on AI fluency, prompting, AI tools, and the active-practice method that beats endless video courses.</description>
     <language>en-US</language>
     <atom:link href="https://tryiro.com/blog/rss.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Fri, 23 Oct 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 27 Oct 2026 00:00:00 GMT</lastBuildDate>
     <generator>tryiro.com</generator>
     <copyright>© 2026 Iro AI</copyright>
     <image>
@@ -1168,6 +1168,33 @@
       <dc:creator>Iro AI</dc:creator>
       <category>AI tools</category>
       <description>Notion AI vs ChatGPT for notes, docs, meeting notes and workspace search, what Notion's 2025 plan change means, and when Notion AI is worth paying for.</description>
+    </item>
+    <item>
+      <title>The Air Canada chatbot case: what happened, and how to stop a support bot inventing policy</title>
+      <link>https://tryiro.com/blog/air-canada-chatbot-case</link>
+      <guid isPermaLink="true">https://tryiro.com/blog/air-canada-chatbot-case</guid>
+      <pubDate>Tue, 27 Oct 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Iro AI</dc:creator>
+      <category>AI fluency</category>
+      <description>A tribunal held Air Canada liable for its chatbot's wrong bereavement-fare advice. What happened, and how support teams stop AI replies inventing policy.</description>
+    </item>
+    <item>
+      <title>How to make a mood board with AI: directions, not final art</title>
+      <link>https://tryiro.com/blog/how-to-make-a-mood-board-with-ai</link>
+      <guid isPermaLink="true">https://tryiro.com/blog/how-to-make-a-mood-board-with-ai</guid>
+      <pubDate>Tue, 27 Oct 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Iro AI</dc:creator>
+      <category>Prompt engineering</category>
+      <description>How to make a mood board with AI: write the brief first, generate 3-4 distinct directions, use image prompts that behave, then turn the board into a spec.</description>
+    </item>
+    <item>
+      <title>How to analyze customer feedback with AI and get themes you can trust</title>
+      <link>https://tryiro.com/blog/how-to-analyze-customer-feedback-with-ai</link>
+      <guid isPermaLink="true">https://tryiro.com/blog/how-to-analyze-customer-feedback-with-ai</guid>
+      <pubDate>Tue, 27 Oct 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Iro AI</dc:creator>
+      <category>AI tools</category>
+      <description>How to analyze customer feedback with AI: anonymize it, build a codebook, demand counts and quotes with IDs, and spot-check each theme before the roadmap.</description>
     </item>
   </channel>
 </rss>

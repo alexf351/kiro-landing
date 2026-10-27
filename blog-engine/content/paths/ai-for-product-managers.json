@@ -75,6 +75,7 @@
     { "href": "/prompt-engineering-app", "label": "Prompt engineering" }
   ],
   "readNext": [
+    { "href": "/blog/how-to-analyze-customer-feedback-with-ai", "label": "How to analyze customer feedback with AI" },
     { "href": "/blog/how-to-use-ai-at-work", "label": "How to use AI at work" },
     { "href": "/blog/spot-ai-hallucinations", "label": "How to spot AI hallucinations" },
     { "href": "/blog/prompt-engineering-patterns", "label": "The 7 prompt patterns that work everywhere" }

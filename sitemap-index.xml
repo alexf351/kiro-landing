@@ -2,11 +2,11 @@
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <sitemap>
     <loc>https://tryiro.com/sitemap.xml</loc>
-    <lastmod>2026-10-23</lastmod>
+    <lastmod>2026-10-27</lastmod>
   </sitemap>
   <sitemap>
     <loc>https://tryiro.com/news-sitemap.xml</loc>
-    <lastmod>2026-09-17</lastmod>
+    <lastmod>2026-10-27</lastmod>
   </sitemap>
   <sitemap>
     <loc>https://tryiro.com/image-sitemap.xml</loc>
@@ -14,6 +14,6 @@
   </sitemap>
   <sitemap>
     <loc>https://tryiro.com/blog-sitemap.xml</loc>
-    <lastmod>2026-10-23</lastmod>
+    <lastmod>2026-10-27</lastmod>
   </sitemap>
 </sitemapindex>

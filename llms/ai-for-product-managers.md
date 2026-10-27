@@ -117,6 +117,7 @@ No. The most valuable PM uses (synthesis, drafting, research, prioritization) ar
 
 ## Read next
 
+- [How to analyze customer feedback with AI](https://tryiro.com/blog/how-to-analyze-customer-feedback-with-ai)
 - [How to use AI at work](https://tryiro.com/blog/how-to-use-ai-at-work)
 - [How to spot AI hallucinations](https://tryiro.com/blog/spot-ai-hallucinations)
 - [The 7 prompt patterns that work everywhere](https://tryiro.com/blog/prompt-engineering-patterns)
