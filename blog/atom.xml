@@ -5,7 +5,7 @@
   <link rel="self" href="https://tryiro.com/blog/atom.xml" type="application/atom+xml"/>
   <link rel="alternate" href="https://tryiro.com/blog" type="text/html"/>
   <id>https://tryiro.com/blog/atom.xml</id>
-  <updated>2026-10-23T00:00:00Z</updated>
+  <updated>2026-10-27T00:00:00Z</updated>
   <rights>© 2026 Iro AI</rights>
   <author><name>Iro AI</name><uri>https://tryiro.com</uri></author>
   <icon>https://tryiro.com/assets/favicon-64.png</icon>
@@ -1289,5 +1289,35 @@
     <author><name>Iro AI</name></author>
     <category term="AI tools"/>
     <summary>Use Notion AI when the answer lives in your Notion workspace, and ChatGPT for everything that starts from a blank page or the open web. Notion AI now comes with the Business plan rather than as an add-on, which changes the math on whether it's worth paying for.</summary>
+  </entry>
+  <entry>
+    <title>The Air Canada chatbot case: what happened, and how to stop a support bot inventing policy</title>
+    <id>https://tryiro.com/blog/air-canada-chatbot-case</id>
+    <link href="https://tryiro.com/blog/air-canada-chatbot-case"/>
+    <updated>2026-10-27T00:00:00Z</updated>
+    <published>2026-10-27T00:00:00Z</published>
+    <author><name>Iro AI</name></author>
+    <category term="AI fluency"/>
+    <summary>In February 2024, a British Columbia tribunal ordered Air Canada to pay a customer $812.02 after its website chatbot described a bereavement-fare rule that the airline's own policy page contradicted. The airline argued it couldn't be liable for the chatbot's words, and the tribunal called that "a remarkable submission."</summary>
+  </entry>
+  <entry>
+    <title>How to make a mood board with AI: directions, not final art</title>
+    <id>https://tryiro.com/blog/how-to-make-a-mood-board-with-ai</id>
+    <link href="https://tryiro.com/blog/how-to-make-a-mood-board-with-ai"/>
+    <updated>2026-10-27T00:00:00Z</updated>
+    <published>2026-10-27T00:00:00Z</published>
+    <author><name>Iro AI</name></author>
+    <category term="Prompt engineering"/>
+    <summary>Use AI to see three or four visual directions in an afternoon, not to make the final art. Write the brief first, control your prompts one variable at a time, anchor each direction with references, and finish by turning the board into words your team can build from.</summary>
+  </entry>
+  <entry>
+    <title>How to analyze customer feedback with AI and get themes you can trust</title>
+    <id>https://tryiro.com/blog/how-to-analyze-customer-feedback-with-ai</id>
+    <link href="https://tryiro.com/blog/how-to-analyze-customer-feedback-with-ai"/>
+    <updated>2026-10-27T00:00:00Z</updated>
+    <published>2026-10-27T00:00:00Z</published>
+    <author><name>Iro AI</name></author>
+    <category term="AI tools"/>
+    <summary>Pasting feedback into a chat and asking for a summary gets you themes you can't check. The method that holds up: tag every item by ID against a codebook you've edited, count the tags yourself, and read a sample under every theme before it reaches the roadmap.</summary>
   </entry>
 </feed>

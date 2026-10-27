@@ -117,6 +117,8 @@ No. AI handles drafting, summarizing, and routing, but customers escalate precis
 
 ## Read next
 
+- [The Air Canada chatbot case, and how to stop a bot inventing policy](https://tryiro.com/blog/air-canada-chatbot-case)
+- [How to analyze customer feedback with AI](https://tryiro.com/blog/how-to-analyze-customer-feedback-with-ai)
 - [How to spot AI hallucinations](https://tryiro.com/blog/spot-ai-hallucinations)
 - [How to use AI at work](https://tryiro.com/blog/how-to-use-ai-at-work)
 - [Prompt engineering patterns](https://tryiro.com/blog/prompt-engineering-patterns)

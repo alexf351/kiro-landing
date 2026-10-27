@@ -1545,6 +1545,18 @@
     {
       "source": "/blog/notion-ai-vs-chatgpt",
       "destination": "/blog/notion-ai-vs-chatgpt.html"
+    },
+    {
+      "source": "/blog/air-canada-chatbot-case",
+      "destination": "/blog/air-canada-chatbot-case.html"
+    },
+    {
+      "source": "/blog/how-to-make-a-mood-board-with-ai",
+      "destination": "/blog/how-to-make-a-mood-board-with-ai.html"
+    },
+    {
+      "source": "/blog/how-to-analyze-customer-feedback-with-ai",
+      "destination": "/blog/how-to-analyze-customer-feedback-with-ai.html"
     }
   ]
 }

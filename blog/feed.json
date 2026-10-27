@@ -1496,6 +1496,42 @@
         "Notion AI",
         "ChatGPT"
       ]
+    },
+    {
+      "id": "https://tryiro.com/blog/air-canada-chatbot-case",
+      "url": "https://tryiro.com/blog/air-canada-chatbot-case",
+      "title": "The Air Canada chatbot case: what happened, and how to stop a support bot inventing policy",
+      "summary": "In February 2024, a British Columbia tribunal ordered Air Canada to pay a customer $812.02 after its website chatbot described a bereavement-fare rule that the airline's own policy page contradicted. The airline argued it couldn't be liable for the chatbot's words, and the tribunal called that \"a remarkable submission.\"",
+      "date_published": "2026-10-27T00:00:00Z",
+      "tags": [
+        "AI fluency",
+        "Hallucination",
+        "Customer support"
+      ]
+    },
+    {
+      "id": "https://tryiro.com/blog/how-to-make-a-mood-board-with-ai",
+      "url": "https://tryiro.com/blog/how-to-make-a-mood-board-with-ai",
+      "title": "How to make a mood board with AI: directions, not final art",
+      "summary": "Use AI to see three or four visual directions in an afternoon, not to make the final art. Write the brief first, control your prompts one variable at a time, anchor each direction with references, and finish by turning the board into words your team can build from.",
+      "date_published": "2026-10-27T00:00:00Z",
+      "tags": [
+        "Prompt engineering",
+        "Image generation",
+        "Design"
+      ]
+    },
+    {
+      "id": "https://tryiro.com/blog/how-to-analyze-customer-feedback-with-ai",
+      "url": "https://tryiro.com/blog/how-to-analyze-customer-feedback-with-ai",
+      "title": "How to analyze customer feedback with AI and get themes you can trust",
+      "summary": "Pasting feedback into a chat and asking for a summary gets you themes you can't check. The method that holds up: tag every item by ID against a codebook you've edited, count the tags yourself, and read a sample under every theme before it reaches the roadmap.",
+      "date_published": "2026-10-27T00:00:00Z",
+      "tags": [
+        "AI tools",
+        "Product management",
+        "Data analysis"
+      ]
     }
   ]
 }

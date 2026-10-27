@@ -104,7 +104,7 @@ ai iq test by iro ai          https://tryiro.com/llms/quiz.md
 vibe coding course            https://tryiro.com/llms/vibe-coding-course.md
 
 ## Blog (markdown mirrors)
-# 133 post and pillar mirrors, generated
+# 136 post and pillar mirrors, generated
 ai agents explained           https://tryiro.com/llms/blog/ai-agents-explained.md
 ai agents vs. automation      https://tryiro.com/llms/blog/ai-agents-vs-automation.md
 ai agents & automation        https://tryiro.com/llms/blog/ai-agents.md
@@ -125,6 +125,7 @@ ai subscription traps         https://tryiro.com/llms/blog/ai-subscription-traps
 ai tools in 2026              https://tryiro.com/llms/blog/ai-tools.md
 ai trends in 2026             https://tryiro.com/llms/blog/ai-trends-2026.md
 ai vs machine learning        https://tryiro.com/llms/blog/ai-vs-machine-learning.md
+air canada chatbot case       https://tryiro.com/llms/blog/air-canada-chatbot-case.md
 apps like duolingo for ai     https://tryiro.com/llms/blog/apps-like-duolingo-for-ai.md
 are ai certifications worth   https://tryiro.com/llms/blog/are-ai-certifications-worth-it.md
 average ai literacy score     https://tryiro.com/llms/blog/average-ai-literacy-score.md
@@ -175,10 +176,12 @@ grok bot                      https://tryiro.com/llms/blog/grok-bot.md
 grok imagine image 2.0        https://tryiro.com/llms/blog/grok-imagine-image-2.md
 headway alternatives          https://tryiro.com/llms/blog/headway-alternatives.md
 how long to learn ai          https://tryiro.com/llms/blog/how-long-to-learn-ai.md
+how to analyze customer feed  https://tryiro.com/llms/blog/how-to-analyze-customer-feedback-with-ai.md
 how to check ai generated sq  https://tryiro.com/llms/blog/how-to-check-ai-generated-sql.md
 how to choose an ai learning  https://tryiro.com/llms/blog/how-to-choose-an-ai-learning-app.md
 how to learn ai without codi  https://tryiro.com/llms/blog/how-to-learn-ai-without-coding.md
 how to learn chatgpt in 2026  https://tryiro.com/llms/blog/how-to-learn-chatgpt-in-2026.md
+how to make a mood board wit  https://tryiro.com/llms/blog/how-to-make-a-mood-board-with-ai.md
 how to read ai benchmarks     https://tryiro.com/llms/blog/how-to-read-ai-benchmarks.md
 how to tell if something is   https://tryiro.com/llms/blog/how-to-tell-if-something-is-ai-generated.md
 how to use ai at work         https://tryiro.com/llms/blog/how-to-use-ai-at-work.md

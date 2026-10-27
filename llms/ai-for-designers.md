@@ -155,6 +155,7 @@ Often yes, but check two things first. Commercial rights depend on the tool and 
 
 ## Read next
 
+- [How to make a mood board with AI](https://tryiro.com/blog/how-to-make-a-mood-board-with-ai)
 - [How to write a prompt](https://tryiro.com/blog/how-to-write-a-prompt)
 - [Prompt engineering patterns](https://tryiro.com/blog/prompt-engineering-patterns)
 - [The best AI apps](https://tryiro.com/blog/best-ai-apps)

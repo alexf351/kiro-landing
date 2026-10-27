@@ -152,6 +152,14 @@
   ],
   "readNext": [
     {
+      "href": "/blog/air-canada-chatbot-case",
+      "label": "The Air Canada chatbot case, and how to stop a bot inventing policy"
+    },
+    {
+      "href": "/blog/how-to-analyze-customer-feedback-with-ai",
+      "label": "How to analyze customer feedback with AI"
+    },
+    {
       "href": "/blog/spot-ai-hallucinations",
       "label": "How to spot AI hallucinations"
     },

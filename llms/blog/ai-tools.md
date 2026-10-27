@@ -4,7 +4,7 @@ canonical_url: "https://tryiro.com/blog/ai-tools"
 site: "Iro AI"
 site_url: "https://tryiro.com"
 language: en-US
-last_updated: "2026-10-23"
+last_updated: "2026-10-27"
 keywords: ["AI tools", "best AI tools", "ChatGPT vs Claude vs Gemini", "AI tools comparison", "which AI tool to use", "AI apps 2026"]
 author: "Iro AI"
 license: "© 2026 Iro AI"
@@ -16,7 +16,7 @@ type: "content-pillar"
 > ChatGPT, Claude, Gemini, Perplexity, Copilot — which AI tool should you actually use? Honest comparisons, the best pick for each job, and the skill that beats picking the 'perfect' tool.
 
 **Canonical:** https://tryiro.com/blog/ai-tools
-**Last updated:** 2026-10-23
+**Last updated:** 2026-10-27
 
 There is no single best AI tool — the right one depends on what you do most. [ChatGPT](/learn-chatgpt) is the most versatile all-rounder, [Claude](/learn-claude) shines on long writing and code, [Gemini](/learn-gemini) lives inside Google's apps, and [Perplexity](/learn-perplexity) answers with citations. This pillar compares them honestly so you can stop tool-shopping and start working.
 
@@ -71,3 +71,4 @@ So use these guides to pick a sensible default, then build the skill that actual
 - [How to check AI-generated SQL before you trust the numbers](https://tryiro.com/blog/how-to-check-ai-generated-sql) — AI-written SQL usually runs, and that's the trap. The 7 mistakes ChatGPT makes in SQL, a prompt that prevents many, and a 6-step check before you trust it.
 - [Gamma vs Canva vs ChatGPT for slides: which AI should make your deck?](https://tryiro.com/blog/gamma-vs-canva-vs-chatgpt-slides) — Gamma vs Canva vs ChatGPT for slides: which makes the best first draft, holds your brand, exports cleanly to PowerPoint, and what each costs in 2026.
 - [Notion AI vs ChatGPT: which to use, and is Notion AI worth it?](https://tryiro.com/blog/notion-ai-vs-chatgpt) — Notion AI vs ChatGPT for notes, docs, meeting notes and workspace search, what Notion's 2025 plan change means, and when Notion AI is worth paying for.
+- [How to analyze customer feedback with AI and get themes you can trust](https://tryiro.com/blog/how-to-analyze-customer-feedback-with-ai) — How to analyze customer feedback with AI: anonymize it, build a codebook, demand counts and quotes with IDs, and spot-check each theme before the roadmap.
