@@ -110,6 +110,7 @@ Rotate real tasks through each and build a mental map of what each does best. Th
 
 ## Read next
 
+- [Still not sure? Take the free 5-question AI picker](https://tryiro.com/which-ai-should-i-use)
 - [Is ChatGPT Plus worth it?](https://tryiro.com/blog/is-chatgpt-plus-worth-it)
 - [The best free AI tools for daily work in 2026](https://tryiro.com/blog/best-free-ai-tools-2026)
 - [How to actually learn ChatGPT in 2026](https://tryiro.com/blog/how-to-learn-chatgpt-in-2026)

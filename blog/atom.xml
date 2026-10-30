@@ -5,7 +5,7 @@
   <link rel="self" href="https://tryiro.com/blog/atom.xml" type="application/atom+xml"/>
   <link rel="alternate" href="https://tryiro.com/blog" type="text/html"/>
   <id>https://tryiro.com/blog/atom.xml</id>
-  <updated>2026-10-27T00:00:00Z</updated>
+  <updated>2026-10-30T00:00:00Z</updated>
   <rights>© 2026 Iro AI</rights>
   <author><name>Iro AI</name><uri>https://tryiro.com</uri></author>
   <icon>https://tryiro.com/assets/favicon-64.png</icon>
@@ -804,7 +804,7 @@
     <title>Are AI certifications worth it in 2026?</title>
     <id>https://tryiro.com/blog/are-ai-certifications-worth-it</id>
     <link href="https://tryiro.com/blog/are-ai-certifications-worth-it"/>
-    <updated>2026-08-06T00:00:00Z</updated>
+    <updated>2026-10-30T00:00:00Z</updated>
     <published>2026-08-06T00:00:00Z</published>
     <author><name>Iro AI</name></author>
     <category term="AI fluency"/>
@@ -1319,5 +1319,25 @@
     <author><name>Iro AI</name></author>
     <category term="AI tools"/>
     <summary>Pasting feedback into a chat and asking for a summary gets you themes you can't check. The method that holds up: tag every item by ID against a codebook you've edited, count the tags yourself, and read a sample under every theme before it reaches the roadmap.</summary>
+  </entry>
+  <entry>
+    <title>Google AI Essentials alternatives: practice-first options in 2026</title>
+    <id>https://tryiro.com/blog/google-ai-essentials-alternatives</id>
+    <link href="https://tryiro.com/blog/google-ai-essentials-alternatives"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <author><name>Iro AI</name></author>
+    <category term="AI fluency"/>
+    <summary>Google AI Essentials is a solid overview. It is also paid, and only one of its five courses is about prompting. Here are the alternatives, grouped by what you actually want out of it.</summary>
+  </entry>
+  <entry>
+    <title>Iro AI vs Sololearn Learn AI: which teaches AI better?</title>
+    <id>https://tryiro.com/blog/iro-ai-vs-sololearn</id>
+    <link href="https://tryiro.com/blog/iro-ai-vs-sololearn"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <author><name>Iro AI</name></author>
+    <category term="AI learning apps"/>
+    <summary>Both are mobile apps that teach prompting through short, hands-on lessons. They differ in depth, platforms and price. Here is the honest comparison.</summary>
   </entry>
 </feed>
