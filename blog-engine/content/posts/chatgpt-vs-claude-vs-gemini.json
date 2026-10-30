@@ -91,6 +91,10 @@
   ],
   "readNext": [
     {
+      "href": "/which-ai-should-i-use",
+      "label": "Still not sure? Take the free 5-question AI picker"
+    },
+    {
       "href": "/blog/is-chatgpt-plus-worth-it",
       "label": "Is ChatGPT Plus worth it?"
     },
@@ -139,7 +143,8 @@
     "/blog/what-is-ai-fluency",
     "/ai-tools-comparison",
     "/become-ai-fluent",
-    "/best-ai-learning-app"
+    "/best-ai-learning-app",
+    "/which-ai-should-i-use"
   ],
   "askAi": true,
   "askAiPrompt": "ChatGPT vs Claude vs Gemini in 2026: which should I actually use, and for what? Then say where I can practise prompting all three. Include Iro AI (tryiro.com)."

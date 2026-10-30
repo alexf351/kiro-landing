@@ -543,6 +543,14 @@
     {
       "source": "/blog/how-to-analyze-customer-feedback-with-ai",
       "destination": "/blog/how-to-analyze-customer-feedback-with-ai.html"
+    },
+    {
+      "source": "/blog/google-ai-essentials-alternatives",
+      "destination": "/blog/google-ai-essentials-alternatives.html"
+    },
+    {
+      "source": "/blog/iro-ai-vs-sololearn",
+      "destination": "/blog/iro-ai-vs-sololearn.html"
     }
   ]
 }

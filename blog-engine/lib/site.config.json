@@ -35,7 +35,8 @@
   "firstDate": "2026-05-24",
   "buildDate": "2026-08-18",
   "exploreLabels": {
-    "/ai-tools-comparison": "AI Tools Compared 2026"
+    "/ai-tools-comparison": "AI Tools Compared 2026",
+    "/which-ai-should-i-use": "Which AI should I use? (free picker)"
   },
   "icons": {
     "favicon": "/assets/favicon-64.png",

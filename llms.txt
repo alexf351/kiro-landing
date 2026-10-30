@@ -281,6 +281,7 @@ Human-readable version of this section: https://tryiro.com/editorial-policy
 - [Iro vs video courses](https://tryiro.com/iro-ai-vs-video-courses): Why active practice beats passive watching.
 - [AI course alternative](https://tryiro.com/ai-course-alternative): Iro vs traditional online AI courses.
 - [AI tools compared](https://tryiro.com/ai-tools-comparison): ChatGPT vs Claude vs Gemini vs Perplexity vs Copilot, side by side, with the best pick for each use case.
+- [Which AI should I use?](https://tryiro.com/which-ai-should-i-use): A free 5-question picker that recommends ChatGPT, Claude, Gemini, Perplexity or Copilot for your work, with a runner-up. No sign-up.
 - [AI prompt library](https://tryiro.com/ai-prompts): 32 free copy-and-paste prompts for work, writing, studying, research and job hunting.
 - [Iro AI for educators](https://tryiro.com/for-educators): what Iro is and is not for schools, how the free tier works, and free classroom resources for teaching AI literacy.
 

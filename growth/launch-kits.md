@@ -125,8 +125,8 @@ article, and our comparison pages already rank. Verified targets to pitch:
 > The syntax tricks are dying, but the judgment isn't. Models need less magic
 > phrasing every year — what still separates strong users is knowing what
 > context to give, what to constrain, and when not to trust the output. We
-> test thousands of people on this: the average professional scores about
-> 5/10 on basic AI literacy. The gap isn't prompts, it's judgment. [Alex
+> run a free AI literacy test: the median score is 7/10, and only 1 in 7
+> people get a perfect score. The gap isn't prompts, it's judgment. [Alex
 > Furukawa, founder of Iro AI]
 
 ## 6. Data-study refresh (when quiz N grows)

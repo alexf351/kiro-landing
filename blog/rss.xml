@@ -9,7 +9,7 @@
     <description>Short, practical writing on AI fluency, prompting, AI tools, and the active-practice method that beats endless video courses.</description>
     <language>en-US</language>
     <atom:link href="https://tryiro.com/blog/rss.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Tue, 27 Oct 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 30 Oct 2026 00:00:00 GMT</lastBuildDate>
     <generator>tryiro.com</generator>
     <copyright>© 2026 Iro AI</copyright>
     <image>
@@ -1195,6 +1195,24 @@
       <dc:creator>Iro AI</dc:creator>
       <category>AI tools</category>
       <description>How to analyze customer feedback with AI: anonymize it, build a codebook, demand counts and quotes with IDs, and spot-check each theme before the roadmap.</description>
+    </item>
+    <item>
+      <title>Google AI Essentials alternatives: practice-first options in 2026</title>
+      <link>https://tryiro.com/blog/google-ai-essentials-alternatives</link>
+      <guid isPermaLink="true">https://tryiro.com/blog/google-ai-essentials-alternatives</guid>
+      <pubDate>Fri, 30 Oct 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Iro AI</dc:creator>
+      <category>AI fluency</category>
+      <description>Google AI Essentials costs $49/month on Coursera. Compare free and practice-first alternatives: OpenAI Academy, Anthropic AI Fluency, Elements of AI and Iro AI.</description>
+    </item>
+    <item>
+      <title>Iro AI vs Sololearn Learn AI: which teaches AI better?</title>
+      <link>https://tryiro.com/blog/iro-ai-vs-sololearn</link>
+      <guid isPermaLink="true">https://tryiro.com/blog/iro-ai-vs-sololearn</guid>
+      <pubDate>Fri, 30 Oct 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Iro AI</dc:creator>
+      <category>AI learning apps</category>
+      <description>Iro AI vs Sololearn's Learn AI app: what each teaches, how lessons work, platforms and US prices, and who each one is for. An honest comparison.</description>
     </item>
   </channel>
 </rss>

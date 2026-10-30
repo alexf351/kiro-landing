@@ -1147,6 +1147,10 @@
       "destination": "/ai-tools-comparison.html"
     },
     {
+      "source": "/which-ai-should-i-use",
+      "destination": "/which-ai-should-i-use.html"
+    },
+    {
       "source": "/how-to-learn-ai",
       "destination": "/how-to-learn-ai.html"
     },
@@ -1577,6 +1581,14 @@
     {
       "source": "/blog/how-to-analyze-customer-feedback-with-ai",
       "destination": "/blog/how-to-analyze-customer-feedback-with-ai.html"
+    },
+    {
+      "source": "/blog/google-ai-essentials-alternatives",
+      "destination": "/blog/google-ai-essentials-alternatives.html"
+    },
+    {
+      "source": "/blog/iro-ai-vs-sololearn",
+      "destination": "/blog/iro-ai-vs-sololearn.html"
     }
   ]
 }

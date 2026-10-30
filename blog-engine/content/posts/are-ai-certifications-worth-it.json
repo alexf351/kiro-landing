@@ -7,7 +7,7 @@
   "keyTakeaways": [
     "Search this question and nearly every result is a certification provider, a bootcamp, or an exam-prep site. Read the salary and hiring statistics in those articles with that in mind.",
     "A certificate is worth it in two situations: your employer pays for it, or you need a credential to clear an HR filter. Outside those, it mostly buys you a structured syllabus.",
-    "The cheap useful ones: Google AI Essentials is about $49 on Coursera, and Microsoft's AI fundamentals learning path is free with only the exam charged.",
+    "The cheap useful ones: Google AI Essentials is $49 a month on Coursera in the US and Canada, and Microsoft's AI fundamentals learning path is free with only the exam charged.",
     "The technical ones like Google's Professional Machine Learning Engineer are respected because they are hard and proctored, not because they are certificates.",
     "What actually gets you hired is a thing you built with AI that you can show and explain. No certificate substitutes for that."
   ],
@@ -24,7 +24,7 @@
     "do employers care about AI certificates"
   ],
   "datePublished": "2026-08-06",
-  "dateModified": "2026-08-06",
+  "dateModified": "2026-10-30",
   "readingTime": 8,
   "articleSection": "AI fluency",
   "feedCategory": "AI fluency",
@@ -79,7 +79,7 @@
     {
       "id": "which",
       "heading": "If you want one, these are the sane options",
-      "html": "<p>Prices below are US list prices at the time of writing, and every one of these changes without notice.</p><div class=\"cmp-wrap\"><table class=\"cmp-table\"><thead><tr><th>Certificate</th><th>Cost</th><th>Best for</th></tr></thead><tbody><tr><td><strong>Google AI Essentials</strong></td><td>About $49 on Coursera</td><td>Non-technical professionals who want a recognisable name on a short course, roughly 5 to 10 hours</td></tr><tr><td><strong>Microsoft AI fundamentals</strong></td><td>Learning path free, exam roughly $100 to $165 by region</td><td>Anyone in a Microsoft-stack company. Study free, pay only if you want the exam</td></tr><tr><td><strong>Google Professional ML Engineer</strong></td><td>Several hundred dollars, proctored</td><td>Engineers building ML systems. Genuinely hard, which is why it carries weight</td></tr><tr><td><strong>AWS machine learning certification</strong></td><td>Several hundred dollars, proctored</td><td>Engineers on AWS infrastructure</td></tr></tbody></table></div><p class=\"note\">Microsoft has been rotating its AI fundamentals exam code, so confirm which one is current before you book. Last reviewed August 2026.</p><p>Notice the split. The first two are cheap and teach vocabulary. The last two are expensive, proctored, and take real study, which is exactly why engineers respect them. What almost nobody respects is a stack of five free completion badges from platforms nobody has heard of.</p><p><strong>One challenging certificate beats five easy ones.</strong> A long list reads as collecting rather than learning.</p>"
+      "html": "<p>Prices below are US list prices at the time of writing, and every one of these changes without notice.</p><div class=\"cmp-wrap\"><table class=\"cmp-table\"><thead><tr><th>Certificate</th><th>Cost</th><th>Best for</th></tr></thead><tbody><tr><td><strong><a href=\"/blog/google-ai-essentials-alternatives\">Google AI Essentials</a></strong></td><td>$49 a month on Coursera (US and Canada) after a 7-day trial</td><td>Non-technical professionals who want a recognisable name on a short course, roughly 5 to 10 hours</td></tr><tr><td><strong>Microsoft AI fundamentals</strong></td><td>Learning path free, exam roughly $100 to $165 by region</td><td>Anyone in a Microsoft-stack company. Study free, pay only if you want the exam</td></tr><tr><td><strong>Google Professional ML Engineer</strong></td><td>Several hundred dollars, proctored</td><td>Engineers building ML systems. Genuinely hard, which is why it carries weight</td></tr><tr><td><strong>AWS machine learning certification</strong></td><td>Several hundred dollars, proctored</td><td>Engineers on AWS infrastructure</td></tr></tbody></table></div><p class=\"note\">Microsoft has been rotating its AI fundamentals exam code, so confirm which one is current before you book. Last reviewed August 2026.</p><p>Notice the split. The first two are cheap and teach vocabulary. The last two are expensive, proctored, and take real study, which is exactly why engineers respect them. What almost nobody respects is a stack of five free completion badges from platforms nobody has heard of.</p><p><strong>One challenging certificate beats five easy ones.</strong> A long list reads as collecting rather than learning.</p>"
     },
     {
       "id": "instead",
@@ -103,7 +103,7 @@
     },
     {
       "q": "How much do AI certifications cost?",
-      "a": "Google AI Essentials is about $49 through Coursera. Microsoft's AI fundamentals learning path is free to study, with only the exam charged, roughly $100 to $165 depending on region. Professional-level certifications from Google and AWS run into several hundred dollars and require a proctored exam. Prices change without notice."
+      "a": "Google AI Essentials is $49 a month through Coursera in the US and Canada, after a 7-day free trial. Microsoft's AI fundamentals learning path is free to study, with only the exam charged, roughly $100 to $165 depending on region. Professional-level certifications from Google and AWS run into several hundred dollars and require a proctored exam. Prices change without notice."
     },
     {
       "q": "Can I get an AI certification for free?",
@@ -126,6 +126,10 @@
     {
       "href": "/blog/ai-student-discounts",
       "label": "AI student discounts worth having"
+    },
+    {
+      "href": "/blog/google-ai-essentials-alternatives",
+      "label": "Google AI Essentials alternatives"
     }
   ],
   "related": [
@@ -134,6 +138,7 @@
     "/blog/what-is-ai-literacy",
     "/blog/how-to-use-ai-at-work",
     "/become-ai-fluent",
-    "/quiz"
+    "/quiz",
+    "/blog/google-ai-essentials-alternatives"
   ]
 }

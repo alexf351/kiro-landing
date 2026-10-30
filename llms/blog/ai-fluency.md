@@ -4,7 +4,7 @@ canonical_url: "https://tryiro.com/blog/ai-fluency"
 site: "Iro AI"
 site_url: "https://tryiro.com"
 language: en-US
-last_updated: "2026-10-27"
+last_updated: "2026-10-30"
 keywords: ["AI fluency", "how to learn AI", "AI skills", "learn AI 2026", "AI for beginners"]
 author: "Iro AI"
 license: "© 2026 Iro AI"
@@ -16,7 +16,7 @@ type: "content-pillar"
 > Build real AI fluency in 2026 — the active-practice method, the free tools worth using, and how to tell when AI is wrong.
 
 **Canonical:** https://tryiro.com/blog/ai-fluency
-**Last updated:** 2026-10-27
+**Last updated:** 2026-10-30
 
 AI fluency is the ability to get reliable, useful results from AI tools — and to know when not to trust them. It is not about memorising magic prompts. It is a skill you build through active practice, the same way you would learn a language or an instrument.
 
@@ -95,3 +95,5 @@ Work through the posts below in order, or jump straight to whichever gap is most
 - [Is it safe to put client data in ChatGPT? A guide for accountants, lawyers and HR](https://tryiro.com/blog/client-data-in-chatgpt) — Is it safe to put client data in ChatGPT? What each plan does with your chats as of October 2026, the settings that matter, and what never to paste.
 - [How to use AI for performance reviews without letting it judge anyone](https://tryiro.com/blog/ai-for-performance-reviews) — How to use AI for performance reviews and self-evaluations: prompts that start from your own notes, what ChatGPT must never do, and privacy and bias checks.
 - [The Air Canada chatbot case: what happened, and how to stop a support bot inventing policy](https://tryiro.com/blog/air-canada-chatbot-case) — A tribunal held Air Canada liable for its chatbot's wrong bereavement-fare advice. What happened, and how support teams stop AI replies inventing policy.
+- [Google AI Essentials alternatives: practice-first options in 2026](https://tryiro.com/blog/google-ai-essentials-alternatives) — Google AI Essentials costs $49/month on Coursera. Compare free and practice-first alternatives: OpenAI Academy, Anthropic AI Fluency, Elements of AI and Iro AI.
+- [Iro AI vs Sololearn Learn AI: which teaches AI better?](https://tryiro.com/blog/iro-ai-vs-sololearn) — Iro AI vs Sololearn's Learn AI app: what each teaches, how lessons work, platforms and US prices, and who each one is for. An honest comparison.
