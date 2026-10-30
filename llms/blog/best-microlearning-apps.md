@@ -68,14 +68,14 @@ Ignore the feature lists, install two, and run this. It is faster than reading r
 
 | App | Job it does | Best for | Free tier | Platforms |
 | --- | --- | --- | --- | --- |
-| Duolingo | Practice | Languages, plus maths and music. The benchmark for habit design. | Full courses with ads | iOS, Android, web |
-| Brilliant | Concept course | Maths, logic, computer science. The strongest interactive teaching in this list. | Not verified by us | iOS, Android, web |
+| [Duolingo](/blog/does-duolingo-teach-ai) | Practice | Languages, plus maths and music. The benchmark for habit design. | Full courses with ads | iOS, Android, web |
+| [Brilliant](/blog/iro-ai-vs-brilliant) | Concept course | Maths, logic, computer science. The strongest interactive teaching in this list. | Not verified by us | iOS, Android, web |
 | Khan Academy | Concept course | Academic foundations on no budget. Non-profit. | Entirely free, no paid tier | iOS, Android, web |
-| Blinkist | Summary library | Broad non-fiction exposure, text and audio. | Not verified by us | Not verified by us |
-| Headway | Summary library | The same job as Blinkist; choose on library and interface. | Not verified by us | Not verified by us |
-| BeFreed | Summary library, personalised | Goal-led plans that assemble summaries, AI-narrated podcasts and flashcards. 10, 20 or 40-minute sessions. | Not verified by us | iOS, Android |
-| Kinnu | Concept course | Broad general knowledge in structured paths. | Genuinely free tier | Not verified by us |
-| Imprint | Concept course | Visually taught big ideas from non-fiction. | Not verified by us | Not verified by us |
+| [Blinkist](/blog/blinkist-alternatives) | Summary library | Broad non-fiction exposure, text and audio. | Not verified by us | Not verified by us |
+| [Headway](/blog/headway-alternatives) | Summary library | The same job as Blinkist; choose on library and interface. | Not verified by us | Not verified by us |
+| [BeFreed](/blog/befreed-alternatives) | Summary library, personalised | Goal-led plans that assemble summaries, AI-narrated podcasts and flashcards. 10, 20 or 40-minute sessions. | Not verified by us | iOS, Android |
+| [Kinnu](/blog/kinnu-alternatives) | Concept course | Broad general knowledge in structured paths. | Genuinely free tier | Not verified by us |
+| [Imprint](/blog/imprint-alternatives) | Concept course | Visually taught big ideas from non-fiction. | Not verified by us | Not verified by us |
 | Iro AI _(ours)_ | Practice | Using AI tools well: ChatGPT, Claude, Gemini, Perplexity, prompting, agents. | All 34 paths and 522 lessons open, paced by a Battery giving a lesson a day | iOS and a free web app, no signup. Android in development. |
 
 
@@ -124,6 +124,9 @@ Khan Academy is entirely free with no paid tier. Duolingo's full courses are fre
 - [The best apps to learn something new](https://tryiro.com/blog/best-learning-apps)
 - [How to choose an AI learning app](https://tryiro.com/blog/how-to-choose-an-ai-learning-app)
 - [The best Blinkist alternatives](https://tryiro.com/blog/blinkist-alternatives)
+- [Chunks alternatives, compared](https://tryiro.com/blog/chunks-alternatives)
+- [Nibble alternatives, compared](https://tryiro.com/blog/nibble-alternatives)
+- [Morso alternatives, compared](https://tryiro.com/blog/morso-alternatives)
 
 ## About the author
 
