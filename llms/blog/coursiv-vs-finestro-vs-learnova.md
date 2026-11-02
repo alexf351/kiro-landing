@@ -68,7 +68,7 @@ Read that again in practical terms. If you subscribe, dislike it on day two and 
 
 Finestro runs about **$10 for a one-week trial, then roughly $49.99 a month**. Its published refund policy lists forgetting to cancel before the trial converts, and being unaware of auto-renewal, as reasons that do _not_ qualify for a refund. The trial deadline is entirely your responsibility.
 
-Separately, and at a lower level of certainty: App Store reviewers and people filing complaints with the Better Business Bureau describe charges continuing after cancellation requests and refunds being refused. Those are user accounts, not findings. Set against them, the app holds roughly **4.76 out of 5 across about 320 App Store ratings**, so plenty of customers have no complaint at all.
+Separately, and at a lower level of certainty: App Store reviewers and people filing complaints with the Better Business Bureau describe charges continuing after cancellation requests and refunds being refused. Those are user accounts, not findings. Set against them, plenty of customers have no complaint at all.
 
 Learnova is the hardest of the three to pin down, which is itself the finding. Its pricing and refund terms are not published anywhere we could verify, and its App Store listing carries too few ratings to show a rating overview at all.
 
@@ -93,7 +93,7 @@ No, and it is worth being precise about this, because the word gets thrown aroun
 
 All three are real companies shipping real apps with real content, on both major app stores, with support addresses that answer. A scam takes your money and delivers nothing. These deliver lessons, and a good number of people finish them and are glad they paid.
 
-What they run is something else: a subscription funnel where the number you agree to is smaller than the number you pay, and the conditions for getting out are set at sign-up rather than at the point you want to leave. That is a legitimate business model used by thousands of apps, including some you already pay for. It is also the reason a well-liked app with a 4.76 rating can generate a steady flow of billing complaints. Both things are true at once.
+What they run is something else: a subscription funnel where the number you agree to is smaller than the number you pay, and the conditions for getting out are set at sign-up rather than at the point you want to leave. That is a legitimate business model used by thousands of apps, including some you already pay for. It is also the reason a well-liked app can generate a steady flow of billing complaints. Both things are true at once.
 
 The useful question is not whether an app is a scam. It is whether you can find the renewal price before you pay, and whether cancelling takes two taps or an email thread.
 
@@ -124,7 +124,7 @@ If you subscribed to something through the App Store and want out, that is a dif
 
 **Which is better, Coursiv, Finestro or Learnova?**
 
-On content they are close enough that the choice rarely comes down to lessons. Finestro publishes the clearest pricing of the three, at roughly $10 for a week then about $49.99 a month, and holds around 4.76 out of 5 from about 320 App Store ratings. Coursiv publishes the most detailed refund policy, though it requires you to have completed up to 80% of modules to qualify. Learnova publishes the least, with no verifiable pricing and too few ratings to show an overview.
+On content they are close enough that the choice rarely comes down to lessons. Finestro publishes the clearest pricing of the three, at roughly $10 for a week then about $49.99 a month. Coursiv publishes the most detailed refund policy, though it requires you to have completed up to 80% of modules to qualify. Learnova publishes the least, with no verifiable pricing and too few ratings to show an overview.
 
 **Is Coursiv's money-back guarantee real?**
 

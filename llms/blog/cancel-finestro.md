@@ -136,7 +136,7 @@ Roughly $10 for a one-week trial, converting to about $49.99 a month afterwards.
 
 **Is Finestro a scam?**
 
-No. It is a real app with real content and a high average App Store rating, around 4.76 out of 5 from about 320 ratings. The complaints are about subscription mechanics rather than the product: a cheap trial that converts to a much larger monthly charge, and a refund policy that excludes forgetting to cancel.
+No. It is a real app with real content. The complaints are about subscription mechanics rather than the product: a cheap trial that converts to a much larger monthly charge, and a refund policy that excludes forgetting to cancel.
 
 ## Read next
 

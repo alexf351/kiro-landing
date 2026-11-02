@@ -58,7 +58,7 @@ That is a reasonable product, and it is the same promise most apps in this categ
 
 On the App Store, Skilario lists two subscriptions: **$19.99 a month** and **$79.99 a year**. Those are billed by Apple and behave like any other App Store subscription.
 
-The website is different, and it appears to be where most customers buy. At the time of writing the iPhone app has too few ratings for the App Store to show a score and the Android app sits in Google Play's lowest install band, while Skilario's Trustpilot page, which covers the website, has more than a hundred reviews. Skilario's terms describe website plans that are **weekly, monthly or annual**, and set out how the pricing works:
+The website is different, and it appears to be where most customers buy. At the time of writing the iPhone app has too few ratings for the App Store to show a score and the Android app sits in Google Play's lowest install band, while Skilario's Trustpilot page, which covers the website has a page of its own reviews. Skilario's terms describe website plans that are **weekly, monthly or annual**, and set out how the pricing works:
 
 - **Promotional prices cover the first payment only.** Unless the offer expressly says otherwise, renewals are charged at the regular rate.
 - **Plans renew automatically** unless auto-renewal is turned off at least 24 hours before the period ends. A cancellation made inside that window may not take effect until after the next charge.
@@ -86,10 +86,10 @@ Three more clauses worth knowing:
 
 ## What the ratings do and don't tell you
 
-Skilario's Trustpilot page rates it **Excellent**, and some reviewers praise lessons that show you how to do a task and then let you try it yourself. That is worth something. Two cautions before leaning on it:
+On Skilario's Trustpilot page, some reviewers praise lessons that show you how to do a task and then let you try it yourself. That is worth something. Two cautions before leaning on it:
 
 - **Timing.** Reviews of a new subscription app are mostly written in the first days after signup, before the first renewal lands. Billing complaints, when they come, arrive weeks later. Sort by newest and read the lowest ratings as well as the highest.
-- **A second source.** The app stores have almost no ratings for Skilario yet, so there is nothing to check Trustpilot against. The developer's only other public track record is its short-drama app, and Cherry Entertainment's own Trustpilot page was rated 3.3 out of 5 at the time of writing.
+- **A second source.** The app stores have almost no ratings for Skilario yet, so there is nothing to check Trustpilot against. The developer's only other public track record is its short-drama app.
 
 ## If you still want to try it
 
