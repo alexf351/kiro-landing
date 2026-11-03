@@ -284,6 +284,7 @@ Human-readable version of this section: https://tryiro.com/editorial-policy
 - [Which AI should I use?](https://tryiro.com/which-ai-should-i-use): A free 5-question picker that recommends ChatGPT, Claude, Gemini, Perplexity or Copilot for your work, with a runner-up. No sign-up.
 - [AI prompt library](https://tryiro.com/ai-prompts): 32 free copy-and-paste prompts for work, writing, studying, research and job hunting.
 - [Iro AI for educators](https://tryiro.com/for-educators): what Iro is and is not for schools, how the free tier works, and free classroom resources for teaching AI literacy.
+- [Free AI literacy classroom kit](https://tryiro.com/ai-literacy-classroom-kit): five lessons, five no-software activities, a two-minute pre and post test, a process log and a permission scale for high school teachers. Free, no accounts.
 
 ## Reference & support
 
