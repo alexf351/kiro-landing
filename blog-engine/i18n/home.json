@@ -1,6 +1,6 @@
 {
  "_about": "Translations for the homepage, organized by section. `en` is the English exactly as it appears in index.html; blog-engine/build-i18n.mjs finds it and writes es.html, fr.html, de.html, pt-br.html, it.html and zh-hans.html. When the English changes, the build reports the entry as stale: update `en` and every translation together. Register: tú (es), vous (fr), du (de), você (pt-br, Brazilian Portuguese), tu (it), 你 (zh-hans, Simplified Chinese). AI is IA in es/fr/pt-br/it, KI in de and stays AI in zh-hans, where Duolingo is 多邻国, a prompt is 提示词, ranks are 段位 and duels are 对战. Chinese copy puts a space between Chinese and Latin letters or digits, and in FAQ answers a space on both sides of every link (the schema check compares the answer with the visible text, which gains a space at each tag). Prices stay in USD, written in each locale's number format (9.99 美元 in zh-hans); do not convert them.",
- "dateModified": "2026-10-23",
+ "dateModified": "2026-11-04",
  "locales": {
   "es": {
    "file": "es.html",
@@ -986,13 +986,13 @@
     "zh-hans": "卡住了？<span class=\"accent\">问 Iro 就行。</span>"
    },
    "sub": {
-    "en": "Miss a question and Iro shows you <b>why</b>, breaks down the tricky part, and gives you a sharper rep while it's fresh, like a friend who's great at AI, right in your pocket.",
-    "es": "Si fallas una pregunta, Iro te explica el <b>porqué</b>, desmenuza la parte difícil y te propone una práctica más afinada mientras lo tienes fresco: como un amigo que domina la IA, siempre en tu bolsillo.",
-    "fr": "Vous ratez une question ? Iro vous explique <b>pourquoi</b>, décortique le point délicat et vous propose un exercice plus ciblé tant que c’est frais. Comme un ami expert en IA, toujours dans votre poche.",
-    "de": "Wenn du eine Frage falsch beantwortest, zeigt dir Iro, <b>warum</b>, zerlegt den kniffligen Teil und gibt dir gleich eine gezieltere Übung, solange alles frisch ist. Wie ein Freund, der KI richtig draufhat, immer in deiner Tasche.",
-    "pt-br": "Errou uma pergunta? O Iro mostra o <b>porquê</b>, destrincha a parte difícil e passa um treino mais afiado enquanto o assunto está fresco, como um amigo que entende muito de IA, sempre no seu bolso.",
-    "it": "Sbagli una domanda? Iro ti mostra il <b>perché</b>, scompone la parte difficile e ti propone un allenamento più mirato finché è tutto fresco, come un amico bravissimo con l’IA, sempre in tasca.",
-    "zh-hans": "答错一道题，Iro 会告诉你<b>为什么</b>，拆解难点，再趁热给你出一道更有针对性的练习题，就像口袋里有个精通 AI 的朋友。"
+    "en": "Miss a question and Iro shows you <b>why</b>. Ask it anything and it draws the answer as a chart, searches the web when it needs today's facts, remembers what you told it last time and quizzes you on any topic. In seven languages.",
+    "es": "Si fallas una pregunta, Iro te explica el <b>porqué</b>. Pregúntale lo que sea y te dibuja la respuesta como un gráfico, busca en la web cuando necesita datos de hoy, recuerda lo que le contaste la última vez y te pone a prueba sobre cualquier tema. En siete idiomas.",
+    "fr": "Vous ratez une question ? Iro vous explique <b>pourquoi</b>. Posez-lui n’importe quelle question : il dessine la réponse sous forme de graphique, cherche sur le web quand il lui faut des infos du jour, se souvient de ce que vous lui avez dit la dernière fois et vous interroge sur n’importe quel sujet. En sept langues.",
+    "de": "Wenn du eine Frage falsch beantwortest, zeigt dir Iro, <b>warum</b>. Frag ihn, was du willst: Er zeichnet die Antwort als Diagramm, sucht im Web, wenn er aktuelle Fakten braucht, merkt sich, was du ihm beim letzten Mal erzählt hast, und fragt dich zu jedem Thema ab. In sieben Sprachen.",
+    "pt-br": "Errou uma pergunta? O Iro mostra o <b>porquê</b>. Pergunte qualquer coisa e ele desenha a resposta em um gráfico, pesquisa na web quando precisa de fatos de hoje, lembra do que você contou da última vez e te testa sobre qualquer assunto. Em sete idiomas.",
+    "it": "Sbagli una domanda? Iro ti mostra il <b>perché</b>. Chiedigli qualsiasi cosa: disegna la risposta come un grafico, cerca sul web quando gli servono dati di oggi, ricorda quello che gli hai detto l’ultima volta e ti interroga su qualsiasi argomento. In sette lingue.",
+    "zh-hans": "答错一道题，Iro 会告诉你<b>为什么</b>。随便问它什么，它会把答案画成图表，需要最新信息时上网搜索，记得你上次说过的话，还能就任何主题考考你。支持七种语言。"
    },
    "cta": {
     "en": "Learn with Iro",
@@ -3854,40 +3854,40 @@
     "zh-hans": "AI 教练"
    },
    "coachD": {
-    "en": "Iro quizzes you on today&rsquo;s lesson, explains the why, and points you at the next rep.",
-    "es": "Iro te pregunta sobre la lección de hoy, te explica el porqué y te señala la siguiente práctica.",
-    "fr": "Iro vous interroge sur la leçon du jour, explique le pourquoi et vous oriente vers l’exercice suivant.",
-    "de": "Iro fragt dich zur heutigen Lektion ab, erklärt das Warum und zeigt dir die nächste Übung.",
-    "pt-br": "O Iro faz perguntas sobre a lição de hoje, explica o porquê e indica o próximo treino.",
-    "it": "Iro ti interroga sulla lezione di oggi, ti spiega il perché e ti indica il prossimo allenamento.",
-    "zh-hans": "Iro 会就今天的课考考你，讲清背后的原因，再告诉你下一步练什么。"
+    "en": "Iro draws answers as charts, searches the web, remembers what you told it and quizzes you on any topic.",
+    "es": "Iro dibuja las respuestas como gráficos, busca en la web, recuerda lo que le contaste y te pone a prueba sobre cualquier tema.",
+    "fr": "Iro dessine les réponses en graphiques, cherche sur le web, se souvient de ce que vous lui avez dit et vous interroge sur n’importe quel sujet.",
+    "de": "Iro zeichnet Antworten als Diagramme, sucht im Web, merkt sich, was du ihm erzählt hast, und fragt dich zu jedem Thema ab.",
+    "pt-br": "O Iro desenha as respostas em gráficos, pesquisa na web, lembra do que você contou e te testa sobre qualquer assunto.",
+    "it": "Iro disegna le risposte come grafici, cerca sul web, ricorda quello che gli hai detto e ti interroga su qualsiasi argomento.",
+    "zh-hans": "Iro 会把答案画成图表、上网搜索、记住你说过的话，还能就任何主题考考你。"
    },
    "coachB1": {
-    "en": "&ldquo;Quiz me on today&rsquo;s lesson&rdquo;",
-    "es": "“Hazme un test sobre la lección de hoy”",
-    "fr": "« Interroge-moi sur la leçon du jour »",
-    "de": "„Frag mich zur heutigen Lektion ab“",
-    "pt-br": "“Me faça um teste sobre a lição de hoje”",
-    "it": "“Interrogami sulla lezione di oggi”",
-    "zh-hans": "“考考我今天学的内容”"
+    "en": "&ldquo;Quiz me on context windows&rdquo;",
+    "es": "“Hazme un test sobre ventanas de contexto”",
+    "fr": "« Interroge-moi sur les fenêtres de contexte »",
+    "de": "„Frag mich zu Kontextfenstern ab“",
+    "pt-br": "“Me faça um teste sobre janelas de contexto”",
+    "it": "“Interrogami sulle finestre di contesto”",
+    "zh-hans": "“考考我上下文窗口”"
    },
    "coachB2": {
-    "en": "Explanations, not just answers",
-    "es": "Explicaciones, no solo respuestas",
-    "fr": "Des explications, pas juste des réponses",
-    "de": "Erklärungen statt nur Antworten",
-    "pt-br": "Explicações, não só respostas",
-    "it": "Spiegazioni, non solo risposte",
-    "zh-hans": "不只给答案，还给讲解"
+    "en": "Charts, tables and timelines, drawn in the app",
+    "es": "Gráficos, tablas y líneas de tiempo, dibujados en la app",
+    "fr": "Graphiques, tableaux et frises, dessinés dans l’app",
+    "de": "Diagramme, Tabellen und Zeitleisten, direkt in der App gezeichnet",
+    "pt-br": "Gráficos, tabelas e linhas do tempo, desenhados no app",
+    "it": "Grafici, tabelle e linee del tempo, disegnati nell’app",
+    "zh-hans": "图表、表格和时间线，直接在 App 里画出来"
    },
    "coachB3": {
-    "en": "One tap into Prompt Lab practice",
-    "es": "Un toque y a practicar en el Prompt Lab",
-    "fr": "Un geste pour s’entraîner dans le Prompt Lab",
-    "de": "Ein Tippen und ab ins Prompt Lab",
-    "pt-br": "Um toque e você está praticando no Prompt Lab",
-    "it": "Un tocco e ti alleni nel Prompt Lab",
-    "zh-hans": "一键进入 Prompt Lab 练习"
+    "en": "Remembers what you told it last time",
+    "es": "Recuerda lo que le contaste la última vez",
+    "fr": "Se souvient de ce que vous lui avez dit la dernière fois",
+    "de": "Merkt sich, was du ihm beim letzten Mal erzählt hast",
+    "pt-br": "Lembra do que você contou da última vez",
+    "it": "Ricorda quello che gli hai detto l’ultima volta",
+    "zh-hans": "记得你上次说过的话"
    },
    "createT": {
     "en": "Create",
@@ -5484,13 +5484,13 @@
     "zh-hans": "Pro 年度会员，含 7 天免费试用"
    },
    "f1": {
-    "en": "Ask Iro, a personal AI coach that fits your goal and level",
-    "es": "Ask Iro, un coach de IA personal que se adapta a tu objetivo y a tu nivel",
-    "fr": "Ask Iro, un coach IA personnel adapté à votre objectif et à votre niveau",
-    "de": "Ask Iro, ein persönlicher KI-Coach, der zu deinem Ziel und Niveau passt",
-    "pt-br": "Ask Iro, um coach de IA pessoal que se adapta ao seu objetivo e ao seu nível",
-    "it": "Ask Iro, un coach di IA personale che si adatta al tuo obiettivo e al tuo livello",
-    "zh-hans": "Ask Iro：贴合你目标和水平的私人 AI 教练"
+    "en": "Ask Iro, a personal AI coach that draws charts, searches the web, remembers you and quizzes you on any topic",
+    "es": "Ask Iro, un coach de IA personal que dibuja gráficos, busca en la web, te recuerda y te pone a prueba sobre cualquier tema",
+    "fr": "Ask Iro, un coach IA personnel qui dessine des graphiques, cherche sur le web, se souvient de vous et vous interroge sur n’importe quel sujet",
+    "de": "Ask Iro, ein persönlicher KI-Coach, der Diagramme zeichnet, im Web sucht, sich an dich erinnert und dich zu jedem Thema abfragt",
+    "pt-br": "Ask Iro, um coach de IA pessoal que desenha gráficos, pesquisa na web, lembra de você e te testa sobre qualquer assunto",
+    "it": "Ask Iro, un coach di IA personale che disegna grafici, cerca sul web, si ricorda di te e ti interroga su qualsiasi argomento",
+    "zh-hans": "Ask Iro：会画图表、上网搜索、记住你、还能就任何主题考你的私人 AI 教练"
    },
    "f2": {
     "en": "AI prompting practice with real-time feedback",
