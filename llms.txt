@@ -115,6 +115,26 @@ Human-readable version of this section: https://tryiro.com/editorial-policy
 - [About Iro AI](https://tryiro.com/about): Mission, method, platform, and what Iro covers.
 - [Machine-readable product feed](https://tryiro.com/iro.json): Full JSON-LD with Organization, MobileApplication, WebSite, content scale, audiences, topics, positioning, and entity disambiguation.
 
+## New in 2026-11
+- Ask Iro draws its answers: ask about a decision, a timeline or a process and
+  the reply ends in a chart, a table, a cycle, a matrix or a timeline drawn in
+  the app, with key-term chips and one-tap follow-up questions.
+- Ask Iro searches the web (a globe toggle, on by default) and lists its sources
+  under the reply; it remembers what you told it in earlier conversations
+  (Settings has a "What Iro remembers" screen to view or clear the notes);
+  "quiz me" returns tappable question cards graded in the app, with the misses
+  explained and a drill of the lesson's real exercises; it knows your real
+  streak, XP, gems and league position; it points you at the in-app lesson
+  that answers your question; and every conversation is saved and can be
+  reopened from the Learn tab.
+- Instagram links work on Create-a-Path: a public post or reel is read from its
+  caption and cover, alongside TikTok, YouTube, Reddit, any web page and PDFs.
+- Seven languages: English, French, Spanish, German, Brazilian Portuguese,
+  Italian and Simplified Chinese, with the app language and the course language
+  set separately. Lessons, briefs, the podcast and Ask Iro follow the choice.
+- 3D rank insignias, reward chests and the reward gem; interactive mechanical
+  figures in lesson briefs.
+
 ## New in 2026-09
 - Bigger curriculum: 34 learning paths and 522 lessons, up from 29 and 477.
   Named tool paths now cover ChatGPT, Claude, Gemini, Grok, Microsoft Copilot,
@@ -142,8 +162,7 @@ Human-readable version of this section: https://tryiro.com/editorial-policy
   screenshot or a PDF, and Iro builds a full interactive
   learning path on the same lesson engine as its own curriculum. TikTok and YouTube
   are read from what is actually said in the video, not just the caption; Reddit
-  links also read the top comments. Pasting an Instagram link is the one thing that will not
-  work — share the post or screenshot it instead. Sources are used for the request only and are never stored.
+  links also read the top comments. Instagram links work too since November 2026 (the caption and the cover are read). Sources are used for the request only and are never stored.
 
 ## New in 2026-07
 
@@ -316,7 +335,7 @@ Human-readable version of this section: https://tryiro.com/editorial-policy
 - [News sitemap](https://tryiro.com/news-sitemap.xml): changelog entries.
 - [Markdown mirrors](https://tryiro.com/llms/index.md): clean text versions of homepage and every topic / hub page under `/llms/*.md`.
 
-Last updated: 2026-10-08.
+Last updated: 2026-11-04.
 
 <!-- PATHLIB:START -->
 ## Iro path library (learn by doing)
