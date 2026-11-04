@@ -341,7 +341,7 @@ nav .wrap{display:flex;align-items:center;justify-content:space-between}
 .nav-menu span:last-child{top:25px}
 nav.open .nav-menu span:first-child{top:21px;transform:rotate(45deg)}
 nav.open .nav-menu span:last-child{top:21px;transform:rotate(-45deg)}
-@media(max-width:1024px){
+@media(max-width:1024px){.review-minis{grid-template-columns:repeat(2,1fr)}
   .nav-right{margin-left:auto}
   .nav-menu{display:inline-flex}
   .nav-links{display:none;position:absolute;top:62px;left:0;right:0;margin:0;flex-direction:column;align-items:stretch;gap:0;
@@ -903,7 +903,7 @@ header.hero .hero-ctas .btn-primary::before{content:'';position:absolute;inset:-
   font-family:'Geist',sans-serif;font-weight:800;font-size:12px;color:var(--ink)}
 .rev-nm{font-size:13px;font-weight:700;color:var(--ink);letter-spacing:-.01em}
 .rev-src{font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:.06em;color:var(--ink-3)}
-.review-minis{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;max-width:1080px;margin:0 auto}
+.review-minis{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;max-width:1080px;margin:0 auto}
 .review-mini{flex:1;display:flex;flex-direction:column;justify-content:flex-start;gap:8px;padding:18px 20px;border-radius:8px;
   background:var(--surface);border:1px solid var(--line);transition:border-color .3s}
 .rm-stars{color:var(--gold);font-size:10px;letter-spacing:2.5px;text-shadow:0 0 8px rgba(var(--gold-rgb),.3)}
@@ -2027,6 +2027,11 @@ html.is-android .locale-suggest{bottom:12px;top:auto}
         <div class="rm-stars" aria-hidden="true">★★★★★</div>
         <p>„Tolle App! Sehr hilfreich, mit motivierenden Übungen, die auf konkrete Ziele zugeschnitten sind.“</p>
         <span class="rm-src">Jmf275 · App Store</span>
+      </article>
+      <article class="review-mini">
+        <div class="rm-stars" aria-hidden="true">★★★★★</div>
+        <p>„Perfekt für Einsteiger. Ich nutze die App, um Claude kennenzulernen. Ich liebe sie. Absolut empfehlenswert.“</p>
+        <span class="rm-src">sudo-super-su · App Store</span>
       </article>
     </div>
 
