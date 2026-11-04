@@ -3,7 +3,7 @@
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://tryiro.com/blog</loc>
-    <lastmod>2026-10-30</lastmod>
+    <lastmod>2026-11-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -13,7 +13,7 @@
   </url>
   <url>
     <loc>https://tryiro.com/blog/ai-fluency</loc>
-    <lastmod>2026-10-30</lastmod>
+    <lastmod>2026-11-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.88</priority>
     <image:image>
@@ -1379,6 +1379,16 @@
     <image:image>
       <image:loc>https://tryiro.com/assets/og/iro-ai-vs-sololearn.png</image:loc>
       <image:title>Iro AI vs Sololearn Learn AI: which teaches AI better?</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://tryiro.com/blog/cosmo-review</loc>
+    <lastmod>2026-11-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://tryiro.com/assets/og/cosmo-review.png</image:loc>
+      <image:title>Cosmo review: CodeSignal's AI tutor app, what it costs, and who it suits</image:title>
     </image:image>
   </url>
 </urlset>

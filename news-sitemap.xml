@@ -5,27 +5,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
-    <loc>https://tryiro.com/blog/google-ai-essentials-alternatives</loc>
+    <loc>https://tryiro.com/blog/cosmo-review</loc>
     <news:news>
       <news:publication>
         <news:name>Iro AI</news:name>
         <news:language>en</news:language>
       </news:publication>
-      <news:publication_date>2026-10-30T00:00:00Z</news:publication_date>
-      <news:title>Google AI Essentials alternatives: practice-first options in 2026</news:title>
-      <news:keywords>Google AI Essentials alternatives, Google AI Essentials alternative, is Google AI Essentials free, AI For Everyone alternative, what to take after AI For Everyone, free AI course with certificate</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://tryiro.com/blog/iro-ai-vs-sololearn</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Iro AI</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-30T00:00:00Z</news:publication_date>
-      <news:title>Iro AI vs Sololearn Learn AI: which teaches AI better?</news:title>
-      <news:keywords>Iro AI vs Sololearn, Sololearn Learn AI, Sololearn AI review, Sololearn alternative, app to learn prompting, learn AI app</news:keywords>
+      <news:publication_date>2026-11-04T00:00:00Z</news:publication_date>
+      <news:title>Cosmo review: CodeSignal's AI tutor app, what it costs, and who it suits</news:title>
+      <news:keywords>Cosmo review, Cosmo app review, CodeSignal Cosmo, Cosmo learn GenAI, is Cosmo worth it, Cosmo+ price, Cosmo app price, cancel Cosmo subscription</news:keywords>
     </news:news>
   </url>
 </urlset>

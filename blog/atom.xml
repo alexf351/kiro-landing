@@ -5,7 +5,7 @@
   <link rel="self" href="https://tryiro.com/blog/atom.xml" type="application/atom+xml"/>
   <link rel="alternate" href="https://tryiro.com/blog" type="text/html"/>
   <id>https://tryiro.com/blog/atom.xml</id>
-  <updated>2026-10-30T00:00:00Z</updated>
+  <updated>2026-11-04T00:00:00Z</updated>
   <rights>© 2026 Iro AI</rights>
   <author><name>Iro AI</name><uri>https://tryiro.com</uri></author>
   <icon>https://tryiro.com/assets/favicon-64.png</icon>
@@ -1339,5 +1339,15 @@
     <author><name>Iro AI</name></author>
     <category term="AI learning apps"/>
     <summary>Both are mobile apps that teach prompting through short, hands-on lessons. They differ in depth, platforms and price. Here is the honest comparison.</summary>
+  </entry>
+  <entry>
+    <title>Cosmo review: CodeSignal's AI tutor app, what it costs, and who it suits</title>
+    <id>https://tryiro.com/blog/cosmo-review</id>
+    <link href="https://tryiro.com/blog/cosmo-review"/>
+    <updated>2026-11-04T00:00:00Z</updated>
+    <published>2026-11-04T00:00:00Z</published>
+    <author><name>Iro AI</name></author>
+    <category term="AI fluency"/>
+    <summary>Cosmo is CodeSignal's bite-sized learning app, pitched as Duolingo for job skills. It comes from an established company, the courses are free, and the terms are some of the cleaner ones in this category. Here is who makes it, how it teaches, what Cosmo+ costs, and who it suits.</summary>
   </entry>
 </feed>
