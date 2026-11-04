@@ -114,7 +114,8 @@
   "Alex Furukawa",
   "Alex Morgan",
   "Titan",
-  "Operator"
+  "Operator",
+  "sudo-super-su"
  ],
  "sections": {
   "head": {
@@ -1400,6 +1401,15 @@
     "pt-br": "Treine isto primeiro",
     "it": "Allena prima questo",
     "zh-hans": "优先练这个"
+   },
+   "r5": {
+    "en": "&ldquo;Perfect for beginners. I&rsquo;m using this app to help me learn about Claude. I really love it. Highly recommend it.&rdquo;",
+    "es": "“Perfecto para principiantes. Uso esta app para aprender sobre Claude. Me encanta. Muy recomendable.”",
+    "fr": "« Parfait pour les débutants. J’utilise cette app pour apprendre à me servir de Claude. J’adore. Je la recommande vivement. »",
+    "de": "„Perfekt für Einsteiger. Ich nutze die App, um Claude kennenzulernen. Ich liebe sie. Absolut empfehlenswert.“",
+    "pt-br": "“Perfeito para iniciantes. Uso o app para aprender sobre o Claude. Adoro. Recomendo muito.”",
+    "it": "“Perfetto per chi inizia. Uso questa app per imparare a usare Claude. La adoro. La consiglio vivamente.”",
+    "zh-hans": "“非常适合新手。我用这个 App 来学习 Claude，真的很喜欢，强烈推荐。”"
    }
   },
   "webappBanner": {
