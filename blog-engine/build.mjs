@@ -307,7 +307,8 @@ function renderPost(post) {
   if (pillar) crumbs.push({ '@type': 'ListItem', position: 3, name: pillar.title, item: pillarUrl(pillar) });
   crumbs.push({ '@type': 'ListItem', position: crumbs.length + 1, name: title, item: url });
 
-  const au = cfg.blogAuthor;
+  // A post may override the author bio (e.g. a pronoun-free version) with `authorBio`.
+  const au = post.authorBio ? { ...cfg.blogAuthor, bio: post.authorBio } : cfg.blogAuthor;
   // Real word count (entity signal) from the rendered body + lede.
   const wordCount = stripTags([post.lede, ...(post.keyTakeaways || []), ...post.sections.map((s) => s.html)].join(' '))
     .split(/\s+/)
@@ -1178,7 +1179,7 @@ ${readNext}
 
 ## About the author
 
-${cfg.blogAuthor.name} — ${cfg.blogAuthor.jobTitle}. ${cfg.blogAuthor.bio}
+${cfg.blogAuthor.name} — ${cfg.blogAuthor.jobTitle}. ${post.authorBio || cfg.blogAuthor.bio}
 `;
 }
 

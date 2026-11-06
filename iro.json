@@ -53,12 +53,7 @@
         "https://tiktok.com/@tryiro",
         "https://www.facebook.com/people/Iro-AI-Learn-AI-Skills/61589434050207/"
       ],
-      "availableLanguage": [
-        "en",
-        "es",
-        "fr",
-        "de"
-      ]
+      "availableLanguage": ["en","es","fr","de","pt-BR","it","zh-Hans"]
     },
     {
       "@type": "MobileApplication",
@@ -82,7 +77,7 @@
         "34 learning paths across ChatGPT, Claude, Gemini, Perplexity, prompt engineering, AI agents, automation, image/video generation, vibe coding, work, marketing, finance, and more",
         "522 lessons and 3,000+ exercises across 23 exercise types",
         "Custom Paths (Pro, unlimited): name any topic, or hand Iro a link, a screenshot or a PDF, and it generates a complete learning path (5 lessons, a quiz, and a recap) in seconds — not just AI topics",
-        "Ask Iro: built-in AI coach with chat and voice modes",
+        "Ask Iro: built-in AI coach with chat and voice modes that draws charts, searches the web with sources, remembers you across conversations, quizzes you on any topic and saves every conversation","Available in English, French, Spanish, German, Brazilian Portuguese, Italian and Simplified Chinese, with app language and course language set separately",
         "Prompt Lab with AI-generated feedback",
         "Timed AI duels against a skill-matched opponent from a curated pool",
         "Weekly AI news briefings",
@@ -128,12 +123,7 @@
           "description": "$9.99 a month. No trial. Cancel anytime. Billed via Apple App Store."
         }
       ],
-      "availableLanguage": [
-        "en",
-        "es",
-        "fr",
-        "de"
-      ]
+      "availableLanguage": ["en","es","fr","de","pt-BR","it","zh-Hans"]
     },
     {
       "@type": "WebSite",
@@ -158,12 +148,7 @@
         },
         "query-input": "required name=search_term_string"
       },
-      "availableLanguage": [
-        "en",
-        "es",
-        "fr",
-        "de"
-      ]
+      "availableLanguage": ["en","es","fr","de","pt-BR","it","zh-Hans"]
     }
   ],
   "iro_meta": {

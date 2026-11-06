@@ -551,6 +551,14 @@
     {
       "source": "/blog/iro-ai-vs-sololearn",
       "destination": "/blog/iro-ai-vs-sololearn.html"
+    },
+    {
+      "source": "/blog/cosmo-review",
+      "destination": "/blog/cosmo-review.html"
+    },
+    {
+      "source": "/blog/best-ai-literacy-resources-for-teachers",
+      "destination": "/blog/best-ai-literacy-resources-for-teachers.html"
     }
   ]
 }

@@ -4,7 +4,7 @@ canonical_url: "https://tryiro.com/blog/ai-fluency"
 site: "Iro AI"
 site_url: "https://tryiro.com"
 language: en-US
-last_updated: "2026-10-30"
+last_updated: "2026-11-06"
 keywords: ["AI fluency", "how to learn AI", "AI skills", "learn AI 2026", "AI for beginners"]
 author: "Iro AI"
 license: "© 2026 Iro AI"
@@ -16,7 +16,7 @@ type: "content-pillar"
 > Build real AI fluency in 2026 — the active-practice method, the free tools worth using, and how to tell when AI is wrong.
 
 **Canonical:** https://tryiro.com/blog/ai-fluency
-**Last updated:** 2026-10-30
+**Last updated:** 2026-11-06
 
 AI fluency is the ability to get reliable, useful results from AI tools — and to know when not to trust them. It is not about memorising magic prompts. It is a skill you build through active practice, the same way you would learn a language or an instrument.
 
@@ -50,7 +50,7 @@ Work through the posts below in order, or jump straight to whichever gap is most
 - [What is RAG (retrieval-augmented generation)? Explained simply](https://tryiro.com/blog/what-is-rag) — RAG (retrieval-augmented generation) lets an AI look up real information before answering. How it works, why it cuts hallucinations, and where you meet it.
 - [AI for teachers: practical, responsible ways to use it in 2026](https://tryiro.com/blog/ai-for-teachers) — Practical ways teachers can use AI for lesson planning, feedback and differentiation, with copy-paste prompts, the student-data rules, and how to teach AI use.
 - [The best Coursiv alternatives in 2026](https://tryiro.com/blog/coursiv-alternatives) — Looking for a Coursiv alternative? Compare Iro AI, Brilliant, DataCamp and Khan Academy for learning AI in 2026, by how you learn and how you pay.
-- [The best Learnova alternatives in 2026](https://tryiro.com/blog/learnova-alternatives) — Looking for a Learnova alternative? Compare the best apps for learning AI in 2026 (Iro AI, Brilliant, Khan Academy, DataCamp) by how you learn and how you pay.
+- [The best Learnova alternatives in 2026](https://tryiro.com/blog/learnova-alternatives) — Looking for a Learnova alternative? Compare apps for learning AI tools in 2026 (Iro AI, Coursiv, Synapse, Sololearn, Brilliant) on format, free tier and price.
 - [AI trends in 2026: what's actually changing (and what to do about it)](https://tryiro.com/blog/ai-trends-2026) — Agentic AI, multimodal models, AI inside everyday apps, and AI fluency as a baseline skill: what's really changing, and how to stay ahead of it.
 - [AI for real estate: practical ways agents can use it in 2026](https://tryiro.com/blog/ai-for-real-estate) — How real estate agents use AI in 2026: listing copy, lead follow-up, market summaries and admin, plus the fair-housing and client-data rules to follow.
 - [How to use AI to write a resume (without sounding like a robot)](https://tryiro.com/blog/how-to-use-ai-to-write-a-resume) — How to use AI to write a resume in 2026: tailor it to a job, strengthen bullet points, and pass keyword filters — honestly, without fabricating anything.
@@ -70,7 +70,7 @@ Work through the posts below in order, or jump straight to whichever gap is most
 - [The best NerdSip alternatives in 2026](https://tryiro.com/blog/nerdsip-alternatives) — Looking for a NerdSip alternative? Iro AI, Kinnu, Brilliant, Khan Academy and Duolingo compared on what each does better, and where NerdSip still wins.
 - [The best Blinkist alternatives in 2026](https://tryiro.com/blog/blinkist-alternatives) — Looking for a Blinkist alternative? Compare by what you want: book summaries, a skill, or academic foundations. Iro AI, Headway, Brilliant, Khan Academy.
 - [AI learning app vs AI bootcamp: which is worth it?](https://tryiro.com/blog/ai-app-vs-ai-bootcamp) — AI learning app vs AI bootcamp in 2026: an honest comparison of cost, time, and outcomes, and how to tell which one actually fits your goal.
-- [The best AI learning app for working professionals](https://tryiro.com/blog/ai-learning-app-for-professionals) — How busy working professionals can learn AI in 2026: job-relevant skills in 5-minute daily reps, what to look for in an app, and no coding or degree needed.
+- [The best app to learn AI for work in 2026](https://tryiro.com/blog/ai-learning-app-for-professionals) — The best apps to learn AI for work in 2026, compared on teaching style, free tier and price: Iro AI, Synapse, Coursiv, Learnova, DataCamp and Coursera.
 - [Apps like Duolingo, but for AI](https://tryiro.com/blog/apps-like-duolingo-for-ai) — Looking for a Duolingo-style app to learn AI? Here are the best gamified, practice-first ways to build AI skills 5 minutes a day — and why the model works.
 - [Coursiv vs Learnova: which AI learning app is worth it in 2026?](https://tryiro.com/blog/coursiv-vs-learnova) — An honest Coursiv vs Learnova comparison for 2026: how the two AI learning apps differ on teaching style, pricing and free access, plus a third option.
 - [Does Duolingo teach AI?](https://tryiro.com/blog/does-duolingo-teach-ai) — Does Duolingo teach AI? No. It covers languages, math, and music. Here's what Duolingo actually teaches, and the best Duolingo-style way to learn AI instead.
@@ -83,7 +83,7 @@ Work through the posts below in order, or jump straight to whichever gap is most
 - [The best Nibble alternatives in 2026](https://tryiro.com/blog/nibble-alternatives) — Looking for a Nibble alternative? What five minutes a day actually buys you, and which app to pick by subject. Iro AI, Brilliant and Khan Academy compared.
 - [The best Imprint alternatives in 2026](https://tryiro.com/blog/imprint-alternatives) — Looking for an Imprint alternative? Visual learning is fast at understanding, weak at transfer. What to switch to by goal: Iro AI, Brilliant, Khan Academy.
 - [The best Chunks alternatives in 2026](https://tryiro.com/blog/chunks-alternatives) — Looking for a Chunks alternative? Every microlearning roundup is written by an app in it, including this one. Iro AI, Brilliant and Khan Academy compared.
-- [The best microlearning apps in 2026](https://tryiro.com/blog/best-microlearning-apps) — An honest comparison of the best microlearning apps in 2026: Duolingo, Brilliant, Blinkist, Headway, Kinnu, Imprint, BeFreed and Iro AI.
+- [The best microlearning apps in 2026](https://tryiro.com/blog/best-microlearning-apps) — The best microlearning apps in 2026 with prices: Iro AI for learning AI, Duolingo, Brilliant, Blinkist, Headway, Nibble, Chunks, NerdSip and more.
 - [The best BeFreed alternatives in 2026](https://tryiro.com/blog/befreed-alternatives) — Looking for a BeFreed alternative? Compare Blinkist, Headway, Brilliant, Khan Academy and Iro AI by what you want: summaries, a skill, or foundations.
 - [The best apps to learn something new in 2026](https://tryiro.com/blog/best-learning-apps) — Duolingo, Brilliant, Khan Academy, Kinnu, Blinkist and Iro compared by what each teaches best, plus a two-question test for picking the one you will stick with.
 - [How to teach AI literacy to high school students](https://tryiro.com/blog/teach-ai-literacy-high-school) — A practical sequence for teaching AI literacy in high school: what to cover in what order, five classroom activities needing no software, and how to assess it.
@@ -97,3 +97,5 @@ Work through the posts below in order, or jump straight to whichever gap is most
 - [The Air Canada chatbot case: what happened, and how to stop a support bot inventing policy](https://tryiro.com/blog/air-canada-chatbot-case) — A tribunal held Air Canada liable for its chatbot's wrong bereavement-fare advice. What happened, and how support teams stop AI replies inventing policy.
 - [Google AI Essentials alternatives: practice-first options in 2026](https://tryiro.com/blog/google-ai-essentials-alternatives) — Google AI Essentials costs $49/month on Coursera. Compare free and practice-first alternatives: OpenAI Academy, Anthropic AI Fluency, Elements of AI and Iro AI.
 - [Iro AI vs Sololearn Learn AI: which teaches AI better?](https://tryiro.com/blog/iro-ai-vs-sololearn) — Iro AI vs Sololearn's Learn AI app: what each teaches, how lessons work, platforms and US prices, and who each one is for. An honest comparison.
+- [Cosmo review: CodeSignal's AI tutor app, what it costs, and who it suits](https://tryiro.com/blog/cosmo-review) — An honest Cosmo review: who makes CodeSignal's Cosmo app, how its AI tutor teaches, what Cosmo+ costs, what the terms say, and who it suits best.
+- [The best AI literacy apps and resources for teachers in 2026](https://tryiro.com/blog/best-ai-literacy-resources-for-teachers) — The best AI literacy apps and curricula for teachers in 2026: Code.org, Day of AI, Experience AI, Common Sense and Iro's kit, by grade, format and cost.

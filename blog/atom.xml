@@ -5,7 +5,7 @@
   <link rel="self" href="https://tryiro.com/blog/atom.xml" type="application/atom+xml"/>
   <link rel="alternate" href="https://tryiro.com/blog" type="text/html"/>
   <id>https://tryiro.com/blog/atom.xml</id>
-  <updated>2026-10-30T00:00:00Z</updated>
+  <updated>2026-11-06T00:00:00Z</updated>
   <rights>© 2026 Iro AI</rights>
   <author><name>Iro AI</name><uri>https://tryiro.com</uri></author>
   <icon>https://tryiro.com/assets/favicon-64.png</icon>
@@ -474,7 +474,7 @@
     <title>The best Learnova alternatives in 2026</title>
     <id>https://tryiro.com/blog/learnova-alternatives</id>
     <link href="https://tryiro.com/blog/learnova-alternatives"/>
-    <updated>2026-08-03T00:00:00Z</updated>
+    <updated>2026-11-06T00:00:00Z</updated>
     <published>2026-06-13T00:00:00Z</published>
     <author><name>Iro AI</name></author>
     <category term="AI fluency"/>
@@ -921,20 +921,20 @@
     <summary>Bootcamps promise a career in weeks and cost thousands; an app costs a coffee and five minutes a day. Here's who each is actually for.</summary>
   </entry>
   <entry>
-    <title>The best AI learning app for working professionals</title>
+    <title>The best app to learn AI for work in 2026</title>
     <id>https://tryiro.com/blog/ai-learning-app-for-professionals</id>
     <link href="https://tryiro.com/blog/ai-learning-app-for-professionals"/>
-    <updated>2026-07-29T00:00:00Z</updated>
+    <updated>2026-11-06T00:00:00Z</updated>
     <published>2026-07-09T00:00:00Z</published>
     <author><name>Iro AI</name></author>
     <category term="undefined"/>
-    <summary>You don't need a CS degree or a 12-week course. What you need is job-relevant AI skills that fit into a workday.</summary>
+    <summary>You don't need a CS degree or a 12-week course. You need job-relevant AI skills that fit into a workday, and an app that makes you practise them.</summary>
   </entry>
   <entry>
     <title>Apps like Duolingo, but for AI</title>
     <id>https://tryiro.com/blog/apps-like-duolingo-for-ai</id>
     <link href="https://tryiro.com/blog/apps-like-duolingo-for-ai"/>
-    <updated>2026-08-18T00:00:00Z</updated>
+    <updated>2026-11-06T00:00:00Z</updated>
     <published>2026-07-09T00:00:00Z</published>
     <author><name>Iro AI</name></author>
     <category term="undefined"/>
@@ -1084,7 +1084,7 @@
     <title>The best microlearning apps in 2026</title>
     <id>https://tryiro.com/blog/best-microlearning-apps</id>
     <link href="https://tryiro.com/blog/best-microlearning-apps"/>
-    <updated>2026-08-21T00:00:00Z</updated>
+    <updated>2026-11-06T00:00:00Z</updated>
     <published>2026-08-21T00:00:00Z</published>
     <author><name>Iro AI</name></author>
     <category term="AI fluency"/>
@@ -1339,5 +1339,25 @@
     <author><name>Iro AI</name></author>
     <category term="AI learning apps"/>
     <summary>Both are mobile apps that teach prompting through short, hands-on lessons. They differ in depth, platforms and price. Here is the honest comparison.</summary>
+  </entry>
+  <entry>
+    <title>Cosmo review: CodeSignal's AI tutor app, what it costs, and who it suits</title>
+    <id>https://tryiro.com/blog/cosmo-review</id>
+    <link href="https://tryiro.com/blog/cosmo-review"/>
+    <updated>2026-11-04T00:00:00Z</updated>
+    <published>2026-11-04T00:00:00Z</published>
+    <author><name>Iro AI</name></author>
+    <category term="AI fluency"/>
+    <summary>Cosmo is CodeSignal's bite-sized learning app, pitched as Duolingo for job skills. It comes from an established company, the courses are free, and the terms are some of the cleaner ones in this category. Here is who makes it, how it teaches, what Cosmo+ costs, and who it suits.</summary>
+  </entry>
+  <entry>
+    <title>The best AI literacy apps and resources for teachers in 2026</title>
+    <id>https://tryiro.com/blog/best-ai-literacy-resources-for-teachers</id>
+    <link href="https://tryiro.com/blog/best-ai-literacy-resources-for-teachers"/>
+    <updated>2026-11-06T00:00:00Z</updated>
+    <published>2026-11-06T00:00:00Z</published>
+    <author><name>Iro AI</name></author>
+    <category term="AI fluency"/>
+    <summary>Most "AI apps for teachers" lists are about AI that writes your lesson plans. This one is about teaching students to use AI well, and the free curricula that already do it.</summary>
   </entry>
 </feed>
