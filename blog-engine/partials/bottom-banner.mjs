@@ -8,10 +8,10 @@
 // the visitor has accepted, because PostHog is never loaded before that.
 
 export const BANNER_SUB =
-  'Free every day · no card · iPhone and any browser · ★ 4.7 on the App Store (43 ratings)';
+  'Free every day · no card · iPhone and any browser · ★ 4.7 on the App Store (46 ratings)';
 
-// Verified 2026-10-08 on the US App Store (apps.apple.com/us/app/id6759628066):
-// 4.7 from 43 ratings. Do not change the number without re-checking.
+// Verified 2026-11-06 on the US App Store (apps.apple.com/us/app/id6759628066):
+// 4.7 from 46 ratings. Do not change the number without re-checking.
 
 const HEADLINES = {
   switch: 'Still want to get good at AI? Start free, with no trial trap.',
