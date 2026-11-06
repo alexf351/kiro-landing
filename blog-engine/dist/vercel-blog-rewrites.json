@@ -555,6 +555,10 @@
     {
       "source": "/blog/cosmo-review",
       "destination": "/blog/cosmo-review.html"
+    },
+    {
+      "source": "/blog/best-ai-literacy-resources-for-teachers",
+      "destination": "/blog/best-ai-literacy-resources-for-teachers.html"
     }
   ]
 }

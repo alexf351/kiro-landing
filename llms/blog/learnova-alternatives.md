@@ -7,7 +7,7 @@ app_store: "https://apps.apple.com/app/id6759628066"
 language: en-US
 keywords: ["Learnova alternatives", "Learnova alternative", "apps like Learnova", "better than Learnova", "alternative to Learnova", "Learnova vs"]
 date_published: "2026-06-13"
-date_modified: "2026-08-03"
+date_modified: "2026-11-06"
 reading_time_minutes: 6
 author: "Alex Furukawa"
 license: "© 2026 Iro AI"
@@ -21,7 +21,7 @@ pillar: "ai-fluency"
 
 **Canonical:** https://tryiro.com/blog/learnova-alternatives
 **Published:** 2026-06-13
-**Updated:** 2026-08-03
+**Updated:** 2026-11-06
 **Reading time:** ~6 min
 **Author:** Alex Furukawa — Founder of Iro AI
 
@@ -47,23 +47,39 @@ For the direct head-to-head, see [Iro AI vs Learnova](/blog/iro-ai-vs-learnova).
 
 ## The top alternatives, compared
 
-| App | Best for | How you learn | Free tier |
-| --- | --- | --- | --- |
-| Iro AI | Using AI tools well, as a daily habit | Game-like active practice, drills & ranks | Yes |
-| Brilliant | Math, logic & CS foundations | Interactive lessons | Limited |
-| Khan Academy | Free foundational learning | Video + practice (+ Khanmigo tutor) | Yes |
-| DataCamp | Data science & coding | In-browser coding exercises | Limited |
-| Coursera | Certificates & structured courses | Video + quizzes | Audit free |
+We compared each app on four things: whether you practise or mostly read, what you can do free, the US price on its own listing, and which platforms it runs on. Learnova itself lists in-app items from $9.99 to $59.99 on the App Store without saying which plan each belongs to, and runs on iPhone.
+
+| App | Best for | How you learn | Free tier | Price (US) | Platforms |
+| --- | --- | --- | --- | --- | --- |
+| Iro AI _(ours)_ | Using AI tools well, as a daily habit | Game-like active practice, drills & ranks | All 34 paths open; 1 new lesson a day | $49.99/yr or $9.99/mo; 7-day free trial | iOS, web |
+| [Coursiv](/blog/coursiv-alternatives) | Guided AI tool courses | Daily guided lessons in a challenge format | None stated; paid access | App Store items $9.99 to $79.99; plans of 1, 4 or 12 weeks | iPhone, Android, web |
+| Synapse | AI literacy, prompting and tool labs | Short lessons, practice questions and labs | 14-day free trial; 3 lessons free on the web | $2.99/week | iPhone, iPad |
+| [Sololearn](/blog/iro-ai-vs-sololearn) (Learn AI) | Coding, with AI courses in its top tier | Interactive lessons and code practice | Free plan | PRO $12.99/mo or $69.99/yr; Learn AI content in MAX, $119.88/yr | iOS, web |
+| [Brilliant](/blog/iro-ai-vs-brilliant) | Math, logic & CS foundations | Interactive lessons | Free with daily limits | $24.99/mo or $119.99/yr in the App Store | iOS, Android, web |
+| Khan Academy | Free foundational learning | Video + practice (+ Khanmigo tutor) | Everything free | Free | iOS, web |
+| DataCamp | Data science & coding | In-browser coding exercises | First chapter of every course | Premium $28/mo, billed yearly | iOS, Android, web |
 
 
 
-Plans change often. Check each app's current pricing. Last reviewed June 2026.
+Prices are US figures from each app's own App Store listing or pricing page, checked November 6, 2026, and change without notice. Where a listing shows in-app items without saying which plan they belong to, we give the range rather than guess.
+
+Sources: each app's App Store listing, plus the pricing pages at sololearn.com, coursiv.io, learnsynapse.app and datacamp.com.
 
 ## Why Iro AI is the closest alternative
 
 Learnova and Iro AI agree that practice matters. The difference is emphasis. Learnova is a course with practice attached; **Iro AI is practice with just enough teaching to keep you moving.** You write real prompts and get feedback, keep a streak, and climb 16 ranks across ChatGPT, Claude, Gemini, Perplexity, prompting, agents, and more. Free to start, often called [the Duolingo for AI](/duolingo-for-ai).
 
 On volume it is not the smaller option: **34 paths, 522 lessons and 3,000+ exercises across 23 exercise types**, plus the Prompt Lab for graded prompt practice, Ask Iro by chat or voice, an Image Lab, timed duels, Custom Paths and claimable certificates. Every path is open free, paced by a battery that gives you a full lesson a day, and Pro is $49.99 a year or $9.99 a month.
+
+## When to stick with Learnova instead
+
+Learnova is the better choice for some people, and it is worth saying who:
+
+- **You want a course you work through in order**, with explanations first and practice second. That is Learnova's design, and it suits people who like to understand a tool before using it.
+- **You liked its hands-on playground** for trying AI tools inside the app. If that is the part that worked for you, switching for streaks and ranks alone is not a good reason.
+- **You are already partway through a paid plan.** Finish what you paid for, then compare.
+
+If none of those apply and lessons have started to feel like homework you skip, a practice-first app is the change worth trying.
 
 ## How to choose
 

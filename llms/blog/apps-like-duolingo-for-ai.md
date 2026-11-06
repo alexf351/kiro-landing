@@ -7,7 +7,7 @@ app_store: "https://apps.apple.com/app/id6759628066"
 language: en-US
 keywords: ["apps like Duolingo for AI", "Duolingo for AI", "gamified AI learning app", "best gamified app to learn AI", "learn AI 5 minutes a day", "AI learning app 2026"]
 date_published: "2026-07-09"
-date_modified: "2026-08-18"
+date_modified: "2026-11-06"
 reading_time_minutes: 6
 author: "Alex Furukawa"
 license: "© 2026 Iro AI"
@@ -21,7 +21,7 @@ pillar: "ai-fluency"
 
 **Canonical:** https://tryiro.com/blog/apps-like-duolingo-for-ai
 **Published:** 2026-07-09
-**Updated:** 2026-08-18
+**Updated:** 2026-11-06
 **Reading time:** ~6 min
 **Author:** Alex Furukawa — Founder of Iro AI
 
@@ -56,14 +56,20 @@ Not everything with a streak counter will actually teach you. Four things separa
 
 ## The best gamified ways to learn AI right now
 
-| Option | Best for | Watch-out |
-| --- | --- | --- |
-| Iro AI | Duolingo-style daily reps for AI skills: real prompts, tool choice, judgment | Made by us, hold it to the checklist above |
-| Course-challenge apps | Structured 28-day lesson challenges | Completing lessons isn’t the same as practicing; check renewal terms |
-| Brilliant | Gamified math, logic & CS foundations | Teaches how AI works, not how to use AI tools |
-| Duolingo | Languages (plus math and music) | Doesn’t teach AI at all |
+| Option | Best for | Price (US) | Watch-out |
+| --- | --- | --- | --- |
+| Iro AI _(ours)_ | Duolingo-style daily reps for AI skills: real prompts, tool choice, judgment | $49.99/yr or $9.99/mo; free tier opens all lessons | Made by us, hold it to the checklist above |
+| Synapse | Five-minute AI lessons with labs in tools like Claude and ChatGPT, XP and a weekly league | $2.99/week after a 14-day trial | iPhone and iPad only |
+| [Sololearn](/blog/iro-ai-vs-sololearn) | Gamified coding, with AI courses in its top tier | Free plan; Learn AI content in MAX, $119.88/yr | Mostly coding; the AI courses sit in the top tier |
+| Mimo | Gamified coding lessons with AI-assisted projects | Basic plan free; paid price Not verified by us | Teaches coding, not everyday AI tool use |
+| Enki | Daily coding and data workouts | Paid plans; price Not verified by us | Developer skills rather than AI tools |
+| Course-challenge apps (e.g. [Coursiv](/blog/coursiv-alternatives)) | Structured 28-day lesson challenges | Coursiv: App Store items $9.99 to $79.99 | Completing lessons isn’t the same as practicing; check renewal terms |
+| [Brilliant](/blog/iro-ai-vs-brilliant) | Gamified math, logic & CS foundations | $24.99/mo or $119.99/yr in the App Store | Teaches how AI works, not how to use AI tools |
+| Duolingo | Languages (plus math and music) | Free with ads | Doesn’t teach AI at all |
 
 
+
+Prices are US figures from each app's own App Store listing or pricing page, checked November 6, 2026, and change without notice. Where a listing shows in-app items without saying which plan they belong to, we give the range rather than guess.
 
 Here are the honest options, ordered from closest-to-Duolingo to furthest.
 
