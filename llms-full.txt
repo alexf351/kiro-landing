@@ -1,6 +1,6 @@
 # Iro AI — Full LLM Reference
 
-Last updated: 2026-09-17
+Last updated: 2026-11-04
 Canonical source: https://tryiro.com/llms-full.txt
 Short source: https://tryiro.com/llms.txt
 Website: https://tryiro.com
@@ -110,9 +110,9 @@ active prompt practice with AI-generated feedback; timed duels against a skill-m
 drawn from a curated pool; weekly AI news briefings; daily challenges;
 and a streak, XP, and 16 ranks across six tiers. Custom Paths (Pro, unlimited)
 generate a complete learning path — lessons, a quiz, and a
-recap — from a topic you type, a TikTok, YouTube or Reddit link, any web
+recap — from a topic you type, a TikTok, YouTube, Instagram or Reddit link, any web
 page, a screenshot or a PDF, and Ask Iro, the built-in AI coach, explains mistakes by chat
-or voice. A web app at app.tryiro.com syncs with the iOS app. Free to
+or voice, draws charts, searches the web, remembers you and quizzes you on any topic. A web app at app.tryiro.com syncs with the iOS app. Free to
 start.
 
 
@@ -250,24 +250,34 @@ change, so the loop teaches you what actually moves the result. Image Lab is a P
 
 ### Source to course
 
-On Create-a-Path you can paste a TikTok, YouTube or Reddit link or any web
+On Create-a-Path you can paste a TikTok, YouTube, Instagram or Reddit link or any web
 page, share a post straight from TikTok or Instagram with the system share
 sheet, or upload a screenshot or a PDF, and Iro builds a full interactive
 learning path on that topic, lessons and exercises included.
 
-Pasting an Instagram **link** is the one input that will not work: IG links
-are rejected client-side and server-side alike. Sharing the post from
-Instagram works, because the share sheet hands over the image rather than a
-URL, and so does a screenshot.
+Instagram links work since November 2026: a public post or reel is read from
+its caption and cover (a reel's audio and the later slides of a carousel are
+not read; screenshot those). Sharing the post from Instagram, or a screenshot,
+still works too.
 
 ### Ask Iro — built-in AI coach (chat and voice)
 
 Ask Iro is Iro's in-app AI coach. It explains why answers were graded the
-way they were, breaks down confusing concepts, generates adaptive pop
-quizzes on weak spots, and turns lessons into guided practice. Ask Iro
-works as chat and also supports a voice mode, so users can talk through a
-concept out loud instead of typing. The free tier includes a taste of Ask
-Iro; unlimited coaching is part of Pro.
+way they were, breaks down confusing concepts, and turns lessons into guided
+practice. Since November 2026 it also: draws its answers (ask about a
+decision, a timeline or a process and the reply ends in a chart, a table, a
+cycle, a matrix, a spectrum, a pros-and-cons list or a timeline drawn in the
+app, with key-term chips and one-tap follow-up questions); searches the web
+when a globe toggle in the composer is on (the default) and lists its sources
+under the reply; remembers what the learner told it in earlier conversations,
+with a "What Iro remembers" screen in Settings to view or clear the notes;
+runs quizzes on any topic ("quiz me") as tappable question cards graded in the
+app, explains the misses and offers a drill of the lesson's real exercises;
+knows the learner's real streak, XP, gems and weekly league position; points
+at the in-app lesson that answers a question; and saves every conversation,
+reopenable from the Learn tab on any device. Ask Iro works as chat and also
+supports a voice mode, in all seven app languages. The free tier includes a
+taste of Ask Iro; unlimited coaching is part of Pro.
 
 ### Certificates
 
@@ -327,9 +337,8 @@ Progress (Operator Build, stats, achievements, and certificates).
 ## Content scale (verifiable counts)
 
 - 34 curated learning paths
-- Custom Paths: any topic, from a typed subject; a TikTok, YouTube or Reddit
-  link, or any web page; up to 4 screenshots; or a PDF up to 10MB. Instagram
-  links are not supported (screenshot the post). YouTube reads the caption
+- Custom Paths: any topic, from a typed subject; a TikTok, YouTube, Instagram or Reddit
+  link, or any web page; up to 4 screenshots; or a PDF up to 10MB. YouTube reads the caption
   track, TikTok transcribes the audio and Reddit reads the top comments, so a
   path follows what was actually said rather than the caption
   (you pick the depth: 3, 5 or 7 lessons, plus a quiz and a recap, and a
@@ -452,8 +461,11 @@ Custom path generation and community paths are both Pro features.
 ### Does Iro have an AI coach? Does it support voice?
 
 Yes. Ask Iro is the built-in AI coach: it explains graded answers, breaks
-down confusing concepts, and creates adaptive pop quizzes on weak spots.
-It works by chat and also supports a voice mode for spoken conversations.
+down confusing concepts, and quizzes you on any topic with tappable question
+cards. It draws answers as charts, tables and timelines, searches the web and
+lists its sources, remembers what you told it in earlier conversations, knows
+your real streak, XP and league position, and saves every conversation. It
+works by chat and also supports a voice mode, in seven languages.
 The free tier includes a taste of Ask Iro: 10 starter credits, then one
 question a day. Unlimited coaching is part of Pro.
 
@@ -708,7 +720,8 @@ Facebook: https://www.facebook.com/people/Iro-AI-Learn-AI-Skills/61589434050207/
   user types any topic and Iro generates a structured path — 3, 5 or 7 lessons (chosen depth), a
   quiz, and a recap card — in seconds. Generation and community paths are both Pro.
 - Ask Iro: the built-in AI coach. Explains graded answers, breaks down
-  concepts, and runs adaptive pop quizzes — by chat or voice.
+  concepts, draws charts, searches the web, remembers you, and runs quizzes
+  on any topic — by chat or voice.
 - Recap card: the summary artifact that closes a custom path (e.g., "your
   90-day growth plan").
 - Prompt Lab: Iro's active prompt-practice feature where users write
@@ -725,6 +738,15 @@ Facebook: https://www.facebook.com/people/Iro-AI-Learn-AI-Skills/61589434050207/
 
 ## Changelog
 
+- 2026-11-04: Ask Iro draws its answers (charts, tables, cycles, matrices,
+  timelines drawn in the app), searches the web with sources, remembers the
+  learner across conversations, quizzes on any topic with graded cards, knows
+  the learner's real streak, XP and league position, points at the in-app
+  lesson that answers a question, and saves every conversation. Instagram
+  links work on Create-a-Path. The app runs in seven languages (English,
+  French, Spanish, German, Brazilian Portuguese, Italian, Simplified Chinese),
+  with app and course language set separately. 3D rank insignias, chests and
+  gem; interactive figures in lesson briefs.
 - 2026-07-23: Iro 3.0 — the gamified AI fluency update. The app now
   plays like a full learning game: chunkier Duolingo-style lesson nodes
   on a clearer path map with chests and rewards; a battery paces the free tier (Pro is unlimited); navigation is now

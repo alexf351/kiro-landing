@@ -1092,8 +1092,8 @@
     {
       "id": "https://tryiro.com/blog/ai-learning-app-for-professionals",
       "url": "https://tryiro.com/blog/ai-learning-app-for-professionals",
-      "title": "The best AI learning app for working professionals",
-      "summary": "You don't need a CS degree or a 12-week course. What you need is job-relevant AI skills that fit into a workday.",
+      "title": "The best app to learn AI for work in 2026",
+      "summary": "You don't need a CS degree or a 12-week course. You need job-relevant AI skills that fit into a workday, and an app that makes you practise them.",
       "date_published": "2026-07-09T00:00:00Z"
     },
     {
@@ -1566,6 +1566,19 @@
       "tags": [
         "AI fluency",
         "AI learning apps"
+      ]
+    },
+    {
+      "id": "https://tryiro.com/blog/best-ai-literacy-resources-for-teachers",
+      "url": "https://tryiro.com/blog/best-ai-literacy-resources-for-teachers",
+      "title": "The best AI literacy apps and resources for teachers in 2026",
+      "summary": "Most \"AI apps for teachers\" lists are about AI that writes your lesson plans. This one is about teaching students to use AI well, and the free curricula that already do it.",
+      "date_published": "2026-11-06T00:00:00Z",
+      "tags": [
+        "AI fluency",
+        "AI literacy",
+        "Education",
+        "Teaching"
       ]
     }
   ]
