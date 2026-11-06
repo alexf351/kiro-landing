@@ -7,7 +7,7 @@ app_store: "https://apps.apple.com/app/id6759628066"
 language: en-US
 keywords: ["best microlearning apps", "best microlearning apps 2026", "microlearning apps", "best micro learning app", "apps like Duolingo", "short daily lesson apps"]
 date_published: "2026-08-21"
-date_modified: "2026-08-21"
+date_modified: "2026-11-06"
 reading_time_minutes: 9
 author: "Alex Furukawa"
 license: "© 2026 Iro AI"
@@ -21,11 +21,13 @@ pillar: "ai-fluency"
 
 **Canonical:** https://tryiro.com/blog/best-microlearning-apps
 **Published:** 2026-08-21
+**Updated:** 2026-11-06
 **Reading time:** ~9 min
 **Author:** Alex Furukawa — Founder of Iro AI
 
 ## Key takeaways
 
+- For learning to use AI tools (ChatGPT, Claude, Gemini) in five minutes a day, pick a practice app built for AI. Iro AI is ours and opens all 522 lessons on its free tier; general microlearning apps treat AI as one topic among many.
 - Microlearning apps split into three jobs that get confused constantly: summary libraries (Blinkist, Headway, BeFreed), curated concept courses (Brilliant, Kinnu, Imprint, Khan Academy), and practice apps (Duolingo, Iro AI). Picking the wrong category is the usual reason an app does not stick.
 - The single best predictor of whether an app will change anything: count the seconds you spend consuming versus producing in one session. Reading and tapping 'next' is consumption with a progress bar.
 - Free tiers in this category mean wildly different things. Check whether the free tier lets you finish one real session including the feedback, or only tours the interface.
@@ -37,9 +39,10 @@ pillar: "ai-fluency"
 
 So the useful question is not which app is best. It is _which job you are hiring an app to do_:
 
+- **Learn to use AI tools well** — a practice app built for AI. Iro AI (ours) is free to start and runs five-minute lessons on ChatGPT, Claude, Gemini and prompting.
 - **Cover a lot of ground quickly** — a summary library. Blinkist, Headway, BeFreed.
 - **Understand a subject properly** — a curated concept course. Brilliant, Kinnu, Imprint, Khan Academy.
-- **Get measurably better at doing something** — a practice app. Duolingo for languages, Iro AI for using AI tools.
+- **Get measurably better at doing something else** — a practice app. Duolingo for languages.
 
 Pick the wrong category and the app will not stick, no matter how good it is. That is the most common failure here and it looks like a motivation problem when it is really a category error.
 
@@ -66,19 +69,24 @@ Ignore the feature lists, install two, and run this. It is faster than reading r
 
 ## The apps, compared
 
-| App | Job it does | Best for | Free tier | Platforms |
-| --- | --- | --- | --- | --- |
-| [Duolingo](/blog/does-duolingo-teach-ai) | Practice | Languages, plus maths and music. The benchmark for habit design. | Full courses with ads | iOS, Android, web |
-| [Brilliant](/blog/iro-ai-vs-brilliant) | Concept course | Maths, logic, computer science. The strongest interactive teaching in this list. | Not verified by us | iOS, Android, web |
-| Khan Academy | Concept course | Academic foundations on no budget. Non-profit. | Entirely free, no paid tier | iOS, Android, web |
-| [Blinkist](/blog/blinkist-alternatives) | Summary library | Broad non-fiction exposure, text and audio. | Not verified by us | Not verified by us |
-| [Headway](/blog/headway-alternatives) | Summary library | The same job as Blinkist; choose on library and interface. | Not verified by us | Not verified by us |
-| [BeFreed](/blog/befreed-alternatives) | Summary library, personalised | Goal-led plans that assemble summaries, AI-narrated podcasts and flashcards. 10, 20 or 40-minute sessions. | Not verified by us | iOS, Android |
-| [Kinnu](/blog/kinnu-alternatives) | Concept course | Broad general knowledge in structured paths. | Genuinely free tier | Not verified by us |
-| [Imprint](/blog/imprint-alternatives) | Concept course | Visually taught big ideas from non-fiction. | Not verified by us | Not verified by us |
-| Iro AI _(ours)_ | Practice | Using AI tools well: ChatGPT, Claude, Gemini, Perplexity, prompting, agents. | All 34 paths and 522 lessons open, paced by a Battery giving a lesson a day | iOS and a free web app, no signup. Android in development. |
+| App | Job it does | Best for | Free tier | Price (US) | Platforms |
+| --- | --- | --- | --- | --- | --- |
+| Iro AI _(ours)_ | Practice | Using AI tools well: ChatGPT, Claude, Gemini, Perplexity, prompting, agents. See [the best AI learning apps](/best-ai-learning-app). | All 34 paths and 522 lessons open, paced by a Battery giving a lesson a day | $49.99/yr or $9.99/mo; 7-day free trial | iOS and a free web app, no signup. Android in development. |
+| [Duolingo](/blog/does-duolingo-teach-ai) | Practice | Languages, plus maths and music. The benchmark for habit design. | Full courses with ads | Not verified by us | iOS, Android, web |
+| [Brilliant](/blog/iro-ai-vs-brilliant) | Concept course | Maths, logic, computer science. The strongest interactive teaching in this list. | Free with daily limits | $24.99/mo or $119.99/yr in the App Store | iOS, Android, web |
+| Khan Academy | Concept course | Academic foundations on no budget. Non-profit. | Entirely free, no paid tier | Free | iOS, Android, web |
+| [NerdSip](/blog/nerdsip-alternatives) | Concept course, generated | Short AI-generated courses on topics you pick. | One course a day; 7-day Gold trial | Gold $7.99/mo or $49.99/yr | iPhone |
+| [Nibble](/blog/nibble-alternatives) | Concept course | Short daily lessons and quizzes on general knowledge. | Not verified by us | Not verified by us | iPhone (site also lists Android and web) |
+| [Chunks](/blog/chunks-alternatives) | Concept course | Short illustrated lessons on big ideas. | Some free stories | $9.99/mo or $49.99/yr | iPhone, iPad, Android |
+| [Kinnu](/blog/kinnu-alternatives) | Concept course | Broad general knowledge in structured paths. | Genuinely free tier | Not verified by us | Not verified by us |
+| [Imprint](/blog/imprint-alternatives) | Concept course | Visually taught big ideas from non-fiction. | Not verified by us | Not verified by us | Not verified by us |
+| [Blinkist](/blog/blinkist-alternatives) | Summary library | Broad non-fiction exposure, text and audio. | Not verified by us | Not verified by us | Not verified by us |
+| [Headway](/blog/headway-alternatives) | Summary library | The same job as Blinkist; choose on library and interface. | Not verified by us | Not verified by us | Not verified by us |
+| [BeFreed](/blog/befreed-alternatives) | Summary library, personalised | Goal-led plans that assemble summaries, AI-narrated podcasts and flashcards. 10, 20 or 40-minute sessions. | Not verified by us | Not verified by us | iOS, Android |
 
 
+
+Prices are US figures from each app's own App Store listing or pricing page, checked November 6, 2026. They change without notice; check the listing before you subscribe. Where a listing shows several in-app items without saying which plan they belong to, we mark the price not verified rather than guess.
 
 **About the blank cells.** Anything marked "not verified by us" is something we could not confirm from the company's own store listing or website at the time of writing. Most comparison pages fill those cells from affiliate sites, which is how one wrong price ends up repeated across twenty pages. We would rather leave a gap and send you to the listing.
 
