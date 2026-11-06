@@ -1,6 +1,6 @@
 {
  "_about": "Translations for the homepage, organized by section. `en` is the English exactly as it appears in index.html; blog-engine/build-i18n.mjs finds it and writes es.html, fr.html, de.html, pt-br.html, it.html and zh-hans.html. When the English changes, the build reports the entry as stale: update `en` and every translation together. Register: tú (es), vous (fr), du (de), você (pt-br, Brazilian Portuguese), tu (it), 你 (zh-hans, Simplified Chinese). AI is IA in es/fr/pt-br/it, KI in de and stays AI in zh-hans, where Duolingo is 多邻国, a prompt is 提示词, ranks are 段位 and duels are 对战. Chinese copy puts a space between Chinese and Latin letters or digits, and in FAQ answers a space on both sides of every link (the schema check compares the answer with the visible text, which gains a space at each tag). Prices stay in USD, written in each locale's number format (9.99 美元 in zh-hans); do not convert them.",
- "dateModified": "2026-11-04",
+ "dateModified": "2026-11-06",
  "locales": {
   "es": {
    "file": "es.html",
@@ -522,13 +522,13 @@
     "zh-hans": "测测你的 AI 段位"
    },
    "rating": {
-    "en": "<b>4.7</b> on the App Store",
-    "es": "<b>4,7</b> en el App Store",
-    "fr": "<b>4,7</b> sur l’App Store",
-    "de": "<b>4,7</b> im App Store",
-    "pt-br": "<b>4,7</b> na App Store",
-    "it": "<b>4,7</b> sull’App Store",
-    "zh-hans": "App Store 评分 <b>4.7</b>"
+    "en": "<b>4.7</b> from 46 App Store ratings",
+    "es": "<b>4,7</b> con 46 valoraciones en el App Store",
+    "fr": "<b>4,7</b> sur 46 notes dans l’App Store",
+    "de": "<b>4,7</b> aus 46 Bewertungen im App Store",
+    "pt-br": "<b>4,7</b> com 46 avaliações na App Store",
+    "it": "<b>4,7</b> su 46 valutazioni sull’App Store",
+    "zh-hans": "App Store 评分 <b>4.7</b>（46 个评分）"
    },
    "exercises": {
     "en": "<b>3,000+</b> hands-on exercises",
@@ -1169,22 +1169,22 @@
     "zh-hans": "每天一节短课、实用的提示词，再加上看得见的进步，让 AI 不再让人望而生畏。评价译自英文。"
    },
    "ratingLabel": {
-    "en": "4.7 out of 5 average App Store rating",
-    "es": "Valoración media de 4,7 sobre 5 en el App Store",
-    "fr": "Note moyenne de 4,7 sur 5 sur l’App Store",
-    "de": "Durchschnittlich 4,7 von 5 Sternen im App Store",
-    "pt-br": "Nota média de 4,7 de 5 na App Store",
-    "it": "Valutazione media di 4,7 su 5 sull’App Store",
-    "zh-hans": "App Store 平均评分 4.7（满分 5 分）"
+    "en": "4.7 out of 5 from 46 App Store ratings",
+    "es": "4,7 sobre 5 con 46 valoraciones en el App Store",
+    "fr": "4,7 sur 5 d’après 46 notes dans l’App Store",
+    "de": "4,7 von 5 aus 46 Bewertungen im App Store",
+    "pt-br": "4,7 de 5 com 46 avaliações na App Store",
+    "it": "4,7 su 5 da 46 valutazioni sull’App Store",
+    "zh-hans": "App Store 46 个评分，平均 4.7 分（满分 5 分）"
    },
    "avg": {
-    "en": "Average rating",
-    "es": "Valoración media",
-    "fr": "Note moyenne",
-    "de": "Durchschnittliche Bewertung",
-    "pt-br": "Nota média",
-    "it": "Valutazione media",
-    "zh-hans": "平均评分"
+    "en": "Average of 46 ratings",
+    "es": "Media de 46 valoraciones",
+    "fr": "Moyenne de 46 notes",
+    "de": "Schnitt aus 46 Bewertungen",
+    "pt-br": "Média de 46 avaliações",
+    "it": "Media di 46 valutazioni",
+    "zh-hans": "46 个评分的平均分"
    },
    "r1": {
     "en": "&ldquo;I thought I already understood how to utilize AI tools, but this made me realize I was leaving a lot on the table. Iro taught me how to use AI more effectively for both work and personal use.&rdquo;",
@@ -1250,13 +1250,13 @@
     "zh-hans": "2 分钟测出你的 AI 段位"
    },
    "quizP": {
-    "en": "Ten questions on how you actually use AI. The median score is 7, and only 1 in 7 people get a perfect score. <a href=\"/blog/average-ai-literacy-score\">See the data</a>.",
-    "es": "Diez preguntas sobre cómo usas realmente la IA. La puntuación mediana es 7, y solo 1 de cada 7 personas saca un 10 perfecto. <a href=\"/blog/average-ai-literacy-score\">Ver los datos</a> (en inglés).",
-    "fr": "Dix questions sur votre usage réel de l’IA. Le score médian est de 7, et seule 1 personne sur 7 obtient un score parfait. <a href=\"/blog/average-ai-literacy-score\">Voir les données</a> (en anglais).",
-    "de": "Zehn Fragen dazu, wie du KI wirklich nutzt. Der Median liegt bei 7, und nur jede siebte Person erreicht die volle Punktzahl. <a href=\"/blog/average-ai-literacy-score\">Zu den Daten</a> (auf Englisch).",
-    "pt-br": "Dez perguntas sobre como você usa a IA de verdade. A pontuação mediana é 7, e só 1 em cada 7 pessoas tira nota máxima. <a href=\"/blog/average-ai-literacy-score\">Veja os dados</a> (em inglês).",
-    "it": "Dieci domande su come usi davvero l’IA. Il punteggio mediano è 7, e solo 1 persona su 7 ottiene il punteggio pieno. <a href=\"/blog/average-ai-literacy-score\">Guarda i dati</a> (in inglese).",
-    "zh-hans": "十道题，看看你实际是怎么用 AI 的。分数中位数是 7 分，只有七分之一的人能拿满分。<a href=\"/blog/average-ai-literacy-score\">查看数据</a>（英文）。"
+    "en": "Ten questions on how you actually use AI. Among 196 people who took it online between April and October 2026 (a self-selected group), the median score was 7 and about 1 in 7 got a perfect score. <a href=\"/blog/average-ai-literacy-score\">See the data</a>.",
+    "es": "Diez preguntas sobre cómo usas realmente la IA. Entre 196 personas que lo hicieron en línea entre abril y octubre de 2026 (una muestra autoseleccionada), la puntuación mediana fue 7 y alrededor de 1 de cada 7 sacó un 10 perfecto. <a href=\"/blog/average-ai-literacy-score\">Ver los datos</a> (en inglés).",
+    "fr": "Dix questions sur votre usage réel de l’IA. Parmi 196 personnes qui l’ont passé en ligne entre avril et octobre 2026 (un échantillon autosélectionné), le score médian était de 7 et environ 1 personne sur 7 a obtenu un score parfait. <a href=\"/blog/average-ai-literacy-score\">Voir les données</a> (en anglais).",
+    "de": "Zehn Fragen dazu, wie du KI wirklich nutzt. Bei 196 Personen, die ihn zwischen April und Oktober 2026 online gemacht haben (eine selbst gewählte Stichprobe), lag der Median bei 7, und etwa jede siebte Person erreichte die volle Punktzahl. <a href=\"/blog/average-ai-literacy-score\">Zu den Daten</a> (auf Englisch).",
+    "pt-br": "Dez perguntas sobre como você usa a IA de verdade. Entre 196 pessoas que fizeram o teste online de abril a outubro de 2026 (uma amostra autosselecionada), a pontuação mediana foi 7 e cerca de 1 em cada 7 tirou nota máxima. <a href=\"/blog/average-ai-literacy-score\">Veja os dados</a> (em inglês).",
+    "it": "Dieci domande su come usi davvero l’IA. Tra 196 persone che l’hanno fatto online tra aprile e ottobre 2026 (un campione autoselezionato), il punteggio mediano è stato 7 e circa 1 persona su 7 ha ottenuto il punteggio pieno. <a href=\"/blog/average-ai-literacy-score\">Guarda i dati</a> (in inglese).",
+    "zh-hans": "十道题，看看你实际是怎么用 AI 的。在 2026 年 4 月至 10 月线上参与测试的 196 人中（自愿参与的样本），分数中位数是 7 分，约七分之一的人拿了满分。<a href=\"/blog/average-ai-literacy-score\">查看数据</a>（英文）。"
    },
    "quizCta": {
     "en": "Get my AI rank",
@@ -1823,6 +1823,15 @@
     "pt-br": "Teste 7 dias grátis",
     "it": "Prova 7 giorni gratis",
     "zh-hans": "免费试用 7 天"
+   },
+   "price": {
+    "en": "$49.99 a year after a 7-day free trial (about $4.17 a month), or $9.99 a month. Billed by Apple, cancel anytime.",
+    "es": "49,99 US$ al año tras una prueba gratis de 7 días (unos 4,17 US$ al mes), o 9,99 US$ al mes. Lo cobra Apple y puedes cancelar cuando quieras.",
+    "fr": "49,99 $ US par an après un essai gratuit de 7 jours (environ 4,17 $ US par mois), ou 9,99 $ US par mois. Facturé par Apple, résiliable à tout moment.",
+    "de": "49,99 US-$ pro Jahr nach einer 7-tägigen Gratis-Testphase (etwa 4,17 US-$ im Monat) oder 9,99 US-$ im Monat. Abgerechnet über Apple, jederzeit kündbar.",
+    "pt-br": "US$ 49,99 por ano após um teste grátis de 7 dias (cerca de US$ 4,17 por mês), ou US$ 9,99 por mês. Cobrado pela Apple, cancele quando quiser.",
+    "it": "49,99 USD all’anno dopo una prova gratuita di 7 giorni (circa 4,17 USD al mese), oppure 9,99 USD al mese. Addebitato da Apple, disdici quando vuoi.",
+    "zh-hans": "7 天免费试用后每年 49.99 美元（约合每月 4.17 美元），或每月 9.99 美元。由 Apple 收费，可随时取消。"
    }
   },
   "faq": {
@@ -1897,6 +1906,24 @@
     "pt-br": "O Android está em desenvolvimento. Por enquanto o app é só para iOS, mas você pode <a href=\"#notifyForm\">entrar na lista de espera do Android</a> e a gente manda um e-mail no dia do lançamento. Enquanto isso, o Iro funciona em qualquer navegador Android em <a href=\"https://app.tryiro.com\" data-cta=\"faq-android\">app.tryiro.com</a>. Sua ofensiva e seu progresso passam para o app quando ele chegar.",
     "it": "Android è in pieno sviluppo. Per ora l’app è solo per iOS, ma puoi <a href=\"#notifyForm\">iscriverti alla lista d’attesa per Android</a> e ti scriveremo il giorno dell’uscita. Nel frattempo, Iro funziona in qualsiasi browser Android su <a href=\"https://app.tryiro.com\" data-cta=\"faq-android\">app.tryiro.com</a>. La tua serie e i tuoi progressi passeranno all’app quando arriverà.",
     "zh-hans": "安卓版正在积极开发中。App 目前仅支持 iOS，但你可以 <a href=\"#notifyForm\">加入安卓版候补名单</a> 等待上线，上线当天我们会发邮件通知你。在此期间，你可以在任何安卓浏览器中访问 <a href=\"https://app.tryiro.com\" data-cta=\"faq-android\">app.tryiro.com</a> 使用 Iro。App 上线后，你的连胜和进度都会同步过去。"
+   },
+   "q10": {
+    "en": "Is there a plan for teams or schools?",
+    "es": "¿Hay un plan para equipos o escuelas?",
+    "fr": "Existe-t-il une offre pour les équipes ou les écoles ?",
+    "de": "Gibt es einen Tarif für Teams oder Schulen?",
+    "pt-br": "Existe um plano para equipes ou escolas?",
+    "it": "Esiste un piano per team o scuole?",
+    "zh-hans": "有团队或学校方案吗？"
+   },
+   "a10": {
+    "en": "Not yet. Iro is for individuals today: each person signs up on their own and, if they want Pro, subscribes through Apple. There is no team plan, admin dashboard, central billing or SSO. If you want Iro for a team, <a href=\"mailto:support@tryiro.com?subject=Iro%20for%20teams\">email us</a> and we'll let you know when a team plan is ready.",
+    "es": "Todavía no. Hoy Iro es para personas individuales: cada uno se registra por su cuenta y, si quiere Pro, se suscribe a través de Apple. No hay plan para equipos, panel de administración, facturación centralizada ni SSO. Si quieres Iro para un equipo, <a href=\"mailto:support@tryiro.com?subject=Iro%20for%20teams\">escríbenos</a> y te avisaremos cuando haya un plan para equipos.",
+    "fr": "Pas encore. Iro s’adresse aujourd’hui aux particuliers : chacun s’inscrit de son côté et, s’il veut Pro, s’abonne via Apple. Il n’y a ni offre équipe, ni tableau de bord administrateur, ni facturation centralisée, ni SSO. Si vous voulez Iro pour une équipe, <a href=\"mailto:support@tryiro.com?subject=Iro%20for%20teams\">écrivez-nous</a> et nous vous préviendrons quand une offre équipe sera prête.",
+    "de": "Noch nicht. Iro ist derzeit für Einzelpersonen: Jede Person meldet sich selbst an und schließt Pro, falls gewünscht, über Apple ab. Es gibt keinen Team-Tarif, kein Admin-Dashboard, keine zentrale Abrechnung und kein SSO. Wenn du Iro für ein Team möchtest, <a href=\"mailto:support@tryiro.com?subject=Iro%20for%20teams\">schreib uns</a> und wir melden uns, sobald es einen Team-Tarif gibt.",
+    "pt-br": "Ainda não. Hoje o Iro é para pessoas individuais: cada um se cadastra por conta própria e, se quiser o Pro, assina pela Apple. Não há plano para equipes, painel de administração, cobrança centralizada nem SSO. Se você quer o Iro para uma equipe, <a href=\"mailto:support@tryiro.com?subject=Iro%20for%20teams\">mande um e-mail</a> e avisamos quando houver um plano para equipes.",
+    "it": "Non ancora. Oggi Iro è pensato per i singoli: ognuno si iscrive per conto suo e, se vuole Pro, si abbona tramite Apple. Non ci sono piano team, dashboard di amministrazione, fatturazione centralizzata né SSO. Se vuoi Iro per un team, <a href=\"mailto:support@tryiro.com?subject=Iro%20for%20teams\">scrivici</a> e ti avviseremo quando ci sarà un piano team.",
+    "zh-hans": "暂时没有。Iro 目前面向个人用户：每个人自行注册，想用 Pro 的话通过 Apple 订阅。目前没有团队方案、管理后台、统一付费或 SSO。如果你想为团队使用 Iro，请 <a href=\"mailto:support@tryiro.com?subject=Iro%20for%20teams\">给我们发邮件</a> ，团队方案推出时我们会通知你。"
    },
    "q4": {
     "en": "Can I use Iro without installing the app?",
@@ -2148,13 +2175,13 @@
   },
   "featured": {
    "wired": {
-    "en": "Featured on Wired Business",
-    "es": "Destacado en Wired Business",
-    "fr": "Présenté dans Wired Business",
-    "de": "Vorgestellt bei Wired Business",
-    "pt-br": "Destaque na Wired Business",
-    "it": "In evidenza su Wired Business",
-    "zh-hans": "已登上 Wired Business"
+    "en": "Iro AI listed on the wired.business directory",
+    "es": "Iro AI aparece en el directorio wired.business",
+    "fr": "Iro AI figure dans l’annuaire wired.business",
+    "de": "Iro AI im Verzeichnis wired.business",
+    "pt-br": "Iro AI listado no diretório wired.business",
+    "it": "Iro AI presente nella directory wired.business",
+    "zh-hans": "Iro AI 已收录于 wired.business 目录"
    },
    "fame": {
     "en": "Iro AI featured on Startup Fame",
