@@ -64,7 +64,7 @@ The clearest published example: one widely advertised AI learning app requires, 
 
 Read that as a filter and the effect is clear. Someone who subscribes, dislikes it on day two and stops opening the app has disqualified themselves by not using it enough. **The people most likely to want a refund are the least likely to qualify for one.**
 
-Another app's published policy lists forgetting to cancel before a trial converts, and being unaware of auto-renewal, as reasons that specifically do not qualify. Both of those are the exact circumstances in which people ask for refunds.
+Another app's terms rule out refunds for a change of mind and for a subscription that has not been used. Both of those are the exact circumstances in which people ask for refunds.
 
 None of this is hidden or illegal. It is published, and almost nobody reads it at sign-up, which is the point. So read it at sign-up. Look for the word _if_.
 

@@ -5,9 +5,9 @@ site: "Iro AI"
 site_url: "https://tryiro.com"
 app_store: "https://apps.apple.com/app/id6759628066"
 language: en-US
-keywords: ["Skilario review", "Skilario reviews", "is Skilario legit", "Skilario scam", "Skilario price", "Skilario app", "Skilario Trustpilot", "Skilario Cherry Entertainment"]
+keywords: ["Skilario review", "Skilario reviews", "is Skilario legit", "Skilario scam", "Skilario price", "Skilario app", "Skilario Trustpilot", "Skilario Cherry Entertainment", "What is Skilario", "Skilario reviews and complaints", "skilario.com legit", "Skilaro reviews", "JSPARK STUDIOS charge"]
 date_published: "2026-09-28"
-date_modified: "2026-09-28"
+date_modified: "2026-11-04"
 reading_time_minutes: 7
 author: "Alex Furukawa"
 license: "© 2026 Iro AI"
@@ -17,10 +17,11 @@ pillar: "ai-fluency"
 
 # Skilario review: who runs it, what it costs, and what the terms say
 
-> Skilario is a new AI-skills app sold mostly through its website. The lessons are a familiar format. The part worth reading before you pay is the terms, because they rule out almost every refund. Here is who runs it, what it costs, and what you are agreeing to.
+> Short answer: Skilario is a real AI-skills app from a registered company, not a scam. The lessons are a familiar format. The part worth reading before you pay is the terms, because they rule out almost every refund. Here is what Skilario is, who runs it, what it costs, and what you are agreeing to.
 
 **Canonical:** https://tryiro.com/blog/skilario-review
 **Published:** 2026-09-28
+**Updated:** 2026-11-04
 **Reading time:** ~7 min
 **Author:** Alex Furukawa — Founder of Iro AI
 
@@ -38,13 +39,15 @@ pillar: "ai-fluency"
 
 If you have not paid yet, the safest way to try it is through the App Store, for reasons explained below. If you already have and want out, go straight to [how to cancel Skilario](/blog/cancel-skilario).
 
-We make Iro AI, a competing app, so read this as an interested party. Every claim about Skilario below comes from its App Store listing, its published terms or a public company registry. Prices are US figures at the time of writing and change without notice. Last reviewed September 2026.
+We make Iro AI, a competing app, so read this as an interested party. Every claim about Skilario below comes from its App Store listing, its published terms or a public company registry. Prices are US figures at the time of writing and change without notice. Last reviewed November 2026.
 
 ## Who makes Skilario
 
 Skilario's terms name its operator as **Cherry Entertainment Limited**, a private company in Cyprus. The Cyprus company registry lists Cherry Entertainment Ltd as registered on **18 August 2025**, with its office in Nicosia. The same developer publishes **CherryShort**, a short-drama streaming app, on both app stores.
 
 Skilario itself is newer still. The iPhone app, listed as _Skilario: Learn AI Skills_, was first released on **24 July 2026**, and there is an Android version on Google Play. Support runs through **support@skilario.com**.
+
+One more name you may see: Skilario's terms say the merchant of record for billing **may include JSPARK STUDIOS INC.**, a Delaware company. If you bought on the website and a charge under that name appears on your statement, check your Skilario confirmation email before assuming it is something else.
 
 None of that counts against it. Every company is new once. It does mean there is almost no track record to judge it by, which is exactly when the fine print deserves the most weight.
 
@@ -58,7 +61,7 @@ That is a reasonable product, and it is the same promise most apps in this categ
 
 On the App Store, Skilario lists two subscriptions: **$19.99 a month** and **$79.99 a year**. Those are billed by Apple and behave like any other App Store subscription.
 
-The website is different, and it appears to be where most customers buy. At the time of writing the iPhone app has too few ratings for the App Store to show a score and the Android app sits in Google Play's lowest install band, while Skilario's Trustpilot page, which covers the website, has more than a hundred reviews. Skilario's terms describe website plans that are **weekly, monthly or annual**, and set out how the pricing works:
+The website is different, and it appears to be where most customers buy. At the time of writing the iPhone app has too few ratings for the App Store to show a score and the Android app sits in Google Play's lowest install band, while Skilario's Trustpilot page, which covers the website, carries far more reviews than either store. Skilario's terms describe website plans that are **weekly, monthly or annual**, and set out how the pricing works:
 
 - **Promotional prices cover the first payment only.** Unless the offer expressly says otherwise, renewals are charged at the regular rate.
 - **Plans renew automatically** unless auto-renewal is turned off at least 24 hours before the period ends. A cancellation made inside that window may not take effect until after the next charge.
@@ -80,16 +83,16 @@ Compare that with Coursiv, whose money-back guarantee at least pays out if you u
 
 Three more clauses worth knowing:
 
-- **Cooling-off rights by location.** The terms list statutory exceptions: residents of California and Connecticut can cancel within three business days of purchase for a full refund, Brazil and Quebec have seven days, Argentina ten, and Mexico has an immediate cancellation right. Other statutory rights where you live can apply too; the terms say local cancellation rules take priority where they exist.
+- **Cooling-off rights by location.** The terms list statutory exceptions: residents of California and Connecticut can cancel within three business days of purchase for a full refund, Brazil and Quebec have seven days, Argentina ten, and Mexico has an immediate cancellation right. In the EU and UK there is a 14-day withdrawal right, which the terms say you can lose once the service has started if you agreed to that at checkout. Other statutory rights where you live can apply too; the terms say local cancellation rules take priority where they exist.
 - **A 14-day window to dispute a charge.** If you think a charge is wrong you must tell Skilario in writing at support@skilario.com within 14 calendar days of the transaction, and the terms say missing it may forfeit your right to dispute the charge with them. Your card issuer runs its own dispute process under its own rules and deadlines.
 - **Binding arbitration.** Section 18 of the terms sends disputes to individual arbitration rather than court.
 
 ## What the ratings do and don't tell you
 
-Skilario's Trustpilot page rates it **Excellent**, and some reviewers praise lessons that show you how to do a task and then let you try it yourself. That is worth something. Two cautions before leaning on it:
+On Skilario's Trustpilot page, some reviewers praise lessons that show you how to do a task and then let you try it yourself. That is worth something. Two cautions before leaning on it:
 
 - **Timing.** Reviews of a new subscription app are mostly written in the first days after signup, before the first renewal lands. Billing complaints, when they come, arrive weeks later. Sort by newest and read the lowest ratings as well as the highest.
-- **A second source.** The app stores have almost no ratings for Skilario yet, so there is nothing to check Trustpilot against. The developer's only other public track record is its short-drama app, and Cherry Entertainment's own Trustpilot page was rated 3.3 out of 5 at the time of writing.
+- **A second source.** The app stores have almost no ratings for Skilario yet, so there is nothing to check Trustpilot against. The developer's only other public track record is its short-drama app.
 
 ## If you still want to try it
 
@@ -108,6 +111,10 @@ For scale: **34 learning paths, 522 lessons and 3,000+ exercises across 23 exerc
 
 ## FAQ
 
+**What is Skilario?**
+
+Skilario is an AI-skills app that teaches tools like ChatGPT and Claude in daily lessons of about 10 minutes, with copyable prompts, interactive exercises and a certificate at the end. It is made by Cherry Entertainment Ltd, a Cyprus company, and sold on the App Store, Google Play and its own website, where most customers appear to buy.
+
 **Is Skilario legit?**
 
 Yes, in the sense that matters: Skilario is operated by Cherry Entertainment Ltd, a company registered in Cyprus in August 2025, and it sells a real AI course app on the App Store, Google Play and its website. It is new, with the iPhone app first released in July 2026, so there is little track record. The part to check carefully is the purchase terms, especially the refund policy.
@@ -115,6 +122,10 @@ Yes, in the sense that matters: Skilario is operated by Cherry Entertainment Ltd
 **Is Skilario a scam?**
 
 Nothing we found suggests a scam. It is a registered company with a working product and published terms. The concerns are about subscription mechanics: website plans with a promotional first payment that renews at the regular price, automatic renewal, and a refund policy that excludes a change of mind, an unused subscription and dissatisfaction.
+
+**What do Skilario reviews and complaints say?**
+
+Positive reviews tend to praise lessons that show you how to do a task and then let you try it. The terms are where complaints in this kind of app usually start: website plans renew automatically, a promotional price covers the first payment only, and refunds are refused for a change of mind or an unused plan. Reviews of a new subscription app are mostly written before the first renewal, so sort by newest and read the low ratings too.
 
 **How much does Skilario cost?**
 
@@ -132,12 +143,17 @@ Skilario's terms name Cherry Entertainment Limited, a private company registered
 
 On the website, log in, open your Web Profile, go to the Subscriptions tab and choose Turn off auto-renewal, at least 24 hours before the renewal. On iPhone, open Settings, tap your name, tap Subscriptions, then Skilario. Our step-by-step guide covers Android and refunds too.
 
+**What is JSPARK STUDIOS on my card statement?**
+
+Skilario's terms say the merchant of record for billing may include JSPARK STUDIOS INC., a Delaware company. If you bought Skilario on its website and see that name on a charge, it may be your Skilario subscription. Check your confirmation email, and cancel in your Skilario Web Profile if you no longer want it.
+
 ## Read next
 
 - [How to cancel Skilario and ask for a refund](https://tryiro.com/blog/cancel-skilario)
 - [The best Skilario alternatives](https://tryiro.com/blog/skilario-alternatives)
 - [How to spot an AI subscription trap](https://tryiro.com/blog/ai-subscription-traps)
 - [How to cancel Coursiv and get your money back](https://tryiro.com/blog/cancel-coursiv)
+- [Cosmo review: CodeSignal's AI tutor app](https://tryiro.com/blog/cosmo-review)
 
 ## About the author
 

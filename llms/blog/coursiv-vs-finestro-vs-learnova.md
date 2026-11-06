@@ -7,7 +7,7 @@ app_store: "https://apps.apple.com/app/id6759628066"
 language: en-US
 keywords: ["Coursiv vs Finestro", "Finestro vs Learnova", "Coursiv vs Learnova vs Finestro", "is Coursiv legit", "is Finestro legit", "best AI learning app 2026", "AI learning app refund policy"]
 date_published: "2026-08-03"
-date_modified: "2026-08-06"
+date_modified: "2026-11-04"
 reading_time_minutes: 8
 author: "Alex Furukawa"
 license: "© 2026 Iro AI"
@@ -21,7 +21,7 @@ pillar: "ai-fluency"
 
 **Canonical:** https://tryiro.com/blog/coursiv-vs-finestro-vs-learnova
 **Published:** 2026-08-03
-**Updated:** 2026-08-06
+**Updated:** 2026-11-04
 **Reading time:** ~8 min
 **Author:** Alex Furukawa — Founder of Iro AI
 
@@ -29,7 +29,7 @@ pillar: "ai-fluency"
 
 - These are not three different products so much as three versions of one format: a quiz funnel, a cheap first week, then a much larger recurring charge.
 - Coursiv's money-back guarantee is conditional on using the app. On the 4-week and 12-week plans you must finish 4 guides or 80% of modules to qualify, and supply screenshots of your progress.
-- Finestro's published policy states that forgetting to cancel, or not knowing about auto-renewal, do not qualify for a refund. It runs about $10 for a week, then roughly $49.99 a month.
+- Finestro rewrote its refund policy on 29 October 2026 to decide refunds case by case; the earlier version ruled out forgetting to cancel. It runs about $10 for a week, then roughly $49.99 a month.
 - Finestro and Learnova ship under near-identical names, both built on 'AI Tools Mastery', from two unrelated developers.
 - Judge any of them, ours included, on three things you can check in under a minute: the renewal price, the renewal date, and where the cancel button is.
 
@@ -66,9 +66,9 @@ Requests go to support within 30 days of purchase, with screenshots showing your
 
 Read that again in practical terms. If you subscribe, dislike it on day two and stop opening it, you have disqualified yourself from the guarantee by not using it enough. The people most likely to want a refund are the people least likely to qualify for one. That is not hidden and it is not illegal. It is just the opposite of what most people hear in the phrase 'money-back guarantee'. If you are already subscribed, see [how to cancel Coursiv and get your money back](/blog/cancel-coursiv).
 
-Finestro runs about **$10 for a one-week trial, then roughly $49.99 a month**. Its published refund policy lists forgetting to cancel before the trial converts, and being unaware of auto-renewal, as reasons that do _not_ qualify for a refund. The trial deadline is entirely your responsibility.
+Finestro runs about **$10 for a one-week trial, then roughly $49.99 a month**. Finestro's refund policy was rewritten on 29 October 2026. It now says refund requests are **reviewed case by case** and may be granted in full or in part, and it treats a charge **taken after a proper cancellation** as a billing error to be refunded or credited. The earlier version listed forgetting to cancel and not knowing about auto-renewal as reasons that did not qualify, and the new subscription terms still say a trial converts to a paid plan automatically unless you cancel before it ends. The trial deadline is still yours to track.
 
-Separately, and at a lower level of certainty: App Store reviewers and people filing complaints with the Better Business Bureau describe charges continuing after cancellation requests and refunds being refused. Those are user accounts, not findings. Set against them, the app holds roughly **4.76 out of 5 across about 320 App Store ratings**, so plenty of customers have no complaint at all.
+Separately, and at a lower level of certainty: App Store reviewers and people filing complaints with the Better Business Bureau describe charges continuing after cancellation requests and refunds being refused. Those are user accounts, not findings. Set against them, plenty of customers have no complaint at all.
 
 Learnova is the hardest of the three to pin down, which is itself the finding. Its pricing and refund terms are not published anywhere we could verify, and its App Store listing carries too few ratings to show a rating overview at all.
 
@@ -79,7 +79,7 @@ We are not going to invent numbers to fill the row. If you are considering Learn
 | App | Pricing shape | What the refund policy requires | How you learn |
 | --- | --- | --- | --- |
 | **Coursiv** | Cheap intro, then weekly or multi-week plans | Usage thresholds: up to 80% of modules, plus progress screenshots, within 30 days | Guided lessons, packaged as a challenge |
-| **Finestro** | About $10 for a week, then about $49.99 a month | Forgetting to cancel and not knowing about auto-renewal are excluded | Guided lessons and readable modules |
+| **Finestro** | About $10 for a week, then about $49.99 a month | Case by case since a 29 October 2026 rewrite; charges after a proper cancellation are refunded | Guided lessons and readable modules |
 | **Learnova** | Not publicly documented | Not publicly documented | Course-style lessons, quizzes, a playground |
 | **Iro AI** (ours) | Free to start; $49.99 a year or $9.99 a month | Billed by Apple, so Apple's refund process applies | Active practice, drills, ranks, an AI coach |
 
@@ -93,7 +93,7 @@ No, and it is worth being precise about this, because the word gets thrown aroun
 
 All three are real companies shipping real apps with real content, on both major app stores, with support addresses that answer. A scam takes your money and delivers nothing. These deliver lessons, and a good number of people finish them and are glad they paid.
 
-What they run is something else: a subscription funnel where the number you agree to is smaller than the number you pay, and the conditions for getting out are set at sign-up rather than at the point you want to leave. That is a legitimate business model used by thousands of apps, including some you already pay for. It is also the reason a well-liked app with a 4.76 rating can generate a steady flow of billing complaints. Both things are true at once.
+What they run is something else: a subscription funnel where the number you agree to is smaller than the number you pay, and the conditions for getting out are set at sign-up rather than at the point you want to leave. That is a legitimate business model used by thousands of apps, including some you already pay for. It is also the reason a well-liked app can generate a steady flow of billing complaints. Both things are true at once.
 
 The useful question is not whether an app is a scam. It is whether you can find the renewal price before you pay, and whether cancelling takes two taps or an email thread.
 
@@ -124,7 +124,7 @@ If you subscribed to something through the App Store and want out, that is a dif
 
 **Which is better, Coursiv, Finestro or Learnova?**
 
-On content they are close enough that the choice rarely comes down to lessons. Finestro publishes the clearest pricing of the three, at roughly $10 for a week then about $49.99 a month, and holds around 4.76 out of 5 from about 320 App Store ratings. Coursiv publishes the most detailed refund policy, though it requires you to have completed up to 80% of modules to qualify. Learnova publishes the least, with no verifiable pricing and too few ratings to show an overview.
+On content they are close enough that the choice rarely comes down to lessons. Finestro publishes the clearest pricing of the three, at roughly $10 for a week then about $49.99 a month. Coursiv publishes the most detailed refund policy, though it requires you to have completed up to 80% of modules to qualify. Learnova publishes the least, with no verifiable pricing and too few ratings to show an overview.
 
 **Is Coursiv's money-back guarantee real?**
 
