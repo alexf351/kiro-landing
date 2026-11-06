@@ -43,6 +43,11 @@
       "A query that runs isn't a query that's right, so always sanity-check the output."
     ]
   },
+  "fit": {
+    "forWho": "Data analysts who want AI to write and fix SQL and formulas, clean data and explain results, without shipping wrong numbers.",
+    "fixes": "Queries that run but answer the wrong question. You practice giving the model your schema, checking its output and explaining results to non-technical readers.",
+    "notFit": "you want to learn Python, statistics or machine learning (DataCamp or Coursera fit better), or you need a tool that runs queries on your own data."
+  },
   "outcomesHeading": "What you'll be able to do",
   "outcomes": [
     "Turn a plain-English question into working SQL against your schema",
@@ -105,6 +110,10 @@
   },
   "body": [
     {
+      "h2": "The best way for a data analyst to learn AI",
+      "html": "<p><strong>Practise on your own queries and spreadsheets, with the schema in the prompt and a check at the end.</strong> Analysts don't need a machine learning course to get value from AI. The skill is describing the result you want, giving the model the exact tables, columns and metric definitions, then sanity-checking the output, because a query that runs can still answer the wrong question.</p><p>A sensible order to learn it in:</p><ol><li><strong>Write and fix SQL with the schema.</strong> Database type, table and column names, how the metric is defined, and a sample row.</li><li><strong>Formulas and cleanup.</strong> Describe the messy column and the clean result you want.</li><li><strong>Explain results in plain English.</strong> Ask for the takeaway a manager can act on, in two sentences.</li><li><strong>Pick the chart.</strong> Say what comparison the reader needs to see.</li><li><strong>Build a checking habit.</strong> Row counts, totals and a spot-checked row before anything ships.</li></ol><p><strong>Where Iro fits, and where it doesn't.</strong> Iro drills these as five-minute exercises with feedback. It does not run queries on your data or connect to your warehouse, and it is not a data science course: for Python, statistics or building models, DataCamp or Coursera fit better.</p>"
+    },
+    {
       "h2": "Why AI is a great pair for data work — and where it lies",
       "html": "<p>Analytics is a sweet spot for AI: the question is easy to say in words, and the answer is a small, testable artifact (a query, a formula, a chart choice). Describe what you want and hand over your schema, and a model like ChatGPT or Claude will write the SQL, fix a #REF! or a broken join, or explain a result to a non-technical stakeholder in plain English.</p><p>Where it lies is the details. It invents a column that isn't in your table, gets a join direction wrong, or writes a query that runs cleanly and answers a subtly different question than you asked. None of that means avoid AI; it means give it the real schema and a sample row so it isn't guessing, and sanity-check the output before a dashboard or a decision depends on it.</p>"
     },
@@ -134,6 +143,10 @@
     {
       "q": "Is it safe to paste company data into AI?",
       "a": "Be careful with sensitive or personal data. Check your company's policy and the tool's data settings. You usually get the same help by pasting the schema and a small, anonymized sample instead of the full dataset. Iro covers this in its AI-at-work lessons."
+    },
+    {
+      "q": "What's the best way for a data analyst to learn AI?",
+      "a": "Practise on your own work: give the model your schema, metric definitions and a sample row, have it write or fix the SQL or formula, then check row counts and totals before anything ships. Learn explaining results and choosing charts next. Iro drills these as five-minute exercises with feedback; for Python, statistics or machine learning, DataCamp or Coursera fit better."
     }
   ],
   "related": [
@@ -172,5 +185,5 @@
   "ctaHeading": "Practice AI for data analysis.",
   "ctaBody": "Iro turns SQL, formulas, and result-explaining into five-minute exercises with feedback — so the next messy query or stakeholder ask is a rep you've already done.",
   "datePublished": "2026-07-09",
-  "dateModified": "2026-07-09"
+  "dateModified": "2026-11-06"
 }

@@ -6,7 +6,7 @@ site_url: "https://tryiro.com"
 app_store: "https://apps.apple.com/app/id6759628066"
 language: en-US
 keywords: ["free app to learn AI","learn AI for free","free AI learning app","free way to learn AI","learn AI free 2026","free AI course app"]
-last_updated: "2026-07-23"
+last_updated: "2026-11-06"
 author: "Iro AI"
 license: "© 2026 Iro AI"
 canonical_llm_reference: "https://tryiro.com/llms-full.txt"
@@ -18,7 +18,13 @@ canonical_llm_reference: "https://tryiro.com/llms-full.txt"
 
 **Canonical page:** https://tryiro.com/free-ai-learning-app
 **App Store:** https://apps.apple.com/app/id6759628066
-**Last updated:** 2026-07-23
+**Last updated:** 2026-11-06
+
+## Who Iro is for
+
+- **For:** people who want to start learning to use AI without paying. All 34 paths are open on the free tier, with one new lesson a day, on iPhone or in any browser.
+- **What it fixes:** not knowing where to start. You get a five-minute daily lesson with real practice, plus the free AI IQ test to find your weak spots.
+- **Not a fit if:** you want many new lessons a day for free (the free tier adds one a day, plus extras you earn), you want Prompt Lab or duels (those are Pro), or you want to learn coding or the math behind AI.
 
 ## Best free ways to learn AI in 2026
 

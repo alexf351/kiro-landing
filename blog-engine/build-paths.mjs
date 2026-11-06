@@ -251,6 +251,20 @@ const FOOTER =
   '<footer class="footer"><nav><a href="/paths">Path library</a><a href="/privacy">Privacy</a><a href="/terms">Terms</a><a href="#cookie-settings">Cookie settings</a><a href="/editorial-policy">Editorial policy</a><a href="/for-educators">For educators</a><a href="/blog">Blog</a><a href="/blog/apps-like-duolingo-for-ai">Apps like Duolingo for AI</a><a href="/blog/prompt-engineering">Prompt engineering</a><a href="/duolingo-for-ai">Duolingo for AI</a><a href="/blog/ai-tools">AI tools</a><a href="https://instagram.com/tryiro" target="_blank" rel="noopener">Instagram</a><a href="https://www.tiktok.com/@tryiro" target="_blank" rel="noopener">TikTok</a><a href="https://www.youtube.com/@tryiroai" target="_blank" rel="noopener">YouTube</a><a href="https://x.com/tryiroapp" target="_blank" rel="noopener">X</a><a href="https://www.linkedin.com/company/iro-ai-app/" target="_blank" rel="noopener">LinkedIn</a><a href="https://app.tryiro.com">Web app / Log in</a></nav><p>© 2026 Iro AI. Master AI. Stay ahead.</p></footer>';
 
 // ---------- page builder ----------
+// Optional "Who Iro is for" box (set `fit: { forWho, fixes, notFit }` on a path)
+// and an optional on-page contents list (`toc: true`). Both are opt-in so pages
+// without them render byte-for-byte as before. Their CSS ships inline with the
+// block for the same reason.
+const FIT_CSS = '<style>.fit{max-width:1120px;margin:0 auto;padding:8px clamp(20px,5vw,36px)}.fit .box{background:rgba(20,27,45,.72);border:1px solid rgba(255,255,255,.1);border-radius:22px;padding:20px 26px}.fit .lbl{color:#00E5FF;text-transform:uppercase;letter-spacing:.14em;font-size:.72rem;font-weight:900;margin:0 0 10px}.fit ul{margin:0;padding-left:20px;color:#CFD6EA}.fit li{margin:8px 0}.fit li strong{color:#fff}.page-toc{max-width:1120px;margin:0 auto;padding:14px clamp(20px,5vw,36px) 0}.page-toc .box{border:1px solid rgba(255,255,255,.08);border-radius:18px;padding:14px 22px;font-size:.95rem}.page-toc strong{display:block;color:#00E5FF;text-transform:uppercase;letter-spacing:.14em;font-size:.72rem;margin-bottom:6px}.page-toc a{color:#CFF8FF;font-weight:600;display:inline-block;margin:3px 16px 3px 0}</style>';
+function fitBox(fit) {
+  if (!fit) return '';
+  return `${FIT_CSS}<aside class="fit" aria-label="Who Iro is for"><div class="box"><p class="lbl">Who Iro is for</p><ul><li><strong>For:</strong> ${esc(fit.forWho)}</li><li><strong>What it fixes:</strong> ${esc(fit.fixes)}</li><li><strong>Not a fit if:</strong> ${esc(fit.notFit)}</li></ul></div></aside>`;
+}
+function tocBox(items) {
+  return `<nav class="page-toc" aria-label="On this page"><div class="box"><strong>On this page</strong>${items.map((t) => `<a href="#${t.id}">${esc(t.label)}</a>`).join('')}</div></nav>`;
+}
+const h2id = (on, id) => (on ? ` id="${id}"` : '');
+
 function buildPage(p, allBySlug, siblings = []) {
   const canonical = url(p.slug);
   const og = `${D}/assets/og/${p.slug}.png`;
@@ -292,19 +306,20 @@ function buildPage(p, allBySlug, siblings = []) {
 
   const answer = `<div class="answer"><div class="box"><p class="lbl">The short version</p><p>${esc(p.tldr.answer)}</p><ul>${p.tldr.bullets.map((b) => `<li>${esc(b)}</li>`).join('')}</ul></div></div>`;
 
-  const outcomes = `<section><h2>${esc(p.outcomesHeading || 'What you\'ll be able to do')}</h2><ul class="outcomes">${p.outcomes.map((o) => `<li>${esc(o)}</li>`).join('')}</ul></section>`;
+  const T = !!p.toc;
+  const outcomes = `<section><h2${h2id(T, 'outcomes')}>${esc(p.outcomesHeading || 'What you\'ll be able to do')}</h2><ul class="outcomes">${p.outcomes.map((o) => `<li>${esc(o)}</li>`).join('')}</ul></section>`;
 
-  const lessons = `<section><h2>Inside the path</h2><p>A focused set of five-minute lessons. Each one ends with a hands-on exercise, not a quiz you can guess.</p><ol class="lessons">${p.lessons.map((l) => `<li class="lesson"><span class="n"></span><div><h3>${esc(l.t)} <span class="dur">${esc(l.dur)}</span></h3><p>${esc(l.blurb)}</p></div></li>`).join('')}</ol></section>`;
+  const lessons = `<section><h2${h2id(T, 'inside')}>${esc(p.lessonsHeading || 'Inside the path')}</h2><p>A focused set of five-minute lessons. Each one ends with a hands-on exercise, not a quiz you can guess.</p><ol class="lessons">${p.lessons.map((l) => `<li class="lesson"><span class="n"></span><div><h3>${esc(l.t)} <span class="dur">${esc(l.dur)}</span></h3><p>${esc(l.blurb)}</p></div></li>`).join('')}</ol></section>`;
 
   const pr = p.practice;
   const opts = pr.options
     ? `<ul class="opts">${pr.options.map((o) => `<li class="${o.correct ? 'correct' : ''}">${esc(o.text)}</li>`).join('')}</ul>`
     : '';
-  const practice = `<section><h2>Try a sample exercise</h2><p>This is the kind of card you'd practice inside Iro: you do the thinking, then get feedback.</p><div class="practice"><p class="tag">◆ Sample exercise · ${esc(pr.type || 'Prompt practice')}</p><p class="scenario">${esc(pr.scenario)}</p><p class="task"><strong>Your task:</strong> ${esc(pr.task)}</p>${opts}<details><summary>${esc(pr.revealLabel || 'See a strong answer + why it works')}</summary><p class="fb">${pr.feedback}</p></details></div></section>`;
+  const practice = `<section><h2${h2id(T, 'sample')}>${esc(p.practiceHeading || 'Try a sample exercise')}</h2><p>This is the kind of card you'd practice inside Iro: you do the thinking, then get feedback.</p><div class="practice"><p class="tag">◆ Sample exercise · ${esc(pr.type || 'Prompt practice')}</p><p class="scenario">${esc(pr.scenario)}</p><p class="task"><strong>Your task:</strong> ${esc(pr.task)}</p>${opts}<details><summary>${esc(pr.revealLabel || 'See a strong answer + why it works')}</summary><p class="fb">${pr.feedback}</p></details></div></section>`;
 
-  const bodySections = (p.body || []).map((s) => `<section><h2>${esc(s.h2)}</h2>${s.html}</section>`).join('');
+  const bodySections = (p.body || []).map((s, i) => `<section><h2${h2id(T, s.id || 'b' + (i + 1))}>${esc(s.h2)}</h2>${s.html}</section>`).join('');
 
-  const faq = `<section class="faq"><h2>${esc(p.faqHeading || 'Questions people ask')}</h2>${p.faq.map((f, i) => `<details${i === 0 ? ' open' : ''}><summary>${esc(f.q)}</summary><p>${f.aHtml || esc(f.a)}</p></details>`).join('')}</section>`;
+  const faq = `<section class="faq"><h2${h2id(T, 'faq')}>${esc(p.faqHeading || 'Questions people ask')}</h2>${p.faq.map((f, i) => `<details${i === 0 ? ' open' : ''}><summary>${esc(f.q)}</summary><p>${f.aHtml || esc(f.a)}</p></details>`).join('')}</section>`;
 
   const ctaband = `<div class="ctaband"><div class="box"><h2>${esc(p.ctaHeading || 'Practice this in Iro.')}</h2><p>${esc(p.ctaBody || 'Reading about AI builds awareness. Iro builds skill: five minutes a day of real practice with instant feedback, streaks, and progress you can feel.')}</p><div class="cta-row"><a class="btn" href="${CTA_UTM(p.slug, 'footer')}" data-cta="app_store">Download Iro free</a><a class="btn secondary" href="/paths">Browse all paths</a></div></div></div>`;
 
@@ -335,6 +350,17 @@ function buildPage(p, allBySlug, siblings = []) {
     hero +
     '\n' +
     answer +
+    (p.fit ? '\n' + fitBox(p.fit) : '') +
+    (T
+      ? '\n' +
+        tocBox([
+          { id: 'outcomes', label: p.outcomesHeading || "What you'll be able to do" },
+          { id: 'inside', label: p.lessonsHeading || 'Inside the path' },
+          { id: 'sample', label: p.practiceHeading || 'Try a sample exercise' },
+          ...(p.body || []).map((s, i) => ({ id: s.id || 'b' + (i + 1), label: s.tocLabel || s.h2 })),
+          { id: 'faq', label: p.faqHeading || 'Questions people ask' },
+        ])
+      : '') +
     '\n<section class="content">\n' +
     outcomes +
     '\n' +
@@ -489,11 +515,14 @@ function renderPathMd(p, siblings = []) {
   const tldr = p.tldr
     ? `## In short\n\n${inlineMd(p.tldr.answer)}\n\n${(p.tldr.bullets || []).map((b) => `- ${inlineMd(b)}`).join('\n')}\n`
     : '';
+  const fitMd = p.fit
+    ? `## Who Iro is for\n\n- **For:** ${inlineMd(p.fit.forWho)}\n- **What it fixes:** ${inlineMd(p.fit.fixes)}\n- **Not a fit if:** ${inlineMd(p.fit.notFit)}\n`
+    : '';
   const outcomes = (p.outcomes || []).length
     ? `## ${p.outcomesHeading || "What you'll be able to do"}\n\n${p.outcomes.map((o) => `- ${inlineMd(o)}`).join('\n')}\n`
     : '';
   const lessons = (p.lessons || []).length
-    ? `## Inside the path\n\n${p.lessons.map((l, i) => `${i + 1}. **${inlineMd(l.t)}** (${l.dur}) — ${inlineMd(l.blurb)}`).join('\n')}\n`
+    ? `## ${p.lessonsHeading || 'Inside the path'}\n\n${p.lessons.map((l, i) => `${i + 1}. **${inlineMd(l.t)}** (${l.dur}) — ${inlineMd(l.blurb)}`).join('\n')}\n`
     : '';
   const practice = p.practice
     ? `## Sample practice exercise\n\n**Type:** ${inlineMd(p.practice.type)}\n\n**Scenario:** ${inlineMd(p.practice.scenario)}\n\n**Task:** ${inlineMd(p.practice.task)}\n\n${(p.practice.options || [])
@@ -532,7 +561,7 @@ canonical_llm_reference: "${D}/llms-full.txt"
 **Last updated:** ${dateM}
 
 ${tldr}
-${outcomes}
+${fitMd ? fitMd + '\n' : ''}${outcomes}
 ${lessons}
 ${body}
 

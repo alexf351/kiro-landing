@@ -1,6 +1,6 @@
 {
  "_about": "Translations for the homepage, organized by section. `en` is the English exactly as it appears in index.html; blog-engine/build-i18n.mjs finds it and writes es.html, fr.html, de.html, pt-br.html, it.html and zh-hans.html. When the English changes, the build reports the entry as stale: update `en` and every translation together. Register: tú (es), vous (fr), du (de), você (pt-br, Brazilian Portuguese), tu (it), 你 (zh-hans, Simplified Chinese). AI is IA in es/fr/pt-br/it, KI in de and stays AI in zh-hans, where Duolingo is 多邻国, a prompt is 提示词, ranks are 段位 and duels are 对战. Chinese copy puts a space between Chinese and Latin letters or digits, and in FAQ answers a space on both sides of every link (the schema check compares the answer with the visible text, which gains a space at each tag). Prices stay in USD, written in each locale's number format (9.99 美元 in zh-hans); do not convert them.",
- "dateModified": "2026-11-04",
+ "dateModified": "2026-11-06",
  "locales": {
   "es": {
    "file": "es.html",
@@ -702,6 +702,42 @@
     "pt-br": "Pratique as habilidades que você vai usar de verdade no trabalho.",
     "it": "Allena le competenze che userai davvero al lavoro.",
     "zh-hans": "练的都是你在工作中真正用得上的技能。"
+   },
+   "fitH": {
+    "en": "Is Iro right for you?",
+    "es": "¿Iro es para ti?",
+    "fr": "Iro est-il fait pour vous ?",
+    "de": "Ist Iro das Richtige für dich?",
+    "pt-br": "O Iro é para você?",
+    "it": "Iro fa per te?",
+    "zh-hans": "Iro 适合你吗？"
+   },
+   "fit1": {
+    "en": "<b>Who it's for:</b> anyone who wants to use ChatGPT, Claude, Gemini and other AI tools well at work or in daily life, five minutes a day, even starting from zero.",
+    "es": "<b>Para quién es:</b> para cualquiera que quiera usar bien ChatGPT, Claude, Gemini y otras herramientas de IA en el trabajo o en el día a día, cinco minutos al día, aunque empiece desde cero.",
+    "fr": "<b>Pour qui :</b> toute personne qui veut bien utiliser ChatGPT, Claude, Gemini et d’autres outils d’IA au travail ou au quotidien, cinq minutes par jour, même en partant de zéro.",
+    "de": "<b>Für wen:</b> für alle, die ChatGPT, Claude, Gemini und andere KI-Tools im Job oder im Alltag gut nutzen wollen, fünf Minuten am Tag, auch ganz ohne Vorkenntnisse.",
+    "pt-br": "<b>Para quem é:</b> para quem quer usar bem o ChatGPT, o Claude, o Gemini e outras ferramentas de IA no trabalho ou no dia a dia, cinco minutos por dia, mesmo começando do zero.",
+    "it": "<b>Per chi è:</b> per chiunque voglia usare bene ChatGPT, Claude, Gemini e altri strumenti di IA al lavoro o nella vita di tutti i giorni, cinque minuti al giorno, anche partendo da zero.",
+    "zh-hans": "<b>适合谁：</b>任何想在工作或日常生活中用好 ChatGPT、Claude、Gemini 等 AI 工具的人，每天五分钟，零基础也可以。"
+   },
+   "fit2": {
+    "en": "<b>What it fixes:</b> generic or wrong answers from AI. You practice writing prompts, fixing weak outputs and catching made-up facts.",
+    "es": "<b>Qué resuelve:</b> las respuestas genéricas o equivocadas de la IA. Practicas cómo escribir prompts, mejorar resultados flojos y detectar datos inventados.",
+    "fr": "<b>Ce que ça règle :</b> les réponses génériques ou fausses de l’IA. Vous vous entraînez à écrire des prompts, à corriger des résultats faibles et à repérer les faits inventés.",
+    "de": "<b>Was es löst:</b> generische oder falsche Antworten der KI. Du übst, Prompts zu schreiben, schwache Ergebnisse zu verbessern und erfundene Fakten zu erkennen.",
+    "pt-br": "<b>O que resolve:</b> respostas genéricas ou erradas da IA. Você pratica escrever prompts, melhorar resultados fracos e identificar fatos inventados.",
+    "it": "<b>Cosa risolve:</b> le risposte generiche o sbagliate dell’IA. Ti eserciti a scrivere prompt, a migliorare risultati deboli e a riconoscere i fatti inventati.",
+    "zh-hans": "<b>解决什么：</b>AI 给出的笼统或错误的回答。你会练习写提示词、改进不理想的输出，以及识别编造的事实。"
+   },
+   "fit3": {
+    "en": "<b>Not a fit if:</b> you want to code AI or learn the math behind it, need an accredited certificate, or need an admin dashboard for a team.",
+    "es": "<b>No es para ti si:</b> quieres programar IA o aprender las matemáticas que hay detrás, necesitas un certificado acreditado o un panel de administración para un equipo.",
+    "fr": "<b>Pas pour vous si :</b> vous voulez coder de l’IA ou apprendre les maths qui la sous-tendent, ou s’il vous faut un certificat accrédité ou un tableau de bord d’administration pour une équipe.",
+    "de": "<b>Nicht das Richtige, wenn:</b> du KI programmieren oder die Mathematik dahinter lernen willst, ein akkreditiertes Zertifikat brauchst oder ein Admin-Dashboard für ein Team.",
+    "pt-br": "<b>Não é para você se:</b> você quer programar IA ou aprender a matemática por trás dela, precisa de um certificado credenciado ou de um painel de administração para uma equipe.",
+    "it": "<b>Non fa per te se:</b> vuoi programmare l’IA o studiarne la matematica, ti serve un certificato accreditato o una dashboard di amministrazione per un team.",
+    "zh-hans": "<b>不适合的情况：</b>你想自己编写 AI 程序或学习背后的数学，需要经过认证的证书，或者需要面向团队的管理后台。"
    }
   },
   "showcase": {

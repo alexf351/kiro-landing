@@ -7,7 +7,7 @@ app_store: "https://apps.apple.com/app/id6759628066"
 language: en-US
 keywords: ["Iro AI vs Brilliant", "Brilliant alternative", "Brilliant AI course", "learn AI app", "best app to learn AI 2026"]
 date_published: "2026-06-01"
-date_modified: "2026-06-20"
+date_modified: "2026-11-06"
 reading_time_minutes: 7
 author: "Alex Furukawa"
 license: "© 2026 Iro AI"
@@ -21,7 +21,7 @@ pillar: "ai-fluency"
 
 **Canonical:** https://tryiro.com/blog/iro-ai-vs-brilliant
 **Published:** 2026-06-01
-**Updated:** 2026-06-20
+**Updated:** 2026-11-06
 **Reading time:** ~7 min
 **Author:** Alex Furukawa — Founder of Iro AI
 
@@ -32,7 +32,13 @@ pillar: "ai-fluency"
 - Choose Iro AI if your goal is practical AI skills; choose Brilliant for conceptual depth.
 - Both are gamified and mobile-first, with short daily lessons.
 
-## At a glance
+## Who Iro is for
+
+- **For:** People who want practical skill with AI tools like ChatGPT and Claude for work or daily life, more than the theory behind them.
+- **What it fixes:** Using AI only for one-off questions. Short daily drills build the habits that make outputs usable: clear context, iterating on a draft and checking for errors.
+- **Not a fit if:** you want the maths, logic or computer science behind AI (Brilliant is better there), you want to code or build models, or you need an accredited certificate.
+
+## How do Iro AI and Brilliant compare at a glance?
 
 The quick version, before the detail:
 
@@ -48,13 +54,13 @@ The quick version, before the detail:
 
 Brilliant details reflect publicly available information and may change, so always check current terms before subscribing to any app, including ours.
 
-## What Brilliant is great at
+## What is Brilliant great at?
 
 Brilliant is one of the best learning apps ever made for _understanding things_. Instead of lectures, it teaches math, logic, probability, computer science, and the ideas behind neural networks through interactive puzzles you solve step by step. If you have ever wanted to genuinely understand what a model is doing rather than just use it, Brilliant is hard to beat.
 
 For students, engineers, and the endlessly curious, that conceptual depth is the whole point. It builds the kind of first-principles intuition that lasts.
 
-## What Iro AI is for
+## What is Iro AI for?
 
 Iro AI answers a different question: _how do I actually use these tools to get something done?_ Not the math behind a transformer, but the practical skill of writing a prompt that works, choosing the right model, catching a hallucination, and chaining steps into a result. It is built like a game: short drills, instant feedback, streaks, and rank tiers, organized into paths for the tools people really use: [ChatGPT](/learn-chatgpt), [Claude](/learn-claude), [Gemini](/learn-gemini), and more.
 
@@ -62,13 +68,13 @@ You can see where you stand in a few minutes with the [free AI IQ test](/quiz), 
 
 It is also not a thin app, which matters if you are used to Brilliant's catalogue. Iro ships **34 learning paths, 522 lessons and 3,000+ hands-on exercises across 23 exercise types**, covering ChatGPT, Claude, Gemini, Perplexity, Grok, Copilot, prompt engineering, agents, automation, vibecoding and AI for specific jobs. Around that sit the Prompt Lab, which grades prompts you write against a live model, Ask Iro for chat and voice coaching, an Image Lab, timed duels, Custom Paths on any topic, and certificates you can post to LinkedIn.
 
-## Why they actually pair well
+## Can you use Iro AI and Brilliant together?
 
 Here is the honest truth most comparison posts miss: these two are complements, not competitors. Brilliant builds the _understanding_; Iro AI builds the _fluency_. Knowing how a neural network learns won't write you a great prompt, and writing great prompts doesn't require knowing the calculus. The strongest learners do both: understand the machine, then practice using it until it's second nature.
 
 If you only have time for one, pick based on your goal. If you want both, they reinforce each other beautifully.
 
-## Which one should you choose?
+## Should you choose Iro AI or Brilliant?
 
 A simple way to decide:
 
