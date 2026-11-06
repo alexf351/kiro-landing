@@ -9,7 +9,7 @@ keywords: ["AI for sales", "AI sales prospecting", "AI cold outreach", "AI for s
 audience: "Account executives, SDRs and BDRs, sales managers, founders who sell"
 level: "Beginner to advanced"
 date_published: "2026-07-09"
-date_modified: "2026-07-09"
+date_modified: "2026-11-06"
 author: "Iro AI"
 license: "© 2026 Iro AI"
 canonical_llm_reference: "https://tryiro.com/llms-full.txt"
@@ -21,7 +21,7 @@ canonical_llm_reference: "https://tryiro.com/llms-full.txt"
 
 **Canonical page:** https://tryiro.com/ai-for-sales
 **App Store:** https://apps.apple.com/app/id6759628066
-**Last updated:** 2026-07-09
+**Last updated:** 2026-11-06
 
 ## In short
 
@@ -31,7 +31,13 @@ Salespeople get the most from AI by using it to prepare, not to blast. The highe
 - Give the model the prospect's real context (their post, their role, their problem), then a single clear ask.
 - AI is a great prep and note-cleanup teammate, but never let it invent facts about an account.
 
-## What you'll be able to do
+## Who Iro is for
+
+- **For:** Sales reps and account executives who want to use ChatGPT, Claude or Perplexity to prepare better, in about five minutes a day.
+- **What it fixes:** Generic AI outreach that buyers ignore. You practise prospect research, personalised first touches, discovery prep and objection rehearsal, with feedback.
+- **Not a fit if:** you want a tool that sends sequences or writes into your CRM, you need a full sales methodology course, or your team needs an admin dashboard.
+
+## What will you be able to do with AI in sales?
 
 - Research a prospect and their company in a few minutes, not half an hour
 - Write first-touch outreach tied to something specific about the account
@@ -39,7 +45,7 @@ Salespeople get the most from AI by using it to prepare, not to blast. The highe
 - Rehearse tough objections before you're live on the call
 - Turn a messy call recording or notes into a clean CRM update and next steps
 
-## Inside the path
+## What's inside the AI for sales path?
 
 1. **Research a prospect in five minutes** (5 min) — Prompt patterns that pull the account's context, likely pain, and a hook worth opening with.
 2. **Outreach that isn't spam** (6 min) — Write short, personalized first-touch messages with one observation, one outcome, and one ask.
@@ -47,13 +53,27 @@ Salespeople get the most from AI by using it to prepare, not to blast. The highe
 4. **Rehearse objections before the call** (5 min) — Turn AI into a skeptical prospect and practice handling price, timing, and 'we already use X.'
 5. **Notes to CRM in one pass** (5 min) — Convert raw call notes into a structured summary, next steps, and a clean CRM update.
 
-## Why most AI sales outreach gets ignored
+## What's the best way for a salesperson to learn AI?
+
+**Learn it on your own pipeline, a few minutes a day, not in a one-off workshop.** The skill that matters is narrow and practical: giving a model a real prospect's context, asking for one specific hook and one clear ask, and checking that nothing it says about the account is made up. A team training session can show you the moves; they only become habit when you repeat them on live deals.
+
+A sensible order to learn it in:
+
+- **Research one account well.** Ask for likely priorities and a reason to reach out, then check every fact against the source.
+- **Write short first touches.** One observation, one outcome, one ask.
+- **Prep discovery.** Draft questions and a hypothesis before the call.
+- **Rehearse objections.** Have the model play a skeptical buyer on price, timing and "we already use X."
+- **Clean up notes.** Turn call notes into a CRM-ready summary and next steps.
+
+**Where Iro fits, and where it doesn't.** Iro turns each of those steps into a five-minute exercise where you pick or write the prompt and get feedback. It does not connect to your CRM, send email for you or teach a sales methodology, so pair it with the process your team already runs.
+
+## Why does most AI sales outreach get ignored?
 
 The fastest way to make AI hurt your numbers is to use it for volume. A model will happily generate a hundred near-identical emails, and buyers can spot them instantly: the generic opener, the three-paragraph value dump, the "circling back" follow-up. More send, more ignore.
 
 The reps who win with AI flip it: they use the model to **prepare better**, not send more. Feed it a prospect's real role, their recent post, or their company's news, and ask for one specific hook and one clear ask. The output is a message that reads like a human who did their homework, because you did. The AI just helped you do it in minutes instead of an afternoon.
 
-## Where AI actually earns its keep in a sales workflow
+## Where does AI actually help in a sales workflow?
 
 - **Prospect research:** summarize an account, surface likely pain, and find a specific, non-generic reason to reach out.
 - **Personalized outreach:** first-touch emails and follow-ups built around one real observation, not a template.
@@ -78,7 +98,7 @@ What's not on the list: letting AI invent facts about an account or decide your 
 
 **Why:** The winning prompt personalizes with **real context** (you paste the prospect's actual role and post), sets a **role** (AE), and gives tight **constraints and structure**: 90 words, one observation, one outcome, one clear ask. It even bans the spam clichés that get emails deleted. The others generate generic, mass-market copy: template dumps and "write the best email" hand the judgment to the model and ignore the one thing that earns a reply: that you noticed something specific about _this_ buyer. In Iro you'd write your own version and get feedback on whether it's genuinely personalized or just polished spam.
 
-## Sales AI questions
+## What do sales reps ask about AI?
 
 **What's the best AI tool for sales prospecting?**
 
@@ -99,6 +119,10 @@ That's one of its best sales uses. Paste your raw notes or transcript and ask fo
 **Will AI replace salespeople?**
 
 No. Buyers still buy from people they trust, and AI can't build that relationship or read a room. What AI changes is where reps spend time: less manual research and admin, more real conversations. The reps who learn to prompt well get that time back.
+
+**What's the best way for a salesperson to learn AI?**
+
+Practise on your own pipeline a few minutes a day rather than in a one-off workshop: research one account and verify the facts, write short first touches with one observation and one ask, prep discovery questions, rehearse objections with the model as a skeptical buyer, and turn call notes into CRM updates. Iro drills these as five-minute exercises with feedback; it does not connect to your CRM or send email.
 
 ## Related paths
 

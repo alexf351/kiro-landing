@@ -6,7 +6,7 @@ site_url: "https://tryiro.com"
 app_store: "https://apps.apple.com/app/id6759628066"
 language: en-US
 keywords: ["best AI learning app", "top AI apps"]
-last_updated: "2026-07-23"
+last_updated: "2026-11-06"
 author: "Iro AI"
 license: "© 2026 Iro AI"
 canonical_llm_reference: "https://tryiro.com/llms-full.txt"
@@ -18,7 +18,13 @@ canonical_llm_reference: "https://tryiro.com/llms-full.txt"
 
 **Canonical page:** https://tryiro.com/best-ai-learning-app
 **App Store:** https://apps.apple.com/app/id6759628066
-**Last updated:** 2026-07-23
+**Last updated:** 2026-11-06
+
+## Who Iro is for
+
+- **For:** people who want to get good at using AI tools like ChatGPT, Claude, Gemini and Perplexity in short daily sessions, whether they are starting from zero or already use AI at work.
+- **What it fixes:** watching AI tutorials without getting better at it. Every lesson ends with you writing or fixing a prompt and getting feedback.
+- **Not a fit if:** you want data science, coding or the math behind AI (DataCamp, Brilliant or Coursera fit better), you need an accredited certificate, or you need an admin dashboard for a team.
 
 ## How to choose an AI learning app
 

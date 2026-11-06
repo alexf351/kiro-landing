@@ -6,7 +6,7 @@ site_url: "https://tryiro.com"
 app_store: "https://apps.apple.com/app/id6759628066"
 language: en-US
 keywords: ["AI learning app", "ChatGPT", "Claude", "Gemini", "Perplexity", "prompt engineering", "AI agents"]
-last_updated: "2026-09-17"
+last_updated: "2026-11-06"
 author: "Iro AI"
 license: "© 2026 Iro AI"
 canonical_llm_reference: "https://tryiro.com/llms-full.txt"
@@ -19,7 +19,7 @@ canonical_llm_reference: "https://tryiro.com/llms-full.txt"
 **Website:** https://tryiro.com
 **App Store:** https://apps.apple.com/app/id6759628066
 **Tagline:** Master the AI tools that matter. Train like it's a game.
-**Last updated:** 2026-09-17
+**Last updated:** 2026-11-06
 
 ## What Iro AI is
 
@@ -59,6 +59,8 @@ Billed via the Apple App Store. Cancel anytime.
 - Students entering an AI-fluent job market
 - Founders, operators, and creators using AI to ship faster
 - ChatGPT power users who hit a ceiling with casual prompting
+
+**Not a fit if:** you want to code AI or learn the math behind it, need an accredited certificate, or need an admin dashboard for a team.
 
 ## Try it free
 
