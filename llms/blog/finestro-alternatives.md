@@ -7,7 +7,7 @@ app_store: "https://apps.apple.com/app/id6759628066"
 language: en-US
 keywords: ["Finestro alternatives", "Finestro AI Tools Mastery", "Finestro review", "Finestro cancel subscription", "apps like Finestro", "best AI learning app"]
 date_published: "2026-07-29"
-date_modified: "2026-08-03"
+date_modified: "2026-11-04"
 reading_time_minutes: 6
 author: "Alex Furukawa"
 license: "© 2026 Iro AI"
@@ -21,15 +21,15 @@ pillar: "ai-fluency"
 
 **Canonical:** https://tryiro.com/blog/finestro-alternatives
 **Published:** 2026-07-29
-**Updated:** 2026-08-03
+**Updated:** 2026-11-04
 **Reading time:** ~6 min
 **Author:** Alex Furukawa — Founder of Iro AI
 
 ## Key takeaways
 
 - The best Finestro alternative depends on how you learn: Iro AI for active, gamified practice, Brilliant or Khan Academy for foundations, DataCamp for data skills.
-- Finestro: AI Tools Mastery runs roughly $10 for a one-week paid trial, then about $49.99 a month. It holds 4.76 out of 5 from around 320 App Store ratings.
-- Its published refund policy states that forgetting to cancel before the trial converts, or being unaware of auto-renewal, are not grounds for a refund. Reviewers and BBB complainants also report charges continuing after cancellation requests.
+- Finestro: AI Tools Mastery runs roughly $10 for a one-week paid trial, then about $49.99 a month.
+- Its refund policy, rewritten on 29 October 2026, decides refunds case by case; the earlier version ruled out forgetting to cancel. Reviewers and BBB complainants also report charges continuing after cancellation requests.
 - Whichever app you pick, including ours, find the renewal date and the renewal price before you enter a card.
 
 ## The best Finestro alternatives
@@ -40,7 +40,7 @@ Most people searching this are not looking for a different curriculum. They are 
 
 ## Why people look for a Finestro alternative
 
-Finestro: AI Tools Mastery is a mobile-first app that teaches you to use AI tools, on iOS and Android. It positions itself around applying AI in real life without the overwhelm, and the content itself is reasonably well liked: it holds roughly **4.76 out of 5 from around 320 App Store ratings**.
+Finestro: AI Tools Mastery is a mobile-first app that teaches you to use AI tools, on iOS and Android. It positions itself around applying AI in real life without the overwhelm, and the content itself is reasonably well liked.
 
 The two reasons people go looking for something else:
 
@@ -53,7 +53,7 @@ Finestro's pricing runs about **$10 for a one-week paid trial, then roughly $49.
 
 Two things are worth knowing before you subscribe, and they sit at different levels of certainty.
 
-**From Finestro's own published refund policy:** forgetting to cancel before the trial converts, and being unaware of auto-renewal, are both listed as reasons that do _not_ qualify for a refund. That is not an allegation. It is their stated policy, and it means the trial deadline is entirely your responsibility.
+**From Finestro's own refund policy:** Finestro's refund policy was rewritten on 29 October 2026. It now says refund requests are **reviewed case by case** and may be granted in full or in part, and it treats a charge **taken after a proper cancellation** as a billing error to be refunded or credited. The earlier version listed forgetting to cancel and not knowing about auto-renewal as reasons that did not qualify, and the new subscription terms still say a trial converts to a paid plan automatically unless you cancel before it ends.
 
 **From user reports:** App Store reviews and complaints filed with the Better Business Bureau describe charges continuing after cancellation requests, refunds being refused, and difficulty reaching support. One documented account describes a $10.43 trial, a cancellation email sent two days in, and two subsequent $49.99 charges that were not refunded. These are user accounts rather than findings, and Finestro's high average rating shows plenty of customers have no complaint at all.
 
@@ -107,11 +107,11 @@ Finestro: AI Tools Mastery runs approximately $10 for a one-week paid trial, con
 
 **Why do people have trouble cancelling Finestro?**
 
-Finestro's published refund policy states that forgetting to cancel before the trial converts, or being unaware of auto-renewal, do not qualify for a refund. Separately, App Store reviewers and people filing complaints with the Better Business Bureau report charges continuing after cancellation requests and refunds being refused. Those are user accounts rather than findings, and the app still averages about 4.76 out of 5 across roughly 320 ratings.
+Finestro's refund policy was rewritten on 29 October 2026 to review refunds case by case; the earlier version said forgetting to cancel or not knowing about auto-renewal did not qualify. Separately, App Store reviewers and people filing complaints with the Better Business Bureau report charges continuing after cancellation requests and refunds being refused. Those are user accounts rather than findings, and many other users are happy with it.
 
 **Is Finestro a scam?**
 
-No, it is a real app with real content and a high average App Store rating. The recurring complaint is about its subscription mechanics rather than the product: a low-priced trial that converts to a much higher monthly charge, combined with a refund policy that excludes forgetting to cancel. Read the renewal terms before you subscribe.
+No, it is a real app with real content. The recurring complaint is about its subscription mechanics rather than the product: a low-priced trial that converts to a much higher monthly charge, combined with a refund policy that, until a rewrite in October 2026, excluded forgetting to cancel. Read the renewal terms before you subscribe.
 
 **Is there a free app to learn AI instead?**
 

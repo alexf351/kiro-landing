@@ -106,6 +106,7 @@ Because a summary transfers an argument, and arguments do not become habits by t
 - [The best microlearning apps in 2026](https://tryiro.com/blog/best-microlearning-apps)
 - [The best Blinkist alternatives](https://tryiro.com/blog/blinkist-alternatives)
 - [How to choose an AI learning app](https://tryiro.com/blog/how-to-choose-an-ai-learning-app)
+- [The best free app to learn AI](https://tryiro.com/free-ai-learning-app)
 
 ## About the author
 

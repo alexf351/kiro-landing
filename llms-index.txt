@@ -104,7 +104,7 @@ ai iq test by iro ai          https://tryiro.com/llms/quiz.md
 vibe coding course            https://tryiro.com/llms/vibe-coding-course.md
 
 ## Blog (markdown mirrors)
-# 140 post and pillar mirrors, generated
+# 141 post and pillar mirrors, generated
 ai agents explained           https://tryiro.com/llms/blog/ai-agents-explained.md
 ai agents vs. automation      https://tryiro.com/llms/blog/ai-agents-vs-automation.md
 ai agents & automation        https://tryiro.com/llms/blog/ai-agents.md
@@ -211,6 +211,7 @@ iro ai vs wondering           https://tryiro.com/llms/blog/iro-ai-vs-wondering.m
 is chatgpt plus worth it      https://tryiro.com/llms/blog/is-chatgpt-plus-worth-it.md
 is claude pro worth it        https://tryiro.com/llms/blog/is-claude-pro-worth-it.md
 is prompt engineering dead    https://tryiro.com/llms/blog/is-prompt-engineering-dead.md
+jobescape review              https://tryiro.com/llms/blog/jobescape-review.md
 kimi k3                       https://tryiro.com/llms/blog/kimi-k3.md
 kinnu alternatives            https://tryiro.com/llms/blog/kinnu-alternatives.md
 learnova alternatives         https://tryiro.com/llms/blog/learnova-alternatives.md
