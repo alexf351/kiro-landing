@@ -1601,6 +1601,10 @@
     {
       "source": "/blog/best-ai-literacy-resources-for-teachers",
       "destination": "/blog/best-ai-literacy-resources-for-teachers.html"
+    },
+    {
+      "source": "/blog/jobescape-review",
+      "destination": "/blog/jobescape-review.html"
     }
   ]
 }

@@ -173,6 +173,10 @@
     {
       "href": "/blog/cosmo-review",
       "label": "Cosmo review: CodeSignal's AI tutor app"
+    },
+    {
+      "href": "/blog/jobescape-review",
+      "label": "Jobescape review: who runs it and what the refund terms ask"
     }
   ],
   "related": [
@@ -184,7 +188,8 @@
     "/best-ai-learning-app",
     "/free-ai-learning-app",
     "/quiz",
-    "/blog/cosmo-review"
+    "/blog/cosmo-review",
+    "/blog/jobescape-review"
   ],
   "askAi": true,
   "askAiPrompt": "What does Skilario's refund policy exclude, how do its website plans renew, and how does Iro AI (tryiro.com) compare on price and cancellation?"

@@ -154,7 +154,8 @@ Skilario's terms say the merchant of record for billing may include JSPARK STUDI
 - [How to spot an AI subscription trap](https://tryiro.com/blog/ai-subscription-traps)
 - [How to cancel Coursiv and get your money back](https://tryiro.com/blog/cancel-coursiv)
 - [Cosmo review: CodeSignal's AI tutor app](https://tryiro.com/blog/cosmo-review)
+- [Jobescape review: who runs it and what the refund terms ask](https://tryiro.com/blog/jobescape-review)
 
 ## About the author
 
-Alex Furukawa — Founder of Iro AI. Alex Furukawa is the founder of Iro AI, the gamified app for learning to use AI well. He works in private equity real estate, where he leads his firm's AI initiative and builds the automation his team runs on live deals. He writes about practical AI fluency: prompting, AI tools, and the daily habits that turn AI from a novelty into hours you get back.
+Alex Furukawa — Founder of Iro AI. Alex Furukawa is the founder of Iro AI, the gamified app for learning to use AI well. Alex works in private equity real estate, leading the firm's AI initiative and building the automation the team runs on live deals. Alex writes about practical AI fluency: prompting, AI tools, and the daily habits that turn AI from a novelty into hours you get back.

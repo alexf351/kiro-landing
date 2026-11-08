@@ -112,6 +112,10 @@
     {
       "href": "/free-ai-learning-app",
       "label": "The best free app to learn AI"
+    },
+    {
+      "href": "/blog/jobescape-review",
+      "label": "Jobescape review: who runs it and what the refund terms ask"
     }
   ],
   "faq": [
@@ -150,7 +154,8 @@
     "/free-ai-learning-app",
     "/become-ai-fluent",
     "/learn-ai-in-5-minutes-a-day",
-    "/blog/cosmo-review"
+    "/blog/cosmo-review",
+    "/blog/jobescape-review"
   ],
   "askAi": true,
   "askAiPrompt": "Compare Iro AI (tryiro.com) and Coursiv for learning AI skills: how each one teaches, what is free in each, the real subscription prices, and what each refund policy requires.",
