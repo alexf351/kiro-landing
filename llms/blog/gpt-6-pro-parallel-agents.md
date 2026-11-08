@@ -159,4 +159,4 @@ Only if you regularly run broad research or comparison work that splits into ind
 
 ## About the author
 
-Alex Furukawa — Founder of Iro AI. Alex Furukawa is the founder of Iro AI, the gamified app for learning to use AI well. He works in private equity real estate, where he leads his firm's AI initiative and builds the automation his team runs on live deals. He writes about practical AI fluency: prompting, AI tools, and the daily habits that turn AI from a novelty into hours you get back.
+Alex Furukawa — Founder of Iro AI. Alex Furukawa is the founder of Iro AI, the gamified app for learning to use AI well. Alex works in private equity real estate, leading the firm's AI initiative and building the automation the team runs on live deals. Alex writes about practical AI fluency: prompting, AI tools, and the daily habits that turn AI from a novelty into hours you get back.

@@ -4,16 +4,5 @@
      was published in that window. That is correct, not a bug. -->
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
-  <url>
-    <loc>https://tryiro.com/blog/best-ai-literacy-resources-for-teachers</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Iro AI</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-06T00:00:00Z</news:publication_date>
-      <news:title>The best AI literacy apps and resources for teachers in 2026</news:title>
-      <news:keywords>best AI literacy app for teachers, AI literacy resources for teachers, AI literacy curriculum, free AI literacy lessons, AI literacy for high school, teach AI literacy, AI apps for teachers</news:keywords>
-    </news:news>
-  </url>
+
 </urlset>

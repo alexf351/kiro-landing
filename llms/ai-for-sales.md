@@ -34,7 +34,7 @@ Salespeople get the most from AI by using it to prepare, not to blast. The highe
 ## Who Iro is for
 
 - **For:** Sales reps and account executives who want to use ChatGPT, Claude or Perplexity to prepare better, in about five minutes a day.
-- **What it fixes:** Generic AI outreach that buyers ignore. You practise prospect research, personalised first touches, discovery prep and objection rehearsal, with feedback.
+- **What it fixes:** Generic AI outreach that buyers ignore. You practice prospect research, personalized first touches, discovery prep and objection rehearsal, with feedback.
 - **Not a fit if:** you want a tool that sends sequences or writes into your CRM, you need a full sales methodology course, or your team needs an admin dashboard.
 
 ## What will you be able to do with AI in sales?

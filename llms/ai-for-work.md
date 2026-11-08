@@ -45,7 +45,7 @@ Professionals, managers, operators, founders, students entering the workforce, a
 Yes. Iro includes work and career paths including managers, business, marketing, finance, and more.
 
 **Is Iro available for teams?**  
-The current public reference focuses on the iOS app; users can start on the App Store.
+Not yet. Iro is for individuals today: each person signs up on their own and, if they want Pro, subscribes through Apple. There is no team plan, admin dashboard, central billing or SSO. If you want Iro for a team, email support@tryiro.com and we'll let you know when a team plan is ready.
 
 ## Related
 

@@ -34,7 +34,7 @@ AI is a strong pair for data analysts: describe the result and give it your sche
 ## Who Iro is for
 
 - **For:** Data analysts who want AI to write and fix SQL and formulas, clean data and explain results, without shipping wrong numbers.
-- **What it fixes:** Queries that run but answer the wrong question. You practise giving the model your schema, checking its output and explaining results to non-technical readers.
+- **What it fixes:** Queries that run but answer the wrong question. You practice giving the model your schema, checking its output and explaining results to non-technical readers.
 - **Not a fit if:** you want to learn Python, statistics or machine learning (DataCamp or Coursera fit better), or you need a tool that runs queries on your own data.
 
 ## What you'll be able to do
