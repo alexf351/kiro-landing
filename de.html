@@ -237,6 +237,10 @@ section.enemy > .wrap{position:relative;z-index:1}
   border-radius:50%;background:var(--accent);box-shadow:0 0 0 4px rgba(var(--accent-rgb),.14)}
 .enemy-proof{margin:20px 0 0;padding-top:17px;font-size:14px;line-height:1.5;color:var(--ink-2);
   border-top:1px solid rgba(var(--accent-rgb),.16)}
+.enemy-fit{max-width:880px;margin:clamp(20px,2.4vw,28px) auto 0;padding:clamp(18px,2vw,24px) clamp(20px,2.4vw,28px);border-radius:var(--radius);border:1px solid var(--line);background:rgba(255,255,255,.02)}
+.enemy-fit-h{margin:0 0 10px;font-size:12px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:var(--accent)}
+.enemy-fit-list{margin:0;padding-left:18px;font-size:15px;line-height:1.55;color:var(--ink-2)}
+.enemy-fit-list li{margin:7px 0}.enemy-fit-list b{color:var(--ink,#F2F5FF)}
 @media(max-width:768px){
   .enemy-grid{grid-template-columns:1fr;max-width:520px}
   .enemy-col{padding:20px 22px}
@@ -1705,6 +1709,14 @@ html.is-android .locale-suggest{bottom:12px;top:auto}
         </ul>
         <p class="enemy-proof">Trainiere die Fähigkeiten, die du im Job wirklich brauchst.</p>
       </div>
+    </div>
+    <div class="enemy-fit reveal">
+      <p class="enemy-fit-h">Ist Iro das Richtige für dich?</p>
+      <ul class="enemy-fit-list">
+        <li><b>Für wen:</b> für alle, die ChatGPT, Claude, Gemini und andere KI-Tools im Job oder im Alltag gut nutzen wollen, fünf Minuten am Tag, auch ganz ohne Vorkenntnisse.</li>
+        <li><b>Was es löst:</b> generische oder falsche Antworten der KI. Du übst, Prompts zu schreiben, schwache Ergebnisse zu verbessern und erfundene Fakten zu erkennen.</li>
+        <li><b>Nicht das Richtige, wenn:</b> du KI programmieren oder die Mathematik dahinter lernen willst, ein akkreditiertes Zertifikat brauchst oder ein Admin-Dashboard für ein Team.</li>
+      </ul>
     </div>
   </div>
 </section>

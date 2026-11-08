@@ -6,7 +6,7 @@ site_url: "https://tryiro.com"
 app_store: "https://apps.apple.com/app/id6759628066"
 language: en-US
 keywords: ["AI IQ test", "free quiz", "AI literacy assessment"]
-last_updated: "2026-07-23"
+last_updated: "2026-11-06"
 author: "Iro AI"
 license: "© 2026 Iro AI"
 canonical_llm_reference: "https://tryiro.com/llms-full.txt"
@@ -17,7 +17,13 @@ canonical_llm_reference: "https://tryiro.com/llms-full.txt"
 > Free, no-signup AI IQ test. 10 questions. About 2 minutes. Ranks Bronze to Diamond and recommends a learning path.
 
 **Canonical page:** https://tryiro.com/quiz
-**Last updated:** 2026-07-23
+**Last updated:** 2026-11-06
+
+## Who this test is for
+
+- **For:** anyone who uses ChatGPT, Claude or Gemini and wants a quick, honest read on how well, before deciding what to learn.
+- **What it fixes:** not knowing which AI skill to work on. You get a rank, your strongest area and the one to train first.
+- **Not a fit if:** you want a certification, or a test of AI theory or coding. It measures everyday use.
 
 ## What it is
 

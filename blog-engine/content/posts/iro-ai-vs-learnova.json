@@ -11,6 +11,11 @@
     "Choose based on whether you prefer active drills (Iro) or a more course-like structure.",
     "Both target busy people who want AI skills in a few minutes a day."
   ],
+  "fit": {
+    "forWho": "People who want a daily practice habit with AI tools, with streaks, ranks and timed duels to keep them coming back.",
+    "fixes": "AI skills that fade after a course ends. Each lesson ends in an exercise where you write or fix a prompt and get feedback.",
+    "notFit": "you prefer to work through a structured course in order, explanations first, or you need an accredited certificate or an admin dashboard for a team."
+  },
   "description": "An honest comparison of two AI learning apps: how Iro AI and Learnova differ on teaching style, hands-on practice, pricing, and who each suits best.",
   "disclosure": true,
   "keywords": [
@@ -21,7 +26,7 @@
     "best AI learning app 2026"
   ],
   "datePublished": "2026-05-31",
-  "dateModified": "2026-08-18",
+  "dateModified": "2026-11-06",
   "readingTime": 7,
   "articleSection": "AI fluency",
   "feedCategory": "AI learning apps",

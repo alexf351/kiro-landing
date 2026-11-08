@@ -6,7 +6,7 @@ site_url: "https://tryiro.com"
 app_store: "https://apps.apple.com/app/id6759628066"
 language: en-US
 keywords: ["AI at work", "professional AI"]
-last_updated: "2026-05-24"
+last_updated: "2026-11-06"
 author: "Iro AI"
 license: "© 2026 Iro AI"
 canonical_llm_reference: "https://tryiro.com/llms-full.txt"
@@ -18,7 +18,13 @@ canonical_llm_reference: "https://tryiro.com/llms-full.txt"
 
 **Canonical page:** https://tryiro.com/ai-for-work
 **App Store:** https://apps.apple.com/app/id6759628066
-**Last updated:** 2026-05-24
+**Last updated:** 2026-11-06
+
+## Who Iro is for
+
+- **For:** professionals in any role who want to use ChatGPT, Claude, Gemini and Perplexity for writing, research, analysis and planning, in five-minute sessions.
+- **What it fixes:** treating AI like a magic search box. You practice giving clear goals, context and constraints, then reviewing what comes back for errors.
+- **Not a fit if:** you need a company-wide training rollout with an admin dashboard, an accredited certificate, or a course on building AI systems.
 
 ## Why AI at work needs training
 

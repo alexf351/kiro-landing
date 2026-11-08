@@ -7,7 +7,7 @@ app_store: "https://apps.apple.com/app/id6759628066"
 language: en-US
 keywords: ["Iro AI vs Learnova", "Learnova alternative", "Learnova review", "AI Tools Mastery app", "best AI learning app 2026"]
 date_published: "2026-05-31"
-date_modified: "2026-08-18"
+date_modified: "2026-11-06"
 reading_time_minutes: 7
 author: "Alex Furukawa"
 license: "© 2026 Iro AI"
@@ -21,7 +21,7 @@ pillar: "ai-fluency"
 
 **Canonical:** https://tryiro.com/blog/iro-ai-vs-learnova
 **Published:** 2026-05-31
-**Updated:** 2026-08-18
+**Updated:** 2026-11-06
 **Reading time:** ~7 min
 **Author:** Alex Furukawa — Founder of Iro AI
 
@@ -31,6 +31,12 @@ pillar: "ai-fluency"
 - Iro AI offers a free tier and a transparent annual price; verify Learnova’s current pricing before committing.
 - Choose based on whether you prefer active drills (Iro) or a more course-like structure.
 - Both target busy people who want AI skills in a few minutes a day.
+
+## Who Iro is for
+
+- **For:** People who want a daily practice habit with AI tools, with streaks, ranks and timed duels to keep them coming back.
+- **What it fixes:** AI skills that fade after a course ends. Each lesson ends in an exercise where you write or fix a prompt and get feedback.
+- **Not a fit if:** you prefer to work through a structured course in order, explanations first, or you need an accredited certificate or an admin dashboard for a team.
 
 ## At a glance
 

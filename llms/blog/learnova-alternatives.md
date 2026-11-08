@@ -32,6 +32,12 @@ pillar: "ai-fluency"
 - Most options have a free tier, so you can try before paying; check renewal terms either way.
 - The best app is the one you'll actually keep opening. Consistency beats curriculum.
 
+## Who Iro is for
+
+- **For:** Learnova users who want game-like active practice: drills, streaks and rank tiers instead of step-by-step courses.
+- **What it fixes:** Lessons that feel like homework you skip. Five-minute exercises with feedback make a daily habit easier to keep.
+- **Not a fit if:** you like learning a tool in order before using it, Learnova's in-app playground is the part you valued most, or you are partway through a paid plan.
+
 ## The best Learnova alternatives
 
 **The best Learnova alternative depends on how you want to learn.** If you'd rather build a daily practice habit than work through structured courses, **Iro AI** is the closest fit: game-like drills, streaks, and rank tiers that make AI skills automatic. For foundations, **Brilliant** or **Khan Academy**; for data and coding, **DataCamp**. Most have a free tier to try first.

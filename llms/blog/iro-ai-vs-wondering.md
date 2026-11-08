@@ -7,7 +7,7 @@ app_store: "https://apps.apple.com/app/id6759628066"
 language: en-US
 keywords: ["Iro AI vs Wondering", "Wondering app review", "Wondering vs Duolingo", "Duolingo for anything", "learn anything app", "AI learning app comparison"]
 date_published: "2026-08-14"
-date_modified: "2026-08-14"
+date_modified: "2026-11-06"
 reading_time_minutes: 7
 author: "Alex Furukawa"
 license: "© 2026 Iro AI"
@@ -21,6 +21,7 @@ pillar: "ai-fluency"
 
 **Canonical:** https://tryiro.com/blog/iro-ai-vs-wondering
 **Published:** 2026-08-14
+**Updated:** 2026-11-06
 **Reading time:** ~7 min
 **Author:** Alex Furukawa — Founder of Iro AI
 
@@ -32,6 +33,12 @@ pillar: "ai-fluency"
 - Annual against annual, Wondering Pro is about 80% more than Iro Pro, $90 a year against $49.99, and the $7.50 monthly figure is a founding rate rather than the standing price.
 - Iro also generates a path on any topic, so if that feature is what attracts you, compare the two directly rather than assuming only one has it.
 - Both gamify, differently. Wondering has streaks including a friend streak we do not have; Iro adds XP, ranks, timed duels and an evolving mascot.
+
+## Who Iro is for
+
+- **For:** People whose goal is to get good at using AI specifically, and who want their own prompts marked rather than reading a lesson.
+- **What it fixes:** Reading about prompting without getting better at it. Iro grades the prompts you write and goes deeper than an overview on prompting and agents.
+- **Not a fit if:** your curiosity is broad and you want one app for many subjects, with AI as only one of them.
 
 ## The short answer
 

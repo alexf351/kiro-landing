@@ -9,7 +9,7 @@ keywords: ["AI for data analysts", "AI for data analysis", "ChatGPT for SQL", "A
 audience: "Data analysts, business and BI analysts, analytics engineers, ops and finance analysts who live in SQL and spreadsheets"
 level: "Beginner to advanced"
 date_published: "2026-07-09"
-date_modified: "2026-07-09"
+date_modified: "2026-11-06"
 author: "Iro AI"
 license: "© 2026 Iro AI"
 canonical_llm_reference: "https://tryiro.com/llms-full.txt"
@@ -21,7 +21,7 @@ canonical_llm_reference: "https://tryiro.com/llms-full.txt"
 
 **Canonical page:** https://tryiro.com/ai-for-data-analysts
 **App Store:** https://apps.apple.com/app/id6759628066
-**Last updated:** 2026-07-09
+**Last updated:** 2026-11-06
 
 ## In short
 
@@ -30,6 +30,12 @@ AI is a strong pair for data analysts: describe the result and give it your sche
 - Give AI your schema and a sample row; let it write or fix the SQL.
 - It's great at explaining a result in plain English and picking a chart.
 - A query that runs isn't a query that's right, so always sanity-check the output.
+
+## Who Iro is for
+
+- **For:** Data analysts who want AI to write and fix SQL and formulas, clean data and explain results, without shipping wrong numbers.
+- **What it fixes:** Queries that run but answer the wrong question. You practice giving the model your schema, checking its output and explaining results to non-technical readers.
+- **Not a fit if:** you want to learn Python, statistics or machine learning (DataCamp or Coursera fit better), or you need a tool that runs queries on your own data.
 
 ## What you'll be able to do
 
@@ -46,6 +52,20 @@ AI is a strong pair for data analysts: describe the result and give it your sche
 3. **Formulas without the fight** (5 min) — Get the exact spreadsheet formula for a real column layout, with the edge cases handled.
 4. **Explain it in plain English** (5 min) — Turn a result into a clear takeaway for a stakeholder who doesn't read SQL.
 5. **Sanity-check before you ship** (5 min) — The quick tests that catch a query that runs but silently answers the wrong question.
+
+## The best way for a data analyst to learn AI
+
+**Practise on your own queries and spreadsheets, with the schema in the prompt and a check at the end.** Analysts don't need a machine learning course to get value from AI. The skill is describing the result you want, giving the model the exact tables, columns and metric definitions, then sanity-checking the output, because a query that runs can still answer the wrong question.
+
+A sensible order to learn it in:
+
+- **Write and fix SQL with the schema.** Database type, table and column names, how the metric is defined, and a sample row.
+- **Formulas and cleanup.** Describe the messy column and the clean result you want.
+- **Explain results in plain English.** Ask for the takeaway a manager can act on, in two sentences.
+- **Pick the chart.** Say what comparison the reader needs to see.
+- **Build a checking habit.** Row counts, totals and a spot-checked row before anything ships.
+
+**Where Iro fits, and where it doesn't.** Iro drills these as five-minute exercises with feedback. It does not run queries on your data or connect to your warehouse, and it is not a data science course: for Python, statistics or building models, DataCamp or Coursera fit better.
 
 ## Why AI is a great pair for data work — and where it lies
 
@@ -98,6 +118,10 @@ It can. Describe your data and the comparison you want to show (trend over time,
 **Is it safe to paste company data into AI?**
 
 Be careful with sensitive or personal data. Check your company's policy and the tool's data settings. You usually get the same help by pasting the schema and a small, anonymized sample instead of the full dataset. Iro covers this in its AI-at-work lessons.
+
+**What's the best way for a data analyst to learn AI?**
+
+Practise on your own work: give the model your schema, metric definitions and a sample row, have it write or fix the SQL or formula, then check row counts and totals before anything ships. Learn explaining results and choosing charts next. Iro drills these as five-minute exercises with feedback; for Python, statistics or machine learning, DataCamp or Coursera fit better.
 
 ## Related paths
 

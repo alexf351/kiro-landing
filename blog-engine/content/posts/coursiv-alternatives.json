@@ -10,6 +10,11 @@
     "Check any app's renewal terms before subscribing; some AI-learning apps use auto-renewing introductory offers.",
     "Free options exist: Iro AI's free plan, Cosmo's free courses and Khan Academy all cost nothing to start."
   ],
+  "fit": {
+    "forWho": "Coursiv users who want an app where they do the work, writing and fixing prompts, instead of following a guided daily lesson.",
+    "fixes": "Lessons you finish but don't retain. Iro grades what you write, and the free tier lets you try every path before paying anything.",
+    "notFit": "you liked Coursiv's guided format and only want a cheaper copy of it, you need data science or coding skills (DataCamp fits better), or you need an accredited certificate."
+  },
   "description": "The best Coursiv alternatives, free ones included: Iro AI, Cosmo, Khan Academy, Brilliant and DataCamp, compared by how you learn and how you pay.",
   "disclosure": true,
   "keywords": [
@@ -24,7 +29,7 @@
     "Coursiv vs Cosmo"
   ],
   "datePublished": "2026-06-13",
-  "dateModified": "2026-11-04",
+  "dateModified": "2026-11-06",
   "readingTime": 6,
   "articleSection": "AI fluency",
   "feedCategory": "AI fluency",
@@ -37,58 +42,58 @@
   "toc": [
     {
       "href": "#answer",
-      "label": "Short answer"
+      "label": "What are the best alternatives?"
     },
     {
       "href": "#why",
-      "label": "Why switch"
+      "label": "Why do people switch?"
     },
     {
       "href": "#alts",
-      "label": "The alternatives"
+      "label": "How do they compare?"
     },
     {
       "href": "#free",
-      "label": "Free alternatives"
+      "label": "Which ones are free?"
     },
     {
       "href": "#iro",
-      "label": "Why Iro fits"
+      "label": "Why is Iro the closest?"
     },
     {
       "href": "#choose",
-      "label": "How to choose"
+      "label": "How do you choose?"
     }
   ],
   "sections": [
     {
       "id": "answer",
-      "heading": "The best Coursiv alternatives",
+      "heading": "What are the best Coursiv alternatives?",
       "html": "<p><strong>The best Coursiv alternative depends on how you like to learn.</strong> If you want to actually <em>practice</em> using AI rather than watch guided lessons, <strong>Iro AI</strong> is the closest fit: a gamified app where you write real prompts and get feedback, with simple, predictable pricing. For math and CS foundations, <strong>Brilliant</strong>; for free lessons, <strong>Khan Academy</strong>; for data skills, <strong>DataCamp</strong>. Most have a free tier, so you can try before paying.</p>"
     },
     {
       "id": "why",
-      "heading": "Why people look for a Coursiv alternative",
+      "heading": "Why do people look for a Coursiv alternative?",
       "html": "<p>Coursiv is a mobile-first AI learning app that walks beginners through tools like ChatGPT, often packaged as a multi-day challenge. People usually search for an alternative for one of two reasons:</p><ul><li><strong>They want active practice,</strong> not guided lessons. Learning by doing tends to stick better.</li><li><strong>They want clearer pricing.</strong> As with many subscription apps, it's worth reading the renewal terms before you commit.</li></ul><p>For the direct head-to-head, see <a href=\"/blog/iro-ai-vs-coursiv\">Iro AI vs Coursiv</a>.</p>"
     },
     {
       "id": "alts",
-      "heading": "The top alternatives, compared",
+      "heading": "How do the top Coursiv alternatives compare?",
       "html": "<div class=\"cmp-wrap\"><table class=\"cmp-table\"><thead><tr><th>App</th><th>Best for</th><th>How you learn</th><th>Free tier</th></tr></thead><tbody><tr><th>Iro AI</th><td>Using AI tools well, as a daily habit</td><td>Active, gamified practice with feedback</td><td>Yes</td></tr><tr><th>Cosmo (CodeSignal)</th><td>AI plus business, coding and data skills</td><td>Practice-first lessons with an AI tutor</td><td>Yes, courses free; paid Cosmo+ removes the energy limit</td></tr><tr><th>Brilliant</th><td>Math, logic &amp; CS foundations</td><td>Interactive lessons</td><td>Limited</td></tr><tr><th>Khan Academy</th><td>Free foundational learning</td><td>Video + practice (+ Khanmigo tutor)</td><td>Yes</td></tr><tr><th>DataCamp</th><td>Data science &amp; coding</td><td>In-browser coding exercises</td><td>Limited</td></tr><tr><th>Coursera</th><td>Certificates &amp; structured courses</td><td>Video + quizzes</td><td>Audit free</td></tr></tbody></table></div><p class=\"note\">Plans change often. Check each app's current pricing and renewal terms. Last reviewed June 2026; Cosmo added November 2026.</p>"
     },
     {
       "id": "free",
-      "heading": "Free Coursiv alternatives",
+      "heading": "What are the free Coursiv alternatives?",
       "html": "<p>If price is the reason you're looking, three options cost nothing to start:</p><ul><li><strong>Iro AI.</strong> Every one of its 34 paths is open on the free plan, paced by a battery that gives you a full lesson a day and recharges overnight. It runs on iPhone and as a free web app with no signup. Here is <a href=\"/free-ai-learning-app\">what the free plan includes</a>.</li><li><strong>Cosmo, from CodeSignal.</strong> Every course is free. Practice uses energy, and the paid Cosmo+ removes that limit. Generative AI was about a third of its catalogue at launch, alongside business, coding and data. See our <a href=\"/blog/cosmo-review\">Cosmo review</a>.</li><li><strong>Khan Academy.</strong> A non-profit with no paid tier, better for foundations than for using AI tools day to day.</li></ul><p>Already paying for Coursiv and want out first? See <a href=\"/blog/cancel-coursiv\">how to cancel Coursiv and get your money back</a>, which walks through its usage-based guarantee.</p>"
     },
     {
       "id": "iro",
-      "heading": "Why Iro AI is the closest alternative",
+      "heading": "Why is Iro AI the closest Coursiv alternative?",
       "html": "<p>If what drew you to Coursiv was learning to <em>use</em> AI in a few minutes a day, Iro AI does the same job with a different method: <strong>active practice instead of passive lessons.</strong> You write real prompts in a Prompt Lab and get instant feedback, spot AI mistakes, and duel a skill-matched opponent, across ChatGPT, Claude, Gemini, Perplexity, prompting, and more. It's free to start, and Pro is $9.99 a month or $49.99 a year, billed by Apple, with no intro price that converts to a higher one. It's often called <a href=\"/duolingo-for-ai\">the Duolingo for AI</a>.</p><p>On volume it is not the lightweight option: <strong>34 paths, 522 lessons and 3,000+ exercises across 23 exercise types</strong>, plus Prompt Lab grading against a live model, Ask Iro by chat and voice, an Image Lab, timed duels, Custom Paths built from a topic or a link, screenshot or PDF, and certificates earned free and claimed with Pro.</p>"
     },
     {
       "id": "choose",
-      "heading": "How to choose",
+      "heading": "How do you choose a Coursiv alternative?",
       "html": "<ul><li><strong>You learn by doing and want a daily habit →</strong> <a href=\"/best-ai-learning-app\">Iro AI</a>.</li><li><strong>You want math/CS theory →</strong> Brilliant.</li><li><strong>You want it free →</strong> Khan Academy.</li><li><strong>You want data/coding skills →</strong> DataCamp.</li><li><strong>You want a certificate →</strong> Coursera.</li></ul><p>See where your AI skills stand right now with the free <a href=\"/quiz\">AI IQ test</a>, 10 questions, about two minutes.</p>"
     }
   ],

@@ -424,6 +424,13 @@ function renderPost(post) {
         .join('')}</ul></aside>`
     : '';
 
+  // "Who Iro is for" box: who the app fits, what it fixes, and when it is the
+  // wrong pick. Sits under the takeaways so a buyer (or an answer engine) can
+  // judge fit before reading the comparison. Set `"fit": { forWho, fixes, notFit }`.
+  const fit = post.fit
+    ? `<aside class="key-takeaways fit" aria-label="Who Iro is for"><h2>Who Iro is for</h2><ul><li><strong>For:</strong> ${post.fit.forWho}</li><li><strong>What it fixes:</strong> ${post.fit.fixes}</li><li><strong>Not a fit if:</strong> ${post.fit.notFit}</li></ul></aside>`
+    : '';
+
   // Editorial disclosure for posts that rank Iro against competitors. This used
   // to be hand-injected into the built HTML, which meant every rebuild silently
   // dropped it — set `"disclosure": true` on the post instead.
@@ -433,7 +440,7 @@ function renderPost(post) {
 
   // Content body: sections, with an inline CTA after the Nth section + a closing CTA.
   const after = (post.inlineCtaAfter || 2) - 1;
-  const lines = [takeaways, disclosure, `<div class="toc"><strong>In this post</strong>${toc}</div>`].filter(Boolean);
+  const lines = [takeaways, fit, disclosure, `<div class="toc"><strong>In this post</strong>${toc}</div>`].filter(Boolean);
   post.sections.forEach((s, i) => {
     lines.push(`<h2 id="${s.id}">${s.heading}</h2>`);
     lines.push(s.html);
@@ -1140,6 +1147,9 @@ function renderPostMd(post) {
   const takeawaysMd = (post.keyTakeaways && post.keyTakeaways.length)
     ? `## Key takeaways\n\n${post.keyTakeaways.map((t) => `- ${stripTags(t)}`).join('\n')}\n\n`
     : '';
+  const fitMd = post.fit
+    ? `## Who Iro is for\n\n- **For:** ${stripTags(post.fit.forWho)}\n- **What it fixes:** ${stripTags(post.fit.fixes)}\n- **Not a fit if:** ${stripTags(post.fit.notFit)}\n\n`
+    : '';
   return `---
 title: "${post.title}"
 canonical_url: "${url}"
@@ -1167,7 +1177,7 @@ pillar: "${post.pillar || ''}"
 **Reading time:** ~${post.readingTime} min
 **Author:** ${cfg.blogAuthor.name} — ${cfg.blogAuthor.jobTitle}
 
-${takeawaysMd}${sections}
+${takeawaysMd}${fitMd}${sections}
 
 ## FAQ
 

@@ -13,6 +13,11 @@
     "Iro also generates a path on any topic, so if that feature is what attracts you, compare the two directly rather than assuming only one has it.",
     "Both gamify, differently. Wondering has streaks including a friend streak we do not have; Iro adds XP, ranks, timed duels and an evolving mascot."
   ],
+  "fit": {
+    "forWho": "People whose goal is to get good at using AI specifically, and who want their own prompts marked rather than reading a lesson.",
+    "fixes": "Reading about prompting without getting better at it. Iro grades the prompts you write and goes deeper than an overview on prompting and agents.",
+    "notFit": "your curiosity is broad and you want one app for many subjects, with AI as only one of them."
+  },
   "description": "An honest comparison of Iro AI and Wondering: what each is built for, where Wondering's any-topic personalisation wins, and where graded practice matters more.",
   "disclosure": true,
   "askAi": true,
@@ -26,7 +31,7 @@
     "AI learning app comparison"
   ],
   "datePublished": "2026-08-14",
-  "dateModified": "2026-08-14",
+  "dateModified": "2026-11-06",
   "readingTime": 7,
   "articleSection": "AI fluency",
   "feedCategory": "AI fluency",
