@@ -1591,6 +1591,31 @@
         "Education",
         "Teaching"
       ]
+    },
+    {
+      "id": "https://tryiro.com/blog/claude-fable-5-2",
+      "url": "https://tryiro.com/blog/claude-fable-5-2",
+      "title": "Claude Fable 5.2: what's new, what it costs, and whether you can use it",
+      "summary": "Anthropic released Claude Fable 5.2 on 9 November 2026, alongside a restricted twin called Mythos 5.2. It is faster and 20% cheaper on the API than Fable 5.1, it trips its safety filters far less often, and Pro subscribers can try it at no extra cost until 16 November. Here is what changed, what the benchmarks do and don't show, and when it's worth picking over the default model.",
+      "date_published": "2026-11-10T00:00:00Z",
+      "tags": [
+        "AI tools",
+        "Claude",
+        "AI models"
+      ]
+    },
+    {
+      "id": "https://tryiro.com/blog/personal-ai-agents-compared",
+      "url": "https://tryiro.com/blog/personal-ai-agents-compared",
+      "title": "Personal AI agents compared: Instinct, Muse, Grok Bot, Claude Duet and ChatGPT dots",
+      "summary": "In three months, five companies launched AI agents that work for you in the background: Instinct, Meta's Muse, SpaceXAI's Grok Bot, Anthropic's Claude Duet and OpenAI's ChatGPT dots. They all promise to take errands off your plate. They differ a lot in who can get them, what they cost, how you talk to them and how carefully they ask before acting. Here is the side-by-side, from each company's own pages.",
+      "date_published": "2026-11-10T00:00:00Z",
+      "tags": [
+        "AI agents",
+        "AI tools",
+        "ChatGPT",
+        "Claude"
+      ]
     }
   ]
 }

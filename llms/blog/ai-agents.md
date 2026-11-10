@@ -4,7 +4,7 @@ canonical_url: "https://tryiro.com/blog/ai-agents"
 site: "Iro AI"
 site_url: "https://tryiro.com"
 language: en-US
-last_updated: "2026-10-23"
+last_updated: "2026-11-10"
 keywords: ["AI agents", "LLM agents", "AI automation", "agentic workflows", "when to use AI agents"]
 author: "Iro AI"
 license: "© 2026 Iro AI"
@@ -16,7 +16,7 @@ type: "content-pillar"
 > A clear-eyed guide to AI agents and automation — what an agent actually is, when it beats a simple workflow, and how to design one that does not break.
 
 **Canonical:** https://tryiro.com/blog/ai-agents
-**Last updated:** 2026-10-23
+**Last updated:** 2026-11-10
 
 No category in AI is more hyped — or more misunderstood — than agents. Strip away the marketing and an agent is something simple: a loop that lets a model decide its own next step, using tools, until a goal is met.
 
@@ -34,3 +34,4 @@ You do not need to be an engineer to follow it. The same judgment applies whethe
 - [Grok Bot: what SpaceXAI's always-on AI agents actually do](https://tryiro.com/blog/grok-bot) — Grok Bot, SpaceXAI's always-on AI agents, explained: what each Bot does, how it differs from a chatbot, which subscriptions include the beta, what it costs.
 - [Claude Duet: what Anthropic's background agent does, and what to check first](https://tryiro.com/blog/claude-duet) — Claude Duet explained: what Anthropic's background agent does, who can join the waitlist, how its approvals work, and what to check before connecting apps.
 - [GPT-6 Pro parallel agents: what they are, who gets them, and when they help](https://tryiro.com/blog/gpt-6-pro-parallel-agents) — GPT-6 Pro's parallel agents explained: what OpenAI shipped on 16 October 2026, which ChatGPT plans get it, and when splitting a task helps or backfires.
+- [Personal AI agents compared: Instinct, Muse, Grok Bot, Claude Duet and ChatGPT dots](https://tryiro.com/blog/personal-ai-agents-compared) — Instinct vs Meta Muse vs Grok Bot vs Claude Duet vs ChatGPT dots: who can get each personal AI agent, what it costs, how it asks before acting, and which fits.
