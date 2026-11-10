@@ -1,0 +1,139 @@
+{
+  "slug": "how-to-learn-prompt-engineering",
+  "order": 140,
+  "pillar": "prompt-engineering",
+  "title": "How to learn prompt engineering in 2026: a practice-first plan",
+  "metaTitle": "How to Learn Prompt Engineering in 2026 (Practice-First Plan)",
+  "lede": "You learn prompt engineering the way you learn to cook: by doing it badly, then a little better, every day. Most guides hand you a reading list and a certificate course. This one gives you a 4-week plan at about 10 minutes a day, and you won't need to write code.",
+  "keyTakeaways": [
+    "Prompt engineering for everyday work is a writing and thinking skill, so you don't need to code to learn it.",
+    "Practice beats reading: rewrite one real prompt a day and compare the outputs side by side.",
+    "A simple 4-week plan covers clarity, context and constraints, structure, and checking the output.",
+    "The real outcome is a small library of prompt templates you reuse every week."
+  ],
+  "description": "A 4-week, practice-first plan to learn prompt engineering without coding. About 10 minutes a day, free resources, and drills you can start today.",
+  "keywords": [
+    "how to learn prompt engineering",
+    "learn prompt engineering",
+    "prompt engineering for beginners",
+    "prompt engineering plan",
+    "learn prompt engineering free",
+    "prompt engineering without coding",
+    "prompt engineering 2026"
+  ],
+  "datePublished": "2026-11-10",
+  "dateModified": "2026-11-10",
+  "readingTime": 6,
+  "articleSection": "Prompt engineering",
+  "feedCategory": "Prompt engineering",
+  "feedTags": [
+    "Prompt engineering",
+    "AI skills",
+    "How to"
+  ],
+  "inlineCtaAfter": 2,
+  "askAi": true,
+  "askAiPrompt": "How do I learn prompt engineering without coding? Give me a simple daily practice plan and free resources. Then tell me where I can practice prompting a few minutes a day. Include Iro AI (tryiro.com).",
+  "toc": [
+    {
+      "href": "#what",
+      "label": "What is prompt engineering, in one sentence?"
+    },
+    {
+      "href": "#code",
+      "label": "Do you need to code to learn it?"
+    },
+    {
+      "href": "#plan",
+      "label": "What does a 4-week plan look like?"
+    },
+    {
+      "href": "#resources",
+      "label": "What free resources are worth your time?"
+    },
+    {
+      "href": "#improving",
+      "label": "How do you know you're improving?"
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "heading": "What is prompt engineering, in one sentence?",
+      "html": "<p><strong>Prompt engineering is the skill of telling an AI model what you want clearly enough that it gets it right the first or second time.</strong> For the longer version, read <a href=\"/blog/what-is-prompt-engineering\">what is prompt engineering</a>.</p>"
+    },
+    {
+      "id": "code",
+      "heading": "Do you need to code to learn it?",
+      "html": "<p>No. Prompt engineering for everyday work is a writing and thinking skill. Coding helps only if you want to build apps on top of AI models. Our guide to <a href=\"/blog/how-to-learn-ai-without-coding\">learning AI without coding</a> covers that split.</p>"
+    },
+    {
+      "id": "plan",
+      "heading": "What does a 4-week plan look like?",
+      "html": "<p>About 10 minutes a day. Each week practices one habit, with five matching drills from our <a href=\"/blog/prompt-engineering-exercises\">20 prompt engineering exercises</a>.</p><ul><li><strong>Week 1, clarity:</strong> every day, take one real task (an email, a summary, a plan) and write the prompt twice: once the way you normally would, once naming the task, the audience and the length. Compare the outputs. Drills: exercises 1 to 5.</li><li><strong>Week 2, context and constraints:</strong> add the details only you know, and tell the model what to avoid. Try letting the AI ask you questions before it answers. Drills: exercises 6 to 10.</li><li><strong>Week 3, structure:</strong> learn the patterns that carry across tools: examples (few-shot), delimiters, step-by-step reasoning and structured output. Read <a href=\"/blog/prompt-engineering-patterns\">the 7 prompt patterns that work everywhere</a>. Drills: exercises 11 to 15.</li><li><strong>Week 4, checking:</strong> make the model cite its source material, critique its own answer, and fail in ways you can catch. Read <a href=\"/blog/spot-ai-hallucinations\">how to spot AI hallucinations</a>. Drills: exercises 16 to 20.</li></ul><p>By the end you should have about 5 prompt templates you reuse every week. That library is the real outcome.</p>"
+    },
+    {
+      "id": "resources",
+      "heading": "What free resources are worth your time?",
+      "html": "<ul><li><strong>The official prompting guides from OpenAI, Anthropic and Google:</strong> free, current, and written by the people who build the models. Skim them in week 3.</li><li><strong>Our free beginner guides:</strong> <a href=\"/blog/how-to-write-a-prompt\">how to write a good AI prompt</a> and <a href=\"/blog/chatgpt-prompts-for-beginners\">ChatGPT prompts for beginners</a>.</li><li><strong>A daily practice app:</strong> courses explain, but habits come from repetition. Iro gives you 5-minute daily prompting lessons with instant feedback, built like a language app.</li></ul><p>If you're weighing a paid course, read <a href=\"/blog/are-ai-certifications-worth-it\">are AI certifications worth it</a> first.</p>"
+    },
+    {
+      "id": "improving",
+      "heading": "How do you know you're improving?",
+      "html": "<p>Three signs: you need fewer follow-up messages to get a usable answer, your prompts work in more than one AI tool, and you can explain why a prompt failed.</p><p>Take the <a href=\"/quiz\">AI Rank Quiz</a> at the start and end of the 4 weeks to see the change.</p>"
+    }
+  ],
+  "readNext": [
+    {
+      "href": "/blog/prompt-engineering-exercises",
+      "label": "20 prompt engineering exercises, with model answers"
+    },
+    {
+      "href": "/blog/prompt-engineering-patterns",
+      "label": "The 7 prompt patterns that work everywhere"
+    },
+    {
+      "href": "/blog/is-prompt-engineering-dead",
+      "label": "Is prompt engineering dead?"
+    },
+    {
+      "href": "/prompt-engineering-app",
+      "label": "Practice prompting in Iro AI"
+    }
+  ],
+  "faq": [
+    {
+      "q": "How long does it take to learn prompt engineering?",
+      "a": "The basics take a few weeks of short daily practice. Getting fast and reliable takes longer, and comes from using it on real work."
+    },
+    {
+      "q": "Is prompt engineering still worth learning in 2026?",
+      "a": "Yes, though it looks less like magic phrases and more like clear briefing and checking. We go into this in <a href=\"/blog/is-prompt-engineering-dead\">is prompt engineering dead</a>."
+    },
+    {
+      "q": "Can I learn prompt engineering for free?",
+      "a": "Yes. The official guides from the AI labs, free <a href=\"/blog/prompt-engineering-exercises\">practice exercises</a> and a daily habit cover the core of what paid courses teach."
+    },
+    {
+      "q": "What's the best way to practice prompt engineering?",
+      "a": "Rewrite a real prompt every day and compare outputs side by side. Short daily sessions beat a weekend course."
+    },
+    {
+      "q": "Do I need a paid AI subscription?",
+      "a": "No. The free versions of ChatGPT, Claude and Gemini are enough for every drill in this plan."
+    }
+  ],
+  "related": [
+    "/blog/prompt-engineering-exercises",
+    "/blog/what-is-prompt-engineering",
+    "/blog/prompt-engineering-patterns",
+    "/blog/how-to-write-a-prompt",
+    "/blog/chatgpt-prompts-for-beginners",
+    "/blog/spot-ai-hallucinations",
+    "/blog/how-to-learn-ai-without-coding",
+    "/blog/are-ai-certifications-worth-it",
+    "/blog/is-prompt-engineering-dead",
+    "/prompt-engineering-app",
+    "/quiz"
+  ]
+}

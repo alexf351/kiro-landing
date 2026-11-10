@@ -28,4 +28,28 @@
       <news:keywords>personal AI agents, best personal AI agent, personal AI agent comparison, Meta Muse vs ChatGPT dots, Claude Duet vs ChatGPT dots, Instinct AI agent, Grok Bot vs Claude Duet, AI agent that does errands</news:keywords>
     </news:news>
   </url>
+  <url>
+    <loc>https://tryiro.com/blog/prompt-engineering-exercises</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Iro AI</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-10T00:00:00Z</news:publication_date>
+      <news:title>20 prompt engineering exercises, with model answers</news:title>
+      <news:keywords>prompt engineering exercises, prompt engineering practice, prompt writing exercises, prompt engineering examples, prompt engineering for beginners, practice prompting, prompt engineering drills</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://tryiro.com/blog/how-to-learn-prompt-engineering</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Iro AI</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-10T00:00:00Z</news:publication_date>
+      <news:title>How to learn prompt engineering in 2026: a practice-first plan</news:title>
+      <news:keywords>how to learn prompt engineering, learn prompt engineering, prompt engineering for beginners, prompt engineering plan, learn prompt engineering free, prompt engineering without coding, prompt engineering 2026</news:keywords>
+    </news:news>
+  </url>
 </urlset>

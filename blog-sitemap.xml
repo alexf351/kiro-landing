@@ -23,7 +23,7 @@
   </url>
   <url>
     <loc>https://tryiro.com/blog/prompt-engineering</loc>
-    <lastmod>2026-10-27</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.88</priority>
     <image:image>
@@ -1429,6 +1429,26 @@
     <image:image>
       <image:loc>https://tryiro.com/assets/og/personal-ai-agents-compared.png</image:loc>
       <image:title>Personal AI agents compared: Instinct, Muse, Grok Bot, Claude Duet and ChatGPT dots</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://tryiro.com/blog/prompt-engineering-exercises</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://tryiro.com/assets/og/prompt-engineering-exercises.png</image:loc>
+      <image:title>20 prompt engineering exercises, with model answers</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://tryiro.com/blog/how-to-learn-prompt-engineering</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://tryiro.com/assets/og/how-to-learn-prompt-engineering.png</image:loc>
+      <image:title>How to learn prompt engineering in 2026: a practice-first plan</image:title>
     </image:image>
   </url>
 </urlset>

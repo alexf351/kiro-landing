@@ -1616,6 +1616,30 @@
         "ChatGPT",
         "Claude"
       ]
+    },
+    {
+      "id": "https://tryiro.com/blog/prompt-engineering-exercises",
+      "url": "https://tryiro.com/blog/prompt-engineering-exercises",
+      "title": "20 prompt engineering exercises, with model answers",
+      "summary": "Reading about prompting doesn't make you good at it. Rewriting bad prompts does. These 20 free exercises each take about five minutes, and every one comes with a weak prompt, a goal and a model answer to compare against.",
+      "date_published": "2026-11-10T00:00:00Z",
+      "tags": [
+        "Prompt engineering",
+        "AI skills",
+        "How to"
+      ]
+    },
+    {
+      "id": "https://tryiro.com/blog/how-to-learn-prompt-engineering",
+      "url": "https://tryiro.com/blog/how-to-learn-prompt-engineering",
+      "title": "How to learn prompt engineering in 2026: a practice-first plan",
+      "summary": "You learn prompt engineering the way you learn to cook: by doing it badly, then a little better, every day. Most guides hand you a reading list and a certificate course. This one gives you a 4-week plan at about 10 minutes a day, and you won't need to write code.",
+      "date_published": "2026-11-10T00:00:00Z",
+      "tags": [
+        "Prompt engineering",
+        "AI skills",
+        "How to"
+      ]
     }
   ]
 }

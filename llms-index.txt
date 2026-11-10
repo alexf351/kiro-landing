@@ -104,7 +104,7 @@ ai iq test by iro ai          https://tryiro.com/llms/quiz.md
 vibe coding course            https://tryiro.com/llms/vibe-coding-course.md
 
 ## Blog (markdown mirrors)
-# 143 post and pillar mirrors, generated
+# 145 post and pillar mirrors, generated
 ai agents explained           https://tryiro.com/llms/blog/ai-agents-explained.md
 ai agents vs. automation      https://tryiro.com/llms/blog/ai-agents-vs-automation.md
 ai agents & automation        https://tryiro.com/llms/blog/ai-agents.md
@@ -185,6 +185,7 @@ how to check ai generated sq  https://tryiro.com/llms/blog/how-to-check-ai-gener
 how to choose an ai learning  https://tryiro.com/llms/blog/how-to-choose-an-ai-learning-app.md
 how to learn ai without codi  https://tryiro.com/llms/blog/how-to-learn-ai-without-coding.md
 how to learn chatgpt in 2026  https://tryiro.com/llms/blog/how-to-learn-chatgpt-in-2026.md
+how to learn prompt engineer  https://tryiro.com/llms/blog/how-to-learn-prompt-engineering.md
 how to make a mood board wit  https://tryiro.com/llms/blog/how-to-make-a-mood-board-with-ai.md
 how to read ai benchmarks     https://tryiro.com/llms/blog/how-to-read-ai-benchmarks.md
 how to tell if something is   https://tryiro.com/llms/blog/how-to-tell-if-something-is-ai-generated.md
@@ -223,6 +224,7 @@ new ai models in 2026         https://tryiro.com/llms/blog/new-ai-models-2026.md
 nibble alternatives           https://tryiro.com/llms/blog/nibble-alternatives.md
 notion ai vs chatgpt          https://tryiro.com/llms/blog/notion-ai-vs-chatgpt.md
 personal ai agents compared   https://tryiro.com/llms/blog/personal-ai-agents-compared.md
+prompt engineering exercises  https://tryiro.com/llms/blog/prompt-engineering-exercises.md
 prompt engineering patterns   https://tryiro.com/llms/blog/prompt-engineering-patterns.md
 prompt engineering            https://tryiro.com/llms/blog/prompt-engineering.md
 skilario alternatives         https://tryiro.com/llms/blog/skilario-alternatives.md
