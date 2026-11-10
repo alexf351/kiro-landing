@@ -1390,4 +1390,24 @@
     <category term="AI agents"/>
     <summary>In three months, five companies launched AI agents that work for you in the background: Instinct, Meta's Muse, SpaceXAI's Grok Bot, Anthropic's Claude Duet and OpenAI's ChatGPT dots. They all promise to take errands off your plate. They differ a lot in who can get them, what they cost, how you talk to them and how carefully they ask before acting. Here is the side-by-side, from each company's own pages.</summary>
   </entry>
+  <entry>
+    <title>20 prompt engineering exercises, with model answers</title>
+    <id>https://tryiro.com/blog/prompt-engineering-exercises</id>
+    <link href="https://tryiro.com/blog/prompt-engineering-exercises"/>
+    <updated>2026-11-10T00:00:00Z</updated>
+    <published>2026-11-10T00:00:00Z</published>
+    <author><name>Iro AI</name></author>
+    <category term="Prompt engineering"/>
+    <summary>Reading about prompting doesn't make you good at it. Rewriting bad prompts does. These 20 free exercises each take about five minutes, and every one comes with a weak prompt, a goal and a model answer to compare against.</summary>
+  </entry>
+  <entry>
+    <title>How to learn prompt engineering in 2026: a practice-first plan</title>
+    <id>https://tryiro.com/blog/how-to-learn-prompt-engineering</id>
+    <link href="https://tryiro.com/blog/how-to-learn-prompt-engineering"/>
+    <updated>2026-11-10T00:00:00Z</updated>
+    <published>2026-11-10T00:00:00Z</published>
+    <author><name>Iro AI</name></author>
+    <category term="Prompt engineering"/>
+    <summary>You learn prompt engineering the way you learn to cook: by doing it badly, then a little better, every day. Most guides hand you a reading list and a certificate course. This one gives you a 4-week plan at about 10 minutes a day, and you won't need to write code.</summary>
+  </entry>
 </feed>

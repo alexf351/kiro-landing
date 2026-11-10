@@ -1259,5 +1259,23 @@
       <category>AI agents</category>
       <description>Instinct vs Meta Muse vs Grok Bot vs Claude Duet vs ChatGPT dots: who can get each personal AI agent, what it costs, how it asks before acting, and which fits.</description>
     </item>
+    <item>
+      <title>20 prompt engineering exercises, with model answers</title>
+      <link>https://tryiro.com/blog/prompt-engineering-exercises</link>
+      <guid isPermaLink="true">https://tryiro.com/blog/prompt-engineering-exercises</guid>
+      <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Iro AI</dc:creator>
+      <category>Prompt engineering</category>
+      <description>Free prompt engineering exercises for beginners and up. Each drill has a weak prompt, a goal and a model answer, so you can practice in 5 minutes a day.</description>
+    </item>
+    <item>
+      <title>How to learn prompt engineering in 2026: a practice-first plan</title>
+      <link>https://tryiro.com/blog/how-to-learn-prompt-engineering</link>
+      <guid isPermaLink="true">https://tryiro.com/blog/how-to-learn-prompt-engineering</guid>
+      <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Iro AI</dc:creator>
+      <category>Prompt engineering</category>
+      <description>A 4-week, practice-first plan to learn prompt engineering without coding. About 10 minutes a day, free resources, and drills you can start today.</description>
+    </item>
   </channel>
 </rss>

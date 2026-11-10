@@ -1613,6 +1613,14 @@
     {
       "source": "/blog/personal-ai-agents-compared",
       "destination": "/blog/personal-ai-agents-compared.html"
+    },
+    {
+      "source": "/blog/prompt-engineering-exercises",
+      "destination": "/blog/prompt-engineering-exercises.html"
+    },
+    {
+      "source": "/blog/how-to-learn-prompt-engineering",
+      "destination": "/blog/how-to-learn-prompt-engineering.html"
     }
   ]
 }
