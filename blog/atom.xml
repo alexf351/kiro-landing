@@ -5,7 +5,7 @@
   <link rel="self" href="https://tryiro.com/blog/atom.xml" type="application/atom+xml"/>
   <link rel="alternate" href="https://tryiro.com/blog" type="text/html"/>
   <id>https://tryiro.com/blog/atom.xml</id>
-  <updated>2026-11-06T00:00:00Z</updated>
+  <updated>2026-11-10T00:00:00Z</updated>
   <rights>© 2026 Iro AI</rights>
   <author><name>Iro AI</name><uri>https://tryiro.com</uri></author>
   <icon>https://tryiro.com/assets/favicon-64.png</icon>
@@ -1369,5 +1369,25 @@
     <author><name>Iro AI</name></author>
     <category term="AI fluency"/>
     <summary>Most "AI apps for teachers" lists are about AI that writes your lesson plans. This one is about teaching students to use AI well, and the free curricula that already do it.</summary>
+  </entry>
+  <entry>
+    <title>Claude Fable 5.2: what's new, what it costs, and whether you can use it</title>
+    <id>https://tryiro.com/blog/claude-fable-5-2</id>
+    <link href="https://tryiro.com/blog/claude-fable-5-2"/>
+    <updated>2026-11-10T00:00:00Z</updated>
+    <published>2026-11-10T00:00:00Z</published>
+    <author><name>Iro AI</name></author>
+    <category term="AI tools"/>
+    <summary>Anthropic released Claude Fable 5.2 on 9 November 2026, alongside a restricted twin called Mythos 5.2. It is faster and 20% cheaper on the API than Fable 5.1, it trips its safety filters far less often, and Pro subscribers can try it at no extra cost until 16 November. Here is what changed, what the benchmarks do and don't show, and when it's worth picking over the default model.</summary>
+  </entry>
+  <entry>
+    <title>Personal AI agents compared: Instinct, Muse, Grok Bot, Claude Duet and ChatGPT dots</title>
+    <id>https://tryiro.com/blog/personal-ai-agents-compared</id>
+    <link href="https://tryiro.com/blog/personal-ai-agents-compared"/>
+    <updated>2026-11-10T00:00:00Z</updated>
+    <published>2026-11-10T00:00:00Z</published>
+    <author><name>Iro AI</name></author>
+    <category term="AI agents"/>
+    <summary>In three months, five companies launched AI agents that work for you in the background: Instinct, Meta's Muse, SpaceXAI's Grok Bot, Anthropic's Claude Duet and OpenAI's ChatGPT dots. They all promise to take errands off your plate. They differ a lot in who can get them, what they cost, how you talk to them and how carefully they ask before acting. Here is the side-by-side, from each company's own pages.</summary>
   </entry>
 </feed>

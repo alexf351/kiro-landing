@@ -9,7 +9,7 @@
     <description>Short, practical writing on AI fluency, prompting, AI tools, and the active-practice method that beats endless video courses.</description>
     <language>en-US</language>
     <atom:link href="https://tryiro.com/blog/rss.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Fri, 06 Nov 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 10 Nov 2026 00:00:00 GMT</lastBuildDate>
     <generator>tryiro.com</generator>
     <copyright>© 2026 Iro AI</copyright>
     <image>
@@ -1240,6 +1240,24 @@
       <dc:creator>Iro AI</dc:creator>
       <category>AI fluency</category>
       <description>The best AI literacy apps and curricula for teachers in 2026: Code.org, Day of AI, Experience AI, Common Sense and Iro's kit, by grade, format and cost.</description>
+    </item>
+    <item>
+      <title>Claude Fable 5.2: what's new, what it costs, and whether you can use it</title>
+      <link>https://tryiro.com/blog/claude-fable-5-2</link>
+      <guid isPermaLink="true">https://tryiro.com/blog/claude-fable-5-2</guid>
+      <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Iro AI</dc:creator>
+      <category>AI tools</category>
+      <description>Claude Fable 5.2 explained: the 9 November 2026 release, API price cut, Pro launch offer, benchmarks vs GPT-6 Astra, and when to pick it over the default.</description>
+    </item>
+    <item>
+      <title>Personal AI agents compared: Instinct, Muse, Grok Bot, Claude Duet and ChatGPT dots</title>
+      <link>https://tryiro.com/blog/personal-ai-agents-compared</link>
+      <guid isPermaLink="true">https://tryiro.com/blog/personal-ai-agents-compared</guid>
+      <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Iro AI</dc:creator>
+      <category>AI agents</category>
+      <description>Instinct vs Meta Muse vs Grok Bot vs Claude Duet vs ChatGPT dots: who can get each personal AI agent, what it costs, how it asks before acting, and which fits.</description>
     </item>
   </channel>
 </rss>

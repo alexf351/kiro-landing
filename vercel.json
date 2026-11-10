@@ -1605,6 +1605,14 @@
     {
       "source": "/blog/jobescape-review",
       "destination": "/blog/jobescape-review.html"
+    },
+    {
+      "source": "/blog/claude-fable-5-2",
+      "destination": "/blog/claude-fable-5-2.html"
+    },
+    {
+      "source": "/blog/personal-ai-agents-compared",
+      "destination": "/blog/personal-ai-agents-compared.html"
     }
   ]
 }

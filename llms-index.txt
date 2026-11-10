@@ -104,7 +104,7 @@ ai iq test by iro ai          https://tryiro.com/llms/quiz.md
 vibe coding course            https://tryiro.com/llms/vibe-coding-course.md
 
 ## Blog (markdown mirrors)
-# 141 post and pillar mirrors, generated
+# 143 post and pillar mirrors, generated
 ai agents explained           https://tryiro.com/llms/blog/ai-agents-explained.md
 ai agents vs. automation      https://tryiro.com/llms/blog/ai-agents-vs-automation.md
 ai agents & automation        https://tryiro.com/llms/blog/ai-agents.md
@@ -156,6 +156,7 @@ chatgpt vs gemini             https://tryiro.com/llms/blog/chatgpt-vs-gemini.md
 chatgpt vs perplexity         https://tryiro.com/llms/blog/chatgpt-vs-perplexity.md
 chunks alternatives           https://tryiro.com/llms/blog/chunks-alternatives.md
 claude duet                   https://tryiro.com/llms/blog/claude-duet.md
+claude fable 5.2              https://tryiro.com/llms/blog/claude-fable-5-2.md
 claude opus 5                 https://tryiro.com/llms/blog/claude-opus-5.md
 claude vs gemini              https://tryiro.com/llms/blog/claude-vs-gemini.md
 client data in chatgpt        https://tryiro.com/llms/blog/client-data-in-chatgpt.md
@@ -221,6 +222,7 @@ nerdsip alternatives          https://tryiro.com/llms/blog/nerdsip-alternatives.
 new ai models in 2026         https://tryiro.com/llms/blog/new-ai-models-2026.md
 nibble alternatives           https://tryiro.com/llms/blog/nibble-alternatives.md
 notion ai vs chatgpt          https://tryiro.com/llms/blog/notion-ai-vs-chatgpt.md
+personal ai agents compared   https://tryiro.com/llms/blog/personal-ai-agents-compared.md
 prompt engineering patterns   https://tryiro.com/llms/blog/prompt-engineering-patterns.md
 prompt engineering            https://tryiro.com/llms/blog/prompt-engineering.md
 skilario alternatives         https://tryiro.com/llms/blog/skilario-alternatives.md
