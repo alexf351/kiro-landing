@@ -1738,10 +1738,10 @@ html.is-android .locale-suggest{bottom:12px;top:auto}
           <button class="ia-arrow ia-side" id="iaPrev" aria-label="上一屏"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg></button>
           <div class="ia-stackvp" id="iaStack">
             <div class="device ia-ph" data-slot="-2"><div class="island"></div><div class="screen"><img src="assets/screens/news-refresh.webp" alt="Iro App：每周 AI 新闻简报" loading="lazy" decoding="async" onerror="if(/\.webp$/.test(this.src))this.src=this.src.replace('.webp','.jpg')"/></div><div class="glare"></div></div>
-            <div class="device ia-ph" data-slot="-1"><div class="island"></div><div class="screen"><img src="assets/screens/certificate.webp" alt="Iro App：可分享的 AI 证书，附证书编号" loading="lazy" decoding="async" onerror="if(/\.webp$/.test(this.src))this.src=this.src.replace('.webp','.jpg')"/></div><div class="glare"></div></div>
-            <div class="device ia-ph" data-slot="0"><div class="island"></div><div class="screen"><img src="assets/screens/learning-path.webp" alt="Iro App：每日课程路线，沿途有宝箱和任务" loading="lazy" decoding="async" onerror="if(/\.webp$/.test(this.src))this.src=this.src.replace('.webp','.jpg')"/></div><div class="glare"></div></div>
-            <div class="device ia-ph" data-slot="1"><div class="island"></div><div class="screen"><img src="assets/screens/path-list.webp" alt="Iro App：34 条学习路径，包括 ChatGPT Mastery 和 Claude Mastery" loading="lazy" decoding="async" onerror="if(/\.webp$/.test(this.src))this.src=this.src.replace('.webp','.jpg')"/></div><div class="glare"></div></div>
-            <div class="device ia-ph" data-slot="2"><div class="island"></div><div class="screen"><img src="assets/screens/prompt-builder.webp" alt="Iro App：把每个 AI 工具和它最擅长的事配对" loading="lazy" decoding="async" onerror="if(/\.webp$/.test(this.src))this.src=this.src.replace('.webp','.jpg')"/></div><div class="glare"></div></div>
+            <div class="device ia-ph" data-slot="-1"><div class="island"></div><div class="screen"><img src="assets/screens/zh-hans/certificate.webp" alt="Iro App：可分享的 AI 证书，附证书编号" loading="lazy" decoding="async" onerror="if(/\.webp$/.test(this.src))this.src=this.src.replace('.webp','.jpg')"/></div><div class="glare"></div></div>
+            <div class="device ia-ph" data-slot="0"><div class="island"></div><div class="screen"><img src="assets/screens/zh-hans/learning-path.webp" alt="Iro App：每日课程路线，沿途有宝箱和任务" loading="lazy" decoding="async" onerror="if(/\.webp$/.test(this.src))this.src=this.src.replace('.webp','.jpg')"/></div><div class="glare"></div></div>
+            <div class="device ia-ph" data-slot="1"><div class="island"></div><div class="screen"><img src="assets/screens/zh-hans/path-list.webp" alt="Iro App：34 条学习路径，包括 ChatGPT Mastery 和 Claude Mastery" loading="lazy" decoding="async" onerror="if(/\.webp$/.test(this.src))this.src=this.src.replace('.webp','.jpg')"/></div><div class="glare"></div></div>
+            <div class="device ia-ph" data-slot="2"><div class="island"></div><div class="screen"><img src="assets/screens/zh-hans/prompt-builder.webp" alt="Iro App：把每个 AI 工具和它最擅长的事配对" loading="lazy" decoding="async" onerror="if(/\.webp$/.test(this.src))this.src=this.src.replace('.webp','.jpg')"/></div><div class="glare"></div></div>
           </div>
           <button class="ia-arrow ia-side" id="iaNext" aria-label="下一屏"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18l6-6-6-6"/></svg></button>
         </div>
@@ -2766,28 +2766,28 @@ var RANK_TIERS = {
      centre, and whichever phone lands in the hidden staging slot picks up the
      next screenshot. */
   var SCREENS = [
-    { img:'assets/screens/learning-path.webp', t:'学习',        h:'像玩游戏一样学 AI',       tag:'每日地图',
+    { img:'assets/screens/zh-hans/learning-path.webp', t:'学习',        h:'像玩游戏一样学 AI',       tag:'每日地图',
       d:'课程沿着多邻国式的路线蜿蜒前进，下一步永远清清楚楚，沿途还有宝箱和挑战。',
       b:['每天都有清晰的下一节课','沿途有宝箱、每日任务和新闻','单元从核心技能逐步进阶到 AI 实战应用'] },
-    { img:'assets/screens/path-list.webp', t:'工具精通', h:'精通 ChatGPT 和 Claude',  tag:'34 条路径',
+    { img:'assets/screens/zh-hans/path-list.webp', t:'工具精通', h:'精通 ChatGPT 和 Claude',  tag:'34 条路径',
       d:'34 条引导路径，覆盖核心 AI 技能和工具精通。选一条，看着进度条一点点填满。',
       b:['精通 ChatGPT、Claude、Gemini、Perplexity','核心技能：基础、提示词、智能体','每条路径都有进度条'] },
-    { img:'assets/screens/prompt-builder.webp', t:'练习',     h:'5 分钟实战练习',      tag:'动手实操',
+    { img:'assets/screens/zh-hans/prompt-builder.webp', t:'练习',     h:'5 分钟实战练习',      tag:'动手实操',
       d:'把每个 AI 工具和它真正最擅长的事配对，然后核对答案。',
       b:['把 ChatGPT、Claude、Gemini 和 Perplexity 与各自的真实强项配对','在需要之前，就知道该用哪个工具','即时判分，你的连胜就押在这一题上'] },
-    { img:'assets/screens/ask-iro.webp', t:'教练',        h:'问 Iro 下一步做什么',    tag:'AI 教练',
+    { img:'assets/screens/zh-hans/ask-iro.webp', t:'教练',        h:'问 Iro 下一步做什么',    tag:'AI 教练',
       d:'Iro 会把答案画成图表、上网搜索、记住你说过的话，还能就任何主题考考你。',
       b:['“考考我上下文窗口”','图表、表格和时间线，直接在 App 里画出来','记得你上次说过的话'] },
-    { img:'assets/screens/create-path.webp', t:'创建',       h:'创建任何 AI 路径',         tag:'自定义路径',
+    { img:'assets/screens/zh-hans/create-path.webp', t:'创建',       h:'创建任何 AI 路径',         tag:'自定义路径',
       d:'输入任何目标，Iro 几秒钟就能生成一条自定义路径，包含课程、测验和总结。',
       b:['“学习职场 AI” &rarr; 一条完整路径','面试、智能体、金融，什么都行','其他学员创建的社区路径'] },
     { img:'assets/screens/image-lab.webp', t:'Image Lab',   h:'写下提示词，马上看到图。',          tag:'图像提示词',
       d:'写一段提示词，生成图像，再修改提示词，看看画面怎么变。',
       b:['从空白画布或你自己的照片开始','Ask Iro 点评你的提示词，告诉你该改哪里','Iro Pro 功能，每天最多 10 张图'] },
-    { img:'assets/screens/operator-build.webp', t:'Operator',     h:'打造你的 AI Operator',     tag:'技能档案',
+    { img:'assets/screens/zh-hans/operator-build.webp', t:'Operator',     h:'打造你的 AI Operator',     tag:'技能档案',
       d:'六大技能领域各按 100 分计分，汇总成你的 Operator Build 和战力等级。',
       b:['战略、调研、提示词、执行&hellip;','标出你的最强项和短板','明确告诉你下一步该练什么'] },
-    { img:'assets/screens/duels-tab.webp', t:'对战',        h:'赢下限时 AI 对战', tag:'AI 对战 \u00b7 PRO',
+    { img:'assets/screens/zh-hans/duels-tab.webp', t:'对战',        h:'赢下限时 AI 对战', tag:'AI 对战 \u00b7 PRO',
       d:'五道题，每题十五秒，对手与你的积分水平相当。',
       b:['按水平匹配对手','每赢一场 +25 XP，每周竞技场挑战','积分走势图记录你的上升之路'] },
     { img:'assets/screens/news-refresh.webp', t:'AI 新闻',      h:'紧跟 AI 新闻',  tag:'每周',
@@ -2796,7 +2796,7 @@ var RANK_TIERS = {
     { img:'assets/screens/rank-up.webp', t:'升段',      h:'提升段位，让 Iro 进化',     tag:'进化',
       d:'每升到一个新段位，Iro 就会进化，一路进化到钻石段位和大法师 Iro。',
       b:['每个段位都有新形态','值得一路追下去的进化揭晓','分享你的进化卡片'] },
-    { img:'assets/screens/certificate.webp', t:'证书', h:'赢得 AI 证书',       tag:'资质证明',
+    { img:'assets/screens/zh-hans/certificate.webp', t:'证书', h:'赢得 AI 证书',       tag:'资质证明',
       d:'完成一条路径，就能获得带专属证书编号的证书。用 Pro 以你的名字认领，并发布到 LinkedIn。',
       b:['34 条路径，每条都有证书','每张证书都有唯一的证书编号','完成路径即可免费获得；用 Pro 以你的名字认领','一键添加到你的 LinkedIn 个人资料'] }
   ];

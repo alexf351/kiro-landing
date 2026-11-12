@@ -10,7 +10,10 @@
 # status bar over each shot, then imports them into assets/screens/<locale>/
 # (English replaces assets/screens/*) and regenerates the locale homepages.
 # Needs a Chromium for playwright-core at the path capture.js names (Claude Code
-# cloud sessions have it); Python 3 with Pillow; Node. Check Pillow with
+# cloud sessions have it); Python 3 with Pillow; Node. The Kiro-App checkout must
+# include the dev web SafeAreaProvider in app/_layout.tsx (branch
+# claude/capture-web-safe-area, Nov 12 2026): without it, Expo SDK 58 gives web
+# screens zero insets and the status bar lands on top of every header. Check Pillow with
 # `python3 -c "from PIL import Image"`: in some cloud images python3 is 3.11
 # while the system Pillow is built for another version, and only importing
 # Image shows it (fix: python3 -m pip install --user --ignore-installed Pillow).
