@@ -62,6 +62,12 @@ As of the 8.12 upload the current set is `learning-path`, `prompt-builder`
 and `image-lab`. The older `node-map`, `prompt-lab`, `duel-victory` and
 `skill-tree` shots are superseded by those and should not be used.
 
+**Localized shots:** a locale homepage shows `assets/screens/<locale>/<name>.webp`
+(+ `.jpg`) instead of the English shot when both files exist there; the swap
+happens in `blog-engine/build-i18n.mjs`. Import raw captures (named with the
+app's screenshot-panel labels like `de-01-learn.png`, or `<locale>-<name>`) with
+`python3 blog-engine/import-app-screens.py <folder>`, then run the generator.
+
 OG/Twitter meta images use the absolute URL `https://www.tryiro.com/assets/...` for social preview cards.
 
 ## Design Context
