@@ -522,13 +522,22 @@
     "zh-hans": "测测你的 AI 段位"
    },
    "rating": {
-    "en": "<b>4.7</b> from 46 App Store ratings",
-    "es": "<b>4,7</b> con 46 valoraciones en el App Store",
-    "fr": "<b>4,7</b> sur 46 notes dans l’App Store",
-    "de": "<b>4,7</b> aus 46 Bewertungen im App Store",
-    "pt-br": "<b>4,7</b> com 46 avaliações na App Store",
-    "it": "<b>4,7</b> su 46 valutazioni sull’App Store",
-    "zh-hans": "App Store 评分 <b>4.7</b>（46 个评分）"
+    "en": "<b>4.6</b> stars from 85 reviews",
+    "es": "<b>4,6</b> estrellas con 85 reseñas",
+    "fr": "<b>4,6</b> étoiles sur 85 avis",
+    "de": "<b>4,6</b> Sterne aus 85 Bewertungen",
+    "pt-br": "<b>4,6</b> estrelas com 85 avaliações",
+    "it": "<b>4,6</b> stelle su 85 recensioni",
+    "zh-hans": "<b>4.6</b> 星，来自 85 条评价"
+   },
+   "learners": {
+    "en": "<b>1,500+</b> learners",
+    "es": "<b>+1.500</b> estudiantes",
+    "fr": "<b>1 500+</b> apprenants",
+    "de": "<b>1.500+</b> Lernende",
+    "pt-br": "<b>+1.500</b> alunos",
+    "it": "<b>Oltre 1.500</b> studenti",
+    "zh-hans": "<b>1,500+</b> 位学习者"
    },
    "exercises": {
     "en": "<b>3,000+</b> hands-on exercises",
@@ -1205,22 +1214,22 @@
     "zh-hans": "每天一节短课、实用的提示词，再加上看得见的进步，让 AI 不再让人望而生畏。评价译自英文。"
    },
    "ratingLabel": {
-    "en": "4.7 out of 5 from 46 App Store ratings",
-    "es": "4,7 sobre 5 con 46 valoraciones en el App Store",
-    "fr": "4,7 sur 5 d’après 46 notes dans l’App Store",
-    "de": "4,7 von 5 aus 46 Bewertungen im App Store",
-    "pt-br": "4,7 de 5 com 46 avaliações na App Store",
-    "it": "4,7 su 5 da 46 valutazioni sull’App Store",
-    "zh-hans": "App Store 46 个评分，平均 4.7 分（满分 5 分）"
+    "en": "4.6 out of 5 from 85 App Store reviews",
+    "es": "4,6 sobre 5 con 85 reseñas en el App Store",
+    "fr": "4,6 sur 5 d’après 85 avis dans l’App Store",
+    "de": "4,6 von 5 aus 85 Bewertungen im App Store",
+    "pt-br": "4,6 de 5 com 85 avaliações na App Store",
+    "it": "4,6 su 5 da 85 recensioni sull’App Store",
+    "zh-hans": "App Store 85 条评价，平均 4.6 分（满分 5 分）"
    },
    "avg": {
-    "en": "Average of 46 ratings",
-    "es": "Media de 46 valoraciones",
-    "fr": "Moyenne de 46 notes",
-    "de": "Schnitt aus 46 Bewertungen",
-    "pt-br": "Média de 46 avaliações",
-    "it": "Media di 46 valutazioni",
-    "zh-hans": "46 个评分的平均分"
+    "en": "Average of 85 reviews",
+    "es": "Media de 85 reseñas",
+    "fr": "Moyenne de 85 avis",
+    "de": "Schnitt aus 85 Bewertungen",
+    "pt-br": "Média de 85 avaliações",
+    "it": "Media di 85 recensioni",
+    "zh-hans": "85 条评价的平均分"
    },
    "r1": {
     "en": "&ldquo;I thought I already understood how to utilize AI tools, but this made me realize I was leaving a lot on the table. Iro taught me how to use AI more effectively for both work and personal use.&rdquo;",
