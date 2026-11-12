@@ -10,7 +10,10 @@
 # status bar over each shot, then imports them into assets/screens/<locale>/
 # (English replaces assets/screens/*) and regenerates the locale homepages.
 # Needs a Chromium for playwright-core at the path capture.js names (Claude Code
-# cloud sessions have it); Python 3 with Pillow; Node.
+# cloud sessions have it); Python 3 with Pillow; Node. Check Pillow with
+# `python3 -c "from PIL import Image"`: in some cloud images python3 is 3.11
+# while the system Pillow is built for another version, and only importing
+# Image shows it (fix: python3 -m pip install --user --ignore-installed Pillow).
 #
 # Site file  <- app scene
 #   learning-path   learn            path-list     tools
@@ -48,11 +51,16 @@ for L in $LANGS; do
 const src=require('fs').readFileSync('$APP/app/dev-image-match.tsx','utf8');
 const m=src.match(new RegExp('\\\\n  $L: \\\\{[\\\\s\\\\S]*?rights: \\\\[([\\\\s\\\\S]*?)\\\\]'));
 const rights=[...m[1].matchAll(/'([^']+)'/g)].map(x=>x[1]);
-process.stdout.write(JSON.stringify({'prompt-builder':['Claude',rights[1],'Perplexity',rights[2]]}));")
+process.stdout.write(JSON.stringify({'prompt-builder':['Claude',rights[1],'Perplexity',rights[2]],'ask-iro':['Ask Iro']}));")
   S="/dev-screenshots?locale=$L&scene="
+  # The operator scene is captured as "progress" because capture.js hides the
+  # signed-out "save your progress" banner only under that name; it becomes
+  # operator-build.png below. Tapping the "Ask Iro" title moves focus off the
+  # sheet's first button, which headless Chrome otherwise draws a focus ring on.
   STATUSBAR=0 SEED="$SEED" TAPS="$TAPS" timeout 900 node "$APP/scripts/i18n/intro-shots/capture.js" "$OUT/$L" "$L" \
     "learning-path=${S}learn" "path-list=${S}tools" "prompt-builder=/dev-image-match" "create-path=${S}custom" \
-    "operator-build=${S}operator" "duels-tab=${S}duels" "ask-iro=${S}coach" "certificate=${S}certificates"
+    "progress=${S}operator" "duels-tab=${S}duels" "ask-iro=${S}coach" "certificate=${S}certificates"
+  mv "$OUT/$L/progress.png" "$OUT/$L/operator-build.png"
 done
 
 # 4. the real iOS status bar over each shot (the mask is drawn for 1290 px wide)
