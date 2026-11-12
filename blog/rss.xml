@@ -9,7 +9,7 @@
     <description>Short, practical writing on AI fluency, prompting, AI tools, and the active-practice method that beats endless video courses.</description>
     <language>en-US</language>
     <atom:link href="https://tryiro.com/blog/rss.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Tue, 10 Nov 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 12 Nov 2026 00:00:00 GMT</lastBuildDate>
     <generator>tryiro.com</generator>
     <copyright>© 2026 Iro AI</copyright>
     <image>
@@ -1276,6 +1276,15 @@
       <dc:creator>Iro AI</dc:creator>
       <category>Prompt engineering</category>
       <description>A 4-week, practice-first plan to learn prompt engineering without coding. About 10 minutes a day, free resources, and drills you can start today.</description>
+    </item>
+    <item>
+      <title>The best iPhone apps to learn AI in 2026</title>
+      <link>https://tryiro.com/blog/best-iphone-apps-to-learn-ai</link>
+      <guid isPermaLink="true">https://tryiro.com/blog/best-iphone-apps-to-learn-ai</guid>
+      <pubDate>Thu, 12 Nov 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Iro AI</dc:creator>
+      <category>AI fluency</category>
+      <description>The best iPhone apps to learn AI in 2026, compared by lesson length, hands-on practice and free tier: Iro AI, Learn AI by Sololearn, Synapse, Coursiv and Brilliant.</description>
     </item>
   </channel>
 </rss>

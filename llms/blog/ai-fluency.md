@@ -4,7 +4,7 @@ canonical_url: "https://tryiro.com/blog/ai-fluency"
 site: "Iro AI"
 site_url: "https://tryiro.com"
 language: en-US
-last_updated: "2026-11-06"
+last_updated: "2026-11-12"
 keywords: ["AI fluency", "how to learn AI", "AI skills", "learn AI 2026", "AI for beginners"]
 author: "Iro AI"
 license: "© 2026 Iro AI"
@@ -16,7 +16,7 @@ type: "content-pillar"
 > Build real AI fluency in 2026 — the active-practice method, the free tools worth using, and how to tell when AI is wrong.
 
 **Canonical:** https://tryiro.com/blog/ai-fluency
-**Last updated:** 2026-11-06
+**Last updated:** 2026-11-12
 
 AI fluency is the ability to get reliable, useful results from AI tools — and to know when not to trust them. It is not about memorising magic prompts. It is a skill you build through active practice, the same way you would learn a language or an instrument.
 
@@ -100,3 +100,4 @@ Work through the posts below in order, or jump straight to whichever gap is most
 - [Jobescape review: who runs it, what it costs, and what the refund terms ask of you](https://tryiro.com/blog/jobescape-review) — An honest Jobescape review: who runs it, what it costs on the App Store, how renewals work, and the conditions you must meet before a refund. Read it before you pay.
 - [Cosmo review: CodeSignal's AI tutor app, what it costs, and who it suits](https://tryiro.com/blog/cosmo-review) — An honest Cosmo review: who makes CodeSignal's Cosmo app, how its AI tutor teaches, what Cosmo+ costs, what the terms say, and who it suits best.
 - [The best AI literacy apps and resources for teachers in 2026](https://tryiro.com/blog/best-ai-literacy-resources-for-teachers) — The best AI literacy apps and curricula for teachers in 2026: Code.org, Day of AI, Experience AI, Common Sense and Iro's kit, by grade, format and cost.
+- [The best iPhone apps to learn AI in 2026](https://tryiro.com/blog/best-iphone-apps-to-learn-ai) — The best iPhone apps to learn AI in 2026, compared by lesson length, hands-on practice and free tier: Iro AI, Learn AI by Sololearn, Synapse, Coursiv and Brilliant.
