@@ -67,6 +67,8 @@ and `image-lab`. The older `node-map`, `prompt-lab`, `duel-victory` and
 happens in `blog-engine/build-i18n.mjs`. Import raw captures (named with the
 app's screenshot-panel labels like `de-01-learn.png`, or `<locale>-<name>`) with
 `python3 blog-engine/import-app-screens.py <folder>`, then run the generator.
+`bash blog-engine/capture-app-screens.sh <Kiro-App checkout>` does the whole run headless
+(the app's own capture tool, all 8 scenes x 7 languages, then import + generator).
 
 OG/Twitter meta images use the absolute URL `https://www.tryiro.com/assets/...` for social preview cards.
 
