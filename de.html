@@ -1740,10 +1740,10 @@ html.is-android .locale-suggest{bottom:12px;top:auto}
           <button class="ia-arrow ia-side" id="iaPrev" aria-label="Vorheriger Screen"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg></button>
           <div class="ia-stackvp" id="iaStack">
             <div class="device ia-ph" data-slot="-2"><div class="island"></div><div class="screen"><img src="assets/screens/news-refresh.webp" alt="Iro App: wöchentliche KI-News" loading="lazy" decoding="async" onerror="if(/\.webp$/.test(this.src))this.src=this.src.replace('.webp','.jpg')"/></div><div class="glare"></div></div>
-            <div class="device ia-ph" data-slot="-1"><div class="island"></div><div class="screen"><img src="assets/screens/certificate.webp" alt="Iro App: teilbares KI-Zertifikat mit Credential-ID" loading="lazy" decoding="async" onerror="if(/\.webp$/.test(this.src))this.src=this.src.replace('.webp','.jpg')"/></div><div class="glare"></div></div>
-            <div class="device ia-ph" data-slot="0"><div class="island"></div><div class="screen"><img src="assets/screens/learning-path.webp" alt="Iro App: täglicher Lernpfad mit Truhen und Quests" loading="lazy" decoding="async" onerror="if(/\.webp$/.test(this.src))this.src=this.src.replace('.webp','.jpg')"/></div><div class="glare"></div></div>
-            <div class="device ia-ph" data-slot="1"><div class="island"></div><div class="screen"><img src="assets/screens/path-list.webp" alt="Iro App: 34 Lernpfade, darunter ChatGPT Mastery und Claude Mastery" loading="lazy" decoding="async" onerror="if(/\.webp$/.test(this.src))this.src=this.src.replace('.webp','.jpg')"/></div><div class="glare"></div></div>
-            <div class="device ia-ph" data-slot="2"><div class="island"></div><div class="screen"><img src="assets/screens/prompt-builder.webp" alt="Iro App: Ordne jedem KI-Tool seine Stärke zu" loading="lazy" decoding="async" onerror="if(/\.webp$/.test(this.src))this.src=this.src.replace('.webp','.jpg')"/></div><div class="glare"></div></div>
+            <div class="device ia-ph" data-slot="-1"><div class="island"></div><div class="screen"><img src="assets/screens/de/certificate.webp" alt="Iro App: teilbares KI-Zertifikat mit Credential-ID" loading="lazy" decoding="async" onerror="if(/\.webp$/.test(this.src))this.src=this.src.replace('.webp','.jpg')"/></div><div class="glare"></div></div>
+            <div class="device ia-ph" data-slot="0"><div class="island"></div><div class="screen"><img src="assets/screens/de/learning-path.webp" alt="Iro App: täglicher Lernpfad mit Truhen und Quests" loading="lazy" decoding="async" onerror="if(/\.webp$/.test(this.src))this.src=this.src.replace('.webp','.jpg')"/></div><div class="glare"></div></div>
+            <div class="device ia-ph" data-slot="1"><div class="island"></div><div class="screen"><img src="assets/screens/de/path-list.webp" alt="Iro App: 34 Lernpfade, darunter ChatGPT Mastery und Claude Mastery" loading="lazy" decoding="async" onerror="if(/\.webp$/.test(this.src))this.src=this.src.replace('.webp','.jpg')"/></div><div class="glare"></div></div>
+            <div class="device ia-ph" data-slot="2"><div class="island"></div><div class="screen"><img src="assets/screens/de/prompt-builder.webp" alt="Iro App: Ordne jedem KI-Tool seine Stärke zu" loading="lazy" decoding="async" onerror="if(/\.webp$/.test(this.src))this.src=this.src.replace('.webp','.jpg')"/></div><div class="glare"></div></div>
           </div>
           <button class="ia-arrow ia-side" id="iaNext" aria-label="Nächster Screen"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18l6-6-6-6"/></svg></button>
         </div>
@@ -2768,28 +2768,28 @@ var RANK_TIERS = {
      centre, and whichever phone lands in the hidden staging slot picks up the
      next screenshot. */
   var SCREENS = [
-    { img:'assets/screens/learning-path.webp', t:'Lernen',        h:'KI lernen wie ein Spiel',       tag:'TAGESKARTE',
+    { img:'assets/screens/de/learning-path.webp', t:'Lernen',        h:'KI lernen wie ein Spiel',       tag:'TAGESKARTE',
       d:'Lektionen schlängeln sich entlang eines Pfads im Duolingo-Stil – ein klarer nächster Schritt, mit Truhen und Challenges unterwegs.',
       b:['Jeden Tag eine klare nächste Lektion','Truhen, tägliche Quests und News auf dem Weg','Die Einheiten führen von den Grundlagen zur angewandten KI'] },
-    { img:'assets/screens/path-list.webp', t:'Tool-Beherrschung', h:'Meistere ChatGPT und Claude',  tag:'34 LERNPFADE',
+    { img:'assets/screens/de/path-list.webp', t:'Tool-Beherrschung', h:'Meistere ChatGPT und Claude',  tag:'34 LERNPFADE',
       d:'Vierunddreißig geführte Lernpfade zu KI-Grundlagen und Tool-Beherrschung. Wähl einen aus und sieh zu, wie sich der Balken füllt.',
       b:['Meistere ChatGPT, Claude, Gemini, Perplexity','Grundlagen: Basiswissen, Prompting, Agenten','Ein Fortschrittsbalken auf jedem Lernpfad'] },
-    { img:'assets/screens/prompt-builder.webp', t:'Übung',     h:'Üben in 5 Minuten',      tag:'PRAXIS',
+    { img:'assets/screens/de/prompt-builder.webp', t:'Übung',     h:'Üben in 5 Minuten',      tag:'PRAXIS',
       d:'Ordne jedem KI-Tool zu, was es wirklich am besten kann, und prüf dann deine Antwort.',
       b:['ChatGPT, Claude, Gemini und Perplexity ihren echten Stärken zuordnen','Lerne, zu welchem Tool du greifst, bevor du es brauchst','Sofortiger Check, dein Streak steht auf dem Spiel'] },
-    { img:'assets/screens/ask-iro.webp', t:'Coach',        h:'Frag Iro, was als Nächstes kommt',    tag:'KI-COACH',
+    { img:'assets/screens/de/ask-iro.webp', t:'Coach',        h:'Frag Iro, was als Nächstes kommt',    tag:'KI-COACH',
       d:'Iro zeichnet Antworten als Diagramme, sucht im Web, merkt sich, was du ihm erzählt hast, und fragt dich zu jedem Thema ab.',
       b:['„Frag mich zu Kontextfenstern ab“','Diagramme, Tabellen und Zeitleisten, direkt in der App gezeichnet','Merkt sich, was du ihm beim letzten Mal erzählt hast'] },
-    { img:'assets/screens/create-path.webp', t:'Erstellen',       h:'Erstelle jeden KI-Lernpfad',         tag:'EIGENE LERNPFADE',
+    { img:'assets/screens/de/create-path.webp', t:'Erstellen',       h:'Erstelle jeden KI-Lernpfad',         tag:'EIGENE LERNPFADE',
       d:'Gib ein beliebiges Ziel ein und Iro baut in Sekunden einen eigenen Lernpfad, inklusive Lektionen, Quiz und Zusammenfassung.',
       b:['„KI für den Job lernen“ &rarr; ein kompletter Lernpfad','Bewerbungsgespräche, Agenten, Finanzen, alles','Community-Lernpfade von anderen Lernenden'] },
     { img:'assets/screens/image-lab.webp', t:'Image Lab',   h:'Prompten. Sehen.',          tag:'BILD-PROMPTS',
       d:'Schreib einen Prompt, generiere das Bild, dann ändere den Prompt und sieh, was sich bewegt.',
       b:['Starte mit leerer Leinwand oder deinem eigenen Foto','Ask Iro bewertet deinen Prompt und zeigt, was du ändern solltest','Teil von Iro Pro, bis zu 10 Bilder am Tag'] },
-    { img:'assets/screens/operator-build.webp', t:'Operator',     h:'Bau deinen KI-Operator',     tag:'SKILL-PROFIL',
+    { img:'assets/screens/de/operator-build.webp', t:'Operator',     h:'Bau deinen KI-Operator',     tag:'SKILL-PROFIL',
       d:'Sechs Skill-Bereiche mit je bis zu 100 Punkten ergeben deinen Operator Build und sein Power-Level.',
       b:['Strategie, Recherche, Prompting, Umsetzung&hellip;','Stärkster Skill und Schwachstelle auf einen Blick','Es sagt dir genau, was du als Nächstes trainieren solltest'] },
-    { img:'assets/screens/duels-tab.webp', t:'Duelle',        h:'Gewinne KI-Duelle auf Zeit', tag:'KI-DUELLE \u00b7 PRO',
+    { img:'assets/screens/de/duels-tab.webp', t:'Duelle',        h:'Gewinne KI-Duelle auf Zeit', tag:'KI-DUELLE \u00b7 PRO',
       d:'Fünf Fragen, je fünfzehn Sekunden, gegen einen Gegner auf deinem Niveau.',
       b:['Gegner auf deinem Niveau','+25 XP pro Sieg, wöchentliche Arena-Challenges','Ein Rating-Verlauf, der deinen Aufstieg zeigt'] },
     { img:'assets/screens/news-refresh.webp', t:'KI-News',      h:'Bleib bei KI-News auf dem Laufenden',  tag:'WÖCHENTLICH',
@@ -2798,7 +2798,7 @@ var RANK_TIERS = {
     { img:'assets/screens/rank-up.webp', t:'Aufsteigen',      h:'Steig auf und lass Iro sich entwickeln',     tag:'EVOLUTION',
       d:'Erreiche einen neuen Rang und Iro entwickelt sich weiter – bis zu Diamant und Iro dem Erzmagier.',
       b:['Eine neue Form auf jedem Rang','Evolutionen, für die sich der Einsatz lohnt','Teile deine Evolutionskarte'] },
-    { img:'assets/screens/certificate.webp', t:'Zertifikate', h:'Verdiene KI-Zertifikate',       tag:'NACHWEISE',
+    { img:'assets/screens/de/certificate.webp', t:'Zertifikate', h:'Verdiene KI-Zertifikate',       tag:'NACHWEISE',
       d:'Schließ einen Lernpfad ab und verdiene ein Zertifikat mit eigener Credential-ID. Stell es mit Pro auf deinen Namen aus und teile es auf LinkedIn.',
       b:['Ein Zertifikat für jeden der 34 Lernpfade','Eine eindeutige Credential-ID auf jedem Zertifikat','Kostenlos durch Abschluss eines Lernpfads, mit Pro auf deinen Namen','Mit einem Tippen zu deinem LinkedIn-Profil hinzufügen'] }
   ];

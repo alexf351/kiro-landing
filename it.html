@@ -1740,10 +1740,10 @@ html.is-android .locale-suggest{bottom:12px;top:auto}
           <button class="ia-arrow ia-side" id="iaPrev" aria-label="Schermata precedente"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg></button>
           <div class="ia-stackvp" id="iaStack">
             <div class="device ia-ph" data-slot="-2"><div class="island"></div><div class="screen"><img src="assets/screens/news-refresh.webp" alt="App Iro: riepiloghi settimanali sulle novità dell’IA" loading="lazy" decoding="async" onerror="if(/\.webp$/.test(this.src))this.src=this.src.replace('.webp','.jpg')"/></div><div class="glare"></div></div>
-            <div class="device ia-ph" data-slot="-1"><div class="island"></div><div class="screen"><img src="assets/screens/certificate.webp" alt="App Iro: certificato di IA da condividere, con ID credenziale" loading="lazy" decoding="async" onerror="if(/\.webp$/.test(this.src))this.src=this.src.replace('.webp','.jpg')"/></div><div class="glare"></div></div>
-            <div class="device ia-ph" data-slot="0"><div class="island"></div><div class="screen"><img src="assets/screens/learning-path.webp" alt="App Iro: percorso di lezioni quotidiano con forzieri e missioni" loading="lazy" decoding="async" onerror="if(/\.webp$/.test(this.src))this.src=this.src.replace('.webp','.jpg')"/></div><div class="glare"></div></div>
-            <div class="device ia-ph" data-slot="1"><div class="island"></div><div class="screen"><img src="assets/screens/path-list.webp" alt="App Iro: 34 percorsi di apprendimento, tra cui ChatGPT Mastery e Claude Mastery" loading="lazy" decoding="async" onerror="if(/\.webp$/.test(this.src))this.src=this.src.replace('.webp','.jpg')"/></div><div class="glare"></div></div>
-            <div class="device ia-ph" data-slot="2"><div class="island"></div><div class="screen"><img src="assets/screens/prompt-builder.webp" alt="App Iro: abbina ogni strumento di IA a ciò che sa fare meglio" loading="lazy" decoding="async" onerror="if(/\.webp$/.test(this.src))this.src=this.src.replace('.webp','.jpg')"/></div><div class="glare"></div></div>
+            <div class="device ia-ph" data-slot="-1"><div class="island"></div><div class="screen"><img src="assets/screens/it/certificate.webp" alt="App Iro: certificato di IA da condividere, con ID credenziale" loading="lazy" decoding="async" onerror="if(/\.webp$/.test(this.src))this.src=this.src.replace('.webp','.jpg')"/></div><div class="glare"></div></div>
+            <div class="device ia-ph" data-slot="0"><div class="island"></div><div class="screen"><img src="assets/screens/it/learning-path.webp" alt="App Iro: percorso di lezioni quotidiano con forzieri e missioni" loading="lazy" decoding="async" onerror="if(/\.webp$/.test(this.src))this.src=this.src.replace('.webp','.jpg')"/></div><div class="glare"></div></div>
+            <div class="device ia-ph" data-slot="1"><div class="island"></div><div class="screen"><img src="assets/screens/it/path-list.webp" alt="App Iro: 34 percorsi di apprendimento, tra cui ChatGPT Mastery e Claude Mastery" loading="lazy" decoding="async" onerror="if(/\.webp$/.test(this.src))this.src=this.src.replace('.webp','.jpg')"/></div><div class="glare"></div></div>
+            <div class="device ia-ph" data-slot="2"><div class="island"></div><div class="screen"><img src="assets/screens/it/prompt-builder.webp" alt="App Iro: abbina ogni strumento di IA a ciò che sa fare meglio" loading="lazy" decoding="async" onerror="if(/\.webp$/.test(this.src))this.src=this.src.replace('.webp','.jpg')"/></div><div class="glare"></div></div>
           </div>
           <button class="ia-arrow ia-side" id="iaNext" aria-label="Schermata successiva"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18l6-6-6-6"/></svg></button>
         </div>
@@ -2768,28 +2768,28 @@ var RANK_TIERS = {
      centre, and whichever phone lands in the hidden staging slot picks up the
      next screenshot. */
   var SCREENS = [
-    { img:'assets/screens/learning-path.webp', t:'Impara',        h:'Impara l’IA come un gioco',       tag:'MAPPA QUOTIDIANA',
+    { img:'assets/screens/it/learning-path.webp', t:'Impara',        h:'Impara l’IA come un gioco',       tag:'MAPPA QUOTIDIANA',
       d:'Le lezioni si snodano lungo un sentiero in stile Duolingo, con un passo successivo chiaro e forzieri e sfide lungo la strada.',
       b:['Una prossima lezione chiara ogni giorno','Forzieri, missioni quotidiane e notizie lungo il percorso','Le unità vanno dalle basi all’IA applicata'] },
-    { img:'assets/screens/path-list.webp', t:'Padronanza degli strumenti', h:'Padroneggia ChatGPT e Claude',  tag:'34 PERCORSI',
+    { img:'assets/screens/it/path-list.webp', t:'Padronanza degli strumenti', h:'Padroneggia ChatGPT e Claude',  tag:'34 PERCORSI',
       d:'Trentaquattro percorsi guidati tra competenze di base di IA e padronanza degli strumenti. Scegline uno e guarda la barra riempirsi.',
       b:['Padroneggia ChatGPT, Claude, Gemini e Perplexity','Le basi: fondamenti, prompt, agenti','Una barra di avanzamento su ogni percorso'] },
-    { img:'assets/screens/prompt-builder.webp', t:'Pratica',     h:'Allenati in 5 minuti',      tag:'SUL CAMPO',
+    { img:'assets/screens/it/prompt-builder.webp', t:'Pratica',     h:'Allenati in 5 minuti',      tag:'SUL CAMPO',
       d:'Abbina ogni strumento di IA a ciò che sa fare meglio, poi controlla la risposta.',
       b:['Abbina ChatGPT, Claude, Gemini e Perplexity ai loro veri punti di forza','Scopri quale strumento usare prima di averne bisogno','Correzione immediata, con la tua serie in gioco'] },
-    { img:'assets/screens/ask-iro.webp', t:'Coach',        h:'Chiedi a Iro cosa fare adesso',    tag:'COACH IA',
+    { img:'assets/screens/it/ask-iro.webp', t:'Coach',        h:'Chiedi a Iro cosa fare adesso',    tag:'COACH IA',
       d:'Iro disegna le risposte come grafici, cerca sul web, ricorda quello che gli hai detto e ti interroga su qualsiasi argomento.',
       b:['“Interrogami sulle finestre di contesto”','Grafici, tabelle e linee del tempo, disegnati nell’app','Ricorda quello che gli hai detto l’ultima volta'] },
-    { img:'assets/screens/create-path.webp', t:'Crea',       h:'Crea qualsiasi percorso di IA',         tag:'PERCORSI PERSONALIZZATI',
+    { img:'assets/screens/it/create-path.webp', t:'Crea',       h:'Crea qualsiasi percorso di IA',         tag:'PERCORSI PERSONALIZZATI',
       d:'Scrivi un obiettivo qualsiasi e Iro crea un percorso personalizzato in pochi secondi, con lezioni, quiz e riepilogo inclusi.',
       b:['“Imparare l’IA per il lavoro” &rarr; un percorso completo','Colloqui, agenti, finanza, qualsiasi cosa','Percorsi della community creati da altri studenti'] },
     { img:'assets/screens/image-lab.webp', t:'Image Lab',   h:'Scrivi il prompt. Guarda l’immagine.',          tag:'PROMPT PER IMMAGINI',
       d:'Scrivi un prompt, genera l’immagine, poi cambia il prompt e guarda cosa cambia.',
       b:['Parti da una tela bianca o da una tua foto','Ask Iro valuta il tuo prompt e ti mostra cosa cambiare','Incluso in Iro Pro, fino a 10 immagini al giorno'] },
-    { img:'assets/screens/operator-build.webp', t:'Operatore',     h:'Costruisci il tuo Operatore di IA',     tag:'PROFILO DELLE COMPETENZE',
+    { img:'assets/screens/it/operator-build.webp', t:'Operatore',     h:'Costruisci il tuo Operatore di IA',     tag:'PROFILO DELLE COMPETENZE',
       d:'Sei aree di competenza con un punteggio su 100 compongono il tuo Operator Build e il suo livello di potenza.',
       b:['Strategia, ricerca, prompt, esecuzione&hellip;','Il tuo punto più forte e il tuo punto debole, evidenziati','Ti dice esattamente cosa allenare dopo'] },
-    { img:'assets/screens/duels-tab.webp', t:'Duelli',        h:'Vinci duelli di IA a tempo', tag:'DUELLI DI IA \u00b7 PRO',
+    { img:'assets/screens/it/duels-tab.webp', t:'Duelli',        h:'Vinci duelli di IA a tempo', tag:'DUELLI DI IA \u00b7 PRO',
       d:'Cinque domande, quindici secondi ciascuna, contro un avversario del tuo livello.',
       b:['Avversari del tuo livello','+25 XP a vittoria, sfide settimanali nell’arena','Un andamento del punteggio che segue la tua scalata'] },
     { img:'assets/screens/news-refresh.webp', t:'Notizie IA',      h:'Resta al passo con le notizie di IA',  tag:'SETTIMANALE',
@@ -2798,7 +2798,7 @@ var RANK_TIERS = {
     { img:'assets/screens/rank-up.webp', t:'Sali di grado',      h:'Sali di grado e fai evolvere Iro',     tag:'EVOLUZIONE',
       d:'Raggiungi un nuovo grado e Iro si evolve, fino a Diamante e a Iro l’Arcimago.',
       b:['Una nuova forma a ogni grado','Evoluzioni che vale la pena inseguire','Condividi la tua card dell’evoluzione'] },
-    { img:'assets/screens/certificate.webp', t:'Certificati', h:'Ottieni certificati di IA',       tag:'CREDENZIALI',
+    { img:'assets/screens/it/certificate.webp', t:'Certificati', h:'Ottieni certificati di IA',       tag:'CREDENZIALI',
       d:'Completa un percorso e ottieni un certificato con il suo ID credenziale. Riscattalo con il tuo nome con Pro e pubblicalo su LinkedIn.',
       b:['Un certificato per ognuno dei 34 percorsi','Un ID credenziale unico su ogni certificato','Si ottiene gratis completando un percorso; riscattalo con il tuo nome con Pro','Un tocco per aggiungerlo al tuo profilo LinkedIn'] }
   ];
