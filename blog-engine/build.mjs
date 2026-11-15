@@ -560,7 +560,7 @@ ${NAV}
 <p class="eyebrow">${cfg.blog.heroEyebrow}</p>
 <h1>${title}</h1>
 <p class="lede">${post.lede}</p>
-<p class="meta"><span>By <a href="${au.url}" rel="author" target="_blank">${esc(au.name)}</a></span><span><time datetime="${dp}">Published ${dp}</time></span>${dm !== dp ? `<span><time datetime="${dm}">Updated ${dm}</time></span>` : ''}<span>~${rt} min read</span>${pillarMeta}</p>
+<p class="meta"><span>By <a href="${au.url}" rel="author" target="_blank">${esc(au.name)}</a></span><span><time datetime="${dp}">Published ${dp}</time></span>${dm !== dp ? `<span><time datetime="${dm}">Updated ${dm}</time></span>` : ''}<span>~${rt} min read</span>${pillarMeta}</p>${post.updatedNote ? `\n<p class="meta"><span>${esc(post.updatedNote)}</span></p>` : ''}
 ${post.hero ? heroPicture(post.hero) : `<img class="hero-img" src="${heroSrc}" alt="${esc(title)}" width="1200" height="630"/>`}
 </article>
 <div class="content">

@@ -7,7 +7,7 @@ app_store: "https://apps.apple.com/app/id6759628066"
 language: en-US
 keywords: ["best microlearning apps", "best microlearning apps 2026", "microlearning apps", "best micro learning app", "apps like Duolingo", "short daily lesson apps"]
 date_published: "2026-08-21"
-date_modified: "2026-11-06"
+date_modified: "2026-11-15"
 reading_time_minutes: 9
 author: "Alex Furukawa"
 license: "© 2026 Iro AI"
@@ -21,7 +21,7 @@ pillar: "ai-fluency"
 
 **Canonical:** https://tryiro.com/blog/best-microlearning-apps
 **Published:** 2026-08-21
-**Updated:** 2026-11-06
+**Updated:** 2026-11-15
 **Reading time:** ~9 min
 **Author:** Alex Furukawa — Founder of Iro AI
 
@@ -67,28 +67,34 @@ Ignore the feature lists, install two, and run this. It is faster than reading r
 - **Find the renewal price and the cancel path before you pay.** This category has a well-earned reputation for cheap first terms and steep renewals. Two minutes in the App Store subscription sheet saves an annoyed email later. That applies to every app here, ours included.
 - **Ask what breaks the streak.** If missing a day sets you back meaningfully, you will quit in week three. Good habit design is forgiving; punishment-based streaks select for people who did not need the app.
 
+## How we picked
+
+We included consumer apps built around short daily sessions that you can use on a phone and download for free, and left out workplace training platforms that companies buy for staff. We grouped them by the job they do (practice, concept course or summary library) instead of ranking them, because the right pick depends on that job.
+
+**Iro AI is our own app.** It comes first in the table because this is our site, and we recommend it for one job only: learning to use AI tools. For every other job we name the app we think does it better. Each price, free tier and platform was checked against the app's own store listing or website; where a listing doesn't say which plan a price belongs to, we say so instead of guessing.
+
 ## The apps, compared
 
 | App | Job it does | Best for | Free tier | Price (US) | Platforms |
 | --- | --- | --- | --- | --- | --- |
 | Iro AI _(ours)_ | Practice | Using AI tools well: ChatGPT, Claude, Gemini, Perplexity, prompting, agents. See [the best AI learning apps](/best-ai-learning-app). | All 34 paths and 522 lessons open, paced by a Battery giving a lesson a day | $49.99/yr or $9.99/mo; 7-day free trial | iOS and a free web app, no signup. Android in development. |
-| [Duolingo](/blog/does-duolingo-teach-ai) | Practice | Languages, plus maths and music. The benchmark for habit design. | Full courses with ads | Not verified by us | iOS, Android, web |
+| [Duolingo](/blog/does-duolingo-teach-ai) | Practice | Languages, plus maths and music. The benchmark for habit design. | Full courses with ads | Varies; see app (Super Duolingo has a 14-day free trial) | iOS, Android, web |
 | [Brilliant](/blog/iro-ai-vs-brilliant) | Concept course | Maths, logic, computer science. The strongest interactive teaching in this list. | Free with daily limits | $24.99/mo or $119.99/yr in the App Store | iOS, Android, web |
 | Khan Academy | Concept course | Academic foundations on no budget. Non-profit. | Entirely free, no paid tier | Free | iOS, Android, web |
 | [NerdSip](/blog/nerdsip-alternatives) | Concept course, generated | Short AI-generated courses on topics you pick. | One course a day; 7-day Gold trial | Gold $7.99/mo or $49.99/yr | iPhone |
-| [Nibble](/blog/nibble-alternatives) | Concept course | Short daily lessons and quizzes on general knowledge. | Not verified by us | Not verified by us | iPhone (site also lists Android and web) |
+| [Nibble](/blog/nibble-alternatives) | Concept course | Short daily lessons and quizzes on general knowledge. | Varies; see app | Varies; see app | iPhone (site also lists Android and web) |
 | [Chunks](/blog/chunks-alternatives) | Concept course | Short illustrated lessons on big ideas. | Some free stories | $9.99/mo or $49.99/yr | iPhone, iPad, Android |
-| [Kinnu](/blog/kinnu-alternatives) | Concept course | Broad general knowledge in structured paths. | Genuinely free tier | Not verified by us | Not verified by us |
-| [Imprint](/blog/imprint-alternatives) | Concept course | Visually taught big ideas from non-fiction. | Not verified by us | Not verified by us | Not verified by us |
-| [Blinkist](/blog/blinkist-alternatives) | Summary library | Broad non-fiction exposure, text and audio. | Not verified by us | Not verified by us | Not verified by us |
-| [Headway](/blog/headway-alternatives) | Summary library | The same job as Blinkist; choose on library and interface. | Not verified by us | Not verified by us | Not verified by us |
-| [BeFreed](/blog/befreed-alternatives) | Summary library, personalised | Goal-led plans that assemble summaries, AI-narrated podcasts and flashcards. 10, 20 or 40-minute sessions. | Not verified by us | Not verified by us | iOS, Android |
+| [Kinnu](/blog/kinnu-alternatives) | Concept course | Broad general knowledge in structured paths. | Genuinely free tier | Varies; see app (optional subscription) | iPhone, iPad, Android |
+| [Imprint](/blog/imprint-alternatives) | Concept course | Visually taught big ideas from non-fiction. | Varies; see app | Varies; see app | iPhone, iPad, Mac, Android |
+| [Blinkist](/blog/blinkist-alternatives) | Summary library | Broad non-fiction exposure, text and audio. | One free summary a day (Blinkist Basic) | Varies; see app | iOS, Android, web |
+| [Headway](/blog/headway-alternatives) | Summary library | The same job as Blinkist; choose on library and interface. | One summary a day, text and audio | Varies; see app | iOS, Android, web |
+| [BeFreed](/blog/befreed-alternatives) | Summary library, personalised | Goal-led plans that assemble summaries, AI-narrated podcasts and flashcards. 10, 20 or 40-minute sessions. | Free to start; some features need a subscription | Varies; see app | iOS, Android |
 
 
 
-Prices are US figures from each app's own App Store listing or pricing page, checked November 6, 2026. They change without notice; check the listing before you subscribe. Where a listing shows several in-app items without saying which plan they belong to, we mark the price not verified rather than guess.
+Prices, free tiers and platforms come from each app's own US App Store listing, Google Play listing or website, checked November 15, 2026. They change without notice; check the listing before you subscribe. Each source is listed under [Sources](#sources) at the end of this page.
 
-**About the blank cells.** Anything marked "not verified by us" is something we could not confirm from the company's own store listing or website at the time of writing. Most comparison pages fill those cells from affiliate sites, which is how one wrong price ends up repeated across twenty pages. We would rather leave a gap and send you to the listing.
+**Why some prices say “varies; see app”.** Several App Store listings show a long list of in-app prices without saying which plan each one belongs to. Rather than guess, we send you to the listing. Most comparison pages fill those cells from affiliate sites, which is how one wrong price ends up repeated across twenty pages.
 
 ## Where Iro fits, and where it doesn't
 
@@ -105,11 +111,32 @@ Prices are US figures from each app's own App Store listing or pricing page, che
 
 If you want a longer version of the choosing framework, [how to choose an AI learning app](/blog/how-to-choose-an-ai-learning-app) goes deeper on the free-tier question specifically.
 
+## Sources
+
+Every price, free tier and platform in the table comes from these pages. We checked each one on the date shown, using the US App Store for prices.
+
+- **Iro AI:** [App Store listing](https://apps.apple.com/app/id6759628066). Checked November 15, 2026.
+- **Duolingo:** [App Store listing](https://apps.apple.com/app/570060128). Checked November 15, 2026.
+- **Brilliant:** [App Store listing](https://apps.apple.com/app/brilliant-learn-by-doing/id913335252). Checked November 15, 2026.
+- **Khan Academy:** [App Store listing](https://apps.apple.com/app/id469863705). Checked November 15, 2026.
+- **NerdSip:** [App Store listing](https://apps.apple.com/app/id6756797708). Checked November 15, 2026.
+- **Nibble:** [App Store listing](https://apps.apple.com/app/id6444046612). Checked November 15, 2026.
+- **Chunks:** [App Store listing](https://apps.apple.com/app/id6692632196). Checked November 15, 2026.
+- **Kinnu:** [App Store listing](https://apps.apple.com/app/id1625333066) and [Google Play listing](https://play.google.com/store/apps/details?id=xyz.kinnu). Checked November 15, 2026.
+- **Imprint:** [App Store listing](https://apps.apple.com/app/id1482780647) and [Google Play listing](https://play.google.com/store/apps/details?id=com.polywise.lucid). Checked November 15, 2026.
+- **Blinkist:** [App Store listing](https://apps.apple.com/app/id568839295) and [What is Blinkist (blinkist.com)](https://www.blinkist.com/learn/what-is-blinkist). Checked November 15, 2026.
+- **Headway:** [App Store listing](https://apps.apple.com/app/id1457185832) and [Headway app features (makeheadway.com)](https://makeheadway.com/headway-app-features/). Checked November 15, 2026.
+- **BeFreed:** [App Store listing](https://apps.apple.com/app/id6739747450). Checked November 15, 2026.
+
 ## FAQ
 
 **What is the best microlearning app in 2026?**
 
 It depends which of three jobs you need. For broad exposure fast, a summary library like Blinkist, Headway or BeFreed. For understanding a subject properly, a curated concept course like Brilliant, Kinnu or Khan Academy. For getting measurably better at doing something, a practice app: Duolingo for languages, Iro AI for using AI tools. Most people who bounce off microlearning picked the wrong category rather than the wrong app.
+
+**What is the best microlearning app for learning AI?**
+
+Iro AI is built for that: five-minute lessons where you write real prompts for ChatGPT, Claude and other tools, get a score and feedback, and build a daily streak. It runs on iPhone and the web. Most other microlearning apps, like Nibble, Headway and Imprint, cover general knowledge or book summaries, with AI as one topic among many. Iro AI is our own app.
 
 **What actually counts as microlearning?**
 
