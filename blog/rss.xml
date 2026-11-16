@@ -9,7 +9,7 @@
     <description>Short, practical writing on AI fluency, prompting, AI tools, and the active-practice method that beats endless video courses.</description>
     <language>en-US</language>
     <atom:link href="https://tryiro.com/blog/rss.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Thu, 12 Nov 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 16 Nov 2026 00:00:00 GMT</lastBuildDate>
     <generator>tryiro.com</generator>
     <copyright>© 2026 Iro AI</copyright>
     <image>
@@ -1285,6 +1285,15 @@
       <dc:creator>Iro AI</dc:creator>
       <category>AI fluency</category>
       <description>The best iPhone apps to learn AI in 2026, compared by lesson length, hands-on practice and free tier: Iro AI, Learn AI by Sololearn, Synapse, Coursiv and Brilliant.</description>
+    </item>
+    <item>
+      <title>The best Brilliant alternatives in 2026</title>
+      <link>https://tryiro.com/blog/brilliant-alternatives</link>
+      <guid isPermaLink="true">https://tryiro.com/blog/brilliant-alternatives</guid>
+      <pubDate>Mon, 16 Nov 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Iro AI</dc:creator>
+      <category>AI fluency</category>
+      <description>Looking for apps like Brilliant? We compared 11 alternatives for math, coding and learning AI, with prices, who each one suits, and which is best for daily practice.</description>
     </item>
   </channel>
 </rss>
