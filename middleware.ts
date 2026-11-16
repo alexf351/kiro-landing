@@ -20,6 +20,14 @@
 // Deliberately non-blocking: the POST is scheduled with waitUntil and never
 // awaited, so no visitor waits on PostHog, and every path fails open — an
 // analytics outage cannot take a page down.
+//
+// Second job: tell /consent.js whether this visitor needs the cookie banner.
+// Opt-in consent for analytics is required in the EU, EEA, UK and Switzerland
+// (CONSENT_COUNTRIES). For page requests from anywhere else we set the
+// first-party cookie `iro_region=open`, and consent.js then loads analytics
+// without asking (Reject stays in the footer's Cookie settings). Visitors in a
+// consent country, or whose country Vercel can't tell, get no cookie (and an
+// old one is cleared), so they see the banner exactly as before.
 
 import { next, waitUntil } from '@vercel/functions';
 
@@ -132,6 +140,47 @@ function report(request: Request, hit: Hit, userAgent: string): Promise<void> {
     .catch(() => undefined);
 }
 
+// EU member states and their outermost regions that carry their own ISO
+// codes, the rest of the EEA, the UK with its Crown Dependencies and Gibraltar,
+// and Switzerland.
+export const CONSENT_COUNTRIES = new Set([
+  'AT', 'BE', 'BG', 'HR', 'CY', 'CZ', 'DK', 'EE', 'FI', 'FR', 'DE', 'GR', 'HU', 'IE',
+  'IT', 'LV', 'LT', 'LU', 'MT', 'NL', 'PL', 'PT', 'RO', 'SK', 'SI', 'ES', 'SE',
+  'AX', 'GF', 'GP', 'MQ', 'RE', 'YT', 'MF',
+  'IS', 'LI', 'NO',
+  'GB', 'GG', 'JE', 'IM', 'GI',
+  'CH',
+]);
+
+const REGION_COOKIE = 'iro_region';
+
+// True when this visitor may be tracked without the banner. Unknown country
+// counts as "ask", so a missing header never skips consent.
+export function trackByDefault(country: string | null): boolean {
+  const c = (country || '').trim().toUpperCase();
+  if (!/^[A-Z]{2}$/.test(c) || c === 'XX') return false;
+  return !CONSENT_COUNTRIES.has(c);
+}
+
+function isPageRequest(request: Request): boolean {
+  if (request.method !== 'GET') return false;
+  const dest = request.headers.get('sec-fetch-dest');
+  if (dest) return dest === 'document';
+  return (request.headers.get('accept') || '').includes('text/html');
+}
+
+// The Set-Cookie header for this page request, or null to leave cookies alone.
+export function regionCookie(request: Request): string | null {
+  if (!isPageRequest(request)) return null;
+  const attrs = '; Path=/; SameSite=Lax; Secure';
+  if (trackByDefault(request.headers.get('x-vercel-ip-country'))) {
+    return `${REGION_COOKIE}=open${attrs}`;
+  }
+  // Clear a cookie set on an earlier visit from outside the list.
+  const had = (request.headers.get('cookie') || '').includes(`${REGION_COOKIE}=`);
+  return had ? `${REGION_COOKIE}=${attrs}; Max-Age=0` : null;
+}
+
 export default function middleware(request: Request) {
   try {
     const userAgent = request.headers.get('user-agent') || '';
@@ -139,6 +188,12 @@ export default function middleware(request: Request) {
     if (hit) waitUntil(report(request, hit, userAgent));
   } catch {
     // Never let analytics break a page request.
+  }
+  try {
+    const cookie = regionCookie(request);
+    if (cookie) return next({ headers: { 'Set-Cookie': cookie } });
+  } catch {
+    // Fall through: no cookie means the banner, which is the safe default.
   }
   return next();
 }

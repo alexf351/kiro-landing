@@ -28,8 +28,8 @@ There are no build, test, or lint commands. To develop locally, serve the files 
 ### Design System (CSS variables in `:root`)
 - Dark theme with cyan (#00E5FF) accent color
 - Fonts: "Geist" (headings), "Outfit" (body), "JetBrains Mono" (numbers/monospace), self-hosted from
-  `assets/fonts/` via `/assets/fonts/fonts.css`. Do not reintroduce Google Fonts links: a page must contact no
-  third party before the visitor answers the cookie banner.
+  `assets/fonts/` via `/assets/fonts/fonts.css`. Do not reintroduce Google Fonts links: for visitors who get the
+  cookie banner, a page must contact no third party before they answer it.
 - Responsive breakpoints: 1024px, 768px, 480px
 
 ### Quiz Engine (`quiz.html`)
@@ -43,8 +43,12 @@ There are no build, test, or lint commands. To develop locally, serve the files 
 
 ### Analytics
 - PostHog integration tracks: quiz_started, quiz_answer (with question/topic/difficulty), quiz_completed, quiz_shared
-- Everything analytics loads through `/consent.js`, only after the visitor accepts the cookie banner. Every page footer
-  carries a `<a href="#cookie-settings">Cookie settings</a>` link that reopens the banner; keep it on new pages.
+- Everything analytics loads through `/consent.js`. Visitors in the EU, EEA, UK and Switzerland (and anyone whose country
+  is unknown) get the cookie banner and are tracked only after Accept. Everyone else is tracked by default with no
+  banner: `middleware.ts` sets the first-party cookie `iro_region=open` from Vercel's `x-vercel-ip-country` header for
+  them, and `consent.js` reads it. The country list is `CONSENT_COUNTRIES` in `middleware.ts`. Every page footer
+  carries a `<a href="#cookie-settings">Cookie settings</a>` link that reopens the banner (it is how default-tracked
+  visitors reject); keep it on new pages.
 
 ### Assets
 All images are served locally from the `assets/` folder via relative paths (e.g., `src="assets/diamond-kiro.png"`). Nothing is pulled from a CDN or external image host, including third-party badges, which are
