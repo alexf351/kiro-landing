@@ -1,13 +1,25 @@
 /* Iro AI — analytics consent gate + CTA click tracking.
  *
  * Loaded (synchronously, in <head>) on every page in place of the old inline
- * PostHog snippet. Nothing that stores or sends analytics data runs until the
- * visitor chooses:
+ * PostHog snippet.
+ *
+ * Where opt-in consent is required (EU, EEA, UK, Switzerland, and any visitor
+ * whose country is unknown), nothing that stores or sends analytics data runs
+ * until the visitor chooses:
  *   - no choice yet  -> show the banner; PostHog is not loaded, and
  *                       /llm-referrals.js and /prompt-capture.js do not run
  *   - Accept         -> PostHog init exactly as before, then the referral
  *                       scripts (and the extra tracker on the pages that had it)
  *   - Reject         -> none of the above, ever, in this browser
+ * Everywhere else, analytics loads by default with no banner, and Reject stays
+ * one click away through the "Cookie settings" link in every footer.
+ *
+ * Which rule applies comes from the `iro_region` cookie that middleware.ts
+ * sets from Vercel's IP country header: `iro_region=open` means the visitor is
+ * outside the consent-required list. No cookie (consent-required country,
+ * unknown country, cookies blocked, or middleware not running) means the
+ * banner, so every failure falls back to asking.
+ *
  * The choice is one localStorage flag, `iro_consent` = "granted" | "denied".
  *
  * Options, as attributes on this <script> tag:
@@ -210,9 +222,16 @@
     });
   });
 
+  // Set by middleware.ts only for visitors outside the consent-required list.
+  function consentRequired() {
+    try { return !/(?:^|;\s*)iro_region=open(?:;|$)/.test(document.cookie); } catch (e) { return true; }
+  }
+
   var choice = getChoice();
   if (choice === 'granted') startAnalytics();
-  else if (choice !== 'denied' && opt('banner') !== 'off') whenReady(openBanner);
+  else if (choice === 'denied') { /* never load analytics */ }
+  else if (!consentRequired()) startAnalytics();
+  else if (opt('banner') !== 'off') whenReady(openBanner);
 
   // ---------- cta_clicked outside the homepages ----------
   // The homepages send cta_clicked themselves (data-cta="off" there). Same event
