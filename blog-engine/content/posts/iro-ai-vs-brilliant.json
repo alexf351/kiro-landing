@@ -26,7 +26,7 @@
     "best app to learn AI 2026"
   ],
   "datePublished": "2026-06-01",
-  "dateModified": "2026-11-06",
+  "dateModified": "2026-11-16",
   "readingTime": 7,
   "articleSection": "AI fluency",
   "feedCategory": "AI learning apps",
@@ -82,7 +82,7 @@
     {
       "id": "choose",
       "heading": "Should you choose Iro AI or Brilliant?",
-      "html": "<p>A simple way to decide:</p><ul><li><strong>Want to use AI well at work, school, or daily life?</strong> <strong>Iro AI.</strong> It drills the applied skill directly.</li><li><strong>Want to understand the math and science underneath AI?</strong> <strong>Brilliant.</strong> Nothing teaches concepts better.</li><li><strong>Want both?</strong> Use Brilliant for the theory and Iro AI for the practice, since they don't overlap.</li></ul><p>Either way, start free: the <a href=\"/quiz\">AI IQ test</a> takes a few minutes and shows you exactly which applied skills to build next. Comparing other apps too? See <a href=\"/blog/iro-ai-vs-coursiv\">Iro AI vs Coursiv</a> and <a href=\"/blog/iro-ai-vs-duolingo\">Iro AI vs Duolingo</a>.</p>"
+      "html": "<p>A simple way to decide:</p><ul><li><strong>Want to use AI well at work, school, or daily life?</strong> <strong>Iro AI.</strong> It drills the applied skill directly.</li><li><strong>Want to understand the math and science underneath AI?</strong> <strong>Brilliant.</strong> Nothing teaches concepts better.</li><li><strong>Want both?</strong> Use Brilliant for the theory and Iro AI for the practice, since they don't overlap.</li></ul><p>Either way, start free: the <a href=\"/quiz\">AI IQ test</a> takes a few minutes and shows you exactly which applied skills to build next. Want more options than these two? See <a href=\"/blog/brilliant-alternatives\">all the best Brilliant alternatives</a>. Comparing other apps too? See <a href=\"/blog/iro-ai-vs-coursiv\">Iro AI vs Coursiv</a> and <a href=\"/blog/iro-ai-vs-duolingo\">Iro AI vs Duolingo</a>.</p>"
     }
   ],
   "readNext": [
@@ -135,7 +135,8 @@
     "/quiz",
     "/glossary",
     "/best-ai-learning-app",
-    "/learn-ai-in-5-minutes-a-day"
+    "/learn-ai-in-5-minutes-a-day",
+    "/blog/brilliant-alternatives"
   ],
   "askAi": true,
   "askAiPrompt": "Iro AI vs Brilliant: which should I use to get good at AI specifically? Compare what each teaches, how each one teaches it, and what each costs."

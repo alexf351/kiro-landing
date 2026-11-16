@@ -1625,6 +1625,10 @@
     {
       "source": "/blog/best-iphone-apps-to-learn-ai",
       "destination": "/blog/best-iphone-apps-to-learn-ai.html"
+    },
+    {
+      "source": "/blog/brilliant-alternatives",
+      "destination": "/blog/brilliant-alternatives.html"
     }
   ]
 }

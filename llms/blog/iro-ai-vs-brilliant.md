@@ -7,7 +7,7 @@ app_store: "https://apps.apple.com/app/id6759628066"
 language: en-US
 keywords: ["Iro AI vs Brilliant", "Brilliant alternative", "Brilliant AI course", "learn AI app", "best app to learn AI 2026"]
 date_published: "2026-06-01"
-date_modified: "2026-11-06"
+date_modified: "2026-11-16"
 reading_time_minutes: 7
 author: "Alex Furukawa"
 license: "© 2026 Iro AI"
@@ -21,7 +21,7 @@ pillar: "ai-fluency"
 
 **Canonical:** https://tryiro.com/blog/iro-ai-vs-brilliant
 **Published:** 2026-06-01
-**Updated:** 2026-11-06
+**Updated:** 2026-11-16
 **Reading time:** ~7 min
 **Author:** Alex Furukawa — Founder of Iro AI
 
@@ -82,7 +82,7 @@ A simple way to decide:
 - **Want to understand the math and science underneath AI?** **Brilliant.** Nothing teaches concepts better.
 - **Want both?** Use Brilliant for the theory and Iro AI for the practice, since they don't overlap.
 
-Either way, start free: the [AI IQ test](/quiz) takes a few minutes and shows you exactly which applied skills to build next. Comparing other apps too? See [Iro AI vs Coursiv](/blog/iro-ai-vs-coursiv) and [Iro AI vs Duolingo](/blog/iro-ai-vs-duolingo).
+Either way, start free: the [AI IQ test](/quiz) takes a few minutes and shows you exactly which applied skills to build next. Want more options than these two? See [all the best Brilliant alternatives](/blog/brilliant-alternatives). Comparing other apps too? See [Iro AI vs Coursiv](/blog/iro-ai-vs-coursiv) and [Iro AI vs Duolingo](/blog/iro-ai-vs-duolingo).
 
 ## FAQ
 

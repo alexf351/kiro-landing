@@ -104,7 +104,7 @@ ai iq test by iro ai          https://tryiro.com/llms/quiz.md
 vibe coding course            https://tryiro.com/llms/vibe-coding-course.md
 
 ## Blog (markdown mirrors)
-# 146 post and pillar mirrors, generated
+# 147 post and pillar mirrors, generated
 ai agents explained           https://tryiro.com/llms/blog/ai-agents-explained.md
 ai agents vs. automation      https://tryiro.com/llms/blog/ai-agents-vs-automation.md
 ai agents & automation        https://tryiro.com/llms/blog/ai-agents.md
@@ -144,6 +144,7 @@ best iphone apps to learn ai  https://tryiro.com/llms/blog/best-iphone-apps-to-l
 best learning apps            https://tryiro.com/llms/blog/best-learning-apps.md
 best microlearning apps       https://tryiro.com/llms/blog/best-microlearning-apps.md
 blinkist alternatives         https://tryiro.com/llms/blog/blinkist-alternatives.md
+brilliant alternatives        https://tryiro.com/llms/blog/brilliant-alternatives.md
 cancel coursiv                https://tryiro.com/llms/blog/cancel-coursiv.md
 cancel finestro               https://tryiro.com/llms/blog/cancel-finestro.md
 cancel skilario               https://tryiro.com/llms/blog/cancel-skilario.md
