@@ -5,9 +5,9 @@ site: "Iro AI"
 site_url: "https://tryiro.com"
 app_store: "https://apps.apple.com/app/id6759628066"
 language: en-US
-keywords: ["Skilario review", "Skilario reviews", "is Skilario legit", "Skilario scam", "Skilario price", "Skilario app", "Skilario Trustpilot", "Skilario Cherry Entertainment", "What is Skilario", "Skilario reviews and complaints", "skilario.com legit", "Skilaro reviews", "JSPARK STUDIOS charge"]
+keywords: ["Skilario review", "Skilario reviews", "is Skilario legit", "Skilario scam", "Skilario price", "Skilario app", "Skilario Trustpilot", "Skilario Cherry Entertainment", "What is Skilario", "Skilario reviews and complaints", "skilario.com legit", "Skilaro reviews", "JSPARK STUDIOS charge", "is Skilaro legit", "what is Skilario"]
 date_published: "2026-09-28"
-date_modified: "2026-11-04"
+date_modified: "2026-11-17"
 reading_time_minutes: 7
 author: "Alex Furukawa"
 license: "© 2026 Iro AI"
@@ -21,7 +21,7 @@ pillar: "ai-fluency"
 
 **Canonical:** https://tryiro.com/blog/skilario-review
 **Published:** 2026-09-28
-**Updated:** 2026-11-04
+**Updated:** 2026-11-17
 **Reading time:** ~7 min
 **Author:** Alex Furukawa — Founder of Iro AI
 
@@ -33,7 +33,7 @@ pillar: "ai-fluency"
 - The refund policy is unusually strict: no refunds for a change of mind, a subscription you never used, or dissatisfaction. Only a confirmed technical fault qualifies, unless a local cooling-off right applies.
 - If you want to try it, buy through the App Store. Apple decides App Store refunds under its own rules, and cancelling is two taps in Settings.
 
-## The short verdict
+## Is Skilario legit, or a scam?
 
 **Skilario is a legitimate company selling a real product, and its terms make it very hard to get money back.** Both halves matter. The lessons are a familiar format: short daily sessions on ChatGPT, Claude and other tools, prompts you can copy, and a certificate at the end. The risk sits in the purchase. Skilario appears to sell mainly through its website, with plans that renew automatically, promotional prices that apply only to the first payment, and a refund policy that excludes the most common reason people ask for one: they signed up and never really used it.
 
@@ -41,7 +41,7 @@ If you have not paid yet, the safest way to try it is through the App Store, for
 
 We make Iro AI, a competing app, so read this as an interested party. Every claim about Skilario below comes from its App Store listing, its published terms or a public company registry. Prices are US figures at the time of writing and change without notice. Last reviewed November 2026.
 
-## Who makes Skilario
+## Who makes Skilario?
 
 Skilario's terms name its operator as **Cherry Entertainment Limited**, a private company in Cyprus. The Cyprus company registry lists Cherry Entertainment Ltd as registered on **18 August 2025**, with its office in Nicosia. The same developer publishes **CherryShort**, a short-drama streaming app, on both app stores.
 
@@ -51,13 +51,15 @@ One more name you may see: Skilario's terms say the merchant of record for billi
 
 None of that counts against it. Every company is new once. It does mean there is almost no track record to judge it by, which is exactly when the fine print deserves the most weight.
 
-## What you actually get
+## What is Skilario, and what do you get?
+
+**Skilario, sometimes searched as Skilaro, is an AI-skills app from Cyprus-based Cherry Entertainment Ltd.**
 
 According to its App Store listing, Skilario teaches AI through **daily lessons of about 10 minutes**, covering ChatGPT, Claude and other popular tools. It promises real prompts you can copy and adapt for work, interactive lessons rather than videos, and a **certificate** when you finish a course. It pitches itself at beginners who feel overwhelmed by AI, professionals who want practical skills for their current job, and students.
 
 That is a reasonable product, and it is the same promise most apps in this category make. We have not paid for Skilario, so we are not rating the lesson quality here. The honest test takes one session: are you writing prompts and getting feedback on them, or reading examples and copying them? Both have value. Only one of them builds the skill.
 
-## What it costs, and how it renews
+## How much does Skilario cost?
 
 On the App Store, Skilario lists two subscriptions: **$19.99 a month** and **$79.99 a year**. Those are billed by Apple and behave like any other App Store subscription.
 
@@ -69,7 +71,7 @@ The website is different, and it appears to be where most customers buy. At the 
 
 This is the same structure used by Coursiv and similar AI course apps: sell on the web, open with a low first payment, renew at the regular price. None of it is illegal, and it is all written down. It does mean the number you remember agreeing to may not be the number on your next statement. Before you pay on the website, find the **renewal price and renewal date** on the checkout page and screenshot them. Our guide to [spotting an AI subscription trap](/blog/ai-subscription-traps) walks through that check in about a minute.
 
-## The refund policy, read closely
+## Can you get a refund from Skilario?
 
 This is the part to read before paying, because it is stricter than most. Skilario's terms say it **does not offer refunds**:
 
@@ -87,7 +89,7 @@ Three more clauses worth knowing:
 - **A 14-day window to dispute a charge.** If you think a charge is wrong you must tell Skilario in writing at support@skilario.com within 14 calendar days of the transaction, and the terms say missing it may forfeit your right to dispute the charge with them. Your card issuer runs its own dispute process under its own rules and deadlines.
 - **Binding arbitration.** Section 18 of the terms sends disputes to individual arbitration rather than court.
 
-## What the ratings do and don't tell you
+## What do Skilario reviews and complaints say?
 
 On Skilario's Trustpilot page, some reviewers praise lessons that show you how to do a task and then let you try it yourself. That is worth something. Two cautions before leaning on it:
 
@@ -113,7 +115,7 @@ For scale: **34 learning paths, 522 lessons and 3,000+ exercises across 23 exerc
 
 **What is Skilario?**
 
-Skilario is an AI-skills app that teaches tools like ChatGPT and Claude in daily lessons of about 10 minutes, with copyable prompts, interactive exercises and a certificate at the end. It is made by Cherry Entertainment Ltd, a Cyprus company, and sold on the App Store, Google Play and its own website, where most customers appear to buy.
+Skilario (sometimes searched as Skilaro) is an AI-skills app that teaches tools like ChatGPT and Claude in daily lessons of about 10 minutes, with copyable prompts, interactive exercises and a certificate at the end. It is made by Cherry Entertainment Ltd, a Cyprus company, and sold on the App Store, Google Play and its own website, where most customers appear to buy.
 
 **Is Skilario legit?**
 

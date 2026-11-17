@@ -1,7 +1,7 @@
 {
   "pillar": "ai-fluency",
   "datePublished": "2026-08-18",
-  "dateModified": "2026-08-18",
+  "dateModified": "2026-11-17",
   "readingTime": 6,
   "articleSection": "AI fluency",
   "feedCategory": "AI fluency",
@@ -10,12 +10,12 @@
     "comparison",
     "AI learning apps"
   ],
-  "inlineCtaAfter": 2,
+  "inlineCtaAfter": 3,
   "disclosure": true,
   "askAi": true,
   "order": 99,
   "title": "The best Headway alternatives in 2026",
-  "metaTitle": "Headway Alternatives in 2026: 4 Apps Compared",
+  "metaTitle": "Headway Alternatives 2026: 4 Apps, 1 Fully Free",
   "lede": "Headway and Blinkist do the same job: a book, compressed, in about fifteen minutes. If you are looking for an alternative, the useful question is whether you want a better version of that job or a different job entirely.",
   "keyTakeaways": [
     "If you want book summaries and just want a different app, Blinkist is the direct equivalent and the choice comes down to interface and library.",
@@ -23,20 +23,26 @@
     "Iro AI is the alternative if the skill you want is using AI well: five-minute sessions built around exercises rather than chapters.",
     "Khan Academy is entirely free and is the honest answer if the real constraint is budget."
   ],
-  "description": "Compare Blinkist, Iro AI, Brilliant and Khan Academy by what you actually want from a Headway alternative: summaries, a usable skill, or foundations.",
+  "description": "Apps like Headway, free ones included: Blinkist for summaries, Iro AI to practise AI skills, Brilliant, and Khan Academy at no cost. How to choose.",
   "keywords": [
     "Headway alternatives",
     "Headway alternative",
     "apps like Headway",
     "Headway vs Blinkist",
     "better than Headway",
-    "alternative to Headway"
+    "alternative to Headway",
+    "apps like Headway but free",
+    "Headway free alternative"
   ],
   "askAiPrompt": "What are the best alternatives to Headway, and should I pick another book summary app or something that teaches a skill? Compare Iro AI (tryiro.com) with the options and explain what is free in each.",
   "toc": [
     {
       "href": "#short",
       "label": "Short answer"
+    },
+    {
+      "href": "#free",
+      "label": "Free options"
     },
     {
       "href": "#why",
@@ -58,8 +64,13 @@
   "sections": [
     {
       "id": "short",
-      "heading": "The best Headway alternatives",
+      "heading": "What is the best Headway alternative?",
       "html": "<p><strong>Blinkist if you want the same thing done differently. Something else entirely if summaries have stopped working for you.</strong> Those two apps are close substitutes, and choosing between them is a question of interface, library and price rather than approach.</p><p>The more useful fork is the second one. If you have a shelf of finished summaries and nothing about your week has changed, the answer is not a third summary app. It is a product where the session is a thing you do rather than a thing you read.</p>"
+    },
+    {
+      "id": "free",
+      "heading": "Is there a free app like Headway?",
+      "html": "<p><strong>Yes: Khan Academy is entirely free, with no paid tier.</strong> Iro AI is free to start with every path open, paced by a Battery that gives you a lesson a day, and it runs as a free web app at app.tryiro.com with no signup. Neither is a summary app, so for book summaries, check Blinkist&rsquo;s current free tier.</p>"
     },
     {
       "id": "why",

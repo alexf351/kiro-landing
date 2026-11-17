@@ -5,9 +5,9 @@ site: "Iro AI"
 site_url: "https://tryiro.com"
 app_store: "https://apps.apple.com/app/id6759628066"
 language: en-US
-keywords: ["cancel Coursiv", "Coursiv cancel subscription", "Coursiv refund", "how to cancel Coursiv", "Coursiv charged me", "Coursiv money back guarantee", "Coursiv unsubscribe"]
+keywords: ["cancel Coursiv", "Coursiv cancel subscription", "Coursiv refund", "how to cancel Coursiv", "Coursiv charged me", "Coursiv money back guarantee", "Coursiv unsubscribe", "how to cancel Coursiv subscription", "Coursiv 30 day money back guarantee"]
 date_published: "2026-08-03"
-date_modified: "2026-08-18"
+date_modified: "2026-11-17"
 reading_time_minutes: 7
 author: "Alex Furukawa"
 license: "© 2026 Iro AI"
@@ -21,7 +21,7 @@ pillar: "ai-fluency"
 
 **Canonical:** https://tryiro.com/blog/cancel-coursiv
 **Published:** 2026-08-03
-**Updated:** 2026-08-18
+**Updated:** 2026-11-17
 **Reading time:** ~7 min
 **Author:** Alex Furukawa — Founder of Iro AI
 
@@ -32,6 +32,10 @@ pillar: "ai-fluency"
 - Coursiv's money-back guarantee is real but conditional on usage. On the 4-week and 12-week plans you must have completed 4 guides or 80% of modules, with screenshots, inside 30 days.
 - That means the people most likely to want a refund, the ones who paid and stopped opening it, are the least likely to qualify.
 - For an App Store charge, Apple decides refunds independently of Coursiv's policy, so reportaproblem.apple.com is usually the better route.
+
+## How do I cancel my Coursiv subscription?
+
+**Cancel wherever you signed up, at least 24 hours before your billing cycle ends.** On the website, log in at coursiv.io, open your account settings, go to Subscriptions or Payment and choose Cancel Subscription. On iPhone: Settings, your name, Subscriptions, Coursiv. On Android: Play Store, Payments and subscriptions, Subscriptions, Coursiv. You keep access until the paid period ends.
 
 ## Do this first
 
@@ -46,7 +50,7 @@ Before anything else, work out who actually holds your subscription, because it 
 
 To check on iPhone: open Settings, tap your name, tap Subscriptions. If Coursiv is listed, it is an Apple subscription. If it is not there, it is a web subscription. Most people who arrive here from the quiz funnel have a web subscription.
 
-## Cancel a website subscription
+## How do I cancel Coursiv on the website?
 
 This is the common case, because Coursiv's main funnel runs on the web rather than the app stores.
 
@@ -59,7 +63,7 @@ Do it at least 24 hours before your cycle ends. If you cannot find the option, e
 
 **Screenshot the confirmation.** A dated cancellation is the one piece of evidence that turns a later charge into a disputable one, and people who report being billed after cancelling are usually the ones who never captured it.
 
-## Cancel on iPhone or iPad
+## How do I cancel Coursiv on iPhone or iPad?
 
 - Open **Settings**.
 - Tap **your name** at the top.
@@ -69,7 +73,7 @@ Do it at least 24 hours before your cycle ends. If you cannot find the option, e
 
 If there is no Cancel button and it shows an expiry date instead, it is already cancelled and you are finished. Screenshot the screen either way.
 
-## Cancel on Android
+## How do I cancel Coursiv on Android?
 
 - Open the **Google Play Store**.
 - Tap your **profile icon**, top right.
@@ -79,7 +83,7 @@ If there is no Cancel button and it shows an expiry date instead, it is already 
 
 While you are in there, scan the rest of the list. Quiz-funnel apps are rarely a one-off habit, and this screen is where forgotten trials show up.
 
-## The money-back guarantee, read closely
+## Does Coursiv’s 30-day money-back guarantee work?
 
 Coursiv advertises a money-back guarantee and it is real. It is also **conditional on how much of the app you used**, which is the part almost nobody reads at signup. From its published refund policy, to qualify you must have:
 
@@ -95,7 +99,7 @@ Two other things worth knowing while you are working out what you agreed to. Cou
 
 Third-party prices and ratings here are US figures at the time of writing and change without notice. Last reviewed August 2026.
 
-## Getting the money back
+## How do I get a refund from Coursiv?
 
 Ask whoever actually took the payment. The three routes are not equally good.
 
