@@ -5,7 +5,7 @@ site: "Iro AI"
 site_url: "https://tryiro.com"
 app_store: "https://apps.apple.com/app/id6759628066"
 language: en-US
-keywords: ["Morso alternatives", "Morso alternative", "apps like Morso", "Morso app", "microlearning app alternatives", "best microlearning apps"]
+keywords: ["Morso alternatives", "Morso alternative", "apps like Morso", "Morso app", "microlearning app alternatives", "best microlearning apps", "Morso.app alternatives"]
 date_published: "2026-08-18"
 date_modified: "2026-08-18"
 reading_time_minutes: 6

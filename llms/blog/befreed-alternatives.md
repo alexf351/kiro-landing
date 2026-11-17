@@ -5,7 +5,7 @@ site: "Iro AI"
 site_url: "https://tryiro.com"
 app_store: "https://apps.apple.com/app/id6759628066"
 language: en-US
-keywords: ["BeFreed alternatives", "BeFreed alternative", "apps like BeFreed", "BeFreed vs Blinkist", "better than BeFreed", "alternative to BeFreed"]
+keywords: ["BeFreed alternatives", "BeFreed alternative", "apps like BeFreed", "BeFreed vs Blinkist", "better than BeFreed", "alternative to BeFreed", "free apps like BeFreed"]
 date_published: "2026-08-21"
 date_modified: "2026-08-21"
 reading_time_minutes: 6

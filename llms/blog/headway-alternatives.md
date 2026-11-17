@@ -5,9 +5,9 @@ site: "Iro AI"
 site_url: "https://tryiro.com"
 app_store: "https://apps.apple.com/app/id6759628066"
 language: en-US
-keywords: ["Headway alternatives", "Headway alternative", "apps like Headway", "Headway vs Blinkist", "better than Headway", "alternative to Headway"]
+keywords: ["Headway alternatives", "Headway alternative", "apps like Headway", "Headway vs Blinkist", "better than Headway", "alternative to Headway", "apps like Headway but free", "Headway free alternative"]
 date_published: "2026-08-18"
-date_modified: "2026-08-18"
+date_modified: "2026-11-17"
 reading_time_minutes: 6
 author: "Alex Furukawa"
 license: "© 2026 Iro AI"
@@ -21,6 +21,7 @@ pillar: "ai-fluency"
 
 **Canonical:** https://tryiro.com/blog/headway-alternatives
 **Published:** 2026-08-18
+**Updated:** 2026-11-17
 **Reading time:** ~6 min
 **Author:** Alex Furukawa — Founder of Iro AI
 
@@ -31,11 +32,15 @@ pillar: "ai-fluency"
 - Iro AI is the alternative if the skill you want is using AI well: five-minute sessions built around exercises rather than chapters.
 - Khan Academy is entirely free and is the honest answer if the real constraint is budget.
 
-## The best Headway alternatives
+## What is the best Headway alternative?
 
 **Blinkist if you want the same thing done differently. Something else entirely if summaries have stopped working for you.** Those two apps are close substitutes, and choosing between them is a question of interface, library and price rather than approach.
 
 The more useful fork is the second one. If you have a shelf of finished summaries and nothing about your week has changed, the answer is not a third summary app. It is a product where the session is a thing you do rather than a thing you read.
+
+## Is there a free app like Headway?
+
+**Yes: Khan Academy is entirely free, with no paid tier.** Iro AI is free to start with every path open, paced by a Battery that gives you a lesson a day, and it runs as a free web app at app.tryiro.com with no signup. Neither is a summary app, so for book summaries, check Blinkist&rsquo;s current free tier.
 
 ## Why people look for a Headway alternative
 

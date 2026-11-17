@@ -5,9 +5,9 @@ site: "Iro AI"
 site_url: "https://tryiro.com"
 app_store: "https://apps.apple.com/app/id6759628066"
 language: en-US
-keywords: ["Nibble alternatives", "Nibble alternative", "apps like Nibble", "Nibble app", "microlearning apps", "best bite-size learning apps"]
+keywords: ["Nibble alternatives", "Nibble alternative", "apps like Nibble", "Nibble app", "microlearning apps", "best bite-size learning apps", "free apps like Nibble", "Nibble free alternative"]
 date_published: "2026-08-18"
-date_modified: "2026-08-18"
+date_modified: "2026-11-17"
 reading_time_minutes: 6
 author: "Alex Furukawa"
 license: "© 2026 Iro AI"
@@ -21,6 +21,7 @@ pillar: "ai-fluency"
 
 **Canonical:** https://tryiro.com/blog/nibble-alternatives
 **Published:** 2026-08-18
+**Updated:** 2026-11-17
 **Reading time:** ~6 min
 **Author:** Alex Furukawa — Founder of Iro AI
 
@@ -97,6 +98,10 @@ Pick by subject rather than by app, because the format barely differs across the
 **Is Nibble free?**
 
 We could not confirm Nibble's current free tier or pricing from the company's own listing, so we are not printing a number. This category changes prices often and by region. Open the App Store or Google Play listing, read the in-app purchase section, and check the renewal price rather than the introductory one.
+
+**Is there a free app like Nibble?**
+
+Yes. Khan Academy is entirely free, with no paid tier. Iro AI is free to start with every one of its 34 paths open, paced by a Battery that gives you a lesson a day, and it runs as a free web app at app.tryiro.com with no signup. Pick the subject first, then the app.
 
 **Does five minutes a day actually work?**
 
