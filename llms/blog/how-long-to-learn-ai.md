@@ -67,6 +67,8 @@ You can compress the curve without cramming:
 
 This is exactly the loop a gamified app is built for: short reps, instant feedback, and a daily habit.
 
+Momentum in the first two days matters most. In our own [AI learning statistics](/ai-learning-statistics), 37% of beginners never finished a second lesson, and learners who did two lessons on their first day came back 58% of the time against 42% after one.
+
 ## How long does it take to learn to build AI?
 
 Building AI is a different timeline entirely. Learning to train, fine-tune, or engineer with models requires programming (usually Python), some math and statistics, and an understanding of machine learning — typically **months to years** of study. It's a worthwhile path for aspiring ML engineers, but it is not what most people need. For nearly everyone, "learning AI" means learning to use it well, and that's the fast, no-code path described above. See [how to learn AI without coding](/blog/how-to-learn-ai-without-coding).

@@ -77,7 +77,7 @@
     {
       "id": "meaning",
       "heading": "What it means: the divide is the finding",
-      "html": "<p>Two things are true at once in this data, and both survive every cut we have made of it.</p><p><strong>AI fluency is learnable and plenty of people have it.</strong> A median of 7, with a third of people at 9 or higher, shows the skills are absorbable: prompting, tool choice, knowing when a model is likely to hallucinate. These are not talent, they are reps.</p><p><strong>The spread refuses to close.</strong> About 4 in 10 people land at 6 or below and 14% score 3 or below. The distance between someone who scores 9 and someone who scores 3 is not trivia knowledge, it is the difference between reliably getting trustworthy output from AI and pasting a vague question into a chat box. That divide showed up in the early cold-traffic cohort, and it shows up again in the gap between Reddit and Google visitors.</p><p>If AI skills are becoming a workplace dividing line, this is what it looks like in miniature: the people who practise pull ahead, and the gap widens rather than narrows.</p>"
+      "html": "<p>Two things are true at once in this data, and both survive every cut we have made of it.</p><p><strong>AI fluency is learnable and plenty of people have it.</strong> A median of 7, with a third of people at 9 or higher, shows the skills are absorbable: prompting, tool choice, knowing when a model is likely to hallucinate. These are not talent, they are reps.</p><p><strong>The spread refuses to close.</strong> About 4 in 10 people land at 6 or below and 14% score 3 or below. The distance between someone who scores 9 and someone who scores 3 is not trivia knowledge, it is the difference between reliably getting trustworthy output from AI and pasting a vague question into a chat box. That divide showed up in the early cold-traffic cohort, and it shows up again in the gap between Reddit and Google visitors.</p><p>If AI skills are becoming a workplace dividing line, this is what it looks like in miniature: the people who practise pull ahead, and the gap widens rather than narrows.</p><p>For what happens once people start learning, see our <a href=\"/ai-learning-statistics\">AI learning statistics</a> from 339 Iro learners: where beginners drop off and what makes them come back.</p>"
     },
     {
       "id": "method",
@@ -136,7 +136,8 @@
     "/become-ai-fluent",
     "/blog/the-ai-fluency-pyramid",
     "/best-ai-learning-app",
-    "/how-to-learn-ai"
+    "/how-to-learn-ai",
+    "/ai-learning-statistics"
   ],
   "ogImage": "https://tryiro.com/assets/og/average-ai-literacy-score.png?v=20261008",
   "heroImage": "/assets/og/average-ai-literacy-score.png?v=20261008"

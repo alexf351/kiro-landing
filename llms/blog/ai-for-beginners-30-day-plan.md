@@ -70,6 +70,8 @@ Learn which tool fits each step. The [best free AI tools for daily work](/blog/b
 
 ## Keep the habit going
 
+The first days decide most of it. In Iro's [learner data](/ai-learning-statistics), 37% of people who finished a first lesson never finished a second, and most of those who came back did so the very next day.
+
 Thirty days is enough to get capable. Staying capable is about not stopping. The tool that beats every other tool is the one you open every day, and a streak is the cheapest way to make that automatic.
 
 Iro AI is built for exactly this: 5-minute gamified lessons, feedback on every exercise, and streaks that keep you coming back. Start free, and if you want to know your baseline first, take the [free AI IQ test](/quiz): 10 questions, 2 minutes, and it tells you your weakest topic.

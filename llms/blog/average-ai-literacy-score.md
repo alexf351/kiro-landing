@@ -99,6 +99,8 @@ Two things are true at once in this data, and both survive every cut we have mad
 
 If AI skills are becoming a workplace dividing line, this is what it looks like in miniature: the people who practise pull ahead, and the gap widens rather than narrows.
 
+For what happens once people start learning, see our [AI learning statistics](/ai-learning-statistics) from 339 Iro learners: where beginners drop off and what makes them come back.
+
 ## About this data (the honest version)
 
 What this is and is not:
