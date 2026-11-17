@@ -155,6 +155,30 @@ node blog-engine/generate-hero-image.mjs --force    # regenerate all
 node blog-engine/generate-hero-image.mjs --ai       # use the image API
 ```
 
+### Branded covers (mascot + headline)
+
+`tools/branded-covers.mjs` renders the richer Iro cover: site fonts, the real app
+icon as the mascot, an eyebrow (Review, Alternatives, Buyer's guide...), the
+headline and the part of the title after a colon as a subline. It writes the
+same `assets/og/<slug>.png`, so og:image, twitter:image and the on-page cover
+all switch over with no HTML change. Posts with their own hero art are skipped.
+Pages that are not blog posts (like `/ai-learning-statistics`) and per-slug copy
+overrides live in `covers.json`.
+
+```bash
+# once: headless Chrome deps, kept outside the repo
+mkdir -p ~/.iro-covers && (cd ~/.iro-covers && npm i puppeteer-core@23 @sparticuz/chromium@131)
+export COVER_DEPS=~/.iro-covers          # or CHROME_PATH=/path/to/Chrome on a Mac
+
+node blog-engine/tools/branded-covers.mjs --latest 10               # newest posts
+node blog-engine/tools/branded-covers.mjs ai-learning-statistics    # one page
+node blog-engine/tools/branded-covers.mjs --all                     # everything
+```
+
+Covers are palette-compressed to about 140 KB when `python3` with Pillow is
+installed. Note that `generate-hero-image.mjs --force` would overwrite branded
+covers with the plain text cards.
+
 ---
 
 ## SEO / GEO
