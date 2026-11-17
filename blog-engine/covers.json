@@ -1,11 +1,69 @@
 {
-  "_comment": "Branded cover settings for blog-engine/tools/branded-covers.mjs. 'pages' covers pages that are not blog posts (they have no content JSON). 'overrides' changes the eyebrow, headline or subline of any post or page by slug. 'sub' is the smaller line under the headline; leave it out to use the part of the title after a colon.",
+  "_comment": "Branded cover settings for blog-engine/tools/branded-covers.mjs. 'pages' covers pages that are not blog posts (they have no content JSON). 'overrides' changes the eyebrow, headline or subline of any post or page by slug. 'sub' is the smaller line under the headline; leave it out to use the part of the title after a colon. 'brands' are logos added beside the mascot when a post's headline (title before any colon) names the brand: 'logo' is the brand's own app icon, saved as-is in assets/brands/ (never redrawn), and 'match' lists the words to look for. Put 'logos': [] in an override to drop logos for a post, or a list of brand keys to choose them.",
   "pages": {
     "ai-learning-statistics": {
-      "eyebrow": "Original data · 2026",
+      "eyebrow": "Original data \u00b7 2026",
       "title": "AI learning statistics 2026",
       "sub": "How beginners actually learn AI, from 339 Iro learners"
     }
   },
-  "overrides": {}
+  "overrides": {},
+  "brands": {
+    "brilliant": {
+      "name": "Brilliant",
+      "logo": "assets/brands/brilliant.png",
+      "match": [
+        "Brilliant"
+      ]
+    },
+    "chatgpt": {
+      "name": "ChatGPT",
+      "logo": "assets/brands/chatgpt.png",
+      "match": [
+        "ChatGPT"
+      ]
+    },
+    "claude": {
+      "name": "Claude",
+      "logo": "assets/brands/claude.png",
+      "match": [
+        "Claude"
+      ]
+    },
+    "cosmo": {
+      "name": "Cosmo",
+      "logo": "assets/brands/cosmo.png",
+      "match": [
+        "Cosmo"
+      ]
+    },
+    "gemini": {
+      "name": "Gemini",
+      "logo": "assets/brands/gemini.png",
+      "match": [
+        "Gemini"
+      ]
+    },
+    "google": {
+      "name": "Google",
+      "logo": "assets/brands/google.png",
+      "match": [
+        "Google"
+      ]
+    },
+    "grok": {
+      "name": "Grok",
+      "logo": "assets/brands/grok.png",
+      "match": [
+        "Grok"
+      ]
+    },
+    "jobescape": {
+      "name": "Jobescape",
+      "logo": "assets/brands/jobescape.png",
+      "match": [
+        "Jobescape"
+      ]
+    }
+  }
 }
