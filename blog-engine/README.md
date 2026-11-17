@@ -175,9 +175,25 @@ node blog-engine/tools/branded-covers.mjs ai-learning-statistics    # one page
 node blog-engine/tools/branded-covers.mjs --all                     # everything
 ```
 
-Covers are palette-compressed to about 140 KB when `python3` with Pillow is
-installed. Note that `generate-hero-image.mjs --force` would overwrite branded
-covers with the plain text cards.
+Covers are palette-compressed to about 140 KB (about 210 KB with brand logos)
+when `python3` with Pillow is installed; `COVER_RAW=1` skips that. Note that
+`generate-hero-image.mjs --force` would overwrite branded covers with the plain
+text cards.
+
+**Brand logos.** When a post's headline (the title before any colon) names a
+brand listed under `brands` in `covers.json`, that brand's logo goes on a tile
+along the bottom of the mascot, up to 3 per cover. Posts that name more than 3
+registered brands get none. Logos live in `assets/brands/<key>.png` and are the
+brand's own App Store icon, saved as-is at 384×384 (never redrawn or recolored).
+To add a brand, save its icon there and add an entry:
+
+```jsonc
+"perplexity": { "name": "Perplexity", "logo": "assets/brands/perplexity.png", "match": ["Perplexity"] }
+```
+
+`match` is case-sensitive and whole-word. To choose logos by hand for one post,
+set `"logos": ["claude", "chatgpt"]` in its `overrides` entry, or `"logos": []`
+to drop them.
 
 ---
 

@@ -22,6 +22,12 @@
 //   export CHROME_PATH="/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
 //
 // Copy, eyebrows and pages that are not blog posts live in blog-engine/covers.json.
+//
+// Brand logos: when a post's headline (the title before any colon) names a brand
+// listed under "brands" in covers.json, that brand's logo goes on a tile beside
+// the Iro mascot, up to 3. Logos are the brands' own app icons, saved as-is in
+// assets/brands/ (never redrawn). Set "logos": [] in "overrides" to drop them
+// for a post, or list brand keys there to choose them by hand.
 
 import fs from 'node:fs';
 import os from 'node:os';
@@ -71,7 +77,45 @@ function eyebrowFor(p) {
   return 'Iro blog';
 }
 
+const BRANDS = cfg.brands || {};
+const MAX_LOGOS = 3;
+const reEsc = (t) => t.replace(/[.*+?^$()|[\]{}\\]/g, '\\$&');
+
+// Brands named in the headline, in the order they appear there. Whole words,
+// case-sensitive, so "Brilliant" the app matches and "brilliant" the adjective does not.
+function brandsIn(text) {
+  const hits = [];
+  for (const [key, b] of Object.entries(BRANDS)) {
+    for (const name of b.match || [b.name]) {
+      const m = new RegExp('(^|[^A-Za-z0-9])' + reEsc(name) + '(?![A-Za-z0-9])').exec(text);
+      if (m) { hits.push([m.index, key]); break; }
+    }
+  }
+  return hits.sort((a, b) => a[0] - b[0]).map(([, k]) => k);
+}
+
+function withLogos(c) {
+  let keys = Array.isArray(c.logos) ? c.logos : brandsIn(c.title);
+  if (!Array.isArray(c.logos) && keys.length > MAX_LOGOS) {
+    console.log(`  note ${c.slug}: headline names ${keys.length} brands, so no logos (set "logos" in covers.json overrides to pick some)`);
+    keys = [];
+  }
+  const logos = keys.map((k) => {
+    const b = BRANDS[k];
+    if (!b) throw new Error(`covers.json: unknown brand "${k}" for ${c.slug}`);
+    const file = path.join(ROOT, b.logo);
+    if (!fs.existsSync(file)) throw new Error(`covers.json: logo file missing for "${k}": ${b.logo}`);
+    return { key: k, name: b.name, file };
+  });
+  return { ...c, logos };
+}
+
 function coverFor(slug) {
+  const c = baseCover(slug);
+  return c && withLogos(c);
+}
+
+function baseCover(slug) {
   const o = cfg.overrides[slug] || {};
   if (cfg.pages[slug]) return { slug, ...cfg.pages[slug], ...o };
   const p = bySlug[slug];
@@ -101,6 +145,15 @@ const FONT_CSS = [
   font('Outfit', 'outfit-v15-latin.woff2', '400 800'),
   font('JetBrains Mono', 'jetbrains-mono-v24-latin.woff2', '400 700'),
 ].join('\n');
+
+// One logo gets a big tile; two or three share the row under the mascot.
+function logoHtml(logos) {
+  if (!logos || !logos.length) return '';
+  const t = logos.length === 1 ? 136 : 118;
+  return `<div class="logos" style="--t:${t}px">${logos
+    .map((l) => `<img src="${pathToFileURL(l.file).href}" alt="${esc(l.name)}">`)
+    .join('')}</div>`;
+}
 
 function html(c) {
   const icon = pathToFileURL(ICON).href;
@@ -137,7 +190,11 @@ h1{font-family:'Geist',sans-serif;font-weight:800;letter-spacing:-.035em;line-he
   filter:blur(26px);opacity:.75}
 .mascot img{position:relative;display:block;width:360px;height:360px;border-radius:82px;
   border:2px solid rgba(255,255,255,.16);box-shadow:0 30px 70px rgba(0,0,0,.6)}
-</style></head><body><div class="c"><div class="grid"></div>
+.has-logos .copy{width:618px}
+.logos{position:absolute;left:-46px;bottom:-40px;display:flex;gap:14px}
+.logos img{display:block;width:var(--t);height:var(--t);border-radius:calc(var(--t) * .225);
+  outline:6px solid #0A0E1A;box-shadow:0 18px 40px rgba(0,0,0,.55),0 0 0 7px rgba(255,255,255,.10)}
+</style></head><body><div class="c${c.logos && c.logos.length ? ' has-logos' : ''}"><div class="grid"></div>
 <div class="copy">
   <div class="brand"><img src="${icon}" alt="">Iro AI</div>
   <div class="mid">
@@ -147,7 +204,7 @@ h1{font-family:'Geist',sans-serif;font-weight:800;letter-spacing:-.035em;line-he
   </div>
   <div class="foot"><b>tryiro.com</b><i></i><span>Learn AI in 5 minutes a day</span></div>
 </div>
-<div class="mascot"><img src="${icon}" alt=""></div>
+<div class="mascot"><img src="${icon}" alt="">${logoHtml(c.logos)}</div>
 </div></body></html>`;
 }
 
@@ -185,14 +242,31 @@ async function browser() {
 
 // The cover doubles as the on-page hero, so keep it light: a straight screenshot
 // is ~450 KB; a 256-colour palette (median cut + k-means, dithered) is ~140 KB
-// with no visible banding. Needs python3 with Pillow; without it the full PNG stays.
+// with no visible banding. Brand logos have their own gradients, so when there
+// are logos the palette is split: 160 colours for the cover, 96 for the logo row
+// (~200 KB). Needs python3 with Pillow; without it the full PNG stays.
+// COVER_RAW=1 skips this and keeps the full screenshot.
 let warnedShrink = false;
-function shrink(file) {
-  const py = `import sys\nfrom PIL import Image\nf=sys.argv[1]\nim=Image.open(f).convert('RGB')\nim.quantize(colors=256,method=Image.Quantize.MEDIANCUT,kmeans=3,dither=Image.Dither.FLOYDSTEINBERG).save(f,optimize=True)`;
-  const r = spawnSync('python3', ['-I', '-c', py, file], { encoding: 'utf8' });
+function shrink(file, box) {
+  const py = [
+    'import sys, json',
+    'from PIL import Image',
+    'f = sys.argv[1]; box = json.loads(sys.argv[2])',
+    "im = Image.open(f).convert('RGB')",
+    'def pal(img, n):',
+    '    return img.quantize(colors=n, method=Image.Quantize.MEDIANCUT, kmeans=3).getpalette()[:n * 3]',
+    'if box:',
+    '    p = pal(im, 160) + pal(im.crop(tuple(box)), 96)',
+    "    pi = Image.new('P', (1, 1)); pi.putpalette(p + [0] * (768 - len(p)))",
+    '    q = im.quantize(palette=pi, dither=Image.Dither.FLOYDSTEINBERG)',
+    'else:',
+    '    q = im.quantize(colors=256, method=Image.Quantize.MEDIANCUT, kmeans=3, dither=Image.Dither.FLOYDSTEINBERG)',
+    'q.save(f, optimize=True)',
+  ].join('\n');
+  const r = spawnSync('python3', ['-I', '-c', py, file, JSON.stringify(box || null)], { encoding: 'utf8' });
   if (r.status !== 0 && !warnedShrink) {
     warnedShrink = true;
-    console.log('  (python3 + Pillow not found, so covers stay full size: pip install pillow)');
+    console.log(`  (could not compress covers, so they stay full size; needs python3 + Pillow: pip install pillow)${r.stderr ? '\n' + r.stderr.trim() : ''}`);
   }
   return Math.round(fs.statSync(file).size / 1024);
 }
@@ -222,10 +296,17 @@ for (const [s, c] of todo) {
   const fit = await page.evaluate(FIT);
   const out = path.join(OG_DIR, `${s}.png`);
   await page.screenshot({ path: out, type: 'png', clip: { x: 0, y: 0, width: 1200, height: 630 } });
-  const kb = shrink(out);
+  const box = await page.evaluate(() => {
+    const el = document.querySelector('.logos');
+    if (!el) return null;
+    const r = el.getBoundingClientRect();
+    return [Math.floor(r.left), Math.floor(r.top), Math.ceil(r.right), Math.ceil(r.bottom)];
+  });
+  const kb = process.env.COVER_RAW ? Math.round(fs.statSync(out).size / 1024) : shrink(out, box);
   const warn = !fit.fits || fit.subClipped ? '  ! check: text may not fit' : '';
   if (warn) bad++;
-  console.log(`  ${s}.png  headline ${fit.size}px, ${fit.lines} line(s), ${kb} KB${warn}`);
+  const lg = c.logos.length ? `, logos: ${c.logos.map((l) => l.key).join(' ')}` : '';
+  console.log(`  ${s}.png  headline ${fit.size}px, ${fit.lines} line(s), ${kb} KB${lg}${warn}`);
 }
 await b.close();
 fs.rmSync(tmp, { recursive: true, force: true });
