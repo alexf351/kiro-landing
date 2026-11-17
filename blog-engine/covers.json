@@ -1,0 +1,11 @@
+{
+  "_comment": "Branded cover settings for blog-engine/tools/branded-covers.mjs. 'pages' covers pages that are not blog posts (they have no content JSON). 'overrides' changes the eyebrow, headline or subline of any post or page by slug. 'sub' is the smaller line under the headline; leave it out to use the part of the title after a colon.",
+  "pages": {
+    "ai-learning-statistics": {
+      "eyebrow": "Original data · 2026",
+      "title": "AI learning statistics 2026",
+      "sub": "How beginners actually learn AI, from 339 Iro learners"
+    }
+  },
+  "overrides": {}
+}
