@@ -64,6 +64,8 @@ Three signs: you need fewer follow-up messages to get a usable answer, your prom
 
 Take the [AI Rank Quiz](/quiz) at the start and end of the 4 weeks to see the change.
 
+Ask why, too. In our [AI learning statistics](/ai-learning-statistics), beginners who asked the AI tutor a question on their first day were 1.7x as likely to come back, and the question most of them asked was "Why was mine wrong?"
+
 ## FAQ
 
 **How long does it take to learn prompt engineering?**

@@ -1,0 +1,16 @@
+finding,group,base,value,unit,sample_note
+learners,learners who finished at least one lesson,339,339,learners,"Apr 30 to Nov 17, 2026; founder, test and app store review accounts excluded"
+tutor_day_one,asked the AI tutor a question on day one,50,62,percent came back on a later day,"first lesson before Nov 10, 2026"
+tutor_day_one,never asked the AI tutor anything,234,36,percent came back on a later day,"first lesson before Nov 10, 2026"
+lessons_day_one,two or more lessons on day one,120,57.5,percent came back on a later day,"first lesson before Nov 10, 2026"
+lessons_day_one,one lesson on day one,204,41.7,percent came back on a later day,"first lesson before Nov 10, 2026"
+lesson_milestones,finished 1 lesson,339,100,percent of learners,distinct lessons per learner
+lesson_milestones,finished 2 or more lessons,339,62.8,percent of learners,distinct lessons per learner
+lesson_milestones,finished 5 or more lessons,339,33.9,percent of learners,distinct lessons per learner
+lesson_milestones,finished 10 or more lessons,339,17.7,percent of learners,distinct lessons per learner
+lesson_milestones,finished 25 or more lessons,339,6.5,percent of learners,distinct lessons per learner
+duel_speed,answered in under 8 seconds,544 answers from 25 players,71,percent correct,"15-second rounds, timeouts excluded; small sample"
+duel_speed,answered in 8 seconds or more,544 answers from 25 players,59,percent correct,"15-second rounds, timeouts excluded; small sample"
+custom_lessons,topic other than AI,67 lessons from 23 learners,57,percent of custom lessons,"tagged by keyword; small sample"
+custom_lessons,set to beginner level,67 lessons from 23 learners,73,percent of custom lessons,small sample
+weekday_activity,weekend vs weekday active learners,learner-days,-19,percent difference,"average per weekend day vs per weekday"

@@ -71,7 +71,7 @@
     {
       "id": "faster",
       "heading": "How to learn AI faster",
-      "html": "<p>You can compress the curve without cramming:</p><ul><li><strong>Practice actively.</strong> Write prompts yourself instead of watching others. Active recall is what makes skills stick.</li><li><strong>Use real tasks.</strong> Stakes make lessons memorable. Learn on work you actually have to do.</li><li><strong>Get feedback fast.</strong> Notice what worked and adjust. A tool that scores your prompts shortcuts months of guessing.</li><li><strong>Stay consistent.</strong> Daily beats sporadic. A streak is the most reliable predictor of whether people keep going.</li></ul><p>This is exactly the loop a gamified app is built for: short reps, instant feedback, and a daily habit.</p>"
+      "html": "<p>You can compress the curve without cramming:</p><ul><li><strong>Practice actively.</strong> Write prompts yourself instead of watching others. Active recall is what makes skills stick.</li><li><strong>Use real tasks.</strong> Stakes make lessons memorable. Learn on work you actually have to do.</li><li><strong>Get feedback fast.</strong> Notice what worked and adjust. A tool that scores your prompts shortcuts months of guessing.</li><li><strong>Stay consistent.</strong> Daily beats sporadic. A streak is the most reliable predictor of whether people keep going.</li></ul><p>This is exactly the loop a gamified app is built for: short reps, instant feedback, and a daily habit.</p><p>Momentum in the first two days matters most. In our own <a href=\"/ai-learning-statistics\">AI learning statistics</a>, 37% of beginners never finished a second lesson, and learners who did two lessons on their first day came back 58% of the time against 42% after one.</p>"
     },
     {
       "id": "building",
@@ -122,6 +122,7 @@
     "/blog/ai-for-beginners-30-day-plan",
     "/best-ai-learning-app",
     "/learn-chatgpt",
-    "/quiz"
+    "/quiz",
+    "/ai-learning-statistics"
   ]
 }

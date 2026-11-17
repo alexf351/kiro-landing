@@ -91,7 +91,7 @@
     {
       "id": "habit",
       "heading": "Keep the habit going",
-      "html": "<p>Thirty days is enough to get capable. Staying capable is about not stopping. The tool that beats every other tool is the one you open every day, and a streak is the cheapest way to make that automatic.</p><p>Iro AI is built for exactly this: 5-minute gamified lessons, feedback on every exercise, and streaks that keep you coming back. Start free, and if you want to know your baseline first, take the <a href=\"/quiz\">free AI IQ test</a>: 10 questions, 2 minutes, and it tells you your weakest topic.</p>"
+      "html": "<p>The first days decide most of it. In Iro's <a href=\"/ai-learning-statistics\">learner data</a>, 37% of people who finished a first lesson never finished a second, and most of those who came back did so the very next day.</p><p>Thirty days is enough to get capable. Staying capable is about not stopping. The tool that beats every other tool is the one you open every day, and a streak is the cheapest way to make that automatic.</p><p>Iro AI is built for exactly this: 5-minute gamified lessons, feedback on every exercise, and streaks that keep you coming back. Start free, and if you want to know your baseline first, take the <a href=\"/quiz\">free AI IQ test</a>: 10 questions, 2 minutes, and it tells you your weakest topic.</p>"
     }
   ],
   "readNext": [
@@ -147,6 +147,7 @@
     "/glossary",
     "/blog/what-is-ai-fluency",
     "/is-learning-ai-worth-it",
-    "/become-ai-fluent"
+    "/become-ai-fluent",
+    "/ai-learning-statistics"
   ]
 }

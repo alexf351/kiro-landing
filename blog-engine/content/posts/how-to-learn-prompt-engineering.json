@@ -80,7 +80,7 @@
     {
       "id": "improving",
       "heading": "How do you know you're improving?",
-      "html": "<p>Three signs: you need fewer follow-up messages to get a usable answer, your prompts work in more than one AI tool, and you can explain why a prompt failed.</p><p>Take the <a href=\"/quiz\">AI Rank Quiz</a> at the start and end of the 4 weeks to see the change.</p>"
+      "html": "<p>Three signs: you need fewer follow-up messages to get a usable answer, your prompts work in more than one AI tool, and you can explain why a prompt failed.</p><p>Take the <a href=\"/quiz\">AI Rank Quiz</a> at the start and end of the 4 weeks to see the change.</p><p>Ask why, too. In our <a href=\"/ai-learning-statistics\">AI learning statistics</a>, beginners who asked the AI tutor a question on their first day were 1.7x as likely to come back, and the question most of them asked was \"Why was mine wrong?\"</p>"
     }
   ],
   "readNext": [
@@ -134,6 +134,7 @@
     "/blog/are-ai-certifications-worth-it",
     "/blog/is-prompt-engineering-dead",
     "/prompt-engineering-app",
-    "/quiz"
+    "/quiz",
+    "/ai-learning-statistics"
   ]
 }

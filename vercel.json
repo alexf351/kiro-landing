@@ -803,6 +803,10 @@
       "destination": "/best-ai-learning-app.html"
     },
     {
+      "source": "/ai-learning-statistics",
+      "destination": "/ai-learning-statistics.html"
+    },
+    {
       "source": "/learn-claude",
       "destination": "/learn-claude.html"
     },
