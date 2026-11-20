@@ -237,10 +237,6 @@ section.enemy > .wrap{position:relative;z-index:1}
   border-radius:50%;background:var(--accent);box-shadow:0 0 0 4px rgba(var(--accent-rgb),.14)}
 .enemy-proof{margin:20px 0 0;padding-top:17px;font-size:14px;line-height:1.5;color:var(--ink-2);
   border-top:1px solid rgba(var(--accent-rgb),.16)}
-.enemy-fit{max-width:880px;margin:clamp(20px,2.4vw,28px) auto 0;padding:clamp(18px,2vw,24px) clamp(20px,2.4vw,28px);border-radius:var(--radius);border:1px solid var(--line);background:rgba(255,255,255,.02)}
-.enemy-fit-h{margin:0 0 10px;font-size:12px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:var(--accent)}
-.enemy-fit-list{margin:0;padding-left:18px;font-size:15px;line-height:1.55;color:var(--ink-2)}
-.enemy-fit-list li{margin:7px 0}.enemy-fit-list b{color:var(--ink,#F2F5FF)}
 @media(max-width:768px){
   .enemy-grid{grid-template-columns:1fr;max-width:520px}
   .enemy-col{padding:20px 22px}
@@ -497,8 +493,9 @@ nav.open .nav-menu span:last-child{top:21px;transform:rotate(-45deg)}
      this a non-scrolling box, and overflow-y stays visible so the glow and
      shadows above and below are untouched. */
   overflow-x:clip}
-.ia-stackvp{animation:ia-bob 7s ease-in-out infinite}
-@keyframes ia-bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-6px)}}
+/* No idle float animation and no will-change on the phones: both kept the
+   screenshots on a GPU layer drawn at sub-pixel offsets, which made the app
+   screens look blurry. The slot transitions still animate. */
 .device .glare{overflow:hidden}
 .ia-ph[data-slot="0"] .glare::after{content:'';position:absolute;top:-10%;bottom:-10%;left:0;width:45%;
   background:linear-gradient(90deg,transparent,rgba(255,255,255,.16),transparent);transform:translateX(-150%) skewX(-18deg);
@@ -516,8 +513,7 @@ nav.open .nav-menu span:last-child{top:21px;transform:rotate(-45deg)}
   pointer-events:none; /* gestures are handled on #iaStack; the staging phones sit
                           outside its box and would otherwise eat the arrow clicks */
   box-shadow:0 0 0 1px rgba(255,255,255,.05),0 26px 50px rgba(0,0,0,.55);
-  transition:transform .55s var(--ease),opacity .45s var(--ease),filter .45s var(--ease);
-  will-change:transform}
+  transition:transform .55s var(--ease),opacity .45s var(--ease),filter .45s var(--ease)}
 .ia-ph img{-webkit-user-drag:none;user-select:none}
 .ia-ph[data-slot="0"]{z-index:4;opacity:1;filter:none;
   transform:translateX(-50%) scale(1);
@@ -1712,14 +1708,6 @@ html.is-android .locale-suggest{bottom:12px;top:auto}
         <p class="enemy-proof">Entraînez-vous aux compétences que vous utiliserez vraiment au travail.</p>
       </div>
     </div>
-    <div class="enemy-fit reveal">
-      <p class="enemy-fit-h">Iro est-il fait pour vous ?</p>
-      <ul class="enemy-fit-list">
-        <li><b>Pour qui :</b> toute personne qui veut bien utiliser ChatGPT, Claude, Gemini et d’autres outils d’IA au travail ou au quotidien, cinq minutes par jour, même en partant de zéro.</li>
-        <li><b>Ce que ça règle :</b> les réponses génériques ou fausses de l’IA. Vous vous entraînez à écrire des prompts, à corriger des résultats faibles et à repérer les faits inventés.</li>
-        <li><b>Pas pour vous si :</b> vous voulez coder de l’IA ou apprendre les maths qui la sous-tendent, ou s’il vous faut un certificat accrédité ou un tableau de bord d’administration pour une équipe.</li>
-      </ul>
-    </div>
   </div>
 </section>
 
@@ -2443,8 +2431,11 @@ var RANK_TIERS = {
   // tree, not a catalogue. Re-sync from SKILL_PATH_MAP when the names are known.
   // deg: 0 = top, clockwise. Counts run 4/5/5/5/5/5 around the ring. 29 does not divide by six,
   // so one zone at four and five at five is the flattest split available.
+  // Emoji here are Unicode 6.0 (2010) or older text symbols so they render on
+  // every system font. Newer ones (brain, DNA, technologist, hammer
+  // and wrench) showed as empty boxes on some systems.
   var NODES = [
-    { id:'strategy',  emoji:'🧠', label:'STRATÉGIE',  deg:0,   color:'#9B8CFF',
+    { id:'strategy',  emoji:'💡', label:'STRATÉGIE',  deg:0,   color:'#9B8CFF',
       desc:'Planifiez, cadrez et décidez avec l’IA dans la boucle.',
       paths:[
         {n:'L’IA pour le business',s:'Business',emoji:'💰',c:'#FFD700'},
@@ -2454,7 +2445,7 @@ var RANK_TIERS = {
     { id:'research',  emoji:'🎯', label:'RECHERCHE',  deg:60,  color:'#3DDBFF',
       desc:'Trouvez, vérifiez et synthétisez l’information vite.',
       paths:[
-        {n:'Fondamentaux de l’IA',s:'Fondamentaux',emoji:'🧬',c:'#06D6A0'},
+        {n:'Fondamentaux de l’IA',s:'Fondamentaux',emoji:'📚',c:'#06D6A0'},
         {n:'L’IA pour la santé',s:'Santé',emoji:'🏥',c:'#9B8CFF'},
         {n:'Perplexity',s:'Perplexity',logo:'assets/perplexity-96.webp',c:'#4A90E2'},
         {n:'L’IA pour les études',s:'Études',emoji:'🎓',c:'#FF9F1C'},
@@ -2470,7 +2461,7 @@ var RANK_TIERS = {
     { id:'execution', emoji:'🚀', label:'EXÉCUTION', deg:180, color:'#FF9D4D',
       desc:'Transformez les réponses de l’IA en travail concret et livré.',
       paths:[
-        {n:'Outils d’IA',s:'Outils d’IA',emoji:'🛠️',c:'#FF6B35'},
+        {n:'Outils d’IA',s:'Outils d’IA',emoji:'🔧',c:'#FF6B35'},
         {n:'L’IA pour trouver un emploi',s:'Emploi',emoji:'💼',c:'#4C9AFF'},
         {n:'L’IA pour la productivité',s:'Productivité',emoji:'🎯',c:'#14B8A6'},
         {n:'Microsoft Copilot',s:'Copilot',logo:'assets/copilot-96.webp',c:'#2DD4BF'},
@@ -2479,8 +2470,8 @@ var RANK_TIERS = {
       desc:'Construisez des workflows et des agents qui tournent sans vous.',
       paths:[
         {n:'Automatisation par l’IA',s:'Automatisation',emoji:'⚡',c:'#A855F7'},
-        {n:'Agents IA',s:'Agents',emoji:'🧠',c:'#3A86FF'},
-        {n:'Vibe coding avec l’IA',s:'Vibe coding',emoji:'🧑‍💻',c:'#5B8CFF'},
+        {n:'Agents IA',s:'Agents',emoji:'👾',c:'#3A86FF'},
+        {n:'Vibe coding avec l’IA',s:'Vibe coding',emoji:'💻',c:'#5B8CFF'},
         {n:'Excel + IA',s:'Excel',emoji:'📈',c:'#22C55E'},
         {n:'L’IA pour les e-mails',s:'E-mails',emoji:'📧',c:'#F59E0B'}] },
     { id:'writing',   emoji:'✍️', label:'ÉCRITURE',   deg:300, color:'#C78BF0',
