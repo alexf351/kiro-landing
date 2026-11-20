@@ -146,6 +146,83 @@ for (const p of pillars) {
 
 const postUrl = (p) => `${D}/blog/${p.slug}`;
 const pillarUrl = (p) => `${D}/blog/${p.slug}`;
+
+// ---------- translations ----------
+// A translated post lives at content/posts-i18n/<lang>/<slug>.json: the English
+// post's JSON with its readable strings translated (plus `lang` and
+// `translatedFrom`, the English dateModified it was translated from). It is
+// merged over the English post, rendered at /<lang>/blog/<slug> with the page
+// chrome from i18n/blog-ui.json, and tied to the English page by hreflang in
+// both directions (x-default = English) and by sitemap xhtml:link alternates.
+// The blog index, feeds and LLM mirrors stay English-only.
+const UI = JSON.parse(fs.readFileSync(path.join(__dirname, 'i18n/blog-ui.json'), 'utf8')).locales;
+const postBySlug = Object.fromEntries(posts.map((p) => [p.slug, p]));
+const translations = {}; // slug -> { lang: merged post }
+{
+  const dir = path.join(CONTENT, 'posts-i18n');
+  const langs = fs.existsSync(dir) ? fs.readdirSync(dir).filter((l) => fs.statSync(path.join(dir, l)).isDirectory()).sort() : [];
+  for (const lang of langs) {
+    if (!UI[lang]) {
+      console.warn(`  ! posts-i18n/${lang}: no page chrome for "${lang}" in i18n/blog-ui.json, skipped`);
+      continue;
+    }
+    for (const f of fs.readdirSync(path.join(dir, lang)).filter((x) => x.endsWith('.json')).sort()) {
+      const tr = JSON.parse(fs.readFileSync(path.join(dir, lang, f), 'utf8'));
+      if (tr.draft) continue;
+      const base = postBySlug[tr.slug];
+      if (!base) {
+        console.warn(`  ! posts-i18n/${lang}/${f}: no English post "${tr.slug}", skipped`);
+        continue;
+      }
+      if (tr.translatedFrom && (base.dateModified || base.datePublished) > tr.translatedFrom)
+        console.warn(`  ! posts-i18n/${lang}/${tr.slug}: English changed on ${base.dateModified} after this translation (${tr.translatedFrom}); re-translate the changed parts`);
+      (translations[tr.slug] ||= {})[lang] = {
+        ...base,
+        ...tr,
+        lang,
+        hero: base.hero ? { ...base.hero, ...(tr.hero || {}) } : tr.hero,
+      };
+    }
+  }
+}
+const translatedPosts = Object.values(translations).flatMap((byLang) => Object.values(byLang));
+const locPostUrl = (p, lang) => (lang ? `${D}/${lang}/blog/${p.slug}` : postUrl(p));
+// Every language version of a post, English first: [{ lang, hreflang, url }].
+const versionsOf = (slug) => {
+  const t = translations[slug];
+  if (!t) return [];
+  const p = postBySlug[slug];
+  return [
+    { lang: null, hreflang: 'en', url: postUrl(p) },
+    ...Object.keys(t).sort().map((l) => ({ lang: l, hreflang: UI[l].hreflang, url: locPostUrl(p, l) })),
+  ];
+};
+// Point a translated page's internal blog links at the same-language version
+// when one exists, and the homepage at the localized homepage.
+const localizeHrefs = (html, lang) =>
+  String(html).replace(/href="(\/[^"#]*)(#[^"]*)?"/g, (m, href, hash = '') => {
+    if (href === '/') return `href="${UI[lang].home}${hash}"`;
+    const s = href.match(/^\/blog\/([^/]+)$/);
+    if (s && translations[s[1]] && translations[s[1]][lang]) return `href="/${lang}/blog/${s[1]}${hash}"`;
+    return m;
+  });
+// The link line under the byline: each other language version, labelled in its own language.
+// Dates on translated pages read the local way, e.g. "4. November 2026".
+const locDate = (d, T) =>
+  new Date(`${d}T00:00:00Z`).toLocaleDateString(T.htmlLang, { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC' });
+const langSwitch = (slug, lang) => {
+  const links = versionsOf(slug)
+    .filter((v) => v.lang !== lang)
+    .map((v) => {
+      const label = v.lang ? UI[v.lang].switchLabel : 'Read in English';
+      const href = v.url.replace(D, '');
+      return `<a href="${href}" hreflang="${v.hreflang}" lang="${v.hreflang}">${esc(label)}</a>`;
+    });
+  return links.length ? `\n<p class="meta lang-switch"><span>${links.join(' · ')}</span></p>` : '';
+};
+// The localized app screenshot when one exists (assets/screens/<lang>/), else the English one.
+const localScreen = (name, lang) =>
+  fs.existsSync(path.join(ROOT, `assets/screens/${lang}/${name}.webp`)) ? `/assets/screens/${lang}/${name}.webp` : `/assets/screens/${name}.webp`;
 const og = (slug) => `${D}/assets/og/${slug}.png`;
 // Generated hero art (blog-engine/tools/gen-hero-images.mjs) sets post.hero = {slug, alt, widths, width, height, fallback}.
 // Rendered as a <picture> with a WebP srcset and a JPEG fallback; preloaded in <head> because it is the LCP element.
@@ -166,11 +243,15 @@ const ASK_AI_DEFAULT_PROMPT =
   'What is Iro AI (tryiro.com)? Summarize what the app teaches, how the free tier and pricing work, and how it compares to other AI learning apps like Coursiv or Learnova.';
 // Opt-in per post via `askAi: true`, with an optional page-specific
 // `askAiPrompt` so a comparison page can pre-fill its own comparison.
-function askAiBlock(prompt, placement) {
+function askAiBlock(prompt, placement, T = null) {
   const q = encodeURIComponent(prompt || ASK_AI_DEFAULT_PROMPT);
   const chips = ASK_AI_ENGINES.map(([name, key, base]) =>
     askAiChip(name, key, `${base}${q}`)).join('');
-  return `<section class="related askai"><h2>Don't take our word for it. Ask any AI.</h2><p class="askai-sub">Each button opens the assistant with the question pre-filled. We publish <a href="/llms.txt">llms.txt</a> and <a href="/ai-info">a reference page for AI assistants</a> so they get the facts right.</p><div class="askai-chips">${chips}</div></section>
+  const heading = T ? T.askAiHeading : "Don't take our word for it. Ask any AI.";
+  const sub = T
+    ? T.askAiSub
+    : 'Each button opens the assistant with the question pre-filled. We publish <a href="/llms.txt">llms.txt</a> and <a href="/ai-info">a reference page for AI assistants</a> so they get the facts right.';
+  return `<section class="related askai"><h2>${heading}</h2><p class="askai-sub">${sub}</p><div class="askai-chips">${chips}</div></section>
 <script>document.querySelectorAll('.askai-chip').forEach(function(a){a.addEventListener('click',function(){if(window.posthog)posthog.capture('ask_ai_clicked',{engine:a.dataset.engine,placement:'${placement}'});});});</script>`;
 }
 
@@ -246,21 +327,25 @@ const STYLE = `*{box-sizing:border-box}body{margin:0;font-family:Inter,ui-sans-s
 
 `;
 
-const NAV = `<header class="nav"><a class="brand" href="/"><img src="${cfg.icons.brand}" alt="" width="28" height="28"/>Iro AI</a><nav class="nav-links">${cfg.nav
+const navHtml = (T = null) => `<header class="nav"><a class="brand" href="${T ? T.home : '/'}"><img src="${cfg.icons.brand}" alt="" width="28" height="28"/>Iro AI</a><nav class="nav-links">${(T ? T.nav : cfg.nav)
   .map((n) => `<a href="${n.href}">${n.label}</a>`)
   .join('')}</nav></header>`;
+const NAV = navHtml();
 
-const FOOTER = `<footer class="footer"><nav>${cfg.footer
-  .map((f) => `<a href="${f.href}"${f.external ? ' target="_blank" rel="noopener"' : ''}>${f.label}</a>`)
-  .join('')}</nav><p>${cfg.copyright}. ${cfg.tagline}</p></footer>`;
+// Translated pages keep the same footer links, with labels from blog-ui.json.
+const footerHtml = (T = null) => `<footer class="footer"><nav>${cfg.footer
+  .map((f) => `<a href="${f.href}"${f.external ? ' target="_blank" rel="noopener"' : ''}>${(T && T.footer[f.href]) || f.label}</a>`)
+  .join('')}</nav><p>${cfg.copyright}. ${T ? T.tagline : cfg.tagline}</p></footer>`;
+const FOOTER = footerHtml();
 
 // A post can override the CTA pitch (heading/body only) with `cta` in its JSON,
 // e.g. cancel/refund posts where the default "practice this" pitch doesn't fit.
 // Buttons, links and tracking stay the shared ones.
-const ctaBox = (slug, override = {}) =>
-  `<div class="cta-box"><p class="cta-h">${override.heading || cfg.cta.heading}</p><p>${override.body || cfg.cta.body}</p><div class="cta-row"><a class="btn" href="${esc(
+// `base` swaps in a translated default pitch and button labels (blog-ui.json).
+const ctaBox = (slug, override = {}, base = cfg.cta) =>
+  `<div class="cta-box"><p class="cta-h">${override.heading || base.heading}</p><p>${override.body || base.body}</p><div class="cta-row"><a class="btn" href="${esc(
     `${cfg.appStoreUrl}?utm_source=blog&utm_medium=inline&utm_campaign=${slug}`
-  )}">${cfg.cta.primaryLabel}</a><a class="btn secondary" href="${cfg.cta.secondaryHref}">${cfg.cta.secondaryLabel}</a></div></div>`;
+  )}">${base.primaryLabel}</a><a class="btn secondary" href="${cfg.cta.secondaryHref}">${base.secondaryLabel}</a></div></div>`;
 
 // Shared <head> alternate/meta blocks reused across page types.
 // Fonts are self-hosted (assets/fonts/fonts.css) so nothing third-party loads
@@ -282,7 +367,12 @@ const ANALYTICS = `<script src="/consent.js"></script>
 
 // ---------- post renderer ----------
 function renderPost(post) {
-  const url = postUrl(post);
+  // Translated posts carry `lang`; T is their page chrome (null for English).
+  const lang = post.lang || null;
+  const T = lang ? UI[lang] : null;
+  const url = locPostUrl(post, lang);
+  const versions = versionsOf(post.slug);
+  const enUrl = postUrl(post);
   const title = post.title;
   // The <title> tag carries the keywords; the <h1> reads like a sentence. Set
   // `metaTitle` when the two should differ (SEO title vs on-page headline).
@@ -296,19 +386,20 @@ function renderPost(post) {
   const dm = post.dateModified || dp;
   const rt = post.readingTime;
   const kw = post.keywords.join(', ');
-  const pillar = post.pillar ? pillarBySlug[post.pillar] : null;
+  // The pillar hubs are English-only, so a translation does not link up to one.
+  const pillar = post.pillar && !lang ? pillarBySlug[post.pillar] : null;
   const section = post.articleSection || cfg.articleSection;
 
   // Breadcrumb (adds the pillar level when the post belongs to a cluster).
   const crumbs = [
-    { '@type': 'ListItem', position: 1, name: 'Iro AI', item: D + '/' },
-    { '@type': 'ListItem', position: 2, name: 'Blog', item: D + '/blog' },
+    { '@type': 'ListItem', position: 1, name: T ? T.crumbHome : 'Iro AI', item: D + (T ? T.home : '/') },
+    { '@type': 'ListItem', position: 2, name: T ? T.crumbBlog : 'Blog', item: D + '/blog' },
   ];
   if (pillar) crumbs.push({ '@type': 'ListItem', position: 3, name: pillar.title, item: pillarUrl(pillar) });
   crumbs.push({ '@type': 'ListItem', position: crumbs.length + 1, name: title, item: url });
 
   // A post may override the author bio (e.g. a pronoun-free version) with `authorBio`.
-  const au = post.authorBio ? { ...cfg.blogAuthor, bio: post.authorBio } : cfg.blogAuthor;
+  const au = T ? { ...cfg.blogAuthor, bio: T.authorBio } : post.authorBio ? { ...cfg.blogAuthor, bio: post.authorBio } : cfg.blogAuthor;
   // Real word count (entity signal) from the rendered body + lede.
   const wordCount = stripTags([post.lede, ...(post.keyTakeaways || []), ...post.sections.map((s) => s.html)].join(' '))
     .split(/\s+/)
@@ -337,7 +428,11 @@ function renderPost(post) {
     datePublished: dp,
     dateModified: dm,
     wordCount,
-    inLanguage: 'en-US',
+    inLanguage: T ? T.inLanguage : 'en-US',
+    ...(T ? { translationOfWork: { '@type': 'BlogPosting', '@id': enUrl + '#post', url: enUrl, inLanguage: 'en-US' } } : {}),
+    ...(!T && versions.length
+      ? { workTranslation: versions.filter((v) => v.lang).map((v) => ({ '@type': 'BlogPosting', '@id': v.url + '#post', url: v.url, inLanguage: UI[v.lang].inLanguage })) }
+      : {}),
     isAccessibleForFree: true,
     isPartOf: { '@type': 'Blog', '@id': D + '/blog#blog', name: 'Iro AI Blog', url: D + '/blog' },
     author: authorNode,
@@ -415,12 +510,18 @@ function renderPost(post) {
     .map((r) => `<link rel="related" href="${abs(typeof r === 'string' ? r : r.href)}"/>`)
     .join('\n');
   const toc = post.toc.map((t) => `<a href="${t.href}">${t.label}</a>`).join('');
+  const L = T || {
+    keyTakeaways: 'Key takeaways', whoIroIsFor: 'Who Iro is for', fitFor: 'For', fitFixes: 'What it fixes', fitNotFit: 'Not a fit if',
+    disclosure: '<strong>Editorial note:</strong> Iro AI is our app. Where it appears below we say so, and it has to earn its spot by the same criteria as everything else.',
+    inThisPost: 'In this post', readNext: 'Read next', faq: 'FAQ', aboutAuthor: 'About the author',
+  };
+  const tx = (h) => (lang ? localizeHrefs(h, lang) : h);
 
   // Key takeaways box — the highest-leverage GEO block. Sits at the very top of
   // the body so answer engines lift it almost verbatim into summaries.
   const takeaways = (post.keyTakeaways && post.keyTakeaways.length)
-    ? `<aside class="key-takeaways" aria-label="Key takeaways"><h2>Key takeaways</h2><ul>${post.keyTakeaways
-        .map((t) => `<li>${t}</li>`)
+    ? `<aside class="key-takeaways" aria-label="${L.keyTakeaways}"><h2>${L.keyTakeaways}</h2><ul>${post.keyTakeaways
+        .map((t) => `<li>${tx(t)}</li>`)
         .join('')}</ul></aside>`
     : '';
 
@@ -428,29 +529,38 @@ function renderPost(post) {
   // wrong pick. Sits under the takeaways so a buyer (or an answer engine) can
   // judge fit before reading the comparison. Set `"fit": { forWho, fixes, notFit }`.
   const fit = post.fit
-    ? `<aside class="key-takeaways fit" aria-label="Who Iro is for"><h2>Who Iro is for</h2><ul><li><strong>For:</strong> ${post.fit.forWho}</li><li><strong>What it fixes:</strong> ${post.fit.fixes}</li><li><strong>Not a fit if:</strong> ${post.fit.notFit}</li></ul></aside>`
+    ? `<aside class="key-takeaways fit" aria-label="${L.whoIroIsFor}"><h2>${L.whoIroIsFor}</h2><ul><li><strong>${L.fitFor}:</strong> ${tx(post.fit.forWho)}</li><li><strong>${L.fitFixes}:</strong> ${tx(post.fit.fixes)}</li><li><strong>${L.fitNotFit}:</strong> ${tx(post.fit.notFit)}</li></ul></aside>`
     : '';
 
   // Editorial disclosure for posts that rank Iro against competitors. This used
   // to be hand-injected into the built HTML, which meant every rebuild silently
   // dropped it — set `"disclosure": true` on the post instead.
   const disclosure = post.disclosure
-    ? `<p class="disclosure"><strong>Editorial note:</strong> Iro AI is our app. Where it appears below we say so, and it has to earn its spot by the same criteria as everything else.</p>`
+    ? `<p class="disclosure">${L.disclosure}</p>`
     : '';
 
   // Content body: sections, with an inline CTA after the Nth section + a closing CTA.
   const after = (post.inlineCtaAfter || 2) - 1;
-  const lines = [takeaways, fit, disclosure, `<div class="toc"><strong>In this post</strong>${toc}</div>`].filter(Boolean);
+  const lines = [takeaways, fit, disclosure, `<div class="toc"><strong>${L.inThisPost}</strong>${toc}</div>`].filter(Boolean);
+  const ctaBase = T ? { ...cfg.cta, ...T.cta } : cfg.cta;
   post.sections.forEach((s, i) => {
     lines.push(`<h2 id="${s.id}">${s.heading}</h2>`);
-    lines.push(s.html);
-    if (i === after) lines.push(ctaBox(post.slug, post.cta));
+    lines.push(tx(s.html));
+    if (i === after) lines.push(ctaBox(post.slug, post.cta, ctaBase));
   });
   lines.push('');
-  lines.push(ctaBox(post.slug, post.cta));
+  lines.push(ctaBox(post.slug, post.cta, ctaBase));
   const content = lines.join('\n');
 
-  const readNext = post.readNext.map((r) => `<li><a href="${r.href}">${r.label}</a></li>`).join('');
+  // On a translation, a Read next link with no same-language version says it is in English.
+  const readNext = post.readNext
+    .map((r) => {
+      if (!lang) return `<li><a href="${r.href}">${r.label}</a></li>`;
+      const href = tx(`href="${r.href}"`).slice(6, -1);
+      const en = href === r.href && r.href !== '/' ? ` <span lang="${T.htmlLang}">${T.inEnglish}</span>` : '';
+      return `<li><a href="${href}"${en ? ' hreflang="en"' : ''}>${r.label}</a>${en}</li>`;
+    })
+    .join('');
   // Surface curated non-blog `related` targets (path/topic/money pages) as visible
   // links — until now they rendered only as invisible <link rel="related"> head
   // tags, so the cross-cluster equity never reached crawlers or readers.
@@ -474,15 +584,16 @@ function renderPost(post) {
       return `<li><a href="${r.href}">${esc(label)}</a></li>`;
     })
     .join('');
-  const exploreBlock = exploreLinks
+  // Explore labels come from the English pages' titles, so translations skip the block.
+  const exploreBlock = exploreLinks && !lang
     ? `\n<section class="related"><h2>Explore on Iro</h2><ul>${exploreLinks}</ul></section>`
     : '';
-  const faq = post.faq.map((f) => `<details><summary>${f.q}</summary><p>${f.a}</p></details>`).join('');
+  const faq = post.faq.map((f) => `<details><summary>${f.q}</summary><p>${tx(f.a)}</p></details>`).join('');
 
   const pillarMeta = pillar ? `<span><a href="/blog/${pillar.slug}">${esc(pillar.shortName || pillar.title)}</a></span>` : '';
 
   return `<!doctype html>
-<html lang="en">
+<html lang="${T ? T.htmlLang : 'en'}">
 <head>
 <meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
@@ -503,15 +614,15 @@ function renderPost(post) {
 <meta name="DC.title" content="${esc(metaTitle)} | Iro AI"/>
 <meta name="DC.creator" content="${esc(au.name)}"/>
 <meta name="DC.publisher" content="Iro AI"/>
-<meta name="DC.language" content="en-US"/>
+<meta name="DC.language" content="${T ? T.inLanguage : 'en-US'}"/>
 <meta name="DC.rights" content="${cfg.copyright}"/>
 <meta name="DC.source" content="${D}"/>
 <meta name="DC.date" content="${dp}"/>
 <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"/>
 <meta name="theme-color" content="#0A0E1A"/>
 <link rel="canonical" href="${url}"/>
-<link rel="alternate" hreflang="en" href="${url}"/>
-<link rel="alternate" hreflang="x-default" href="${url}"/>
+${(versions.length ? versions : [{ hreflang: 'en', url }]).map((v) => `<link rel="alternate" hreflang="${v.hreflang}" href="${v.url}"/>`).join('\n')}
+<link rel="alternate" hreflang="x-default" href="${enUrl}"/>
 <link rel="alternate" type="text/plain" title="LLM-readable product summary" href="/llms.txt"/>
 <link rel="alternate" type="text/plain" title="Detailed LLM-readable product reference" href="/llms-full.txt"/>
 <link rel="alternate" type="text/plain" title="AI assistant and crawler policy" href="/ai.txt"/>
@@ -520,8 +631,7 @@ function renderPost(post) {
 <link rel="dns-prefetch" href="//apps.apple.com"/>
 <link rel="alternate" type="application/atom+xml" title="Iro AI changelog (Atom)" href="/atom.xml"/>
 <link rel="alternate" type="application/feed+json" title="Iro AI changelog (JSON Feed)" href="/feed.json"/>
-<link rel="alternate" type="text/markdown" title="Post in Markdown" href="${D}/llms/blog/${post.slug}.md"/>
-<link rel="manifest" href="/manifest.json"/>
+${T ? '' : `<link rel="alternate" type="text/markdown" title="Post in Markdown" href="${D}/llms/blog/${post.slug}.md"/>\n`}<link rel="manifest" href="/manifest.json"/>
 <link rel="alternate" type="application/ld+json" title="Iro AI machine-readable product feed" href="/iro.json"/>
 <meta property="article:published_time" content="${iso(dp)}"/>
 <meta property="article:modified_time" content="${iso(dm)}"/>
@@ -535,7 +645,7 @@ function renderPost(post) {
 <meta property="og:url" content="${url}"/>
 <meta property="og:type" content="article"/>
 <meta property="og:site_name" content="Iro AI"/>
-<meta property="og:locale" content="en_US"/>
+<meta property="og:locale" content="${T ? T.ogLocale : 'en_US'}"/>${versions.filter((v) => v.lang !== lang).map((v) => `\n<meta property="og:locale:alternate" content="${v.lang ? UI[v.lang].ogLocale : 'en_US'}"/>`).join('')}
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:site" content="${cfg.twitterSite}"/>
 <meta name="twitter:title" content="${esc(metaTitle)}"/>
@@ -554,24 +664,24 @@ ${relatedLinks}
 ${ANALYTICS}
 </head>
 <body><div class="page">
-${NAV}
+${T ? navHtml(T) : NAV}
 <main>
 <article class="hero">
-<p class="eyebrow">${cfg.blog.heroEyebrow}</p>
+<p class="eyebrow">${T ? T.eyebrow : cfg.blog.heroEyebrow}</p>
 <h1>${title}</h1>
 <p class="lede">${post.lede}</p>
-<p class="meta"><span>By <a href="${au.url}" rel="author" target="_blank">${esc(au.name)}</a></span><span><time datetime="${dp}">Published ${dp}</time></span>${dm !== dp ? `<span><time datetime="${dm}">Updated ${dm}</time></span>` : ''}<span>~${rt} min read</span>${pillarMeta}</p>${post.updatedNote ? `\n<p class="meta"><span>${esc(post.updatedNote)}</span></p>` : ''}
+<p class="meta"><span>${T ? T.by : 'By'} <a href="${au.url}" rel="author" target="_blank">${esc(au.name)}</a></span><span><time datetime="${dp}">${T ? T.published : 'Published'} ${T ? locDate(dp, T) : dp}</time></span>${dm !== dp ? `<span><time datetime="${dm}">${T ? T.updated : 'Updated'} ${T ? locDate(dm, T) : dm}</time></span>` : ''}<span>${T ? T.minRead.replace('{n}', rt) : `~${rt} min read`}</span>${pillarMeta}</p>${post.updatedNote ? `\n<p class="meta"><span>${esc(post.updatedNote)}</span></p>` : ''}${T ? `\n<p class="meta"><span>${T.translatedNote.replace('{href}', enUrl.replace(D, '')).replace('{date}', locDate(postBySlug[post.slug].dateModified || postBySlug[post.slug].datePublished, T))}</span></p>` : ''}${langSwitch(post.slug, lang)}
 ${post.hero ? heroPicture(post.hero) : `<img class="hero-img" src="${heroSrc}" alt="${esc(title)}" width="1200" height="630"/>`}
 </article>
 <div class="content">
 ${content}
 </div>
-${bottomBanner({ variant: bannerVariant(post.slug), slug: post.slug })}
-<section class="related"><h2>Read next</h2><ul>${readNext}</ul></section>${exploreBlock}
-<section class="faq"><h2>FAQ</h2>${faq}</section>${post.askAi ? '\n' + askAiBlock(post.askAiPrompt, 'blog:' + post.slug) : ''}
-<section class="related"><h2>About the author</h2><ul><li><a href="${au.url}" rel="author" target="_blank">${esc(au.name)}</a><p>${esc(au.bio)}</p></li></ul></section>
+${T ? bottomBanner({ variant: bannerVariant(post.slug), slug: post.slug, image: localScreen('learning-path', lang), text: T.banner }) : bottomBanner({ variant: bannerVariant(post.slug), slug: post.slug })}
+<section class="related"><h2>${L.readNext}</h2><ul>${readNext}</ul></section>${exploreBlock}
+<section class="faq"><h2>${L.faq}</h2>${faq}</section>${post.askAi ? '\n' + askAiBlock(post.askAiPrompt, 'blog:' + (lang ? lang + '/' : '') + post.slug, T) : ''}
+<section class="related"><h2>${L.aboutAuthor}</h2><ul><li><a href="${au.url}" rel="author" target="_blank">${esc(au.name)}</a><p>${esc(au.bio)}</p></li></ul></section>
 </main>
-${FOOTER}
+${T ? footerHtml(T) : FOOTER}
 </div></body></html>
 `;
 }
@@ -1071,8 +1181,11 @@ function renderJsonFeed() {
 
 // ---------- sitemap ----------
 function renderSitemap() {
-  const entry = (loc, lastmod, freq, prio, imgLoc, imgTitle) => `  <url>
-    <loc>${loc}</loc>
+  // `alts` (language versions of a translated post) adds xhtml:link alternates.
+  const entry = (loc, lastmod, freq, prio, imgLoc, imgTitle, alts = []) => `  <url>
+    <loc>${loc}</loc>${alts
+      .map((v) => `\n    <xhtml:link rel="alternate" hreflang="${v.hreflang}" href="${v.url}"/>`)
+      .join('')}${alts.length ? `\n    <xhtml:link rel="alternate" hreflang="x-default" href="${alts[0].url}"/>` : ''}
     <lastmod>${lastmod}</lastmod>
     <changefreq>${freq}</changefreq>
     <priority>${prio}</priority>
@@ -1092,11 +1205,16 @@ function renderSitemap() {
     urls.push(entry(pillarUrl(p), p.dateModified || cfg.buildDate, 'weekly', '0.88', p.ogImage || og(p.slug), p.title));
   for (const p of posts)
     urls.push(
-      entry(postUrl(p), p.dateModified || p.datePublished, 'monthly', '0.85', p.ogImage || og(p.slug), p.title)
+      entry(postUrl(p), p.dateModified || p.datePublished, 'monthly', '0.85', p.ogImage || og(p.slug), p.title, versionsOf(p.slug))
     );
+  for (const p of translatedPosts)
+    urls.push(
+      entry(locPostUrl(p, p.lang), p.dateModified || p.datePublished, 'monthly', '0.8', p.ogImage || og(p.slug), p.title, versionsOf(p.slug))
+    );
+  const xhtmlNs = translatedPosts.length ? '\n        xmlns:xhtml="http://www.w3.org/1999/xhtml"' : '';
   return `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"${xhtmlNs}>
 ${urls.join('\n')}
 </urlset>
 `;
@@ -1271,6 +1389,7 @@ for (const post of posts) {
   write(`blog/${post.slug}.html`, renderPost(post));
   write(`llms/blog/${post.slug}.md`, renderPostMd(post));
 }
+for (const t of translatedPosts) write(`${t.lang}/blog/${t.slug}.html`, renderPost(t));
 for (const pillar of pillars) {
   write(`blog/${pillar.slug}.html`, renderPillar(pillar));
   write(`llms/blog/${pillar.slug}.md`, renderPillarMd(pillar));
@@ -1295,10 +1414,14 @@ try {
   const vercel = JSON.parse(fs.readFileSync(path.join(ROOT, 'vercel.json'), 'utf8'));
   const sources = new Set((vercel.rewrites || []).map((r) => r.source));
   const slugs = [...pillars, ...posts].map((x) => x.slug);
-  const missing = slugs.filter((s) => !sources.has(`/blog/${s}`));
+  const routes = [
+    ...slugs.map((s) => `/blog/${s}`),
+    ...translatedPosts.map((t) => `/${t.lang}/blog/${t.slug}`),
+  ];
+  const missing = routes.filter((r) => !sources.has(r));
   const rewrites = [
     { source: '/blog', destination: '/blog/index.html' },
-    ...slugs.map((s) => ({ source: `/blog/${s}`, destination: `/blog/${s}.html` })),
+    ...routes.map((r) => ({ source: r, destination: `${r}.html` })),
   ];
   write('blog-engine/dist/vercel-blog-rewrites.json', JSON.stringify({ rewrites }, null, 2) + '\n');
 
@@ -1313,11 +1436,25 @@ try {
   if (missing.length) {
     const list = vercel.rewrites || (vercel.rewrites = []);
     let at = -1;
-    for (let i = 0; i < list.length; i++) if (String(list[i].source).startsWith('/blog/')) at = i;
-    const added = missing.map((s2) => ({ source: `/blog/${s2}`, destination: `/blog/${s2}.html` }));
+    for (let i = 0; i < list.length; i++) if (/^\/([a-z-]+\/)?blog\//.test(String(list[i].source))) at = i;
+    const added = missing.map((r) => ({ source: r, destination: `${r}.html` }));
     list.splice(at + 1, 0, ...added);
     fs.writeFileSync(path.join(ROOT, 'vercel.json'), JSON.stringify(vercel, null, 2) + '\n');
-    console.log('\n  + vercel.json: added /blog rewrites for', missing.join(', '));
+    console.log('\n  + vercel.json: added rewrites for', missing.join(', '));
+  }
+  // Translated posts are served with their Content-Language, like the localized homepages.
+  const headers = vercel.headers || (vercel.headers = []);
+  const haveHeaders = new Set(headers.map((h) => h.source));
+  const langs = [...new Set(translatedPosts.map((t) => t.lang))].sort();
+  const newHeaders = langs
+    .filter((l) => !haveHeaders.has(`/${l}/blog/(.*)`))
+    .map((l) => ({ source: `/${l}/blog/(.*)`, headers: [{ key: 'Content-Language', value: UI[l].hreflang }] }));
+  if (newHeaders.length) {
+    let at = -1;
+    for (let i = 0; i < headers.length; i++) if (/Content-Language/.test(JSON.stringify(headers[i].headers))) at = i;
+    headers.splice(at + 1, 0, ...newHeaders);
+    fs.writeFileSync(path.join(ROOT, 'vercel.json'), JSON.stringify(vercel, null, 2) + '\n');
+    console.log('  + vercel.json: added Content-Language headers for', newHeaders.map((h) => h.source).join(', '));
   }
 } catch {
   /* vercel.json optional */

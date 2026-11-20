@@ -694,6 +694,33 @@
       ]
     },
     {
+      "source": "/de/blog/(.*)",
+      "headers": [
+        {
+          "key": "Content-Language",
+          "value": "de"
+        }
+      ]
+    },
+    {
+      "source": "/es/blog/(.*)",
+      "headers": [
+        {
+          "key": "Content-Language",
+          "value": "es"
+        }
+      ]
+    },
+    {
+      "source": "/it/blog/(.*)",
+      "headers": [
+        {
+          "key": "Content-Language",
+          "value": "it"
+        }
+      ]
+    },
+    {
       "source": "/localization.json",
       "headers": [
         {
@@ -1633,6 +1660,42 @@
     {
       "source": "/blog/brilliant-alternatives",
       "destination": "/blog/brilliant-alternatives.html"
+    },
+    {
+      "source": "/de/blog/apps-like-duolingo-for-ai",
+      "destination": "/de/blog/apps-like-duolingo-for-ai.html"
+    },
+    {
+      "source": "/es/blog/apps-like-duolingo-for-ai",
+      "destination": "/es/blog/apps-like-duolingo-for-ai.html"
+    },
+    {
+      "source": "/it/blog/apps-like-duolingo-for-ai",
+      "destination": "/it/blog/apps-like-duolingo-for-ai.html"
+    },
+    {
+      "source": "/de/blog/cancel-finestro",
+      "destination": "/de/blog/cancel-finestro.html"
+    },
+    {
+      "source": "/es/blog/cancel-finestro",
+      "destination": "/es/blog/cancel-finestro.html"
+    },
+    {
+      "source": "/it/blog/cancel-finestro",
+      "destination": "/it/blog/cancel-finestro.html"
+    },
+    {
+      "source": "/de/blog/coursiv-alternatives",
+      "destination": "/de/blog/coursiv-alternatives.html"
+    },
+    {
+      "source": "/es/blog/coursiv-alternatives",
+      "destination": "/es/blog/coursiv-alternatives.html"
+    },
+    {
+      "source": "/it/blog/coursiv-alternatives",
+      "destination": "/it/blog/coursiv-alternatives.html"
     }
   ]
 }

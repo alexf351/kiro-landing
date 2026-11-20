@@ -30,19 +30,21 @@ export function bannerVariant(slug) {
 }
 
 // slug is the page slug used as the utm_campaign, matching the other CTAs.
-export function bottomBanner({ variant = 'default', slug, image = '/assets/screens/learning-path.webp' } = {}) {
-  const headline = HEADLINES[variant] || HEADLINES.default;
+// `text` swaps in translated copy for a translated blog post (blog-engine/i18n/blog-ui.json):
+// { headlines: {variant: ...}, sub, store, web, alt }. Without it the output is unchanged.
+export function bottomBanner({ variant = 'default', slug, image = '/assets/screens/learning-path.webp', text = null } = {}) {
+  const headline = text ? text.headlines[variant] || text.headlines.default : HEADLINES[variant] || HEADLINES.default;
   const campaign = encodeURIComponent(slug);
   const store = `https://apps.apple.com/app/id6759628066?utm_source=blog&utm_medium=bottom_banner&utm_campaign=${campaign}`;
   const web = `https://app.tryiro.com/?utm_source=blog&utm_medium=bottom_banner&utm_campaign=${campaign}`;
   return `<aside class="iro-banner" data-variant="${variant}">
-<img class="iro-banner-shot" src="${image}" alt="The Iro AI learning path on an iPhone" width="900" height="1951" loading="lazy" decoding="async"/>
+<img class="iro-banner-shot" src="${image}" alt="${text ? text.alt : 'The Iro AI learning path on an iPhone'}" width="900" height="1951" loading="lazy" decoding="async"/>
 <div class="iro-banner-copy">
 <p class="iro-banner-h">${headline}</p>
-<p class="iro-banner-sub">${BANNER_SUB}</p>
+<p class="iro-banner-sub">${text ? text.sub : BANNER_SUB}</p>
 <div class="cta-row">
-<a class="btn" data-placement="bottom-banner" href="${store}">Download on the App Store</a>
-<a class="btn secondary" data-placement="bottom-banner" href="${web}">Start free in your browser</a>
+<a class="btn" data-placement="bottom-banner" href="${store}">${text ? text.store : 'Download on the App Store'}</a>
+<a class="btn secondary" data-placement="bottom-banner" href="${web}">${text ? text.web : 'Start free in your browser'}</a>
 </div>
 </div>
 </aside>`;
