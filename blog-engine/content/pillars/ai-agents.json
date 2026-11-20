@@ -1,43 +1,104 @@
 {
   "slug": "ai-agents",
-  "order": 3,
-  "title": "AI Agents & Automation: Hype to Working Systems",
+  "order": 7,
+  "title": "AI agents and automation: hype to safe delegation",
   "shortName": "AI Agents",
-  "tagline": "What agents really are and when to use them",
-  "lede": "A clear-eyed guide to AI agents and automation — what an agent actually is, when it beats a simple workflow, and how to design one that does not break.",
-  "description": "AI agents and automation in 2026: what they actually are, where they work, and how to build a first one without the hype or a research budget.",
+  "tagline": "What agents really do, and how to hand them work safely",
+  "lede": "What an AI agent is, what this year's personal agents actually do, and what to check before one gets access to your mail, calendar or accounts.",
+  "description": "AI agents explained: how they differ from chatbots and automation, what personal agents like Claude Duet and Grok Bot do, MCP in plain words, and safety checks.",
   "keywords": [
     "AI agents",
-    "LLM agents",
-    "AI automation",
-    "agentic workflows",
-    "when to use AI agents"
+    "personal AI agents",
+    "agentic AI",
+    "AI agents vs automation",
+    "what is MCP",
+    "AI automation for beginners",
+    "AI agent safety"
   ],
   "datePublished": "2026-05-28",
-  "dateModified": "2026-05-28",
+  "dateModified": "2026-11-20",
   "intro": [
-    "<p>No category in AI is more hyped — or more misunderstood — than agents. Strip away the marketing and an agent is something simple: a loop that lets a model decide its own next step, using tools, until a goal is met.</p>",
-    "<p>That simplicity matters, because most problems people reach for an agent to solve are better handled by a plain, predictable workflow. Knowing the difference is the whole skill. This pillar covers what agents really are, the few situations where they earn their complexity, and the failure modes — goal drift, tool misuse, prompt injection — that you have to design around.</p>",
-    "<p>You do not need to be an engineer to follow it. The same judgment applies whether you are configuring a no-code automation or evaluating a product that claims to be agentic. When you want to practise the concepts, Iro AI's <a href=\"/ai-agents-course\">AI agents</a> and <a href=\"/ai-automation-course\">automation</a> paths turn them into 5-minute exercises.</p>"
+    "<p>An AI agent is a model that decides its own next step and uses tools until a goal is met. In 2026 that stopped being a lab idea: agents now read your inbox, sign in to your tools and work in the background while you're away.</p>",
+    "<p>This hub covers what agents are, how they differ from plain automation, what today's personal agents can and can't do, and the checks that keep delegation safe. You don't need to be an engineer to follow any of it.</p>"
+  ],
+  "guide": [
+    {
+      "id": "agent-vs-chatbot",
+      "heading": "Chatbot, workflow or agent?",
+      "html": "<p>Three things get called \"AI\" interchangeably, and telling them apart is most of the skill.</p><ul><li><strong>A chatbot or assistant</strong> answers one prompt at a time. Every step needs you.</li><li><strong>A workflow or automation</strong> runs fixed steps you defined in advance: when X happens, do Y. It does the same thing every time.</li><li><strong>An agent</strong> is given a goal and decides its own next step, using tools, until it's done.</li></ul><p>Stripped of marketing, <a href=\"/blog/ai-agents-explained\">an agent is a model, some tools, a loop and a stopping condition</a>. The model reads the situation, picks an action (search, read a file, send an email, run code), looks at the result and decides again. <a href=\"/blog/what-is-agentic-ai\">What is agentic AI?</a> puts the difference in four words: generative AI responds; agentic AI acts.</p><p>For any task, ask one question from <a href=\"/blog/ai-agents-vs-automation\">AI agents vs. automation</a>: could I write down every step in advance? If yes, automate it. If it needs decisions in the moment, that's agent territory, with a person checking anything costly or irreversible. The best setups mix both. Rules collect and file new support tickets; an agent drafts a reply for a human to approve.</p>"
+    },
+    {
+      "id": "when-worth-it",
+      "heading": "When an agent is worth the trouble",
+      "html": "<p>Agents earn their complexity when three things are true: the path can't be predicted, the cost of a wrong step is bounded, and the task is long enough that adapting along the way pays off. Research that follows citations wherever they lead fits. A three-step task you could map on a napkin doesn't. Most systems in production are really workflows, and that's usually the right call.</p><p>They also fail in predictable ways, and knowing them is half of using one well:</p><ul><li><strong>Goal drift:</strong> it wanders off on a tangent.</li><li><strong>Tool misuse:</strong> it calls the wrong tool with confidence.</li><li><strong>Overconfidence:</strong> it reads a search result and repeats it as fact.</li><li><strong>Loops:</strong> it keeps retrying the same thing in slightly different ways.</li><li><strong>Prompt injection:</strong> text inside an email or web page tries to override its instructions.</li></ul><p>The standard defenses are simple: a small set of well-described tools, a step budget, a clear success condition, logs, and a human gate before anything irreversible.</p>"
+    },
+    {
+      "id": "personal-agents",
+      "heading": "What today's personal agents actually do",
+      "html": "<p>Between August and October 2026, five companies launched agents that keep working when you're not talking to them. <a href=\"/blog/personal-ai-agents-compared\">Personal AI agents compared</a> sets them side by side from each company's own pages. They share a shape: each does its work on its own cloud computer, watches the apps you connect, and messages you when it needs a decision or has finished. Where they differ most is how they ask before acting.</p><table><thead><tr><th>Agent</th><th>Made by</th><th>How it handles risky steps</th></tr></thead><tbody><tr><td>Claude Duet</td><td>Anthropic</td><td>Asks before it sends, pays, signs or deletes; some actions blocked even with approval</td></tr><tr><td>ChatGPT dots</td><td>OpenAI</td><td>Rules per action type, from act without asking to hand off to you</td></tr><tr><td>Muse</td><td>Meta</td><td>Asks before sensitive actions; a separate agent approves outbound activity</td></tr><tr><td>Grok Bot</td><td>SpaceXAI</td><td>Comes back when something needs your approval or judgment</td></tr><tr><td>Instinct</td><td>A startup</td><td>Its terms make you responsible for the consequences of its actions</td></tr></tbody></table><p><a href=\"/blog/claude-duet\">Claude Duet</a>, in research preview since 21 October 2026, sends a morning brief, checks your connected apps every few hours and works on tasks in the background. It shows you the destination, content and recipients before it acts, and Anthropic says it never sees your passwords. Trading securities and moving money between accounts are off-limits even if you say yes. Anthropic is also plain that the safeguards will occasionally miss something.</p><p><a href=\"/blog/grok-bot\">Grok Bot</a> takes a different route. Each Bot signs in to the tools you already use and drives them through their screens, the way a person does, rather than through prebuilt integrations. That lets it reach tools that never built an AI connector, and it can learn a routine by watching you once, then run it on a schedule. It's bundled into some SuperGrok and Cursor plans rather than sold on its own. Prices and plans for all five change often, so check the official page before you rely on one.</p>"
+    },
+    {
+      "id": "parallel-agents",
+      "heading": "Parallel agents: more hands, more mistakes",
+      "html": "<p>On 16 October 2026, OpenAI upgraded GPT-6 Pro in ChatGPT so several agents can work on different parts of one task at once. <a href=\"/blog/gpt-6-pro-parallel-agents\">GPT-6 Pro parallel agents</a> explains who gets it and when it helps.</p><p>The test is whether you could hand the pieces to people who never need to talk to each other. Comparing six vendors' pricing pages splits cleanly. Setting a budget and then planning a schedule around it doesn't, because the second step needs the first. Splitting also multiplies a bad premise: five agents working from the same wrong assumption give you five wrong answers that agree, and agreement looks like confidence. Brief it like a team, ask for the plan before the work, and open each finished piece before you act on it.</p>"
+    },
+    {
+      "id": "before-you-connect",
+      "heading": "Before you give an agent your mail, calendar or accounts",
+      "html": "<p>An agent that signs in to your accounts holds your session. Whatever it does, it does as you. That isn't a reason to avoid agents; it's the reason to set them up deliberately. Across the posts in this hub, the same checks come up again and again:</p><ol><li><strong>Connect the minimum.</strong> Start with the one or two apps where help matters most. Where you can, give the agent its own account with only the permissions the task needs.</li><li><strong>Start with reversible work.</strong> Drafting, sorting and preparing can be undone. Sending, paying and deleting can't.</li><li><strong>Decide the gates first.</strong> Anything touching money, contracts, customers or public posts needs an explicit approval step, set before you delegate.</li><li><strong>Read the approvals.</strong> An approval card is only a gate if you look at it. Slow down on anything with a recipient list.</li><li><strong>Check whose data is in there.</strong> Your inbox holds things other people sent you. If it's a work account, check what your employer allows first.</li><li><strong>Read the data terms.</strong> How it handles passwords, whether it trains on your material, and how to opt out.</li><li><strong>Audit the first weeks.</strong> Compare its brief with your actual inbox and look for what it missed.</li></ol><p>That last check matters most. An agent that's wrong in an obvious way gets caught fast. The failure to watch for is a small wrong assumption, repeated quietly on a schedule.</p>"
+    },
+    {
+      "id": "mcp",
+      "heading": "MCP in plain words",
+      "html": "<p>Agents need tools, and tools used to need custom wiring for every pairing of assistant and app. <a href=\"/blog/what-is-mcp\">MCP, the Model Context Protocol</a>, is the open standard that replaced most of that. A tool exposes itself once as an MCP server, and any assistant that speaks MCP can use it. The usual comparison is USB-C: one port instead of a drawer of cables.</p><p>You don't need to read the spec. Two things follow from it that matter to everyone. First, your tools will keep gaining abilities quickly and quietly, because connecting AI to software got cheap. Second, the permissions question becomes yours: knowing what an assistant is connected to, and what it may do there, is now basic literacy. \"Can it connect to my calendar?\" often matters more than which model is smartest.</p>"
+    },
+    {
+      "id": "first-automation",
+      "heading": "A first automation to try this week",
+      "html": "<p>You don't need an agent to start. <a href=\"/blog/ai-automation-for-beginners\">AI automation for beginners</a> starts with a saved prompt you reuse. Five good candidates:</p><ul><li><strong>Inbox triage:</strong> summarize a thread, flag what needs a decision, draft a reply in your tone.</li><li><strong>Research summaries:</strong> summarize each source and flag where they disagree.</li><li><strong>Data cleanup:</strong> return a list in an exact format and list the rows it wasn't sure about.</li><li><strong>Repurposing:</strong> turn one post into an email and a few captions, adding no new claims.</li><li><strong>Meeting notes:</strong> pull decisions and action items as owner, task, deadline.</li></ul><p>Run one for a couple of weeks. When you rarely edit the output and a mistake would be cheap to catch, hand it to a trigger-based tool like Zapier or Make so it runs on its own. Wiring a trigger to a routine you haven't stabilized just produces errors faster. When you want structured practice, the <a href=\"/ai-automation-course\">AI automation course</a> covers this step by step, and the <a href=\"/vibe-coding-course\">vibe coding course</a> is the next step if you want to build small tools yourself.</p>"
+    },
+    {
+      "id": "delegation-skill",
+      "heading": "The skill underneath: delegation",
+      "html": "<p>Every post in this hub lands in the same place. Agents don't remove the work; they move it. You stop doing the task and start specifying it, fencing it in and checking the result. Those were always delegation skills. They used to apply only to people.</p><p>They're learnable, and practice beats reading. Iro builds them in practice-first lessons of a few minutes a day on iPhone and the web: when to delegate and when to do it yourself, how far to trust an output, and how to spot a confident wrong answer before it goes out under your name. The <a href=\"/ai-agents-course\">AI agents course</a> is the dedicated path, the <a href=\"/paths\">path library</a> lists the rest, and the free <a href=\"/quiz\">AI quiz</a> shows where you're starting from.</p><p>If you're bringing agents into your job, our <a href=\"/blog/ai-at-work\">AI at work and school hub</a> covers the data, citation and review rules that apply just as much when an agent does the drafting.</p>"
+    }
   ],
   "faq": [
     {
-      "q": "What is the difference between an AI agent and an automation?",
-      "a": "An automation follows a fixed rule: when X happens, do Y. An agent decides what Y should be based on context. Most real systems mix both, and a plain workflow is usually the right starting point."
+      "q": "What is the difference between an AI agent and a chatbot?",
+      "a": "A chatbot answers one prompt at a time and you do the next step. An agent is given a goal and decides its own steps, using tools like search, email or code, until the task is done."
     },
     {
-      "q": "Do I need to code to use AI agents?",
-      "a": "No. Many products ship pre-built agents for research, support, and coding. The skill that matters for everyone is knowing when an agent helps and when it just adds risk."
+      "q": "What is the difference between an AI agent and automation?",
+      "a": "Automation follows fixed rules you set in advance and does the same thing every time. An agent decides its steps toward a goal, which makes it more flexible and less predictable. If you can write down every step ahead of time, automation is usually the better choice."
     },
     {
-      "q": "When is an agent actually worth the complexity?",
-      "a": "When the path to the goal cannot be predicted in advance, the cost of a wrong step is bounded, and the task is long enough that adaptivity pays off. See <a href=\"/blog/ai-agents-explained\">AI agents, explained without the jargon</a>."
+      "q": "What is a personal AI agent?",
+      "a": "An assistant that keeps working when you're not talking to it. It watches the apps you connect, does tasks on its own cloud computer and messages you when it needs a decision or has finished. Claude Duet, ChatGPT dots, Muse, Grok Bot and Instinct all launched in 2026."
+    },
+    {
+      "q": "Is it safe to let an AI agent into my email and calendar?",
+      "a": "It carries real risk, because an agent using your accounts acts as you. Connect only what the task needs, start with reversible work like drafting, require approval for anything that sends or pays, read every approval, and check its early work closely."
+    },
+    {
+      "q": "What is MCP?",
+      "a": "MCP, the Model Context Protocol, is an open standard that lets AI assistants connect to tools and data through one common interface instead of a custom integration for each pairing. Most people use it without noticing; the part worth knowing is what your assistant is connected to and what it is allowed to do."
+    },
+    {
+      "q": "Do I need to code to use AI agents or automation?",
+      "a": "No. Many products ship ready-made agents, and most useful automation starts as a reusable prompt. Tools like Zapier and Make add triggers without code once a routine has proven itself."
+    },
+    {
+      "q": "When do parallel agents help?",
+      "a": "When a task splits into pieces that don't depend on each other, like comparing several vendors. When the pieces depend on each other, splitting spreads a single wrong assumption across every agent's work."
     }
   ],
   "related": [
     "/blog/ai-agents-explained",
-    "/blog/prompt-engineering-patterns",
-    "/blog/spot-ai-hallucinations"
+    "/blog/personal-ai-agents-compared",
+    "/blog/claude-duet",
+    "/blog/what-is-mcp",
+    "/blog/ai-automation-for-beginners"
   ],
   "relatedLabels": [
     {
@@ -47,6 +108,18 @@
     {
       "href": "/ai-automation-course",
       "label": "AI automation in Iro AI"
+    },
+    {
+      "href": "/vibe-coding-course",
+      "label": "Vibe coding in Iro AI"
+    },
+    {
+      "href": "/paths",
+      "label": "All Iro AI learning paths"
+    },
+    {
+      "href": "/quiz",
+      "label": "Take the free AI quiz"
     }
   ]
 }

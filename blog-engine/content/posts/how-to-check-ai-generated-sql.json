@@ -1,7 +1,7 @@
 {
   "slug": "how-to-check-ai-generated-sql",
   "order": 124,
-  "pillar": "ai-tools",
+  "pillar": "ai-at-work",
   "title": "How to check AI-generated SQL before you trust the numbers",
   "metaTitle": "How to Check SQL From ChatGPT Before You Trust It",
   "lede": "SQL from ChatGPT almost always runs; the danger is that it runs and quietly answers a different question. Here are the seven mistakes behind most wrong numbers, a prompt that heads off many of them, and six checks to run before anyone sees the result.",

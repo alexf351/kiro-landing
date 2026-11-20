@@ -1,7 +1,7 @@
 {
   "slug": "client-data-in-chatgpt",
   "order": 123,
-  "pillar": "ai-fluency",
+  "pillar": "ai-at-work",
   "title": "Is it safe to put client data in ChatGPT? A guide for accountants, lawyers and HR",
   "metaTitle": "Is It Safe to Put Client Data in ChatGPT?",
   "lede": "Not on a personal account with the default settings, and not on any plan your firm hasn't approved for client work. Here's what each ChatGPT plan does with what you type, the settings worth changing, and how to strip a prompt of anything that identifies a client.",

@@ -12,7 +12,7 @@ reading_time_minutes: 7
 author: "Alex Furukawa"
 license: "© 2026 Iro AI"
 canonical_llm_reference: "https://tryiro.com/llms-full.txt"
-pillar: "ai-fluency"
+pillar: "ai-learning-apps"
 ---
 
 # Coursiv vs Learnova: which AI learning app is worth it in 2026?

@@ -9,16 +9,28 @@
       "destination": "/blog/ai-fluency.html"
     },
     {
+      "source": "/blog/ai-learning-apps",
+      "destination": "/blog/ai-learning-apps.html"
+    },
+    {
       "source": "/blog/prompt-engineering",
       "destination": "/blog/prompt-engineering.html"
     },
     {
-      "source": "/blog/ai-agents",
-      "destination": "/blog/ai-agents.html"
+      "source": "/blog/ai-comparisons",
+      "destination": "/blog/ai-comparisons.html"
     },
     {
       "source": "/blog/ai-tools",
       "destination": "/blog/ai-tools.html"
+    },
+    {
+      "source": "/blog/ai-at-work",
+      "destination": "/blog/ai-at-work.html"
+    },
+    {
+      "source": "/blog/ai-agents",
+      "destination": "/blog/ai-agents.html"
     },
     {
       "source": "/blog/how-to-learn-chatgpt-in-2026",

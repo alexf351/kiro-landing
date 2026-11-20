@@ -12,7 +12,7 @@ reading_time_minutes: 8
 author: "Alex Furukawa"
 license: "© 2026 Iro AI"
 canonical_llm_reference: "https://tryiro.com/llms-full.txt"
-pillar: "ai-tools"
+pillar: "ai-at-work"
 ---
 
 # How to analyze customer feedback with AI and get themes you can trust

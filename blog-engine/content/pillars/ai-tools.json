@@ -1,71 +1,126 @@
 {
   "slug": "ai-tools",
-  "order": 4,
-  "title": "AI Tools in 2026: Pick One, Then Use It Well",
+  "order": 5,
+  "title": "AI models explained: new releases and how-tos",
   "shortName": "AI Tools",
-  "tagline": "Compare AI tools and get more from each",
-  "lede": "ChatGPT, Claude, Gemini, Perplexity, Copilot — which AI tool should you actually use? Honest comparisons, the best pick for each job, and the skill that beats picking the 'perfect' tool.",
-  "description": "The AI tools worth your time in 2026: how to pick between ChatGPT, Claude, Gemini and Perplexity, then get real results from the one you choose.",
+  "tagline": "What each new model changed, and how to use every major assistant",
+  "lede": "New AI models ship every few weeks. Here's what each release actually changed, who can use it and what it costs, plus beginner guides to ChatGPT, Claude, Gemini, Copilot, Perplexity, Grok and DeepSeek.",
+  "description": "AI models and tools explained: what each 2026 release changed, who can use it and what it costs, plus beginner guides to ChatGPT, Claude, Gemini and more.",
   "keywords": [
     "AI tools",
-    "best AI tools",
-    "ChatGPT vs Claude vs Gemini",
-    "AI tools comparison",
-    "which AI tool to use",
-    "AI apps 2026"
+    "new AI models 2026",
+    "AI models explained",
+    "AI model releases",
+    "how to use ChatGPT",
+    "how to use Claude",
+    "how to use Gemini",
+    "open-weight AI models"
   ],
   "datePublished": "2026-06-05",
-  "dateModified": "2026-06-05",
+  "dateModified": "2026-11-20",
   "intro": [
-    "<p>There is no single best AI tool — the right one depends on what you do most. <a href=\"/learn-chatgpt\">ChatGPT</a> is the most versatile all-rounder, <a href=\"/learn-claude\">Claude</a> shines on long writing and code, <a href=\"/learn-gemini\">Gemini</a> lives inside Google's apps, and <a href=\"/learn-perplexity\">Perplexity</a> answers with citations. This pillar compares them honestly so you can stop tool-shopping and start working.</p>",
-    "<p>But here is the part most comparisons miss: the gap between these tools matters far less than the gap between using one well and using it lazily. A clear prompt, good context, and the judgment to catch mistakes will beat a \"better\" model used carelessly every time.</p>",
-    "<p>So use these guides to pick a sensible default, then build the skill that actually moves the needle — <a href=\"/blog/what-is-ai-fluency\">AI fluency</a>. The fastest way to see where you stand is the free <a href=\"/quiz\">AI IQ test</a>.</p>"
+    "<p>This hub covers two things. First, the model launches that fill your feed, explained without the hype: what changed, who actually has access, what it costs and whether you'll notice. Second, plain beginner guides to each major assistant, so you can get real work out of the one you already use.</p>",
+    "<p>The thread running through both is simple. Model names go stale within weeks. The habits that get good results from them don't, and those are worth more of your time than any changelog.</p>"
+  ],
+  "guide": [
+    {
+      "id": "read-a-launch",
+      "heading": "How to read a model launch in five questions",
+      "html": "<p>Every release arrives with a blog post, a bar chart and a wave of excited coverage. Five questions cut through it.</p><ol><li><strong>What tier is it?</strong> Labs no longer ship one model. OpenAI split <a href=\"/blog/gpt-5-6\">GPT-5.6 into Luna, Terra and Sol</a>, Anthropic runs Haiku, Sonnet and Opus with Fable above them, and Google has Flash-Lite, Flash, Pro and now Argon. A flagship launch matters to far fewer people than a new everyday tier.</li><li><strong>Who actually has it?</strong> This is the question most coverage skips. <a href=\"/blog/gemini-4-argon\">Gemini 4 Argon</a> is only selectable in the Gemini app on Google AI Pro and Ultra. Reporting on <a href=\"/blog/gpt-6-astra\">GPT-6 Astra</a> had Plus subscribers reaching it inside ChatGPT Work and Codex rather than the normal model picker. Check your own account before believing a headline.</li><li><strong>Does it change your default?</strong> Often it doesn't. When <a href=\"/blog/claude-fable-5-2\">Claude Fable 5.2</a> launched, your default model stayed the same and you had to pick Fable yourself. By contrast, ChatGPT's default did move to GPT-6 in October.</li><li><strong>What does it cost you?</strong> API prices matter if you build. In the apps, the cost is your usage allowance, and heavier models such as Fable and Argon use it up faster.</li><li><strong>Whose numbers are these?</strong> Launch benchmarks are almost always the lab's own. More on that below.</li></ol><p>Our <a href=\"/blog/new-ai-models-2026\">tracker of every major 2026 release</a> keeps the dates and tiers in one table, so you don't have to hold them in your head.</p>"
+    },
+    {
+      "id": "benchmarks",
+      "heading": "Benchmarks are a filter, not a verdict",
+      "html": "<p>A benchmark score isn't a property of a model. It's one model, run through one piece of software, scored one way on one day. Change the software around it (what tools it can reach, what it remembers between steps) and the number moves.</p><p>GPT-6 Astra is the cleanest example. It was reported at 99.9% on ARC-AGI-3 using OpenAI's own test harness, and 62.7% under the benchmark's provider-neutral harness, the one used to compare labs. Both numbers are honest. Only one is a fair comparison, and it's still a big lead.</p><p>The same caution applies across the board. In Google's own comparison table for Argon, most rival scores were the other labs' self-reported figures. When <a href=\"/blog/kimi-k3\">Kimi K3</a> released its weights, essentially every published result was vendor-run, with independent tests still to come. None of that makes the numbers false. It makes them evidence from an interested party.</p><p><a href=\"/blog/how-to-read-ai-benchmarks\">How to read an AI benchmark score</a> gives you the questions that settle most charts. The most useful one: was every model on it measured the same way? Then ask whether the test looks anything like your work. For drafting, summarising and thinking out loud, the gaps between frontier models rarely change the outcome.</p>"
+    },
+    {
+      "id": "tiers",
+      "heading": "Tiers and thinking settings matter more than the lab",
+      "html": "<p>The quiet story of 2026 is price. Near-frontier capability got much cheaper, and every lab now sells a ladder of tiers. That means picking the wrong tier usually costs you more than picking the wrong company.</p><ul><li><strong>Cheap, fast tiers</strong> suit high-volume, single-step work: summarising, classifying, reformatting. They are far more capable than budget models used to be.</li><li><strong>Everyday tiers</strong> are the sensible default for most writing, coding and reasoning.</li><li><strong>Flagships</strong> earn their cost on long, multi-step jobs where a wrong answer is expensive. Anthropic's own advice for Fable is to start on Opus and step up only for genuinely hard tasks.</li></ul><p>Many models now also let you set how hard they think. <a href=\"/blog/gemini-3-7-flash\">Gemini 3.7 Flash</a> has low, medium and high thinking levels, and Claude models take effort settings. Turning thinking up on a simple task is the common mistake: you wait longer, pay more and often get no better answer. <a href=\"/blog/claude-opus-5\">Claude Opus 5</a> and <a href=\"/blog/grok-4-5\">Grok 4.5</a> are good case studies in the trade, one aimed at near-flagship quality at mid-tier cost, the other at coding work where price per task is the constraint.</p>"
+    },
+    {
+      "id": "assistants",
+      "heading": "The major assistants, in a sentence or two each",
+      "html": "<p>Whichever model is newest, most people meet AI through one of these apps. Each has a beginner's guide.</p><ul><li><strong>ChatGPT</strong> is the versatile all-rounder with a generous free tier. <a href=\"/blog/how-to-use-chatgpt\">How to use ChatGPT</a> covers the basics; <a href=\"/learn-chatgpt\">the ChatGPT course</a> goes further.</li><li><strong>Claude</strong> is strongest on writing, long documents and code, and rewards detailed instructions. See <a href=\"/blog/how-to-use-claude\">how to use Claude</a> and <a href=\"/learn-claude\">learn Claude</a>.</li><li><strong>Gemini</strong> works on its own and inside Docs, Gmail and Sheets. See <a href=\"/blog/how-to-use-gemini\">how to use Gemini</a> and <a href=\"/learn-gemini\">learn Gemini</a>.</li><li><strong>Microsoft Copilot</strong> is really two products: a free web chatbot that can't see your files, and Copilot inside Word, Excel, PowerPoint and Outlook, which needs a paid Microsoft 365 plan. <a href=\"/blog/what-is-microsoft-copilot\">What is Microsoft Copilot?</a> untangles the versions and <a href=\"/blog/how-to-use-microsoft-copilot\">how to use Copilot</a> covers prompting it.</li><li><strong>Perplexity</strong> is an answer engine that searches the live web and cites its sources. See <a href=\"/blog/how-to-use-perplexity\">how to use Perplexity</a> and <a href=\"/learn-perplexity\">learn Perplexity</a>.</li><li><strong>Grok</strong>, from SpaceXAI (formerly xAI), is built into X and leans on real-time posts and a casual tone. See <a href=\"/blog/what-is-grok\">what is Grok?</a> and <a href=\"/blog/how-to-use-grok\">how to use Grok</a>.</li><li><strong>DeepSeek</strong> offers strong reasoning and coding at low cost, with open models. It's run by a China-based company, so check your organisation's policy before sensitive work. See <a href=\"/blog/what-is-deepseek\">what is DeepSeek?</a> and <a href=\"/blog/how-to-use-deepseek\">how to use DeepSeek</a>.</li></ul><p>Beyond the chat assistants, a few specialists have their own explainers: <a href=\"/blog/what-is-elevenlabs\">ElevenLabs</a> for AI voice, <a href=\"/blog/what-is-suno\">Suno</a> for AI music, and <a href=\"/blog/grok-imagine-image-2\">Grok Imagine Image 2.0</a>, whose editing tools matter more than its ranking. With voice cloning and AI music, read the consent and rights sections before you publish anything.</p>"
+    },
+    {
+      "id": "open-weight",
+      "heading": "Open-weight vs closed models",
+      "html": "<p>A closed model lives behind someone else's API or app. An open-weight model's files can be downloaded, run and, depending on the licence, modified. The difference matters even if you never download anything.</p><p>The catch is hardware. <a href=\"/blog/deepseek-v4\">DeepSeek V4</a> ships under the MIT licence, about as permissive as it gets, but its larger model needs a multi-GPU server. Kimi K3, the largest open-weight release so far, needs roughly 594GB of GPU memory at full precision. For individuals, open weights usually means using the model through its own app, its API or a third-party host.</p><p>Why care, then? Open weights put a floor under the market: a released model can't be withdrawn or quietly changed under you, and a capable free-to-host model pressures everyone else's prices. They also matter to companies that can't send data to an outside API. Note that \"free\" and \"open\" aren't the same thing: <a href=\"/blog/meta-muse-spark\">Meta's Muse Spark</a> launched as a free but proprietary model (Meta later released open weights for a version of it), and it makes a good no-cost second opinion alongside your usual assistant.</p>"
+    },
+    {
+      "id": "first-week",
+      "heading": "Your first week with any assistant",
+      "html": "<p>You don't need the newest model to get good at AI. You need a week of deliberate use on real tasks. This plan works with any of the assistants above, on the free tier.</p><ol><li><strong>Day 1: one real task.</strong> Pick something you actually have to do this week, like an email, a plan or a summary. Type it in plain language and refine the answer with follow-ups.</li><li><strong>Days 2 and 3: structure.</strong> Write prompts with four parts: context, a role, a clear task and the format you want. Compare the result with your day-one attempt.</li><li><strong>Day 4: critique.</strong> Take an answer and find three substantive things wrong with it: a missing assumption, an unsupported claim, advice that's too generic.</li><li><strong>Day 5: compare.</strong> Run the same prompt through a second assistant. Where the two disagree is where to look hardest.</li><li><strong>Days 6 and 7: edit and keep.</strong> Combine the best of both, edit it yourself, and save the prompts that worked in a document you'll reuse.</li></ol><p>Throughout, verify names, numbers and facts before you rely on them, and keep confidential data out unless your workplace allows it. <a href=\"/blog/how-to-learn-chatgpt-in-2026\">How to actually learn ChatGPT in 2026</a> walks through this loop in more detail, and it works the same way in Claude or Gemini.</p>"
+    },
+    {
+      "id": "when-to-switch",
+      "heading": "Do you need to switch when a new model ships?",
+      "html": "<p>Almost never. For everyday writing, summarising, brainstorming and learning, the top models are close enough that your prompt matters more than your pick, and switching tools costs you habits you've already built. Switch when you hit a specific, nameable limit: a document too long for your current tool, a cost that adds up at volume, or a type of task your assistant keeps getting wrong.</p><p>If you're choosing between assistants rather than learning one, our <a href=\"/blog/ai-comparisons\">AI comparisons hub</a> has every head-to-head, from ChatGPT vs Claude to whether a paid plan is worth it.</p>"
+    },
+    {
+      "id": "durable-skill",
+      "heading": "The skill that outlasts every release",
+      "html": "<p>Read enough launch posts and a pattern shows up. A better model raises the ceiling on what you can delegate, but it doesn't write your brief and it doesn't check its own work. Stronger models also make wrong answers more convincing, which raises the value of knowing when to verify.</p><p>That's the case for treating AI as a skill you practise rather than a product you follow. Iro teaches it in gamified, five-minute lessons on iPhone and the web: you write real prompts, learn to spot a confident wrong answer, and build judgment about which tool and tier fits which job. Iro's tool courses line up with the assistants in this hub, including <a href=\"/learn-copilot\">Copilot</a> and <a href=\"/learn-elevenlabs\">ElevenLabs</a>, and <a href=\"/learn-llms\">how LLMs work</a> explains what's going on under the hood. Browse <a href=\"/paths\">all learning paths</a>, or take the free <a href=\"/quiz\">AI IQ test</a> to see where you stand.</p>"
+    }
   ],
   "faq": [
     {
-      "q": "What is the best AI tool in 2026?",
-      "a": "There's no single best — it depends on the task. ChatGPT is the best all-rounder, Claude is best for writing and coding, Gemini is best inside Google apps, and Perplexity is best for cited research. For everyday use, ChatGPT is the safest default."
+      "q": "What is the newest AI model?",
+      "a": "It changes every few weeks, so check a dated tracker rather than a headline. Recent flagships include Anthropic's Claude Fable 5.2 (9 November 2026), Google's Gemini 4 Argon and OpenAI's GPT-6 Astra, and our 2026 release tracker lists every major launch in order."
     },
     {
-      "q": "Do I need more than one AI tool?",
-      "a": "Most people are fine with one. Many power users keep two — for example ChatGPT for general work plus Claude for writing or Perplexity for research. Pick a default and add a second only when you hit a task it doesn't handle well."
+      "q": "Can I use the newest models for free?",
+      "a": "Usually not the flagships. Gemini 4 Argon is limited to paid Google AI Pro and Ultra plans in the Gemini app, and Claude's Fable models come with the paid plans. Free tiers do get capable everyday models, and Meta's Muse Spark is free outright."
     },
     {
-      "q": "Which AI tool is best and free?",
-      "a": "ChatGPT, Claude, Gemini, and Perplexity all have capable free tiers, with ChatGPT and Gemini especially generous. You rarely need to pay just to get started."
+      "q": "How do I know which model I'm actually using?",
+      "a": "Open the model picker in your app and check which one is selected. A new release doesn't always change your default, and some, like GPT-6 Astra on ChatGPT Plus, were reported to appear only in specific places such as Work and Codex."
+    },
+    {
+      "q": "Should I trust AI benchmark scores?",
+      "a": "Treat them as a rough filter. Most launch numbers are the lab's own, and the same model can score very differently depending on how the test was run. Shortlist with benchmarks, then try two or three models on your own tasks."
+    },
+    {
+      "q": "What is an open-weight AI model?",
+      "a": "A model whose weights can be downloaded and run by anyone, under the terms of its licence. DeepSeek V4 is MIT licensed and Kimi K3 uses a Modified MIT licence, but both need server-class hardware, so most people use them through an app or API."
+    },
+    {
+      "q": "Which AI assistant should a beginner start with?",
+      "a": "ChatGPT is the easiest starting point for most people because its free tier is generous and help is easy to find. Pick Claude if you mostly write or work with long documents, or Gemini if your work lives in Google apps."
+    },
+    {
+      "q": "Do I need to switch AI tools when a new model comes out?",
+      "a": "No. Switch only when you hit a specific limit, such as context length, cost at volume or a task your current tool keeps failing. For everyday work, better prompting moves your results more than a new model does."
     }
   ],
   "related": [
-    "/blog/chatgpt-vs-claude",
-    "/blog/chatgpt-vs-gemini",
-    "/blog/chatgpt-vs-claude-vs-gemini",
-    "/blog/best-ai-apps",
-    "/blog/best-free-ai-tools-2026"
+    "/blog/new-ai-models-2026",
+    "/blog/how-to-read-ai-benchmarks",
+    "/blog/how-to-use-chatgpt",
+    "/blog/how-to-use-claude",
+    "/blog/gemini-4-argon"
   ],
   "relatedLabels": [
     {
-      "href": "/ai-tools-comparison",
-      "label": "Full AI tools comparison"
+      "href": "/learn-chatgpt",
+      "label": "ChatGPT course"
     },
     {
-      "href": "/learn-copilot",
-      "label": "Microsoft Copilot course"
+      "href": "/learn-claude",
+      "label": "Claude course"
     },
     {
-      "href": "/learn-midjourney",
-      "label": "Midjourney course"
+      "href": "/learn-gemini",
+      "label": "Gemini course"
     },
     {
-      "href": "/learn-cursor",
-      "label": "Cursor course"
-    },
-    {
-      "href": "/learn-notebooklm",
-      "label": "NotebookLM course"
+      "href": "/learn-llms",
+      "label": "How LLMs work"
     },
     {
       "href": "/paths",
-      "label": "All 34 learning paths"
+      "label": "All learning paths"
     },
     {
       "href": "/quiz",

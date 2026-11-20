@@ -105,25 +105,28 @@ ai iq test by iro ai          https://tryiro.com/llms/quiz.md
 vibe coding course            https://tryiro.com/llms/vibe-coding-course.md
 
 ## Blog (markdown mirrors)
-# 147 post and pillar mirrors, generated
+# 150 post and pillar mirrors, generated
 ai agents explained           https://tryiro.com/llms/blog/ai-agents-explained.md
 ai agents vs. automation      https://tryiro.com/llms/blog/ai-agents-vs-automation.md
-ai agents & automation        https://tryiro.com/llms/blog/ai-agents.md
+ai agents and automation      https://tryiro.com/llms/blog/ai-agents.md
 ai app vs ai bootcamp         https://tryiro.com/llms/blog/ai-app-vs-ai-bootcamp.md
+using ai at work and school   https://tryiro.com/llms/blog/ai-at-work.md
 ai automation for beginners   https://tryiro.com/llms/blog/ai-automation-for-beginners.md
 ai cold email that doesnt so  https://tryiro.com/llms/blog/ai-cold-email-that-doesnt-sound-like-ai.md
+ai comparisons                https://tryiro.com/llms/blog/ai-comparisons.md
 ai fake case citations        https://tryiro.com/llms/blog/ai-fake-case-citations.md
-ai fluency                    https://tryiro.com/llms/blog/ai-fluency.md
+learn ai from scratch         https://tryiro.com/llms/blog/ai-fluency.md
 ai for beginners              https://tryiro.com/llms/blog/ai-for-beginners-30-day-plan.md
 ai for performance reviews    https://tryiro.com/llms/blog/ai-for-performance-reviews.md
 ai for real estate            https://tryiro.com/llms/blog/ai-for-real-estate.md
 ai for small business         https://tryiro.com/llms/blog/ai-for-small-business.md
 ai for teachers               https://tryiro.com/llms/blog/ai-for-teachers.md
 ai learning app for professi  https://tryiro.com/llms/blog/ai-learning-app-for-professionals.md
+ai learning apps              https://tryiro.com/llms/blog/ai-learning-apps.md
 ai skills for 2026            https://tryiro.com/llms/blog/ai-skills-for-2026.md
 ai student discounts in 2026  https://tryiro.com/llms/blog/ai-student-discounts.md
 ai subscription traps         https://tryiro.com/llms/blog/ai-subscription-traps.md
-ai tools in 2026              https://tryiro.com/llms/blog/ai-tools.md
+ai models explained           https://tryiro.com/llms/blog/ai-tools.md
 ai trends in 2026             https://tryiro.com/llms/blog/ai-trends-2026.md
 ai vs machine learning        https://tryiro.com/llms/blog/ai-vs-machine-learning.md
 air canada chatbot case       https://tryiro.com/llms/blog/air-canada-chatbot-case.md
@@ -229,7 +232,7 @@ notion ai vs chatgpt          https://tryiro.com/llms/blog/notion-ai-vs-chatgpt.
 personal ai agents compared   https://tryiro.com/llms/blog/personal-ai-agents-compared.md
 prompt engineering exercises  https://tryiro.com/llms/blog/prompt-engineering-exercises.md
 prompt engineering patterns   https://tryiro.com/llms/blog/prompt-engineering-patterns.md
-prompt engineering            https://tryiro.com/llms/blog/prompt-engineering.md
+prompt engineering guide      https://tryiro.com/llms/blog/prompt-engineering.md
 skilario alternatives         https://tryiro.com/llms/blog/skilario-alternatives.md
 skilario review               https://tryiro.com/llms/blog/skilario-review.md
 spot ai hallucinations        https://tryiro.com/llms/blog/spot-ai-hallucinations.md

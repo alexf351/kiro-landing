@@ -1,0 +1,130 @@
+{
+  "slug": "ai-comparisons",
+  "order": 4,
+  "title": "Which AI should you use? Head-to-head comparisons",
+  "shortName": "AI Comparisons",
+  "tagline": "Honest head-to-heads and the best AI pick for every job",
+  "lede": "ChatGPT or Claude? Gemini or Perplexity? Plain side-by-side comparisons of the major AI assistants, the best tool for each kind of work, and whether a paid plan is worth it.",
+  "description": "Honest AI comparisons for 2026: ChatGPT vs Claude, Gemini, Perplexity, Copilot and DeepSeek, the best AI tool for each job, and when a paid plan is worth it.",
+  "keywords": [
+    "AI tool comparison",
+    "which AI should I use",
+    "ChatGPT vs Claude",
+    "ChatGPT vs Gemini",
+    "best AI tools 2026",
+    "ChatGPT alternatives",
+    "is ChatGPT Plus worth it",
+    "best AI apps"
+  ],
+  "datePublished": "2026-11-20",
+  "dateModified": "2026-11-20",
+  "intro": [
+    "<p>Most people don't need the best AI. They need the right one for the work they do most, and a clear sense of when a second tool earns its place. This hub collects every head-to-head we've written: the big assistants against each other, best-of picks for coding, writing, images, video, slides and study, and straight answers on whether ChatGPT Plus or Claude Pro is worth the money.</p>",
+    "<p>Read the guide below for the quick rules. If you'd rather have an answer in under a minute, the <a href=\"/which-ai-should-i-use\">AI picker</a> asks five questions and names a tool.</p>"
+  ],
+  "guide": [
+    {
+      "id": "short-answer",
+      "heading": "The short answer: match the tool to the job",
+      "html": "<p>There is no single best AI assistant. There is a best one for a given task, and the gap between the top few is smaller than the marketing suggests. Here is the map most people can work from:</p><ul><li><strong>ChatGPT</strong> is the safest all-round default: the widest set of features, a generous free tier and the most help available when you get stuck.</li><li><strong>Claude</strong> is the pick for long writing, big documents and code. It tends to hold a long input in view and follow detailed, multi-part instructions closely. See <a href=\"/blog/chatgpt-vs-claude\">ChatGPT vs Claude</a>.</li><li><strong>Gemini</strong> wins when your work already lives in Google Docs, Gmail and Sheets. See <a href=\"/blog/chatgpt-vs-gemini\">ChatGPT vs Gemini</a> and <a href=\"/blog/claude-vs-gemini\">Claude vs Gemini</a>.</li><li><strong>Perplexity</strong> is an answer engine for research, with sources you can open and check. See <a href=\"/blog/chatgpt-vs-perplexity\">ChatGPT vs Perplexity</a>.</li><li><strong>Microsoft Copilot</strong> belongs in your day if it runs on Word, Excel, Outlook and Teams. See <a href=\"/blog/chatgpt-vs-copilot\">ChatGPT vs Copilot</a>.</li><li><strong>DeepSeek</strong> appeals for strong reasoning and coding at low cost, with open models. It is built by a China-based company, so check your organisation's data policy first. See <a href=\"/blog/chatgpt-vs-deepseek\">ChatGPT vs DeepSeek</a>.</li></ul><p>If you want all of them on one page, our <a href=\"/ai-tools-comparison\">full AI tools comparison</a> puts ChatGPT, Claude, Gemini, Perplexity and Copilot side by side, and <a href=\"/blog/chatgpt-vs-claude-vs-gemini\">ChatGPT vs Claude vs Gemini</a> walks through the big three task by task.</p>"
+    },
+    {
+      "id": "three-questions",
+      "heading": "Three questions that pick your default",
+      "html": "<p>Brand loyalty and launch-day headlines are poor guides. These three questions settle it for most people.</p><ol><li><strong>Where does your work already live?</strong> An assistant that sits inside the app you have open saves the copy-paste shuffle every single day. Google Workspace points to Gemini, Microsoft 365 to Copilot. If your team's notes and decisions live in Notion, read <a href=\"/blog/notion-ai-vs-chatgpt\">Notion AI vs ChatGPT</a>: Notion AI wins when the answer is in your own pages, ChatGPT when the work starts from a blank page or the open web.</li><li><strong>Are you making something or finding something out?</strong> Drafting, brainstorming and building lean to a general assistant. Fact-finding where you need to show your sources leans to Perplexity. <a href=\"/blog/gemini-vs-perplexity\">Gemini vs Perplexity</a> makes the same split: create in one, research in the other.</li><li><strong>How big is the input, and how high are the stakes?</strong> A quick question or a first draft suits whatever is fastest. A long contract, a messy codebase or a document you'll be judged on is where Claude tends to stay coherent while others drift.</li></ol><p>Answer those three and you have a default. Give it a month of real use before you judge it.</p>"
+    },
+    {
+      "id": "second-tool",
+      "heading": "When a second tool earns its place",
+      "html": "<p>Most power users keep two assistants, not five. The second one should cover a specific job your default handles less well, not duplicate it. The pairings that come up again and again:</p><ul><li><strong>ChatGPT plus Perplexity:</strong> gather sourced facts in Perplexity, then turn them into something in ChatGPT.</li><li><strong>ChatGPT plus Claude:</strong> ChatGPT for everyday tasks, images and voice; Claude for serious writing, long documents and code.</li><li><strong>Gemini inside Google, plus a general assistant outside it.</strong></li><li><strong>Notion AI for your workspace, ChatGPT for everything else.</strong></li></ul><p>Our roundup of <a href=\"/blog/chatgpt-alternatives\">ChatGPT alternatives</a> is built around this idea. The real question is rarely what replaces ChatGPT. It's which tool you add for the one job ChatGPT isn't nailing. One thing not to do: pay for two subscriptions just to compare them. The free tiers show you the difference just as clearly.</p>"
+    },
+    {
+      "id": "best-by-job",
+      "heading": "Best picks by job",
+      "html": "<p>General assistants cover most work, but some jobs have a clear specialist. Here are our picks, each with the full guide behind it.</p><table><thead><tr><th>Job</th><th>Where to start</th><th>Full guide</th></tr></thead><tbody><tr><td>Everyday use</td><td>ChatGPT, or Claude for heavy writing</td><td><a href=\"/blog/best-ai-apps\">Best AI apps</a></td></tr><tr><td>On your phone</td><td>One assistant plus Perplexity, a specialist only if you use it weekly</td><td><a href=\"/blog/best-ai-apps-for-iphone\">Best AI apps for iPhone</a></td></tr><tr><td>Coding tools</td><td>Copilot or Cursor in the editor, Claude or ChatGPT for hard problems</td><td><a href=\"/blog/best-ai-coding-tools\">Best AI coding tools</a></td></tr><tr><td>Coding models</td><td>Close at the top; test two or three on your own repo</td><td><a href=\"/blog/best-ai-model-for-coding\">Best AI model for coding</a></td></tr><tr><td>Writing</td><td>Claude for prose, OpenAI's models for brainstorming</td><td><a href=\"/blog/best-ai-model-for-writing\">Best AI model for writing</a></td></tr><tr><td>Images</td><td>Midjourney for quality, Adobe Firefly for commercial-safe work</td><td><a href=\"/blog/best-ai-image-generators\">Best AI image generators</a></td></tr><tr><td>Video</td><td>Google's Veo for quality, Kling 3.0 for value</td><td><a href=\"/blog/best-ai-video-generators\">Best AI video generators</a></td></tr><tr><td>Slides</td><td>Gamma for a first draft, Canva for brand</td><td><a href=\"/blog/gamma-vs-canva-vs-chatgpt-slides\">Gamma vs Canva vs ChatGPT</a></td></tr><tr><td>Studying</td><td>A general assistant plus Perplexity</td><td><a href=\"/blog/best-ai-tools-for-students\">Best AI tools for students</a></td></tr></tbody></table><p>A few notes the table can't hold. Choosing a coding model is a separate decision from choosing a coding tool: Cursor, Copilot and most modern editors now let you pick the model underneath, so you can change one without the other. On writing, what you feed the model (samples of your own voice, real specifics, clear constraints) moves the result far more than switching models does. On video, OpenAI has closed the Sora consumer app and set an end date for its API, so don't build a workflow on it. And on slides, ChatGPT's collaborative Slides editor needs a Pro, Business or Enterprise plan, not Plus.</p><p>If one of these tools becomes part of your week, the courses go deeper: <a href=\"/learn-cursor\">Cursor</a>, <a href=\"/learn-midjourney\">Midjourney</a>, <a href=\"/learn-gamma\">Gamma</a> and <a href=\"/learn-canva-ai\">Canva AI</a>.</p>"
+    },
+    {
+      "id": "free-first",
+      "heading": "What you get without paying",
+      "html": "<p>Start free. ChatGPT, Claude, Gemini and Perplexity all have free tiers capable enough for everyday drafting, summarising, explaining and research, and plenty of people never need more. <a href=\"/blog/best-free-ai-tools-2026\">The best free AI tools</a> lays out a full daily stack across writing, research, coding and visuals, with notes on which free tier suits which job.</p><p>Students have a couple of genuinely valuable offers. At our last check, verified US college students could get up to 12 months of Google AI Pro free, and GitHub Copilot was free for verified students. ChatGPT and Claude had no individual student discount. Offers like these change and lapse, so <a href=\"/blog/ai-student-discounts\">AI student discounts</a> tracks what's current and what to confirm on the provider's own page before you plan around it.</p><p>The honest advice is the same for everyone: exhaust the free tiers first, and pay only when you hit a specific wall you can name.</p>"
+    },
+    {
+      "id": "paid-plans",
+      "heading": "Is a paid plan worth it?",
+      "html": "<p>ChatGPT Plus and Claude Pro both cost about $20 a month, and they're sold on different axes. On ChatGPT, paid tiers buy two things: more volume and access to a model that thinks longer before it answers. Its cheaper Go plan runs the same base model as the free tier, so it buys headroom rather than better answers. On Claude, the paid tiers mostly sell capacity: more use before you're throttled, priority at busy times, and the coding tools on top. The free tier there resets on a rolling window of a few hours, so hitting the limit means a wait, not a lost day.</p><p>Run this quick test before you subscribe to either:</p><ol><li><strong>Did the free tier stop you in the last week?</strong> If not, you don't need to pay yet.</li><li><strong>Is your work multi-step?</strong> Analysis, planning and debugging benefit from more thinking time. Drafting and rewriting mostly don't.</li><li><strong>Is your real complaint that answers feel generic?</strong> That's almost always a prompting problem. Spend a week adding context, audience, format and constraints to your prompts first. Upgrading answers a vague question at greater length, not better.</li></ol><p>The full breakdowns are in <a href=\"/blog/is-chatgpt-plus-worth-it\">Is ChatGPT Plus worth it?</a> and <a href=\"/blog/is-claude-pro-worth-it\">Is Claude Pro worth it?</a></p>"
+    },
+    {
+      "id": "read-comparisons",
+      "heading": "How to read any AI comparison, including ours",
+      "html": "<p>Plans, features and model names change every few weeks, which is why every comparison here carries a last-reviewed date. Read them the way you'd read any fast-moving review:</p><ul><li><strong>Check the date.</strong> A free-tier limit or a price from six months ago may already be wrong. Confirm on the vendor's own page before you pay.</li><li><strong>Treat benchmark charts as a filter, not a verdict.</strong> Labs pick the tests their model wins, and scores shift with how a test was run. If you want to know which model launched when, and what each release changed, that lives in our <a href=\"/blog/ai-tools\">AI tools and models hub</a>.</li><li><strong>Run your own test.</strong> Take one real task, give the same prompt to two assistants, and compare. Where they disagree is exactly where you should look closely. Five minutes of that tells you more about fit than any chart.</li></ul>"
+    },
+    {
+      "id": "skill-over-tool",
+      "heading": "The part no comparison can pick for you",
+      "html": "<p>Here's what every head-to-head in this hub ends up saying: the difference between these tools is smaller than the difference between using one well and using it lazily. A vague prompt gets a vague answer from any of them. A clear one, with context, a role, the task and the format you want, gets a good answer from all of them. That skill transfers when you switch tools, and the tool choice doesn't.</p><p>It's also the part you can practise. Iro is a gamified, practice-first way to learn AI prompting on iPhone and the web: five-minute lessons where you write real prompts, learn to spot a confident wrong answer, and build judgment across tools. If you've already settled on an assistant, go straight to its course: <a href=\"/learn-chatgpt\">ChatGPT</a>, <a href=\"/learn-claude\">Claude</a>, <a href=\"/learn-gemini\">Gemini</a>, <a href=\"/learn-perplexity\">Perplexity</a>, <a href=\"/learn-copilot\">Copilot</a> or <a href=\"/learn-notion-ai\">Notion AI</a>. Or browse <a href=\"/paths\">every learning path</a>, and take the free <a href=\"/quiz\">AI IQ test</a> to see where you stand first.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Which AI tool should I use?",
+      "a": "Match it to your most common task. ChatGPT is the best all-round default, Claude is strongest for long writing, documents and code, Gemini fits work that lives in Google apps, Perplexity is best for research with sources, and Copilot fits a Microsoft 365 workday."
+    },
+    {
+      "q": "Is ChatGPT or Claude better?",
+      "a": "Neither is strictly better. ChatGPT is the more versatile all-rounder with the biggest set of features, while Claude is often preferred for long-form writing, long documents and code. Many people keep both and switch by task."
+    },
+    {
+      "q": "What is the best free AI tool?",
+      "a": "For most people, the free tiers of ChatGPT, Claude and Gemini handle everyday work, and Perplexity's free tier is the strongest for researched, cited answers. Start free and only pay when you hit a specific limit."
+    },
+    {
+      "q": "Do I need more than one AI assistant?",
+      "a": "Usually one is enough to start. Add a second only for a job your default handles less well, such as Perplexity for cited research or Claude for heavy writing, and don't pay for two at once just to compare them."
+    },
+    {
+      "q": "Is ChatGPT Plus worth it?",
+      "a": "It's worth about $20 a month if you use ChatGPT most working days and either hit usage limits or need step-by-step reasoning on multi-step problems. If your complaint is that answers feel generic, better prompts will help more than a paid tier."
+    },
+    {
+      "q": "Is Claude Pro worth it?",
+      "a": "Claude Pro is worth about $20 a month if the free tier's limits regularly interrupt real work, or you want Claude Code and priority at busy times. Claude's paid tiers mainly sell capacity, so they won't fix answer quality on their own."
+    },
+    {
+      "q": "Is Perplexity better than ChatGPT for research?",
+      "a": "For research where you need sources, usually yes, because Perplexity searches the live web and shows citations by default. ChatGPT is stronger for creating and open-ended tasks, so many people research in Perplexity and write in ChatGPT."
+    },
+    {
+      "q": "Does the AI tool I pick matter more than how I use it?",
+      "a": "No. The gap between the top assistants is smaller than the gap between a clear prompt and a vague one. Learning to give context, set the format and check the output improves your results in every tool."
+    }
+  ],
+  "related": [
+    "/blog/chatgpt-vs-claude",
+    "/blog/chatgpt-vs-claude-vs-gemini",
+    "/blog/chatgpt-alternatives",
+    "/blog/best-ai-apps",
+    "/blog/is-chatgpt-plus-worth-it"
+  ],
+  "relatedLabels": [
+    {
+      "href": "/ai-tools-comparison",
+      "label": "Full AI tools comparison"
+    },
+    {
+      "href": "/which-ai-should-i-use",
+      "label": "Which AI should I use? Free picker"
+    },
+    {
+      "href": "/learn-chatgpt",
+      "label": "ChatGPT course"
+    },
+    {
+      "href": "/learn-claude",
+      "label": "Claude course"
+    },
+    {
+      "href": "/quiz",
+      "label": "Free AI IQ test"
+    }
+  ]
+}

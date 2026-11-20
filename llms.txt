@@ -184,9 +184,13 @@ Human-readable version of this section: https://tryiro.com/editorial-policy
 ## Blog
 
 - [Blog index](https://tryiro.com/blog): practical writing on AI fluency, prompting, AI tools.
-- [AI Fluency (pillar)](https://tryiro.com/blog/ai-fluency): hub for building real AI fluency: the active-practice method, free tools worth using, and how to tell when AI is wrong.
-- [Prompt Engineering (pillar)](https://tryiro.com/blog/prompt-engineering): hub for transferable prompt patterns that work across ChatGPT, Claude, Gemini, and Perplexity.
-- [AI Agents & Automation (pillar)](https://tryiro.com/blog/ai-agents): hub on what agents actually are, where they work, and how to build a first one.
+- [Learn AI (topic hub)](https://tryiro.com/blog/ai-fluency): beginner's guide to the core AI concepts (LLMs, tokens, context windows, RAG), the skills that matter, how long it takes and how to spot AI mistakes.
+- [AI learning apps (topic hub)](https://tryiro.com/blog/ai-learning-apps): how to choose an AI learning app, subscription and refund traps, how to cancel, and every app review, alternatives list and head-to-head on the blog.
+- [Prompt engineering (topic hub)](https://tryiro.com/blog/prompt-engineering): anatomy of a good prompt, the reusable patterns, how to debug a bad answer and how to practise.
+- [AI comparisons (topic hub)](https://tryiro.com/blog/ai-comparisons): which AI tool to use, with head-to-heads (ChatGPT, Claude, Gemini, Perplexity, Copilot, DeepSeek), best-of picks by job and whether paid plans are worth it.
+- [AI tools explained (topic hub)](https://tryiro.com/blog/ai-tools): new model releases explained and beginner how-to guides for each major assistant.
+- [AI at work and school (topic hub)](https://tryiro.com/blog/ai-at-work): practical AI guides by task and job, the safety rules (client data, fake citations, chatbot policy) and studying or teaching with AI.
+- [AI agents and automation (topic hub)](https://tryiro.com/blog/ai-agents): what agents are, what today's personal agents actually do, what to check before giving one access, and MCP in plain words.
 - [AI learning statistics 2026](https://tryiro.com/ai-learning-statistics): original data from 339 Iro learners on what makes beginners come back, where they drop off and what they choose to learn, with method, limitations and a CC BY 4.0 CSV.
 - [AI literacy test results](https://tryiro.com/blog/average-ai-literacy-score): our own AI IQ test data, published with the sample size, collection window and caveats.
 - [Iro AI vs Duolingo](https://tryiro.com/blog/iro-ai-vs-duolingo): why Iro is called "the Duolingo for AI": same method, different subject.
@@ -229,7 +233,6 @@ Human-readable version of this section: https://tryiro.com/editorial-policy
 - [15 ChatGPT prompts for beginners](https://tryiro.com/blog/chatgpt-prompts-for-beginners): copy-paste prompt templates for work, learning, and everyday life.
 - [AI agents vs. automation](https://tryiro.com/blog/ai-agents-vs-automation): the difference between rule-based automation and goal-driven AI agents, and when to use each.
 - [How to use AI at work](https://tryiro.com/blog/how-to-use-ai-at-work): the best starting tasks and how to use AI responsibly on the job.
-- [AI Tools (pillar)](https://tryiro.com/blog/ai-tools): hub comparing ChatGPT, Claude, Gemini, Perplexity, and Copilot, with the best tool for each job.
 - [ChatGPT vs Gemini](https://tryiro.com/blog/chatgpt-vs-gemini): honest head-to-head and the best pick for each task.
 - [The best AI apps in 2026](https://tryiro.com/blog/best-ai-apps): the leading AI apps compared by what each is best for.
 - [What is generative AI?](https://tryiro.com/blog/what-is-generative-ai): plain-English definition, examples, and how it differs from traditional AI.

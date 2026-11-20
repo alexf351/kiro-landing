@@ -12,7 +12,7 @@ reading_time_minutes: 7
 author: "Alex Furukawa"
 license: "© 2026 Iro AI"
 canonical_llm_reference: "https://tryiro.com/llms-full.txt"
-pillar: "ai-fluency"
+pillar: "ai-at-work"
 ---
 
 # Will AI take your job? An honest answer (and how to stay ahead)

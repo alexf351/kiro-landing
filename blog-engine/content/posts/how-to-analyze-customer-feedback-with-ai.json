@@ -1,7 +1,7 @@
 {
   "slug": "how-to-analyze-customer-feedback-with-ai",
   "order": 131,
-  "pillar": "ai-tools",
+  "pillar": "ai-at-work",
   "title": "How to analyze customer feedback with AI and get themes you can trust",
   "metaTitle": "How to Analyze Customer Feedback With AI",
   "lede": "Pasting feedback into a chat and asking for a summary gets you themes you can't check. The method that holds up: tag every item by ID against a codebook you've edited, count the tags yourself, and read a sample under every theme before it reaches the roadmap.",

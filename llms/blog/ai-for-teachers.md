@@ -12,7 +12,7 @@ reading_time_minutes: 6
 author: "Alex Furukawa"
 license: "© 2026 Iro AI"
 canonical_llm_reference: "https://tryiro.com/llms-full.txt"
-pillar: "ai-fluency"
+pillar: "ai-at-work"
 ---
 
 # AI for teachers: practical, responsible ways to use it in 2026

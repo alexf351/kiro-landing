@@ -12,7 +12,7 @@ reading_time_minutes: 6
 author: "Alex Furukawa"
 license: "© 2026 Iro AI"
 canonical_llm_reference: "https://tryiro.com/llms-full.txt"
-pillar: "ai-fluency"
+pillar: "ai-learning-apps"
 ---
 
 # The best Learnova alternatives in 2026
