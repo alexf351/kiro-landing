@@ -12,7 +12,7 @@ reading_time_minutes: 6
 author: "Alex Furukawa"
 license: "© 2026 Iro AI"
 canonical_llm_reference: "https://tryiro.com/llms-full.txt"
-pillar: "ai-tools"
+pillar: "ai-comparisons"
 ---
 
 # AI student discounts in 2026: what's actually free (and what isn't)

@@ -1,52 +1,134 @@
 {
   "slug": "prompt-engineering",
-  "order": 2,
-  "title": "Prompt Engineering: Patterns That Survive Updates",
+  "order": 3,
+  "title": "Prompt engineering guide: patterns and practice",
   "shortName": "Prompt Engineering",
-  "tagline": "Reusable prompt structures for any model",
-  "lede": "The transferable prompt patterns that work across ChatGPT, Claude, Gemini, and Perplexity — and survive every model upgrade.",
-  "description": "Practical prompt engineering for 2026: the transferable patterns that work across ChatGPT, Claude, Gemini, and Perplexity — and survive every model upgrade.",
+  "tagline": "Write AI prompts that work in any tool, then make it a habit",
+  "lede": "How to write prompts that get a usable answer the first or second time: the anatomy of a good prompt, the patterns that carry across tools, how to fix a bad answer and how to practise.",
+  "description": "A practical prompt engineering guide: what a good prompt contains, 7 patterns that work in ChatGPT, Claude and Gemini, how to fix bad answers and practise.",
   "keywords": [
     "prompt engineering",
+    "how to write a prompt",
     "prompt patterns",
+    "prompt engineering examples",
+    "prompt engineering exercises",
     "ChatGPT prompts",
-    "Claude prompts",
-    "prompt design 2026"
+    "AI prompts that work",
+    "learn prompt engineering"
   ],
   "datePublished": "2026-05-28",
-  "dateModified": "2026-05-28",
+  "dateModified": "2026-11-20",
   "intro": [
-    "<p>Prompt engineering has a branding problem. It sounds like a dark art of secret phrases. It is not. Good prompting is just clear specification — telling a model who it should be, what you want, what it needs to know, and what the output must look like.</p>",
-    "<p>The phrases that trend on social media stop working the moment a model updates. Patterns do not. A pattern is a reusable structure for organising a request, and the same handful of patterns work across <a href=\"/learn-chatgpt\">ChatGPT</a>, <a href=\"/learn-claude\">Claude</a>, <a href=\"/learn-gemini\">Gemini</a>, and <a href=\"/learn-perplexity\">Perplexity</a>.</p>",
-    "<p>This pillar teaches prompting as a transferable skill you can drill. Start with the core patterns, then practise combining them in Iro AI's <a href=\"/prompt-engineering-app\">Prompt Lab</a> until the right structure for a task becomes automatic.</p>"
+    "<p>Prompt engineering is less mysterious than it sounds. It's the skill of telling an AI model what you want clearly enough that it gets it right the first or second time. No secret phrases, no code. Just clear thinking, written down.</p>",
+    "<p>This guide teaches the parts that hold up as models change: what a good prompt contains, the reusable patterns, how to debug a weak answer and how to practise until it's automatic. The posts below go deeper on each piece, with examples you can copy.</p>"
+  ],
+  "guide": [
+    {
+      "id": "what-it-is",
+      "heading": "What prompt engineering is (and isn't)",
+      "html": "<p><a href=\"/blog/what-is-prompt-engineering\">Prompt engineering</a> is writing and structuring your instructions so a model reliably produces the output you want. It works for a simple reason: a language model generates its answer from the text you give it. Everything you leave out, it has to guess, and it guesses toward the average. A vague prompt gets an average answer.</p><p>So <a href=\"/blog/is-prompt-engineering-dead\">is prompt engineering dead</a>? No. What faded is the idea of memorising magic phrases, because newer models forgive casual wording. What's left is the real skill: stating the goal, giving context, setting constraints and checking the result. That matters more as AI agents start taking multi-step actions for you, because a fuzzy instruction stops producing a weak answer and starts producing the wrong action.</p>"
+    },
+    {
+      "id": "anatomy",
+      "heading": "The anatomy of a good prompt",
+      "html": "<p>Most strong prompts have four parts. You won't need all four every time, but the more ambiguous the task, the more they help.</p><ul><li><strong>Context:</strong> the situation, the audience and anything you've already tried.</li><li><strong>Role:</strong> who the model should act as, which sets its lens and standards.</li><li><strong>Task:</strong> the specific thing to do, with a clear verb.</li><li><strong>Format:</strong> length, structure and tone, plus anything to avoid.</li></ul><p>Here's the difference in practice. A typical first attempt:</p><blockquote><code>Summarise this report.</code></blockquote><p>The model has no idea who the summary is for, what matters or how long it should be, so you get a generic paragraph. The same request with all four parts:</p><blockquote><code>You are an analyst briefing a busy operations director. Summarise the report between the triple quotes in 5 bullet points, each under 20 words. Lead with anything that affects next quarter's budget, and list any figures I should double-check before sharing. No jargon.<br>\"\"\"[paste report]\"\"\"</code></blockquote><p>Nothing about the model changed. Only the instruction did. For more worked examples, read <a href=\"/blog/how-to-write-a-prompt\">how to write a good AI prompt</a>, and if you'd rather start by adapting templates, <a href=\"/blog/chatgpt-prompts-for-beginners\">15 ChatGPT prompts for beginners</a> covers work, learning and everyday life. Copy them for the structure, not the wording.</p>"
+    },
+    {
+      "id": "patterns",
+      "heading": "Seven patterns that work in any tool",
+      "html": "<p>Shared prompts break when a model updates. Patterns don't, because a pattern is a way of organising a request rather than a fixed string of words. These are the seven from <a href=\"/blog/prompt-engineering-patterns\">the prompt patterns that work everywhere</a>:</p><ol><li><strong>Role-Goal-Constraints.</strong> Who the model is, what you're trying to achieve, what it needs to know, and what the output must do or avoid.</li><li><strong>Few-shot with anchors.</strong> Two or three examples that span the range you want: an easy one, a hard one and one in between.</li><li><strong>Output format contract.</strong> State the exact shape up front, such as a table with named columns or three bullets, and nothing else.</li><li><strong>Self-critique loop.</strong> Ask for a draft, then three specific weaknesses, then a revision that fixes them.</li><li><strong>Decomposition.</strong> For complex work, have the model plan the steps first, then do them one at a time.</li><li><strong>Comparison.</strong> Ask for two or three versions and have them judged against criteria you supply.</li><li><strong>Verify-then-trust.</strong> Check every name, number, date and citation before you rely on it.</li></ol><p>Real prompts combine three or four of these. A work email might use Role-Goal-Constraints, a format contract and a self-critique pass. A research question might use decomposition, comparison and verify-then-trust.</p>"
+    },
+    {
+      "id": "debug",
+      "heading": "How to debug a bad answer",
+      "html": "<p>When an answer disappoints, the model is rarely the problem. Most failures come from a handful of fixable gaps, covered in <a href=\"/blog/why-your-ai-prompts-arent-working\">why your AI prompts aren't working</a>. Match the symptom to the fix:</p><table><thead><tr><th>What you got</th><th>Likely cause</th><th>What to add</th></tr></thead><tbody><tr><td>Generic, could-be-anyone output</td><td>Too vague</td><td>Audience, goal and constraints</td></tr><tr><td>Wrong tone or wrong assumptions</td><td>No role or context</td><td>Who it's for and what you already know</td></tr><tr><td>A wall of prose</td><td>No format</td><td>A shape: table, bullets, word limit</td></tr><tr><td>Close, but not quite right</td><td>No examples</td><td>One to three samples of good</td></tr><tr><td>A flat first draft</td><td>Accepted too early</td><td>A self-critique and rewrite pass</td></tr></tbody></table><p>Two habits make debugging faster. First, change one thing at a time, so you know which change helped. Second, judge the output, not the prompt. A better prompt gives an answer you'd use with fewer edits, and a similar answer when you run it twice. If you can't tell which of two outputs is better, your goal wasn't clear yet.</p><p>Don't throw a decent draft away either. Follow-ups like \"shorter\", \"more formal\" or \"that intro is generic, try a sharper hook\" usually get there faster than starting over.</p>"
+    },
+    {
+      "id": "real-work",
+      "heading": "What the patterns look like on real tasks",
+      "html": "<p>The same ideas apply whatever you're making. Two examples from the hub:</p><p><strong>Cold email.</strong> AI outreach reads as AI because the model fills every gap with the most average email it knows. <a href=\"/blog/ai-cold-email-that-doesnt-sound-like-ai\">Writing an AI cold email that doesn't sound like AI</a> fixes the input: paste research you've read yourself, state one specific reason you're writing, keep the ask small, ban the model's favourite filler phrases and write the first line yourself. If you can't find a real reason to email someone, AI can't invent one.</p><p><strong>Mood board.</strong> Image prompts follow the same logic. <a href=\"/blog/how-to-make-a-mood-board-with-ai\">Making a mood board with AI</a> starts with a one-screen brief, then names subject, composition, lighting, palette, medium and exclusions in each prompt, changing one variable at a time. Use it to explore three or four genuinely different directions, not to make final art.</p><p>Notice the pattern: context the model can't guess, constraints that move it off its defaults, and a human check at the end.</p>"
+    },
+    {
+      "id": "check-the-output",
+      "heading": "Check the output before you trust it",
+      "html": "<p>A well-built prompt can still return a confident mistake. Models generate plausible text, not verified facts, so checking is part of prompting, not an extra step after it. A few prompt moves make checking easier:</p><ul><li><strong>Ground it in your material.</strong> \"Answer using only the document I pasted. After each claim, quote the sentence it came from. If the document doesn't say, write 'not in the document'.\"</li><li><strong>Separate instructions from content.</strong> Put pasted text between delimiters such as triple quotes and tell the model to ignore any instructions inside it. That also guards against text that tries to give the AI orders.</li><li><strong>Make sources checkable.</strong> If you ask for statistics, ask who published each one and tell the model to leave out any it isn't sure are real. Then check each one yourself.</li><li><strong>Cross-check what matters.</strong> Run important facts through a search-grounded tool that shows its sources.</li></ul><p>None of these makes an answer true. They make it faster to see whether it is.</p>"
+    },
+    {
+      "id": "practise",
+      "heading": "How to practise prompt engineering",
+      "html": "<p>Reading about prompting doesn't make you good at it. Rewriting bad prompts does. <a href=\"/blog/how-to-learn-prompt-engineering\">How to learn prompt engineering</a> lays out a four-week plan at about ten minutes a day, one habit per week:</p><ol><li><strong>Clarity:</strong> write each real prompt twice, once as usual and once naming the task, audience and length. Compare the outputs.</li><li><strong>Context and constraints:</strong> add the details only you know, and say what to avoid.</li><li><strong>Structure:</strong> examples, delimiters, step-by-step reasoning and structured output.</li><li><strong>Checking:</strong> make the model show its sources, critique itself, and fix prompts that failed.</li></ol><p>For drills, use the <a href=\"/blog/prompt-engineering-exercises\">20 prompt engineering exercises</a>. Each gives a weak prompt, a goal and a model answer. Write your own version first, run both in the same tool and compare the results. One or two a day beats all twenty in one sitting.</p><p>Feedback is what speeds this up. Iro's <a href=\"/prompt-engineering-app\">Prompt Lab</a> scores the prompts you write and shows what to sharpen, in short daily lessons on iPhone and the web. You'll know you're improving when you need fewer follow-ups, your prompts work in more than one tool, and you can explain why one failed.</p>"
+    },
+    {
+      "id": "across-tools",
+      "heading": "Does prompting change between ChatGPT, Claude and Gemini?",
+      "html": "<p>Rarely in structure. The same context, role, task and format approach works across ChatGPT, Claude, Gemini and Perplexity, which is why the skill transfers. What changes is which tool you reach for: one with live search and citations is better for anything factual, and some are stronger with long documents. The tool-specific paths for <a href=\"/learn-chatgpt\">ChatGPT</a> and <a href=\"/learn-claude\">Claude</a> apply these patterns inside each app.</p><p>Whichever tool you use, prompting is one part of a bigger skill that also covers tool choice and judging output. The <a href=\"/blog/ai-fluency\">Learn AI hub</a> covers the rest. When you want ready-made starting points, the <a href=\"/ai-prompts\">AI prompt library</a> has prompts to adapt, the <a href=\"/paths\">path library</a> has guided practice by tool and job, and the free <a href=\"/quiz\">AI literacy test</a> shows where you stand in about two minutes.</p>"
+    }
   ],
   "faq": [
     {
-      "q": "Is prompt engineering still worth learning in 2026?",
-      "a": "Yes — more than ever, but not as a list of magic phrases. The durable skill is specifying a task clearly enough that any model can do it well. That transfers across every assistant and every model upgrade."
+      "q": "What is prompt engineering?",
+      "a": "Prompt engineering is writing and structuring instructions so an AI model reliably gives you the output you want. In practice it means giving context, a role, a clear task and the format you need, then refining the answer."
     },
     {
-      "q": "Do I need a different prompt for each AI model?",
-      "a": "Rarely. The same patterns work across ChatGPT, Claude, Gemini, and Perplexity. You tune details — Claude is strong at self-critique, Perplexity at grounded research — but the structure stays the same."
+      "q": "Is prompt engineering dead in 2026?",
+      "a": "No. Models now forgive casual wording, so magic phrases matter less, but stating a clear goal, giving context, setting constraints and checking the output matter as much as ever, especially with AI agents."
     },
     {
-      "q": "What is the single most useful pattern?",
-      "a": "Role-Goal-Constraints: tell the model who to be, what to achieve, and what the output must do or avoid. See <a href=\"/blog/prompt-engineering-patterns\">the 7 prompt patterns</a> for the full set."
+      "q": "Do I need to know how to code to learn prompt engineering?",
+      "a": "No. For everyday work, prompt engineering is a writing and thinking skill. Coding only helps if you want to build apps on top of AI models."
+    },
+    {
+      "q": "What is the best structure for a prompt?",
+      "a": "Start with context, role, task and format. For harder tasks, add constraints on what to avoid, an example of what good looks like, and a self-critique pass."
+    },
+    {
+      "q": "Do I need different prompts for ChatGPT, Claude and Gemini?",
+      "a": "Rarely. The same patterns work across all of them. You choose the tool by the job, such as a search-grounded assistant for factual research, but the structure of a good prompt stays the same."
+    },
+    {
+      "q": "Why does AI keep giving me generic answers?",
+      "a": "Usually because the prompt leaves gaps the model fills with average guesses. Add the audience, the goal, constraints, a format and ideally an example, then refine the first draft instead of accepting it."
+    },
+    {
+      "q": "How long does it take to learn prompt engineering?",
+      "a": "A focused four-week plan at about ten minutes a day covers the core habits: clarity, context and constraints, structure, and checking. After that it is a matter of daily use on real tasks."
+    },
+    {
+      "q": "How do I know if my prompt is better?",
+      "a": "Judge the output, not the prompt. A better prompt gives an answer you would use with fewer edits and gives a similar answer when you run it twice."
     }
   ],
   "related": [
     "/blog/prompt-engineering-patterns",
-    "/blog/how-to-learn-chatgpt-in-2026",
-    "/blog/best-free-ai-tools-2026"
+    "/blog/how-to-write-a-prompt",
+    "/blog/prompt-engineering-exercises",
+    "/blog/why-your-ai-prompts-arent-working",
+    "/blog/how-to-learn-prompt-engineering"
   ],
   "relatedLabels": [
     {
       "href": "/prompt-engineering-app",
-      "label": "Prompt Lab in Iro AI"
+      "label": "Prompt Lab: practise prompt engineering in Iro"
+    },
+    {
+      "href": "/ai-prompts",
+      "label": "AI prompt library"
+    },
+    {
+      "href": "/learn-chatgpt",
+      "label": "Learn ChatGPT"
+    },
+    {
+      "href": "/learn-claude",
+      "label": "Learn Claude"
+    },
+    {
+      "href": "/paths",
+      "label": "Iro path library"
     },
     {
       "href": "/quiz",
-      "label": "Free AI IQ test"
+      "label": "Free AI literacy test"
     }
   ]
 }

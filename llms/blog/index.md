@@ -18,10 +18,13 @@ license: "© 2026 Iro AI"
 
 ## Pillars
 
-- [AI Fluency: Learn AI the Way That Actually Sticks](https://tryiro.com/blog/ai-fluency) — The fundamentals — tools, judgment, and a daily habit
-- [Prompt Engineering: Patterns That Survive Updates](https://tryiro.com/blog/prompt-engineering) — Reusable prompt structures for any model
-- [AI Agents & Automation: Hype to Working Systems](https://tryiro.com/blog/ai-agents) — What agents really are and when to use them
-- [AI Tools in 2026: Pick One, Then Use It Well](https://tryiro.com/blog/ai-tools) — Compare AI tools and get more from each
+- [Learn AI from scratch: concepts and key skills](https://tryiro.com/blog/ai-fluency) — AI concepts, skills and a starter plan for beginners
+- [AI learning apps: reviews and alternatives (2026)](https://tryiro.com/blog/ai-learning-apps) — Reviews, alternatives, cancellations and how to choose
+- [Prompt engineering guide: patterns and practice](https://tryiro.com/blog/prompt-engineering) — Write AI prompts that work in any tool, then make it a habit
+- [Which AI should you use? Head-to-head comparisons](https://tryiro.com/blog/ai-comparisons) — Honest head-to-heads and the best AI pick for every job
+- [AI models explained: new releases and how-tos](https://tryiro.com/blog/ai-tools) — What each new model changed, and how to use every major assistant
+- [Using AI at work and school: guides by task](https://tryiro.com/blog/ai-at-work) — Practical, safe ways to use AI on real work and study
+- [AI agents and automation: hype to safe delegation](https://tryiro.com/blog/ai-agents) — What agents really do, and how to hand them work safely
 
 ## Posts
 

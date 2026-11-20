@@ -1,104 +1,189 @@
 ---
-title: "AI Fluency: Learn AI the Way That Actually Sticks"
+title: "Learn AI from scratch: concepts and key skills"
 canonical_url: "https://tryiro.com/blog/ai-fluency"
 site: "Iro AI"
 site_url: "https://tryiro.com"
 language: en-US
-last_updated: "2026-11-17"
-keywords: ["AI fluency", "how to learn AI", "AI skills", "learn AI 2026", "AI for beginners"]
+last_updated: "2026-11-20"
+keywords: ["learn AI", "AI for beginners", "AI concepts explained", "how to learn AI", "AI skills", "AI literacy", "AI fluency", "learn AI without coding"]
 author: "Iro AI"
 license: "© 2026 Iro AI"
 type: "content-pillar"
 ---
 
-# AI Fluency: Learn AI the Way That Actually Sticks
+# Learn AI from scratch: concepts and key skills
 
-> Build real AI fluency in 2026 — the active-practice method, the free tools worth using, and how to tell when AI is wrong.
+> Everything a beginner needs to understand AI and use it well: the core ideas in plain English, the skills worth building, and a realistic plan to get there.
 
 **Canonical:** https://tryiro.com/blog/ai-fluency
-**Last updated:** 2026-11-17
+**Last updated:** 2026-11-20
 
-AI fluency is the ability to get reliable, useful results from AI tools — and to know when not to trust them. It is not about memorising magic prompts. It is a skill you build through active practice, the same way you would learn a language or an instrument.
+Learning AI sounds like a technical project. For most people it isn't. You don't need to build models. You need to understand roughly how tools like ChatGPT, Claude and Gemini work, what they're good and bad at, and how to direct and check them.
 
-This pillar collects everything Iro AI has written on building that skill from zero: the method that beats passive video courses, the free tools actually worth your attention in 2026, and the verification habits that separate people who use AI well from people who get burned by it.
+This hub is the beginner's map. The guide below explains the core concepts in plain English, the skills that matter, how long it really takes and a plan to start this week. Every post in the hub goes deeper on one piece, so read in order or jump to your gap.
 
-Work through the posts below in order, or jump straight to whichever gap is most urgent for you. Each one is a short, practical read with a 5-minute exercise you can try the same day. When you are ready to make it a habit, the [gamified daily lessons](/duolingo-for-ai) in Iro AI are built around exactly this loop.
+## What learning AI actually means
+
+There are two very different things people mean by learning AI, and picking the right one saves you months.
+
+- **Using AI.** Prompting, choosing the right tool, judging the output and applying it to real work. No code needed, and it pays off within weeks.
+- **Building AI.** Training and fine-tuning models. That path needs programming (usually Python), maths and machine learning, and takes months to years.
+
+Almost everyone means the first one. If that's you, start with [how to learn AI without coding](/blog/how-to-learn-ai-without-coding), and if you're still deciding whether it's worth your time at all, read [is learning AI worth it](/is-learning-ai-worth-it).
+
+Two words come up constantly. [AI literacy](/blog/what-is-ai-literacy) is understanding what AI is, what it can and can't do and how to use it responsibly. [AI fluency](/blog/what-is-ai-fluency) is being able to use it well in practice. Literacy is knowing a model can make things up. Fluency is getting a good answer and catching the one fact it got wrong. You want both, and this hub covers both.
+
+## The core concepts in plain English
+
+You don't need the maths. You do need a working mental model, because it explains most of the strange things AI does. These are the terms worth knowing first.
+
+| Term | What it means | Why it matters to you |
+| --- | --- | --- |
+| AI, machine learning, deep learning | Nested ideas: deep learning is a type of machine learning, which is the main way we build AI today | Today's tools learn from data, so they reflect its gaps and can be confidently wrong |
+| Generative AI | AI that creates new text, images, audio, video or code from a prompt | It produces plausible output, not verified facts |
+| LLM | A large language model, trained on huge amounts of text to predict the next word | It's the engine inside ChatGPT, Claude, Gemini and Perplexity |
+| Token | A chunk of text, often a word or part of one | Pricing, limits and context windows are all counted in tokens |
+| Context window | How much text a model can consider at once | Long chats drift because the oldest parts fall out of view |
+| RAG | Retrieval-augmented generation: the AI looks up real sources before answering | Cited, grounded answers are easier to check and generally more trustworthy |
+
+
+
+Each has its own short explainer. Start with [AI vs machine learning vs deep learning](/blog/ai-vs-machine-learning) and [what generative AI is](/blog/what-is-generative-ai), then [what an LLM is](/blog/what-is-an-llm). A useful rule of thumb from [what tokens are](/blog/what-are-tokens-in-ai): in English, about 1,000 tokens covers roughly 750 words. [What a context window is](/blog/what-is-a-context-window) explains why a chat seems to forget your early instructions, and [what RAG is](/blog/what-is-rag) explains why tools that show sources behave differently from ones that don't.
+
+For anything else, the [AI glossary](/glossary) has plain-language definitions, and [how to learn LLMs](/learn-llms) goes one level deeper on the models themselves.
+
+## The skills that matter more than the theory
+
+Concepts help you understand AI. Skills change what you get out of it. The seven that matter most, from [the AI skills worth learning in 2026](/blog/ai-skills-for-2026), are all communication and judgment, not code:
+
+- **Prompting**: turning a vague need into clear instructions.
+- **Tool choice**: knowing which assistant fits which job.
+- **Output judgment**: telling a good answer from a confident wrong one.
+- **Verification**: checking facts, numbers and sources before relying on them.
+- **Workflow design**: folding AI into how you already work.
+- **Working with AI agents**: knowing when to hand over a multi-step task, and where agents fail.
+- **Continuous learning**: picking up whatever comes next, quickly.
+
+[The AI Fluency Pyramid](/blog/the-ai-fluency-pyramid) shows how these stack, in five levels: Access, Operation, Direction, Judgment and Leverage. Most people stall at Operation, typing a question and taking whatever comes back, and decide AI is overhyped. The biggest jump is from Operation to Direction, which is mostly one habit: stop asking, start directing.
+
+Prompting is the highest-leverage of the seven, so it has its own hub: [prompt engineering patterns, examples and practice](/blog/prompt-engineering). For a step-by-step route to fluency, see [how to become AI fluent](/become-ai-fluent).
+
+## How long it takes to learn AI
+
+Faster than most people expect, if you mean using AI rather than building it. With about five focused minutes a day on real tasks, a realistic timeline from [how long it takes to learn AI](/blog/how-long-to-learn-ai) looks like this:
+
+- **Week 1:** get comfortable. One tool, real tasks, a basic prompt structure.
+- **Weeks 2 to 3:** get useful. Sharper prompts, catching obvious mistakes, saving real time.
+- **Month 2:** get broad. A second and third tool, and your own use cases.
+- **Month 3 and beyond:** get fluent. AI is a default part of how you work, and you know when to trust it.
+
+Specialising in an area like marketing, finance or agents adds a few weeks on top. Building models is a different timeline entirely.
+
+The variable that matters most is consistency. Short daily practice compounds faster than an occasional weekend binge, which is the whole idea behind [learning AI in 5 minutes a day](/learn-ai-in-5-minutes-a-day).
+
+## A 30-day plan to get started
+
+If you want a concrete starting point, [the 30-day beginner plan](/blog/ai-for-beginners-30-day-plan) builds judgment one week at a time. You only need a free account on one assistant.
+
+- **Week 1, get comfortable.** Use one assistant for one small real task a day: an email, a summary, a plan. Reps, not perfection.
+- **Week 2, prompt with structure.** Tell the model who to be, what you want and what the output must do or avoid. Rewrite last week's vague prompts and compare.
+- **Week 3, verify everything.** Each day, take one factual claim an AI gave you and check it before you trust it.
+- **Week 4, build a workflow.** Pick a recurring task and design a simple draft, critique, finalise loop you'll actually reuse.
+
+The method matters as much as the plan. Write prompts yourself instead of watching someone else do it, use real tasks so the lessons stick, and get feedback quickly. Iro is built around exactly that loop: short, gamified lessons on iPhone and the web, with feedback on every exercise. The longer version of this roadmap is [how to learn AI in 2026](/how-to-learn-ai).
+
+## How to tell when AI is wrong
+
+An AI hallucination is a confident, plausible answer that's false. It isn't a glitch you can switch off: LLMs generate the most likely text, not verified facts, so a made-up answer looks exactly as confident as a true one. Your job is to supply the doubt the model doesn't.
+
+The quick checks from [how to spot AI hallucinations in 5 seconds](/blog/spot-ai-hallucinations):
+
+- Treat any name, date, statistic, quote or citation as a hypothesis until you've checked it.
+- Be suspicious of confident claims about recent events, niche topics or private information the model couldn't know.
+- Click through citations. Fake ones look real on the surface.
+- Cross-check important facts with a search-grounded tool that shows sources.
+- Push back with the opposite claim. If the model flips straight away, the first answer wasn't grounded.
+
+For anything you're sending, signing or quoting, do the deeper checks too. This is the Judgment level of the pyramid, and it's what makes AI safe to rely on.
+
+## Spotting AI-generated content
+
+The flip side of using AI is recognising it. There's no fully reliable way to detect AI content, and detection tools both miss it and flag genuine human writing. Treat a detector score as a weak signal, never a verdict.
+
+Common tells, covered in [how to tell if something is AI-generated](/blog/how-to-tell-if-something-is-ai-generated):
+
+- **Text:** generic, hedge-heavy phrasing, confident factual slips, repetition, and smooth structure that says very little.
+- **Images:** odd hands and teeth, garbled lettering, lighting that doesn't match, and backgrounds that melt together.
+
+These tells fade as models improve. The habit that lasts is to stop asking whether a machine wrote something and start asking whether it's true. Check the specific claims against reputable sources, whoever wrote them.
+
+## Are AI certificates worth it?
+
+Usually not, unless someone else is paying or a job posting asks for one. That's the honest summary of [are AI certifications worth it](/blog/are-ai-certifications-worth-it), and it's worth knowing that most articles on the question come from people selling certificates.
+
+A certificate gives you a syllabus, a line on your profile and a keyword for screening software. It doesn't prove you can use AI well. People hiring for AI skills tend to ask three things instead: what have you built with it, can you tell when it's wrong, and how well do you know the tools your team actually uses.
+
+So if you have a training budget, use it. If a specific role names a credential, get the cheapest one that fits. Otherwise, put the time into building something real and writing up the decisions you made.
+
+## How to keep up without chasing every release
+
+The tools change monthly. The direction is steadier: [the big AI trends in 2026](/blog/ai-trends-2026) are agents that take multi-step actions, models that handle text, images and voice together, AI built into everyday apps, and stronger reasoning. Each one raises the value of directing and checking AI well, not lowering it.
+
+You don't need to try every new model. Keep a small daily practice habit, learn new tools as you need them, and apply what you learn to real work. [AI for work](/ai-for-work) covers the job-specific side.
+
+To find your starting point, take the free [AI literacy test](/quiz). It takes about two minutes and shows your weakest topic. Curious how other people do? We publish the results in [our AI literacy score report](/blog/average-ai-literacy-score). Then pick one gap and close it, a few minutes a day. That's what Iro is for.
 
 ## Posts in this pillar
 
-- [How to actually learn ChatGPT in 2026](https://tryiro.com/blog/how-to-learn-chatgpt-in-2026) — Most people learn ChatGPT by random experimentation and hit a ceiling. Here's the active-practice method that builds judgment, not memorised prompts.
 - [How to spot AI hallucinations in 5 seconds](https://tryiro.com/blog/spot-ai-hallucinations) — AI models confidently invent facts, citations and numbers. Here are the five-second checks that catch most hallucinations, plus deeper ones for high stakes.
 - [AI for beginners: a 30-day learning plan](https://tryiro.com/blog/ai-for-beginners-30-day-plan) — A 30-day plan to learn AI from scratch in five minutes a day: what to practise each week, which free tools to start with, and how to make the habit stick.
-- [Iro AI vs Coursiv: which AI learning app is right for you in 2026?](https://tryiro.com/blog/iro-ai-vs-coursiv) — An honest Iro AI vs Coursiv comparison: how the two AI learning apps differ on teaching style, pricing and free access, and who each one is actually best for.
-- [Iro AI vs Learnova: which AI learning app should you pick in 2026?](https://tryiro.com/blog/iro-ai-vs-learnova) — An honest comparison of two AI learning apps: how Iro AI and Learnova differ on teaching style, hands-on practice, pricing, and who each suits best.
-- [Iro AI vs Brilliant: which should you use to actually get good at AI?](https://tryiro.com/blog/iro-ai-vs-brilliant) — Brilliant teaches the math and concepts behind AI; Iro AI teaches you to use AI tools for real work. An honest comparison of which one fits your goal.
-- [Iro AI vs Duolingo: the "Duolingo for AI," explained](https://tryiro.com/blog/iro-ai-vs-duolingo) — Iro AI vs Duolingo in 2026: how the gamified-learning method that made Duolingo famous applies to learning AI tools, and why they're not actually competitors.
 - [What is AI fluency? A practical definition (and how to build it)](https://tryiro.com/blog/what-is-ai-fluency) — AI fluency is the practical ability to use, direct, and evaluate AI tools well. A clear definition, the four layers it breaks into, and how to build it.
-- [How to use AI for studying (without cheating yourself)](https://tryiro.com/blog/how-to-use-ai-for-studying) — How to use AI for studying the right way: the 5 best ways to study with ChatGPT or Claude, what to avoid so you actually learn, and copy-paste study prompts.
 - [How to learn AI without coding (a no-code path for 2026)](https://tryiro.com/blog/how-to-learn-ai-without-coding) — You don't need to code to learn AI. Here's the no-code path: which tools to start with, the skills that matter, and a five-minute-a-day routine that works.
 - [What is an LLM? Large language models explained simply](https://tryiro.com/blog/what-is-an-llm) — What is an LLM? A large language model is an AI trained on text to predict the next word. How LLMs work, examples, and what they're bad at, in plain English.
 - [How long does it take to learn AI? A realistic timeline](https://tryiro.com/blog/how-long-to-learn-ai) — How long does it take to learn AI? With five minutes of daily practice you can be useful in two to three weeks. A realistic week-by-week timeline.
 - [The 7 AI skills worth learning in 2026](https://tryiro.com/blog/ai-skills-for-2026) — Prompting, tool choice, judgment, verification, workflow design, agents, and continuous learning: why these seven skills are durable and how to build each.
-- [How to use AI at work (a practical guide for 2026)](https://tryiro.com/blog/how-to-use-ai-at-work) — Where to start with AI at work in 2026: the highest-value first tasks, how to verify output and protect company data, and how to build the habit.
 - [What is generative AI? A simple explanation with examples](https://tryiro.com/blog/what-is-generative-ai) — A plain-English answer: how generative AI works, real examples across text, images, video and code, how it differs from traditional AI, and where it fails.
 - [The AI Fluency Pyramid: the 5 levels of getting good at AI](https://tryiro.com/blog/the-ai-fluency-pyramid) — A five-level framework for getting good at AI: Access, Operation, Direction, Judgment and Leverage. Find your level and see why most people stall at Level 2.
-- [Will AI take your job? An honest answer (and how to stay ahead)](https://tryiro.com/blog/will-ai-take-your-job) — AI changes most jobs more than it eliminates them. The real risk is being out-competed by people who use it well — and what to do about that, starting now.
 - [What is AI literacy? A clear definition for 2026](https://tryiro.com/blog/what-is-ai-literacy) — What is AI literacy? A clear 2026 definition: understanding what AI is, how it works, its limits, and how to use it responsibly — and how to build it.
-- [AI for small business: practical ways to use it in 2026](https://tryiro.com/blog/ai-for-small-business) — Practical, no-code ways small businesses can use AI for marketing, customer service, admin, and analysis, plus free tools and how to start safely.
 - [How to tell if something is AI-generated (text, images & more)](https://tryiro.com/blog/how-to-tell-if-something-is-ai-generated) — The real tells in AI-written text and AI-generated images, why detection tools are unreliable, and the verification habit that catches most of it.
 - [AI vs machine learning vs deep learning: the difference, explained](https://tryiro.com/blog/ai-vs-machine-learning) — Clear definitions of AI, machine learning and deep learning, how they nest inside each other, real examples, and where generative AI and ChatGPT fit in.
 - [What is RAG (retrieval-augmented generation)? Explained simply](https://tryiro.com/blog/what-is-rag) — RAG (retrieval-augmented generation) lets an AI look up real information before answering. How it works, why it cuts hallucinations, and where you meet it.
-- [AI for teachers: practical, responsible ways to use it in 2026](https://tryiro.com/blog/ai-for-teachers) — Practical ways teachers can use AI for lesson planning, feedback and differentiation, with copy-paste prompts, the student-data rules, and how to teach AI use.
-- [The best Coursiv alternatives in 2026](https://tryiro.com/blog/coursiv-alternatives) — Coursiv alternatives compared: Iro AI, Cosmo and Khan Academy are free to start; Brilliant, DataCamp and Coursera offer limited free access.
-- [The best Learnova alternatives in 2026](https://tryiro.com/blog/learnova-alternatives) — Looking for a Learnova alternative? Compare apps for learning AI tools in 2026 (Iro AI, Coursiv, Synapse, Sololearn, Brilliant) on format, free tier and price.
 - [AI trends in 2026: what's actually changing (and what to do about it)](https://tryiro.com/blog/ai-trends-2026) — Agentic AI, multimodal models, AI inside everyday apps, and AI fluency as a baseline skill: what's really changing, and how to stay ahead of it.
-- [AI for real estate: practical ways agents can use it in 2026](https://tryiro.com/blog/ai-for-real-estate) — How real estate agents use AI in 2026: listing copy, lead follow-up, market summaries and admin, plus the fair-housing and client-data rules to follow.
-- [How to use AI to write a resume (without sounding like a robot)](https://tryiro.com/blog/how-to-use-ai-to-write-a-resume) — How to use AI to write a resume in 2026: tailor it to a job, strengthen bullet points, and pass keyword filters — honestly, without fabricating anything.
 - [196 people took our AI literacy test. The median was 7 out of 10, and only 1 in 7 got a perfect score.](https://tryiro.com/blog/average-ai-literacy-score) — What's the average AI literacy score? Across 196 people who took our AI IQ test (Apr to Oct 2026), the median is 7/10, the mean 6.91, and only 1 in 7 scored 10.
 - [What is a context window in AI?](https://tryiro.com/blog/what-is-a-context-window) — What is a context window in AI? A plain-English explainer: what it is, how it relates to tokens, why models 'forget', and practical tips for working within it.
 - [What are tokens in AI?](https://tryiro.com/blog/what-are-tokens-in-ai) — A plain-English explainer: what a token is, how tokenization works, the words-per-token rule of thumb, and why tokens drive AI cost and limits.
-- [The best Finestro alternatives in 2026](https://tryiro.com/blog/finestro-alternatives) — The best Finestro alternatives in 2026: Iro AI for active practice, Brilliant and Khan Academy for foundations, and DataCamp for data skills.
-- [Coursiv vs Finestro vs Learnova: which is worth paying for?](https://tryiro.com/blog/coursiv-vs-finestro-vs-learnova) — Coursiv vs Finestro vs Learnova compared for 2026: real pricing, what each refund policy actually requires, and what the three apps have in common.
-- [How to cancel Finestro and request a refund](https://tryiro.com/blog/cancel-finestro) — How to cancel a Finestro: AI Tools Mastery subscription on iPhone, Android or the web, who to ask for a refund, and why there is no Finestro phone number.
-- [How to cancel Coursiv and get your money back](https://tryiro.com/blog/cancel-coursiv) — How to cancel a Coursiv subscription on the web, iPhone or Android, what the 30-day money-back guarantee really requires, and how to get a refund.
-- [Is ChatGPT Plus worth it in 2026?](https://tryiro.com/blog/is-chatgpt-plus-worth-it) — Is ChatGPT Plus worth $20 in 2026? A straight comparison of Free, Go, Plus and Pro, what each tier actually changes, and whether you need to upgrade.
 - [Are AI certifications worth it in 2026?](https://tryiro.com/blog/are-ai-certifications-worth-it) — What AI certifications actually cost, the two situations where they pay off, why the salary stats you see are unreliable, and what employers check instead.
-- [Is Claude Pro worth it in 2026?](https://tryiro.com/blog/is-claude-pro-worth-it) — Is Claude Pro worth $20 in 2026? What the free tier allows, what Pro and Max change, how it compares to ChatGPT Plus, and which tier you need.
-- [How to spot an AI app subscription trap before you pay](https://tryiro.com/blog/ai-subscription-traps) — The quiz funnel behind AI learning app subscriptions: what refund policies really require, where the cancel button lives, and a 60-second check before you pay.
-- [Iro AI vs Wondering: depth on AI, or breadth on everything](https://tryiro.com/blog/iro-ai-vs-wondering) — An honest comparison of Iro AI and Wondering: what each is built for, where Wondering's any-topic personalisation wins, and where graded practice matters more.
-- [The best Wondering alternatives in 2026](https://tryiro.com/blog/wondering-alternatives) — The best Wondering alternatives in 2026: what to use for AI skills, for maths and science, for your own documents, and for free. Plus where Wondering wins.
-- [The best NerdSip alternatives in 2026](https://tryiro.com/blog/nerdsip-alternatives) — Is NerdSip free? Yes, one sample course a day. Five alternatives compared: Iro AI for AI skills, Kinnu, Brilliant, Khan Academy and Duolingo.
-- [The best Blinkist alternatives in 2026](https://tryiro.com/blog/blinkist-alternatives) — Looking for a Blinkist alternative? Compare by what you want: book summaries, a skill, or academic foundations. Iro AI, Headway, Brilliant, Khan Academy.
-- [AI learning app vs AI bootcamp: which is worth it?](https://tryiro.com/blog/ai-app-vs-ai-bootcamp) — AI learning app vs AI bootcamp in 2026: an honest comparison of cost, time, and outcomes, and how to tell which one actually fits your goal.
-- [The best app to learn AI for work in 2026](https://tryiro.com/blog/ai-learning-app-for-professionals) — The best apps to learn AI for work in 2026, compared on teaching style, free tier and price: Iro AI, Synapse, Coursiv, Learnova, DataCamp and Coursera.
-- [Apps like Duolingo, but for AI](https://tryiro.com/blog/apps-like-duolingo-for-ai) — Looking for a Duolingo-style app to learn AI? Here are the best gamified, practice-first ways to build AI skills 5 minutes a day — and why the model works.
-- [Coursiv vs Learnova: which AI learning app is worth it in 2026?](https://tryiro.com/blog/coursiv-vs-learnova) — An honest Coursiv vs Learnova comparison for 2026: how the two AI learning apps differ on teaching style, pricing and free access, plus a third option.
-- [Does Duolingo teach AI?](https://tryiro.com/blog/does-duolingo-teach-ai) — Does Duolingo teach AI? No. It covers languages, math, and music. Here's what Duolingo actually teaches, and the best Duolingo-style way to learn AI instead.
-- [The best Headway alternatives in 2026](https://tryiro.com/blog/headway-alternatives) — Apps like Headway, free ones included: Blinkist for summaries, Iro AI to practise AI skills, Brilliant, and Khan Academy at no cost. How to choose.
-- [How to choose an AI learning app](https://tryiro.com/blog/how-to-choose-an-ai-learning-app) — A buyer's guide to choosing an AI learning app in 2026 — the six things that actually matter: active practice, coverage, price, level, habit design, and proof.
-- [How to use AI to summarize a document](https://tryiro.com/blog/how-to-use-ai-to-summarize-a-document) — How to use AI to summarize a document or PDF in 2026: the prompts that get a useful summary, which tools handle long files, and how to catch what AI leaves out.
-- [How to use AI to write a cover letter](https://tryiro.com/blog/how-to-use-ai-to-write-a-cover-letter) — A step-by-step method for using AI to draft a cover letter tailored to the job, keep your own voice, and cut the generic AI tells that get it binned.
-- [The best Kinnu alternatives in 2026](https://tryiro.com/blog/kinnu-alternatives) — Looking for a Kinnu alternative? Kinnu runs both a general-knowledge app and an exam-prep platform. What to switch to for each: Iro AI, Brilliant, Khan Academy.
-- [The best Morso alternatives in 2026](https://tryiro.com/blog/morso-alternatives) — Leaving Morso.app? Four checks that decide if a microlearning app sticks, then three picks: Iro AI for AI skills, Brilliant, and free Khan Academy.
-- [The best Nibble alternatives in 2026](https://tryiro.com/blog/nibble-alternatives) — Apps like Nibble, free ones first: Khan Academy costs nothing, Iro AI is free to start, Brilliant covers maths. Plus what 5 minutes a day really buys.
-- [The best Imprint alternatives in 2026](https://tryiro.com/blog/imprint-alternatives) — Looking for an Imprint alternative? Visual learning is fast at understanding, weak at transfer. What to switch to by goal: Iro AI, Brilliant, Khan Academy.
-- [The best Chunks alternatives in 2026](https://tryiro.com/blog/chunks-alternatives) — Looking for a Chunks alternative? Every microlearning roundup is written by an app in it, including this one. Iro AI, Brilliant and Khan Academy compared.
-- [The best microlearning apps in 2026](https://tryiro.com/blog/best-microlearning-apps) — The best microlearning apps in 2026 with prices: Iro AI for learning AI, Duolingo, Brilliant, Blinkist, Headway, Nibble, Chunks, NerdSip and more.
-- [The best BeFreed alternatives in 2026](https://tryiro.com/blog/befreed-alternatives) — Apps like BeFreed, free ones included: Blinkist and Headway for summaries, Iro AI to practise a skill, Khan Academy at no cost. Where BeFreed still wins.
-- [The best apps to learn something new in 2026](https://tryiro.com/blog/best-learning-apps) — Duolingo, Brilliant, Khan Academy, Kinnu, Blinkist and Iro compared by what each teaches best, plus a two-question test for picking the one you will stick with.
-- [How to teach AI literacy to high school students](https://tryiro.com/blog/teach-ai-literacy-high-school) — A practical sequence for teaching AI literacy in high school: what to cover in what order, five classroom activities needing no software, and how to assess it.
-- [How to read an AI benchmark score](https://tryiro.com/blog/how-to-read-ai-benchmarks) — AI benchmark scores are marketing until you know how they were measured. The harness problem, four ways numbers mislead, and what to ask before believing one.
-- [Skilario review: who runs it, what it costs, and what the terms say](https://tryiro.com/blog/skilario-review) — Is Skilario legit? Yes: a real AI course app from Cyprus-based Cherry Entertainment. Its terms refuse refunds on unused plans. Price and complaints.
-- [How to cancel Skilario and try to get your money back](https://tryiro.com/blog/cancel-skilario) — Cancel Skilario on the web, iPhone or Android before the 24-hour cutoff, then the routes to a refund when its terms exclude unused plans. Step by step.
-- [The best Skilario alternatives in 2026](https://tryiro.com/blog/skilario-alternatives) — Looking for a Skilario alternative? Compare Iro AI, Coursiv, Brilliant, Khan Academy, DataCamp and Coursera by how they teach, what is free and how you pay.
-- [AI fake case citations: what happened to the lawyers, and how to avoid it](https://tryiro.com/blog/ai-fake-case-citations) — Lawyers have been fined and disqualified for filing AI-invented cases. What happened in Mata v. Avianca and since, why AI fakes citations, and how to check.
-- [Is it safe to put client data in ChatGPT? A guide for accountants, lawyers and HR](https://tryiro.com/blog/client-data-in-chatgpt) — Is it safe to put client data in ChatGPT? What each plan does with your chats as of October 2026, the settings that matter, and what never to paste.
-- [How to use AI for performance reviews without letting it judge anyone](https://tryiro.com/blog/ai-for-performance-reviews) — How to use AI for performance reviews and self-evaluations: prompts that start from your own notes, what ChatGPT must never do, and privacy and bias checks.
-- [The Air Canada chatbot case: what happened, and how to stop a support bot inventing policy](https://tryiro.com/blog/air-canada-chatbot-case) — A tribunal held Air Canada liable for its chatbot's wrong bereavement-fare advice. What happened, and how support teams stop AI replies inventing policy.
-- [Google AI Essentials alternatives: practice-first options in 2026](https://tryiro.com/blog/google-ai-essentials-alternatives) — Google AI Essentials costs $49/month on Coursera. Compare free and practice-first alternatives: OpenAI Academy, Anthropic AI Fluency, Elements of AI and Iro AI.
-- [Iro AI vs Sololearn Learn AI: which teaches AI better?](https://tryiro.com/blog/iro-ai-vs-sololearn) — Iro AI vs Sololearn's Learn AI app: what each teaches, how lessons work, platforms and US prices, and who each one is for. An honest comparison.
-- [Jobescape review: who runs it, what it costs, and what the refund terms ask of you](https://tryiro.com/blog/jobescape-review) — An honest Jobescape review: who runs it, what it costs on the App Store, how renewals work, and the conditions you must meet before a refund. Read it before you pay.
-- [Cosmo review: CodeSignal's AI tutor app, what it costs, and who it suits](https://tryiro.com/blog/cosmo-review) — An honest Cosmo review: who makes CodeSignal's Cosmo app, how its AI tutor teaches, what Cosmo+ costs, what the terms say, and who it suits best.
-- [The best AI literacy apps and resources for teachers in 2026](https://tryiro.com/blog/best-ai-literacy-resources-for-teachers) — The best AI literacy apps and curricula for teachers in 2026: Code.org, Day of AI, Experience AI, Common Sense and Iro's kit, by grade, format and cost.
-- [The best iPhone apps to learn AI in 2026](https://tryiro.com/blog/best-iphone-apps-to-learn-ai) — The best iPhone apps to learn AI in 2026, compared by lesson length, hands-on practice and free tier: Iro AI, Learn AI by Sololearn, Synapse, Coursiv and Brilliant.
-- [The best Brilliant alternatives in 2026](https://tryiro.com/blog/brilliant-alternatives) — Looking for apps like Brilliant? We compared 11 alternatives for math, coding and learning AI, with prices, who each one suits, and which is best for daily practice.
+
+## FAQ
+
+### Can I learn AI without coding?
+
+Yes. Using AI tools well is a language-and-judgment skill: prompting, choosing the right tool and checking the output. Coding only matters if you want to build or fine-tune models yourself.
+
+### How long does it take to learn AI?
+
+With about five focused minutes a day, most people become genuinely useful with AI tools in two to three weeks and feel confident within a few months. Learning to build AI models is a separate path that takes months to years.
+
+### What should I learn first?
+
+Pick one assistant and use it on a real task every day, then learn a simple prompt structure: context, role, task and format. Add verification habits early so you know when not to trust an answer.
+
+### What is the difference between AI and machine learning?
+
+AI is the broad goal of machines doing tasks that seem intelligent. Machine learning is the main way we build it, by learning patterns from data, and deep learning is a type of machine learning that powers most of today's generative AI.
+
+### What is the difference between AI literacy and AI fluency?
+
+AI literacy is understanding what AI is, what it can and can't do and how to use it responsibly. AI fluency is being able to use it well in practice. Literacy keeps you safe; fluency makes you effective.
+
+### How do I know if an AI answer is wrong?
+
+Treat names, dates, numbers, quotes and citations as unverified until you check them. Cross-check important claims with a tool that cites sources, and be wary of confident answers about recent events or niche topics.
+
+### Are AI certifications worth it?
+
+Usually only if your employer pays or a job posting asks for one. Something you built with AI and can explain tends to carry more weight than a certificate.
+
+### Can AI detectors tell if something was written by AI?
+
+Not reliably. They miss AI text and wrongly flag human writing, so treat any score as a weak signal and focus on checking whether the content is accurate.

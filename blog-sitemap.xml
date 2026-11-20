@@ -3,7 +3,7 @@
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://tryiro.com/blog</loc>
-    <lastmod>2026-11-17</lastmod>
+    <lastmod>2026-11-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -13,42 +13,72 @@
   </url>
   <url>
     <loc>https://tryiro.com/blog/ai-fluency</loc>
-    <lastmod>2026-11-17</lastmod>
+    <lastmod>2026-11-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.88</priority>
     <image:image>
       <image:loc>https://tryiro.com/assets/og/ai-fluency.png</image:loc>
-      <image:title>AI Fluency: Learn AI the Way That Actually Sticks</image:title>
+      <image:title>Learn AI from scratch: concepts and key skills</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://tryiro.com/blog/ai-learning-apps</loc>
+    <lastmod>2026-11-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.88</priority>
+    <image:image>
+      <image:loc>https://tryiro.com/assets/og/ai-learning-apps.png</image:loc>
+      <image:title>AI learning apps: reviews and alternatives (2026)</image:title>
     </image:image>
   </url>
   <url>
     <loc>https://tryiro.com/blog/prompt-engineering</loc>
-    <lastmod>2026-11-10</lastmod>
+    <lastmod>2026-11-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.88</priority>
     <image:image>
       <image:loc>https://tryiro.com/assets/og/prompt-engineering.png</image:loc>
-      <image:title>Prompt Engineering: Patterns That Survive Updates</image:title>
+      <image:title>Prompt engineering guide: patterns and practice</image:title>
     </image:image>
   </url>
   <url>
-    <loc>https://tryiro.com/blog/ai-agents</loc>
-    <lastmod>2026-11-10</lastmod>
+    <loc>https://tryiro.com/blog/ai-comparisons</loc>
+    <lastmod>2026-11-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.88</priority>
     <image:image>
-      <image:loc>https://tryiro.com/assets/og/ai-agents.png</image:loc>
-      <image:title>AI Agents &amp; Automation: Hype to Working Systems</image:title>
+      <image:loc>https://tryiro.com/assets/og/ai-comparisons.png</image:loc>
+      <image:title>Which AI should you use? Head-to-head comparisons</image:title>
     </image:image>
   </url>
   <url>
     <loc>https://tryiro.com/blog/ai-tools</loc>
-    <lastmod>2026-11-10</lastmod>
+    <lastmod>2026-11-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.88</priority>
     <image:image>
       <image:loc>https://tryiro.com/assets/og/ai-tools.png</image:loc>
-      <image:title>AI Tools in 2026: Pick One, Then Use It Well</image:title>
+      <image:title>AI models explained: new releases and how-tos</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://tryiro.com/blog/ai-at-work</loc>
+    <lastmod>2026-11-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.88</priority>
+    <image:image>
+      <image:loc>https://tryiro.com/assets/og/ai-at-work.png</image:loc>
+      <image:title>Using AI at work and school: guides by task</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://tryiro.com/blog/ai-agents</loc>
+    <lastmod>2026-11-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.88</priority>
+    <image:image>
+      <image:loc>https://tryiro.com/assets/og/ai-agents.png</image:loc>
+      <image:title>AI agents and automation: hype to safe delegation</image:title>
     </image:image>
   </url>
   <url>

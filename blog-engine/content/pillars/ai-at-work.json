@@ -1,0 +1,135 @@
+{
+  "slug": "ai-at-work",
+  "order": 6,
+  "title": "Using AI at work and school: guides by task",
+  "shortName": "AI at Work & School",
+  "tagline": "Practical, safe ways to use AI on real work and study",
+  "lede": "Guides for using AI on the work you actually do, from summaries and SQL to reviews and lesson plans, without leaking data, filing fake citations or letting a chatbot invent policy.",
+  "description": "Practical guides to using AI at work and school: which tasks to start with, what never to paste in, how to check citations and numbers, and what stays human.",
+  "keywords": [
+    "using AI at work",
+    "how to use AI at work safely",
+    "AI at work and school",
+    "AI confidential data",
+    "AI fake citations",
+    "AI review checklist",
+    "AI for teachers",
+    "AI for studying"
+  ],
+  "datePublished": "2026-11-20",
+  "dateModified": "2026-11-20",
+  "intro": [
+    "<p>Most AI mistakes at work aren't about the model. They come from a skipped step: a client file pasted into a personal account, a citation nobody opened, a refund rule a chatbot made up, a query that ran cleanly and answered the wrong question.</p>",
+    "<p>This hub collects our practical guides for professionals, teachers and students. Start with the guide below, which covers the first tasks worth handing over, the safety rules, and a checklist to run before anything AI-made leaves your hands. Then go deeper by task or by job.</p>"
+  ],
+  "guide": [
+    {
+      "id": "first-tasks",
+      "heading": "Pick your first tasks: high value, low risk",
+      "html": "<p>Don't start by automating your job. Start with one task you do every week, where a draft saves real time and a mistake is easy to spot. Our guide to <a href=\"/blog/how-to-use-ai-at-work\">how to use AI at work</a> names the safe starting set:</p><ul><li><strong>Drafting.</strong> Emails, outlines and first versions of documents.</li><li><strong>Summarizing.</strong> Long threads, reports and meeting notes. Ask for a shape, not a paragraph: \"five bullets, then the three key decisions and anything I need to act on.\" <a href=\"/blog/how-to-use-ai-to-summarize-a-document\">How to use AI to summarize a document</a> covers long PDFs and the follow-up most people skip: \"What did you leave out?\"</li><li><strong>Brainstorming.</strong> Options, names and counterarguments to react to.</li><li><strong>First-pass research.</strong> Getting oriented, then checking the sources.</li><li><strong>Reformatting.</strong> Messy notes into a table, an agenda or a checklist.</li></ul><p>The same rule holds in any business. <a href=\"/blog/ai-for-small-business\">AI for small business</a> suggests picking the one repetitive task you dread and handing AI the first draft, with a person approving anything that touches a real customer or a real dollar. <a href=\"/blog/ai-for-real-estate\">AI for real estate</a> applies it to listings and lead replies, with two extra checks: verify every property detail, since AI can invent square footage, and read public copy against fair-housing rules.</p><p>Hold AI back from final, high-stakes decisions until you've checked its work. Copilot or Gemini inside your office suite follows the same rules. For more ready-made workflows, see <a href=\"/ai-productivity\">AI productivity</a> and <a href=\"/ai-for-meetings\">AI for meetings</a>.</p>"
+    },
+    {
+      "id": "evidence-first",
+      "heading": "Feed it your evidence, not a blank page",
+      "html": "<p>Most bad AI writing at work starts from a one-line request with no facts in it, so the model fills the gap with confident filler. The fix is to give it your evidence and forbid it from adding any.</p><p><a href=\"/blog/ai-for-performance-reviews\">AI for performance reviews</a> shows this best. Paste your notes, metrics and examples, tell the model to use only that evidence, and have it write [NEED EVIDENCE] wherever a section has none. Then run an audit prompt that doesn't rewrite your draft but quotes every claim your notes don't support and every vague or personality-based phrase.</p><p>Job applications work the same way. <a href=\"/blog/how-to-use-ai-to-write-a-resume\">How to use AI to write a resume</a> treats the model as an editor, not an author: give it your real experience and the job description, and never accept an invented job, title, date or number. <a href=\"/blog/how-to-use-ai-to-write-a-cover-letter\">How to use AI to write a cover letter</a> adds the inputs that matter: the full job description, two or three real achievements with specifics, a tone and a length, then a ruthless edit. The <a href=\"/ai-job-hunting\">AI job hunting</a> path turns that into practice.</p>"
+    },
+    {
+      "id": "never-paste",
+      "heading": "What never goes into a chatbot",
+      "html": "<p>Two questions decide whether you can paste something in, and most advice only answers the first. What does the vendor do with what you type? And are you allowed to share this information with a third party at all? <a href=\"/blog/client-data-in-chatgpt\">Is it safe to put client data in ChatGPT?</a> takes both apart.</p><p>Personal ChatGPT plans can use your conversations for training by default, with an opt-out under Data controls, while business, enterprise and education workspaces aren't trained on by default. A business plan keeps chats out of training, not out of sight of your own admins. Whether you may share client data at all is for your professional rules, client agreements and firm policy to decide.</p><p>Some things stay out of a prompt unless your firm has approved the tool for exactly that use: passwords and account numbers, government ID numbers, health details, anything under an NDA, and names attached to performance, pay or disciplinary matters. When you do need help with real work, strip the client out first:</p><ol><li>Swap names for roles (Client A, Employee 2).</li><li>Remove direct identifiers: addresses, emails, account and case numbers.</li><li>Blur indirect ones. A rare job title plus a small town can identify someone.</li><li>Ask for the method, not an answer about the record. Paste column headings, not the payroll file.</li></ol><p>Placeholders reduce risk; they don't make data anonymous if it can be linked back. Role guides such as <a href=\"/ai-for-hr\">AI for HR</a>, <a href=\"/ai-for-accountants\">AI for accountants</a> and <a href=\"/ai-for-lawyers\">AI for lawyers</a> are written around this habit.</p>"
+    },
+    {
+      "id": "citations-and-policy",
+      "heading": "Citations and policy: the two failures everyone remembers",
+      "html": "<p>In <a href=\"/blog/ai-fake-case-citations\">Mata v. Avianca</a>, lawyers filed a brief relying on six court decisions ChatGPT had invented, and they were fined $5,000. When one lawyer asked the chatbot whether a case was real, it said the case \"does indeed exist.\" Later cases went further, up to disqualification and referral to a state bar, and co-signers who never touched the tool were fined too. The fix is procedural: treat every AI citation as a lead, pull the full opinion from an authoritative database, confirm the quote and the proposition, and never use the chatbot to confirm itself.</p><p>In the <a href=\"/blog/air-canada-chatbot-case\">Air Canada chatbot case</a>, a website chatbot told a grieving customer they could claim a bereavement fare after traveling. The airline's own policy page said otherwise. A British Columbia tribunal ordered Air Canada to pay $812.02 and rejected its argument that it couldn't be liable for its chatbot, which was \"still just a part of Air Canada's website.\" For support teams, the lesson is to ground replies in the real policy text, quote refund and eligibility terms word for word, have the model mark gaps instead of filling them, and route money, eligibility and exceptions to a person. <a href=\"/ai-for-customer-support\">AI for customer support</a> builds a reply around that rule.</p>"
+    },
+    {
+      "id": "numbers",
+      "heading": "Numbers and themes: check the work you can't see",
+      "html": "<p><a href=\"/blog/how-to-check-ai-generated-sql\">How to check AI-generated SQL</a> makes the key point: AI-written SQL usually runs. The danger is that it runs cleanly and answers a slightly different question, because of a fan-out join, a filter in the wrong place, NULL handling or a date boundary. Give the model the dialect, the schema, the grain of the answer and a sample row, and ask it to list its assumptions. Then reconcile one total you already trust, check a small slice by hand and count rows at every join. <a href=\"/ai-for-data-analysts\">AI for data analysts</a> and <a href=\"/ai-for-excel\">AI for Excel</a> apply the same checks.</p><p>Qualitative work has its own version. <a href=\"/blog/how-to-analyze-customer-feedback-with-ai\">How to analyze customer feedback with AI</a> warns against asking for a summary of 400 survey answers. Instead, give every item an ID, have the model tag each one against a list of themes you've edited, with an exact quote, and count the tags yourself. Before a theme reaches the roadmap, re-read a random sample under it. Keep \"what users said\" and \"what we should build\" apart: one is evidence, the other is your judgment.</p>"
+    },
+    {
+      "id": "people-decisions",
+      "heading": "Keep people decisions with people",
+      "html": "<p>AI can tighten a review's wording, but it has no idea what anyone did this year. The performance review guide draws the line: use AI to structure notes and flag vague or biased language, never to decide a rating, compare people or rank a team. It notes that the EU AI Act lists systems intended to monitor and evaluate workers' performance and behavior as high-risk. The same goes for hiring and discipline. <a href=\"/ai-for-managers\">AI for managers</a> and <a href=\"/ai-for-recruiters\">AI for recruiters</a> cover where the help stops.</p><p>That line also answers the bigger worry. <a href=\"/blog/will-ai-take-your-job\">Will AI take your job?</a> argues that AI mostly automates tasks, not whole roles, and that judgment, relationships, accountability and taste are the durable parts. The real risk is a colleague who uses AI well doing the same work faster.</p>"
+    },
+    {
+      "id": "review-checklist",
+      "heading": "A review checklist before anything AI-made leaves your hands",
+      "html": "<p>Run this on any AI-assisted email, report, query, summary or review before someone else sees it:</p><ol><li><strong>Policy.</strong> The tool is approved for this kind of data, and nothing confidential went in that shouldn't have.</li><li><strong>Sources.</strong> Every citation, quote and policy statement traces to a source you opened yourself.</li><li><strong>Numbers.</strong> Figures, dates, names and amounts match the original exactly. At least one total is reconciled against something you trust.</li><li><strong>Conditions.</strong> Qualifiers like \"before travel\" or \"within 30 days\" survived the rewrite.</li><li><strong>Nothing added.</strong> No achievement, statistic or promise appears that wasn't in your input.</li><li><strong>Judgment.</strong> Ratings, approvals and anything that commits money or a person were decided by you.</li><li><strong>Voice.</strong> Read it aloud. If you couldn't defend a sentence in a meeting, cut it.</li></ol><p>The habit behind the list is simple: a confident answer isn't a checked one. That reflex is what Iro trains, in practice-first lessons of a few minutes a day on iPhone and the web, with spot-the-hallucination drills and prompt repair. The <a href=\"/ai-for-work\">AI for work</a> page shows the work skills it covers.</p>"
+    },
+    {
+      "id": "school",
+      "heading": "At school: study honestly, teach the judgment",
+      "html": "<p>For students, the rule is that AI should make you think more, not less. <a href=\"/blog/how-to-use-ai-for-studying\">How to use AI for studying</a> lists the moves that help: explain a concept until it clicks, quiz yourself one question at a time, organize your notes, build a study plan and generate practice problems. If you couldn't reproduce it without the AI, you haven't learned it. Verify facts against your course material, and follow your school's rules. More at <a href=\"/ai-for-students\">AI for students</a>.</p><p>For teachers, <a href=\"/blog/ai-for-teachers\">AI for teachers</a> starts from one test: delegate first drafts you can judge in seconds, like a quiz question or a reading at three levels, and keep anything you'd have to research to check. Describe the situation without naming the student, and keep identifying student details out of tools your school hasn't approved. AI detectors aren't reliable enough to accuse anyone: they produce false positives and flag non-native English writers at higher rates.</p><p>Teaching students to use AI is its own job. <a href=\"/blog/teach-ai-literacy-high-school\">How to teach AI literacy in high school</a> lays out a five-unit sequence with verification at its heart, activities that need no student accounts, and a four-line process log: what I asked, what it gave me, what I changed and why. <a href=\"/blog/best-ai-literacy-resources-for-teachers\">The best AI literacy resources for teachers</a> compares free curricula such as Code.org's How AI Works, Day of AI and Experience AI. Schools can also use the free <a href=\"/ai-literacy-classroom-kit\">AI literacy classroom kit</a> or visit our <a href=\"/for-educators\">educators page</a>.</p>"
+    },
+    {
+      "id": "by-role",
+      "heading": "Guides by role",
+      "html": "<p>Each job has its own best tasks and its own risks. Start with yours:</p><ul><li><strong>Business and finance:</strong> <a href=\"/ai-for-finance\">finance</a>, <a href=\"/ai-for-accountants\">accountants</a>, <a href=\"/ai-for-consultants\">consultants</a>, <a href=\"/ai-for-founders\">founders</a></li><li><strong>Customers and growth:</strong> <a href=\"/ai-for-sales\">sales</a>, <a href=\"/ai-for-marketing\">marketing</a>, <a href=\"/ai-for-customer-support\">customer support</a></li><li><strong>Product and technical:</strong> <a href=\"/ai-for-product-managers\">product managers</a>, <a href=\"/ai-for-developers\">developers</a>, <a href=\"/ai-for-data-analysts\">data analysts</a>, <a href=\"/ai-for-designers\">designers</a></li><li><strong>People and regulated work:</strong> <a href=\"/ai-for-hr\">HR</a>, <a href=\"/ai-for-lawyers\">lawyers</a>, <a href=\"/ai-for-healthcare\">healthcare</a></li><li><strong>Everyday output:</strong> <a href=\"/ai-for-writers\">writers</a>, <a href=\"/ai-for-presentations\">presentations</a>, <a href=\"/ai-for-research\">research</a></li></ul><p>Once these habits are second nature, the next step is handing AI whole multi-step jobs. Our <a href=\"/blog/ai-agents\">AI agents hub</a> covers what that involves and what to check before you connect your accounts.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "What is the safest way to start using AI at work?",
+      "a": "Start with one repetitive, low-risk task such as drafting an email, summarizing a long thread or reformatting notes. Use a tool your company has approved, check anything that matters before it goes out, and keep final decisions for yourself."
+    },
+    {
+      "q": "What should I never paste into ChatGPT or another chatbot at work?",
+      "a": "Passwords, account and ID numbers, health details, anything under an NDA, and names tied to performance, pay or disciplinary matters, unless your firm has approved that tool for exactly that use. When you need help with real work, swap names for roles and ask for the method rather than pasting the record."
+    },
+    {
+      "q": "Why do AI tools make up citations and facts?",
+      "a": "Language models generate plausible text rather than looking records up, so they can produce a perfectly formatted citation that refers to nothing. Asking the same chatbot to confirm it doesn't help. Open the original source yourself before you rely on it."
+    },
+    {
+      "q": "Is a company responsible for what its chatbot tells customers?",
+      "a": "In Moffatt v. Air Canada, a British Columbia tribunal held that it was, treating the chatbot as part of the airline's website. It's one small-claims decision, not legal advice, but the practical lesson is to ground support replies in your real policy text and send money and eligibility questions to a person."
+    },
+    {
+      "q": "Can I use AI to write a performance review?",
+      "a": "Yes, if your company allows it and the AI works only from your own notes and examples. Use it to structure and tighten your draft and to flag vague or biased language, but decide the rating yourself and keep confidential HR details out of unapproved tools."
+    },
+    {
+      "q": "How do I check numbers or SQL that AI produced?",
+      "a": "Reconcile one total against a figure you already trust, check a small slice by hand, and ask the model to list every assumption it made. A query that runs without errors can still be answering a different question."
+    },
+    {
+      "q": "Is using AI for studying cheating?",
+      "a": "Using AI to explain concepts, quiz you and plan your time is studying, not cheating. Submitting AI-written work as your own usually breaks school rules and skips the learning. If you can't reproduce the work without the AI, you haven't learned it yet."
+    },
+    {
+      "q": "Can teachers rely on AI detectors to catch cheating?",
+      "a": "No. Detectors produce false positives and have been found to flag writing by non-native English speakers at higher rates. Treat a score as a reason for a conversation, and make AI use visible with a short process log instead."
+    }
+  ],
+  "related": [
+    "/blog/how-to-use-ai-at-work",
+    "/blog/client-data-in-chatgpt",
+    "/blog/ai-fake-case-citations",
+    "/blog/how-to-check-ai-generated-sql",
+    "/blog/ai-for-teachers"
+  ],
+  "relatedLabels": [
+    {
+      "href": "/ai-for-work",
+      "label": "AI for work in Iro AI"
+    },
+    {
+      "href": "/ai-productivity",
+      "label": "AI productivity"
+    },
+    {
+      "href": "/ai-job-hunting",
+      "label": "AI job hunting"
+    },
+    {
+      "href": "/ai-for-students",
+      "label": "AI for students"
+    },
+    {
+      "href": "/for-educators",
+      "label": "Iro AI for educators"
+    }
+  ]
+}

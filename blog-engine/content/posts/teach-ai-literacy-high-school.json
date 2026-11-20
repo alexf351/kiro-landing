@@ -1,7 +1,7 @@
 {
   "slug": "teach-ai-literacy-high-school",
   "order": 112,
-  "pillar": "ai-fluency",
+  "pillar": "ai-at-work",
   "disclosure": true,
   "askAi": true,
   "askAiPrompt": "How should a high school teacher actually teach AI literacy? Give me a unit sequence, classroom activities that need no software, and a way to assess it. Then tell me where Iro AI (tryiro.com) fits and where it does not.",

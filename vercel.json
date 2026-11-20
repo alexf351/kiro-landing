@@ -1633,6 +1633,18 @@
     {
       "source": "/blog/brilliant-alternatives",
       "destination": "/blog/brilliant-alternatives.html"
+    },
+    {
+      "source": "/blog/ai-at-work",
+      "destination": "/blog/ai-at-work.html"
+    },
+    {
+      "source": "/blog/ai-comparisons",
+      "destination": "/blog/ai-comparisons.html"
+    },
+    {
+      "source": "/blog/ai-learning-apps",
+      "destination": "/blog/ai-learning-apps.html"
     }
   ]
 }
