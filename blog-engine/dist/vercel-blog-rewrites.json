@@ -611,6 +611,26 @@
     {
       "source": "/blog/nexera-alternatives",
       "destination": "/blog/nexera-alternatives.html"
+    },
+    {
+      "source": "/blog/cancel-jobescape",
+      "destination": "/blog/cancel-jobescape.html"
+    },
+    {
+      "source": "/blog/jobescape-alternatives",
+      "destination": "/blog/jobescape-alternatives.html"
+    },
+    {
+      "source": "/blog/iro-ai-vs-jobescape",
+      "destination": "/blog/iro-ai-vs-jobescape.html"
+    },
+    {
+      "source": "/blog/finestro-review",
+      "destination": "/blog/finestro-review.html"
+    },
+    {
+      "source": "/blog/iro-ai-vs-finestro",
+      "destination": "/blog/iro-ai-vs-finestro.html"
     }
   ]
 }

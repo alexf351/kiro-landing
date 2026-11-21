@@ -21,7 +21,7 @@
     "best AI learning app"
   ],
   "datePublished": "2026-07-29",
-  "dateModified": "2026-11-04",
+  "dateModified": "2026-11-21",
   "readingTime": 6,
   "articleSection": "AI fluency",
   "feedCategory": "AI fluency",
@@ -71,7 +71,7 @@
     {
       "id": "billing",
       "heading": "The billing question, stated fairly",
-      "html": "<p>Finestro's pricing runs about <strong>$10 for a one-week paid trial, then roughly $49.99 a month</strong>. That structure is legal, common, and easy to misread: the price you agree to is not the price you pay in week two.</p><p>Two things are worth knowing before you subscribe, and they sit at different levels of certainty.</p><p><strong>From Finestro's own refund policy:</strong> Finestro's refund policy was rewritten on 29 October 2026. It now says refund requests are <strong>reviewed case by case</strong> and may be granted in full or in part, and it treats a charge <strong>taken after a proper cancellation</strong> as a billing error to be refunded or credited. The earlier version listed forgetting to cancel and not knowing about auto-renewal as reasons that did not qualify, and the new subscription terms still say a trial converts to a paid plan automatically unless you cancel before it ends.</p><p><strong>From user reports:</strong> App Store reviews and complaints filed with the Better Business Bureau describe charges continuing after cancellation requests, refunds being refused, and difficulty reaching support. One documented account describes a $10.43 trial, a cancellation email sent two days in, and two subsequent $49.99 charges that were not refunded. These are user accounts rather than findings, and Finestro's high average rating shows plenty of customers have no complaint at all.</p><p>The practical takeaway applies to every subscription app, including ours: before you enter a card, find the renewal date, find the renewal price, and know where the cancel button lives. If an app makes those three things hard to find, that is the answer.</p><p>If you are already subscribed and want out, that is a separate job with a separate process: see <a href=\"/blog/cancel-finestro\">how to cancel Finestro and request a refund</a>. For how its terms compare against the two apps it is most often confused with, see <a href=\"/blog/coursiv-vs-finestro-vs-learnova\">Coursiv vs Finestro vs Learnova</a>.</p>"
+      "html": "<p>Finestro's pricing runs about <strong>$10 for a one-week paid trial, then roughly $49.99 a month</strong>. That structure is legal, common, and easy to misread: the price you agree to is not the price you pay in week two.</p><p>Two things are worth knowing before you subscribe, and they sit at different levels of certainty.</p><p><strong>From Finestro's own refund policy:</strong> Finestro's refund policy was rewritten on 29 October 2026. It now says refund requests are <strong>reviewed case by case</strong> and may be granted in full or in part, and it treats a charge <strong>taken after a proper cancellation</strong> as a billing error to be refunded or credited. The earlier version listed forgetting to cancel and not knowing about auto-renewal as reasons that did not qualify, and the new subscription terms still say a trial converts to a paid plan automatically unless you cancel before it ends.</p><p><strong>From user reports:</strong> App Store reviews and complaints filed with the Better Business Bureau describe charges continuing after cancellation requests, refunds being refused, and difficulty reaching support. One documented account describes a $10.43 trial, a cancellation email sent two days in, and two subsequent $49.99 charges that were not refunded. These are user accounts rather than findings, and Finestro's high average rating shows plenty of customers have no complaint at all.</p><p>The practical takeaway applies to every subscription app, including ours: before you enter a card, find the renewal date, find the renewal price, and know where the cancel button lives. If an app makes those three things hard to find, that is the answer.</p><p>If you are already subscribed and want out, that is a separate job with a separate process: see <a href=\"/blog/cancel-finestro\">how to cancel Finestro and request a refund</a>. For how its terms compare against the two apps it is most often confused with, see <a href=\"/blog/coursiv-vs-finestro-vs-learnova\">Coursiv vs Finestro vs Learnova</a>.</p><p>For who runs Finestro and what its reviews and BBB complaints say, see our <a href=\"/blog/finestro-review\">Finestro review</a>.</p>"
     },
     {
       "id": "alts",
@@ -81,7 +81,7 @@
     {
       "id": "iro",
       "heading": "Why Iro AI is the closest alternative",
-      "html": "<p>If what drew you to Finestro was learning to use AI in a few minutes a day, Iro AI does the same job by a different method: active practice instead of guided reading. You write real prompts in a Prompt Lab and get instant feedback, spot AI mistakes, and duel a skill-matched opponent across ChatGPT, Claude, Gemini, Perplexity, prompting, and agents. It is often called <a href=\"/duolingo-for-ai\">the Duolingo for AI</a>.</p><p>On the billing question specifically, since that is why you are here: Iro is free to start with a battery that gives you a full lesson every day and recharges overnight, Pro is $49.99 a year or $9.99 a month, the annual plan includes a 7-day free trial, and everything is billed through the Apple App Store, so cancelling takes two taps in your iPhone subscription settings. There is no discounted intro week that converts to a higher monthly rate. To see how that compares with the other free options, read our pick for the best <a href=\"/free-ai-learning-app\">free AI learning app</a>.</p><p>Two 2026 additions widen the gap on the learning side. <strong>Custom Paths</strong> turn any topic you type into a structured path in seconds, five short lessons, a quiz, and a recap card. <strong>Ask Iro</strong>, the built-in AI coach, explains graded answers by chat or voice. There is also a web app, so you can start on any device and your progress syncs to iOS.</p><p>The numbers, since a drill app can sound slighter than a video course when it is the reverse: <strong>34 paths, 522 lessons and 3,000+ exercises across 23 exercise types</strong>, with a Prompt Lab that grades real prompts, Ask Iro for chat and voice coaching, an Image Lab, timed duels, Custom Paths and claimable certificates.</p>"
+      "html": "<p>If what drew you to Finestro was learning to use AI in a few minutes a day, Iro AI does the same job by a different method: active practice instead of guided reading. You write real prompts in a Prompt Lab and get instant feedback, spot AI mistakes, and duel a skill-matched opponent across ChatGPT, Claude, Gemini, Perplexity, prompting, and agents. It is often called <a href=\"/duolingo-for-ai\">the Duolingo for AI</a>.</p><p>On the billing question specifically, since that is why you are here: Iro is free to start with a battery that gives you a full lesson every day and recharges overnight, Pro is $49.99 a year or $9.99 a month, the annual plan includes a 7-day free trial, and everything is billed through the Apple App Store, so cancelling takes two taps in your iPhone subscription settings. There is no discounted intro week that converts to a higher monthly rate. To see how that compares with the other free options, read our pick for the best <a href=\"/free-ai-learning-app\">free AI learning app</a>.</p><p>Two 2026 additions widen the gap on the learning side. <strong>Custom Paths</strong> turn any topic you type into a structured path in seconds, five short lessons, a quiz, and a recap card. <strong>Ask Iro</strong>, the built-in AI coach, explains graded answers by chat or voice. There is also a web app, so you can start on any device and your progress syncs to iOS.</p><p>The numbers, since a drill app can sound slighter than a video course when it is the reverse: <strong>34 paths, 522 lessons and 3,000+ exercises across 23 exercise types</strong>, with a Prompt Lab that grades real prompts, Ask Iro for chat and voice coaching, an Image Lab, timed duels, Custom Paths and claimable certificates.</p><p>For the full head-to-head, see <a href=\"/blog/iro-ai-vs-finestro\">Iro vs Finestro</a>.</p>"
     },
     {
       "id": "choose",
@@ -113,6 +113,14 @@
   ],
   "readNext": [
     {
+      "href": "/blog/finestro-review",
+      "label": "Finestro review: is Finestro legit?"
+    },
+    {
+      "href": "/blog/iro-ai-vs-finestro",
+      "label": "Iro vs Finestro"
+    },
+    {
       "href": "/blog/cancel-finestro",
       "label": "How to cancel Finestro and request a refund"
     },
@@ -126,6 +134,8 @@
     }
   ],
   "related": [
+    "/blog/finestro-review",
+    "/blog/iro-ai-vs-finestro",
     "/blog/coursiv-vs-finestro-vs-learnova",
     "/blog/cancel-finestro",
     "/blog/coursiv-alternatives",
