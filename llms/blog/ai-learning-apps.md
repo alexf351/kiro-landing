@@ -4,7 +4,7 @@ canonical_url: "https://tryiro.com/blog/ai-learning-apps"
 site: "Iro AI"
 site_url: "https://tryiro.com"
 language: en-US
-last_updated: "2026-11-20"
+last_updated: "2026-11-21"
 keywords: ["AI learning apps", "best app to learn AI", "AI learning app reviews", "Coursiv alternatives", "how to cancel Coursiv", "Duolingo for AI", "AI app subscription refund", "how to choose an AI learning app"]
 author: "Iro AI"
 license: "© 2026 Iro AI"
@@ -16,7 +16,7 @@ type: "content-pillar"
 > Honest reviews and head-to-heads for apps like Coursiv, Brilliant and Duolingo, plus how to cancel, get a refund, and pick an app that actually teaches you AI.
 
 **Canonical:** https://tryiro.com/blog/ai-learning-apps
-**Last updated:** 2026-11-20
+**Last updated:** 2026-11-21
 
 This hub collects everything we've written about AI learning apps: honest reviews, alternatives pages, head-to-head comparisons, and step-by-step guides to cancelling and getting refunds from apps like Coursiv, Finestro and Skilario.
 
@@ -170,6 +170,9 @@ For direct comparisons, see Iro AI vs [Coursiv](/blog/iro-ai-vs-coursiv), [Learn
 - [Cosmo review: CodeSignal's AI tutor app, what it costs, and who it suits](https://tryiro.com/blog/cosmo-review) — An honest Cosmo review: who makes CodeSignal's Cosmo app, how its AI tutor teaches, what Cosmo+ costs, what the terms say, and who it suits best.
 - [The best iPhone apps to learn AI in 2026](https://tryiro.com/blog/best-iphone-apps-to-learn-ai) — The best iPhone apps to learn AI in 2026, compared by lesson length, hands-on practice and free tier: Iro AI, Learn AI by Sololearn, Synapse, Coursiv and Brilliant.
 - [The best Brilliant alternatives in 2026](https://tryiro.com/blog/brilliant-alternatives) — Looking for apps like Brilliant? We compared 11 alternatives for math, coding and learning AI, with prices, who each one suits, and which is best for daily practice.
+- [Nexera review: who runs it, what it costs, refund terms](https://tryiro.com/blog/nexera-review) — Is Nexera legit? Yes: a real AI course app from Cyprus-based EmberTech Ltd, with a 28-day refund on web purchases. Price, reviews and complaints.
+- [How to cancel Nexera and get a refund](https://tryiro.com/blog/cancel-nexera) — How to cancel Nexera on the web, iPhone or Android, the 24-hour cutoff, and how to claim the 28-day money-back guarantee. Updated November 2026.
+- [The best Nexera alternatives in 2026](https://tryiro.com/blog/nexera-alternatives) — Looking for a Nexera alternative? Compare Iro AI, Khan Academy, Elements of AI, Coursera, Sololearn and Brilliant by how they teach, what is free and how you pay.
 
 ## FAQ
 

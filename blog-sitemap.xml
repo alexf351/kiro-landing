@@ -3,7 +3,7 @@
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://tryiro.com/blog</loc>
-    <lastmod>2026-11-20</lastmod>
+    <lastmod>2026-11-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -23,7 +23,7 @@
   </url>
   <url>
     <loc>https://tryiro.com/blog/ai-learning-apps</loc>
-    <lastmod>2026-11-20</lastmod>
+    <lastmod>2026-11-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.88</priority>
     <image:image>
@@ -1499,6 +1499,36 @@
     <image:image>
       <image:loc>https://tryiro.com/assets/og/brilliant-alternatives.png</image:loc>
       <image:title>The best Brilliant alternatives in 2026</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://tryiro.com/blog/nexera-review</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://tryiro.com/assets/og/nexera-review.png</image:loc>
+      <image:title>Nexera review: who runs it, what it costs, refund terms</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://tryiro.com/blog/cancel-nexera</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://tryiro.com/assets/og/cancel-nexera.png</image:loc>
+      <image:title>How to cancel Nexera and get a refund</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://tryiro.com/blog/nexera-alternatives</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://tryiro.com/assets/og/nexera-alternatives.png</image:loc>
+      <image:title>The best Nexera alternatives in 2026</image:title>
     </image:image>
   </url>
 </urlset>

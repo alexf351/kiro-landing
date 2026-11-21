@@ -5,7 +5,7 @@
   <link rel="self" href="https://tryiro.com/blog/atom.xml" type="application/atom+xml"/>
   <link rel="alternate" href="https://tryiro.com/blog" type="text/html"/>
   <id>https://tryiro.com/blog/atom.xml</id>
-  <updated>2026-11-17T00:00:00Z</updated>
+  <updated>2026-11-21T00:00:00Z</updated>
   <rights>© 2026 Iro AI</rights>
   <author><name>Iro AI</name><uri>https://tryiro.com</uri></author>
   <icon>https://tryiro.com/assets/favicon-64.png</icon>
@@ -1429,5 +1429,35 @@
     <author><name>Iro AI</name></author>
     <category term="AI fluency"/>
     <summary>Brilliant is excellent at interactive math, logic and computer science. If you want to learn to use AI tools, pay less, or teach a child, these 11 alternatives fit better.</summary>
+  </entry>
+  <entry>
+    <title>Nexera review: who runs it, what it costs, refund terms</title>
+    <id>https://tryiro.com/blog/nexera-review</id>
+    <link href="https://tryiro.com/blog/nexera-review"/>
+    <updated>2026-11-21T00:00:00Z</updated>
+    <published>2026-11-21T00:00:00Z</published>
+    <author><name>Iro AI</name></author>
+    <category term="AI fluency"/>
+    <summary>Short answer: Nexera is a real AI-skills app from a registered Cyprus company, not a scam, and it offers a 28-day money-back guarantee on website purchases. What to check before you pay is how you are buying it, because the price and the refund route both depend on that.</summary>
+  </entry>
+  <entry>
+    <title>How to cancel Nexera and get a refund</title>
+    <id>https://tryiro.com/blog/cancel-nexera</id>
+    <link href="https://tryiro.com/blog/cancel-nexera"/>
+    <updated>2026-11-21T00:00:00Z</updated>
+    <published>2026-11-21T00:00:00Z</published>
+    <author><name>Iro AI</name></author>
+    <category term="AI fluency"/>
+    <summary>Cancel first, then ask for your money back. Where you cancel depends on who billed you, and if you paid on Nexera's website within the last 28 days, its terms promise a full refund.</summary>
+  </entry>
+  <entry>
+    <title>The best Nexera alternatives in 2026</title>
+    <id>https://tryiro.com/blog/nexera-alternatives</id>
+    <link href="https://tryiro.com/blog/nexera-alternatives"/>
+    <updated>2026-11-21T00:00:00Z</updated>
+    <published>2026-11-21T00:00:00Z</published>
+    <author><name>Iro AI</name></author>
+    <category term="AI fluency"/>
+    <summary>People look past Nexera for one of three reasons: the trial and renewal terms, the price, or wanting practice rather than slides. Here are the alternatives that answer each one, and a few that don't.</summary>
   </entry>
 </feed>

@@ -4,5 +4,40 @@
      was published in that window. That is correct, not a bug. -->
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
-
+  <url>
+    <loc>https://tryiro.com/blog/nexera-review</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Iro AI</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-21T00:00:00Z</news:publication_date>
+      <news:title>Nexera review: who runs it, what it costs, refund terms</news:title>
+      <news:keywords>Nexera review, Nexera reviews, is Nexera legit, Nexera scam, Nexera app, Nexera AI app, Nexera price, Nexera Trustpilot, Nexera EmberTech, nexera-app.com legit, Nexera learn AI tools, what is Nexera, Nexera complaints, Nexera AI learning app review</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://tryiro.com/blog/cancel-nexera</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Iro AI</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-21T00:00:00Z</news:publication_date>
+      <news:title>How to cancel Nexera and get a refund</news:title>
+      <news:keywords>cancel Nexera, how to cancel Nexera, Nexera cancel subscription, Nexera refund, Nexera money back guarantee, Nexera 28 day refund, Nexera unsubscribe, stop Nexera charges, Nexera charge on my card, delete Nexera account, Nexera support email, Nexera trial cancel</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://tryiro.com/blog/nexera-alternatives</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Iro AI</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-21T00:00:00Z</news:publication_date>
+      <news:title>The best Nexera alternatives in 2026</news:title>
+      <news:keywords>Nexera alternatives, Nexera alternative, apps like Nexera, Nexera vs, better than Nexera, alternative to Nexera, Nexera competitors, apps similar to Nexera</news:keywords>
+    </news:news>
+  </url>
 </urlset>

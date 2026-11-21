@@ -42,7 +42,13 @@
       "sub": "Hype to safe delegation"
     }
   },
-  "overrides": {},
+  "overrides": {
+    "cancel-nexera": {
+      "eyebrow": "Cancel guide",
+      "title": "How to cancel Nexera",
+      "sub": "And how to use the 28-day refund"
+    }
+  },
   "brands": {
     "brilliant": {
       "name": "Brilliant",
@@ -98,6 +104,13 @@
       "logo": "assets/brands/jobescape.png",
       "match": [
         "Jobescape"
+      ]
+    },
+    "nexera": {
+      "name": "Nexera",
+      "logo": "assets/brands/nexera.png",
+      "match": [
+        "Nexera"
       ]
     }
   }

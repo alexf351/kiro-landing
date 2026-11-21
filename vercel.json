@@ -1645,6 +1645,18 @@
     {
       "source": "/blog/ai-learning-apps",
       "destination": "/blog/ai-learning-apps.html"
+    },
+    {
+      "source": "/blog/nexera-review",
+      "destination": "/blog/nexera-review.html"
+    },
+    {
+      "source": "/blog/cancel-nexera",
+      "destination": "/blog/cancel-nexera.html"
+    },
+    {
+      "source": "/blog/nexera-alternatives",
+      "destination": "/blog/nexera-alternatives.html"
     }
   ]
 }
