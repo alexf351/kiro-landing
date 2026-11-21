@@ -1,4 +1,5 @@
 {
+  "buildCommand": "node scripts/seo-indexes.mjs --deploy; rm -rf scripts",
   "redirects": [
     {
       "source": "/download",
