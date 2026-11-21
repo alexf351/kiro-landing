@@ -52,7 +52,7 @@ The short version. We make Iro, so weigh our view accordingly; every Finestro de
 | Trials | 7-day free trial on the annual plan | One-week trial that converts automatically |
 | Cancelling | On iPhone, Settings > Subscriptions, anytime | Stores: phone settings. Web: profile button or email before the period ends |
 | Platforms | iPhone and the web | iPhone, Android, web, Mac and Vision Pro |
-| Ratings | 4.6 stars from 85 reviews | 4.7 on the App Store (about 2,300 ratings) and Google Play; 4.5 on Trustpilot |
+| Ratings | 4.6 stars from 90 reviews | 4.7 on the App Store (about 2,300 ratings) and Google Play; 4.5 on Trustpilot |
 
 
 

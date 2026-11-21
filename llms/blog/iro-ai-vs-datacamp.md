@@ -66,7 +66,7 @@ DataCamp also covers the beginner side. Its AI Fundamentals track is about nine 
 
 Iro AI is our app. It fits the person who will never write Python but wants ChatGPT, Claude and Gemini to save them hours every week. The difference is practice. A course explains what makes a good prompt; Iro has you write one, sends it to a live model, scores it and shows you what to fix. Then it does that again tomorrow, which is how the skill sticks.
 
-It is **34 learning paths, 522 lessons and 3,000+ exercises across 23 exercise types**, in five-minute lessons, with streaks, ranks and timed duels against a skill-matched opponent. Iro makes no job or income promises; it is rated 4.6 stars from 85 reviews.
+It is **34 learning paths, 522 lessons and 3,000+ exercises across 23 exercise types**, in five-minute lessons, with streaks, ranks and timed duels against a skill-matched opponent. Iro makes no job or income promises; it is rated 4.6 stars from 90 reviews.
 
 It is also simpler to pay for: one price, $9.99 a month or $49.99 a year, billed by Apple and cancellable any time in Settings. At list prices, Iro's yearly plan costs about a seventh of DataCamp Premium's.
 

@@ -71,7 +71,7 @@ People look elsewhere for four reasons:
 
 Iro AI is our app, so weigh this accordingly. Where Cosmo covers 200+ skills, Iro covers one: using AI well. In five-minute lessons you write real prompts in the Prompt Lab and get them scored, learn to spot hallucinations and made-up sources, and pick the right tool for a task, with streaks, ranks and timed duels against a skill-matched opponent to keep the habit going.
 
-It is **34 learning paths, 522 lessons and 3,000+ exercises across 23 exercise types**, covering ChatGPT, Claude, Gemini, Perplexity, prompting, agents and automation. Every path is open on the free tier, paced by a battery that gives you a full lesson a day, much like Cosmo's energy. Pro is **$9.99 a month or $49.99 a year**, the annual plan has a 7-day free trial, and Apple bills it, so you can cancel any time in your iPhone's Settings. Iro makes no job or income promises: it is a practice app, and it is rated 4.6 stars from 85 reviews.
+It is **34 learning paths, 522 lessons and 3,000+ exercises across 23 exercise types**, covering ChatGPT, Claude, Gemini, Perplexity, prompting, agents and automation. Every path is open on the free tier, paced by a battery that gives you a full lesson a day, much like Cosmo's energy. Pro is **$9.99 a month or $49.99 a year**, the annual plan has a 7-day free trial, and Apple bills it, so you can cancel any time in your iPhone's Settings. Iro makes no job or income promises: it is a practice app, and it is rated 4.6 stars from 90 reviews.
 
 It runs on iPhone and the web; Android is in development. **Pick it if** AI tools are the reason you opened Cosmo. **Skip it if** you want business, coding or data courses too. For the head-to-head, see [Iro AI vs Cosmo](/blog/iro-ai-vs-cosmo).
 

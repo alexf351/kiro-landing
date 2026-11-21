@@ -65,7 +65,7 @@ If your employer pays for CodeSignal's learning platform, you may already have C
 
 Iro AI is our app. It does one job: making you good at using AI tools for real work. Instead of a catalogue, it is a practice loop. You write a prompt, the Prompt Lab sends it to a live model and grades it, and you see what made it weak. Other lessons have you catch a fabricated citation, compare two tools on the same task, or fix an output that sounds right and isn't.
 
-The scale is **34 learning paths, 522 lessons and 3,000+ exercises across 23 exercise types** on ChatGPT, Claude, Gemini, Perplexity, prompting, agents and automation. Lessons take about five minutes, and streaks, ranks and timed duels against a skill-matched opponent keep the habit going. Iro makes no promises about jobs or income; it is rated 4.6 stars from 85 reviews.
+The scale is **34 learning paths, 522 lessons and 3,000+ exercises across 23 exercise types** on ChatGPT, Claude, Gemini, Perplexity, prompting, agents and automation. Lessons take about five minutes, and streaks, ranks and timed duels against a skill-matched opponent keep the habit going. Iro makes no promises about jobs or income; it is rated 4.6 stars from 90 reviews.
 
 If you mainly want AI skills, Iro goes deeper on that one subject than a broad app can. If you want coding or business skills as well, Cosmo covers more.
 

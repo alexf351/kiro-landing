@@ -115,7 +115,10 @@
   "Alex Morgan",
   "Titan",
   "Operator",
-  "sudo-super-su"
+  "sudo-super-su",
+  "Jenny1263",
+  "Max Kitsis",
+  "Bkpcsi"
  ],
  "sections": {
   "head": {
@@ -522,13 +525,13 @@
     "zh-hans": "测测你的 AI 段位"
    },
    "rating": {
-    "en": "<b>4.6</b> stars from 89 reviews",
-    "es": "<b>4,6</b> estrellas con 89 reseñas",
-    "fr": "<b>4,6</b> étoiles sur 89 avis",
-    "de": "<b>4,6</b> Sterne aus 89 Bewertungen",
-    "pt-br": "<b>4,6</b> estrelas com 89 avaliações",
-    "it": "<b>4,6</b> stelle su 89 recensioni",
-    "zh-hans": "<b>4.6</b> 星，来自 89 条评价"
+    "en": "<b>4.6</b> stars from 90 reviews",
+    "es": "<b>4,6</b> estrellas con 90 reseñas",
+    "fr": "<b>4,6</b> étoiles sur 90 avis",
+    "de": "<b>4,6</b> Sterne aus 90 Bewertungen",
+    "pt-br": "<b>4,6</b> estrelas com 90 avaliações",
+    "it": "<b>4,6</b> stelle su 90 recensioni",
+    "zh-hans": "<b>4.6</b> 星，来自 90 条评价"
    },
    "learners": {
     "en": "<b>1,500+</b> learners",
@@ -586,15 +589,6 @@
     "it": "“Pensavo di sapere già usare gli strumenti di IA, ma questa app mi ha fatto capire che stavo sprecando un sacco di potenziale. Iro mi ha insegnato a usare l’IA in modo più efficace, sia al lavoro sia nella vita privata.”",
     "zh-hans": "“我以为自己已经懂得怎么用 AI 工具了，用了它才发现之前浪费了很多潜力。Iro 教会我在工作和生活中更高效地使用 AI。”"
    },
-   "reviewLabel": {
-    "en": "App Store review",
-    "es": "Reseña del App Store",
-    "fr": "Avis App Store",
-    "de": "App-Store-Bewertung",
-    "pt-br": "Avaliação na App Store",
-    "it": "Recensione sull’App Store",
-    "zh-hans": "App Store 评价"
-   },
    "r2": {
     "en": "&ldquo;This is really a great app like Duolingo. If you are in for AI and prompting then look no further.&rdquo;",
     "es": "“Una app genial, al estilo de Duolingo. Si te interesan la IA y los prompts, no busques más.”",
@@ -612,6 +606,51 @@
     "pt-br": "“Fácil de usar e traz muita informação nova que até eu, que uso IA com frequência, achei útil.”",
     "it": "“Facile da usare e piena di informazioni nuove che ho trovato utili perfino io, che uso spesso l’IA.”",
     "zh-hans": "“简单易用，内容里有很多新知识，连我这种经常用 AI 的人都觉得很有帮助。”"
+   },
+   "r4": {
+    "en": "&ldquo;Great app! Very helpful with engaging learning exercises geared to specific goals.&rdquo;",
+    "es": "“¡Una app genial! Muy útil, con ejercicios atractivos pensados para objetivos concretos.”",
+    "fr": "« Super app ! Très utile, avec des exercices captivants adaptés à des objectifs précis. »",
+    "de": "„Tolle App! Sehr hilfreich, mit motivierenden Übungen, die auf konkrete Ziele zugeschnitten sind.“",
+    "pt-br": "“App ótimo! Muito útil, com exercícios envolventes voltados para objetivos específicos.”",
+    "it": "“App fantastica! Molto utile, con esercizi coinvolgenti pensati per obiettivi specifici.”",
+    "zh-hans": "“很棒的 App！非常实用，练习有趣，而且都围绕具体目标设计。”"
+   },
+   "r5": {
+    "en": "&ldquo;Perfect for beginners. I&rsquo;m using this app to help me learn about Claude. I really love it. Highly recommend it.&rdquo;",
+    "es": "“Perfecto para principiantes. Uso esta app para aprender sobre Claude. Me encanta. Muy recomendable.”",
+    "fr": "« Parfait pour les débutants. J’utilise cette app pour apprendre à me servir de Claude. J’adore. Je la recommande vivement. »",
+    "de": "„Perfekt für Einsteiger. Ich nutze die App, um Claude kennenzulernen. Ich liebe sie. Absolut empfehlenswert.“",
+    "pt-br": "“Perfeito para iniciantes. Uso o app para aprender sobre o Claude. Adoro. Recomendo muito.”",
+    "it": "“Perfetto per chi inizia. Uso questa app per imparare a usare Claude. La adoro. La consiglio vivamente.”",
+    "zh-hans": "“非常适合新手。我用这个 App 来学习 Claude，真的很喜欢，强烈推荐。”"
+   },
+   "r6": {
+    "en": "&ldquo;I use ChatGPT and Claude daily and still learned things I didn&rsquo;t know I was missing. There&rsquo;s a path for every level and every job.&rdquo;",
+    "es": "“Uso ChatGPT y Claude a diario y aun así aprendí cosas que no sabía que me faltaban. Hay una ruta para cada nivel y para cada trabajo.”",
+    "fr": "«J’utilise ChatGPT et Claude tous les jours et j’ai quand même appris des choses dont j’ignorais qu’elles me manquaient. Il y a un parcours pour chaque niveau et chaque métier.»",
+    "de": "„Ich nutze ChatGPT und Claude täglich und habe trotzdem Dinge gelernt, von denen ich nicht wusste, dass sie mir fehlen. Es gibt einen Lernpfad für jedes Level und jeden Job.“",
+    "pt-br": "“Uso o ChatGPT e o Claude todos os dias e mesmo assim aprendi coisas que eu nem sabia que estavam faltando. Tem uma trilha para cada nível e cada profissão.”",
+    "it": "“Uso ChatGPT e Claude ogni giorno e ho comunque imparato cose che non sapevo mi mancassero. C’è un percorso per ogni livello e per ogni lavoro.”",
+    "zh-hans": "“我每天都用 ChatGPT 和 Claude，还是学到了以前不知道自己欠缺的东西。每个水平、每种工作都有对应的路径。”"
+   },
+   "r7": {
+    "en": "&ldquo;I didn&rsquo;t know what to expect from this app but so far it has been so helpful especially at work. I have cut down on time in the office tremendously and definitely worth the subscription! A must for me!&rdquo;",
+    "es": "“No sabía qué esperar de esta app, pero hasta ahora me ha ayudado muchísimo, sobre todo en el trabajo. He reducido enormemente el tiempo que paso en la oficina y la suscripción vale la pena sin duda. ¡Imprescindible para mí!”",
+    "fr": "«Je ne savais pas à quoi m’attendre avec cette app, mais jusqu’ici elle m’a énormément aidé, surtout au travail. J’ai considérablement réduit mon temps au bureau et l’abonnement en vaut vraiment la peine. Un indispensable pour moi !»",
+    "de": "„Ich wusste nicht, was mich bei dieser App erwartet, aber bisher war sie enorm hilfreich, vor allem bei der Arbeit. Ich spare im Büro enorm viel Zeit, und das Abo lohnt sich auf jeden Fall. Für mich ein Muss!“",
+    "pt-br": "“Eu não sabia o que esperar deste app, mas até agora ele tem ajudado muito, principalmente no trabalho. Reduzi demais o tempo que passo no escritório e a assinatura vale muito a pena. Indispensável para mim!”",
+    "it": "“Non sapevo cosa aspettarmi da questa app, ma finora mi è stata utilissima, soprattutto al lavoro. Ho ridotto tantissimo il tempo in ufficio e l’abbonamento vale assolutamente la pena. Per me è indispensabile!”",
+    "zh-hans": "“一开始不知道这款 App 会怎样，但到目前为止它帮了我大忙，尤其是在工作上。我在办公室花的时间大大减少，订阅绝对物有所值。对我来说必不可少！”"
+   },
+   "r8": {
+    "en": "&ldquo;Lessons are easy to follow, you can learn a lot from them. If you&rsquo;re curious about AI, it&rsquo;s definitely worth checking out!&rdquo;",
+    "es": "“Las lecciones son fáciles de seguir y se aprende mucho con ellas. Si te interesa la IA, sin duda merece la pena probarla.”",
+    "fr": "«Les leçons sont faciles à suivre et on y apprend beaucoup. Si l’IA vous intrigue, ça vaut vraiment le coup d’essayer !»",
+    "de": "„Die Lektionen sind leicht verständlich, und man lernt viel dabei. Wer neugierig auf KI ist, sollte sie unbedingt ausprobieren!“",
+    "pt-br": "“As lições são fáceis de acompanhar e dá para aprender muito com elas. Se você tem curiosidade sobre IA, vale muito a pena conferir!”",
+    "it": "“Le lezioni sono facili da seguire e si impara molto. Se l’IA ti incuriosisce, vale davvero la pena provarla!”",
+    "zh-hans": "“课程很容易跟上，能学到很多东西。如果你对 AI 感到好奇，绝对值得一试！”"
    }
   },
   "skills": {
