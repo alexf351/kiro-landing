@@ -13,6 +13,16 @@ node blog-engine/generate-hero-image.mjs   # generate hero/OG covers for new pos
 node blog-engine/tools/sitemap-lastmod.mjs # sitemap.xml + sitemap-index.xml lastmod from git (body-text changes only)
 ```
 
+**sitemap.xml and llms.txt fill themselves.** Vercel runs
+`node scripts/seo-indexes.mjs --deploy` before every deploy (the `buildCommand`
+in `vercel.json`). It scans the published HTML and adds every indexable page that
+isn't listed by hand (every post, hub and `<locale>/blog/` translation, with its
+lastmod and hreflang) to the AUTO block of `sitemap.xml`, and rewrites the
+"Every blog post, by topic" section of `llms.txt`. A new post needs no edit to
+either file. Run `node scripts/seo-indexes.mjs` to refresh the committed copies,
+or `--check` to see whether they are stale. It lives outside `blog-engine/`
+because `.vercelignore` drops that folder before the build.
+
 ---
 
 ## Why this exists

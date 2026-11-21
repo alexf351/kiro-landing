@@ -66,7 +66,10 @@ const smFile = path.join(ROOT, 'sitemap.xml');
 let sm = fs.readFileSync(smFile, 'utf8');
 const a = sm.indexOf('<!-- PATHS:START -->');
 const b = sm.indexOf('<!-- PATHS:END -->');
-const owned = (i) => a !== -1 && i > a && i < b;
+const c = sm.indexOf('<!-- AUTO:START');
+const e = sm.indexOf('<!-- AUTO:END -->');
+// PATHS belongs to build-paths.mjs, AUTO to scripts/seo-indexes.mjs.
+const owned = (i) => (a !== -1 && i > a && i < b) || (c !== -1 && i > c && i < e);
 let changed = 0;
 sm = sm.replace(/(<url>\s*<loc>)([^<]+)(<\/loc>\s*<lastmod>)([^<]+)(<\/lastmod>)/g, (all, p1, loc, p3, old, p5, off) => {
   if (owned(off)) return all;
