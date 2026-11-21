@@ -7,7 +7,7 @@ app_store: "https://apps.apple.com/app/id6759628066"
 language: en-US
 keywords: ["Jobescape review", "Jobescape reviews", "is Jobescape legit", "Jobescape scam", "Jobescape price", "Jobescape refund", "cancel Jobescape", "Jobescape app"]
 date_published: "2026-11-04"
-date_modified: "2026-11-04"
+date_modified: "2026-11-21"
 reading_time_minutes: 7
 author: "Alex Furukawa"
 license: "© 2026 Iro AI"
@@ -21,6 +21,7 @@ pillar: "ai-learning-apps"
 
 **Canonical:** https://tryiro.com/blog/jobescape-review
 **Published:** 2026-11-04
+**Updated:** 2026-11-21
 **Reading time:** ~7 min
 **Author:** Alex Furukawa — Founder of Iro AI
 
@@ -57,7 +58,7 @@ We did not pay for Jobescape, so we are not rating the lessons themselves. A fai
 
 ## What it costs, and how it renews
 
-On the US App Store, Jobescape lists **Premium at $29.99 a month, $59.99 for three months or $117.99 a year**. It also sells a 1-Year Full Access plan ($99.99), Lifetime Access ($139.99), and add-ons such as an AI Toolkit ($29.99) and a Prompts Library ($49.99). The cheapest item, 1-Year App Access at $0.99, is where several low reviews say confusion starts.
+On the US App Store, Jobescape lists **Premium at $29.99 a month, $59.99 for three months or $117.99 a year**. It also sells a 1-Year Full Access plan ($99.99), and add-ons such as an AI Toolkit ($29.99) and a Prompts Library ($49.99). The cheapest item, 1-Year App Access at $0.99, is where several low reviews say confusion starts.
 
 On the website you take an onboarding quiz, then pick a plan; prices are shown at checkout rather than published in advance. Jobescape's Subscription Terms set out how website billing works:
 
@@ -99,6 +100,8 @@ Deleting the app does not cancel your subscription. For website purchases, Jobes
 
 Do it **more than 24 hours before** your current period ends, because that is when the next payment is taken. You keep access until the period ends, but the help center warns that cancelling means losing your progress. If you paid with PayPal, you can also stop it from your PayPal account. For App Store purchases, go to Settings, tap your name, then Subscriptions, then Jobescape.
 
+For every route, the 24-hour cutoff and how to ask for a refund, see [how to cancel Jobescape](/blog/cancel-jobescape).
+
 ## What the reviews do and don't tell you
 
 Jobescape has thousands of public reviews across the App Store and Trustpilot, and most are positive. Trustpilot notes that the company has not recently invited reviews.
@@ -119,6 +122,8 @@ Iro AI is our app, so weigh this accordingly. If what drew you to Jobescape was 
 On price, since that is what brings most people to a review like this: Iro is **free to start**, with a battery that gives you a full lesson every day and recharges overnight. Pro is **$9.99 a month or $49.99 a year**, the annual plan includes a 7-day free trial, and it is billed by Apple, so cancelling is the same two taps in Settings. That is a third of Jobescape's App Store monthly price, and less than half its yearly one. There is no intro rate that converts to a higher one.
 
 For scale: **34 learning paths, 522 lessons and 3,000+ exercises across 23 exercise types**, covering ChatGPT, Claude, Gemini, Perplexity, prompting, agents and automation, with every path open on the free tier. See [exactly what the free tier includes](/free-ai-learning-app), or take the [two-minute AI rank quiz](/quiz) first. If you are weighing a course against an app, see [AI learning app vs AI bootcamp](/blog/ai-app-vs-ai-bootcamp).
+
+For a full side-by-side, see [Iro vs Jobescape](/blog/iro-ai-vs-jobescape), or more options in [the best Jobescape alternatives](/blog/jobescape-alternatives).
 
 ## FAQ
 
@@ -148,10 +153,11 @@ On the website, open the Menu, go to Account settings, then Plan Management, and
 
 ## Read next
 
+- [How to cancel Jobescape and ask for a refund](https://tryiro.com/blog/cancel-jobescape)
+- [The best Jobescape alternatives](https://tryiro.com/blog/jobescape-alternatives)
+- [Iro vs Jobescape](https://tryiro.com/blog/iro-ai-vs-jobescape)
 - [How to spot an AI subscription trap](https://tryiro.com/blog/ai-subscription-traps)
 - [Skilario review: who runs it and what the terms say](https://tryiro.com/blog/skilario-review)
-- [The best Coursiv alternatives](https://tryiro.com/blog/coursiv-alternatives)
-- [AI learning app vs AI bootcamp](https://tryiro.com/blog/ai-app-vs-ai-bootcamp)
 
 ## About the author
 
