@@ -1667,6 +1667,22 @@
     {
       "source": "/blog/iro-ai-vs-finestro",
       "destination": "/blog/iro-ai-vs-finestro.html"
+    },
+    {
+      "source": "/blog/cosmo-alternatives",
+      "destination": "/blog/cosmo-alternatives.html"
+    },
+    {
+      "source": "/blog/iro-ai-vs-cosmo",
+      "destination": "/blog/iro-ai-vs-cosmo.html"
+    },
+    {
+      "source": "/blog/datacamp-alternatives",
+      "destination": "/blog/datacamp-alternatives.html"
+    },
+    {
+      "source": "/blog/iro-ai-vs-datacamp",
+      "destination": "/blog/iro-ai-vs-datacamp.html"
     }
   ]
 }

@@ -605,8 +605,20 @@
       "destination": "/blog/cancel-jobescape.html"
     },
     {
+      "source": "/blog/cosmo-alternatives",
+      "destination": "/blog/cosmo-alternatives.html"
+    },
+    {
+      "source": "/blog/iro-ai-vs-cosmo",
+      "destination": "/blog/iro-ai-vs-cosmo.html"
+    },
+    {
       "source": "/blog/jobescape-alternatives",
       "destination": "/blog/jobescape-alternatives.html"
+    },
+    {
+      "source": "/blog/datacamp-alternatives",
+      "destination": "/blog/datacamp-alternatives.html"
     },
     {
       "source": "/blog/iro-ai-vs-jobescape",
@@ -615,6 +627,10 @@
     {
       "source": "/blog/finestro-review",
       "destination": "/blog/finestro-review.html"
+    },
+    {
+      "source": "/blog/iro-ai-vs-datacamp",
+      "destination": "/blog/iro-ai-vs-datacamp.html"
     },
     {
       "source": "/blog/iro-ai-vs-finestro",
