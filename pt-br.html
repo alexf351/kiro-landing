@@ -990,6 +990,7 @@ main>section{border-top:1px solid var(--line)}
 /* SKILL UNIVERSE (moved out of the hero) */
 .skills-sec .sec-head{margin-bottom:8px}
 .skills-sec .universe{max-width:980px}
+.skills-sec{padding-bottom:clamp(20px,3vh,40px)}  /* the caption under the universe already reserves height */
 .skills-sec{overflow:hidden;overflow-x:clip}  /* the universe's outer nodes ran past the edge at tablet widths */
 
 /* INSIDE THE APP: named tabs under the phones, in place of the dots */
@@ -1298,7 +1299,6 @@ nav.open .nav-links{background:var(--bg)}  /* opaque: the hero headline showed t
       <div class="uni-canvas" id="buildCanvas"></div>
     </div>
 
-    <div class="uni-cap" id="uniCap"></div>
     <div class="uni-cap" id="uniCap"></div>
   </div>
 </section>
