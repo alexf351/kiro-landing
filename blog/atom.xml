@@ -5,7 +5,7 @@
   <link rel="self" href="https://tryiro.com/blog/atom.xml" type="application/atom+xml"/>
   <link rel="alternate" href="https://tryiro.com/blog" type="text/html"/>
   <id>https://tryiro.com/blog/atom.xml</id>
-  <updated>2026-11-17T00:00:00Z</updated>
+  <updated>2026-11-21T00:00:00Z</updated>
   <rights>© 2026 Iro AI</rights>
   <author><name>Iro AI</name><uri>https://tryiro.com</uri></author>
   <icon>https://tryiro.com/assets/favicon-64.png</icon>
@@ -1354,7 +1354,7 @@
     <title>Cosmo review: CodeSignal's AI tutor app, what it costs, and who it suits</title>
     <id>https://tryiro.com/blog/cosmo-review</id>
     <link href="https://tryiro.com/blog/cosmo-review"/>
-    <updated>2026-11-04T00:00:00Z</updated>
+    <updated>2026-11-21T00:00:00Z</updated>
     <published>2026-11-04T00:00:00Z</published>
     <author><name>Iro AI</name></author>
     <category term="AI fluency"/>
@@ -1429,5 +1429,45 @@
     <author><name>Iro AI</name></author>
     <category term="AI fluency"/>
     <summary>Brilliant is excellent at interactive math, logic and computer science. If you want to learn to use AI tools, pay less, or teach a child, these 11 alternatives fit better.</summary>
+  </entry>
+  <entry>
+    <title>Cosmo alternatives: 7 apps to try instead of CodeSignal's Cosmo</title>
+    <id>https://tryiro.com/blog/cosmo-alternatives</id>
+    <link href="https://tryiro.com/blog/cosmo-alternatives"/>
+    <updated>2026-11-21T00:00:00Z</updated>
+    <published>2026-11-21T00:00:00Z</published>
+    <author><name>Iro AI</name></author>
+    <category term="AI learning apps"/>
+    <summary>Cosmo, CodeSignal's bite-sized learning app, covers 200+ career skills with free courses and a paid Cosmo+ tier. If you want something more focused, cheaper or on a different subject, here are seven alternatives and who each one suits.</summary>
+  </entry>
+  <entry>
+    <title>Iro AI vs Cosmo: which app should you use to learn AI?</title>
+    <id>https://tryiro.com/blog/iro-ai-vs-cosmo</id>
+    <link href="https://tryiro.com/blog/iro-ai-vs-cosmo"/>
+    <updated>2026-11-21T00:00:00Z</updated>
+    <published>2026-11-21T00:00:00Z</published>
+    <author><name>Iro AI</name></author>
+    <category term="AI learning apps"/>
+    <summary>Cosmo, from CodeSignal, teaches 200+ career skills in bite-sized lessons. Iro AI teaches one thing: using AI tools well. Here is how they compare on what you learn, how you practise, what they cost and who each one suits.</summary>
+  </entry>
+  <entry>
+    <title>DataCamp alternatives for learning AI without coding</title>
+    <id>https://tryiro.com/blog/datacamp-alternatives</id>
+    <link href="https://tryiro.com/blog/datacamp-alternatives"/>
+    <updated>2026-11-21T00:00:00Z</updated>
+    <published>2026-11-21T00:00:00Z</published>
+    <author><name>Iro AI</name></author>
+    <category term="AI learning apps"/>
+    <summary>DataCamp is one of the best places to learn data science and coding. If you just want to use AI tools like ChatGPT, Claude and Gemini better, you may not need it. Here are seven alternatives for beginners and non-coders, and where DataCamp is still the right call.</summary>
+  </entry>
+  <entry>
+    <title>Iro AI vs DataCamp: which is better for learning AI?</title>
+    <id>https://tryiro.com/blog/iro-ai-vs-datacamp</id>
+    <link href="https://tryiro.com/blog/iro-ai-vs-datacamp"/>
+    <updated>2026-11-21T00:00:00Z</updated>
+    <published>2026-11-21T00:00:00Z</published>
+    <author><name>Iro AI</name></author>
+    <category term="AI learning apps"/>
+    <summary>DataCamp is built for coding and data science. Iro AI is built for using AI tools well, with no code. Here is an honest comparison of what each teaches, what they cost and which one fits a beginner who wants to learn AI.</summary>
   </entry>
 </feed>

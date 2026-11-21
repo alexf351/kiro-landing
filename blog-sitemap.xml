@@ -3,7 +3,7 @@
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://tryiro.com/blog</loc>
-    <lastmod>2026-11-20</lastmod>
+    <lastmod>2026-11-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -23,7 +23,7 @@
   </url>
   <url>
     <loc>https://tryiro.com/blog/ai-learning-apps</loc>
-    <lastmod>2026-11-20</lastmod>
+    <lastmod>2026-11-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.88</priority>
     <image:image>
@@ -1423,7 +1423,7 @@
   </url>
   <url>
     <loc>https://tryiro.com/blog/cosmo-review</loc>
-    <lastmod>2026-11-04</lastmod>
+    <lastmod>2026-11-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -1499,6 +1499,46 @@
     <image:image>
       <image:loc>https://tryiro.com/assets/og/brilliant-alternatives.png</image:loc>
       <image:title>The best Brilliant alternatives in 2026</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://tryiro.com/blog/cosmo-alternatives</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://tryiro.com/assets/og/cosmo-alternatives.png</image:loc>
+      <image:title>Cosmo alternatives: 7 apps to try instead of CodeSignal's Cosmo</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://tryiro.com/blog/iro-ai-vs-cosmo</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://tryiro.com/assets/og/iro-ai-vs-cosmo.png</image:loc>
+      <image:title>Iro AI vs Cosmo: which app should you use to learn AI?</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://tryiro.com/blog/datacamp-alternatives</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://tryiro.com/assets/og/datacamp-alternatives.png</image:loc>
+      <image:title>DataCamp alternatives for learning AI without coding</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://tryiro.com/blog/iro-ai-vs-datacamp</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://tryiro.com/assets/og/iro-ai-vs-datacamp.png</image:loc>
+      <image:title>Iro AI vs DataCamp: which is better for learning AI?</image:title>
     </image:image>
   </url>
 </urlset>

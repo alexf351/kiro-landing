@@ -26,7 +26,7 @@
     "cancel Cosmo subscription"
   ],
   "datePublished": "2026-11-04",
-  "dateModified": "2026-11-04",
+  "dateModified": "2026-11-21",
   "readingTime": 7,
   "articleSection": "AI fluency",
   "feedCategory": "AI fluency",
@@ -103,7 +103,7 @@
     {
       "id": "fit",
       "heading": "Who Cosmo suits",
-      "html": "<ul><li><strong>Good fit:</strong> you want a light daily learning habit across several work skills, you like a tutor you can ask questions, and you are curious about coding or data as well as AI. If your employer already pays for CodeSignal's learning platform, you may have Cosmo included.</li><li><strong>Less of a fit:</strong> you want to get properly good at using AI tools at work. Cosmo covers that, but as roughly a third of a broad catalogue, and its paid tier costs more than most AI-focused apps.</li></ul><p>Before you pay, use the free courses for a week. If the energy limit is the only thing in your way, Cosmo+ is a simple purchase to undo. Our guide to <a href=\"/blog/ai-subscription-traps\">spotting an AI subscription trap</a> covers the checks worth making with any learning app.</p>"
+      "html": "<ul><li><strong>Good fit:</strong> you want a light daily learning habit across several work skills, you like a tutor you can ask questions, and you are curious about coding or data as well as AI. If your employer already pays for CodeSignal's learning platform, you may have Cosmo included.</li><li><strong>Less of a fit:</strong> you want to get properly good at using AI tools at work. Cosmo covers that, but as roughly a third of a broad catalogue, and its paid tier costs more than most AI-focused apps.</li></ul><p>Weighing other apps? See our <a href=\"/blog/cosmo-alternatives\">Cosmo alternatives</a>, or the head-to-head <a href=\"/blog/iro-ai-vs-cosmo\">Iro AI vs Cosmo</a>. Before you pay, use the free courses for a week. If the energy limit is the only thing in your way, Cosmo+ is a simple purchase to undo. Our guide to <a href=\"/blog/ai-subscription-traps\">spotting an AI subscription trap</a> covers the checks worth making with any learning app.</p>"
     },
     {
       "id": "iro",
@@ -139,23 +139,25 @@
   ],
   "readNext": [
     {
+      "href": "/blog/cosmo-alternatives",
+      "label": "Cosmo alternatives"
+    },
+    {
+      "href": "/blog/iro-ai-vs-cosmo",
+      "label": "Iro AI vs Cosmo"
+    },
+    {
       "href": "/blog/apps-like-duolingo-for-ai",
       "label": "Apps like Duolingo for learning AI"
     },
     {
       "href": "/blog/are-ai-certifications-worth-it",
       "label": "Are AI certifications worth it?"
-    },
-    {
-      "href": "/blog/ai-subscription-traps",
-      "label": "How to spot an AI subscription trap"
-    },
-    {
-      "href": "/blog/iro-ai-vs-sololearn",
-      "label": "Iro AI vs Sololearn"
     }
   ],
   "related": [
+    "/blog/iro-ai-vs-cosmo",
+    "/blog/cosmo-alternatives",
     "/blog/apps-like-duolingo-for-ai",
     "/blog/are-ai-certifications-worth-it",
     "/blog/ai-subscription-traps",
