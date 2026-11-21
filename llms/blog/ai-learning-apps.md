@@ -4,7 +4,7 @@ canonical_url: "https://tryiro.com/blog/ai-learning-apps"
 site: "Iro AI"
 site_url: "https://tryiro.com"
 language: en-US
-last_updated: "2026-11-20"
+last_updated: "2026-11-21"
 keywords: ["AI learning apps", "best app to learn AI", "AI learning app reviews", "Coursiv alternatives", "how to cancel Coursiv", "Duolingo for AI", "AI app subscription refund", "how to choose an AI learning app"]
 author: "Iro AI"
 license: "© 2026 Iro AI"
@@ -16,7 +16,7 @@ type: "content-pillar"
 > Honest reviews and head-to-heads for apps like Coursiv, Brilliant and Duolingo, plus how to cancel, get a refund, and pick an app that actually teaches you AI.
 
 **Canonical:** https://tryiro.com/blog/ai-learning-apps
-**Last updated:** 2026-11-20
+**Last updated:** 2026-11-21
 
 This hub collects everything we've written about AI learning apps: honest reviews, alternatives pages, head-to-head comparisons, and step-by-step guides to cancelling and getting refunds from apps like Coursiv, Finestro and Skilario.
 
@@ -170,6 +170,11 @@ For direct comparisons, see Iro AI vs [Coursiv](/blog/iro-ai-vs-coursiv), [Learn
 - [Cosmo review: CodeSignal's AI tutor app, what it costs, and who it suits](https://tryiro.com/blog/cosmo-review) — An honest Cosmo review: who makes CodeSignal's Cosmo app, how its AI tutor teaches, what Cosmo+ costs, what the terms say, and who it suits best.
 - [The best iPhone apps to learn AI in 2026](https://tryiro.com/blog/best-iphone-apps-to-learn-ai) — The best iPhone apps to learn AI in 2026, compared by lesson length, hands-on practice and free tier: Iro AI, Learn AI by Sololearn, Synapse, Coursiv and Brilliant.
 - [The best Brilliant alternatives in 2026](https://tryiro.com/blog/brilliant-alternatives) — Looking for apps like Brilliant? We compared 11 alternatives for math, coding and learning AI, with prices, who each one suits, and which is best for daily practice.
+- [How to cancel Jobescape and ask for a refund](https://tryiro.com/blog/cancel-jobescape) — How to cancel a Jobescape subscription on the website, iPhone or Android, the 24-hour cutoff to beat, and how to ask Jobescape or Apple for a refund.
+- [The best Jobescape alternatives in 2026](https://tryiro.com/blog/jobescape-alternatives) — The best Jobescape alternatives in 2026: Iro AI for daily practice, Google AI Essentials for a certificate, free picks like OpenAI Academy, and honest pricing.
+- [Iro vs Jobescape: which AI learning app is worth it?](https://tryiro.com/blog/iro-ai-vs-jobescape) — Iro vs Jobescape compared honestly: how each teaches AI, real prices, how cancelling and refunds work, and where Jobescape is the better pick.
+- [Finestro review: is Finestro legit, and what does it cost?](https://tryiro.com/blog/finestro-review) — An honest Finestro review: is Finestro legit, who runs it, App Store vs web pricing, the refund policy, and what its reviews and BBB complaints say.
+- [Iro vs Finestro: which AI learning app should you pick?](https://tryiro.com/blog/iro-ai-vs-finestro) — Iro vs Finestro compared honestly: how each teaches AI, App Store vs web pricing, cancelling and refunds, and where Finestro is the better pick.
 
 ## FAQ
 
