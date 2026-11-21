@@ -990,6 +990,7 @@ main>section{border-top:1px solid var(--line)}
 /* SKILL UNIVERSE (moved out of the hero) */
 .skills-sec .sec-head{margin-bottom:8px}
 .skills-sec .universe{max-width:980px}
+.skills-sec{overflow:hidden;overflow-x:clip}  /* the universe's outer nodes ran past the edge at tablet widths */
 
 /* INSIDE THE APP: named tabs under the phones, in place of the dots */
 .ia-tabs{display:flex;flex-wrap:wrap;justify-content:center;gap:0 4px;max-width:1060px;margin:40px auto 0;padding-top:16px;border-top:1px solid var(--line)}
@@ -1060,6 +1061,17 @@ nav.open .nav-links{background:var(--bg)}  /* opaque: the hero headline showed t
   .hero-v3 .hero-lead>*,.hero-v3 .hero-actions,.hero-shot{animation:none}
   .stair i,.stair.in i{animation:none;clip-path:none}
   .stair img,.stair.in img{animation:none;opacity:1}
+}
+/* touch-sized targets on phones and tablets */
+@media (max-width:1024px){
+  .brand{min-height:44px}
+  .foot-links{gap:0 22px}
+  .foot-links a,.foot-explore a{display:inline-flex;align-items:center;min-height:44px}
+  .rsw::after{content:'';position:absolute;inset:-4px}
+  .foot-socials{flex-wrap:wrap}
+  .foot-socials a{width:44px;height:44px}
+  .hero-web-link{display:inline-flex;align-items:center;min-height:44px}
+  .hero-v3 .hero-actions{gap:14px}
 }
 @media (max-width:640px){
   .hero-v3{padding-top:92px}
