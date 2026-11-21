@@ -974,16 +974,18 @@ main>section{border-top:1px solid var(--line)}
 
 /* REVIEWS */
 #proof{padding:clamp(40px,6vh,64px) 0;background:var(--bg-2)}
-.rv{display:flex;flex-wrap:wrap;gap:32px 48px}
-.rv figure{margin:0;min-width:0}
-.rv-feat{flex:2 1 420px}
-.rv-mini{flex:1 1 240px}
-.rv blockquote{margin:0;color:var(--ink)}
-.rv-feat blockquote{font-family:'Geist','Outfit',sans-serif;font-weight:600;font-size:clamp(20px,2vw,26px);line-height:1.35;letter-spacing:-.02em;text-wrap:pretty}
-.rv-mini blockquote{font-size:17px;line-height:1.55}
-.rv figcaption{margin-top:14px;font-size:15px;color:var(--ink-2);display:flex;align-items:center;gap:10px}
-.rv .rev-nm{font-size:15px}
-.rv .rev-src{font-family:inherit;font-size:15px;letter-spacing:0;color:var(--ink-2)}
+.rv{overflow-x:auto;scrollbar-width:none}
+.rv::-webkit-scrollbar{display:none}
+.rv-track{display:flex;width:max-content}
+.rv-card{flex:none;width:340px;margin:0 16px 0 0;display:flex;flex-direction:column;gap:12px;
+  background:#0F1524;border:1px solid var(--line);border-radius:16px;padding:22px}
+.rv-stars{color:var(--gold);font-size:15px;letter-spacing:3px}
+.rv-card blockquote{margin:0;font-size:16.5px;line-height:1.55;color:var(--ink);text-wrap:pretty}
+.rv-card figcaption{margin-top:auto;padding-top:4px;font-size:14.5px;color:var(--ink-2)}
+.rv.is-loop{overflow:hidden;-webkit-mask-image:linear-gradient(90deg,transparent,#000 5%,#000 95%,transparent);mask-image:linear-gradient(90deg,transparent,#000 5%,#000 95%,transparent)}
+.rv.is-loop .rv-track{animation:rv-scroll 70s linear infinite}
+.rv.is-loop:hover .rv-track,.rv.is-loop:focus-within .rv-track{animation-play-state:paused}
+@keyframes rv-scroll{to{transform:translateX(-50%)}}
 
 /* SKILL UNIVERSE (moved out of the hero) */
 .skills-sec .sec-head{margin-bottom:8px}
@@ -1047,6 +1049,7 @@ main>section{border-top:1px solid var(--line)}
 .askai-strip{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:24px 48px}
 .askai-strip>div:first-child{flex:1 1 360px;min-width:0}
 .askai-strip h2{font-weight:600;font-size:24px;letter-spacing:-.02em;margin-bottom:8px}
+.askai-strip h2 .accent{display:inline-block}  /* keeps 'Ask any AI.' together instead of orphaning 'AI.' */
 .askai-strip p{font-size:15.5px;line-height:1.6;color:var(--ink-2);max-width:36em}
 .askai-strip p a{color:var(--accent)}
 .askai-strip .askai-chips{justify-content:flex-start}
@@ -1062,6 +1065,7 @@ nav.open .nav-links{background:var(--bg)}  /* opaque: the hero headline showed t
   .hero-v3{padding-top:92px}
   .hero-v3 .hero-ctas .btn{width:100%;justify-content:center}
   .hero-shot img{max-width:260px}
+  .rv-card{width:286px;padding:18px}
   .plan-mascot{width:96px;margin-top:-44px}
   .ia-tabs{margin-top:28px}
   .askai-strip .askai-chips{justify-content:center}
@@ -1164,7 +1168,7 @@ nav.open .nav-links{background:var(--bg)}  /* opaque: the hero headline showed t
         </div>
         <div class="hero-trust">
           <span class="stars">★★★★★</span>
-          <span class="hero-trust-txt"><b>4,6</b> estrellas con 89 reseñas</span>
+          <span class="hero-trust-txt"><b>4,6</b> estrellas con 90 reseñas</span>
           <span class="sep"></span>
           <span class="hero-trust-txt"><b>+1.500</b> estudiantes</span>
           <span class="sep"></span>
@@ -1183,22 +1187,65 @@ nav.open .nav-links{background:var(--bg)}  /* opaque: the hero headline showed t
 <section id="proof" data-screen-label="Reviews">
   <div class="wrap">
     <h2 class="sr-only">Reseñas del App Store</h2>
-    <div class="rv reveal">
-      <figure class="rv-feat">
-        <blockquote>“Creía que ya sabía usar las herramientas de IA, pero esto me hizo ver que estaba desaprovechando mucho. Iro me enseñó a usar la IA con más eficacia, tanto en el trabajo como en lo personal.”</blockquote>
-        <figcaption><span class="rev-nm">abrjav</span><span class="rev-src">Reseña del App Store</span></figcaption>
-      </figure>
-      <figure class="rv-mini">
-        <blockquote>“Una app genial, al estilo de Duolingo. Si te interesan la IA y los prompts, no busques más.”</blockquote>
-        <figcaption>Pradyot · App Store</figcaption>
-      </figure>
-      <figure class="rv-mini">
-        <blockquote>“Fácil de usar y con mucha información nueva que incluso a mí, que uso la IA a menudo, me resultó útil.”</blockquote>
-        <figcaption>michael · App Store</figcaption>
-      </figure>
+    <!-- Rotating row of App Store reviews. The script below clones the set once
+         so the loop is seamless; without it, or with reduced motion, the row is
+         a plain horizontal scroller. -->
+    <div class="rv reveal" id="rv">
+      <div class="rv-track" id="rvTrack">
+        <figure class="rv-card">
+          <div class="rv-stars" aria-hidden="true">★★★★★</div>
+          <blockquote>“Creía que ya sabía usar las herramientas de IA, pero esto me hizo ver que estaba desaprovechando mucho. Iro me enseñó a usar la IA con más eficacia, tanto en el trabajo como en lo personal.”</blockquote>
+          <figcaption>abrjav · App Store</figcaption>
+        </figure>
+        <figure class="rv-card">
+          <div class="rv-stars" aria-hidden="true">★★★★★</div>
+          <blockquote>“Uso ChatGPT y Claude a diario y aun así aprendí cosas que no sabía que me faltaban. Hay una ruta para cada nivel y para cada trabajo.”</blockquote>
+          <figcaption>Jenny1263 · App Store</figcaption>
+        </figure>
+        <figure class="rv-card">
+          <div class="rv-stars" aria-hidden="true">★★★★★</div>
+          <blockquote>“Una app genial, al estilo de Duolingo. Si te interesan la IA y los prompts, no busques más.”</blockquote>
+          <figcaption>Pradyot · App Store</figcaption>
+        </figure>
+        <figure class="rv-card">
+          <div class="rv-stars" aria-hidden="true">★★★★★</div>
+          <blockquote>“No sabía qué esperar de esta app, pero hasta ahora me ha ayudado muchísimo, sobre todo en el trabajo. He reducido enormemente el tiempo que paso en la oficina y la suscripción vale la pena sin duda. ¡Imprescindible para mí!”</blockquote>
+          <figcaption>Max Kitsis · App Store</figcaption>
+        </figure>
+        <figure class="rv-card">
+          <div class="rv-stars" aria-hidden="true">★★★★★</div>
+          <blockquote>“Fácil de usar y con mucha información nueva que incluso a mí, que uso la IA a menudo, me resultó útil.”</blockquote>
+          <figcaption>michael · App Store</figcaption>
+        </figure>
+        <figure class="rv-card">
+          <div class="rv-stars" aria-hidden="true">★★★★★</div>
+          <blockquote>“Perfecto para principiantes. Uso esta app para aprender sobre Claude. Me encanta. Muy recomendable.”</blockquote>
+          <figcaption>sudo-super-su · App Store</figcaption>
+        </figure>
+        <figure class="rv-card">
+          <div class="rv-stars" aria-hidden="true">★★★★★</div>
+          <blockquote>“Las lecciones son fáciles de seguir y se aprende mucho con ellas. Si te interesa la IA, sin duda merece la pena probarla.”</blockquote>
+          <figcaption>Bkpcsi · App Store</figcaption>
+        </figure>
+        <figure class="rv-card">
+          <div class="rv-stars" aria-hidden="true">★★★★★</div>
+          <blockquote>“¡Una app genial! Muy útil, con ejercicios atractivos pensados para objetivos concretos.”</blockquote>
+          <figcaption>Jmf275 · App Store</figcaption>
+        </figure>
+      </div>
     </div>
   </div>
 </section>
+<script>
+(function(){
+  var wrap=document.getElementById('rv'),track=document.getElementById('rvTrack');
+  if(!wrap||!track||window.matchMedia('(prefers-reduced-motion:reduce)').matches)return;
+  [].slice.call(track.children).forEach(function(card){
+    var c=card.cloneNode(true);c.setAttribute('aria-hidden','true');track.appendChild(c);
+  });
+  wrap.classList.add('is-loop');
+})();
+</script>
 
 <!-- ============ SKILL UNIVERSE ============ -->
 <section class="skills-sec" id="skills" data-screen-label="Skill universe">

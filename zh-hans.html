@@ -974,16 +974,18 @@ main>section{border-top:1px solid var(--line)}
 
 /* REVIEWS */
 #proof{padding:clamp(40px,6vh,64px) 0;background:var(--bg-2)}
-.rv{display:flex;flex-wrap:wrap;gap:32px 48px}
-.rv figure{margin:0;min-width:0}
-.rv-feat{flex:2 1 420px}
-.rv-mini{flex:1 1 240px}
-.rv blockquote{margin:0;color:var(--ink)}
-.rv-feat blockquote{font-family:'Geist','Outfit','PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans CJK SC','Noto Sans SC',sans-serif;font-weight:600;font-size:clamp(20px,2vw,26px);line-height:1.35;letter-spacing:-.02em;text-wrap:pretty}
-.rv-mini blockquote{font-size:17px;line-height:1.55}
-.rv figcaption{margin-top:14px;font-size:15px;color:var(--ink-2);display:flex;align-items:center;gap:10px}
-.rv .rev-nm{font-size:15px}
-.rv .rev-src{font-family:inherit;font-size:15px;letter-spacing:0;color:var(--ink-2)}
+.rv{overflow-x:auto;scrollbar-width:none}
+.rv::-webkit-scrollbar{display:none}
+.rv-track{display:flex;width:max-content}
+.rv-card{flex:none;width:340px;margin:0 16px 0 0;display:flex;flex-direction:column;gap:12px;
+  background:#0F1524;border:1px solid var(--line);border-radius:16px;padding:22px}
+.rv-stars{color:var(--gold);font-size:15px;letter-spacing:3px}
+.rv-card blockquote{margin:0;font-size:16.5px;line-height:1.55;color:var(--ink);text-wrap:pretty}
+.rv-card figcaption{margin-top:auto;padding-top:4px;font-size:14.5px;color:var(--ink-2)}
+.rv.is-loop{overflow:hidden;-webkit-mask-image:linear-gradient(90deg,transparent,#000 5%,#000 95%,transparent);mask-image:linear-gradient(90deg,transparent,#000 5%,#000 95%,transparent)}
+.rv.is-loop .rv-track{animation:rv-scroll 70s linear infinite}
+.rv.is-loop:hover .rv-track,.rv.is-loop:focus-within .rv-track{animation-play-state:paused}
+@keyframes rv-scroll{to{transform:translateX(-50%)}}
 
 /* SKILL UNIVERSE (moved out of the hero) */
 .skills-sec .sec-head{margin-bottom:8px}
@@ -1047,6 +1049,7 @@ main>section{border-top:1px solid var(--line)}
 .askai-strip{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:24px 48px}
 .askai-strip>div:first-child{flex:1 1 360px;min-width:0}
 .askai-strip h2{font-weight:600;font-size:24px;letter-spacing:-.02em;margin-bottom:8px}
+.askai-strip h2 .accent{display:inline-block}  /* keeps 'Ask any AI.' together instead of orphaning 'AI.' */
 .askai-strip p{font-size:15.5px;line-height:1.6;color:var(--ink-2);max-width:36em}
 .askai-strip p a{color:var(--accent)}
 .askai-strip .askai-chips{justify-content:flex-start}
@@ -1062,6 +1065,7 @@ nav.open .nav-links{background:var(--bg)}  /* opaque: the hero headline showed t
   .hero-v3{padding-top:92px}
   .hero-v3 .hero-ctas .btn{width:100%;justify-content:center}
   .hero-shot img{max-width:260px}
+  .rv-card{width:286px;padding:18px}
   .plan-mascot{width:96px;margin-top:-44px}
   .ia-tabs{margin-top:28px}
   .askai-strip .askai-chips{justify-content:center}
@@ -1164,7 +1168,7 @@ nav.open .nav-links{background:var(--bg)}  /* opaque: the hero headline showed t
         </div>
         <div class="hero-trust">
           <span class="stars">★★★★★</span>
-          <span class="hero-trust-txt"><b>4.6</b> 星，来自 89 条评价</span>
+          <span class="hero-trust-txt"><b>4.6</b> 星，来自 90 条评价</span>
           <span class="sep"></span>
           <span class="hero-trust-txt"><b>1,500+</b> 位学习者</span>
           <span class="sep"></span>
@@ -1183,22 +1187,65 @@ nav.open .nav-links{background:var(--bg)}  /* opaque: the hero headline showed t
 <section id="proof" data-screen-label="Reviews">
   <div class="wrap">
     <h2 class="sr-only">App Store 评价</h2>
-    <div class="rv reveal">
-      <figure class="rv-feat">
-        <blockquote>“我以为自己已经懂得怎么用 AI 工具了，用了它才发现之前浪费了很多潜力。Iro 教会我在工作和生活中更高效地使用 AI。”</blockquote>
-        <figcaption><span class="rev-nm">abrjav</span><span class="rev-src">App Store 评价</span></figcaption>
-      </figure>
-      <figure class="rv-mini">
-        <blockquote>“真的是一款像多邻国一样很棒的 App。如果你对 AI 和提示词感兴趣，选它就对了。”</blockquote>
-        <figcaption>Pradyot · App Store</figcaption>
-      </figure>
-      <figure class="rv-mini">
-        <blockquote>“简单易用，内容里有很多新知识，连我这种经常用 AI 的人都觉得很有帮助。”</blockquote>
-        <figcaption>michael · App Store</figcaption>
-      </figure>
+    <!-- Rotating row of App Store reviews. The script below clones the set once
+         so the loop is seamless; without it, or with reduced motion, the row is
+         a plain horizontal scroller. -->
+    <div class="rv reveal" id="rv">
+      <div class="rv-track" id="rvTrack">
+        <figure class="rv-card">
+          <div class="rv-stars" aria-hidden="true">★★★★★</div>
+          <blockquote>“我以为自己已经懂得怎么用 AI 工具了，用了它才发现之前浪费了很多潜力。Iro 教会我在工作和生活中更高效地使用 AI。”</blockquote>
+          <figcaption>abrjav · App Store</figcaption>
+        </figure>
+        <figure class="rv-card">
+          <div class="rv-stars" aria-hidden="true">★★★★★</div>
+          <blockquote>“我每天都用 ChatGPT 和 Claude，还是学到了以前不知道自己欠缺的东西。每个水平、每种工作都有对应的路径。”</blockquote>
+          <figcaption>Jenny1263 · App Store</figcaption>
+        </figure>
+        <figure class="rv-card">
+          <div class="rv-stars" aria-hidden="true">★★★★★</div>
+          <blockquote>“真的是一款像多邻国一样很棒的 App。如果你对 AI 和提示词感兴趣，选它就对了。”</blockquote>
+          <figcaption>Pradyot · App Store</figcaption>
+        </figure>
+        <figure class="rv-card">
+          <div class="rv-stars" aria-hidden="true">★★★★★</div>
+          <blockquote>“一开始不知道这款 App 会怎样，但到目前为止它帮了我大忙，尤其是在工作上。我在办公室花的时间大大减少，订阅绝对物有所值。对我来说必不可少！”</blockquote>
+          <figcaption>Max Kitsis · App Store</figcaption>
+        </figure>
+        <figure class="rv-card">
+          <div class="rv-stars" aria-hidden="true">★★★★★</div>
+          <blockquote>“简单易用，内容里有很多新知识，连我这种经常用 AI 的人都觉得很有帮助。”</blockquote>
+          <figcaption>michael · App Store</figcaption>
+        </figure>
+        <figure class="rv-card">
+          <div class="rv-stars" aria-hidden="true">★★★★★</div>
+          <blockquote>“非常适合新手。我用这个 App 来学习 Claude，真的很喜欢，强烈推荐。”</blockquote>
+          <figcaption>sudo-super-su · App Store</figcaption>
+        </figure>
+        <figure class="rv-card">
+          <div class="rv-stars" aria-hidden="true">★★★★★</div>
+          <blockquote>“课程很容易跟上，能学到很多东西。如果你对 AI 感到好奇，绝对值得一试！”</blockquote>
+          <figcaption>Bkpcsi · App Store</figcaption>
+        </figure>
+        <figure class="rv-card">
+          <div class="rv-stars" aria-hidden="true">★★★★★</div>
+          <blockquote>“很棒的 App！非常实用，练习有趣，而且都围绕具体目标设计。”</blockquote>
+          <figcaption>Jmf275 · App Store</figcaption>
+        </figure>
+      </div>
     </div>
   </div>
 </section>
+<script>
+(function(){
+  var wrap=document.getElementById('rv'),track=document.getElementById('rvTrack');
+  if(!wrap||!track||window.matchMedia('(prefers-reduced-motion:reduce)').matches)return;
+  [].slice.call(track.children).forEach(function(card){
+    var c=card.cloneNode(true);c.setAttribute('aria-hidden','true');track.appendChild(c);
+  });
+  wrap.classList.add('is-loop');
+})();
+</script>
 
 <!-- ============ SKILL UNIVERSE ============ -->
 <section class="skills-sec" id="skills" data-screen-label="Skill universe">

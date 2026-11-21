@@ -995,16 +995,18 @@ main>section{border-top:1px solid var(--line)}
 
 /* REVIEWS */
 #proof{padding:clamp(40px,6vh,64px) 0;background:var(--bg-2)}
-.rv{display:flex;flex-wrap:wrap;gap:32px 48px}
-.rv figure{margin:0;min-width:0}
-.rv-feat{flex:2 1 420px}
-.rv-mini{flex:1 1 240px}
-.rv blockquote{margin:0;color:var(--ink)}
-.rv-feat blockquote{font-family:'Geist','Outfit',sans-serif;font-weight:600;font-size:clamp(20px,2vw,26px);line-height:1.35;letter-spacing:-.02em;text-wrap:pretty}
-.rv-mini blockquote{font-size:17px;line-height:1.55}
-.rv figcaption{margin-top:14px;font-size:15px;color:var(--ink-2);display:flex;align-items:center;gap:10px}
-.rv .rev-nm{font-size:15px}
-.rv .rev-src{font-family:inherit;font-size:15px;letter-spacing:0;color:var(--ink-2)}
+.rv{overflow-x:auto;scrollbar-width:none}
+.rv::-webkit-scrollbar{display:none}
+.rv-track{display:flex;width:max-content}
+.rv-card{flex:none;width:340px;margin:0 16px 0 0;display:flex;flex-direction:column;gap:12px;
+  background:#0F1524;border:1px solid var(--line);border-radius:16px;padding:22px}
+.rv-stars{color:var(--gold);font-size:15px;letter-spacing:3px}
+.rv-card blockquote{margin:0;font-size:16.5px;line-height:1.55;color:var(--ink);text-wrap:pretty}
+.rv-card figcaption{margin-top:auto;padding-top:4px;font-size:14.5px;color:var(--ink-2)}
+.rv.is-loop{overflow:hidden;-webkit-mask-image:linear-gradient(90deg,transparent,#000 5%,#000 95%,transparent);mask-image:linear-gradient(90deg,transparent,#000 5%,#000 95%,transparent)}
+.rv.is-loop .rv-track{animation:rv-scroll 70s linear infinite}
+.rv.is-loop:hover .rv-track,.rv.is-loop:focus-within .rv-track{animation-play-state:paused}
+@keyframes rv-scroll{to{transform:translateX(-50%)}}
 
 /* SKILL UNIVERSE (moved out of the hero) */
 .skills-sec .sec-head{margin-bottom:8px}
@@ -1068,6 +1070,7 @@ main>section{border-top:1px solid var(--line)}
 .askai-strip{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:24px 48px}
 .askai-strip>div:first-child{flex:1 1 360px;min-width:0}
 .askai-strip h2{font-weight:600;font-size:24px;letter-spacing:-.02em;margin-bottom:8px}
+.askai-strip h2 .accent{display:inline-block}  /* keeps 'Ask any AI.' together instead of orphaning 'AI.' */
 .askai-strip p{font-size:15.5px;line-height:1.6;color:var(--ink-2);max-width:36em}
 .askai-strip p a{color:var(--accent)}
 .askai-strip .askai-chips{justify-content:flex-start}
@@ -1083,6 +1086,7 @@ nav.open .nav-links{background:var(--bg)}  /* opaque: the hero headline showed t
   .hero-v3{padding-top:92px}
   .hero-v3 .hero-ctas .btn{width:100%;justify-content:center}
   .hero-shot img{max-width:260px}
+  .rv-card{width:286px;padding:18px}
   .plan-mascot{width:96px;margin-top:-44px}
   .ia-tabs{margin-top:28px}
   .askai-strip .askai-chips{justify-content:center}
@@ -1184,7 +1188,7 @@ nav.open .nav-links{background:var(--bg)}  /* opaque: the hero headline showed t
         </div>
         <div class="hero-trust">
           <span class="stars">★★★★★</span>
-          <span class="hero-trust-txt"><b>4.6</b> stars from 89 reviews</span>
+          <span class="hero-trust-txt"><b>4.6</b> stars from 90 reviews</span>
           <span class="sep"></span>
           <span class="hero-trust-txt"><b>1,500+</b> learners</span>
           <span class="sep"></span>
@@ -1203,22 +1207,65 @@ nav.open .nav-links{background:var(--bg)}  /* opaque: the hero headline showed t
 <section id="proof" data-screen-label="Reviews">
   <div class="wrap">
     <h2 class="sr-only">App Store reviews</h2>
-    <div class="rv reveal">
-      <figure class="rv-feat">
-        <blockquote>&ldquo;I thought I already understood how to utilize AI tools, but this made me realize I was leaving a lot on the table. Iro taught me how to use AI more effectively for both work and personal use.&rdquo;</blockquote>
-        <figcaption><span class="rev-nm">abrjav</span><span class="rev-src">App Store review</span></figcaption>
-      </figure>
-      <figure class="rv-mini">
-        <blockquote>&ldquo;This is really a great app like Duolingo. If you are in for AI and prompting then look no further.&rdquo;</blockquote>
-        <figcaption>Pradyot · App Store</figcaption>
-      </figure>
-      <figure class="rv-mini">
-        <blockquote>&ldquo;Easy to use and includes a lot of new information even I, a frequent AI user, found helpful.&rdquo;</blockquote>
-        <figcaption>michael · App Store</figcaption>
-      </figure>
+    <!-- Rotating row of App Store reviews. The script below clones the set once
+         so the loop is seamless; without it, or with reduced motion, the row is
+         a plain horizontal scroller. -->
+    <div class="rv reveal" id="rv">
+      <div class="rv-track" id="rvTrack">
+        <figure class="rv-card">
+          <div class="rv-stars" aria-hidden="true">★★★★★</div>
+          <blockquote>&ldquo;I thought I already understood how to utilize AI tools, but this made me realize I was leaving a lot on the table. Iro taught me how to use AI more effectively for both work and personal use.&rdquo;</blockquote>
+          <figcaption>abrjav · App Store</figcaption>
+        </figure>
+        <figure class="rv-card">
+          <div class="rv-stars" aria-hidden="true">★★★★★</div>
+          <blockquote>&ldquo;I use ChatGPT and Claude daily and still learned things I didn&rsquo;t know I was missing. There&rsquo;s a path for every level and every job.&rdquo;</blockquote>
+          <figcaption>Jenny1263 · App Store</figcaption>
+        </figure>
+        <figure class="rv-card">
+          <div class="rv-stars" aria-hidden="true">★★★★★</div>
+          <blockquote>&ldquo;This is really a great app like Duolingo. If you are in for AI and prompting then look no further.&rdquo;</blockquote>
+          <figcaption>Pradyot · App Store</figcaption>
+        </figure>
+        <figure class="rv-card">
+          <div class="rv-stars" aria-hidden="true">★★★★★</div>
+          <blockquote>&ldquo;I didn&rsquo;t know what to expect from this app but so far it has been so helpful especially at work. I have cut down on time in the office tremendously and definitely worth the subscription! A must for me!&rdquo;</blockquote>
+          <figcaption>Max Kitsis · App Store</figcaption>
+        </figure>
+        <figure class="rv-card">
+          <div class="rv-stars" aria-hidden="true">★★★★★</div>
+          <blockquote>&ldquo;Easy to use and includes a lot of new information even I, a frequent AI user, found helpful.&rdquo;</blockquote>
+          <figcaption>michael · App Store</figcaption>
+        </figure>
+        <figure class="rv-card">
+          <div class="rv-stars" aria-hidden="true">★★★★★</div>
+          <blockquote>&ldquo;Perfect for beginners. I&rsquo;m using this app to help me learn about Claude. I really love it. Highly recommend it.&rdquo;</blockquote>
+          <figcaption>sudo-super-su · App Store</figcaption>
+        </figure>
+        <figure class="rv-card">
+          <div class="rv-stars" aria-hidden="true">★★★★★</div>
+          <blockquote>&ldquo;Lessons are easy to follow, you can learn a lot from them. If you&rsquo;re curious about AI, it&rsquo;s definitely worth checking out!&rdquo;</blockquote>
+          <figcaption>Bkpcsi · App Store</figcaption>
+        </figure>
+        <figure class="rv-card">
+          <div class="rv-stars" aria-hidden="true">★★★★★</div>
+          <blockquote>&ldquo;Great app! Very helpful with engaging learning exercises geared to specific goals.&rdquo;</blockquote>
+          <figcaption>Jmf275 · App Store</figcaption>
+        </figure>
+      </div>
     </div>
   </div>
 </section>
+<script>
+(function(){
+  var wrap=document.getElementById('rv'),track=document.getElementById('rvTrack');
+  if(!wrap||!track||window.matchMedia('(prefers-reduced-motion:reduce)').matches)return;
+  [].slice.call(track.children).forEach(function(card){
+    var c=card.cloneNode(true);c.setAttribute('aria-hidden','true');track.appendChild(c);
+  });
+  wrap.classList.add('is-loop');
+})();
+</script>
 
 <!-- ============ SKILL UNIVERSE ============ -->
 <section class="skills-sec" id="skills" data-screen-label="Skill universe">
