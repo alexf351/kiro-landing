@@ -1083,6 +1083,19 @@ nav.open .nav-links{background:var(--bg)}  /* opaque: the hero headline showed t
   .stair i,.stair.in i{animation:none;clip-path:none}
   .stair img,.stair.in img{animation:none;opacity:1}
 }
+/* Once the hero stacks (phone above/below copy), centre it. Left-aligned copy
+   over a centred phone, with centred buttons, read as broken on real phones. */
+@media (max-width:900px){
+  .hero-v3{text-align:center}
+  .hero-split{gap:28px}
+  .hero-col{flex-basis:100%;padding-bottom:0}
+  .hero-v3 .hero-sub{margin:0 auto}
+  .hero-v3 .hero-actions{align-items:center}
+  .hero-v3 .hero-ctas,.hero-v3 .hero-trust{justify-content:center}
+  .hero-v3 .android-banner{margin-left:auto;margin-right:auto}
+  .hero-v3 .hero-web-link{justify-content:center;text-wrap:balance}
+  .hero-shot{flex-basis:100%;align-self:auto}
+}
 /* touch-sized targets on phones and tablets */
 @media (max-width:1024px){
   .brand{min-height:44px}
@@ -1096,8 +1109,11 @@ nav.open .nav-links{background:var(--bg)}  /* opaque: the hero headline showed t
 }
 @media (max-width:640px){
   .hero-v3{padding-top:92px}
-  .hero-v3 .hero-ctas .btn{width:100%;justify-content:center}
-  .hero-shot img{max-width:260px}
+  .hero-v3 .hero-ctas .btn{width:100%;max-width:none;justify-content:center}
+  .hero-shot img{max-width:250px;aspect-ratio:900/1050}
+  /* trust row: rating on one line, the other two facts on the next, no stray divider */
+  .hero-trust{gap:6px 14px}
+  .hero-trust .stars+.hero-trust-txt+.sep{flex-basis:100%;width:auto;height:0;background:none}
   .rv-card{width:286px;padding:18px}
   .plan-mascot{width:96px;margin-top:-44px}
   .ia-tabs{margin-top:28px}
