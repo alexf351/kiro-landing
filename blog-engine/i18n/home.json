@@ -348,33 +348,6 @@
     "it": "Test del grado IA",
     "zh-hans": "AI 段位测试"
    },
-   "how": {
-    "en": "How it works",
-    "es": "Cómo funciona",
-    "fr": "Le principe",
-    "de": "So funktioniert’s",
-    "pt-br": "Como funciona",
-    "it": "Come funziona",
-    "zh-hans": "玩法介绍"
-   },
-   "paths": {
-    "en": "Paths",
-    "es": "Rutas",
-    "fr": "Parcours",
-    "de": "Lernpfade",
-    "pt-br": "Trilhas",
-    "it": "Percorsi",
-    "zh-hans": "学习路径"
-   },
-   "faq": {
-    "en": "FAQ",
-    "es": "Preguntas",
-    "fr": "FAQ",
-    "de": "FAQ",
-    "pt-br": "Dúvidas",
-    "it": "Domande",
-    "zh-hans": "常见问题"
-   },
    "webapp": {
     "en": "Open web app",
     "es": "Abrir la app web",
@@ -428,6 +401,33 @@
     "pt-br": "Abrir menu",
     "it": "Apri il menu",
     "zh-hans": "打开菜单"
+   },
+   "learn": {
+    "en": "What you&rsquo;ll learn",
+    "es": "Qué aprenderás",
+    "fr": "Au programme",
+    "de": "Was du lernst",
+    "pt-br": "O que você aprende",
+    "it": "Cosa imparerai",
+    "zh-hans": "学什么"
+   },
+   "inside": {
+    "en": "Inside the app",
+    "es": "Dentro de la app",
+    "fr": "Dans l’app",
+    "de": "In der App",
+    "pt-br": "Por dentro do app",
+    "it": "Dentro l’app",
+    "zh-hans": "App 一览"
+   },
+   "pricing": {
+    "en": "Pricing",
+    "es": "Precios",
+    "fr": "Tarifs",
+    "de": "Preise",
+    "pt-br": "Preços",
+    "it": "Prezzi",
+    "zh-hans": "价格"
    }
   },
   "hero": {
@@ -441,13 +441,13 @@
     "zh-hans": "学 AI，<br/><span class=\"accent\">像玩游戏一样。</span>"
    },
    "sub": {
-    "en": "The game that teaches anyone to use AI effectively in their daily life. 5 minutes a day, real tasks, not party tricks.",
-    "es": "El juego que enseña a cualquiera a usar la IA con eficacia en su día a día. 5 minutos al día, tareas reales, sin trucos de feria.<span class=\"lang-note\">Nota: la interfaz de la app está en inglés. Con las rutas personalizadas (Pro), los cursos se generan en el idioma de tu tema.</span>",
-    "fr": "Le jeu qui apprend à chacun à utiliser l’IA efficacement au quotidien. 5 minutes par jour, de vraies tâches, pas des gadgets.<span class=\"lang-note\">Remarque : l’interface de l’application est en anglais. Avec les parcours personnalisés (Pro), les cours sont générés dans la langue de votre sujet.</span>",
-    "de": "Das Spiel, das allen beibringt, KI im Alltag wirksam einzusetzen. 5 Minuten am Tag, echte Aufgaben statt Partytricks.<span class=\"lang-note\">Hinweis: Die App-Oberfläche ist auf Englisch. Mit eigenen Lernpfaden (Pro) werden Kurse in der Sprache deines Themas erstellt.</span>",
-    "pt-br": "O jogo que ensina qualquer pessoa a usar a IA com eficiência no dia a dia. 5 minutos por dia, tarefas reais, não truques de salão.<span class=\"lang-note\">Observação: a interface do app está em inglês. Com as trilhas personalizadas (Pro), os cursos são gerados no idioma do seu tema.</span>",
-    "it": "Il gioco che insegna a chiunque a usare l’IA in modo efficace nella vita di tutti i giorni. 5 minuti al giorno, compiti reali, non giochi di prestigio.<span class=\"lang-note\">Nota: l’interfaccia dell’app è in inglese. Con i percorsi personalizzati (Pro), i corsi vengono generati nella lingua del tuo argomento.</span>",
-    "zh-hans": "这款游戏教任何人在日常生活中高效使用 AI。每天 5 分钟，做真实任务，拒绝花架子。<span class=\"lang-note\">注：App 界面目前为英文，简体中文版即将推出。使用自定义路径（Pro）时，课程会以你所选主题的语言生成。</span>"
+    "en": "The app that teaches anyone to use AI effectively in their daily life. 5 minutes a day, real tasks, not party tricks.",
+    "es": "La app que enseña a cualquiera a usar la IA con eficacia en su día a día. 5 minutos al día, tareas reales, sin trucos de feria.<span class=\"lang-note\">Nota: la interfaz de la app está en inglés. Con las rutas personalizadas (Pro), los cursos se generan en el idioma de tu tema.</span>",
+    "fr": "L’appli qui apprend à chacun à utiliser l’IA efficacement au quotidien. 5 minutes par jour, de vraies tâches, pas des gadgets.<span class=\"lang-note\">Remarque : l’interface de l’application est en anglais. Avec les parcours personnalisés (Pro), les cours sont générés dans la langue de votre sujet.</span>",
+    "de": "Die App, die allen beibringt, KI im Alltag wirksam einzusetzen. 5 Minuten am Tag, echte Aufgaben statt Partytricks.<span class=\"lang-note\">Hinweis: Die App-Oberfläche ist auf Englisch. Mit eigenen Lernpfaden (Pro) werden Kurse in der Sprache deines Themas erstellt.</span>",
+    "pt-br": "O app que ensina qualquer pessoa a usar a IA com eficiência no dia a dia. 5 minutos por dia, tarefas reais, não truques de salão.<span class=\"lang-note\">Observação: a interface do app está em inglês. Com as trilhas personalizadas (Pro), os cursos são gerados no idioma do seu tema.</span>",
+    "it": "L’app che insegna a chiunque a usare l’IA in modo efficace nella vita di tutti i giorni. 5 minuti al giorno, compiti reali, non giochi di prestigio.<span class=\"lang-note\">Nota: l’interfaccia dell’app è in inglese. Con i percorsi personalizzati (Pro), i corsi vengono generati nella lingua del tuo argomento.</span>",
+    "zh-hans": "这款 App 教任何人在日常生活中高效使用 AI。每天 5 分钟，做真实任务，拒绝花架子。<span class=\"lang-note\">注：App 界面目前为英文，简体中文版即将推出。使用自定义路径（Pro）时，课程会以你所选主题的语言生成。</span>"
    },
    "android": {
     "en": "<b>On Android?</b> The app is iOS-only for now, but Iro runs in any Android browser at <a href=\"https://app.tryiro.com\" data-cta=\"hero-android\">app.tryiro.com</a> &mdash; start today, free. Get notified when the app drops:",
@@ -522,13 +522,13 @@
     "zh-hans": "测测你的 AI 段位"
    },
    "rating": {
-    "en": "<b>4.6</b> stars from 85 reviews",
-    "es": "<b>4,6</b> estrellas con 85 reseñas",
-    "fr": "<b>4,6</b> étoiles sur 85 avis",
-    "de": "<b>4,6</b> Sterne aus 85 Bewertungen",
-    "pt-br": "<b>4,6</b> estrelas com 85 avaliações",
-    "it": "<b>4,6</b> stelle su 85 recensioni",
-    "zh-hans": "<b>4.6</b> 星，来自 85 条评价"
+    "en": "<b>4.6</b> stars from 89 reviews",
+    "es": "<b>4,6</b> estrellas con 89 reseñas",
+    "fr": "<b>4,6</b> étoiles sur 89 avis",
+    "de": "<b>4,6</b> Sterne aus 89 Bewertungen",
+    "pt-br": "<b>4,6</b> estrelas com 89 avaliações",
+    "it": "<b>4,6</b> stelle su 89 recensioni",
+    "zh-hans": "<b>4.6</b> 星，来自 89 条评价"
    },
    "learners": {
     "en": "<b>1,500+</b> learners",
@@ -539,15 +539,6 @@
     "it": "<b>Oltre 1.500</b> studenti",
     "zh-hans": "<b>1,500+</b> 位学习者"
    },
-   "exercises": {
-    "en": "<b>3,000+</b> hands-on exercises",
-    "es": "<b>+3.000</b> ejercicios prácticos",
-    "fr": "<b>3 000+</b> exercices pratiques",
-    "de": "<b>3.000+</b> praktische Übungen",
-    "pt-br": "<b>+3.000</b> exercícios práticos",
-    "it": "<b>Oltre 3.000</b> esercizi pratici",
-    "zh-hans": "<b>3,000+</b> 道实操练习"
-   },
    "webLink": {
     "en": "Try Iro in your browser. Your streak and progress sync to the app →",
     "es": "Prueba Iro en tu navegador. Tu racha y tu progreso se sincronizan con la app →",
@@ -557,6 +548,73 @@
     "it": "Prova Iro nel browser. La tua serie e i tuoi progressi si sincronizzano con l’app →",
     "zh-hans": "在浏览器中试用 Iro。你的连胜和进度会同步到 App →"
    },
+   "freeStart": {
+    "en": "Free to start",
+    "es": "Gratis para empezar",
+    "fr": "Gratuit pour commencer",
+    "de": "Kostenlos starten",
+    "pt-br": "Grátis para começar",
+    "it": "Gratis per iniziare",
+    "zh-hans": "免费开始"
+   },
+   "shotAlt": {
+    "en": "Iro app: daily lesson path with chests and quests",
+    "es": "App Iro: ruta de lecciones diaria con cofres y misiones",
+    "fr": "App Iro : parcours de leçons quotidien avec coffres et quêtes",
+    "de": "Iro App: täglicher Lernpfad mit Truhen und Quests",
+    "pt-br": "App Iro: trilha diária de lições com baús e missões",
+    "it": "App Iro: percorso di lezioni quotidiano con forzieri e missioni",
+    "zh-hans": "Iro App：每日课程路线，沿途有宝箱和任务"
+   }
+  },
+  "proof": {
+   "eyebrow": {
+    "en": "App Store reviews",
+    "es": "Reseñas del App Store",
+    "fr": "Avis sur l’App Store",
+    "de": "App-Store-Bewertungen",
+    "pt-br": "Avaliações na App Store",
+    "it": "Recensioni sull’App Store",
+    "zh-hans": "App Store 评价"
+   },
+   "r1": {
+    "en": "&ldquo;I thought I already understood how to utilize AI tools, but this made me realize I was leaving a lot on the table. Iro taught me how to use AI more effectively for both work and personal use.&rdquo;",
+    "es": "“Creía que ya sabía usar las herramientas de IA, pero esto me hizo ver que estaba desaprovechando mucho. Iro me enseñó a usar la IA con más eficacia, tanto en el trabajo como en lo personal.”",
+    "fr": "« Je pensais déjà savoir utiliser les outils d’IA, mais j’ai réalisé que je passais à côté de beaucoup de choses. Iro m’a appris à utiliser l’IA plus efficacement, au travail comme dans ma vie perso. »",
+    "de": "„Ich dachte, ich wüsste schon, wie man KI-Tools nutzt, aber mir wurde klar, wie viel Potenzial ich liegen ließ. Iro hat mir beigebracht, KI im Job und privat wirkungsvoller einzusetzen.“",
+    "pt-br": "“Eu achava que já sabia usar ferramentas de IA, mas isso me mostrou que eu estava desperdiçando muito potencial. O Iro me ensinou a usar a IA com mais eficiência, no trabalho e na vida pessoal.”",
+    "it": "“Pensavo di sapere già usare gli strumenti di IA, ma questa app mi ha fatto capire che stavo sprecando un sacco di potenziale. Iro mi ha insegnato a usare l’IA in modo più efficace, sia al lavoro sia nella vita privata.”",
+    "zh-hans": "“我以为自己已经懂得怎么用 AI 工具了，用了它才发现之前浪费了很多潜力。Iro 教会我在工作和生活中更高效地使用 AI。”"
+   },
+   "reviewLabel": {
+    "en": "App Store review",
+    "es": "Reseña del App Store",
+    "fr": "Avis App Store",
+    "de": "App-Store-Bewertung",
+    "pt-br": "Avaliação na App Store",
+    "it": "Recensione sull’App Store",
+    "zh-hans": "App Store 评价"
+   },
+   "r2": {
+    "en": "&ldquo;This is really a great app like Duolingo. If you are in for AI and prompting then look no further.&rdquo;",
+    "es": "“Una app genial, al estilo de Duolingo. Si te interesan la IA y los prompts, no busques más.”",
+    "fr": "« Une super app, dans l’esprit de Duolingo. Si l’IA et les prompts vous intéressent, ne cherchez pas plus loin. »",
+    "de": "„Eine richtig gute App im Stil von Duolingo. Wer sich für KI und Prompting interessiert, muss nicht weitersuchen.“",
+    "pt-br": "“Um app ótimo, no estilo do Duolingo. Se você curte IA e prompts, não precisa procurar mais.”",
+    "it": "“Un’app davvero ottima, sul modello di Duolingo. Se ti interessano l’IA e i prompt, non cercare altro.”",
+    "zh-hans": "“真的是一款像多邻国一样很棒的 App。如果你对 AI 和提示词感兴趣，选它就对了。”"
+   },
+   "r3": {
+    "en": "&ldquo;Easy to use and includes a lot of new information even I, a frequent AI user, found helpful.&rdquo;",
+    "es": "“Fácil de usar y con mucha información nueva que incluso a mí, que uso la IA a menudo, me resultó útil.”",
+    "fr": "« Simple à utiliser, avec beaucoup de nouveautés que même moi, utilisateur régulier de l’IA, j’ai trouvées utiles. »",
+    "de": "„Einfach zu bedienen und voller neuer Infos, die sogar ich als regelmäßiger KI-Nutzer hilfreich fand.“",
+    "pt-br": "“Fácil de usar e traz muita informação nova que até eu, que uso IA com frequência, achei útil.”",
+    "it": "“Facile da usare e piena di informazioni nuove che ho trovato utili perfino io, che uso spesso l’IA.”",
+    "zh-hans": "“简单易用，内容里有很多新知识，连我这种经常用 AI 的人都觉得很有帮助。”"
+   }
+  },
+  "skills": {
    "rankGold": {
     "en": "Gold",
     "es": "Oro",
@@ -584,133 +642,23 @@
     "it": "Evoluzione del grado",
     "zh-hans": "段位进化"
    },
-   "zones": {
-    "en": "Six skill zones · 34 guided paths · 522 lessons",
-    "es": "Seis áreas de habilidad · 34 rutas guiadas · 522 lecciones",
-    "fr": "Six domaines de compétence · 34 parcours guidés · 522 leçons",
-    "de": "Sechs Skill-Bereiche · 34 geführte Lernpfade · 522 Lektionen",
-    "pt-br": "Seis áreas de habilidade · 34 trilhas guiadas · 522 lições",
-    "it": "Sei aree di competenza · 34 percorsi guidati · 522 lezioni",
-    "zh-hans": "六大技能领域 · 34 条引导路径 · 522 节课"
-   }
-  },
-  "why": {
-   "eyebrow": {
-    "en": "Why Iro",
-    "es": "Por qué Iro",
-    "fr": "Pourquoi Iro",
-    "de": "Warum Iro",
-    "pt-br": "Por que o Iro",
-    "it": "Perché Iro",
-    "zh-hans": "为什么选 Iro"
-   },
    "h2": {
-    "en": "Real tasks, <br/><span class=\"accent\">not party tricks.</span>",
-    "es": "Tareas reales, <br/><span class=\"accent\">no trucos de feria.</span>",
-    "fr": "De vraies tâches, <br/><span class=\"accent\">pas des gadgets.</span>",
-    "de": "Echte Aufgaben, <br/><span class=\"accent\">keine Partytricks.</span>",
-    "pt-br": "Tarefas reais, <br/><span class=\"accent\">não truques de salão.</span>",
-    "it": "Compiti reali, <br/><span class=\"accent\">non giochi di prestigio.</span>",
-    "zh-hans": "真实任务，<br/><span class=\"accent\">拒绝花架子。</span>"
+    "en": "Six skills. <span class=\"accent\">One build that&rsquo;s yours.</span>",
+    "es": "Seis habilidades. <span class=\"accent\">Un perfil solo tuyo.</span>",
+    "fr": "Six compétences. <span class=\"accent\">Un profil rien qu’à vous.</span>",
+    "de": "Sechs Skills. <span class=\"accent\">Ein Build, der dir gehört.</span>",
+    "pt-br": "Seis habilidades. <span class=\"accent\">Um perfil só seu.</span>",
+    "it": "Sei competenze. <span class=\"accent\">Un profilo tutto tuo.</span>",
+    "zh-hans": "六项技能。<span class=\"accent\">一套专属于你的配置。</span>"
    },
    "sub": {
-    "en": "Made for people who don't know where to start.",
-    "es": "Pensado para quien no sabe por dónde empezar.",
-    "fr": "Pour tous ceux qui ne savent pas par où commencer.",
-    "de": "Für alle, die nicht wissen, wo sie anfangen sollen.",
-    "pt-br": "Feito para quem não sabe por onde começar.",
-    "it": "Pensato per chi non sa da dove cominciare.",
-    "zh-hans": "专为不知道从哪里开始的人打造。"
-   },
-   "oldHead": {
-    "en": "Most AI learning",
-    "es": "Casi todo el aprendizaje de IA",
-    "fr": "La plupart des formations IA",
-    "de": "Typisches KI-Lernen",
-    "pt-br": "O jeito comum de aprender IA",
-    "it": "Il solito modo di imparare l’IA",
-    "zh-hans": "大多数 AI 学习方式"
-   },
-   "old1": {
-    "en": "A 20-minute YouTube video",
-    "es": "Un video de YouTube de 20 minutos",
-    "fr": "Une vidéo YouTube de 20 minutes",
-    "de": "Ein 20-minütiges YouTube-Video",
-    "pt-br": "Um vídeo de 20 minutos no YouTube",
-    "it": "Un video di 20 minuti su YouTube",
-    "zh-hans": "一段 20 分钟的 YouTube 视频"
-   },
-   "old2": {
-    "en": "A prompt pack you never opened",
-    "es": "Un pack de prompts que nunca abriste",
-    "fr": "Un pack de prompts jamais ouvert",
-    "de": "Ein Prompt-Paket, das du nie geöffnet hast",
-    "pt-br": "Um pacote de prompts que você nunca abriu",
-    "it": "Un pacchetto di prompt mai aperto",
-    "zh-hans": "一份从没打开过的提示词合集"
-   },
-   "old3": {
-    "en": "A course you quit halfway through",
-    "es": "Un curso que dejaste a medias",
-    "fr": "Une formation abandonnée en cours de route",
-    "de": "Ein Kurs, den du nach der Hälfte abgebrochen hast",
-    "pt-br": "Um curso que você largou pela metade",
-    "it": "Un corso lasciato a metà",
-    "zh-hans": "一门学到一半就放弃的课程"
-   },
-   "newHead": {
-    "en": "With Iro",
-    "es": "Con Iro",
-    "fr": "Avec Iro",
-    "de": "Mit Iro",
-    "pt-br": "Com o Iro",
-    "it": "Con Iro",
-    "zh-hans": "用 Iro 学"
-   },
-   "pill": {
-    "en": "Daily reps",
-    "es": "Práctica diaria",
-    "fr": "Entraînement quotidien",
-    "de": "Tägliches Training",
-    "pt-br": "Treino diário",
-    "it": "Allenamento quotidiano",
-    "zh-hans": "每日练习"
-   },
-   "new1": {
-    "en": "Writing tighter prompts",
-    "es": "Escribir prompts más precisos",
-    "fr": "Écrire des prompts plus précis",
-    "de": "Präzisere Prompts schreiben",
-    "pt-br": "Escrever prompts mais precisos",
-    "it": "Scrivere prompt più precisi",
-    "zh-hans": "写出更精准的提示词"
-   },
-   "new2": {
-    "en": "Spotting hallucinations",
-    "es": "Detectar alucinaciones",
-    "fr": "Repérer les hallucinations",
-    "de": "Halluzinationen erkennen",
-    "pt-br": "Identificar alucinações",
-    "it": "Riconoscere le allucinazioni",
-    "zh-hans": "识别 AI 幻觉"
-   },
-   "new3": {
-    "en": "Building workflows you'll reuse",
-    "es": "Crear flujos de trabajo que vas a reutilizar",
-    "fr": "Construire des workflows réutilisables",
-    "de": "Workflows bauen, die du immer wieder nutzt",
-    "pt-br": "Criar fluxos de trabalho que você vai reutilizar",
-    "it": "Creare flussi di lavoro da riutilizzare",
-    "zh-hans": "搭建可以反复使用的工作流"
-   },
-   "proof": {
-    "en": "Practice the skills you'll actually use at work.",
-    "es": "Practica las habilidades que de verdad usarás en el trabajo.",
-    "fr": "Entraînez-vous aux compétences que vous utiliserez vraiment au travail.",
-    "de": "Trainiere die Fähigkeiten, die du im Job wirklich brauchst.",
-    "pt-br": "Pratique as habilidades que você vai usar de verdade no trabalho.",
-    "it": "Allena le competenze che userai davvero al lavoro.",
-    "zh-hans": "练的都是你在工作中真正用得上的技能。"
+    "en": "34 paths, 522 lessons, 3,000+ exercises. <a href=\"/paths\">Browse all paths</a>",
+    "es": "34 rutas, 522 lecciones y más de 3000 ejercicios. <a href=\"/paths\">Ver todas las rutas</a> (en inglés)",
+    "fr": "34 parcours, 522 leçons, plus de 3 000 exercices. <a href=\"/paths\">Voir tous les parcours</a> (en anglais)",
+    "de": "34 Lernpfade, 522 Lektionen, über 3.000 Übungen. <a href=\"/paths\">Alle Lernpfade ansehen</a> (auf Englisch)",
+    "pt-br": "34 trilhas, 522 lições e mais de 3.000 exercícios. <a href=\"/paths\">Ver todas as trilhas</a> (em inglês)",
+    "it": "34 percorsi, 522 lezioni, oltre 3.000 esercizi. <a href=\"/paths\">Sfoglia tutti i percorsi</a> (in inglese)",
+    "zh-hans": "34 条路径、522 节课、3000+ 道练习。<a href=\"/paths\">浏览全部路径</a>（英文）"
    }
   },
   "showcase": {
@@ -749,15 +697,6 @@
     "pt-br": "Tela anterior",
     "it": "Schermata precedente",
     "zh-hans": "上一屏"
-   },
-   "altNews": {
-    "en": "Iro app: weekly AI news briefings",
-    "es": "App Iro: resúmenes semanales de noticias de IA",
-    "fr": "App Iro : l’actualité IA de la semaine",
-    "de": "Iro App: wöchentliche KI-News",
-    "pt-br": "App Iro: resumos semanais de notícias de IA",
-    "it": "App Iro: riepiloghi settimanali sulle novità dell’IA",
-    "zh-hans": "Iro App：每周 AI 新闻简报"
    },
    "altCert": {
     "en": "Iro app: shareable AI certificate with credential ID",
@@ -813,942 +752,52 @@
     "it": "Schermate dell’app",
     "zh-hans": "App 界面"
    },
-   "hint": {
-    "en": "Tap, swipe, or use the arrows",
-    "es": "Toca, desliza o usa las flechas",
-    "fr": "Touchez, balayez ou utilisez les flèches",
-    "de": "Tippen, wischen oder Pfeile nutzen",
-    "pt-br": "Toque, deslize ou use as setas",
-    "it": "Tocca, scorri o usa le frecce",
-    "zh-hans": "轻点、滑动或使用箭头"
-   },
-   "loopKicker": {
-    "en": "The daily loop",
-    "es": "El ciclo diario",
-    "fr": "La boucle quotidienne",
-    "de": "Der tägliche Loop",
-    "pt-br": "O ciclo diário",
-    "it": "Il ciclo quotidiano",
-    "zh-hans": "每日循环"
-   },
-   "loopTitle": {
-    "en": "Build AI skill in <span class=\"accent\">one daily rep</span>",
-    "es": "Mejora en IA con <span class=\"accent\">una práctica al día</span>",
-    "fr": "Progressez en IA avec <span class=\"accent\">une séance par jour</span>",
-    "de": "KI-Skills aufbauen mit <span class=\"accent\">einer Übung am Tag</span>",
-    "pt-br": "Evolua em IA com <span class=\"accent\">um treino por dia</span>",
-    "it": "Costruisci competenze di IA con <span class=\"accent\">un allenamento al giorno</span>",
-    "zh-hans": "每天<span class=\"accent\">练一次</span>，<br/>AI 能力稳步提升"
-   },
-   "loopSub": {
-    "en": "Iro turns learning AI into a simple loop: choose your path, practice for a few minutes, and level up as your skills improve.",
-    "es": "Iro convierte aprender IA en un ciclo sencillo: elige tu ruta, practica unos minutos y sube de nivel a medida que mejoras.",
-    "fr": "Iro fait de l’apprentissage de l’IA une boucle simple : choisissez votre parcours, entraînez-vous quelques minutes et montez de niveau à mesure que vous progressez.",
-    "de": "Iro macht KI-Lernen zu einem einfachen Kreislauf: Lernpfad wählen, ein paar Minuten üben und aufsteigen, während deine Skills wachsen.",
-    "pt-br": "O Iro transforma aprender IA em um ciclo simples: escolha sua trilha, pratique por alguns minutos e suba de nível conforme suas habilidades melhoram.",
-    "it": "Iro trasforma lo studio dell’IA in un ciclo semplice: scegli il tuo percorso, allenati per qualche minuto e sali di livello man mano che migliori.",
-    "zh-hans": "Iro 把学 AI 变成一个简单的循环：选好路径，练上几分钟，随着技能进步不断升级。"
-   },
-   "again": {
-    "en": "Run it again tomorrow",
-    "es": "Repite mañana",
-    "fr": "On recommence demain",
-    "de": "Morgen wieder",
-    "pt-br": "Repita amanhã",
-    "it": "Ripeti domani",
-    "zh-hans": "明天再来一遍"
-   },
-   "s1h": {
-    "en": "Pick your path",
-    "es": "Elige tu ruta",
-    "fr": "Choisissez votre parcours",
-    "de": "Wähle deinen Lernpfad",
-    "pt-br": "Escolha sua trilha",
-    "it": "Scegli il tuo percorso",
-    "zh-hans": "选择路径"
-   },
-   "s1p": {
-    "en": "Choose the AI skill you want to build.",
-    "es": "Elige la habilidad de IA que quieres desarrollar.",
-    "fr": "Choisissez la compétence IA à développer.",
-    "de": "Such dir die KI-Fähigkeit aus, die du aufbauen willst.",
-    "pt-br": "Escolha a habilidade de IA que você quer desenvolver.",
-    "it": "Scegli la competenza di IA che vuoi sviluppare.",
-    "zh-hans": "选一项你想提升的 AI 技能。"
-   },
-   "s2h": {
-    "en": "Take a 5-minute lesson",
-    "es": "Haz una lección de 5 minutos",
-    "fr": "Suivez une leçon de 5 minutes",
-    "de": "Mach eine 5-Minuten-Lektion",
-    "pt-br": "Faça uma lição de 5 minutos",
-    "it": "Fai una lezione di 5 minuti",
-    "zh-hans": "上一节 5 分钟的课"
-   },
-   "s2p": {
-    "en": "Learn one concept without getting overwhelmed.",
-    "es": "Aprende un concepto sin agobiarte.",
-    "fr": "Apprenez un concept sans vous sentir dépassé.",
-    "de": "Lerne ein Konzept, ohne dich zu überfordern.",
-    "pt-br": "Aprenda um conceito sem se sobrecarregar.",
-    "it": "Impara un concetto senza farti travolgere.",
-    "zh-hans": "一次只学一个概念，不会被信息淹没。"
-   },
-   "s3h": {
-    "en": "Practice with prompts",
-    "es": "Practica con prompts",
-    "fr": "Entraînez-vous avec des prompts",
-    "de": "Übe mit Prompts",
-    "pt-br": "Pratique com prompts",
-    "it": "Allenati con i prompt",
-    "zh-hans": "用提示词实战练习"
-   },
-   "s3p": {
-    "en": "Apply it through real workplace-style exercises.",
-    "es": "Aplícalo en ejercicios como los del trabajo real.",
-    "fr": "Appliquez-le dans des exercices tirés du monde du travail.",
-    "de": "Wende es in praxisnahen Übungen aus dem Arbeitsalltag an.",
-    "pt-br": "Aplique o que aprendeu em exercícios no estilo do trabalho real.",
-    "it": "Mettilo in pratica con esercizi presi dal lavoro vero.",
-    "zh-hans": "通过贴近真实工作的练习把它用起来。"
-   },
-   "s4h": {
-    "en": "Earn XP &amp; keep your streak",
-    "es": "Gana XP y mantén tu racha",
-    "fr": "Gagnez de l’XP et gardez votre série",
-    "de": "Sammle XP &amp; halte deinen Streak",
-    "pt-br": "Ganhe XP e mantenha sua ofensiva",
-    "it": "Guadagna XP e mantieni la serie",
-    "zh-hans": "赚 XP，保持连胜"
-   },
-   "s4p": {
-    "en": "Build momentum every time you show up.",
-    "es": "Gana impulso cada vez que vuelves.",
-    "fr": "Prenez de l’élan à chaque session.",
-    "de": "Mit jedem Mal kommst du mehr in Schwung.",
-    "pt-br": "Ganhe embalo cada vez que você aparece.",
-    "it": "Prendi slancio ogni volta che torni.",
-    "zh-hans": "每次打卡，都在积累势能。"
-   },
-   "s5h": {
-    "en": "Rank up your skills",
-    "es": "Sube de rango",
-    "fr": "Montez en rang",
-    "de": "Steig im Rang auf",
-    "pt-br": "Suba de rank",
-    "it": "Sali di grado",
-    "zh-hans": "提升技能段位"
-   },
-   "s5p": {
-    "en": "Watch your AI fluency grow over time.",
-    "es": "Mira cómo crece tu dominio de la IA.",
-    "fr": "Regardez votre maîtrise de l’IA grandir.",
-    "de": "Sieh zu, wie deine KI-Kompetenz wächst.",
-    "pt-br": "Veja seu domínio de IA crescer com o tempo.",
-    "it": "Guarda crescere nel tempo la tua padronanza dell’IA.",
-    "zh-hans": "看着你的 AI 能力一天天成长。"
-   },
-   "loopCta": {
-    "en": "Start your first 5-minute rep",
-    "es": "Empieza tu primera práctica de 5 minutos",
-    "fr": "Lancez votre première séance de 5 minutes",
-    "de": "Starte deine erste 5-Minuten-Übung",
-    "pt-br": "Comece seu primeiro treino de 5 minutos",
-    "it": "Inizia il tuo primo allenamento di 5 minuti",
-    "zh-hans": "开始你的第一次 5 分钟练习"
-   },
-   "loopNote": {
-    "en": "Then come back tomorrow and run it again.",
-    "es": "Y mañana, vuelve y repite.",
-    "fr": "Puis revenez demain et recommencez.",
-    "de": "Und morgen machst du einfach weiter.",
-    "pt-br": "Depois volte amanhã e repita.",
-    "it": "Poi torna domani e ripeti.",
-    "zh-hans": "明天再回来，再练一遍。"
+   "altImageLab": {
+    "en": "Prompt it. See it.",
+    "es": "Escríbelo. Míralo.",
+    "fr": "Décrivez-le. Voyez-le.",
+    "de": "Prompten. Sehen.",
+    "pt-br": "Escreva o prompt. Veja a imagem.",
+    "it": "Scrivi il prompt. Guarda l’immagine.",
+    "zh-hans": "写下提示词，马上看到图。"
    }
   },
-  "coach": {
-   "mascotAlt": {
-    "en": "Iro, your AI coach",
-    "es": "Iro, tu coach de IA",
-    "fr": "Iro, votre coach IA",
-    "de": "Iro, dein KI-Coach",
-    "pt-br": "Iro, seu coach de IA",
-    "it": "Iro, il tuo coach di IA",
-    "zh-hans": "Iro，你的 AI 教练"
-   },
-   "eyebrow": {
-    "en": "Meet Iro, your coach",
-    "es": "Conoce a Iro, tu coach",
-    "fr": "Voici Iro, votre coach",
-    "de": "Das ist Iro, dein Coach",
-    "pt-br": "Conheça o Iro, seu coach",
-    "it": "Ecco Iro, il tuo coach",
-    "zh-hans": "认识你的教练 Iro"
-   },
+  "rank": {
    "h2": {
-    "en": "Stuck? <span class=\"accent\">Just ask Iro.</span>",
-    "es": "¿Dudas? <span class=\"accent\">Pregúntale a Iro.</span>",
-    "fr": "Un blocage ? <span class=\"accent\">Demandez à Iro.</span>",
-    "de": "Hängst du fest? <span class=\"accent\">Frag einfach Iro.</span>",
-    "pt-br": "Travou? <span class=\"accent\">É só perguntar ao Iro.</span>",
-    "it": "Hai un dubbio? <span class=\"accent\">Chiedi a Iro.</span>",
-    "zh-hans": "卡住了？<span class=\"accent\">问 Iro 就行。</span>"
+    "en": "Not ready to download? Find your AI rank first.",
+    "es": "¿Aún no quieres descargarla? Descubre primero tu rango de IA.",
+    "fr": "Pas encore prêt à télécharger ? Découvrez d’abord votre rang IA.",
+    "de": "Noch nicht bereit für den Download? Finde zuerst deinen KI-Rang heraus.",
+    "pt-br": "Ainda não quer baixar? Descubra primeiro seu rank de IA.",
+    "it": "Non vuoi ancora scaricarla? Scopri prima il tuo grado IA.",
+    "zh-hans": "还不想下载？先测测你的 AI 段位。"
    },
    "sub": {
-    "en": "Miss a question and Iro shows you <b>why</b>. Ask it anything and it draws the answer as a chart, searches the web when it needs today's facts, remembers what you told it last time and quizzes you on any topic. In seven languages.",
-    "es": "Si fallas una pregunta, Iro te explica el <b>porqué</b>. Pregúntale lo que sea y te dibuja la respuesta como un gráfico, busca en la web cuando necesita datos de hoy, recuerda lo que le contaste la última vez y te pone a prueba sobre cualquier tema. En siete idiomas.",
-    "fr": "Vous ratez une question ? Iro vous explique <b>pourquoi</b>. Posez-lui n’importe quelle question : il dessine la réponse sous forme de graphique, cherche sur le web quand il lui faut des infos du jour, se souvient de ce que vous lui avez dit la dernière fois et vous interroge sur n’importe quel sujet. En sept langues.",
-    "de": "Wenn du eine Frage falsch beantwortest, zeigt dir Iro, <b>warum</b>. Frag ihn, was du willst: Er zeichnet die Antwort als Diagramm, sucht im Web, wenn er aktuelle Fakten braucht, merkt sich, was du ihm beim letzten Mal erzählt hast, und fragt dich zu jedem Thema ab. In sieben Sprachen.",
-    "pt-br": "Errou uma pergunta? O Iro mostra o <b>porquê</b>. Pergunte qualquer coisa e ele desenha a resposta em um gráfico, pesquisa na web quando precisa de fatos de hoje, lembra do que você contou da última vez e te testa sobre qualquer assunto. Em sete idiomas.",
-    "it": "Sbagli una domanda? Iro ti mostra il <b>perché</b>. Chiedigli qualsiasi cosa: disegna la risposta come un grafico, cerca sul web quando gli servono dati di oggi, ricorda quello che gli hai detto l’ultima volta e ti interroga su qualsiasi argomento. In sette lingue.",
-    "zh-hans": "答错一道题，Iro 会告诉你<b>为什么</b>。随便问它什么，它会把答案画成图表，需要最新信息时上网搜索，记得你上次说过的话，还能就任何主题考考你。支持七种语言。"
+    "en": "Ten questions, two minutes, no signup. The median score is 7 and about 1 in 7 people get a perfect 10.",
+    "es": "Diez preguntas, dos minutos, sin registro. La puntuación mediana es 7 y alrededor de 1 de cada 7 personas saca un 10 perfecto.",
+    "fr": "Dix questions, deux minutes, sans inscription. Le score médian est de 7 et environ 1 personne sur 7 obtient un 10 parfait.",
+    "de": "Zehn Fragen, zwei Minuten, ohne Anmeldung. Der Median liegt bei 7, und etwa jede siebte Person schafft die volle Punktzahl.",
+    "pt-br": "Dez perguntas, dois minutos, sem cadastro. A pontuação mediana é 7 e cerca de 1 em cada 7 pessoas tira nota 10.",
+    "it": "Dieci domande, due minuti, senza registrazione. Il punteggio mediano è 7 e circa 1 persona su 7 ottiene un 10 pieno.",
+    "zh-hans": "十道题，两分钟，无需注册。分数中位数是 7 分，约七分之一的人拿到满分 10 分。"
    },
    "cta": {
-    "en": "Learn with Iro",
-    "es": "Aprende con Iro",
-    "fr": "Apprendre avec Iro",
-    "de": "Mit Iro lernen",
-    "pt-br": "Aprenda com o Iro",
-    "it": "Impara con Iro",
-    "zh-hans": "跟 Iro 一起学"
-   },
-   "avatarAlt": {
-    "en": "Iro coach",
-    "es": "Coach Iro",
-    "fr": "Coach Iro",
-    "de": "Coach Iro",
-    "pt-br": "Coach Iro",
-    "it": "Coach Iro",
-    "zh-hans": "Iro 教练"
-   },
-   "status": {
-    "en": "AI Coach · online",
-    "es": "Coach de IA · en línea",
-    "fr": "Coach IA · en ligne",
-    "de": "KI-Coach · online",
-    "pt-br": "Coach de IA · online",
-    "it": "Coach IA · online",
-    "zh-hans": "AI 教练 · 在线"
-   },
-   "q1": {
-    "en": "Quick check: what would improve this prompt most?",
-    "es": "Comprobación rápida: ¿qué mejoraría más este prompt?",
-    "fr": "Petite vérification : qu’est-ce qui améliorerait le plus ce prompt ?",
-    "de": "Kurzer Check: Was würde diesen Prompt am meisten verbessern?",
-    "pt-br": "Teste rápido: o que mais melhoraria este prompt?",
-    "it": "Verifica veloce: cosa migliorerebbe di più questo prompt?",
-    "zh-hans": "快速检验：哪一项最能改进这个提示词？"
-   },
-   "promptLab": {
-    "en": "The prompt",
-    "es": "El prompt",
-    "fr": "Le prompt",
-    "de": "Der Prompt",
-    "pt-br": "O prompt",
-    "it": "Il prompt",
-    "zh-hans": "提示词"
-   },
-   "promptTxt": {
-    "en": "&ldquo;Make this landing page better.&rdquo;",
-    "es": "“Mejora esta landing page.”",
-    "fr": "« Améliore cette landing page. »",
-    "de": "„Mach diese Landingpage besser.“",
-    "pt-br": "“Melhore esta landing page.”",
-    "it": "“Migliora questa landing page.”",
-    "zh-hans": "“把这个落地页改得更好。”"
-   },
-   "optA": {
-    "en": "Add audience, goal, and constraints",
-    "es": "Añadir público, objetivo y restricciones",
-    "fr": "Ajouter le public, l’objectif et les contraintes",
-    "de": "Zielgruppe, Ziel und Vorgaben ergänzen",
-    "pt-br": "Adicionar público, objetivo e restrições",
-    "it": "Aggiungere pubblico, obiettivo e vincoli",
-    "zh-hans": "补充受众、目标和限制条件"
-   },
-   "optB": {
-    "en": "Make it longer",
-    "es": "Hacerlo más largo",
-    "fr": "Le rallonger",
-    "de": "Ihn länger machen",
-    "pt-br": "Deixar mais longo",
-    "it": "Renderlo più lungo",
-    "zh-hans": "写得更长一些"
-   },
-   "optC": {
-    "en": "Use more emojis",
-    "es": "Usar más emojis",
-    "fr": "Mettre plus d’emojis",
-    "de": "Mehr Emojis verwenden",
-    "pt-br": "Usar mais emojis",
-    "it": "Usare più emoji",
-    "zh-hans": "多用点表情符号"
-   },
-   "feedback": {
-    "en": "Exactly. <b>&ldquo;Better&rdquo;</b> is too vague. Strong prompts tell the AI who it&rsquo;s helping, what outcome matters, and what constraints to follow.",
-    "es": "Exacto. <b>“Mejora”</b> es demasiado vago. Un buen prompt le dice a la IA a quién ayuda, qué resultado importa y qué restricciones debe respetar.",
-    "fr": "Exactement. <b>« Améliore »</b> est trop vague. Un bon prompt dit à l’IA qui elle aide, quel résultat compte et quelles contraintes respecter.",
-    "de": "Genau. <b>„Besser“</b> ist zu vage. Starke Prompts sagen der KI, wem sie hilft, welches Ergebnis zählt und welche Vorgaben gelten.",
-    "pt-br": "Exato. <b>“Melhore”</b> é vago demais. Um bom prompt diz à IA quem ela está ajudando, qual resultado importa e quais restrições seguir.",
-    "it": "Esatto. <b>“Migliora”</b> è troppo vago. Un buon prompt dice all’IA chi sta aiutando, quale risultato conta e quali vincoli rispettare.",
-    "zh-hans": "没错。<b>“更好”</b>太模糊了。好的提示词会告诉 AI 它在帮谁、什么结果最重要、要遵守哪些限制。"
-   },
-   "before": {
-    "en": "Before",
-    "es": "Antes",
-    "fr": "Avant",
-    "de": "Vorher",
-    "pt-br": "Antes",
-    "it": "Prima",
-    "zh-hans": "修改前"
-   },
-   "beforeTxt": {
-    "en": "Make this landing page better.",
-    "es": "Mejora esta landing page.",
-    "fr": "Améliore cette landing page.",
-    "de": "Mach diese Landingpage besser.",
-    "pt-br": "Melhore esta landing page.",
-    "it": "Migliora questa landing page.",
-    "zh-hans": "把这个落地页改得更好。"
-   },
-   "after": {
-    "en": "After",
-    "es": "Después",
-    "fr": "Après",
-    "de": "Nachher",
-    "pt-br": "Depois",
-    "it": "Dopo",
-    "zh-hans": "修改后"
-   },
-   "afterTxt": {
-    "en": "Act as a conversion strategist. Rewrite this hero for busy founders. Keep it under 12 words and make the outcome specific.",
-    "es": "Actúa como estratega de conversión. Reescribe este hero para fundadores con poco tiempo. Menos de 12 palabras y un resultado concreto.",
-    "fr": "Agis comme un stratège en conversion. Réécris ce hero pour des fondateurs pressés. Moins de 12 mots, avec un résultat concret.",
-    "de": "Handle als Conversion-Stratege. Schreib diesen Hero für vielbeschäftigte Gründer neu. Unter 12 Wörtern und mit einem konkreten Ergebnis.",
-    "pt-br": "Atue como estrategista de conversão. Reescreva este hero para fundadores sem tempo. Menos de 12 palavras e um resultado específico.",
-    "it": "Agisci come stratega della conversione. Riscrivi questa hero per founder con poco tempo. Meno di 12 parole e un risultato concreto.",
-    "zh-hans": "你是一名转化率策略师。请为忙碌的创业者重写这段首屏文案。控制在 20 字以内，并写明具体的结果。"
-   },
-   "placeholder": {
-    "en": "Ask Iro anything",
-    "es": "Pregúntale lo que quieras a Iro",
-    "fr": "Demandez tout à Iro",
-    "de": "Frag Iro, was du willst",
-    "pt-br": "Pergunte qualquer coisa ao Iro",
-    "it": "Chiedi qualsiasi cosa a Iro",
-    "zh-hans": "问 Iro 任何问题"
-   },
-   "send": {
-    "en": "Send",
-    "es": "Enviar",
-    "fr": "Envoyer",
-    "de": "Senden",
-    "pt-br": "Enviar",
-    "it": "Invia",
-    "zh-hans": "发送"
-   }
-  },
-  "proof": {
-   "eyebrow": {
-    "en": "App Store reviews",
-    "es": "Reseñas del App Store",
-    "fr": "Avis sur l’App Store",
-    "de": "App-Store-Bewertungen",
-    "pt-br": "Avaliações na App Store",
-    "it": "Recensioni sull’App Store",
-    "zh-hans": "App Store 评价"
-   },
-   "h2": {
-    "en": "Loved by people <span class=\"accent\">building real AI skills.</span>",
-    "es": "La favorita de quienes <span class=\"accent\">aprenden IA de verdad.</span>",
-    "fr": "Adoptée par ceux qui <span class=\"accent\">maîtrisent vraiment l’IA.</span>",
-    "de": "Beliebt bei allen, die <span class=\"accent\">echte KI-Skills aufbauen.</span>",
-    "pt-br": "O favorito de quem <span class=\"accent\">desenvolve habilidades reais em IA.</span>",
-    "it": "Amata da chi <span class=\"accent\">sviluppa vere competenze di IA.</span>",
-    "zh-hans": "真正在练 AI 技能的人，<br/><span class=\"accent\">都爱用它。</span>"
-   },
-   "sub": {
-    "en": "Short daily lessons, practical prompts, and progress that makes AI feel less overwhelming.",
-    "es": "Lecciones diarias cortas, prompts prácticos y un progreso que hace que la IA agobie menos. Reseñas traducidas del inglés.",
-    "fr": "Des leçons courtes chaque jour, des prompts concrets et une progression qui rend l’IA moins intimidante. Avis traduits de l’anglais.",
-    "de": "Kurze tägliche Lektionen, praktische Prompts und Fortschritte, die KI weniger überwältigend machen. Bewertungen aus dem Englischen übersetzt.",
-    "pt-br": "Lições diárias curtas, prompts práticos e um progresso que deixa a IA menos intimidadora. Avaliações traduzidas do inglês.",
-    "it": "Lezioni quotidiane brevi, prompt pratici e progressi che rendono l’IA meno travolgente. Recensioni tradotte dall’inglese.",
-    "zh-hans": "每天一节短课、实用的提示词，再加上看得见的进步，让 AI 不再让人望而生畏。评价译自英文。"
-   },
-   "ratingLabel": {
-    "en": "4.6 out of 5 from 85 App Store reviews",
-    "es": "4,6 sobre 5 con 85 reseñas en el App Store",
-    "fr": "4,6 sur 5 d’après 85 avis dans l’App Store",
-    "de": "4,6 von 5 aus 85 Bewertungen im App Store",
-    "pt-br": "4,6 de 5 com 85 avaliações na App Store",
-    "it": "4,6 su 5 da 85 recensioni sull’App Store",
-    "zh-hans": "App Store 85 条评价，平均 4.6 分（满分 5 分）"
-   },
-   "avg": {
-    "en": "Average of 85 reviews",
-    "es": "Media de 85 reseñas",
-    "fr": "Moyenne de 85 avis",
-    "de": "Schnitt aus 85 Bewertungen",
-    "pt-br": "Média de 85 avaliações",
-    "it": "Media di 85 recensioni",
-    "zh-hans": "85 条评价的平均分"
-   },
-   "r1": {
-    "en": "&ldquo;I thought I already understood how to utilize AI tools, but this made me realize I was leaving a lot on the table. Iro taught me how to use AI more effectively for both work and personal use.&rdquo;",
-    "es": "“Creía que ya sabía usar las herramientas de IA, pero esto me hizo ver que estaba desaprovechando mucho. Iro me enseñó a usar la IA con más eficacia, tanto en el trabajo como en lo personal.”",
-    "fr": "« Je pensais déjà savoir utiliser les outils d’IA, mais j’ai réalisé que je passais à côté de beaucoup de choses. Iro m’a appris à utiliser l’IA plus efficacement, au travail comme dans ma vie perso. »",
-    "de": "„Ich dachte, ich wüsste schon, wie man KI-Tools nutzt, aber mir wurde klar, wie viel Potenzial ich liegen ließ. Iro hat mir beigebracht, KI im Job und privat wirkungsvoller einzusetzen.“",
-    "pt-br": "“Eu achava que já sabia usar ferramentas de IA, mas isso me mostrou que eu estava desperdiçando muito potencial. O Iro me ensinou a usar a IA com mais eficiência, no trabalho e na vida pessoal.”",
-    "it": "“Pensavo di sapere già usare gli strumenti di IA, ma questa app mi ha fatto capire che stavo sprecando un sacco di potenziale. Iro mi ha insegnato a usare l’IA in modo più efficace, sia al lavoro sia nella vita privata.”",
-    "zh-hans": "“我以为自己已经懂得怎么用 AI 工具了，用了它才发现之前浪费了很多潜力。Iro 教会我在工作和生活中更高效地使用 AI。”"
-   },
-   "reviewLabel": {
-    "en": "App Store review",
-    "es": "Reseña del App Store",
-    "fr": "Avis App Store",
-    "de": "App-Store-Bewertung",
-    "pt-br": "Avaliação na App Store",
-    "it": "Recensione sull’App Store",
-    "zh-hans": "App Store 评价"
-   },
-   "r2": {
-    "en": "&ldquo;This is really a great app like Duolingo. If you are in for AI and prompting then look no further.&rdquo;",
-    "es": "“Una app genial, al estilo de Duolingo. Si te interesan la IA y los prompts, no busques más.”",
-    "fr": "« Une super app, dans l’esprit de Duolingo. Si l’IA et les prompts vous intéressent, ne cherchez pas plus loin. »",
-    "de": "„Eine richtig gute App im Stil von Duolingo. Wer sich für KI und Prompting interessiert, muss nicht weitersuchen.“",
-    "pt-br": "“Um app ótimo, no estilo do Duolingo. Se você curte IA e prompts, não precisa procurar mais.”",
-    "it": "“Un’app davvero ottima, sul modello di Duolingo. Se ti interessano l’IA e i prompt, non cercare altro.”",
-    "zh-hans": "“真的是一款像多邻国一样很棒的 App。如果你对 AI 和提示词感兴趣，选它就对了。”"
-   },
-   "r3": {
-    "en": "&ldquo;Easy to use and includes a lot of new information even I, a frequent AI user, found helpful.&rdquo;",
-    "es": "“Fácil de usar y con mucha información nueva que incluso a mí, que uso la IA a menudo, me resultó útil.”",
-    "fr": "« Simple à utiliser, avec beaucoup de nouveautés que même moi, utilisateur régulier de l’IA, j’ai trouvées utiles. »",
-    "de": "„Einfach zu bedienen und voller neuer Infos, die sogar ich als regelmäßiger KI-Nutzer hilfreich fand.“",
-    "pt-br": "“Fácil de usar e traz muita informação nova que até eu, que uso IA com frequência, achei útil.”",
-    "it": "“Facile da usare e piena di informazioni nuove che ho trovato utili perfino io, che uso spesso l’IA.”",
-    "zh-hans": "“简单易用，内容里有很多新知识，连我这种经常用 AI 的人都觉得很有帮助。”"
-   },
-   "r4": {
-    "en": "&ldquo;Great app! Very helpful with engaging learning exercises geared to specific goals.&rdquo;",
-    "es": "“¡Una app genial! Muy útil, con ejercicios atractivos pensados para objetivos concretos.”",
-    "fr": "« Super app ! Très utile, avec des exercices captivants adaptés à des objectifs précis. »",
-    "de": "„Tolle App! Sehr hilfreich, mit motivierenden Übungen, die auf konkrete Ziele zugeschnitten sind.“",
-    "pt-br": "“App ótimo! Muito útil, com exercícios envolventes voltados para objetivos específicos.”",
-    "it": "“App fantastica! Molto utile, con esercizi coinvolgenti pensati per obiettivi specifici.”",
-    "zh-hans": "“很棒的 App！非常实用，练习有趣，而且都围绕具体目标设计。”"
-   },
-   "quizMeta": {
-    "en": "Rank assessment · Free · ~2 min",
-    "es": "Evaluación de rango · Gratis · ~2 min",
-    "fr": "Évaluation de rang · Gratuit · ~2 min",
-    "de": "Rang-Test · Kostenlos · ~2 Min.",
-    "pt-br": "Avaliação de rank · Grátis · ~2 min",
-    "it": "Valutazione del grado · Gratis · ~2 min",
-    "zh-hans": "段位测评 · 免费 · 约 2 分钟"
-   },
-   "quizH": {
-    "en": "Find your AI rank in 2 minutes",
-    "es": "Descubre tu rango de IA en 2 minutos",
-    "fr": "Découvrez votre rang IA en 2 minutes",
-    "de": "Finde deinen KI-Rang in 2 Minuten",
-    "pt-br": "Descubra seu rank de IA em 2 minutos",
-    "it": "Scopri il tuo grado IA in 2 minuti",
-    "zh-hans": "2 分钟测出你的 AI 段位"
-   },
-   "quizP": {
-    "en": "Ten questions on how you actually use AI. Among 196 people who took it online between April and October 2026 (a self-selected group), the median score was 7 and about 1 in 7 got a perfect score. <a href=\"/blog/average-ai-literacy-score\">See the data</a>.",
-    "es": "Diez preguntas sobre cómo usas realmente la IA. Entre 196 personas que lo hicieron en línea entre abril y octubre de 2026 (una muestra autoseleccionada), la puntuación mediana fue 7 y alrededor de 1 de cada 7 sacó un 10 perfecto. <a href=\"/blog/average-ai-literacy-score\">Ver los datos</a> (en inglés).",
-    "fr": "Dix questions sur votre usage réel de l’IA. Parmi 196 personnes qui l’ont passé en ligne entre avril et octobre 2026 (un échantillon autosélectionné), le score médian était de 7 et environ 1 personne sur 7 a obtenu un score parfait. <a href=\"/blog/average-ai-literacy-score\">Voir les données</a> (en anglais).",
-    "de": "Zehn Fragen dazu, wie du KI wirklich nutzt. Bei 196 Personen, die ihn zwischen April und Oktober 2026 online gemacht haben (eine selbst gewählte Stichprobe), lag der Median bei 7, und etwa jede siebte Person erreichte die volle Punktzahl. <a href=\"/blog/average-ai-literacy-score\">Zu den Daten</a> (auf Englisch).",
-    "pt-br": "Dez perguntas sobre como você usa a IA de verdade. Entre 196 pessoas que fizeram o teste online de abril a outubro de 2026 (uma amostra autosselecionada), a pontuação mediana foi 7 e cerca de 1 em cada 7 tirou nota máxima. <a href=\"/blog/average-ai-literacy-score\">Veja os dados</a> (em inglês).",
-    "it": "Dieci domande su come usi davvero l’IA. Tra 196 persone che l’hanno fatto online tra aprile e ottobre 2026 (un campione autoselezionato), il punteggio mediano è stato 7 e circa 1 persona su 7 ha ottenuto il punteggio pieno. <a href=\"/blog/average-ai-literacy-score\">Guarda i dati</a> (in inglese).",
-    "zh-hans": "十道题，看看你实际是怎么用 AI 的。在 2026 年 4 月至 10 月线上参与测试的 196 人中（自愿参与的样本），分数中位数是 7 分，约七分之一的人拿了满分。<a href=\"/blog/average-ai-literacy-score\">查看数据</a>（英文）。"
-   },
-   "quizCta": {
-    "en": "Get my AI rank",
-    "es": "Ver mi rango de IA",
-    "fr": "Obtenir mon rang IA",
-    "de": "Meinen KI-Rang ermitteln",
-    "pt-br": "Ver meu rank de IA",
-    "it": "Scopri il mio grado IA",
-    "zh-hans": "测出我的 AI 段位"
-   },
-   "quizNote": {
-    "en": "No signup required to see your result.",
-    "es": "Sin registro para ver tu resultado. El test está en inglés.",
-    "fr": "Aucune inscription pour voir votre résultat. Le quiz est en anglais.",
-    "de": "Keine Anmeldung nötig, um dein Ergebnis zu sehen. Das Quiz ist auf Englisch.",
-    "pt-br": "Não precisa se cadastrar para ver o resultado. O teste está em inglês.",
-    "it": "Nessuna registrazione per vedere il risultato. Il test è in inglese.",
-    "zh-hans": "无需注册即可查看结果。测试为英文。"
-   },
-   "profile": {
-    "en": "Skill profile",
-    "es": "Perfil de habilidades",
-    "fr": "Profil de compétences",
-    "de": "Skill-Profil",
-    "pt-br": "Perfil de habilidades",
-    "it": "Profilo delle competenze",
-    "zh-hans": "技能档案"
-   },
-   "sample": {
-    "en": "Sample result",
-    "es": "Resultado de ejemplo",
-    "fr": "Exemple de résultat",
-    "de": "Beispielergebnis",
-    "pt-br": "Resultado de exemplo",
-    "it": "Risultato di esempio",
-    "zh-hans": "示例结果"
-   },
-   "gold": {
-    "en": "Gold",
-    "es": "Oro",
-    "fr": "Or",
-    "de": "Gold",
-    "pt-br": "Ouro",
-    "it": "Oro",
-    "zh-hans": "黄金"
-   },
-   "score": {
-    "en": "AI Fluency Score · 7/10",
-    "es": "Dominio de la IA · 7/10",
-    "fr": "Maîtrise de l’IA · 7/10",
-    "de": "KI-Kompetenz · 7/10",
-    "pt-br": "Domínio de IA · 7/10",
-    "it": "Padronanza dell’IA · 7/10",
-    "zh-hans": "AI 熟练度得分 · 7/10"
-   },
-   "bronze": {
-    "en": "Bronze",
-    "es": "Bronce",
-    "fr": "Bronze",
-    "de": "Bronze",
-    "pt-br": "Bronze",
-    "it": "Bronzo",
-    "zh-hans": "青铜"
-   },
-   "silver": {
-    "en": "Silver",
-    "es": "Plata",
-    "fr": "Argent",
-    "de": "Silber",
-    "pt-br": "Prata",
-    "it": "Argento",
-    "zh-hans": "白银"
-   },
-   "platinum": {
-    "en": "Platinum",
-    "es": "Platino",
-    "fr": "Platine",
-    "de": "Platin",
-    "pt-br": "Platina",
-    "it": "Platino",
-    "zh-hans": "铂金"
-   },
-   "diamond": {
-    "en": "Diamond",
-    "es": "Diamante",
-    "fr": "Diamant",
-    "de": "Diamant",
-    "pt-br": "Diamante",
-    "it": "Diamante",
-    "zh-hans": "钻石"
-   },
-   "skFoundations": {
-    "en": "AI Foundations",
-    "es": "Fundamentos de IA",
-    "fr": "Fondamentaux de l’IA",
-    "de": "KI-Grundlagen",
-    "pt-br": "Fundamentos de IA",
-    "it": "Basi dell’IA",
-    "zh-hans": "AI 基础"
-   },
-   "skPrompt": {
-    "en": "Prompt Engineering",
-    "es": "Ingeniería de prompts",
-    "fr": "Prompt engineering",
-    "de": "Prompt Engineering",
-    "pt-br": "Engenharia de prompt",
-    "it": "Prompt engineering",
-    "zh-hans": "提示词工程"
-   },
-   "skTools": {
-    "en": "AI Tools",
-    "es": "Herramientas de IA",
-    "fr": "Outils d’IA",
-    "de": "KI-Tools",
-    "pt-br": "Ferramentas de IA",
-    "it": "Strumenti di IA",
-    "zh-hans": "AI 工具"
-   },
-   "skBusiness": {
-    "en": "AI Business",
-    "es": "IA para negocios",
-    "fr": "IA pour le business",
-    "de": "KI im Business",
-    "pt-br": "IA para negócios",
-    "it": "IA per il business",
-    "zh-hans": "AI 商业应用"
-   },
-   "skAutomation": {
-    "en": "AI Automation",
-    "es": "Automatización con IA",
-    "fr": "Automatisation par l’IA",
-    "de": "KI-Automatisierung",
-    "pt-br": "Automação com IA",
-    "it": "Automazione con l’IA",
-    "zh-hans": "AI 自动化"
-   },
-   "trainFirst": {
-    "en": "Train this first",
-    "es": "Entrena esto primero",
-    "fr": "À travailler en priorité",
-    "de": "Das zuerst trainieren",
-    "pt-br": "Treine isto primeiro",
-    "it": "Allena prima questo",
-    "zh-hans": "优先练这个"
-   },
-   "r5": {
-    "en": "&ldquo;Perfect for beginners. I&rsquo;m using this app to help me learn about Claude. I really love it. Highly recommend it.&rdquo;",
-    "es": "“Perfecto para principiantes. Uso esta app para aprender sobre Claude. Me encanta. Muy recomendable.”",
-    "fr": "« Parfait pour les débutants. J’utilise cette app pour apprendre à me servir de Claude. J’adore. Je la recommande vivement. »",
-    "de": "„Perfekt für Einsteiger. Ich nutze die App, um Claude kennenzulernen. Ich liebe sie. Absolut empfehlenswert.“",
-    "pt-br": "“Perfeito para iniciantes. Uso o app para aprender sobre o Claude. Adoro. Recomendo muito.”",
-    "it": "“Perfetto per chi inizia. Uso questa app per imparare a usare Claude. La adoro. La consiglio vivamente.”",
-    "zh-hans": "“非常适合新手。我用这个 App 来学习 Claude，真的很喜欢，强烈推荐。”"
-   }
-  },
-  "webappBanner": {
-   "text": {
-    "en": "Not near your phone? <a href=\"https://app.tryiro.com\" data-cta=\"webapp-banner\">Launch the web app →</a> Start in the browser now. Your streak and progress follow you into the app later.",
-    "es": "¿No tienes el teléfono a mano? <a href=\"https://app.tryiro.com\" data-cta=\"webapp-banner\">Abre la app web →</a> Empieza ahora en el navegador. Tu racha y tu progreso te acompañarán luego en la app.",
-    "fr": "Pas votre téléphone sous la main ? <a href=\"https://app.tryiro.com\" data-cta=\"webapp-banner\">Lancer l’app web →</a> Commencez dès maintenant dans le navigateur. Votre série et votre progression vous suivront ensuite dans l’app.",
-    "de": "Handy nicht zur Hand? <a href=\"https://app.tryiro.com\" data-cta=\"webapp-banner\">Web-App starten →</a> Leg jetzt im Browser los. Streak und Fortschritt nimmst du später mit in die App.",
-    "pt-br": "Está longe do celular? <a href=\"https://app.tryiro.com\" data-cta=\"webapp-banner\">Abra o app web →</a> Comece agora no navegador. Sua ofensiva e seu progresso vão junto para o app depois.",
-    "it": "Non hai il telefono a portata di mano? <a href=\"https://app.tryiro.com\" data-cta=\"webapp-banner\">Apri la web app →</a> Inizia subito nel browser. La tua serie e i tuoi progressi ti seguiranno poi nell’app.",
-    "zh-hans": "手机不在身边？<a href=\"https://app.tryiro.com\" data-cta=\"webapp-banner\">打开网页版 →</a> 现在就在浏览器里开始。你的连胜和进度之后会同步到 App。"
-   }
-  },
-  "customPaths": {
-   "eyebrow": {
-    "en": "Custom paths<span class=\"sep\">·</span><span class=\"pro\">Pro</span>",
-    "es": "Rutas personalizadas<span class=\"sep\">·</span><span class=\"pro\">Pro</span>",
-    "fr": "Parcours personnalisés<span class=\"sep\">·</span><span class=\"pro\">Pro</span>",
-    "de": "Eigene Lernpfade<span class=\"sep\">·</span><span class=\"pro\">Pro</span>",
-    "pt-br": "Trilhas personalizadas<span class=\"sep\">·</span><span class=\"pro\">Pro</span>",
-    "it": "Percorsi personalizzati<span class=\"sep\">·</span><span class=\"pro\">Pro</span>",
-    "zh-hans": "自定义路径<span class=\"sep\">·</span><span class=\"pro\">Pro</span>"
-   },
-   "h2": {
-    "en": "Not just AI. <br/><span class=\"accent\">Learn anything.</span>",
-    "es": "No solo IA. <br/><span class=\"accent\">Aprende lo que quieras.</span>",
-    "fr": "Pas seulement l’IA. <br/><span class=\"accent\">Apprenez ce qui vous plaît.</span>",
-    "de": "Nicht nur KI. <br/><span class=\"accent\">Lerne, was du willst.</span>",
-    "pt-br": "Não é só IA. <br/><span class=\"accent\">Aprenda qualquer coisa.</span>",
-    "it": "Non solo IA. <br/><span class=\"accent\">Impara qualsiasi cosa.</span>",
-    "zh-hans": "不只是 AI。<br/><span class=\"accent\">想学什么都行。</span>"
-   },
-   "sub": {
-    "en": "Type any topic and Iro builds a full learning path (lessons, practice, and a recap) in seconds. Or paste a <strong>TikTok or YouTube link</strong>, share a post from <strong>TikTok or Instagram</strong>, or upload a <strong>screenshot or PDF</strong>, and Iro turns it into a full interactive path.",
-    "es": "Escribe cualquier tema e Iro crea en segundos una ruta completa (lecciones, práctica y un resumen). O pega un <strong>enlace de TikTok o YouTube</strong>, comparte una publicación de <strong>TikTok o Instagram</strong>, o sube una <strong>captura de pantalla o un PDF</strong>, e Iro lo convierte en una ruta interactiva completa.",
-    "fr": "Tapez n’importe quel sujet et Iro crée en quelques secondes un parcours complet (leçons, exercices et récapitulatif). Ou collez un <strong>lien TikTok ou YouTube</strong>, partagez une publication <strong>TikTok ou Instagram</strong>, ou importez une <strong>capture d’écran ou un PDF</strong> : Iro en fait un parcours interactif complet.",
-    "de": "Gib ein beliebiges Thema ein und Iro erstellt in Sekunden einen kompletten Lernpfad (Lektionen, Übungen und eine Zusammenfassung). Oder füge einen <strong>TikTok- oder YouTube-Link</strong> ein, teile einen Beitrag aus <strong>TikTok oder Instagram</strong> oder lade einen <strong>Screenshot oder ein PDF</strong> hoch, und Iro macht daraus einen interaktiven Lernpfad.",
-    "pt-br": "Digite qualquer tema e o Iro monta em segundos uma trilha completa (lições, prática e um resumo). Ou cole um <strong>link do TikTok ou do YouTube</strong>, compartilhe um post do <strong>TikTok ou do Instagram</strong>, ou envie uma <strong>captura de tela ou um PDF</strong>, e o Iro transforma tudo em uma trilha interativa completa.",
-    "it": "Scrivi un argomento qualsiasi e Iro crea in pochi secondi un percorso completo (lezioni, pratica e un riepilogo). Oppure incolla un <strong>link di TikTok o YouTube</strong>, condividi un post da <strong>TikTok o Instagram</strong>, o carica uno <strong>screenshot o un PDF</strong>, e Iro lo trasforma in un percorso interattivo completo.",
-    "zh-hans": "输入任何主题，Iro 几秒钟就能生成一条完整的学习路径（课程、练习和总结）。你也可以粘贴<strong>TikTok 或 YouTube 链接</strong>、分享 <strong>TikTok 或 Instagram</strong> 上的帖子，或者上传<strong>截图或 PDF</strong>，Iro 会把它变成一条完整的互动路径。"
-   },
-   "step1": {
-    "en": "Name your topic",
-    "es": "Elige tu tema",
-    "fr": "Choisissez votre sujet",
-    "de": "Nenne dein Thema",
-    "pt-br": "Escolha seu tema",
-    "it": "Scegli l’argomento",
-    "zh-hans": "说出你的主题"
-   },
-   "step2": {
-    "en": "Iro builds your path",
-    "es": "Iro crea tu ruta",
-    "fr": "Iro crée votre parcours",
-    "de": "Iro baut deinen Lernpfad",
-    "pt-br": "O Iro monta sua trilha",
-    "it": "Iro crea il tuo percorso",
-    "zh-hans": "Iro 生成你的路径"
-   },
-   "step3": {
-    "en": "Learn 5 min a day",
-    "es": "Aprende 5 min al día",
-    "fr": "Apprenez 5 min par jour",
-    "de": "Lerne 5 Min. am Tag",
-    "pt-br": "Aprenda 5 min por dia",
-    "it": "Impara 5 min al giorno",
-    "zh-hans": "每天学 5 分钟"
-   },
-   "chipSpeaking": {
-    "en": "Public speaking",
-    "es": "Hablar en público",
-    "fr": "Prise de parole",
-    "de": "Reden halten",
-    "pt-br": "Falar em público",
-    "it": "Parlare in pubblico",
-    "zh-hans": "公开演讲"
-   },
-   "chipFinance": {
-    "en": "Personal finance",
-    "es": "Finanzas personales",
-    "fr": "Finances perso",
-    "de": "Persönliche Finanzen",
-    "pt-br": "Finanças pessoais",
-    "it": "Finanza personale",
-    "zh-hans": "个人理财"
-   },
-   "chipNegotiation": {
-    "en": "Negotiation",
-    "es": "Negociación",
-    "fr": "Négociation",
-    "de": "Verhandeln",
-    "pt-br": "Negociação",
-    "it": "Negoziazione",
-    "zh-hans": "谈判技巧"
-   },
-   "chipGuitar": {
-    "en": "Learning guitar",
-    "es": "Aprender guitarra",
-    "fr": "Apprendre la guitare",
-    "de": "Gitarre lernen",
-    "pt-br": "Aprender violão",
-    "it": "Imparare la chitarra",
-    "zh-hans": "学吉他"
-   },
-   "chipCooking": {
-    "en": "Cooking basics",
-    "es": "Cocina básica",
-    "fr": "Bases de la cuisine",
-    "de": "Kochen für Einsteiger",
-    "pt-br": "Culinária básica",
-    "it": "Cucina di base",
-    "zh-hans": "烹饪入门"
-   },
-   "chipShape": {
-    "en": "Getting in shape",
-    "es": "Ponerse en forma",
-    "fr": "Se remettre en forme",
-    "de": "Fit werden",
-    "pt-br": "Entrar em forma",
-    "it": "Rimettersi in forma",
-    "zh-hans": "健身塑形"
-   },
-   "chipInterview": {
-    "en": "Interview prep",
-    "es": "Preparar entrevistas",
-    "fr": "Préparer un entretien",
-    "de": "Vorstellungsgespräche",
-    "pt-br": "Preparação para entrevista",
-    "it": "Preparare un colloquio",
-    "zh-hans": "面试准备"
-   },
-   "chipStudy": {
-    "en": "Studying smarter",
-    "es": "Estudiar mejor",
-    "fr": "Étudier plus efficacement",
-    "de": "Smarter lernen",
-    "pt-br": "Estudar melhor",
-    "it": "Studiare meglio",
-    "zh-hans": "高效学习"
-   },
-   "keySpeaking": {
-    "en": "public speaking",
-    "es": "hablar en público",
-    "fr": "prise de parole en public",
-    "de": "Reden halten",
-    "pt-br": "falar em público",
-    "it": "parlare in pubblico",
-    "zh-hans": "公开演讲"
-   },
-   "keyFinance": {
-    "en": "personal finance",
-    "es": "finanzas personales",
-    "fr": "finances personnelles",
-    "de": "persönliche Finanzen",
-    "pt-br": "finanças pessoais",
-    "it": "finanza personale",
-    "zh-hans": "个人理财"
-   },
-   "keyNegotiation": {
-    "en": "negotiation",
-    "es": "negociación",
-    "fr": "négociation",
-    "de": "Verhandeln",
-    "pt-br": "negociação",
-    "it": "negoziazione",
-    "zh-hans": "谈判技巧"
-   },
-   "keyGuitar": {
-    "en": "learning guitar",
-    "es": "aprender guitarra",
-    "fr": "apprendre la guitare",
-    "de": "Gitarre lernen",
-    "pt-br": "aprender violão",
-    "it": "imparare la chitarra",
-    "zh-hans": "学吉他"
-   },
-   "keyCooking": {
-    "en": "cooking basics",
-    "es": "cocina básica",
-    "fr": "les bases de la cuisine",
-    "de": "Kochen für Einsteiger",
-    "pt-br": "culinária básica",
-    "it": "cucina di base",
-    "zh-hans": "烹饪入门"
-   },
-   "keyShape": {
-    "en": "getting in shape",
-    "es": "ponerse en forma",
-    "fr": "se remettre en forme",
-    "de": "fit werden",
-    "pt-br": "entrar em forma",
-    "it": "rimettersi in forma",
-    "zh-hans": "健身塑形"
-   },
-   "keyInterview": {
-    "en": "interview prep",
-    "es": "preparar entrevistas",
-    "fr": "préparer un entretien",
-    "de": "Vorstellungsgespräche",
-    "pt-br": "preparação para entrevista",
-    "it": "preparare un colloquio",
-    "zh-hans": "面试准备"
-   },
-   "keyStudy": {
-    "en": "studying smarter",
-    "es": "estudiar mejor",
-    "fr": "étudier plus efficacement",
-    "de": "smarter lernen",
-    "pt-br": "estudar melhor",
-    "it": "studiare meglio",
-    "zh-hans": "高效学习"
-   },
-   "cta": {
-    "en": "Start learning anything",
-    "es": "Empieza a aprender lo que quieras",
-    "fr": "Commencez à apprendre ce qui vous plaît",
-    "de": "Lerne, was du willst",
-    "pt-br": "Comece a aprender qualquer coisa",
-    "it": "Inizia a imparare qualsiasi cosa",
-    "zh-hans": "开始学任何东西"
-   },
-   "library": {
-    "en": "Or browse the full path library →",
-    "es": "O explora la biblioteca completa de rutas (en inglés) →",
-    "fr": "Ou parcourez toute la bibliothèque de parcours (en anglais) →",
-    "de": "Oder stöbere in der ganzen Lernpfad-Bibliothek (auf Englisch) →",
-    "pt-br": "Ou explore a biblioteca completa de trilhas (em inglês) →",
-    "it": "Oppure esplora la libreria completa dei percorsi (in inglese) →",
-    "zh-hans": "或浏览完整的路径库（英文）→"
-   },
-   "typed": {
-    "en": "grow my business",
-    "es": "hacer crecer mi negocio",
-    "fr": "développer mon entreprise",
-    "de": "mein Business ausbauen",
-    "pt-br": "fazer meu negócio crescer",
-    "it": "far crescere la mia attività",
-    "zh-hans": "让我的生意增长"
-   }
-  },
-  "certs": {
-   "eyebrow": {
-    "en": "Get certified",
-    "es": "Certifícate",
-    "fr": "Obtenez votre certificat",
-    "de": "Lass dich zertifizieren",
-    "pt-br": "Tire seu certificado",
-    "it": "Ottieni il certificato",
-    "zh-hans": "获得证书"
-   },
-   "h2": {
-    "en": "Finish a path. Earn a <span class=\"gold-accent\">shareable certificate.</span>",
-    "es": "Termina una ruta. Consigue un <span class=\"gold-accent\">certificado para compartir.</span>",
-    "fr": "Terminez un parcours. Obtenez un <span class=\"gold-accent\">certificat à partager.</span>",
-    "de": "Schließ einen Lernpfad ab. Verdiene dir ein <span class=\"gold-accent\">teilbares Zertifikat.</span>",
-    "pt-br": "Conclua uma trilha. Ganhe um <span class=\"gold-accent\">certificado para compartilhar.</span>",
-    "it": "Completa un percorso. Ottieni un <span class=\"gold-accent\">certificato da condividere.</span>",
-    "zh-hans": "完成一条路径，<br/><span class=\"gold-accent\">赢得可分享的证书。</span>"
-   },
-   "sub": {
-    "en": "Real proof you put in the reps, not just another badge to collect. Earning it is free; claiming it with your name is Pro.",
-    "es": "Una prueba real de que hiciste el trabajo, no otra insignia más para coleccionar. Conseguirlo es gratis; reclamarlo con tu nombre es Pro.",
-    "fr": "La preuve concrète de votre entraînement, pas un badge de plus à collectionner. L’obtenir est gratuit ; le réclamer à votre nom est réservé à Pro.",
-    "de": "Ein echter Beweis, dass du drangeblieben bist, nicht bloß noch ein Abzeichen. Verdienen ist kostenlos, mit deinem Namen beanspruchen ist Pro.",
-    "pt-br": "Uma prova real de que você treinou de verdade, não só mais uma medalha para colecionar. Conquistar é grátis; resgatar com seu nome é Pro.",
-    "it": "Una prova concreta del tuo allenamento, non l’ennesimo badge da collezionare. Ottenerlo è gratis; riscattarlo con il tuo nome è Pro.",
-    "zh-hans": "这是你真正下过功夫的证明，而不是又一枚收藏用的徽章。获得证书免费；以你的名字认领证书需要 Pro。"
-   },
-   "b1": {
-    "en": "A certificate for every path you finish",
-    "es": "Un certificado por cada ruta que terminas",
-    "fr": "Un certificat pour chaque parcours terminé",
-    "de": "Ein Zertifikat für jeden abgeschlossenen Lernpfad",
-    "pt-br": "Um certificado para cada trilha que você conclui",
-    "it": "Un certificato per ogni percorso che completi",
-    "zh-hans": "每完成一条路径就获得一张证书"
-   },
-   "b2": {
-    "en": "Claim it with your name on Pro, then one tap to LinkedIn",
-    "es": "Reclámalo con tu nombre en Pro y súbelo a LinkedIn con un toque",
-    "fr": "Réclamez-le à votre nom avec Pro, puis ajoutez-le à LinkedIn en un geste",
-    "de": "Mit Pro auf deinen Namen ausstellen, dann mit einem Tippen zu LinkedIn",
-    "pt-br": "Resgate com seu nome no Pro e publique no LinkedIn com um toque",
-    "it": "Riscattalo con il tuo nome con Pro, poi con un tocco lo pubblichi su LinkedIn",
-    "zh-hans": "用 Pro 以你的名字认领，一键分享到 LinkedIn"
-   },
-   "b3": {
-    "en": "A unique credential ID on every certificate",
-    "es": "Un ID de credencial único en cada certificado",
-    "fr": "Un identifiant unique sur chaque certificat",
-    "de": "Eine eindeutige Credential-ID auf jedem Zertifikat",
-    "pt-br": "Um ID de credencial único em cada certificado",
-    "it": "Un ID credenziale unico su ogni certificato",
-    "zh-hans": "每张证书都有唯一的证书编号"
-   },
-   "cta": {
-    "en": "Earn your first certificate",
-    "es": "Consigue tu primer certificado",
-    "fr": "Obtenez votre premier certificat",
-    "de": "Hol dir dein erstes Zertifikat",
-    "pt-br": "Ganhe seu primeiro certificado",
-    "it": "Ottieni il tuo primo certificato",
-    "zh-hans": "赢得你的第一张证书"
-   },
-   "credId": {
-    "en": "Credential ID",
-    "es": "ID de credencial",
-    "fr": "Identifiant",
-    "de": "Credential-ID",
-    "pt-br": "ID de credencial",
-    "it": "ID credenziale",
-    "zh-hans": "证书编号"
-   },
-   "certAlt": {
-    "en": "Iro AI Certificate of Completion for AI Foundations, issued to Alex Morgan",
-    "es": "Certificado de finalización de Iro AI en Fundamentos de IA, emitido a nombre de Alex Morgan",
-    "fr": "Certificat de réussite Iro AI en Fondamentaux de l’IA, délivré à Alex Morgan",
-    "de": "Iro AI Abschlusszertifikat für KI-Grundlagen, ausgestellt für Alex Morgan",
-    "pt-br": "Certificado de conclusão do Iro AI em Fundamentos de IA, emitido em nome de Alex Morgan",
-    "it": "Certificato di completamento Iro AI in Basi dell’IA, rilasciato ad Alex Morgan",
-    "zh-hans": "Iro AI 的 AI 基础结业证书，颁发给 Alex Morgan"
-   },
-   "sample": {
-    "en": "Sample certificate",
-    "es": "Certificado de ejemplo",
-    "fr": "Exemple de certificat",
-    "de": "Beispielzertifikat",
-    "pt-br": "Certificado de exemplo",
-    "it": "Certificato di esempio",
-    "zh-hans": "证书示例"
+    "en": "Take the quiz",
+    "es": "Hacer el test",
+    "fr": "Faire le quiz",
+    "de": "Quiz starten",
+    "pt-br": "Fazer o teste",
+    "it": "Fai il test",
+    "zh-hans": "开始测试"
+   },
+   "ladder": {
+    "en": "Rank ladder: Bronze, Silver, Gold, Platinum, Diamond, and Iridescent in the app",
+    "es": "Escala de rangos: Bronce, Plata, Oro, Platino, Diamante e Iridiscente en la app",
+    "fr": "Échelle des rangs : Bronze, Argent, Or, Platine, Diamant, et Iridescent dans l’app",
+    "de": "Rangleiter: Bronze, Silber, Gold, Platin, Diamant und Iridescent in der App",
+    "pt-br": "Escada de ranks: Bronze, Prata, Ouro, Platina, Diamante e Iridescente no app",
+    "it": "Scala dei gradi: Bronzo, Argento, Oro, Platino, Diamante e Iridescente nell’app",
+    "zh-hans": "段位阶梯：青铜、白银、黄金、铂金、钻石，以及 App 内的炫彩段位"
    }
   },
   "pricing": {
@@ -1760,69 +809,6 @@
     "pt-br": "Iro na forma Pro dourada",
     "it": "Iro nella sua forma Pro dorata",
     "zh-hans": "金色 Pro 形态的 Iro"
-   },
-   "h2": {
-    "en": "Unlock your <span class=\"gold-accent\">AI fluency plan</span>",
-    "es": "Desbloquea tu <span class=\"gold-accent\">plan para dominar la IA</span>",
-    "fr": "Débloquez votre <span class=\"gold-accent\">plan de maîtrise de l’IA</span>",
-    "de": "Schalte deinen <span class=\"gold-accent\">KI-Lernplan</span> frei",
-    "pt-br": "Desbloqueie seu <span class=\"gold-accent\">plano para dominar a IA</span>",
-    "it": "Sblocca il tuo <span class=\"gold-accent\">piano per padroneggiare l’IA</span>",
-    "zh-hans": "解锁你的<span class=\"gold-accent\">AI 精通计划</span>"
-   },
-   "sub": {
-    "en": "Build real AI skills faster with guided lessons, smarter practice, and progress that adapts to you.",
-    "es": "Desarrolla habilidades reales de IA más rápido con lecciones guiadas, práctica más inteligente y un progreso que se adapta a ti.",
-    "fr": "Développez de vraies compétences en IA plus vite, avec des leçons guidées, des exercices plus malins et une progression qui s’adapte à vous.",
-    "de": "Bau echte KI-Skills schneller auf – mit geführten Lektionen, smarterem Üben und Fortschritt, der sich an dich anpasst.",
-    "pt-br": "Desenvolva habilidades reais em IA mais rápido, com lições guiadas, prática mais inteligente e um progresso que se adapta a você.",
-    "it": "Sviluppa vere competenze di IA più in fretta, con lezioni guidate, pratica più intelligente e progressi che si adattano a te.",
-    "zh-hans": "通过引导式课程、更聪明的练习和随你调整的进度，更快练出真正的 AI 技能。"
-   },
-   "b1": {
-    "en": "Custom AI learning paths for your goals",
-    "es": "Rutas de IA personalizadas para tus objetivos",
-    "fr": "Des parcours IA personnalisés selon vos objectifs",
-    "de": "Eigene KI-Lernpfade für deine Ziele",
-    "pt-br": "Trilhas de IA personalizadas para seus objetivos",
-    "it": "Percorsi di IA personalizzati per i tuoi obiettivi",
-    "zh-hans": "为你的目标定制 AI 学习路径"
-   },
-   "b2": {
-    "en": "Ask Iro for guidance anytime",
-    "es": "Pídele orientación a Iro cuando quieras",
-    "fr": "Demandez conseil à Iro à tout moment",
-    "de": "Frag Iro jederzeit um Rat",
-    "pt-br": "Peça orientação ao Iro quando quiser",
-    "it": "Chiedi consiglio a Iro quando vuoi",
-    "zh-hans": "随时向 Ask Iro 寻求指导"
-   },
-   "b3": {
-    "en": "Unlimited practice on real workplace skills",
-    "es": "Práctica ilimitada de habilidades reales para el trabajo",
-    "fr": "Entraînement illimité sur des compétences professionnelles concrètes",
-    "de": "Unbegrenztes Üben echter Job-Skills",
-    "pt-br": "Prática ilimitada de habilidades reais para o trabalho",
-    "it": "Pratica illimitata su competenze reali per il lavoro",
-    "zh-hans": "无限练习真实工作所需的技能"
-   },
-   "b4": {
-    "en": "Advanced prompts, drills, and workflows",
-    "es": "Prompts, ejercicios y flujos de trabajo avanzados",
-    "fr": "Prompts, exercices et workflows avancés",
-    "de": "Fortgeschrittene Prompts, Drills und Workflows",
-    "pt-br": "Prompts, exercícios e fluxos de trabalho avançados",
-    "it": "Prompt, esercizi e flussi di lavoro avanzati",
-    "zh-hans": "进阶提示词、专项训练和工作流"
-   },
-   "b5": {
-    "en": "Claim shareable certificates with your name on them",
-    "es": "Reclama certificados con tu nombre para compartir",
-    "fr": "Réclamez des certificats à votre nom, à partager",
-    "de": "Teilbare Zertifikate auf deinen Namen",
-    "pt-br": "Resgate certificados com seu nome para compartilhar",
-    "it": "Riscatta certificati da condividere con il tuo nome",
-    "zh-hans": "认领印有你名字的可分享证书"
    },
    "cta": {
     "en": "Try 7 days free",
@@ -1841,26 +827,143 @@
     "pt-br": "US$ 49,99 por ano após um teste grátis de 7 dias (cerca de US$ 4,17 por mês), ou US$ 9,99 por mês. Cobrado pela Apple, cancele quando quiser.",
     "it": "49,99 USD all’anno dopo una prova gratuita di 7 giorni (circa 4,17 USD al mese), oppure 9,99 USD al mese. Addebitato da Apple, disdici quando vuoi.",
     "zh-hans": "7 天免费试用后每年 49.99 美元（约合每月 4.17 美元），或每月 9.99 美元。由 Apple 收费，可随时取消。"
+   },
+   "h2": {
+    "en": "Free to learn. <span class=\"gold-accent\">Pro to go faster.</span>",
+    "es": "Aprende gratis. <span class=\"gold-accent\">Con Pro, más rápido.</span>",
+    "fr": "Apprenez gratuitement. <span class=\"gold-accent\">Allez plus vite avec Pro.</span>",
+    "de": "Kostenlos lernen. <span class=\"gold-accent\">Mit Pro schneller.</span>",
+    "pt-br": "Aprenda de graça. <span class=\"gold-accent\">Com o Pro, mais rápido.</span>",
+    "it": "Impara gratis. <span class=\"gold-accent\">Con Pro, più veloce.</span>",
+    "zh-hans": "免费学习。<span class=\"gold-accent\">Pro 让你更快。</span>"
+   },
+   "free": {
+    "en": "Free",
+    "es": "Gratis",
+    "fr": "Gratuit",
+    "de": "Kostenlos",
+    "pt-br": "Grátis",
+    "it": "Gratis",
+    "zh-hans": "免费"
+   },
+   "freeBig": {
+    "en": "A lesson a day",
+    "es": "Una lección al día",
+    "fr": "Une leçon par jour",
+    "de": "Eine Lektion am Tag",
+    "pt-br": "Uma lição por dia",
+    "it": "Una lezione al giorno",
+    "zh-hans": "每天一节课"
+   },
+   "f1": {
+    "en": "A full lesson every day",
+    "es": "Una lección completa cada día",
+    "fr": "Une leçon complète chaque jour",
+    "de": "Jeden Tag eine komplette Lektion",
+    "pt-br": "Uma lição completa por dia",
+    "it": "Una lezione completa ogni giorno",
+    "zh-hans": "每天一节完整的课"
+   },
+   "f2": {
+    "en": "All 34 paths and 23 exercise types",
+    "es": "Las 34 rutas y los 23 tipos de ejercicio",
+    "fr": "Les 34 parcours et les 23 types d’exercices",
+    "de": "Alle 34 Lernpfade und 23 Übungsarten",
+    "pt-br": "As 34 trilhas e os 23 tipos de exercício",
+    "it": "Tutti i 34 percorsi e i 23 tipi di esercizio",
+    "zh-hans": "全部 34 条路径和 23 种练习类型"
+   },
+   "f3": {
+    "en": "Streaks, XP, ranks and the weekly league",
+    "es": "Rachas, XP, rangos y la liga semanal",
+    "fr": "Séries, XP, rangs et ligue hebdomadaire",
+    "de": "Streaks, XP, Ränge und die Wochenliga",
+    "pt-br": "Ofensivas, XP, ranks e a liga semanal",
+    "it": "Serie, XP, gradi e la lega settimanale",
+    "zh-hans": "连胜、XP、段位和每周联赛"
+   },
+   "f4": {
+    "en": "Weekly AI news",
+    "es": "Noticias semanales de IA",
+    "fr": "L’actu IA de la semaine",
+    "de": "Wöchentliche KI-News",
+    "pt-br": "Notícias semanais de IA",
+    "it": "Notizie settimanali sull’IA",
+    "zh-hans": "每周 AI 新闻"
+   },
+   "download": {
+    "en": "Download free",
+    "es": "Descargar gratis",
+    "fr": "Télécharger gratuitement",
+    "de": "Kostenlos laden",
+    "pt-br": "Baixar grátis",
+    "it": "Scarica gratis",
+    "zh-hans": "免费下载"
+   },
+   "proBig": {
+    "en": "7 days free",
+    "es": "7 días gratis",
+    "fr": "7 jours gratuits",
+    "de": "7 Tage kostenlos",
+    "pt-br": "7 dias grátis",
+    "it": "7 giorni gratis",
+    "zh-hans": "免费 7 天"
+   },
+   "p1": {
+    "en": "Unlimited lessons and practice",
+    "es": "Lecciones y práctica ilimitadas",
+    "fr": "Leçons et entraînement illimités",
+    "de": "Unbegrenzte Lektionen und Übungen",
+    "pt-br": "Lições e prática ilimitadas",
+    "it": "Lezioni e pratica illimitate",
+    "zh-hans": "无限课程和练习"
+   },
+   "p2": {
+    "en": "Unlimited Ask Iro coaching",
+    "es": "Ask Iro sin límites",
+    "fr": "Ask Iro en illimité",
+    "de": "Unbegrenztes Coaching mit Ask Iro",
+    "pt-br": "Ask Iro ilimitado",
+    "it": "Ask Iro illimitato",
+    "zh-hans": "无限次 Ask Iro 辅导"
+   },
+   "p3": {
+    "en": "Custom paths: type any topic, paste a video link or upload a PDF",
+    "es": "Rutas personalizadas: escribe cualquier tema, pega un enlace de vídeo o sube un PDF",
+    "fr": "Parcours personnalisés : tapez un sujet, collez un lien vidéo ou importez un PDF",
+    "de": "Eigene Lernpfade: Thema eingeben, Videolink einfügen oder PDF hochladen",
+    "pt-br": "Trilhas personalizadas: digite qualquer tema, cole um link de vídeo ou envie um PDF",
+    "it": "Percorsi personalizzati: scrivi un argomento, incolla un link video o carica un PDF",
+    "zh-hans": "自定义路径：输入任何主题、粘贴视频链接或上传 PDF"
+   },
+   "p4": {
+    "en": "Prompt Lab, Image Lab and AI Duels",
+    "es": "Prompt Lab, Image Lab y duelos de IA",
+    "fr": "Prompt Lab, Image Lab et duels IA",
+    "de": "Prompt Lab, Image Lab und KI-Duelle",
+    "pt-br": "Prompt Lab, Image Lab e duelos de IA",
+    "it": "Prompt Lab, Image Lab e duelli IA",
+    "zh-hans": "Prompt Lab、Image Lab 和 AI 对战"
+   },
+   "p5": {
+    "en": "Shareable certificates with your name",
+    "es": "Certificados con tu nombre para compartir",
+    "fr": "Des certificats à votre nom, à partager",
+    "de": "Teilbare Zertifikate auf deinen Namen",
+    "pt-br": "Certificados com seu nome para compartilhar",
+    "it": "Certificati da condividere con il tuo nome",
+    "zh-hans": "印有你名字的可分享证书"
    }
   },
   "faq": {
-   "eyebrow": {
-    "en": "Questions",
-    "es": "Preguntas",
-    "fr": "Questions",
-    "de": "Fragen",
-    "pt-br": "Dúvidas",
-    "it": "Domande",
-    "zh-hans": "常见问题"
-   },
    "h2": {
-    "en": "Good to know.",
-    "es": "Bueno saberlo.",
-    "fr": "Bon à savoir.",
-    "de": "Gut zu wissen.",
-    "pt-br": "Bom saber.",
-    "it": "Buono a sapersi.",
-    "zh-hans": "你可能想知道。"
+    "en": "Frequently Asked Questions",
+    "es": "Preguntas frecuentes",
+    "fr": "Questions fréquentes",
+    "de": "Häufige Fragen",
+    "pt-br": "Perguntas frequentes",
+    "it": "Domande frequenti",
+    "zh-hans": "常见问题"
    },
    "q1": {
     "en": "Is Iro free?",
@@ -1915,24 +1018,6 @@
     "pt-br": "O Android está em desenvolvimento. Por enquanto o app é só para iOS, mas você pode <a href=\"#notifyForm\">entrar na lista de espera do Android</a> e a gente manda um e-mail no dia do lançamento. Enquanto isso, o Iro funciona em qualquer navegador Android em <a href=\"https://app.tryiro.com\" data-cta=\"faq-android\">app.tryiro.com</a>. Sua ofensiva e seu progresso passam para o app quando ele chegar.",
     "it": "Android è in pieno sviluppo. Per ora l’app è solo per iOS, ma puoi <a href=\"#notifyForm\">iscriverti alla lista d’attesa per Android</a> e ti scriveremo il giorno dell’uscita. Nel frattempo, Iro funziona in qualsiasi browser Android su <a href=\"https://app.tryiro.com\" data-cta=\"faq-android\">app.tryiro.com</a>. La tua serie e i tuoi progressi passeranno all’app quando arriverà.",
     "zh-hans": "安卓版正在积极开发中。App 目前仅支持 iOS，但你可以 <a href=\"#notifyForm\">加入安卓版候补名单</a> 等待上线，上线当天我们会发邮件通知你。在此期间，你可以在任何安卓浏览器中访问 <a href=\"https://app.tryiro.com\" data-cta=\"faq-android\">app.tryiro.com</a> 使用 Iro。App 上线后，你的连胜和进度都会同步过去。"
-   },
-   "q10": {
-    "en": "Is there a plan for teams or schools?",
-    "es": "¿Hay un plan para equipos o escuelas?",
-    "fr": "Existe-t-il une offre pour les équipes ou les écoles ?",
-    "de": "Gibt es einen Tarif für Teams oder Schulen?",
-    "pt-br": "Existe um plano para equipes ou escolas?",
-    "it": "Esiste un piano per team o scuole?",
-    "zh-hans": "有团队或学校方案吗？"
-   },
-   "a10": {
-    "en": "Not yet. Iro is for individuals today: each person signs up on their own and, if they want Pro, subscribes through Apple. There is no team plan, admin dashboard, central billing or SSO. If you want Iro for a team, <a href=\"mailto:support@tryiro.com?subject=Iro%20for%20teams\">email us</a> and we'll let you know when a team plan is ready.",
-    "es": "Todavía no. Hoy Iro es para personas individuales: cada uno se registra por su cuenta y, si quiere Pro, se suscribe a través de Apple. No hay plan para equipos, panel de administración, facturación centralizada ni SSO. Si quieres Iro para un equipo, <a href=\"mailto:support@tryiro.com?subject=Iro%20for%20teams\">escríbenos</a> y te avisaremos cuando haya un plan para equipos.",
-    "fr": "Pas encore. Iro s’adresse aujourd’hui aux particuliers : chacun s’inscrit de son côté et, s’il veut Pro, s’abonne via Apple. Il n’y a ni offre équipe, ni tableau de bord administrateur, ni facturation centralisée, ni SSO. Si vous voulez Iro pour une équipe, <a href=\"mailto:support@tryiro.com?subject=Iro%20for%20teams\">écrivez-nous</a> et nous vous préviendrons quand une offre équipe sera prête.",
-    "de": "Noch nicht. Iro ist derzeit für Einzelpersonen: Jede Person meldet sich selbst an und schließt Pro, falls gewünscht, über Apple ab. Es gibt keinen Team-Tarif, kein Admin-Dashboard, keine zentrale Abrechnung und kein SSO. Wenn du Iro für ein Team möchtest, <a href=\"mailto:support@tryiro.com?subject=Iro%20for%20teams\">schreib uns</a> und wir melden uns, sobald es einen Team-Tarif gibt.",
-    "pt-br": "Ainda não. Hoje o Iro é para pessoas individuais: cada um se cadastra por conta própria e, se quiser o Pro, assina pela Apple. Não há plano para equipes, painel de administração, cobrança centralizada nem SSO. Se você quer o Iro para uma equipe, <a href=\"mailto:support@tryiro.com?subject=Iro%20for%20teams\">mande um e-mail</a> e avisamos quando houver um plano para equipes.",
-    "it": "Non ancora. Oggi Iro è pensato per i singoli: ognuno si iscrive per conto suo e, se vuole Pro, si abbona tramite Apple. Non ci sono piano team, dashboard di amministrazione, fatturazione centralizzata né SSO. Se vuoi Iro per un team, <a href=\"mailto:support@tryiro.com?subject=Iro%20for%20teams\">scrivici</a> e ti avviseremo quando ci sarà un piano team.",
-    "zh-hans": "暂时没有。Iro 目前面向个人用户：每个人自行注册，想用 Pro 的话通过 Apple 订阅。目前没有团队方案、管理后台、统一付费或 SSO。如果你想为团队使用 Iro，请 <a href=\"mailto:support@tryiro.com?subject=Iro%20for%20teams\">给我们发邮件</a> ，团队方案推出时我们会通知你。"
    },
    "q4": {
     "en": "Can I use Iro without installing the app?",
@@ -2043,35 +1128,6 @@
     "zh-hans": "如果你想练出日常使用 AI 的真本事（真正用好 ChatGPT、Claude、Gemini、Perplexity 和提示词），Iro 是最强的选择，因为它让你每天主动练习，大约五分钟。学数据科学选 DataCamp，学机器学习理论选 Brilliant，要证书选 Coursera。 <a href=\"/best-ai-learning-app\">查看完整对比（英文）→</a>"
    }
   },
-  "askAi": {
-   "eyebrow": {
-    "en": "No trust required",
-    "es": "Sin fe ciega",
-    "fr": "Pas besoin de nous croire",
-    "de": "Kein Vertrauensvorschuss nötig",
-    "pt-br": "Não precisa confiar na gente",
-    "it": "Nessuna fiducia cieca",
-    "zh-hans": "不必盲信"
-   },
-   "h2": {
-    "en": "Don't take our word for it. <span class=\"accent\">Ask any AI.</span>",
-    "es": "No te fíes de nuestra palabra. <span class=\"accent\">Pregúntale a cualquier IA.</span>",
-    "fr": "Ne nous croyez pas sur parole. <span class=\"accent\">Demandez à n’importe quelle IA.</span>",
-    "de": "Glaub uns nicht einfach. <span class=\"accent\">Frag eine beliebige KI.</span>",
-    "pt-br": "Não acredite só na nossa palavra. <span class=\"accent\">Pergunte a qualquer IA.</span>",
-    "it": "Non fidarti solo di noi. <span class=\"accent\">Chiedilo a qualsiasi IA.</span>",
-    "zh-hans": "别只听我们说。<span class=\"accent\">随便问一个 AI。</span>"
-   },
-   "sub": {
-    "en": "Each button opens the assistant with the question pre-filled: what Iro teaches, what's free, and how it compares to the alternatives. We publish <a href=\"/llms.txt\">llms.txt</a> and <a href=\"/ai-info\">a reference page for AI assistants</a> so they get the facts right.",
-    "es": "Cada botón abre el asistente con la pregunta ya escrita (en inglés): qué enseña Iro, qué es gratis y cómo se compara con las alternativas. Publicamos <a href=\"/llms.txt\">llms.txt</a> y <a href=\"/ai-info\">una página de referencia para asistentes de IA</a> para que tengan los datos correctos.",
-    "fr": "Chaque bouton ouvre l’assistant avec la question déjà saisie (en anglais) : ce qu’Iro enseigne, ce qui est gratuit et comment il se compare aux alternatives. Nous publions <a href=\"/llms.txt\">llms.txt</a> et <a href=\"/ai-info\">une page de référence pour les assistants IA</a> afin qu’ils aient les bonnes informations.",
-    "de": "Jeder Button öffnet den Assistenten mit bereits eingetragener Frage (auf Englisch): was Iro vermittelt, was kostenlos ist und wie es im Vergleich abschneidet. Wir veröffentlichen <a href=\"/llms.txt\">llms.txt</a> und <a href=\"/ai-info\">eine Referenzseite für KI-Assistenten</a>, damit sie die Fakten richtig wiedergeben.",
-    "pt-br": "Cada botão abre o assistente com a pergunta já escrita (em inglês): o que o Iro ensina, o que é grátis e como ele se compara às alternativas. Publicamos o <a href=\"/llms.txt\">llms.txt</a> e <a href=\"/ai-info\">uma página de referência para assistentes de IA</a> para que eles tenham as informações certas.",
-    "it": "Ogni pulsante apre l’assistente con la domanda già scritta (in inglese): cosa insegna Iro, cosa è gratis e come si confronta con le alternative. Pubblichiamo <a href=\"/llms.txt\">llms.txt</a> e <a href=\"/ai-info\">una pagina di riferimento per gli assistenti di IA</a> perché abbiano i dati giusti.",
-    "zh-hans": "每个按钮都会打开对应的 AI 助手，并预先填好问题（英文）：Iro 教什么、哪些免费、和其他选择相比如何。我们发布了 <a href=\"/llms.txt\">llms.txt</a> 和 <a href=\"/ai-info\">一份供 AI 助手参考的页面</a>，确保它们掌握准确的信息。"
-   }
-  },
   "final": {
    "mascotAlt": {
     "en": "Iro the penguin",
@@ -2083,22 +1139,22 @@
     "zh-hans": "企鹅 Iro"
    },
    "h2": {
-    "en": "Level up your AI, <br/><span class=\"accent\">five minutes a day.</span>",
-    "es": "Sube de nivel en IA, <br/><span class=\"accent\">cinco minutos al día.</span>",
-    "fr": "Progressez en IA, <br/><span class=\"accent\">cinq minutes par jour.</span>",
-    "de": "Werde besser in KI, <br/><span class=\"accent\">fünf Minuten am Tag.</span>",
-    "pt-br": "Suba de nível em IA, <br/><span class=\"accent\">cinco minutos por dia.</span>",
-    "it": "Sali di livello con l’IA, <br/><span class=\"accent\">cinque minuti al giorno.</span>",
-    "zh-hans": "AI 能力升级，<br/><span class=\"accent\">每天只需五分钟。</span>"
+    "en": "Start your first lesson <span class=\"accent\">today.</span>",
+    "es": "Empieza tu primera lección <span class=\"accent\">hoy.</span>",
+    "fr": "Commencez votre première leçon <span class=\"accent\">aujourd’hui.</span>",
+    "de": "Starte deine erste Lektion <span class=\"accent\">heute.</span>",
+    "pt-br": "Comece sua primeira lição <span class=\"accent\">hoje.</span>",
+    "it": "Inizia la tua prima lezione <span class=\"accent\">oggi.</span>",
+    "zh-hans": "<span class=\"accent\">今天</span>就开始你的第一节课。"
    },
    "sub": {
-    "en": "One lesson a day. Free to start. Keep your streak alive.",
-    "es": "Una lección al día. Gratis para empezar. Mantén viva tu racha.",
-    "fr": "Une leçon par jour. Gratuit pour commencer. Gardez votre série en vie.",
-    "de": "Eine Lektion am Tag. Kostenlos starten. Halte deinen Streak am Leben.",
-    "pt-br": "Uma lição por dia. Grátis para começar. Mantenha sua ofensiva viva.",
-    "it": "Una lezione al giorno. Gratis per iniziare. Tieni viva la tua serie.",
-    "zh-hans": "每天一节课。免费开始。别让连胜断掉。"
+    "en": "Five minutes. Free to start.",
+    "es": "Cinco minutos. Gratis para empezar.",
+    "fr": "Cinq minutes. Gratuit pour commencer.",
+    "de": "Fünf Minuten. Kostenlos starten.",
+    "pt-br": "Cinco minutos. Grátis para começar.",
+    "it": "Cinque minuti. Gratis per iniziare.",
+    "zh-hans": "五分钟。免费开始。"
    },
    "downloadOn": {
     "en": "Download on the",
@@ -2108,15 +1164,6 @@
     "pt-br": "Baixar na",
     "it": "Scarica su",
     "zh-hans": "立即下载"
-   },
-   "quiz": {
-    "en": "Take the AI rank quiz",
-    "es": "Haz el test de rango IA",
-    "fr": "Faites le quiz de rang IA",
-    "de": "Mach das KI-Rang-Quiz",
-    "pt-br": "Faça o teste de rank de IA",
-    "it": "Fai il test del grado IA",
-    "zh-hans": "测测你的 AI 段位"
    },
    "webLink": {
     "en": "Try Iro in your browser. Your streak and progress sync to the app →",
@@ -2182,6 +1229,26 @@
     "zh-hans": "已加入名单。安卓版上线时我们会发邮件通知你。"
    }
   },
+  "askAi": {
+   "h2": {
+    "en": "Don't take our word for it. <span class=\"accent\">Ask any AI.</span>",
+    "es": "No te fíes de nuestra palabra. <span class=\"accent\">Pregúntale a cualquier IA.</span>",
+    "fr": "Ne nous croyez pas sur parole. <span class=\"accent\">Demandez à n’importe quelle IA.</span>",
+    "de": "Glaub uns nicht einfach. <span class=\"accent\">Frag eine beliebige KI.</span>",
+    "pt-br": "Não acredite só na nossa palavra. <span class=\"accent\">Pergunte a qualquer IA.</span>",
+    "it": "Non fidarti solo di noi. <span class=\"accent\">Chiedilo a qualsiasi IA.</span>",
+    "zh-hans": "别只听我们说。<span class=\"accent\">随便问一个 AI。</span>"
+   },
+   "sub": {
+    "en": "Each button opens the assistant with the question pre-filled: what Iro teaches, what's free, and how it compares to the alternatives. We publish <a href=\"/llms.txt\">llms.txt</a> and <a href=\"/ai-info\">a reference page for AI assistants</a> so they get the facts right.",
+    "es": "Cada botón abre el asistente con la pregunta ya escrita (en inglés): qué enseña Iro, qué es gratis y cómo se compara con las alternativas. Publicamos <a href=\"/llms.txt\">llms.txt</a> y <a href=\"/ai-info\">una página de referencia para asistentes de IA</a> para que tengan los datos correctos.",
+    "fr": "Chaque bouton ouvre l’assistant avec la question déjà saisie (en anglais) : ce qu’Iro enseigne, ce qui est gratuit et comment il se compare aux alternatives. Nous publions <a href=\"/llms.txt\">llms.txt</a> et <a href=\"/ai-info\">une page de référence pour les assistants IA</a> afin qu’ils aient les bonnes informations.",
+    "de": "Jeder Button öffnet den Assistenten mit bereits eingetragener Frage (auf Englisch): was Iro vermittelt, was kostenlos ist und wie es im Vergleich abschneidet. Wir veröffentlichen <a href=\"/llms.txt\">llms.txt</a> und <a href=\"/ai-info\">eine Referenzseite für KI-Assistenten</a>, damit sie die Fakten richtig wiedergeben.",
+    "pt-br": "Cada botão abre o assistente com a pergunta já escrita (em inglês): o que o Iro ensina, o que é grátis e como ele se compara às alternativas. Publicamos o <a href=\"/llms.txt\">llms.txt</a> e <a href=\"/ai-info\">uma página de referência para assistentes de IA</a> para que eles tenham as informações certas.",
+    "it": "Ogni pulsante apre l’assistente con la domanda già scritta (in inglese): cosa insegna Iro, cosa è gratis e come si confronta con le alternative. Pubblichiamo <a href=\"/llms.txt\">llms.txt</a> e <a href=\"/ai-info\">una pagina di riferimento per gli assistenti di IA</a> perché abbiano i dati giusti.",
+    "zh-hans": "每个按钮都会打开对应的 AI 助手，并预先填好问题（英文）：Iro 教什么、哪些免费、和其他选择相比如何。我们发布了 <a href=\"/llms.txt\">llms.txt</a> 和 <a href=\"/ai-info\">一份供 AI 助手参考的页面</a>，确保它们掌握准确的信息。"
+   }
+  },
   "featured": {
    "wired": {
     "en": "Iro AI listed on the wired.business directory",
@@ -2229,15 +1296,6 @@
     "pt-br": "Como funciona",
     "it": "Come funziona",
     "zh-hans": "玩法介绍"
-   },
-   "coach": {
-    "en": "Iro coach",
-    "es": "Coach Iro",
-    "fr": "Coach Iro",
-    "de": "Coach Iro",
-    "pt-br": "Coach Iro",
-    "it": "Coach Iro",
-    "zh-hans": "Iro 教练"
    },
    "faq": {
     "en": "FAQ",
@@ -2554,483 +1612,6 @@
     "it": "© 2026 Iro AI · Padroneggia l’IA. Resta un passo avanti. · Guide e blog in inglese.",
     "zh-hans": "© 2026 Iro AI · 掌握 AI，领先一步 · 指南和博客为英文"
    }
-  },
-  "js.coach": {
-   "q1": {
-    "en": "Quick check: what would improve this prompt most?",
-    "es": "Comprobación rápida: ¿qué mejoraría más este prompt?",
-    "fr": "Petite vérification : qu’est-ce qui améliorerait le plus ce prompt ?",
-    "de": "Kurzer Check: Was würde diesen Prompt am meisten verbessern?",
-    "pt-br": "Teste rápido: o que mais melhoraria este prompt?",
-    "it": "Verifica veloce: cosa migliorerebbe di più questo prompt?",
-    "zh-hans": "快速检验：哪一项最能改进这个提示词？"
-   },
-   "promptLab": {
-    "en": "The prompt",
-    "es": "El prompt",
-    "fr": "Le prompt",
-    "de": "Der Prompt",
-    "pt-br": "O prompt",
-    "it": "Il prompt",
-    "zh-hans": "提示词"
-   },
-   "promptTxt": {
-    "en": "&ldquo;Make this landing page better.&rdquo;",
-    "es": "“Mejora esta landing page.”",
-    "fr": "« Améliore cette landing page. »",
-    "de": "„Mach diese Landingpage besser.“",
-    "pt-br": "“Melhore esta landing page.”",
-    "it": "“Migliora questa landing page.”",
-    "zh-hans": "“把这个落地页改得更好。”"
-   },
-   "q1a": {
-    "en": "Add audience, goal, and constraints",
-    "es": "Añadir público, objetivo y restricciones",
-    "fr": "Ajouter le public, l’objectif et les contraintes",
-    "de": "Zielgruppe, Ziel und Vorgaben ergänzen",
-    "pt-br": "Adicionar público, objetivo e restrições",
-    "it": "Aggiungere pubblico, obiettivo e vincoli",
-    "zh-hans": "补充受众、目标和限制条件"
-   },
-   "q1b": {
-    "en": "Make it longer",
-    "es": "Hacerlo más largo",
-    "fr": "Le rallonger",
-    "de": "Ihn länger machen",
-    "pt-br": "Deixar mais longo",
-    "it": "Renderlo più lungo",
-    "zh-hans": "写得更长一些"
-   },
-   "q1c": {
-    "en": "Use more emojis",
-    "es": "Usar más emojis",
-    "fr": "Mettre plus d’emojis",
-    "de": "Mehr Emojis verwenden",
-    "pt-br": "Usar mais emojis",
-    "it": "Usare più emoji",
-    "zh-hans": "多用点表情符号"
-   },
-   "q1fb": {
-    "en": "Exactly. <b>&ldquo;Better&rdquo;</b> is too vague. Strong prompts tell the AI who it&rsquo;s helping, what outcome matters, and what constraints to follow.",
-    "es": "Exacto. <b>“Mejora”</b> es demasiado vago. Un buen prompt le dice a la IA a quién ayuda, qué resultado importa y qué restricciones debe respetar.",
-    "fr": "Exactement. <b>« Améliore »</b> est trop vague. Un bon prompt dit à l’IA qui elle aide, quel résultat compte et quelles contraintes respecter.",
-    "de": "Genau. <b>„Besser“</b> ist zu vage. Starke Prompts sagen der KI, wem sie hilft, welches Ergebnis zählt und welche Vorgaben gelten.",
-    "pt-br": "Exato. <b>“Melhore”</b> é vago demais. Um bom prompt diz à IA quem ela está ajudando, qual resultado importa e quais restrições seguir.",
-    "it": "Esatto. <b>“Migliora”</b> è troppo vago. Un buon prompt dice all’IA chi sta aiutando, quale risultato conta e quali vincoli rispettare.",
-    "zh-hans": "没错。<b>“更好”</b>太模糊了。好的提示词会告诉 AI 它在帮谁、什么结果最重要、要遵守哪些限制。"
-   },
-   "q1before": {
-    "en": "Make this landing page better.",
-    "es": "Mejora esta landing page.",
-    "fr": "Améliore cette landing page.",
-    "de": "Mach diese Landingpage besser.",
-    "pt-br": "Melhore esta landing page.",
-    "it": "Migliora questa landing page.",
-    "zh-hans": "把这个落地页改得更好。"
-   },
-   "q1after": {
-    "en": "Act as a conversion strategist. Rewrite this hero for busy founders. Keep it under 12 words and make the outcome specific.",
-    "es": "Actúa como estratega de conversión. Reescribe este hero para fundadores con poco tiempo. Menos de 12 palabras y un resultado concreto.",
-    "fr": "Agis comme un stratège en conversion. Réécris ce hero pour des fondateurs pressés. Moins de 12 mots, avec un résultat concret.",
-    "de": "Handle als Conversion-Stratege. Schreib diesen Hero für vielbeschäftigte Gründer neu. Unter 12 Wörtern und mit einem konkreten Ergebnis.",
-    "pt-br": "Atue como estrategista de conversão. Reescreva este hero para fundadores sem tempo. Menos de 12 palavras e um resultado específico.",
-    "it": "Agisci come stratega della conversione. Riscrivi questa hero per founder con poco tempo. Meno di 12 parole e un risultato concreto.",
-    "zh-hans": "你是一名转化率策略师。请为忙碌的创业者重写这段首屏文案。控制在 20 字以内，并写明具体的结果。"
-   },
-   "q2": {
-    "en": "The AI sounds confident, but you&rsquo;re not sure it&rsquo;s right. What should you ask next?",
-    "es": "La IA suena segura, pero no sabes si tiene razón. ¿Qué deberías preguntar ahora?",
-    "fr": "L’IA a l’air sûre d’elle, mais vous doutez qu’elle ait raison. Que demander ensuite ?",
-    "de": "Die KI klingt überzeugt, aber du bist dir nicht sicher, ob sie recht hat. Was fragst du als Nächstes?",
-    "pt-br": "A IA parece segura, mas você não tem certeza de que ela está certa. O que você deve perguntar agora?",
-    "it": "L’IA sembra sicura di sé, ma non sai se ha ragione. Cosa dovresti chiedere adesso?",
-    "zh-hans": "AI 回答得很自信，但你不确定它对不对。接下来该问什么？"
-   },
-   "q2lab": {
-    "en": "The scenario",
-    "es": "El escenario",
-    "fr": "Le scénario",
-    "de": "Die Situation",
-    "pt-br": "O cenário",
-    "it": "Lo scenario",
-    "zh-hans": "场景"
-   },
-   "q2card": {
-    "en": "The model gave you a technical answer you might use in a real project.",
-    "es": "El modelo te dio una respuesta técnica que podrías usar en un proyecto real.",
-    "fr": "Le modèle vous a donné une réponse technique que vous pourriez utiliser dans un vrai projet.",
-    "de": "Das Modell hat dir eine technische Antwort gegeben, die du in einem echten Projekt nutzen könntest.",
-    "pt-br": "O modelo deu uma resposta técnica que você poderia usar em um projeto real.",
-    "it": "Il modello ti ha dato una risposta tecnica che potresti usare in un progetto reale.",
-    "zh-hans": "模型给了你一个技术性回答，你可能会把它用在真实项目里。"
-   },
-   "q2a": {
-    "en": "Explain assumptions and edge cases",
-    "es": "Explicar supuestos y casos límite",
-    "fr": "Expliquer les hypothèses et les cas limites",
-    "de": "Annahmen und Grenzfälle erklären lassen",
-    "pt-br": "Explicar premissas e casos extremos",
-    "it": "Spiegare ipotesi e casi limite",
-    "zh-hans": "让它说明假设和边界情况"
-   },
-   "q2b": {
-    "en": "Make the answer shorter",
-    "es": "Acortar la respuesta",
-    "fr": "Raccourcir la réponse",
-    "de": "Die Antwort kürzen",
-    "pt-br": "Encurtar a resposta",
-    "it": "Accorciare la risposta",
-    "zh-hans": "让回答更简短"
-   },
-   "q2c": {
-    "en": "Add a catchier title",
-    "es": "Añadir un título más llamativo",
-    "fr": "Ajouter un titre plus accrocheur",
-    "de": "Einen knackigeren Titel ergänzen",
-    "pt-br": "Colocar um título mais chamativo",
-    "it": "Aggiungere un titolo più accattivante",
-    "zh-hans": "加一个更吸睛的标题"
-   },
-   "q2fb": {
-    "en": "Right. Confident output isn&rsquo;t the same as correct output. Ask the AI to expose its <b>assumptions, failure cases, and what you should verify</b> before using it.",
-    "es": "Bien. Que una respuesta suene segura no significa que sea correcta. Pide a la IA que muestre sus <b>supuestos, los casos en que puede fallar y lo que deberías verificar</b> antes de usarla.",
-    "fr": "Exact. Une réponse assurée n’est pas forcément une réponse juste. Demandez à l’IA de dévoiler <b>ses hypothèses, ses cas d’échec et ce que vous devriez vérifier</b> avant de l’utiliser.",
-    "de": "Richtig. Eine selbstsichere Antwort ist nicht automatisch eine richtige. Lass die KI ihre <b>Annahmen, möglichen Fehlerfälle und das, was du prüfen solltest,</b> offenlegen, bevor du sie nutzt.",
-    "pt-br": "Isso. Uma resposta confiante não é o mesmo que uma resposta correta. Peça à IA para mostrar suas <b>premissas, os casos em que pode falhar e o que você deve verificar</b> antes de usar.",
-    "it": "Giusto. Una risposta sicura non è per forza una risposta corretta. Chiedi all’IA di esplicitare le sue <b>ipotesi, i casi in cui può sbagliare e cosa dovresti verificare</b> prima di usarla.",
-    "zh-hans": "对。自信的回答不等于正确的回答。在使用之前，让 AI 讲清楚它的<b>假设、可能出错的情况，以及你需要核实的内容</b>。"
-   },
-   "q2finalLab": {
-    "en": "Better ask",
-    "es": "Mejor pregunta",
-    "fr": "Meilleure demande",
-    "de": "Bessere Frage",
-    "pt-br": "Pergunta melhor",
-    "it": "Domanda migliore",
-    "zh-hans": "更好的问法"
-   },
-   "q2final": {
-    "en": "List your assumptions, possible failure cases, and the 3 things I should verify before I rely on this answer.",
-    "es": "Enumera tus supuestos, los posibles casos de fallo y las 3 cosas que debería verificar antes de fiarme de esta respuesta.",
-    "fr": "Liste tes hypothèses, les cas d’échec possibles et les 3 points que je dois vérifier avant de me fier à cette réponse.",
-    "de": "Nenne deine Annahmen, mögliche Fehlerfälle und die 3 Dinge, die ich prüfen sollte, bevor ich mich auf diese Antwort verlasse.",
-    "pt-br": "Liste suas premissas, os possíveis casos de falha e as 3 coisas que eu devo verificar antes de confiar nesta resposta.",
-    "it": "Elenca le tue ipotesi, i possibili casi di errore e le 3 cose che dovrei verificare prima di fidarmi di questa risposta.",
-    "zh-hans": "列出你的假设、可能出错的情况，以及我在依赖这个回答之前应该核实的 3 件事。"
-   },
-   "q3": {
-    "en": "You need current market research. Which tool fits best?",
-    "es": "Necesitas un estudio de mercado actualizado. ¿Qué herramienta encaja mejor?",
-    "fr": "Il vous faut une étude de marché à jour. Quel outil convient le mieux ?",
-    "de": "Du brauchst aktuelle Marktforschung. Welches Tool passt am besten?",
-    "pt-br": "Você precisa de uma pesquisa de mercado atualizada. Qual ferramenta é a mais indicada?",
-    "it": "Ti serve una ricerca di mercato aggiornata. Quale strumento è più adatto?",
-    "zh-hans": "你需要最新的市场调研。哪种工具最合适？"
-   },
-   "q3card": {
-    "en": "You want recent opinions, links, and examples from the web.",
-    "es": "Quieres opiniones recientes, enlaces y ejemplos de la web.",
-    "fr": "Vous voulez des avis récents, des liens et des exemples tirés du web.",
-    "de": "Du willst aktuelle Meinungen, Links und Beispiele aus dem Netz.",
-    "pt-br": "Você quer opiniões recentes, links e exemplos da web.",
-    "it": "Vuoi opinioni recenti, link ed esempi dal web.",
-    "zh-hans": "你想要网上最近的观点、链接和案例。"
-   },
-   "q3a": {
-    "en": "A web-connected research tool",
-    "es": "Una herramienta de investigación conectada a la web",
-    "fr": "Un outil de recherche connecté au web",
-    "de": "Ein Recherche-Tool mit Webzugang",
-    "pt-br": "Uma ferramenta de pesquisa conectada à web",
-    "it": "Uno strumento di ricerca collegato al web",
-    "zh-hans": "能联网的调研工具"
-   },
-   "q3b": {
-    "en": "An offline chatbot only",
-    "es": "Solo un chatbot sin conexión",
-    "fr": "Un chatbot hors ligne, sans plus",
-    "de": "Nur ein Offline-Chatbot",
-    "pt-br": "Só um chatbot offline",
-    "it": "Solo un chatbot offline",
-    "zh-hans": "只用离线聊天机器人"
-   },
-   "q3c": {
-    "en": "Ask for a motivational quote",
-    "es": "Pedir una frase motivadora",
-    "fr": "Demander une citation motivante",
-    "de": "Um ein Motivationszitat bitten",
-    "pt-br": "Pedir uma frase motivacional",
-    "it": "Chiedere una frase motivazionale",
-    "zh-hans": "让它给你一句励志名言"
-   },
-   "q3fb": {
-    "en": "Exactly. The best AI workflow starts with choosing the <b>right tool for the job</b>. If the answer depends on fresh information, use something that can search or cite sources.",
-    "es": "Exacto. El mejor flujo de trabajo con IA empieza por elegir <b>la herramienta adecuada para cada tarea</b>. Si la respuesta depende de información reciente, usa algo que pueda buscar o citar fuentes.",
-    "fr": "Exactement. Un bon workflow IA commence par <b>le bon outil pour la tâche</b>. Si la réponse dépend d’informations récentes, utilisez un outil capable de chercher ou de citer ses sources.",
-    "de": "Genau. Der beste KI-Workflow beginnt mit dem <b>richtigen Tool für die Aufgabe</b>. Wenn die Antwort von aktuellen Infos abhängt, nimm etwas, das suchen oder Quellen angeben kann.",
-    "pt-br": "Exato. O melhor fluxo de trabalho com IA começa pela escolha da <b>ferramenta certa para cada tarefa</b>. Se a resposta depende de informação recente, use algo que consiga pesquisar ou citar fontes.",
-    "it": "Esatto. Il miglior flusso di lavoro con l’IA parte dalla scelta dello <b>strumento giusto per ogni compito</b>. Se la risposta dipende da informazioni recenti, usa qualcosa che sappia cercare o citare le fonti.",
-    "zh-hans": "没错。最好的 AI 工作流，从<b>为任务选对工具</b>开始。如果答案依赖最新信息，就用能搜索或引用来源的工具。"
-   },
-   "q3finalLab": {
-    "en": "Next step",
-    "es": "Siguiente paso",
-    "fr": "Étape suivante",
-    "de": "Nächster Schritt",
-    "pt-br": "Próximo passo",
-    "it": "Passo successivo",
-    "zh-hans": "下一步"
-   },
-   "q3final": {
-    "en": "Ask: &ldquo;Search recent sources, summarize the strongest patterns, and link the evidence.&rdquo;",
-    "es": "Pide: “Busca fuentes recientes, resume los patrones más claros y enlaza las pruebas.”",
-    "fr": "Demandez : « Cherche des sources récentes, résume les tendances les plus nettes et donne les liens vers les preuves. »",
-    "de": "Frag: „Durchsuche aktuelle Quellen, fasse die stärksten Muster zusammen und verlinke die Belege.“",
-    "pt-br": "Peça: “Pesquise fontes recentes, resuma os padrões mais fortes e coloque os links das evidências.”",
-    "it": "Chiedi: “Cerca fonti recenti, riassumi le tendenze più solide e metti i link alle prove.”",
-    "zh-hans": "这样问：“搜索最近的资料，总结最明显的规律，并附上证据链接。”"
-   },
-   "q4": {
-    "en": "You want to build an app with AI. What should you do first?",
-    "es": "Quieres crear una app con IA. ¿Qué deberías hacer primero?",
-    "fr": "Vous voulez créer une app avec l’IA. Par quoi commencer ?",
-    "de": "Du willst mit KI eine App bauen. Was machst du zuerst?",
-    "pt-br": "Você quer criar um app com IA. O que deve fazer primeiro?",
-    "it": "Vuoi creare un’app con l’IA. Cosa dovresti fare per prima cosa?",
-    "zh-hans": "你想用 AI 做一个 App。第一步该做什么？"
-   },
-   "q4lab": {
-    "en": "The goal",
-    "es": "El objetivo",
-    "fr": "L’objectif",
-    "de": "Das Ziel",
-    "pt-br": "O objetivo",
-    "it": "L’obiettivo",
-    "zh-hans": "目标"
-   },
-   "q4card": {
-    "en": "&ldquo;I want to build a habit tracker with AI coaching.&rdquo;",
-    "es": "“Quiero crear un tracker de hábitos con coaching de IA.”",
-    "fr": "« Je veux créer une app de suivi d’habitudes avec un coach IA. »",
-    "de": "„Ich will einen Habit-Tracker mit KI-Coaching bauen.“",
-    "pt-br": "“Quero criar um app de hábitos com coaching de IA.”",
-    "it": "“Voglio creare un’app per le abitudini con un coach di IA.”",
-    "zh-hans": "“我想做一个带 AI 教练功能的习惯打卡 App。”"
-   },
-   "q4a": {
-    "en": "Define the smallest working version",
-    "es": "Definir la versión mínima que funcione",
-    "fr": "Définir la plus petite version qui fonctionne",
-    "de": "Die kleinste funktionierende Version definieren",
-    "pt-br": "Definir a menor versão que funciona",
-    "it": "Definire la versione più piccola che funziona",
-    "zh-hans": "先定义能跑通的最小版本"
-   },
-   "q4b": {
-    "en": "Add every feature idea",
-    "es": "Añadir todas las ideas de funciones",
-    "fr": "Ajouter toutes les idées de fonctionnalités",
-    "de": "Jede Feature-Idee einbauen",
-    "pt-br": "Colocar todas as ideias de funcionalidade",
-    "it": "Aggiungere ogni idea di funzionalità",
-    "zh-hans": "把所有功能想法都加上"
-   },
-   "q4c": {
-    "en": "Start with the logo",
-    "es": "Empezar por el logo",
-    "fr": "Commencer par le logo",
-    "de": "Mit dem Logo anfangen",
-    "pt-br": "Começar pelo logo",
-    "it": "Partire dal logo",
-    "zh-hans": "先从设计 Logo 开始"
-   },
-   "q4fb": {
-    "en": "Correct. AI can generate a lot fast, but shipping starts with <b>scope</b>. Define the smallest version that proves the product works.",
-    "es": "Correcto. La IA puede generar mucho muy rápido, pero lanzar empieza por el <b>alcance</b>. Define la versión mínima que demuestre que el producto funciona.",
-    "fr": "Exact. L’IA peut produire beaucoup très vite, mais livrer commence par <b>le périmètre</b>. Définissez la plus petite version qui prouve que le produit fonctionne.",
-    "de": "Richtig. KI kann schnell viel erzeugen, aber Shipping beginnt mit dem <b>Scope</b>. Definiere die kleinste Version, die beweist, dass das Produkt funktioniert.",
-    "pt-br": "Correto. A IA gera muita coisa rápido, mas lançar começa pelo <b>escopo</b>. Defina a menor versão que prove que o produto funciona.",
-    "it": "Corretto. L’IA può generare tanto e in fretta, ma per lanciare si parte dal <b>perimetro</b>. Definisci la versione più piccola che dimostri che il prodotto funziona.",
-    "zh-hans": "正确。AI 能很快生成大量内容，但要真正上线，得先确定<b>范围</b>。定义一个能证明产品可行的最小版本。"
-   },
-   "q4final": {
-    "en": "Break this into: core user action, required data, first screen, success metric, and one thing to test with real users.",
-    "es": "Divide esto en: acción principal del usuario, datos necesarios, primera pantalla, métrica de éxito y una cosa que probar con usuarios reales.",
-    "fr": "Découpe ça en : action clé de l’utilisateur, données nécessaires, premier écran, indicateur de réussite et une chose à tester avec de vrais utilisateurs.",
-    "de": "Zerleg das in: zentrale Nutzeraktion, benötigte Daten, erster Screen, Erfolgsmetrik und eine Sache, die du mit echten Nutzern testest.",
-    "pt-br": "Divida isto em: ação principal do usuário, dados necessários, primeira tela, métrica de sucesso e uma coisa para testar com usuários reais.",
-    "it": "Scomponi in: azione principale dell’utente, dati necessari, prima schermata, metrica di successo e una cosa da testare con utenti reali.",
-    "zh-hans": "把它拆成：核心用户操作、所需数据、第一个界面、成功指标，以及一件要和真实用户一起测试的事。"
-   },
-   "q5": {
-    "en": "You got the answer wrong. What should happen next?",
-    "es": "Fallaste la respuesta. ¿Qué debería pasar ahora?",
-    "fr": "Mauvaise réponse. Que devrait-il se passer ensuite ?",
-    "de": "Du lagst falsch. Was sollte jetzt passieren?",
-    "pt-br": "Você errou a resposta. O que deve acontecer agora?",
-    "it": "Hai sbagliato la risposta. Cosa dovrebbe succedere ora?",
-    "zh-hans": "你答错了。接下来应该怎样？"
-   },
-   "q5lab": {
-    "en": "The mistake",
-    "es": "El error",
-    "fr": "L’erreur",
-    "de": "Der Fehler",
-    "pt-br": "O erro",
-    "it": "L’errore",
-    "zh-hans": "错误"
-   },
-   "q5card": {
-    "en": "You picked a prompt that was too broad.",
-    "es": "Elegiste un prompt demasiado general.",
-    "fr": "Vous avez choisi un prompt trop vague.",
-    "de": "Du hast einen zu allgemeinen Prompt gewählt.",
-    "pt-br": "Você escolheu um prompt amplo demais.",
-    "it": "Hai scelto un prompt troppo generico.",
-    "zh-hans": "你选了一个范围太宽泛的提示词。"
-   },
-   "q5a": {
-    "en": "Turn the mistake into another practice rep",
-    "es": "Convertir el error en otra práctica",
-    "fr": "Transformer l’erreur en nouvel exercice",
-    "de": "Den Fehler in eine neue Übung verwandeln",
-    "pt-br": "Transformar o erro em mais um treino",
-    "it": "Trasformare l’errore in un altro allenamento",
-    "zh-hans": "把错误变成又一次练习"
-   },
-   "q5b": {
-    "en": "Skip the concept",
-    "es": "Saltarse el concepto",
-    "fr": "Passer le concept",
-    "de": "Das Konzept überspringen",
-    "pt-br": "Pular o conceito",
-    "it": "Saltare il concetto",
-    "zh-hans": "跳过这个概念"
-   },
-   "q5c": {
-    "en": "Just reveal the answer",
-    "es": "Mostrar la respuesta sin más",
-    "fr": "Révéler simplement la réponse",
-    "de": "Einfach die Lösung zeigen",
-    "pt-br": "Só mostrar a resposta",
-    "it": "Mostrare subito la risposta",
-    "zh-hans": "直接显示答案"
-   },
-   "q5fb": {
-    "en": "Exactly. Mistakes are useful when they become <b>targeted practice</b>. Iro explains what went wrong, then gives you a sharper rep while the concept is fresh.",
-    "es": "Exacto. Los errores sirven cuando se convierten en <b>práctica dirigida</b>. Iro te explica qué falló y te propone una práctica más afinada mientras el concepto está fresco.",
-    "fr": "Exactement. Les erreurs deviennent utiles quand elles se transforment en <b>entraînement ciblé</b>. Iro explique ce qui n’a pas marché, puis vous propose un exercice plus précis tant que la notion est fraîche.",
-    "de": "Genau. Fehler bringen dich weiter, wenn sie zu <b>gezieltem Training</b> werden. Iro erklärt, was schiefging, und gibt dir eine gezieltere Übung, solange das Konzept frisch ist.",
-    "pt-br": "Exato. Erros são úteis quando viram <b>prática direcionada</b>. O Iro explica o que deu errado e passa um treino mais afiado enquanto o conceito está fresco.",
-    "it": "Esatto. Gli errori servono quando diventano <b>pratica mirata</b>. Iro ti spiega cosa è andato storto e ti propone un allenamento più mirato finché il concetto è fresco.",
-    "zh-hans": "没错。错误只有变成<b>有针对性的练习</b>才有价值。Iro 会解释哪里出了问题，然后趁你还记得，再给你出一道更有针对性的练习题。"
-   },
-   "q5finalLab": {
-    "en": "Next practice",
-    "es": "Siguiente práctica",
-    "fr": "Exercice suivant",
-    "de": "Nächste Übung",
-    "pt-br": "Próximo treino",
-    "it": "Prossimo allenamento",
-    "zh-hans": "下一道练习"
-   },
-   "q5final": {
-    "en": "Try this: rewrite &ldquo;Help me launch my app&rdquo; with a clear audience, goal, and constraint.",
-    "es": "Prueba esto: reescribe “Ayúdame a lanzar mi app” con un público, un objetivo y una restricción claros.",
-    "fr": "Essayez : réécrivez « Aide-moi à lancer mon app » avec un public, un objectif et une contrainte clairs.",
-    "de": "Probier’s aus: Formuliere „Hilf mir, meine App zu launchen“ neu, mit klarer Zielgruppe, klarem Ziel und einer Vorgabe.",
-    "pt-br": "Tente isto: reescreva “Me ajude a lançar meu app” com público, objetivo e restrição claros.",
-    "it": "Prova così: riscrivi “Aiutami a lanciare la mia app” con un pubblico, un obiettivo e un vincolo chiari.",
-    "zh-hans": "试试这个：用明确的受众、目标和限制条件，重写“帮我发布我的 App”。"
-   },
-   "baBefore": {
-    "en": "<div class=\"cc-ba\"><div class=\"cc-ba-row before\"><span class=\"cc-ba-lab\">Before</span><span class=\"cc-ba-txt\">",
-    "es": "<div class=\"cc-ba\"><div class=\"cc-ba-row before\"><span class=\"cc-ba-lab\">Antes</span><span class=\"cc-ba-txt\">",
-    "fr": "<div class=\"cc-ba\"><div class=\"cc-ba-row before\"><span class=\"cc-ba-lab\">Avant</span><span class=\"cc-ba-txt\">",
-    "de": "<div class=\"cc-ba\"><div class=\"cc-ba-row before\"><span class=\"cc-ba-lab\">Vorher</span><span class=\"cc-ba-txt\">",
-    "pt-br": "<div class=\"cc-ba\"><div class=\"cc-ba-row before\"><span class=\"cc-ba-lab\">Antes</span><span class=\"cc-ba-txt\">",
-    "it": "<div class=\"cc-ba\"><div class=\"cc-ba-row before\"><span class=\"cc-ba-lab\">Prima</span><span class=\"cc-ba-txt\">",
-    "zh-hans": "<div class=\"cc-ba\"><div class=\"cc-ba-row before\"><span class=\"cc-ba-lab\">修改前</span><span class=\"cc-ba-txt\">"
-   },
-   "baAfter": {
-    "en": "</span></div><div class=\"cc-ba-row after\"><span class=\"cc-ba-lab\">After</span><span class=\"cc-ba-txt\">",
-    "es": "</span></div><div class=\"cc-ba-row after\"><span class=\"cc-ba-lab\">Después</span><span class=\"cc-ba-txt\">",
-    "fr": "</span></div><div class=\"cc-ba-row after\"><span class=\"cc-ba-lab\">Après</span><span class=\"cc-ba-txt\">",
-    "de": "</span></div><div class=\"cc-ba-row after\"><span class=\"cc-ba-lab\">Nachher</span><span class=\"cc-ba-txt\">",
-    "pt-br": "</span></div><div class=\"cc-ba-row after\"><span class=\"cc-ba-lab\">Depois</span><span class=\"cc-ba-txt\">",
-    "it": "</span></div><div class=\"cc-ba-row after\"><span class=\"cc-ba-lab\">Dopo</span><span class=\"cc-ba-txt\">",
-    "zh-hans": "</span></div><div class=\"cc-ba-row after\"><span class=\"cc-ba-lab\">修改后</span><span class=\"cc-ba-txt\">"
-   },
-   "cue": {
-    "en": "<span class=\"cc-cue-hand\">👆</span>Your turn, tap an answer",
-    "es": "<span class=\"cc-cue-hand\">👆</span>Te toca: elige una respuesta",
-    "fr": "<span class=\"cc-cue-hand\">👆</span>À vous : touchez une réponse",
-    "de": "<span class=\"cc-cue-hand\">👆</span>Du bist dran: tippe eine Antwort an",
-    "pt-br": "<span class=\"cc-cue-hand\">👆</span>Sua vez: toque em uma resposta",
-    "it": "<span class=\"cc-cue-hand\">👆</span>Tocca a te: scegli una risposta",
-    "zh-hans": "<span class=\"cc-cue-hand\">👆</span>轮到你了，点一个答案"
-   },
-   "notQuite": {
-    "en": "Not quite. The stronger move is <b>",
-    "es": "Casi. La mejor opción es <b>",
-    "fr": "Pas tout à fait. Le meilleur choix était <b>",
-    "de": "Nicht ganz. Die bessere Wahl ist <b>",
-    "pt-br": "Quase. A melhor opção é <b>",
-    "it": "Quasi. La mossa migliore è <b>",
-    "zh-hans": "差一点。更好的做法是<b>"
-   },
-   "notQuiteEnd": {
-    "en": "</b>.",
-    "es": "</b>.",
-    "fr": "</b>.",
-    "de": "</b>.",
-    "pt-br": "</b>.",
-    "it": "</b>.",
-    "zh-hans": "</b>。"
-   },
-   "keepPracticing": {
-    "en": "Keep practicing inside Iro. It runs this loop on every lesson.",
-    "es": "Sigue practicando en Iro. Repite este ciclo en cada lección.",
-    "fr": "Continuez à vous entraîner dans Iro. Cette boucle revient à chaque leçon.",
-    "de": "Übe in Iro weiter. Dieser Ablauf steckt in jeder Lektion.",
-    "pt-br": "Continue praticando no Iro. Ele repete esse ciclo em todas as lições.",
-    "it": "Continua ad allenarti su Iro. Ripete questo ciclo in ogni lezione.",
-    "zh-hans": "在 Iro 里继续练习吧。每节课都会走一遍这个循环。"
-   },
-   "thatsTheSkill": {
-    "en": "That&rsquo;s the skill. Ready for the next one?",
-    "es": "Esa es la habilidad. ¿Vamos con la siguiente?",
-    "fr": "C’est ça, la compétence. On passe à la suivante ?",
-    "de": "Genau das ist die Fähigkeit. Weiter zur nächsten?",
-    "pt-br": "Essa é a habilidade. Bora para a próxima?",
-    "it": "Questa è la competenza. Passiamo alla prossima?",
-    "zh-hans": "这就是关键技能。准备好下一个了吗？"
-   },
-   "startOver": {
-    "en": "Start over ↻",
-    "es": "Empezar de nuevo ↻",
-    "fr": "Recommencer ↻",
-    "de": "Von vorn ↻",
-    "pt-br": "Começar de novo ↻",
-    "it": "Ricomincia ↻",
-    "zh-hans": "重新开始 ↻"
-   },
-   "nextTip": {
-    "en": "Next coaching tip →",
-    "es": "Siguiente consejo →",
-    "fr": "Conseil suivant →",
-    "de": "Nächster Tipp →",
-    "pt-br": "Próxima dica do coach →",
-    "it": "Prossimo consiglio del coach →",
-    "zh-hans": "下一条教练建议 →"
-   },
-   "_ignore": [
-    "use strict",
-    "IntersectionObserver",
-    "DOMContentLoaded",
-    "Escape",
-    " nudge"
-   ]
   },
   "js.universe": {
    "tWood": {
@@ -3701,15 +2282,6 @@
     "it": "Impara l’IA come un gioco",
     "zh-hans": "像玩游戏一样学 AI"
    },
-   "learnTag": {
-    "en": "DAILY MAP",
-    "es": "MAPA DIARIO",
-    "fr": "CARTE DU JOUR",
-    "de": "TAGESKARTE",
-    "pt-br": "MAPA DIÁRIO",
-    "it": "MAPPA QUOTIDIANA",
-    "zh-hans": "每日地图"
-   },
    "learnD": {
     "en": "Lessons snake along a Duolingo-style trail, one clear next step, with chests and challenges along the way.",
     "es": "Las lecciones avanzan por un camino al estilo Duolingo, con un siguiente paso claro y cofres y retos por el camino.",
@@ -3763,15 +2335,6 @@
     "pt-br": "Domine ChatGPT e Claude",
     "it": "Padroneggia ChatGPT e Claude",
     "zh-hans": "精通 ChatGPT 和 Claude"
-   },
-   "toolsTag": {
-    "en": "34 PATHS",
-    "es": "34 RUTAS",
-    "fr": "34 PARCOURS",
-    "de": "34 LERNPFADE",
-    "pt-br": "34 TRILHAS",
-    "it": "34 PERCORSI",
-    "zh-hans": "34 条路径"
    },
    "toolsD": {
     "en": "Thirty-four guided paths across core AI skills and tool mastery. Pick one and watch the bar fill.",
@@ -3827,15 +2390,6 @@
     "it": "Allenati in 5 minuti",
     "zh-hans": "5 分钟实战练习"
    },
-   "practiceTag": {
-    "en": "HANDS-ON",
-    "es": "PRÁCTICO",
-    "fr": "PRATIQUE",
-    "de": "PRAXIS",
-    "pt-br": "MÃO NA MASSA",
-    "it": "SUL CAMPO",
-    "zh-hans": "动手实操"
-   },
    "practiceD": {
     "en": "Match each AI tool to what it actually does best, then check your answer.",
     "es": "Relaciona cada herramienta de IA con lo que mejor hace y comprueba tu respuesta.",
@@ -3890,15 +2444,6 @@
     "it": "Chiedi a Iro cosa fare adesso",
     "zh-hans": "问 Iro 下一步做什么"
    },
-   "coachTag": {
-    "en": "AI COACH",
-    "es": "COACH DE IA",
-    "fr": "COACH IA",
-    "de": "KI-COACH",
-    "pt-br": "COACH DE IA",
-    "it": "COACH IA",
-    "zh-hans": "AI 教练"
-   },
    "coachD": {
     "en": "Iro draws answers as charts, searches the web, remembers what you told it and quizzes you on any topic.",
     "es": "Iro dibuja las respuestas como gráficos, busca en la web, recuerda lo que le contaste y te pone a prueba sobre cualquier tema.",
@@ -3945,31 +2490,22 @@
     "zh-hans": "创建"
    },
    "createH": {
-    "en": "Create any AI path",
-    "es": "Crea cualquier ruta de IA",
-    "fr": "Créez n’importe quel parcours IA",
-    "de": "Erstelle jeden KI-Lernpfad",
-    "pt-br": "Crie qualquer trilha de IA",
-    "it": "Crea qualsiasi percorso di IA",
-    "zh-hans": "创建任何 AI 路径"
-   },
-   "createTag": {
-    "en": "CUSTOM PATHS",
-    "es": "RUTAS PERSONALIZADAS",
-    "fr": "PARCOURS PERSONNALISÉS",
-    "de": "EIGENE LERNPFADE",
-    "pt-br": "TRILHAS PERSONALIZADAS",
-    "it": "PERCORSI PERSONALIZZATI",
-    "zh-hans": "自定义路径"
+    "en": "Create a path on anything",
+    "es": "Crea una ruta sobre cualquier tema",
+    "fr": "Créez un parcours sur n’importe quel sujet",
+    "de": "Erstelle einen Lernpfad zu jedem Thema",
+    "pt-br": "Crie uma trilha sobre qualquer tema",
+    "it": "Crea un percorso su qualsiasi argomento",
+    "zh-hans": "为任何主题创建路径"
    },
    "createD": {
-    "en": "Type any goal and Iro builds a custom path in seconds, lessons, quiz and recap included.",
-    "es": "Escribe cualquier objetivo e Iro crea una ruta personalizada en segundos, con lecciones, test y resumen incluidos.",
-    "fr": "Tapez n’importe quel objectif et Iro crée un parcours sur mesure en quelques secondes, leçons, quiz et récap compris.",
-    "de": "Gib ein beliebiges Ziel ein und Iro baut in Sekunden einen eigenen Lernpfad, inklusive Lektionen, Quiz und Zusammenfassung.",
-    "pt-br": "Digite qualquer objetivo e o Iro monta uma trilha personalizada em segundos, com lições, teste e resumo incluídos.",
-    "it": "Scrivi un obiettivo qualsiasi e Iro crea un percorso personalizzato in pochi secondi, con lezioni, quiz e riepilogo inclusi.",
-    "zh-hans": "输入任何目标，Iro 几秒钟就能生成一条自定义路径，包含课程、测验和总结。"
+    "en": "Type any goal and Iro builds a custom path in seconds, lessons, quiz and recap included. Or paste a TikTok or YouTube link, or upload a screenshot or PDF.",
+    "es": "Escribe cualquier objetivo e Iro crea una ruta personalizada en segundos, con lecciones, test y resumen incluidos. O pega un enlace de TikTok o YouTube, o sube una captura de pantalla o un PDF.",
+    "fr": "Tapez n’importe quel objectif et Iro crée un parcours sur mesure en quelques secondes, leçons, quiz et récap compris. Ou collez un lien TikTok ou YouTube, ou importez une capture d’écran ou un PDF.",
+    "de": "Gib ein beliebiges Ziel ein und Iro baut in Sekunden einen eigenen Lernpfad, inklusive Lektionen, Quiz und Zusammenfassung. Oder füge einen TikTok- oder YouTube-Link ein oder lade einen Screenshot oder ein PDF hoch.",
+    "pt-br": "Digite qualquer objetivo e o Iro monta uma trilha personalizada em segundos, com lições, teste e resumo incluídos. Ou cole um link do TikTok ou do YouTube, ou envie uma captura de tela ou um PDF.",
+    "it": "Scrivi un obiettivo qualsiasi e Iro crea un percorso personalizzato in pochi secondi, con lezioni, quiz e riepilogo inclusi. Oppure incolla un link di TikTok o YouTube, o carica uno screenshot o un PDF.",
+    "zh-hans": "输入任何目标，Iro 几秒钟就能生成一条自定义路径，包含课程、测验和总结。你也可以粘贴 TikTok 或 YouTube 链接，或上传截图或 PDF。"
    },
    "createB1": {
     "en": "&ldquo;Learn AI for work&rdquo; &rarr; a full path",
@@ -4006,15 +2542,6 @@
     "pt-br": "Escreva o prompt. Veja a imagem.",
     "it": "Scrivi il prompt. Guarda l’immagine.",
     "zh-hans": "写下提示词，马上看到图。"
-   },
-   "imageTag": {
-    "en": "IMAGE PROMPTS",
-    "es": "PROMPTS DE IMAGEN",
-    "fr": "PROMPTS D’IMAGE",
-    "de": "BILD-PROMPTS",
-    "pt-br": "PROMPTS DE IMAGEM",
-    "it": "PROMPT PER IMMAGINI",
-    "zh-hans": "图像提示词"
    },
    "imageD": {
     "en": "Write a prompt, generate the image, then change the prompt and watch what moves.",
@@ -4070,15 +2597,6 @@
     "it": "Costruisci il tuo Operatore di IA",
     "zh-hans": "打造你的 AI Operator"
    },
-   "operatorTag": {
-    "en": "SKILL PROFILE",
-    "es": "PERFIL DE HABILIDADES",
-    "fr": "PROFIL DE COMPÉTENCES",
-    "de": "SKILL-PROFIL",
-    "pt-br": "PERFIL DE HABILIDADES",
-    "it": "PROFILO DELLE COMPETENZE",
-    "zh-hans": "技能档案"
-   },
    "operatorD": {
     "en": "Six skill zones scored out of 100 roll up into your Operator Build and its power level.",
     "es": "Seis áreas de habilidad puntuadas sobre 100 forman tu Operator Build y su nivel de poder.",
@@ -4132,15 +2650,6 @@
     "pt-br": "Vença duelos de IA contra o relógio",
     "it": "Vinci duelli di IA a tempo",
     "zh-hans": "赢下限时 AI 对战"
-   },
-   "duelsTag": {
-    "en": "AI DUELS \\u00b7 PRO",
-    "es": "DUELOS DE IA \\u00b7 PRO",
-    "fr": "DUELS IA \\u00b7 PRO",
-    "de": "KI-DUELLE \\u00b7 PRO",
-    "pt-br": "DUELOS DE IA \\u00b7 PRO",
-    "it": "DUELLI DI IA \\u00b7 PRO",
-    "zh-hans": "AI 对战 \\u00b7 PRO"
    },
    "duelsD": {
     "en": "Five questions, fifteen seconds each, against an opponent matched to your rating.",
@@ -4196,15 +2705,6 @@
     "it": "Resta al passo con le notizie di IA",
     "zh-hans": "紧跟 AI 新闻"
    },
-   "newsTag": {
-    "en": "WEEKLY",
-    "es": "SEMANAL",
-    "fr": "HEBDO",
-    "de": "WÖCHENTLICH",
-    "pt-br": "SEMANAL",
-    "it": "SETTIMANALE",
-    "zh-hans": "每周"
-   },
    "newsD": {
     "en": "Weekly AI briefings with read-and-quiz exercises. Earn XP for keeping up.",
     "es": "Resúmenes semanales de IA con ejercicios de lectura y test. Gana XP por estar al día.",
@@ -4259,15 +2759,6 @@
     "it": "Sali di grado e fai evolvere Iro",
     "zh-hans": "提升段位，让 Iro 进化"
    },
-   "rankTag": {
-    "en": "EVOLUTION",
-    "es": "EVOLUCIÓN",
-    "fr": "ÉVOLUTION",
-    "de": "EVOLUTION",
-    "pt-br": "EVOLUÇÃO",
-    "it": "EVOLUZIONE",
-    "zh-hans": "进化"
-   },
    "rankD": {
     "en": "Hit a new rank and Iro evolves, all the way to Diamond and Iro the Archmage.",
     "es": "Alcanza un nuevo rango e Iro evoluciona, hasta Diamante e Iro el Archimago.",
@@ -4321,15 +2812,6 @@
     "pt-br": "Ganhe certificados de IA",
     "it": "Ottieni certificati di IA",
     "zh-hans": "赢得 AI 证书"
-   },
-   "certTag": {
-    "en": "CREDENTIALS",
-    "es": "CREDENCIALES",
-    "fr": "CERTIFICATIONS",
-    "de": "NACHWEISE",
-    "pt-br": "CREDENCIAIS",
-    "it": "CREDENZIALI",
-    "zh-hans": "资质证明"
    },
    "certD": {
     "en": "Finish a path and earn a certificate with its own credential ID. Claim it with your name on Pro and post it to LinkedIn.",
@@ -4447,1004 +2929,6 @@
     "IntersectionObserver",
     "DOMContentLoaded",
     "Escape"
-   ]
-  },
-  "js.cpData": {
-   "topicBusiness": {
-    "en": "grow my business",
-    "es": "hacer crecer mi negocio",
-    "fr": "développer mon entreprise",
-    "de": "mein Business ausbauen",
-    "pt-br": "fazer meu negócio crescer",
-    "it": "far crescere la mia attività",
-    "zh-hans": "让我的生意增长"
-   },
-   "recapBusiness": {
-    "en": "your 90-day growth plan",
-    "es": "tu plan de crecimiento a 90 días",
-    "fr": "votre plan de croissance sur 90 jours",
-    "de": "dein 90-Tage-Wachstumsplan",
-    "pt-br": "seu plano de crescimento de 90 dias",
-    "it": "il tuo piano di crescita a 90 giorni",
-    "zh-hans": "你的 90 天增长计划"
-   },
-   "b1": {
-    "en": "Find your ideal customer",
-    "es": "Encuentra a tu cliente ideal",
-    "fr": "Trouvez votre client idéal",
-    "de": "Finde deinen Idealkunden",
-    "pt-br": "Encontre seu cliente ideal",
-    "it": "Trova il tuo cliente ideale",
-    "zh-hans": "找到你的理想客户"
-   },
-   "b2": {
-    "en": "Craft an offer they want",
-    "es": "Crea una oferta que quieran",
-    "fr": "Construisez une offre qui leur plaît",
-    "de": "Schnür ein Angebot, das sie wollen",
-    "pt-br": "Crie uma oferta que ele queira",
-    "it": "Crea un’offerta che vogliono davvero",
-    "zh-hans": "打造客户想要的产品方案"
-   },
-   "b3": {
-    "en": "Land your first 10 sales",
-    "es": "Consigue tus primeras 10 ventas",
-    "fr": "Décrochez vos 10 premières ventes",
-    "de": "Hol dir deine ersten 10 Verkäufe",
-    "pt-br": "Feche suas primeiras 10 vendas",
-    "it": "Chiudi le tue prime 10 vendite",
-    "zh-hans": "拿下前 10 笔订单"
-   },
-   "b4": {
-    "en": "Build a referral loop",
-    "es": "Crea un circuito de recomendaciones",
-    "fr": "Mettez en place le bouche-à-oreille",
-    "de": "Bau einen Empfehlungskreislauf auf",
-    "pt-br": "Crie um ciclo de indicações",
-    "it": "Crea un circolo di passaparola",
-    "zh-hans": "建立转介绍循环"
-   },
-   "b5": {
-    "en": "Track the numbers that matter",
-    "es": "Mide las cifras que importan",
-    "fr": "Suivez les chiffres qui comptent",
-    "de": "Behalte die wichtigen Zahlen im Blick",
-    "pt-br": "Acompanhe os números que importam",
-    "it": "Monitora i numeri che contano",
-    "zh-hans": "盯住真正重要的数据"
-   },
-   "bConcept": {
-    "en": "Who you sell to shapes everything else.",
-    "es": "A quién le vendes lo define todo lo demás.",
-    "fr": "À qui vous vendez détermine tout le reste.",
-    "de": "Wem du verkaufst, prägt alles andere.",
-    "pt-br": "Para quem você vende define todo o resto.",
-    "it": "A chi vendi determina tutto il resto.",
-    "zh-hans": "你卖给谁，决定了其他一切。"
-   },
-   "bExercise": {
-    "en": "Write a one-line profile of the customer you help most.",
-    "es": "Escribe en una línea el perfil del cliente al que más ayudas.",
-    "fr": "Décrivez en une ligne le client que vous aidez le plus.",
-    "de": "Beschreib in einem Satz den Kunden, dem du am meisten hilfst.",
-    "pt-br": "Escreva em uma linha o perfil do cliente que você mais ajuda.",
-    "it": "Descrivi in una riga il cliente che aiuti di più.",
-    "zh-hans": "用一句话描述你最能帮到的那类客户。"
-   },
-   "topicSpeaking": {
-    "en": "public speaking",
-    "es": "hablar en público",
-    "fr": "prise de parole en public",
-    "de": "Reden halten",
-    "pt-br": "falar em público",
-    "it": "parlare in pubblico",
-    "zh-hans": "公开演讲"
-   },
-   "recapSpeaking": {
-    "en": "your speaker's playbook",
-    "es": "tu manual de orador",
-    "fr": "votre guide de l’orateur",
-    "de": "dein Redner-Playbook",
-    "pt-br": "seu manual de palestrante",
-    "it": "il tuo manuale da oratore",
-    "zh-hans": "你的演讲手册"
-   },
-   "s1": {
-    "en": "Turn nerves into energy",
-    "es": "Convierte los nervios en energía",
-    "fr": "Transformez le trac en énergie",
-    "de": "Mach Nervosität zu Energie",
-    "pt-br": "Transforme o nervosismo em energia",
-    "it": "Trasforma l’ansia in energia",
-    "zh-hans": "把紧张变成能量"
-   },
-   "s2": {
-    "en": "Structure a talk that lands",
-    "es": "Estructura una charla que cale",
-    "fr": "Structurez une intervention qui porte",
-    "de": "Bau einen Vortrag, der ankommt",
-    "pt-br": "Estruture uma palestra que funciona",
-    "it": "Struttura un discorso che arriva",
-    "zh-hans": "搭好一场能打动人的演讲结构"
-   },
-   "s3": {
-    "en": "Open with a strong hook",
-    "es": "Arranca con un gancho potente",
-    "fr": "Ouvrez sur une accroche forte",
-    "de": "Starte mit einem starken Einstieg",
-    "pt-br": "Abra com um gancho forte",
-    "it": "Apri con un gancio forte",
-    "zh-hans": "用有力的开场抓住听众"
-   },
-   "s4": {
-    "en": "Master pace and pauses",
-    "es": "Domina el ritmo y las pausas",
-    "fr": "Maîtrisez le rythme et les pauses",
-    "de": "Tempo und Pausen beherrschen",
-    "pt-br": "Domine o ritmo e as pausas",
-    "it": "Padroneggia ritmo e pause",
-    "zh-hans": "掌握节奏和停顿"
-   },
-   "s5": {
-    "en": "Handle Q&A with confidence",
-    "es": "Responde preguntas con seguridad",
-    "fr": "Gérez les questions avec aplomb",
-    "de": "Fragerunden souverän meistern",
-    "pt-br": "Responda perguntas com confiança",
-    "it": "Rispondi alle domande con sicurezza",
-    "zh-hans": "从容应对问答环节"
-   },
-   "sConcept": {
-    "en": "Nerves are energy you can redirect, not erase.",
-    "es": "Los nervios son energía que puedes redirigir, no borrar.",
-    "fr": "Le trac est une énergie à canaliser, pas à effacer.",
-    "de": "Nervosität ist Energie, die du umlenken, nicht löschen kannst.",
-    "pt-br": "Nervosismo é energia que você pode redirecionar, não apagar.",
-    "it": "L’ansia è energia che puoi reindirizzare, non cancellare.",
-    "zh-hans": "紧张是可以引导的能量，不必消除。"
-   },
-   "sExercise": {
-    "en": "Name the one point your talk must land.",
-    "es": "Define la única idea que tu charla debe transmitir.",
-    "fr": "Formulez le message clé que votre intervention doit faire passer.",
-    "de": "Benenne den einen Punkt, der hängen bleiben muss.",
-    "pt-br": "Defina a única ideia que sua palestra precisa passar.",
-    "it": "Definisci l’unico punto che il tuo discorso deve far arrivare.",
-    "zh-hans": "写下你的演讲必须传达的那一个观点。"
-   },
-   "topicShape": {
-    "en": "getting in shape",
-    "es": "ponerse en forma",
-    "fr": "se remettre en forme",
-    "de": "fit werden",
-    "pt-br": "entrar em forma",
-    "it": "rimettersi in forma",
-    "zh-hans": "健身塑形"
-   },
-   "recapShape": {
-    "en": "your 8-week starter plan",
-    "es": "tu plan inicial de 8 semanas",
-    "fr": "votre plan de démarrage sur 8 semaines",
-    "de": "dein 8-Wochen-Startplan",
-    "pt-br": "seu plano inicial de 8 semanas",
-    "it": "il tuo piano iniziale di 8 settimane",
-    "zh-hans": "你的 8 周入门计划"
-   },
-   "f1": {
-    "en": "Set an honest baseline",
-    "es": "Fija un punto de partida honesto",
-    "fr": "Établissez un point de départ honnête",
-    "de": "Ehrliche Ausgangslage bestimmen",
-    "pt-br": "Defina um ponto de partida honesto",
-    "it": "Fissa un punto di partenza onesto",
-    "zh-hans": "如实设定起点"
-   },
-   "f2": {
-    "en": "Build a simple 3-day split",
-    "es": "Arma una rutina sencilla de 3 días",
-    "fr": "Construisez un programme simple sur 3 jours",
-    "de": "Einfachen 3-Tage-Split aufbauen",
-    "pt-br": "Monte uma divisão simples de 3 dias",
-    "it": "Crea una scheda semplice su 3 giorni",
-    "zh-hans": "制定简单的三分化训练"
-   },
-   "f3": {
-    "en": "Master five core lifts",
-    "es": "Domina cinco ejercicios básicos",
-    "fr": "Maîtrisez cinq mouvements de base",
-    "de": "Fünf Grundübungen meistern",
-    "pt-br": "Domine cinco exercícios básicos",
-    "it": "Padroneggia cinque esercizi fondamentali",
-    "zh-hans": "掌握五个核心动作"
-   },
-   "f4": {
-    "en": "Dial in protein and sleep",
-    "es": "Ajusta proteínas y sueño",
-    "fr": "Réglez protéines et sommeil",
-    "de": "Protein und Schlaf optimieren",
-    "pt-br": "Acerte proteína e sono",
-    "it": "Sistema proteine e sonno",
-    "zh-hans": "调好蛋白质摄入和睡眠"
-   },
-   "f5": {
-    "en": "Track progress that sticks",
-    "es": "Mide un progreso que dure",
-    "fr": "Suivez des progrès durables",
-    "de": "Fortschritt festhalten, der bleibt",
-    "pt-br": "Acompanhe um progresso que dure",
-    "it": "Monitora progressi che durano",
-    "zh-hans": "记录能坚持下去的进步"
-   },
-   "fConcept": {
-    "en": "Consistency beats intensity, every single week.",
-    "es": "La constancia gana a la intensidad, todas las semanas.",
-    "fr": "La régularité bat l’intensité, chaque semaine.",
-    "de": "Beständigkeit schlägt Intensität – jede Woche.",
-    "pt-br": "Constância vence intensidade, toda semana.",
-    "it": "La costanza batte l’intensità, ogni settimana.",
-    "zh-hans": "坚持胜过强度，每一周都是。"
-   },
-   "fExercise": {
-    "en": "Pick the three days you'll train this week.",
-    "es": "Elige los tres días en que entrenarás esta semana.",
-    "fr": "Choisissez les trois jours où vous vous entraînerez cette semaine.",
-    "de": "Wähl die drei Tage, an denen du diese Woche trainierst.",
-    "pt-br": "Escolha os três dias em que você vai treinar esta semana.",
-    "it": "Scegli i tre giorni in cui ti allenerai questa settimana.",
-    "zh-hans": "选好这周你要训练的三天。"
-   },
-   "topicFinance": {
-    "en": "personal finance",
-    "es": "finanzas personales",
-    "fr": "finances personnelles",
-    "de": "persönliche Finanzen",
-    "pt-br": "finanças pessoais",
-    "it": "finanza personale",
-    "zh-hans": "个人理财"
-   },
-   "recapFinance": {
-    "en": "your money roadmap",
-    "es": "tu hoja de ruta financiera",
-    "fr": "votre feuille de route financière",
-    "de": "dein Finanz-Fahrplan",
-    "pt-br": "seu roteiro financeiro",
-    "it": "la tua tabella di marcia finanziaria",
-    "zh-hans": "你的理财路线图"
-   },
-   "m1": {
-    "en": "Map where your money goes",
-    "es": "Descubre a dónde va tu dinero",
-    "fr": "Voyez où part votre argent",
-    "de": "Finde heraus, wohin dein Geld geht",
-    "pt-br": "Descubra para onde vai seu dinheiro",
-    "it": "Scopri dove vanno i tuoi soldi",
-    "zh-hans": "弄清钱都花到哪儿去了"
-   },
-   "m2": {
-    "en": "Build a starter safety net",
-    "es": "Crea un primer colchón de ahorro",
-    "fr": "Constituez une première épargne de sécurité",
-    "de": "Einen ersten Notgroschen aufbauen",
-    "pt-br": "Monte uma primeira reserva de emergência",
-    "it": "Crea un primo fondo di emergenza",
-    "zh-hans": "存好第一笔应急金"
-   },
-   "m3": {
-    "en": "Kill high-interest debt",
-    "es": "Elimina las deudas con intereses altos",
-    "fr": "Éliminez les dettes à taux élevé",
-    "de": "Teure Schulden loswerden",
-    "pt-br": "Acabe com as dívidas de juros altos",
-    "it": "Elimina i debiti ad alto interesse",
-    "zh-hans": "还清高息债务"
-   },
-   "m4": {
-    "en": "Automate your savings",
-    "es": "Automatiza tu ahorro",
-    "fr": "Automatisez votre épargne",
-    "de": "Sparen automatisieren",
-    "pt-br": "Automatize sua poupança",
-    "it": "Automatizza i risparmi",
-    "zh-hans": "让储蓄自动化"
-   },
-   "m5": {
-    "en": "Start investing simply",
-    "es": "Empieza a invertir de forma sencilla",
-    "fr": "Commencez à investir simplement",
-    "de": "Einfach mit dem Investieren anfangen",
-    "pt-br": "Comece a investir de forma simples",
-    "it": "Inizia a investire in modo semplice",
-    "zh-hans": "从简单的投资开始"
-   },
-   "mConcept": {
-    "en": "You can't fix what you haven't measured.",
-    "es": "No puedes arreglar lo que no has medido.",
-    "fr": "On ne corrige pas ce qu’on n’a pas mesuré.",
-    "de": "Was du nicht misst, kannst du nicht verbessern.",
-    "pt-br": "Você não conserta o que não mediu.",
-    "it": "Non puoi sistemare ciò che non hai misurato.",
-    "zh-hans": "没衡量过的东西，就没法改进。"
-   },
-   "mExercise": {
-    "en": "List every subscription you paid for last month.",
-    "es": "Anota cada suscripción que pagaste el mes pasado.",
-    "fr": "Listez chaque abonnement payé le mois dernier.",
-    "de": "Liste jedes Abo auf, das du letzten Monat bezahlt hast.",
-    "pt-br": "Liste todas as assinaturas que você pagou no mês passado.",
-    "it": "Elenca ogni abbonamento che hai pagato il mese scorso.",
-    "zh-hans": "列出你上个月付过费的每一项订阅。"
-   },
-   "topicCooking": {
-    "en": "cooking basics",
-    "es": "cocina básica",
-    "fr": "les bases de la cuisine",
-    "de": "Kochen für Einsteiger",
-    "pt-br": "culinária básica",
-    "it": "cucina di base",
-    "zh-hans": "烹饪入门"
-   },
-   "recapCooking": {
-    "en": "your weeknight cookbook",
-    "es": "tu recetario para el día a día",
-    "fr": "votre carnet de recettes de la semaine",
-    "de": "dein Feierabend-Kochbuch",
-    "pt-br": "seu caderno de receitas do dia a dia",
-    "it": "il tuo ricettario per tutti i giorni",
-    "zh-hans": "你的工作日晚餐食谱"
-   },
-   "c1": {
-    "en": "Stock a starter kitchen",
-    "es": "Equipa una cocina básica",
-    "fr": "Équipez une cuisine de base",
-    "de": "Eine Grundküche ausstatten",
-    "pt-br": "Monte uma cozinha básica",
-    "it": "Attrezza una cucina di base",
-    "zh-hans": "备齐厨房基础装备"
-   },
-   "c2": {
-    "en": "Master basic knife skills",
-    "es": "Domina las técnicas básicas de cuchillo",
-    "fr": "Maîtrisez les bases du couteau",
-    "de": "Grundlegende Messertechniken",
-    "pt-br": "Domine o básico da faca",
-    "it": "Impara le tecniche base di coltello",
-    "zh-hans": "掌握基本刀工"
-   },
-   "c3": {
-    "en": "Cook five go-to meals",
-    "es": "Cocina cinco platos de confianza",
-    "fr": "Cuisinez cinq plats incontournables",
-    "de": "Fünf Lieblingsgerichte kochen",
-    "pt-br": "Cozinhe cinco pratos de confiança",
-    "it": "Prepara cinque piatti di fiducia",
-    "zh-hans": "学会五道拿手菜"
-   },
-   "c4": {
-    "en": "Season and taste as you go",
-    "es": "Sazona y prueba sobre la marcha",
-    "fr": "Assaisonnez et goûtez au fur et à mesure",
-    "de": "Beim Kochen würzen und abschmecken",
-    "pt-br": "Tempere e prove enquanto cozinha",
-    "it": "Condisci e assaggia man mano",
-    "zh-hans": "边做边调味、边尝"
-   },
-   "c5": {
-    "en": "Plan a week of dinners",
-    "es": "Planifica una semana de cenas",
-    "fr": "Planifiez une semaine de dîners",
-    "de": "Eine Woche Abendessen planen",
-    "pt-br": "Planeje uma semana de jantares",
-    "it": "Pianifica una settimana di cene",
-    "zh-hans": "规划一周的晚餐"
-   },
-   "cConcept": {
-    "en": "Great cooking is mostly prep and heat control.",
-    "es": "Cocinar bien es sobre todo preparación y control del fuego.",
-    "fr": "Bien cuisiner, c’est surtout de la préparation et la maîtrise du feu.",
-    "de": "Gutes Kochen ist vor allem Vorbereitung und Hitzekontrolle.",
-    "pt-br": "Cozinhar bem é, acima de tudo, preparo e controle do fogo.",
-    "it": "Cucinare bene è soprattutto preparazione e controllo del fuoco.",
-    "zh-hans": "好厨艺主要靠备料和火候。"
-   },
-   "cExercise": {
-    "en": "Choose one meal to cook without a recipe tonight.",
-    "es": "Elige un plato para cocinar esta noche sin receta.",
-    "fr": "Choisissez un plat à cuisiner ce soir sans recette.",
-    "de": "Such dir ein Gericht aus, das du heute ohne Rezept kochst.",
-    "pt-br": "Escolha um prato para fazer hoje à noite sem receita.",
-    "it": "Scegli un piatto da cucinare stasera senza ricetta.",
-    "zh-hans": "今晚选一道不看菜谱也能做的菜。"
-   },
-   "topicGuitar": {
-    "en": "learning guitar",
-    "es": "aprender guitarra",
-    "fr": "apprendre la guitare",
-    "de": "Gitarre lernen",
-    "pt-br": "aprender violão",
-    "it": "imparare la chitarra",
-    "zh-hans": "学吉他"
-   },
-   "recapGuitar": {
-    "en": "your daily practice routine",
-    "es": "tu rutina de práctica diaria",
-    "fr": "votre routine d’entraînement quotidienne",
-    "de": "deine tägliche Übungsroutine",
-    "pt-br": "sua rotina de prática diária",
-    "it": "la tua routine di pratica quotidiana",
-    "zh-hans": "你的每日练琴计划"
-   },
-   "g1": {
-    "en": "Tune up and hold it right",
-    "es": "Afina y sujétala bien",
-    "fr": "Accordez-la et tenez-la bien",
-    "de": "Stimmen und richtig halten",
-    "pt-br": "Afine e segure do jeito certo",
-    "it": "Accordala e impugnala bene",
-    "zh-hans": "调好音，抱琴姿势要对"
-   },
-   "g2": {
-    "en": "Play your first three chords",
-    "es": "Toca tus tres primeros acordes",
-    "fr": "Jouez vos trois premiers accords",
-    "de": "Deine ersten drei Akkorde spielen",
-    "pt-br": "Toque seus três primeiros acordes",
-    "it": "Suona i tuoi primi tre accordi",
-    "zh-hans": "弹出你的前三个和弦"
-   },
-   "g3": {
-    "en": "Switch chords cleanly",
-    "es": "Cambia de acorde con limpieza",
-    "fr": "Changez d’accord proprement",
-    "de": "Akkorde sauber wechseln",
-    "pt-br": "Troque de acorde sem sujeira",
-    "it": "Cambia accordo in modo pulito",
-    "zh-hans": "干净利落地换和弦"
-   },
-   "g4": {
-    "en": "Strum in time",
-    "es": "Rasguea a tiempo",
-    "fr": "Grattez en rythme",
-    "de": "Im Takt schlagen",
-    "pt-br": "Faça a batida no tempo",
-    "it": "Tieni il tempo con la pennata",
-    "zh-hans": "跟上节拍扫弦"
-   },
-   "g5": {
-    "en": "Play your first full song",
-    "es": "Toca tu primera canción completa",
-    "fr": "Jouez votre premier morceau entier",
-    "de": "Deinen ersten ganzen Song spielen",
-    "pt-br": "Toque sua primeira música inteira",
-    "it": "Suona la tua prima canzone intera",
-    "zh-hans": "弹完你的第一首完整歌曲"
-   },
-   "gConcept": {
-    "en": "Clean changes matter more than speed.",
-    "es": "Los cambios limpios importan más que la velocidad.",
-    "fr": "Des changements propres comptent plus que la vitesse.",
-    "de": "Saubere Wechsel sind wichtiger als Tempo.",
-    "pt-br": "Trocas limpas importam mais que velocidade.",
-    "it": "I cambi puliti contano più della velocità.",
-    "zh-hans": "换和弦干净，比速度更重要。"
-   },
-   "gExercise": {
-    "en": "Hold a G chord and pluck each string clean.",
-    "es": "Pon un acorde de sol y puntea cada cuerda limpia.",
-    "fr": "Faites un accord de sol et pincez chaque corde bien nette.",
-    "de": "Greif einen G-Akkord und zupf jede Saite sauber an.",
-    "pt-br": "Monte o acorde de Sol e toque cada corda limpa.",
-    "it": "Fai un accordo di Sol e pizzica ogni corda in modo pulito.",
-    "zh-hans": "按住 G 和弦，把每根弦都拨得干干净净。"
-   },
-   "topicInterview": {
-    "en": "interview prep",
-    "es": "preparar entrevistas",
-    "fr": "préparer un entretien",
-    "de": "Vorstellungsgespräche",
-    "pt-br": "preparação para entrevista",
-    "it": "preparare un colloquio",
-    "zh-hans": "面试准备"
-   },
-   "recapInterview": {
-    "en": "your interview game plan",
-    "es": "tu plan para la entrevista",
-    "fr": "votre plan de match pour l’entretien",
-    "de": "dein Plan fürs Vorstellungsgespräch",
-    "pt-br": "seu plano de jogo para a entrevista",
-    "it": "il tuo piano per il colloquio",
-    "zh-hans": "你的面试作战计划"
-   },
-   "i1": {
-    "en": "Research the company fast",
-    "es": "Investiga la empresa rápido",
-    "fr": "Renseignez-vous vite sur l’entreprise",
-    "de": "Das Unternehmen schnell recherchieren",
-    "pt-br": "Pesquise a empresa rápido",
-    "it": "Studia l’azienda in fretta",
-    "zh-hans": "快速研究目标公司"
-   },
-   "i2": {
-    "en": "Tell your story with STAR",
-    "es": "Cuenta tu historia con el método STAR",
-    "fr": "Racontez votre parcours avec STAR",
-    "de": "Deine Story mit STAR erzählen",
-    "pt-br": "Conte sua história com o método STAR",
-    "it": "Racconta la tua storia con il metodo STAR",
-    "zh-hans": "用 STAR 法讲好你的经历"
-   },
-   "i3": {
-    "en": "Answer the tough questions",
-    "es": "Responde a las preguntas difíciles",
-    "fr": "Répondez aux questions difficiles",
-    "de": "Die harten Fragen beantworten",
-    "pt-br": "Responda às perguntas difíceis",
-    "it": "Rispondi alle domande difficili",
-    "zh-hans": "回答棘手问题"
-   },
-   "i4": {
-    "en": "Ask questions that impress",
-    "es": "Haz preguntas que impresionen",
-    "fr": "Posez des questions qui marquent",
-    "de": "Fragen stellen, die beeindrucken",
-    "pt-br": "Faça perguntas que impressionem",
-    "it": "Fai domande che colpiscono",
-    "zh-hans": "提出让人眼前一亮的问题"
-   },
-   "i5": {
-    "en": "Negotiate the offer",
-    "es": "Negocia la oferta",
-    "fr": "Négociez l’offre",
-    "de": "Das Angebot verhandeln",
-    "pt-br": "Negocie a proposta",
-    "it": "Negozia l’offerta",
-    "zh-hans": "谈好录用条件"
-   },
-   "iConcept": {
-    "en": "Interviews reward stories, not summaries.",
-    "es": "Las entrevistas premian las historias, no los resúmenes.",
-    "fr": "Les entretiens récompensent les histoires, pas les résumés.",
-    "de": "Vorstellungsgespräche belohnen Geschichten, keine Zusammenfassungen.",
-    "pt-br": "Entrevistas premiam histórias, não resumos.",
-    "it": "I colloqui premiano le storie, non i riassunti.",
-    "zh-hans": "面试看重的是故事，而不是总结。"
-   },
-   "iExercise": {
-    "en": "Draft one win as Situation, Task, Action, Result.",
-    "es": "Redacta un logro como Situación, Tarea, Acción, Resultado.",
-    "fr": "Rédigez une réussite en Situation, Tâche, Action, Résultat.",
-    "de": "Schreib einen Erfolg als Situation, Aufgabe, Aktion, Ergebnis auf.",
-    "pt-br": "Escreva uma conquista como Situação, Tarefa, Ação, Resultado.",
-    "it": "Scrivi un tuo successo come Situazione, Compito, Azione, Risultato.",
-    "zh-hans": "按情境、任务、行动、结果写下你的一次成功经历。"
-   },
-   "topicNegotiation": {
-    "en": "negotiation",
-    "es": "negociación",
-    "fr": "négociation",
-    "de": "Verhandeln",
-    "pt-br": "negociação",
-    "it": "negoziazione",
-    "zh-hans": "谈判技巧"
-   },
-   "recapNegotiation": {
-    "en": "your negotiation toolkit",
-    "es": "tu kit de negociación",
-    "fr": "votre boîte à outils de négociation",
-    "de": "dein Verhandlungs-Werkzeugkasten",
-    "pt-br": "seu kit de negociação",
-    "it": "il tuo kit di negoziazione",
-    "zh-hans": "你的谈判工具箱"
-   },
-   "n1": {
-    "en": "Know your walk-away number",
-    "es": "Conoce tu límite para retirarte",
-    "fr": "Connaissez votre seuil de rupture",
-    "de": "Kenne deine Schmerzgrenze",
-    "pt-br": "Saiba seu limite para ir embora",
-    "it": "Conosci il tuo limite per alzarti dal tavolo",
-    "zh-hans": "清楚你的底线"
-   },
-   "n2": {
-    "en": "Anchor the first offer",
-    "es": "Ancla la primera oferta",
-    "fr": "Ancrez la première offre",
-    "de": "Das erste Angebot verankern",
-    "pt-br": "Ancore a primeira oferta",
-    "it": "Ancora la prima offerta",
-    "zh-hans": "用第一个报价锚定预期"
-   },
-   "n3": {
-    "en": "Listen for what they want",
-    "es": "Escucha lo que quieren",
-    "fr": "Écoutez ce qu’ils veulent",
-    "de": "Hör heraus, was sie wollen",
-    "pt-br": "Escute o que o outro lado quer",
-    "it": "Ascolta cosa vuole l’altra parte",
-    "zh-hans": "听出对方真正想要什么"
-   },
-   "n4": {
-    "en": "Trade, don't cave",
-    "es": "Intercambia, no cedas",
-    "fr": "Échangez, ne cédez pas",
-    "de": "Tauschen statt nachgeben",
-    "pt-br": "Troque, não ceda",
-    "it": "Scambia, non cedere",
-    "zh-hans": "交换条件，不轻易让步"
-   },
-   "n5": {
-    "en": "Close without regret",
-    "es": "Cierra sin arrepentirte",
-    "fr": "Concluez sans regret",
-    "de": "Ohne Reue abschließen",
-    "pt-br": "Feche sem arrependimento",
-    "it": "Chiudi senza rimpianti",
-    "zh-hans": "成交不留遗憾"
-   },
-   "nConcept": {
-    "en": "Whoever names the number first sets the frame.",
-    "es": "Quien dice la cifra primero marca el marco.",
-    "fr": "Celui qui annonce le chiffre en premier fixe le cadre.",
-    "de": "Wer die Zahl zuerst nennt, setzt den Rahmen.",
-    "pt-br": "Quem fala o número primeiro define o jogo.",
-    "it": "Chi dice il numero per primo definisce la cornice.",
-    "zh-hans": "谁先报出数字，谁就设定了框架。"
-   },
-   "nExercise": {
-    "en": "Write the highest number you can say with a straight face.",
-    "es": "Escribe la cifra más alta que puedas decir sin pestañear.",
-    "fr": "Écrivez le chiffre le plus élevé que vous pouvez annoncer sans ciller.",
-    "de": "Schreib die höchste Zahl auf, die du mit ernstem Gesicht sagen kannst.",
-    "pt-br": "Escreva o número mais alto que você consegue dizer sem pestanejar.",
-    "it": "Scrivi il numero più alto che riesci a dire senza battere ciglio.",
-    "zh-hans": "写下你能面不改色说出口的最高数字。"
-   },
-   "topicStudy": {
-    "en": "studying smarter",
-    "es": "estudiar mejor",
-    "fr": "étudier plus efficacement",
-    "de": "smarter lernen",
-    "pt-br": "estudar melhor",
-    "it": "studiare meglio",
-    "zh-hans": "高效学习"
-   },
-   "recapStudy": {
-    "en": "your study system",
-    "es": "tu sistema de estudio",
-    "fr": "votre méthode de travail",
-    "de": "dein Lernsystem",
-    "pt-br": "seu sistema de estudo",
-    "it": "il tuo metodo di studio",
-    "zh-hans": "你的学习系统"
-   },
-   "st1": {
-    "en": "Ditch passive re-reading",
-    "es": "Deja de releer sin más",
-    "fr": "Arrêtez la relecture passive",
-    "de": "Schluss mit passivem Wiederlesen",
-    "pt-br": "Largue a releitura passiva",
-    "it": "Smetti di rileggere passivamente",
-    "zh-hans": "告别被动重读"
-   },
-   "st2": {
-    "en": "Use active recall",
-    "es": "Usa el recuerdo activo",
-    "fr": "Pratiquez le rappel actif",
-    "de": "Aktives Abrufen nutzen",
-    "pt-br": "Use a recuperação ativa",
-    "it": "Usa il richiamo attivo",
-    "zh-hans": "使用主动回忆"
-   },
-   "st3": {
-    "en": "Space your repetition",
-    "es": "Espacia tus repasos",
-    "fr": "Espacez vos révisions",
-    "de": "Wiederholungen verteilen",
-    "pt-br": "Espace suas revisões",
-    "it": "Distanzia i ripassi",
-    "zh-hans": "间隔重复复习"
-   },
-   "st4": {
-    "en": "Beat procrastination",
-    "es": "Vence la procrastinación",
-    "fr": "Battez la procrastination",
-    "de": "Aufschieberitis besiegen",
-    "pt-br": "Vença a procrastinação",
-    "it": "Sconfiggi la procrastinazione",
-    "zh-hans": "战胜拖延"
-   },
-   "st5": {
-    "en": "Prep for test day",
-    "es": "Prepárate para el día del examen",
-    "fr": "Préparez le jour de l’examen",
-    "de": "Auf den Prüfungstag vorbereiten",
-    "pt-br": "Prepare-se para o dia da prova",
-    "it": "Preparati per il giorno dell’esame",
-    "zh-hans": "为考试日做好准备"
-   },
-   "stConcept": {
-    "en": "Recalling beats reviewing, every time.",
-    "es": "Recordar gana a repasar, siempre.",
-    "fr": "Se remémorer vaut mieux que relire, à chaque fois.",
-    "de": "Abrufen schlägt Wiederholen, jedes Mal.",
-    "pt-br": "Lembrar vence revisar, sempre.",
-    "it": "Ricordare batte ripassare, sempre.",
-    "zh-hans": "主动回忆永远胜过反复翻看。"
-   },
-   "stExercise": {
-    "en": "Close the book and write what you remember.",
-    "es": "Cierra el libro y escribe lo que recuerdes.",
-    "fr": "Fermez le livre et écrivez ce dont vous vous souvenez.",
-    "de": "Klapp das Buch zu und schreib auf, was du noch weißt.",
-    "pt-br": "Feche o livro e escreva o que você lembra.",
-    "it": "Chiudi il libro e scrivi quello che ricordi.",
-    "zh-hans": "合上书，写下你还记得的内容。"
-   },
-   "topicPuppy": {
-    "en": "training a puppy",
-    "es": "educar a un cachorro",
-    "fr": "éduquer un chiot",
-    "de": "Welpen erziehen",
-    "pt-br": "adestrar um filhote",
-    "it": "educare un cucciolo",
-    "zh-hans": "训练小狗"
-   },
-   "recapPuppy": {
-    "en": "your first-90-days plan",
-    "es": "tu plan para los primeros 90 días",
-    "fr": "votre plan des 90 premiers jours",
-    "de": "dein Plan für die ersten 90 Tage",
-    "pt-br": "seu plano para os primeiros 90 dias",
-    "it": "il tuo piano per i primi 90 giorni",
-    "zh-hans": "你的头 90 天计划"
-   },
-   "p1": {
-    "en": "Set up a daily routine",
-    "es": "Establece una rutina diaria",
-    "fr": "Mettez en place une routine",
-    "de": "Einen Tagesablauf etablieren",
-    "pt-br": "Crie uma rotina diária",
-    "it": "Imposta una routine quotidiana",
-    "zh-hans": "建立每日作息"
-   },
-   "p2": {
-    "en": "Master crate training",
-    "es": "Domina el entrenamiento con transportín",
-    "fr": "Maîtrisez l’apprentissage de la caisse",
-    "de": "Boxentraining meistern",
-    "pt-br": "Domine o treino com caixa de transporte",
-    "it": "Abitualo al trasportino",
-    "zh-hans": "搞定笼内训练"
-   },
-   "p3": {
-    "en": "Teach sit, stay, and come",
-    "es": "Enseña sentado, quieto y ven",
-    "fr": "Apprenez-lui assis, pas bouger et au pied",
-    "de": "Sitz, Bleib und Hier beibringen",
-    "pt-br": "Ensine senta, fica e vem",
-    "it": "Insegna seduto, resta e vieni",
-    "zh-hans": "教会坐下、等待和过来"
-   },
-   "p4": {
-    "en": "Stop the play biting",
-    "es": "Frena los mordiscos al jugar",
-    "fr": "Stoppez les mordillements",
-    "de": "Spielerisches Beißen abgewöhnen",
-    "pt-br": "Acabe com as mordidas na brincadeira",
-    "it": "Ferma i morsi durante il gioco",
-    "zh-hans": "纠正玩耍时咬人"
-   },
-   "p5": {
-    "en": "Nail potty training",
-    "es": "Enséñale a hacer sus necesidades fuera",
-    "fr": "Réussissez l’apprentissage de la propreté",
-    "de": "Stubenreinheit hinbekommen",
-    "pt-br": "Ensine a fazer as necessidades no lugar certo",
-    "it": "Insegnagli a fare i bisogni fuori",
-    "zh-hans": "搞定定点如厕"
-   },
-   "pConcept": {
-    "en": "Reward the behavior you want to see again.",
-    "es": "Premia la conducta que quieres volver a ver.",
-    "fr": "Récompensez le comportement que vous voulez revoir.",
-    "de": "Belohne das Verhalten, das du wieder sehen willst.",
-    "pt-br": "Recompense o comportamento que você quer ver de novo.",
-    "it": "Premia il comportamento che vuoi rivedere.",
-    "zh-hans": "奖励你希望它重复的行为。"
-   },
-   "pExercise": {
-    "en": "Pick the one word you'll use to mark a win.",
-    "es": "Elige la palabra que usarás para marcar un acierto.",
-    "fr": "Choisissez le mot qui marquera chaque réussite.",
-    "de": "Wähl das eine Wort, mit dem du einen Erfolg markierst.",
-    "pt-br": "Escolha a palavra que você vai usar para marcar um acerto.",
-    "it": "Scegli la parola che userai per segnare un successo.",
-    "zh-hans": "选一个词，专门用来标记它做对了。"
-   },
-   "min5": {
-    "en": "5 min",
-    "es": "5 min",
-    "fr": "5 min",
-    "de": "5 Min.",
-    "pt-br": "5 min",
-    "it": "5 min",
-    "zh-hans": "5 分钟"
-   },
-   "min6": {
-    "en": "6 min",
-    "es": "6 min",
-    "fr": "6 min",
-    "de": "6 Min.",
-    "pt-br": "6 min",
-    "it": "6 min",
-    "zh-hans": "6 分钟"
-   },
-   "min4": {
-    "en": "4 min",
-    "es": "4 min",
-    "fr": "4 min",
-    "de": "4 Min.",
-    "pt-br": "4 min",
-    "it": "4 min",
-    "zh-hans": "4 分钟"
-   },
-   "anything": {
-    "en": "anything",
-    "es": "lo que quieras",
-    "fr": "ce que vous voulez",
-    "de": "alles",
-    "pt-br": "o que você quiser",
-    "it": "qualsiasi cosa",
-    "zh-hans": "任何技能"
-   },
-   "recapGeneric": {
-    "en": "your personal roadmap",
-    "es": "tu hoja de ruta personal",
-    "fr": "votre feuille de route personnelle",
-    "de": "dein persönlicher Fahrplan",
-    "pt-br": "seu roteiro pessoal",
-    "it": "la tua tabella di marcia personale",
-    "zh-hans": "你的个人路线图"
-   },
-   "x1": {
-    "en": "Get the fundamentals down",
-    "es": "Domina lo fundamental",
-    "fr": "Assimilez les fondamentaux",
-    "de": "Die Grundlagen verinnerlichen",
-    "pt-br": "Domine os fundamentos",
-    "it": "Consolida le basi",
-    "zh-hans": "打好基础"
-   },
-   "x2": {
-    "en": "Learn the core moves",
-    "es": "Aprende los movimientos clave",
-    "fr": "Apprenez les gestes clés",
-    "de": "Die Kernbewegungen lernen",
-    "pt-br": "Aprenda os movimentos principais",
-    "it": "Impara le mosse chiave",
-    "zh-hans": "学会核心招式"
-   },
-   "x3": {
-    "en": "Practice on a real task",
-    "es": "Practica con una tarea real",
-    "fr": "Entraînez-vous sur une vraie tâche",
-    "de": "An einer echten Aufgabe üben",
-    "pt-br": "Pratique com uma tarefa real",
-    "it": "Esercitati su un compito reale",
-    "zh-hans": "在真实任务中练习"
-   },
-   "x4": {
-    "en": "Fix the common mistakes",
-    "es": "Corrige los errores comunes",
-    "fr": "Corrigez les erreurs courantes",
-    "de": "Häufige Fehler beheben",
-    "pt-br": "Corrija os erros comuns",
-    "it": "Correggi gli errori comuni",
-    "zh-hans": "改掉常见错误"
-   },
-   "x5": {
-    "en": "Build a daily habit",
-    "es": "Crea un hábito diario",
-    "fr": "Créez une habitude quotidienne",
-    "de": "Eine tägliche Gewohnheit aufbauen",
-    "pt-br": "Crie um hábito diário",
-    "it": "Crea un’abitudine quotidiana",
-    "zh-hans": "养成每日习惯"
-   },
-   "xConcept": {
-    "en": "Every skill breaks down into a few key moves.",
-    "es": "Toda habilidad se reduce a unos pocos movimientos clave.",
-    "fr": "Chaque compétence se résume à quelques gestes clés.",
-    "de": "Jede Fähigkeit lässt sich in ein paar Kernbewegungen zerlegen.",
-    "pt-br": "Toda habilidade se resume a alguns movimentos principais.",
-    "it": "Ogni competenza si riduce a poche mosse chiave.",
-    "zh-hans": "每项技能都能拆解成几个关键动作。"
-   },
-   "xExerciseA": {
-    "en": "Write one sentence on why ",
-    "es": "Escribe una frase sobre por qué ",
-    "fr": "Écrivez une phrase sur ce que ",
-    "de": "Schreib einen Satz dazu, warum dir ",
-    "pt-br": "Escreva uma frase sobre por que ",
-    "it": "Scrivi una frase sul perché ",
-    "zh-hans": "用一句话写下："
-   },
-   "xExerciseB": {
-    "en": " matters to you.",
-    "es": " te importa.",
-    "fr": " représente pour vous.",
-    "de": " wichtig ist.",
-    "pt-br": " é importante para você.",
-    "it": " è importante per te.",
-    "zh-hans": "为什么对你很重要。"
-   },
-   "_ignore": [
-    "use strict",
-    "IntersectionObserver",
-    "DOMContentLoaded",
-    "Escape"
-   ]
-  },
-  "js.cpEngine": {
-   "generating": {
-    "en": "Generating",
-    "es": "Generando",
-    "fr": "Génération",
-    "de": "Wird erstellt",
-    "pt-br": "Gerando",
-    "it": "Generazione",
-    "zh-hans": "生成中"
-   },
-   "pathHead": {
-    "en": "<span class=\"lbl\">Your path</span><span class=\"meta\">5 lessons · quiz · recap</span>",
-    "es": "<span class=\"lbl\">Tu ruta</span><span class=\"meta\">5 lecciones · test · resumen</span>",
-    "fr": "<span class=\"lbl\">Votre parcours</span><span class=\"meta\">5 leçons · quiz · récap</span>",
-    "de": "<span class=\"lbl\">Dein Lernpfad</span><span class=\"meta\">5 Lektionen · Quiz · Zusammenfassung</span>",
-    "pt-br": "<span class=\"lbl\">Sua trilha</span><span class=\"meta\">5 lições · teste · resumo</span>",
-    "it": "<span class=\"lbl\">Il tuo percorso</span><span class=\"meta\">5 lezioni · quiz · riepilogo</span>",
-    "zh-hans": "<span class=\"lbl\">你的路径</span><span class=\"meta\">5 节课 · 测验 · 总结</span>"
-   },
-   "preview": {
-    "en": "<div class=\"cp-preview\"><div class=\"pl\">Lesson preview</div><div class=\"pc\">",
-    "es": "<div class=\"cp-preview\"><div class=\"pl\">Vista previa de la lección</div><div class=\"pc\">",
-    "fr": "<div class=\"cp-preview\"><div class=\"pl\">Aperçu de la leçon</div><div class=\"pc\">",
-    "de": "<div class=\"cp-preview\"><div class=\"pl\">Lektionsvorschau</div><div class=\"pc\">",
-    "pt-br": "<div class=\"cp-preview\"><div class=\"pl\">Prévia da lição</div><div class=\"pc\">",
-    "it": "<div class=\"cp-preview\"><div class=\"pl\">Anteprima della lezione</div><div class=\"pc\">",
-    "zh-hans": "<div class=\"cp-preview\"><div class=\"pl\">课程预览</div><div class=\"pc\">"
-   },
-   "tryIt": {
-    "en": "</div><div class=\"pe\"><b>Try it:</b> ",
-    "es": "</div><div class=\"pe\"><b>Pruébalo:</b> ",
-    "fr": "</div><div class=\"pe\"><b>À vous :</b> ",
-    "de": "</div><div class=\"pe\"><b>Probier’s:</b> ",
-    "pt-br": "</div><div class=\"pe\"><b>Experimente:</b> ",
-    "it": "</div><div class=\"pe\"><b>Prova:</b> ",
-    "zh-hans": "</div><div class=\"pe\"><b>试一试：</b>"
-   },
-   "recapCard": {
-    "en": "</span><div><span class=\"rt\">Recap card</span>",
-    "es": "</span><div><span class=\"rt\">Tarjeta de resumen</span>",
-    "fr": "</span><div><span class=\"rt\">Carte récap</span>",
-    "de": "</span><div><span class=\"rt\">Zusammenfassung</span>",
-    "pt-br": "</span><div><span class=\"rt\">Card de resumo</span>",
-    "it": "</span><div><span class=\"rt\">Scheda di riepilogo</span>",
-    "zh-hans": "</span><div><span class=\"rt\">总结卡片</span>"
-   },
-   "hint": {
-    "en": "<span class=\"k\">Auto-demo</span> · or pick a topic below",
-    "es": "<span class=\"k\">Demo automática</span> · o elige un tema abajo",
-    "fr": "<span class=\"k\">Démo auto</span> · ou choisissez un sujet ci-dessous",
-    "de": "<span class=\"k\">Auto-Demo</span> · oder wähl unten ein Thema",
-    "pt-br": "<span class=\"k\">Demo automática</span> · ou escolha um tema abaixo",
-    "it": "<span class=\"k\">Demo automatica</span> · oppure scegli un argomento qui sotto",
-    "zh-hans": "<span class=\"k\">自动演示</span> · 或在下面选一个主题"
-   },
-   "_ignore": [
-    "use strict",
-    "IntersectionObserver",
-    "DOMContentLoaded",
-    "Escape",
-    " first"
    ]
   },
   "jsonld": {
