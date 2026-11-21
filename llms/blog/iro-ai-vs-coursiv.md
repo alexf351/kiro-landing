@@ -5,10 +5,10 @@ site: "Iro AI"
 site_url: "https://tryiro.com"
 app_store: "https://apps.apple.com/app/id6759628066"
 language: en-US
-keywords: ["Iro AI vs Coursiv", "Coursiv alternative", "Coursiv review", "best AI learning app", "AI course app 2026"]
+keywords: ["Iro AI vs Coursiv", "Coursiv alternative", "Coursiv review", "best AI learning app", "AI course app 2026", "Coursiv reviews", "Coursiv pricing", "Coursiv reviews and pricing", "Coursiv cost", "is Coursiv worth it", "Coursiv refund policy"]
 date_published: "2026-05-31"
-date_modified: "2026-11-06"
-reading_time_minutes: 7
+date_modified: "2026-11-21"
+reading_time_minutes: 9
 author: "Alex Furukawa"
 license: "© 2026 Iro AI"
 canonical_llm_reference: "https://tryiro.com/llms-full.txt"
@@ -21,15 +21,16 @@ pillar: "ai-learning-apps"
 
 **Canonical:** https://tryiro.com/blog/iro-ai-vs-coursiv
 **Published:** 2026-05-31
-**Updated:** 2026-11-06
-**Reading time:** ~7 min
+**Updated:** 2026-11-21
+**Reading time:** ~9 min
 **Author:** Alex Furukawa — Founder of Iro AI
 
 ## Key takeaways
 
 - Iro AI and Coursiv both teach AI in short daily lessons but differ in teaching style and pricing.
 - Iro AI is practice-first: drills, duels, and instant feedback rather than passive video lessons.
-- Iro has a free tier and one transparent annual price; check Coursiv’s current terms before subscribing.
+- Coursiv sells auto-renewing 1-, 4- and 12-week plans and shows the price only at checkout; Iro AI is $9.99 a month or $49.99 a year with a free tier.
+- Coursiv rates 4.6 on Trustpilot from about 143,000 reviews; the complaints that do appear are mostly about extra charges and refunds.
 - Pick Iro AI if you learn by doing; pick a course app if you prefer guided video lessons.
 
 ## Who Iro is for
@@ -46,8 +47,8 @@ The quick version, before the detail:
 | --- | --- | --- |
 | How you learn | Active practice: quizzes, drills, and feedback loops | Guided lessons in a 28-day challenge format |
 | Format | Game-like, bite-sized, mobile-first | Bite-sized daily lessons, mobile-first |
-| Free entry point | Free AI IQ test, no signup needed to try | Intro offer, then paid challenge |
-| Pricing style | One annual price + 7-day free trial | Auto-renewing multi-week subscription |
+| Free entry point | Free AI IQ test, no signup needed to try | Trial or intro offer, then a paid plan |
+| Pricing style | $9.99 a month or $49.99 a year, plus a free tier | Auto-renewing 1-, 4- or 12-week plans, price shown at checkout |
 | Best for | People who learn by doing and want predictable pricing | People who like a structured course to watch through |
 
 
@@ -59,6 +60,18 @@ Coursiv details reflect publicly available information and may change. Always ch
 Coursiv is a mobile-first AI learning app that walks beginners through tools like ChatGPT and image generators using short daily lessons, often packaged as a 28-day challenge. It has reached a large audience and reviewers generally praise the clean design, clear instructions, and the low-pressure, bite-sized pace.
 
 If what you want is a guided curriculum (open the app, watch and read today's lesson, tick it off) that structure is genuinely helpful, especially when you're starting from zero and want someone to tell you what to learn next.
+
+## What do Coursiv reviews and pricing say in 2026?
+
+**Pricing.** Coursiv's own pricing page lists no dollar amounts. It says Coursiv is a subscription with 1-week, 4-week and 12-week plans that renew automatically, and that the exact price, including any trial or intro price, is shown on the checkout screen before you pay. On the US App Store, Coursiv's in-app purchases appear as "Coursiv Premium" at $9.99, $29.99 and $79.99, without the plan lengths. Its subscription terms say a trial converts to a paid plan unless you cancel at least 24 hours before it ends, and that Coursiv may change its fees with reasonable notice.
+
+**Refunds.** Coursiv's refund policy, last updated October 18, 2026, offers a full refund within 14 days of purchase only if you haven't used the product yet, and usually for the first payment only. Coursiv says it may decline other requests unless the law requires a refund. If you paid through Apple, the refund request goes to Apple. Our [Coursiv cancellation guide](/blog/cancel-coursiv) walks through each route.
+
+**Reviews.** On Trustpilot, Coursiv shows a TrustScore of 4.6 from about 143,000 reviews, with 67% five-star and 2% one-star, and it replies to every negative review. Positive reviews mostly say the lessons are clear and easy to follow for beginners. Critical ones say the content can feel basic or close to what is free online, and some describe refund requests that were turned down. On the App Store, some reviewers say an extra offer during sign-up charged them on top of the plan they picked, and one says a refund depended on finishing coursework. Coursiv's replies say add-on offers are optional and prices are shown before purchase.
+
+**The upshot:** most reviewers are happy with the lessons, and the complaints cluster around billing. Before you pay, note the plan length and renewal price on the checkout screen, skip add-ons you didn't come for, and set a reminder before any trial ends.
+
+Prices, ratings and policies come from Coursiv's pricing and legal pages, its App Store listings and its Trustpilot page, read on November 21, 2026. Reviews are what reviewers report, not claims we verified.
 
 ## How is Iro AI different from Coursiv?
 
@@ -72,17 +85,17 @@ The scale is worth stating plainly, because a drill-based app can sound slighter
 
 This is where the two apps differ most, and it's worth being clear-eyed about.
 
-**Coursiv** typically uses an introductory offer that then renews automatically as a recurring multi-week subscription. That model works fine if you track renewal dates, but auto-renewal terms are the most common thing reviewers say caught them off guard, so read the fine print before you subscribe.
+**Coursiv** sells auto-renewing 1-week, 4-week and 12-week plans and shows the exact price, including any intro offer, only at checkout. Auto-renewal and add-on charges are the most common things critical reviewers say caught them off guard, so read the checkout screen before you pay. The [reviews and pricing section](#reviews-pricing) above has the details.
 
-**Iro AI** keeps it simple: Pro is one annual price of **$49.99 a year** (about **$4.17 a month**) with a **7-day free trial**, and there's a genuinely free way to start with the AI IQ test. One price, one renewal date, no math.
+**Iro AI** keeps it simple: Pro is **$9.99 a month** or **$49.99 a year** (about **$4.17 a month**) with a **7-day free trial**, you can cancel anytime in your Apple settings, and the free tier opens every path at a pace of a full lesson a day.
 
-Third-party prices and ratings here are US figures at the time of writing and change without notice. Last reviewed August 2026.
+Third-party prices and ratings here are US figures at the time of writing and change without notice. Last reviewed November 21, 2026.
 
 ## Should you choose Iro AI or Coursiv?
 
 A simple way to decide:
 
-- **You learn best by doing**, want to actually retain the skill, and like predictable annual pricing? **Iro AI.**
+- **You learn best by doing**, want to actually retain the skill, and like simple, predictable pricing? **Iro AI.**
 - **You prefer a sit-back, guided course** with a daily lesson to watch and don't mind a recurring subscription? **Coursiv** is a fair pick.
 
 Honestly, the best move costs nothing: take the [free AI IQ test](/quiz) first. It shows you exactly which AI skills you're missing, and that tells you what to learn next, in whichever app you choose. If you want to compare the underlying tools too, see [ChatGPT vs Claude vs Gemini](/blog/chatgpt-vs-claude-vs-gemini).
@@ -91,15 +104,23 @@ Honestly, the best move costs nothing: take the [free AI IQ test](/quiz) first. 
 
 **Is Iro AI a good Coursiv alternative?**
 
-Yes, especially if you learn by doing. Coursiv is built around guided lessons in a 28-day challenge, while Iro AI is built around active practice (short interactive drills with instant feedback) plus a free AI IQ test and one simple annual price.
+Yes, especially if you learn by doing. Coursiv is built around guided lessons in a 28-day challenge, while Iro AI is built around active practice (short interactive drills with instant feedback) plus a free tier and simple pricing: $9.99 a month or $49.99 a year.
 
 **How much does Coursiv cost vs Iro AI?**
 
-Coursiv typically uses an introductory offer that renews as a recurring multi-week subscription, so check the current terms. Iro AI Pro is $49.99 a year (about $4.17 a month) with a 7-day free trial, and you can start free with the AI IQ test.
+Coursiv sells auto-renewing 1-week, 4-week and 12-week plans and shows the exact price at checkout; its US App Store in-app purchases are listed at $9.99, $29.99 and $79.99. Iro AI Pro is $9.99 a month or $49.99 a year (about $4.17 a month) with a 7-day free trial, and you can start free.
+
+**What do Coursiv reviews say?**
+
+On Trustpilot, Coursiv has a 4.6 TrustScore from about 143,000 reviews, and most reviewers say the lessons are clear and beginner-friendly. Critical reviews, there and on the App Store, mostly mention content that feels basic, add-on charges at sign-up, and refund requests that were turned down.
+
+**Does Coursiv give refunds?**
+
+Coursiv's refund policy offers a full refund within 14 days of purchase if you haven't used the product, usually for the first payment only. App Store purchases are refunded through Apple. See our Coursiv cancellation guide.
 
 **Does Coursiv have a free trial?**
 
-Coursiv usually leads with a discounted introductory offer rather than a fully free tier, and it auto-renews. Read the fine print. Iro AI offers a free AI IQ test plus a 7-day free trial of Pro.
+Coursiv's terms describe a trial, sometimes paid, that turns into a paid plan unless you cancel at least 24 hours before it ends. Any trial or intro price is shown at checkout. Iro AI has a free tier plus a 7-day free trial of Pro.
 
 **Which app actually helps you retain AI skills?**
 
