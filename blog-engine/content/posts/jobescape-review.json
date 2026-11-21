@@ -25,7 +25,7 @@
     "Jobescape app"
   ],
   "datePublished": "2026-11-04",
-  "dateModified": "2026-11-04",
+  "dateModified": "2026-11-21",
   "readingTime": 7,
   "articleSection": "AI fluency",
   "feedCategory": "AI fluency",
@@ -95,7 +95,7 @@
     {
       "id": "price",
       "heading": "What it costs, and how it renews",
-      "html": "<p>On the US App Store, Jobescape lists <strong>Premium at $29.99 a month, $59.99 for three months or $117.99 a year</strong>. It also sells a 1-Year Full Access plan ($99.99), Lifetime Access ($139.99), and add-ons such as an AI Toolkit ($29.99) and a Prompts Library ($49.99). The cheapest item, 1-Year App Access at $0.99, is where several low reviews say confusion starts.</p><p>On the website you take an onboarding quiz, then pick a plan; prices are shown at checkout rather than published in advance. Jobescape's Subscription Terms set out how website billing works:</p><ul><li><strong>Introductory offers convert automatically.</strong> Unless you cancel before the offer ends, you are charged the plan price shown at checkout, and the terms say this happens without notice. They add that it is your responsibility to know when the offer ends.</li><li><strong>The 24-hour cutoff.</strong> Plans renew unless you cancel more than 24 hours before the period ends, and the next payment is taken 24 hours before the current period ends.</li><li><strong>Renewal price.</strong> Renewals are capped at the previous period's rate, excluding promotional and discount pricing, unless you are told about a change first.</li></ul><p>This is the same structure used by Coursiv, Skilario and similar AI course apps: sell on the web, open with a low first payment, renew at the full price. None of it is illegal, and it is all written down. Before you pay on the website, find the <strong>renewal price and renewal date</strong> on the checkout page and screenshot them. Our guide to <a href=\"/blog/ai-subscription-traps\">spotting an AI subscription trap</a> walks through that check in about a minute.</p>"
+      "html": "<p>On the US App Store, Jobescape lists <strong>Premium at $29.99 a month, $59.99 for three months or $117.99 a year</strong>. It also sells a 1-Year Full Access plan ($99.99), and add-ons such as an AI Toolkit ($29.99) and a Prompts Library ($49.99). The cheapest item, 1-Year App Access at $0.99, is where several low reviews say confusion starts.</p><p>On the website you take an onboarding quiz, then pick a plan; prices are shown at checkout rather than published in advance. Jobescape's Subscription Terms set out how website billing works:</p><ul><li><strong>Introductory offers convert automatically.</strong> Unless you cancel before the offer ends, you are charged the plan price shown at checkout, and the terms say this happens without notice. They add that it is your responsibility to know when the offer ends.</li><li><strong>The 24-hour cutoff.</strong> Plans renew unless you cancel more than 24 hours before the period ends, and the next payment is taken 24 hours before the current period ends.</li><li><strong>Renewal price.</strong> Renewals are capped at the previous period's rate, excluding promotional and discount pricing, unless you are told about a change first.</li></ul><p>This is the same structure used by Coursiv, Skilario and similar AI course apps: sell on the web, open with a low first payment, renew at the full price. None of it is illegal, and it is all written down. Before you pay on the website, find the <strong>renewal price and renewal date</strong> on the checkout page and screenshot them. Our guide to <a href=\"/blog/ai-subscription-traps\">spotting an AI subscription trap</a> walks through that check in about a minute.</p>"
     },
     {
       "id": "refunds",
@@ -110,7 +110,7 @@
     {
       "id": "cancel",
       "heading": "How to cancel Jobescape",
-      "html": "<p>Deleting the app does not cancel your subscription. For website purchases, Jobescape's help center gives these steps:</p><ol><li>Log in on the website and open the Menu.</li><li>Go to Account settings, then Plan Management.</li><li>Choose to turn off auto-renewal and confirm.</li></ol><p>Do it <strong>more than 24 hours before</strong> your current period ends, because that is when the next payment is taken. You keep access until the period ends, but the help center warns that cancelling means losing your progress. If you paid with PayPal, you can also stop it from your PayPal account. For App Store purchases, go to Settings, tap your name, then Subscriptions, then Jobescape.</p>"
+      "html": "<p>Deleting the app does not cancel your subscription. For website purchases, Jobescape's help center gives these steps:</p><ol><li>Log in on the website and open the Menu.</li><li>Go to Account settings, then Plan Management.</li><li>Choose to turn off auto-renewal and confirm.</li></ol><p>Do it <strong>more than 24 hours before</strong> your current period ends, because that is when the next payment is taken. You keep access until the period ends, but the help center warns that cancelling means losing your progress. If you paid with PayPal, you can also stop it from your PayPal account. For App Store purchases, go to Settings, tap your name, then Subscriptions, then Jobescape.</p><p>For every route, the 24-hour cutoff and how to ask for a refund, see <a href=\"/blog/cancel-jobescape\">how to cancel Jobescape</a>.</p>"
     },
     {
       "id": "ratings",
@@ -125,7 +125,7 @@
     {
       "id": "iro",
       "heading": "The alternative we make",
-      "html": "<p>Iro AI is our app, so weigh this accordingly. If what drew you to Jobescape was getting genuinely useful with AI at work in a few minutes a day, Iro does it by practice rather than reading: you write real prompts in the Prompt Lab and get them scored, learn to spot AI mistakes, and keep the habit going with streaks, ranks and timed duels against a skill-matched opponent.</p><p>On price, since that is what brings most people to a review like this: Iro is <strong>free to start</strong>, with a battery that gives you a full lesson every day and recharges overnight. Pro is <strong>$9.99 a month or $49.99 a year</strong>, the annual plan includes a 7-day free trial, and it is billed by Apple, so cancelling is the same two taps in Settings. That is a third of Jobescape's App Store monthly price, and less than half its yearly one. There is no intro rate that converts to a higher one.</p><p>For scale: <strong>34 learning paths, 522 lessons and 3,000+ exercises across 23 exercise types</strong>, covering ChatGPT, Claude, Gemini, Perplexity, prompting, agents and automation, with every path open on the free tier. See <a href=\"/free-ai-learning-app\">exactly what the free tier includes</a>, or take the <a href=\"/quiz\">two-minute AI rank quiz</a> first. If you are weighing a course against an app, see <a href=\"/blog/ai-app-vs-ai-bootcamp\">AI learning app vs AI bootcamp</a>.</p>"
+      "html": "<p>Iro AI is our app, so weigh this accordingly. If what drew you to Jobescape was getting genuinely useful with AI at work in a few minutes a day, Iro does it by practice rather than reading: you write real prompts in the Prompt Lab and get them scored, learn to spot AI mistakes, and keep the habit going with streaks, ranks and timed duels against a skill-matched opponent.</p><p>On price, since that is what brings most people to a review like this: Iro is <strong>free to start</strong>, with a battery that gives you a full lesson every day and recharges overnight. Pro is <strong>$9.99 a month or $49.99 a year</strong>, the annual plan includes a 7-day free trial, and it is billed by Apple, so cancelling is the same two taps in Settings. That is a third of Jobescape's App Store monthly price, and less than half its yearly one. There is no intro rate that converts to a higher one.</p><p>For scale: <strong>34 learning paths, 522 lessons and 3,000+ exercises across 23 exercise types</strong>, covering ChatGPT, Claude, Gemini, Perplexity, prompting, agents and automation, with every path open on the free tier. See <a href=\"/free-ai-learning-app\">exactly what the free tier includes</a>, or take the <a href=\"/quiz\">two-minute AI rank quiz</a> first. If you are weighing a course against an app, see <a href=\"/blog/ai-app-vs-ai-bootcamp\">AI learning app vs AI bootcamp</a>.</p><p>For a full side-by-side, see <a href=\"/blog/iro-ai-vs-jobescape\">Iro vs Jobescape</a>, or more options in <a href=\"/blog/jobescape-alternatives\">the best Jobescape alternatives</a>.</p>"
     }
   ],
   "faq": [
@@ -156,23 +156,30 @@
   ],
   "readNext": [
     {
+      "href": "/blog/cancel-jobescape",
+      "label": "How to cancel Jobescape and ask for a refund"
+    },
+    {
+      "href": "/blog/jobescape-alternatives",
+      "label": "The best Jobescape alternatives"
+    },
+    {
+      "href": "/blog/iro-ai-vs-jobescape",
+      "label": "Iro vs Jobescape"
+    },
+    {
       "href": "/blog/ai-subscription-traps",
       "label": "How to spot an AI subscription trap"
     },
     {
       "href": "/blog/skilario-review",
       "label": "Skilario review: who runs it and what the terms say"
-    },
-    {
-      "href": "/blog/coursiv-alternatives",
-      "label": "The best Coursiv alternatives"
-    },
-    {
-      "href": "/blog/ai-app-vs-ai-bootcamp",
-      "label": "AI learning app vs AI bootcamp"
     }
   ],
   "related": [
+    "/blog/cancel-jobescape",
+    "/blog/jobescape-alternatives",
+    "/blog/iro-ai-vs-jobescape",
     "/blog/ai-subscription-traps",
     "/blog/skilario-review",
     "/blog/cancel-coursiv",

@@ -823,7 +823,7 @@
   </url>
   <url>
     <loc>https://tryiro.com/blog/finestro-alternatives</loc>
-    <lastmod>2026-11-04</lastmod>
+    <lastmod>2026-11-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -843,7 +843,7 @@
   </url>
   <url>
     <loc>https://tryiro.com/blog/cancel-finestro</loc>
-    <lastmod>2026-11-04</lastmod>
+    <lastmod>2026-11-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -1413,7 +1413,7 @@
   </url>
   <url>
     <loc>https://tryiro.com/blog/jobescape-review</loc>
-    <lastmod>2026-11-04</lastmod>
+    <lastmod>2026-11-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -1502,6 +1502,16 @@
     </image:image>
   </url>
   <url>
+    <loc>https://tryiro.com/blog/cancel-jobescape</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://tryiro.com/assets/og/cancel-jobescape.png</image:loc>
+      <image:title>How to cancel Jobescape and ask for a refund</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://tryiro.com/blog/cosmo-alternatives</loc>
     <lastmod>2026-11-21</lastmod>
     <changefreq>monthly</changefreq>
@@ -1522,6 +1532,16 @@
     </image:image>
   </url>
   <url>
+    <loc>https://tryiro.com/blog/jobescape-alternatives</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://tryiro.com/assets/og/jobescape-alternatives.png</image:loc>
+      <image:title>The best Jobescape alternatives in 2026</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://tryiro.com/blog/datacamp-alternatives</loc>
     <lastmod>2026-11-21</lastmod>
     <changefreq>monthly</changefreq>
@@ -1532,6 +1552,26 @@
     </image:image>
   </url>
   <url>
+    <loc>https://tryiro.com/blog/iro-ai-vs-jobescape</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://tryiro.com/assets/og/iro-ai-vs-jobescape.png</image:loc>
+      <image:title>Iro vs Jobescape: which AI learning app is worth it?</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://tryiro.com/blog/finestro-review</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://tryiro.com/assets/og/finestro-review.png</image:loc>
+      <image:title>Finestro review: is Finestro legit, and what does it cost?</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://tryiro.com/blog/iro-ai-vs-datacamp</loc>
     <lastmod>2026-11-21</lastmod>
     <changefreq>monthly</changefreq>
@@ -1539,6 +1579,16 @@
     <image:image>
       <image:loc>https://tryiro.com/assets/og/iro-ai-vs-datacamp.png</image:loc>
       <image:title>Iro AI vs DataCamp: which is better for learning AI?</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://tryiro.com/blog/iro-ai-vs-finestro</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://tryiro.com/assets/og/iro-ai-vs-finestro.png</image:loc>
+      <image:title>Iro vs Finestro: which AI learning app should you pick?</image:title>
     </image:image>
   </url>
 </urlset>
