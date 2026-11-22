@@ -5,7 +5,7 @@
   <link rel="self" href="https://tryiro.com/blog/atom.xml" type="application/atom+xml"/>
   <link rel="alternate" href="https://tryiro.com/blog" type="text/html"/>
   <id>https://tryiro.com/blog/atom.xml</id>
-  <updated>2026-11-21T00:00:00Z</updated>
+  <updated>2026-11-22T00:00:00Z</updated>
   <rights>© 2026 Iro AI</rights>
   <author><name>Iro AI</name><uri>https://tryiro.com</uri></author>
   <icon>https://tryiro.com/assets/favicon-64.png</icon>
@@ -1549,5 +1549,15 @@
     <author><name>Iro AI</name></author>
     <category term="AI learning apps"/>
     <summary>Both teach beginners to use AI tools in short daily lessons. Finestro guides you through video lessons; Iro has you practise. The bigger difference is often how you are billed. Here is the fair comparison.</summary>
+  </entry>
+  <entry>
+    <title>The best prompt engineering courses in 2026 (free and paid)</title>
+    <id>https://tryiro.com/blog/best-prompt-engineering-courses</id>
+    <link href="https://tryiro.com/blog/best-prompt-engineering-courses"/>
+    <updated>2026-11-22T00:00:00Z</updated>
+    <published>2026-11-22T00:00:00Z</published>
+    <author><name>Iro AI</name></author>
+    <category term="Prompt engineering"/>
+    <summary>Seven prompt engineering courses compared by cost, time and how you learn, from Google and Vanderbilt to Anthropic's free tutorial, plus the part most people skip: actually practicing.</summary>
   </entry>
 </feed>

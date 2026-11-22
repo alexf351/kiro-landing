@@ -9,7 +9,7 @@
     <description>Short, practical writing on AI fluency, prompting, AI tools, and the active-practice method that beats endless video courses.</description>
     <language>en-US</language>
     <atom:link href="https://tryiro.com/blog/rss.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Sat, 21 Nov 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 22 Nov 2026 00:00:00 GMT</lastBuildDate>
     <generator>tryiro.com</generator>
     <copyright>© 2026 Iro AI</copyright>
     <image>
@@ -1402,6 +1402,15 @@
       <dc:creator>Iro AI</dc:creator>
       <category>AI learning apps</category>
       <description>Iro vs Finestro compared honestly: how each teaches AI, App Store vs web pricing, cancelling and refunds, and where Finestro is the better pick.</description>
+    </item>
+    <item>
+      <title>The best prompt engineering courses in 2026 (free and paid)</title>
+      <link>https://tryiro.com/blog/best-prompt-engineering-courses</link>
+      <guid isPermaLink="true">https://tryiro.com/blog/best-prompt-engineering-courses</guid>
+      <pubDate>Sun, 22 Nov 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Iro AI</dc:creator>
+      <category>Prompt engineering</category>
+      <description>Seven prompt engineering courses compared by cost, time and how you learn, from Google and Vanderbilt to Anthropic's free tutorial, plus how to actually practice.</description>
     </item>
   </channel>
 </rss>

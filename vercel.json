@@ -1695,6 +1695,10 @@
     {
       "source": "/blog/nexera-alternatives",
       "destination": "/blog/nexera-alternatives.html"
+    },
+    {
+      "source": "/blog/best-prompt-engineering-courses",
+      "destination": "/blog/best-prompt-engineering-courses.html"
     }
   ]
 }

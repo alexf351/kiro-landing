@@ -75,7 +75,7 @@
     {
       "id": "resources",
       "heading": "What free resources are worth your time?",
-      "html": "<ul><li><strong>The official prompting guides from OpenAI, Anthropic and Google:</strong> free, current, and written by the people who build the models. Skim them in week 3.</li><li><strong>Our free beginner guides:</strong> <a href=\"/blog/how-to-write-a-prompt\">how to write a good AI prompt</a> and <a href=\"/blog/chatgpt-prompts-for-beginners\">ChatGPT prompts for beginners</a>.</li><li><strong>A daily practice app:</strong> courses explain, but habits come from repetition. Iro gives you 5-minute daily prompting lessons with instant feedback, built like a language app.</li></ul><p>If you're weighing a paid course, read <a href=\"/blog/are-ai-certifications-worth-it\">are AI certifications worth it</a> first.</p>"
+      "html": "<ul><li><strong>The official prompting guides from OpenAI, Anthropic and Google:</strong> free, current, and written by the people who build the models. Skim them in week 3.</li><li><strong>Our free beginner guides:</strong> <a href=\"/blog/how-to-write-a-prompt\">how to write a good AI prompt</a> and <a href=\"/blog/chatgpt-prompts-for-beginners\">ChatGPT prompts for beginners</a>.</li><li><strong>A daily practice app:</strong> courses explain, but habits come from repetition. Iro gives you 5-minute daily prompting lessons with instant feedback, built like a language app.</li></ul><p>If you're weighing a paid course, read <a href=\"/blog/are-ai-certifications-worth-it\">are AI certifications worth it</a> first. For a side-by-side of the options, see our pick of the <a href=\"/blog/best-prompt-engineering-courses\">best prompt engineering courses</a>.</p>"
     },
     {
       "id": "improving",
@@ -135,6 +135,7 @@
     "/blog/is-prompt-engineering-dead",
     "/prompt-engineering-app",
     "/quiz",
-    "/ai-learning-statistics"
+    "/ai-learning-statistics",
+    "/blog/best-prompt-engineering-courses"
   ]
 }

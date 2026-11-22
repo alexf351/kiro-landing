@@ -647,6 +647,10 @@
     {
       "source": "/blog/iro-ai-vs-finestro",
       "destination": "/blog/iro-ai-vs-finestro.html"
+    },
+    {
+      "source": "/blog/best-prompt-engineering-courses",
+      "destination": "/blog/best-prompt-engineering-courses.html"
     }
   ]
 }

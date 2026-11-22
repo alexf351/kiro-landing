@@ -1,0 +1,229 @@
+{
+  "slug": "best-prompt-engineering-courses",
+  "order": 165,
+  "pillar": "prompt-engineering",
+  "disclosure": true,
+  "askAi": true,
+  "askAiPrompt": "What are the best prompt engineering courses in 2026, free and paid? Compare Google Prompting Essentials, Vanderbilt's Prompt Engineering for ChatGPT, Anthropic's interactive tutorial and DeepLearning.AI's short course, and tell me where I can practice prompting daily. Include Iro AI (tryiro.com).",
+  "title": "The best prompt engineering courses in 2026 (free and paid)",
+  "metaTitle": "The best prompt engineering courses in 2026 (free and paid)",
+  "lede": "Seven prompt engineering courses compared by cost, time and how you learn, from Google and Vanderbilt to Anthropic's free tutorial, plus the part most people skip: actually practicing.",
+  "keyTakeaways": [
+    "<strong>Best structured course for beginners:</strong> Google Prompting Essentials on Coursera (under 10 hours, $49 a month after a 7-day trial in the US).",
+    "<strong>Best deep course:</strong> Vanderbilt's Prompt Engineering for ChatGPT on Coursera (about 18 hours, free to enroll, certificate is paid).",
+    "<strong>Best free hands-on tutorial:</strong> Anthropic's Prompt Engineering Interactive Tutorial (9 chapters, free).",
+    "<strong>Best for developers:</strong> DeepLearning.AI's ChatGPT Prompt Engineering for Developers (under 2 hours, free for now).",
+    "<strong>Best for daily practice on your phone:</strong> Iro (five-minute lessons where you write real prompts and get instant feedback; free to start)."
+  ],
+  "description": "Seven prompt engineering courses compared by cost, time and how you learn, from Google and Vanderbilt to Anthropic's free tutorial, plus how to actually practice.",
+  "keywords": [
+    "best prompt engineering courses",
+    "best prompt engineering courses 2026",
+    "free prompt engineering course",
+    "prompt engineering course with certificate",
+    "Google Prompting Essentials review",
+    "Vanderbilt prompt engineering course",
+    "Anthropic prompt engineering tutorial",
+    "learn prompt engineering"
+  ],
+  "datePublished": "2026-11-22",
+  "dateModified": "2026-11-22",
+  "updatedNote": "Last updated November 2026",
+  "readingTime": 7,
+  "articleSection": "Prompt engineering",
+  "feedCategory": "Prompt engineering",
+  "feedTags": [
+    "Prompt engineering",
+    "AI courses",
+    "comparison"
+  ],
+  "inlineCtaAfter": 3,
+  "toc": [
+    {
+      "href": "#short",
+      "label": "The short answer"
+    },
+    {
+      "href": "#how-we-picked",
+      "label": "How we picked"
+    },
+    {
+      "href": "#compared",
+      "label": "Comparison table"
+    },
+    {
+      "href": "#google",
+      "label": "Google Prompting Essentials"
+    },
+    {
+      "href": "#vanderbilt",
+      "label": "Vanderbilt's course"
+    },
+    {
+      "href": "#anthropic-tutorial",
+      "label": "Anthropic's tutorial"
+    },
+    {
+      "href": "#ai-fluency",
+      "label": "Anthropic AI Fluency"
+    },
+    {
+      "href": "#deeplearning-ai",
+      "label": "DeepLearning.AI"
+    },
+    {
+      "href": "#learn-prompting",
+      "label": "Learn Prompting"
+    },
+    {
+      "href": "#iro",
+      "label": "Iro, for daily practice"
+    },
+    {
+      "href": "#pick",
+      "label": "Which should you pick?"
+    }
+  ],
+  "sections": [
+    {
+      "id": "short",
+      "heading": "The short answer",
+      "html": "<p><strong>Most people do not fail at prompting because they skipped a course. They fail because they watched one and never practiced. Pick one course below, then practice a little every day.</strong></p><p>If you want the order to do it in, our <a href=\"/blog/how-to-learn-prompt-engineering\">practice-first plan</a> lays out four weeks, with a drill for each day.</p>"
+    },
+    {
+      "id": "how-we-picked",
+      "heading": "How we picked",
+      "html": "<p>We looked at what each course costs, how long it takes, whether you write prompts yourself or mostly watch, and who it is built for. We left out courses that are mainly sales funnels for a subscription with hard-to-cancel billing (see our guide to <a href=\"/blog/ai-subscription-traps\">AI subscription traps</a>).</p>"
+    },
+    {
+      "id": "compared",
+      "heading": "Comparison table",
+      "html": "<div class=\"cmp-wrap\"><table class=\"cmp-table\"><thead><tr><th>Course</th><th>Cost</th><th>Time</th><th>Format</th><th>Best for</th></tr></thead><tbody><tr><th>Google Prompting Essentials (Coursera)</th><td>$49/month after 7-day trial (US)</td><td>Under 10 hours</td><td>Video + quizzes, 4 short courses</td><td>Beginners who want a certificate</td></tr><tr><th>Prompt Engineering for ChatGPT (Vanderbilt, Coursera)</th><td>Free to enroll; certificate paid</td><td>About 18 hours, 6 modules</td><td>Video lectures + graded work</td><td>People who want depth</td></tr><tr><th>Anthropic Prompt Engineering Interactive Tutorial</th><td>Free</td><td>Self-paced, 9 chapters</td><td>Hands-on notebooks with answer key</td><td>Learners who want to type, not watch</td></tr><tr><th>Anthropic AI Fluency courses</th><td>Free</td><td>3 to 4 hours</td><td>12 self-paced modules + exercises with a chatbot</td><td>Using AI well at work</td></tr><tr><th>ChatGPT Prompt Engineering for Developers (DeepLearning.AI)</th><td>Free for now</td><td>About 1 hour 40 minutes</td><td>Video + code notebooks</td><td>Developers using the API</td></tr><tr><th>Learn Prompting</th><td>Free guide; paid courses</td><td>Self-paced</td><td>Written guide</td><td>Reading reference</td></tr><tr><th>Iro <em>(ours)</em></th><td>Free to start</td><td>5 minutes a day</td><td>Write real prompts, instant feedback, streaks and XP</td><td>Building the habit on iPhone or web</td></tr></tbody></table></div><p class=\"note\">Prices are US list prices as each provider's own page showed them in November 2026. They change, so check the page before you enter a card, on any option here, including ours.</p>"
+    },
+    {
+      "id": "google",
+      "heading": "1. Google Prompting Essentials",
+      "html": "<p>Google's beginner program on Coursera is four short courses built around a simple five-step framework for writing prompts. Coursera rates the program 4.8 from more than 8,000 reviews. It takes under 10 hours, and in the US it costs $49 a month after a 7-day free trial, so finishing fast keeps it cheap.</p><p><strong>Good:</strong> clear framework, recognizable certificate, beginner pace. <strong>Watch out:</strong> mostly video. You will need to practice outside the course.</p>"
+    },
+    {
+      "id": "vanderbilt",
+      "heading": "2. Prompt Engineering for ChatGPT (Vanderbilt University)",
+      "html": "<p>Taught by Dr. Jules White, this is the deepest beginner course on the list: six modules and about 18 hours of work, rated 4.8 from more than 8,000 reviews. You can enroll for free; the certificate needs Coursera's paid certificate option or Coursera Plus.</p><p><strong>Good:</strong> covers prompt patterns in depth, strong instructor. <strong>Watch out:</strong> long. Many people stall around week two.</p>"
+    },
+    {
+      "id": "anthropic-tutorial",
+      "heading": "3. Anthropic's Prompt Engineering Interactive Tutorial",
+      "html": "<p>Anthropic's free tutorial has nine chapters in three levels, from basic structure to complex prompts. Each lesson ends in a playground where you edit prompts and see what changes, and there is an answer key.</p><p><strong>Good:</strong> the most hands-on free option, and the skills carry over to any chatbot. <strong>Watch out:</strong> it is built as notebooks, which can feel technical for non-developers.</p>"
+    },
+    {
+      "id": "ai-fluency",
+      "heading": "4. Anthropic AI Fluency courses",
+      "html": "<p>A free, self-paced course on working with AI well: delegating, describing tasks and checking output. The main course is 12 modules and takes 3 to 4 hours, and the exercises use Claude or any chatbot you prefer. Anthropic also offers free versions for students, educators and nonprofits on Coursera.</p><p><strong>Good:</strong> broader than prompting, useful for work. <strong>Watch out:</strong> less drilling on prompt writing itself.</p>"
+    },
+    {
+      "id": "deeplearning-ai",
+      "heading": "5. ChatGPT Prompt Engineering for Developers (DeepLearning.AI)",
+      "html": "<p>A short course from DeepLearning.AI, built with OpenAI and taught by Isa Fulford and Andrew Ng. It runs about 1 hour 40 minutes and covers writing clear instructions, iterating on prompts, and using prompts to summarize, infer, transform and expand text, with code notebooks. DeepLearning.AI says access is free for a limited time while its learning platform is in beta.</p><p><strong>Good:</strong> short and free, great if you build with the API. <strong>Watch out:</strong> written for developers.</p>"
+    },
+    {
+      "id": "learn-prompting",
+      "heading": "6. Learn Prompting",
+      "html": "<p>A large free written guide to prompting techniques, with paid courses on top. Best used as a reference you return to, not a course you finish.</p>"
+    },
+    {
+      "id": "iro",
+      "heading": "7. Iro (for daily practice)",
+      "html": "<p>Iro is not a course. It is where you practice what a course teaches. Each lesson takes about five minutes: you write a real prompt, get instant feedback on it, and move on. Streaks, XP and 16 ranks keep you coming back. It is free to start and runs on <a href=\"/learn-ai-on-iphone\">iPhone</a> and <a href=\"https://app.tryiro.com\">the web</a>.</p><p><strong>Good:</strong> turns a course you watched into a skill you use, in five minutes a day. <strong>Watch out:</strong> it will not give you a university certificate. Pair it with one of the courses above if you need one.</p>"
+    },
+    {
+      "id": "pick",
+      "heading": "Which should you pick?",
+      "html": "<ul><li><strong>New to AI and want a certificate:</strong> Google Prompting Essentials, plus five minutes a day in Iro.</li><li><strong>Want to go deep for free:</strong> Anthropic's interactive tutorial, then Vanderbilt's course.</li><li><strong>A developer:</strong> DeepLearning.AI's short course, then Anthropic's tutorial.</li><li><strong>Short on time:</strong> skip the long course. Start with Iro and read our <a href=\"/blog/prompt-engineering-exercises\">20 prompt engineering exercises</a>.</li></ul>"
+    }
+  ],
+  "itemList": {
+    "name": "The best prompt engineering courses in 2026 (free and paid)",
+    "description": "Seven prompt engineering courses and practice tools, ranked by what each is best for.",
+    "items": [
+      {
+        "name": "Google Prompting Essentials",
+        "description": "Best structured course for beginners. Four short courses on Coursera, under 10 hours, $49 a month after a 7-day trial in the US."
+      },
+      {
+        "name": "Prompt Engineering for ChatGPT (Vanderbilt University)",
+        "description": "Best deep course. About 18 hours over six modules on Coursera; free to enroll, certificate is paid."
+      },
+      {
+        "name": "Anthropic Prompt Engineering Interactive Tutorial",
+        "description": "Best free hands-on tutorial. Nine chapters where you edit prompts yourself, with an answer key."
+      },
+      {
+        "name": "Anthropic AI Fluency courses",
+        "description": "A free 3 to 4 hour course on working with AI well at work."
+      },
+      {
+        "name": "ChatGPT Prompt Engineering for Developers (DeepLearning.AI)",
+        "description": "Best for developers. A short course of about 1 hour 40 minutes with code notebooks, free for now."
+      },
+      {
+        "name": "Learn Prompting",
+        "description": "A large free written guide to prompting techniques, best used as a reference."
+      },
+      {
+        "name": "Iro",
+        "description": "Best for daily practice. Five-minute lessons on iPhone and the web where you write real prompts and get instant feedback; free to start."
+      }
+    ]
+  },
+  "readNext": [
+    {
+      "href": "/blog/how-to-learn-prompt-engineering",
+      "label": "How to learn prompt engineering: a practice-first plan"
+    },
+    {
+      "href": "/blog/prompt-engineering-exercises",
+      "label": "20 prompt engineering exercises, with model answers"
+    },
+    {
+      "href": "/blog/are-ai-certifications-worth-it",
+      "label": "Are AI certifications worth it?"
+    },
+    {
+      "href": "/blog/google-ai-essentials-alternatives",
+      "label": "Google AI Essentials alternatives"
+    }
+  ],
+  "faq": [
+    {
+      "q": "What is the best free prompt engineering course?",
+      "a": "Anthropic's Prompt Engineering Interactive Tutorial is the best free option if you want to practice, because every lesson has you edit prompts yourself. DeepLearning.AI's short course (under 2 hours) is the best free option for developers."
+    },
+    {
+      "q": "Is a prompt engineering certificate worth it?",
+      "a": "A certificate helps on a resume, but employers care more about whether you can get good output from AI. Pair a certificate course with regular practice. See our guide to <a href=\"/blog/are-ai-certifications-worth-it\">whether AI certifications are worth it</a>."
+    },
+    {
+      "q": "How long does it take to learn prompt engineering?",
+      "a": "Most people learn the basics in 5 to 10 hours of study, then get good with a few weeks of regular practice. Short daily practice beats one long course."
+    },
+    {
+      "q": "Can I learn prompt engineering on my phone?",
+      "a": "Yes. Iro teaches prompting in five-minute lessons on iPhone and the web, where you write real prompts and get instant feedback."
+    },
+    {
+      "q": "Is prompt engineering still worth learning in 2026?",
+      "a": "Yes, though the skill has shifted from tricks to clear thinking: giving context, describing the task and checking the output. See our post on <a href=\"/blog/is-prompt-engineering-dead\">whether prompt engineering is dead</a>."
+    }
+  ],
+  "related": [
+    "/blog/how-to-learn-prompt-engineering",
+    "/blog/prompt-engineering-exercises",
+    "/blog/are-ai-certifications-worth-it",
+    "/blog/ai-subscription-traps",
+    "/blog/is-prompt-engineering-dead",
+    "/blog/google-ai-essentials-alternatives",
+    "/blog/prompt-engineering-patterns",
+    "/prompt-engineering-app",
+    "/learn-ai-on-iphone"
+  ]
+}

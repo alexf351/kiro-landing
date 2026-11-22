@@ -56,7 +56,7 @@ By the end you should have about 5 prompt templates you reuse every week. That l
 - **Our free beginner guides:** [how to write a good AI prompt](/blog/how-to-write-a-prompt) and [ChatGPT prompts for beginners](/blog/chatgpt-prompts-for-beginners).
 - **A daily practice app:** courses explain, but habits come from repetition. Iro gives you 5-minute daily prompting lessons with instant feedback, built like a language app.
 
-If you're weighing a paid course, read [are AI certifications worth it](/blog/are-ai-certifications-worth-it) first.
+If you're weighing a paid course, read [are AI certifications worth it](/blog/are-ai-certifications-worth-it) first. For a side-by-side of the options, see our pick of the [best prompt engineering courses](/blog/best-prompt-engineering-courses).
 
 ## How do you know you're improving?
 
