@@ -47,6 +47,15 @@
       "eyebrow": "Cancel guide",
       "title": "How to cancel Nexera",
       "sub": "And how to use the 28-day refund"
+    },
+    "best-prompt-engineering-courses": {
+      "eyebrow": "Buyer's guide",
+      "title": "The best prompt engineering courses",
+      "sub": "Free and paid, compared (2026)",
+      "logos": [
+        "google",
+        "claude"
+      ]
     }
   },
   "brands": {

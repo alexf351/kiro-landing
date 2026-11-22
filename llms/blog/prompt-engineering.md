@@ -4,7 +4,7 @@ canonical_url: "https://tryiro.com/blog/prompt-engineering"
 site: "Iro AI"
 site_url: "https://tryiro.com"
 language: en-US
-last_updated: "2026-11-20"
+last_updated: "2026-11-22"
 keywords: ["prompt engineering", "how to write a prompt", "prompt patterns", "prompt engineering examples", "prompt engineering exercises", "ChatGPT prompts", "AI prompts that work", "learn prompt engineering"]
 author: "Iro AI"
 license: "© 2026 Iro AI"
@@ -16,7 +16,7 @@ type: "content-pillar"
 > How to write prompts that get a usable answer the first or second time: the anatomy of a good prompt, the patterns that carry across tools, how to fix a bad answer and how to practise.
 
 **Canonical:** https://tryiro.com/blog/prompt-engineering
-**Last updated:** 2026-11-20
+**Last updated:** 2026-11-22
 
 Prompt engineering is less mysterious than it sounds. It's the skill of telling an AI model what you want clearly enough that it gets it right the first or second time. No secret phrases, no code. Just clear thinking, written down.
 
@@ -131,6 +131,7 @@ Whichever tool you use, prompting is one part of a bigger skill that also covers
 - [How to make a mood board with AI: directions, not final art](https://tryiro.com/blog/how-to-make-a-mood-board-with-ai) — How to make a mood board with AI: write the brief first, generate 3-4 distinct directions, use image prompts that behave, then turn the board into a spec.
 - [20 prompt engineering exercises, with model answers](https://tryiro.com/blog/prompt-engineering-exercises) — Free prompt engineering exercises for beginners and up. Each drill has a weak prompt, a goal and a model answer, so you can practice in 5 minutes a day.
 - [How to learn prompt engineering in 2026: a practice-first plan](https://tryiro.com/blog/how-to-learn-prompt-engineering) — A 4-week, practice-first plan to learn prompt engineering without coding. About 10 minutes a day, free resources, and drills you can start today.
+- [The best prompt engineering courses in 2026 (free and paid)](https://tryiro.com/blog/best-prompt-engineering-courses) — Seven prompt engineering courses compared by cost, time and how you learn, from Google and Vanderbilt to Anthropic's free tutorial, plus how to actually practice.
 
 ## FAQ
 

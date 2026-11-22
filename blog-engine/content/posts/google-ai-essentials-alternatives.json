@@ -82,7 +82,7 @@
     {
       "id": "choose",
       "heading": "How to choose",
-      "html": "<ul><li><strong>You need a certificate for a résumé or an employer:</strong> Google AI Essentials is the most recognisable name. If cost is the blocker, OpenAI Academy and Anthropic's AI Fluency both give a certificate of completion for free. OpenAI notes its certificates are not a formal credential.</li><li><strong>You want to understand AI before using it:</strong> Elements of AI, Part 1. It is free and needs no programming.</li><li><strong>You want to get better at prompting specifically:</strong> the Vanderbilt course goes deepest of the courses here.</li><li><strong>You have taken a course and still don't use AI much:</strong> the missing piece is repetition, not information. A few minutes of real practice every day builds the habit a course can't. That is the job Iro AI does, and you can start free on iPhone or at <a href=\"https://app.tryiro.com\">app.tryiro.com</a>.</li></ul>"
+      "html": "<ul><li><strong>You need a certificate for a résumé or an employer:</strong> Google AI Essentials is the most recognisable name. If cost is the blocker, OpenAI Academy and Anthropic's AI Fluency both give a certificate of completion for free. OpenAI notes its certificates are not a formal credential.</li><li><strong>You want to understand AI before using it:</strong> Elements of AI, Part 1. It is free and needs no programming.</li><li><strong>You want to get better at prompting specifically:</strong> the Vanderbilt course goes deepest of the courses here. For more options, see our list of the <a href=\"/blog/best-prompt-engineering-courses\">best prompt engineering courses</a>.</li><li><strong>You have taken a course and still don't use AI much:</strong> the missing piece is repetition, not information. A few minutes of real practice every day builds the habit a course can't. That is the job Iro AI does, and you can start free on iPhone or at <a href=\"https://app.tryiro.com\">app.tryiro.com</a>.</li></ul>"
     },
     {
       "id": "after",
@@ -130,7 +130,8 @@
     "/quiz",
     "/iro-ai-vs-video-courses",
     "/best-ai-learning-app",
-    "/free-ai-learning-app"
+    "/free-ai-learning-app",
+    "/blog/best-prompt-engineering-courses"
   ],
   "askAi": true,
   "askAiPrompt": "What are the best alternatives to Google AI Essentials, especially free ones or ones with more hands-on practice? Compare Iro AI (tryiro.com) with the options and explain what each costs."

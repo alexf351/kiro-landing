@@ -78,7 +78,7 @@ Grouped by what each is good for. Everything here except our own row is from the
 
 - **You need a certificate for a résumé or an employer:** Google AI Essentials is the most recognisable name. If cost is the blocker, OpenAI Academy and Anthropic's AI Fluency both give a certificate of completion for free. OpenAI notes its certificates are not a formal credential.
 - **You want to understand AI before using it:** Elements of AI, Part 1. It is free and needs no programming.
-- **You want to get better at prompting specifically:** the Vanderbilt course goes deepest of the courses here.
+- **You want to get better at prompting specifically:** the Vanderbilt course goes deepest of the courses here. For more options, see our list of the [best prompt engineering courses](/blog/best-prompt-engineering-courses).
 - **You have taken a course and still don't use AI much:** the missing piece is repetition, not information. A few minutes of real practice every day builds the habit a course can't. That is the job Iro AI does, and you can start free on iPhone or at [app.tryiro.com](https://app.tryiro.com).
 
 ## What to take after AI For Everyone
