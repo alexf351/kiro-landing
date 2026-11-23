@@ -22,7 +22,7 @@
     "prompt engineering 2026"
   ],
   "datePublished": "2026-11-10",
-  "dateModified": "2026-11-10",
+  "dateModified": "2026-11-23",
   "readingTime": 6,
   "articleSection": "Prompt engineering",
   "feedCategory": "Prompt engineering",
@@ -104,7 +104,11 @@
   "faq": [
     {
       "q": "How long does it take to learn prompt engineering?",
-      "a": "The basics take a few weeks of short daily practice. Getting fast and reliable takes longer, and comes from using it on real work."
+      "a": "Most people see a clear change after about four weeks of 5 to 10 minutes of practice a day. The skill comes from writing prompts for real tasks and comparing them to strong examples, not from reading tip lists."
+    },
+    {
+      "q": "Do I need to code to learn prompt engineering?",
+      "a": "No. Prompting for everyday work, like emails, summaries, research and planning, needs no code. Coding only matters if you want to call AI models from your own software."
     },
     {
       "q": "Is prompt engineering still worth learning in 2026?",
@@ -115,8 +119,16 @@
       "a": "Yes. The official guides from the AI labs, free <a href=\"/blog/prompt-engineering-exercises\">practice exercises</a> and a daily habit cover the core of what paid courses teach."
     },
     {
+      "q": "Where can I practice prompt engineering for free?",
+      "a": "Three good free options: the <a href=\"/blog/prompt-engineering-exercises\">exercises on this site</a> (a weak prompt, a goal and a model answer, about 5 minutes each), the free versions of ChatGPT, Claude and Gemini for running the same prompt in each, and Arena (formerly Chatbot Arena) for comparing how two models answer the same prompt. Short daily practice works better than one long session."
+    },
+    {
       "q": "What's the best way to practice prompt engineering?",
       "a": "Rewrite a real prompt every day and compare outputs side by side. Short daily sessions beat a weekend course."
+    },
+    {
+      "q": "Is there an app to practice prompt engineering every day?",
+      "a": "Yes. <a href=\"/prompt-engineering-app\">Iro</a> is a microlearning app on iPhone and the web with 5-minute lessons and graded practice prompts. Online courses like DeepLearning.AI's are good for the theory, and an app like Iro is built for the daily practice step."
     },
     {
       "q": "Do I need a paid AI subscription?",

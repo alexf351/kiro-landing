@@ -7,7 +7,7 @@ app_store: "https://apps.apple.com/app/id6759628066"
 language: en-US
 keywords: ["how to learn prompt engineering", "learn prompt engineering", "prompt engineering for beginners", "prompt engineering plan", "learn prompt engineering free", "prompt engineering without coding", "prompt engineering 2026"]
 date_published: "2026-11-10"
-date_modified: "2026-11-10"
+date_modified: "2026-11-23"
 reading_time_minutes: 6
 author: "Alex Furukawa"
 license: "© 2026 Iro AI"
@@ -21,6 +21,7 @@ pillar: "prompt-engineering"
 
 **Canonical:** https://tryiro.com/blog/how-to-learn-prompt-engineering
 **Published:** 2026-11-10
+**Updated:** 2026-11-23
 **Reading time:** ~6 min
 **Author:** Alex Furukawa — Founder of Iro AI
 
@@ -70,7 +71,11 @@ Ask why, too. In our [AI learning statistics](/ai-learning-statistics), beginner
 
 **How long does it take to learn prompt engineering?**
 
-The basics take a few weeks of short daily practice. Getting fast and reliable takes longer, and comes from using it on real work.
+Most people see a clear change after about four weeks of 5 to 10 minutes of practice a day. The skill comes from writing prompts for real tasks and comparing them to strong examples, not from reading tip lists.
+
+**Do I need to code to learn prompt engineering?**
+
+No. Prompting for everyday work, like emails, summaries, research and planning, needs no code. Coding only matters if you want to call AI models from your own software.
 
 **Is prompt engineering still worth learning in 2026?**
 
@@ -80,9 +85,17 @@ Yes, though it looks less like magic phrases and more like clear briefing and ch
 
 Yes. The official guides from the AI labs, free practice exercises and a daily habit cover the core of what paid courses teach.
 
+**Where can I practice prompt engineering for free?**
+
+Three good free options: the exercises on this site (a weak prompt, a goal and a model answer, about 5 minutes each), the free versions of ChatGPT, Claude and Gemini for running the same prompt in each, and Arena (formerly Chatbot Arena) for comparing how two models answer the same prompt. Short daily practice works better than one long session.
+
 **What's the best way to practice prompt engineering?**
 
 Rewrite a real prompt every day and compare outputs side by side. Short daily sessions beat a weekend course.
+
+**Is there an app to practice prompt engineering every day?**
+
+Yes. Iro is a microlearning app on iPhone and the web with 5-minute lessons and graded practice prompts. Online courses like DeepLearning.AI's are good for the theory, and an app like Iro is built for the daily practice step.
 
 **Do I need a paid AI subscription?**
 
