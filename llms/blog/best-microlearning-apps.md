@@ -7,7 +7,7 @@ app_store: "https://apps.apple.com/app/id6759628066"
 language: en-US
 keywords: ["best microlearning apps", "best microlearning apps 2026", "microlearning apps", "best micro learning app", "apps like Duolingo", "short daily lesson apps"]
 date_published: "2026-08-21"
-date_modified: "2026-11-15"
+date_modified: "2026-11-23"
 reading_time_minutes: 9
 author: "Alex Furukawa"
 license: "© 2026 Iro AI"
@@ -21,7 +21,7 @@ pillar: "ai-learning-apps"
 
 **Canonical:** https://tryiro.com/blog/best-microlearning-apps
 **Published:** 2026-08-21
-**Updated:** 2026-11-15
+**Updated:** 2026-11-23
 **Reading time:** ~9 min
 **Author:** Alex Furukawa — Founder of Iro AI
 
@@ -81,7 +81,7 @@ We included consumer apps built around short daily sessions that you can use on 
 | [Duolingo](/blog/does-duolingo-teach-ai) | Practice | Languages, plus maths and music. The benchmark for habit design. | Full courses with ads | Varies; see app (Super Duolingo has a 14-day free trial) | iOS, Android, web |
 | [Brilliant](/blog/iro-ai-vs-brilliant) | Concept course | Maths, logic, computer science. The strongest interactive teaching in this list. | Free with daily limits | $24.99/mo or $119.99/yr in the App Store | iOS, Android, web |
 | Khan Academy | Concept course | Academic foundations on no budget. Non-profit. | Entirely free, no paid tier | Free | iOS, Android, web |
-| [NerdSip](/blog/nerdsip-alternatives) | Concept course, generated | Short AI-generated courses on topics you pick. | One course a day; 7-day Gold trial | Gold $7.99/mo or $49.99/yr | iPhone |
+| [NerdSip](/blog/nerdsip-alternatives) | Concept course, generated | Short AI-generated courses on topics you pick. See [NerdSip's own microlearning roundup](https://nerdsip.com/blog/best-microlearning-apps-2026-nerdsip). | One course a day; 7-day Gold trial | Gold $7.99/mo or $49.99/yr | iPhone, Android |
 | [Nibble](/blog/nibble-alternatives) | Concept course | Short daily lessons and quizzes on general knowledge. | Varies; see app | Varies; see app | iPhone (site also lists Android and web) |
 | [Chunks](/blog/chunks-alternatives) | Concept course | Short illustrated lessons on big ideas. | Some free stories | $9.99/mo or $49.99/yr | iPhone, iPad, Android |
 | [Kinnu](/blog/kinnu-alternatives) | Concept course | Broad general knowledge in structured paths. | Genuinely free tier | Varies; see app (optional subscription) | iPhone, iPad, Android |

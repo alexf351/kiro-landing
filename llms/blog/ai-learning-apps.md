@@ -4,7 +4,7 @@ canonical_url: "https://tryiro.com/blog/ai-learning-apps"
 site: "Iro AI"
 site_url: "https://tryiro.com"
 language: en-US
-last_updated: "2026-11-21"
+last_updated: "2026-11-23"
 keywords: ["AI learning apps", "best app to learn AI", "AI learning app reviews", "Coursiv alternatives", "how to cancel Coursiv", "Duolingo for AI", "AI app subscription refund", "how to choose an AI learning app"]
 author: "Iro AI"
 license: "© 2026 Iro AI"
@@ -16,7 +16,7 @@ type: "content-pillar"
 > Honest reviews and head-to-heads for apps like Coursiv, Brilliant and Duolingo, plus how to cancel, get a refund, and pick an app that actually teaches you AI.
 
 **Canonical:** https://tryiro.com/blog/ai-learning-apps
-**Last updated:** 2026-11-21
+**Last updated:** 2026-11-23
 
 This hub collects everything we've written about AI learning apps: honest reviews, alternatives pages, head-to-head comparisons, and step-by-step guides to cancelling and getting refunds from apps like Coursiv, Finestro and Skilario.
 
