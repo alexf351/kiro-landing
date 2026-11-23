@@ -1,7 +1,7 @@
 {
   "name": "Iro AI — Learn AI Skills",
   "short_name": "Iro AI",
-  "description": "Master AI tools in 5-minute lessons. ChatGPT, Claude, Gemini, Perplexity, prompt engineering, AI agents, and more.",
+  "description": "Learn AI tools in 5-minute lessons. ChatGPT, Claude, Gemini, Perplexity, prompt engineering, AI agents, and more.",
   "start_url": "/",
   "scope": "/",
   "display": "standalone",
