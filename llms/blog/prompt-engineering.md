@@ -4,7 +4,7 @@ canonical_url: "https://tryiro.com/blog/prompt-engineering"
 site: "Iro AI"
 site_url: "https://tryiro.com"
 language: en-US
-last_updated: "2026-11-22"
+last_updated: "2026-11-23"
 keywords: ["prompt engineering", "how to write a prompt", "prompt patterns", "prompt engineering examples", "prompt engineering exercises", "ChatGPT prompts", "AI prompts that work", "learn prompt engineering"]
 author: "Iro AI"
 license: "© 2026 Iro AI"
@@ -16,7 +16,7 @@ type: "content-pillar"
 > How to write prompts that get a usable answer the first or second time: the anatomy of a good prompt, the patterns that carry across tools, how to fix a bad answer and how to practise.
 
 **Canonical:** https://tryiro.com/blog/prompt-engineering
-**Last updated:** 2026-11-22
+**Last updated:** 2026-11-23
 
 Prompt engineering is less mysterious than it sounds. It's the skill of telling an AI model what you want clearly enough that it gets it right the first or second time. No secret phrases, no code. Just clear thinking, written down.
 
