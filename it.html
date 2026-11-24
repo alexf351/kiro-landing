@@ -822,6 +822,9 @@ footer .wrap{display:flex;flex-direction:column;gap:24px}
 .foot-socials svg{width:18px;height:18px}
 .foot-explore{position:static;top:auto;left:auto;right:auto;z-index:auto;height:auto;background:none;backdrop-filter:none;align-items:stretch;width:100%;border-top:1px solid var(--line);margin-top:2px;padding-top:4px;padding-bottom:26px;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:22px 30px}.foot-explore h3{font-family:'JetBrains Mono',monospace;font-size:10px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-3);margin:0 0 10px}.foot-explore ul{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:7px}.foot-explore a{font-size:13px;color:var(--ink-2);text-decoration:none}.foot-explore a:hover{color:var(--accent)}@media(max-width:980px){.foot-explore{grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}}@media(max-width:340px){.foot-explore{grid-template-columns:1fr}}.foot-bottom{border-top:1px solid var(--line);padding-top:22px}
 .foot-copy{font-family:'JetBrains Mono',monospace;font-size:11px;color:var(--ink-3);letter-spacing:.04em}
+.foot-badges{display:flex;align-items:center;flex-wrap:wrap;gap:12px;margin-top:16px}
+.foot-badges a{display:inline-block;line-height:0}
+.foot-badges img{display:block;height:auto;max-width:100%}
 @media(max-width:680px){.foot-top{flex-direction:column;align-items:flex-start;gap:20px}}
 
 /* ============================================================
@@ -1587,6 +1590,10 @@ document.querySelectorAll('.askai-chip').forEach(function(a){
     <div class="foot-bottom">
       <nav class="foot-explore" aria-label="Esplora Iro"><div><h3>Impara uno strumento</h3><ul><li><a href="/learn-chatgpt">ChatGPT</a></li><li><a href="/learn-claude">Claude</a></li><li><a href="/learn-gemini">Gemini</a></li><li><a href="/learn-perplexity">Perplexity</a></li><li><a href="/learn-copilot">Microsoft Copilot</a></li><li><a href="/learn-cursor">Cursor</a></li><li><a href="/learn-midjourney">Midjourney</a></li></ul></div><div><h3>IA per il tuo lavoro</h3><ul><li><a href="/ai-for-work">IA al lavoro</a></li><li><a href="/ai-for-students">Studenti</a></li><li><a href="/ai-for-marketing">Marketing</a></li><li><a href="/ai-for-founders">Fondatori</a></li><li><a href="/ai-for-sales">Vendite</a></li><li><a href="/ai-for-managers">Manager</a></li><li><a href="/ai-job-hunting">Ricerca di lavoro</a></li></ul></div><div><h3>Sviluppa una competenza</h3><ul><li><a href="/prompt-engineering-app">Prompt engineering</a></li><li><a href="/ai-agents-course">Agenti di IA</a></li><li><a href="/ai-automation-course">Automazione con l’IA</a></li><li><a href="/vibe-coding-course">Vibe coding</a></li><li><a href="/ai-image-generation-course">Generazione di immagini</a></li><li><a href="/free-ai-learning-app">Imparare l’IA gratis</a></li><li><a href="/learn-ai-in-5-minutes-a-day">Cinque minuti al giorno</a></li></ul></div><div><h3>Il blog (in inglese)</h3><ul><li><a href="/blog/apps-like-duolingo-for-ai">App come Duolingo per l’IA</a></li><li><a href="/blog/prompt-engineering">Prompt engineering</a></li><li><a href="/blog/ai-agents">Agenti di IA e automazione</a></li><li><a href="/blog/ai-tools">Strumenti di IA</a></li><li><a href="/blog">Tutti gli articoli</a></li><li><a href="/blog/average-ai-literacy-score">I dati sull’alfabetizzazione all’IA</a></li></ul></div></nav>
       <div class="foot-copy">© 2026 Iro AI · Impara l’IA come un gioco. · Guide e blog in inglese.</div>
+      <div class="foot-badges">
+        <a href="https://neeed.directory/products/iro-ai?utm_source=iro-ai" target="_blank" rel="noopener"><img src="https://neeed.directory/badges/neeed-badge-dark.svg" alt="In evidenza su neeed.directory" width="139" /></a>
+        <a href="https://fazier.com" target="_blank"><img src="https://fazier.com/api/v1//public/badges/launch_badges.svg?badge_type=launched&amp;theme=dark" width="120" alt="Badge Fazier" /></a>
+      </div>
     </div>
   </div>
 </footer>

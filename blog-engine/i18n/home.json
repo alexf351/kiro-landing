@@ -1650,6 +1650,24 @@
     "pt-br": "© 2026 Iro AI · Aprenda IA como um jogo. · Guias e blog em inglês.",
     "it": "© 2026 Iro AI · Impara l’IA come un gioco. · Guide e blog in inglese.",
     "zh-hans": "© 2026 Iro AI · 学 AI，像玩游戏一样 · 指南和博客为英文"
+   },
+   "neeedAlt": {
+    "en": "Featured on neeed.directory",
+    "es": "Destacado en neeed.directory",
+    "fr": "En vedette sur neeed.directory",
+    "de": "Vorgestellt auf neeed.directory",
+    "pt-br": "Destaque no neeed.directory",
+    "it": "In evidenza su neeed.directory",
+    "zh-hans": "收录于 neeed.directory"
+   },
+   "fazierAlt": {
+    "en": "Fazier badge",
+    "es": "Distintivo de Fazier",
+    "fr": "Badge Fazier",
+    "de": "Fazier-Badge",
+    "pt-br": "Selo Fazier",
+    "it": "Badge Fazier",
+    "zh-hans": "Fazier 徽章"
    }
   },
   "js.universe": {
