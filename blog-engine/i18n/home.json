@@ -260,13 +260,13 @@
     "zh-hans": "Iro AI App 图标"
    },
    "bannerText": {
-    "en": "Master AI. Free on the App Store.",
-    "es": "Domina la IA. Gratis en el App Store.",
-    "fr": "Maîtrisez l’IA. Gratuit sur l’App Store.",
-    "de": "Meistere KI. Kostenlos im App Store.",
-    "pt-br": "Domine a IA. Grátis na App Store.",
-    "it": "Padroneggia l’IA. Gratis sull’App Store.",
-    "zh-hans": "掌握 AI。App Store 免费下载。"
+    "en": "Learn AI like a game.",
+    "es": "Aprende IA como un juego.",
+    "fr": "Apprenez l’IA comme un jeu.",
+    "de": "Lerne KI wie ein Spiel.",
+    "pt-br": "Aprenda IA como um jogo.",
+    "it": "Impara l’IA come un gioco.",
+    "zh-hans": "学 AI，像玩游戏一样。"
    },
    "bannerGet": {
     "en": "Get",
@@ -1643,13 +1643,13 @@
     "zh-hans": "AI 素养数据"
    },
    "copy": {
-    "en": "© 2026 Iro AI · Master AI. Stay ahead.",
-    "es": "© 2026 Iro AI · Domina la IA. Adelántate. · Guías y blog en inglés.",
-    "fr": "© 2026 Iro AI · Maîtrisez l’IA. Gardez une longueur d’avance. · Guides et blog en anglais.",
-    "de": "© 2026 Iro AI · Meistere KI. Bleib vorn. · Leitfäden und Blog auf Englisch.",
-    "pt-br": "© 2026 Iro AI · Domine a IA. Saia na frente. · Guias e blog em inglês.",
-    "it": "© 2026 Iro AI · Padroneggia l’IA. Resta un passo avanti. · Guide e blog in inglese.",
-    "zh-hans": "© 2026 Iro AI · 掌握 AI，领先一步 · 指南和博客为英文"
+    "en": "© 2026 Iro AI · Learn AI like a game.",
+    "es": "© 2026 Iro AI · Aprende IA como un juego. · Guías y blog en inglés.",
+    "fr": "© 2026 Iro AI · Apprenez l’IA comme un jeu. · Guides et blog en anglais.",
+    "de": "© 2026 Iro AI · Lerne KI wie ein Spiel. · Leitfäden und Blog auf Englisch.",
+    "pt-br": "© 2026 Iro AI · Aprenda IA como um jogo. · Guias e blog em inglês.",
+    "it": "© 2026 Iro AI · Impara l’IA come un gioco. · Guide e blog in inglese.",
+    "zh-hans": "© 2026 Iro AI · 学 AI，像玩游戏一样 · 指南和博客为英文"
    }
   },
   "js.universe": {
@@ -3035,13 +3035,13 @@
     "zh-hans": "每月 9.99 美元，可随时取消。"
    },
    "appDesc": {
-    "en": "Iro AI is the gamified microlearning app for AI. Master AI tools, prompting, and skills in 5 minutes a day through lessons, head-to-head duels, and hands-on practice. 34 learning paths, 3,000+ exercises across ChatGPT, Claude, Gemini, Perplexity, and more.",
-    "es": "Iro AI es la app de microaprendizaje gamificado para la IA. Domina herramientas de IA, prompts y habilidades en 5 minutos al día con lecciones, duelos cara a cara y práctica real. 34 rutas de aprendizaje y más de 3.000 ejercicios con ChatGPT, Claude, Gemini, Perplexity y más.",
-    "fr": "Iro AI est l’app de micro-apprentissage ludique dédiée à l’IA. Maîtrisez les outils d’IA, les prompts et les compétences clés en 5 minutes par jour grâce à des leçons, des duels en face-à-face et de la pratique concrète. 34 parcours et plus de 3 000 exercices sur ChatGPT, Claude, Gemini, Perplexity et d’autres.",
-    "de": "Iro AI ist die spielerische Microlearning-App für KI. Meistere KI-Tools, Prompting und wichtige Skills in 5 Minuten am Tag – mit Lektionen, Duellen und praktischen Übungen. 34 Lernpfade und über 3.000 Übungen zu ChatGPT, Claude, Gemini, Perplexity und mehr.",
-    "pt-br": "O Iro AI é o app de microaprendizagem gamificada para IA. Domine ferramentas de IA, prompts e habilidades em 5 minutos por dia com lições, duelos cara a cara e prática de verdade. 34 trilhas de aprendizagem e mais de 3.000 exercícios com ChatGPT, Claude, Gemini, Perplexity e mais.",
-    "it": "Iro AI è l’app di microlearning gamificato per l’IA. Padroneggia strumenti di IA, prompt e competenze in 5 minuti al giorno con lezioni, duelli testa a testa e pratica reale. 34 percorsi di apprendimento e oltre 3.000 esercizi su ChatGPT, Claude, Gemini, Perplexity e altro.",
-    "zh-hans": "Iro AI 是一款游戏化的 AI 微学习 App。通过课程、一对一对战和动手实践，每天 5 分钟掌握 AI 工具、提示词和相关技能。34 条学习路径，3,000+ 道练习，涵盖 ChatGPT、Claude、Gemini、Perplexity 等。"
+    "en": "Iro AI is the gamified microlearning app for AI. Learn AI tools, prompting, and skills in 5 minutes a day through lessons, head-to-head duels, and hands-on practice. 34 learning paths, 3,000+ exercises across ChatGPT, Claude, Gemini, Perplexity, and more.",
+    "es": "Iro AI es la app de microaprendizaje gamificado para la IA. Aprende herramientas de IA, prompts y habilidades en 5 minutos al día con lecciones, duelos cara a cara y práctica real. 34 rutas de aprendizaje y más de 3.000 ejercicios con ChatGPT, Claude, Gemini, Perplexity y más.",
+    "fr": "Iro AI est l’app de micro-apprentissage ludique dédiée à l’IA. Apprenez les outils d’IA, les prompts et les compétences clés en 5 minutes par jour grâce à des leçons, des duels en face-à-face et de la pratique concrète. 34 parcours et plus de 3 000 exercices sur ChatGPT, Claude, Gemini, Perplexity et d’autres.",
+    "de": "Iro AI ist die spielerische Microlearning-App für KI. Lerne KI-Tools, Prompting und wichtige Skills in 5 Minuten am Tag – mit Lektionen, Duellen und praktischen Übungen. 34 Lernpfade und über 3.000 Übungen zu ChatGPT, Claude, Gemini, Perplexity und mehr.",
+    "pt-br": "O Iro AI é o app de microaprendizagem gamificada para IA. Aprenda ferramentas de IA, prompts e habilidades em 5 minutos por dia com lições, duelos cara a cara e prática de verdade. 34 trilhas de aprendizagem e mais de 3.000 exercícios com ChatGPT, Claude, Gemini, Perplexity e mais.",
+    "it": "Iro AI è l’app di microlearning gamificato per l’IA. Impara strumenti di IA, prompt e competenze in 5 minuti al giorno con lezioni, duelli testa a testa e pratica reale. 34 percorsi di apprendimento e oltre 3.000 esercizi su ChatGPT, Claude, Gemini, Perplexity e altro.",
+    "zh-hans": "Iro AI 是一款游戏化的 AI 微学习 App。通过课程、一对一对战和动手实践，每天 5 分钟学会 AI 工具、提示词和相关技能。34 条学习路径，3,000+ 道练习，涵盖 ChatGPT、Claude、Gemini、Perplexity 等。"
    },
    "annualTrial": {
     "en": "Pro Annual with 7-day free trial",
