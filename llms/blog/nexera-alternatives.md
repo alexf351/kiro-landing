@@ -71,7 +71,7 @@ On the three reasons above:
 
 - **Billing.** Pro is billed by Apple, so you can cancel anytime in two taps in Settings and refunds go through Apple. No trial that converts into a bigger plan you did not notice.
 - **Price.** Free to start, with a battery that gives you a full lesson every day. Pro is one price: **$9.99 a month or $49.99 a year**, with a 7-day free trial on the annual plan. The monthly price matches Nexera's App Store plan; the annual plan is $10 to $20 a year less than Nexera's yearly plans.
-- **Method.** 34 paths, 522 lessons and 3,000+ exercises across 23 exercise types, plus Ask Iro by chat and voice, an Image Lab, timed duels and certificates. It runs on iPhone and the web, and is rated 4.6 stars from 85 reviews.
+- **Method.** 34 paths, 522 lessons and 3,000+ exercises across 23 exercise types, plus Ask Iro by chat and voice, an Image Lab, timed duels and certificates. It runs on iPhone and the web, and is rated 4.6 stars from 92 reviews.
 
 Iro makes no income or career promises. It teaches you to use AI well, and that is the whole claim.
 

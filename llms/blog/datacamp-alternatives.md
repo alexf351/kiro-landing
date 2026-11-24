@@ -78,7 +78,7 @@ DataCamp's pricing page says you can cancel at any time, and that monthly plans 
 
 Iro AI is our app, so weigh this accordingly. It teaches one thing: using AI tools well, with no code. Lessons take about five minutes. You write real prompts in the Prompt Lab and get them scored, learn to catch hallucinations and made-up sources, and practise with ChatGPT, Claude, Gemini and Perplexity on everyday work tasks.
 
-It is **34 learning paths, 522 lessons and 3,000+ exercises across 23 exercise types**. Every path is open on the free tier, paced by a battery that gives you a full lesson a day. Pro is one price, **$9.99 a month or $49.99 a year**, with a 7-day free trial on the annual plan, billed by Apple so you can cancel any time in Settings. It runs on iPhone and the web (Android is in development), makes no job or income promises, and is rated 4.6 stars from 90 reviews.
+It is **34 learning paths, 522 lessons and 3,000+ exercises across 23 exercise types**. Every path is open on the free tier, paced by a battery that gives you a full lesson a day. Pro is one price, **$9.99 a month or $49.99 a year**, with a 7-day free trial on the annual plan, billed by Apple so you can cancel any time in Settings. It runs on iPhone and the web (Android is in development), makes no job or income promises, and is rated 4.6 stars from 92 reviews.
 
 **Pick it if** you want to be better at using AI at work this month. **Skip it if** you want to code, analyse data or build AI apps: that is DataCamp's job. Head-to-head: [Iro AI vs DataCamp](/blog/iro-ai-vs-datacamp).
 

@@ -52,7 +52,7 @@ The short version, before the detail. We make Iro, so weigh our view accordingly
 | Cancelling | On iPhone, Settings > Subscriptions, anytime | Web: Plan Management, more than 24 hours before the period ends |
 | Platforms | iPhone and the web | iPhone, Android and the web |
 | Languages | English app | 17 languages |
-| Ratings | 4.6 stars from 90 reviews | 4.7 on the App Store from about 2,000 ratings; 4.4 on Trustpilot from 10,274 reviews |
+| Ratings | 4.6 stars from 92 reviews | 4.7 on the App Store from about 2,000 ratings; 4.4 on Trustpilot from 10,274 reviews |
 
 
 
