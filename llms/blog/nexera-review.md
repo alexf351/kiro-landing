@@ -113,7 +113,7 @@ Iro AI is our app, so weigh this accordingly. If what drew you to Nexera was lea
 
 On billing, since that is what brings most people to a review like this: Iro is **free to start**, with a battery that gives you a full lesson every day and recharges overnight. Pro is **$9.99 a month or $49.99 a year**, one price with no intro rate that converts to a higher one, and the annual plan includes a 7-day free trial. It is billed by Apple, so you can cancel anytime in two taps in Settings. Iro makes no income promises: it teaches you to use AI well, and that is the claim.
 
-For scale: **34 learning paths, 522 lessons and 3,000+ exercises across 23 exercise types**, covering ChatGPT, Claude, Gemini, Perplexity, prompting, agents and automation, on iPhone and the web. It is rated 4.6 stars from 85 reviews. See [exactly what the free tier includes](/free-ai-learning-app), or take the [two-minute AI rank quiz](/quiz) first. For the wider field, see [the best Nexera alternatives](/blog/nexera-alternatives).
+For scale: **34 learning paths, 522 lessons and 3,000+ exercises across 23 exercise types**, covering ChatGPT, Claude, Gemini, Perplexity, prompting, agents and automation, on iPhone and the web. It is rated 4.6 stars from 92 reviews. See [exactly what the free tier includes](/free-ai-learning-app), or take the [two-minute AI rank quiz](/quiz) first. For the wider field, see [the best Nexera alternatives](/blog/nexera-alternatives).
 
 ## Sources
 
