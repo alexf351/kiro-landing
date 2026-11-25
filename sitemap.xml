@@ -198,7 +198,7 @@
   <url><loc>https://tryiro.com/learn-canva-ai</loc><lastmod>2026-08-18</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://tryiro.com/learn-elevenlabs</loc><lastmod>2026-07-29</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://tryiro.com/learn-gamma</loc><lastmod>2026-10-23</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://tryiro.com/ai-for-excel</loc><lastmod>2026-08-18</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://tryiro.com/ai-for-excel</loc><lastmod>2026-11-25</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://tryiro.com/ai-for-research</loc><lastmod>2026-07-09</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://tryiro.com/ai-for-presentations</loc><lastmod>2026-08-18</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://tryiro.com/ai-for-meetings</loc><lastmod>2026-07-09</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
@@ -243,7 +243,7 @@
   </url>
   <url>
     <loc>https://tryiro.com/blog/ai-fluency</loc>
-    <lastmod>2026-11-20</lastmod>
+    <lastmod>2026-11-25</lastmod>
   </url>
   <url>
     <loc>https://tryiro.com/blog/ai-for-beginners-30-day-plan</loc>
@@ -271,7 +271,7 @@
   </url>
   <url>
     <loc>https://tryiro.com/blog/ai-learning-apps</loc>
-    <lastmod>2026-11-20</lastmod>
+    <lastmod>2026-11-23</lastmod>
   </url>
   <url>
     <loc>https://tryiro.com/blog/ai-skills-for-2026</loc>
@@ -287,7 +287,7 @@
   </url>
   <url>
     <loc>https://tryiro.com/blog/ai-tools</loc>
-    <lastmod>2026-11-20</lastmod>
+    <lastmod>2026-11-25</lastmod>
   </url>
   <url>
     <loc>https://tryiro.com/blog/ai-trends-2026</loc>
@@ -359,7 +359,7 @@
   </url>
   <url>
     <loc>https://tryiro.com/blog/best-iphone-apps-to-learn-ai</loc>
-    <lastmod>2026-11-12</lastmod>
+    <lastmod>2026-11-21</lastmod>
   </url>
   <url>
     <loc>https://tryiro.com/blog/best-learning-apps</loc>
@@ -367,7 +367,11 @@
   </url>
   <url>
     <loc>https://tryiro.com/blog/best-microlearning-apps</loc>
-    <lastmod>2026-11-15</lastmod>
+    <lastmod>2026-11-23</lastmod>
+  </url>
+  <url>
+    <loc>https://tryiro.com/blog/best-prompt-engineering-courses</loc>
+    <lastmod>2026-11-22</lastmod>
   </url>
   <url>
     <loc>https://tryiro.com/blog/blinkist-alternatives</loc>
@@ -383,7 +387,15 @@
   </url>
   <url>
     <loc>https://tryiro.com/blog/cancel-finestro</loc>
-    <lastmod>2026-11-04</lastmod>
+    <lastmod>2026-11-21</lastmod>
+  </url>
+  <url>
+    <loc>https://tryiro.com/blog/cancel-jobescape</loc>
+    <lastmod>2026-11-21</lastmod>
+  </url>
+  <url>
+    <loc>https://tryiro.com/blog/cancel-nexera</loc>
+    <lastmod>2026-11-21</lastmod>
   </url>
   <url>
     <loc>https://tryiro.com/blog/cancel-skilario</loc>
@@ -446,8 +458,12 @@
     <lastmod>2026-10-23</lastmod>
   </url>
   <url>
+    <loc>https://tryiro.com/blog/cosmo-alternatives</loc>
+    <lastmod>2026-11-21</lastmod>
+  </url>
+  <url>
     <loc>https://tryiro.com/blog/cosmo-review</loc>
-    <lastmod>2026-11-04</lastmod>
+    <lastmod>2026-11-21</lastmod>
   </url>
   <url>
     <loc>https://tryiro.com/blog/coursiv-alternatives</loc>
@@ -462,6 +478,10 @@
     <lastmod>2026-08-18</lastmod>
   </url>
   <url>
+    <loc>https://tryiro.com/blog/datacamp-alternatives</loc>
+    <lastmod>2026-11-21</lastmod>
+  </url>
+  <url>
     <loc>https://tryiro.com/blog/deepseek-v4</loc>
     <lastmod>2026-08-21</lastmod>
   </url>
@@ -471,7 +491,11 @@
   </url>
   <url>
     <loc>https://tryiro.com/blog/finestro-alternatives</loc>
-    <lastmod>2026-11-04</lastmod>
+    <lastmod>2026-11-21</lastmod>
+  </url>
+  <url>
+    <loc>https://tryiro.com/blog/finestro-review</loc>
+    <lastmod>2026-11-21</lastmod>
   </url>
   <url>
     <loc>https://tryiro.com/blog/gamma-vs-canva-vs-chatgpt-slides</loc>
@@ -547,7 +571,7 @@
   </url>
   <url>
     <loc>https://tryiro.com/blog/how-to-learn-prompt-engineering</loc>
-    <lastmod>2026-11-10</lastmod>
+    <lastmod>2026-11-23</lastmod>
   </url>
   <url>
     <loc>https://tryiro.com/blog/how-to-make-a-mood-board-with-ai</loc>
@@ -556,6 +580,10 @@
   <url>
     <loc>https://tryiro.com/blog/how-to-read-ai-benchmarks</loc>
     <lastmod>2026-09-12</lastmod>
+  </url>
+  <url>
+    <loc>https://tryiro.com/blog/how-to-teach-your-parents-chatgpt</loc>
+    <lastmod>2026-11-25</lastmod>
   </url>
   <url>
     <loc>https://tryiro.com/blog/how-to-tell-if-something-is-ai-generated</loc>
@@ -622,12 +650,28 @@
     <lastmod>2026-11-16</lastmod>
   </url>
   <url>
+    <loc>https://tryiro.com/blog/iro-ai-vs-cosmo</loc>
+    <lastmod>2026-11-21</lastmod>
+  </url>
+  <url>
     <loc>https://tryiro.com/blog/iro-ai-vs-coursiv</loc>
-    <lastmod>2026-11-06</lastmod>
+    <lastmod>2026-11-21</lastmod>
+  </url>
+  <url>
+    <loc>https://tryiro.com/blog/iro-ai-vs-datacamp</loc>
+    <lastmod>2026-11-21</lastmod>
   </url>
   <url>
     <loc>https://tryiro.com/blog/iro-ai-vs-duolingo</loc>
     <lastmod>2026-08-18</lastmod>
+  </url>
+  <url>
+    <loc>https://tryiro.com/blog/iro-ai-vs-finestro</loc>
+    <lastmod>2026-11-21</lastmod>
+  </url>
+  <url>
+    <loc>https://tryiro.com/blog/iro-ai-vs-jobescape</loc>
+    <lastmod>2026-11-21</lastmod>
   </url>
   <url>
     <loc>https://tryiro.com/blog/iro-ai-vs-learnova</loc>
@@ -654,8 +698,12 @@
     <lastmod>2026-06-22</lastmod>
   </url>
   <url>
+    <loc>https://tryiro.com/blog/jobescape-alternatives</loc>
+    <lastmod>2026-11-21</lastmod>
+  </url>
+  <url>
     <loc>https://tryiro.com/blog/jobescape-review</loc>
-    <lastmod>2026-11-04</lastmod>
+    <lastmod>2026-11-21</lastmod>
   </url>
   <url>
     <loc>https://tryiro.com/blog/kimi-k3</loc>
@@ -686,6 +734,14 @@
     <lastmod>2026-10-23</lastmod>
   </url>
   <url>
+    <loc>https://tryiro.com/blog/nexera-alternatives</loc>
+    <lastmod>2026-11-21</lastmod>
+  </url>
+  <url>
+    <loc>https://tryiro.com/blog/nexera-review</loc>
+    <lastmod>2026-11-21</lastmod>
+  </url>
+  <url>
     <loc>https://tryiro.com/blog/nibble-alternatives</loc>
     <lastmod>2026-11-17</lastmod>
   </url>
@@ -699,7 +755,7 @@
   </url>
   <url>
     <loc>https://tryiro.com/blog/prompt-engineering</loc>
-    <lastmod>2026-11-20</lastmod>
+    <lastmod>2026-11-23</lastmod>
   </url>
   <url>
     <loc>https://tryiro.com/blog/prompt-engineering-exercises</loc>
@@ -719,7 +775,7 @@
   </url>
   <url>
     <loc>https://tryiro.com/blog/spot-ai-hallucinations</loc>
-    <lastmod>2026-06-20</lastmod>
+    <lastmod>2026-11-25</lastmod>
   </url>
   <url>
     <loc>https://tryiro.com/blog/teach-ai-literacy-high-school</loc>
