@@ -1823,6 +1823,30 @@
         "ChatGPT",
         "beginners"
       ]
+    },
+    {
+      "id": "https://tryiro.com/blog/app-that-teaches-ai-as-podcasts",
+      "url": "https://tryiro.com/blog/app-that-teaches-ai-as-podcasts",
+      "title": "Is there an app that teaches AI skills as short podcast episodes?",
+      "summary": "Yes. Iro can play any of its AI lessons as a two-to-three-minute podcast episode, then has you practise what you heard. Here's how it works and who it suits.",
+      "date_published": "2026-11-25T00:00:00Z",
+      "tags": [
+        "AI learning apps",
+        "podcasts",
+        "learn AI"
+      ]
+    },
+    {
+      "id": "https://tryiro.com/blog/turn-youtube-video-or-pdf-into-a-course",
+      "url": "https://tryiro.com/blog/turn-youtube-video-or-pdf-into-a-course",
+      "title": "Is there an app that turns a YouTube video or PDF into a short course?",
+      "summary": "Yes. Iro's Custom Paths turn a YouTube link, a PDF or any web page into a short course of three to seven lessons. Here's what it reads, how long the courses are, and what it costs.",
+      "date_published": "2026-11-25T00:00:00Z",
+      "tags": [
+        "AI learning apps",
+        "Custom Paths",
+        "study"
+      ]
     }
   ]
 }

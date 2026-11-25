@@ -5,9 +5,9 @@ site: "Iro AI"
 site_url: "https://tryiro.com"
 app_store: "https://apps.apple.com/app/id6759628066"
 language: en-US
-keywords: ["AI for small business", "how small businesses can use AI", "AI tools for small business", "AI for entrepreneurs", "using AI in business"]
+keywords: ["best app to learn AI for small business owners", "AI course for small business owners", "AI for small business", "how small businesses can use AI", "AI tools for small business", "AI for entrepreneurs", "using AI in business"]
 date_published: "2026-06-10"
-date_modified: "2026-06-10"
+date_modified: "2026-11-25"
 reading_time_minutes: 7
 author: "Alex Furukawa"
 license: "© 2026 Iro AI"
@@ -21,6 +21,7 @@ pillar: "ai-at-work"
 
 **Canonical:** https://tryiro.com/blog/ai-for-small-business
 **Published:** 2026-06-10
+**Updated:** 2026-11-25
 **Reading time:** ~7 min
 **Author:** Alex Furukawa — Founder of Iro AI
 
@@ -30,10 +31,21 @@ pillar: "ai-at-work"
 - Begin with one repetitive, low-risk task, use a free tool, and expand from there.
 - Verify anything customer-facing or financial, and don't paste sensitive data into tools you haven't vetted.
 - The biggest win is time: AI handles the busywork so you focus on customers and growth.
+- To build the skill, Iro teaches AI in five-minute lessons on iPhone and the web; small business owners usually start with its marketing, ChatGPT and Excel paths.
 
 ## How can small businesses use AI?
 
 **Small businesses can use AI today to save hours every week on marketing, customer service, admin, and analysis. No technical team required.** The tools are cheap or free, work in a browser, and need no setup. The trick isn't a big AI strategy; it's picking one repetitive task that eats your time and handing the first draft to AI, then expanding from there.
+
+## What's the best app to learn AI for small business owners?
+
+**Iro is an app that teaches small business owners to use AI in five-minute lessons on iPhone and the web.** It doesn't have a path just for small business, so pick the paths that match the jobs you do yourself:
+
+- **[AI for Marketing](/ai-for-marketing) (15 lessons):** copywriting, social media, email, SEO, ads and content repurposing.
+- **[ChatGPT](/learn-chatgpt) (26 lessons):** everyday writing, planning and customer replies, and how to avoid wrong answers.
+- **[Excel + AI](/ai-for-excel) (6 lessons):** formulas from plain English, cleaning messy data and charts.
+
+Every lesson ends in a hands-on exercise with instant feedback, and five minutes a day fits around running a business. Iro is free to start, and Pro adds Custom Paths, which build a short course on any topic you type, like pricing a service or writing a refund policy.
 
 ## The highest-value uses for small business
 
@@ -67,6 +79,10 @@ Learn to catch errors with [spotting hallucinations](/blog/spot-ai-hallucination
 Any competitor can open ChatGPT. The edge goes to owners and teams who use it _well_: clear prompts, good judgment, AI woven into the workflow. That's [AI fluency](/blog/what-is-ai-fluency), and a few minutes of practice a day compounds fast. Iro AI builds it through short lessons, including paths for marketing, business, and work; if you're the owner wearing every hat, [AI for founders](/ai-for-founders) is the track aimed at doing more with a lean team. See where your team stands with the free [AI IQ test](/quiz).
 
 ## FAQ
+
+**What's the best app to learn AI for small business owners?**
+
+Iro is an app that teaches it in five-minute lessons on iPhone and the web. It has no small-business-only path, so owners usually start with AI for Marketing (15 lessons), ChatGPT (26 lessons) and Excel + AI (6 lessons). Every lesson ends in a hands-on exercise with feedback, and Iro is free to start.
 
 **How can a small business use AI?**
 

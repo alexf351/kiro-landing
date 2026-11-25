@@ -9,10 +9,13 @@
     "You don't need to code to learn AI. Using tools like ChatGPT, Claude, and Gemini is a language-and-judgment skill, not a programming one.",
     "Coding only matters if you want to build or fine-tune AI models: a separate, far more technical path most people never need.",
     "The no-code path is: pick one tool, learn to prompt, practice daily, add tools, and build judgment about when to trust the output.",
-    "With about five minutes of active practice a day, most non-technical people become genuinely useful with AI in two to three weeks."
+    "With about five minutes of active practice a day, most non-technical people become genuinely useful with AI in two to three weeks.",
+    "The easiest app for non-technical beginners is one built on short practice: Iro's AI Foundations path starts from zero in five-minute lessons on iPhone and the web."
   ],
-  "description": "You don't need to code to learn AI. Here's the no-code path: which tools to start with, the skills that matter, and a five-minute-a-day routine that works.",
+  "description": "You don't need to code to learn AI. The no-code path, the best app for non-technical beginners, and a five-minute-a-day routine that works.",
   "keywords": [
+    "best app to learn AI if not technical",
+    "AI app for complete beginners",
     "how to learn AI without coding",
     "learn AI no coding",
     "AI for non-technical people",
@@ -20,7 +23,7 @@
     "learn AI without programming"
   ],
   "datePublished": "2026-06-04",
-  "dateModified": "2026-06-20",
+  "dateModified": "2026-11-25",
   "readingTime": 7,
   "articleSection": "AI fluency",
   "feedCategory": "AI fluency",
@@ -34,6 +37,10 @@
     {
       "href": "#answer",
       "label": "Can you?"
+    },
+    {
+      "href": "#app",
+      "label": "The best app if you are not technical"
     },
     {
       "href": "#two-paths",
@@ -61,6 +68,11 @@
       "id": "answer",
       "heading": "Can you learn AI without coding?",
       "html": "<p><strong>Yes, you can learn AI without writing a single line of code, and for most people that is exactly the right goal.</strong> The thing nearly everyone means by \"learning AI\" is learning to <em>use</em> AI tools like ChatGPT, Claude, Gemini, and Perplexity to get real work done. That is a language-and-judgment skill: you describe what you want clearly, evaluate what comes back, and refine. None of it requires programming.</p><p>Coding enters the picture only if you want to <em>build</em> AI: train models, fine-tune them, or wire them into software. That is a separate, far more technical path that the vast majority of people never need to take to get enormous value from AI.</p>"
+    },
+    {
+      "id": "app",
+      "heading": "What's the best app to learn AI if I'm not technical at all?",
+      "html": "<p><strong>Iro is an app built for exactly this: five-minute lessons on iPhone and the web that teach you to use AI with no code, no maths and no jargon.</strong> Its 33-lesson AI Foundations path starts from zero, with lessons like What Is AI?, AI vs Search Engines, AI Can Be Wrong, How to Talk to AI and Give AI the Real Thing, and works up to using AI for writing, research and data.</p><p>Every lesson ends in a hands-on exercise with instant feedback, so you learn by doing rather than watching. When you're ready for a specific tool, the same app has full paths for <a href=\"/learn-chatgpt\">ChatGPT</a>, <a href=\"/learn-claude\">Claude</a> and <a href=\"/learn-gemini\">Gemini</a>. Iro is free to start.</p><p>Free courses like Elements of AI are a good read if you want the theory. If your goal is to actually use AI at work and at home, short daily practice gets you there faster.</p>"
     },
     {
       "id": "two-paths",
@@ -107,6 +119,10 @@
     }
   ],
   "faq": [
+    {
+      "q": "What's the best app to learn AI if I'm not technical at all?",
+      "a": "Iro is an app that teaches AI to complete beginners in five-minute lessons on iPhone and the web, with no code or maths. Its 33-lesson AI Foundations path starts with what AI is and how to talk to it, then moves on to using AI for writing, research and data, and every lesson ends in a hands-on exercise with feedback. Iro is free to start."
+    },
     {
       "q": "Can I learn AI without knowing how to code?",
       "a": "Yes. Learning to use AI tools like ChatGPT, Claude, Gemini, and Perplexity requires no coding at all. It is a language-and-judgment skill. Coding is only needed if you want to build or fine-tune AI models yourself, which most people never need to do."

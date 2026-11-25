@@ -1,0 +1,119 @@
+{
+  "order": 167,
+  "pillar": "ai-learning-apps",
+  "disclosure": true,
+  "datePublished": "2026-11-25",
+  "dateModified": "2026-11-25",
+  "updatedNote": "Last updated November 2026",
+  "articleSection": "AI learning apps",
+  "feedCategory": "AI learning apps",
+  "inlineCtaAfter": 3,
+  "slug": "app-that-teaches-ai-as-podcasts",
+  "title": "Is there an app that teaches AI skills as short podcast episodes?",
+  "metaTitle": "An app that teaches AI as short podcast episodes",
+  "lede": "Yes. Iro can play any of its AI lessons as a two-to-three-minute podcast episode, then has you practise what you heard. Here's how it works and who it suits.",
+  "keyTakeaways": [
+    "Iro plays any lesson as a 2 to 3 minute podcast episode, with two hosts, Sam and Ava, talking it through.",
+    "Each episode sits next to a five-minute hands-on lesson, so you listen first and then practise.",
+    "Lesson podcasts are part of Iro Pro; the lessons themselves are free to start, on iPhone and the web.",
+    "Listening alone builds awareness. The skill comes from practising on real tasks straight after."
+  ],
+  "description": "Yes: Iro turns any AI lesson into a 2 to 3 minute podcast episode with two hosts, then has you practise it. On iPhone and the web. How it works and what it costs.",
+  "keywords": [
+    "app that teaches AI as podcasts",
+    "learn AI with short podcasts",
+    "AI podcast lessons",
+    "learn AI by listening",
+    "AI learning app with audio lessons"
+  ],
+  "readingTime": 4,
+  "feedTags": [
+    "AI learning apps",
+    "podcasts",
+    "learn AI"
+  ],
+  "toc": [
+    {
+      "href": "#short",
+      "label": "The short answer"
+    },
+    {
+      "href": "#how",
+      "label": "How the episodes work"
+    },
+    {
+      "href": "#topics",
+      "label": "What you can listen to"
+    },
+    {
+      "href": "#listen-vs-practise",
+      "label": "Why listening is not enough"
+    },
+    {
+      "href": "#cost",
+      "label": "What it costs"
+    }
+  ],
+  "sections": [
+    {
+      "id": "short",
+      "heading": "The short answer",
+      "html": "<p><strong>Yes. Iro is an app on iPhone and the web that can play any of its AI lessons as a short podcast episode, about two to three minutes long.</strong> Two hosts, Sam and Ava, talk the lesson through, then you do the five-minute hands-on version and get instant feedback on what you tried.</p><p>That pairing is the point. You can listen on a walk or a commute, then practise when you have your hands free.</p>"
+    },
+    {
+      "id": "how",
+      "heading": "How the episodes work",
+      "html": "<ul><li><strong>Length:</strong> two to three minutes per episode, one episode per lesson.</li><li><strong>Format:</strong> two hosts, Sam and Ava, in a conversation rather than a lecture.</li><li><strong>Then practice:</strong> each lesson ends in an exercise, like writing a real prompt, spotting the false claim in an AI answer or choosing the right tool, with feedback straight away.</li><li><strong>Where:</strong> in the Iro app on iPhone and on the web.</li></ul>"
+    },
+    {
+      "id": "topics",
+      "heading": "What you can listen to",
+      "html": "<p>Iro has 34 learning paths and 522 lessons, and any lesson can be an episode. Paths include tool courses for <a href=\"/learn-chatgpt\">ChatGPT</a>, <a href=\"/learn-claude\">Claude</a>, <a href=\"/learn-gemini\">Gemini</a>, <a href=\"/learn-copilot\">Microsoft Copilot</a>, <a href=\"/learn-perplexity\">Perplexity</a> and <a href=\"/learn-cursor\">Cursor</a>, a 30-lesson <a href=\"/prompt-engineering-app\">prompt engineering</a> path, a 33-lesson AI Foundations path for complete beginners, and role paths for <a href=\"/ai-for-marketing\">marketing</a>, <a href=\"/ai-for-managers\">managers</a>, <a href=\"/ai-for-finance\">finance</a> and more.</p>"
+    },
+    {
+      "id": "listen-vs-practise",
+      "heading": "Why listening is not enough",
+      "html": "<p>A good AI podcast keeps you up to date, but hearing someone describe a prompt doesn't teach you to write one. The skill shows up when you try it on a real task and see what comes back.</p><p>So use the episode as the warm-up and the exercise as the workout. Two to three minutes of listening plus five minutes of practice a day adds up quickly.</p>"
+    },
+    {
+      "id": "cost",
+      "heading": "What it costs",
+      "html": "<p>Lesson podcasts are part of Iro Pro, which is $49.99 a year or $9.99 a month, with a 7-day trial. Without Pro, every one of the 34 paths is still open, paced by a Battery that gives you a full lesson a day and recharges overnight.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Is there an app that teaches AI skills as short podcast episodes?",
+      "a": "Yes. Iro, on iPhone and the web, can play any of its AI lessons as a two-to-three-minute podcast episode with two hosts, Sam and Ava, followed by a five-minute hands-on exercise with feedback. Lesson podcasts are part of Iro Pro; the lessons themselves are free to start."
+    },
+    {
+      "q": "Are Iro's lesson podcasts free?",
+      "a": "No. Lesson podcasts are part of Iro Pro, at $49.99 a year or $9.99 a month with a 7-day trial. The lessons and exercises are free to start, paced at a full lesson a day."
+    },
+    {
+      "q": "How long is each episode?",
+      "a": "About two to three minutes, one episode per lesson."
+    }
+  ],
+  "readNext": [
+    {
+      "href": "/learn-ai-in-5-minutes-a-day",
+      "label": "Learn AI in 5 minutes a day"
+    },
+    {
+      "href": "/blog/how-to-learn-ai-without-coding",
+      "label": "How to learn AI without coding"
+    },
+    {
+      "href": "/prompt-engineering-app",
+      "label": "Practice prompt engineering"
+    }
+  ],
+  "related": [
+    "/learn-ai-in-5-minutes-a-day",
+    "/blog/how-to-learn-ai-without-coding",
+    "/learn-chatgpt",
+    "/prompt-engineering-app",
+    "/blog/ai-learning-apps"
+  ]
+}
