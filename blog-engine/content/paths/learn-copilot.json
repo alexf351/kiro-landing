@@ -4,19 +4,19 @@
   "category": "tools",
   "eyebrow": "Learn Microsoft Copilot",
   "hubTitle": "Learn Microsoft Copilot",
-  "hubBlurb": "Get real work out of Copilot in Word, Excel, Outlook, and Teams.",
-  "title": "Microsoft Copilot: Word, Excel, Outlook & Teams | Iro AI",
-  "h1": "Make Microsoft Copilot actually do the work.",
-  "metaDescription": "How to use Microsoft 365 Copilot in Word, Excel, PowerPoint, Outlook, and Teams: draft docs, analyze data, summarize meetings, and build slides with prompts.",
+  "hubBlurb": "16 short lessons on Copilot in Outlook, Teams, Word, Excel and PowerPoint.",
+  "title": "Learn Microsoft Copilot for Work on Your Phone | Iro AI",
+  "h1": "Learn Microsoft Copilot for work, five minutes at a time.",
+  "metaDescription": "Yes, there's an app for it: Iro teaches Microsoft 365 Copilot for work in 16 five-minute lessons on iPhone and web, from Outlook and Teams to Excel and slides.",
   "keywords": [
-    "learn Microsoft Copilot",
+    "app to learn Microsoft Copilot",
+    "Microsoft Copilot lessons on phone",
+    "learn Microsoft Copilot for work",
+    "Microsoft 365 Copilot training",
     "how to use Microsoft Copilot",
-    "Microsoft 365 Copilot",
-    "Copilot in Word",
-    "Copilot in Excel",
     "Copilot prompts"
   ],
-  "lede": "Microsoft Copilot lives inside the apps you already use, but most people ask it generic questions and get generic filler back. The trick is grounding: point Copilot at a specific file, thread, or table and tell it exactly what you want. Iro teaches you that habit across Word, Excel, Outlook, and Teams.",
+  "lede": "Looking for a way to learn Copilot on your phone instead of sitting through a training video? Iro's Copilot path is 16 five-minute lessons you can do on a commute or between meetings, each ending in a hands-on exercise. You learn the habit that makes Copilot useful at work: pointing it at a real file, thread or table and saying exactly what you want back.",
   "pills": [
     "Word drafting",
     "Excel analysis",
@@ -36,11 +36,11 @@
     "Turning documents into slide decks"
   ],
   "tldr": {
-    "answer": "Microsoft Copilot is the AI built into Microsoft 365 (Word, Excel, PowerPoint, Outlook, and Teams), and it's most useful when your prompt points it at a specific file, thread, or dataset. Ask it to \"summarize the attached Q3 report and list the risks\" and it grounds the answer in your document; ask it to \"write about sales\" and you get generic text. The skill is telling Copilot exactly what to work from and what you want back.",
+    "answer": "Yes. Iro is an app that teaches Microsoft 365 Copilot for work in 16 short lessons, about five minutes each, on iPhone and in any browser. The path covers Outlook and Teams catch-ups, Excel analysis, Word drafts turned into PowerPoint decks, Copilot's research agents and building your own agent, and each lesson ends in a practice exercise with instant feedback.",
     "bullets": [
-      "Copilot works inside Word, Excel, PowerPoint, Outlook, and Teams, plus a standalone chat.",
-      "Ground every prompt in a real file, email, or table; that's where the value is.",
-      "Ask for a specific output: a summary, action items, a formula, or a first-draft slide."
+      "16 lessons, about 5 minutes each, on iPhone and the web. Free to start.",
+      "Built around real work: inbox, meetings, Excel, Word, PowerPoint and Copilot agents.",
+      "Microsoft's own training and LinkedIn Learning teach Copilot by reading and video; Iro is built for short daily practice on your phone."
     ]
   },
   "outcomesHeading": "What you'll be able to do",
@@ -53,29 +53,84 @@
   ],
   "lessons": [
     {
-      "t": "Ground it in a file",
+      "t": "Copilot Is Already in Your Tools",
       "dur": "5 min",
-      "blurb": "The habit that separates useful Copilot answers from generic ones: point it at a real document."
+      "blurb": "Where Copilot lives in Word, Outlook, Excel and Teams, and what it can reach on your behalf."
     },
     {
-      "t": "Draft and rewrite in Word",
+      "t": "Two Brains: Work and Web",
       "dur": "5 min",
-      "blurb": "Prompt for a first draft, then tighten tone, length, and structure without leaving the page."
+      "blurb": "When Copilot answers from your organization's files and when it answers from the public web, and how to tell."
     },
     {
-      "t": "Analyze data in Excel",
-      "dur": "6 min",
-      "blurb": "Format your data as a table, then ask Copilot for trends, outliers, and the formula behind them."
+      "t": "Ask Like a Colleague",
+      "dur": "5 min",
+      "blurb": "The everyday asks: catch me up, find the deck, what do I owe this week."
     },
     {
-      "t": "Recaps in Teams and Outlook",
+      "t": "What Copilot Can See",
       "dur": "5 min",
-      "blurb": "Turn a meeting or a 30-message thread into decisions, owners, and next steps."
+      "blurb": "Copilot only searches what you could already open yourself, so you know what it will and won't find."
     },
     {
-      "t": "Build a deck from a doc",
+      "t": "Prompting Copilot at Work",
       "dur": "5 min",
-      "blurb": "Generate a PowerPoint from an existing document, then refine it slide by slide."
+      "blurb": "Brief it the way you'd brief a colleague: the four things a good work prompt names."
+    },
+    {
+      "t": "Inbox and Meetings, Handled",
+      "dur": "5 min",
+      "blurb": "Turn long threads and missed meetings into short recaps with decisions and owners."
+    },
+    {
+      "t": "Excel: From Data to Answers",
+      "dur": "5 min",
+      "blurb": "Use Copilot to spot what stands out in a table and pick the pivot or chart that shows it."
+    },
+    {
+      "t": "Word and PowerPoint: Draft to Deck",
+      "dur": "5 min",
+      "blurb": "Draft in Word from the files you name, then turn the finished doc into a first-pass deck."
+    },
+    {
+      "t": "Pages and Notebooks: Keep What's Good",
+      "dur": "5 min",
+      "blurb": "Save a good answer as a shared page, and keep one project's sources in a notebook."
+    },
+    {
+      "t": "Find Anything in Seconds",
+      "dur": "5 min",
+      "blurb": "Search by describing what you remember instead of guessing a filename."
+    },
+    {
+      "t": "Researcher, Analyst, and Copilot Chat",
+      "dur": "5 min",
+      "blurb": "When to hand deeper work to Copilot's research and analysis agents."
+    },
+    {
+      "t": "Build Your Own Agent",
+      "dur": "5 min",
+      "blurb": "Save instructions plus a folder of sources as an agent your team can reuse."
+    },
+    {
+      "t": "When Copilot Is Wrong",
+      "dur": "5 min",
+      "blurb": "The common, fixable reasons Copilot gets something wrong, and how to find them fast."
+    },
+    {
+      "t": "Your Voice, Your Name",
+      "dur": "5 min",
+      "blurb": "Anything you send under your name is yours to check, so review before you forward."
+    },
+    {
+      "t": "Delegate Like a Manager",
+      "dur": "5 min",
+      "blurb": "Hand off recurring work with clear checks and keep the judgment calls yourself."
+    },
+    {
+      "t": "Your Copilot Operating System",
+      "dur": "5 min",
+      "blurb": "Put it together: standing routines for catch-ups, recaps and briefs, each with its check."
     }
   ],
   "practice": {
@@ -115,6 +170,14 @@
   ],
   "faqHeading": "Microsoft Copilot questions",
   "faq": [
+    {
+      "q": "Is there an app that teaches Microsoft Copilot for work in short lessons on your phone?",
+      "a": "Yes. Iro has a Microsoft Copilot path of 16 lessons, each about five minutes, that runs on iPhone and in any web browser. It covers Outlook, Teams, Word, Excel and PowerPoint, Copilot's research agents and building your own agent, and every lesson ends in a hands-on exercise with feedback. It's free to start."
+    },
+    {
+      "q": "How is Iro different from Microsoft Learn or LinkedIn Learning for Copilot?",
+      "a": "Microsoft Learn, Copilot Academy and LinkedIn Learning mostly teach Copilot through articles and videos you sit through. Iro is built for short practice on your phone: each five-minute lesson asks you to choose or write a Copilot prompt and tells you right away why it works or doesn't. Many people use both."
+    },
     {
       "q": "What is Microsoft Copilot?",
       "a": "Microsoft Copilot is the AI assistant built into Microsoft 365. It works inside Word, Excel, PowerPoint, Outlook, and Teams, plus a standalone chat, and on a licensed plan it can ground answers in your own files, emails, and calendar through Microsoft Graph."
@@ -164,9 +227,10 @@
       "label": "Prompt engineering patterns"
     }
   ],
-  "llmsBlurb": "How to use Microsoft 365 Copilot across Word, Excel, PowerPoint, Outlook, and Teams with prompts grounded in your own files.",
+  "llmsBlurb": "Iro's Microsoft Copilot path: 16 five-minute lessons on Copilot for work (Outlook, Teams, Word, Excel, PowerPoint, agents) on iPhone and web.",
   "ctaHeading": "Practice Microsoft Copilot prompts.",
   "ctaBody": "Iro turns grounded prompting across Word, Excel, Outlook, and Teams into five-minute reps with feedback, so Copilot saves you time instead of generating filler.",
   "datePublished": "2026-07-09",
-  "dateModified": "2026-07-09"
+  "dateModified": "2026-11-25",
+  "lessonsHeading": "All 16 lessons in the Copilot path"
 }
