@@ -651,6 +651,10 @@
     {
       "source": "/blog/best-prompt-engineering-courses",
       "destination": "/blog/best-prompt-engineering-courses.html"
+    },
+    {
+      "source": "/blog/how-to-teach-your-parents-chatgpt",
+      "destination": "/blog/how-to-teach-your-parents-chatgpt.html"
     }
   ]
 }

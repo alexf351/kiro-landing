@@ -5,7 +5,7 @@
   <link rel="self" href="https://tryiro.com/blog/atom.xml" type="application/atom+xml"/>
   <link rel="alternate" href="https://tryiro.com/blog" type="text/html"/>
   <id>https://tryiro.com/blog/atom.xml</id>
-  <updated>2026-11-23T00:00:00Z</updated>
+  <updated>2026-11-25T00:00:00Z</updated>
   <rights>© 2026 Iro AI</rights>
   <author><name>Iro AI</name><uri>https://tryiro.com</uri></author>
   <icon>https://tryiro.com/assets/favicon-64.png</icon>
@@ -1559,5 +1559,15 @@
     <author><name>Iro AI</name></author>
     <category term="Prompt engineering"/>
     <summary>Seven prompt engineering courses compared by cost, time and how you learn, from Google and Vanderbilt to Anthropic's free tutorial, plus the part most people skip: actually practicing.</summary>
+  </entry>
+  <entry>
+    <title>What app can my parents use to learn ChatGPT step by step?</title>
+    <id>https://tryiro.com/blog/how-to-teach-your-parents-chatgpt</id>
+    <link href="https://tryiro.com/blog/how-to-teach-your-parents-chatgpt"/>
+    <updated>2026-11-25T00:00:00Z</updated>
+    <published>2026-11-25T00:00:00Z</published>
+    <author><name>Iro AI</name></author>
+    <category term="AI tools"/>
+    <summary>There's no single app that teaches ChatGPT and runs it too. Here's the simple setup, the first five things to try, what never to share, and a two-week plan.</summary>
   </entry>
 </feed>

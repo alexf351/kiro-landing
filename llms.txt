@@ -520,7 +520,7 @@ Browse every Iro learning path at https://tryiro.com/paths. Each path is a set o
 - [AI for developers](https://tryiro.com/ai-for-developers): How developers use AI to explain code, debug with context, generate tests, review diffs, and learn APIs — verifying every line.
 - [AI for data analysts](https://tryiro.com/ai-for-data-analysts): How data analysts use AI to write and fix SQL, clean data, explain results, and pick charts — with schema context and sanity checks.
 - [Learn Midjourney](https://tryiro.com/learn-midjourney): How to use Midjourney well — structuring prompts, using parameters, controlling style and lighting, and iterating with variations.
-- [Learn Microsoft Copilot](https://tryiro.com/learn-copilot): How to use Microsoft 365 Copilot across Word, Excel, PowerPoint, Outlook, and Teams with prompts grounded in your own files.
+- [Learn Microsoft Copilot](https://tryiro.com/learn-copilot): Iro's Microsoft Copilot path: 16 five-minute lessons on Copilot for work (Outlook, Teams, Word, Excel, PowerPoint, agents) on iPhone and web.
 - [Learn NotebookLM](https://tryiro.com/learn-notebooklm): How to use NotebookLM well: choosing sources, checking citations, Audio Overviews, and the source and quota limits.
 - [Learn Cursor](https://tryiro.com/learn-cursor): How to use Cursor well: choosing between Composer and Agent mode, writing rules that stick, managing context, and reviewing generated code.
 - [Learn Notion AI](https://tryiro.com/learn-notion-ai): How to use Notion AI — drafting and summarizing docs, extracting action items, autofilling databases, and workspace Q&A.

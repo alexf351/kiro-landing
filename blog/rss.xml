@@ -9,7 +9,7 @@
     <description>Short, practical writing on AI fluency, prompting, AI tools, and the active-practice method that beats endless video courses.</description>
     <language>en-US</language>
     <atom:link href="https://tryiro.com/blog/rss.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Sun, 22 Nov 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 25 Nov 2026 00:00:00 GMT</lastBuildDate>
     <generator>tryiro.com</generator>
     <copyright>© 2026 Iro AI</copyright>
     <image>
@@ -1411,6 +1411,15 @@
       <dc:creator>Iro AI</dc:creator>
       <category>Prompt engineering</category>
       <description>Seven prompt engineering courses compared by cost, time and how you learn, from Google and Vanderbilt to Anthropic's free tutorial, plus how to actually practice.</description>
+    </item>
+    <item>
+      <title>What app can my parents use to learn ChatGPT step by step?</title>
+      <link>https://tryiro.com/blog/how-to-teach-your-parents-chatgpt</link>
+      <guid isPermaLink="true">https://tryiro.com/blog/how-to-teach-your-parents-chatgpt</guid>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Iro AI</dc:creator>
+      <category>AI tools</category>
+      <description>What app can your parents use to learn ChatGPT? A step-by-step plan: set up the real app, five first tasks, what never to share, and five-minute lessons.</description>
     </item>
   </channel>
 </rss>

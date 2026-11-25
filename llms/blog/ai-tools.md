@@ -4,7 +4,7 @@ canonical_url: "https://tryiro.com/blog/ai-tools"
 site: "Iro AI"
 site_url: "https://tryiro.com"
 language: en-US
-last_updated: "2026-11-20"
+last_updated: "2026-11-25"
 keywords: ["AI tools", "new AI models 2026", "AI models explained", "AI model releases", "how to use ChatGPT", "how to use Claude", "how to use Gemini", "open-weight AI models"]
 author: "Iro AI"
 license: "© 2026 Iro AI"
@@ -16,7 +16,7 @@ type: "content-pillar"
 > New AI models ship every few weeks. Here's what each release actually changed, who can use it and what it costs, plus beginner guides to ChatGPT, Claude, Gemini, Copilot, Perplexity, Grok and DeepSeek.
 
 **Canonical:** https://tryiro.com/blog/ai-tools
-**Last updated:** 2026-11-20
+**Last updated:** 2026-11-25
 
 This hub covers two things. First, the model launches that fill your feed, explained without the hype: what changed, who actually has access, what it costs and whether you'll notice. Second, plain beginner guides to each major assistant, so you can get real work out of the one you already use.
 
@@ -128,6 +128,7 @@ That's the case for treating AI as a skill you practise rather than a product yo
 - [How to read an AI benchmark score](https://tryiro.com/blog/how-to-read-ai-benchmarks) — AI benchmark scores are marketing until you know how they were measured. The harness problem, four ways numbers mislead, and what to ask before believing one.
 - [Gemini 4 Argon: what it is, who actually has it, and what the numbers mean](https://tryiro.com/blog/gemini-4-argon) — Gemini 4 Argon explained: which Gemini plans actually include it, why cyber defenders got it first, and what Google's own benchmark table really shows.
 - [Claude Fable 5.2: what's new, what it costs, and whether you can use it](https://tryiro.com/blog/claude-fable-5-2) — Claude Fable 5.2 explained: the 9 November 2026 release, API price cut, Pro launch offer, benchmarks vs GPT-6 Astra, and when to pick it over the default.
+- [What app can my parents use to learn ChatGPT step by step?](https://tryiro.com/blog/how-to-teach-your-parents-chatgpt) — What app can your parents use to learn ChatGPT? A step-by-step plan: set up the real app, five first tasks, what never to share, and five-minute lessons.
 
 ## FAQ
 
