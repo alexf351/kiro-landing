@@ -1703,6 +1703,14 @@
     {
       "source": "/blog/how-to-teach-your-parents-chatgpt",
       "destination": "/blog/how-to-teach-your-parents-chatgpt.html"
+    },
+    {
+      "source": "/blog/app-that-teaches-ai-as-podcasts",
+      "destination": "/blog/app-that-teaches-ai-as-podcasts.html"
+    },
+    {
+      "source": "/blog/turn-youtube-video-or-pdf-into-a-course",
+      "destination": "/blog/turn-youtube-video-or-pdf-into-a-course.html"
     }
   ]
 }

@@ -276,7 +276,7 @@ Human-readable version of this section: https://tryiro.com/editorial-policy
 
 ## Every blog post, by topic
 
-156 posts in 7 topic hubs, newest first within each hub. Generated from the published pages on every deploy (scripts/seo-indexes.mjs).
+158 posts in 7 topic hubs, newest first within each hub. Generated from the published pages on every deploy (scripts/seo-indexes.mjs).
 
 ### [Learn AI from scratch](https://tryiro.com/blog/ai-fluency)
 - [Are AI certifications worth it in 2026?](https://tryiro.com/blog/are-ai-certifications-worth-it): What AI certifications actually cost, the two situations where they pay off, why the salary stats you see are unreliable, and what employers check instead.
@@ -292,13 +292,15 @@ Human-readable version of this section: https://tryiro.com/editorial-policy
 - [What is generative AI? A simple explanation with examples](https://tryiro.com/blog/what-is-generative-ai): A plain-English answer: how generative AI works, real examples across text, images, video and code, how it differs from traditional AI, and where it fails.
 - [The 7 AI skills worth learning in 2026](https://tryiro.com/blog/ai-skills-for-2026): Prompting, tool choice, judgment, verification, workflow design, agents, and continuous learning: why these seven skills are durable and how to build each.
 - [How long does it take to learn AI? A realistic timeline](https://tryiro.com/blog/how-long-to-learn-ai): How long does it take to learn AI? With five minutes of daily practice you can be useful in two to three weeks. A realistic week-by-week timeline.
-- [How to learn AI without coding (a no-code path for 2026)](https://tryiro.com/blog/how-to-learn-ai-without-coding): You don't need to code to learn AI. Here's the no-code path: which tools to start with, the skills that matter, and a five-minute-a-day routine that works.
+- [How to learn AI without coding (a no-code path for 2026)](https://tryiro.com/blog/how-to-learn-ai-without-coding): You don't need to code to learn AI. The no-code path, the best app for non-technical beginners, and a five-minute-a-day routine that works.
 - [What is an LLM? Large language models explained simply](https://tryiro.com/blog/what-is-an-llm): What is an LLM? A large language model is an AI trained on text to predict the next word. How LLMs work, examples, and what they're bad at, in plain English.
 - [What is AI fluency? A practical definition (and how to build it)](https://tryiro.com/blog/what-is-ai-fluency): AI fluency is the practical ability to use, direct, and evaluate AI tools well. A clear definition, the four layers it breaks into, and how to build it.
 - [AI for beginners: a 30-day learning plan](https://tryiro.com/blog/ai-for-beginners-30-day-plan): A 30-day plan to learn AI from scratch in five minutes a day: what to practise each week, which free tools to start with, and how to make the habit stick.
 - [How to spot AI hallucinations in 5 seconds](https://tryiro.com/blog/spot-ai-hallucinations): AI invents facts, citations and numbers. The five-second checks that catch most hallucinations, plus an app to practice spotting them every day.
 
 ### [AI learning apps](https://tryiro.com/blog/ai-learning-apps)
+- [Is there an app that teaches AI skills as short podcast episodes?](https://tryiro.com/blog/app-that-teaches-ai-as-podcasts): Yes: Iro turns any AI lesson into a 2 to 3 minute podcast episode with two hosts, then has you practise it. On iPhone and the web. How it works and what it costs.
+- [Is there an app that turns a YouTube video or PDF into a short course?](https://tryiro.com/blog/turn-youtube-video-or-pdf-into-a-course): Yes: Iro's Custom Paths turn a YouTube video, PDF or web page into a short course of 3 to 7 lessons, on iPhone and the web. What it reads and what it costs.
 - [How to cancel Jobescape and ask for a refund](https://tryiro.com/blog/cancel-jobescape): How to cancel a Jobescape subscription on the website, iPhone or Android, the 24-hour cutoff to beat, and how to ask Jobescape or Apple for a refund.
 - [How to cancel Nexera and get a refund](https://tryiro.com/blog/cancel-nexera): How to cancel Nexera on the web, iPhone or Android, the 24-hour cutoff, and how to claim the 28-day money-back guarantee. Updated November 2026.
 - [Cosmo alternatives: 7 apps to try instead of CodeSignal's Cosmo](https://tryiro.com/blog/cosmo-alternatives): The best Cosmo alternatives in 2026: Iro AI for AI tools, DataCamp and Sololearn for coding, Brilliant for how AI works, plus prices and who each one suits.
@@ -432,7 +434,7 @@ Human-readable version of this section: https://tryiro.com/editorial-policy
 - [AI for real estate: practical ways agents can use it in 2026](https://tryiro.com/blog/ai-for-real-estate): How real estate agents use AI in 2026: listing copy, lead follow-up, market summaries and admin, plus the fair-housing and client-data rules to follow.
 - [How to use AI to write a resume (without sounding like a robot)](https://tryiro.com/blog/how-to-use-ai-to-write-a-resume): How to use AI to write a resume in 2026: tailor it to a job, strengthen bullet points, and pass keyword filters — honestly, without fabricating anything.
 - [AI for teachers: practical, responsible ways to use it in 2026](https://tryiro.com/blog/ai-for-teachers): Practical ways teachers can use AI for lesson planning, feedback and differentiation, with copy-paste prompts, the student-data rules, and how to teach AI use.
-- [AI for small business: practical ways to use it in 2026](https://tryiro.com/blog/ai-for-small-business): Practical, no-code ways small businesses can use AI for marketing, customer service, admin, and analysis, plus free tools and how to start safely.
+- [AI for small business: practical ways to use it in 2026](https://tryiro.com/blog/ai-for-small-business): Practical, no-code ways small businesses can use AI for marketing, customer service, admin and analysis, plus the best app to learn it in 5 minutes a day.
 - [Will AI take your job? An honest answer (and how to stay ahead)](https://tryiro.com/blog/will-ai-take-your-job): AI changes most jobs more than it eliminates them. The real risk is being out-competed by people who use it well — and what to do about that, starting now.
 - [How to use AI at work (a practical guide for 2026)](https://tryiro.com/blog/how-to-use-ai-at-work): Where to start with AI at work in 2026: the highest-value first tasks, how to verify output and protect company data, and how to build the habit.
 - [How to use AI for studying (without cheating yourself)](https://tryiro.com/blog/how-to-use-ai-for-studying): How to use AI for studying the right way: the 5 best ways to study with ChatGPT or Claude, what to avoid so you actually learn, and copy-paste study prompts.

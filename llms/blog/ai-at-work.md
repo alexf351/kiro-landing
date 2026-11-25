@@ -4,7 +4,7 @@ canonical_url: "https://tryiro.com/blog/ai-at-work"
 site: "Iro AI"
 site_url: "https://tryiro.com"
 language: en-US
-last_updated: "2026-11-20"
+last_updated: "2026-11-25"
 keywords: ["using AI at work", "how to use AI at work safely", "AI at work and school", "AI confidential data", "AI fake citations", "AI review checklist", "AI for teachers", "AI for studying"]
 author: "Iro AI"
 license: "© 2026 Iro AI"
@@ -16,7 +16,7 @@ type: "content-pillar"
 > Guides for using AI on the work you actually do, from summaries and SQL to reviews and lesson plans, without leaking data, filing fake citations or letting a chatbot invent policy.
 
 **Canonical:** https://tryiro.com/blog/ai-at-work
-**Last updated:** 2026-11-20
+**Last updated:** 2026-11-25
 
 Most AI mistakes at work aren't about the model. They come from a skipped step: a client file pasted into a personal account, a citation nobody opened, a refund rule a chatbot made up, a query that ran cleanly and answered the wrong question.
 
@@ -116,7 +116,7 @@ Once these habits are second nature, the next step is handing AI whole multi-ste
 - [How to use AI for studying (without cheating yourself)](https://tryiro.com/blog/how-to-use-ai-for-studying) — How to use AI for studying the right way: the 5 best ways to study with ChatGPT or Claude, what to avoid so you actually learn, and copy-paste study prompts.
 - [How to use AI at work (a practical guide for 2026)](https://tryiro.com/blog/how-to-use-ai-at-work) — Where to start with AI at work in 2026: the highest-value first tasks, how to verify output and protect company data, and how to build the habit.
 - [Will AI take your job? An honest answer (and how to stay ahead)](https://tryiro.com/blog/will-ai-take-your-job) — AI changes most jobs more than it eliminates them. The real risk is being out-competed by people who use it well — and what to do about that, starting now.
-- [AI for small business: practical ways to use it in 2026](https://tryiro.com/blog/ai-for-small-business) — Practical, no-code ways small businesses can use AI for marketing, customer service, admin, and analysis, plus free tools and how to start safely.
+- [AI for small business: practical ways to use it in 2026](https://tryiro.com/blog/ai-for-small-business) — Practical, no-code ways small businesses can use AI for marketing, customer service, admin and analysis, plus the best app to learn it in 5 minutes a day.
 - [AI for teachers: practical, responsible ways to use it in 2026](https://tryiro.com/blog/ai-for-teachers) — Practical ways teachers can use AI for lesson planning, feedback and differentiation, with copy-paste prompts, the student-data rules, and how to teach AI use.
 - [AI for real estate: practical ways agents can use it in 2026](https://tryiro.com/blog/ai-for-real-estate) — How real estate agents use AI in 2026: listing copy, lead follow-up, market summaries and admin, plus the fair-housing and client-data rules to follow.
 - [How to use AI to write a resume (without sounding like a robot)](https://tryiro.com/blog/how-to-use-ai-to-write-a-resume) — How to use AI to write a resume in 2026: tailor it to a job, strengthen bullet points, and pass keyword filters — honestly, without fabricating anything.

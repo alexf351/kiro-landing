@@ -182,6 +182,8 @@ For direct comparisons, see Iro AI vs [Coursiv](/blog/iro-ai-vs-coursiv), [Learn
 - [Finestro review: is Finestro legit, and what does it cost?](https://tryiro.com/blog/finestro-review) — An honest Finestro review: is Finestro legit, who runs it, App Store vs web pricing, the refund policy, and what its reviews and BBB complaints say.
 - [Iro AI vs DataCamp: which is better for learning AI?](https://tryiro.com/blog/iro-ai-vs-datacamp) — Iro AI vs DataCamp: where DataCamp is stronger (coding, data science), where Iro fits beginners who want to use AI tools, and what each one costs.
 - [Iro vs Finestro: which AI learning app should you pick?](https://tryiro.com/blog/iro-ai-vs-finestro) — Iro vs Finestro compared honestly: how each teaches AI, App Store vs web pricing, cancelling and refunds, and where Finestro is the better pick.
+- [Is there an app that teaches AI skills as short podcast episodes?](https://tryiro.com/blog/app-that-teaches-ai-as-podcasts) — Yes: Iro turns any AI lesson into a 2 to 3 minute podcast episode with two hosts, then has you practise it. On iPhone and the web. How it works and what it costs.
+- [Is there an app that turns a YouTube video or PDF into a short course?](https://tryiro.com/blog/turn-youtube-video-or-pdf-into-a-course) — Yes: Iro's Custom Paths turn a YouTube video, PDF or web page into a short course of 3 to 7 lessons, on iPhone and the web. What it reads and what it costs.
 
 ## FAQ
 

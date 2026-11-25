@@ -63,7 +63,7 @@
   </url>
   <url>
     <loc>https://tryiro.com/blog/ai-at-work</loc>
-    <lastmod>2026-11-20</lastmod>
+    <lastmod>2026-11-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.88</priority>
     <image:image>
@@ -253,7 +253,7 @@
   </url>
   <url>
     <loc>https://tryiro.com/blog/how-to-learn-ai-without-coding</loc>
-    <lastmod>2026-06-20</lastmod>
+    <lastmod>2026-11-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -433,7 +433,7 @@
   </url>
   <url>
     <loc>https://tryiro.com/blog/ai-for-small-business</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-11-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -1639,6 +1639,26 @@
     <image:image>
       <image:loc>https://tryiro.com/assets/og/how-to-teach-your-parents-chatgpt.png</image:loc>
       <image:title>What app can my parents use to learn ChatGPT step by step?</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://tryiro.com/blog/app-that-teaches-ai-as-podcasts</loc>
+    <lastmod>2026-11-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://tryiro.com/assets/og/app-that-teaches-ai-as-podcasts.png</image:loc>
+      <image:title>Is there an app that teaches AI skills as short podcast episodes?</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://tryiro.com/blog/turn-youtube-video-or-pdf-into-a-course</loc>
+    <lastmod>2026-11-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://tryiro.com/assets/og/turn-youtube-video-or-pdf-into-a-course.png</image:loc>
+      <image:title>Is there an app that turns a YouTube video or PDF into a short course?</image:title>
     </image:image>
   </url>
 </urlset>
