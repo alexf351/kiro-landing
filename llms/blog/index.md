@@ -30,7 +30,7 @@ license: "© 2026 Iro AI"
 
 - [How to actually learn ChatGPT in 2026](https://tryiro.com/blog/how-to-learn-chatgpt-in-2026) — Most people learn ChatGPT by random experimentation and hit a ceiling. Here's the active-practice method that builds judgment, not memorised prompts.
 - [The 7 prompt patterns that work everywhere](https://tryiro.com/blog/prompt-engineering-patterns) — Forget magic phrases. These 7 prompt patterns transfer across models and survive model upgrades: the foundation of practical prompt engineering.
-- [How to spot AI hallucinations in 5 seconds](https://tryiro.com/blog/spot-ai-hallucinations) — AI models confidently invent facts, citations and numbers. Here are the five-second checks that catch most hallucinations, plus deeper ones for high stakes.
+- [How to spot AI hallucinations in 5 seconds](https://tryiro.com/blog/spot-ai-hallucinations) — AI invents facts, citations and numbers. The five-second checks that catch most hallucinations, plus an app to practice spotting them every day.
 - [AI agents, explained without the jargon](https://tryiro.com/blog/ai-agents-explained) — An AI agent is a system that pursues a goal over multiple steps, usually with tools. What they really do, when they're worth using, and where they break.
 - [The best free AI tools for daily work in 2026](https://tryiro.com/blog/best-free-ai-tools-2026) — A 2026 guide to the free-tier AI tools worth using for daily work: what each one is good for, where they fall short, and how to combine them.
 - [AI for beginners: a 30-day learning plan](https://tryiro.com/blog/ai-for-beginners-30-day-plan) — A 30-day plan to learn AI from scratch in five minutes a day: what to practise each week, which free tools to start with, and how to make the habit stick.

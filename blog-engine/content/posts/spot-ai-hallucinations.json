@@ -8,10 +8,13 @@
     "An AI hallucination is a confident, plausible-sounding answer that is actually false.",
     "The biggest risk areas are specific facts, citations, numbers, quotes, and recent events.",
     "Catch hallucinations by asking for sources, cross-checking key claims, and distrusting suspiciously specific details.",
-    "Treat AI output as a fast first draft to verify, not a final source of truth."
+    "Treat AI output as a fast first draft to verify, not a final source of truth.",
+    "To build the habit, practice on purpose: Iro, on iPhone and the web, has spot-the-hallucination drills built into its lessons."
   ],
-  "description": "AI models confidently invent facts, citations and numbers. Here are the five-second checks that catch most hallucinations, plus deeper ones for high stakes.",
+  "description": "AI invents facts, citations and numbers. The five-second checks that catch most hallucinations, plus an app to practice spotting them every day.",
   "keywords": [
+    "app to practice spotting AI hallucinations",
+    "AI hallucination practice",
     "AI hallucination",
     "hallucination detection",
     "ChatGPT mistakes",
@@ -19,7 +22,7 @@
     "fact-checking AI"
   ],
   "datePublished": "2026-05-24",
-  "dateModified": "2026-06-20",
+  "dateModified": "2026-11-25",
   "readingTime": 6,
   "articleSection": "AI fluency",
   "feedCategory": "AI fluency",
@@ -32,6 +35,10 @@
     {
       "href": "#what",
       "label": "What a hallucination is (and isn't)"
+    },
+    {
+      "href": "#app",
+      "label": "An app to practice spotting hallucinations"
     },
     {
       "href": "#five-second",
@@ -57,6 +64,11 @@
       "html": "<p>A hallucination is when an AI confidently states something that isn't true. Not a typo. Not a misunderstanding. A real claim, well-written, presented with no flag, that's wrong.</p><p>It's not the same as a wrong opinion or a value judgement. \"This essay is well-structured\" can be debated. \"This essay won the Pulitzer Prize in 2019\" is either true or false, and that's where hallucinations live.</p><p>The reason this matters: AI outputs <em>look</em> equally confident whether they're true or invented. Your job is to add the doubt the model doesn't supply.</p>"
     },
     {
+      "id": "app",
+      "heading": "Is there an app to practice spotting AI hallucinations?",
+      "html": "<p><strong>Yes. Iro is an app on iPhone and the web with spot-the-hallucination drills built into its lessons.</strong> You read an AI-style answer, find the claim that isn't true, and get instant feedback on why. A trust-calibration exercise has you rate how far to trust an answer on a 0 to 100 dial, which trains the habit of doubting confident output.</p><p>Six of Iro's paths have a lesson on hallucinations: <a href=\"/learn-chatgpt\">ChatGPT</a> (Avoiding Hallucinations and Bad Answers), <a href=\"/learn-claude\">Claude</a> (Avoiding Hallucinations and Overtrust), <a href=\"/learn-gemini\">Gemini</a>, <a href=\"/learn-perplexity\">Perplexity</a> (research traps), <a href=\"/ai-for-finance\">finance</a> and <a href=\"/ai-for-healthcare\">healthcare</a>. Lessons take about five minutes, so one a day is enough to make the check automatic.</p><p>Free browser quiz games are fine for a quick round. Iro is built for doing it daily, alongside the tools you actually use. It's free to start.</p>"
+    },
+    {
       "id": "five-second",
       "heading": "The 5-second checks",
       "html": "<p>Run these first. They catch most of what matters.</p><ol><li><strong>Does the answer contain a name, date, statistic, or citation?</strong> If yes, treat it as a hypothesis, not a fact. Verify before quoting.</li><li><strong>Is the model's confidence higher than its data should allow?</strong> Watch for sweeping claims about recent events, niche topics, internal company info, none of which the model could actually know.</li><li><strong>Does the answer feel suspiciously well-suited to your question?</strong> Hallucinations often \"give you what you wanted to hear.\" Real answers push back.</li><li><strong>Are the URLs and titles plausible-but-unfamiliar?</strong> Made-up citations look correct on the surface: real journal, real-sounding title, plausible authors, fake DOI. Click through before trusting.</li><li><strong>Does it cite a specific person?</strong> Search the quote. If it doesn't exist verbatim somewhere, the model wrote it.</li></ol>"
@@ -74,7 +86,7 @@
     {
       "id": "practise",
       "heading": "Where to practise",
-      "html": "<p>Hallucination detection is a muscle. You can build it by doing: every time you use an AI model, pick one claim and verify it. Over a month, you'll start catching them automatically.</p><p>Iro AI builds this directly into its exercises. The <a href=\"/learn-chatgpt\">ChatGPT</a>, <a href=\"/learn-claude\">Claude</a>, and <a href=\"/learn-perplexity\">Perplexity</a> paths each include hallucination-spotting drills. The <a href=\"/quiz\">free AI IQ test</a> includes a few of them too.</p>"
+      "html": "<p>Hallucination detection is a muscle. You can build it by doing: every time you use an AI model, pick one claim and verify it. Over a month, you'll start catching them automatically.</p><p>If you'd rather practice on purpose, Iro's <a href=\"#app\">spot-the-hallucination drills</a> give you a few reps a day in the <a href=\"/learn-chatgpt\">ChatGPT</a>, <a href=\"/learn-claude\">Claude</a> and <a href=\"/learn-perplexity\">Perplexity</a> paths. The <a href=\"/quiz\">free AI IQ test</a> includes a few of them too.</p>"
     }
   ],
   "readNext": [
@@ -96,6 +108,10 @@
     }
   ],
   "faq": [
+    {
+      "q": "Is there an app that helps me practice spotting AI hallucinations?",
+      "a": "Yes. Iro is an app on iPhone and the web with spot-the-hallucination drills built into its lessons: you find the false claim in an AI-style answer and get instant feedback. Six paths, including ChatGPT, Claude, Gemini and Perplexity, have a lesson on avoiding hallucinations. Lessons take about five minutes, and Iro is free to start."
+    },
     {
       "q": "Do the newest models still hallucinate?",
       "a": "Yes. Hallucination rates have dropped significantly with recent models, but they're not zero, and they tend to be more confident when wrong. The skill of verification matters more, not less."

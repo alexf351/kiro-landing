@@ -1,15 +1,15 @@
 ---
-title: "AI for Excel: Formulas, Cleanup & Analysis | Iro AI"
+title: "Learn AI for Excel in 5-Minute Lessons | Iro AI"
 canonical_url: "https://tryiro.com/ai-for-excel"
 site: "Iro AI"
 site_url: "https://tryiro.com"
 app_store: "https://apps.apple.com/app/id6759628066"
 language: en-US
-keywords: ["AI for Excel", "ChatGPT for Excel", "AI Excel formulas", "AI for Google Sheets", "how to use AI in spreadsheets"]
+keywords: ["app to learn AI for Excel", "AI for Excel lessons", "AI for Excel", "ChatGPT for Excel", "AI Excel formulas", "AI for Google Sheets", "how to use AI in spreadsheets"]
 audience: "Analysts, operators, students, small-business owners, anyone who lives in spreadsheets"
 level: "Beginner to advanced"
 date_published: "2026-07-09"
-date_modified: "2026-08-18"
+date_modified: "2026-11-25"
 author: "Iro AI"
 license: "© 2026 Iro AI"
 canonical_llm_reference: "https://tryiro.com/llms-full.txt"
@@ -21,15 +21,15 @@ canonical_llm_reference: "https://tryiro.com/llms-full.txt"
 
 **Canonical page:** https://tryiro.com/ai-for-excel
 **App Store:** https://apps.apple.com/app/id6759628066
-**Last updated:** 2026-08-18
+**Last updated:** 2026-11-25
 
 ## In short
 
-AI is a genuinely great spreadsheet copilot: describe what you want in plain English and it will write the formula, explain a #REF! error, or suggest how to structure an analysis. The catch is verification. AI sometimes invents functions or off-by-one ranges, so you check the result on a small sample before trusting it on 10,000 rows.
+Yes. Iro is an app that teaches AI for Excel in six short lessons, about five minutes each, on iPhone and in any browser: formulas from plain English, cleaning messy data, asking questions of your data, charts, and using AI inside the spreadsheet with Copilot in Excel, Claude for Excel or Gemini in Sheets. The skill that matters most is checking: AI sometimes invents functions or off-by-one ranges, so you test a result on a few rows before trusting it on 10,000.
 
-- Describe the goal and your columns; let AI write the formula.
-- Paste an error and the formula; AI explains and fixes it.
-- Always test an AI formula on a few rows before trusting the whole sheet.
+- 6 lessons, about 5 minutes each, on iPhone and the web. Free to start.
+- Describe the goal and your columns, let AI write the formula, then test it on a few rows.
+- Iro's Microsoft Copilot path adds a lesson on Excel for Microsoft 365 users.
 
 ## What you'll be able to do
 
@@ -39,13 +39,14 @@ AI is a genuinely great spreadsheet copilot: describe what you want in plain Eng
 - Get AI to explain what an inherited spreadsheet actually does
 - Sanity-check AI formulas so you never hand up wrong numbers
 
-## Inside the path
+## The six lessons in Iro's Excel + AI path
 
-1. **Describe it, don't derive it** (5 min) — The prompt pattern that turns "I want the total for each region" into the exact formula.
-2. **Fix any formula error** (5 min) — Paste the error and the formula; learn how to get a fix and an explanation you'll remember.
-3. **Clean messy data fast** (6 min) — Split names, standardize dates, dedupe, and reshape without manual find-and-replace.
-4. **Understand a sheet you inherited** (5 min) — Get AI to explain nested formulas and logic so you can trust and change them.
-5. **Check before you trust** (5 min) — The quick tests that catch an AI formula that's confidently wrong on the edge cases.
+1. **Formulas From Plain English** (5 min) — Describe the goal, your columns and one example row, and AI picks the right function, even one you wouldn't have reached for.
+2. **Clean Messy Data** (5 min) — Show a few messy rows next to one row shaped the way you want, and AI infers the cleanup rules from the pair.
+3. **Ask Questions of Your Data** (5 min) — Ask a specific question, like which region's revenue fell while volume grew, instead of "what insights do you see?"
+4. **Charts and Takeaways** (5 min) — Have AI recommend a chart type and explain why, so you learn the pattern behind the choice.
+5. **AI Inside the Spreadsheet** (5 min) — Use Copilot in Excel, Claude for Excel or Gemini in Sheets, which read the live workbook and put formulas in place.
+6. **The Spreadsheet Workflow** (5 min) — Save your cleanup prompts, standing questions and checks so a recurring report gets faster every week.
 
 ## Why AI is so good at spreadsheets — and where it slips
 
@@ -105,6 +106,10 @@ One more worth naming: don't ask for a whole model in a single prompt. Build it 
 **Why:** The winning prompt names the **tool** (Excel), gives the **exact cell references and a data example** (A2, "Ada Lovelace"), states the **assumption** (single space), asks for an **explanation**, and asks how it handles an **edge case** (missing space). That's the difference between a formula you paste in blind and one you understand and trust. In Iro you'd write your own and get feedback on the details that matter: cell refs, assumptions, and edge cases.
 
 ## AI + spreadsheet questions
+
+**Is there an app that teaches AI for Excel in short lessons?**
+
+Yes. Iro has an Excel + AI path of six lessons, each about five minutes, on iPhone and in any web browser. It covers writing formulas from plain English, cleaning messy data, asking questions of your data, choosing charts and using AI inside the spreadsheet, and every lesson ends in a hands-on exercise with feedback. It's free to start.
 
 **Can ChatGPT write Excel formulas?**
 

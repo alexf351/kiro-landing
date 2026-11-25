@@ -4,7 +4,7 @@ canonical_url: "https://tryiro.com/blog/ai-fluency"
 site: "Iro AI"
 site_url: "https://tryiro.com"
 language: en-US
-last_updated: "2026-11-20"
+last_updated: "2026-11-25"
 keywords: ["learn AI", "AI for beginners", "AI concepts explained", "how to learn AI", "AI skills", "AI literacy", "AI fluency", "learn AI without coding"]
 author: "Iro AI"
 license: "© 2026 Iro AI"
@@ -16,7 +16,7 @@ type: "content-pillar"
 > Everything a beginner needs to understand AI and use it well: the core ideas in plain English, the skills worth building, and a realistic plan to get there.
 
 **Canonical:** https://tryiro.com/blog/ai-fluency
-**Last updated:** 2026-11-20
+**Last updated:** 2026-11-25
 
 Learning AI sounds like a technical project. For most people it isn't. You don't need to build models. You need to understand roughly how tools like ChatGPT, Claude and Gemini work, what they're good and bad at, and how to direct and check them.
 
@@ -135,7 +135,7 @@ To find your starting point, take the free [AI literacy test](/quiz). It takes a
 
 ## Posts in this pillar
 
-- [How to spot AI hallucinations in 5 seconds](https://tryiro.com/blog/spot-ai-hallucinations) — AI models confidently invent facts, citations and numbers. Here are the five-second checks that catch most hallucinations, plus deeper ones for high stakes.
+- [How to spot AI hallucinations in 5 seconds](https://tryiro.com/blog/spot-ai-hallucinations) — AI invents facts, citations and numbers. The five-second checks that catch most hallucinations, plus an app to practice spotting them every day.
 - [AI for beginners: a 30-day learning plan](https://tryiro.com/blog/ai-for-beginners-30-day-plan) — A 30-day plan to learn AI from scratch in five minutes a day: what to practise each week, which free tools to start with, and how to make the habit stick.
 - [What is AI fluency? A practical definition (and how to build it)](https://tryiro.com/blog/what-is-ai-fluency) — AI fluency is the practical ability to use, direct, and evaluate AI tools well. A clear definition, the four layers it breaks into, and how to build it.
 - [How to learn AI without coding (a no-code path for 2026)](https://tryiro.com/blog/how-to-learn-ai-without-coding) — You don't need to code to learn AI. Here's the no-code path: which tools to start with, the skills that matter, and a five-minute-a-day routine that works.

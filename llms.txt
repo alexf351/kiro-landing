@@ -276,7 +276,7 @@ Human-readable version of this section: https://tryiro.com/editorial-policy
 
 ## Every blog post, by topic
 
-142 posts in 7 topic hubs, newest first within each hub. Generated from the published pages on every deploy (scripts/seo-indexes.mjs).
+156 posts in 7 topic hubs, newest first within each hub. Generated from the published pages on every deploy (scripts/seo-indexes.mjs).
 
 ### [Learn AI from scratch](https://tryiro.com/blog/ai-fluency)
 - [Are AI certifications worth it in 2026?](https://tryiro.com/blog/are-ai-certifications-worth-it): What AI certifications actually cost, the two situations where they pay off, why the salary stats you see are unreliable, and what employers check instead.
@@ -296,11 +296,23 @@ Human-readable version of this section: https://tryiro.com/editorial-policy
 - [What is an LLM? Large language models explained simply](https://tryiro.com/blog/what-is-an-llm): What is an LLM? A large language model is an AI trained on text to predict the next word. How LLMs work, examples, and what they're bad at, in plain English.
 - [What is AI fluency? A practical definition (and how to build it)](https://tryiro.com/blog/what-is-ai-fluency): AI fluency is the practical ability to use, direct, and evaluate AI tools well. A clear definition, the four layers it breaks into, and how to build it.
 - [AI for beginners: a 30-day learning plan](https://tryiro.com/blog/ai-for-beginners-30-day-plan): A 30-day plan to learn AI from scratch in five minutes a day: what to practise each week, which free tools to start with, and how to make the habit stick.
-- [How to spot AI hallucinations in 5 seconds](https://tryiro.com/blog/spot-ai-hallucinations): AI models confidently invent facts, citations and numbers. Here are the five-second checks that catch most hallucinations, plus deeper ones for high stakes.
+- [How to spot AI hallucinations in 5 seconds](https://tryiro.com/blog/spot-ai-hallucinations): AI invents facts, citations and numbers. The five-second checks that catch most hallucinations, plus an app to practice spotting them every day.
 
 ### [AI learning apps](https://tryiro.com/blog/ai-learning-apps)
+- [How to cancel Jobescape and ask for a refund](https://tryiro.com/blog/cancel-jobescape): How to cancel a Jobescape subscription on the website, iPhone or Android, the 24-hour cutoff to beat, and how to ask Jobescape or Apple for a refund.
+- [How to cancel Nexera and get a refund](https://tryiro.com/blog/cancel-nexera): How to cancel Nexera on the web, iPhone or Android, the 24-hour cutoff, and how to claim the 28-day money-back guarantee. Updated November 2026.
+- [Cosmo alternatives: 7 apps to try instead of CodeSignal's Cosmo](https://tryiro.com/blog/cosmo-alternatives): The best Cosmo alternatives in 2026: Iro AI for AI tools, DataCamp and Sololearn for coding, Brilliant for how AI works, plus prices and who each one suits.
+- [DataCamp alternatives for learning AI without coding](https://tryiro.com/blog/datacamp-alternatives): The best DataCamp alternatives for learning AI as a beginner or non-coder: Iro AI, OpenAI Academy, Elements of AI, Google AI Essentials and more, with prices.
+- [Finestro review: is Finestro legit, and what does it cost?](https://tryiro.com/blog/finestro-review): An honest Finestro review: is Finestro legit, who runs it, App Store vs web pricing, the refund policy, and what its reviews and BBB complaints say.
+- [Iro AI vs Cosmo: which app should you use to learn AI?](https://tryiro.com/blog/iro-ai-vs-cosmo): Iro AI vs Cosmo compared: what each app teaches, how lessons work, Cosmo+ vs Iro Pro pricing, platforms, and which to pick if you want to learn AI.
+- [Iro AI vs DataCamp: which is better for learning AI?](https://tryiro.com/blog/iro-ai-vs-datacamp): Iro AI vs DataCamp: where DataCamp is stronger (coding, data science), where Iro fits beginners who want to use AI tools, and what each one costs.
+- [Iro vs Finestro: which AI learning app should you pick?](https://tryiro.com/blog/iro-ai-vs-finestro): Iro vs Finestro compared honestly: how each teaches AI, App Store vs web pricing, cancelling and refunds, and where Finestro is the better pick.
+- [Iro vs Jobescape: which AI learning app is worth it?](https://tryiro.com/blog/iro-ai-vs-jobescape): Iro vs Jobescape compared honestly: how each teaches AI, real prices, how cancelling and refunds work, and where Jobescape is the better pick.
+- [The best Jobescape alternatives in 2026](https://tryiro.com/blog/jobescape-alternatives): The best Jobescape alternatives in 2026: Iro AI for daily practice, Google AI Essentials for a certificate, free picks like OpenAI Academy, and honest pricing.
+- [The best Nexera alternatives in 2026](https://tryiro.com/blog/nexera-alternatives): Looking for a Nexera alternative? Compare Iro AI, Khan Academy, Elements of AI, Coursera, Sololearn and Brilliant by how they teach, what is free and how you pay.
+- [Nexera review: who runs it, what it costs, refund terms](https://tryiro.com/blog/nexera-review): Is Nexera legit? Yes: a real AI course app from Cyprus-based EmberTech Ltd, with a 28-day refund on web purchases. Price, reviews and complaints.
 - [The best Brilliant alternatives in 2026](https://tryiro.com/blog/brilliant-alternatives): Looking for apps like Brilliant? We compared 11 alternatives for math, coding and learning AI, with prices, who each one suits, and which is best for daily practice.
-- [The best iPhone apps to learn AI in 2026](https://tryiro.com/blog/best-iphone-apps-to-learn-ai): The best iPhone apps to learn AI in 2026, compared by lesson length, hands-on practice and free tier: Iro AI, Learn AI by Sololearn, Synapse, Coursiv and Brilliant.
+- [The best iPhone apps to learn AI in 2026](https://tryiro.com/blog/best-iphone-apps-to-learn-ai): The best iPhone apps to learn AI in 2026, compared on lessons, practice and price: Iro AI, Sololearn's Learn AI, Synapse, Nexera, EWA, Coursiv and Brilliant.
 - [Cosmo review: CodeSignal's AI tutor app, what it costs, and who it suits](https://tryiro.com/blog/cosmo-review): An honest Cosmo review: who makes CodeSignal's Cosmo app, how its AI tutor teaches, what Cosmo+ costs, what the terms say, and who it suits best.
 - [Jobescape review: who runs it, what it costs, and what the refund terms ask of you](https://tryiro.com/blog/jobescape-review): An honest Jobescape review: who runs it, what it costs on the App Store, how renewals work, and the conditions you must meet before a refund. Read it before you pay.
 - [Google AI Essentials alternatives: practice-first options in 2026](https://tryiro.com/blog/google-ai-essentials-alternatives): Google AI Essentials costs $49/month on Coursera. Compare free and practice-first alternatives: OpenAI Academy, Anthropic AI Fluency, Elements of AI and Iro AI.
@@ -336,10 +348,11 @@ Human-readable version of this section: https://tryiro.com/editorial-policy
 - [The best Learnova alternatives in 2026](https://tryiro.com/blog/learnova-alternatives): Looking for a Learnova alternative? Compare apps for learning AI tools in 2026 (Iro AI, Coursiv, Synapse, Sololearn, Brilliant) on format, free tier and price.
 - [Iro AI vs Brilliant: which should you use to actually get good at AI?](https://tryiro.com/blog/iro-ai-vs-brilliant): Brilliant teaches the math and concepts behind AI; Iro AI teaches you to use AI tools for real work. An honest comparison of which one fits your goal.
 - [Iro AI vs Duolingo: the "Duolingo for AI," explained](https://tryiro.com/blog/iro-ai-vs-duolingo): Iro AI vs Duolingo in 2026: how the gamified-learning method that made Duolingo famous applies to learning AI tools, and why they're not actually competitors.
-- [Iro AI vs Coursiv: which AI learning app is right for you in 2026?](https://tryiro.com/blog/iro-ai-vs-coursiv): An honest Iro AI vs Coursiv comparison: how the two AI learning apps differ on teaching style, pricing and free access, and who each one is actually best for.
+- [Iro AI vs Coursiv: which AI learning app is right for you in 2026?](https://tryiro.com/blog/iro-ai-vs-coursiv): Iro AI vs Coursiv in 2026: Coursiv reviews and pricing from its own pages, App Store and Trustpilot, how the two apps teach, and who each one suits.
 - [Iro AI vs Learnova: which AI learning app should you pick in 2026?](https://tryiro.com/blog/iro-ai-vs-learnova): An honest comparison of two AI learning apps: how Iro AI and Learnova differ on teaching style, hands-on practice, pricing, and who each suits best.
 
 ### [Prompt engineering guide](https://tryiro.com/blog/prompt-engineering)
+- [The best prompt engineering courses in 2026 (free and paid)](https://tryiro.com/blog/best-prompt-engineering-courses): Seven prompt engineering courses compared by cost, time and how you learn, from Google and Vanderbilt to Anthropic's free tutorial, plus how to actually practice.
 - [How to learn prompt engineering in 2026: a practice-first plan](https://tryiro.com/blog/how-to-learn-prompt-engineering): A 4-week, practice-first plan to learn prompt engineering without coding. About 10 minutes a day, free resources, and drills you can start today.
 - [20 prompt engineering exercises, with model answers](https://tryiro.com/blog/prompt-engineering-exercises): Free prompt engineering exercises for beginners and up. Each drill has a weak prompt, a goal and a model answer, so you can practice in 5 minutes a day.
 - [How to make a mood board with AI: directions, not final art](https://tryiro.com/blog/how-to-make-a-mood-board-with-ai): How to make a mood board with AI: write the brief first, generate 3-4 distinct directions, use image prompts that behave, then turn the board into a spec.
@@ -377,6 +390,7 @@ Human-readable version of this section: https://tryiro.com/editorial-policy
 - [The best free AI tools for daily work in 2026](https://tryiro.com/blog/best-free-ai-tools-2026): A 2026 guide to the free-tier AI tools worth using for daily work: what each one is good for, where they fall short, and how to combine them.
 
 ### [AI models explained](https://tryiro.com/blog/ai-tools)
+- [What app can my parents use to learn ChatGPT step by step?](https://tryiro.com/blog/how-to-teach-your-parents-chatgpt): What app can your parents use to learn ChatGPT? A step-by-step plan: set up the real app, five first tasks, what never to share, and five-minute lessons.
 - [Claude Fable 5.2: what's new, what it costs, and whether you can use it](https://tryiro.com/blog/claude-fable-5-2): Claude Fable 5.2 explained: the 9 November 2026 release, API price cut, Pro launch offer, benchmarks vs GPT-6 Astra, and when to pick it over the default.
 - [Gemini 4 Argon: what it is, who actually has it, and what the numbers mean](https://tryiro.com/blog/gemini-4-argon): Gemini 4 Argon explained: which Gemini plans actually include it, why cyber defenders got it first, and what Google's own benchmark table really shows.
 - [GPT-6 Astra: what it is, and whether you actually have it](https://tryiro.com/blog/gpt-6-astra): GPT-6 Astra explained: the 3 September 2026 release, which ChatGPT plans can actually reach it, and why the 99.9% benchmark number needs an asterisk.
@@ -527,7 +541,7 @@ Browse every Iro learning path at https://tryiro.com/paths. Each path is a set o
 - [Learn Canva AI](https://tryiro.com/learn-canva-ai): Using Canva AI (Magic Studio) well — briefing Magic Write and text-to-image for on-brand copy and visuals.
 - [Learn ElevenLabs](https://tryiro.com/learn-elevenlabs): How to use ElevenLabs well: what stability, similarity, and style control, settings by use case, writing for the ear, and voice-cloning ethics.
 - [Learn Gamma](https://tryiro.com/learn-gamma): How to use Gamma well: prompting structure rather than topics, the fixed 16:9 canvas, credit budgeting, and exporting cleanly to PowerPoint and Google Slides.
-- [AI for Excel & Sheets](https://tryiro.com/ai-for-excel): Using AI as a spreadsheet copilot for Excel and Google Sheets — writing formulas, cleaning data, and verifying results.
+- [AI for Excel & Sheets](https://tryiro.com/ai-for-excel): Iro's Excel + AI path: six five-minute lessons on iPhone and web for formulas, data cleanup, analysis and charts with AI.
 - [AI for research](https://tryiro.com/ai-for-research): AI for research done right — get sourced, synthesized answers and catch hallucinated citations before you cite them.
 - [AI for presentations](https://tryiro.com/ai-for-presentations): AI for presentations — structure a talk with a narrative arc, draft slides and speaker notes, and tighten the message.
 - [AI for meetings](https://tryiro.com/ai-for-meetings): AI for meetings — prep tight agendas, turn transcripts into owned action items, and draft follow-ups without inventing owners.
