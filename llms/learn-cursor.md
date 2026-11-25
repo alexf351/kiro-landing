@@ -1,15 +1,15 @@
 ---
-title: "Learn Cursor: Agent Mode, Rules & Reviewing AI Code | Iro AI"
+title: "Learn Cursor AI Coding in 5-Minute Lessons | Iro AI"
 canonical_url: "https://tryiro.com/learn-cursor"
 site: "Iro AI"
 site_url: "https://tryiro.com"
 app_store: "https://apps.apple.com/app/id6759628066"
 language: en-US
-keywords: ["Cursor AI", "how to use Cursor", "Cursor agent mode", "cursorrules", "Cursor tutorial", "AI code editor"]
-audience: "Developers, technical founders, and anyone shipping code with AI assistance"
-level: "Intermediate"
+keywords: ["app to learn Cursor", "learn Cursor for beginners", "Cursor lessons", "Cursor AI", "how to use Cursor", "Cursor agent mode", "cursorrules", "Cursor tutorial", "AI code editor"]
+audience: "Beginners who can read a little code, developers, and technical founders shipping code with AI"
+level: "Beginner to intermediate"
 date_published: "2026-07-29"
-date_modified: "2026-07-29"
+date_modified: "2026-11-25"
 author: "Iro AI"
 license: "© 2026 Iro AI"
 canonical_llm_reference: "https://tryiro.com/llms-full.txt"
@@ -21,16 +21,15 @@ canonical_llm_reference: "https://tryiro.com/llms-full.txt"
 
 **Canonical page:** https://tryiro.com/learn-cursor
 **App Store:** https://apps.apple.com/app/id6759628066
-**Last updated:** 2026-07-29
+**Last updated:** 2026-11-25
 
 ## In short
 
-Cursor is an AI code editor built around three levels of assistance: inline edits for single changes, Composer for multi-file edits you review as diffs, and Agent mode, which reads the codebase, edits files, runs terminal commands, and loops until the task is done. The skill that separates people who ship with it from people who accumulate debt is reviewing its output with the same scrutiny you would apply to a pull request from a stranger.
+Yes. Iro is an app that teaches Cursor in 15 lessons of about five minutes each, on iPhone and in any browser. It starts with what Cursor is best for and its Tab, inline edit and chat modes, then moves to agent mode, rules files, debugging, git habits and building a small app end to end. It suits beginners who can read a little code. The skill that matters most is reviewing every AI edit, especially what it deleted, before you accept it.
 
-- Composer edits multiple files and shows you a diff per file before you accept.
-- Agent mode runs a longer autonomous loop, including terminal commands.
-- Rules files in .cursor/rules keep the model on your conventions and stop it inventing packages.
-- Context can be silently dropped in long sessions, so re-mention key files explicitly.
+- 15 lessons, about 5 minutes each, on iPhone and the web. Free to start.
+- Agent mode runs a longer loop, including terminal commands, so commit before it runs.
+- Rules files keep Cursor on your conventions; re-mention key files in long sessions.
 
 ## What you'll be able to do
 
@@ -39,12 +38,16 @@ Cursor is an AI code editor built around three levels of assistance: inline edit
 - Keep the model pointed at the files that matter
 - Catch the failure mode that costs most: plausible code solving the wrong problem
 
-## Inside the path
+## Eight of the 15 lessons in Iro's Cursor path
 
-1. **Three modes, three jobs** (5 min) — Inline, Composer, Agent: when each one is the right amount of autonomy.
-2. **Rules that survive** (5 min) — What to put in .cursor/rules, and why long sessions quietly forget it.
-3. **Context is a budget** (5 min) — Pointing at the right files instead of hoping the model finds them.
-4. **Reviewing like a skeptic** (5 min) — Reading generated diffs for what is wrong, not for whether they look reasonable.
+1. **What Cursor Is Best For** (5 min) — Why an editor that reads your whole project beats pasting snippets into a chatbot.
+2. **Tab, Inline Edit, and Chat** (5 min) — Four surfaces for four sizes of change, and when to use each.
+3. **Giving Cursor the Right Context** (5 min) — Two or three named files beat a whole-repo search.
+4. **Reading an AI Edit Before You Accept It** (5 min) — Deletions are the dangerous half of a diff, so read what the edit removed.
+5. **Agent Mode and Multi-File Changes** (5 min) — How the agent loops through context, edits and commands, and how to keep it on track.
+6. **Rules Files: Teach It Your Codebase** (5 min) — Write down only the conventions the model would otherwise guess.
+7. **Git Workflows and Small Commits** (5 min) — Commit before the agent runs, so every change can be undone.
+8. **Build a Small App End to End** (5 min) — Get a skeleton running, then add one thing at a time.
 
 ## Three modes, and how much rope to give
 
@@ -97,6 +100,10 @@ The skills that compound here are the same ones that transfer to every model rel
 **Why:** The second option wins on two counts. First, **Composer shows a diff per file**, so you approve fifteen small reviewable changes rather than one opaque result. Second, naming the migration and test files explicitly stops the model guessing at scope, which is where renames usually go wrong. Agent mode with a vague prompt is the expensive failure: passing tests prove the tests still pass, not that the rename was complete or that a migration was not silently rewritten. Inline editing fifteen files is slow and invites you to miss one. Doing it entirely by hand throws away the leverage.
 
 ## Cursor questions
+
+**Is there an app to learn Cursor AI coding for beginners?**
+
+Yes. Iro has a Cursor path of 15 lessons, each about five minutes, on iPhone and the web. It starts with what Cursor is best for and its Tab, inline edit and chat modes, then covers context, reviewing AI edits, agent mode, rules files, debugging, git and building a small app end to end. It works best if you can read a little code, and Iro is free to start.
 
 **What is Cursor?**
 

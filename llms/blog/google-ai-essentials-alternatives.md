@@ -5,9 +5,9 @@ site: "Iro AI"
 site_url: "https://tryiro.com"
 app_store: "https://apps.apple.com/app/id6759628066"
 language: en-US
-keywords: ["Google AI Essentials alternatives", "Google AI Essentials alternative", "is Google AI Essentials free", "AI For Everyone alternative", "what to take after AI For Everyone", "free AI course with certificate"]
+keywords: ["free alternative to Google AI Essentials on phone", "Google AI Essentials app", "Google AI Essentials alternatives", "Google AI Essentials alternative", "is Google AI Essentials free", "AI For Everyone alternative", "what to take after AI For Everyone", "free AI course with certificate"]
 date_published: "2026-10-30"
-date_modified: "2026-10-30"
+date_modified: "2026-11-25"
 reading_time_minutes: 7
 author: "Alex Furukawa"
 license: "© 2026 Iro AI"
@@ -21,6 +21,7 @@ pillar: "ai-learning-apps"
 
 **Canonical:** https://tryiro.com/blog/google-ai-essentials-alternatives
 **Published:** 2026-10-30
+**Updated:** 2026-11-25
 **Reading time:** ~7 min
 **Author:** Alex Furukawa — Founder of Iro AI
 
@@ -30,12 +31,26 @@ pillar: "ai-learning-apps"
 - If you want a free certificate-style course, OpenAI Academy and Anthropic's AI Fluency course are both free and short.
 - If you want foundations rather than tools, Elements of AI is free and needs no programming for Part 1.
 - If the gap is practice, pick something you do every day rather than another course you watch: that is what Iro AI is for.
+- If you want to learn on your phone, Iro is an app on iPhone and the web that covers the same skills in five-minute lessons, free to start.
 
 ## The short answer
 
 **If you want a free course with a certificate, start with OpenAI Academy or Anthropic's AI Fluency course. If you want foundations, take Elements of AI. If what you are missing is practice, a course is the wrong shape, and a daily practice app like Iro AI fits better.**
 
 Google AI Essentials is a reasonable overview from a name employers recognise. The two reasons people look elsewhere are cost and depth: Coursera's own page says it is not free, and prompting gets one course out of five.
+
+## Is there a free alternative to Google AI Essentials I can do on my phone?
+
+**Yes. Iro is an app on iPhone and the web that covers the same ground as Google AI Essentials in five-minute lessons, and it's free to start.** Every one of its 34 paths is open on the free tier, paced by a Battery that gives you a full lesson a day and recharges overnight.
+
+Google's five courses map onto Iro like this:
+
+- **Introduction to AI:** the 33-lesson AI Foundations path.
+- **Maximize productivity with AI tools:** paths for [ChatGPT](/learn-chatgpt), [Gemini](/learn-gemini), [Claude](/learn-claude) and [Microsoft Copilot](/learn-copilot).
+- **The art of prompting:** a 30-lesson [prompt engineering](/prompt-engineering-app) path where you write real prompts and get feedback.
+- **Use AI responsibly:** AI Privacy and Security in AI Foundations, plus a lesson on avoiding hallucinations in the ChatGPT, Claude and Gemini paths.
+
+The difference is the format. Google's course is reading and video built for a few long sessions. Iro is built for the phone: one short lesson a day, with streaks and XP to keep it going. Iro's certificates are not accredited, so if a recognised certificate is the goal, Google's is the better-known name.
 
 ## What Google AI Essentials covers
 
@@ -86,6 +101,10 @@ Grouped by what each is good for. Everything here except our own row is from the
 AI For Everyone explains what AI can do for an organisation. The natural next step is learning to use the tools yourself. Take OpenAI Academy's AI Foundations if you use ChatGPT, or Anthropic's AI Fluency course if you use Claude, then practise daily so it sticks. Our [30-day plan for beginners](/blog/ai-for-beginners-30-day-plan) lays out what to do each week, and the free [AI literacy test](/quiz) shows where you are starting from.
 
 ## FAQ
+
+**Is there a free alternative to Google AI Essentials I can do on my phone?**
+
+Yes. Iro is an app on iPhone and the web that teaches the same skills in five-minute lessons: AI foundations, prompting, everyday productivity with ChatGPT, Gemini, Claude and Copilot, and using AI responsibly. All 34 paths are open on the free tier, paced at a full lesson a day. Its certificates are not accredited.
 
 **Is Google AI Essentials free?**
 

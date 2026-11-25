@@ -4,7 +4,7 @@ canonical_url: "https://tryiro.com/blog/ai-learning-apps"
 site: "Iro AI"
 site_url: "https://tryiro.com"
 language: en-US
-last_updated: "2026-11-23"
+last_updated: "2026-11-25"
 keywords: ["AI learning apps", "best app to learn AI", "AI learning app reviews", "Coursiv alternatives", "how to cancel Coursiv", "Duolingo for AI", "AI app subscription refund", "how to choose an AI learning app"]
 author: "Iro AI"
 license: "© 2026 Iro AI"
@@ -16,7 +16,7 @@ type: "content-pillar"
 > Honest reviews and head-to-heads for apps like Coursiv, Brilliant and Duolingo, plus how to cancel, get a refund, and pick an app that actually teaches you AI.
 
 **Canonical:** https://tryiro.com/blog/ai-learning-apps
-**Last updated:** 2026-11-23
+**Last updated:** 2026-11-25
 
 This hub collects everything we've written about AI learning apps: honest reviews, alternatives pages, head-to-head comparisons, and step-by-step guides to cancelling and getting refunds from apps like Coursiv, Finestro and Skilario.
 
@@ -164,7 +164,7 @@ For direct comparisons, see Iro AI vs [Coursiv](/blog/iro-ai-vs-coursiv), [Learn
 - [Skilario review: who runs it, what it costs, and what the terms say](https://tryiro.com/blog/skilario-review) — Is Skilario legit? Yes: a real AI course app from Cyprus-based Cherry Entertainment. Its terms refuse refunds on unused plans. Price and complaints.
 - [How to cancel Skilario and try to get your money back](https://tryiro.com/blog/cancel-skilario) — Cancel Skilario on the web, iPhone or Android before the 24-hour cutoff, then the routes to a refund when its terms exclude unused plans. Step by step.
 - [The best Skilario alternatives in 2026](https://tryiro.com/blog/skilario-alternatives) — Looking for a Skilario alternative? Compare Iro AI, Coursiv, Brilliant, Khan Academy, DataCamp and Coursera by how they teach, what is free and how you pay.
-- [Google AI Essentials alternatives: practice-first options in 2026](https://tryiro.com/blog/google-ai-essentials-alternatives) — Google AI Essentials costs $49/month on Coursera. Compare free and practice-first alternatives: OpenAI Academy, Anthropic AI Fluency, Elements of AI and Iro AI.
+- [Google AI Essentials alternatives: practice-first options in 2026](https://tryiro.com/blog/google-ai-essentials-alternatives) — Google AI Essentials costs $49/month on Coursera. Compare free alternatives, including Iro, an app you can do on your phone in 5-minute lessons.
 - [Iro AI vs Sololearn Learn AI: which teaches AI better?](https://tryiro.com/blog/iro-ai-vs-sololearn) — Iro AI vs Sololearn's Learn AI app: what each teaches, how lessons work, platforms and US prices, and who each one is for. An honest comparison.
 - [Jobescape review: who runs it, what it costs, and what the refund terms ask of you](https://tryiro.com/blog/jobescape-review) — An honest Jobescape review: who runs it, what it costs on the App Store, how renewals work, and the conditions you must meet before a refund. Read it before you pay.
 - [Cosmo review: CodeSignal's AI tutor app, what it costs, and who it suits](https://tryiro.com/blog/cosmo-review) — An honest Cosmo review: who makes CodeSignal's Cosmo app, how its AI tutor teaches, what Cosmo+ costs, what the terms say, and who it suits best.

@@ -5,10 +5,13 @@
   "eyebrow": "Learn Cursor",
   "hubTitle": "Learn Cursor",
   "hubBlurb": "Get an AI editor to work on your codebase without wrecking it.",
-  "title": "Learn Cursor: Agent Mode, Rules & Reviewing AI Code | Iro AI",
+  "title": "Learn Cursor AI Coding in 5-Minute Lessons | Iro AI",
   "h1": "Cursor writes code faster than you can read it. That's the problem to solve.",
-  "metaDescription": "How to use Cursor well: when to use Composer versus Agent mode, writing rules that stick, managing context, and reviewing generated code properly.",
+  "metaDescription": "Yes, there is an app to learn Cursor: Iro teaches it in 15 five-minute lessons on iPhone and web, from Tab and chat to agent mode, rules and reviewing edits.",
   "keywords": [
+    "app to learn Cursor",
+    "learn Cursor for beginners",
+    "Cursor lessons",
     "Cursor AI",
     "how to use Cursor",
     "Cursor agent mode",
@@ -24,8 +27,8 @@
     "Code review"
   ],
   "about": "Cursor and AI-assisted coding",
-  "level": "Intermediate",
-  "audience": "Developers, technical founders, and anyone shipping code with AI assistance",
+  "level": "Beginner to intermediate",
+  "audience": "Beginners who can read a little code, developers, and technical founders shipping code with AI",
   "teaches": [
     "Choosing between inline edits, Composer, and Agent mode",
     "Writing rules files that survive long sessions",
@@ -33,12 +36,11 @@
     "Reviewing generated code adversarially"
   ],
   "tldr": {
-    "answer": "Cursor is an AI code editor built around three levels of assistance: inline edits for single changes, Composer for multi-file edits you review as diffs, and Agent mode, which reads the codebase, edits files, runs terminal commands, and loops until the task is done. The skill that separates people who ship with it from people who accumulate debt is reviewing its output with the same scrutiny you would apply to a pull request from a stranger.",
+    "answer": "Yes. Iro is an app that teaches Cursor in 15 lessons of about five minutes each, on iPhone and in any browser. It starts with what Cursor is best for and its Tab, inline edit and chat modes, then moves to agent mode, rules files, debugging, git habits and building a small app end to end. It suits beginners who can read a little code. The skill that matters most is reviewing every AI edit, especially what it deleted, before you accept it.",
     "bullets": [
-      "Composer edits multiple files and shows you a diff per file before you accept.",
-      "Agent mode runs a longer autonomous loop, including terminal commands.",
-      "Rules files in .cursor/rules keep the model on your conventions and stop it inventing packages.",
-      "Context can be silently dropped in long sessions, so re-mention key files explicitly."
+      "15 lessons, about 5 minutes each, on iPhone and the web. Free to start.",
+      "Agent mode runs a longer loop, including terminal commands, so commit before it runs.",
+      "Rules files keep Cursor on your conventions; re-mention key files in long sessions."
     ]
   },
   "outcomesHeading": "What you'll be able to do",
@@ -50,24 +52,44 @@
   ],
   "lessons": [
     {
-      "t": "Three modes, three jobs",
+      "t": "What Cursor Is Best For",
       "dur": "5 min",
-      "blurb": "Inline, Composer, Agent: when each one is the right amount of autonomy."
+      "blurb": "Why an editor that reads your whole project beats pasting snippets into a chatbot."
     },
     {
-      "t": "Rules that survive",
+      "t": "Tab, Inline Edit, and Chat",
       "dur": "5 min",
-      "blurb": "What to put in .cursor/rules, and why long sessions quietly forget it."
+      "blurb": "Four surfaces for four sizes of change, and when to use each."
     },
     {
-      "t": "Context is a budget",
+      "t": "Giving Cursor the Right Context",
       "dur": "5 min",
-      "blurb": "Pointing at the right files instead of hoping the model finds them."
+      "blurb": "Two or three named files beat a whole-repo search."
     },
     {
-      "t": "Reviewing like a skeptic",
+      "t": "Reading an AI Edit Before You Accept It",
       "dur": "5 min",
-      "blurb": "Reading generated diffs for what is wrong, not for whether they look reasonable."
+      "blurb": "Deletions are the dangerous half of a diff, so read what the edit removed."
+    },
+    {
+      "t": "Agent Mode and Multi-File Changes",
+      "dur": "5 min",
+      "blurb": "How the agent loops through context, edits and commands, and how to keep it on track."
+    },
+    {
+      "t": "Rules Files: Teach It Your Codebase",
+      "dur": "5 min",
+      "blurb": "Write down only the conventions the model would otherwise guess."
+    },
+    {
+      "t": "Git Workflows and Small Commits",
+      "dur": "5 min",
+      "blurb": "Commit before the agent runs, so every change can be undone."
+    },
+    {
+      "t": "Build a Small App End to End",
+      "dur": "5 min",
+      "blurb": "Get a skeleton running, then add one thing at a time."
     }
   ],
   "practice": {
@@ -116,6 +138,10 @@
   "faqHeading": "Cursor questions",
   "faq": [
     {
+      "q": "Is there an app to learn Cursor AI coding for beginners?",
+      "a": "Yes. Iro has a Cursor path of 15 lessons, each about five minutes, on iPhone and the web. It starts with what Cursor is best for and its Tab, inline edit and chat modes, then covers context, reviewing AI edits, agent mode, rules files, debugging, git and building a small app end to end. It works best if you can read a little code, and Iro is free to start."
+    },
+    {
       "q": "What is Cursor?",
       "a": "Cursor is an AI-first code editor. It offers inline edits for single changes, Composer for multi-file edits reviewed as diffs, and Agent mode, which reads your codebase, edits files, runs terminal commands, and iterates until a task is finished."
     },
@@ -160,9 +186,10 @@
       "label": "Which AI model should you use for coding?"
     }
   ],
-  "llmsBlurb": "How to use Cursor well: choosing between Composer and Agent mode, writing rules that stick, managing context, and reviewing generated code.",
+  "llmsBlurb": "Iro's Cursor path: 15 five-minute lessons on iPhone and web, from Tab and chat to agent mode, rules files, git habits and reviewing AI edits.",
   "ctaHeading": "Practise reviewing AI code.",
   "ctaBody": "Iro turns specification, adversarial review, and knowing when not to delegate into five-minute exercises with feedback.",
   "datePublished": "2026-07-29",
-  "dateModified": "2026-07-29"
+  "dateModified": "2026-11-25",
+  "lessonsHeading": "Eight of the 15 lessons in Iro's Cursor path"
 }
