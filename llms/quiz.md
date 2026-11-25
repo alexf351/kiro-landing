@@ -6,7 +6,7 @@ site_url: "https://tryiro.com"
 app_store: "https://apps.apple.com/app/id6759628066"
 language: en-US
 keywords: ["AI IQ test", "free quiz", "AI literacy assessment"]
-last_updated: "2026-11-06"
+last_updated: "2026-11-25"
 author: "Iro AI"
 license: "© 2026 Iro AI"
 canonical_llm_reference: "https://tryiro.com/llms-full.txt"
@@ -17,7 +17,7 @@ canonical_llm_reference: "https://tryiro.com/llms-full.txt"
 > Free, no-signup AI IQ test. 10 questions. About 2 minutes. Ranks Bronze to Diamond and recommends a learning path.
 
 **Canonical page:** https://tryiro.com/quiz
-**Last updated:** 2026-11-06
+**Last updated:** 2026-11-25
 
 ## Who this test is for
 
@@ -49,6 +49,9 @@ The AI IQ Test is a short interactive quiz built by Iro AI to give people a quic
 - Outputs: rank, weakest topic, recommended learning path, shareable result
 
 ## FAQ
+
+**Is there an AI quiz app to test how much I know about AI?**  
+Yes. Iro's free AI IQ test is a 10-question quiz on how well you actually use AI, which takes about two minutes in any browser, phone included, with no signup. Your score maps to a rank from Bronze to Diamond and names the skill to train first. For a quiz every day, the Iro app on iPhone and the web adds a Daily Challenge and weekly AI news quizzes on top of its five-minute lessons.
 
 **Is the AI IQ Test free?**  
 Yes. Completely free, no signup required.

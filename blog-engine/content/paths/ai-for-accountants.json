@@ -5,10 +5,12 @@
   "eyebrow": "AI for accountants",
   "hubTitle": "AI for accountants",
   "hubBlurb": "Explain formulas, summarize guidance, draft client emails, and clean data, then check every number.",
-  "title": "AI for Accountants: Formulas, Emails, and Guidance | Iro AI",
+  "title": "AI for Accountants: Learn It in 5-Minute Lessons | Iro AI",
   "h1": "AI for accountants who still have to tie out.",
-  "metaDescription": "How accountants use AI to write and explain spreadsheet formulas, summarize guidance, draft client emails, and clean data — with every number verified.",
+  "metaDescription": "An app to learn AI as an accountant: Iro teaches it in 5-minute lessons on iPhone and web, with tax and audit, reporting, spreadsheets and number checks.",
   "keywords": [
+    "best app to learn AI for accountants",
+    "AI course for accountants",
     "AI for accountants",
     "AI for accounting",
     "how accountants use ChatGPT",
@@ -35,11 +37,11 @@
     "Verifying AI numbers and avoiding confident errors"
   ],
   "tldr": {
-    "answer": "Accountants get the most from AI by using it for language and logic, not arithmetic. It excels at writing and explaining spreadsheet formulas, summarizing guidance and regulations at a high level, drafting client emails, and cleaning up messy data, but it will state wrong numbers with total confidence, so every figure it touches has to be verified against the source. AI drafts and explains; you tie out the numbers and stay responsible for accuracy.",
+    "answer": "Iro is an app built for this. Its AI for Finance path has 15 lessons of about five minutes each, on iPhone and in any browser, and the ones accountants use most cover tax and audit, financial reporting, spreadsheet formulas, pulling data out of documents and catching AI's wrong numbers. Most other options are long courses rather than an app you can practise in daily. The core habit stays the same: use AI for language and logic, and tie out every number yourself.",
     "bullets": [
-      "Best uses: formulas, plain-English guidance summaries, client emails, and data cleanup.",
-      "AI cannot be trusted to do math, so verify every number against the source.",
-      "The skill that compounds is prompting with context, sample data, and a check step."
+      "15 lessons in the AI for Finance path, about 5 minutes each, on iPhone and the web. Free to start.",
+      "Best uses: formulas, document extraction, reporting drafts, client emails and data cleanup.",
+      "AI cannot be trusted to do math, so verify every number against the source."
     ]
   },
   "outcomesHeading": "What you'll be able to do",
@@ -52,29 +54,34 @@
   ],
   "lessons": [
     {
-      "t": "Formulas, written and explained",
-      "dur": "6 min",
-      "blurb": "Describe what you need in plain words and get a working formula plus an explanation you can adapt and trust."
-    },
-    {
-      "t": "Decode an inherited spreadsheet",
+      "t": "Spreadsheet & Modeling AI",
       "dur": "5 min",
-      "blurb": "Paste a nested formula you didn't build and have AI walk you through what each part does."
+      "blurb": "AI writes and checks the formulas; the assumptions stay yours."
     },
     {
-      "t": "Summarize guidance at a high level",
-      "dur": "6 min",
-      "blurb": "Turn dense standards and regs into a plain-English overview, as orientation, not authority."
-    },
-    {
-      "t": "Client emails that land",
+      "t": "Financial Document Processing",
       "dur": "5 min",
-      "blurb": "Draft clear, professional client and colleague emails by giving the model tone and the key points."
+      "blurb": "Turn statements, contracts and filings into structured fields you can actually work with."
     },
     {
-      "t": "Clean data without the guesswork",
+      "t": "AI for Tax & Audit",
       "dur": "5 min",
-      "blurb": "Standardize names, split columns, and spot outliers, then verify the totals tie out."
+      "blurb": "Let AI extract data, flag anomalies and keep the trail, while a person signs off."
+    },
+    {
+      "t": "Financial Reporting with AI",
+      "dur": "5 min",
+      "blurb": "AI pulls the numbers and drafts the variance commentary; you own the message."
+    },
+    {
+      "t": "Financial AI Hallucinations",
+      "dur": "5 min",
+      "blurb": "Spot the subtle errors: a number quoted without its method, or a source that does not say what AI claims."
+    },
+    {
+      "t": "Client Communication AI",
+      "dur": "5 min",
+      "blurb": "Draft client updates fast, then add the judgement only you can give."
     }
   ],
   "practice": {
@@ -114,6 +121,10 @@
   ],
   "faqHeading": "Accounting AI questions",
   "faq": [
+    {
+      "q": "What's the best app to learn AI for accountants?",
+      "a": "Iro is an app that teaches it in five-minute lessons on iPhone and the web. Its AI for Finance path has 15 lessons, including tax and audit, financial reporting, spreadsheet modeling, document processing and spotting financial hallucinations, and its Excel + AI path adds six lessons on formulas and data cleanup. Every lesson ends in a hands-on exercise with feedback, and Iro is free to start."
+    },
     {
       "q": "Can accountants trust AI to do calculations?",
       "a": "No. Language models predict text, they don't compute, so they'll state wrong figures with full confidence. Use AI to write the formula that does the math inside your spreadsheet, or to explain logic, then verify every number against the source or a total you already know. AI handles the language; you tie out the numbers."
@@ -167,9 +178,10 @@
       "label": "What is prompt engineering?"
     }
   ],
-  "llmsBlurb": "How accountants use AI for formulas, guidance summaries, client emails, and data cleanup — while verifying every number themselves.",
+  "llmsBlurb": "Iro's AI lessons for accountants: the 15-lesson AI for Finance path on iPhone and web, covering tax and audit, reporting, spreadsheets and verifying every number.",
   "ctaHeading": "Practice AI accounting skills in Iro.",
   "ctaBody": "Iro turns formula-writing, guidance summaries, and verification into five-minute exercises with feedback — so the habits that keep your numbers right are reps you've already done.",
   "datePublished": "2026-07-09",
-  "dateModified": "2026-07-09"
+  "dateModified": "2026-11-25",
+  "lessonsHeading": "Six lessons accountants use most in Iro's AI for Finance path"
 }

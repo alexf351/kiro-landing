@@ -1,15 +1,15 @@
 ---
-title: "AI for Accountants: Formulas, Emails, and Guidance | Iro AI"
+title: "AI for Accountants: Learn It in 5-Minute Lessons | Iro AI"
 canonical_url: "https://tryiro.com/ai-for-accountants"
 site: "Iro AI"
 site_url: "https://tryiro.com"
 app_store: "https://apps.apple.com/app/id6759628066"
 language: en-US
-keywords: ["AI for accountants", "AI for accounting", "how accountants use ChatGPT", "AI spreadsheet formulas", "AI for bookkeeping"]
+keywords: ["best app to learn AI for accountants", "AI course for accountants", "AI for accountants", "AI for accounting", "how accountants use ChatGPT", "AI spreadsheet formulas", "AI for bookkeeping"]
 audience: "Accountants, bookkeepers, controllers, tax preparers, finance teams"
 level: "Beginner to advanced"
 date_published: "2026-07-09"
-date_modified: "2026-07-09"
+date_modified: "2026-11-25"
 author: "Iro AI"
 license: "© 2026 Iro AI"
 canonical_llm_reference: "https://tryiro.com/llms-full.txt"
@@ -21,15 +21,15 @@ canonical_llm_reference: "https://tryiro.com/llms-full.txt"
 
 **Canonical page:** https://tryiro.com/ai-for-accountants
 **App Store:** https://apps.apple.com/app/id6759628066
-**Last updated:** 2026-07-09
+**Last updated:** 2026-11-25
 
 ## In short
 
-Accountants get the most from AI by using it for language and logic, not arithmetic. It excels at writing and explaining spreadsheet formulas, summarizing guidance and regulations at a high level, drafting client emails, and cleaning up messy data, but it will state wrong numbers with total confidence, so every figure it touches has to be verified against the source. AI drafts and explains; you tie out the numbers and stay responsible for accuracy.
+Iro is an app built for this. Its AI for Finance path has 15 lessons of about five minutes each, on iPhone and in any browser, and the ones accountants use most cover tax and audit, financial reporting, spreadsheet formulas, pulling data out of documents and catching AI's wrong numbers. Most other options are long courses rather than an app you can practise in daily. The core habit stays the same: use AI for language and logic, and tie out every number yourself.
 
-- Best uses: formulas, plain-English guidance summaries, client emails, and data cleanup.
+- 15 lessons in the AI for Finance path, about 5 minutes each, on iPhone and the web. Free to start.
+- Best uses: formulas, document extraction, reporting drafts, client emails and data cleanup.
 - AI cannot be trusted to do math, so verify every number against the source.
-- The skill that compounds is prompting with context, sample data, and a check step.
 
 ## What you'll be able to do
 
@@ -39,13 +39,14 @@ Accountants get the most from AI by using it for language and logic, not arithme
 - Draft a clear, professional client email in a fraction of the time
 - Clean and restructure messy exports without hand-editing every row
 
-## Inside the path
+## Six lessons accountants use most in Iro's AI for Finance path
 
-1. **Formulas, written and explained** (6 min) — Describe what you need in plain words and get a working formula plus an explanation you can adapt and trust.
-2. **Decode an inherited spreadsheet** (5 min) — Paste a nested formula you didn't build and have AI walk you through what each part does.
-3. **Summarize guidance at a high level** (6 min) — Turn dense standards and regs into a plain-English overview, as orientation, not authority.
-4. **Client emails that land** (5 min) — Draft clear, professional client and colleague emails by giving the model tone and the key points.
-5. **Clean data without the guesswork** (5 min) — Standardize names, split columns, and spot outliers, then verify the totals tie out.
+1. **Spreadsheet & Modeling AI** (5 min) — AI writes and checks the formulas; the assumptions stay yours.
+2. **Financial Document Processing** (5 min) — Turn statements, contracts and filings into structured fields you can actually work with.
+3. **AI for Tax & Audit** (5 min) — Let AI extract data, flag anomalies and keep the trail, while a person signs off.
+4. **Financial Reporting with AI** (5 min) — AI pulls the numbers and drafts the variance commentary; you own the message.
+5. **Financial AI Hallucinations** (5 min) — Spot the subtle errors: a number quoted without its method, or a source that does not say what AI claims.
+6. **Client Communication AI** (5 min) — Draft client updates fast, then add the judgement only you can give.
 
 ## Language and logic, not arithmetic
 
@@ -80,6 +81,10 @@ Do that and AI clears the busywork off your desk without ever putting an unverif
 **Why:** The winning prompt gives the model everything it needs and keeps you in control: it supplies **context** (what each column holds), includes a **sample of the data** so the formula fits your real layout, asks for an **explanation** so you can adapt it instead of pasting blindly, requests **edge-case handling** (blank cells, stray text), and ends with a **verification step**: testing against a known total. The vague "add up my sales" gives you a generic formula that may not match your columns. "Just give me the number" is the trap: the model can't see your data reliably and will confidently return a made-up figure. And "do the books" hands professional judgment to a tool that has none. In Iro you'd write your own version and get feedback on context, samples, and where to verify.
 
 ## Accounting AI questions
+
+**What's the best app to learn AI for accountants?**
+
+Iro is an app that teaches it in five-minute lessons on iPhone and the web. Its AI for Finance path has 15 lessons, including tax and audit, financial reporting, spreadsheet modeling, document processing and spotting financial hallucinations, and its Excel + AI path adds six lessons on formulas and data cleanup. Every lesson ends in a hands-on exercise with feedback, and Iro is free to start.
 
 **Can accountants trust AI to do calculations?**
 
