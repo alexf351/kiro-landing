@@ -267,7 +267,7 @@ const STYLE = `*{box-sizing:border-box}body{margin:0;font-family:Inter,ui-sans-s
 .content .note{font-size:.92rem;color:#8B95B0;border-left:2px solid rgba(0,229,255,.3);padding-left:14px;margin:14px 0 0}
 .disclosure{font-size:.86rem;color:#7A87A8;background:rgba(20,27,45,.4);border-left:3px solid rgba(0,229,255,.35);border-radius:0 10px 10px 0;padding:9px 14px;margin:0 0 22px}
 .disclosure strong{color:#9BA7C4}
-@media(min-width:1440px){.toc{position:fixed;left:calc(50% - 706px);top:110px;width:232px;max-height:72vh;overflow:auto;margin:0;z-index:40}}.toc strong{color:#fff;display:block;margin-bottom:6px;font-size:.78rem;letter-spacing:.14em;text-transform:uppercase;color:#00E5FF}.toc a{color:#CFF8FF;font-weight:600;display:inline-block;margin:3px 14px 3px 0}.key-takeaways{background:linear-gradient(180deg,rgba(0,229,255,.08),rgba(0,229,255,.02));border:1px solid rgba(0,229,255,.22);border-radius:18px;padding:18px 24px 20px;margin:0 0 22px}.key-takeaways h2{font-size:.8rem;letter-spacing:.14em;text-transform:uppercase;color:#00E5FF;margin:0 0 10px;scroll-margin-top:72px}.key-takeaways ul{margin:0;padding-left:20px}.key-takeaways li{color:#E6ECF8;font-size:1.05rem;margin:8px 0;font-weight:500}.content p,.content li,.content td,.content strong,.content code{overflow-wrap:anywhere}.cta-box{background:rgba(20,27,45,.85);border:1px solid rgba(0,229,255,.25);border-radius:18px;padding:22px 24px;margin:28px 0;text-align:left}.cta-box h3{margin:0 0 8px;font-size:1.1rem;color:#fff}.cta-box .cta-h{margin:0 0 8px;font-size:1.1rem;font-weight:800;color:#fff}.cta-box p{margin:0 0 14px;color:#CFD6EA}.cta-row{display:flex;gap:12px;flex-wrap:wrap}.btn{display:inline-flex;align-items:center;justify-content:center;border-radius:999px;padding:12px 20px;font-weight:900;border:1px solid rgba(0,229,255,.35);background:linear-gradient(135deg,#00E5FF,#00B4D8);color:#06111c;font-size:.95rem}.btn.secondary{background:rgba(255,255,255,.06);color:#fff;border-color:rgba(255,255,255,.16)}.related h2,.faq h2{font-size:clamp(1.3rem,2.5vw,1.7rem);margin:0 0 14px;letter-spacing:-.02em}.related ul{list-style:none;padding:0;margin:0}.related li{background:rgba(20,27,45,.7);border:1px solid rgba(255,255,255,.08);border-radius:14px;padding:14px 18px;margin:10px 0}.related li a{font-weight:700;color:#fff}.related li p{margin:6px 0 0;color:#8B95B0;font-size:.92rem}.faq details{background:rgba(20,27,45,.78);border:1px solid rgba(255,255,255,.08);border-radius:14px;padding:14px 18px;margin:10px 0}.faq summary{font-weight:800;cursor:pointer;color:#fff}.faq p{color:#CFD6EA;margin:8px 0 0}.footer{padding:34px clamp(20px,5vw,64px);border-top:1px solid rgba(255,255,255,.08);color:#8B95B0;margin-top:48px}.footer nav{display:flex;gap:16px;flex-wrap:wrap;margin-bottom:10px}.footer a{color:#C9D2EA}.posts-list{list-style:none;padding:0;margin:0}.posts-list li{background:rgba(20,27,45,.7);border:1px solid rgba(255,255,255,.08);border-radius:18px;padding:22px 24px;margin:14px 0}.posts-list h2{font-size:1.3rem;margin:0 0 6px}.posts-list h2 a{color:#fff}.posts-list .meta{margin-bottom:6px}.posts-list p{color:#CFD6EA;margin:6px 0 0;font-size:1rem}.askai{text-align:center}.askai-sub{color:#8B95B0;font-size:.95rem;max-width:560px;margin:0 auto 18px}.askai-chips{display:flex;flex-wrap:wrap;justify-content:center;gap:10px}.askai-chip{display:inline-flex;align-items:center;gap:7px;padding:10px 18px;border-radius:999px;border:1px solid rgba(255,255,255,.14);background:rgba(255,255,255,.02);color:#fff;font-weight:600;font-size:.95rem}.askai-chip svg{flex:none}.askai-chip:hover{border-color:rgba(0,229,255,.55);text-decoration:none}.askai-chip span{font-size:.8rem;color:#8B95B0}.askai-chip:hover span{color:#00E5FF}@media(max-width:800px){.nav{position:static;align-items:flex-start;flex-direction:column}.hero h1{font-size:2.1rem}}
+@media(min-width:1440px){.toc{position:fixed;left:calc(50% - 706px);top:110px;width:232px;max-height:72vh;overflow:auto;margin:0;z-index:40}}.toc strong{color:#fff;display:block;margin-bottom:6px;font-size:.78rem;letter-spacing:.14em;text-transform:uppercase;color:#00E5FF}.toc a{color:#CFF8FF;font-weight:600;display:inline-block;margin:3px 14px 3px 0}.key-takeaways{background:linear-gradient(180deg,rgba(0,229,255,.08),rgba(0,229,255,.02));border:1px solid rgba(0,229,255,.22);border-radius:18px;padding:18px 24px 20px;margin:0 0 22px}.key-takeaways h2{font-size:.8rem;letter-spacing:.14em;text-transform:uppercase;color:#00E5FF;margin:0 0 10px;scroll-margin-top:72px}.key-takeaways ul{margin:0;padding-left:20px}.key-takeaways li{color:#E6ECF8;font-size:1.05rem;margin:8px 0;font-weight:500}.content p,.content li,.content td,.content strong,.content code{overflow-wrap:anywhere}.cta-box{background:rgba(20,27,45,.85);border:1px solid rgba(0,229,255,.25);border-radius:18px;padding:22px 24px;margin:28px 0;text-align:left}.cta-box h3{margin:0 0 8px;font-size:1.1rem;color:#fff}.cta-box .cta-h{margin:0 0 8px;font-size:1.1rem;font-weight:800;color:#fff}.cta-box p{margin:0 0 14px;color:#CFD6EA}.cta-row{display:flex;gap:12px;flex-wrap:wrap}.btn{display:inline-flex;align-items:center;justify-content:center;border-radius:999px;padding:12px 20px;font-weight:900;border:1px solid rgba(0,229,255,.35);background:linear-gradient(135deg,#00E5FF,#00B4D8);color:#06111c;font-size:.95rem}.btn.secondary{background:rgba(255,255,255,.06);color:#fff;border-color:rgba(255,255,255,.16)}.related h2,.faq h2{font-size:clamp(1.3rem,2.5vw,1.7rem);margin:0 0 14px;letter-spacing:-.02em}.related ul{list-style:none;padding:0;margin:0}.related li{background:rgba(20,27,45,.7);border:1px solid rgba(255,255,255,.08);border-radius:14px;padding:14px 18px;margin:10px 0}.related li a{font-weight:700;color:#fff}.related li p{margin:6px 0 0;color:#8B95B0;font-size:.92rem}.faq details{background:rgba(20,27,45,.78);border:1px solid rgba(255,255,255,.08);border-radius:14px;padding:14px 18px;margin:10px 0}.faq summary{font-weight:800;cursor:pointer;color:#fff}.faq p{color:#CFD6EA;margin:8px 0 0}.footer{padding:34px clamp(20px,5vw,64px);border-top:1px solid rgba(255,255,255,.08);color:#8B95B0;margin-top:48px}.footer nav{display:flex;gap:16px;flex-wrap:wrap;margin-bottom:10px}.footer-hubs{padding-bottom:12px;margin-bottom:14px!important;border-bottom:1px solid rgba(255,255,255,.06)}.footer-hubs b{color:#fff;font-size:.78rem;letter-spacing:.14em;text-transform:uppercase;align-self:center}.hub-more{margin-top:12px;font-weight:700}.footer a{color:#C9D2EA}.posts-list{list-style:none;padding:0;margin:0}.posts-list li{background:rgba(20,27,45,.7);border:1px solid rgba(255,255,255,.08);border-radius:18px;padding:22px 24px;margin:14px 0}.posts-list h2{font-size:1.3rem;margin:0 0 6px}.posts-list h2 a{color:#fff}.posts-list .meta{margin-bottom:6px}.posts-list p{color:#CFD6EA;margin:6px 0 0;font-size:1rem}.askai{text-align:center}.askai-sub{color:#8B95B0;font-size:.95rem;max-width:560px;margin:0 auto 18px}.askai-chips{display:flex;flex-wrap:wrap;justify-content:center;gap:10px}.askai-chip{display:inline-flex;align-items:center;gap:7px;padding:10px 18px;border-radius:999px;border:1px solid rgba(255,255,255,.14);background:rgba(255,255,255,.02);color:#fff;font-weight:600;font-size:.95rem}.askai-chip svg{flex:none}.askai-chip:hover{border-color:rgba(0,229,255,.55);text-decoration:none}.askai-chip span{font-size:.8rem;color:#8B95B0}.askai-chip:hover span{color:#00E5FF}@media(max-width:800px){.nav{position:static;align-items:flex-start;flex-direction:column}.hero h1{font-size:2.1rem}}
 /* ---- blog hub (renderIndex) ---- */
 .hub{max-width:1180px;margin:0 auto;padding:0 clamp(20px,5vw,48px) 84px}
 .hub-hero{display:grid;grid-template-columns:1.05fr .95fr;gap:clamp(24px,4vw,56px);align-items:center;padding-top:clamp(40px,7vw,88px)}
@@ -327,13 +327,19 @@ const STYLE = `*{box-sizing:border-box}body{margin:0;font-family:Inter,ui-sans-s
 
 `;
 
-const navHtml = (T = null) => `<header class="nav"><a class="brand" href="${T ? T.home : '/'}"><img src="${cfg.icons.brand}" alt="" width="28" height="28"/>Iro AI</a><nav class="nav-links">${(T ? T.nav : cfg.nav)
+// Blog sits last in the nav (master). Translated pages use their localized nav from blog-ui.json, plus Blog.
+const navHtml = (T = null) => `<header class="nav"><a class="brand" href="${T ? T.home : '/'}"><img src="${cfg.icons.brand}" alt="" width="28" height="28"/>Iro AI</a><nav class="nav-links">${[...(T ? T.nav : cfg.nav).filter((n) => n.href !== '/blog'), { href: '/blog', label: 'Blog' }]
   .map((n) => `<a href="${n.href}">${n.label}</a>`)
   .join('')}</nav></header>`;
 const NAV = navHtml();
 
-// Translated pages keep the same footer links, with labels from blog-ui.json.
-const footerHtml = (T = null) => `<footer class="footer"><nav>${cfg.footer
+// Every blog page's footer links every topic hub, so each hub gets a crawlable
+// link from all ~150 blog pages, not just from the index. Translated pages keep
+// the same footer links, with labels from blog-ui.json (the hubs stay English).
+const footerHubs = (T = null) => `<nav class="footer-hubs" aria-label="${T ? T.blogTopics : 'Blog topics'}"><b>${T ? T.blogTopics : 'Blog topics'}</b>${pillars
+  .map((p) => `<a href="/blog/${p.slug}"${T ? ' hreflang="en"' : ''}>${esc(p.shortName || p.title)}</a>`)
+  .join('')}</nav>`;
+const footerHtml = (T = null) => `<footer class="footer">${footerHubs(T)}<nav>${cfg.footer
   .map((f) => `<a href="${f.href}"${f.external ? ' target="_blank" rel="noopener"' : ''}>${(T && T.footer[f.href]) || f.label}</a>`)
   .join('')}</nav><p>${cfg.copyright}. ${T ? T.tagline : cfg.tagline}</p></footer>`;
 const FOOTER = footerHtml();
@@ -590,6 +596,30 @@ function renderPost(post) {
     : '';
   const faq = post.faq.map((f) => `<details><summary>${f.q}</summary><p>${tx(f.a)}</p></details>`).join('');
 
+  // "More in <hub>": siblings from the same hub, picked as the posts on either
+  // side of this one in hub order (wrapping round). Every post therefore gets a
+  // visible link from its six nearest siblings, so none is left orphaned, and
+  // the hub page itself is linked at the end.
+  let hubBlock = '';
+  if (pillar && pillar.posts.length > 1) {
+    const sib = pillar.posts;
+    const i = sib.findIndex((x) => x.slug === post.slug);
+    const seen = new Set([post.slug]);
+    const picks = [];
+    for (let k = 1; picks.length < 6 && k < sib.length; k++) {
+      for (const j of [i + k, i - k]) {
+        const x = sib[((j % sib.length) + sib.length) % sib.length];
+        if (picks.length < 6 && !seen.has(x.slug)) {
+          seen.add(x.slug);
+          picks.push(x);
+        }
+      }
+    }
+    const items = picks.map((x) => `<li><a href="/blog/${x.slug}">${x.title}</a><p>${esc(x.lede || x.description)}</p></li>`).join('');
+    const name = esc(pillar.shortName || pillar.title);
+    hubBlock = `\n<section class="related hub-related" aria-labelledby="more-in-hub"><h2 id="more-in-hub">More in ${name}</h2><ul>${items}</ul><p class="hub-more"><a href="/blog/${pillar.slug}">See all ${sib.length} ${name} posts and the full guide</a></p></section>`;
+  }
+
   const pillarMeta = pillar ? `<span><a href="/blog/${pillar.slug}">${esc(pillar.shortName || pillar.title)}</a></span>` : '';
 
   return `<!doctype html>
@@ -677,7 +707,7 @@ ${post.hero ? heroPicture(post.hero) : `<img class="hero-img" src="${heroSrc}" a
 ${content}
 </div>
 ${T ? bottomBanner({ variant: bannerVariant(post.slug), slug: post.slug, image: localScreen('learning-path', lang), text: T.banner }) : bottomBanner({ variant: bannerVariant(post.slug), slug: post.slug })}
-<section class="related"><h2>${L.readNext}</h2><ul>${readNext}</ul></section>${exploreBlock}
+<section class="related"><h2>${L.readNext}</h2><ul>${readNext}</ul></section>${T ? '' : hubBlock}${exploreBlock}
 <section class="faq"><h2>${L.faq}</h2>${faq}</section>${post.askAi ? '\n' + askAiBlock(post.askAiPrompt, 'blog:' + (lang ? lang + '/' : '') + post.slug, T) : ''}
 <section class="related"><h2>${L.aboutAuthor}</h2><ul><li><a href="${au.url}" rel="author" target="_blank">${esc(au.name)}</a><p>${esc(au.bio)}</p></li></ul></section>
 </main>
@@ -762,8 +792,17 @@ function renderPillar(pillar) {
     ...(pillar.relatedLabels || []).map((r) => `<li><a href="${r.href}">${r.label}</a></li>`),
   ].join('');
 
+  // The hub guide: a standalone read (~1,500 words) shown above the post list.
+  const guide = pillar.guide || [];
+  const guideHtml = guide.map((g) => `<h2 id="${g.id}">${g.heading}</h2>\n${g.html}`).join('\n');
+  const guideToc = guide.length
+    ? `<div class="toc"><strong>In this guide</strong>${guide
+        .map((g) => `<a href="#${g.id}">${g.heading}</a>`)
+        .join('')}<a href="#all-posts">All ${clusterPosts.length} posts</a>${pillar.faq ? '<a href="#faq">FAQ</a>' : ''}</div>`
+    : '';
+
   const faqSection = pillar.faq
-    ? `<section class="faq"><h2>FAQ</h2>${pillar.faq
+    ? `<section class="faq" id="faq"><h2>FAQ</h2>${pillar.faq
         .map((f) => `<details><summary>${f.q}</summary><p>${f.a}</p></details>`)
         .join('')}</section>`
     : '';
@@ -845,10 +884,12 @@ ${NAV}
 </article>
 <div class="content">
 ${(pillar.intro || []).map((h) => h).join('\n')}
+${guideToc}
+${guideHtml}
 ${ctaBox(pillar.slug)}
 </div>
 ${bottomBanner({ variant: bannerVariant(pillar.slug), slug: pillar.slug })}
-<section class="related"><h2>In this pillar</h2><ul class="posts-list">${postsList}</ul></section>
+<section class="related" id="all-posts"><h2>All ${clusterPosts.length} ${esc(pillar.shortName || pillar.title)} posts</h2><ul class="posts-list">${postsList}</ul></section>
 ${faqSection}
 <section class="related"><h2>Explore more</h2><ul>${related}</ul></section>
 </main>
@@ -936,8 +977,11 @@ function renderIndex() {
   const sectionKey = (name) => String(name || 'Other').toLowerCase().replace(/[^a-z0-9]+/g, '-');
 
   const sorted = [...posts].sort((a, b) => String(b.datePublished || '').localeCompare(String(a.datePublished || '')) || (a.order || 0) - (b.order || 0));
+  // Filter chips and card pills follow the topic hubs, so the index, the hubs
+  // and the "More in" block under each post all use the same grouping.
+  const hubName = (p) => (pillarBySlug[p.pillar] ? pillarBySlug[p.pillar].shortName || pillarBySlug[p.pillar].title : p.articleSection || 'Other');
   const counts = {};
-  for (const p of sorted) counts[p.articleSection || 'Other'] = (counts[p.articleSection || 'Other'] || 0) + 1;
+  for (const p of sorted) counts[hubName(p)] = (counts[hubName(p)] || 0) + 1;
   const sections = Object.entries(counts).sort((x, y) => y[1] - x[1]);
   const lastUpdated = sorted.reduce((m, p) => ((p.dateModified || p.datePublished) > m ? p.dateModified || p.datePublished : m), '');
 
@@ -958,10 +1002,10 @@ function renderIndex() {
     .join('');
   const cards = sorted
     .map(
-      (p) => `<article class="hub-card" data-s="${sectionKey(p.articleSection)}">
+      (p) => `<article class="hub-card" data-s="${sectionKey(hubName(p))}">
 <a class="hub-card-media" href="/blog/${p.slug}" tabindex="-1" aria-hidden="true">${thumb(p)}</a>
 <div class="hub-card-body">
-<p class="hub-card-meta"><span class="hub-pill">${esc(p.articleSection || 'Post')}</span><span>${p.readingTime} min read</span></p>
+<p class="hub-card-meta"><span class="hub-pill">${esc(hubName(p))}</span><span>${p.readingTime} min read</span></p>
 <h3><a href="/blog/${p.slug}">${p.title}</a></h3>
 <time datetime="${p.datePublished}">${fmtDate(p.datePublished)}</time>
 <p class="hub-card-x">${esc(p.description)}</p>
@@ -1316,6 +1360,8 @@ function renderPillarMd(pillar) {
   const kwArr = '[' + (pillar.keywords || []).map((k) => JSON.stringify(k)).join(', ') + ']';
   const intro = (pillar.intro || []).map((h) => blocksToMd(h)).join('\n\n');
   const list = pillar.posts.map((p) => `- [${p.title}](${postUrl(p)}) — ${p.description}`).join('\n');
+  const guide = (pillar.guide || []).map((g) => `## ${g.heading}\n\n${blocksToMd(g.html)}`).join('\n\n');
+  const faq = (pillar.faq || []).map((f) => `### ${f.q}\n\n${/<p[\s>]/.test(f.a) ? blocksToMd(f.a) : inlineMd(f.a)}`).join('\n\n');
   return `---
 title: "${pillar.title}"
 canonical_url: "${url}"
@@ -1337,11 +1383,11 @@ type: "content-pillar"
 **Last updated:** ${pillar.dateModified || cfg.buildDate}
 
 ${intro}
-
+${guide ? `\n${guide}\n` : ''}
 ## Posts in this pillar
 
 ${list}
-`;
+${faq ? `\n## FAQ\n\n${faq}\n` : ''}`;
 }
 
 function renderIndexMd() {

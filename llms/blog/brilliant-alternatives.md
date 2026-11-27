@@ -12,7 +12,7 @@ reading_time_minutes: 6
 author: "Alex Furukawa"
 license: "© 2026 Iro AI"
 canonical_llm_reference: "https://tryiro.com/llms-full.txt"
-pillar: "ai-fluency"
+pillar: "ai-learning-apps"
 ---
 
 # The best Brilliant alternatives in 2026
@@ -61,7 +61,7 @@ Prices are from each app's own website or App Store listing, checked November 20
 
 ## 1. Iro AI: best Brilliant alternative for learning to use AI
 
-Brilliant teaches how AI works under the hood. Iro teaches how to get good results from AI tools: writing prompts, checking answers, and using ChatGPT, Claude and Gemini for real work. Lessons take about five minutes, and you practice on real prompts and get feedback, with XP, streaks, ranks and duels to keep the habit going. It runs on iPhone and the web, and is rated 4.6 stars from 85 reviews, with 1,500+ learners.
+Brilliant teaches how AI works under the hood. Iro teaches how to get good results from AI tools: writing prompts, checking answers, and using ChatGPT, Claude and Gemini for real work. Lessons take about five minutes, and you practice on real prompts and get feedback, with XP, streaks, ranks and duels to keep the habit going. It runs on iPhone and the web, and is rated 4.6 stars from 92 reviews, with 1,500+ learners.
 
 **Pick it if** you want to be better at using AI at work, not at the math behind it. **Skip it if** you want calculus, physics or coding. For a head-to-head, see [Iro AI vs Brilliant](/blog/iro-ai-vs-brilliant).
 

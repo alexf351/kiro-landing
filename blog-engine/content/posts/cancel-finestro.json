@@ -1,7 +1,7 @@
 {
   "slug": "cancel-finestro",
   "order": 77,
-  "pillar": "ai-fluency",
+  "pillar": "ai-learning-apps",
   "title": "How to cancel Finestro and request a refund",
   "lede": "Cancelling stops the next charge. Getting the last one back is a separate job with a separate process. Here is how to do both, in order, with the wording that works.",
   "keyTakeaways": [
@@ -29,7 +29,7 @@
     "VELRIO LIMITED"
   ],
   "datePublished": "2026-08-03",
-  "dateModified": "2026-11-04",
+  "dateModified": "2026-11-21",
   "readingTime": 6,
   "articleSection": "AI fluency",
   "feedCategory": "AI fluency",
@@ -145,23 +145,25 @@
   ],
   "readNext": [
     {
-      "href": "/blog/ai-subscription-traps",
-      "label": "How to spot an AI subscription trap"
+      "href": "/blog/finestro-review",
+      "label": "Finestro review: is Finestro legit?"
     },
     {
-      "href": "/blog/cancel-coursiv",
-      "label": "How to cancel Coursiv and get your money back"
+      "href": "/blog/iro-ai-vs-finestro",
+      "label": "Iro vs Finestro"
     },
     {
       "href": "/blog/finestro-alternatives",
       "label": "The best Finestro alternatives"
     },
     {
-      "href": "/free-ai-learning-app",
-      "label": "The best free app to learn AI"
+      "href": "/blog/ai-subscription-traps",
+      "label": "How to spot an AI subscription trap"
     }
   ],
   "related": [
+    "/blog/finestro-review",
+    "/blog/iro-ai-vs-finestro",
     "/blog/ai-subscription-traps",
     "/blog/cancel-coursiv",
     "/blog/finestro-alternatives",

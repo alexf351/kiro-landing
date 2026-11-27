@@ -102,7 +102,7 @@ It helps but it isn't required. Words like "golden hour lighting," "wide-angle s
 
 ## More AI tools to learn
 
-- [Learn Microsoft Copilot](https://tryiro.com/learn-copilot): Get real work out of Copilot in Word, Excel, Outlook, and Teams.
+- [Learn Microsoft Copilot](https://tryiro.com/learn-copilot): 16 short lessons on Copilot in Outlook, Teams, Word, Excel and PowerPoint.
 - [Learn NotebookLM](https://tryiro.com/learn-notebooklm): Turn your own documents into a research assistant that cites its sources.
 - [Learn Cursor](https://tryiro.com/learn-cursor): Get an AI editor to work on your codebase without wrecking it.
 - [Learn Notion AI](https://tryiro.com/learn-notion-ai): Draft, summarize, extract action items, and ask questions across your workspace.

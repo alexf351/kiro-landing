@@ -1,12 +1,12 @@
 ---
-title: "Prompt engineering app"
+title: "Prompt Engineering App That Grades Your Prompts"
 canonical_url: "https://tryiro.com/prompt-engineering-app"
 site: "Iro AI"
 site_url: "https://tryiro.com"
 app_store: "https://apps.apple.com/app/id6759628066"
 language: en-US
 keywords: ["prompt engineering", "Prompt Lab"]
-last_updated: "2026-05-24"
+last_updated: "2026-11-25"
 author: "Iro AI"
 license: "© 2026 Iro AI"
 canonical_llm_reference: "https://tryiro.com/llms-full.txt"
@@ -18,7 +18,13 @@ canonical_llm_reference: "https://tryiro.com/llms-full.txt"
 
 **Canonical page:** https://tryiro.com/prompt-engineering-app
 **App Store:** https://apps.apple.com/app/id6759628066
-**Last updated:** 2026-05-24
+**Last updated:** 2026-11-25
+
+## Is there an app that grades my AI prompts and shows me how to write better ones?
+
+**Yes. Iro's Prompt Lab does exactly that.** You write a real prompt for a realistic task, it runs against a live model, and you get a score with the weak spots called out. Then you rewrite it and try again.
+
+The grade looks at clarity, specificity, constraints and context. Around Prompt Lab sits a 30-lesson Prompt Engineering path in five-minute lessons. Iro runs on iPhone and the web and is free to start; Prompt Lab is part of Iro Pro.
 
 ## Why prompt engineering needs active practice
 
@@ -37,6 +43,9 @@ Iro breaks the skill into small decisions: define the goal, provide context, cho
 A prompt library can give you starting points, but it cannot build judgment by itself. Iro is designed to make users practice the thinking behind the prompt: what information matters, what the model may misunderstand, and how to improve the next attempt.
 
 ## FAQ
+
+**Is there an app that grades my AI prompts and shows me how to write better ones?**  
+Yes. Iro's Prompt Lab grades a real prompt you write on clarity, specificity, constraints and context, points out what is weak, and lets you rewrite and try again. It sits alongside a 30-lesson Prompt Engineering path in five-minute lessons. Iro runs on iPhone and the web and is free to start; Prompt Lab is part of Iro Pro.
 
 **Does Iro include a prompt library?**  
 The in-app prompt library is part of Iro Pro. Iro leads with active prompt practice and guided lessons rather than only providing static templates, and there is a [free prompt library on this site](/ai-prompts) as well.

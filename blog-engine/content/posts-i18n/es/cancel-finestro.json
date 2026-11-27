@@ -1,9 +1,9 @@
 {
   "slug": "cancel-finestro",
   "order": 77,
-  "pillar": "ai-fluency",
+  "pillar": "ai-learning-apps",
   "lang": "es",
-  "translatedFrom": "2026-11-04",
+  "translatedFrom": "2026-11-21",
   "title": "Cómo cancelar Finestro y pedir un reembolso",
   "lede": "Al cancelar, evitas el próximo cobro. Recuperar el último es otra tarea, con otro proceso. Aquí tienes cómo hacer las dos cosas, en orden, con las palabras que funcionan.",
   "keyTakeaways": [
@@ -147,23 +147,25 @@
   ],
   "readNext": [
     {
-      "href": "/blog/ai-subscription-traps",
-      "label": "Cómo detectar una trampa de suscripción de IA"
+      "href": "/blog/finestro-review",
+      "label": "Reseña de Finestro: ¿es Finestro fiable?"
     },
     {
-      "href": "/blog/cancel-coursiv",
-      "label": "Cómo cancelar Coursiv y recuperar tu dinero"
+      "href": "/blog/iro-ai-vs-finestro",
+      "label": "Iro vs Finestro"
     },
     {
       "href": "/blog/finestro-alternatives",
       "label": "Las mejores alternativas a Finestro"
     },
     {
-      "href": "/free-ai-learning-app",
-      "label": "La mejor app gratis para aprender IA"
+      "href": "/blog/ai-subscription-traps",
+      "label": "Cómo detectar una trampa de suscripción de IA"
     }
   ],
   "related": [
+    "/blog/finestro-review",
+    "/blog/iro-ai-vs-finestro",
     "/blog/ai-subscription-traps",
     "/blog/cancel-coursiv",
     "/blog/finestro-alternatives",

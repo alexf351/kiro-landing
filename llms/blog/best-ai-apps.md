@@ -12,7 +12,7 @@ reading_time_minutes: 7
 author: "Alex Furukawa"
 license: "© 2026 Iro AI"
 canonical_llm_reference: "https://tryiro.com/llms-full.txt"
-pillar: "ai-tools"
+pillar: "ai-comparisons"
 ---
 
 # The best AI apps in 2026 (and what each is best for)

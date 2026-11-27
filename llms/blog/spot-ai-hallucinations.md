@@ -5,9 +5,9 @@ site: "Iro AI"
 site_url: "https://tryiro.com"
 app_store: "https://apps.apple.com/app/id6759628066"
 language: en-US
-keywords: ["AI hallucination", "hallucination detection", "ChatGPT mistakes", "AI accuracy", "fact-checking AI"]
+keywords: ["app to practice spotting AI hallucinations", "AI hallucination practice", "AI hallucination", "hallucination detection", "ChatGPT mistakes", "AI accuracy", "fact-checking AI"]
 date_published: "2026-05-24"
-date_modified: "2026-06-20"
+date_modified: "2026-11-25"
 reading_time_minutes: 6
 author: "Alex Furukawa"
 license: "© 2026 Iro AI"
@@ -21,7 +21,7 @@ pillar: "ai-fluency"
 
 **Canonical:** https://tryiro.com/blog/spot-ai-hallucinations
 **Published:** 2026-05-24
-**Updated:** 2026-06-20
+**Updated:** 2026-11-25
 **Reading time:** ~6 min
 **Author:** Alex Furukawa — Founder of Iro AI
 
@@ -31,6 +31,7 @@ pillar: "ai-fluency"
 - The biggest risk areas are specific facts, citations, numbers, quotes, and recent events.
 - Catch hallucinations by asking for sources, cross-checking key claims, and distrusting suspiciously specific details.
 - Treat AI output as a fast first draft to verify, not a final source of truth.
+- To build the habit, practice on purpose: Iro, on iPhone and the web, has spot-the-hallucination drills built into its lessons.
 
 ## What a hallucination is (and isn't)
 
@@ -39,6 +40,14 @@ A hallucination is when an AI confidently states something that isn't true. Not 
 It's not the same as a wrong opinion or a value judgement. "This essay is well-structured" can be debated. "This essay won the Pulitzer Prize in 2019" is either true or false, and that's where hallucinations live.
 
 The reason this matters: AI outputs _look_ equally confident whether they're true or invented. Your job is to add the doubt the model doesn't supply.
+
+## Is there an app to practice spotting AI hallucinations?
+
+**Yes. Iro is an app on iPhone and the web with spot-the-hallucination drills built into its lessons.** You read an AI-style answer, find the claim that isn't true, and get instant feedback on why. A trust-calibration exercise has you rate how far to trust an answer on a 0 to 100 dial, which trains the habit of doubting confident output.
+
+Six of Iro's paths have a lesson on hallucinations: [ChatGPT](/learn-chatgpt) (Avoiding Hallucinations and Bad Answers), [Claude](/learn-claude) (Avoiding Hallucinations and Overtrust), [Gemini](/learn-gemini), [Perplexity](/learn-perplexity) (research traps), [finance](/ai-for-finance) and [healthcare](/ai-for-healthcare). Lessons take about five minutes, so one a day is enough to make the check automatic.
+
+Free browser quiz games are fine for a quick round. Iro is built for doing it daily, alongside the tools you actually use. It's free to start.
 
 ## The 5-second checks
 
@@ -78,9 +87,13 @@ The shape almost always involves a real-sounding noun phrase that nobody bothers
 
 Hallucination detection is a muscle. You can build it by doing: every time you use an AI model, pick one claim and verify it. Over a month, you'll start catching them automatically.
 
-Iro AI builds this directly into its exercises. The [ChatGPT](/learn-chatgpt), [Claude](/learn-claude), and [Perplexity](/learn-perplexity) paths each include hallucination-spotting drills. The [free AI IQ test](/quiz) includes a few of them too.
+If you'd rather practice on purpose, Iro's [spot-the-hallucination drills](#app) give you a few reps a day in the [ChatGPT](/learn-chatgpt), [Claude](/learn-claude) and [Perplexity](/learn-perplexity) paths. The [free AI IQ test](/quiz) includes a few of them too.
 
 ## FAQ
+
+**Is there an app that helps me practice spotting AI hallucinations?**
+
+Yes. Iro is an app on iPhone and the web with spot-the-hallucination drills built into its lessons: you find the false claim in an AI-style answer and get instant feedback. Six paths, including ChatGPT, Claude, Gemini and Perplexity, have a lesson on avoiding hallucinations. Lessons take about five minutes, and Iro is free to start.
 
 **Do the newest models still hallucinate?**
 

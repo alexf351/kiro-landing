@@ -1,7 +1,7 @@
 {
   "slug": "google-ai-essentials-alternatives",
   "order": 132,
-  "pillar": "ai-fluency",
+  "pillar": "ai-learning-apps",
   "title": "Google AI Essentials alternatives: practice-first options in 2026",
   "metaTitle": "Google AI Essentials Alternatives: Hands-On Picks",
   "lede": "Google AI Essentials is a solid overview. It is also paid, and only one of its five courses is about prompting. Here are the alternatives, grouped by what you actually want out of it.",
@@ -9,11 +9,14 @@
     "Coursera's own page says Google AI Essentials cannot be taken for free: in the US and Canada it is $49 a month after a 7-day trial.",
     "If you want a free certificate-style course, OpenAI Academy and Anthropic's AI Fluency course are both free and short.",
     "If you want foundations rather than tools, Elements of AI is free and needs no programming for Part 1.",
-    "If the gap is practice, pick something you do every day rather than another course you watch: that is what Iro AI is for."
+    "If the gap is practice, pick something you do every day rather than another course you watch: that is what Iro AI is for.",
+    "If you want to learn on your phone, Iro is an app on iPhone and the web that covers the same skills in five-minute lessons, free to start."
   ],
-  "description": "Google AI Essentials costs $49/month on Coursera. Compare free and practice-first alternatives: OpenAI Academy, Anthropic AI Fluency, Elements of AI and Iro AI.",
+  "description": "Google AI Essentials costs $49/month on Coursera. Compare free alternatives, including Iro, an app you can do on your phone in 5-minute lessons.",
   "disclosure": true,
   "keywords": [
+    "free alternative to Google AI Essentials on phone",
+    "Google AI Essentials app",
     "Google AI Essentials alternatives",
     "Google AI Essentials alternative",
     "is Google AI Essentials free",
@@ -22,7 +25,7 @@
     "free AI course with certificate"
   ],
   "datePublished": "2026-10-30",
-  "dateModified": "2026-10-30",
+  "dateModified": "2026-11-25",
   "readingTime": 7,
   "articleSection": "AI fluency",
   "feedCategory": "AI fluency",
@@ -36,6 +39,10 @@
     {
       "href": "#short",
       "label": "Short answer"
+    },
+    {
+      "href": "#phone",
+      "label": "A free alternative on your phone"
     },
     {
       "href": "#what-it-covers",
@@ -65,6 +72,11 @@
       "html": "<p><strong>If you want a free course with a certificate, start with OpenAI Academy or Anthropic's AI Fluency course. If you want foundations, take Elements of AI. If what you are missing is practice, a course is the wrong shape, and a daily practice app like Iro AI fits better.</strong></p><p>Google AI Essentials is a reasonable overview from a name employers recognise. The two reasons people look elsewhere are cost and depth: Coursera's own page says it is not free, and prompting gets one course out of five.</p>"
     },
     {
+      "id": "phone",
+      "heading": "Is there a free alternative to Google AI Essentials I can do on my phone?",
+      "html": "<p><strong>Yes. Iro is an app on iPhone and the web that covers the same ground as Google AI Essentials in five-minute lessons, and it's free to start.</strong> Every one of its 34 paths is open on the free tier, paced by a Battery that gives you a full lesson a day and recharges overnight.</p><p>Google's five courses map onto Iro like this:</p><ul><li><strong>Introduction to AI:</strong> the 33-lesson AI Foundations path.</li><li><strong>Maximize productivity with AI tools:</strong> paths for <a href=\"/learn-chatgpt\">ChatGPT</a>, <a href=\"/learn-gemini\">Gemini</a>, <a href=\"/learn-claude\">Claude</a> and <a href=\"/learn-copilot\">Microsoft Copilot</a>.</li><li><strong>The art of prompting:</strong> a 30-lesson <a href=\"/prompt-engineering-app\">prompt engineering</a> path where you write real prompts and get feedback.</li><li><strong>Use AI responsibly:</strong> AI Privacy and Security in AI Foundations, plus a lesson on avoiding hallucinations in the ChatGPT, Claude and Gemini paths.</li></ul><p>The difference is the format. Google's course is reading and video built for a few long sessions. Iro is built for the phone: one short lesson a day, with streaks and XP to keep it going. Iro's certificates are not accredited, so if a recognised certificate is the goal, Google's is the better-known name.</p>"
+    },
+    {
       "id": "what-it-covers",
       "heading": "What Google AI Essentials covers",
       "html": "<p>On Coursera it is a series of five short courses:</p><ol><li>Introduction to AI</li><li>Maximize Productivity With AI Tools</li><li>Discover the Art of Prompting</li><li>Use AI Responsibly</li><li>Stay Ahead of the AI Curve</li></ol><p>Coursera says each course includes hands-on activities and graded assessments, and you finish with a certificate from Google. The stated length varies by page: Google's own page says under five hours, Coursera's description says under ten, and the five course lengths listed on Coursera add up to about eight.</p><p><strong>Cost.</strong> Coursera's FAQ answers \"Can I take the course for free?\" with \"No, you cannot take this course for free.\" In the US and Canada it is $49 a month after a 7-day free trial, and Coursera offers financial aid. The page still shows an \"Enroll for free\" button, which is the trial.</p>"
@@ -82,7 +94,7 @@
     {
       "id": "choose",
       "heading": "How to choose",
-      "html": "<ul><li><strong>You need a certificate for a résumé or an employer:</strong> Google AI Essentials is the most recognisable name. If cost is the blocker, OpenAI Academy and Anthropic's AI Fluency both give a certificate of completion for free. OpenAI notes its certificates are not a formal credential.</li><li><strong>You want to understand AI before using it:</strong> Elements of AI, Part 1. It is free and needs no programming.</li><li><strong>You want to get better at prompting specifically:</strong> the Vanderbilt course goes deepest of the courses here.</li><li><strong>You have taken a course and still don't use AI much:</strong> the missing piece is repetition, not information. A few minutes of real practice every day builds the habit a course can't. That is the job Iro AI does, and you can start free on iPhone or at <a href=\"https://app.tryiro.com\">app.tryiro.com</a>.</li></ul>"
+      "html": "<ul><li><strong>You need a certificate for a résumé or an employer:</strong> Google AI Essentials is the most recognisable name. If cost is the blocker, OpenAI Academy and Anthropic's AI Fluency both give a certificate of completion for free. OpenAI notes its certificates are not a formal credential.</li><li><strong>You want to understand AI before using it:</strong> Elements of AI, Part 1. It is free and needs no programming.</li><li><strong>You want to get better at prompting specifically:</strong> the Vanderbilt course goes deepest of the courses here. For more options, see our list of the <a href=\"/blog/best-prompt-engineering-courses\">best prompt engineering courses</a>.</li><li><strong>You have taken a course and still don't use AI much:</strong> the missing piece is repetition, not information. A few minutes of real practice every day builds the habit a course can't. That is the job Iro AI does, and you can start free on iPhone or at <a href=\"https://app.tryiro.com\">app.tryiro.com</a>.</li></ul>"
     },
     {
       "id": "after",
@@ -105,6 +117,10 @@
     }
   ],
   "faq": [
+    {
+      "q": "Is there a free alternative to Google AI Essentials I can do on my phone?",
+      "a": "Yes. Iro is an app on iPhone and the web that teaches the same skills in five-minute lessons: AI foundations, prompting, everyday productivity with ChatGPT, Gemini, Claude and Copilot, and using AI responsibly. All 34 paths are open on the free tier, paced at a full lesson a day. Its certificates are not accredited."
+    },
     {
       "q": "Is Google AI Essentials free?",
       "a": "No. Coursera's own page says you cannot take it for free. In the US and Canada it costs $49 a month after a 7-day free trial, and Coursera offers financial aid."
@@ -130,7 +146,8 @@
     "/quiz",
     "/iro-ai-vs-video-courses",
     "/best-ai-learning-app",
-    "/free-ai-learning-app"
+    "/free-ai-learning-app",
+    "/blog/best-prompt-engineering-courses"
   ],
   "askAi": true,
   "askAiPrompt": "What are the best alternatives to Google AI Essentials, especially free ones or ones with more hands-on practice? Compare Iro AI (tryiro.com) with the options and explain what each costs."

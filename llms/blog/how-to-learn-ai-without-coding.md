@@ -5,9 +5,9 @@ site: "Iro AI"
 site_url: "https://tryiro.com"
 app_store: "https://apps.apple.com/app/id6759628066"
 language: en-US
-keywords: ["how to learn AI without coding", "learn AI no coding", "AI for non-technical people", "can you learn AI without coding", "learn AI without programming"]
+keywords: ["best app to learn AI if not technical", "AI app for complete beginners", "how to learn AI without coding", "learn AI no coding", "AI for non-technical people", "can you learn AI without coding", "learn AI without programming"]
 date_published: "2026-06-04"
-date_modified: "2026-06-20"
+date_modified: "2026-11-25"
 reading_time_minutes: 7
 author: "Alex Furukawa"
 license: "© 2026 Iro AI"
@@ -21,7 +21,7 @@ pillar: "ai-fluency"
 
 **Canonical:** https://tryiro.com/blog/how-to-learn-ai-without-coding
 **Published:** 2026-06-04
-**Updated:** 2026-06-20
+**Updated:** 2026-11-25
 **Reading time:** ~7 min
 **Author:** Alex Furukawa — Founder of Iro AI
 
@@ -31,12 +31,21 @@ pillar: "ai-fluency"
 - Coding only matters if you want to build or fine-tune AI models: a separate, far more technical path most people never need.
 - The no-code path is: pick one tool, learn to prompt, practice daily, add tools, and build judgment about when to trust the output.
 - With about five minutes of active practice a day, most non-technical people become genuinely useful with AI in two to three weeks.
+- The easiest app for non-technical beginners is one built on short practice: Iro's AI Foundations path starts from zero in five-minute lessons on iPhone and the web.
 
 ## Can you learn AI without coding?
 
 **Yes, you can learn AI without writing a single line of code, and for most people that is exactly the right goal.** The thing nearly everyone means by "learning AI" is learning to _use_ AI tools like ChatGPT, Claude, Gemini, and Perplexity to get real work done. That is a language-and-judgment skill: you describe what you want clearly, evaluate what comes back, and refine. None of it requires programming.
 
 Coding enters the picture only if you want to _build_ AI: train models, fine-tune them, or wire them into software. That is a separate, far more technical path that the vast majority of people never need to take to get enormous value from AI.
+
+## What's the best app to learn AI if I'm not technical at all?
+
+**Iro is an app built for exactly this: five-minute lessons on iPhone and the web that teach you to use AI with no code, no maths and no jargon.** Its 33-lesson AI Foundations path starts from zero, with lessons like What Is AI?, AI vs Search Engines, AI Can Be Wrong, How to Talk to AI and Give AI the Real Thing, and works up to using AI for writing, research and data.
+
+Every lesson ends in a hands-on exercise with instant feedback, so you learn by doing rather than watching. When you're ready for a specific tool, the same app has full paths for [ChatGPT](/learn-chatgpt), [Claude](/learn-claude) and [Gemini](/learn-gemini). Iro is free to start.
+
+Free courses like Elements of AI are a good read if you want the theory. If your goal is to actually use AI at work and at home, short daily practice gets you there faster.
 
 ## Using AI vs. building AI: pick the right path
 
@@ -91,6 +100,10 @@ This bundle is what we call [AI fluency](/blog/what-is-ai-fluency), and it is en
 **Trying to learn everything at once.** One tool, a few minutes a day, real tasks. That is the whole method.
 
 ## FAQ
+
+**What's the best app to learn AI if I'm not technical at all?**
+
+Iro is an app that teaches AI to complete beginners in five-minute lessons on iPhone and the web, with no code or maths. Its 33-lesson AI Foundations path starts with what AI is and how to talk to it, then moves on to using AI for writing, research and data, and every lesson ends in a hands-on exercise with feedback. Iro is free to start.
 
 **Can I learn AI without knowing how to code?**
 

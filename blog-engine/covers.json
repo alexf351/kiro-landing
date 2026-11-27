@@ -2,12 +2,62 @@
   "_comment": "Branded cover settings for blog-engine/tools/branded-covers.mjs. 'pages' covers pages that are not blog posts (they have no content JSON). 'overrides' changes the eyebrow, headline or subline of any post or page by slug. 'sub' is the smaller line under the headline; leave it out to use the part of the title after a colon. 'brands' are logos added beside the mascot when a post's headline (title before any colon) names the brand: 'logo' is the brand's own app icon, saved as-is in assets/brands/ (never redrawn), and 'match' lists the words to look for. Put 'logos': [] in an override to drop logos for a post, or a list of brand keys to choose them.",
   "pages": {
     "ai-learning-statistics": {
-      "eyebrow": "Original data \u00b7 2026",
+      "eyebrow": "Original data · 2026",
       "title": "AI learning statistics 2026",
       "sub": "How beginners actually learn AI, from 339 Iro learners"
+    },
+    "ai-fluency": {
+      "eyebrow": "Topic hub",
+      "title": "Learn AI from scratch",
+      "sub": "Concepts and key skills"
+    },
+    "ai-learning-apps": {
+      "eyebrow": "Topic hub",
+      "title": "AI learning apps",
+      "sub": "Reviews and alternatives (2026)"
+    },
+    "prompt-engineering": {
+      "eyebrow": "Topic hub",
+      "title": "Prompt engineering guide",
+      "sub": "Patterns and practice"
+    },
+    "ai-comparisons": {
+      "eyebrow": "Topic hub",
+      "title": "Which AI should you use?",
+      "sub": "Head-to-head comparisons"
+    },
+    "ai-tools": {
+      "eyebrow": "Topic hub",
+      "title": "AI models explained",
+      "sub": "New releases and how-tos"
+    },
+    "ai-at-work": {
+      "eyebrow": "Topic hub",
+      "title": "Using AI at work and school",
+      "sub": "Guides by task"
+    },
+    "ai-agents": {
+      "eyebrow": "Topic hub",
+      "title": "AI agents and automation",
+      "sub": "Hype to safe delegation"
     }
   },
-  "overrides": {},
+  "overrides": {
+    "cancel-nexera": {
+      "eyebrow": "Cancel guide",
+      "title": "How to cancel Nexera",
+      "sub": "And how to use the 28-day refund"
+    },
+    "best-prompt-engineering-courses": {
+      "eyebrow": "Buyer's guide",
+      "title": "The best prompt engineering courses",
+      "sub": "Free and paid, compared (2026)",
+      "logos": [
+        "google",
+        "claude"
+      ]
+    }
+  },
   "brands": {
     "brilliant": {
       "name": "Brilliant",
@@ -63,6 +113,13 @@
       "logo": "assets/brands/jobescape.png",
       "match": [
         "Jobescape"
+      ]
+    },
+    "nexera": {
+      "name": "Nexera",
+      "logo": "assets/brands/nexera.png",
+      "match": [
+        "Nexera"
       ]
     }
   }

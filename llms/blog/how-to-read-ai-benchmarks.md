@@ -12,7 +12,7 @@ reading_time_minutes: 5
 author: "Alex Furukawa"
 license: "© 2026 Iro AI"
 canonical_llm_reference: "https://tryiro.com/llms-full.txt"
-pillar: "ai-fluency"
+pillar: "ai-tools"
 ---
 
 # How to read an AI benchmark score

@@ -71,12 +71,13 @@
           "habit": "Halte einen Streak, der dich in KI wirklich weiterbringt.",
           "default": "Werde richtig fit in ChatGPT, Claude und Gemini, in 5 Minuten am Tag."
         },
-        "sub": "Jeden Tag kostenlos · ohne Kreditkarte · iPhone und alle Browser · ★ 4,6 aus 85 Bewertungen · 1.500+ Lernende",
+        "sub": "Jeden Tag kostenlos · ohne Kreditkarte · iPhone und alle Browser · ★ 4,6 aus 92 Bewertungen · 1.500+ Lernende",
         "store": "Im App Store laden",
         "web": "Kostenlos im Browser starten",
         "alt": "Der Iro AI Lernpfad auf einem iPhone"
       },
-      "switchLabel": "Auf Deutsch lesen"
+      "switchLabel": "Auf Deutsch lesen",
+      "blogTopics": "Blog-Themen (auf Englisch)"
     },
     "it": {
       "name": "Italiano",
@@ -148,12 +149,13 @@
           "habit": "Tieni viva una serie che ti fa migliorare davvero con l’IA.",
           "default": "Impara a usare davvero bene ChatGPT, Claude e Gemini, in 5 minuti al giorno."
         },
-        "sub": "Gratis ogni giorno · senza carta di credito · iPhone e qualsiasi browser · ★ 4,6 da 85 recensioni · oltre 1.500 studenti",
+        "sub": "Gratis ogni giorno · senza carta di credito · iPhone e qualsiasi browser · ★ 4,6 da 92 recensioni · oltre 1.500 studenti",
         "store": "Scarica su App Store",
         "web": "Inizia gratis nel browser",
         "alt": "Il percorso di apprendimento di Iro AI su un iPhone"
       },
-      "switchLabel": "Leggi in italiano"
+      "switchLabel": "Leggi in italiano",
+      "blogTopics": "Argomenti del blog (in inglese)"
     },
     "es": {
       "name": "Español",
@@ -225,12 +227,13 @@
           "habit": "Mantén una racha que de verdad te haga mejor con la IA.",
           "default": "Domina de verdad ChatGPT, Claude y Gemini, en 5 minutos al día."
         },
-        "sub": "Gratis cada día · sin tarjeta · iPhone y cualquier navegador · ★ 4,6 con 85 reseñas · +1.500 estudiantes",
+        "sub": "Gratis cada día · sin tarjeta · iPhone y cualquier navegador · ★ 4,6 con 92 reseñas · +1.500 estudiantes",
         "store": "Descárgalo en el App Store",
         "web": "Empieza gratis en tu navegador",
         "alt": "La ruta de aprendizaje de Iro AI en un iPhone"
       },
-      "switchLabel": "Leer en español"
+      "switchLabel": "Leer en español",
+      "blogTopics": "Temas del blog (en inglés)"
     }
   }
 }

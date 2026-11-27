@@ -107,7 +107,7 @@ Full Notion AI comes with Notion's Business and Enterprise plans. The Free and P
 - [Learn Gamma](https://tryiro.com/learn-gamma): Generate a deck in a minute, then do the ten minutes that make it good.
 - [AI for Excel & Sheets](https://tryiro.com/ai-for-excel): Write formulas, clean data, and build models with AI as your spreadsheet copilot.
 - [Learn Midjourney](https://tryiro.com/learn-midjourney): Write prompts that give you the image you pictured, not a muddy guess.
-- [Learn Microsoft Copilot](https://tryiro.com/learn-copilot): Get real work out of Copilot in Word, Excel, Outlook, and Teams.
+- [Learn Microsoft Copilot](https://tryiro.com/learn-copilot): 16 short lessons on Copilot in Outlook, Teams, Word, Excel and PowerPoint.
 
 
 ## Read next

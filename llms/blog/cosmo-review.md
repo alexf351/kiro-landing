@@ -7,12 +7,12 @@ app_store: "https://apps.apple.com/app/id6759628066"
 language: en-US
 keywords: ["Cosmo review", "Cosmo app review", "CodeSignal Cosmo", "Cosmo learn GenAI", "is Cosmo worth it", "Cosmo+ price", "Cosmo app price", "cancel Cosmo subscription"]
 date_published: "2026-11-04"
-date_modified: "2026-11-04"
+date_modified: "2026-11-21"
 reading_time_minutes: 7
 author: "Alex Furukawa"
 license: "© 2026 Iro AI"
 canonical_llm_reference: "https://tryiro.com/llms-full.txt"
-pillar: "ai-fluency"
+pillar: "ai-learning-apps"
 ---
 
 # Cosmo review: CodeSignal's AI tutor app, what it costs, and who it suits
@@ -21,6 +21,7 @@ pillar: "ai-fluency"
 
 **Canonical:** https://tryiro.com/blog/cosmo-review
 **Published:** 2026-11-04
+**Updated:** 2026-11-21
 **Reading time:** ~7 min
 **Author:** Alex Furukawa — Founder of Iro AI
 
@@ -99,7 +100,7 @@ Apple renews a subscription unless you cancel at least 24 hours before the perio
 - **Good fit:** you want a light daily learning habit across several work skills, you like a tutor you can ask questions, and you are curious about coding or data as well as AI. If your employer already pays for CodeSignal's learning platform, you may have Cosmo included.
 - **Less of a fit:** you want to get properly good at using AI tools at work. Cosmo covers that, but as roughly a third of a broad catalogue, and its paid tier costs more than most AI-focused apps.
 
-Before you pay, use the free courses for a week. If the energy limit is the only thing in your way, Cosmo+ is a simple purchase to undo. Our guide to [spotting an AI subscription trap](/blog/ai-subscription-traps) covers the checks worth making with any learning app.
+Weighing other apps? See our [Cosmo alternatives](/blog/cosmo-alternatives), or the head-to-head [Iro AI vs Cosmo](/blog/iro-ai-vs-cosmo). Before you pay, use the free courses for a week. If the energy limit is the only thing in your way, Cosmo+ is a simple purchase to undo. Our guide to [spotting an AI subscription trap](/blog/ai-subscription-traps) covers the checks worth making with any learning app.
 
 ## The alternative we make
 
@@ -137,10 +138,10 @@ It covers GenAI, including prompting and using ChatGPT at work, but AI is roughl
 
 ## Read next
 
+- [Cosmo alternatives](https://tryiro.com/blog/cosmo-alternatives)
+- [Iro AI vs Cosmo](https://tryiro.com/blog/iro-ai-vs-cosmo)
 - [Apps like Duolingo for learning AI](https://tryiro.com/blog/apps-like-duolingo-for-ai)
 - [Are AI certifications worth it?](https://tryiro.com/blog/are-ai-certifications-worth-it)
-- [How to spot an AI subscription trap](https://tryiro.com/blog/ai-subscription-traps)
-- [Iro AI vs Sololearn](https://tryiro.com/blog/iro-ai-vs-sololearn)
 
 ## About the author
 

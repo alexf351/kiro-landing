@@ -1,12 +1,12 @@
 ---
-title: "AI agents course"
+title: "Learn to Build AI Agents Without Coding"
 canonical_url: "https://tryiro.com/ai-agents-course"
 site: "Iro AI"
 site_url: "https://tryiro.com"
 app_store: "https://apps.apple.com/app/id6759628066"
 language: en-US
 keywords: ["AI agents", "automation"]
-last_updated: "2026-05-24"
+last_updated: "2026-11-25"
 author: "Iro AI"
 license: "© 2026 Iro AI"
 canonical_llm_reference: "https://tryiro.com/llms-full.txt"
@@ -18,7 +18,15 @@ canonical_llm_reference: "https://tryiro.com/llms-full.txt"
 
 **Canonical page:** https://tryiro.com/ai-agents-course
 **App Store:** https://apps.apple.com/app/id6759628066
-**Last updated:** 2026-05-24
+**Last updated:** 2026-11-25
+
+## How can I learn to build AI agents without knowing how to code?
+
+**Learn the building blocks first, then build in a no-code tool.** An agent is a goal, a set of tools it may use, some memory, and checks on what it does. None of that needs code. Visual builders such as Make, Zapier or n8n then let you wire an agent together.
+
+Iro covers the first step: its AI Agents path is 30 five-minute lessons on iPhone and the web, each ending in a hands-on exercise. Lessons include: What Is an AI Agent?, Tools Agents Use, Memory and Context in Agents, Agents vs Prompts vs Automation, Task Decomposition, How Agents Fail, Human-in-the-Loop Design, Personal Agent Tools Landscape, Building Your First Agent Workflow.
+
+Start with one small, repetitive task with a clear finish line. Iro is free to start.
 
 ## What AI agents actually are
 
@@ -37,6 +45,12 @@ Iro teaches agent concepts through short lessons and exercises so learners can u
 Iro is not only for developers. The agent and automation paths are designed for people who want to understand modern AI workflows, manage AI-powered tools, or collaborate better with technical teams. Coding knowledge helps, but it is not required to start building the mental model.
 
 ## FAQ
+
+**How can I learn to build AI agents without knowing how to code?**  
+Learn the building blocks first: what an agent is, the tools it can use, memory, how to break a task into steps, and where a human should check its work. Then build one in a no-code tool such as Make, Zapier or n8n. Iro's AI Agents path teaches those building blocks in 30 five-minute lessons on iPhone and the web, ending with building your first agent workflow.
+
+**Do I need to code to build an AI agent?**  
+No. No-code builders like Make, Zapier and n8n let you set an agent's job in plain language and connect it to your apps visually. What you do need is a clear goal, the right tools, and a check before the agent acts on anything important.
 
 **Is this a developer course?**  
 No. Iro explains AI agents and automation in practical language for both technical and non-technical learners.

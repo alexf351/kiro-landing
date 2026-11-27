@@ -1,0 +1,118 @@
+{
+  "order": 168,
+  "pillar": "ai-learning-apps",
+  "disclosure": true,
+  "datePublished": "2026-11-25",
+  "dateModified": "2026-11-25",
+  "updatedNote": "Last updated November 2026",
+  "articleSection": "AI learning apps",
+  "feedCategory": "AI learning apps",
+  "inlineCtaAfter": 3,
+  "slug": "turn-youtube-video-or-pdf-into-a-course",
+  "title": "Is there an app that turns a YouTube video or PDF into a short course?",
+  "metaTitle": "An app that turns a YouTube video or PDF into a course",
+  "lede": "Yes. Iro's Custom Paths turn a YouTube link, a PDF or any web page into a short course of three to seven lessons. Here's what it reads, how long the courses are, and what it costs.",
+  "keyTakeaways": [
+    "Iro's Custom Paths turn a YouTube link, a PDF up to 10MB, a web page, a TikTok or Reddit link, or up to 4 screenshots into a short course.",
+    "You pick the depth (3, 5 or 7 lessons) and your starting level.",
+    "For YouTube it reads the video's captions, so the course is built on what was actually said.",
+    "Custom Paths are part of Iro Pro and unlimited; Instagram links are not supported, so use a screenshot instead."
+  ],
+  "description": "Yes: Iro's Custom Paths turn a YouTube video, PDF or web page into a short course of 3 to 7 lessons, on iPhone and the web. What it reads and what it costs.",
+  "keywords": [
+    "app that turns YouTube video into a course",
+    "turn PDF into a course",
+    "YouTube to course app",
+    "PDF to lessons app",
+    "AI course generator from video"
+  ],
+  "readingTime": 4,
+  "feedTags": [
+    "AI learning apps",
+    "Custom Paths",
+    "study"
+  ],
+  "toc": [
+    {
+      "href": "#short",
+      "label": "The short answer"
+    },
+    {
+      "href": "#inputs",
+      "label": "What you can turn into a course"
+    },
+    {
+      "href": "#how",
+      "label": "How it works"
+    },
+    {
+      "href": "#tips",
+      "label": "Getting a good course"
+    },
+    {
+      "href": "#cost",
+      "label": "What it costs"
+    }
+  ],
+  "sections": [
+    {
+      "id": "short",
+      "heading": "The short answer",
+      "html": "<p><strong>Yes. Iro's Custom Paths turn a YouTube video or a PDF into a short course you can study in the app, on iPhone and the web.</strong> Paste the link or upload the file, pick how deep you want to go (3, 5 or 7 lessons) and your starting level, and Iro builds the path.</p><p>For a YouTube video it reads the caption track, so the course is grounded in what the speaker actually said, not just the title.</p>"
+    },
+    {
+      "id": "inputs",
+      "heading": "What you can turn into a course",
+      "html": "<ul><li><strong>A YouTube link:</strong> built from the video's captions.</li><li><strong>A PDF:</strong> up to 10MB, like lecture notes, a report or a manual.</li><li><strong>Any web page:</strong> an article, a guide or documentation.</li><li><strong>A TikTok link:</strong> Iro transcribes the audio.</li><li><strong>A Reddit link:</strong> it reads the post and the top comments.</li><li><strong>Screenshots:</strong> up to 4 at a time.</li><li><strong>A topic you type:</strong> when you don't have a source at all.</li></ul><p>Instagram links can't be read. Share the post as a screenshot instead. Sources are used for that request only and are never stored.</p>"
+    },
+    {
+      "id": "how",
+      "heading": "How it works",
+      "html": "<ol><li>In the Iro app or on the web, start a new Custom Path.</li><li>Paste a link, upload a PDF, add screenshots or type a topic.</li><li>Choose the depth: quick (3 lessons), standard (5) or deep (7).</li><li>Choose your starting level, from new to this through advanced.</li><li>Study the lessons one at a time, about five minutes each.</li></ol>"
+    },
+    {
+      "id": "tips",
+      "heading": "Getting a good course",
+      "html": "<p>The course can only be as good as the source. A long video with clear captions or a well-structured PDF gives the best result. For a short clip, pick the quick depth; for a long lecture or a dense report, go deep.</p><p>If you want to learn AI itself rather than a topic of your own, you don't need a Custom Path: Iro's 34 built-in paths cover tools like <a href=\"/learn-chatgpt\">ChatGPT</a>, <a href=\"/learn-claude\">Claude</a> and <a href=\"/learn-gemini\">Gemini</a>, and they're free to start.</p>"
+    },
+    {
+      "id": "cost",
+      "heading": "What it costs",
+      "html": "<p>Custom Paths are part of Iro Pro, which is $49.99 a year or $9.99 a month, with a 7-day trial, and Pro makes them unlimited. The 34 built-in AI paths are open without Pro, paced at a full lesson a day.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Is there an app that turns a YouTube video or PDF into a short course I can study?",
+      "a": "Yes. Iro's Custom Paths, on iPhone and the web, turn a YouTube link, a PDF up to 10MB, a web page, a TikTok or Reddit link, or up to 4 screenshots into a short course of 3, 5 or 7 lessons at the level you choose. For YouTube it reads the captions. Custom Paths are part of Iro Pro and unlimited."
+    },
+    {
+      "q": "Can Iro turn an Instagram post into a course?",
+      "a": "Not from a link: Instagram links can't be read. Share the post as a screenshot instead, and Iro builds the course from the image."
+    },
+    {
+      "q": "Does Iro keep my PDF or video?",
+      "a": "No. Sources are used for that request only and are never stored."
+    }
+  ],
+  "readNext": [
+    {
+      "href": "/blog/how-to-learn-ai-without-coding",
+      "label": "How to learn AI without coding"
+    },
+    {
+      "href": "/learn-ai-in-5-minutes-a-day",
+      "label": "Learn AI in 5 minutes a day"
+    },
+    {
+      "href": "/blog/ai-learning-apps",
+      "label": "AI learning apps compared"
+    }
+  ],
+  "related": [
+    "/learn-ai-in-5-minutes-a-day",
+    "/blog/ai-learning-apps",
+    "/learn-chatgpt",
+    "/blog/how-to-learn-ai-without-coding"
+  ]
+}

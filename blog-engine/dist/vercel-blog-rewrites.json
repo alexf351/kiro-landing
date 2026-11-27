@@ -9,16 +9,28 @@
       "destination": "/blog/ai-fluency.html"
     },
     {
+      "source": "/blog/ai-learning-apps",
+      "destination": "/blog/ai-learning-apps.html"
+    },
+    {
       "source": "/blog/prompt-engineering",
       "destination": "/blog/prompt-engineering.html"
     },
     {
-      "source": "/blog/ai-agents",
-      "destination": "/blog/ai-agents.html"
+      "source": "/blog/ai-comparisons",
+      "destination": "/blog/ai-comparisons.html"
     },
     {
       "source": "/blog/ai-tools",
       "destination": "/blog/ai-tools.html"
+    },
+    {
+      "source": "/blog/ai-at-work",
+      "destination": "/blog/ai-at-work.html"
+    },
+    {
+      "source": "/blog/ai-agents",
+      "destination": "/blog/ai-agents.html"
     },
     {
       "source": "/blog/how-to-learn-chatgpt-in-2026",
@@ -587,6 +599,70 @@
     {
       "source": "/blog/brilliant-alternatives",
       "destination": "/blog/brilliant-alternatives.html"
+    },
+    {
+      "source": "/blog/nexera-review",
+      "destination": "/blog/nexera-review.html"
+    },
+    {
+      "source": "/blog/cancel-nexera",
+      "destination": "/blog/cancel-nexera.html"
+    },
+    {
+      "source": "/blog/nexera-alternatives",
+      "destination": "/blog/nexera-alternatives.html"
+    },
+    {
+      "source": "/blog/cancel-jobescape",
+      "destination": "/blog/cancel-jobescape.html"
+    },
+    {
+      "source": "/blog/cosmo-alternatives",
+      "destination": "/blog/cosmo-alternatives.html"
+    },
+    {
+      "source": "/blog/iro-ai-vs-cosmo",
+      "destination": "/blog/iro-ai-vs-cosmo.html"
+    },
+    {
+      "source": "/blog/jobescape-alternatives",
+      "destination": "/blog/jobescape-alternatives.html"
+    },
+    {
+      "source": "/blog/datacamp-alternatives",
+      "destination": "/blog/datacamp-alternatives.html"
+    },
+    {
+      "source": "/blog/iro-ai-vs-jobescape",
+      "destination": "/blog/iro-ai-vs-jobescape.html"
+    },
+    {
+      "source": "/blog/finestro-review",
+      "destination": "/blog/finestro-review.html"
+    },
+    {
+      "source": "/blog/iro-ai-vs-datacamp",
+      "destination": "/blog/iro-ai-vs-datacamp.html"
+    },
+    {
+      "source": "/blog/iro-ai-vs-finestro",
+      "destination": "/blog/iro-ai-vs-finestro.html"
+    },
+    {
+      "source": "/blog/best-prompt-engineering-courses",
+      "destination": "/blog/best-prompt-engineering-courses.html"
+    },
+    {
+      "source": "/blog/how-to-teach-your-parents-chatgpt",
+      "destination": "/blog/how-to-teach-your-parents-chatgpt.html"
+    },
+    {
+      "source": "/blog/app-that-teaches-ai-as-podcasts",
+      "destination": "/blog/app-that-teaches-ai-as-podcasts.html"
+    },
+    {
+      "source": "/blog/turn-youtube-video-or-pdf-into-a-course",
+      "destination": "/blog/turn-youtube-video-or-pdf-into-a-course.html"
     },
     {
       "source": "/de/blog/apps-like-duolingo-for-ai",

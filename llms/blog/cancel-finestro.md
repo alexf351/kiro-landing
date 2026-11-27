@@ -7,12 +7,12 @@ app_store: "https://apps.apple.com/app/id6759628066"
 language: en-US
 keywords: ["cancel Finestro", "Finestro cancel subscription", "Finestro refund", "how to cancel Finestro AI Tools Mastery", "Finestro charged me", "Finestro unsubscribe", "Finestro cancel subscription phone number", "Finestro app cancel subscription", "Finestro cost", "Finestro support email", "FINDMY LLC charge", "VELRIO LIMITED"]
 date_published: "2026-08-03"
-date_modified: "2026-11-04"
+date_modified: "2026-11-21"
 reading_time_minutes: 6
 author: "Alex Furukawa"
 license: "© 2026 Iro AI"
 canonical_llm_reference: "https://tryiro.com/llms-full.txt"
-pillar: "ai-fluency"
+pillar: "ai-learning-apps"
 ---
 
 # How to cancel Finestro and request a refund
@@ -21,7 +21,7 @@ pillar: "ai-fluency"
 
 **Canonical:** https://tryiro.com/blog/cancel-finestro
 **Published:** 2026-08-03
-**Updated:** 2026-11-04
+**Updated:** 2026-11-21
 **Reading time:** ~6 min
 **Author:** Alex Furukawa — Founder of Iro AI
 
@@ -153,10 +153,10 @@ No. It is a real app with real content. The complaints are about subscription me
 
 ## Read next
 
-- [How to spot an AI subscription trap](https://tryiro.com/blog/ai-subscription-traps)
-- [How to cancel Coursiv and get your money back](https://tryiro.com/blog/cancel-coursiv)
+- [Finestro review: is Finestro legit?](https://tryiro.com/blog/finestro-review)
+- [Iro vs Finestro](https://tryiro.com/blog/iro-ai-vs-finestro)
 - [The best Finestro alternatives](https://tryiro.com/blog/finestro-alternatives)
-- [The best free app to learn AI](https://tryiro.com/free-ai-learning-app)
+- [How to spot an AI subscription trap](https://tryiro.com/blog/ai-subscription-traps)
 
 ## About the author
 
