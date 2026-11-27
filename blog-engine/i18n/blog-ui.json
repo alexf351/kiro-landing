@@ -1,0 +1,239 @@
+{
+  "_about": "Page chrome for translated blog posts (blog-engine/content/posts-i18n/<lang>/<slug>.json). build.mjs renders each translation at /<lang>/blog/<slug> with these strings around the translated body, and adds hreflang (both directions, x-default = English) plus sitemap entries. Register and wording follow blog-engine/i18n/home.json: du (de), tu (it), tú (es); KI in de, IA in it and es; prices as 49,99 US-$ / 49,99 USD / 49,99 US$. The rating line keeps 4.6 with 85 reviews (never pair 85 with 4.7).",
+  "locales": {
+    "de": {
+      "name": "Deutsch",
+      "htmlLang": "de",
+      "hreflang": "de",
+      "inLanguage": "de",
+      "ogLocale": "de_DE",
+      "home": "/de",
+      "homeLabel": "Iro AI Startseite",
+      "nav": [
+        {
+          "href": "/de",
+          "label": "Startseite"
+        },
+        {
+          "href": "/quiz",
+          "label": "KI-Rang-Quiz"
+        },
+        {
+          "href": "/paths",
+          "label": "Lernpfade"
+        },
+        {
+          "href": "/about",
+          "label": "Über uns"
+        }
+      ],
+      "footer": {
+        "/privacy": "Datenschutz",
+        "/terms": "Nutzungsbedingungen",
+        "#cookie-settings": "Cookie-Einstellungen",
+        "/editorial-policy": "Redaktionelle Richtlinien",
+        "/for-educators": "Für Lehrkräfte",
+        "/blog": "Blog",
+        "/paths": "Lernpfade"
+      },
+      "tagline": "Meistere KI. Bleib vorn.",
+      "eyebrow": "Iro AI Blog",
+      "crumbHome": "Iro AI",
+      "crumbBlog": "Blog",
+      "cta": {
+        "heading": "Üb es, statt nur darüber zu lesen.",
+        "body": "Iro AI macht aus Ideen wie denen in diesem Beitrag 5-Minuten-Übungen mit Feedback. Kostenlos nutzbar, Pro ab 4,17 US-$ im Monat (49,99 US-$ pro Jahr, mit 7-tägiger Gratis-Testphase).",
+        "primaryLabel": "Iro AI laden",
+        "secondaryLabel": "Mach das KI-Rang-Quiz"
+      },
+      "inThisPost": "In diesem Beitrag",
+      "keyTakeaways": "Das Wichtigste in Kürze",
+      "whoIroIsFor": "Für wen Iro ist",
+      "fitFor": "Für",
+      "fitFixes": "Was es löst",
+      "fitNotFit": "Nicht das Richtige, wenn",
+      "disclosure": "<strong>Hinweis der Redaktion:</strong> Iro AI ist unsere App. Wo sie unten vorkommt, sagen wir das, und sie muss sich ihren Platz nach denselben Kriterien verdienen wie alles andere.",
+      "readNext": "Weiterlesen",
+      "faq": "Häufige Fragen",
+      "aboutAuthor": "Über Alex Furukawa",
+      "by": "Von",
+      "published": "Veröffentlicht am",
+      "updated": "Aktualisiert am",
+      "minRead": "ca. {n} Min. Lesezeit",
+      "inEnglish": "(auf Englisch)",
+      "translatedNote": "Übersetzt aus dem Englischen. Das <a href=\"{href}\" hreflang=\"en\" lang=\"en\">Original</a> wurde zuletzt am {date} aktualisiert.",
+      "authorBio": "Alex Furukawa hat Iro AI gegründet, die spielerische App, mit der du lernst, KI gut zu nutzen. Alex arbeitet im Private-Equity-Immobilienbereich, leitet dort die KI-Initiative der Firma und baut die Automatisierung, mit der das Team an laufenden Deals arbeitet. Alex schreibt über praktische KI-Kompetenz: Prompting, KI-Tools und die täglichen Gewohnheiten, die aus KI keine Spielerei, sondern zurückgewonnene Stunden machen.",
+      "askAiHeading": "Glaub uns nicht einfach. Frag eine KI.",
+      "askAiSub": "Jeder Button öffnet den Assistenten mit der Frage schon ausgefüllt. Wir veröffentlichen <a href=\"/llms.txt\">llms.txt</a> und <a href=\"/ai-info\">eine Infoseite für KI-Assistenten</a> (beide auf Englisch), damit sie die Fakten richtig wiedergeben.",
+      "banner": {
+        "headlines": {
+          "switch": "Willst du trotzdem fit in KI werden? Starte kostenlos, ohne Probeabo-Falle.",
+          "habit": "Halte einen Streak, der dich in KI wirklich weiterbringt.",
+          "default": "Werde richtig fit in ChatGPT, Claude und Gemini, in 5 Minuten am Tag."
+        },
+        "sub": "Jeden Tag kostenlos · ohne Kreditkarte · iPhone und alle Browser · ★ 4,6 aus 92 Bewertungen · 1.500+ Lernende",
+        "store": "Im App Store laden",
+        "web": "Kostenlos im Browser starten",
+        "alt": "Der Iro AI Lernpfad auf einem iPhone"
+      },
+      "switchLabel": "Auf Deutsch lesen",
+      "blogTopics": "Blog-Themen (auf Englisch)"
+    },
+    "it": {
+      "name": "Italiano",
+      "htmlLang": "it",
+      "hreflang": "it",
+      "inLanguage": "it",
+      "ogLocale": "it_IT",
+      "home": "/it",
+      "homeLabel": "Home di Iro AI",
+      "nav": [
+        {
+          "href": "/it",
+          "label": "Home"
+        },
+        {
+          "href": "/quiz",
+          "label": "Test del grado IA"
+        },
+        {
+          "href": "/paths",
+          "label": "Percorsi"
+        },
+        {
+          "href": "/about",
+          "label": "Chi siamo"
+        }
+      ],
+      "footer": {
+        "/privacy": "Privacy",
+        "/terms": "Termini",
+        "#cookie-settings": "Impostazioni dei cookie",
+        "/editorial-policy": "Linee guida editoriali",
+        "/for-educators": "Per insegnanti",
+        "/blog": "Blog",
+        "/paths": "Percorsi di apprendimento"
+      },
+      "tagline": "Padroneggia l’IA. Resta avanti.",
+      "eyebrow": "Blog di Iro AI",
+      "crumbHome": "Iro AI",
+      "crumbBlog": "Blog",
+      "cta": {
+        "heading": "Mettilo in pratica, non limitarti a leggere.",
+        "body": "Iro AI trasforma idee come quelle di questo articolo in esercizi da 5 minuti con feedback. Piano gratuito, Pro da 4,17 USD al mese (49,99 USD all’anno, con prova gratuita di 7 giorni).",
+        "primaryLabel": "Scarica Iro AI",
+        "secondaryLabel": "Fai il test del grado IA"
+      },
+      "inThisPost": "In questo articolo",
+      "keyTakeaways": "In sintesi",
+      "whoIroIsFor": "Per chi è Iro",
+      "fitFor": "Per",
+      "fitFixes": "Cosa risolve",
+      "fitNotFit": "Non fa per te se",
+      "disclosure": "<strong>Nota della redazione:</strong> Iro AI è la nostra app. Dove compare qui sotto lo diciamo, e deve guadagnarsi il suo posto con gli stessi criteri di tutto il resto.",
+      "readNext": "Leggi anche",
+      "faq": "Domande frequenti",
+      "aboutAuthor": "Chi è Alex Furukawa",
+      "by": "Di",
+      "published": "Pubblicato il",
+      "updated": "Aggiornato il",
+      "minRead": "circa {n} min di lettura",
+      "inEnglish": "(in inglese)",
+      "translatedNote": "Tradotto dall’inglese. L’<a href=\"{href}\" hreflang=\"en\" lang=\"en\">originale</a> è stato aggiornato l’ultima volta il {date}.",
+      "authorBio": "Alex Furukawa ha fondato Iro AI, l’app gamificata per imparare a usare bene l’IA. Alex lavora nel private equity immobiliare, dove guida l’iniziativa di IA dell’azienda e costruisce l’automazione che il team usa sulle operazioni in corso. Alex scrive di competenze pratiche sull’IA: prompting, strumenti di IA e le abitudini quotidiane che trasformano l’IA da curiosità a ore di tempo recuperate.",
+      "askAiHeading": "Non fidarti solo di noi. Chiedi a un’IA.",
+      "askAiSub": "Ogni pulsante apre l’assistente con la domanda già scritta. Pubblichiamo <a href=\"/llms.txt\">llms.txt</a> e <a href=\"/ai-info\">una pagina di riferimento per gli assistenti IA</a> (entrambi in inglese), così riportano i fatti corretti.",
+      "banner": {
+        "headlines": {
+          "switch": "Vuoi comunque imparare a usare bene l’IA? Inizia gratis, senza la trappola della prova gratuita.",
+          "habit": "Tieni viva una serie che ti fa migliorare davvero con l’IA.",
+          "default": "Impara a usare davvero bene ChatGPT, Claude e Gemini, in 5 minuti al giorno."
+        },
+        "sub": "Gratis ogni giorno · senza carta di credito · iPhone e qualsiasi browser · ★ 4,6 da 92 recensioni · oltre 1.500 studenti",
+        "store": "Scarica su App Store",
+        "web": "Inizia gratis nel browser",
+        "alt": "Il percorso di apprendimento di Iro AI su un iPhone"
+      },
+      "switchLabel": "Leggi in italiano",
+      "blogTopics": "Argomenti del blog (in inglese)"
+    },
+    "es": {
+      "name": "Español",
+      "htmlLang": "es",
+      "hreflang": "es",
+      "inLanguage": "es",
+      "ogLocale": "es_ES",
+      "home": "/es",
+      "homeLabel": "Inicio de Iro AI",
+      "nav": [
+        {
+          "href": "/es",
+          "label": "Inicio"
+        },
+        {
+          "href": "/quiz",
+          "label": "Test de rango IA"
+        },
+        {
+          "href": "/paths",
+          "label": "Rutas"
+        },
+        {
+          "href": "/about",
+          "label": "Acerca de"
+        }
+      ],
+      "footer": {
+        "/privacy": "Privacidad",
+        "/terms": "Términos",
+        "#cookie-settings": "Configuración de cookies",
+        "/editorial-policy": "Política editorial",
+        "/for-educators": "Para docentes",
+        "/blog": "Blog",
+        "/paths": "Rutas de aprendizaje"
+      },
+      "tagline": "Domina la IA. Adelántate.",
+      "eyebrow": "Blog de Iro AI",
+      "crumbHome": "Iro AI",
+      "crumbBlog": "Blog",
+      "cta": {
+        "heading": "Practícalo, no te limites a leerlo.",
+        "body": "Iro AI convierte ideas como las de este artículo en ejercicios de 5 minutos con feedback. Plan gratuito, Pro desde 4,17 US$ al mes (49,99 US$ al año, con prueba gratis de 7 días).",
+        "primaryLabel": "Descarga Iro AI",
+        "secondaryLabel": "Haz el test de rango IA"
+      },
+      "inThisPost": "En este artículo",
+      "keyTakeaways": "Lo esencial",
+      "whoIroIsFor": "Para quién es Iro",
+      "fitFor": "Para",
+      "fitFixes": "Qué resuelve",
+      "fitNotFit": "No es para ti si",
+      "disclosure": "<strong>Nota editorial:</strong> Iro AI es nuestra app. Cuando aparece más abajo, lo indicamos, y tiene que ganarse su lugar con los mismos criterios que todo lo demás.",
+      "readNext": "Sigue leyendo",
+      "faq": "Preguntas frecuentes",
+      "aboutAuthor": "Sobre Alex Furukawa",
+      "by": "Por",
+      "published": "Publicado el",
+      "updated": "Actualizado el",
+      "minRead": "unos {n} min de lectura",
+      "inEnglish": "(en inglés)",
+      "translatedNote": "Traducido del inglés. El <a href=\"{href}\" hreflang=\"en\" lang=\"en\">original</a> se actualizó por última vez el {date}.",
+      "authorBio": "Alex Furukawa fundó Iro AI, la app gamificada para aprender a usar bien la IA. Alex trabaja en private equity inmobiliario, donde lidera la iniciativa de IA de la firma y construye la automatización que el equipo usa en operaciones en curso. Alex escribe sobre el dominio práctico de la IA: prompting, herramientas de IA y los hábitos diarios que convierten la IA de una simple novedad en horas que recuperas.",
+      "askAiHeading": "No te fíes solo de nosotros. Pregúntale a una IA.",
+      "askAiSub": "Cada botón abre el asistente con la pregunta ya escrita. Publicamos <a href=\"/llms.txt\">llms.txt</a> y <a href=\"/ai-info\">una página de referencia para asistentes de IA</a> (ambos en inglés) para que den los datos correctos.",
+      "banner": {
+        "headlines": {
+          "switch": "¿Sigues queriendo dominar la IA? Empieza gratis, sin la trampa de la prueba.",
+          "habit": "Mantén una racha que de verdad te haga mejor con la IA.",
+          "default": "Domina de verdad ChatGPT, Claude y Gemini, en 5 minutos al día."
+        },
+        "sub": "Gratis cada día · sin tarjeta · iPhone y cualquier navegador · ★ 4,6 con 92 reseñas · +1.500 estudiantes",
+        "store": "Descárgalo en el App Store",
+        "web": "Empieza gratis en tu navegador",
+        "alt": "La ruta de aprendizaje de Iro AI en un iPhone"
+      },
+      "switchLabel": "Leer en español",
+      "blogTopics": "Temas del blog (en inglés)"
+    }
+  }
+}

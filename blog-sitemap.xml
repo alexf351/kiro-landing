@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://tryiro.com/blog</loc>
     <lastmod>2026-11-25</lastmod>
@@ -533,6 +534,11 @@
   </url>
   <url>
     <loc>https://tryiro.com/blog/coursiv-alternatives</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tryiro.com/blog/coursiv-alternatives"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://tryiro.com/de/blog/coursiv-alternatives"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tryiro.com/es/blog/coursiv-alternatives"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://tryiro.com/it/blog/coursiv-alternatives"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tryiro.com/blog/coursiv-alternatives"/>
     <lastmod>2026-11-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
@@ -843,6 +849,11 @@
   </url>
   <url>
     <loc>https://tryiro.com/blog/cancel-finestro</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tryiro.com/blog/cancel-finestro"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://tryiro.com/de/blog/cancel-finestro"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tryiro.com/es/blog/cancel-finestro"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://tryiro.com/it/blog/cancel-finestro"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tryiro.com/blog/cancel-finestro"/>
     <lastmod>2026-11-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
@@ -1003,6 +1014,11 @@
   </url>
   <url>
     <loc>https://tryiro.com/blog/apps-like-duolingo-for-ai</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tryiro.com/blog/apps-like-duolingo-for-ai"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://tryiro.com/de/blog/apps-like-duolingo-for-ai"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tryiro.com/es/blog/apps-like-duolingo-for-ai"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://tryiro.com/it/blog/apps-like-duolingo-for-ai"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tryiro.com/blog/apps-like-duolingo-for-ai"/>
     <lastmod>2026-11-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
@@ -1659,6 +1675,141 @@
     <image:image>
       <image:loc>https://tryiro.com/assets/og/turn-youtube-video-or-pdf-into-a-course.png</image:loc>
       <image:title>Is there an app that turns a YouTube video or PDF into a short course?</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://tryiro.com/de/blog/apps-like-duolingo-for-ai</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tryiro.com/blog/apps-like-duolingo-for-ai"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://tryiro.com/de/blog/apps-like-duolingo-for-ai"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tryiro.com/es/blog/apps-like-duolingo-for-ai"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://tryiro.com/it/blog/apps-like-duolingo-for-ai"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tryiro.com/blog/apps-like-duolingo-for-ai"/>
+    <lastmod>2026-11-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://tryiro.com/assets/hero/apps-like-duolingo-for-ai-og.jpg</image:loc>
+      <image:title>Apps wie Duolingo, nur für KI</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://tryiro.com/es/blog/apps-like-duolingo-for-ai</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tryiro.com/blog/apps-like-duolingo-for-ai"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://tryiro.com/de/blog/apps-like-duolingo-for-ai"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tryiro.com/es/blog/apps-like-duolingo-for-ai"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://tryiro.com/it/blog/apps-like-duolingo-for-ai"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tryiro.com/blog/apps-like-duolingo-for-ai"/>
+    <lastmod>2026-11-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://tryiro.com/assets/hero/apps-like-duolingo-for-ai-og.jpg</image:loc>
+      <image:title>Apps como Duolingo, pero para aprender IA</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://tryiro.com/it/blog/apps-like-duolingo-for-ai</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tryiro.com/blog/apps-like-duolingo-for-ai"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://tryiro.com/de/blog/apps-like-duolingo-for-ai"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tryiro.com/es/blog/apps-like-duolingo-for-ai"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://tryiro.com/it/blog/apps-like-duolingo-for-ai"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tryiro.com/blog/apps-like-duolingo-for-ai"/>
+    <lastmod>2026-11-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://tryiro.com/assets/hero/apps-like-duolingo-for-ai-og.jpg</image:loc>
+      <image:title>App come Duolingo, ma per l’IA</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://tryiro.com/de/blog/cancel-finestro</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tryiro.com/blog/cancel-finestro"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://tryiro.com/de/blog/cancel-finestro"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tryiro.com/es/blog/cancel-finestro"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://tryiro.com/it/blog/cancel-finestro"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tryiro.com/blog/cancel-finestro"/>
+    <lastmod>2026-11-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://tryiro.com/assets/hero/cancel-finestro-og.jpg</image:loc>
+      <image:title>Finestro-Abo kündigen und Geld zurückfordern: So geht's</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://tryiro.com/es/blog/cancel-finestro</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tryiro.com/blog/cancel-finestro"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://tryiro.com/de/blog/cancel-finestro"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tryiro.com/es/blog/cancel-finestro"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://tryiro.com/it/blog/cancel-finestro"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tryiro.com/blog/cancel-finestro"/>
+    <lastmod>2026-11-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://tryiro.com/assets/hero/cancel-finestro-og.jpg</image:loc>
+      <image:title>Cómo cancelar Finestro y pedir un reembolso</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://tryiro.com/it/blog/cancel-finestro</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tryiro.com/blog/cancel-finestro"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://tryiro.com/de/blog/cancel-finestro"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tryiro.com/es/blog/cancel-finestro"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://tryiro.com/it/blog/cancel-finestro"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tryiro.com/blog/cancel-finestro"/>
+    <lastmod>2026-11-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://tryiro.com/assets/hero/cancel-finestro-og.jpg</image:loc>
+      <image:title>Come disdire Finestro e chiedere il rimborso</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://tryiro.com/de/blog/coursiv-alternatives</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tryiro.com/blog/coursiv-alternatives"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://tryiro.com/de/blog/coursiv-alternatives"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tryiro.com/es/blog/coursiv-alternatives"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://tryiro.com/it/blog/coursiv-alternatives"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tryiro.com/blog/coursiv-alternatives"/>
+    <lastmod>2026-11-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://tryiro.com/assets/hero/coursiv-alternatives-og.jpg</image:loc>
+      <image:title>Die besten Coursiv-Alternativen 2026</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://tryiro.com/es/blog/coursiv-alternatives</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tryiro.com/blog/coursiv-alternatives"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://tryiro.com/de/blog/coursiv-alternatives"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tryiro.com/es/blog/coursiv-alternatives"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://tryiro.com/it/blog/coursiv-alternatives"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tryiro.com/blog/coursiv-alternatives"/>
+    <lastmod>2026-11-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://tryiro.com/assets/hero/coursiv-alternatives-og.jpg</image:loc>
+      <image:title>Las mejores alternativas a Coursiv en 2026</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://tryiro.com/it/blog/coursiv-alternatives</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tryiro.com/blog/coursiv-alternatives"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://tryiro.com/de/blog/coursiv-alternatives"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tryiro.com/es/blog/coursiv-alternatives"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://tryiro.com/it/blog/coursiv-alternatives"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tryiro.com/blog/coursiv-alternatives"/>
+    <lastmod>2026-11-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://tryiro.com/assets/hero/coursiv-alternatives-og.jpg</image:loc>
+      <image:title>Le migliori alternative a Coursiv nel 2026</image:title>
     </image:image>
   </url>
 </urlset>
